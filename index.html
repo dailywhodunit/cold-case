@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Daily Whodunit — Coming Soon</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap');
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: #08090a;
+      color: #e8e0cc;
+      font-family: 'Inter', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Grain overlay */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 150px;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* Radial vignette */
+    body::after {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.7) 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .card {
+      position: relative;
+      z-index: 10;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+    }
+
+    .eyebrow {
+      font-size: 11px;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: #6a5018;
+      font-family: 'Inter', sans-serif;
+      margin-bottom: 20px;
+    }
+
+    .divider {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    .divider-line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(to right, transparent, #6a5018);
+    }
+    .divider-line.right {
+      background: linear-gradient(to left, transparent, #6a5018);
+    }
+    .divider-diamond {
+      width: 6px;
+      height: 6px;
+      background: #6a5018;
+      transform: rotate(45deg);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(42px, 10vw, 64px);
+      font-weight: 700;
+      color: #e8e0cc;
+      letter-spacing: -0.02em;
+      line-height: 1.05;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-style: italic;
+      font-size: 18px;
+      color: #6b6050;
+      margin-bottom: 36px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: #0f1012;
+      border: 1px solid #272830;
+      border-radius: 100px;
+      padding: 10px 20px;
+      margin-bottom: 40px;
+    }
+    .badge-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #d4a84b;
+      animation: pulse 2s ease infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(212,168,75,0.4); }
+      50% { opacity: 0.8; box-shadow: 0 0 0 6px rgba(212,168,75,0); }
+    }
+    .badge-text {
+      font-size: 13px;
+      color: #d4a84b;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+    }
+
+    .description {
+      font-size: 16px;
+      color: #6b6050;
+      line-height: 1.8;
+      margin-bottom: 40px;
+      max-width: 360px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .email-form {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .email-form input {
+      flex: 1;
+      min-width: 220px;
+      padding: 14px 18px;
+      background: #0f1012;
+      border: 1px solid #272830;
+      border-radius: 10px;
+      color: #e8e0cc;
+      font-size: 15px;
+      font-family: 'Inter', sans-serif;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .email-form input:focus { border-color: #d4a84b; }
+    .email-form input::placeholder { color: #606070; }
+    .email-form button {
+      padding: 14px 24px;
+      background: linear-gradient(135deg, #2a1a08, #1a1005);
+      border: 1.5px solid #d4a84b;
+      border-radius: 10px;
+      color: #d4a84b;
+      font-size: 15px;
+      font-weight: 600;
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .email-form button:hover {
+      background: linear-gradient(135deg, #3a2a10, #2a1808);
+      box-shadow: 0 0 16px rgba(212,168,75,0.3);
+    }
+
+    .success {
+      display: none;
+      color: #5ba060;
+      font-size: 14px;
+      margin-bottom: 36px;
+      padding: 12px 20px;
+      background: #0e1808;
+      border: 1px solid #1a4020;
+      border-radius: 10px;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      gap: 32px;
+      margin-bottom: 40px;
+    }
+    .stat-value {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: 28px;
+      font-weight: 700;
+      color: #d4a84b;
+    }
+    .stat-label {
+      font-size: 11px;
+      color: #606070;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 2px;
+    }
+    .stat-divider {
+      width: 1px;
+      background: #272830;
+      align-self: stretch;
+    }
+
+    .social {
+      font-size: 12px;
+      color: #606070;
+      letter-spacing: 0.04em;
+    }
+    .social a {
+      color: #d4a84b;
+      text-decoration: none;
+    }
+    .social a:hover { text-decoration: underline; }
+
+    @media (max-width: 480px) {
+      .stats { gap: 20px; }
+      .email-form { flex-direction: column; }
+      .email-form input { min-width: unset; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="eyebrow">Coming Soon</p>
+
+    <div class="divider">
+      <div class="divider-line"></div>
+      <span style="font-size:24px">🔍</span>
+      <div class="divider-line right"></div>
+    </div>
+
+    <h1>Daily<br>Whodunit</h1>
+    <p class="tagline">Your daily five minute mystery.</p>
+
+    <div class="badge">
+      <div class="badge-dot"></div>
+      <span class="badge-text">Launching soon — get notified</span>
+    </div>
+
+    <p class="description">
+      A new mystery every day. Six clues. Three suspects. Ten minutes to close the case.
+    </p>
+
+    <form class="email-form" onsubmit="handleSubmit(event)">
+      <input type="email" placeholder="Your email address" required/>
+      <button type="submit">Notify Me</button>
+    </form>
+
+    <div class="success" id="success">
+      ✓ You're on the list. We'll let you know when the first case drops.
+    </div>
+
+    <div class="stats">
+      <div>
+        <div class="stat-value">10</div>
+        <div class="stat-label">Minutes</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div>
+        <div class="stat-value">6</div>
+        <div class="stat-label">Clues</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div>
+        <div class="stat-value">1</div>
+        <div class="stat-label">Killer</div>
+      </div>
+    </div>
+
+    <p class="social">
+      Follow <a href="https://twitter.com/dailywhodunit">@dailywhodunit</a> for updates
+      &nbsp;·&nbsp; thedailywhodunit.com
+    </p>
+  </div>
+
+  <script>
+    function handleSubmit(e) {
+      e.preventDefault();
+      document.querySelector('.email-form').style.display = 'none';
+      document.getElementById('success').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
