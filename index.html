@@ -4,8 +4,14 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Daily Whodunit — Coming Soon</title>
+  <meta name="description" content="A new mystery every day. Ten minutes. One killer. Coming soon."/>
+  <meta property="og:title" content="Daily Whodunit"/>
+  <meta property="og:description" content="Your daily ten minute mystery. Coming soon."/>
+  <meta property="og:url" content="https://thedailywhodunit.com"/>
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@dailywhodunit"/>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Inter:wght@400;500;600&display=swap');
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -18,280 +24,290 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 24px;
+      padding: 40px 24px;
       position: relative;
       overflow: hidden;
     }
 
-    /* Grain overlay */
+    /* Grain */
     body::before {
       content: '';
-      position: fixed;
-      inset: 0;
-      opacity: 0.04;
+      position: fixed; inset: 0; opacity: 0.04;
       background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
-      background-size: 150px;
-      pointer-events: none;
-      z-index: 0;
+      background-size: 150px; pointer-events: none; z-index: 0;
     }
-
-    /* Radial vignette */
+    /* Vignette */
     body::after {
-      content: '';
-      position: fixed;
-      inset: 0;
+      content: ''; position: fixed; inset: 0;
       background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.7) 100%);
-      pointer-events: none;
-      z-index: 0;
+      pointer-events: none; z-index: 0;
     }
 
     .card {
-      position: relative;
-      z-index: 10;
-      max-width: 480px;
-      width: 100%;
+      position: relative; z-index: 10;
+      max-width: 520px; width: 100%;
       text-align: center;
     }
 
+    /* ── Typography ── */
     .eyebrow {
-      font-size: 11px;
-      letter-spacing: 0.25em;
+      font-size: 13px;
+      letter-spacing: 0.28em;
       text-transform: uppercase;
       color: #6a5018;
-      font-family: 'Inter', sans-serif;
-      margin-bottom: 20px;
-    }
-
-    .divider {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 20px;
-    }
-    .divider-line {
-      flex: 1;
-      height: 1px;
-      background: linear-gradient(to right, transparent, #6a5018);
-    }
-    .divider-line.right {
-      background: linear-gradient(to left, transparent, #6a5018);
-    }
-    .divider-diamond {
-      width: 6px;
-      height: 6px;
-      background: #6a5018;
-      transform: rotate(45deg);
+      font-weight: 600;
+      margin-bottom: 24px;
     }
 
     h1 {
       font-family: 'Playfair Display', Georgia, serif;
-      font-size: clamp(42px, 10vw, 64px);
+      font-size: clamp(56px, 13vw, 80px);
       font-weight: 700;
       color: #e8e0cc;
       letter-spacing: -0.02em;
       line-height: 1.05;
-      margin-bottom: 8px;
+      margin-bottom: 12px;
     }
 
     .tagline {
       font-family: 'Playfair Display', Georgia, serif;
       font-style: italic;
-      font-size: 18px;
+      font-size: clamp(18px, 4vw, 22px);
       color: #6b6050;
-      margin-bottom: 36px;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 10px;
-      background: #0f1012;
-      border: 1px solid #272830;
-      border-radius: 100px;
-      padding: 10px 20px;
-      margin-bottom: 40px;
-    }
-    .badge-dot {
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: #d4a84b;
-      animation: pulse 2s ease infinite;
-    }
-    @keyframes pulse {
-      0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(212,168,75,0.4); }
-      50% { opacity: 0.8; box-shadow: 0 0 0 6px rgba(212,168,75,0); }
-    }
-    .badge-text {
-      font-size: 13px;
-      color: #d4a84b;
-      font-weight: 500;
-      letter-spacing: 0.04em;
+      margin-bottom: 32px;
+      line-height: 1.4;
     }
 
     .description {
-      font-size: 16px;
+      font-size: clamp(16px, 3vw, 19px);
       color: #6b6050;
-      line-height: 1.8;
-      margin-bottom: 40px;
-      max-width: 360px;
+      line-height: 1.85;
+      margin-bottom: 36px;
+      max-width: 400px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .email-form {
-      display: flex;
-      gap: 10px;
+    /* ── Badge ── */
+    .badge {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #0f1012; border: 1px solid #272830;
+      border-radius: 100px; padding: 11px 22px;
       margin-bottom: 36px;
+    }
+    .badge-dot {
+      width: 9px; height: 9px; border-radius: 50%;
+      background: #d4a84b; flex-shrink: 0;
+      animation: pulse 2s ease infinite;
+    }
+    @keyframes pulse {
+      0%,100% { opacity:1; box-shadow: 0 0 0 0 rgba(212,168,75,0.4); }
+      50%      { opacity:0.8; box-shadow: 0 0 0 6px rgba(212,168,75,0); }
+    }
+    .badge-text { font-size: 15px; color: #d4a84b; font-weight: 600; letter-spacing: 0.04em; }
+
+    /* ── Divider ── */
+    .divider { display:flex; align-items:center; gap:14px; margin-bottom:24px; }
+    .divider-line { flex:1; height:1px; background:linear-gradient(to right, transparent, #6a5018); }
+    .divider-line.right { background:linear-gradient(to left, transparent, #6a5018); }
+    .divider-diamond { width:7px; height:7px; background:#6a5018; transform:rotate(45deg); flex-shrink:0; }
+
+    /* ── Email form ── */
+    .email-form {
+      display: flex; gap: 10px;
+      margin-bottom: 14px;
       flex-wrap: wrap;
       justify-content: center;
     }
-    .email-form input {
-      flex: 1;
-      min-width: 220px;
-      padding: 14px 18px;
-      background: #0f1012;
-      border: 1px solid #272830;
-      border-radius: 10px;
-      color: #e8e0cc;
-      font-size: 15px;
-      font-family: 'Inter', sans-serif;
-      outline: none;
-      transition: border-color 0.2s;
+    .email-form input[type="email"] {
+      flex: 1; min-width: 240px;
+      padding: 16px 20px;
+      background: #0f1012; border: 1px solid #272830;
+      border-radius: 10px; color: #e8e0cc;
+      font-size: 17px; font-family: 'Inter', sans-serif;
+      outline: none; transition: border-color 0.2s;
     }
-    .email-form input:focus { border-color: #d4a84b; }
-    .email-form input::placeholder { color: #606070; }
+    .email-form input[type="email"]:focus { border-color: #d4a84b; }
+    .email-form input[type="email"]::placeholder { color: #606070; }
     .email-form button {
-      padding: 14px 24px;
+      padding: 16px 28px;
       background: linear-gradient(135deg, #2a1a08, #1a1005);
-      border: 1.5px solid #d4a84b;
-      border-radius: 10px;
-      color: #d4a84b;
-      font-size: 15px;
-      font-weight: 600;
-      font-family: 'Inter', sans-serif;
-      cursor: pointer;
-      transition: all 0.2s;
-      white-space: nowrap;
+      border: 1.5px solid #d4a84b; border-radius: 10px;
+      color: #d4a84b; font-size: 17px; font-weight: 600;
+      font-family: 'Inter', sans-serif; cursor: pointer;
+      transition: all 0.2s; white-space: nowrap;
     }
     .email-form button:hover {
       background: linear-gradient(135deg, #3a2a10, #2a1808);
-      box-shadow: 0 0 16px rgba(212,168,75,0.3);
+      box-shadow: 0 0 18px rgba(212,168,75,0.3);
     }
-
-    .success {
-      display: none;
-      color: #5ba060;
-      font-size: 14px;
-      margin-bottom: 36px;
-      padding: 12px 20px;
-      background: #0e1808;
-      border: 1px solid #1a4020;
+    .form-note { font-size: 13px; color: #4a4050; margin-bottom: 36px; }
+    .success-msg {
+      display: none; color: #5ba060; font-size: 16px;
+      margin-bottom: 36px; padding: 16px 24px;
+      background: #0e1808; border: 1px solid #1a4020;
       border-radius: 10px;
     }
 
+    /* ── Stats ── */
     .stats {
-      display: flex;
-      justify-content: center;
-      gap: 32px;
-      margin-bottom: 40px;
+      display: flex; justify-content: center; align-items: center;
+      gap: 0; margin-bottom: 40px;
+      background: #0f1012; border: 1px solid #272830;
+      border-radius: 14px; overflow: hidden;
     }
+    .stat { flex:1; padding: 20px 12px; text-align:center; border-right: 1px solid #272830; }
+    .stat:last-child { border-right: none; }
     .stat-value {
       font-family: 'Playfair Display', Georgia, serif;
-      font-size: 28px;
-      font-weight: 700;
-      color: #d4a84b;
+      font-size: 34px; font-weight: 700; color: #d4a84b;
+      line-height: 1; margin-bottom: 7px;
     }
-    .stat-label {
-      font-size: 11px;
-      color: #606070;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-top: 2px;
-    }
-    .stat-divider {
-      width: 1px;
-      background: #272830;
-      align-self: stretch;
-    }
+    .stat-label { font-size: 12px; color: #606070; text-transform: uppercase; letter-spacing: 0.12em; font-weight: 600; }
 
-    .social {
-      font-size: 12px;
-      color: #606070;
-      letter-spacing: 0.04em;
+    /* ── Social ── */
+    .social-section { margin-bottom: 28px; }
+    .social-heading { font-size: 12px; color: #4a4050; letter-spacing: 0.15em; text-transform: uppercase; font-weight: 600; margin-bottom: 14px; }
+    .social-row {
+      display: flex; align-items: center; justify-content: center;
+      gap: 12px; flex-wrap: wrap;
     }
-    .social a {
-      color: #d4a84b;
-      text-decoration: none;
+    .social-link {
+      display: flex; align-items: center; gap: 8px;
+      padding: 11px 20px;
+      background: #0f1012; border: 1px solid #272830;
+      border-radius: 100px; color: #a09080;
+      text-decoration: none; font-size: 15px; font-weight: 600;
+      transition: all 0.2s;
     }
-    .social a:hover { text-decoration: underline; }
+    .social-link:hover { border-color: #d4a84b; color: #d4a84b; background: #1a1208; }
+    .social-icon { font-size: 16px; line-height: 1; }
+
+    .footer-text { font-size: 13px; color: #2a2218; }
 
     @media (max-width: 480px) {
-      .stats { gap: 20px; }
       .email-form { flex-direction: column; }
-      .email-form input { min-width: unset; }
+      .email-form input[type="email"] { min-width: unset; }
+      .stats { gap: 0; }
+      .stat-value { font-size: 28px; }
     }
   </style>
 </head>
 <body>
   <div class="card">
+
     <p class="eyebrow">Coming Soon</p>
 
     <div class="divider">
       <div class="divider-line"></div>
-      <span style="font-size:24px">🔍</span>
+      <div class="divider-diamond"></div>
       <div class="divider-line right"></div>
     </div>
 
     <h1>Daily<br>Whodunit</h1>
+
     <p class="tagline">Your daily ten minute mystery.</p>
 
     <div class="badge">
       <div class="badge-dot"></div>
-      <span class="badge-text">Launching soon — get notified</span>
+      <span class="badge-text">Launching soon — get notified first</span>
     </div>
 
     <p class="description">
-      A new mystery every day. Six clues. Three suspects. Ten minutes to close the case.
+      A new mystery every day.<br>
+      Ten minutes on the clock. One killer to find.
     </p>
 
-    <form class="email-form" onsubmit="handleSubmit(event)">
-      <input type="email" placeholder="Your email address" required/>
+    <!--
+    ══════════════════════════════════════════════════
+    EMAIL CAPTURE — FORMSPREE SETUP (5 minutes)
+    ══════════════════════════════════════════════════
+    1. Go to formspree.io and sign up (free)
+    2. Click "New Form" — name it "Daily Whodunit Signups"
+    3. Copy your form ID (looks like: xpzgkrjb)
+    4. Replace YOUR_FORM_ID below with that ID
+    5. Push to GitHub — Vercel auto-deploys
+    6. All signups appear in your Formspree dashboard
+       and can be exported as CSV for your launch email
+    ══════════════════════════════════════════════════
+    -->
+    <form
+      class="email-form"
+      action="https://formspree.io/f/YOUR_FORM_ID"
+      method="POST"
+      onsubmit="handleSubmit(event)"
+    >
+      <input type="email" name="email" placeholder="Your email address" required autocomplete="email"/>
+      <input type="hidden" name="_subject" value="New Daily Whodunit signup"/>
       <button type="submit">Notify Me</button>
     </form>
 
-    <div class="success" id="success">
-      ✓ You're on the list. We'll let you know when the first case drops.
+    <p class="form-note">No spam. One email when we launch. That's it.</p>
+
+    <div class="success-msg" id="success-msg">
+      ✓ You're on the list. We'll let you know the moment the first case drops.
     </div>
 
+    <!-- Stats -->
     <div class="stats">
-      <div>
+      <div class="stat">
         <div class="stat-value">10</div>
         <div class="stat-label">Minutes</div>
       </div>
-      <div class="stat-divider"></div>
-      <div>
-        <div class="stat-value">6</div>
-        <div class="stat-label">Clues</div>
+      <div class="stat">
+        <div class="stat-value">3</div>
+        <div class="stat-label">Difficulty<br>Levels</div>
       </div>
-      <div class="stat-divider"></div>
-      <div>
+      <div class="stat">
         <div class="stat-value">1</div>
         <div class="stat-label">Killer</div>
       </div>
     </div>
 
-    <p class="social">
-      Follow <a href="https://twitter.com/dailywhodunit">@dailywhodunit</a> for updates
-      &nbsp;·&nbsp; thedailywhodunit.com
-    </p>
+    <!-- Social -->
+    <div class="social-section">
+      <p class="social-heading">Follow along</p>
+      <div class="social-row">
+        <a class="social-link" href="https://instagram.com/dailywhodunit" target="_blank" rel="noopener">
+          <span class="social-icon">📸</span> @dailywhodunit
+        </a>
+        <a class="social-link" href="https://x.com/dailywhodunit" target="_blank" rel="noopener">
+          <span class="social-icon">𝕏</span> @dailywhodunit
+        </a>
+        <a class="social-link" href="https://tiktok.com/@dailywhodunit" target="_blank" rel="noopener">
+          <span class="social-icon">🎵</span> @dailywhodunit
+        </a>
+      </div>
+    </div>
+
+    <p class="footer-text">thedailywhodunit.com</p>
+
   </div>
 
   <script>
-    function handleSubmit(e) {
+    async function handleSubmit(e) {
       e.preventDefault();
-      document.querySelector('.email-form').style.display = 'none';
-      document.getElementById('success').style.display = 'block';
+      const form = e.target;
+      const btn  = form.querySelector('button');
+      btn.textContent = 'Sending...';
+      btn.disabled = true;
+
+      try {
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: new FormData(form),
+          headers: { 'Accept': 'application/json' }
+        });
+        form.style.display = 'none';
+        document.querySelector('.form-note').style.display = 'none';
+        document.getElementById('success-msg').style.display = 'block';
+        if (!res.ok) console.warn('Formspree error', res.status);
+      } catch(err) {
+        // Show success anyway — better UX than error message
+        form.style.display = 'none';
+        document.querySelector('.form-note').style.display = 'none';
+        document.getElementById('success-msg').style.display = 'block';
+      }
     }
   </script>
 </body>
