@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0",
+  "tier": "rookie",
+  "caseNum": "Case #005",
+  "title": "Tournament Trap",
+  "flavor": "The AAU basketball tournament in Augusta was meant to showcase young talent, but instead became the stage for a deadly deception. When a prominent youth coach was found dead in the locked equipment room, investigators discovered a web of stolen identities and forged credentials that ran deeper than anyone imagined.",
+  "categories": [
+    {
+      "key": "suspect",
+      "label": "Suspect",
+      "icon": "🎭",
+      "items": [
+        {
+          "name": "Marcus Webb",
+          "icon": "🏀",
+          "detail": "Head coach of the Detroit Lightning team with a spotless reputation."
+        },
+        {
+          "name": "Sarah Chen",
+          "icon": "📋",
+          "detail": "Tournament coordinator who handles all team registrations and paperwork."
+        },
+        {
+          "name": "Tony Ricci",
+          "icon": "🎯",
+          "detail": "Veteran referee working his twentieth consecutive AAU tournament."
+        },
+        {
+          "name": "Lisa Monroe",
+          "icon": "💼",
+          "detail": "Corporate sponsor representative from SportMax Athletic Wear."
+        }
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Location",
+      "icon": "📍",
+      "items": [
+        {
+          "name": "Equipment Room",
+          "icon": "🏪",
+          "detail": "Locked storage area where the victim was discovered."
+        },
+        {
+          "name": "Main Gymnasium",
+          "icon": "🏟️",
+          "detail": "Primary court where championship games were being played."
+        },
+        {
+          "name": "Registration Desk",
+          "icon": "📝",
+          "detail": "Check-in area for teams and officials near the entrance."
+        },
+        {
+          "name": "Concession Stand",
+          "icon": "🍿",
+          "detail": "Food service area bustling with tournament attendees."
+        }
+      ]
+    },
+    {
+      "key": "weapon",
+      "label": "Weapon",
+      "icon": "⚔️",
+      "items": [
+        {
+          "name": "Basketball Trophy",
+          "icon": "🏆",
+          "detail": "Heavy bronze award from last year's tournament."
+        },
+        {
+          "name": "Referee Whistle Chain",
+          "icon": "🔗",
+          "detail": "Metal lanyard used to strangle the victim."
+        },
+        {
+          "name": "Scoreboard Remote",
+          "icon": "📱",
+          "detail": "Electronic device thrown with lethal force."
+        },
+        {
+          "name": "Fire Extinguisher",
+          "icon": "🧯",
+          "detail": "Emergency equipment used as a blunt weapon."
+        }
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "R1",
+      "type": "evidence",
+      "icon": "🔍",
+      "heading": "Forged Coaching License",
+      "text": "A fake coaching certification was found in Sarah Chen's briefcase, bearing the credentials of a coach from California. The real coach confirmed his license was stolen from his car two months ago.",
+      "alone": "Someone has been using stolen coaching credentials to gain access to tournaments.",
+      "links": [
+        "R4"
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "witness",
+      "icon": "👁️",
+      "heading": "Suspicious Activity Report",
+      "text": "A security guard reported seeing Tony Ricci arguing with the victim near the equipment room thirty minutes before the body was discovered. The argument appeared heated and personal in nature.",
+      "alone": "Tony Ricci was seen in conflict with the victim shortly before the murder.",
+      "links": [
+        "R5"
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "physical",
+      "icon": "🔬",
+      "heading": "Bloodstained Whistle Chain",
+      "text": "A referee's metal whistle chain was found beside the victim's body, covered in blood and bearing clear fingerprints. The chain appeared to have been used to strangle the victim.",
+      "alone": "The murder weapon was a referee's whistle chain found at the scene.",
+      "links": [
+        "R6"
+      ]
+    },
+    {
+      "id": "R4",
+      "type": "testimony",
+      "icon": "💬",
+      "heading": "Identity Theft Confession",
+      "text": "Sarah Chen broke down during questioning and admitted to running a scheme selling fake coaching credentials to unqualified applicants. She revealed the victim had discovered her operation and threatened to expose everything.",
+      "alone": "The victim had discovered Sarah Chen's identity theft operation and planned to expose it.",
+      "links": [
+        "R1"
+      ]
+    },
+    {
+      "id": "R5",
+      "type": "alibi",
+      "icon": "⏰",
+      "heading": "Referee Schedule Conflict",
+      "text": "Tony Ricci's officiating schedule shows he was actively refereeing a game on Court 2 when the murder occurred. Multiple witnesses and video footage confirm his presence on the court during the entire time window.",
+      "alone": "Tony Ricci has a solid alibi supported by multiple witnesses and video evidence.",
+      "links": [
+        "R2"
+      ]
+    },
+    {
+      "id": "R6",
+      "type": "forensics",
+      "icon": "🧬",
+      "heading": "Fingerprint Mismatch",
+      "text": "Laboratory analysis revealed the fingerprints on the whistle chain belong to Marcus Webb, not Tony Ricci as initially suspected. Webb's prints were found on both the chain and the equipment room door handle.",
+      "alone": "The fingerprints on the murder weapon belong to Marcus Webb, not the original suspect.",
+      "links": [
+        "R3"
+      ]
+    }
+  ],
+  "solution": {
+    "suspect": "Sarah Chen",
+    "location": "Equipment Room",
+    "weapon": "Referee Whistle Chain"
+  },
+  "epilogue": "Sarah Chen's identity theft scheme had been profitable for months, selling fake coaching licenses to desperate applicants who couldn't qualify legitimately. When veteran coach Harold Murphy discovered her operation and demanded she stop, Chen panicked and killed him with Tony Ricci's whistle chain. She planted Marcus Webb's fingerprints on the weapon by switching it with Webb's identical chain while he wasn't looking. Her desperation to protect her lucrative fraud ultimately led to murder.",
+  "timerSeconds": 600
+}
