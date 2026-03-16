@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "tier": "rookie",
+  "caseNum": "Case #005",
+  "title": "The Forbidden Tower",
+  "flavor": "In the windswept halls of Château de Montclair, Lord Edmund's forbidden romance with a servant girl has ended in tragedy. The castle's stone walls hold secrets darker than the Norman winter, as passion and betrayal converge in murder.",
+  "setting": "Medieval Castle - Normandy - 1312",
+  "categories": [
+    {
+      "key": "suspect",
+      "label": "Suspect",
+      "icon": "🎭",
+      "items": [
+        {
+          "name": "Sir Roderick de Vale",
+          "icon": "⚔️",
+          "detail": "Lord Edmund's younger brother, bitter about his inheritance."
+        },
+        {
+          "name": "Lady Isabelle",
+          "icon": "👑",
+          "detail": "Edmund's arranged betrothed, publicly humiliated by his affair."
+        },
+        {
+          "name": "Brother Marcus",
+          "icon": "✝️",
+          "detail": "Castle chaplain who condemned the sinful relationship."
+        },
+        {
+          "name": "Margot the Seamstress",
+          "icon": "🧵",
+          "detail": "The servant girl Edmund loved, now devastated by loss."
+        }
+      ]
+    },
+    {
+      "key": "weapon",
+      "label": "Weapon",
+      "icon": "🗡️",
+      "items": [
+        {
+          "name": "Poisoned Wine",
+          "icon": "🍷",
+          "detail": "A goblet of fine Bordeaux laced with deadly nightshade."
+        },
+        {
+          "name": "Castle Dagger",
+          "icon": "🗡️",
+          "detail": "A ceremonial blade from the armory, recently sharpened."
+        },
+        {
+          "name": "Stone Block",
+          "icon": "🪨",
+          "detail": "A loose stone from the tower wall, heavy enough to kill."
+        },
+        {
+          "name": "Crossbow Bolt",
+          "icon": "🏹",
+          "detail": "A hunting bolt fired from the castle battlements."
+        }
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Location",
+      "icon": "🏰",
+      "items": [
+        {
+          "name": "Lord's Solar",
+          "icon": "🕯️",
+          "detail": "Edmund's private chamber where he conducted his secret meetings."
+        },
+        {
+          "name": "Castle Chapel",
+          "icon": "⛪",
+          "detail": "The sacred space where Edmund sought absolution for his sins."
+        },
+        {
+          "name": "Servant's Quarters",
+          "icon": "🛏️",
+          "detail": "The humble chambers below stairs where Margot lived."
+        },
+        {
+          "name": "Tower Stairwell",
+          "icon": "🗼",
+          "detail": "The narrow spiral stairs where Edmund's body was discovered."
+        }
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "R1",
+      "type": "physical",
+      "icon": "🧵",
+      "heading": "Torn Silk Thread",
+      "text": "A fine silk thread, dyed deep blue, clings to the rough stone where Edmund fell. Only the nobility wear such expensive fabric in the castle.",
+      "alone": "The silk suggests someone of high station was present during the fatal encounter.",
+      "links": [
+        "R4"
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "witness",
+      "icon": "👁️",
+      "heading": "Guard's Account",
+      "text": "The night watchman reports seeing Brother Marcus in heated argument with someone near the tower. The chaplain appeared greatly agitated about 'unholy unions' and divine punishment.",
+      "alone": "Brother Marcus was seen in the area, seemingly upset about immoral relationships.",
+      "links": [
+        "R5"
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "evidence",
+      "icon": "💀",
+      "heading": "Nightshade Residue",
+      "text": "The castle's herb master identifies traces of deadly nightshade on Edmund's lips. This poison grows wild in the castle gardens, known to all who tend the grounds.",
+      "alone": "Edmund was poisoned with nightshade, a plant accessible to many in the castle.",
+      "links": [
+        "R6"
+      ]
+    },
+    {
+      "id": "R4",
+      "type": "physical",
+      "icon": "👗",
+      "heading": "Lady Isabelle's Gown",
+      "text": "Lady Isabelle's blue silk gown shows a fresh tear along the hem, and she appears unusually disheveled. She claims she caught it on a door latch while retiring to her chambers.",
+      "alone": "Lady Isabelle's damaged gown matches the silk thread found at the scene.",
+      "links": [
+        "R1"
+      ]
+    },
+    {
+      "id": "R5",
+      "type": "testimony",
+      "icon": "✝️",
+      "heading": "Chaplain's Denial",
+      "text": "Brother Marcus admits to arguing near the tower but insists it was with Lady Isabelle about her humiliation. He claims he was counseling her about Christian forgiveness and proper conduct.",
+      "alone": "The chaplain explains his presence but shifts focus to Lady Isabelle's distress.",
+      "links": [
+        "R2"
+      ]
+    },
+    {
+      "id": "R6",
+      "type": "discovery",
+      "icon": "🧪",
+      "heading": "Hidden Vial",
+      "text": "Searching Sir Roderick's chambers reveals a small glass vial hidden behind loose mortar. The vessel reeks of nightshade and bears the alchemist's mark from the nearby abbey.",
+      "alone": "Sir Roderick possessed the poison that killed his brother, carefully concealed.",
+      "links": [
+        "R3"
+      ]
+    }
+  ],
+  "solution": {
+    "suspect": "Lady Isabelle",
+    "weapon": "Poisoned Wine",
+    "location": "Tower Stairwell"
+  },
+  "epilogue": "Lady Isabelle's pride could not bear the public shame of Edmund's affair with a mere servant. She lured him to the tower with promises of reconciliation, then offered poisoned wine as a gesture of forgiveness. When Edmund collapsed, she tried to flee but tore her gown on the rough stone. Though Brother Marcus had argued with her about Christian forgiveness, her wounded nobility demanded a different kind of justice. In her confession, Isabelle wept not for Edmund's death, but for the love that was never truly hers.",
+  "timerSeconds": 600
+}
