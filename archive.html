@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Daily Whodunit — Case Archive</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #08090a;
+    color: #e8e0cc;
+    font-family: -apple-system, system-ui, sans-serif;
+    min-height: 100vh;
+    padding: 0 0 60px;
+  }
+
+  /* Header */
+  .header {
+    border-bottom: 1px solid #272830;
+    padding: 20px 24px;
+    background: #0f1012;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .header-logo { font-size: 22px; }
+  .header-title { font-family: Georgia, serif; font-size: 18px; font-weight: 700; color: #e8e0cc; }
+  .header-sub { font-size: 12px; color: #6a5018; letter-spacing: 0.12em; text-transform: uppercase; margin-top: 2px; }
+  .header-back {
+    margin-left: auto;
+    padding: 8px 16px;
+    background: transparent;
+    border: 1px solid #272830;
+    border-radius: 8px;
+    color: #707080;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+  .header-back:hover { color: #e8e0cc; border-color: #3a3d4a; }
+
+  /* Main */
+  .main { max-width: 680px; margin: 0 auto; padding: 32px 24px; }
+
+  .page-title {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #e8e0cc;
+    margin-bottom: 6px;
+  }
+  .page-sub {
+    font-size: 14px;
+    color: #707080;
+    margin-bottom: 32px;
+  }
+
+  /* Stats bar */
+  .stats {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 28px;
+  }
+  .stat {
+    flex: 1;
+    background: #0f1012;
+    border: 1px solid #272830;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+  }
+  .stat-val {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: 700;
+    color: #d4a84b;
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-lbl {
+    font-size: 11px;
+    color: #707080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  /* Filter */
+  .filter-row {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .filter-input {
+    flex: 1;
+    min-width: 180px;
+    padding: 9px 14px;
+    background: #161820;
+    border: 1px solid #272830;
+    border-radius: 8px;
+    color: #e8e0cc;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .filter-input:focus { outline: none; border-color: #4a9edd; }
+  .filter-input::placeholder { color: #707080; }
+
+  /* Case list */
+  .case-list { display: flex; flex-direction: column; gap: 8px; }
+
+  .case-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    background: #0f1012;
+    border: 1px solid #272830;
+    border-radius: 10px;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.15s;
+    cursor: pointer;
+  }
+  .case-item:hover {
+    background: #161820;
+    border-color: #3a3d4a;
+  }
+  .case-item.today {
+    border-color: #d4a84b;
+    background: #1a1408;
+  }
+  .case-item.today:hover { background: #221a0a; }
+
+  .case-emoji { font-size: 22px; flex-shrink: 0; width: 32px; text-align: center; }
+
+  .case-info { flex: 1; min-width: 0; }
+  .case-name {
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e8e0cc;
+    margin-bottom: 3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .case-item.today .case-name { color: #d4a84b; }
+  .case-meta {
+    font-size: 12px;
+    color: #707080;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .case-num { font-family: monospace; }
+  .case-setting {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .case-date {
+    font-family: monospace;
+    font-size: 12px;
+    color: #707080;
+    flex-shrink: 0;
+  }
+  .case-item.today .case-date { color: #d4a84b; }
+
+  .today-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    background: rgba(212,168,75,0.15);
+    border: 1px solid #6a5018;
+    border-radius: 20px;
+    font-size: 10px;
+    color: #d4a84b;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    flex-shrink: 0;
+  }
+
+  .play-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 12px;
+    background: transparent;
+    border: 1px solid #272830;
+    border-radius: 7px;
+    color: #707080;
+    font-size: 12px;
+    font-weight: 600;
+    flex-shrink: 0;
+    transition: all 0.15s;
+    font-family: inherit;
+    text-decoration: none;
+  }
+  .case-item:hover .play-btn {
+    border-color: #d4a84b;
+    color: #d4a84b;
+  }
+  .case-item.today .play-btn {
+    border-color: #d4a84b;
+    color: #d4a84b;
+  }
+
+  /* Loading / empty states */
+  .loading-state, .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: #707080;
+    font-size: 14px;
+    line-height: 1.8;
+  }
+  .loading-state .spinner {
+    width: 24px; height: 24px;
+    border: 2px solid #272830;
+    border-top-color: #d4a84b;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+    margin: 0 auto 16px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0 14px;
+    font-size: 11px;
+    color: #707080;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #272830;
+  }
+
+  @media (max-width: 480px) {
+    .case-setting { display: none; }
+    .stats { gap: 8px; }
+    .stat-val { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="header-logo">🔍</div>
+  <div>
+    <div class="header-title">Daily Whodunit</div>
+    <div class="header-sub">Case Archive</div>
+  </div>
+  <a class="header-back" href="/game.html">Play Today's Case →</a>
+</div>
+
+<div class="main">
+  <h1 class="page-title">Case Archive</h1>
+  <p class="page-sub" id="page-sub">Loading cases...</p>
+
+  <div class="stats" id="stats" style="display:none">
+    <div class="stat"><div class="stat-val" id="stat-total">0</div><div class="stat-lbl">Cases</div></div>
+    <div class="stat"><div class="stat-val" id="stat-streak">0</div><div class="stat-lbl">Day Streak</div></div>
+    <div class="stat"><div class="stat-val" id="stat-since">—</div><div class="stat-lbl">Publishing Since</div></div>
+  </div>
+
+  <div class="filter-row" id="filter-row" style="display:none">
+    <input class="filter-input" type="text" id="search" placeholder="Search cases..." oninput="filterCases()"/>
+  </div>
+
+  <div id="case-list">
+    <div class="loading-state">
+      <div class="spinner"></div>
+      Loading the case files...
+    </div>
+  </div>
+</div>
+
+<script>
+var ALL_CASES = [];
+var TODAY = getTodayString();
+
+function getTodayString() {
+  var d = new Date();
+  var mm = String(d.getMonth()+1).padStart(2,'0');
+  var dd = String(d.getDate()).padStart(2,'0');
+  return d.getFullYear() + '-' + mm + '-' + dd;
+}
+
+function formatDate(dateStr) {
+  // "2026-03-15" -> "Mar 15, 2026"
+  var parts = dateStr.split('-');
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  return months[parseInt(parts[1])-1] + ' ' + parseInt(parts[2]) + ', ' + parts[0];
+}
+
+function extractCaseInfo(data, date) {
+  // Handle single tier or bundled {rookie, detective, inspector}
+  var d = data;
+  if (data.rookie) d = data.rookie;
+  else if (data.detective) d = data.detective;
+  else if (data.inspector) d = data.inspector;
+  return {
+    date: date,
+    title: d.title || 'Unknown Case',
+    caseNum: d.caseNum || d.caseNumber || '—',
+    setting: d.setting || '',
+    emoji: d.emoji || '🔍',
+    tiers: data.rookie ? ['rookie','detective','inspector'].filter(function(t){ return !!data[t]; }) : [d.tier || 'rookie']
+  };
+}
+
+async function loadIndex() {
+  // Try the serverless API first — reads GitHub /cases folder automatically
+  try {
+    var res = await fetch('/api/cases');
+    if (res.ok) {
+      var dates = await res.json();
+      if (dates && dates.length) return dates;
+    }
+  } catch(e) {}
+
+  // Fall back: scan last 14 days
+  var dates = [];
+  var d = new Date();
+  for (var i = 0; i < 14; i++) {
+    var mm = String(d.getMonth()+1).padStart(2,'0');
+    var dd2 = String(d.getDate()).padStart(2,'0');
+    dates.push(d.getFullYear() + '-' + mm + '-' + dd2);
+    d.setDate(d.getDate() - 1);
+  }
+  return dates;
+}
+
+async function loadCase(date) {
+  try {
+    var res = await fetch('/cases/' + date + '.json');
+    if (!res.ok) return null;
+    var data = await res.json();
+    return extractCaseInfo(data, date);
+  } catch(e) {
+    return null;
+  }
+}
+
+async function init() {
+  var dates = await loadIndex();
+  var cases = [];
+
+  // Try to load cases/index.json which gives us a definitive list
+  var res2;
+  try { res2 = await fetch('/cases/index.json'); } catch(e) {}
+  if (res2 && res2.ok) {
+    var knownDates = await res2.json();
+    // Fetch all known cases in parallel
+    var results = await Promise.all(knownDates.map(loadCase));
+    cases = results.filter(Boolean);
+  } else {
+    // No index — scan dates in parallel batches
+    // First check today and a few recent dates quickly
+    var recentDates = dates.slice(0, 30);
+    var results = await Promise.all(recentDates.map(loadCase));
+    cases = results.filter(Boolean);
+  }
+
+  // Sort newest first
+  cases.sort(function(a,b){ return b.date.localeCompare(a.date); });
+  ALL_CASES = cases;
+  renderCases(cases);
+}
+
+function renderCases(cases) {
+  var list = document.getElementById('case-list');
+  var sub = document.getElementById('page-sub');
+  var statsEl = document.getElementById('stats');
+  var filterEl = document.getElementById('filter-row');
+
+  if (!cases.length) {
+    list.innerHTML = '<div class="empty-state">No cases found.<br>Upload dated JSON files to /cases in GitHub.</div>';
+    sub.textContent = 'No cases published yet.';
+    return;
+  }
+
+  // Update stats
+  statsEl.style.display = 'flex';
+  filterEl.style.display = 'flex';
+  document.getElementById('stat-total').textContent = cases.length;
+
+  // Calculate streak (consecutive days ending today)
+  var streak = 0;
+  var check = new Date();
+  var caseDates = new Set(cases.map(function(c){ return c.date; }));
+  while (true) {
+    var mm = String(check.getMonth()+1).padStart(2,'0');
+    var dd = String(check.getDate()).padStart(2,'0');
+    var ds = check.getFullYear() + '-' + mm + '-' + dd;
+    if (caseDates.has(ds)) { streak++; check.setDate(check.getDate()-1); }
+    else break;
+  }
+  document.getElementById('stat-streak').textContent = streak;
+
+  // Since date
+  var oldest = cases[cases.length-1];
+  var sinceParts = oldest.date.split('-');
+  var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+  document.getElementById('stat-since').textContent = months[parseInt(sinceParts[1])-1] + "'" + sinceParts[0].slice(2);
+
+  sub.textContent = cases.length + ' case' + (cases.length !== 1 ? 's' : '') + ' in the archive.';
+
+  // Separate today vs past
+  var todayCases = cases.filter(function(c){ return c.date === TODAY; });
+  var pastCases  = cases.filter(function(c){ return c.date !== TODAY; });
+
+  var html = '';
+
+  if (todayCases.length) {
+    html += '<div class="divider">Today</div>';
+    todayCases.forEach(function(c) { html += buildCaseRow(c, true); });
+  }
+
+  if (pastCases.length) {
+    html += '<div class="divider">Previous Cases</div>';
+    html += '<div class="case-list">';
+    pastCases.forEach(function(c) { html += buildCaseRow(c, false); });
+    html += '</div>';
+  }
+
+  list.innerHTML = html;
+}
+
+function buildCaseRow(c, isToday) {
+  var tierBadges = '';
+  if (c.tiers && c.tiers.length > 1) {
+    var tierColors = {rookie:'#3db870', detective:'#d4a84b', inspector:'#e07040'};
+    c.tiers.forEach(function(t) {
+      tierBadges += '<span style="width:7px;height:7px;border-radius:50%;background:' + (tierColors[t]||'#707080') + ';display:inline-block;margin-right:2px"></span>';
+    });
+  }
+
+  return '<a class="case-item' + (isToday ? ' today' : '') + '" href="/game.html?date=' + c.date + '">'
+    + '<div class="case-emoji">' + c.emoji + '</div>'
+    + '<div class="case-info">'
+    +   '<div class="case-name">' + escHtml(c.title) + (isToday ? ' <span class="today-badge">Today</span>' : '') + '</div>'
+    +   '<div class="case-meta">'
+    +     '<span class="case-num">' + escHtml(c.caseNum) + '</span>'
+    +     (c.setting ? '<span>·</span><span class="case-setting">' + escHtml(c.setting) + '</span>' : '')
+    +     (tierBadges ? '<span>·</span>' + tierBadges : '')
+    +   '</div>'
+    + '</div>'
+    + '<div class="case-date">' + formatDate(c.date) + '</div>'
+    + '<span class="play-btn">Play →</span>'
+    + '</a>';
+}
+
+function filterCases() {
+  var q = document.getElementById('search').value.toLowerCase().trim();
+  if (!q) { renderCases(ALL_CASES); return; }
+  var filtered = ALL_CASES.filter(function(c) {
+    return c.title.toLowerCase().includes(q)
+      || c.caseNum.toLowerCase().includes(q)
+      || c.setting.toLowerCase().includes(q)
+      || c.date.includes(q);
+  });
+  renderCases(filtered);
+}
+
+function escHtml(s) {
+  return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+init();
+</script>
+
+</body>
+</html>
