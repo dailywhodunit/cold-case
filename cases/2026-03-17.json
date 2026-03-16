@@ -1,0 +1,166 @@
+{
+  "schemaVersion": "1.0",
+  "tier": "rookie",
+  "caseNum": "Case #005",
+  "title": "Frozen Trust",
+  "setting": "Arctic Research Station - Svalbard - 2024",
+  "flavor": "The Arctic research station's isolation becomes deadly when betrayal strikes in the perpetual twilight. Trust dissolves faster than ice in a warming climate as hidden motives surface among the scientific team.",
+  "timerSeconds": 600,
+  "categories": [
+    {
+      "key": "suspect",
+      "label": "Suspect",
+      "icon": "🎭",
+      "items": [
+        {
+          "name": "Dr. Elena Vasquez",
+          "icon": "🧬",
+          "detail": "Marine biologist studying arctic algae, recently denied research funding."
+        },
+        {
+          "name": "Marcus Chen",
+          "icon": "📡",
+          "detail": "Communications officer with gambling debts back home."
+        },
+        {
+          "name": "Dr. James Korkov",
+          "icon": "🌡️",
+          "detail": "Climate researcher whose data was recently questioned publicly."
+        },
+        {
+          "name": "Sarah Mitchell",
+          "icon": "🔧",
+          "detail": "Station engineer who discovered safety violations being covered up."
+        }
+      ]
+    },
+    {
+      "key": "location",
+      "label": "Location",
+      "icon": "📍",
+      "items": [
+        {
+          "name": "Research Laboratory",
+          "icon": "🧪",
+          "detail": "Main lab where experiments and data analysis occur."
+        },
+        {
+          "name": "Communications Hub",
+          "icon": "📻",
+          "detail": "Control center for all external contact and weather monitoring."
+        },
+        {
+          "name": "Generator Room",
+          "icon": "⚡",
+          "detail": "Power station keeping the facility operational in extreme cold."
+        },
+        {
+          "name": "Equipment Storage",
+          "icon": "📦",
+          "detail": "Warehouse containing supplies and research instruments."
+        }
+      ]
+    },
+    {
+      "key": "weapon",
+      "label": "Method",
+      "icon": "🔪",
+      "items": [
+        {
+          "name": "Lethal injection",
+          "icon": "💉",
+          "detail": "Medical syringe filled with concentrated ethylene glycol."
+        },
+        {
+          "name": "Hypothermia exposure",
+          "icon": "❄️",
+          "detail": "Victim locked outside in minus forty degree weather."
+        },
+        {
+          "name": "Electrical shock",
+          "icon": "⚡",
+          "detail": "Modified equipment creating fatal power surge."
+        },
+        {
+          "name": "Blunt force trauma",
+          "icon": "🔨",
+          "detail": "Heavy research equipment used as improvised weapon."
+        }
+      ]
+    }
+  ],
+  "clues": [
+    {
+      "id": "R1",
+      "type": "evidence",
+      "icon": "💻",
+      "heading": "Deleted Research Files",
+      "text": "Dr. Peterson's computer shows recently deleted files related to fraudulent climate data. The deletion timestamp matches when Marcus Chen had overnight communications duty.",
+      "alone": "Someone deleted compromising research files from the victim's computer during a specific shift.",
+      "links": [
+        "R4"
+      ]
+    },
+    {
+      "id": "R2",
+      "type": "witness",
+      "icon": "👁️",
+      "heading": "Heated Laboratory Argument",
+      "text": "Dr. Vasquez reports seeing Dr. Korkov shouting at Peterson about 'ruining careers with lies' near the lab equipment. She seemed genuinely disturbed by the confrontation's intensity.",
+      "alone": "A colleague witnessed an intense argument between two researchers about career damage.",
+      "links": [
+        "R5"
+      ]
+    },
+    {
+      "id": "R3",
+      "type": "physical",
+      "icon": "🩸",
+      "heading": "Medical Supply Inventory",
+      "text": "The station's medical kit is missing one syringe and a vial of ethylene glycol antifreeze. Sarah Mitchell had signed out medical supplies earlier that day for a 'safety inspection.'",
+      "alone": "Medical supplies including a syringe and toxic substance are missing after someone's safety inspection.",
+      "links": [
+        "R6"
+      ]
+    },
+    {
+      "id": "R4",
+      "type": "evidence",
+      "icon": "💳",
+      "heading": "Financial Transactions",
+      "text": "Peterson's personal files reveal he discovered Marcus Chen's unauthorized access to research funds. The evidence shows Chen had been skimming money to cover his gambling debts.",
+      "alone": "The victim had discovered someone's financial crimes involving misappropriated research funds.",
+      "links": [
+        "R1"
+      ]
+    },
+    {
+      "id": "R5",
+      "type": "evidence",
+      "icon": "📧",
+      "heading": "Email Correspondence",
+      "text": "Dr. Korkov's emails show Peterson had actually been helping him defend against false accusations. Peterson was preparing a statement to clear Korkov's reputation with the review board.",
+      "alone": "Email records reveal the victim was actually helping someone defend against professional accusations.",
+      "links": [
+        "R2"
+      ]
+    },
+    {
+      "id": "R6",
+      "type": "physical",
+      "icon": "🔍",
+      "heading": "Maintenance Log Evidence",
+      "text": "Sarah's engineering records prove she was documenting safety violations that Peterson was covering up. Her missing supplies were actually used to test contaminated water systems.",
+      "alone": "Engineering records show someone was legitimately investigating safety violations using missing supplies.",
+      "links": [
+        "R3"
+      ]
+    }
+  ],
+  "solution": {
+    "suspect": "Marcus Chen",
+    "location": "Communications Hub",
+    "weapon": "Lethal injection"
+  },
+  "epilogue": "Marcus Chen's gambling addiction had driven him to steal research funds, but Dr. Peterson's discovery threatened to expose everything. Facing disgrace and possible criminal charges, Chen used his access during night communications duty to inject Peterson with antifreeze. His betrayal of trust cost not only Peterson's life but also destroyed the close-knit research community. Chen now faces murder charges in addition to the embezzlement that started his downward spiral."
+}
