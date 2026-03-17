@@ -1,0 +1,687 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #005",
+    "title": "Tournament Trap",
+    "flavor": "The AAU basketball tournament in Augusta was meant to showcase young talent, but instead became the stage for a deadly deception. When a prominent youth coach was found dead in the locked equipment room, investigators discovered a web of stolen identities and forged credentials that ran deeper than anyone imagined.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Webb",
+            "icon": "🏀",
+            "detail": "Head coach of the Detroit Lightning team with a spotless reputation."
+          },
+          {
+            "name": "Sarah Chen",
+            "icon": "📋",
+            "detail": "Tournament coordinator who handles all team registrations and paperwork."
+          },
+          {
+            "name": "Tony Ricci",
+            "icon": "🎯",
+            "detail": "Veteran referee working his twentieth consecutive AAU tournament."
+          },
+          {
+            "name": "Lisa Monroe",
+            "icon": "💼",
+            "detail": "Corporate sponsor representative from SportMax Athletic Wear."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Equipment Room",
+            "icon": "🏪",
+            "detail": "Locked storage area where the victim was discovered."
+          },
+          {
+            "name": "Main Gymnasium",
+            "icon": "🏟️",
+            "detail": "Primary court where championship games were being played."
+          },
+          {
+            "name": "Registration Desk",
+            "icon": "📝",
+            "detail": "Check-in area for teams and officials near the entrance."
+          },
+          {
+            "name": "Concession Stand",
+            "icon": "🍿",
+            "detail": "Food service area bustling with tournament attendees."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Basketball Trophy",
+            "icon": "🏆",
+            "detail": "Heavy bronze award from last year's tournament."
+          },
+          {
+            "name": "Referee Whistle Chain",
+            "icon": "🔗",
+            "detail": "Metal lanyard used to strangle the victim."
+          },
+          {
+            "name": "Scoreboard Remote",
+            "icon": "📱",
+            "detail": "Electronic device thrown with lethal force."
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Emergency equipment used as a blunt weapon."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Forged Coaching License",
+        "text": "A fake coaching certification was found in Sarah Chen's briefcase, bearing the credentials of a coach from California. The real coach confirmed his license was stolen from his car two months ago.",
+        "alone": "Someone has been using stolen coaching credentials to gain access to tournaments.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Suspicious Activity Report",
+        "text": "A security guard reported seeing Tony Ricci arguing with the victim near the equipment room thirty minutes before the body was discovered. The argument appeared heated and personal in nature.",
+        "alone": "Tony Ricci was seen in conflict with the victim shortly before the murder.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🔬",
+        "heading": "Bloodstained Whistle Chain",
+        "text": "A referee's metal whistle chain was found beside the victim's body, covered in blood and bearing clear fingerprints. The chain appeared to have been used to strangle the victim.",
+        "alone": "The murder weapon was a referee's whistle chain found at the scene.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "testimony",
+        "icon": "💬",
+        "heading": "Identity Theft Confession",
+        "text": "Sarah Chen broke down during questioning and admitted to running a scheme selling fake coaching credentials to unqualified applicants. She revealed the victim had discovered her operation and threatened to expose everything.",
+        "alone": "The victim had discovered Sarah Chen's identity theft operation and planned to expose it.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Referee Schedule Conflict",
+        "text": "Tony Ricci's officiating schedule shows he was actively refereeing a game on Court 2 when the murder occurred. Multiple witnesses and video footage confirm his presence on the court during the entire time window.",
+        "alone": "Tony Ricci has a solid alibi supported by multiple witnesses and video evidence.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "forensics",
+        "icon": "🧬",
+        "heading": "Fingerprint Mismatch",
+        "text": "Laboratory analysis revealed the fingerprints on the whistle chain belong to Marcus Webb, not Tony Ricci as initially suspected. Webb's prints were found on both the chain and the equipment room door handle.",
+        "alone": "The fingerprints on the murder weapon belong to Marcus Webb, not the original suspect.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sarah Chen",
+      "location": "Equipment Room",
+      "weapon": "Referee Whistle Chain"
+    },
+    "epilogue": "Sarah Chen's identity theft scheme had been profitable for months, selling fake coaching licenses to desperate applicants who couldn't qualify legitimately. When veteran coach Harold Murphy discovered her operation and demanded she stop, Chen panicked and killed him with Tony Ricci's whistle chain. She planted Marcus Webb's fingerprints on the weapon by switching it with Webb's identical chain while he wasn't looking. Her desperation to protect her lucrative fraud ultimately led to murder.",
+    "timerSeconds": 600
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #006",
+    "title": "Dead in the Water",
+    "flavor": "The Mediterranean cruise was supposed to be a relaxing getaway for tech mogul Victor Sterling, but corporate secrets have a way of following you even to paradise. When Sterling's body is discovered in his luxury suite, it becomes clear that someone aboard this floating palace had murder on their mind.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Voss",
+            "icon": "👩‍💼",
+            "detail": "Sterling's former business partner, seeking revenge for a hostile takeover."
+          },
+          {
+            "name": "Marcus Chen",
+            "icon": "👨‍💻",
+            "detail": "Tech competitor who was bidding against Sterling for a major contract."
+          },
+          {
+            "name": "Diana Torres",
+            "icon": "👩‍⚖️",
+            "detail": "Corporate lawyer representing clients suing Sterling's company."
+          },
+          {
+            "name": "James Mitchell",
+            "icon": "🕴️",
+            "detail": "Sterling's head of security, recently discovered embezzling company funds."
+          },
+          {
+            "name": "Captain Rodriguez",
+            "icon": "⚓",
+            "detail": "Ship's captain who had previous dealings with Sterling's shipping investments."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Wine",
+            "icon": "🍷",
+            "detail": "Expensive vintage from the victim's private collection, laced with cyanide."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "Ornate brass opener from the ship's gift shop, found bloodied."
+          },
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Medical syringe containing lethal dose of insulin."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Designer scarf used for strangulation, found in victim's cabin."
+          },
+          {
+            "name": "Ship's Anchor",
+            "icon": "⚓",
+            "detail": "Heavy nautical equipment used as blunt force weapon."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sterling's Suite",
+            "icon": "🛏️",
+            "detail": "Luxury penthouse cabin where the body was discovered."
+          },
+          {
+            "name": "Ship's Library",
+            "icon": "📚",
+            "detail": "Quiet study area where Sterling often worked on confidential matters."
+          },
+          {
+            "name": "Pool Deck",
+            "icon": "🏊",
+            "detail": "Upper deck pool area, secluded during evening hours."
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍾",
+            "detail": "Temperature-controlled storage area in the ship's lower decks."
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Restricted mechanical area below deck, accessible to crew only."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Key Card",
+            "icon": "🗝️",
+            "detail": "Universal access card that opens all ship areas and cabins."
+          },
+          {
+            "name": "Ventilation System",
+            "icon": "🌬️",
+            "detail": "Air duct network connecting different areas of the ship."
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only elevator with access to restricted decks."
+          },
+          {
+            "name": "Balcony Entry",
+            "icon": "🪟",
+            "detail": "External access through connecting suite balconies."
+          },
+          {
+            "name": "Emergency Hatch",
+            "icon": "🚪",
+            "detail": "Security exit normally sealed, recently tampered with."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security System Breach",
+        "text": "The ship's security cameras show a 20-minute gap in footage from Sterling's corridor, disabled using a master key card. Only senior staff have access to such override capabilities.",
+        "alone": "The security system was professionally disabled using high-level access.",
+        "links": [
+          {
+            "clue": "D4",
+            "insight": "The master key card used to disable security also accessed the wine cellar during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Crew Member's Account",
+        "text": "A reliable crew member swears they saw Elena Voss near the wine cellar at the time of Sterling's death, carrying what looked like a bottle of wine. The witness seemed genuinely concerned about reporting this information.",
+        "alone": "Elena Voss was reportedly seen at the wine cellar during the murder timeframe.",
+        "links": [
+          {
+            "clue": "D5",
+            "insight": "Elena Voss was actually in the ship's medical bay during the time she was reportedly seen at the wine cellar."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "📋",
+        "heading": "Wine Cellar Evidence",
+        "text": "Blood traces found in the wine cellar suggest Sterling was killed there, not in his suite as initially believed. The killer had to transport the body using the service elevator.",
+        "alone": "Physical evidence points to the wine cellar as the actual murder location.",
+        "links": [
+          {
+            "clue": "D6",
+            "insight": "The service elevator shows signs of recent heavy use and traces of Sterling's cologne."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "Key Card Analysis",
+        "text": "Digital logs show James Mitchell's master key card was used to access the wine cellar at 11:47 PM, precisely when Sterling was killed. The same card disabled the security cameras minutes earlier.",
+        "alone": "James Mitchell's key card accessed restricted areas during the murder timeframe.",
+        "links": [
+          {
+            "clue": "D1",
+            "insight": "The master key card used to disable security also accessed the wine cellar during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "alibi",
+        "icon": "📋",
+        "heading": "Medical Bay Records",
+        "text": "Hospital logs confirm Elena Voss was receiving treatment for seasickness in the medical bay from 11:30 PM to 12:15 AM. The ship's doctor personally administered her medication during this period.",
+        "alone": "Elena Voss has a documented medical alibi during the murder window.",
+        "links": [
+          {
+            "clue": "D2",
+            "insight": "Elena Voss was actually in the ship's medical bay during the time she was reportedly seen at the wine cellar."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Service Elevator Usage",
+        "text": "Maintenance records show the service elevator was used three times between 11:45 PM and midnight, despite no scheduled service calls. Traces of Sterling's distinctive cologne were found inside.",
+        "alone": "The service elevator was used unusually during the murder timeframe.",
+        "links": [
+          {
+            "clue": "D3",
+            "insight": "The service elevator shows signs of recent heavy use and traces of Sterling's cologne."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "James Mitchell",
+      "weapon": "Poisoned Wine",
+      "location": "Wine Cellar",
+      "access": "Master Key Card"
+    },
+    "epilogue": "James Mitchell, desperate to cover his embezzlement tracks, used his master key card to lure Sterling to the wine cellar under the pretense of discussing security concerns. When Sterling threatened to press charges, Mitchell poisoned him with cyanide-laced wine from the ship's collection. Mitchell then used the service elevator to transport the body to Sterling's suite, staging a struggle to misdirect the investigation. His security expertise allowed him to manipulate the cameras and nearly frame Elena Voss, but the digital trail from his master key card ultimately exposed his guilt. Now facing charges for both embezzlement and murder, Mitchell's attempt to escape justice aboard this luxury cruise has only sealed his fate.",
+    "timerSeconds": 600
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #006",
+    "title": "Dead in the Water",
+    "flavor": "The Mediterranean cruise was supposed to be a relaxing getaway for tech mogul Victor Sterling, but corporate secrets have a way of following you even to paradise. When Sterling's body is discovered in his luxury suite, it becomes clear that someone aboard this floating palace had murder on their mind.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Voss",
+            "icon": "👩‍💼",
+            "detail": "Sterling's former business partner, seeking revenge for a hostile takeover."
+          },
+          {
+            "name": "Marcus Chen",
+            "icon": "👨‍💻",
+            "detail": "Tech competitor who was bidding against Sterling for a major contract."
+          },
+          {
+            "name": "Diana Torres",
+            "icon": "👩‍⚖️",
+            "detail": "Corporate lawyer representing clients suing Sterling's company."
+          },
+          {
+            "name": "James Mitchell",
+            "icon": "🕴️",
+            "detail": "Sterling's head of security, recently discovered embezzling company funds."
+          },
+          {
+            "name": "Captain Rodriguez",
+            "icon": "⚓",
+            "detail": "Ship's captain who had previous dealings with Sterling's shipping investments."
+          },
+          {
+            "name": "Dr. Sarah Kim",
+            "icon": "👩‍⚕️",
+            "detail": "Ship's doctor with access to medical supplies and passenger health records."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Wine",
+            "icon": "🍷",
+            "detail": "Expensive vintage from the victim's private collection, laced with cyanide."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "Ornate brass opener from the ship's gift shop, found bloodied."
+          },
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Medical syringe containing lethal dose of insulin."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Designer scarf used for strangulation, found in victim's cabin."
+          },
+          {
+            "name": "Ship's Anchor",
+            "icon": "⚓",
+            "detail": "Heavy nautical equipment used as blunt force weapon."
+          },
+          {
+            "name": "Cyanide Capsule",
+            "icon": "💊",
+            "detail": "Military-grade poison tablet dissolved in victim's drink."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sterling's Suite",
+            "icon": "🛏️",
+            "detail": "Luxury penthouse cabin where the body was discovered."
+          },
+          {
+            "name": "Ship's Library",
+            "icon": "📚",
+            "detail": "Quiet study area where Sterling often worked on confidential matters."
+          },
+          {
+            "name": "Pool Deck",
+            "icon": "🏊",
+            "detail": "Upper deck pool area, secluded during evening hours."
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍾",
+            "detail": "Temperature-controlled storage area in the ship's lower decks."
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Restricted mechanical area below deck, accessible to crew only."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "Ship's infirmary with pharmaceutical storage and treatment facilities."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Key Card",
+            "icon": "🗝️",
+            "detail": "Universal access card that opens all ship areas and cabins."
+          },
+          {
+            "name": "Ventilation System",
+            "icon": "🌬️",
+            "detail": "Air duct network connecting different areas of the ship."
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only elevator with access to restricted decks."
+          },
+          {
+            "name": "Balcony Entry",
+            "icon": "🪟",
+            "detail": "External access through connecting suite balconies."
+          },
+          {
+            "name": "Emergency Hatch",
+            "icon": "🚪",
+            "detail": "Security exit normally sealed, recently tampered with."
+          },
+          {
+            "name": "Maintenance Tunnel",
+            "icon": "🔧",
+            "detail": "Hidden service passages known only to senior crew members."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Corporate Revenge",
+            "icon": "💼",
+            "detail": "Seeking vengeance for business betrayal and financial ruin."
+          },
+          {
+            "name": "Industrial Espionage",
+            "icon": "🕵️",
+            "detail": "Stealing trade secrets for competitive advantage."
+          },
+          {
+            "name": "Legal Blackmail",
+            "icon": "⚖️",
+            "detail": "Silencing witness to prevent testimony in upcoming trial."
+          },
+          {
+            "name": "Embezzlement Cover-up",
+            "icon": "💰",
+            "detail": "Eliminating evidence of financial crimes and theft."
+          },
+          {
+            "name": "Maritime Fraud",
+            "icon": "🚢",
+            "detail": "Concealing shipping insurance scam and cargo theft."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "🩺",
+            "detail": "Preventing exposure of illegal pharmaceutical activities."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security System Override",
+        "text": "The ship's surveillance network was disabled using advanced administrative privileges, suggesting inside knowledge of the system's vulnerabilities. Only three people aboard have this level of security clearance.",
+        "alone": "The security breach required expert knowledge and high-level access privileges.",
+        "links": [
+          {
+            "clue": "I4",
+            "insight": "The person who disabled security also used a master key card to access restricted areas during the murder timeframe."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Night Shift Supervisor",
+        "text": "The night supervisor, known for his attention to detail, positively identifies seeing Marcus Chen near the wine cellar at 11:50 PM. The supervisor was conducting his regular rounds and seemed certain of the identification.",
+        "alone": "Marcus Chen was reportedly seen at the wine cellar during the critical timeframe.",
+        "links": [
+          {
+            "clue": "I5",
+            "insight": "Marcus Chen was actually participating in a video conference with Tokyo investors during the entire murder window."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "Chemical Analysis Report",
+        "text": "Laboratory tests reveal the poison used was military-grade cyanide, not available through normal channels. This specific compound requires specialized knowledge and connections to obtain.",
+        "alone": "The murder weapon was a rare, military-grade poison requiring expert knowledge.",
+        "links": [
+          {
+            "clue": "I6",
+            "insight": "Military-grade cyanide matches compounds reported missing from James Mitchell's previous security consulting work with defense contractors."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Key Card Activity Log",
+        "text": "Digital forensics show James Mitchell's master key card accessed multiple restricted areas between 11:30 PM and midnight, including the wine cellar at exactly 11:47 PM. The access pattern suggests deliberate movement through service areas.",
+        "alone": "James Mitchell's credentials were used to access restricted areas during the murder window.",
+        "links": [
+          {
+            "clue": "I1",
+            "insight": "The person who disabled security also used a master key card to access restricted areas during the murder timeframe."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "alibi",
+        "icon": "📞",
+        "heading": "International Call Records",
+        "text": "Telecommunications logs confirm Marcus Chen was on a video conference call with Tokyo investors from 11:15 PM to 12:30 AM, discussing a major acquisition deal. Multiple witnesses and screen recordings verify his continuous presence.",
+        "alone": "Marcus Chen has verifiable electronic proof of his whereabouts during the murder.",
+        "links": [
+          {
+            "clue": "I2",
+            "insight": "Marcus Chen was actually participating in a video conference with Tokyo investors during the entire murder window."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "background",
+        "icon": "📋",
+        "heading": "Personnel Investigation",
+        "text": "Background checks reveal James Mitchell previously worked security contracts for defense companies, with access to restricted materials including military-grade poisons. Recent inventory discrepancies were noted at his former employer.",
+        "alone": "James Mitchell's background includes access to military-grade chemical compounds.",
+        "links": [
+          {
+            "clue": "I3",
+            "insight": "Military-grade cyanide matches compounds reported missing from James Mitchell's previous security consulting work with defense contractors."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "James Mitchell",
+      "weapon": "Poisoned Wine",
+      "location": "Wine Cellar",
+      "access": "Master Key Card",
+      "motive": "Embezzlement Cover-up"
+    },
+    "epilogue": "James Mitchell, Sterling's trusted head of security, had been systematically embezzling company funds for months, using his access to financial systems and security protocols. When Sterling discovered the theft and threatened criminal prosecution, Mitchell saw only one way out. Using his master key card access and military contacts, Mitchell obtained cyanide and lured Sterling to the wine cellar under the pretense of discussing a security breach. After poisoning Sterling with contaminated wine from the ship's collection, Mitchell transported the body via service elevator and staged the scene in Sterling's suite to misdirect investigators. His extensive security knowledge allowed him to manipulate cameras and nearly frame other passengers, but his own digital footprints and specialized knowledge of military-grade poisons ultimately exposed his embezzlement cover-up scheme.",
+    "timerSeconds": 480
+  }
+}
