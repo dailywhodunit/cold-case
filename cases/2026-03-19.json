@@ -1,0 +1,657 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #007",
+    "title": "Silicon Shadows",
+    "setting": "Tokyo Tech Startup - Tokyo - 2025",
+    "tone": "Thriller",
+    "timerSeconds": 600,
+    "flavor": "The body of Kenji Nakamura, CEO of quantum computing startup QuantumLeap, was discovered in his locked office at 3 AM by security. Dark secrets and digital blackmail schemes have turned this cutting-edge workspace into a web of deception.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Yuki Tanaka",
+            "icon": "👩‍💼",
+            "detail": "CFO who discovered major financial irregularities in company accounts."
+          },
+          {
+            "name": "Hiroshi Sato",
+            "icon": "👨‍💻",
+            "detail": "Lead developer whose revolutionary algorithm was stolen by Nakamura."
+          },
+          {
+            "name": "Mari Yoshida",
+            "icon": "👩‍🔬",
+            "detail": "Head of security with access to all company surveillance systems."
+          },
+          {
+            "name": "Takeshi Kimura",
+            "icon": "👨‍💼",
+            "detail": "Rival CEO whose merger proposal was aggressively rejected last month."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Ceramic Letter Opener",
+            "icon": "📝",
+            "detail": "Sharp office tool that wouldn't trigger metal detectors."
+          },
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Deadly dose administered to the diabetic victim."
+          },
+          {
+            "name": "Poisoned Coffee",
+            "icon": "☕",
+            "detail": "Cyanide-laced drink from the victim's personal coffee machine."
+          },
+          {
+            "name": "Electrical Shock",
+            "icon": "⚡",
+            "detail": "Modified charging cable that delivered fatal voltage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Executive Office",
+            "icon": "🏢",
+            "detail": "Nakamura's private office where the body was found."
+          },
+          {
+            "name": "Server Room",
+            "icon": "💻",
+            "detail": "Climate-controlled room containing company's quantum processors."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage with limited security camera coverage."
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🌃",
+            "detail": "Company's recreational area overlooking Tokyo skyline."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Diabetic Medication",
+        "text": "Nakamura's insulin pen was found on his desk, but the dosage counter shows it was used recently. His blood sugar monitor indicates critically low glucose levels at time of death.",
+        "alone": "The victim's insulin pen shows recent usage with dangerously low blood sugar readings.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Late Night Visitor",
+        "text": "Security footage shows Yuki Tanaka entering the building at 11 PM using her executive keycard. She appeared nervous and kept checking her phone while walking to the elevators.",
+        "alone": "Yuki Tanaka was captured on security cameras entering the building late at night, appearing agitated.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Blackmail Evidence",
+        "text": "Encrypted files on Nakamura's computer contain compromising photos and financial records of several employees. The folder was accessed just hours before his death.",
+        "alone": "Nakamura's computer contains blackmail material that was recently accessed before his murder.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Fingerprint Analysis",
+        "text": "The insulin pen bears fingerprints from both Nakamura and Mari Yoshida. Medical records confirm Yoshida's mother was diabetic and she's familiar with insulin administration.",
+        "alone": "Mari Yoshida's fingerprints were found on the victim's insulin pen, and she has medical knowledge of insulin.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Financial Records",
+        "text": "Yuki's computer logs show she was working on quarterly reports until 2 AM, with continuous keystrokes and file saves. Her work was legitimate and showed no signs of automation.",
+        "alone": "Yuki Tanaka has a solid digital alibi showing continuous work activity during the murder timeframe.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "motive",
+        "icon": "💰",
+        "heading": "Personal Vendetta",
+        "text": "Takeshi Kimura's private messages reveal he hired a private investigator to gather dirt on Nakamura. However, the blackmail files predate his investigation by months.",
+        "alone": "Takeshi Kimura was actively investigating Nakamura, but the blackmail evidence existed before his efforts.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mari Yoshida",
+      "weapon": "Insulin Overdose",
+      "location": "Executive Office"
+    },
+    "epilogue": "Mari Yoshida broke down when confronted with the evidence of her fingerprints on the insulin pen and her knowledge of proper dosing. She revealed that Nakamura had been blackmailing her with surveillance footage of her accessing confidential employee files to help her gambling-addicted brother. When Nakamura threatened to expose her and have her arrested, she saw no way out but murder. Using her security access and medical knowledge from caring for her diabetic mother, she administered a fatal insulin overdose in his executive office. The weight of her actions and the life she destroyed finally crushed the woman who had spent years protecting others' secrets."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #007",
+    "title": "Silicon Shadows",
+    "setting": "Tokyo Tech Startup - Tokyo - 2025",
+    "tone": "Thriller",
+    "timerSeconds": 600,
+    "flavor": "The body of Kenji Nakamura, CEO of quantum computing startup QuantumLeap, was discovered in his locked office at 3 AM by security. Dark secrets and digital blackmail schemes have turned this cutting-edge workspace into a web of deception.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Yuki Tanaka",
+            "icon": "👩‍💼",
+            "detail": "CFO who discovered major financial irregularities in company accounts."
+          },
+          {
+            "name": "Hiroshi Sato",
+            "icon": "👨‍💻",
+            "detail": "Lead developer whose revolutionary algorithm was stolen by Nakamura."
+          },
+          {
+            "name": "Mari Yoshida",
+            "icon": "👩‍🔬",
+            "detail": "Head of security with access to all company surveillance systems."
+          },
+          {
+            "name": "Dr. Akiko Suzuki",
+            "icon": "👩‍⚕️",
+            "detail": "Company physician who managed Nakamura's diabetes treatment."
+          },
+          {
+            "name": "Takeshi Kimura",
+            "icon": "👨‍💼",
+            "detail": "Rival CEO whose merger proposal was aggressively rejected last month."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Ceramic Letter Opener",
+            "icon": "📝",
+            "detail": "Sharp office tool that wouldn't trigger metal detectors."
+          },
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Deadly dose administered to the diabetic victim."
+          },
+          {
+            "name": "Poisoned Coffee",
+            "icon": "☕",
+            "detail": "Cyanide-laced drink from the victim's personal coffee machine."
+          },
+          {
+            "name": "Modified Laptop",
+            "icon": "💻",
+            "detail": "Rigged device that delivered electrical shock when opened."
+          },
+          {
+            "name": "Nitrogen Gas",
+            "icon": "☁️",
+            "detail": "Odorless asphyxiant released in the sealed office space."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Executive Office",
+            "icon": "🏢",
+            "detail": "Nakamura's private office where the body was found."
+          },
+          {
+            "name": "Server Room",
+            "icon": "💻",
+            "detail": "Climate-controlled room containing company's quantum processors."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "On-site clinic where employee health records are stored."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage with limited security camera coverage."
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🌃",
+            "detail": "Company's recreational area overlooking Tokyo skyline."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Blackmail",
+            "icon": "💰",
+            "detail": "Being extorted over embezzlement of company funds."
+          },
+          {
+            "name": "Intellectual Property Theft",
+            "icon": "🧠",
+            "detail": "Revenge for stolen algorithms and research credit."
+          },
+          {
+            "name": "Personal Secret",
+            "icon": "🤐",
+            "detail": "Protecting family member from exposure and criminal charges."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Covering up dangerous negligence in patient care."
+          },
+          {
+            "name": "Corporate Espionage",
+            "icon": "🕵️",
+            "detail": "Eliminating witness to stolen trade secrets and data."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Diabetic Medication",
+        "text": "Nakamura's insulin pen was found on his desk, but the dosage counter shows it was used recently. His blood sugar monitor indicates critically low glucose levels at time of death.",
+        "alone": "The victim's insulin pen shows recent usage with dangerously low blood sugar readings.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Medical Testimony",
+        "text": "Dr. Suzuki insists she last saw Nakamura at 10 PM for his evening insulin injection and he was in perfect health. She claims his dosage was carefully calculated and administered properly.",
+        "alone": "Dr. Suzuki states she gave Nakamura his proper insulin dose at 10 PM and he was healthy.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Blackmail Evidence",
+        "text": "Encrypted files on Nakamura's computer contain compromising surveillance footage of Mari Yoshida accessing restricted employee files. The timestamps show repeated unauthorized access over several months.",
+        "alone": "Nakamura had surveillance footage proving Mari Yoshida repeatedly accessed restricted employee files without authorization.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Fingerprint Analysis",
+        "text": "The insulin pen bears fingerprints from Nakamura, Dr. Suzuki, and surprisingly, Mari Yoshida. Medical records show Yoshida's mother was diabetic and she has extensive knowledge of insulin administration.",
+        "alone": "Mari Yoshida's fingerprints were found on the victim's insulin pen along with Dr. Suzuki's and the victim's.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "surveillance",
+        "icon": "📹",
+        "heading": "Security Footage Gap",
+        "text": "The medical bay's security camera malfunctioned between 9:30-10:30 PM, the exact window when Dr. Suzuki claims to have treated Nakamura. The malfunction appears to be a technical glitch, not sabotage.",
+        "alone": "Medical bay surveillance failed during Dr. Suzuki's claimed treatment time, but appears accidental.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "motive",
+        "icon": "🎰",
+        "heading": "Family Crisis",
+        "text": "Mari Yoshida's brother Kenta has massive gambling debts to yakuza lenders and she was stealing employee identity data to sell. Nakamura discovered this and threatened to expose her unless she became his informant.",
+        "alone": "Mari Yoshida was stealing employee data to pay her brother's gambling debts and faced exposure by Nakamura.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mari Yoshida",
+      "weapon": "Insulin Overdose",
+      "location": "Executive Office",
+      "motive": "Personal Secret"
+    },
+    "epilogue": "Mari Yoshida confessed when confronted with the fingerprint evidence and her desperate motive. She had been stealing employee data to pay off her brother Kenta's yakuza gambling debts, but Nakamura caught her and demanded she become his spy within the company. Facing the destruction of her career and her brother's potential murder by loan sharks, she used her security access and knowledge from caring for her diabetic mother to administer a fatal insulin overdose in his executive office. The personal secret she was protecting ultimately led her to commit the very crime she had spent her career preventing. Dr. Suzuki's testimony was sincere but mistaken due to the surveillance malfunction that obscured the actual timeline of events."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #007",
+    "title": "Silicon Shadows",
+    "setting": "Tokyo Tech Startup - Tokyo - 2025",
+    "tone": "Thriller",
+    "timerSeconds": 480,
+    "flavor": "The body of Kenji Nakamura, CEO of quantum computing startup QuantumLeap, was discovered in his locked office at 3 AM by security. Dark secrets and digital blackmail schemes have turned this cutting-edge workspace into a web of deception.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Yuki Tanaka",
+            "icon": "👩‍💼",
+            "detail": "CFO who discovered major financial irregularities in company accounts."
+          },
+          {
+            "name": "Hiroshi Sato",
+            "icon": "👨‍💻",
+            "detail": "Lead developer whose revolutionary algorithm was stolen by Nakamura."
+          },
+          {
+            "name": "Mari Yoshida",
+            "icon": "👩‍🔬",
+            "detail": "Head of security with access to all company surveillance systems."
+          },
+          {
+            "name": "Dr. Akiko Suzuki",
+            "icon": "👩‍⚕️",
+            "detail": "Company physician who managed Nakamura's diabetes treatment."
+          },
+          {
+            "name": "Rei Watanabe",
+            "icon": "👩‍🎓",
+            "detail": "Quantum research intern who discovered Nakamura's data manipulation."
+          },
+          {
+            "name": "Takeshi Kimura",
+            "icon": "👨‍💼",
+            "detail": "Rival CEO whose merger proposal was aggressively rejected last month."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Ceramic Letter Opener",
+            "icon": "📝",
+            "detail": "Sharp office tool that wouldn't trigger metal detectors."
+          },
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Deadly dose administered to the diabetic victim."
+          },
+          {
+            "name": "Poisoned Coffee",
+            "icon": "☕",
+            "detail": "Cyanide-laced drink from the victim's personal coffee machine."
+          },
+          {
+            "name": "Modified Laptop",
+            "icon": "💻",
+            "detail": "Rigged device that delivered electrical shock when opened."
+          },
+          {
+            "name": "Nitrogen Gas",
+            "icon": "☁️",
+            "detail": "Odorless asphyxiant released in the sealed office space."
+          },
+          {
+            "name": "Ricin Injection",
+            "icon": "🌱",
+            "detail": "Plant-based toxin administered via hypodermic needle."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Executive Office",
+            "icon": "🏢",
+            "detail": "Nakamura's private office where the body was found."
+          },
+          {
+            "name": "Server Room",
+            "icon": "💻",
+            "detail": "Climate-controlled room containing company's quantum processors."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "On-site clinic where employee health records are stored."
+          },
+          {
+            "name": "Research Laboratory",
+            "icon": "🔬",
+            "detail": "High-security lab where quantum computing experiments are conducted."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage with limited security camera coverage."
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🌃",
+            "detail": "Company's recreational area overlooking Tokyo skyline."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Blackmail",
+            "icon": "💰",
+            "detail": "Being extorted over embezzlement of company funds."
+          },
+          {
+            "name": "Intellectual Property Theft",
+            "icon": "🧠",
+            "detail": "Revenge for stolen algorithms and research credit."
+          },
+          {
+            "name": "Personal Secret",
+            "icon": "🤐",
+            "detail": "Protecting family member from exposure and criminal charges."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Covering up dangerous negligence in patient care."
+          },
+          {
+            "name": "Research Fraud",
+            "icon": "📊",
+            "detail": "Silencing whistleblower who discovered falsified experimental data."
+          },
+          {
+            "name": "Corporate Espionage",
+            "icon": "🕵️",
+            "detail": "Eliminating witness to stolen trade secrets and data."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Security Card",
+            "icon": "🎫",
+            "detail": "Administrative keycard providing access to all company areas."
+          },
+          {
+            "name": "Ventilation System",
+            "icon": "🌪️",
+            "detail": "Air ducts connecting various floors and offices."
+          },
+          {
+            "name": "Medical Emergency Override",
+            "icon": "🚨",
+            "detail": "Doctor's emergency access code for any company location."
+          },
+          {
+            "name": "Executive Assistant Credentials",
+            "icon": "👔",
+            "detail": "Borrowed or stolen access from Nakamura's personal assistant."
+          },
+          {
+            "name": "Maintenance Tunnel",
+            "icon": "🔧",
+            "detail": "Underground service passages used by building staff."
+          },
+          {
+            "name": "Window Access",
+            "icon": "🪟",
+            "detail": "External building approach via adjacent construction scaffolding."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Diabetic Medication",
+        "text": "Nakamura's insulin pen was found on his desk with the dosage counter showing recent usage. His continuous glucose monitor recorded a catastrophic drop in blood sugar at 11:47 PM.",
+        "alone": "The victim's insulin pen shows recent usage with a fatal blood sugar drop recorded at 11:47 PM.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Medical Testimony",
+        "text": "Dr. Suzuki swears she administered Nakamura's final insulin dose at exactly 10 PM using proper protocol. She's adamant that her calculations were perfect and the dose was therapeutic, not harmful.",
+        "alone": "Dr. Suzuki insists she gave Nakamura the correct insulin dose at 10 PM using proper medical protocol.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Surveillance Footage",
+        "text": "Security cameras show Mari Yoshida entering Nakamura's office at 11:30 PM using her security override. She remained inside for approximately twenty minutes before leaving through the same route.",
+        "alone": "Mari Yoshida was captured on surveillance entering Nakamura's office at 11:30 PM and staying for twenty minutes.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Insulin Pen Analysis",
+        "text": "Laboratory analysis reveals the insulin pen contained a concentrated dosage nearly four times the normal strength. Fingerprints on the device belong to Nakamura, Dr. Suzuki, and Mari Yoshida.",
+        "alone": "The insulin pen contained a lethal four-times concentration with fingerprints from Nakamura, Dr. Suzuki, and Mari Yoshida.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "medical",
+        "icon": "🏥",
+        "heading": "Hospital Records",
+        "text": "Dr. Suzuki's medical logs show she treated a similar insulin overdose case three years ago at Tokyo General Hospital. The patient survived, but the incident taught her the exact lethal dosage calculations.",
+        "alone": "Dr. Suzuki has previous experience with insulin overdoses and would know the precise lethal dosage required.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "technical",
+        "icon": "🔧",
+        "heading": "Security Override Analysis",
+        "text": "Mari Yoshida's security card shows she accessed Nakamura's office using the medical emergency override function. This override requires both her security credentials and a doctor's authorization code to activate.",
+        "alone": "Mari Yoshida used a medical emergency override requiring both her credentials and a doctor's authorization to enter Nakamura's office.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mari Yoshida",
+      "weapon": "Insulin Overdose",
+      "location": "Executive Office",
+      "motive": "Personal Secret",
+      "access": "Master Security Card"
+    },
+    "epilogue": "Mari Yoshida's confession revealed the desperate lengths she went to protect her gambling-addicted brother from yakuza retribution. She had been stealing employee data to pay Kenta's debts, but when Nakamura discovered her crimes and demanded she become his corporate spy, she saw no escape. Using her master security card and knowledge gained from caring for her diabetic mother, she replaced Nakamura's insulin with a concentrated fatal dose in his executive office. Her personal secret - protecting her brother from certain death - drove her to commit murder. The medical emergency override was a red herring; her administrative access was sufficient. Dr. Suzuki's testimony was honest but irrelevant, as the murder weapon was the pre-concentrated insulin Mari had prepared, not any dose administered by the company physician."
+  }
+}
