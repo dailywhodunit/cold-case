@@ -1,0 +1,705 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "013",
+    "title": "Brooklyn Bagel Betrayal",
+    "flavor": "The smell of fresh bagels mingles with the metallic scent of blood in Goldstein's Bagels, a neighborhood institution since 1973. When the owner is found dead behind the counter, the tight-knit community of regulars becomes a web of suspects with deep-running grudges.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Torrino",
+            "icon": "🤵",
+            "detail": "Former business partner who lost his bakery to Goldstein in a bitter legal dispute."
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩‍🍳",
+            "detail": "Head baker fired last month after twenty years of loyal service."
+          },
+          {
+            "name": "Tommy Chen",
+            "icon": "🚚",
+            "detail": "Delivery driver whose family business was undercut by Goldstein's supplier deals."
+          },
+          {
+            "name": "Rebecca Walsh",
+            "icon": "👩‍💼",
+            "detail": "Health inspector who received anonymous tips about violations that turned out false."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bagel Slicer",
+            "icon": "🔪",
+            "detail": "Industrial bread slicer with a razor-sharp rotating blade."
+          },
+          {
+            "name": "Rolling Pin",
+            "icon": "🥖",
+            "detail": "Heavy marble rolling pin from the prep station."
+          },
+          {
+            "name": "Cash Register",
+            "icon": "💰",
+            "detail": "Vintage metal register heavy enough to cause fatal blunt force trauma."
+          },
+          {
+            "name": "Oven Paddle",
+            "icon": "🥄",
+            "detail": "Long wooden paddle used for retrieving bagels from the brick oven."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Behind Counter",
+            "icon": "🏪",
+            "detail": "The cramped workspace where Goldstein was discovered face-down."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, steamy back room where bagels are mixed and baked."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Narrow space filled with flour sacks and cleaning supplies."
+          },
+          {
+            "name": "Customer Area",
+            "icon": "☕",
+            "detail": "Small seating area with four mismatched tables and chairs."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Flour Footprints",
+        "text": "A trail of flour leads from the storage room to behind the counter. The footprints match work boots, size 10, with a distinctive worn heel pattern.",
+        "alone": "Someone walked from the storage room to where the body was found.",
+        "links": [
+          {
+            "clueId": "R4",
+            "insight": "The work boots belong to Tommy Chen, who admits to going to the storage room during his delivery."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Neighbor's Account",
+        "text": "Mrs. Kowalski from across the street saw Vincent Torrino arguing loudly with someone inside the shop around 7 PM. She couldn't see who he was yelling at through the steamed windows.",
+        "alone": "Vincent was seen arguing with someone at the shop.",
+        "links": [
+          {
+            "clueId": "R5",
+            "insight": "Vincent was arguing with Maria about getting her job back, not with Goldstein who had already left."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🩸",
+        "heading": "Blood Spatter",
+        "text": "Blood droplets on the bagel slicer's blade suggest it was the murder weapon. However, the spatter pattern indicates the victim was struck from behind.",
+        "alone": "The bagel slicer appears to be the murder weapon based on blood evidence.",
+        "links": [
+          {
+            "clueId": "R6",
+            "insight": "Rebecca had no access to the bagel slicer as she never went behind the counter during inspections."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Delivery Records",
+        "text": "Tommy Chen's delivery log shows he made a flour delivery to the storage room at 7:30 PM. His work boots, size 10 with a worn right heel, are covered in flour dust.",
+        "alone": "Tommy made a delivery and his boots match the footprints found.",
+        "links": [
+          {
+            "clueId": "R1",
+            "insight": "The work boots belong to Tommy Chen, who admits to going to the storage room during his delivery."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "testimony",
+        "icon": "💬",
+        "heading": "Maria's Alibi",
+        "text": "Maria Santos admits she was at the shop around 7 PM, begging Vincent to help her get her job back. She says Goldstein had already gone home for the day.",
+        "alone": "Maria was at the shop but claims Goldstein wasn't there.",
+        "links": [
+          {
+            "clueId": "R2",
+            "insight": "Vincent was arguing with Maria about getting her job back, not with Goldstein who had already left."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🚫",
+        "heading": "Access Restrictions",
+        "text": "The bagel slicer is kept behind the counter in the employee area. Rebecca Walsh confirms she never went behind the counter during her inspections, staying in the customer area.",
+        "alone": "The murder weapon was in an area with restricted access.",
+        "links": [
+          {
+            "clueId": "R3",
+            "insight": "Rebecca had no access to the bagel slicer as she never went behind the counter during inspections."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Chen",
+      "weapon": "Bagel Slicer",
+      "location": "Behind Counter"
+    },
+    "epilogue": "Tommy Chen's family bakery had been struggling since Goldstein undercut their wholesale prices, forcing them toward bankruptcy. When he discovered Goldstein was still at the shop during his evening delivery, years of resentment boiled over into a moment of fatal rage. Using the bagel slicer he knew so well from his own family's business, Tommy struck down the man who had destroyed his livelihood. Now both families' legacies lie in ruins, victims of a neighborhood feud that escalated beyond all reason."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "013",
+    "title": "Brooklyn Bagel Betrayal",
+    "flavor": "The smell of fresh bagels mingles with the metallic scent of blood in Goldstein's Bagels, a neighborhood institution since 1973. When the owner is found dead behind the counter, the tight-knit community of regulars becomes a web of suspects with deep-running grudges.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Torrino",
+            "icon": "🤵",
+            "detail": "Former business partner who lost his bakery to Goldstein in a bitter legal dispute."
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩‍🍳",
+            "detail": "Head baker fired last month after twenty years of loyal service."
+          },
+          {
+            "name": "Tommy Chen",
+            "icon": "🚚",
+            "detail": "Delivery driver whose family business was undercut by Goldstein's supplier deals."
+          },
+          {
+            "name": "Rebecca Walsh",
+            "icon": "👩‍💼",
+            "detail": "Health inspector who received anonymous tips about violations that turned out false."
+          },
+          {
+            "name": "Joey Marconi",
+            "icon": "👨‍💼",
+            "detail": "Loan shark who had been pressuring Goldstein for overdue payments."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bagel Slicer",
+            "icon": "🔪",
+            "detail": "Industrial bread slicer with a razor-sharp rotating blade."
+          },
+          {
+            "name": "Rolling Pin",
+            "icon": "🥖",
+            "detail": "Heavy marble rolling pin from the prep station."
+          },
+          {
+            "name": "Cash Register",
+            "icon": "💰",
+            "detail": "Vintage metal register heavy enough to cause fatal blunt force trauma."
+          },
+          {
+            "name": "Oven Paddle",
+            "icon": "🥄",
+            "detail": "Long wooden paddle used for retrieving bagels from the brick oven."
+          },
+          {
+            "name": "Meat Cleaver",
+            "icon": "🪓",
+            "detail": "Sharp cleaver used for cutting sandwich meats and vegetables."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Behind Counter",
+            "icon": "🏪",
+            "detail": "The cramped workspace where Goldstein was discovered face-down."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, steamy back room where bagels are mixed and baked."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Narrow space filled with flour sacks and cleaning supplies."
+          },
+          {
+            "name": "Customer Area",
+            "icon": "☕",
+            "detail": "Small seating area with four mismatched tables and chairs."
+          },
+          {
+            "name": "Office",
+            "icon": "🗃️",
+            "detail": "Tiny back office where Goldstein kept his books and met with vendors."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "6:00-7:00 PM",
+            "icon": "🕕",
+            "detail": "Early evening when regular customers usually arrive for dinner bagels."
+          },
+          {
+            "name": "7:00-8:00 PM",
+            "icon": "🕖",
+            "detail": "Closing time period when Goldstein typically balanced the register alone."
+          },
+          {
+            "name": "8:00-9:00 PM",
+            "icon": "🕗",
+            "detail": "After hours when the shop should have been locked and empty."
+          },
+          {
+            "name": "9:00-10:00 PM",
+            "icon": "🕘",
+            "detail": "Late evening when neighboring businesses close and foot traffic diminishes."
+          },
+          {
+            "name": "10:00-11:00 PM",
+            "icon": "🕙",
+            "detail": "Night hours when only the street lights illuminate the empty shop."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Flour Footprints",
+        "text": "A trail of flour leads from the storage room to behind the counter. The footprints match work boots, size 10, with a distinctive worn heel pattern that's clearly visible.",
+        "alone": "Someone walked from the storage room to where the body was found.",
+        "links": [
+          {
+            "clueId": "D4",
+            "insight": "The work boots belong to Tommy Chen, whose delivery schedule shows he was there during the 7:00-8:00 PM window."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Officer Martinez's Report",
+        "text": "Beat cop Martinez states he saw Joey Marconi leaving the bagel shop around 8:15 PM, looking agitated and walking quickly toward his car. Martinez knows Marconi from previous encounters and is certain of the identification.",
+        "alone": "A police officer witnessed Joey Marconi leaving the shop during the crucial time period.",
+        "links": [
+          {
+            "clueId": "D5",
+            "insight": "Martinez was mistaken about the time - his police radio logs show he was responding to a call across town at 8:15 PM."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🩸",
+        "heading": "Blood Evidence",
+        "text": "Blood droplets on the bagel slicer's blade and base indicate it was used in the attack. The spatter pattern shows the victim was struck while facing away from his attacker.",
+        "alone": "The bagel slicer was the murder weapon based on blood spatter analysis.",
+        "links": [
+          {
+            "clueId": "D6",
+            "insight": "The blood evidence places the murder during the 7:00-8:00 PM window based on coagulation patterns."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Delivery Schedule",
+        "text": "Tommy Chen's delivery records show he arrived at 7:45 PM with a flour shipment. His work boots match the flour footprints, and he admits to accessing the storage room during this time.",
+        "alone": "Tommy made a delivery during the crucial time window and his boots match the evidence.",
+        "links": [
+          {
+            "clueId": "D1",
+            "insight": "The work boots belong to Tommy Chen, whose delivery schedule shows he was there during the 7:00-8:00 PM window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "📻",
+        "heading": "Police Radio Logs",
+        "text": "NYPD dispatch records show Officer Martinez responded to a domestic disturbance call at 8:10 PM on the other side of Brooklyn. The call lasted until 8:45 PM according to official logs.",
+        "alone": "Police records contradict Martinez's testimony about being at the bagel shop.",
+        "links": [
+          {
+            "clueId": "D2",
+            "insight": "Martinez was mistaken about the time - his police radio logs show he was responding to a call across town at 8:15 PM."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Time of Death",
+        "text": "The medical examiner determines Goldstein died between 7:30-8:00 PM based on body temperature and blood coagulation. The wound patterns confirm the bagel slicer as the weapon.",
+        "alone": "Forensic evidence narrows down exactly when the murder occurred.",
+        "links": [
+          {
+            "clueId": "D3",
+            "insight": "The blood evidence places the murder during the 7:00-8:00 PM window based on coagulation patterns."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Chen",
+      "weapon": "Bagel Slicer",
+      "location": "Behind Counter",
+      "window": "7:00-8:00 PM"
+    },
+    "epilogue": "Tommy Chen's family bakery had been struggling since Goldstein undercut their wholesale prices, forcing them toward bankruptcy. When he discovered Goldstein was still at the shop during his evening delivery, years of resentment boiled over into a moment of fatal rage. Using the bagel slicer during the 7:00-8:00 PM window, Tommy struck down the man behind the counter who had destroyed his livelihood. Now both families' legacies lie in ruins, victims of a neighborhood feud that escalated beyond all reason."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "013",
+    "title": "Brooklyn Bagel Betrayal",
+    "flavor": "The smell of fresh bagels mingles with the metallic scent of blood in Goldstein's Bagels, a neighborhood institution since 1973. When the owner is found dead behind the counter, the tight-knit community of regulars becomes a web of suspects with deep-running grudges.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Torrino",
+            "icon": "🤵",
+            "detail": "Former business partner who lost his bakery to Goldstein in a bitter legal dispute."
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩‍🍳",
+            "detail": "Head baker fired last month after twenty years of loyal service."
+          },
+          {
+            "name": "Tommy Chen",
+            "icon": "🚚",
+            "detail": "Delivery driver whose family business was undercut by Goldstein's supplier deals."
+          },
+          {
+            "name": "Rebecca Walsh",
+            "icon": "👩‍💼",
+            "detail": "Health inspector who received anonymous tips about violations that turned out false."
+          },
+          {
+            "name": "Joey Marconi",
+            "icon": "👨‍💼",
+            "detail": "Loan shark who had been pressuring Goldstein for overdue payments."
+          },
+          {
+            "name": "Frank Petrosky",
+            "icon": "🔧",
+            "detail": "Maintenance worker who was allegedly overcharged for equipment repairs by Goldstein."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bagel Slicer",
+            "icon": "🔪",
+            "detail": "Industrial bread slicer with a razor-sharp rotating blade."
+          },
+          {
+            "name": "Rolling Pin",
+            "icon": "🥖",
+            "detail": "Heavy marble rolling pin from the prep station."
+          },
+          {
+            "name": "Cash Register",
+            "icon": "💰",
+            "detail": "Vintage metal register heavy enough to cause fatal blunt force trauma."
+          },
+          {
+            "name": "Oven Paddle",
+            "icon": "🥄",
+            "detail": "Long wooden paddle used for retrieving bagels from the brick oven."
+          },
+          {
+            "name": "Meat Cleaver",
+            "icon": "🪓",
+            "detail": "Sharp cleaver used for cutting sandwich meats and vegetables."
+          },
+          {
+            "name": "Pipe Wrench",
+            "icon": "🔧",
+            "detail": "Heavy plumbing tool capable of delivering fatal blunt force trauma."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Behind Counter",
+            "icon": "🏪",
+            "detail": "The cramped workspace where Goldstein was discovered face-down."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, steamy back room where bagels are mixed and baked."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Narrow space filled with flour sacks and cleaning supplies."
+          },
+          {
+            "name": "Customer Area",
+            "icon": "☕",
+            "detail": "Small seating area with four mismatched tables and chairs."
+          },
+          {
+            "name": "Office",
+            "icon": "🗃️",
+            "detail": "Tiny back office where Goldstein kept his books and met with vendors."
+          },
+          {
+            "name": "Basement",
+            "icon": "⬇️",
+            "detail": "Lower level containing water heater, electrical panels, and old equipment."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "6:00-7:00 PM",
+            "icon": "🕕",
+            "detail": "Early evening when regular customers usually arrive for dinner bagels."
+          },
+          {
+            "name": "7:00-8:00 PM",
+            "icon": "🕖",
+            "detail": "Closing time period when Goldstein typically balanced the register alone."
+          },
+          {
+            "name": "8:00-9:00 PM",
+            "icon": "🕗",
+            "detail": "After hours when the shop should have been locked and empty."
+          },
+          {
+            "name": "9:00-10:00 PM",
+            "icon": "🕘",
+            "detail": "Late evening when neighboring businesses close and foot traffic diminishes."
+          },
+          {
+            "name": "10:00-11:00 PM",
+            "icon": "🕙",
+            "detail": "Night hours when only the street lights illuminate the empty shop."
+          },
+          {
+            "name": "11:00 PM-12:00 AM",
+            "icon": "🕚",
+            "detail": "Late night hours when the neighborhood is virtually deserted."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Front Door Key",
+            "icon": "🔑",
+            "detail": "Master key that unlocks the main entrance to the shop."
+          },
+          {
+            "name": "Back Door Jimmied",
+            "icon": "🔓",
+            "detail": "Rear entrance forced open with tool marks on the frame."
+          },
+          {
+            "name": "Basement Window",
+            "icon": "🪟",
+            "detail": "Small window leading to basement, found unlatched from inside."
+          },
+          {
+            "name": "Delivery Entrance",
+            "icon": "📦",
+            "detail": "Loading dock door used by vendors, secured with simple padlock."
+          },
+          {
+            "name": "Already Inside",
+            "icon": "🏢",
+            "detail": "Person was legitimately present when shop closed, hiding until alone."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🏠",
+            "detail": "Entry through rooftop maintenance hatch connected to adjacent building."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Multiple Entry Points",
+        "text": "Flour footprints suggest the perpetrator entered through the delivery entrance, as traces of flour from broken bags near that door match the trail. However, the basement window is also found unlatched.",
+        "alone": "Evidence points to entry through the delivery area, though other access points were compromised.",
+        "links": [
+          {
+            "clueId": "I4",
+            "insight": "Tommy Chen had legitimate access through the delivery entrance due to his scheduled flour shipment."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender's Statement",
+        "text": "Mickey from the tavern next door swears he saw Maria Santos climbing down the fire escape behind the building around 7:30 PM. He was taking out trash and got a clear view in the alley lighting.",
+        "alone": "A credible witness places Maria using an unusual route near the crime time.",
+        "links": [
+          {
+            "clueId": "I5",
+            "insight": "Mickey confused Maria with her sister Rosa, who was actually visiting the upstairs apartment and used the fire escape legitimately."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Delivery Schedules",
+        "text": "Multiple vendors had access to delivery entrance keys, including Tommy Chen for flour, Vincent Torrino for specialty items, and Frank Petrosky for equipment maintenance. All three had reasons to be there that evening.",
+        "alone": "Several suspects had legitimate access to the shop through delivery arrangements.",
+        "links": [
+          {
+            "clueId": "I6",
+            "insight": "Only Tommy Chen used the delivery entrance that evening - his key card logged entry at 7:35 PM."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Security Logs",
+        "text": "Tommy Chen's delivery company uses electronic key cards that log entry times. His card accessed the delivery entrance at 7:35 PM, consistent with his scheduled flour delivery that evening.",
+        "alone": "Electronic records confirm Tommy entered through the delivery door during the critical timeframe.",
+        "links": [
+          {
+            "clueId": "I1",
+            "insight": "Tommy Chen had legitimate access through the delivery entrance due to his scheduled flour shipment."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "👥",
+        "heading": "Identity Mix-up",
+        "text": "Rosa Santos, Maria's twin sister, was visiting the upstairs apartment and used the fire escape to avoid the landlord. Security camera footage shows the woman on the fire escape was wearing Rosa's distinctive red coat, not Maria's usual blue jacket.",
+        "alone": "Video evidence reveals the woman on the fire escape was not who the witness thought.",
+        "links": [
+          {
+            "clueId": "I2",
+            "insight": "Mickey confused Maria with her sister Rosa, who was actually visiting the upstairs apartment and used the fire escape legitimately."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "physical",
+        "icon": "💳",
+        "heading": "Electronic Access Records",
+        "text": "The delivery entrance keycard system shows only one entry that evening - Tommy Chen's card at 7:35 PM. No other electronic access was recorded, ruling out Vincent and Frank's authorized keys.",
+        "alone": "Digital logs prove only one person used authorized access that evening.",
+        "links": [
+          {
+            "clueId": "I3",
+            "insight": "Only Tommy Chen used the delivery entrance that evening - his key card logged entry at 7:35 PM."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Chen",
+      "weapon": "Bagel Slicer",
+      "location": "Behind Counter",
+      "window": "7:00-8:00 PM",
+      "access": "Delivery Entrance"
+    },
+    "epilogue": "Tommy Chen's family bakery had been struggling since Goldstein undercut their wholesale prices, forcing them toward bankruptcy. When he made his scheduled delivery through the delivery entrance during the 7:00-8:00 PM window, years of resentment boiled over into fatal violence. Using the bagel slicer behind the counter, Tommy struck down the man who had destroyed his family's livelihood. Now both families' legacies lie in ruins, victims of a neighborhood feud that escalated beyond all reason."
+  }
+}
