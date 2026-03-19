@@ -1,0 +1,651 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #008",
+    "title": "Dome's Last Signal",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The red dust of Mars swirled outside Olympus Base as the colony's most respected engineer was found dead in the communication hub. The sealed dome that has protected thousands of colonists for decades now harbors a killer among its trusted residents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "👩‍🔬",
+            "detail": "Chief atmospheric engineer who discovered inconsistencies in Elena's work."
+          },
+          {
+            "name": "Commander Rex Stone",
+            "icon": "👨‍✈️",
+            "detail": "Military overseer known for his rigid adherence to colonial protocol."
+          },
+          {
+            "name": "Maya Chen",
+            "icon": "👩‍💼",
+            "detail": "Communications officer who had access to all restricted areas."
+          },
+          {
+            "name": "Dr. James Holloway",
+            "icon": "👨‍⚕️",
+            "detail": "Colony physician who treated stress-related injuries among staff."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Electromagnetic Pulse Device",
+            "icon": "⚡",
+            "detail": "Prototype tool that could disable life support systems."
+          },
+          {
+            "name": "Pressurized Air Injector",
+            "icon": "💉",
+            "detail": "Medical instrument capable of causing fatal embolism."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "🔥",
+            "detail": "Industrial tool used for dome maintenance and repairs."
+          },
+          {
+            "name": "Nitrogen Canister",
+            "icon": "🫧",
+            "detail": "Emergency atmospheric component that displaces oxygen."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "🗺️",
+        "items": [
+          {
+            "name": "Communication Hub",
+            "icon": "📡",
+            "detail": "Central control room where Earth transmissions are processed."
+          },
+          {
+            "name": "Medical Laboratory",
+            "icon": "🧪",
+            "detail": "Sterile facility where atmospheric samples are analyzed."
+          },
+          {
+            "name": "Engineering Workshop",
+            "icon": "🔧",
+            "detail": "Technical workspace filled with dome maintenance equipment."
+          },
+          {
+            "name": "Commander's Office",
+            "icon": "🏢",
+            "detail": "Secure administrative center with colony oversight systems."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Sealed Workshop",
+        "text": "The engineering workshop shows signs of recent plasma cutter use, with metal shavings still warm. Security logs indicate Dr. Vasquez's keycard was used to access this area thirty minutes before the body was discovered.",
+        "alone": "Someone used Dr. Vasquez's access credentials for workshop activities before the discovery.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Shift Change Observation",
+        "text": "A maintenance worker reports seeing Commander Stone arguing intensely with someone via private comm channel. The conversation seemed heated, with Stone repeatedly saying 'the colony comes first' before cutting the transmission abruptly.",
+        "alone": "Commander Stone was engaged in a serious disagreement shortly before the incident.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Medical Records",
+        "text": "Dr. Holloway's patient files reveal he'd been treating the victim for severe anxiety and paranoid episodes. Recent entries suggest the victim suspected someone was sabotaging critical dome systems.",
+        "alone": "The victim had been experiencing psychological distress and suspected internal threats.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "technical",
+        "icon": "💻",
+        "heading": "Access Investigation",
+        "text": "Digital forensics reveal Dr. Vasquez's keycard was cloned using specialized equipment available in the communication hub. Maya Chen's workstation shows traces of the cloning software, though she claims ignorance of its presence.",
+        "alone": "Maya Chen's equipment was used to duplicate Dr. Vasquez's security access.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "behavioral",
+        "icon": "🎭",
+        "heading": "Command Decision",
+        "text": "Commander Stone's private logs reveal he discovered serious structural flaws in dome maintenance records. He'd scheduled a confrontation with the victim about falsified safety reports that could endanger the entire colony.",
+        "alone": "Commander Stone had uncovered dangerous deceptions in safety documentation.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Treatment Protocol",
+        "text": "Dr. Holloway's medical equipment is missing a pressurized air injector, and his alibi for the time of death cannot be verified. However, pharmacy records show he was legitimately restocking medical supplies in a different sector.",
+        "alone": "Dr. Holloway's missing equipment raises suspicion, but his documented activities provide some explanation.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maya Chen",
+      "weapon": "Electromagnetic Pulse Device",
+      "location": "Communication Hub"
+    },
+    "epilogue": "Maya Chen's betrayal ran deeper than anyone imagined. As the colony's trusted communications officer, she had been selling Earth transmission data to rival corporations, compromising Olympus Base's strategic advantages. When the victim discovered her treachery through routine system maintenance, Maya knew her lucrative scheme would crumble. In a moment of desperation, she used her technical expertise and access to eliminate the only person who could expose her, never considering that her digital footprints would ultimately reveal her guilt."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #008",
+    "title": "Dome's Last Signal",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The red dust of Mars swirled outside Olympus Base as the colony's most respected engineer was found dead in the communication hub. The sealed dome that has protected thousands of colonists for decades now harbors a killer among its trusted residents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "👩‍🔬",
+            "detail": "Chief atmospheric engineer who discovered inconsistencies in maintenance logs."
+          },
+          {
+            "name": "Commander Rex Stone",
+            "icon": "👨‍✈️",
+            "detail": "Military overseer known for his rigid adherence to colonial protocol."
+          },
+          {
+            "name": "Maya Chen",
+            "icon": "👩‍💼",
+            "detail": "Communications officer who had access to all restricted transmission systems."
+          },
+          {
+            "name": "Dr. James Holloway",
+            "icon": "👨‍⚕️",
+            "detail": "Colony physician who treated stress-related conditions among staff."
+          },
+          {
+            "name": "Tech Sergeant Williams",
+            "icon": "👨‍🔧",
+            "detail": "Senior maintenance specialist responsible for dome integrity systems."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Electromagnetic Pulse Device",
+            "icon": "⚡",
+            "detail": "Prototype tool that could disable life support systems."
+          },
+          {
+            "name": "Pressurized Air Injector",
+            "icon": "💉",
+            "detail": "Medical instrument capable of causing fatal embolism."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "🔥",
+            "detail": "Industrial tool used for dome maintenance and repairs."
+          },
+          {
+            "name": "Nitrogen Canister",
+            "icon": "🫧",
+            "detail": "Emergency atmospheric component that displaces oxygen."
+          },
+          {
+            "name": "Sonic Disruptor",
+            "icon": "🔊",
+            "detail": "Engineering device that generates destructive frequency waves."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "🗺️",
+        "items": [
+          {
+            "name": "Communication Hub",
+            "icon": "📡",
+            "detail": "Central control room where Earth transmissions are processed."
+          },
+          {
+            "name": "Medical Laboratory",
+            "icon": "🧪",
+            "detail": "Sterile facility where atmospheric samples are analyzed."
+          },
+          {
+            "name": "Engineering Workshop",
+            "icon": "🔧",
+            "detail": "Technical workspace filled with dome maintenance equipment."
+          },
+          {
+            "name": "Commander's Office",
+            "icon": "🏢",
+            "detail": "Secure administrative center with colony oversight systems."
+          },
+          {
+            "name": "Atmospheric Processing",
+            "icon": "🌪️",
+            "detail": "Vital systems that maintain breathable air throughout the dome."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Corporate Espionage",
+            "icon": "🕵️",
+            "detail": "Selling colony secrets to competing Mars development companies."
+          },
+          {
+            "name": "Safety Cover-up",
+            "icon": "⚠️",
+            "detail": "Hiding dangerous structural flaws that could destroy the colony."
+          },
+          {
+            "name": "Personal Revenge",
+            "icon": "😠",
+            "detail": "Settling old grudges from Earth-based professional conflicts."
+          },
+          {
+            "name": "Resource Theft",
+            "icon": "💎",
+            "detail": "Stealing valuable rare earth minerals from colonial mining operations."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Concealing fatal mistakes in colonist treatment protocols."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Workshop Evidence",
+        "text": "The engineering workshop contains traces of electromagnetic residue consistent with EMP device activation. Dr. Vasquez's keycard shows unauthorized access, but security footage reveals someone in a maintenance suit obscuring their identity.",
+        "alone": "Someone used specialized electronic equipment in the workshop while concealing their identity.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Report",
+        "text": "Chief Security Officer Rodriguez confidently states he saw Maya Chen entering the communication hub at the estimated time of death. He's certain of the identification despite reviewing footage that shows a figure in standard colony uniform.",
+        "alone": "Security personnel have identified Maya Chen as present at the critical location and time.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Financial Records",
+        "text": "Encrypted files on the victim's personal terminal reveal investigation into suspicious fund transfers from colony accounts. Several transactions trace to shell companies with ties to competing Mars terraforming corporations.",
+        "alone": "The victim had discovered evidence of financial impropriety involving rival companies.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "technical",
+        "icon": "💻",
+        "heading": "Identity Deception",
+        "text": "Enhanced analysis of the workshop security footage shows the maintenance suit belongs to Tech Sergeant Williams, who reports it stolen from his locker earlier that day. The electromagnetic signature matches devices Williams typically operates.",
+        "alone": "Tech Sergeant Williams's equipment and uniform were involved in suspicious workshop activities.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Biometric Analysis",
+        "text": "Advanced facial recognition software contradicts the security officer's identification, revealing the figure entering the communication hub was actually Tech Sergeant Williams wearing Maya Chen's stolen identification badge.",
+        "alone": "Tech Sergeant Williams was present at the communication hub using false identification.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "behavioral",
+        "icon": "🎭",
+        "heading": "Corporate Connection",
+        "text": "Background investigation reveals Tech Sergeant Williams previously worked for Titan Industries before joining the colony. His financial records show recent large deposits from accounts linked to the same shell companies the victim was investigating.",
+        "alone": "Tech Sergeant Williams has financial connections to the corporations under investigation.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tech Sergeant Williams",
+      "weapon": "Electromagnetic Pulse Device",
+      "location": "Communication Hub",
+      "motive": "Corporate Espionage"
+    },
+    "epilogue": "Tech Sergeant Williams had been feeding critical dome engineering data to Titan Industries for months, earning enough to secure his family's future on Earth. When the victim's routine system audit uncovered the data breaches, Williams realized his double life was over. Using his technical expertise and access to colony systems, he eliminated the threat to his lucrative arrangement, never anticipating that his own equipment signatures and stolen credentials would expose his betrayal. The trusted maintenance specialist had sold out the very people who depended on him for their survival."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #008",
+    "title": "Dome's Last Signal",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The red dust of Mars swirled outside Olympus Base as the colony's most respected engineer was found dead in the communication hub. The sealed dome that has protected thousands of colonists for decades now harbors a killer among its trusted residents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "👩‍🔬",
+            "detail": "Chief atmospheric engineer who discovered inconsistencies in maintenance logs."
+          },
+          {
+            "name": "Commander Rex Stone",
+            "icon": "👨‍✈️",
+            "detail": "Military overseer known for his rigid adherence to colonial protocol."
+          },
+          {
+            "name": "Maya Chen",
+            "icon": "👩‍💼",
+            "detail": "Communications officer who had access to all restricted transmission systems."
+          },
+          {
+            "name": "Dr. James Holloway",
+            "icon": "👨‍⚕️",
+            "detail": "Colony physician who treated stress-related conditions among staff."
+          },
+          {
+            "name": "Tech Sergeant Williams",
+            "icon": "👨‍🔧",
+            "detail": "Senior maintenance specialist responsible for dome integrity systems."
+          },
+          {
+            "name": "Director Sarah Cross",
+            "icon": "👩‍💼",
+            "detail": "Administrative head overseeing all colonial operations and external relations."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Electromagnetic Pulse Device",
+            "icon": "⚡",
+            "detail": "Prototype tool that could disable life support systems."
+          },
+          {
+            "name": "Pressurized Air Injector",
+            "icon": "💉",
+            "detail": "Medical instrument capable of causing fatal embolism."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "🔥",
+            "detail": "Industrial tool used for dome maintenance and repairs."
+          },
+          {
+            "name": "Nitrogen Canister",
+            "icon": "🫧",
+            "detail": "Emergency atmospheric component that displaces oxygen."
+          },
+          {
+            "name": "Sonic Disruptor",
+            "icon": "🔊",
+            "detail": "Engineering device that generates destructive frequency waves."
+          },
+          {
+            "name": "Neurotoxin Aerosol",
+            "icon": "☠️",
+            "detail": "Experimental chemical compound designed for pest control systems."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "🗺️",
+        "items": [
+          {
+            "name": "Communication Hub",
+            "icon": "📡",
+            "detail": "Central control room where Earth transmissions are processed."
+          },
+          {
+            "name": "Medical Laboratory",
+            "icon": "🧪",
+            "detail": "Sterile facility where atmospheric samples are analyzed."
+          },
+          {
+            "name": "Engineering Workshop",
+            "icon": "🔧",
+            "detail": "Technical workspace filled with dome maintenance equipment."
+          },
+          {
+            "name": "Commander's Office",
+            "icon": "🏢",
+            "detail": "Secure administrative center with colony oversight systems."
+          },
+          {
+            "name": "Atmospheric Processing",
+            "icon": "🌪️",
+            "detail": "Vital systems that maintain breathable air throughout the dome."
+          },
+          {
+            "name": "Director's Conference Room",
+            "icon": "🏛️",
+            "detail": "Private meeting space for high-level colonial administration discussions."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Corporate Espionage",
+            "icon": "🕵️",
+            "detail": "Selling colony secrets to competing Mars development companies."
+          },
+          {
+            "name": "Safety Cover-up",
+            "icon": "⚠️",
+            "detail": "Hiding dangerous structural flaws that could destroy the colony."
+          },
+          {
+            "name": "Personal Revenge",
+            "icon": "😠",
+            "detail": "Settling old grudges from Earth-based professional conflicts."
+          },
+          {
+            "name": "Resource Theft",
+            "icon": "💎",
+            "detail": "Stealing valuable rare earth minerals from colonial mining operations."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Concealing fatal mistakes in colonist treatment protocols."
+          },
+          {
+            "name": "Political Conspiracy",
+            "icon": "🗳️",
+            "detail": "Eliminating obstacles to unauthorized colonial independence movement."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Maya Chen",
+            "icon": "👩‍💼",
+            "detail": "Communications officer who provided secure transmission capabilities for coordination."
+          },
+          {
+            "name": "Dr. James Holloway",
+            "icon": "👨‍⚕️",
+            "detail": "Colony physician who supplied specialized medical knowledge for the plan."
+          },
+          {
+            "name": "Commander Rex Stone",
+            "icon": "👨‍✈️",
+            "detail": "Military overseer who used authority to manipulate security protocols."
+          },
+          {
+            "name": "Tech Sergeant Williams",
+            "icon": "👨‍🔧",
+            "detail": "Maintenance specialist who provided technical expertise and equipment access."
+          },
+          {
+            "name": "Security Chief Rodriguez",
+            "icon": "👮",
+            "detail": "Security officer who deliberately misdirected investigation efforts."
+          },
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "👩‍🔬",
+            "detail": "Atmospheric engineer who used technical systems knowledge to assist."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Chemical Evidence",
+        "text": "Trace amounts of neurotoxin aerosol are detected in the director's conference room ventilation system. The compound matches experimental pest control substances developed in the medical laboratory under Dr. Holloway's supervision.",
+        "alone": "Specialized chemical compounds were deliberately introduced into the conference room environment.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Administrative Assistant",
+        "text": "Director Cross's assistant reports seeing Commander Stone leaving the director's conference room shortly after a private meeting with the victim. She's certain of the timing because she was preparing end-of-shift reports.",
+        "alone": "Commander Stone was present in the conference room area following a meeting with the victim.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Independence Documents",
+        "text": "Hidden files on the victim's secure partition reveal detailed plans for colonial independence from Earth governance. The documents implicate several high-ranking officials in an unauthorized sovereignty movement that could constitute treason.",
+        "alone": "The victim had uncovered evidence of a significant political conspiracy within colony leadership.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "technical",
+        "icon": "💻",
+        "heading": "Delivery System",
+        "text": "Analysis of the neurotoxin dispersal pattern indicates it was released through Director Cross's private ventilation controls, which require both her administrative access and Dr. Vasquez's engineering override codes to modify safely.",
+        "alone": "Director Cross's system was used with specialized engineering knowledge to deploy the chemical weapon.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Timeline Contradiction",
+        "text": "Security footage reveals the administrative assistant was mistaken about Commander Stone's presence - he was actually in atmospheric processing during the critical timeframe. Director Cross, however, accessed her conference room twice during the relevant period.",
+        "alone": "Director Cross had multiple opportunities while Commander Stone has a verified alibi elsewhere.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "behavioral",
+        "icon": "🎭",
+        "heading": "Conspiracy Network",
+        "text": "Encrypted communication logs show Director Cross coordinating with Dr. Vasquez about 'eliminating obstacles to the new Mars.' The messages reference using Vasquez's technical expertise to ensure 'clean resolution of the problem.'",
+        "alone": "Director Cross and Dr. Vasquez were secretly collaborating on plans involving the victim.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Director Sarah Cross",
+      "weapon": "Neurotoxin Aerosol",
+      "location": "Director's Conference Room",
+      "motive": "Political Conspiracy",
+      "accomplice": "Dr. Elena Vasquez"
+    },
+    "epilogue": "Director Sarah Cross believed Mars deserved independence from Earth's control, and she wasn't alone in that vision. With Dr. Elena Vasquez providing the technical expertise to modify ventilation systems and synthesize the deadly aerosol, Cross orchestrated the perfect crime to eliminate the one person who could expose their revolutionary conspiracy. When the victim discovered their secret independence movement, Cross called a private meeting under the pretense of discussing colony operations, then used her administrative access and Vasquez's engineering knowledge to deploy the neurotoxin through her conference room's air system. The two conspirators had planned for Mars's freedom, but their betrayal of trust and human life would instead secure only their own imprisonment in the very dome they claimed to protect."
+  }
+}
