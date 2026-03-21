@@ -1,0 +1,657 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
+          },
+          {
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
+            "icon": "💰",
+            "detail": "Studio executive with connections to organized crime."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
+          },
+          {
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
+          },
+          {
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
+          },
+          {
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Hidden Medicine",
+        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
+        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👀",
+        "heading": "Overheard Argument",
+        "text": "A grip reports hearing Victoria Sterling and the victim in a heated argument about casting decisions the morning of the murder. Sterling was reportedly furious about losing a lead role.",
+        "alone": "Victoria Sterling had a public confrontation with the victim on the day of the murder.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Fingerprint Evidence",
+        "text": "Eleanor Chase's fingerprints are found on the victim's coffee cup and nearby script pages. She claims they worked together on line rehearsals that morning.",
+        "alone": "Eleanor Chase had recent physical contact with items belonging to the victim.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "witness",
+        "icon": "🗣️",
+        "heading": "Pharmacy Records",
+        "text": "Investigation reveals Frank Morrison visited three different pharmacies in the past week, claiming he needed heart medication for his ailing father. Security footage confirms these visits.",
+        "alone": "Frank Morrison recently acquired heart medication from multiple sources under suspicious circumstances.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Phone Call Testimony",
+        "text": "The studio switchboard operator confirms Victoria Sterling received a frantic phone call during lunch break and immediately left the lot. Phone records show the call came from her agent regarding a new contract opportunity.",
+        "alone": "Victoria Sterling left the studio during the critical time period due to an urgent business call.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Rehearsal Schedule",
+        "text": "The assistant director's logs show Eleanor Chase was scheduled for a private rehearsal with the victim that morning, explaining her presence and the fingerprints on his materials.",
+        "alone": "Eleanor Chase had a legitimate professional reason to be in close contact with the victim.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Morrison",
+      "weapon": "Poison Capsule",
+      "location": "Sound Stage 7"
+    },
+    "epilogue": "Frank Morrison's gambling debts to dangerous men had reached a breaking point, and the victim had discovered his embezzlement from studio funds. Faced with exposure and certain death from his creditors, Morrison saw murder as his only escape. He used his executive access to plant the poisoned capsule in Sound Stage 7, knowing the victim's routine of taking medication before important scenes. The investigation revealed Morrison had been skimming money for months, desperately trying to stay ahead of his mounting obligations to organized crime figures who showed no mercy to debtors."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
+          },
+          {
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
+            "icon": "💰",
+            "detail": "Studio executive with connections to organized crime."
+          },
+          {
+            "name": "Tommy Rodriguez",
+            "icon": "🔧",
+            "detail": "Head of the prop department with access to all studio equipment."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
+          },
+          {
+            "name": "Electrical Cable",
+            "icon": "⚡",
+            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
+          },
+          {
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
+          },
+          {
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
+          },
+          {
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
+          },
+          {
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Warehouse area containing cameras, lights, and technical gear."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Morning Setup (8-10 AM)",
+            "icon": "🌅",
+            "detail": "Early crew preparation before main cast arrives."
+          },
+          {
+            "name": "First Rehearsal (10 AM-12 PM)",
+            "icon": "🎭",
+            "detail": "Initial run-through with principal actors and director."
+          },
+          {
+            "name": "Lunch Break (12-1 PM)",
+            "icon": "🍽️",
+            "detail": "Cast and crew meal period when set is mostly empty."
+          },
+          {
+            "name": "Afternoon Filming (1-4 PM)",
+            "icon": "🎬",
+            "detail": "Main shooting schedule with full cast and crew present."
+          },
+          {
+            "name": "Evening Wrap (4-6 PM)",
+            "icon": "🌆",
+            "detail": "Final shots and equipment breakdown for the day."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Hidden Medicine",
+        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
+        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👀",
+        "heading": "Security Guard Report",
+        "text": "The night security guard swears he saw Marcus Webb leaving the studio at 11 PM the previous evening, well after normal hours. Webb had been working late in his office reviewing dailies and preparing shot lists.",
+        "alone": "Marcus Webb was present at the studio during unusual hours before the murder.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🕐",
+        "heading": "Timestamp Evidence",
+        "text": "Security cameras show the victim entering his dressing room at 12:45 PM during lunch break, taking medication, and collapsing within minutes. The timestamp confirms the narrow window of the crime.",
+        "alone": "The victim died during lunch break after taking medication in his dressing room.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🗣️",
+        "heading": "Pharmacy Investigation",
+        "text": "Frank Morrison visited three different pharmacies last week, purchasing heart medication under false pretenses. He claimed his father needed the prescription but pharmacy records show no legitimate prescriptions.",
+        "alone": "Frank Morrison illegally obtained heart medication through deceptive means.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "📹",
+        "heading": "Film Reel Discovery",
+        "text": "Investigation of Marcus Webb's late-night work reveals he was actually reviewing footage that showed Frank Morrison entering restricted areas after hours. Webb had been building a case against Morrison's suspicious activities.",
+        "alone": "Marcus Webb was investigating Frank Morrison's unauthorized access to secure studio areas.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🍽️",
+        "heading": "Commissary Witness",
+        "text": "The commissary staff confirm Frank Morrison was present during the entire lunch break, having an extended business meeting with visiting investors. Multiple witnesses place him in the dining hall when the victim died.",
+        "alone": "Frank Morrison has a solid alibi supported by multiple witnesses during the time of death.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Webb",
+      "weapon": "Poison Capsule",
+      "location": "Sound Stage 7",
+      "window": "Lunch Break (12-1 PM)"
+    },
+    "epilogue": "Marcus Webb had discovered that the victim was planning to expose his embezzlement of production funds and replace him as director. Desperate to protect his reputation and career, Webb used his knowledge of the studio layout to plant the poison capsule in Sound Stage 7 during the lunch break. His investigation of Frank Morrison was actually a cover, gathering information to frame Morrison for the crime he was planning to commit. Webb's meticulous nature, which made him a successful director, also made him a calculating murderer who nearly succeeded in his elaborate deception."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
+          },
+          {
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
+            "icon": "💰",
+            "detail": "Studio executive with connections to organized crime."
+          },
+          {
+            "name": "Tommy Rodriguez",
+            "icon": "🔧",
+            "detail": "Head of the prop department with access to all studio equipment."
+          },
+          {
+            "name": "Dr. Sarah Chen",
+            "icon": "👩‍⚕️",
+            "detail": "Studio physician who provides medical services to cast and crew."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Murder Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
+          },
+          {
+            "name": "Electrical Cable",
+            "icon": "⚡",
+            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
+          },
+          {
+            "name": "Medical Injection",
+            "icon": "💉",
+            "detail": "A syringe filled with lethal drugs from the medical office."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Crime Scene",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
+          },
+          {
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
+          },
+          {
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
+          },
+          {
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
+          },
+          {
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Warehouse area containing cameras, lights, and technical gear."
+          },
+          {
+            "name": "Medical Office",
+            "icon": "🏥",
+            "detail": "On-site clinic where cast and crew receive medical treatment."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Morning Setup (8-10 AM)",
+            "icon": "🌅",
+            "detail": "Early crew preparation before main cast arrives."
+          },
+          {
+            "name": "First Rehearsal (10 AM-12 PM)",
+            "icon": "🎭",
+            "detail": "Initial run-through with principal actors and director."
+          },
+          {
+            "name": "Lunch Break (12-1 PM)",
+            "icon": "🍽️",
+            "detail": "Cast and crew meal period when set is mostly empty."
+          },
+          {
+            "name": "Afternoon Filming (1-4 PM)",
+            "icon": "🎬",
+            "detail": "Main shooting schedule with full cast and crew present."
+          },
+          {
+            "name": "Evening Wrap (4-6 PM)",
+            "icon": "🌆",
+            "detail": "Final shots and equipment breakdown for the day."
+          },
+          {
+            "name": "Night Security (6 PM-8 AM)",
+            "icon": "🌙",
+            "detail": "After-hours period with minimal staff and security patrols."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Ruin",
+            "icon": "💸",
+            "detail": "Victim threatened to expose embezzlement that would lead to prosecution."
+          },
+          {
+            "name": "Career Destruction",
+            "icon": "📉",
+            "detail": "Victim planned to reveal professional misconduct ending Hollywood dreams."
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Victim was having an affair that would destroy the killer's marriage."
+          },
+          {
+            "name": "Blackmail Scheme",
+            "icon": "🔒",
+            "detail": "Victim discovered illegal activities and was demanding payment for silence."
+          },
+          {
+            "name": "Professional Rivalry",
+            "icon": "🏆",
+            "detail": "Victim was blocking advancement and stealing credit for creative work."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚖️",
+            "detail": "Victim knew about falsified credentials and dangerous treatment of patients."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "Missing Medical Supplies",
+        "text": "Dr. Sarah Chen's medical office inventory shows a missing syringe and vial of morphine, but she claims to have no memory of using them recently. The controlled substances log has been altered with different handwriting.",
+        "alone": "Medical supplies that could be used as murder weapons have disappeared from the studio clinic.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👀",
+        "heading": "Assistant Director's Account",
+        "text": "The assistant director insists he saw Eleanor Chase in deep conversation with the victim near the medical office during lunch break, discussing what appeared to be a private medical matter. Both seemed distressed during the exchange.",
+        "alone": "Eleanor Chase was seen having an intense private discussion with the victim near the medical facility.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "📋",
+        "heading": "Medical Records Discovery",
+        "text": "Hidden in Dr. Chen's office files are forged medical certificates for several cast members, including documentation that would have kept them working despite serious health conditions. The victim's signature appears as a witness on several documents.",
+        "alone": "Falsified medical records with the victim's signature are hidden in the studio medical office.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🔍",
+        "heading": "Pharmacy Investigation",
+        "text": "Local pharmacies report that Tommy Rodriguez has been purchasing large quantities of medical supplies over the past month, claiming he needed them for realistic prop injuries. Security footage confirms these suspicious transactions.",
+        "alone": "Tommy Rodriguez has been secretly acquiring medical supplies that could be used for harmful purposes.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "📞",
+        "heading": "Phone Records Reveal",
+        "text": "Eleanor Chase's phone records show she called a medical licensing board the morning of the murder, asking about procedures for reporting physician misconduct. The call lasted fifteen minutes and she took detailed notes.",
+        "alone": "Eleanor Chase was researching how to report medical professional misconduct on the day of the murder.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Financial Investigation",
+        "text": "Bank records reveal Dr. Sarah Chen has been receiving large cash deposits that don't match her studio physician salary. The victim's personal accountant confirms he had been investigating these suspicious financial transactions for insurance fraud.",
+        "alone": "Dr. Sarah Chen has unexplained income and was under financial investigation by the victim.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Sarah Chen",
+      "weapon": "Medical Injection",
+      "location": "Medical Office",
+      "window": "Lunch Break (12-1 PM)",
+      "motive": "Medical Malpractice"
+    },
+    "epilogue": "Dr. Sarah Chen had been operating with falsified credentials and endangering lives through incompetent medical care while collecting insurance payments for treatments never provided. When the victim discovered her fraud and threatened exposure, she lured him to the medical office during lunch break under the pretense of discussing his health concerns. Using her medical knowledge, she administered a lethal injection that initially appeared to be a heart attack. Chen's desperation to protect her lucrative deception and avoid prosecution for medical malpractice drove her to murder, believing she could use her position as studio physician to control the investigation and cover her tracks."
+  }
+}
