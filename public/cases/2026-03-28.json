@@ -1,0 +1,660 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #024",
+    "title": "Silent Partners",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz has stopped and the gin has gone cold in the Blue Moon Speakeasy. Behind the velvet curtains and cigarette smoke, someone's final performance has come to an end.",
+    "emptyState": "The music died with more than just the night.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent 'Vinny' Torrino",
+            "icon": "🎺",
+            "detail": "Trumpet player whose solos have been getting shorter lately."
+          },
+          {
+            "name": "Stella Marchand",
+            "icon": "💄",
+            "detail": "Singer whose voice could make angels weep or devils dance."
+          },
+          {
+            "name": "Mickey Brennan",
+            "icon": "🍺",
+            "detail": "Bartender who knows everyone's secrets and their poison of choice."
+          },
+          {
+            "name": "Dorothy 'Dot' Fleming",
+            "icon": "🎹",
+            "detail": "Piano player with fingers that dance across keys like lightning."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Gin",
+            "icon": "☠️",
+            "detail": "A shot glass still sitting on the bar, crystal clear death."
+          },
+          {
+            "name": "Lead Pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing from the basement, stained with something dark."
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍾",
+            "detail": "Champagne bottle shattered into jagged pieces near the stage."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎵",
+            "detail": "Thin steel string that once made music, now silent and deadly."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar",
+            "icon": "🍻",
+            "detail": "Where the poison flows freely and last calls echo forever."
+          },
+          {
+            "name": "Back Office",
+            "icon": "🗃️",
+            "detail": "Private room where the real business of the night gets done."
+          },
+          {
+            "name": "Stage Area",
+            "icon": "🎤",
+            "detail": "Under the spotlight where performers live and die by applause."
+          },
+          {
+            "name": "Storage Cellar",
+            "icon": "📦",
+            "detail": "Dark basement where bottles rest and bodies could disappear."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Jazz pianist Tommy Castellano lies crumpled behind his piano, a half-empty gin glass nearby. The ivory keys are stained with blood from his final, discordant chord.",
+        "alone": "A musician's last performance ended in violence and gin.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Backstage Whispers",
+        "text": "The cleaning lady swears she saw Stella Marchand arguing with someone in the back office around midnight. Stella's red lipstick was smudged and her hands were shaking when she emerged.",
+        "alone": "A singer's composure cracked behind closed doors.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "A piano wire has been cut from Tommy's instrument, leaving a sharp end that matches wounds on his neck. The wire cutter was found in Mickey Brennan's bartending kit.",
+        "alone": "Musical instruments can become weapons in skilled hands.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Dot Fleming's fingerprints are all over the gin glass, but she claims she was only trying to clean up after finding Tommy's body. Her alibi places her at the piano during the time of death.",
+        "alone": "Clean hands don't always mean a clean conscience.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Backstage Whispers",
+        "text": "Stella produces a love letter from Vinny Torrino, proving their secret romance and confirming he was with her during the murder. The timestamp on the letter matches the cleaning lady's sighting.",
+        "alone": "Love letters can be the strongest alibi of all.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "Mickey's tools were stolen from behind the bar earlier that evening, witnessed by three patrons who saw Dot Fleming near his station. Mickey was serving customers continuously and has dozens of witnesses.",
+        "alone": "Sometimes the guilty borrow tools from the innocent.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy 'Dot' Fleming",
+      "weapon": "Piano Wire",
+      "location": "Stage Area"
+    },
+    "epilogue": "Dot Fleming had grown tired of living in Tommy Castellano's shadow, watching him take credit for her musical arrangements night after night. When Tommy threatened to fire her for demanding recognition, she snapped, using her intimate knowledge of the piano to turn his own instrument against him. The stolen piano wire became her weapon of choice, and the stage where she'd been overlooked became the scene of her final, deadly performance. As the police led her away, her fingers still moved as if playing invisible keys."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #024",
+    "title": "Silent Partners",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz has stopped and the gin has gone cold in the Blue Moon Speakeasy. Behind the velvet curtains and cigarette smoke, someone's final performance has come to an end.",
+    "emptyState": "The music died with more than just the night.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent 'Vinny' Torrino",
+            "icon": "🎺",
+            "detail": "Trumpet player whose solos have been getting shorter lately."
+          },
+          {
+            "name": "Stella Marchand",
+            "icon": "💄",
+            "detail": "Singer whose voice could make angels weep or devils dance."
+          },
+          {
+            "name": "Mickey Brennan",
+            "icon": "🍺",
+            "detail": "Bartender who knows everyone's secrets and their poison of choice."
+          },
+          {
+            "name": "Dorothy 'Dot' Fleming",
+            "icon": "🎹",
+            "detail": "Piano player with fingers that dance across keys like lightning."
+          },
+          {
+            "name": "Frank 'The Fingers' Moretto",
+            "icon": "🎰",
+            "detail": "Card sharp who plays music as well as he plays suckers."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Gin",
+            "icon": "☠️",
+            "detail": "A shot glass still sitting on the bar, crystal clear death."
+          },
+          {
+            "name": "Lead Pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing from the basement, stained with something dark."
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍾",
+            "detail": "Champagne bottle shattered into jagged pieces near the stage."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎵",
+            "detail": "Thin steel string that once made music, now silent and deadly."
+          },
+          {
+            "name": "Brass Knuckles",
+            "icon": "👊",
+            "detail": "Chicago iron worn smooth by countless violent nights."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar",
+            "icon": "🍻",
+            "detail": "Where the poison flows freely and last calls echo forever."
+          },
+          {
+            "name": "Back Office",
+            "icon": "🗃️",
+            "detail": "Private room where the real business of the night gets done."
+          },
+          {
+            "name": "Stage Area",
+            "icon": "🎤",
+            "detail": "Under the spotlight where performers live and die by applause."
+          },
+          {
+            "name": "Storage Cellar",
+            "icon": "📦",
+            "detail": "Dark basement where bottles rest and bodies could disappear."
+          },
+          {
+            "name": "Dressing Room",
+            "icon": "🎭",
+            "detail": "Where masks come off and true faces are revealed."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Professional Jealousy",
+            "icon": "😤",
+            "detail": "Years of watching someone else take credit for your genius."
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Love turned to hatred when promises were broken."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💰",
+            "detail": "Debts that demanded payment in blood or money."
+          },
+          {
+            "name": "Blackmail Secret",
+            "icon": "🤐",
+            "detail": "Dark truths that some would kill to keep buried."
+          },
+          {
+            "name": "Territory War",
+            "icon": "⚔️",
+            "detail": "Business disputes settled with violence in the Chicago way."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Jazz pianist Tommy Castellano lies crumpled behind his piano, a half-empty gin glass nearby. The ivory keys are stained with blood from his final, discordant chord.",
+        "alone": "A musician's last performance ended in violence and gin.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Reliable Source",
+        "text": "Police Captain Murphy, who frequents the Blue Moon, swears he saw Frank 'The Fingers' Moretto leaving through the back exit around the time of murder. Murphy stakes his reputation on the identification, despite the dim lighting.",
+        "alone": "A trusted lawman's testimony carries weight in any investigation.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "A piano wire has been cut from Tommy's instrument, leaving a sharp end that matches wounds on his neck. Sheet music scattered nearby shows arrangements credited to Tommy but written in someone else's handwriting.",
+        "alone": "Musical genius often hides behind false signatures.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Dot Fleming's fingerprints are all over the scene, but she claims she was only trying to clean up after finding Tommy's body. Security footage shows her at the piano during the supposed time of death.",
+        "alone": "Clean hands don't always mean a clean conscience.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Reliable Source",
+        "text": "Frank Moretto produces gambling receipts from a back-room poker game that ran until 3 AM, with multiple witnesses confirming his presence. Captain Murphy realizes he mistook Frank for someone else in the smoky darkness.",
+        "alone": "Even the most reliable eyes can deceive in shadow and smoke.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "The handwriting on the sheet music matches Dot Fleming's personal notes found in her dressing room. Tommy had been stealing her compositions and passing them off as his own for months.",
+        "alone": "Theft of artistic genius cuts deeper than any blade.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy 'Dot' Fleming",
+      "weapon": "Piano Wire",
+      "location": "Stage Area",
+      "motive": "Professional Jealousy"
+    },
+    "epilogue": "Dot Fleming had endured months of watching Tommy Castellano steal her musical arrangements and claim them as his own brilliant compositions. When she finally confronted him that night, demanding recognition for her work, Tommy laughed and threatened to fire her if she made trouble. Her years of professional jealousy boiled over into rage, and she used the very piano wire from the instrument that had made him famous to end his thieving career forever. The stage where he'd stolen her spotlight became the scene of her deadly revenge, played out with the precision of a master musician."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #024",
+    "title": "Silent Partners",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz has stopped and the gin has gone cold in the Blue Moon Speakeasy. Behind the velvet curtains and cigarette smoke, someone's final performance has come to an end.",
+    "emptyState": "The music died with more than just the night.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent 'Vinny' Torrino",
+            "icon": "🎺",
+            "detail": "Trumpet player whose solos have been getting shorter lately."
+          },
+          {
+            "name": "Stella Marchand",
+            "icon": "💄",
+            "detail": "Singer whose voice could make angels weep or devils dance."
+          },
+          {
+            "name": "Mickey Brennan",
+            "icon": "🍺",
+            "detail": "Bartender who knows everyone's secrets and their poison of choice."
+          },
+          {
+            "name": "Dorothy 'Dot' Fleming",
+            "icon": "🎹",
+            "detail": "Piano player with fingers that dance across keys like lightning."
+          },
+          {
+            "name": "Frank 'The Fingers' Moretto",
+            "icon": "🎰",
+            "detail": "Card sharp who plays music as well as he plays suckers."
+          },
+          {
+            "name": "Anthony 'Big Tony' Scalise",
+            "icon": "💼",
+            "detail": "Businessman who owns half of Chicago's entertainment district."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Gin",
+            "icon": "☠️",
+            "detail": "A shot glass still sitting on the bar, crystal clear death."
+          },
+          {
+            "name": "Lead Pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing from the basement, stained with something dark."
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍾",
+            "detail": "Champagne bottle shattered into jagged pieces near the stage."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎵",
+            "detail": "Thin steel string that once made music, now silent and deadly."
+          },
+          {
+            "name": "Brass Knuckles",
+            "icon": "👊",
+            "detail": "Chicago iron worn smooth by countless violent nights."
+          },
+          {
+            "name": "Stiletto Knife",
+            "icon": "🗡️",
+            "detail": "Slender blade that slides between ribs like a whisper."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar",
+            "icon": "🍻",
+            "detail": "Where the poison flows freely and last calls echo forever."
+          },
+          {
+            "name": "Back Office",
+            "icon": "🗃️",
+            "detail": "Private room where the real business of the night gets done."
+          },
+          {
+            "name": "Stage Area",
+            "icon": "🎤",
+            "detail": "Under the spotlight where performers live and die by applause."
+          },
+          {
+            "name": "Storage Cellar",
+            "icon": "📦",
+            "detail": "Dark basement where bottles rest and bodies could disappear."
+          },
+          {
+            "name": "Dressing Room",
+            "icon": "🎭",
+            "detail": "Where masks come off and true faces are revealed."
+          },
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded corner where Chicago's elite conduct their darkest business."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Professional Jealousy",
+            "icon": "😤",
+            "detail": "Years of watching someone else take credit for your genius."
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Love turned to hatred when promises were broken."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💰",
+            "detail": "Debts that demanded payment in blood or money."
+          },
+          {
+            "name": "Blackmail Secret",
+            "icon": "🤐",
+            "detail": "Dark truths that some would kill to keep buried."
+          },
+          {
+            "name": "Territory War",
+            "icon": "⚔️",
+            "detail": "Business disputes settled with violence in the Chicago way."
+          },
+          {
+            "name": "Family Honor",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "Blood debts that span generations and demand satisfaction."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Vincent 'Vinny' Torrino",
+            "icon": "🎺",
+            "detail": "Trumpet player whose loyalty runs deeper than music."
+          },
+          {
+            "name": "Stella Marchand",
+            "icon": "💄",
+            "detail": "Singer who harmonizes in more than just melody."
+          },
+          {
+            "name": "Mickey Brennan",
+            "icon": "🍺",
+            "detail": "Bartender who serves more than just drinks."
+          },
+          {
+            "name": "Frank 'The Fingers' Moretto",
+            "icon": "🎰",
+            "detail": "Card sharp who deals in favors as well as cards."
+          },
+          {
+            "name": "Anthony 'Big Tony' Scalise",
+            "icon": "💼",
+            "detail": "Businessman whose empire is built on mutual assistance."
+          },
+          {
+            "name": "Luca 'Lucky' Benedetto",
+            "icon": "🎲",
+            "detail": "Numbers runner who keeps books and settles scores."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Jazz pianist Tommy Castellano lies crumpled behind his piano, a half-empty gin glass nearby. The ivory keys are stained with blood from his final, discordant chord.",
+        "alone": "A musician's last performance ended in violence and gin.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Credible Testimony",
+        "text": "Police Captain Murphy, who frequents the Blue Moon, swears he saw Big Tony Scalise's distinctive silhouette leaving through the back exit around the time of murder. Murphy's been walking this beat for twenty years and knows every regular.",
+        "alone": "A veteran cop's eyes rarely deceive him about familiar faces.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "A piano wire has been cut from Tommy's instrument, the sharp end matching wounds on his neck. Sheet music scattered nearby shows arrangements credited to Tommy but written in distinctly feminine handwriting.",
+        "alone": "Stolen artistry leaves traces in more than just wounded pride.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "💀",
+        "heading": "The Final Act",
+        "text": "Dot Fleming's fingerprints cover the scene, but multiple witnesses place her performing on stage during the supposed time of death. The security footage confirms her alibi, yet something feels orchestrated about the timing.",
+        "alone": "Perfect alibis sometimes require perfect planning and perfect partners.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Credible Testimony",
+        "text": "Big Tony produces receipts from a high-stakes card game that ran until dawn, with Chicago's elite vouching for his presence. Captain Murphy realizes the back lighting created a shadow that could have been anyone of similar build.",
+        "alone": "Shadows and smoke can transform any silhouette into a familiar enemy.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Deadly Strings",
+        "text": "Luca 'Lucky' Benedetto's business card falls from Tommy's pocket, with a time written on it matching exactly when the murder occurred. Lucky admits he was supposed to meet someone at that moment to 'handle a problem.'",
+        "alone": "Numbers runners keep precise schedules, especially for deadly appointments.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy 'Dot' Fleming",
+      "weapon": "Piano Wire",
+      "location": "Stage Area",
+      "motive": "Professional Jealousy",
+      "accomplice": "Luca 'Lucky' Benedetto"
+    },
+    "epilogue": "Dot Fleming had suffered in silence for months as Tommy Castellano stole her musical compositions and claimed them as his own genius. When confrontation failed, she turned to Luca 'Lucky' Benedetto, who owed her a favor from their childhood in Little Italy. Lucky created the perfect alibi by ensuring she was performing on stage while he lured Tommy backstage with promises of a business opportunity. Together, they orchestrated Tommy's murder with the precision of a musical score, using the very piano wire from the instrument that had made him famous. Professional jealousy had found its deadly harmony through the bonds of old neighborhood loyalty."
+  }
+}
