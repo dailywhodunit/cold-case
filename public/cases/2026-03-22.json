@@ -1,0 +1,711 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #015",
+    "title": "The Sealed Archive",
+    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
+    "setting": "Oxford University · England · 1932",
+    "emoji": "🏛️",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Margaret Whitmore",
+            "icon": "📚",
+            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+          },
+          {
+            "name": "Edward Blackwood",
+            "icon": "💰",
+            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
+          },
+          {
+            "name": "Professor Davies",
+            "icon": "🔍",
+            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
+          },
+          {
+            "name": "Thomas Fletcher",
+            "icon": "🔐",
+            "detail": "The night watchman who had access to all areas of the library after hours."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Heavy Manuscript",
+            "icon": "📜",
+            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+          },
+          {
+            "name": "Stone Gargoyle",
+            "icon": "🗿",
+            "detail": "A decorative piece that had been recently moved during library renovations."
+          },
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Restricted Archive",
+            "icon": "🔒",
+            "detail": "The secured manuscript collection where only senior staff held keys."
+          },
+          {
+            "name": "Reading Room",
+            "icon": "📖",
+            "detail": "The main study hall where scholars examined rare documents under supervision."
+          },
+          {
+            "name": "Professor's Office",
+            "icon": "🏢",
+            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+          },
+          {
+            "name": "Library Courtyard",
+            "icon": "🏛️",
+            "detail": "The stone-paved area between the old and new wings of the building."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Ink-Stained Fingers",
+        "text": "Fresh blue ink stains cover Dr. Whitmore's right hand, matching the ink used to forge medieval manuscript annotations. She claims she was cataloguing in the archive when the murder occurred.",
+        "alone": "Dr. Whitmore has suspicious ink stains that suggest forgery work.",
+        "links": [
+          {
+            "to": "R4",
+            "insight": "The ink stains match the forged annotations found on the manuscript clutched in the victim's hand."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Nephew's Alibi",
+        "text": "Edward Blackwood was seen entering the library at 9 PM by multiple witnesses. Professor Davies confirms seeing Edward leave through the main entrance around 10:30 PM, well before the body was discovered.",
+        "alone": "Edward has a solid alibi confirmed by Professor Davies.",
+        "links": [
+          {
+            "to": "R5",
+            "insight": "Edward's departure time conflicts with his claim of finding the body first at 11 PM."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "The Will Fragment",
+        "text": "A torn piece of parchment near the body contains part of Professor Blackwood's will, mentioning substantial bequests to the library. Thomas Fletcher admits he was curious about the inheritance after overhearing heated arguments.",
+        "alone": "Fletcher shows suspicious knowledge about the victim's will and inheritance disputes.",
+        "links": [
+          {
+            "to": "R6",
+            "insight": "The will fragment reveals Fletcher would receive nothing, eliminating his financial motive for murder."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Forged Annotations",
+        "text": "The manuscript in the victim's hand contains freshly forged annotations attempting to increase its value. The forgery work appears rushed and recent, completed within hours of the murder.",
+        "alone": "Someone forged valuable annotations on the manuscript just before the murder occurred.",
+        "links": [
+          {
+            "to": "R1",
+            "insight": "The ink stains match the forged annotations found on the manuscript clutched in the victim's hand."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Timeline Contradiction",
+        "text": "Edward claims he returned to find his uncle's body at 11 PM, but the library's main doors were locked at 10:45 PM. Only staff members with keys could enter or exit after that time.",
+        "alone": "Edward's timeline doesn't match the library's locking schedule, suggesting deception.",
+        "links": [
+          {
+            "to": "R2",
+            "insight": "Edward's departure time conflicts with his claim of finding the body first at 11 PM."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Complete Will",
+        "text": "The full will reveals that Fletcher receives no inheritance, while Dr. Whitmore stands to inherit the entire manuscript collection if she can prove her authentication skills. The collection is worth over £50,000.",
+        "alone": "The will shows significant financial motives for some individuals but eliminates others as beneficiaries.",
+        "links": [
+          {
+            "to": "R3",
+            "insight": "The will fragment reveals Fletcher would receive nothing, eliminating his financial motive for murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Margaret Whitmore",
+      "weapon": "Heavy Manuscript",
+      "location": "Restricted Archive"
+    },
+    "epilogue": "Dr. Margaret Whitmore's desperation to prove her worth as a manuscript authenticator led her down a dark path. When Professor Blackwood discovered her forgeries, she struck him with the very manuscript she had tried to enhance, fearing exposure would destroy her career and inheritance. The brilliant scholar's ambition ultimately became her downfall, costing both her mentor's life and her own future in academia."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #015",
+    "title": "The Sealed Archive",
+    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
+    "setting": "Oxford University · England · 1932",
+    "emoji": "🏛️",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Margaret Whitmore",
+            "icon": "📚",
+            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+          },
+          {
+            "name": "Edward Blackwood",
+            "icon": "💰",
+            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
+          },
+          {
+            "name": "Professor Davies",
+            "icon": "🔍",
+            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
+          },
+          {
+            "name": "Thomas Fletcher",
+            "icon": "🔐",
+            "detail": "The night watchman who had access to all areas of the library after hours."
+          },
+          {
+            "name": "Lady Pemberton",
+            "icon": "💎",
+            "detail": "A wealthy collector who had been negotiating to purchase part of the manuscript collection."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Heavy Manuscript",
+            "icon": "📜",
+            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+          },
+          {
+            "name": "Stone Gargoyle",
+            "icon": "🗿",
+            "detail": "A decorative piece that had been recently moved during library renovations."
+          },
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+          },
+          {
+            "name": "Iron Bookend",
+            "icon": "📚",
+            "detail": "A medieval-styled piece used to secure heavy volumes on the archive shelves."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Restricted Archive",
+            "icon": "🔒",
+            "detail": "The secured manuscript collection where only senior staff held keys."
+          },
+          {
+            "name": "Reading Room",
+            "icon": "📖",
+            "detail": "The main study hall where scholars examined rare documents under supervision."
+          },
+          {
+            "name": "Professor's Office",
+            "icon": "🏢",
+            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+          },
+          {
+            "name": "Library Courtyard",
+            "icon": "🏛️",
+            "detail": "The stone-paved area between the old and new wings of the building."
+          },
+          {
+            "name": "Binding Workshop",
+            "icon": "🔨",
+            "detail": "The restoration room where damaged manuscripts were carefully repaired and rebound."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:00-9:30 PM",
+            "icon": "🕘",
+            "detail": "Early evening when the library was still officially open to senior researchers."
+          },
+          {
+            "name": "9:30-10:00 PM",
+            "icon": "🕘",
+            "detail": "The transition period when most staff were departing for the night."
+          },
+          {
+            "name": "10:00-10:30 PM",
+            "icon": "🕘",
+            "detail": "After closing time when only authorized personnel remained in the building."
+          },
+          {
+            "name": "10:30-11:00 PM",
+            "icon": "🕘",
+            "detail": "Late evening when the building was locked and only key holders had access."
+          },
+          {
+            "name": "11:00-11:30 PM",
+            "icon": "🕘",
+            "detail": "The period just before the body was discovered by the night watchman."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Ink-Stained Evidence",
+        "text": "Fresh blue ink stains cover Dr. Whitmore's hands and cuffs, matching the specialized ink used for manuscript restoration. She nervously explains she was working late on authentication documentation in the archive.",
+        "alone": "Dr. Whitmore has suspicious ink stains and was working alone in the archive area.",
+        "links": [
+          {
+            "to": "D4",
+            "insight": "The ink stains match the forged annotations discovered on multiple manuscripts, indicating systematic fraud."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Professor Davies' Account",
+        "text": "Professor Davies swears he saw Edward Blackwood leaving the library through the main entrance at exactly 10:15 PM, checking his pocket watch as he did. He seemed agitated and was carrying a leather satchel.",
+        "alone": "Davies provides a specific alibi for Edward, placing him outside when the murder likely occurred.",
+        "links": [
+          {
+            "to": "D5",
+            "insight": "Davies' account is sincere but mistaken - he actually saw Edward's earlier departure, not realizing Edward had returned through a side entrance."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Access Log Discrepancy",
+        "text": "The archive access log shows Dr. Whitmore entered at 9:45 PM but has no exit time recorded. The electronic lock system shows unusual activity during the 10:30-11:00 PM window when the murder occurred.",
+        "alone": "Whitmore's access to the archive overlaps perfectly with the estimated time of death.",
+        "links": [
+          {
+            "to": "D6",
+            "insight": "The electronic lock was activated from inside the archive during the murder window, proving the killer was authorized personnel with access privileges."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Systematic Forgery Operation",
+        "text": "Laboratory analysis reveals multiple manuscripts contain recent forgeries designed to enhance their historical significance and market value. The forged annotations follow a consistent pattern and technique.",
+        "alone": "Someone has been running an organized forgery operation to inflate manuscript values.",
+        "links": [
+          {
+            "to": "D1",
+            "insight": "The ink stains match the forged annotations discovered on multiple manuscripts, indicating systematic fraud."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "The Side Entrance Key",
+        "text": "Thomas Fletcher reveals that Edward had requested a temporary key to the side entrance earlier that day, claiming he needed private access to settle family matters with his uncle. The key was never returned.",
+        "alone": "Edward had secret access to the building that Davies didn't know about, undermining his alibi.",
+        "links": [
+          {
+            "to": "D2",
+            "insight": "Davies' account is sincere but mistaken - he actually saw Edward's earlier departure, not realizing Edward had returned through a side entrance."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "technical",
+        "icon": "🔐",
+        "heading": "Electronic Lock Analysis",
+        "text": "The archive's electronic lock shows activation at 10:47 PM from inside the restricted area, followed by an emergency override sequence. Only three people possessed the override codes needed for this operation.",
+        "alone": "The killer used insider knowledge to manipulate the security system during their escape.",
+        "links": [
+          {
+            "to": "D3",
+            "insight": "The electronic lock was activated from inside the archive during the murder window, proving the killer was authorized personnel with access privileges."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Margaret Whitmore",
+      "weapon": "Heavy Manuscript",
+      "location": "Restricted Archive",
+      "window": "10:30-11:00 PM"
+    },
+    "epilogue": "Dr. Margaret Whitmore's brilliant academic mind had turned to fraud when financial pressures mounted and her research stalled. When Professor Blackwood discovered her systematic forgery operation during their late meeting in the restricted archive, she struck him with the very manuscript that would expose her crimes. Her desperate attempt to manipulate the electronic locks and cover her tracks ultimately provided the evidence that sealed her fate, destroying both her career and her freedom."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #015",
+    "title": "The Sealed Archive",
+    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
+    "setting": "Oxford University · England · 1932",
+    "emoji": "🏛️",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Margaret Whitmore",
+            "icon": "📚",
+            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+          },
+          {
+            "name": "Edward Blackwood",
+            "icon": "💰",
+            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
+          },
+          {
+            "name": "Professor Davies",
+            "icon": "🔍",
+            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
+          },
+          {
+            "name": "Thomas Fletcher",
+            "icon": "🔐",
+            "detail": "The night watchman who had access to all areas of the library after hours."
+          },
+          {
+            "name": "Lady Pemberton",
+            "icon": "💎",
+            "detail": "A wealthy collector who had been negotiating to purchase part of the manuscript collection."
+          },
+          {
+            "name": "Dr. Helena Morrison",
+            "icon": "⚗️",
+            "detail": "A chemistry professor who consulted on manuscript ink analysis and preservation techniques."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Heavy Manuscript",
+            "icon": "📜",
+            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+          },
+          {
+            "name": "Stone Gargoyle",
+            "icon": "🗿",
+            "detail": "A decorative piece that had been recently moved during library renovations."
+          },
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+          },
+          {
+            "name": "Iron Bookend",
+            "icon": "📚",
+            "detail": "A medieval-styled piece used to secure heavy volumes on the archive shelves."
+          },
+          {
+            "name": "Glass Paperweight",
+            "icon": "💎",
+            "detail": "A heavy crystal orb used to hold down delicate manuscript pages during examination."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Restricted Archive",
+            "icon": "🔒",
+            "detail": "The secured manuscript collection where only senior staff held keys."
+          },
+          {
+            "name": "Reading Room",
+            "icon": "📖",
+            "detail": "The main study hall where scholars examined rare documents under supervision."
+          },
+          {
+            "name": "Professor's Office",
+            "icon": "🏢",
+            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+          },
+          {
+            "name": "Library Courtyard",
+            "icon": "🏛️",
+            "detail": "The stone-paved area between the old and new wings of the building."
+          },
+          {
+            "name": "Binding Workshop",
+            "icon": "🔨",
+            "detail": "The restoration room where damaged manuscripts were carefully repaired and rebound."
+          },
+          {
+            "name": "Storage Vault",
+            "icon": "🗄️",
+            "detail": "The climate-controlled basement area where the most valuable manuscripts were secured."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:00-9:30 PM",
+            "icon": "🕘",
+            "detail": "Early evening when the library was still officially open to senior researchers."
+          },
+          {
+            "name": "9:30-10:00 PM",
+            "icon": "🕘",
+            "detail": "The transition period when most staff were departing for the night."
+          },
+          {
+            "name": "10:00-10:30 PM",
+            "icon": "🕘",
+            "detail": "After closing time when only authorized personnel remained in the building."
+          },
+          {
+            "name": "10:30-11:00 PM",
+            "icon": "🕘",
+            "detail": "Late evening when the building was locked and only key holders had access."
+          },
+          {
+            "name": "11:00-11:30 PM",
+            "icon": "🕘",
+            "detail": "The period just before the body was discovered by the night watchman."
+          },
+          {
+            "name": "11:30 PM-12:00 AM",
+            "icon": "🕛",
+            "detail": "After the body was discovered when police and emergency services arrived."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Inheritance Fraud",
+            "icon": "💰",
+            "detail": "Systematic forgery operation to inflate manuscript values before inheritance transfer."
+          },
+          {
+            "name": "Academic Revenge",
+            "icon": "📚",
+            "detail": "Settling scores over disputed research credentials and publication rights."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Mounting debts requiring immediate access to valuable assets or insurance money."
+          },
+          {
+            "name": "Professional Jealousy",
+            "icon": "🎭",
+            "detail": "Resentment over career advancement and recognition in academic circles."
+          },
+          {
+            "name": "Family Honor",
+            "icon": "👑",
+            "detail": "Protecting reputation and social standing from potential scandal or exposure."
+          },
+          {
+            "name": "Blackmail Prevention",
+            "icon": "🤐",
+            "detail": "Silencing someone who discovered compromising secrets or illegal activities."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "The Forger's Tools",
+        "text": "Dr. Whitmore's desk drawer contains specialized restoration inks and medieval-style quills, along with practice sheets mimicking historical handwriting. Fresh ink stains on her hands match the forged annotations found throughout the collection.",
+        "alone": "Whitmore possesses professional forgery equipment and has recent evidence of using it extensively.",
+        "links": [
+          {
+            "to": "I4",
+            "insight": "The forgery tools and ink stains directly connect to the systematic fraud operation that Blackwood discovered and threatened to expose."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Mistaken Identification",
+        "text": "Professor Davies insists he saw Edward leaving at 10:15 PM, but security footage reveals he actually witnessed Edward's research colleague, Dr. Morrison, who wore a similar overcoat. Davies' poor eyesight combined with dim lighting caused the confusion.",
+        "alone": "Davies provided false information about Edward's whereabouts, though he believed he was telling the truth.",
+        "links": [
+          {
+            "to": "I5",
+            "insight": "Davies' mistaken identification allowed Edward to appear to have an alibi while he was actually confronting his uncle about the changed inheritance terms."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "The Inheritance Amendment",
+        "text": "A draft codicil to Professor Blackwood's will, dated that morning, removes Dr. Whitmore as beneficiary due to 'questions regarding professional integrity.' The document was hidden in the victim's private safe.",
+        "alone": "Blackwood had discovered something that made him question Whitmore's trustworthiness and was changing his will accordingly.",
+        "links": [
+          {
+            "to": "I6",
+            "insight": "The inheritance amendment was motivated by Blackwood's discovery of Whitmore's systematic forgery scheme, which would have destroyed her career and eliminated her substantial inheritance."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Systematic Authentication Fraud",
+        "text": "Chemical analysis reveals that seventeen manuscripts in the collection contain recent forgeries designed to enhance their provenance and value. The alterations were made over several months using identical techniques and materials.",
+        "alone": "Someone has been conducting an extensive forgery operation to artificially inflate the collection's worth before inheritance transfer.",
+        "links": [
+          {
+            "to": "I1",
+            "insight": "The forgery tools and ink stains directly connect to the systematic fraud operation that Blackwood discovered and threatened to expose."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "The Nephew's Secret Meeting",
+        "text": "Library records show Edward used his temporary access key to enter through the side entrance at 10:35 PM, just as Fletcher was making his first security round. Edward admits he returned to confront his uncle about family financial matters.",
+        "alone": "Edward was present in the building during the murder timeframe despite appearing to have left earlier.",
+        "links": [
+          {
+            "to": "I2",
+            "insight": "Davies' mistaken identification allowed Edward to appear to have an alibi while he was actually confronting his uncle about the changed inheritance terms."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Blackmail Note",
+        "text": "A note in Blackwood's handwriting, found in his jacket pocket, reads: 'Margaret - We must discuss your recent work immediately. The authentication irregularities cannot continue. Meet me in the archive at 10:45.' The paper shows signs of having been crumpled and smoothed.",
+        "alone": "Blackwood had arranged a confrontational meeting with Whitmore about suspicious authentication work just before his death.",
+        "links": [
+          {
+            "to": "I3",
+            "insight": "The inheritance amendment was motivated by Blackwood's discovery of Whitmore's systematic forgery scheme, which would have destroyed her career and eliminated her substantial inheritance."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Margaret Whitmore",
+      "weapon": "Heavy Manuscript",
+      "location": "Restricted Archive",
+      "window": "10:30-11:00 PM",
+      "motive": "Inheritance Fraud"
+    },
+    "epilogue": "Dr. Margaret Whitmore's desperation to secure her financial future through the manuscript inheritance led her to forge historical annotations that would dramatically increase the collection's value. When Professor Blackwood discovered her systematic fraud during their confrontational meeting in the restricted archive, she struck him with the very manuscript that contained her forged work. Her careful planning to manipulate both the inheritance and the authentication process ultimately became the evidence that convicted her, transforming her from respected scholar to murderer in one fatal moment of panic and greed."
+  }
+}
