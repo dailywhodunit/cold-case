@@ -1,0 +1,657 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #018",
+    "title": "Buzzer Beater Murder",
+    "setting": "NCAA March Madness Watch Party · USA · 2026",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of Duke University came crashing down along with something far more precious at tonight's raucous watch party. As confetti should have been falling, sirens wailed instead through the smoke-filled sports bar.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💰",
+            "detail": "Bookie running numbers on tonight's games."
+          },
+          {
+            "name": "Sarah Williams",
+            "icon": "📱",
+            "detail": "Sports blogger covering March Madness stories."
+          },
+          {
+            "name": "Tommy Rodriguez",
+            "icon": "🍺",
+            "detail": "Bar owner hosting the watch party event."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "⚖️",
+            "detail": "Debt collector pursuing outstanding gambling debts."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pool Cue",
+            "icon": "🎱",
+            "detail": "Heavy wooden stick from the bar's game area."
+          },
+          {
+            "name": "Beer Bottle",
+            "icon": "🍺",
+            "detail": "Broken glass weapon from the party supplies."
+          },
+          {
+            "name": "Trophy",
+            "icon": "🏆",
+            "detail": "Metal championship replica used as decoration."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "Wooden piece torn from damaged bar furniture."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar Area",
+            "icon": "🍻",
+            "detail": "Crowded space where most guests watched games."
+          },
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded seating area away from main crowd."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back area filled with party supplies."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🍳",
+            "detail": "Staff-only area behind the main bar."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Broken Trophy Pieces",
+        "text": "Shattered metal fragments from a championship replica are scattered near the crime scene. The trophy's heavy base shows clear impact damage.",
+        "alone": "A decorative trophy was used as the murder weapon.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Heated Exchange Overhead",
+        "text": "Multiple witnesses report hearing Elena Vasquez shouting about overdue payments during halftime. The argument escalated as Duke began losing ground.",
+        "alone": "Elena was involved in a public confrontation about money.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🖐️",
+        "heading": "Defensive Wounds Pattern",
+        "text": "The victim's hands show fresh cuts and bruises consistent with grabbing a sharp object. Blood traces lead toward the storage room entrance.",
+        "alone": "The victim fought back against their attacker near the storage area.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Sarah's Photography Session",
+        "text": "Sarah Williams was photographing the trophy display for her blog when she noticed someone handling the championship replica. She documented the decorations throughout the evening.",
+        "alone": "Sarah was near the trophy display and saw someone interact with it.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "📋",
+        "heading": "Security Footage Gap",
+        "text": "Camera recordings show Elena leaving through the front door after her public argument. She wasn't seen returning, though the back entrance lacks surveillance coverage.",
+        "alone": "Elena appeared to leave after the confrontation, but could have returned unseen.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "discovery",
+        "icon": "🕵️",
+        "heading": "Storage Room Access",
+        "text": "Only staff members like Tommy Rodriguez had keys to the locked storage area where evidence was found. The room contained cleaning supplies and extra decorations for the party.",
+        "alone": "The storage room was restricted to staff access only.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sarah Williams",
+      "weapon": "Trophy",
+      "location": "Storage Room"
+    },
+    "epilogue": "Sarah Williams never intended for her exposé on illegal gambling at March Madness parties to end in bloodshed. When her investigation uncovered the victim's role in fixing games, confrontation became inevitable. The championship trophy she'd been photographing became a weapon of opportunity in the storage room where they'd agreed to meet privately. Sarah's quest for the perfect story cost her everything, turning the sports blogger into the headline she never wanted to write."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #018",
+    "title": "Buzzer Beater Murder",
+    "setting": "NCAA March Madness Watch Party · USA · 2026",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of Duke University came crashing down along with something far more precious at tonight's raucous watch party. As confetti should have been falling, sirens wailed instead through the smoke-filled sports bar.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💰",
+            "detail": "Bookie running numbers on tonight's games."
+          },
+          {
+            "name": "Sarah Williams",
+            "icon": "📱",
+            "detail": "Sports blogger covering March Madness stories."
+          },
+          {
+            "name": "Tommy Rodriguez",
+            "icon": "🍺",
+            "detail": "Bar owner hosting the watch party event."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "⚖️",
+            "detail": "Debt collector pursuing outstanding gambling debts."
+          },
+          {
+            "name": "Kevin Park",
+            "icon": "👨‍⚖️",
+            "detail": "Off-duty police officer enjoying the games."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pool Cue",
+            "icon": "🎱",
+            "detail": "Heavy wooden stick from the bar's game area."
+          },
+          {
+            "name": "Beer Bottle",
+            "icon": "🍺",
+            "detail": "Broken glass weapon from the party supplies."
+          },
+          {
+            "name": "Trophy",
+            "icon": "🏆",
+            "detail": "Metal championship replica used as decoration."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "Wooden piece torn from damaged bar furniture."
+          },
+          {
+            "name": "Kitchen Knife",
+            "icon": "🔪",
+            "detail": "Sharp blade from the bar's food preparation area."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar Area",
+            "icon": "🍻",
+            "detail": "Crowded space where most guests watched games."
+          },
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded seating area away from main crowd."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back area filled with party supplies."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🍳",
+            "detail": "Staff-only area behind the main bar."
+          },
+          {
+            "name": "Parking Lot",
+            "icon": "🅿️",
+            "detail": "Outdoor area behind the sports bar building."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "First Half",
+            "icon": "🕐",
+            "detail": "7:00-7:45 PM during opening game action."
+          },
+          {
+            "name": "Halftime Break",
+            "icon": "🕑",
+            "detail": "7:45-8:00 PM during commercial break."
+          },
+          {
+            "name": "Second Half",
+            "icon": "🕒",
+            "detail": "8:00-8:45 PM during crucial game moments."
+          },
+          {
+            "name": "Final Minutes",
+            "icon": "🕓",
+            "detail": "8:45-9:00 PM during championship climax."
+          },
+          {
+            "name": "Post Game",
+            "icon": "🕔",
+            "detail": "9:00-9:15 PM during victory celebrations."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Broken Trophy Pieces",
+        "text": "Shattered metal fragments from a championship replica are scattered near the crime scene. The trophy's heavy base shows clear impact damage consistent with the fatal wound pattern.",
+        "alone": "A decorative trophy was used as the murder weapon.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Kevin's Testimony",
+        "text": "Off-duty officer Kevin Park swears he saw Elena Vasquez strike the victim with the trophy during halftime. His police training makes him a credible witness to the violent encounter.",
+        "alone": "A police officer witnessed Elena attacking the victim with the trophy.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🖐️",
+        "heading": "Time-Stamped Security Alert",
+        "text": "The bar's security system logged a motion detector trigger in the storage room at exactly 8:52 PM. This timestamp corresponds with the estimated time of death during the final game minutes.",
+        "alone": "Motion was detected in the storage room at 8:52 PM during the final minutes.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Sarah's Photography Session",
+        "text": "Sarah Williams was photographing the trophy display for her blog throughout the evening. She has timestamped digital photos showing the trophy intact at various points during the party.",
+        "alone": "Sarah documented the trophy display with timestamped photographs throughout the night.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "alibi",
+        "icon": "📋",
+        "heading": "Credit Card Transaction",
+        "text": "Elena's credit card was used at a gas station three miles away at 8:47 PM, five minutes before the murder. The transaction timestamp creates questions about Kevin's eyewitness account.",
+        "alone": "Elena's credit card was used elsewhere just five minutes before the estimated time of death.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "discovery",
+        "icon": "🕵️",
+        "heading": "Final Minutes Chaos",
+        "text": "During the game's climactic final minutes, most patrons were fixated on the dramatic finish. Only staff and a few individuals had reason to be away from the main viewing area during this crucial time window.",
+        "alone": "Most patrons were watching the game's climax, leaving few people free to move around during the final minutes.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sarah Williams",
+      "weapon": "Trophy",
+      "location": "Storage Room",
+      "window": "Final Minutes"
+    },
+    "epilogue": "Sarah Williams never intended for her exposé on illegal gambling at March Madness parties to end in bloodshed. When her investigation uncovered the victim's role in fixing games, confrontation became inevitable during the final minutes when everyone else was distracted. The championship trophy she'd been photographing became a weapon of opportunity in the storage room where they'd agreed to meet privately. Sarah's quest for the perfect story cost her everything, turning the sports blogger into the headline she never wanted to write, all during those crucial final minutes that should have been about victory."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #018",
+    "title": "Buzzer Beater Murder",
+    "setting": "NCAA March Madness Watch Party · USA · 2026",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of Duke University came crashing down along with something far more precious at tonight's raucous watch party. As confetti should have been falling, sirens wailed instead through the smoke-filled sports bar.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💰",
+            "detail": "Bookie running numbers on tonight's games."
+          },
+          {
+            "name": "Sarah Williams",
+            "icon": "📱",
+            "detail": "Sports blogger covering March Madness stories."
+          },
+          {
+            "name": "Tommy Rodriguez",
+            "icon": "🍺",
+            "detail": "Bar owner hosting the watch party event."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "⚖️",
+            "detail": "Debt collector pursuing outstanding gambling debts."
+          },
+          {
+            "name": "Kevin Park",
+            "icon": "👨‍⚖️",
+            "detail": "Off-duty police officer enjoying the games."
+          },
+          {
+            "name": "Rachel Stone",
+            "icon": "👩‍💼",
+            "detail": "Insurance investigator working undercover tonight."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pool Cue",
+            "icon": "🎱",
+            "detail": "Heavy wooden stick from the bar's game area."
+          },
+          {
+            "name": "Beer Bottle",
+            "icon": "🍺",
+            "detail": "Broken glass weapon from the party supplies."
+          },
+          {
+            "name": "Trophy",
+            "icon": "🏆",
+            "detail": "Metal championship replica used as decoration."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "Wooden piece torn from damaged bar furniture."
+          },
+          {
+            "name": "Kitchen Knife",
+            "icon": "🔪",
+            "detail": "Sharp blade from the bar's food preparation area."
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Heavy safety equipment mounted near storage area."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Main Bar Area",
+            "icon": "🍻",
+            "detail": "Crowded space where most guests watched games."
+          },
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded seating area away from main crowd."
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back area filled with party supplies."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🍳",
+            "detail": "Staff-only area behind the main bar."
+          },
+          {
+            "name": "Parking Lot",
+            "icon": "🅿️",
+            "detail": "Outdoor area behind the sports bar building."
+          },
+          {
+            "name": "Restroom Hallway",
+            "icon": "🚻",
+            "detail": "Narrow corridor leading to facilities and storage."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "First Half",
+            "icon": "🕐",
+            "detail": "7:00-7:45 PM during opening game action."
+          },
+          {
+            "name": "Halftime Break",
+            "icon": "🕑",
+            "detail": "7:45-8:00 PM during commercial break."
+          },
+          {
+            "name": "Second Half",
+            "icon": "🕒",
+            "detail": "8:00-8:45 PM during crucial game moments."
+          },
+          {
+            "name": "Final Minutes",
+            "icon": "🕓",
+            "detail": "8:45-9:00 PM during championship climax."
+          },
+          {
+            "name": "Post Game",
+            "icon": "🕔",
+            "detail": "9:00-9:15 PM during victory celebrations."
+          },
+          {
+            "name": "Overtime",
+            "icon": "🕕",
+            "detail": "9:15-9:30 PM during unexpected extended play."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Gambling Debt",
+            "icon": "💸",
+            "detail": "Outstanding money owed from sports betting losses."
+          },
+          {
+            "name": "Blackmail Scheme",
+            "icon": "📧",
+            "detail": "Threatening to expose damaging personal secrets."
+          },
+          {
+            "name": "Insurance Fraud",
+            "icon": "📄",
+            "detail": "Covering up fraudulent claims and investigations."
+          },
+          {
+            "name": "Match Fixing",
+            "icon": "🎯",
+            "detail": "Illegal manipulation of game outcomes for profit."
+          },
+          {
+            "name": "Identity Theft",
+            "icon": "🆔",
+            "detail": "Stealing personal information for financial gain."
+          },
+          {
+            "name": "Drug Trafficking",
+            "icon": "💊",
+            "detail": "Illegal distribution of controlled substances."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Broken Trophy Pieces",
+        "text": "Shattered metal fragments from a championship replica are scattered near the crime scene. The trophy's heavy base shows clear impact damage consistent with the fatal wound pattern and distinctive fingerprint traces.",
+        "alone": "A decorative trophy was used as the murder weapon with fingerprint evidence intact.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Kevin's Testimony",
+        "text": "Off-duty officer Kevin Park swears he saw Elena Vasquez strike the victim with the trophy during halftime. His police training makes him a credible witness, though he admits he'd been drinking throughout the evening.",
+        "alone": "A police officer witnessed Elena attacking the victim, though his sobriety is questionable.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🖐️",
+        "heading": "Insurance Investigation Files",
+        "text": "Hidden documents reveal the victim was under investigation for fraudulent disability claims totaling over $200,000. The case file was scheduled for review next week with potential criminal charges pending.",
+        "alone": "The victim was facing serious insurance fraud charges worth hundreds of thousands of dollars.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Sarah's Photography Session",
+        "text": "Sarah Williams was photographing the trophy display for her blog throughout the evening. Her timestamped digital photos show her handling the trophy multiple times, explaining any fingerprint evidence found on the murder weapon.",
+        "alone": "Sarah's fingerprints on the trophy are explained by her documented photography work.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "alibi",
+        "icon": "📋",
+        "heading": "Bar Tab Confusion",
+        "text": "Kevin Park's bar tab shows he consumed six beers and three shots during the game, significantly impairing his perception. Security footage confirms Elena left the premises before halftime and never returned.",
+        "alone": "Kevin was heavily intoxicated, and Elena had already left before the alleged incident.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "discovery",
+        "icon": "🕵️",
+        "heading": "Rachel's True Identity",
+        "text": "Insurance investigator Rachel Stone was working undercover to gather evidence against the victim's fraudulent claims. Her investigation would have exposed the victim's fake disability and resulted in prison time and massive financial penalties.",
+        "alone": "Rachel Stone was secretly investigating the victim for major insurance fraud.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Rachel Stone",
+      "weapon": "Trophy",
+      "location": "Storage Room",
+      "window": "Final Minutes",
+      "motive": "Insurance Fraud"
+    },
+    "epilogue": "Rachel Stone spent months building an airtight case against the victim's elaborate insurance fraud scheme, never imagining it would end in violence. When the victim discovered her true identity during the final minutes of the game, confrontation became inevitable in the storage room. The championship trophy became a weapon of desperation as Rachel realized her cover was blown and her investigation compromised. Her dedication to exposing insurance fraud cost her career and freedom, transforming the investigator into the very criminal she'd spent her life pursuing, all motivated by the massive insurance fraud case that would have sent the victim to prison."
+  }
+}
