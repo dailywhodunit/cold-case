@@ -11,7 +11,7 @@ export default async function handler(req, res) {
     const repo   = process.env.GITHUB_REPO   || 'cold-case';
     const branch = process.env.GITHUB_BRANCH || 'main';
 
-    const url = `https://api.github.com/repos/${owner}/${repo}/contents/cases?ref=${branch}`;
+    const url = `https://api.github.com/repos/${owner}/${repo}/contents/public/cases?ref=${branch}`;
 
     const response = await fetch(url, {
       headers: {
