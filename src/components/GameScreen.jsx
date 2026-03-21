@@ -13,6 +13,74 @@ function HR({ gold }) {
 }
 
 
+
+// ── CSI ONE-LINERS ────────────────────────────────────────────────────────────
+// Setting-aware opening lines. Reads the tone of the scene before
+// the first clue drops. Inspired by Horatio Caine putting on his sunglasses.
+function getCsiOneLiner(caseData) {
+  const setting = (caseData.setting || '').toLowerCase();
+  const year = (caseData.setting || '').match(/\d{4}/)?.[0];
+  const isHistorical = year && parseInt(year) < 1980;
+  const isPast = year && parseInt(year) < 2000;
+  const isFuture = year && parseInt(year) > 2100;
+
+  // Setting-specific lines
+  if (setting.includes('diner') || setting.includes('restaurant') || setting.includes('cafe'))
+    return "The coffee's gone cold. So has the body.";
+  if (setting.includes('speakeasy') || setting.includes('bar') || setting.includes('saloon'))
+    return "Last call was hours ago. Someone didn't make it home.";
+  if (setting.includes('manor') || setting.includes('castle') || setting.includes('estate'))
+    return "The butler didn't do it. Probably.";
+  if (setting.includes('space') || setting.includes('station') || setting.includes('mars') || isFuture)
+    return "In space, no one can hear you investigate.";
+  if (setting.includes('school') || setting.includes('university') || setting.includes('college') || setting.includes('academy'))
+    return "Class is in session. Attendance is mandatory.";
+  if (setting.includes('hospital') || setting.includes('clinic') || setting.includes('medical'))
+    return "The prognosis isn't good. For the killer.";
+  if (setting.includes('ship') || setting.includes('cruise') || setting.includes('yacht'))
+    return "Nowhere to run. Nowhere to hide. Plenty of ocean.";
+  if (setting.includes('casino') || setting.includes('hotel') || setting.includes('resort'))
+    return "The house always wins. Except tonight.";
+  if (setting.includes('museum') || setting.includes('gallery') || setting.includes('library'))
+    return "Someone checked out early. Permanently.";
+  if (setting.includes('train') || setting.includes('railway') || setting.includes('station'))
+    return "The last train already left. So did someone's alibi.";
+  if (setting.includes('theater') || setting.includes('opera') || setting.includes('stage'))
+    return "The curtain's fallen. Not just on the show.";
+  if (setting.includes('lab') || setting.includes('research') || setting.includes('institute'))
+    return "The experiment has concluded. Fatally.";
+  if (setting.includes('tournament') || setting.includes('championship') || setting.includes('arena') || setting.includes('watch party') || setting.includes('ncaa') || setting.includes('stadium') || setting.includes('league'))
+    return "The game is over. A different one just began.";
+  if (setting.includes('prison') || setting.includes('jail') || setting.includes('penitentiary'))
+    return "Someone wanted out badly enough to kill for it.";
+  if (setting.includes('church') || setting.includes('cathedral') || setting.includes('chapel'))
+    return "Not all sins stay confessed.";
+  if (setting.includes('farm') || setting.includes('ranch') || setting.includes('estate'))
+    return "Old MacDonald had a farm. Had.";
+
+  // Era-based fallbacks
+  if (isHistorical)
+    return "History is written by the survivors. Start reading.";
+  if (isPast)
+    return "The evidence doesn't lie. People do.";
+  if (isFuture)
+    return "The future arrived early. So did the body.";
+
+  // Generic CSI-style fallbacks
+  const fallbacks = [
+    "Looks like this case just got interesting.",
+    "Someone made a fatal mistake. Find it.",
+    "The truth is in here somewhere. Dig.",
+    "Every clue tells a story. Start listening.",
+    "The killer left something behind. They always do.",
+    "Follow the evidence. It never lies.",
+    "One wrong move and the killer walks free.",
+    "The clock is ticking. So is your conscience.",
+  ];
+  const idx = (caseData.caseNum || '').match(/\d+/)?.[0] || 0;
+  return fallbacks[parseInt(idx) % fallbacks.length];
+}
+
 // ── TYPE STYLES ───────────────────────────────────────────────────────────────
 const TYPE_STYLE = {
   witness:   { bg:"#0e1318", border:"#1a3a50", tag:"Witness",   tc:"#5ba3c9" },
@@ -391,7 +459,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
         {/* Empty state */}
         {feedItems.length===0&&(
           <div style={{ textAlign:"center",padding:"40px 20px",color:C.muted,fontSize:F.md,fontFamily:"Georgia,serif",fontStyle:"italic",border:`1px dashed ${C.border}`,borderRadius:12,lineHeight:1.9,marginBottom:16 }}>
-            {caseData.emptyState || `${caseData.setting.split(' · ')[0]} is quiet.`}
+            {caseData.emptyState || getCsiOneLiner(caseData)}
           </div>
         )}
         {/* Feed */}
