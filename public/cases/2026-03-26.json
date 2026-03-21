@@ -1,0 +1,660 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #020",
+    "title": "Deep Water Secrets",
+    "setting": "Cold War Submarine · North Atlantic · 1962",
+    "emoji": "🚢",
+    "flavor": "In the cramped corridors of USS Barracuda, secrets run deeper than the ocean above. When the submarine's radioman is found dead in his quarters, the crew realizes that some transmissions were meant to stay silent.",
+    "emptyState": "Six hundred feet down. Nowhere to run, nowhere to hide.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Frank Morrison",
+            "icon": "⚓",
+            "detail": "Executive Officer known for his strict discipline and ambition."
+          },
+          {
+            "name": "Petty Officer Joe Sullivan",
+            "icon": "🔧",
+            "detail": "Engine room mechanic with gambling debts and family troubles."
+          },
+          {
+            "name": "Seaman Rick Torres",
+            "icon": "📡",
+            "detail": "Communications specialist who worked closely with the victim."
+          },
+          {
+            "name": "Chief Petty Officer Dan Walsh",
+            "icon": "🍳",
+            "detail": "Ship's cook and unofficial morale officer with access to all areas."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving knife",
+            "icon": "🗡️",
+            "detail": "Standard issue blade kept razor-sharp for emergency use."
+          },
+          {
+            "name": "Wrench",
+            "icon": "🔧",
+            "detail": "Heavy tool from the engine room, perfect for close quarters."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Cleaning chemicals mixed into the victim's coffee cup."
+          },
+          {
+            "name": "Electrical shock",
+            "icon": "⚡",
+            "detail": "Modified radio equipment rigged to deliver a fatal current."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Radio room",
+            "icon": "📻",
+            "detail": "The victim's workspace, cramped but private during night shifts."
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Hot, noisy compartment where conversations go unheard."
+          },
+          {
+            "name": "Mess hall",
+            "icon": "🍽️",
+            "detail": "Common area where crew gathers for meals and gossip."
+          },
+          {
+            "name": "Torpedo room",
+            "icon": "🚀",
+            "detail": "Forward compartment used for storage and private meetings."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Hidden Cash",
+        "text": "A search of the victim's locker reveals $500 in small bills hidden inside a radio manual. The bills show signs of recent handling and are wrapped in a note that reads 'Final payment - keep quiet.'",
+        "alone": "Someone was paying the radioman to stay silent about something important.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Night Watch Report",
+        "text": "The duty officer reports seeing Lieutenant Morrison leaving the radio room around 0300 hours, roughly when the victim died. Morrison appeared agitated and was muttering under his breath about 'loose ends.'",
+        "alone": "The Executive Officer was near the scene and seemed upset about something.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Missing Tool",
+        "text": "Petty Officer Sullivan reports that his favorite wrench disappeared from the engine room yesterday. The tool matches the description of the murder weapon found beside the victim's body.",
+        "alone": "The murder weapon belongs to one of the crew members.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "discovery",
+        "icon": "📋",
+        "heading": "Blackmail List",
+        "text": "Inside the radio equipment, investigators find a coded list of submarine crew members alongside their secrets. Chief Walsh's name appears with a note about 'unauthorized food sales to Soviet contacts.'",
+        "alone": "The victim was systematically blackmailing his crewmates using their secrets.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Officer's Statement",
+        "text": "Lieutenant Morrison explains he visited the radio room to discuss unauthorized transmissions he suspected. He left when the radioman became hostile and threatened to 'tell everyone about the supply theft.'",
+        "alone": "The Executive Officer had a legitimate reason for his late-night visit.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "revelation",
+        "icon": "🍳",
+        "heading": "Kitchen Evidence",
+        "text": "Chief Walsh's apron shows traces of the victim's blood, and his locker contains a second blackmail note demanding he continue selling food supplies. Walsh breaks down and confesses to the killing in self-defense.",
+        "alone": "The ship's cook was being extorted and finally snapped under pressure.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chief Petty Officer Dan Walsh",
+      "weapon": "Wrench",
+      "location": "Radio room"
+    },
+    "epilogue": "Chief Petty Officer Dan Walsh had been selling food supplies to supplement his meager navy pay and support his sick wife back home. When the radioman discovered his scheme and began demanding larger payments, Walsh saw his family's future crumbling. In a moment of desperation during the confrontation, he grabbed Sullivan's wrench and struck the fatal blow. The irony wasn't lost on the crew - the man who fed them all had been driven to murder by the very hunger for security that military life couldn't provide."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #020",
+    "title": "Deep Water Secrets",
+    "setting": "Cold War Submarine · North Atlantic · 1962",
+    "emoji": "🚢",
+    "flavor": "In the cramped corridors of USS Barracuda, secrets run deeper than the ocean above. When the submarine's radioman is found dead in his quarters, the crew realizes that some transmissions were meant to stay silent.",
+    "emptyState": "Six hundred feet down. Nowhere to run, nowhere to hide.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Frank Morrison",
+            "icon": "⚓",
+            "detail": "Executive Officer known for his strict discipline and rising ambition."
+          },
+          {
+            "name": "Petty Officer Joe Sullivan",
+            "icon": "🔧",
+            "detail": "Engine room mechanic with gambling debts and suspicious behavior."
+          },
+          {
+            "name": "Seaman Rick Torres",
+            "icon": "📡",
+            "detail": "Communications specialist who worked the night shift with victim."
+          },
+          {
+            "name": "Chief Petty Officer Dan Walsh",
+            "icon": "🍳",
+            "detail": "Ship's cook with access to all areas and crew trust."
+          },
+          {
+            "name": "Commander Robert Hayes",
+            "icon": "🎖️",
+            "detail": "Submarine captain with ultimate authority and dark wartime past."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving knife",
+            "icon": "🗡️",
+            "detail": "Standard issue blade found with traces of victim's blood."
+          },
+          {
+            "name": "Wrench",
+            "icon": "🔧",
+            "detail": "Heavy tool from engine room, reported missing by Sullivan."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Cleaning chemicals mixed into coffee, victim's cup tested positive."
+          },
+          {
+            "name": "Electrical shock",
+            "icon": "⚡",
+            "detail": "Radio equipment shows signs of dangerous modification."
+          },
+          {
+            "name": "Blunt object",
+            "icon": "⚒️",
+            "detail": "Heavy flashlight found near body with dented casing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Radio room",
+            "icon": "📻",
+            "detail": "Victim's workspace where body was discovered at dawn."
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Hot compartment where arguments go unheard over machinery."
+          },
+          {
+            "name": "Mess hall",
+            "icon": "🍽️",
+            "detail": "Common area where crew tensions often surface."
+          },
+          {
+            "name": "Torpedo room",
+            "icon": "🚀",
+            "detail": "Forward storage area used for private conversations."
+          },
+          {
+            "name": "Captain's quarters",
+            "icon": "🛏️",
+            "detail": "Private cabin adjacent to radio room with connecting door."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Blackmail victim",
+            "icon": "💰",
+            "detail": "Being extorted for money due to hidden gambling debts."
+          },
+          {
+            "name": "Military secrets",
+            "icon": "🕵️",
+            "detail": "Covering up unauthorized communication with enemy forces."
+          },
+          {
+            "name": "Family protection",
+            "icon": "👨‍👩‍👧",
+            "detail": "Preventing exposure of illegal activities supporting sick relatives."
+          },
+          {
+            "name": "Career advancement",
+            "icon": "📈",
+            "detail": "Eliminating witness to misconduct that would end promotion."
+          },
+          {
+            "name": "War crimes cover-up",
+            "icon": "⚰️",
+            "detail": "Silencing someone who knew about illegal wartime actions."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "📝",
+        "heading": "Coded Messages",
+        "text": "Hidden in the victim's radio logs are encrypted transmissions to an unknown recipient, containing submarine patrol routes and crew schedules. The messages were sent using a cipher not found in any official navy codebook.",
+        "alone": "The radioman was secretly transmitting classified information to someone outside the military.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Lookout's Account",
+        "text": "Seaman Torres swears he saw Lieutenant Morrison entering the radio room at 0300 hours with blood on his uniform. Torres claims Morrison threatened him to stay quiet about what he witnessed that night.",
+        "alone": "A crewmate places the Executive Officer at the scene with incriminating evidence.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🍳",
+        "heading": "Kitchen Discovery",
+        "text": "Chief Walsh's cooking supplies include a bottle of industrial cleaner that matches the poison found in the victim's system. His apron shows traces of the same chemical mixture used in the murder.",
+        "alone": "The ship's cook had access to the exact poison that killed the victim.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "revelation",
+        "icon": "🎖️",
+        "heading": "Command Connection",
+        "text": "The encrypted messages trace back to Commander Hayes, who was secretly feeding intelligence to Soviet contacts as revenge for a wartime incident. The radioman discovered this treasonous arrangement and demanded payment for silence.",
+        "alone": "The submarine's captain was being blackmailed for selling military secrets to the enemy.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "contradiction",
+        "icon": "🩸",
+        "heading": "Blood Evidence Analysis",
+        "text": "Laboratory analysis reveals the blood Torres saw on Morrison's uniform came from a minor engine room accident hours before the murder. Morrison was helping with repairs and has multiple witnesses to confirm his whereabouts during the actual killing.",
+        "alone": "The witness was sincere but wrong about what the blood evidence meant.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "confession",
+        "icon": "⚰️",
+        "heading": "Captain's Breakdown",
+        "text": "Confronted with the evidence, Commander Hayes confesses to poisoning the radioman's coffee to protect his family from the shame of his treason. He explains that his actions were motivated by the loss of his brother in a military cover-up years earlier.",
+        "alone": "The commanding officer admits to the murder and reveals his tragic motivation.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Commander Robert Hayes",
+      "weapon": "Poison",
+      "location": "Radio room",
+      "motive": "War crimes cover-up"
+    },
+    "epilogue": "Commander Robert Hayes had carried the weight of his brother's death in a classified military operation for over a decade, leading him down a dark path of selling secrets to Soviet agents. When the young radioman stumbled upon his treasonous communications and began demanding blackmail payments, Hayes saw his carefully constructed life of revenge crumbling. In his captain's quarters that night, he made the fatal decision to poison the coffee he knew the radioman would drink during his shift. The irony of a decorated war hero becoming a traitor and murderer wasn't lost on the crew who had followed him faithfully through dangerous waters."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #020",
+    "title": "Deep Water Secrets",
+    "setting": "Cold War Submarine · North Atlantic · 1962",
+    "emoji": "🚢",
+    "flavor": "In the cramped corridors of USS Barracuda, secrets run deeper than the ocean above. When the submarine's radioman is found dead in his quarters, the crew realizes that some transmissions were meant to stay silent.",
+    "emptyState": "Six hundred feet down. Nowhere to run, nowhere to hide.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Frank Morrison",
+            "icon": "⚓",
+            "detail": "Executive Officer with ambitions of command and strict moral code."
+          },
+          {
+            "name": "Petty Officer Joe Sullivan",
+            "icon": "🔧",
+            "detail": "Engine room mechanic struggling with gambling addiction and family pressure."
+          },
+          {
+            "name": "Seaman Rick Torres",
+            "icon": "📡",
+            "detail": "Night shift communications operator who discovered suspicious transmissions."
+          },
+          {
+            "name": "Chief Petty Officer Dan Walsh",
+            "icon": "🍳",
+            "detail": "Veteran cook with universal access and crew loyalty."
+          },
+          {
+            "name": "Commander Robert Hayes",
+            "icon": "🎖️",
+            "detail": "Decorated submarine captain haunted by classified wartime experiences."
+          },
+          {
+            "name": "Dr. Michael Chen",
+            "icon": "⚕️",
+            "detail": "Ship's medical officer with access to drugs and knowledge of poisons."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving knife",
+            "icon": "🗡️",
+            "detail": "Standard issue blade with traces of victim's DNA on handle."
+          },
+          {
+            "name": "Wrench",
+            "icon": "🔧",
+            "detail": "Missing engine room tool found with blood evidence."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Lethal dose of morphine mixed into victim's evening coffee."
+          },
+          {
+            "name": "Electrical shock",
+            "icon": "⚡",
+            "detail": "Radio equipment rigged to deliver fatal current when operated."
+          },
+          {
+            "name": "Blunt trauma",
+            "icon": "⚒️",
+            "detail": "Heavy flashlight used to deliver crushing blow to skull."
+          },
+          {
+            "name": "Strangulation",
+            "icon": "🪢",
+            "detail": "Communications cable used to cut off victim's air supply."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Radio room",
+            "icon": "📻",
+            "detail": "Victim's private workspace during solitary night shifts."
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Isolated compartment where machinery noise masks sounds."
+          },
+          {
+            "name": "Mess hall",
+            "icon": "🍽️",
+            "detail": "Central gathering place where crew conflicts surface."
+          },
+          {
+            "name": "Torpedo room",
+            "icon": "🚀",
+            "detail": "Forward storage area perfect for private confrontations."
+          },
+          {
+            "name": "Medical bay",
+            "icon": "🏥",
+            "detail": "Sterile compartment where body was secretly moved."
+          },
+          {
+            "name": "Captain's quarters",
+            "icon": "🛏️",
+            "detail": "Command cabin with direct access to communication systems."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Blackmail escape",
+            "icon": "💰",
+            "detail": "Eliminating extortionist demanding payments for secret gambling debts."
+          },
+          {
+            "name": "Espionage cover-up",
+            "icon": "🕵️",
+            "detail": "Silencing witness to unauthorized enemy communications."
+          },
+          {
+            "name": "Family honor",
+            "icon": "👨‍👩‍👧",
+            "detail": "Protecting loved ones from shame of illegal money-making schemes."
+          },
+          {
+            "name": "Military advancement",
+            "icon": "📈",
+            "detail": "Removing obstacle to promotion by eliminating misconduct witness."
+          },
+          {
+            "name": "War guilt",
+            "icon": "⚰️",
+            "detail": "Covering up knowledge of classified wartime atrocities."
+          },
+          {
+            "name": "Medical malpractice",
+            "icon": "💊",
+            "detail": "Preventing exposure of unauthorized drug distribution to crew."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔓",
+        "items": [
+          {
+            "name": "Official duty",
+            "icon": "📋",
+            "detail": "Legitimate command authority requiring no special entry."
+          },
+          {
+            "name": "Maintenance access",
+            "icon": "🔧",
+            "detail": "Engineering responsibilities providing unrestricted movement."
+          },
+          {
+            "name": "Emergency protocol",
+            "icon": "🚨",
+            "detail": "Medical emergency procedures overriding normal restrictions."
+          },
+          {
+            "name": "Shift change",
+            "icon": "⏰",
+            "detail": "Routine personnel rotation creating opportunity window."
+          },
+          {
+            "name": "Stolen key",
+            "icon": "🗝️",
+            "detail": "Copied or taken master key allowing silent entry."
+          },
+          {
+            "name": "Connecting passage",
+            "icon": "🚪",
+            "detail": "Hidden or forgotten pathway between compartments."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💉",
+        "heading": "Medical Records",
+        "text": "Dr. Chen's drug inventory shows a missing vial of morphine that disappeared the day before the murder. The medical log indicates several crew members complained of insomnia, giving multiple people reason to visit the medical bay.",
+        "alone": "Someone with medical access took the exact drug used to kill the victim.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Report",
+        "text": "The night watchman reports seeing Commander Hayes using his master key to enter the radio room at 0230 hours. Hayes appeared agitated and was carrying what looked like a coffee cup from the officer's mess.",
+        "alone": "The captain was observed entering the victim's workspace with a beverage shortly before death.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "discovery",
+        "icon": "🕳️",
+        "heading": "Hidden Passage",
+        "text": "Behind a loose ventilation grate, investigators discover a narrow maintenance crawlway that connects the medical bay directly to the radio room. The passage shows recent signs of use, with fabric threads caught on metal edges.",
+        "alone": "There's a secret route that bypasses normal corridor access to the crime scene.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "revelation",
+        "icon": "📱",
+        "heading": "Blackmail Evidence",
+        "text": "Hidden in the victim's personal effects are photographs showing Dr. Chen distributing controlled substances to crew members in exchange for money. The images were taken secretly and show clear evidence of the doctor's illegal drug operation.",
+        "alone": "The victim had photographic proof of someone's criminal medical activities.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "alibi",
+        "icon": "☕",
+        "heading": "Kitchen Verification",
+        "text": "Chief Walsh confirms that Commander Hayes did take coffee from the officer's mess that night, but security cameras show Hayes returning to his quarters immediately after, never entering the radio room. The timestamps prove the watchman was mistaken about the timing.",
+        "alone": "The captain's movements have been misremembered by a credible witness.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "confession",
+        "icon": "⚕️",
+        "heading": "Doctor's Admission",
+        "text": "Confronted with the evidence, Dr. Chen breaks down and confesses to using the maintenance crawlway to secretly poison the radioman's coffee. He reveals that his illegal drug sales were funding his sister's cancer treatment, but the blackmail demands had become unbearable.",
+        "alone": "The ship's doctor admits to the murder and explains his desperate family circumstances.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Michael Chen",
+      "weapon": "Poison",
+      "location": "Radio room",
+      "motive": "Medical malpractice",
+      "access": "Connecting passage"
+    },
+    "epilogue": "Dr. Michael Chen had been running an illegal prescription drug operation aboard the submarine, selling morphine and other controlled substances to crew members struggling with the psychological pressures of underwater warfare. When the radioman discovered his scheme and began demanding increasingly large blackmail payments, Chen felt trapped between his oath as a healer and his desperate need for money to pay for his sister's expensive cancer treatments back home. Using his knowledge of the ship's hidden maintenance passages, he secretly accessed the radio room and administered the fatal dose of morphine that would silence his blackmailer forever. The tragedy of a doctor who saved lives by day becoming a killer by night wasn't lost on anyone aboard the USS Barracuda."
+  }
+}
