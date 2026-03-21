@@ -357,24 +357,12 @@ async function loadCase(date) {
 }
 
 async function init() {
+  // loadIndex() tries /api/cases first, falls back to 14-day scan
   var dates = await loadIndex();
-  var cases = [];
 
-  // Try to load cases/index.json which gives us a definitive list
-  var res2;
-  try { res2 = await fetch('/cases/index.json'); } catch(e) {}
-  if (res2 && res2.ok) {
-    var knownDates = await res2.json();
-    // Fetch all known cases in parallel
-    var results = await Promise.all(knownDates.map(loadCase));
-    cases = results.filter(Boolean);
-  } else {
-    // No index — scan dates in parallel batches
-    // First check today and a few recent dates quickly
-    var recentDates = dates.slice(0, 30);
-    var results = await Promise.all(recentDates.map(loadCase));
-    cases = results.filter(Boolean);
-  }
+  // Fetch all known case files in parallel
+  var results = await Promise.all(dates.map(loadCase));
+  var cases = results.filter(Boolean);
 
   // Sort newest first
   cases.sort(function(a,b){ return b.date.localeCompare(a.date); });
