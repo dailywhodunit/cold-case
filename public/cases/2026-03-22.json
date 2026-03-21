@@ -2,11 +2,11 @@
   "rookie": {
     "schemaVersion": "1.0",
     "tier": "rookie",
-    "caseNum": "Case #015",
-    "title": "The Sealed Archive",
-    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
-    "setting": "Oxford University · England · 1932",
-    "emoji": "🏛️",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
     "timerSeconds": 600,
     "categories": [
       {
@@ -15,78 +15,78 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Margaret Whitmore",
-            "icon": "📚",
-            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
           },
           {
-            "name": "Edward Blackwood",
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
             "icon": "💰",
-            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
-          },
-          {
-            "name": "Professor Davies",
-            "icon": "🔍",
-            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
-          },
-          {
-            "name": "Thomas Fletcher",
-            "icon": "🔐",
-            "detail": "The night watchman who had access to all areas of the library after hours."
+            "detail": "Studio executive with connections to organized crime."
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Weapon",
+        "label": "Murder Weapon",
         "icon": "⚔️",
         "items": [
           {
-            "name": "Heavy Manuscript",
-            "icon": "📜",
-            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
           },
           {
-            "name": "Letter Opener",
-            "icon": "🗡️",
-            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
           },
           {
-            "name": "Stone Gargoyle",
-            "icon": "🗿",
-            "detail": "A decorative piece that had been recently moved during library renovations."
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
           },
           {
-            "name": "Poisoned Tea",
-            "icon": "☕",
-            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
           }
         ]
       },
       {
         "key": "location",
-        "label": "Location",
+        "label": "Crime Scene",
         "icon": "📍",
         "items": [
           {
-            "name": "Restricted Archive",
-            "icon": "🔒",
-            "detail": "The secured manuscript collection where only senior staff held keys."
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
           },
           {
-            "name": "Reading Room",
-            "icon": "📖",
-            "detail": "The main study hall where scholars examined rare documents under supervision."
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
           },
           {
-            "name": "Professor's Office",
-            "icon": "🏢",
-            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
           },
           {
-            "name": "Library Courtyard",
-            "icon": "🏛️",
-            "detail": "The stone-paved area between the old and new wings of the building."
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
           }
         ]
       }
@@ -95,103 +95,85 @@
       {
         "id": "R1",
         "type": "physical",
-        "icon": "🔍",
-        "heading": "Ink-Stained Fingers",
-        "text": "Fresh blue ink stains cover Dr. Whitmore's right hand, matching the ink used to forge medieval manuscript annotations. She claims she was cataloguing in the archive when the murder occurred.",
-        "alone": "Dr. Whitmore has suspicious ink stains that suggest forgery work.",
+        "icon": "💊",
+        "heading": "Hidden Medicine",
+        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
+        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
         "links": [
-          {
-            "to": "R4",
-            "insight": "The ink stains match the forged annotations found on the manuscript clutched in the victim's hand."
-          }
+          "R4"
         ]
       },
       {
         "id": "R2",
         "type": "witness",
-        "icon": "👁️",
-        "heading": "The Nephew's Alibi",
-        "text": "Edward Blackwood was seen entering the library at 9 PM by multiple witnesses. Professor Davies confirms seeing Edward leave through the main entrance around 10:30 PM, well before the body was discovered.",
-        "alone": "Edward has a solid alibi confirmed by Professor Davies.",
+        "icon": "👀",
+        "heading": "Overheard Argument",
+        "text": "A grip reports hearing Victoria Sterling and the victim in a heated argument about casting decisions the morning of the murder. Sterling was reportedly furious about losing a lead role.",
+        "alone": "Victoria Sterling had a public confrontation with the victim on the day of the murder.",
         "links": [
-          {
-            "to": "R5",
-            "insight": "Edward's departure time conflicts with his claim of finding the body first at 11 PM."
-          }
+          "R5"
         ]
       },
       {
         "id": "R3",
-        "type": "evidence",
-        "icon": "📋",
-        "heading": "The Will Fragment",
-        "text": "A torn piece of parchment near the body contains part of Professor Blackwood's will, mentioning substantial bequests to the library. Thomas Fletcher admits he was curious about the inheritance after overhearing heated arguments.",
-        "alone": "Fletcher shows suspicious knowledge about the victim's will and inheritance disputes.",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Fingerprint Evidence",
+        "text": "Eleanor Chase's fingerprints are found on the victim's coffee cup and nearby script pages. She claims they worked together on line rehearsals that morning.",
+        "alone": "Eleanor Chase had recent physical contact with items belonging to the victim.",
         "links": [
-          {
-            "to": "R6",
-            "insight": "The will fragment reveals Fletcher would receive nothing, eliminating his financial motive for murder."
-          }
+          "R6"
         ]
       },
       {
         "id": "R4",
-        "type": "forensic",
-        "icon": "🔬",
-        "heading": "Forged Annotations",
-        "text": "The manuscript in the victim's hand contains freshly forged annotations attempting to increase its value. The forgery work appears rushed and recent, completed within hours of the murder.",
-        "alone": "Someone forged valuable annotations on the manuscript just before the murder occurred.",
+        "type": "witness",
+        "icon": "🗣️",
+        "heading": "Pharmacy Records",
+        "text": "Investigation reveals Frank Morrison visited three different pharmacies in the past week, claiming he needed heart medication for his ailing father. Security footage confirms these visits.",
+        "alone": "Frank Morrison recently acquired heart medication from multiple sources under suspicious circumstances.",
         "links": [
-          {
-            "to": "R1",
-            "insight": "The ink stains match the forged annotations found on the manuscript clutched in the victim's hand."
-          }
+          "R1"
         ]
       },
       {
         "id": "R5",
-        "type": "testimony",
-        "icon": "🗣️",
-        "heading": "Timeline Contradiction",
-        "text": "Edward claims he returned to find his uncle's body at 11 PM, but the library's main doors were locked at 10:45 PM. Only staff members with keys could enter or exit after that time.",
-        "alone": "Edward's timeline doesn't match the library's locking schedule, suggesting deception.",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Phone Call Testimony",
+        "text": "The studio switchboard operator confirms Victoria Sterling received a frantic phone call during lunch break and immediately left the lot. Phone records show the call came from her agent regarding a new contract opportunity.",
+        "alone": "Victoria Sterling left the studio during the critical time period due to an urgent business call.",
         "links": [
-          {
-            "to": "R2",
-            "insight": "Edward's departure time conflicts with his claim of finding the body first at 11 PM."
-          }
+          "R2"
         ]
       },
       {
         "id": "R6",
-        "type": "document",
-        "icon": "📄",
-        "heading": "The Complete Will",
-        "text": "The full will reveals that Fletcher receives no inheritance, while Dr. Whitmore stands to inherit the entire manuscript collection if she can prove her authentication skills. The collection is worth over £50,000.",
-        "alone": "The will shows significant financial motives for some individuals but eliminates others as beneficiaries.",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Rehearsal Schedule",
+        "text": "The assistant director's logs show Eleanor Chase was scheduled for a private rehearsal with the victim that morning, explaining her presence and the fingerprints on his materials.",
+        "alone": "Eleanor Chase had a legitimate professional reason to be in close contact with the victim.",
         "links": [
-          {
-            "to": "R3",
-            "insight": "The will fragment reveals Fletcher would receive nothing, eliminating his financial motive for murder."
-          }
+          "R3"
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Margaret Whitmore",
-      "weapon": "Heavy Manuscript",
-      "location": "Restricted Archive"
+      "suspect": "Frank Morrison",
+      "weapon": "Poison Capsule",
+      "location": "Sound Stage 7"
     },
-    "epilogue": "Dr. Margaret Whitmore's desperation to prove her worth as a manuscript authenticator led her down a dark path. When Professor Blackwood discovered her forgeries, she struck him with the very manuscript she had tried to enhance, fearing exposure would destroy her career and inheritance. The brilliant scholar's ambition ultimately became her downfall, costing both her mentor's life and her own future in academia."
+    "epilogue": "Frank Morrison's gambling debts to dangerous men had reached a breaking point, and the victim had discovered his embezzlement from studio funds. Faced with exposure and certain death from his creditors, Morrison saw murder as his only escape. He used his executive access to plant the poisoned capsule in Sound Stage 7, knowing the victim's routine of taking medication before important scenes. The investigation revealed Morrison had been skimming money for months, desperately trying to stay ahead of his mounting obligations to organized crime figures who showed no mercy to debtors."
   },
   "detective": {
     "schemaVersion": "1.0",
     "tier": "detective",
-    "caseNum": "Case #015",
-    "title": "The Sealed Archive",
-    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
-    "setting": "Oxford University · England · 1932",
-    "emoji": "🏛️",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
     "timerSeconds": 600,
     "categories": [
       {
@@ -200,93 +182,93 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Margaret Whitmore",
-            "icon": "📚",
-            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
           },
           {
-            "name": "Edward Blackwood",
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
             "icon": "💰",
-            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
+            "detail": "Studio executive with connections to organized crime."
           },
           {
-            "name": "Professor Davies",
-            "icon": "🔍",
-            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
-          },
-          {
-            "name": "Thomas Fletcher",
-            "icon": "🔐",
-            "detail": "The night watchman who had access to all areas of the library after hours."
-          },
-          {
-            "name": "Lady Pemberton",
-            "icon": "💎",
-            "detail": "A wealthy collector who had been negotiating to purchase part of the manuscript collection."
+            "name": "Tommy Rodriguez",
+            "icon": "🔧",
+            "detail": "Head of the prop department with access to all studio equipment."
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Weapon",
+        "label": "Murder Weapon",
         "icon": "⚔️",
         "items": [
           {
-            "name": "Heavy Manuscript",
-            "icon": "📜",
-            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
           },
           {
-            "name": "Letter Opener",
-            "icon": "🗡️",
-            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
           },
           {
-            "name": "Stone Gargoyle",
-            "icon": "🗿",
-            "detail": "A decorative piece that had been recently moved during library renovations."
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
           },
           {
-            "name": "Poisoned Tea",
-            "icon": "☕",
-            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
           },
           {
-            "name": "Iron Bookend",
-            "icon": "📚",
-            "detail": "A medieval-styled piece used to secure heavy volumes on the archive shelves."
+            "name": "Electrical Cable",
+            "icon": "⚡",
+            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
           }
         ]
       },
       {
         "key": "location",
-        "label": "Location",
+        "label": "Crime Scene",
         "icon": "📍",
         "items": [
           {
-            "name": "Restricted Archive",
-            "icon": "🔒",
-            "detail": "The secured manuscript collection where only senior staff held keys."
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
           },
           {
-            "name": "Reading Room",
-            "icon": "📖",
-            "detail": "The main study hall where scholars examined rare documents under supervision."
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
           },
           {
-            "name": "Professor's Office",
-            "icon": "🏢",
-            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
           },
           {
-            "name": "Library Courtyard",
-            "icon": "🏛️",
-            "detail": "The stone-paved area between the old and new wings of the building."
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
           },
           {
-            "name": "Binding Workshop",
-            "icon": "🔨",
-            "detail": "The restoration room where damaged manuscripts were carefully repaired and rebound."
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Warehouse area containing cameras, lights, and technical gear."
           }
         ]
       },
@@ -296,29 +278,29 @@
         "icon": "⏰",
         "items": [
           {
-            "name": "9:00-9:30 PM",
-            "icon": "🕘",
-            "detail": "Early evening when the library was still officially open to senior researchers."
+            "name": "Morning Setup (8-10 AM)",
+            "icon": "🌅",
+            "detail": "Early crew preparation before main cast arrives."
           },
           {
-            "name": "9:30-10:00 PM",
-            "icon": "🕘",
-            "detail": "The transition period when most staff were departing for the night."
+            "name": "First Rehearsal (10 AM-12 PM)",
+            "icon": "🎭",
+            "detail": "Initial run-through with principal actors and director."
           },
           {
-            "name": "10:00-10:30 PM",
-            "icon": "🕘",
-            "detail": "After closing time when only authorized personnel remained in the building."
+            "name": "Lunch Break (12-1 PM)",
+            "icon": "🍽️",
+            "detail": "Cast and crew meal period when set is mostly empty."
           },
           {
-            "name": "10:30-11:00 PM",
-            "icon": "🕘",
-            "detail": "Late evening when the building was locked and only key holders had access."
+            "name": "Afternoon Filming (1-4 PM)",
+            "icon": "🎬",
+            "detail": "Main shooting schedule with full cast and crew present."
           },
           {
-            "name": "11:00-11:30 PM",
-            "icon": "🕘",
-            "detail": "The period just before the body was discovered by the night watchman."
+            "name": "Evening Wrap (4-6 PM)",
+            "icon": "🌆",
+            "detail": "Final shots and equipment breakdown for the day."
           }
         ]
       }
@@ -327,104 +309,86 @@
       {
         "id": "D1",
         "type": "physical",
-        "icon": "🔍",
-        "heading": "Ink-Stained Evidence",
-        "text": "Fresh blue ink stains cover Dr. Whitmore's hands and cuffs, matching the specialized ink used for manuscript restoration. She nervously explains she was working late on authentication documentation in the archive.",
-        "alone": "Dr. Whitmore has suspicious ink stains and was working alone in the archive area.",
+        "icon": "💊",
+        "heading": "Hidden Medicine",
+        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
+        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
         "links": [
-          {
-            "to": "D4",
-            "insight": "The ink stains match the forged annotations discovered on multiple manuscripts, indicating systematic fraud."
-          }
+          "D4"
         ]
       },
       {
         "id": "D2",
         "type": "witness",
-        "icon": "👁️",
-        "heading": "Professor Davies' Account",
-        "text": "Professor Davies swears he saw Edward Blackwood leaving the library through the main entrance at exactly 10:15 PM, checking his pocket watch as he did. He seemed agitated and was carrying a leather satchel.",
-        "alone": "Davies provides a specific alibi for Edward, placing him outside when the murder likely occurred.",
+        "icon": "👀",
+        "heading": "Security Guard Report",
+        "text": "The night security guard swears he saw Marcus Webb leaving the studio at 11 PM the previous evening, well after normal hours. Webb had been working late in his office reviewing dailies and preparing shot lists.",
+        "alone": "Marcus Webb was present at the studio during unusual hours before the murder.",
         "links": [
-          {
-            "to": "D5",
-            "insight": "Davies' account is sincere but mistaken - he actually saw Edward's earlier departure, not realizing Edward had returned through a side entrance."
-          }
+          "D5"
         ]
       },
       {
         "id": "D3",
-        "type": "evidence",
-        "icon": "📋",
-        "heading": "Access Log Discrepancy",
-        "text": "The archive access log shows Dr. Whitmore entered at 9:45 PM but has no exit time recorded. The electronic lock system shows unusual activity during the 10:30-11:00 PM window when the murder occurred.",
-        "alone": "Whitmore's access to the archive overlaps perfectly with the estimated time of death.",
+        "type": "physical",
+        "icon": "🕐",
+        "heading": "Timestamp Evidence",
+        "text": "Security cameras show the victim entering his dressing room at 12:45 PM during lunch break, taking medication, and collapsing within minutes. The timestamp confirms the narrow window of the crime.",
+        "alone": "The victim died during lunch break after taking medication in his dressing room.",
         "links": [
-          {
-            "to": "D6",
-            "insight": "The electronic lock was activated from inside the archive during the murder window, proving the killer was authorized personnel with access privileges."
-          }
+          "D6"
         ]
       },
       {
         "id": "D4",
-        "type": "forensic",
-        "icon": "🔬",
-        "heading": "Systematic Forgery Operation",
-        "text": "Laboratory analysis reveals multiple manuscripts contain recent forgeries designed to enhance their historical significance and market value. The forged annotations follow a consistent pattern and technique.",
-        "alone": "Someone has been running an organized forgery operation to inflate manuscript values.",
+        "type": "witness",
+        "icon": "🗣️",
+        "heading": "Pharmacy Investigation",
+        "text": "Frank Morrison visited three different pharmacies last week, purchasing heart medication under false pretenses. He claimed his father needed the prescription but pharmacy records show no legitimate prescriptions.",
+        "alone": "Frank Morrison illegally obtained heart medication through deceptive means.",
         "links": [
-          {
-            "to": "D1",
-            "insight": "The ink stains match the forged annotations discovered on multiple manuscripts, indicating systematic fraud."
-          }
+          "D1"
         ]
       },
       {
         "id": "D5",
-        "type": "testimony",
-        "icon": "🗣️",
-        "heading": "The Side Entrance Key",
-        "text": "Thomas Fletcher reveals that Edward had requested a temporary key to the side entrance earlier that day, claiming he needed private access to settle family matters with his uncle. The key was never returned.",
-        "alone": "Edward had secret access to the building that Davies didn't know about, undermining his alibi.",
+        "type": "physical",
+        "icon": "📹",
+        "heading": "Film Reel Discovery",
+        "text": "Investigation of Marcus Webb's late-night work reveals he was actually reviewing footage that showed Frank Morrison entering restricted areas after hours. Webb had been building a case against Morrison's suspicious activities.",
+        "alone": "Marcus Webb was investigating Frank Morrison's unauthorized access to secure studio areas.",
         "links": [
-          {
-            "to": "D2",
-            "insight": "Davies' account is sincere but mistaken - he actually saw Edward's earlier departure, not realizing Edward had returned through a side entrance."
-          }
+          "D2"
         ]
       },
       {
         "id": "D6",
-        "type": "technical",
-        "icon": "🔐",
-        "heading": "Electronic Lock Analysis",
-        "text": "The archive's electronic lock shows activation at 10:47 PM from inside the restricted area, followed by an emergency override sequence. Only three people possessed the override codes needed for this operation.",
-        "alone": "The killer used insider knowledge to manipulate the security system during their escape.",
+        "type": "witness",
+        "icon": "🍽️",
+        "heading": "Commissary Witness",
+        "text": "The commissary staff confirm Frank Morrison was present during the entire lunch break, having an extended business meeting with visiting investors. Multiple witnesses place him in the dining hall when the victim died.",
+        "alone": "Frank Morrison has a solid alibi supported by multiple witnesses during the time of death.",
         "links": [
-          {
-            "to": "D3",
-            "insight": "The electronic lock was activated from inside the archive during the murder window, proving the killer was authorized personnel with access privileges."
-          }
+          "D3"
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Margaret Whitmore",
-      "weapon": "Heavy Manuscript",
-      "location": "Restricted Archive",
-      "window": "10:30-11:00 PM"
+      "suspect": "Marcus Webb",
+      "weapon": "Poison Capsule",
+      "location": "Sound Stage 7",
+      "window": "Lunch Break (12-1 PM)"
     },
-    "epilogue": "Dr. Margaret Whitmore's brilliant academic mind had turned to fraud when financial pressures mounted and her research stalled. When Professor Blackwood discovered her systematic forgery operation during their late meeting in the restricted archive, she struck him with the very manuscript that would expose her crimes. Her desperate attempt to manipulate the electronic locks and cover her tracks ultimately provided the evidence that sealed her fate, destroying both her career and her freedom."
+    "epilogue": "Marcus Webb had discovered that the victim was planning to expose his embezzlement of production funds and replace him as director. Desperate to protect his reputation and career, Webb used his knowledge of the studio layout to plant the poison capsule in Sound Stage 7 during the lunch break. His investigation of Frank Morrison was actually a cover, gathering information to frame Morrison for the crime he was planning to commit. Webb's meticulous nature, which made him a successful director, also made him a calculating murderer who nearly succeeded in his elaborate deception."
   },
   "inspector": {
     "schemaVersion": "1.0",
     "tier": "inspector",
-    "caseNum": "Case #015",
-    "title": "The Sealed Archive",
-    "flavor": "Professor Blackwood's body lies crumpled beneath the ancient stone archway of the Bodleian Library's restricted wing, a manuscript clutched in his lifeless fingers. The inheritance of Oxford's most valuable medieval collection hangs in the balance as fog rolls through the Gothic corridors.",
-    "setting": "Oxford University · England · 1932",
-    "emoji": "🏛️",
+    "caseNum": "Case #016",
+    "title": "Studio Secrets",
+    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
+    "setting": "Hollywood Film Set · Los Angeles · 1955",
+    "emoji": "🎬",
     "timerSeconds": 480,
     "categories": [
       {
@@ -433,108 +397,108 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Margaret Whitmore",
-            "icon": "📚",
-            "detail": "The victim's ambitious research assistant who discovered several key manuscripts."
+            "name": "Victoria Sterling",
+            "icon": "👑",
+            "detail": "Veteran actress whose career is threatened by younger talent."
           },
           {
-            "name": "Edward Blackwood",
+            "name": "Marcus Webb",
+            "icon": "📹",
+            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+          },
+          {
+            "name": "Eleanor Chase",
+            "icon": "✨",
+            "detail": "Rising starlet who has been stealing roles from established actors."
+          },
+          {
+            "name": "Frank Morrison",
             "icon": "💰",
-            "detail": "The professor's estranged nephew who recently returned from abroad seeking reconciliation."
+            "detail": "Studio executive with connections to organized crime."
           },
           {
-            "name": "Professor Davies",
-            "icon": "🔍",
-            "detail": "A rival medievalist who publicly disputed Blackwood's authentication methods."
+            "name": "Tommy Rodriguez",
+            "icon": "🔧",
+            "detail": "Head of the prop department with access to all studio equipment."
           },
           {
-            "name": "Thomas Fletcher",
-            "icon": "🔐",
-            "detail": "The night watchman who had access to all areas of the library after hours."
-          },
-          {
-            "name": "Lady Pemberton",
-            "icon": "💎",
-            "detail": "A wealthy collector who had been negotiating to purchase part of the manuscript collection."
-          },
-          {
-            "name": "Dr. Helena Morrison",
-            "icon": "⚗️",
-            "detail": "A chemistry professor who consulted on manuscript ink analysis and preservation techniques."
+            "name": "Dr. Sarah Chen",
+            "icon": "👩‍⚕️",
+            "detail": "Studio physician who provides medical services to cast and crew."
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Weapon",
+        "label": "Murder Weapon",
         "icon": "⚔️",
         "items": [
           {
-            "name": "Heavy Manuscript",
-            "icon": "📜",
-            "detail": "A weighty 12th-century tome bound in oak boards and iron clasps."
+            "name": "Stage Sword",
+            "icon": "⚔️",
+            "detail": "A prop sword with a real steel blade used in the current production."
           },
           {
-            "name": "Letter Opener",
-            "icon": "🗡️",
-            "detail": "An ornate Victorian blade kept on Blackwood's desk for correspondence."
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "Heavy equipment that could be sabotaged to fall on someone."
           },
           {
-            "name": "Stone Gargoyle",
-            "icon": "🗿",
-            "detail": "A decorative piece that had been recently moved during library renovations."
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
           },
           {
-            "name": "Poisoned Tea",
-            "icon": "☕",
-            "detail": "Earl Grey laced with strychnine from the chemistry department stores."
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "A small capsule containing cyanide hidden in prescription medication."
           },
           {
-            "name": "Iron Bookend",
-            "icon": "📚",
-            "detail": "A medieval-styled piece used to secure heavy volumes on the archive shelves."
+            "name": "Electrical Cable",
+            "icon": "⚡",
+            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
           },
           {
-            "name": "Glass Paperweight",
-            "icon": "💎",
-            "detail": "A heavy crystal orb used to hold down delicate manuscript pages during examination."
+            "name": "Medical Injection",
+            "icon": "💉",
+            "detail": "A syringe filled with lethal drugs from the medical office."
           }
         ]
       },
       {
         "key": "location",
-        "label": "Location",
+        "label": "Crime Scene",
         "icon": "📍",
         "items": [
           {
-            "name": "Restricted Archive",
-            "icon": "🔒",
-            "detail": "The secured manuscript collection where only senior staff held keys."
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location where the victim was discovered."
           },
           {
-            "name": "Reading Room",
-            "icon": "📖",
-            "detail": "The main study hall where scholars examined rare documents under supervision."
+            "name": "Wardrobe Department",
+            "icon": "👗",
+            "detail": "Costume storage area filled with racks of period clothing."
           },
           {
-            "name": "Professor's Office",
-            "icon": "🏢",
-            "detail": "Blackwood's cluttered study filled with reference books and correspondence."
+            "name": "Director's Office",
+            "icon": "🗂️",
+            "detail": "Private workspace containing scripts and confidential documents."
           },
           {
-            "name": "Library Courtyard",
-            "icon": "🏛️",
-            "detail": "The stone-paved area between the old and new wings of the building."
+            "name": "Studio Commissary",
+            "icon": "🍽️",
+            "detail": "The dining hall where cast and crew gather for meals."
           },
           {
-            "name": "Binding Workshop",
-            "icon": "🔨",
-            "detail": "The restoration room where damaged manuscripts were carefully repaired and rebound."
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Warehouse area containing cameras, lights, and technical gear."
           },
           {
-            "name": "Storage Vault",
-            "icon": "🗄️",
-            "detail": "The climate-controlled basement area where the most valuable manuscripts were secured."
+            "name": "Medical Office",
+            "icon": "🏥",
+            "detail": "On-site clinic where cast and crew receive medical treatment."
           }
         ]
       },
@@ -544,34 +508,34 @@
         "icon": "⏰",
         "items": [
           {
-            "name": "9:00-9:30 PM",
-            "icon": "🕘",
-            "detail": "Early evening when the library was still officially open to senior researchers."
+            "name": "Morning Setup (8-10 AM)",
+            "icon": "🌅",
+            "detail": "Early crew preparation before main cast arrives."
           },
           {
-            "name": "9:30-10:00 PM",
-            "icon": "🕘",
-            "detail": "The transition period when most staff were departing for the night."
+            "name": "First Rehearsal (10 AM-12 PM)",
+            "icon": "🎭",
+            "detail": "Initial run-through with principal actors and director."
           },
           {
-            "name": "10:00-10:30 PM",
-            "icon": "🕘",
-            "detail": "After closing time when only authorized personnel remained in the building."
+            "name": "Lunch Break (12-1 PM)",
+            "icon": "🍽️",
+            "detail": "Cast and crew meal period when set is mostly empty."
           },
           {
-            "name": "10:30-11:00 PM",
-            "icon": "🕘",
-            "detail": "Late evening when the building was locked and only key holders had access."
+            "name": "Afternoon Filming (1-4 PM)",
+            "icon": "🎬",
+            "detail": "Main shooting schedule with full cast and crew present."
           },
           {
-            "name": "11:00-11:30 PM",
-            "icon": "🕘",
-            "detail": "The period just before the body was discovered by the night watchman."
+            "name": "Evening Wrap (4-6 PM)",
+            "icon": "🌆",
+            "detail": "Final shots and equipment breakdown for the day."
           },
           {
-            "name": "11:30 PM-12:00 AM",
-            "icon": "🕛",
-            "detail": "After the body was discovered when police and emergency services arrived."
+            "name": "Night Security (6 PM-8 AM)",
+            "icon": "🌙",
+            "detail": "After-hours period with minimal staff and security patrols."
           }
         ]
       },
@@ -581,34 +545,34 @@
         "icon": "💭",
         "items": [
           {
-            "name": "Inheritance Fraud",
-            "icon": "💰",
-            "detail": "Systematic forgery operation to inflate manuscript values before inheritance transfer."
-          },
-          {
-            "name": "Academic Revenge",
-            "icon": "📚",
-            "detail": "Settling scores over disputed research credentials and publication rights."
-          },
-          {
-            "name": "Financial Desperation",
+            "name": "Financial Ruin",
             "icon": "💸",
-            "detail": "Mounting debts requiring immediate access to valuable assets or insurance money."
+            "detail": "Victim threatened to expose embezzlement that would lead to prosecution."
           },
           {
-            "name": "Professional Jealousy",
-            "icon": "🎭",
-            "detail": "Resentment over career advancement and recognition in academic circles."
+            "name": "Career Destruction",
+            "icon": "📉",
+            "detail": "Victim planned to reveal professional misconduct ending Hollywood dreams."
           },
           {
-            "name": "Family Honor",
-            "icon": "👑",
-            "detail": "Protecting reputation and social standing from potential scandal or exposure."
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Victim was having an affair that would destroy the killer's marriage."
           },
           {
-            "name": "Blackmail Prevention",
-            "icon": "🤐",
-            "detail": "Silencing someone who discovered compromising secrets or illegal activities."
+            "name": "Blackmail Scheme",
+            "icon": "🔒",
+            "detail": "Victim discovered illegal activities and was demanding payment for silence."
+          },
+          {
+            "name": "Professional Rivalry",
+            "icon": "🏆",
+            "detail": "Victim was blocking advancement and stealing credit for creative work."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚖️",
+            "detail": "Victim knew about falsified credentials and dangerous treatment of patients."
           }
         ]
       }
@@ -617,95 +581,77 @@
       {
         "id": "I1",
         "type": "physical",
-        "icon": "🔍",
-        "heading": "The Forger's Tools",
-        "text": "Dr. Whitmore's desk drawer contains specialized restoration inks and medieval-style quills, along with practice sheets mimicking historical handwriting. Fresh ink stains on her hands match the forged annotations found throughout the collection.",
-        "alone": "Whitmore possesses professional forgery equipment and has recent evidence of using it extensively.",
+        "icon": "💉",
+        "heading": "Missing Medical Supplies",
+        "text": "Dr. Sarah Chen's medical office inventory shows a missing syringe and vial of morphine, but she claims to have no memory of using them recently. The controlled substances log has been altered with different handwriting.",
+        "alone": "Medical supplies that could be used as murder weapons have disappeared from the studio clinic.",
         "links": [
-          {
-            "to": "I4",
-            "insight": "The forgery tools and ink stains directly connect to the systematic fraud operation that Blackwood discovered and threatened to expose."
-          }
+          "I4"
         ]
       },
       {
         "id": "I2",
         "type": "witness",
-        "icon": "👁️",
-        "heading": "The Mistaken Identification",
-        "text": "Professor Davies insists he saw Edward leaving at 10:15 PM, but security footage reveals he actually witnessed Edward's research colleague, Dr. Morrison, who wore a similar overcoat. Davies' poor eyesight combined with dim lighting caused the confusion.",
-        "alone": "Davies provided false information about Edward's whereabouts, though he believed he was telling the truth.",
+        "icon": "👀",
+        "heading": "Assistant Director's Account",
+        "text": "The assistant director insists he saw Eleanor Chase in deep conversation with the victim near the medical office during lunch break, discussing what appeared to be a private medical matter. Both seemed distressed during the exchange.",
+        "alone": "Eleanor Chase was seen having an intense private discussion with the victim near the medical facility.",
         "links": [
-          {
-            "to": "I5",
-            "insight": "Davies' mistaken identification allowed Edward to appear to have an alibi while he was actually confronting his uncle about the changed inheritance terms."
-          }
+          "I5"
         ]
       },
       {
         "id": "I3",
-        "type": "evidence",
+        "type": "physical",
         "icon": "📋",
-        "heading": "The Inheritance Amendment",
-        "text": "A draft codicil to Professor Blackwood's will, dated that morning, removes Dr. Whitmore as beneficiary due to 'questions regarding professional integrity.' The document was hidden in the victim's private safe.",
-        "alone": "Blackwood had discovered something that made him question Whitmore's trustworthiness and was changing his will accordingly.",
+        "heading": "Medical Records Discovery",
+        "text": "Hidden in Dr. Chen's office files are forged medical certificates for several cast members, including documentation that would have kept them working despite serious health conditions. The victim's signature appears as a witness on several documents.",
+        "alone": "Falsified medical records with the victim's signature are hidden in the studio medical office.",
         "links": [
-          {
-            "to": "I6",
-            "insight": "The inheritance amendment was motivated by Blackwood's discovery of Whitmore's systematic forgery scheme, which would have destroyed her career and eliminated her substantial inheritance."
-          }
+          "I6"
         ]
       },
       {
         "id": "I4",
-        "type": "forensic",
-        "icon": "🔬",
-        "heading": "Systematic Authentication Fraud",
-        "text": "Chemical analysis reveals that seventeen manuscripts in the collection contain recent forgeries designed to enhance their provenance and value. The alterations were made over several months using identical techniques and materials.",
-        "alone": "Someone has been conducting an extensive forgery operation to artificially inflate the collection's worth before inheritance transfer.",
+        "type": "witness",
+        "icon": "🔍",
+        "heading": "Pharmacy Investigation",
+        "text": "Local pharmacies report that Tommy Rodriguez has been purchasing large quantities of medical supplies over the past month, claiming he needed them for realistic prop injuries. Security footage confirms these suspicious transactions.",
+        "alone": "Tommy Rodriguez has been secretly acquiring medical supplies that could be used for harmful purposes.",
         "links": [
-          {
-            "to": "I1",
-            "insight": "The forgery tools and ink stains directly connect to the systematic fraud operation that Blackwood discovered and threatened to expose."
-          }
+          "I1"
         ]
       },
       {
         "id": "I5",
-        "type": "testimony",
-        "icon": "🗣️",
-        "heading": "The Nephew's Secret Meeting",
-        "text": "Library records show Edward used his temporary access key to enter through the side entrance at 10:35 PM, just as Fletcher was making his first security round. Edward admits he returned to confront his uncle about family financial matters.",
-        "alone": "Edward was present in the building during the murder timeframe despite appearing to have left earlier.",
+        "type": "physical",
+        "icon": "📞",
+        "heading": "Phone Records Reveal",
+        "text": "Eleanor Chase's phone records show she called a medical licensing board the morning of the murder, asking about procedures for reporting physician misconduct. The call lasted fifteen minutes and she took detailed notes.",
+        "alone": "Eleanor Chase was researching how to report medical professional misconduct on the day of the murder.",
         "links": [
-          {
-            "to": "I2",
-            "insight": "Davies' mistaken identification allowed Edward to appear to have an alibi while he was actually confronting his uncle about the changed inheritance terms."
-          }
+          "I2"
         ]
       },
       {
         "id": "I6",
-        "type": "document",
-        "icon": "📄",
-        "heading": "The Blackmail Note",
-        "text": "A note in Blackwood's handwriting, found in his jacket pocket, reads: 'Margaret - We must discuss your recent work immediately. The authentication irregularities cannot continue. Meet me in the archive at 10:45.' The paper shows signs of having been crumpled and smoothed.",
-        "alone": "Blackwood had arranged a confrontational meeting with Whitmore about suspicious authentication work just before his death.",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Financial Investigation",
+        "text": "Bank records reveal Dr. Sarah Chen has been receiving large cash deposits that don't match her studio physician salary. The victim's personal accountant confirms he had been investigating these suspicious financial transactions for insurance fraud.",
+        "alone": "Dr. Sarah Chen has unexplained income and was under financial investigation by the victim.",
         "links": [
-          {
-            "to": "I3",
-            "insight": "The inheritance amendment was motivated by Blackwood's discovery of Whitmore's systematic forgery scheme, which would have destroyed her career and eliminated her substantial inheritance."
-          }
+          "I3"
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Margaret Whitmore",
-      "weapon": "Heavy Manuscript",
-      "location": "Restricted Archive",
-      "window": "10:30-11:00 PM",
-      "motive": "Inheritance Fraud"
+      "suspect": "Dr. Sarah Chen",
+      "weapon": "Medical Injection",
+      "location": "Medical Office",
+      "window": "Lunch Break (12-1 PM)",
+      "motive": "Medical Malpractice"
     },
-    "epilogue": "Dr. Margaret Whitmore's desperation to secure her financial future through the manuscript inheritance led her to forge historical annotations that would dramatically increase the collection's value. When Professor Blackwood discovered her systematic fraud during their confrontational meeting in the restricted archive, she struck him with the very manuscript that contained her forged work. Her careful planning to manipulate both the inheritance and the authentication process ultimately became the evidence that convicted her, transforming her from respected scholar to murderer in one fatal moment of panic and greed."
+    "epilogue": "Dr. Sarah Chen had been operating with falsified credentials and endangering lives through incompetent medical care while collecting insurance payments for treatments never provided. When the victim discovered her fraud and threatened exposure, she lured him to the medical office during lunch break under the pretense of discussing his health concerns. Using her medical knowledge, she administered a lethal injection that initially appeared to be a heart attack. Chen's desperation to protect her lucrative deception and avoid prosecution for medical malpractice drove her to murder, believing she could use her position as studio physician to control the investigation and cover her tracks."
   }
 }
