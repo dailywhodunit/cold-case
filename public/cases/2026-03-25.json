@@ -1,0 +1,660 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #019",
+    "title": "Love in the Void",
+    "tier": "rookie",
+    "setting": "ISV Meridian · Deep Space · 2187",
+    "emoji": "🚀",
+    "flavor": "The deep space research vessel ISV Meridian was supposed to be a place of scientific discovery, but forbidden desires proved more dangerous than any cosmic phenomenon. Now someone lies dead in the hydroponics bay, and the killer walks among the crew.",
+    "emptyState": "In space, no one can hear hearts breaking.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "👤",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "🔬",
+            "detail": "Chief botanist who discovered the body in her own hydroponics lab."
+          },
+          {
+            "name": "Commander Rex Torres",
+            "icon": "⭐",
+            "detail": "Ship's second-in-command known for his strict adherence to regulations."
+          },
+          {
+            "name": "Engineer Maya Chen",
+            "icon": "🔧",
+            "detail": "Propulsion specialist who had been acting strange lately."
+          },
+          {
+            "name": "Dr. James Wright",
+            "icon": "💊",
+            "detail": "Ship's medical officer with access to dangerous substances."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Hydroponic Fertilizer",
+            "icon": "🧪",
+            "detail": "Concentrated nitrogen compound that becomes toxic in high doses."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "⚡",
+            "detail": "Engineering tool capable of cutting through hull plating."
+          },
+          {
+            "name": "Medical Hypospray",
+            "icon": "💉",
+            "detail": "Standard medical injector found near the victim."
+          },
+          {
+            "name": "Gravity Manipulator",
+            "icon": "🌀",
+            "detail": "Maintenance device that could cause fatal injuries."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hydroponics Bay",
+            "icon": "🌱",
+            "detail": "Where Lieutenant Sarah Kim's body was discovered among the growing plants."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "Sterile treatment facility with locked pharmaceutical storage."
+          },
+          {
+            "name": "Engineering Deck",
+            "icon": "⚙️",
+            "detail": "Lower level containing the ship's main propulsion systems."
+          },
+          {
+            "name": "Recreation Lounge",
+            "icon": "🍸",
+            "detail": "Off-duty relaxation area where crew members socialize."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Encrypted Personal Messages",
+        "text": "Lieutenant Kim's personal communicator reveals encrypted messages expressing deep romantic feelings for someone aboard the ship. The encryption is military-grade, suggesting the recipient holds a command position.",
+        "alone": "Someone in command was romantically involved with the victim.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Late Night Argument",
+        "text": "A crew member reports hearing Lieutenant Kim arguing with Dr. Wright in the medical bay around 0200 hours. Voices were raised and Kim stormed out, saying 'You can't stop me from telling everyone.'",
+        "alone": "Dr. Wright had a heated confrontation with the victim before her death.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Fertilizer Residue",
+        "text": "Traces of concentrated hydroponic fertilizer are found under the victim's fingernails and on her uniform. This particular compound is highly toxic when ingested and could easily cause the symptoms observed.",
+        "alone": "The victim came into contact with toxic fertilizer before dying.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "💝",
+        "heading": "Command Code Access",
+        "text": "Security logs show Commander Torres used his command codes to access Lieutenant Kim's quarters multiple times over the past month, always during off-duty hours. Personal items suggest intimate visits.",
+        "alone": "Commander Torres had private access to the victim's quarters for personal reasons.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Medical Records Discovery",
+        "text": "Dr. Wright admits Kim threatened to expose his illegal recreational drug distribution to crew members. He was desperate to keep his medical license and position, making him panic about potential exposure.",
+        "alone": "Dr. Wright had a serious motive to silence the victim permanently.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Botanical Access Logs",
+        "text": "Dr. Elena Vasquez's access records show she was in the hydroponics bay all night conducting time-sensitive plant experiments. She discovered the body at 0600 during her routine morning inspection.",
+        "alone": "Dr. Vasquez was present in the location where the murder occurred.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Commander Rex Torres",
+      "weapon": "Hydroponic Fertilizer",
+      "location": "Hydroponics Bay"
+    },
+    "epilogue": "Commander Torres killed Lieutenant Kim when she threatened to expose their forbidden relationship, which violated strict military protocols about fraternization between ranks. Using his command access, he lured her to the hydroponics bay and forced her to ingest the toxic fertilizer. His rigid adherence to regulations masked a desperate man who would kill to protect his career and reputation. Dr. Wright's drug operation provided the perfect cover, making him an obvious suspect while Torres remained above suspicion. In the vastness of space, love and duty collided with fatal consequences."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #019",
+    "title": "Love in the Void",
+    "tier": "detective",
+    "setting": "ISV Meridian · Deep Space · 2187",
+    "emoji": "🚀",
+    "flavor": "The deep space research vessel ISV Meridian was supposed to be a place of scientific discovery, but forbidden desires proved more dangerous than any cosmic phenomenon. Now someone lies dead in the hydroponics bay, and the killer walks among the crew.",
+    "emptyState": "In space, no one can hear hearts breaking.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "👤",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "🔬",
+            "detail": "Chief botanist who discovered the body in her own hydroponics lab."
+          },
+          {
+            "name": "Commander Rex Torres",
+            "icon": "⭐",
+            "detail": "Ship's second-in-command known for his strict adherence to regulations."
+          },
+          {
+            "name": "Engineer Maya Chen",
+            "icon": "🔧",
+            "detail": "Propulsion specialist who had been acting strange lately."
+          },
+          {
+            "name": "Dr. James Wright",
+            "icon": "💊",
+            "detail": "Ship's medical officer with access to dangerous substances."
+          },
+          {
+            "name": "Security Chief Davis",
+            "icon": "🛡️",
+            "detail": "Head of ship security with knowledge of all crew movements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Hydroponic Fertilizer",
+            "icon": "🧪",
+            "detail": "Concentrated nitrogen compound that becomes toxic in high doses."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "⚡",
+            "detail": "Engineering tool capable of cutting through hull plating."
+          },
+          {
+            "name": "Medical Hypospray",
+            "icon": "💉",
+            "detail": "Standard medical injector found near the victim."
+          },
+          {
+            "name": "Gravity Manipulator",
+            "icon": "🌀",
+            "detail": "Maintenance device that could cause fatal injuries."
+          },
+          {
+            "name": "Atmospheric Poisoning",
+            "icon": "💨",
+            "detail": "Manipulation of life support systems to create toxic environment."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hydroponics Bay",
+            "icon": "🌱",
+            "detail": "Where Lieutenant Sarah Kim's body was discovered among the growing plants."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "Sterile treatment facility with locked pharmaceutical storage."
+          },
+          {
+            "name": "Engineering Deck",
+            "icon": "⚙️",
+            "detail": "Lower level containing the ship's main propulsion systems."
+          },
+          {
+            "name": "Recreation Lounge",
+            "icon": "🍸",
+            "detail": "Off-duty relaxation area where crew members socialize."
+          },
+          {
+            "name": "Security Office",
+            "icon": "🔒",
+            "detail": "Central monitoring station with access to all ship systems."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "0200-0300 Hours",
+            "icon": "🌙",
+            "detail": "Late night shift change when corridors are mostly empty."
+          },
+          {
+            "name": "0300-0400 Hours",
+            "icon": "🕐",
+            "detail": "Deep night watch period with minimal crew activity."
+          },
+          {
+            "name": "0400-0500 Hours",
+            "icon": "🕑",
+            "detail": "Pre-dawn hours before early shift personnel wake up."
+          },
+          {
+            "name": "0500-0600 Hours",
+            "icon": "🌅",
+            "detail": "Early morning period when day shift begins preparation."
+          },
+          {
+            "name": "0100-0200 Hours",
+            "icon": "🕛",
+            "detail": "Midnight to 0200 during evening recreation wind-down."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Encrypted Personal Messages",
+        "text": "Lieutenant Kim's personal communicator reveals encrypted messages expressing deep romantic feelings for someone aboard the ship. The encryption is military-grade, suggesting the recipient holds a command position.",
+        "alone": "Someone in command was romantically involved with the victim.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Chief's Report",
+        "text": "Security Chief Davis insists he saw Dr. Wright near the hydroponics bay at 0330 hours, acting suspiciously and carrying what looked like medical equipment. Davis was conducting his routine security rounds at the time.",
+        "alone": "A credible witness places Dr. Wright at the scene during the likely time of death.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Fertilizer Residue",
+        "text": "Traces of concentrated hydroponic fertilizer are found under the victim's fingernails and on her uniform. This particular compound is highly toxic when ingested and could easily cause the symptoms observed.",
+        "alone": "The victim came into contact with toxic fertilizer before dying.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "💝",
+        "heading": "Command Code Access",
+        "text": "Security logs show Commander Torres used his command codes to access Lieutenant Kim's quarters multiple times over the past month, always during off-duty hours. Personal items suggest intimate visits.",
+        "alone": "Commander Torres had private access to the victim's quarters for personal reasons.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "📊",
+        "heading": "Sensor Malfunction Analysis",
+        "text": "Engineering records show corridor sensors near hydroponics experienced a 'routine maintenance blackout' from 0320-0340 hours, precisely when Security Chief Davis claims to have seen Dr. Wright there. The blackout was remotely triggered.",
+        "alone": "The security sensors were deliberately disabled during the critical time period.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Fatal Timing Analysis",
+        "text": "Medical analysis indicates the victim died between 0320-0340 hours based on body temperature and biological markers. This narrow window coincides exactly with the sensor blackout period in that section.",
+        "alone": "The murder occurred during a very specific twenty-minute window.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Commander Rex Torres",
+      "weapon": "Hydroponic Fertilizer",
+      "location": "Hydroponics Bay",
+      "window": "0320-0340 Hours"
+    },
+    "epilogue": "Commander Torres killed Lieutenant Kim when she threatened to expose their forbidden relationship, which violated strict military protocols about fraternization between ranks. Using his command access, he disabled the security sensors and lured her to the hydroponics bay during the 0320-0340 hour window, forcing her to ingest the toxic fertilizer. His rigid adherence to regulations masked a desperate man who would kill to protect his career and reputation. Security Chief Davis genuinely believed he saw Dr. Wright, but the sensor blackout created a gap in his usual monitoring routine, leading to mistaken identification. In the vastness of space, love and duty collided with fatal consequences."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #019",
+    "title": "Love in the Void",
+    "tier": "inspector",
+    "setting": "ISV Meridian · Deep Space · 2187",
+    "emoji": "🚀",
+    "flavor": "The deep space research vessel ISV Meridian was supposed to be a place of scientific discovery, but forbidden desires proved more dangerous than any cosmic phenomenon. Now someone lies dead in the hydroponics bay, and the killer walks among the crew.",
+    "emptyState": "In space, no one can hear hearts breaking.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "👤",
+        "items": [
+          {
+            "name": "Dr. Elena Vasquez",
+            "icon": "🔬",
+            "detail": "Chief botanist who discovered the body in her own hydroponics lab."
+          },
+          {
+            "name": "Commander Rex Torres",
+            "icon": "⭐",
+            "detail": "Ship's second-in-command known for his strict adherence to regulations."
+          },
+          {
+            "name": "Engineer Maya Chen",
+            "icon": "🔧",
+            "detail": "Propulsion specialist who had been acting strange lately."
+          },
+          {
+            "name": "Dr. James Wright",
+            "icon": "💊",
+            "detail": "Ship's medical officer with access to dangerous substances."
+          },
+          {
+            "name": "Security Chief Davis",
+            "icon": "🛡️",
+            "detail": "Head of ship security with knowledge of all crew movements."
+          },
+          {
+            "name": "Navigator Liu Wei",
+            "icon": "🧭",
+            "detail": "Senior navigation officer who manages ship's course and systems."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Hydroponic Fertilizer",
+            "icon": "🧪",
+            "detail": "Concentrated nitrogen compound that becomes toxic in high doses."
+          },
+          {
+            "name": "Plasma Cutter",
+            "icon": "⚡",
+            "detail": "Engineering tool capable of cutting through hull plating."
+          },
+          {
+            "name": "Medical Hypospray",
+            "icon": "💉",
+            "detail": "Standard medical injector found near the victim."
+          },
+          {
+            "name": "Gravity Manipulator",
+            "icon": "🌀",
+            "detail": "Maintenance device that could cause fatal injuries."
+          },
+          {
+            "name": "Atmospheric Poisoning",
+            "icon": "💨",
+            "detail": "Manipulation of life support systems to create toxic environment."
+          },
+          {
+            "name": "Neural Disruptor",
+            "icon": "⚡",
+            "detail": "Experimental device capable of causing brain hemorrhage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hydroponics Bay",
+            "icon": "🌱",
+            "detail": "Where Lieutenant Sarah Kim's body was discovered among the growing plants."
+          },
+          {
+            "name": "Medical Bay",
+            "icon": "🏥",
+            "detail": "Sterile treatment facility with locked pharmaceutical storage."
+          },
+          {
+            "name": "Engineering Deck",
+            "icon": "⚙️",
+            "detail": "Lower level containing the ship's main propulsion systems."
+          },
+          {
+            "name": "Recreation Lounge",
+            "icon": "🍸",
+            "detail": "Off-duty relaxation area where crew members socialize."
+          },
+          {
+            "name": "Security Office",
+            "icon": "🔒",
+            "detail": "Central monitoring station with access to all ship systems."
+          },
+          {
+            "name": "Navigation Bridge",
+            "icon": "🌌",
+            "detail": "Primary control center for ship operations and communication."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "0200-0300 Hours",
+            "icon": "🌙",
+            "detail": "Late night shift change when corridors are mostly empty."
+          },
+          {
+            "name": "0300-0400 Hours",
+            "icon": "🕐",
+            "detail": "Deep night watch period with minimal crew activity."
+          },
+          {
+            "name": "0400-0500 Hours",
+            "icon": "🕑",
+            "detail": "Pre-dawn hours before early shift personnel wake up."
+          },
+          {
+            "name": "0500-0600 Hours",
+            "icon": "🌅",
+            "detail": "Early morning period when day shift begins preparation."
+          },
+          {
+            "name": "0100-0200 Hours",
+            "icon": "🕛",
+            "detail": "Midnight to 0200 during evening recreation wind-down."
+          },
+          {
+            "name": "0320-0340 Hours",
+            "icon": "⏱️",
+            "detail": "Precise twenty-minute window when security sensors were offline."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Command Override Codes",
+            "icon": "🔐",
+            "detail": "High-level security codes that bypass standard access restrictions."
+          },
+          {
+            "name": "Maintenance Tunnel System",
+            "icon": "🚇",
+            "detail": "Service passages that connect all major ship sections."
+          },
+          {
+            "name": "Medical Emergency Access",
+            "icon": "🚨",
+            "detail": "Special protocols allowing rapid response to any ship location."
+          },
+          {
+            "name": "Engineering Bypass Routes",
+            "icon": "⚙️",
+            "detail": "Technical access paths used for system maintenance and repair."
+          },
+          {
+            "name": "Security Patrol Privileges",
+            "icon": "👮",
+            "detail": "Authorization to access all areas during security rounds."
+          },
+          {
+            "name": "Environmental Systems Control",
+            "icon": "🌀",
+            "detail": "Access through life support and atmospheric management systems."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Encrypted Personal Messages",
+        "text": "Lieutenant Kim's personal communicator reveals encrypted messages expressing deep romantic feelings for someone aboard the ship. The encryption is military-grade, suggesting the recipient holds a command position.",
+        "alone": "Someone in command was romantically involved with the victim.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Chief's Report",
+        "text": "Security Chief Davis insists he saw Dr. Wright near the hydroponics bay at 0330 hours, acting suspiciously and carrying what looked like medical equipment. Davis was conducting his routine security rounds at the time.",
+        "alone": "A credible witness places Dr. Wright at the scene during the likely time of death.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Fertilizer Residue",
+        "text": "Traces of concentrated hydroponic fertilizer are found under the victim's fingernails and on her uniform. This particular compound is highly toxic when ingested and could easily cause the symptoms observed.",
+        "alone": "The victim came into contact with toxic fertilizer before dying.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "💝",
+        "heading": "Command Code Access",
+        "text": "Security logs show Commander Torres used his command codes to access Lieutenant Kim's quarters multiple times over the past month, always during off-duty hours. Personal items suggest intimate visits.",
+        "alone": "Commander Torres had private access to the victim's quarters for personal reasons.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "📊",
+        "heading": "Holographic Projection Analysis",
+        "text": "Advanced forensic analysis reveals Security Chief Davis actually saw a sophisticated holographic projection of Dr. Wright, not the real person. The projection technology requires command-level authorization to access and deploy.",
+        "alone": "The witness saw a convincing holographic deception created by someone with high clearance.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "technical",
+        "icon": "🔧",
+        "heading": "Command Override Trace",
+        "text": "Deep system analysis reveals the hydroponics bay's environmental seals were temporarily overridden using command-level access codes, allowing someone to manipulate the atmospheric composition and deploy the holographic projector remotely.",
+        "alone": "The killer used high-level authorization to modify the crime scene environment.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Commander Rex Torres",
+      "weapon": "Hydroponic Fertilizer",
+      "location": "Hydroponics Bay",
+      "window": "0320-0340 Hours",
+      "access": "Command Override Codes"
+    },
+    "epilogue": "Commander Torres killed Lieutenant Kim when she threatened to expose their forbidden relationship, which violated strict military protocols about fraternization between ranks. Using his command override codes, he accessed the hydroponics bay's environmental controls during the precise 0320-0340 hour window, deployed a holographic projection of Dr. Wright to misdirect Security Chief Davis, and forced Kim to ingest the toxic fertilizer. His rigid adherence to regulations masked a desperate man who would kill to protect his career and reputation. The sophisticated holographic deception demonstrated both his technical knowledge and his cold calculation in framing an innocent colleague. In the vastness of space, love and duty collided with fatal consequences, but technology could not hide the truth forever."
+  }
+}
