@@ -1,0 +1,660 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "👩‍⚕️",
+            "detail": "Team physician who discovered troubling medical violations."
+          },
+          {
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
+          },
+          {
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
+          },
+          {
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
+          },
+          {
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
+          },
+          {
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
+          },
+          {
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
+          },
+          {
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Footage Gap",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM, but no footage exists of her leaving. The system experienced a 23-minute outage starting at 10:15 PM.",
+        "alone": "Dr. Vasquez had access to the crime scene during the critical timeframe.",
+        "links": [
+          "R4"
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Heated Exchange",
+        "text": "A security guard reports seeing Coach Bryant having an aggressive argument with victim Jim Torres near the gymnasium entrance around 9:30 PM. Bryant was gesturing angrily and pointing toward the equipment area.",
+        "alone": "Coach Bryant had a public confrontation with the victim shortly before the murder.",
+        "links": [
+          "R5"
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Blood Pattern Analysis",
+        "text": "Forensics confirms the fatal blow occurred in the equipment room using the trophy base. Impact patterns suggest the victim was struck from behind while reaching for something on a high shelf.",
+        "alone": "The murder weapon and location have been definitively established.",
+        "links": [
+          "R6"
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Emergency",
+        "text": "Elena Vasquez's phone records show she called 911 at 10:38 PM reporting the discovery of Jim Torres's body. She told dispatch she had been performing CPR and checking for vital signs.",
+        "alone": "Dr. Vasquez was the one who reported finding the victim's body.",
+        "links": [
+          "R1"
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Tournament Records",
+        "text": "Sarah Kim's computer logs show she was actively updating registration data and processing team payments until 10:45 PM. Multiple coaches can confirm she was handling their paperwork during this time.",
+        "alone": "Sarah Kim has a solid alibi with multiple witnesses during the murder timeframe.",
+        "links": [
+          "R2"
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Financial Forensics",
+        "text": "An audit of tournament funds reveals Marcus Reid had been embezzling registration fees for months. Jim Torres had scheduled a meeting with the AAU board the next morning to present evidence of the theft.",
+        "alone": "Marcus Reid had both motive and opportunity to silence the victim before his crimes were exposed.",
+        "links": [
+          "R3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room"
+    },
+    "epilogue": "Marcus Reid's embezzlement scheme was unraveling fast, and Jim Torres was about to expose everything to the AAU board. When Torres confronted him in the equipment room with evidence of the stolen funds, Reid grabbed the nearest heavy object—a championship trophy base—and struck him down in desperation. What started as a financial cover-up became murder when Reid realized his career and freedom were on the line. The security camera outage was pure coincidence, but Reid thought he had gotten away with the perfect crime until investigators followed the money trail."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "👩‍⚕️",
+            "detail": "Team physician who discovered troubling medical violations."
+          },
+          {
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
+          },
+          {
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
+          },
+          {
+            "name": "Derek Morrison",
+            "icon": "👮‍♂️",
+            "detail": "Head of tournament security with knowledge of all personnel movements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
+          },
+          {
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
+          },
+          {
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
+          },
+          {
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Heavy emergency equipment with impact damage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
+          },
+          {
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
+          },
+          {
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
+          },
+          {
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring station with access to camera controls."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Embezzlement",
+            "icon": "💰",
+            "detail": "Covering up theft of tournament registration funds."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Hiding dangerous player clearance violations."
+          },
+          {
+            "name": "Coaching Scandal",
+            "icon": "📊",
+            "detail": "Preventing exposure of recruitment violations."
+          },
+          {
+            "name": "Security Breach",
+            "icon": "🔒",
+            "detail": "Concealing systematic tournament security failures."
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "😤",
+            "detail": "Revenge for career sabotage and public humiliation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Footage Gap",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM, but no footage exists of her leaving. The system experienced a 23-minute outage starting at 10:15 PM.",
+        "alone": "Dr. Vasquez had access to the crime scene during the critical timeframe.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Reliable Security Report",
+        "text": "Derek Morrison, head of security, states he personally saw Coach Bryant entering the equipment area at 10:20 PM carrying what appeared to be a trophy. Morrison is known for his attention to detail and has never filed a false report.",
+        "alone": "A credible security witness places Coach Bryant at the scene with a potential weapon.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Blood Pattern Analysis",
+        "text": "Forensics confirms the fatal blow occurred in the equipment room using the trophy base. Impact patterns suggest the victim was struck from behind while reaching for something on a high shelf.",
+        "alone": "The murder weapon and location have been definitively established.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Emergency",
+        "text": "Elena Vasquez's phone records show she called 911 at 10:38 PM reporting the discovery of Jim Torres's body. She told dispatch she had been performing CPR and checking for vital signs.",
+        "alone": "Dr. Vasquez was the one who reported finding the victim's body.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Timeline Contradiction",
+        "text": "Phone GPS data shows Coach Bryant was at a restaurant 15 miles away until 10:35 PM, paying his bill and talking with the owner. The drive time makes Morrison's 10:20 PM sighting impossible.",
+        "alone": "Coach Bryant has a solid alibi that contradicts the security witness.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Financial Forensics",
+        "text": "An audit of tournament funds reveals Marcus Reid had been embezzling registration fees for months. Jim Torres had scheduled a meeting with the AAU board the next morning to present evidence of the theft.",
+        "alone": "Marcus Reid had compelling financial motive to silence the victim before exposure.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room",
+      "motive": "Financial Embezzlement"
+    },
+    "epilogue": "Marcus Reid's embezzlement scheme was unraveling fast, and Jim Torres was about to expose everything to the AAU board. When Torres confronted him in the equipment room with evidence of the stolen funds, Reid grabbed the championship trophy base and struck him down in desperation. Security head Derek Morrison genuinely believed he saw Coach Bryant, but in the dim lighting, he mistook Reid carrying the trophy for Bryant. Reid's financial motive and presence at the scene sealed his fate when investigators followed the money trail and uncovered his elaborate theft scheme."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "👩‍⚕️",
+            "detail": "Team physician who discovered troubling medical violations."
+          },
+          {
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
+          },
+          {
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
+          },
+          {
+            "name": "Derek Morrison",
+            "icon": "👮‍♂️",
+            "detail": "Head of tournament security with knowledge of all personnel movements."
+          },
+          {
+            "name": "Patricia Wells",
+            "icon": "👩‍⚖️",
+            "detail": "AAU regional coordinator conducting a surprise compliance audit."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
+          },
+          {
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
+          },
+          {
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
+          },
+          {
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Heavy emergency equipment with impact damage."
+          },
+          {
+            "name": "Clipboard",
+            "icon": "📋",
+            "detail": "Metal-backed tournament clipboard with corner damage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
+          },
+          {
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
+          },
+          {
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
+          },
+          {
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring station with access to camera controls."
+          },
+          {
+            "name": "Registration Desk",
+            "icon": "📝",
+            "detail": "Public area with tournament paperwork and cash handling."
+          }
+        ]
+      },
+      {
+        "key": "primary_motive",
+        "label": "Primary Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Embezzlement",
+            "icon": "💰",
+            "detail": "Covering up theft of tournament registration funds."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Hiding dangerous player clearance violations."
+          },
+          {
+            "name": "Coaching Scandal",
+            "icon": "📊",
+            "detail": "Preventing exposure of recruitment violations."
+          },
+          {
+            "name": "Security Breach",
+            "icon": "🔒",
+            "detail": "Concealing systematic tournament security failures."
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "😤",
+            "detail": "Revenge for career sabotage and public humiliation."
+          },
+          {
+            "name": "Compliance Cover-up",
+            "icon": "📋",
+            "detail": "Preventing discovery of systematic rule violations."
+          }
+        ]
+      },
+      {
+        "key": "secondary_motive",
+        "label": "Secondary Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Career Preservation",
+            "icon": "💼",
+            "detail": "Protecting professional reputation and future opportunities."
+          },
+          {
+            "name": "Family Protection",
+            "icon": "👨‍👩‍👧",
+            "detail": "Shielding loved ones from scandal and consequences."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Avoiding bankruptcy and personal financial ruin."
+          },
+          {
+            "name": "Legal Immunity",
+            "icon": "⚖️",
+            "detail": "Preventing criminal charges and potential imprisonment."
+          },
+          {
+            "name": "Power Retention",
+            "icon": "👑",
+            "detail": "Maintaining control and influence within the organization."
+          },
+          {
+            "name": "Public Image",
+            "icon": "📺",
+            "detail": "Avoiding media exposure and community disgrace."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security System Analysis",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM during a legitimate medical supply check. The 23-minute system outage from 10:15-10:38 PM was caused by a deliberate power cable disconnect in the security office.",
+        "alone": "Dr. Vasquez had legitimate access, but someone intentionally disabled the surveillance system.",
+        "links": [
+          "I4"
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Mistaken Identity",
+        "text": "Derek Morrison, head of security, insists he saw Coach Bryant carrying a trophy near the equipment room at 10:20 PM. Morrison has excellent vision and an impeccable track record for accurate observations.",
+        "alone": "A highly reliable security witness places Coach Bryant at the scene with potential evidence.",
+        "links": [
+          "I5"
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Murder Weapon Analysis",
+        "text": "The fatal blow was delivered with the championship trophy base in the equipment room. Fingerprint analysis reveals multiple sets of prints, but the handle shows clear grip marks matching the killer's hand size and grip pattern.",
+        "alone": "Forensic evidence on the murder weapon provides crucial physical evidence linking to the killer.",
+        "links": [
+          "I6"
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Emergency Response Timeline",
+        "text": "Elena Vasquez called 911 at 10:38 PM after discovering Jim Torres's body while retrieving additional medical supplies. Her medical training led her to immediately check for vital signs before calling for help.",
+        "alone": "Dr. Vasquez discovered the victim and followed proper medical emergency protocols.",
+        "links": [
+          "I1"
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Digital Alibi Verification",
+        "text": "Phone GPS and credit card records definitively place Coach Bryant at Ricci's Restaurant until 10:35 PM, engaged in a lengthy conversation with the owner about his son's college prospects. The timeline makes Morrison's sighting physically impossible.",
+        "alone": "Coach Bryant has an ironclad alibi that contradicts the eyewitness testimony completely.",
+        "links": [
+          "I2"
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "forensics",
+        "icon": "💰",
+        "heading": "Comprehensive Financial Audit",
+        "text": "Marcus Reid had been systematically embezzling tournament registration funds for eight months, stealing over $47,000. Jim Torres discovered the scheme during routine bookkeeping and scheduled an emergency AAU board meeting for the next morning with documented evidence.",
+        "alone": "Marcus Reid faced immediate exposure and criminal charges, giving him desperate motive to silence Torres permanently.",
+        "links": [
+          "I3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room",
+      "primary_motive": "Financial Embezzlement",
+      "secondary_motive": "Legal Immunity"
+    },
+    "epilogue": "Marcus Reid's embezzlement scheme was about to destroy his life when Jim Torres discovered the missing funds during routine bookkeeping. Facing criminal charges, prison time, and complete ruin, Reid lured Torres to the equipment room under the pretense of discussing the discrepancies. When Torres refused to stay quiet, Reid grabbed the championship trophy base in desperation and struck the fatal blow. He then disabled the security cameras to cover his tracks, not knowing Elena Vasquez would discover the body shortly after. Security chief Derek Morrison's mistaken identification of Coach Bryant was sincere but wrong—in the dim lighting, Reid carrying the trophy looked remarkably similar to Bryant's build and gait. Reid's financial desperation and need to avoid legal consequences drove him to murder when his careful embezzlement scheme finally unraveled."
+  }
+}
