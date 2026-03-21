@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/api/:path*", "destination": "/api/:path*" },
+    { "source": "/cases/:path*", "destination": "/cases/:path*" },
+    { "source": "/archive", "destination": "/archive.html" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
