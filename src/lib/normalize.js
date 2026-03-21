@@ -130,7 +130,10 @@ export function normalizeTier(d) {
   const flavor = d.flavor || d.description || d.intro || d.premise || d.flavorText || d.synopsis || '';
 
   // Robust setting split — handles · - — separators
-  const settingFirst = (d.setting || '').split(/\s[·\-—,]\s|\s-\s/)[0] || d.setting || 'The scene';
+  // Setting: try multiple field names the AI might use
+  const rawSetting = d.setting || d.location || d.place || d.venue || d.where
+    || d.settingDescription || d.scene || d.backdrop || '';
+  const settingFirst = (rawSetting).split(/\s[·\-—,]\s|\s-\s/)[0] || rawSetting || 'The scene';
 
   return {
     ...meta,
@@ -139,8 +142,8 @@ export function normalizeTier(d) {
     schemaVersion: d.schemaVersion || '1.0',
     caseNum:       d.caseNum || d.caseNumber || d.case_num || '',
     title:         d.title  || '',
-    emoji:         d.emoji  || '🔍',
-    setting:       d.setting || '',
+    emoji:         d.emoji  || d.icon || d.caseEmoji || '🔍',
+    setting:       rawSetting,
     settingFirst,
     flavor,
     epilogue:      d.epilogue || '',
