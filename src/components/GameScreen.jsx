@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { C, F } from '../lib/constants.js';
+import { trackClueRevealed, trackHintUsed, trackWrongAccusation } from '../lib/analytics.js';
+import { trackClueRevealed, trackHintUsed, trackWrongAccusation } from '../lib/analytics.js';
 
 // ── HR DIVIDER ───────────────────────────────────────────────────────────────
 function HR({ gold }) {
