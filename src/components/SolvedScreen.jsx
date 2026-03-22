@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { C, F } from '../lib/constants.js';
+import { trackShareClicked } from '../lib/analytics.js';
 
 // ── HR DIVIDER ───────────────────────────────────────────────────────────────
 function HR({ gold }) {
@@ -76,7 +77,8 @@ export default function SolvedScreen({ result, onReset }) {
               const encoded = encodeURIComponent(shareText);
               // iOS/Android SMS
               if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-                window.location.href = `sms:?&body=${encoded}`;
+                trackShareClicked({ method: 'text', caseNum: caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
+      window.location.href = `sms:?&body=${encoded}`;
               } else {
                 // Desktop fallback — copy and show message
                 navigator.clipboard.writeText(shareText).then(()=>alert("Copied! Paste into any message app."));

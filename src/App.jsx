@@ -8,6 +8,10 @@ import AlreadyPlayed from './components/AlreadyPlayed.jsx';
 import { FALLBACK_TIERS } from './data/fallback.js';
 import { calcScore, getRank, buildShareText } from './lib/scoring.js';
 import { saveResult, loadResult, getTodayString, getUrlDate } from './lib/storage.js';
+import {
+  trackGameStarted, trackGameCompleted, trackGameTimeout,
+  trackShareClicked, trackPracticeStarted, trackArchivePlay,
+} from './lib/analytics.js';
 
 const GLOBAL_STYLE = `
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -47,6 +51,17 @@ export default function App() {
   const handleSelect = (id) => {
     setTierId(id);
     setScreen('game');
+    const caseData = tiers[id];
+    trackGameStarted({
+      caseNum:   caseData?.caseNum || '',
+      caseTitle: caseData?.title   || '',
+      tier:      id,
+      date:      urlDate || realToday,
+      practice,
+    });
+    if (urlDate && urlDate !== realToday) {
+      trackArchivePlay({ date: urlDate, caseNum: caseData?.caseNum || '' });
+    }
   };
 
   const handleSolve = (r) => {
@@ -81,6 +96,19 @@ export default function App() {
       date:      realToday,
     };
 
+    trackGameCompleted({
+      caseNum:       caseData.caseNum || '',
+      caseTitle:     caseData.title   || '',
+      tier:          r.tierId,
+      score,
+      rank:          rank.label,
+      timeRemaining: r.timeRemaining,
+      timerSeconds:  timerSecs,
+      wrongCount:    r.wrongCount,
+      hintsUsed:     r.hintsUsed || 0,
+      foundInsights: r.foundInsights,
+      practice,
+    });
     setResult({ ...r, score, rank, shareText, caseData });
     if (!practice) {
       saveResult(realToday, saveData);
@@ -105,6 +133,12 @@ export default function App() {
   const handlePractice = () => {
     setPractice(true);
     setScreen('level');
+    const caseData = tiers.rookie || tiers.detective || tiers.inspector;
+    trackPracticeStarted({
+      caseNum: caseData?.caseNum || '',
+      tier:    'all',
+      date:    realToday,
+    });
   };
 
   return (
@@ -126,7 +160,17 @@ export default function App() {
           tierId={tierId}
           tiers={tiers}
           onSolve={handleSolve}
-          onTimeout={() => setScreen('timeout')}
+          onTimeout={() => {
+          const cd = tiers[tierId];
+          trackGameTimeout({
+            caseNum:      cd?.caseNum || '',
+            tier:         tierId,
+            hintsUsed:    0,
+            wrongCount:   0,
+            cluesRevealed: 0,
+          });
+          setScreen('timeout');
+        }}
           onReset={handleReset}
           practice={practice}
         />

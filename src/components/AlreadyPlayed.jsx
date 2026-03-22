@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { C, F } from '../lib/constants.js';
+import { trackShareClicked } from '../lib/analytics.js';
 
 export default function AlreadyPlayed({ savedResult, onPractice }) {
   const [copied, setCopied] = useState(false);
@@ -13,6 +14,7 @@ export default function AlreadyPlayed({ savedResult, onPractice }) {
   const tierColor = tierId === 'rookie' ? '#3db870' : tierId === 'detective' ? '#d4a84b' : '#e07040';
 
   const copy = () => {
+    trackShareClicked({ method: 'copy', caseNum: caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
     navigator.clipboard.writeText(shareText).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
@@ -22,6 +24,7 @@ export default function AlreadyPlayed({ savedResult, onPractice }) {
   const sms = () => {
     const encoded = encodeURIComponent(shareText);
     if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+      trackShareClicked({ method: 'text', caseNum: caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
       window.location.href = `sms:?&body=${encoded}`;
     } else {
       copy();
@@ -30,6 +33,7 @@ export default function AlreadyPlayed({ savedResult, onPractice }) {
 
   const share = () => {
     if (navigator.share) {
+      trackShareClicked({ method: 'share', caseNum: caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
       navigator.share({ text: shareText }).catch(() => {});
     } else {
       copy();

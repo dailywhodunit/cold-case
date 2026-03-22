@@ -368,6 +368,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
     const clue=clues[nextIdx];
     setRevealedIds(prev=>new Set([...prev,clue.id]));
     setFeedItems(prev=>[...prev,{type:"clue",id:clue.id}]);
+    trackClueRevealed({ clueId: clue.id, clueIndex: nextIdx, caseNum: caseData.caseNum || '', tier: tierId });
     setNewItemId(clue.id);
     setAnswerOpen(false);
     setClueOpen(prev=>{ const n={}; Object.keys(prev).forEach(id=>{n[id]=false;}); n[clue.id]=true; return n; });
@@ -377,7 +378,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
 
   const handleToggleAlone=(clueId)=>{
     const isOpening=!aloneOpen[clueId];
-    if(isOpening&&!hintedClues.has(clueId)){ addPenalty(15); setHintsUsed(h=>h+1); setHintedClues(prev=>new Set([...prev,clueId])); }
+    if(isOpening&&!hintedClues.has(clueId)){ addPenalty(15); setHintsUsed(h=>{ trackHintUsed({ hintCount: h+1, timeRemaining: rem, timerSeconds: caseData.timerSeconds||600, caseNum: caseData.caseNum||'', tier: tierId }); return h+1; }); setHintedClues(prev=>new Set([...prev,clueId])); }
     setAloneOpen(prev=>({...prev,[clueId]:!aloneOpen[clueId]}));
   };
 
@@ -395,7 +396,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
     const confirmed=getConfirmed();
     const correct=categories.every(cat=>confirmed[cat.key]===solution[cat.key]);
     if(correct){ setTimerOn(false); onSolve({accusation:confirmed,foundInsights,wrongCount,totalPenalty,timeRemaining:rem,hintsUsed,tierId}); }
-    else{ setWrongShake(true); setWrongCount(w=>w+1); setTotalPenalty(p=>p+30); addPenalty(30); setTimeout(()=>setWrongShake(false),500); }
+    else{ setWrongShake(true); setWrongCount(w=>{ trackWrongAccusation({ wrongCount: w+1, timeRemaining: rem, caseNum: caseData.caseNum||'', tier: tierId }); return w+1; }); setTotalPenalty(p=>p+30); addPenalty(30); setTimeout(()=>setWrongShake(false),500); }
   };
 
   return (
