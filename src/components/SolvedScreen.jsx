@@ -19,9 +19,13 @@ export default function SolvedScreen({ result, onReset }) {
   useEffect(()=>{setTimeout(()=>setVis(true),80);},[]);
   const { accusation,foundInsights,wrongCount,hintsUsed=0,timeRemaining,tierId } = result;
   const caseData = result.caseData || {};
-  const { clues,categories,theme,epilogue,timerSeconds } = caseData;
+  const clues      = caseData.clues      || [];
+  const categories = caseData.categories || [];
+  const theme      = caseData.theme      || { accent: '#d4a84b', accentDim: '#6a5018', bg: '#08090a' };
+  const epilogue   = caseData.epilogue   || '';
+  const timerSeconds = caseData.timerSeconds || 600;
   const tierInfo = caseData;
-  const totalInsights=clues.reduce((n,c)=>n+(c.links?.length||0),0)/2;
+  const totalInsights = clues.reduce((n,c)=>n+(c.links?.length||0),0)/2;
   const timeUsed=timerSeconds-timeRemaining;
   const mm=String(Math.floor(timeUsed/60)).padStart(2,"0"),ss=String(timeUsed%60).padStart(2,"0");
   const score = result.score ?? Math.max(0,Math.round((timeRemaining/timerSeconds)*100)-wrongCount*15-hintsUsed*5);
@@ -67,20 +71,21 @@ export default function SolvedScreen({ result, onReset }) {
         {/* Share row — Copy + SMS */}
         <div style={{ display:"flex",gap:10,marginBottom:10 }}>
           <button
-            onClick={()=>navigator.clipboard.writeText(shareText).then(()=>alert("Copied!"))}
+            onClick={()=>{
+              trackShareClicked({ method:'copy', caseNum: caseData.caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
+              navigator.clipboard.writeText(shareText).then(()=>alert("Copied!"));
+            }}
             style={{ flex:1,padding:"14px",backgroundColor:"#0e1808",border:"1px solid #2a4020",borderRadius:10,color:C.green,fontSize:F.md,fontWeight:700,cursor:"pointer",fontFamily:"system-ui,sans-serif",display:"flex",alignItems:"center",justifyContent:"center",gap:8 }}
           >
             📋 Copy
           </button>
           <button
             onClick={()=>{
+              trackShareClicked({ method:'text', caseNum: caseData.caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
               const encoded = encodeURIComponent(shareText);
-              // iOS/Android SMS
               if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
-                trackShareClicked({ method: 'text', caseNum: caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
-      window.location.href = `sms:?&body=${encoded}`;
+                window.location.href = `sms:?&body=${encoded}`;
               } else {
-                // Desktop fallback — copy and show message
                 navigator.clipboard.writeText(shareText).then(()=>alert("Copied! Paste into any message app."));
               }
             }}
@@ -90,6 +95,7 @@ export default function SolvedScreen({ result, onReset }) {
           </button>
           <button
             onClick={()=>{
+              trackShareClicked({ method:'share', caseNum: caseData.caseNum||'', tier: tierId||'', score: score||0, rank: rankLabel||'' });
               if (navigator.share) {
                 navigator.share({ text: shareText }).catch(()=>{});
               } else {
