@@ -2,11 +2,12 @@
   "rookie": {
     "schemaVersion": "1.0",
     "tier": "rookie",
-    "caseNum": "Case #016",
-    "title": "Studio Secrets",
-    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
-    "setting": "Hollywood Film Set · Los Angeles · 1955",
-    "emoji": "🎬",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
     "timerSeconds": 600,
     "categories": [
       {
@@ -15,78 +16,78 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Victoria Sterling",
-            "icon": "👑",
-            "detail": "Veteran actress whose career is threatened by younger talent."
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
           },
           {
-            "name": "Marcus Webb",
-            "icon": "📹",
-            "detail": "Ambitious director known for his ruthless pursuit of perfection."
+            "name": "Elena Vasquez",
+            "icon": "👩‍⚕️",
+            "detail": "Team physician who discovered troubling medical violations."
           },
           {
-            "name": "Eleanor Chase",
-            "icon": "✨",
-            "detail": "Rising starlet who has been stealing roles from established actors."
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
           },
           {
-            "name": "Frank Morrison",
-            "icon": "💰",
-            "detail": "Studio executive with connections to organized crime."
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Murder Weapon",
+        "label": "Weapon",
         "icon": "⚔️",
         "items": [
           {
-            "name": "Stage Sword",
-            "icon": "⚔️",
-            "detail": "A prop sword with a real steel blade used in the current production."
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
           },
           {
-            "name": "Lighting Rig",
-            "icon": "💡",
-            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
           },
           {
-            "name": "Camera Tripod",
-            "icon": "📷",
-            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
           },
           {
-            "name": "Poison Capsule",
-            "icon": "💊",
-            "detail": "A small capsule containing cyanide hidden in prescription medication."
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
           }
         ]
       },
       {
         "key": "location",
-        "label": "Crime Scene",
+        "label": "Location",
         "icon": "📍",
         "items": [
           {
-            "name": "Sound Stage 7",
-            "icon": "🎭",
-            "detail": "The main filming location where the victim was discovered."
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
           },
           {
-            "name": "Wardrobe Department",
-            "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
           },
           {
-            "name": "Director's Office",
-            "icon": "🗂️",
-            "detail": "Private workspace containing scripts and confidential documents."
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
           },
           {
-            "name": "Studio Commissary",
-            "icon": "🍽️",
-            "detail": "The dining hall where cast and crew gather for meals."
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
           }
         ]
       }
@@ -94,11 +95,11 @@
     "clues": [
       {
         "id": "R1",
-        "type": "physical",
-        "icon": "💊",
-        "heading": "Hidden Medicine",
-        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
-        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Footage Gap",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM, but no footage exists of her leaving. The system experienced a 23-minute outage starting at 10:15 PM.",
+        "alone": "Dr. Vasquez had access to the crime scene during the critical timeframe.",
         "links": [
           "R4"
         ]
@@ -106,74 +107,75 @@
       {
         "id": "R2",
         "type": "witness",
-        "icon": "👀",
-        "heading": "Overheard Argument",
-        "text": "A grip reports hearing Victoria Sterling and the victim in a heated argument about casting decisions the morning of the murder. Sterling was reportedly furious about losing a lead role.",
-        "alone": "Victoria Sterling had a public confrontation with the victim on the day of the murder.",
+        "icon": "👁️",
+        "heading": "Heated Exchange",
+        "text": "A security guard reports seeing Coach Bryant having an aggressive argument with victim Jim Torres near the gymnasium entrance around 9:30 PM. Bryant was gesturing angrily and pointing toward the equipment area.",
+        "alone": "Coach Bryant had a public confrontation with the victim shortly before the murder.",
         "links": [
           "R5"
         ]
       },
       {
         "id": "R3",
-        "type": "physical",
-        "icon": "🔍",
-        "heading": "Fingerprint Evidence",
-        "text": "Eleanor Chase's fingerprints are found on the victim's coffee cup and nearby script pages. She claims they worked together on line rehearsals that morning.",
-        "alone": "Eleanor Chase had recent physical contact with items belonging to the victim.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Blood Pattern Analysis",
+        "text": "Forensics confirms the fatal blow occurred in the equipment room using the trophy base. Impact patterns suggest the victim was struck from behind while reaching for something on a high shelf.",
+        "alone": "The murder weapon and location have been definitively established.",
         "links": [
           "R6"
         ]
       },
       {
         "id": "R4",
-        "type": "witness",
-        "icon": "🗣️",
-        "heading": "Pharmacy Records",
-        "text": "Investigation reveals Frank Morrison visited three different pharmacies in the past week, claiming he needed heart medication for his ailing father. Security footage confirms these visits.",
-        "alone": "Frank Morrison recently acquired heart medication from multiple sources under suspicious circumstances.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Emergency",
+        "text": "Elena Vasquez's phone records show she called 911 at 10:38 PM reporting the discovery of Jim Torres's body. She told dispatch she had been performing CPR and checking for vital signs.",
+        "alone": "Dr. Vasquez was the one who reported finding the victim's body.",
         "links": [
           "R1"
         ]
       },
       {
         "id": "R5",
-        "type": "witness",
-        "icon": "📞",
-        "heading": "Phone Call Testimony",
-        "text": "The studio switchboard operator confirms Victoria Sterling received a frantic phone call during lunch break and immediately left the lot. Phone records show the call came from her agent regarding a new contract opportunity.",
-        "alone": "Victoria Sterling left the studio during the critical time period due to an urgent business call.",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Tournament Records",
+        "text": "Sarah Kim's computer logs show she was actively updating registration data and processing team payments until 10:45 PM. Multiple coaches can confirm she was handling their paperwork during this time.",
+        "alone": "Sarah Kim has a solid alibi with multiple witnesses during the murder timeframe.",
         "links": [
           "R2"
         ]
       },
       {
         "id": "R6",
-        "type": "witness",
-        "icon": "🎬",
-        "heading": "Rehearsal Schedule",
-        "text": "The assistant director's logs show Eleanor Chase was scheduled for a private rehearsal with the victim that morning, explaining her presence and the fingerprints on his materials.",
-        "alone": "Eleanor Chase had a legitimate professional reason to be in close contact with the victim.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Financial Forensics",
+        "text": "An audit of tournament funds reveals Marcus Reid had been embezzling registration fees for months. Jim Torres had scheduled a meeting with the AAU board the next morning to present evidence of the theft.",
+        "alone": "Marcus Reid had both motive and opportunity to silence the victim before his crimes were exposed.",
         "links": [
           "R3"
         ]
       }
     ],
     "solution": {
-      "suspect": "Frank Morrison",
-      "weapon": "Poison Capsule",
-      "location": "Sound Stage 7"
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room"
     },
-    "epilogue": "Frank Morrison's gambling debts to dangerous men had reached a breaking point, and the victim had discovered his embezzlement from studio funds. Faced with exposure and certain death from his creditors, Morrison saw murder as his only escape. He used his executive access to plant the poisoned capsule in Sound Stage 7, knowing the victim's routine of taking medication before important scenes. The investigation revealed Morrison had been skimming money for months, desperately trying to stay ahead of his mounting obligations to organized crime figures who showed no mercy to debtors."
+    "epilogue": "Marcus Reid's embezzlement scheme was unraveling fast, and Jim Torres was about to expose everything to the AAU board. When Torres confronted him in the equipment room with evidence of the stolen funds, Reid grabbed the nearest heavy object—a championship trophy base—and struck him down in desperation. What started as a financial cover-up became murder when Reid realized his career and freedom were on the line. The security camera outage was pure coincidence, but Reid thought he had gotten away with the perfect crime until investigators followed the money trail."
   },
   "detective": {
     "schemaVersion": "1.0",
     "tier": "detective",
-    "caseNum": "Case #016",
-    "title": "Studio Secrets",
-    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
-    "setting": "Hollywood Film Set · Los Angeles · 1955",
-    "emoji": "🎬",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
     "timerSeconds": 600,
     "categories": [
       {
@@ -182,360 +184,93 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Victoria Sterling",
-            "icon": "👑",
-            "detail": "Veteran actress whose career is threatened by younger talent."
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
           },
           {
-            "name": "Marcus Webb",
-            "icon": "📹",
-            "detail": "Ambitious director known for his ruthless pursuit of perfection."
-          },
-          {
-            "name": "Eleanor Chase",
-            "icon": "✨",
-            "detail": "Rising starlet who has been stealing roles from established actors."
-          },
-          {
-            "name": "Frank Morrison",
-            "icon": "💰",
-            "detail": "Studio executive with connections to organized crime."
-          },
-          {
-            "name": "Tommy Rodriguez",
-            "icon": "🔧",
-            "detail": "Head of the prop department with access to all studio equipment."
-          }
-        ]
-      },
-      {
-        "key": "weapon",
-        "label": "Murder Weapon",
-        "icon": "⚔️",
-        "items": [
-          {
-            "name": "Stage Sword",
-            "icon": "⚔️",
-            "detail": "A prop sword with a real steel blade used in the current production."
-          },
-          {
-            "name": "Lighting Rig",
-            "icon": "💡",
-            "detail": "Heavy equipment that could be sabotaged to fall on someone."
-          },
-          {
-            "name": "Camera Tripod",
-            "icon": "📷",
-            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
-          },
-          {
-            "name": "Poison Capsule",
-            "icon": "💊",
-            "detail": "A small capsule containing cyanide hidden in prescription medication."
-          },
-          {
-            "name": "Electrical Cable",
-            "icon": "⚡",
-            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
-          }
-        ]
-      },
-      {
-        "key": "location",
-        "label": "Crime Scene",
-        "icon": "📍",
-        "items": [
-          {
-            "name": "Sound Stage 7",
-            "icon": "🎭",
-            "detail": "The main filming location where the victim was discovered."
-          },
-          {
-            "name": "Wardrobe Department",
-            "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
-          },
-          {
-            "name": "Director's Office",
-            "icon": "🗂️",
-            "detail": "Private workspace containing scripts and confidential documents."
-          },
-          {
-            "name": "Studio Commissary",
-            "icon": "🍽️",
-            "detail": "The dining hall where cast and crew gather for meals."
-          },
-          {
-            "name": "Equipment Storage",
-            "icon": "📦",
-            "detail": "Warehouse area containing cameras, lights, and technical gear."
-          }
-        ]
-      },
-      {
-        "key": "window",
-        "label": "Time Window",
-        "icon": "⏰",
-        "items": [
-          {
-            "name": "Morning Setup (8-10 AM)",
-            "icon": "🌅",
-            "detail": "Early crew preparation before main cast arrives."
-          },
-          {
-            "name": "First Rehearsal (10 AM-12 PM)",
-            "icon": "🎭",
-            "detail": "Initial run-through with principal actors and director."
-          },
-          {
-            "name": "Lunch Break (12-1 PM)",
-            "icon": "🍽️",
-            "detail": "Cast and crew meal period when set is mostly empty."
-          },
-          {
-            "name": "Afternoon Filming (1-4 PM)",
-            "icon": "🎬",
-            "detail": "Main shooting schedule with full cast and crew present."
-          },
-          {
-            "name": "Evening Wrap (4-6 PM)",
-            "icon": "🌆",
-            "detail": "Final shots and equipment breakdown for the day."
-          }
-        ]
-      }
-    ],
-    "clues": [
-      {
-        "id": "D1",
-        "type": "physical",
-        "icon": "💊",
-        "heading": "Hidden Medicine",
-        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
-        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
-        "links": [
-          "D4"
-        ]
-      },
-      {
-        "id": "D2",
-        "type": "witness",
-        "icon": "👀",
-        "heading": "Security Guard Report",
-        "text": "The night security guard swears he saw Marcus Webb leaving the studio at 11 PM the previous evening, well after normal hours. Webb had been working late in his office reviewing dailies and preparing shot lists.",
-        "alone": "Marcus Webb was present at the studio during unusual hours before the murder.",
-        "links": [
-          "D5"
-        ]
-      },
-      {
-        "id": "D3",
-        "type": "physical",
-        "icon": "🕐",
-        "heading": "Timestamp Evidence",
-        "text": "Security cameras show the victim entering his dressing room at 12:45 PM during lunch break, taking medication, and collapsing within minutes. The timestamp confirms the narrow window of the crime.",
-        "alone": "The victim died during lunch break after taking medication in his dressing room.",
-        "links": [
-          "D6"
-        ]
-      },
-      {
-        "id": "D4",
-        "type": "witness",
-        "icon": "🗣️",
-        "heading": "Pharmacy Investigation",
-        "text": "Frank Morrison visited three different pharmacies last week, purchasing heart medication under false pretenses. He claimed his father needed the prescription but pharmacy records show no legitimate prescriptions.",
-        "alone": "Frank Morrison illegally obtained heart medication through deceptive means.",
-        "links": [
-          "D1"
-        ]
-      },
-      {
-        "id": "D5",
-        "type": "physical",
-        "icon": "📹",
-        "heading": "Film Reel Discovery",
-        "text": "Investigation of Marcus Webb's late-night work reveals he was actually reviewing footage that showed Frank Morrison entering restricted areas after hours. Webb had been building a case against Morrison's suspicious activities.",
-        "alone": "Marcus Webb was investigating Frank Morrison's unauthorized access to secure studio areas.",
-        "links": [
-          "D2"
-        ]
-      },
-      {
-        "id": "D6",
-        "type": "witness",
-        "icon": "🍽️",
-        "heading": "Commissary Witness",
-        "text": "The commissary staff confirm Frank Morrison was present during the entire lunch break, having an extended business meeting with visiting investors. Multiple witnesses place him in the dining hall when the victim died.",
-        "alone": "Frank Morrison has a solid alibi supported by multiple witnesses during the time of death.",
-        "links": [
-          "D3"
-        ]
-      }
-    ],
-    "solution": {
-      "suspect": "Marcus Webb",
-      "weapon": "Poison Capsule",
-      "location": "Sound Stage 7",
-      "window": "Lunch Break (12-1 PM)"
-    },
-    "epilogue": "Marcus Webb had discovered that the victim was planning to expose his embezzlement of production funds and replace him as director. Desperate to protect his reputation and career, Webb used his knowledge of the studio layout to plant the poison capsule in Sound Stage 7 during the lunch break. His investigation of Frank Morrison was actually a cover, gathering information to frame Morrison for the crime he was planning to commit. Webb's meticulous nature, which made him a successful director, also made him a calculating murderer who nearly succeeded in his elaborate deception."
-  },
-  "inspector": {
-    "schemaVersion": "1.0",
-    "tier": "inspector",
-    "caseNum": "Case #016",
-    "title": "Studio Secrets",
-    "flavor": "The golden age of Hollywood turns deadly when a prominent figure is found dead on a bustling film set. Behind the glamorous facade, professional jealousies and career ambitions create a web of suspects with secrets to hide.",
-    "setting": "Hollywood Film Set · Los Angeles · 1955",
-    "emoji": "🎬",
-    "timerSeconds": 480,
-    "categories": [
-      {
-        "key": "suspect",
-        "label": "Suspect",
-        "icon": "🎭",
-        "items": [
-          {
-            "name": "Victoria Sterling",
-            "icon": "👑",
-            "detail": "Veteran actress whose career is threatened by younger talent."
-          },
-          {
-            "name": "Marcus Webb",
-            "icon": "📹",
-            "detail": "Ambitious director known for his ruthless pursuit of perfection."
-          },
-          {
-            "name": "Eleanor Chase",
-            "icon": "✨",
-            "detail": "Rising starlet who has been stealing roles from established actors."
-          },
-          {
-            "name": "Frank Morrison",
-            "icon": "💰",
-            "detail": "Studio executive with connections to organized crime."
-          },
-          {
-            "name": "Tommy Rodriguez",
-            "icon": "🔧",
-            "detail": "Head of the prop department with access to all studio equipment."
-          },
-          {
-            "name": "Dr. Sarah Chen",
+            "name": "Elena Vasquez",
             "icon": "👩‍⚕️",
-            "detail": "Studio physician who provides medical services to cast and crew."
+            "detail": "Team physician who discovered troubling medical violations."
+          },
+          {
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
+          },
+          {
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
+          },
+          {
+            "name": "Derek Morrison",
+            "icon": "👮‍♂️",
+            "detail": "Head of tournament security with knowledge of all personnel movements."
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Murder Weapon",
+        "label": "Weapon",
         "icon": "⚔️",
         "items": [
           {
-            "name": "Stage Sword",
-            "icon": "⚔️",
-            "detail": "A prop sword with a real steel blade used in the current production."
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
           },
           {
-            "name": "Lighting Rig",
-            "icon": "💡",
-            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
           },
           {
-            "name": "Camera Tripod",
-            "icon": "📷",
-            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
           },
           {
-            "name": "Poison Capsule",
-            "icon": "💊",
-            "detail": "A small capsule containing cyanide hidden in prescription medication."
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
           },
           {
-            "name": "Electrical Cable",
-            "icon": "⚡",
-            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
-          },
-          {
-            "name": "Medical Injection",
-            "icon": "💉",
-            "detail": "A syringe filled with lethal drugs from the medical office."
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Heavy emergency equipment with impact damage."
           }
         ]
       },
       {
         "key": "location",
-        "label": "Crime Scene",
+        "label": "Location",
         "icon": "📍",
         "items": [
           {
-            "name": "Sound Stage 7",
-            "icon": "🎭",
-            "detail": "The main filming location where the victim was discovered."
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
           },
           {
-            "name": "Wardrobe Department",
-            "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
           },
           {
-            "name": "Director's Office",
-            "icon": "🗂️",
-            "detail": "Private workspace containing scripts and confidential documents."
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
           },
           {
-            "name": "Studio Commissary",
-            "icon": "🍽️",
-            "detail": "The dining hall where cast and crew gather for meals."
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
           },
           {
-            "name": "Equipment Storage",
-            "icon": "📦",
-            "detail": "Warehouse area containing cameras, lights, and technical gear."
-          },
-          {
-            "name": "Medical Office",
-            "icon": "🏥",
-            "detail": "On-site clinic where cast and crew receive medical treatment."
-          }
-        ]
-      },
-      {
-        "key": "window",
-        "label": "Time Window",
-        "icon": "⏰",
-        "items": [
-          {
-            "name": "Morning Setup (8-10 AM)",
-            "icon": "🌅",
-            "detail": "Early crew preparation before main cast arrives."
-          },
-          {
-            "name": "First Rehearsal (10 AM-12 PM)",
-            "icon": "🎭",
-            "detail": "Initial run-through with principal actors and director."
-          },
-          {
-            "name": "Lunch Break (12-1 PM)",
-            "icon": "🍽️",
-            "detail": "Cast and crew meal period when set is mostly empty."
-          },
-          {
-            "name": "Afternoon Filming (1-4 PM)",
-            "icon": "🎬",
-            "detail": "Main shooting schedule with full cast and crew present."
-          },
-          {
-            "name": "Evening Wrap (4-6 PM)",
-            "icon": "🌆",
-            "detail": "Final shots and equipment breakdown for the day."
-          },
-          {
-            "name": "Night Security (6 PM-8 AM)",
-            "icon": "🌙",
-            "detail": "After-hours period with minimal staff and security patrols."
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring station with access to camera controls."
           }
         ]
       },
@@ -545,34 +280,302 @@
         "icon": "💭",
         "items": [
           {
-            "name": "Financial Ruin",
-            "icon": "💸",
-            "detail": "Victim threatened to expose embezzlement that would lead to prosecution."
-          },
-          {
-            "name": "Career Destruction",
-            "icon": "📉",
-            "detail": "Victim planned to reveal professional misconduct ending Hollywood dreams."
-          },
-          {
-            "name": "Romantic Betrayal",
-            "icon": "💔",
-            "detail": "Victim was having an affair that would destroy the killer's marriage."
-          },
-          {
-            "name": "Blackmail Scheme",
-            "icon": "🔒",
-            "detail": "Victim discovered illegal activities and was demanding payment for silence."
-          },
-          {
-            "name": "Professional Rivalry",
-            "icon": "🏆",
-            "detail": "Victim was blocking advancement and stealing credit for creative work."
+            "name": "Financial Embezzlement",
+            "icon": "💰",
+            "detail": "Covering up theft of tournament registration funds."
           },
           {
             "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Hiding dangerous player clearance violations."
+          },
+          {
+            "name": "Coaching Scandal",
+            "icon": "📊",
+            "detail": "Preventing exposure of recruitment violations."
+          },
+          {
+            "name": "Security Breach",
+            "icon": "🔒",
+            "detail": "Concealing systematic tournament security failures."
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "😤",
+            "detail": "Revenge for career sabotage and public humiliation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Footage Gap",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM, but no footage exists of her leaving. The system experienced a 23-minute outage starting at 10:15 PM.",
+        "alone": "Dr. Vasquez had access to the crime scene during the critical timeframe.",
+        "links": [
+          "D4"
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Reliable Security Report",
+        "text": "Derek Morrison, head of security, states he personally saw Coach Bryant entering the equipment area at 10:20 PM carrying what appeared to be a trophy. Morrison is known for his attention to detail and has never filed a false report.",
+        "alone": "A credible security witness places Coach Bryant at the scene with a potential weapon.",
+        "links": [
+          "D5"
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Blood Pattern Analysis",
+        "text": "Forensics confirms the fatal blow occurred in the equipment room using the trophy base. Impact patterns suggest the victim was struck from behind while reaching for something on a high shelf.",
+        "alone": "The murder weapon and location have been definitively established.",
+        "links": [
+          "D6"
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Emergency",
+        "text": "Elena Vasquez's phone records show she called 911 at 10:38 PM reporting the discovery of Jim Torres's body. She told dispatch she had been performing CPR and checking for vital signs.",
+        "alone": "Dr. Vasquez was the one who reported finding the victim's body.",
+        "links": [
+          "D1"
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Timeline Contradiction",
+        "text": "Phone GPS data shows Coach Bryant was at a restaurant 15 miles away until 10:35 PM, paying his bill and talking with the owner. The drive time makes Morrison's 10:20 PM sighting impossible.",
+        "alone": "Coach Bryant has a solid alibi that contradicts the security witness.",
+        "links": [
+          "D2"
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Financial Forensics",
+        "text": "An audit of tournament funds reveals Marcus Reid had been embezzling registration fees for months. Jim Torres had scheduled a meeting with the AAU board the next morning to present evidence of the theft.",
+        "alone": "Marcus Reid had compelling financial motive to silence the victim before exposure.",
+        "links": [
+          "D3"
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room",
+      "motive": "Financial Embezzlement"
+    },
+    "epilogue": "Marcus Reid's embezzlement scheme was unraveling fast, and Jim Torres was about to expose everything to the AAU board. When Torres confronted him in the equipment room with evidence of the stolen funds, Reid grabbed the championship trophy base and struck him down in desperation. Security head Derek Morrison genuinely believed he saw Coach Bryant, but in the dim lighting, he mistook Reid carrying the trophy for Bryant. Reid's financial motive and presence at the scene sealed his fate when investigators followed the money trail and uncovered his elaborate theft scheme."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #025",
+    "title": "Tournament Takedown",
+    "setting": "AAU Tournament · Augusta · 2024",
+    "emoji": "🏀",
+    "flavor": "The championship dreams of young athletes turned into a nightmare when Augusta's most prominent youth basketball coordinator was found dead in the equipment room. What started as a cover-up has spiraled into murder at the region's biggest tournament.",
+    "emptyState": "Game over. Someone played their final hand.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Reid",
+            "icon": "👨‍💼",
+            "detail": "Tournament director dealing with mounting financial pressures."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "👩‍⚕️",
+            "detail": "Team physician who discovered troubling medical violations."
+          },
+          {
+            "name": "Coach Bryant",
+            "icon": "🏃‍♂️",
+            "detail": "Veteran coach whose star player was recently disqualified."
+          },
+          {
+            "name": "Sarah Kim",
+            "icon": "👩‍💻",
+            "detail": "Registration coordinator with access to all tournament records."
+          },
+          {
+            "name": "Derek Morrison",
+            "icon": "👮‍♂️",
+            "detail": "Head of tournament security with knowledge of all personnel movements."
+          },
+          {
+            "name": "Patricia Wells",
+            "icon": "👩‍⚖️",
+            "detail": "AAU regional coordinator conducting a surprise compliance audit."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trophy Base",
+            "icon": "🏆",
+            "detail": "Heavy metal championship trophy base found bloodied."
+          },
+          {
+            "name": "Equipment Cart",
+            "icon": "🛒",
+            "detail": "Steel basketball equipment cart with suspicious dents."
+          },
+          {
+            "name": "Weight Bar",
+            "icon": "🏋️",
+            "detail": "Barbell from the training area, recently wiped clean."
+          },
+          {
+            "name": "Folding Chair",
+            "icon": "🪑",
+            "detail": "Metal courtside chair with blood trace evidence."
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Heavy emergency equipment with impact damage."
+          },
+          {
+            "name": "Clipboard",
+            "icon": "📋",
+            "detail": "Metal-backed tournament clipboard with corner damage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Equipment Room",
+            "icon": "🗄️",
+            "detail": "Locked storage room where the body was discovered."
+          },
+          {
+            "name": "Coach's Office",
+            "icon": "🏢",
+            "detail": "Private office with signs of a heated confrontation."
+          },
+          {
+            "name": "Main Gymnasium",
+            "icon": "🏀",
+            "detail": "Tournament court with blood droplets leading away."
+          },
+          {
+            "name": "Parking Garage",
+            "icon": "🚗",
+            "detail": "Underground garage where the attack may have started."
+          },
+          {
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring station with access to camera controls."
+          },
+          {
+            "name": "Registration Desk",
+            "icon": "📝",
+            "detail": "Public area with tournament paperwork and cash handling."
+          }
+        ]
+      },
+      {
+        "key": "primary_motive",
+        "label": "Primary Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Embezzlement",
+            "icon": "💰",
+            "detail": "Covering up theft of tournament registration funds."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Hiding dangerous player clearance violations."
+          },
+          {
+            "name": "Coaching Scandal",
+            "icon": "📊",
+            "detail": "Preventing exposure of recruitment violations."
+          },
+          {
+            "name": "Security Breach",
+            "icon": "🔒",
+            "detail": "Concealing systematic tournament security failures."
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "😤",
+            "detail": "Revenge for career sabotage and public humiliation."
+          },
+          {
+            "name": "Compliance Cover-up",
+            "icon": "📋",
+            "detail": "Preventing discovery of systematic rule violations."
+          }
+        ]
+      },
+      {
+        "key": "secondary_motive",
+        "label": "Secondary Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Career Preservation",
+            "icon": "💼",
+            "detail": "Protecting professional reputation and future opportunities."
+          },
+          {
+            "name": "Family Protection",
+            "icon": "👨‍👩‍👧",
+            "detail": "Shielding loved ones from scandal and consequences."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Avoiding bankruptcy and personal financial ruin."
+          },
+          {
+            "name": "Legal Immunity",
             "icon": "⚖️",
-            "detail": "Victim knew about falsified credentials and dangerous treatment of patients."
+            "detail": "Preventing criminal charges and potential imprisonment."
+          },
+          {
+            "name": "Power Retention",
+            "icon": "👑",
+            "detail": "Maintaining control and influence within the organization."
+          },
+          {
+            "name": "Public Image",
+            "icon": "📺",
+            "detail": "Avoiding media exposure and community disgrace."
           }
         ]
       }
@@ -580,11 +583,11 @@
     "clues": [
       {
         "id": "I1",
-        "type": "physical",
-        "icon": "💉",
-        "heading": "Missing Medical Supplies",
-        "text": "Dr. Sarah Chen's medical office inventory shows a missing syringe and vial of morphine, but she claims to have no memory of using them recently. The controlled substances log has been altered with different handwriting.",
-        "alone": "Medical supplies that could be used as murder weapons have disappeared from the studio clinic.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security System Analysis",
+        "text": "Tournament security cameras show Elena Vasquez entering the equipment room at 9:47 PM during a legitimate medical supply check. The 23-minute system outage from 10:15-10:38 PM was caused by a deliberate power cable disconnect in the security office.",
+        "alone": "Dr. Vasquez had legitimate access, but someone intentionally disabled the surveillance system.",
         "links": [
           "I4"
         ]
@@ -592,66 +595,66 @@
       {
         "id": "I2",
         "type": "witness",
-        "icon": "👀",
-        "heading": "Assistant Director's Account",
-        "text": "The assistant director insists he saw Eleanor Chase in deep conversation with the victim near the medical office during lunch break, discussing what appeared to be a private medical matter. Both seemed distressed during the exchange.",
-        "alone": "Eleanor Chase was seen having an intense private discussion with the victim near the medical facility.",
+        "icon": "👁️",
+        "heading": "Mistaken Identity",
+        "text": "Derek Morrison, head of security, insists he saw Coach Bryant carrying a trophy near the equipment room at 10:20 PM. Morrison has excellent vision and an impeccable track record for accurate observations.",
+        "alone": "A highly reliable security witness places Coach Bryant at the scene with potential evidence.",
         "links": [
           "I5"
         ]
       },
       {
         "id": "I3",
-        "type": "physical",
-        "icon": "📋",
-        "heading": "Medical Records Discovery",
-        "text": "Hidden in Dr. Chen's office files are forged medical certificates for several cast members, including documentation that would have kept them working despite serious health conditions. The victim's signature appears as a witness on several documents.",
-        "alone": "Falsified medical records with the victim's signature are hidden in the studio medical office.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Murder Weapon Analysis",
+        "text": "The fatal blow was delivered with the championship trophy base in the equipment room. Fingerprint analysis reveals multiple sets of prints, but the handle shows clear grip marks matching the killer's hand size and grip pattern.",
+        "alone": "Forensic evidence on the murder weapon provides crucial physical evidence linking to the killer.",
         "links": [
           "I6"
         ]
       },
       {
         "id": "I4",
-        "type": "witness",
-        "icon": "🔍",
-        "heading": "Pharmacy Investigation",
-        "text": "Local pharmacies report that Tommy Rodriguez has been purchasing large quantities of medical supplies over the past month, claiming he needed them for realistic prop injuries. Security footage confirms these suspicious transactions.",
-        "alone": "Tommy Rodriguez has been secretly acquiring medical supplies that could be used for harmful purposes.",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Emergency Response Timeline",
+        "text": "Elena Vasquez called 911 at 10:38 PM after discovering Jim Torres's body while retrieving additional medical supplies. Her medical training led her to immediately check for vital signs before calling for help.",
+        "alone": "Dr. Vasquez discovered the victim and followed proper medical emergency protocols.",
         "links": [
           "I1"
         ]
       },
       {
         "id": "I5",
-        "type": "physical",
-        "icon": "📞",
-        "heading": "Phone Records Reveal",
-        "text": "Eleanor Chase's phone records show she called a medical licensing board the morning of the murder, asking about procedures for reporting physician misconduct. The call lasted fifteen minutes and she took detailed notes.",
-        "alone": "Eleanor Chase was researching how to report medical professional misconduct on the day of the murder.",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Digital Alibi Verification",
+        "text": "Phone GPS and credit card records definitively place Coach Bryant at Ricci's Restaurant until 10:35 PM, engaged in a lengthy conversation with the owner about his son's college prospects. The timeline makes Morrison's sighting physically impossible.",
+        "alone": "Coach Bryant has an ironclad alibi that contradicts the eyewitness testimony completely.",
         "links": [
           "I2"
         ]
       },
       {
         "id": "I6",
-        "type": "witness",
+        "type": "forensics",
         "icon": "💰",
-        "heading": "Financial Investigation",
-        "text": "Bank records reveal Dr. Sarah Chen has been receiving large cash deposits that don't match her studio physician salary. The victim's personal accountant confirms he had been investigating these suspicious financial transactions for insurance fraud.",
-        "alone": "Dr. Sarah Chen has unexplained income and was under financial investigation by the victim.",
+        "heading": "Comprehensive Financial Audit",
+        "text": "Marcus Reid had been systematically embezzling tournament registration funds for eight months, stealing over $47,000. Jim Torres discovered the scheme during routine bookkeeping and scheduled an emergency AAU board meeting for the next morning with documented evidence.",
+        "alone": "Marcus Reid faced immediate exposure and criminal charges, giving him desperate motive to silence Torres permanently.",
         "links": [
           "I3"
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Sarah Chen",
-      "weapon": "Medical Injection",
-      "location": "Medical Office",
-      "window": "Lunch Break (12-1 PM)",
-      "motive": "Medical Malpractice"
+      "suspect": "Marcus Reid",
+      "weapon": "Trophy Base",
+      "location": "Equipment Room",
+      "primary_motive": "Financial Embezzlement",
+      "secondary_motive": "Legal Immunity"
     },
-    "epilogue": "Dr. Sarah Chen had been operating with falsified credentials and endangering lives through incompetent medical care while collecting insurance payments for treatments never provided. When the victim discovered her fraud and threatened exposure, she lured him to the medical office during lunch break under the pretense of discussing his health concerns. Using her medical knowledge, she administered a lethal injection that initially appeared to be a heart attack. Chen's desperation to protect her lucrative deception and avoid prosecution for medical malpractice drove her to murder, believing she could use her position as studio physician to control the investigation and cover her tracks."
+    "epilogue": "Marcus Reid's embezzlement scheme was about to destroy his life when Jim Torres discovered the missing funds during routine bookkeeping. Facing criminal charges, prison time, and complete ruin, Reid lured Torres to the equipment room under the pretense of discussing the discrepancies. When Torres refused to stay quiet, Reid grabbed the championship trophy base in desperation and struck the fatal blow. He then disabled the security cameras to cover his tracks, not knowing Elena Vasquez would discover the body shortly after. Security chief Derek Morrison's mistaken identification of Coach Bryant was sincere but wrong—in the dim lighting, Reid carrying the trophy looked remarkably similar to Bryant's build and gait. Reid's financial desperation and need to avoid legal consequences drove him to murder when his careful embezzlement scheme finally unraveled."
   }
 }
