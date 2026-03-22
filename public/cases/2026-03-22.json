@@ -8,6 +8,7 @@
     "setting": "Hollywood Film Set · Los Angeles · 1955",
     "emoji": "🎬",
     "timerSeconds": 600,
+    "emptyState": "Lights. Camera. No action.",
     "categories": [
       {
         "key": "suspect",
@@ -69,14 +70,14 @@
         "icon": "📍",
         "items": [
           {
-            "name": "Sound Stage 7",
-            "icon": "🎭",
-            "detail": "The main filming location where the victim was discovered."
+            "name": "Dressing Room",
+            "icon": "🪞",
+            "detail": "The victim's private space where he prepared for scenes and stored personal items."
           },
           {
-            "name": "Wardrobe Department",
-            "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location buzzing with cast and crew all day."
           },
           {
             "name": "Director's Office",
@@ -97,10 +98,13 @@
         "type": "physical",
         "icon": "💊",
         "heading": "Hidden Medicine",
-        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
-        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
+        "text": "A prescription bottle for heart medication is found in the victim's dressing room, with one capsule replaced by a cyanide duplicate. The victim's medical records show no history of heart problems — someone planted it.",
+        "alone": "Someone with access to the victim's dressing room planted a poisoned capsule.",
         "links": [
-          "R4"
+          {
+            "with": "R4",
+            "insight": "Frank Morrison illegally obtained heart medication from multiple pharmacies. The poison capsule was planted in the dressing room — where only Morrison had unsupervised executive access."
+          }
         ]
       },
       {
@@ -108,10 +112,13 @@
         "type": "witness",
         "icon": "👀",
         "heading": "Overheard Argument",
-        "text": "A grip reports hearing Victoria Sterling and the victim in a heated argument about casting decisions the morning of the murder. Sterling was reportedly furious about losing a lead role.",
-        "alone": "Victoria Sterling had a public confrontation with the victim on the day of the murder.",
+        "text": "A grip reports hearing Victoria Sterling and the victim arguing about casting decisions. Later the same grip saw Marcus Webb enter and exit the victim's dressing room alone during the lunch break.",
+        "alone": "Two suspects had contact with the victim's dressing room area — one had a public fight, one had private access.",
         "links": [
-          "R5"
+          {
+            "with": "R5",
+            "insight": "Victoria's argument was witnessed publicly and she left the lot entirely. Marcus Webb's quiet entry into the dressing room during lunch is the more significant detail."
+          }
         ]
       },
       {
@@ -122,7 +129,10 @@
         "text": "Eleanor Chase's fingerprints are found on the victim's coffee cup and nearby script pages. She claims they worked together on line rehearsals that morning.",
         "alone": "Eleanor Chase had recent physical contact with items belonging to the victim.",
         "links": [
-          "R6"
+          {
+            "with": "R6",
+            "insight": "Eleanor's fingerprints are fully explained by the scheduled rehearsal. Frank Morrison's fingerprints, however, were found on the dressing room door handle with no legitimate reason to be there."
+          }
         ]
       },
       {
@@ -130,10 +140,13 @@
         "type": "witness",
         "icon": "🗣️",
         "heading": "Pharmacy Records",
-        "text": "Investigation reveals Frank Morrison visited three different pharmacies in the past week, claiming he needed heart medication for his ailing father. Security footage confirms these visits.",
-        "alone": "Frank Morrison recently acquired heart medication from multiple sources under suspicious circumstances.",
+        "text": "Frank Morrison visited three different pharmacies last week, purchasing heart medication under false pretenses. He claimed it was for his ailing father — but his father died two years ago.",
+        "alone": "Frank Morrison illegally obtained heart medication with no legitimate explanation.",
         "links": [
-          "R1"
+          {
+            "with": "R1",
+            "insight": "Frank Morrison illegally obtained heart medication from multiple pharmacies. The poison capsule was planted in the dressing room — where only Morrison had unsupervised executive access."
+          }
         ]
       },
       {
@@ -141,10 +154,13 @@
         "type": "witness",
         "icon": "📞",
         "heading": "Phone Call Testimony",
-        "text": "The studio switchboard operator confirms Victoria Sterling received a frantic phone call during lunch break and immediately left the lot. Phone records show the call came from her agent regarding a new contract opportunity.",
-        "alone": "Victoria Sterling left the studio during the critical time period due to an urgent business call.",
+        "text": "The studio switchboard confirms Victoria Sterling received an urgent call from her agent during lunch and immediately left the lot. Security logs her exit at 12:08 PM — before the time of death.",
+        "alone": "Victoria Sterling left the studio entirely before the victim died.",
         "links": [
-          "R2"
+          {
+            "with": "R2",
+            "insight": "Victoria's argument was witnessed publicly and she left the lot entirely. Marcus Webb's quiet entry into the dressing room during lunch is the more significant detail."
+          }
         ]
       },
       {
@@ -152,19 +168,22 @@
         "type": "witness",
         "icon": "🎬",
         "heading": "Rehearsal Schedule",
-        "text": "The assistant director's logs show Eleanor Chase was scheduled for a private rehearsal with the victim that morning, explaining her presence and the fingerprints on his materials.",
-        "alone": "Eleanor Chase had a legitimate professional reason to be in close contact with the victim.",
+        "text": "The assistant director's logs confirm Eleanor Chase was in a scheduled rehearsal with the victim from 10 AM to noon. Frank Morrison had no scheduled meetings with the victim but was seen near his dressing room at 12:30 PM.",
+        "alone": "Eleanor Chase's presence is fully accounted for. Frank Morrison's presence near the dressing room is not.",
         "links": [
-          "R3"
+          {
+            "with": "R3",
+            "insight": "Eleanor's fingerprints are fully explained by the scheduled rehearsal. Frank Morrison's fingerprints, however, were found on the dressing room door handle with no legitimate reason to be there."
+          }
         ]
       }
     ],
     "solution": {
       "suspect": "Frank Morrison",
       "weapon": "Poison Capsule",
-      "location": "Sound Stage 7"
+      "location": "Dressing Room"
     },
-    "epilogue": "Frank Morrison's gambling debts to dangerous men had reached a breaking point, and the victim had discovered his embezzlement from studio funds. Faced with exposure and certain death from his creditors, Morrison saw murder as his only escape. He used his executive access to plant the poisoned capsule in Sound Stage 7, knowing the victim's routine of taking medication before important scenes. The investigation revealed Morrison had been skimming money for months, desperately trying to stay ahead of his mounting obligations to organized crime figures who showed no mercy to debtors."
+    "epilogue": "Frank Morrison's gambling debts to dangerous men had reached a breaking point, and the victim had discovered his embezzlement from studio funds. Faced with exposure and certain death from his creditors, Morrison used his executive pass to slip into the victim's dressing room during the lunch chaos and swap one capsule in the medication bottle. He knew the victim took his pills before every afternoon shoot. The investigation revealed Morrison had been skimming money for months, desperately trying to stay ahead of the organized crime figures who showed no mercy to debtors."
   },
   "detective": {
     "schemaVersion": "1.0",
@@ -175,6 +194,7 @@
     "setting": "Hollywood Film Set · Los Angeles · 1955",
     "emoji": "🎬",
     "timerSeconds": 600,
+    "emptyState": "Lights. Camera. No action.",
     "categories": [
       {
         "key": "suspect",
@@ -216,27 +236,27 @@
           {
             "name": "Stage Sword",
             "icon": "⚔️",
-            "detail": "A prop sword with a real steel blade used in the current production."
+            "detail": "A prop sword with a real steel blade."
           },
           {
             "name": "Lighting Rig",
             "icon": "💡",
-            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+            "detail": "Heavy equipment that could be sabotaged."
           },
           {
             "name": "Camera Tripod",
             "icon": "📷",
-            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+            "detail": "Solid metal, heavy enough to bludgeon."
           },
           {
             "name": "Poison Capsule",
             "icon": "💊",
-            "detail": "A small capsule containing cyanide hidden in prescription medication."
+            "detail": "Cyanide hidden in a prescription medication capsule."
           },
           {
             "name": "Electrical Cable",
             "icon": "⚡",
-            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
+            "detail": "High-voltage wiring rigged to deliver a fatal shock."
           }
         ]
       },
@@ -246,24 +266,24 @@
         "icon": "📍",
         "items": [
           {
-            "name": "Sound Stage 7",
-            "icon": "🎭",
-            "detail": "The main filming location where the victim was discovered."
+            "name": "Dressing Room",
+            "icon": "🪞",
+            "detail": "The victim's private space where he took his medication before afternoon shoots."
           },
           {
-            "name": "Wardrobe Department",
-            "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
+            "name": "Sound Stage 7",
+            "icon": "🎭",
+            "detail": "The main filming location with full cast and crew present."
           },
           {
             "name": "Director's Office",
             "icon": "🗂️",
-            "detail": "Private workspace containing scripts and confidential documents."
+            "detail": "Private workspace with scripts and confidential documents."
           },
           {
             "name": "Studio Commissary",
             "icon": "🍽️",
-            "detail": "The dining hall where cast and crew gather for meals."
+            "detail": "The dining hall where Frank Morrison held his alibi meeting."
           },
           {
             "name": "Equipment Storage",
@@ -290,7 +310,7 @@
           {
             "name": "Lunch Break (12-1 PM)",
             "icon": "🍽️",
-            "detail": "Cast and crew meal period when set is mostly empty."
+            "detail": "Cast and crew meal period — dressing room corridor was quiet."
           },
           {
             "name": "Afternoon Filming (1-4 PM)",
@@ -311,10 +331,13 @@
         "type": "physical",
         "icon": "💊",
         "heading": "Hidden Medicine",
-        "text": "A prescription bottle for heart medication is found in the victim's dressing room, but one capsule has been replaced with a cyanide-filled duplicate. The victim's medical records show no history of heart problems.",
-        "alone": "Someone with access to the victim's personal space planted poisoned medication.",
+        "text": "A prescription bottle in the victim's dressing room has one capsule replaced with a cyanide duplicate. The victim's medical records show no heart condition — someone planted it knowing his afternoon medication routine.",
+        "alone": "A poisoned capsule was planted in the dressing room by someone who knew the victim's habits.",
         "links": [
-          "D4"
+          {
+            "with": "D4",
+            "insight": "Morrison obtained heart medication illegally with no legitimate explanation. Combined with his executive access to the dressing room corridor, he is the only suspect who had both the means and opportunity to plant the capsule."
+          }
         ]
       },
       {
@@ -322,21 +345,27 @@
         "type": "witness",
         "icon": "👀",
         "heading": "Security Guard Report",
-        "text": "The night security guard swears he saw Marcus Webb leaving the studio at 11 PM the previous evening, well after normal hours. Webb had been working late in his office reviewing dailies and preparing shot lists.",
-        "alone": "Marcus Webb was present at the studio during unusual hours before the murder.",
+        "text": "The night security guard saw Marcus Webb leaving the studio at 11 PM the previous evening. Webb claims he was working late reviewing dailies — but the guard noted he came specifically from the direction of the dressing room corridor, not the editing suite.",
+        "alone": "Marcus Webb was in the dressing room area of the studio at unusual hours.",
         "links": [
-          "D5"
+          {
+            "with": "D5",
+            "insight": "Webb's late-night visit to the dressing room corridor was to review footage he'd found implicating Morrison — he was building a case, not planting evidence. Morrison knew Webb was onto him."
+          }
         ]
       },
       {
         "id": "D3",
         "type": "physical",
         "icon": "🕐",
-        "heading": "Timestamp Evidence",
-        "text": "Security cameras show the victim entering his dressing room at 12:45 PM during lunch break, taking medication, and collapsing within minutes. The timestamp confirms the narrow window of the crime.",
-        "alone": "The victim died during lunch break after taking medication in his dressing room.",
+        "heading": "Time of Death",
+        "text": "Security cameras show the victim entering his dressing room at 12:45 PM, taking medication from the bottle on his vanity, and collapsing within minutes. The narrow time window points to someone active during the lunch break.",
+        "alone": "The victim died in his dressing room during the lunch break after taking his medication.",
         "links": [
-          "D6"
+          {
+            "with": "D6",
+            "insight": "Morrison was at the commissary during lunch — but security logs show a 12-minute gap where he was unaccounted for. Enough time to slip to the dressing room corridor and back."
+          }
         ]
       },
       {
@@ -344,10 +373,13 @@
         "type": "witness",
         "icon": "🗣️",
         "heading": "Pharmacy Investigation",
-        "text": "Frank Morrison visited three different pharmacies last week, purchasing heart medication under false pretenses. He claimed his father needed the prescription but pharmacy records show no legitimate prescriptions.",
-        "alone": "Frank Morrison illegally obtained heart medication through deceptive means.",
+        "text": "Frank Morrison visited three pharmacies last week obtaining heart medication under false pretenses. His stated reason — his father's prescription — is provably false. His father died two years ago.",
+        "alone": "Frank Morrison illegally obtained heart medication with no legitimate explanation.",
         "links": [
-          "D1"
+          {
+            "with": "D1",
+            "insight": "Morrison obtained heart medication illegally with no legitimate explanation. Combined with his executive access to the dressing room corridor, he is the only suspect who had both the means and opportunity to plant the capsule."
+          }
         ]
       },
       {
@@ -355,31 +387,37 @@
         "type": "physical",
         "icon": "📹",
         "heading": "Film Reel Discovery",
-        "text": "Investigation of Marcus Webb's late-night work reveals he was actually reviewing footage that showed Frank Morrison entering restricted areas after hours. Webb had been building a case against Morrison's suspicious activities.",
-        "alone": "Marcus Webb was investigating Frank Morrison's unauthorized access to secure studio areas.",
+        "text": "Marcus Webb's late-night footage review was actually security recordings showing Frank Morrison accessing restricted areas after hours. Webb had compiled the evidence and planned to present it to the studio board that afternoon — the same afternoon the victim was killed.",
+        "alone": "Webb was gathering evidence against Morrison, not acting suspiciously himself.",
         "links": [
-          "D2"
+          {
+            "with": "D2",
+            "insight": "Webb's late-night visit to the dressing room corridor was to review footage he'd found implicating Morrison — he was building a case, not planting evidence. Morrison knew Webb was onto him."
+          }
         ]
       },
       {
         "id": "D6",
         "type": "witness",
         "icon": "🍽️",
-        "heading": "Commissary Witness",
-        "text": "The commissary staff confirm Frank Morrison was present during the entire lunch break, having an extended business meeting with visiting investors. Multiple witnesses place him in the dining hall when the victim died.",
-        "alone": "Frank Morrison has a solid alibi supported by multiple witnesses during the time of death.",
+        "heading": "Commissary Alibi — With a Gap",
+        "text": "Commissary staff confirm Morrison was present for most of the lunch break in a business meeting. However, a waiter notes he stepped away for approximately 12 minutes just before 12:45 PM, returning slightly out of breath.",
+        "alone": "Morrison's alibi has a 12-minute gap precisely when the victim was poisoned.",
         "links": [
-          "D3"
+          {
+            "with": "D3",
+            "insight": "Morrison was at the commissary during lunch — but security logs show a 12-minute gap where he was unaccounted for. Enough time to slip to the dressing room corridor and back."
+          }
         ]
       }
     ],
     "solution": {
-      "suspect": "Marcus Webb",
+      "suspect": "Frank Morrison",
       "weapon": "Poison Capsule",
-      "location": "Sound Stage 7",
+      "location": "Dressing Room",
       "window": "Lunch Break (12-1 PM)"
     },
-    "epilogue": "Marcus Webb had discovered that the victim was planning to expose his embezzlement of production funds and replace him as director. Desperate to protect his reputation and career, Webb used his knowledge of the studio layout to plant the poison capsule in Sound Stage 7 during the lunch break. His investigation of Frank Morrison was actually a cover, gathering information to frame Morrison for the crime he was planning to commit. Webb's meticulous nature, which made him a successful director, also made him a calculating murderer who nearly succeeded in his elaborate deception."
+    "epilogue": "Frank Morrison knew Webb had footage of his unauthorized access and was about to expose both his embezzlement and his connection to organized crime. With the victim also closing in on his financial fraud, Morrison spent the previous night planning his move. During a calculated 12-minute break from his alibi lunch meeting, he slipped to the dressing room, swapped the capsule, and returned before anyone noticed. He nearly succeeded — the commissary alibi was almost airtight. Almost."
   },
   "inspector": {
     "schemaVersion": "1.0",
@@ -390,6 +428,7 @@
     "setting": "Hollywood Film Set · Los Angeles · 1955",
     "emoji": "🎬",
     "timerSeconds": 480,
+    "emptyState": "Lights. Camera. No action.",
     "categories": [
       {
         "key": "suspect",
@@ -409,7 +448,7 @@
           {
             "name": "Eleanor Chase",
             "icon": "✨",
-            "detail": "Rising starlet who has been stealing roles from established actors."
+            "detail": "Rising starlet stealing roles from established actors."
           },
           {
             "name": "Frank Morrison",
@@ -419,7 +458,7 @@
           {
             "name": "Tommy Rodriguez",
             "icon": "🔧",
-            "detail": "Head of the prop department with access to all studio equipment."
+            "detail": "Head of props with access to all studio equipment."
           },
           {
             "name": "Dr. Sarah Chen",
@@ -436,27 +475,27 @@
           {
             "name": "Stage Sword",
             "icon": "⚔️",
-            "detail": "A prop sword with a real steel blade used in the current production."
+            "detail": "A prop sword with a real steel blade."
           },
           {
             "name": "Lighting Rig",
             "icon": "💡",
-            "detail": "Heavy equipment that could be sabotaged to fall on someone."
+            "detail": "Heavy equipment that could be sabotaged to fall."
           },
           {
             "name": "Camera Tripod",
             "icon": "📷",
-            "detail": "Solid metal equipment heavy enough to be used as a bludgeon."
+            "detail": "Solid metal equipment heavy enough to bludgeon."
           },
           {
             "name": "Poison Capsule",
             "icon": "💊",
-            "detail": "A small capsule containing cyanide hidden in prescription medication."
+            "detail": "Cyanide hidden in prescription medication."
           },
           {
             "name": "Electrical Cable",
             "icon": "⚡",
-            "detail": "High-voltage wiring that could be rigged to deliver a fatal shock."
+            "detail": "High-voltage wiring rigged for a fatal shock."
           },
           {
             "name": "Medical Injection",
@@ -478,27 +517,27 @@
           {
             "name": "Wardrobe Department",
             "icon": "👗",
-            "detail": "Costume storage area filled with racks of period clothing."
+            "detail": "Costume storage filled with period clothing."
           },
           {
             "name": "Director's Office",
             "icon": "🗂️",
-            "detail": "Private workspace containing scripts and confidential documents."
+            "detail": "Private workspace with scripts and confidential documents."
           },
           {
             "name": "Studio Commissary",
             "icon": "🍽️",
-            "detail": "The dining hall where cast and crew gather for meals."
+            "detail": "The dining hall where cast and crew gather."
           },
           {
             "name": "Equipment Storage",
             "icon": "📦",
-            "detail": "Warehouse area containing cameras, lights, and technical gear."
+            "detail": "Warehouse containing cameras, lights, and technical gear."
           },
           {
             "name": "Medical Office",
             "icon": "🏥",
-            "detail": "On-site clinic where cast and crew receive medical treatment."
+            "detail": "On-site clinic where cast and crew receive treatment."
           }
         ]
       },
@@ -515,7 +554,7 @@
           {
             "name": "First Rehearsal (10 AM-12 PM)",
             "icon": "🎭",
-            "detail": "Initial run-through with principal actors and director."
+            "detail": "Initial run-through with principal actors."
           },
           {
             "name": "Lunch Break (12-1 PM)",
@@ -525,17 +564,17 @@
           {
             "name": "Afternoon Filming (1-4 PM)",
             "icon": "🎬",
-            "detail": "Main shooting schedule with full cast and crew present."
+            "detail": "Main shooting with full cast and crew."
           },
           {
             "name": "Evening Wrap (4-6 PM)",
             "icon": "🌆",
-            "detail": "Final shots and equipment breakdown for the day."
+            "detail": "Final shots and equipment breakdown."
           },
           {
             "name": "Night Security (6 PM-8 AM)",
             "icon": "🌙",
-            "detail": "After-hours period with minimal staff and security patrols."
+            "detail": "After-hours with minimal staff and security patrols."
           }
         ]
       },
@@ -547,12 +586,12 @@
           {
             "name": "Financial Ruin",
             "icon": "💸",
-            "detail": "Victim threatened to expose embezzlement that would lead to prosecution."
+            "detail": "Victim threatened to expose embezzlement leading to prosecution."
           },
           {
             "name": "Career Destruction",
             "icon": "📉",
-            "detail": "Victim planned to reveal professional misconduct ending Hollywood dreams."
+            "detail": "Victim planned to reveal professional misconduct."
           },
           {
             "name": "Romantic Betrayal",
@@ -562,17 +601,17 @@
           {
             "name": "Blackmail Scheme",
             "icon": "🔒",
-            "detail": "Victim discovered illegal activities and was demanding payment for silence."
+            "detail": "Victim discovered illegal activities and demanded payment."
           },
           {
             "name": "Professional Rivalry",
             "icon": "🏆",
-            "detail": "Victim was blocking advancement and stealing credit for creative work."
+            "detail": "Victim was blocking advancement and stealing creative credit."
           },
           {
             "name": "Medical Malpractice",
             "icon": "⚖️",
-            "detail": "Victim knew about falsified credentials and dangerous treatment of patients."
+            "detail": "Victim knew about falsified credentials and dangerous patient care."
           }
         ]
       }
@@ -583,10 +622,13 @@
         "type": "physical",
         "icon": "💉",
         "heading": "Missing Medical Supplies",
-        "text": "Dr. Sarah Chen's medical office inventory shows a missing syringe and vial of morphine, but she claims to have no memory of using them recently. The controlled substances log has been altered with different handwriting.",
-        "alone": "Medical supplies that could be used as murder weapons have disappeared from the studio clinic.",
+        "text": "Dr. Sarah Chen's medical office inventory shows a missing syringe and vial of morphine. The controlled substances log has been altered — a different pen and handwriting replaces the original entries.",
+        "alone": "Medical supplies capable of causing death have disappeared, and records covering it have been falsified.",
         "links": [
-          "I4"
+          {
+            "with": "I4",
+            "insight": "Tommy Rodriguez purchased medical supplies commercially, but the missing items came from inside the medical office — only Dr. Chen had routine access to those controlled substances."
+          }
         ]
       },
       {
@@ -594,32 +636,41 @@
         "type": "witness",
         "icon": "👀",
         "heading": "Assistant Director's Account",
-        "text": "The assistant director insists he saw Eleanor Chase in deep conversation with the victim near the medical office during lunch break, discussing what appeared to be a private medical matter. Both seemed distressed during the exchange.",
-        "alone": "Eleanor Chase was seen having an intense private discussion with the victim near the medical facility.",
+        "text": "The assistant director saw Eleanor Chase in deep conversation with the victim near the medical office during lunch break. Both seemed distressed. Eleanor was gesturing toward the medical office door and the victim appeared pale.",
+        "alone": "Eleanor Chase was having an intense private discussion with the victim near the medical facility at the time of death.",
         "links": [
-          "I5"
+          {
+            "with": "I5",
+            "insight": "Eleanor was urging the victim to report Dr. Chen to the licensing board — she was trying to protect him, not harm him. She had already called the board herself that morning."
+          }
         ]
       },
       {
         "id": "I3",
         "type": "physical",
         "icon": "📋",
-        "heading": "Medical Records Discovery",
-        "text": "Hidden in Dr. Chen's office files are forged medical certificates for several cast members, including documentation that would have kept them working despite serious health conditions. The victim's signature appears as a witness on several documents.",
-        "alone": "Falsified medical records with the victim's signature are hidden in the studio medical office.",
+        "heading": "Forged Medical Records",
+        "text": "Hidden in Dr. Chen's office files are forged medical certificates for several cast members, and documentation the victim had signed as a witness on several insurance claims. He had unknowingly authenticated her fraud.",
+        "alone": "Falsified records bearing the victim's signature are hidden in the medical office — he had unknowingly been used as cover for insurance fraud.",
         "links": [
-          "I6"
+          {
+            "with": "I6",
+            "insight": "The victim's accountant had flagged the insurance anomalies. Chen knew he was close to understanding what he'd signed. Once he did, her fraud — and her falsified medical credentials — would unravel completely."
+          }
         ]
       },
       {
         "id": "I4",
         "type": "witness",
         "icon": "🔍",
-        "heading": "Pharmacy Investigation",
-        "text": "Local pharmacies report that Tommy Rodriguez has been purchasing large quantities of medical supplies over the past month, claiming he needed them for realistic prop injuries. Security footage confirms these suspicious transactions.",
-        "alone": "Tommy Rodriguez has been secretly acquiring medical supplies that could be used for harmful purposes.",
+        "heading": "External Supply Purchases",
+        "text": "Tommy Rodriguez purchased medical supplies from commercial vendors over the past month for prop purposes — realistic fake injuries for stunt sequences. His receipts and the prop master's sign-off confirm legitimate use.",
+        "alone": "Tommy Rodriguez's medical supply purchases have a legitimate documented explanation.",
         "links": [
-          "I1"
+          {
+            "with": "I1",
+            "insight": "Tommy Rodriguez purchased medical supplies commercially, but the missing items came from inside the medical office — only Dr. Chen had routine access to those controlled substances."
+          }
         ]
       },
       {
@@ -627,10 +678,13 @@
         "type": "physical",
         "icon": "📞",
         "heading": "Phone Records Reveal",
-        "text": "Eleanor Chase's phone records show she called a medical licensing board the morning of the murder, asking about procedures for reporting physician misconduct. The call lasted fifteen minutes and she took detailed notes.",
-        "alone": "Eleanor Chase was researching how to report medical professional misconduct on the day of the murder.",
+        "text": "Eleanor Chase called the medical licensing board the morning of the murder, reporting concerns about Dr. Chen's credentials and treatment practices. The call lasted 15 minutes. She was trying to get the victim to file a formal report.",
+        "alone": "Eleanor Chase was actively trying to expose Dr. Chen — she was protecting the victim, not threatening him.",
         "links": [
-          "I2"
+          {
+            "with": "I2",
+            "insight": "Eleanor was urging the victim to report Dr. Chen to the licensing board — she was trying to protect him, not harm him. She had already called the board herself that morning."
+          }
         ]
       },
       {
@@ -638,10 +692,13 @@
         "type": "witness",
         "icon": "💰",
         "heading": "Financial Investigation",
-        "text": "Bank records reveal Dr. Sarah Chen has been receiving large cash deposits that don't match her studio physician salary. The victim's personal accountant confirms he had been investigating these suspicious financial transactions for insurance fraud.",
-        "alone": "Dr. Sarah Chen has unexplained income and was under financial investigation by the victim.",
+        "text": "Bank records show Dr. Chen receiving large unexplained cash deposits. The victim's accountant confirms he had flagged insurance claims that bore the victim's signature and was preparing a report for the studio board.",
+        "alone": "Dr. Chen had unexplained income and the victim was about to understand he had unwittingly authenticated her fraud.",
         "links": [
-          "I3"
+          {
+            "with": "I3",
+            "insight": "The victim's accountant had flagged the insurance anomalies. Chen knew he was close to understanding what he'd signed. Once he did, her fraud — and her falsified medical credentials — would unravel completely."
+          }
         ]
       }
     ],
@@ -652,6 +709,6 @@
       "window": "Lunch Break (12-1 PM)",
       "motive": "Medical Malpractice"
     },
-    "epilogue": "Dr. Sarah Chen had been operating with falsified credentials and endangering lives through incompetent medical care while collecting insurance payments for treatments never provided. When the victim discovered her fraud and threatened exposure, she lured him to the medical office during lunch break under the pretense of discussing his health concerns. Using her medical knowledge, she administered a lethal injection that initially appeared to be a heart attack. Chen's desperation to protect her lucrative deception and avoid prosecution for medical malpractice drove her to murder, believing she could use her position as studio physician to control the investigation and cover her tracks."
+    "epilogue": "Dr. Sarah Chen had been practicing medicine with falsified credentials for six years, collecting insurance payments for treatments never provided. Eleanor Chase had grown suspicious and was pushing the victim to file a formal report with the licensing board. Chen lured him to the medical office during lunch under the pretense of discussing a health concern, then administered a lethal morphine injection. She intended it to appear as a heart attack. It nearly did. Her desperation to protect a lucrative, dangerous deception cost a man his life — and ultimately cost her everything."
   }
 }
