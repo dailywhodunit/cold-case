@@ -1,7 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { C, F } from '../lib/constants.js';
 import { trackClueRevealed, trackHintUsed, trackWrongAccusation } from '../lib/analytics.js';
-import { trackClueRevealed, trackHintUsed, trackWrongAccusation } from '../lib/analytics.js';
 
 // ── HR DIVIDER ───────────────────────────────────────────────────────────────
 function HR({ gold }) {
@@ -380,7 +379,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
 
   const handleToggleAlone=(clueId)=>{
     const isOpening=!aloneOpen[clueId];
-    if(isOpening&&!hintedClues.has(clueId)){ addPenalty(15); setHintsUsed(h=>{ trackHintUsed({ hintCount: h+1, timeRemaining: rem, timerSeconds: caseData.timerSeconds||600, caseNum: caseData.caseNum||'', tier: tierId }); return h+1; }); setHintedClues(prev=>new Set([...prev,clueId])); }
+    if(isOpening&&!hintedClues.has(clueId)){ addPenalty(15); trackHintUsed({ hintCount: hintsUsed+1, timeRemaining: rem, timerSeconds: caseData.timerSeconds||600, caseNum: caseData.caseNum||'', tier: tierId }); setHintsUsed(h=>h+1); setHintedClues(prev=>new Set([...prev,clueId])); }
     setAloneOpen(prev=>({...prev,[clueId]:!aloneOpen[clueId]}));
   };
 
@@ -398,7 +397,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
     const confirmed=getConfirmed();
     const correct=categories.every(cat=>confirmed[cat.key]===solution[cat.key]);
     if(correct){ setTimerOn(false); onSolve({accusation:confirmed,foundInsights,wrongCount,totalPenalty,timeRemaining:rem,hintsUsed,tierId}); }
-    else{ setWrongShake(true); setWrongCount(w=>{ trackWrongAccusation({ wrongCount: w+1, timeRemaining: rem, caseNum: caseData.caseNum||'', tier: tierId }); return w+1; }); setTotalPenalty(p=>p+30); addPenalty(30); setTimeout(()=>setWrongShake(false),500); }
+    else{ setWrongShake(true); trackWrongAccusation({ wrongCount: wrongCount+1, timeRemaining: rem, caseNum: caseData.caseNum||'', tier: tierId }); setWrongCount(w=>w+1); setTotalPenalty(p=>p+30); addPenalty(30); setTimeout(()=>setWrongShake(false),500); }
   };
 
   return (
