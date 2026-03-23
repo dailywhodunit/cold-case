@@ -1,0 +1,669 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #027",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The luxury resort promised total escape from the outside world. For one guest, that escape became permanent when they were found dead in their overwater bungalow.",
+    "emptyState": "Paradise has a dark side tonight.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💼",
+            "detail": "Resort manager obsessed with maintaining perfect reputation."
+          },
+          {
+            "name": "Sophia Rivera",
+            "icon": "💎",
+            "detail": "Wealthy socialite with gambling debts and desperate needs."
+          },
+          {
+            "name": "Dr. James Thorne",
+            "icon": "🩺",
+            "detail": "Resort physician who treated the victim recently."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "🍸",
+            "detail": "Head bartender who served the victim's final drinks."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Tropical Plant Toxin",
+            "icon": "🌿",
+            "detail": "Deadly oleander extract mixed into a cocktail."
+          },
+          {
+            "name": "Diving Weight",
+            "icon": "🤿",
+            "detail": "Heavy metal weight used for underwater activities."
+          },
+          {
+            "name": "Kitchen Knife",
+            "icon": "🔪",
+            "detail": "Sharp blade from the resort's main kitchen."
+          },
+          {
+            "name": "Prescription Pills",
+            "icon": "💊",
+            "detail": "Powerful sedatives from the medical clinic."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Overwater Bungalow",
+            "icon": "🛖",
+            "detail": "Victim's private accommodation over the lagoon."
+          },
+          {
+            "name": "Beach Bar",
+            "icon": "🍹",
+            "detail": "Open-air bar where final drinks were served."
+          },
+          {
+            "name": "Medical Clinic",
+            "icon": "🏥",
+            "detail": "Small facility for treating guest injuries and illnesses."
+          },
+          {
+            "name": "Diving Equipment Shed",
+            "icon": "🤿",
+            "detail": "Storage area for water sports gear and weights."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🌿",
+        "heading": "Toxic Cocktail Glass",
+        "text": "Lab analysis reveals oleander toxin residue in the victim's final drink glass. The poison causes cardiac arrest within hours of consumption.",
+        "alone": "The victim was killed by plant poison in their drink.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender's Testimony",
+        "text": "Elena confirms she made the victim's usual rum punch at 9 PM. She used fresh tropical garnishes including oleander flowers for decoration.",
+        "alone": "Elena accidentally used poisonous flowers as drink garnish.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Security Camera Footage",
+        "text": "Video shows Sophia visiting the beach bar at 8:45 PM, fifteen minutes before the victim arrived. She appeared nervous and agitated.",
+        "alone": "Sophia was at the bar shortly before the victim.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🧪",
+        "heading": "Toxicology Report",
+        "text": "Victim's blood contains lethal levels of oleander toxin consistent with ingestion around 9:15 PM. Death occurred approximately 11:30 PM from cardiac arrest.",
+        "alone": "Poison was consumed around 9:15 PM at the bar.",
+        "links": [
+          {
+            "to": "R1",
+            "insight": "The toxic cocktail glass and blood analysis confirm oleander poisoning."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🗣️",
+        "heading": "Guest Statement",
+        "text": "A guest saw Elena crying behind the bar after closing, saying she 'never meant for this to happen.' She was disposing of oleander flowers.",
+        "alone": "Elena was distraught about the accidental poisoning she caused.",
+        "links": [
+          {
+            "to": "R2",
+            "insight": "Elena's testimony and later remorse show she accidentally poisoned the victim."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Financial Records",
+        "text": "Sophia's credit cards were maxed out and she owed significant gambling debts. However, she left the island before 9 PM on the evening ferry.",
+        "alone": "Despite her financial troubles, Sophia had already departed the island.",
+        "links": [
+          {
+            "to": "R3",
+            "insight": "Camera footage was from the previous evening, not the night of the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vasquez",
+      "weapon": "Tropical Plant Toxin",
+      "location": "Beach Bar"
+    },
+    "epilogue": "Elena Vasquez, dedicated to creating beautiful tropical drinks, had unknowingly used deadly oleander flowers as garnish in the victim's cocktail. Her obsession with perfect presentation led to a tragic accident that cost a life. Despite her genuine remorse, her negligence proved fatal. She was charged with involuntary manslaughter, forever haunted by her deadly mistake."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #027",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The luxury resort promised total escape from the outside world. For one guest, that escape became permanent when they were found dead in their overwater bungalow.",
+    "emptyState": "Paradise has a dark side tonight.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💼",
+            "detail": "Resort manager obsessed with maintaining perfect reputation."
+          },
+          {
+            "name": "Sophia Rivera",
+            "icon": "💎",
+            "detail": "Wealthy socialite with gambling debts and desperate needs."
+          },
+          {
+            "name": "Dr. James Thorne",
+            "icon": "🩺",
+            "detail": "Resort physician who treated the victim recently."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "🍸",
+            "detail": "Head bartender who served the victim's final drinks."
+          },
+          {
+            "name": "Thomas Wright",
+            "icon": "📸",
+            "detail": "Hotel photographer with access to all resort areas."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Tropical Plant Toxin",
+            "icon": "🌿",
+            "detail": "Deadly oleander extract mixed into a cocktail."
+          },
+          {
+            "name": "Diving Weight",
+            "icon": "🤿",
+            "detail": "Heavy metal weight used for underwater activities."
+          },
+          {
+            "name": "Kitchen Knife",
+            "icon": "🔪",
+            "detail": "Sharp blade from the resort's main kitchen."
+          },
+          {
+            "name": "Prescription Pills",
+            "icon": "💊",
+            "detail": "Powerful sedatives from the medical clinic."
+          },
+          {
+            "name": "Electrical Wire",
+            "icon": "⚡",
+            "detail": "Frayed lighting equipment wire from pool area."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Overwater Bungalow",
+            "icon": "🛖",
+            "detail": "Victim's private accommodation over the lagoon."
+          },
+          {
+            "name": "Beach Bar",
+            "icon": "🍹",
+            "detail": "Open-air bar where final drinks were served."
+          },
+          {
+            "name": "Medical Clinic",
+            "icon": "🏥",
+            "detail": "Small facility for treating guest injuries and illnesses."
+          },
+          {
+            "name": "Diving Equipment Shed",
+            "icon": "🤿",
+            "detail": "Storage area for water sports gear and weights."
+          },
+          {
+            "name": "Photography Studio",
+            "icon": "📷",
+            "detail": "Resort's photo processing room and equipment storage."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Crushing debts requiring immediate large sum of money."
+          },
+          {
+            "name": "Professional Obsession",
+            "icon": "🏆",
+            "detail": "Extreme need to maintain perfect reputation and control."
+          },
+          {
+            "name": "Personal Revenge",
+            "icon": "⚔️",
+            "detail": "Deep-seated hatred from past wrongs and betrayals."
+          },
+          {
+            "name": "Accidental Negligence",
+            "icon": "😰",
+            "detail": "Careless mistake with deadly unintended consequences."
+          },
+          {
+            "name": "Romantic Jealousy",
+            "icon": "💔",
+            "detail": "Intense obsession and rage over unrequited feelings."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🌿",
+        "heading": "Toxic Cocktail Glass",
+        "text": "Lab analysis reveals oleander toxin residue in the victim's final drink glass. The poison causes cardiac arrest within hours of consumption.",
+        "alone": "The victim was killed by plant poison in their drink.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Security Guard Report",
+        "text": "Guard captain states Elena was seen disposing of oleander flowers after the victim died, claiming they were 'accidentally used as garnish.'",
+        "alone": "Elena accidentally poisoned the victim with decorative flowers.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Text Messages",
+        "text": "Victim's phone shows threatening messages from Marcus: 'You'll destroy everything I've built here. I won't let that happen.'",
+        "alone": "Marcus had sent threatening messages to the victim.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🧪",
+        "heading": "Toxicology Report",
+        "text": "Victim's blood contains concentrated oleander toxin far exceeding accidental exposure levels. The dosage indicates deliberate poisoning, not decorative contamination.",
+        "alone": "The poison level proves intentional murder, not an accident.",
+        "links": [
+          {
+            "to": "D1",
+            "insight": "The toxic cocktail glass and blood analysis confirm deliberate oleander poisoning."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Fingerprint Analysis",
+        "text": "Multiple sets of prints on the victim's glass, but Marcus Chen's prints are on the oleander plant stems found in the bar's compost bin.",
+        "alone": "Marcus handled the poisonous oleander plants used in the murder.",
+        "links": [
+          {
+            "to": "D2",
+            "insight": "The security guard was wrong about Elena's accident theory."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Resort Inspection Report",
+        "text": "Victim was a health inspector planning to shut down the resort for numerous violations. Marcus faced complete financial ruin and career destruction.",
+        "alone": "Marcus had powerful motive to prevent the damaging inspection report.",
+        "links": [
+          {
+            "to": "D3",
+            "insight": "Marcus's threatening texts and the inspection motive show his desperation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Chen",
+      "weapon": "Tropical Plant Toxin",
+      "location": "Beach Bar",
+      "motive": "Professional Obsession"
+    },
+    "epilogue": "Marcus Chen, consumed by his obsession with maintaining the resort's perfect facade, couldn't bear to see his life's work destroyed by a health inspection. When the inspector threatened to shut down his paradise, Marcus's professional obsession drove him to murder. He deliberately poisoned the inspector's drink with concentrated oleander toxin, then tried to frame Elena for an accident. His desperate need for control ultimately cost him everything he sought to protect."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #027",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The luxury resort promised total escape from the outside world. For one guest, that escape became permanent when they were found dead in their overwater bungalow.",
+    "emptyState": "Paradise has a dark side tonight.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Chen",
+            "icon": "💼",
+            "detail": "Resort manager obsessed with maintaining perfect reputation."
+          },
+          {
+            "name": "Sophia Rivera",
+            "icon": "💎",
+            "detail": "Wealthy socialite with gambling debts and desperate needs."
+          },
+          {
+            "name": "Dr. James Thorne",
+            "icon": "🩺",
+            "detail": "Resort physician who treated the victim recently."
+          },
+          {
+            "name": "Elena Vasquez",
+            "icon": "🍸",
+            "detail": "Head bartender who served the victim's final drinks."
+          },
+          {
+            "name": "Thomas Wright",
+            "icon": "📸",
+            "detail": "Hotel photographer with access to all resort areas."
+          },
+          {
+            "name": "Rachel Kim",
+            "icon": "🌺",
+            "detail": "Botanical garden keeper who maintains resort landscaping."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Tropical Plant Toxin",
+            "icon": "🌿",
+            "detail": "Deadly oleander extract mixed into a cocktail."
+          },
+          {
+            "name": "Diving Weight",
+            "icon": "🤿",
+            "detail": "Heavy metal weight used for underwater activities."
+          },
+          {
+            "name": "Kitchen Knife",
+            "icon": "🔪",
+            "detail": "Sharp blade from the resort's main kitchen."
+          },
+          {
+            "name": "Prescription Pills",
+            "icon": "💊",
+            "detail": "Powerful sedatives from the medical clinic."
+          },
+          {
+            "name": "Electrical Wire",
+            "icon": "⚡",
+            "detail": "Frayed lighting equipment wire from pool area."
+          },
+          {
+            "name": "Fishing Spear",
+            "icon": "🔱",
+            "detail": "Sharpened spear from water sports equipment."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Overwater Bungalow",
+            "icon": "🛖",
+            "detail": "Victim's private accommodation over the lagoon."
+          },
+          {
+            "name": "Beach Bar",
+            "icon": "🍹",
+            "detail": "Open-air bar where final drinks were served."
+          },
+          {
+            "name": "Medical Clinic",
+            "icon": "🏥",
+            "detail": "Small facility for treating guest injuries and illnesses."
+          },
+          {
+            "name": "Diving Equipment Shed",
+            "icon": "🤿",
+            "detail": "Storage area for water sports gear and weights."
+          },
+          {
+            "name": "Photography Studio",
+            "icon": "📷",
+            "detail": "Resort's photo processing room and equipment storage."
+          },
+          {
+            "name": "Botanical Gardens",
+            "icon": "🌺",
+            "detail": "Lush tropical plant collection maintained by garden staff."
+          }
+        ]
+      },
+      {
+        "key": "primary_motive",
+        "label": "Primary Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Crushing debts requiring immediate large sum of money."
+          },
+          {
+            "name": "Professional Obsession",
+            "icon": "🏆",
+            "detail": "Extreme need to maintain perfect reputation and control."
+          },
+          {
+            "name": "Personal Revenge",
+            "icon": "⚔️",
+            "detail": "Deep-seated hatred from past wrongs and betrayals."
+          },
+          {
+            "name": "Accidental Negligence",
+            "icon": "😰",
+            "detail": "Careless mistake with deadly unintended consequences."
+          },
+          {
+            "name": "Romantic Jealousy",
+            "icon": "💔",
+            "detail": "Intense obsession and rage over unrequited feelings."
+          },
+          {
+            "name": "Environmental Fanaticism",
+            "icon": "🌍",
+            "detail": "Extreme obsession with protecting nature from exploitation."
+          }
+        ]
+      },
+      {
+        "key": "secondary_motive",
+        "label": "Secondary Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Cover Up Scandal",
+            "icon": "🤫",
+            "detail": "Hiding previous illegal activities or professional misconduct."
+          },
+          {
+            "name": "Protect Someone Else",
+            "icon": "🛡️",
+            "detail": "Shielding a loved one from consequences or exposure."
+          },
+          {
+            "name": "Insurance Fraud",
+            "icon": "📋",
+            "detail": "Financial gain through manipulating insurance claims."
+          },
+          {
+            "name": "Corporate Espionage",
+            "icon": "🕵️",
+            "detail": "Stealing trade secrets or competitive information."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "💊",
+            "detail": "Concealing dangerous treatment errors or drug interactions."
+          },
+          {
+            "name": "Land Development",
+            "icon": "🏗️",
+            "detail": "Clearing obstacles to profitable construction projects."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🌿",
+        "heading": "Toxic Cocktail Glass",
+        "text": "Lab analysis reveals oleander toxin residue in the victim's final drink glass. The poison causes cardiac arrest within hours of consumption.",
+        "alone": "The victim was killed by plant poison in their drink.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Staff Member Statement",
+        "text": "Kitchen supervisor reports seeing Dr. Thorne near the bar's service area around 8:45 PM, claiming he was 'checking on a patient's dietary restrictions.'",
+        "alone": "Dr. Thorne was near the bar before the victim arrived.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Environmental Report",
+        "text": "Victim's laptop contains a damaging environmental impact study. The resort's expansion would destroy protected coral reefs and endanger marine wildlife.",
+        "alone": "The victim's report threatened the resort's expansion plans.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "🧪",
+        "heading": "Toxicology Analysis",
+        "text": "Victim's blood contains precisely measured oleander toxin indicating expert botanical knowledge. The extraction method requires advanced plant chemistry skills.",
+        "alone": "The killer has sophisticated knowledge of plant toxins.",
+        "links": [
+          {
+            "to": "I1",
+            "insight": "The toxic cocktail glass and blood analysis confirm expert plant poisoning."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Laboratory Equipment",
+        "text": "Rachel Kim's garden shed contains plant extraction equipment and chemistry texts. However, security footage shows Dr. Thorne was misidentified - it was actually Thomas Wright near the bar.",
+        "alone": "Rachel has poison-making equipment, but Thomas was actually at the bar.",
+        "links": [
+          {
+            "to": "I2",
+            "insight": "The witness was wrong about Dr. Thorne's presence at the bar."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Financial Investigation",
+        "text": "Rachel Kim secretly owns shares in a development company planning to buy the resort land after environmental clearance. The victim's report would have blocked the profitable deal.",
+        "alone": "Rachel had hidden financial motives tied to the environmental report.",
+        "links": [
+          {
+            "to": "I3",
+            "insight": "Rachel's environmental report concerns and development investment show dual motives."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Rachel Kim",
+      "weapon": "Tropical Plant Toxin",
+      "location": "Beach Bar",
+      "primary_motive": "Environmental Fanaticism",
+      "secondary_motive": "Land Development"
+    },
+    "epilogue": "Rachel Kim's obsession with protecting the island's ecosystem had twisted into something darker when she discovered the potential profits from controlled development. Her botanical expertise and secret financial stake created the perfect storm for murder. She used her advanced knowledge of plant toxins to eliminate the environmental scientist whose report threatened both her environmental vision and her hidden investment. Rachel's dual obsessions - protecting nature and profiting from it - ultimately corrupted her completely, leading her to poison the very person who shared her love of the natural world."
+  }
+}
