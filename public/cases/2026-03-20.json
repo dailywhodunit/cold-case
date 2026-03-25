@@ -98,7 +98,10 @@
         "text": "The engineering workshop shows signs of recent plasma cutter use, with metal shavings still warm. Security logs indicate Dr. Vasquez's keycard was used to access this area thirty minutes before the body was discovered.",
         "alone": "Someone used Dr. Vasquez's access credentials for workshop activities before the discovery.",
         "links": [
-          "R4"
+          {
+            "with": "R4",
+            "insight": "The plasma cutter marks and the cloned keycard are connected — whoever built the EMP device also faked Vasquez's credentials to move through the facility unseen."
+          }
         ]
       },
       {
@@ -109,7 +112,10 @@
         "text": "A maintenance worker reports seeing Commander Stone arguing intensely with someone via private comm channel. The conversation seemed heated, with Stone repeatedly saying 'the colony comes first' before cutting the transmission abruptly.",
         "alone": "Commander Stone was engaged in a serious disagreement shortly before the incident.",
         "links": [
-          "R5"
+          {
+            "with": "R5",
+            "insight": "Stone's argument with the victim makes sense now — he discovered the structural flaws and confronted whoever was covering them up, making him a target too."
+          }
         ]
       },
       {
@@ -120,7 +126,10 @@
         "text": "Dr. Holloway's patient files reveal he'd been treating the victim for severe anxiety and paranoid episodes. Recent entries suggest the victim suspected someone was sabotaging critical dome systems.",
         "alone": "The victim had been experiencing psychological distress and suspected internal threats.",
         "links": [
-          "R6"
+          {
+            "with": "R6",
+            "insight": "Holloway's missing injector and his treatment of the victim's anxiety aren't coincidence — someone used his equipment and his access to reach the victim undetected."
+          }
         ]
       },
       {
@@ -131,7 +140,10 @@
         "text": "Digital forensics reveal Dr. Vasquez's keycard was cloned using specialized equipment available in the communication hub. Maya Chen's workstation shows traces of the cloning software, though she claims ignorance of its presence.",
         "alone": "Maya Chen's equipment was used to duplicate Dr. Vasquez's security access.",
         "links": [
-          "R1"
+          {
+            "with": "R1",
+            "insight": "The plasma cutter marks and the cloned keycard are connected — whoever built the EMP device also faked Vasquez's credentials to move through the facility unseen."
+          }
         ]
       },
       {
@@ -142,7 +154,10 @@
         "text": "Commander Stone's private logs reveal he discovered serious structural flaws in dome maintenance records. He'd scheduled a confrontation with the victim about falsified safety reports that could endanger the entire colony.",
         "alone": "Commander Stone had uncovered dangerous deceptions in safety documentation.",
         "links": [
-          "R2"
+          {
+            "with": "R2",
+            "insight": "Stone's argument with the victim makes sense now — he discovered the structural flaws and confronted whoever was covering them up, making him a target too."
+          }
         ]
       },
       {
@@ -153,7 +168,10 @@
         "text": "Dr. Holloway's medical equipment is missing a pressurized air injector, and his alibi for the time of death cannot be verified. However, pharmacy records show he was legitimately restocking medical supplies in a different sector.",
         "alone": "Dr. Holloway's missing equipment raises suspicion, but his documented activities provide some explanation.",
         "links": [
-          "R3"
+          {
+            "with": "R3",
+            "insight": "Holloway's missing injector and his treatment of the victim's anxiety aren't coincidence — someone used his equipment and his access to reach the victim undetected."
+          }
         ]
       }
     ],
@@ -310,7 +328,10 @@
         "text": "The engineering workshop contains traces of electromagnetic residue consistent with EMP device activation. Dr. Vasquez's keycard shows unauthorized access, but security footage reveals someone in a maintenance suit obscuring their identity.",
         "alone": "Someone used specialized electronic equipment in the workshop while concealing their identity.",
         "links": [
-          "D4"
+          {
+            "with": "D4",
+            "insight": "The electromagnetic residue and the disguised figure in the workshop footage point to the same person — Williams used a maintenance suit to hide his identity while building the device."
+          }
         ]
       },
       {
@@ -321,7 +342,10 @@
         "text": "Chief Security Officer Rodriguez confidently states he saw Maya Chen entering the communication hub at the estimated time of death. He's certain of the identification despite reviewing footage that shows a figure in standard colony uniform.",
         "alone": "Security personnel have identified Maya Chen as present at the critical location and time.",
         "links": [
-          "D5"
+          {
+            "with": "D5",
+            "insight": "Rodriguez's confident identification crumbles against facial recognition — he saw someone in Chen's uniform, not Chen herself. Williams knew exactly how to exploit the confusion."
+          }
         ]
       },
       {
@@ -332,7 +356,10 @@
         "text": "Encrypted files on the victim's personal terminal reveal investigation into suspicious fund transfers from colony accounts. Several transactions trace to shell companies with ties to competing Mars terraforming corporations.",
         "alone": "The victim had discovered evidence of financial impropriety involving rival companies.",
         "links": [
-          "D6"
+          {
+            "with": "D6",
+            "insight": "The financial investigation and Williams's corporate history are the motive and the means — he was paid to sabotage the colony's independence before it could threaten Earth's interests."
+          }
         ]
       },
       {
@@ -343,7 +370,10 @@
         "text": "Enhanced analysis of the workshop security footage shows the maintenance suit belongs to Tech Sergeant Williams, who reports it stolen from his locker earlier that day. The electromagnetic signature matches devices Williams typically operates.",
         "alone": "Tech Sergeant Williams's equipment and uniform were involved in suspicious workshop activities.",
         "links": [
-          "D1"
+          {
+            "with": "D1",
+            "insight": "The electromagnetic residue and the disguised figure in the workshop footage point to the same person — Williams used a maintenance suit to hide his identity while building the device."
+          }
         ]
       },
       {
@@ -354,7 +384,10 @@
         "text": "Advanced facial recognition software contradicts the security officer's identification, revealing the figure entering the communication hub was actually Tech Sergeant Williams wearing Maya Chen's stolen identification badge.",
         "alone": "Tech Sergeant Williams was present at the communication hub using false identification.",
         "links": [
-          "D2"
+          {
+            "with": "D2",
+            "insight": "Rodriguez's confident identification crumbles against facial recognition — he saw someone in Chen's uniform, not Chen herself. Williams knew exactly how to exploit the confusion."
+          }
         ]
       },
       {
@@ -365,7 +398,10 @@
         "text": "Background investigation reveals Tech Sergeant Williams previously worked for Titan Industries before joining the colony. His financial records show recent large deposits from accounts linked to the same shell companies the victim was investigating.",
         "alone": "Tech Sergeant Williams has financial connections to the corporations under investigation.",
         "links": [
-          "D3"
+          {
+            "with": "D3",
+            "insight": "The financial investigation and Williams's corporate history are the motive and the means — he was paid to sabotage the colony's independence before it could threaten Earth's interests."
+          }
         ]
       }
     ],
@@ -580,7 +616,10 @@
         "text": "Trace amounts of neurotoxin aerosol are detected in the director's conference room ventilation system. The compound matches experimental pest control substances developed in the medical laboratory under Dr. Holloway's supervision.",
         "alone": "Specialized chemical compounds were deliberately introduced into the conference room environment.",
         "links": [
-          "I4"
+          {
+            "with": "I4",
+            "insight": "The neurotoxin trace and the HVAC dispersal pattern together prove this was premeditated — only someone with authority over the conference room's environmental systems could execute it."
+          }
         ]
       },
       {
@@ -591,7 +630,10 @@
         "text": "Director Cross's assistant reports seeing Commander Stone leaving the director's conference room shortly after a private meeting with the victim. She's certain of the timing because she was preparing end-of-shift reports.",
         "alone": "Commander Stone was present in the conference room area following a meeting with the victim.",
         "links": [
-          "I5"
+          {
+            "with": "I5",
+            "insight": "Stone was seen leaving the conference room — but footage proves it was after the meeting ended, not during the poisoning window. Cross's assistant confused the times."
+          }
         ]
       },
       {
@@ -602,7 +644,10 @@
         "text": "Hidden files on the victim's secure partition reveal detailed plans for colonial independence from Earth governance. The documents implicate several high-ranking officials in an unauthorized sovereignty movement that could constitute treason.",
         "alone": "The victim had uncovered evidence of a significant political conspiracy within colony leadership.",
         "links": [
-          "I6"
+          {
+            "with": "I6",
+            "insight": "The independence documents gave Cross the motive, and the encrypted logs gave her the conspiracy — Vasquez helped plan it while Cross held the authority to act."
+          }
         ]
       },
       {
@@ -613,7 +658,10 @@
         "text": "Analysis of the neurotoxin dispersal pattern indicates it was released through Director Cross's private ventilation controls, which require both her administrative access and Dr. Vasquez's engineering override codes to modify safely.",
         "alone": "Director Cross's system was used with specialized engineering knowledge to deploy the chemical weapon.",
         "links": [
-          "I1"
+          {
+            "with": "I1",
+            "insight": "The neurotoxin trace and the HVAC dispersal pattern together prove this was premeditated — only someone with authority over the conference room's environmental systems could execute it."
+          }
         ]
       },
       {
@@ -624,7 +672,10 @@
         "text": "Security footage reveals the administrative assistant was mistaken about Commander Stone's presence - he was actually in atmospheric processing during the critical timeframe. Director Cross, however, accessed her conference room twice during the relevant period.",
         "alone": "Director Cross had multiple opportunities while Commander Stone has a verified alibi elsewhere.",
         "links": [
-          "I2"
+          {
+            "with": "I2",
+            "insight": "Stone was seen leaving the conference room — but footage proves it was after the meeting ended, not during the poisoning window. Cross's assistant confused the times."
+          }
         ]
       },
       {
@@ -635,7 +686,10 @@
         "text": "Encrypted communication logs show Director Cross coordinating with Dr. Vasquez about 'eliminating obstacles to the new Mars.' The messages reference using Vasquez's technical expertise to ensure 'clean resolution of the problem.'",
         "alone": "Director Cross and Dr. Vasquez were secretly collaborating on plans involving the victim.",
         "links": [
-          "I3"
+          {
+            "with": "I3",
+            "insight": "The independence documents gave Cross the motive, and the encrypted logs gave her the conspiracy — Vasquez helped plan it while Cross held the authority to act."
+          }
         ]
       }
     ],
