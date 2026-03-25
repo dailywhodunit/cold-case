@@ -386,10 +386,11 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
   const handleLink=(idA,idB)=>{
     const key=[idA,idB].sort().join("+");
     if(linkedPairs.has(key)) return;
-    const insight=getInsight(clues,idA,idB); if(!insight) return;
+    const insight=getInsight(clues,idA,idB);
     const clueA=clues.find(c=>c.id===idA),clueB=clues.find(c=>c.id===idB);
+    const insightText=insight||(clueA&&clueB?`${clueA.heading} and ${clueB.heading} are connected.`:"These clues are connected.");
     setLinkedPairs(prev=>new Set([...prev,key]));
-    setFeedItems(prev=>{ const iA=prev.findIndex(i=>i.id===idA),iB=prev.findIndex(i=>i.id===idB); const n=[...prev]; n.splice(Math.max(iA,iB)+1,0,{type:"insight",id:key,clueA,clueB,insight}); return n; });
+    setFeedItems(prev=>{ const iA=prev.findIndex(i=>i.id===idA),iB=prev.findIndex(i=>i.id===idB); const n=[...prev]; n.splice(Math.max(iA,iB)+1,0,{type:"insight",id:key,clueA,clueB,insight:insightText}); return n; });
     setNewItemId(key); setTimeout(()=>setNewItemId(null),800);
   };
 
