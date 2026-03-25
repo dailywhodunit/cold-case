@@ -1,0 +1,669 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #031",
+    "title": "Alpine Mercy",
+    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
+    "emoji": "🏔️",
+    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
+    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Forster",
+            "icon": "👩‍⚕️",
+            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+          },
+          {
+            "name": "Klaus Weber",
+            "icon": "🧔",
+            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+          },
+          {
+            "name": "Marie Dupont",
+            "icon": "👩‍🍳",
+            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+          },
+          {
+            "name": "Thomas Brennan",
+            "icon": "👨‍💼",
+            "detail": "Zimmer's business partner, recently cut from the will."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚗️",
+        "items": [
+          {
+            "name": "Morphine Overdose",
+            "icon": "💉",
+            "detail": "Excessive dose through existing IV drip system."
+          },
+          {
+            "name": "Poison Mushrooms",
+            "icon": "🍄",
+            "detail": "Death cap mushrooms mixed into evening meal."
+          },
+          {
+            "name": "Heart Medication",
+            "icon": "💊",
+            "detail": "Digitalis overdose causing cardiac arrest."
+          },
+          {
+            "name": "Suffocation",
+            "icon": "😷",
+            "detail": "Pillow pressed over face during sleep."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Mercy Killing",
+            "icon": "🕊️",
+            "detail": "Ending unbearable suffering from terminal illness."
+          },
+          {
+            "name": "Financial Revenge",
+            "icon": "💰",
+            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
+          },
+          {
+            "name": "Family Reconciliation",
+            "icon": "💔",
+            "detail": "Desperate reunion attempt with dying estranged father."
+          },
+          {
+            "name": "Business Betrayal",
+            "icon": "🤝",
+            "detail": "Fury over being removed from lucrative will."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Medical Chart",
+        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
+        "alone": "Zimmer desperately wanted to die to escape his suffering.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Heated Argument",
+        "text": "Thomas was heard shouting 'You destroyed my life!' at Zimmer around midnight before the death.",
+        "alone": "Thomas had an intense confrontation with Zimmer before he died.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "IV Adjustment",
+        "text": "Klaus admits he adjusted Zimmer's morphine drip when he couldn't sleep from screaming.",
+        "alone": "Klaus tampered with Zimmer's medical equipment the night he died.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medical Expertise",
+        "text": "Only Dr. Forster knew the precise morphine dosage needed for a painless, peaceful death.",
+        "alone": "Dr. Forster had the knowledge to cause Zimmer's exact death.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the medical knowledge to grant his wish painlessly, proving she performed a mercy killing."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Brotherly Bond",
+        "text": "Thomas reveals the argument was him sobbing 'You destroyed my life by suffering so much, brother.'",
+        "alone": "Thomas's heated words were actually expressions of grief and love.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Thomas's angry words were actually anguished grief over his dying brother's suffering, eliminating him as a vengeful killer."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Technical Incompetence",
+        "text": "Klaus reveals he has no idea how IV drips work and only turned random knobs helplessly.",
+        "alone": "Klaus lacked the knowledge to manipulate the medical equipment effectively.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Klaus's IV adjustments were random and ineffective, proving he couldn't have caused the precise morphine overdose that killed Zimmer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elena Forster",
+      "weapon": "Morphine Overdose",
+      "motive": "Mercy Killing"
+    },
+    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Zimmer had begged her repeatedly to end his pain, and as his physician, she knew exactly how to grant him the peaceful death he desperately wanted. The morphine overdose was administered with compassion, not malice. Though her medical oath forbade it, her humanity demanded she show mercy to a man who had become a friend during his final months."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #031",
+    "title": "Alpine Mercy",
+    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
+    "emoji": "🏔️",
+    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
+    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Forster",
+            "icon": "👩‍⚕️",
+            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+          },
+          {
+            "name": "Klaus Weber",
+            "icon": "🧔",
+            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+          },
+          {
+            "name": "Marie Dupont",
+            "icon": "👩‍🍳",
+            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+          },
+          {
+            "name": "Thomas Brennan",
+            "icon": "👨‍💼",
+            "detail": "Zimmer's business partner, recently cut from the will."
+          },
+          {
+            "name": "Greta Muller",
+            "icon": "👵",
+            "detail": "Night nurse, witnessed Zimmer's final agonizing hours."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚗️",
+        "items": [
+          {
+            "name": "Morphine Overdose",
+            "icon": "💉",
+            "detail": "Excessive dose through existing IV drip system."
+          },
+          {
+            "name": "Poison Mushrooms",
+            "icon": "🍄",
+            "detail": "Death cap mushrooms mixed into evening meal."
+          },
+          {
+            "name": "Heart Medication",
+            "icon": "💊",
+            "detail": "Digitalis overdose causing cardiac arrest."
+          },
+          {
+            "name": "Suffocation",
+            "icon": "😷",
+            "detail": "Pillow pressed over face during sleep."
+          },
+          {
+            "name": "Insulin Injection",
+            "icon": "🩸",
+            "detail": "Massive insulin dose causing fatal hypoglycemia."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Mercy Killing",
+            "icon": "🕊️",
+            "detail": "Ending unbearable suffering from terminal illness."
+          },
+          {
+            "name": "Financial Revenge",
+            "icon": "💰",
+            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
+          },
+          {
+            "name": "Family Reconciliation",
+            "icon": "💔",
+            "detail": "Desperate reunion attempt with dying estranged father."
+          },
+          {
+            "name": "Business Betrayal",
+            "icon": "🤝",
+            "detail": "Fury over being removed from lucrative will."
+          },
+          {
+            "name": "Professional Compassion",
+            "icon": "❤️‍🩹",
+            "detail": "Medical duty to relieve patient's unbearable pain."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🔑",
+            "detail": "Lodge owner's key accessing all rooms."
+          },
+          {
+            "name": "Medical Authorization",
+            "icon": "📋",
+            "detail": "Doctor's legitimate access to patient's room."
+          },
+          {
+            "name": "Service Entry",
+            "icon": "🚪",
+            "detail": "Kitchen staff door used for meal delivery."
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Ground floor window left unlocked."
+          },
+          {
+            "name": "Nursing Schedule",
+            "icon": "👩‍⚕️",
+            "detail": "Official night shift rounds every two hours."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Medical Chart",
+        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
+        "alone": "Zimmer desperately wanted to die to escape his suffering.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Night Watch",
+        "text": "Greta swears she saw Klaus entering Zimmer's room at 2 AM carrying a medical bag.",
+        "alone": "Klaus was witnessed accessing Zimmer's room with medical equipment during death window.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "IV Calibration",
+        "text": "The morphine pump shows professional recalibration to deliver maximum dosage without triggering alarms.",
+        "alone": "Someone with advanced medical knowledge precisely adjusted the fatal dose.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Authorization Records",
+        "text": "Only Dr. Forster had legitimate medical access to modify Zimmer's morphine drip settings.",
+        "alone": "Dr. Forster was the only person authorized to change Zimmer's medication.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the exclusive medical authorization to grant his wish, proving she performed a mercy killing."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "testimony",
+        "icon": "🔍",
+        "heading": "Mistaken Identity",
+        "text": "Klaus reveals he was carrying laundry in a white bag, and Greta admits her night vision is poor.",
+        "alone": "The medical bag sighting was actually laundry misidentified in darkness.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Greta's poor night vision caused her to mistake Klaus's laundry bag for medical equipment, eliminating him as the killer."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Medical Access",
+        "text": "Security logs confirm Dr. Forster entered Zimmer's room at 1:47 AM using her medical keycard.",
+        "alone": "Dr. Forster accessed Zimmer's room during the exact time of death.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dr. Forster's authorized medical access at the exact death time, combined with the professional IV recalibration, proves she administered the fatal morphine dose."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elena Forster",
+      "weapon": "Morphine Overdose",
+      "motive": "Mercy Killing",
+      "access": "Medical Authorization"
+    },
+    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Using her medical authorization, she entered Zimmer's room at 1:47 AM and professionally recalibrated his morphine drip to deliver a peaceful, painless death. Zimmer had begged her repeatedly to end his suffering, and as his physician, she knew exactly how to grant his final wish. Though her medical oath forbade it, her humanity demanded she show mercy to a man who had become a friend during his final months."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #031",
+    "title": "Alpine Mercy",
+    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
+    "emoji": "🏔️",
+    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
+    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elena Forster",
+            "icon": "👩‍⚕️",
+            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+          },
+          {
+            "name": "Klaus Weber",
+            "icon": "🧔",
+            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+          },
+          {
+            "name": "Marie Dupont",
+            "icon": "👩‍🍳",
+            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+          },
+          {
+            "name": "Thomas Brennan",
+            "icon": "👨‍💼",
+            "detail": "Zimmer's business partner, recently cut from the will."
+          },
+          {
+            "name": "Greta Muller",
+            "icon": "👵",
+            "detail": "Night nurse, witnessed Zimmer's final agonizing hours."
+          },
+          {
+            "name": "Franz Schmidt",
+            "icon": "🔧",
+            "detail": "Lodge maintenance, has master access to all systems."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚗️",
+        "items": [
+          {
+            "name": "Morphine Overdose",
+            "icon": "💉",
+            "detail": "Excessive dose through existing IV drip system."
+          },
+          {
+            "name": "Poison Mushrooms",
+            "icon": "🍄",
+            "detail": "Death cap mushrooms mixed into evening meal."
+          },
+          {
+            "name": "Heart Medication",
+            "icon": "💊",
+            "detail": "Digitalis overdose causing cardiac arrest."
+          },
+          {
+            "name": "Suffocation",
+            "icon": "😷",
+            "detail": "Pillow pressed over face during sleep."
+          },
+          {
+            "name": "Insulin Injection",
+            "icon": "🩸",
+            "detail": "Massive insulin dose causing fatal hypoglycemia."
+          },
+          {
+            "name": "Potassium Chloride",
+            "icon": "⚡",
+            "detail": "Injected directly causing instant cardiac arrest."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Mercy Killing",
+            "icon": "🕊️",
+            "detail": "Ending unbearable suffering from terminal illness."
+          },
+          {
+            "name": "Financial Revenge",
+            "icon": "💰",
+            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
+          },
+          {
+            "name": "Family Reconciliation",
+            "icon": "💔",
+            "detail": "Desperate reunion attempt with dying estranged father."
+          },
+          {
+            "name": "Business Betrayal",
+            "icon": "🤝",
+            "detail": "Fury over being removed from lucrative will."
+          },
+          {
+            "name": "Professional Compassion",
+            "icon": "❤️‍🩹",
+            "detail": "Medical duty to relieve patient's unbearable pain."
+          },
+          {
+            "name": "Guilt Relief",
+            "icon": "😔",
+            "detail": "Ending personal torment over patient's prolonged agony."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🔑",
+            "detail": "Lodge owner's key accessing all rooms."
+          },
+          {
+            "name": "Medical Authorization",
+            "icon": "📋",
+            "detail": "Doctor's legitimate access to patient's room."
+          },
+          {
+            "name": "Service Entry",
+            "icon": "🚪",
+            "detail": "Kitchen staff door used for meal delivery."
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Ground floor window left unlocked."
+          },
+          {
+            "name": "Nursing Schedule",
+            "icon": "👩‍⚕️",
+            "detail": "Official night shift rounds every two hours."
+          },
+          {
+            "name": "Maintenance Override",
+            "icon": "🔧",
+            "detail": "Emergency system access to all lodge areas."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Klaus Weber",
+            "icon": "🧔",
+            "detail": "Provided distraction during the crucial time window."
+          },
+          {
+            "name": "Marie Dupont",
+            "icon": "👩‍🍳",
+            "detail": "Delivered drugged tea to ensure Zimmer slept."
+          },
+          {
+            "name": "Thomas Brennan",
+            "icon": "👨‍💼",
+            "detail": "Created fake business emergency as cover story."
+          },
+          {
+            "name": "Greta Muller",
+            "icon": "👵",
+            "detail": "Altered shift schedule to avoid witnessing the act."
+          },
+          {
+            "name": "Franz Schmidt",
+            "icon": "🔧",
+            "detail": "Disabled security camera in hallway temporarily."
+          },
+          {
+            "name": "No Accomplice",
+            "icon": "🚫",
+            "detail": "The killer acted entirely alone."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Medical Chart",
+        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
+        "alone": "Zimmer desperately wanted to die to escape his suffering.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Suspicious Activity",
+        "text": "Klaus swears he saw Thomas tampering with medical equipment in the supply room at midnight.",
+        "alone": "Thomas was witnessed handling medical supplies during the critical timeframe.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "IV Recalibration",
+        "text": "The morphine pump shows professional recalibration requiring both medical knowledge and security clearance bypass.",
+        "alone": "The killer had advanced medical skills and system access codes.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Authorization Records",
+        "text": "Only Dr. Forster had legitimate medical access, but Greta disabled the hallway cameras during her shift.",
+        "alone": "Dr. Forster had exclusive medical authorization while cameras were conveniently disabled.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the exclusive medical authorization during disabled cameras, proving she performed a mercy killing with help."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "testimony",
+        "icon": "🔍",
+        "heading": "Business Emergency",
+        "text": "Thomas reveals he was frantically searching for contracts to save Zimmer's failing company, not tampering with equipment.",
+        "alone": "Thomas's midnight activity was desperate business research, not medical sabotage.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Thomas was searching for business documents to save Zimmer's company, not tampering with medical equipment, eliminating him as the killer."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Technical Assistance",
+        "text": "The security bypass required maintenance codes that only Greta's late husband knew, codes she inherited.",
+        "alone": "Greta possessed the technical knowledge necessary to bypass the medical security systems.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Greta's inherited maintenance codes enabled the security bypass needed for the IV recalibration, proving she assisted in the mercy killing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elena Forster",
+      "weapon": "Morphine Overdose",
+      "motive": "Mercy Killing",
+      "access": "Medical Authorization",
+      "accomplice": "Greta Muller"
+    },
+    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Using her medical authorization during Greta's carefully orchestrated camera blackout, she professionally recalibrated Zimmer's morphine drip to deliver a peaceful death. Greta, tormented by witnessing Zimmer's nightly screams, had used her late husband's maintenance codes to disable the security cameras, allowing Dr. Forster unwitnessed access. Both women acted from compassion, unable to endure the prolonged suffering of a man they'd grown to care for deeply. Though their actions violated their professional oaths, their humanity demanded they show mercy."
+  }
+}
