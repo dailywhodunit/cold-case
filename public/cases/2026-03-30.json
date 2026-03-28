@@ -1,14 +1,14 @@
 {
   "rookie": {
     "schemaVersion": "1.0",
+    "caseNum": "Case #032",
+    "title": "Safari Tragedy",
     "tier": "rookie",
-    "caseNum": "Case #031",
-    "title": "Alpine Mercy",
-    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
-    "emoji": "🏔️",
-    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
-    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
     "timerSeconds": 600,
+    "setting": "African Safari · Kenya · 2026",
+    "emoji": "🦁",
+    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
+    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -16,78 +16,63 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Elena Forster",
-            "icon": "👩‍⚕️",
-            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+            "name": "Marcus Webb",
+            "icon": "📸",
+            "detail": "Wildlife photographer capturing the safari experience"
           },
           {
-            "name": "Klaus Weber",
-            "icon": "🧔",
-            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+            "name": "Dr. Elena Vasquez",
+            "icon": "🩺",
+            "detail": "Veterinarian monitoring animal health on the reserve"
           },
           {
-            "name": "Marie Dupont",
-            "icon": "👩‍🍳",
-            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+            "name": "Thomas Mwangi",
+            "icon": "🚙",
+            "detail": "Safari guide with twenty years local experience"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Watering Hole",
+            "icon": "💧",
+            "detail": "Primary gathering spot for wildlife during dry season"
           },
           {
-            "name": "Thomas Brennan",
-            "icon": "👨‍💼",
-            "detail": "Zimmer's business partner, recently cut from the will."
+            "name": "Acacia Grove",
+            "icon": "🌳",
+            "detail": "Dense tree cluster providing shade and cover"
+          },
+          {
+            "name": "Safari Camp",
+            "icon": "⛺",
+            "detail": "Tourist accommodation with luxury tented suites"
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Method",
-        "icon": "⚗️",
+        "label": "Cause",
+        "icon": "⚔️",
         "items": [
           {
-            "name": "Morphine Overdose",
-            "icon": "💉",
-            "detail": "Excessive dose through existing IV drip system."
+            "name": "Elephant Stampede",
+            "icon": "🐘",
+            "detail": "Massive herd spooked into defensive charging behavior"
           },
           {
-            "name": "Poison Mushrooms",
-            "icon": "🍄",
-            "detail": "Death cap mushrooms mixed into evening meal."
+            "name": "Rhino Gore",
+            "icon": "🦏",
+            "detail": "Aggressive territorial male defending watering rights"
           },
           {
-            "name": "Heart Medication",
-            "icon": "💊",
-            "detail": "Digitalis overdose causing cardiac arrest."
-          },
-          {
-            "name": "Suffocation",
-            "icon": "😷",
-            "detail": "Pillow pressed over face during sleep."
-          }
-        ]
-      },
-      {
-        "key": "motive",
-        "label": "Motive",
-        "icon": "💭",
-        "items": [
-          {
-            "name": "Mercy Killing",
-            "icon": "🕊️",
-            "detail": "Ending unbearable suffering from terminal illness."
-          },
-          {
-            "name": "Financial Revenge",
-            "icon": "💰",
-            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
-          },
-          {
-            "name": "Family Reconciliation",
-            "icon": "💔",
-            "detail": "Desperate reunion attempt with dying estranged father."
-          },
-          {
-            "name": "Business Betrayal",
-            "icon": "🤝",
-            "detail": "Fury over being removed from lucrative will."
+            "name": "Vehicle Collision",
+            "icon": "🚗",
+            "detail": "Safari jeep impact during emergency wildlife encounter"
           }
         ]
       }
@@ -95,91 +80,106 @@
     "clues": [
       {
         "id": "R1",
-        "type": "evidence",
-        "icon": "📋",
-        "heading": "Medical Chart",
-        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
-        "alone": "Zimmer desperately wanted to die to escape his suffering.",
-        "links": []
+        "type": "forensic",
+        "icon": "👣",
+        "heading": "Footprint Pattern",
+        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
+        "alone": "Thomas walked to the scene before the incident.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Thomas was at the watering hole when the elephants charged, making him responsible for the stampede that killed Kylie."
+          }
+        ]
       },
       {
         "id": "R2",
         "type": "witness",
-        "icon": "👂",
-        "heading": "Heated Argument",
-        "text": "Thomas was heard shouting 'You destroyed my life!' at Zimmer around midnight before the death.",
-        "alone": "Thomas had an intense confrontation with Zimmer before he died.",
-        "links": []
+        "icon": "🗣️",
+        "heading": "Guest Testimony",
+        "text": "Marcus Webb was seen arguing loudly with Kylie about exclusive photo rights just hours before her death.",
+        "alone": "Marcus had a recent conflict with the victim.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Despite their argument, Marcus was photographing birds miles away when Kylie died, eliminating him as the killer."
+          }
+        ]
       },
       {
         "id": "R3",
         "type": "physical",
-        "icon": "💉",
-        "heading": "IV Adjustment",
-        "text": "Klaus admits he adjusted Zimmer's morphine drip when he couldn't sleep from screaming.",
-        "alone": "Klaus tampered with Zimmer's medical equipment the night he died.",
-        "links": []
+        "icon": "🩺",
+        "heading": "Medical Equipment",
+        "text": "Dr. Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
+        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The missing tranquilizer dart was used to sedate an injured zebra, not to harm Kylie, clearing Elena of suspicion."
+          }
+        ]
       },
       {
         "id": "R4",
-        "type": "evidence",
-        "icon": "💊",
-        "heading": "Medical Expertise",
-        "text": "Only Dr. Forster knew the precise morphine dosage needed for a painless, peaceful death.",
-        "alone": "Dr. Forster had the knowledge to cause Zimmer's exact death.",
+        "type": "forensic",
+        "icon": "🐘",
+        "heading": "Elephant Dung",
+        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
+        "alone": "Thomas accidentally provoked the elephant herd.",
         "links": [
           {
             "with": "R1",
-            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the medical knowledge to grant his wish painlessly, proving she performed a mercy killing."
+            "insight": "Thomas was at the watering hole when the elephants charged, making him responsible for the stampede that killed Kylie."
           }
         ]
       },
       {
         "id": "R5",
-        "type": "timeline",
-        "icon": "⏰",
-        "heading": "Brotherly Bond",
-        "text": "Thomas reveals the argument was him sobbing 'You destroyed my life by suffering so much, brother.'",
-        "alone": "Thomas's heated words were actually expressions of grief and love.",
+        "type": "alibi",
+        "icon": "📷",
+        "heading": "Camera Timestamps",
+        "text": "Marcus's camera shows continuous bird photography taken fifteen miles north during Kylie's estimated time of death.",
+        "alone": "Marcus was far from the scene when Kylie died.",
         "links": [
           {
             "with": "R2",
-            "insight": "Thomas's angry words were actually anguished grief over his dying brother's suffering, eliminating him as a vengeful killer."
+            "insight": "Despite their argument, Marcus was photographing birds miles away when Kylie died, eliminating him as the killer."
           }
         ]
       },
       {
         "id": "R6",
-        "type": "testimony",
-        "icon": "🗣️",
-        "heading": "Technical Incompetence",
-        "text": "Klaus reveals he has no idea how IV drips work and only turned random knobs helplessly.",
-        "alone": "Klaus lacked the knowledge to manipulate the medical equipment effectively.",
+        "type": "witness",
+        "icon": "🦓",
+        "heading": "Injured Zebra",
+        "text": "Camp staff confirm Dr. Vasquez was treating a zebra with a broken leg using tranquilizers throughout the morning.",
+        "alone": "Elena's tranquilizer use was for legitimate veterinary work.",
         "links": [
           {
             "with": "R3",
-            "insight": "Klaus's IV adjustments were random and ineffective, proving he couldn't have caused the precise morphine overdose that killed Zimmer."
+            "insight": "The missing tranquilizer dart was used to sedate an injured zebra, not to harm Kylie, clearing Elena of suspicion."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Elena Forster",
-      "weapon": "Morphine Overdose",
-      "motive": "Mercy Killing"
+      "suspect": "Thomas Mwangi",
+      "location": "Watering Hole",
+      "weapon": "Elephant Stampede"
     },
-    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Zimmer had begged her repeatedly to end his pain, and as his physician, she knew exactly how to grant him the peaceful death he desperately wanted. The morphine overdose was administered with compassion, not malice. Though her medical oath forbade it, her humanity demanded she show mercy to a man who had become a friend during his final months."
+    "epilogue": "Thomas Mwangi never intended to harm anyone when he dropped his energy bar wrapper near the elephants. The veteran guide's moment of carelessness at the watering hole triggered a deadly stampede. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his negligence turned the African savanna into a crime scene."
   },
   "detective": {
     "schemaVersion": "1.0",
+    "caseNum": "Case #032",
+    "title": "Safari Tragedy",
     "tier": "detective",
-    "caseNum": "Case #031",
-    "title": "Alpine Mercy",
-    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
-    "emoji": "🏔️",
-    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
-    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
     "timerSeconds": 600,
+    "setting": "African Safari · Kenya · Kenya · 2026",
+    "emoji": "🦁",
+    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
+    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -187,125 +187,105 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Elena Forster",
-            "icon": "👩‍⚕️",
-            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+            "name": "Marcus Webb",
+            "icon": "📸",
+            "detail": "Wildlife photographer capturing the safari experience"
           },
           {
-            "name": "Klaus Weber",
-            "icon": "🧔",
-            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+            "name": "Dr. Elena Vasquez",
+            "icon": "🩺",
+            "detail": "Veterinarian monitoring animal health on the reserve"
           },
           {
-            "name": "Marie Dupont",
-            "icon": "👩‍🍳",
-            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+            "name": "Thomas Mwangi",
+            "icon": "🚙",
+            "detail": "Safari guide with twenty years local experience"
           },
           {
-            "name": "Thomas Brennan",
-            "icon": "👨‍💼",
-            "detail": "Zimmer's business partner, recently cut from the will."
+            "name": "Sarah Chen",
+            "icon": "🎬",
+            "detail": "Documentary filmmaker following Kylie's conservation efforts"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Watering Hole",
+            "icon": "💧",
+            "detail": "Primary gathering spot for wildlife during dry season"
           },
           {
-            "name": "Greta Muller",
-            "icon": "👵",
-            "detail": "Night nurse, witnessed Zimmer's final agonizing hours."
+            "name": "Acacia Grove",
+            "icon": "🌳",
+            "detail": "Dense tree cluster providing shade and cover"
+          },
+          {
+            "name": "Safari Camp",
+            "icon": "⛺",
+            "detail": "Tourist accommodation with luxury tented suites"
+          },
+          {
+            "name": "Observation Deck",
+            "icon": "🔭",
+            "detail": "Elevated platform for safe wildlife viewing"
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Method",
-        "icon": "⚗️",
+        "label": "Cause",
+        "icon": "⚔️",
         "items": [
           {
-            "name": "Morphine Overdose",
-            "icon": "💉",
-            "detail": "Excessive dose through existing IV drip system."
+            "name": "Elephant Stampede",
+            "icon": "🐘",
+            "detail": "Massive herd spooked into defensive charging behavior"
           },
           {
-            "name": "Poison Mushrooms",
-            "icon": "🍄",
-            "detail": "Death cap mushrooms mixed into evening meal."
+            "name": "Rhino Gore",
+            "icon": "🦏",
+            "detail": "Aggressive territorial male defending watering rights"
           },
           {
-            "name": "Heart Medication",
-            "icon": "💊",
-            "detail": "Digitalis overdose causing cardiac arrest."
+            "name": "Vehicle Collision",
+            "icon": "🚗",
+            "detail": "Safari jeep impact during emergency wildlife encounter"
           },
           {
-            "name": "Suffocation",
-            "icon": "😷",
-            "detail": "Pillow pressed over face during sleep."
-          },
-          {
-            "name": "Insulin Injection",
-            "icon": "🩸",
-            "detail": "Massive insulin dose causing fatal hypoglycemia."
+            "name": "Leopard Attack",
+            "icon": "🐆",
+            "detail": "Nocturnal predator defending territorial boundaries"
           }
         ]
       },
       {
-        "key": "motive",
-        "label": "Motive",
-        "icon": "💭",
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
         "items": [
           {
-            "name": "Mercy Killing",
-            "icon": "🕊️",
-            "detail": "Ending unbearable suffering from terminal illness."
+            "name": "Dawn (5-7 AM)",
+            "icon": "🌅",
+            "detail": "Early morning when most wildlife is active"
           },
           {
-            "name": "Financial Revenge",
-            "icon": "💰",
-            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
+            "name": "Morning (7-9 AM)",
+            "icon": "🌞",
+            "detail": "Peak game drive period with guided tours"
           },
           {
-            "name": "Family Reconciliation",
-            "icon": "💔",
-            "detail": "Desperate reunion attempt with dying estranged father."
+            "name": "Midday (11 AM-1 PM)",
+            "icon": "☀️",
+            "detail": "Hot period when animals seek shade"
           },
           {
-            "name": "Business Betrayal",
-            "icon": "🤝",
-            "detail": "Fury over being removed from lucrative will."
-          },
-          {
-            "name": "Professional Compassion",
-            "icon": "❤️‍🩹",
-            "detail": "Medical duty to relieve patient's unbearable pain."
-          }
-        ]
-      },
-      {
-        "key": "access",
-        "label": "Access Method",
-        "icon": "🗝️",
-        "items": [
-          {
-            "name": "Master Key",
-            "icon": "🔑",
-            "detail": "Lodge owner's key accessing all rooms."
-          },
-          {
-            "name": "Medical Authorization",
-            "icon": "📋",
-            "detail": "Doctor's legitimate access to patient's room."
-          },
-          {
-            "name": "Service Entry",
-            "icon": "🚪",
-            "detail": "Kitchen staff door used for meal delivery."
-          },
-          {
-            "name": "Window Entry",
-            "icon": "🪟",
-            "detail": "Ground floor window left unlocked."
-          },
-          {
-            "name": "Nursing Schedule",
-            "icon": "👩‍⚕️",
-            "detail": "Official night shift rounds every two hours."
+            "name": "Evening (5-7 PM)",
+            "icon": "🌇",
+            "detail": "Second active period as temperatures cool"
           }
         ]
       }
@@ -313,92 +293,107 @@
     "clues": [
       {
         "id": "D1",
-        "type": "evidence",
-        "icon": "📋",
-        "heading": "Medical Chart",
-        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
-        "alone": "Zimmer desperately wanted to die to escape his suffering.",
-        "links": []
+        "type": "forensic",
+        "icon": "👣",
+        "heading": "Footprint Pattern",
+        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
+        "alone": "Thomas walked to the scene before the incident.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+          }
+        ]
       },
       {
         "id": "D2",
         "type": "witness",
-        "icon": "👁️",
-        "heading": "Night Watch",
-        "text": "Greta swears she saw Klaus entering Zimmer's room at 2 AM carrying a medical bag.",
-        "alone": "Klaus was witnessed accessing Zimmer's room with medical equipment during death window.",
-        "links": []
+        "icon": "🗣️",
+        "heading": "Misleading Account",
+        "text": "Camp manager insists Sarah Chen was filming at the observation deck all morning, providing her a solid alibi.",
+        "alone": "Sarah appears to have been safely filming elsewhere.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The camp manager was mistaken about Sarah's location - she was actually at the watering hole during the critical morning window when Kylie died."
+          }
+        ]
       },
       {
         "id": "D3",
         "type": "physical",
-        "icon": "💉",
-        "heading": "IV Calibration",
-        "text": "The morphine pump shows professional recalibration to deliver maximum dosage without triggering alarms.",
-        "alone": "Someone with advanced medical knowledge precisely adjusted the fatal dose.",
-        "links": []
+        "icon": "🩺",
+        "heading": "Medical Equipment",
+        "text": "Dr. Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
+        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Elena's tranquilizer use occurred during midday heat, hours after the dawn incident, eliminating her from the critical morning window."
+          }
+        ]
       },
       {
         "id": "D4",
-        "type": "evidence",
-        "icon": "💊",
-        "heading": "Authorization Records",
-        "text": "Only Dr. Forster had legitimate medical access to modify Zimmer's morphine drip settings.",
-        "alone": "Dr. Forster was the only person authorized to change Zimmer's medication.",
+        "type": "forensic",
+        "icon": "🐘",
+        "heading": "Elephant Dung",
+        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
+        "alone": "Thomas accidentally provoked the elephant herd.",
         "links": [
           {
             "with": "D1",
-            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the exclusive medical authorization to grant his wish, proving she performed a mercy killing."
+            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
           }
         ]
       },
       {
         "id": "D5",
-        "type": "testimony",
-        "icon": "🔍",
-        "heading": "Mistaken Identity",
-        "text": "Klaus reveals he was carrying laundry in a white bag, and Greta admits her night vision is poor.",
-        "alone": "The medical bag sighting was actually laundry misidentified in darkness.",
+        "type": "forensic",
+        "icon": "🎬",
+        "heading": "Camera Memory Card",
+        "text": "Sarah's filming equipment was found at the watering hole with footage timestamp showing 7:30 AM recording.",
+        "alone": "Sarah was actually filming at the death scene.",
         "links": [
           {
             "with": "D2",
-            "insight": "Greta's poor night vision caused her to mistake Klaus's laundry bag for medical equipment, eliminating him as the killer."
+            "insight": "The camp manager was mistaken about Sarah's location - she was actually at the watering hole during the critical morning window when Kylie died."
           }
         ]
       },
       {
         "id": "D6",
-        "type": "forensic",
-        "icon": "🔬",
-        "heading": "Medical Access",
-        "text": "Security logs confirm Dr. Forster entered Zimmer's room at 1:47 AM using her medical keycard.",
-        "alone": "Dr. Forster accessed Zimmer's room during the exact time of death.",
+        "type": "witness",
+        "icon": "🦓",
+        "heading": "Veterinary Log",
+        "text": "Staff records show Dr. Vasquez treated an injured zebra at 12:15 PM, accounting for the missing tranquilizer.",
+        "alone": "Elena's tranquilizer use was documented medical work.",
         "links": [
           {
             "with": "D3",
-            "insight": "Dr. Forster's authorized medical access at the exact death time, combined with the professional IV recalibration, proves she administered the fatal morphine dose."
+            "insight": "Elena's tranquilizer use occurred during midday heat, hours after the dawn incident, eliminating her from the critical morning window."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Elena Forster",
-      "weapon": "Morphine Overdose",
-      "motive": "Mercy Killing",
-      "access": "Medical Authorization"
+      "suspect": "Thomas Mwangi",
+      "location": "Watering Hole",
+      "weapon": "Elephant Stampede",
+      "window": "Morning (7-9 AM)"
     },
-    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Using her medical authorization, she entered Zimmer's room at 1:47 AM and professionally recalibrated his morphine drip to deliver a peaceful, painless death. Zimmer had begged her repeatedly to end his suffering, and as his physician, she knew exactly how to grant his final wish. Though her medical oath forbade it, her humanity demanded she show mercy to a man who had become a friend during his final months."
+    "epilogue": "Thomas Mwangi never intended to harm anyone when he dropped his energy bar wrapper near the elephants during the busy morning game drive. The veteran guide's moment of carelessness at the watering hole triggered a deadly stampede during the peak wildlife viewing hours. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his negligence during the morning hours turned the African savanna into a crime scene."
   },
   "inspector": {
     "schemaVersion": "1.0",
+    "caseNum": "Case #032",
+    "title": "Safari Tragedy",
     "tier": "inspector",
-    "caseNum": "Case #031",
-    "title": "Alpine Mercy",
-    "setting": "Isolated Mountain Lodge · Swiss Alps · 1978",
-    "emoji": "🏔️",
-    "flavor": "The blizzard has trapped everyone inside the remote Alpine lodge for three days. When the renowned botanist Dr. Heinrich Zimmer is found dead in his room, his morphine drip mysteriously empty, the storm becomes the least of their worries.",
-    "emptyState": "The storm trapped them together. Someone chose permanent silence.",
     "timerSeconds": 480,
+    "setting": "African Safari · Kenya · 2026",
+    "emoji": "🦁",
+    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
+    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -406,71 +401,125 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Dr. Elena Forster",
-            "icon": "👩‍⚕️",
-            "detail": "Zimmer's physician, administering his terminal cancer treatment."
+            "name": "Marcus Webb",
+            "icon": "📸",
+            "detail": "Wildlife photographer capturing the safari experience"
           },
           {
-            "name": "Klaus Weber",
-            "icon": "🧔",
-            "detail": "Lodge owner, deeply in debt from Zimmer's lawsuit."
+            "name": "Dr. Elena Vasquez",
+            "icon": "🩺",
+            "detail": "Veterinarian monitoring animal health on the reserve"
           },
           {
-            "name": "Marie Dupont",
-            "icon": "👩‍🍳",
-            "detail": "Head chef, Zimmer's estranged daughter seeking reconciliation."
+            "name": "Thomas Mwangi",
+            "icon": "🚙",
+            "detail": "Safari guide with twenty years local experience"
           },
           {
-            "name": "Thomas Brennan",
-            "icon": "👨‍💼",
-            "detail": "Zimmer's business partner, recently cut from the will."
+            "name": "Sarah Chen",
+            "icon": "🎬",
+            "detail": "Documentary filmmaker following Kylie's conservation efforts"
           },
           {
-            "name": "Greta Muller",
-            "icon": "👵",
-            "detail": "Night nurse, witnessed Zimmer's final agonizing hours."
+            "name": "James Okoye",
+            "icon": "🏛️",
+            "detail": "Government wildlife official overseeing park operations"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Watering Hole",
+            "icon": "💧",
+            "detail": "Primary gathering spot for wildlife during dry season"
           },
           {
-            "name": "Franz Schmidt",
-            "icon": "🔧",
-            "detail": "Lodge maintenance, has master access to all systems."
+            "name": "Acacia Grove",
+            "icon": "🌳",
+            "detail": "Dense tree cluster providing shade and cover"
+          },
+          {
+            "name": "Safari Camp",
+            "icon": "⛺",
+            "detail": "Tourist accommodation with luxury tented suites"
+          },
+          {
+            "name": "Observation Deck",
+            "icon": "🔭",
+            "detail": "Elevated platform for safe wildlife viewing"
+          },
+          {
+            "name": "Ranger Station",
+            "icon": "🏢",
+            "detail": "Administrative building housing park management offices"
           }
         ]
       },
       {
         "key": "weapon",
-        "label": "Method",
-        "icon": "⚗️",
+        "label": "Cause",
+        "icon": "⚔️",
         "items": [
           {
-            "name": "Morphine Overdose",
-            "icon": "💉",
-            "detail": "Excessive dose through existing IV drip system."
+            "name": "Elephant Stampede",
+            "icon": "🐘",
+            "detail": "Massive herd spooked into defensive charging behavior"
           },
           {
-            "name": "Poison Mushrooms",
-            "icon": "🍄",
-            "detail": "Death cap mushrooms mixed into evening meal."
+            "name": "Rhino Gore",
+            "icon": "🦏",
+            "detail": "Aggressive territorial male defending watering rights"
           },
           {
-            "name": "Heart Medication",
-            "icon": "💊",
-            "detail": "Digitalis overdose causing cardiac arrest."
+            "name": "Vehicle Collision",
+            "icon": "🚗",
+            "detail": "Safari jeep impact during emergency wildlife encounter"
           },
           {
-            "name": "Suffocation",
-            "icon": "😷",
-            "detail": "Pillow pressed over face during sleep."
+            "name": "Leopard Attack",
+            "icon": "🐆",
+            "detail": "Nocturnal predator defending territorial boundaries"
           },
           {
-            "name": "Insulin Injection",
-            "icon": "🩸",
-            "detail": "Massive insulin dose causing fatal hypoglycemia."
+            "name": "Poisonous Plant",
+            "icon": "🌿",
+            "detail": "Toxic vegetation causing fatal allergic reaction"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Dawn (5-7 AM)",
+            "icon": "🌅",
+            "detail": "Early morning when most wildlife is active"
           },
           {
-            "name": "Potassium Chloride",
-            "icon": "⚡",
-            "detail": "Injected directly causing instant cardiac arrest."
+            "name": "Morning (7-9 AM)",
+            "icon": "🌞",
+            "detail": "Peak game drive period with guided tours"
+          },
+          {
+            "name": "Midday (11 AM-1 PM)",
+            "icon": "☀️",
+            "detail": "Hot period when animals seek shade"
+          },
+          {
+            "name": "Evening (5-7 PM)",
+            "icon": "🌇",
+            "detail": "Second active period as temperatures cool"
+          },
+          {
+            "name": "Night (9 PM-5 AM)",
+            "icon": "🌙",
+            "detail": "Darkness when nocturnal predators hunt"
           }
         ]
       },
@@ -480,108 +529,29 @@
         "icon": "💭",
         "items": [
           {
-            "name": "Mercy Killing",
-            "icon": "🕊️",
-            "detail": "Ending unbearable suffering from terminal illness."
-          },
-          {
-            "name": "Financial Revenge",
+            "name": "Financial Gain",
             "icon": "💰",
-            "detail": "Ruined by Zimmer's lawsuit over lodge ownership."
+            "detail": "Monetary benefit from victim's death or misfortune"
           },
           {
-            "name": "Family Reconciliation",
-            "icon": "💔",
-            "detail": "Desperate reunion attempt with dying estranged father."
+            "name": "Professional Jealousy",
+            "icon": "🏆",
+            "detail": "Career advancement through eliminating competition"
           },
           {
-            "name": "Business Betrayal",
-            "icon": "🤝",
-            "detail": "Fury over being removed from lucrative will."
+            "name": "Accidental Negligence",
+            "icon": "⚠️",
+            "detail": "Unintended consequences of careless behavior"
           },
           {
-            "name": "Professional Compassion",
-            "icon": "❤️‍🩹",
-            "detail": "Medical duty to relieve patient's unbearable pain."
+            "name": "Conservation Conflict",
+            "icon": "🌍",
+            "detail": "Disagreement over environmental protection policies"
           },
           {
-            "name": "Guilt Relief",
-            "icon": "😔",
-            "detail": "Ending personal torment over patient's prolonged agony."
-          }
-        ]
-      },
-      {
-        "key": "access",
-        "label": "Access Method",
-        "icon": "🗝️",
-        "items": [
-          {
-            "name": "Master Key",
-            "icon": "🔑",
-            "detail": "Lodge owner's key accessing all rooms."
-          },
-          {
-            "name": "Medical Authorization",
-            "icon": "📋",
-            "detail": "Doctor's legitimate access to patient's room."
-          },
-          {
-            "name": "Service Entry",
-            "icon": "🚪",
-            "detail": "Kitchen staff door used for meal delivery."
-          },
-          {
-            "name": "Window Entry",
-            "icon": "🪟",
-            "detail": "Ground floor window left unlocked."
-          },
-          {
-            "name": "Nursing Schedule",
-            "icon": "👩‍⚕️",
-            "detail": "Official night shift rounds every two hours."
-          },
-          {
-            "name": "Maintenance Override",
-            "icon": "🔧",
-            "detail": "Emergency system access to all lodge areas."
-          }
-        ]
-      },
-      {
-        "key": "accomplice",
-        "label": "Accomplice",
-        "icon": "🤝",
-        "items": [
-          {
-            "name": "Klaus Weber",
-            "icon": "🧔",
-            "detail": "Provided distraction during the crucial time window."
-          },
-          {
-            "name": "Marie Dupont",
-            "icon": "👩‍🍳",
-            "detail": "Delivered drugged tea to ensure Zimmer slept."
-          },
-          {
-            "name": "Thomas Brennan",
-            "icon": "👨‍💼",
-            "detail": "Created fake business emergency as cover story."
-          },
-          {
-            "name": "Greta Muller",
-            "icon": "👵",
-            "detail": "Altered shift schedule to avoid witnessing the act."
-          },
-          {
-            "name": "Franz Schmidt",
-            "icon": "🔧",
-            "detail": "Disabled security camera in hallway temporarily."
-          },
-          {
-            "name": "No Accomplice",
-            "icon": "🚫",
-            "detail": "The killer acted entirely alone."
+            "name": "Personal Vendetta",
+            "icon": "⚔️",
+            "detail": "Long-standing grudge seeking revenge"
           }
         ]
       }
@@ -589,81 +559,96 @@
     "clues": [
       {
         "id": "I1",
-        "type": "evidence",
-        "icon": "📋",
-        "heading": "Medical Chart",
-        "text": "Dr. Forster's notes show Zimmer begged her daily to 'end this agony' as cancer spread to his bones.",
-        "alone": "Zimmer desperately wanted to die to escape his suffering.",
-        "links": []
+        "type": "forensic",
+        "icon": "👣",
+        "heading": "Footprint Pattern",
+        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
+        "alone": "Thomas walked to the scene before the incident.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+          }
+        ]
       },
       {
         "id": "I2",
         "type": "witness",
-        "icon": "👁️",
-        "heading": "Suspicious Activity",
-        "text": "Klaus swears he saw Thomas tampering with medical equipment in the supply room at midnight.",
-        "alone": "Thomas was witnessed handling medical supplies during the critical timeframe.",
-        "links": []
+        "icon": "🗣️",
+        "heading": "Official Statement",
+        "text": "James Okoye claims he spent the morning reviewing conservation permits at the ranger station, supporting park policy.",
+        "alone": "James appears focused on legitimate government work.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Despite his claims of supporting conservation, James was secretly undermining Kylie's efforts due to conflicts with his development plans, but this doesn't make him the killer."
+          }
+        ]
       },
       {
         "id": "I3",
         "type": "physical",
-        "icon": "💉",
-        "heading": "IV Recalibration",
-        "text": "The morphine pump shows professional recalibration requiring both medical knowledge and security clearance bypass.",
-        "alone": "The killer had advanced medical skills and system access codes.",
-        "links": []
+        "icon": "🩺",
+        "heading": "Medical Equipment",
+        "text": "Dr. Elena Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
+        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Elena's missing tranquilizer was used for legitimate veterinary work treating injured wildlife, driven by her dedication to animal care rather than any harmful intent."
+          }
+        ]
       },
       {
         "id": "I4",
-        "type": "evidence",
-        "icon": "💊",
-        "heading": "Authorization Records",
-        "text": "Only Dr. Forster had legitimate medical access, but Greta disabled the hallway cameras during her shift.",
-        "alone": "Dr. Forster had exclusive medical authorization while cameras were conveniently disabled.",
+        "type": "forensic",
+        "icon": "🐘",
+        "heading": "Elephant Dung",
+        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
+        "alone": "Thomas accidentally provoked the elephant herd.",
         "links": [
           {
             "with": "I1",
-            "insight": "Dr. Forster had both Zimmer's desperate pleas for death and the exclusive medical authorization during disabled cameras, proving she performed a mercy killing with help."
+            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
           }
         ]
       },
       {
         "id": "I5",
-        "type": "testimony",
-        "icon": "🔍",
-        "heading": "Business Emergency",
-        "text": "Thomas reveals he was frantically searching for contracts to save Zimmer's failing company, not tampering with equipment.",
-        "alone": "Thomas's midnight activity was desperate business research, not medical sabotage.",
+        "type": "forensic",
+        "icon": "📋",
+        "heading": "Permit Documents",
+        "text": "Hidden files reveal James opposed Kylie's conservation campaign, which threatened his undisclosed development contracts worth millions.",
+        "alone": "James had strong financial reasons to want Kylie silenced.",
         "links": [
           {
             "with": "I2",
-            "insight": "Thomas was searching for business documents to save Zimmer's company, not tampering with medical equipment, eliminating him as the killer."
+            "insight": "Despite his claims of supporting conservation, James was secretly undermining Kylie's efforts due to conflicts with his development plans, but this doesn't make him the killer."
           }
         ]
       },
       {
         "id": "I6",
-        "type": "forensic",
-        "icon": "🔬",
-        "heading": "Technical Assistance",
-        "text": "The security bypass required maintenance codes that only Greta's late husband knew, codes she inherited.",
-        "alone": "Greta possessed the technical knowledge necessary to bypass the medical security systems.",
+        "type": "witness",
+        "icon": "🦓",
+        "heading": "Veterinary Log",
+        "text": "Staff records show Dr. Vasquez treated an injured zebra at 12:15 PM, driven by her passionate commitment to wildlife welfare.",
+        "alone": "Elena's tranquilizer use reflected her dedication to animal care.",
         "links": [
           {
             "with": "I3",
-            "insight": "Greta's inherited maintenance codes enabled the security bypass needed for the IV recalibration, proving she assisted in the mercy killing."
+            "insight": "Elena's missing tranquilizer was used for legitimate veterinary work treating injured wildlife, driven by her dedication to animal care rather than any harmful intent."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Dr. Elena Forster",
-      "weapon": "Morphine Overdose",
-      "motive": "Mercy Killing",
-      "access": "Medical Authorization",
-      "accomplice": "Greta Muller"
+      "suspect": "Thomas Mwangi",
+      "location": "Watering Hole",
+      "weapon": "Elephant Stampede",
+      "window": "Morning (7-9 AM)",
+      "motive": "Accidental Negligence"
     },
-    "epilogue": "Dr. Forster tearfully confessed she couldn't watch her patient suffer another day in agony. Using her medical authorization during Greta's carefully orchestrated camera blackout, she professionally recalibrated Zimmer's morphine drip to deliver a peaceful death. Greta, tormented by witnessing Zimmer's nightly screams, had used her late husband's maintenance codes to disable the security cameras, allowing Dr. Forster unwitnessed access. Both women acted from compassion, unable to endure the prolonged suffering of a man they'd grown to care for deeply. Though their actions violated their professional oaths, their humanity demanded they show mercy."
+    "epilogue": "Thomas Mwangi never intended to harm anyone when he carelessly dropped his energy bar wrapper near the elephants during the busy morning game drive at the watering hole. The veteran guide's moment of accidental negligence triggered a deadly stampede during the peak wildlife viewing hours. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his unintended carelessness during the morning hours turned the African savanna into a crime scene."
   }
 }
