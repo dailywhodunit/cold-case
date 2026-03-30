@@ -1,0 +1,672 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #035",
+    "title": "The Coffee Shop Caper",
+    "setting": "Bean There Coffee Shop · Millbrook · 1964",
+    "emoji": "☕",
+    "flavor": "On April Fool's morning, the regulars at Bean There found more than spilled coffee beans. Someone's idea of a prank turned deadly serious.",
+    "emptyState": "The morning brew turned bitter. Someone's last cup.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Donovan",
+            "icon": "☕",
+            "detail": "Shop owner, worried about declining business."
+          },
+          {
+            "name": "Rita Chen",
+            "icon": "📰",
+            "detail": "Local reporter, frequent customer with press credentials."
+          },
+          {
+            "name": "Mickey Sullivan",
+            "icon": "🎪",
+            "detail": "Traveling carnival worker, new in town."
+          },
+          {
+            "name": "Dorothy Mills",
+            "icon": "👵",
+            "detail": "Retired teacher, daily regular for twenty years."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Cramped space behind counter, spare supplies."
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Frank's desk, filing cabinet, money safe."
+          },
+          {
+            "name": "Kitchen Area",
+            "icon": "🍳",
+            "detail": "Coffee preparation, pastry warming, cleaning supplies."
+          },
+          {
+            "name": "Main Seating",
+            "icon": "🪑",
+            "detail": "Six small tables, newspaper rack, window view."
+          }
+        ]
+      },
+      {
+        "key": "evidence",
+        "label": "Evidence",
+        "icon": "🔍",
+        "items": [
+          {
+            "name": "Forged ID Card",
+            "icon": "🆔",
+            "detail": "Press credentials with victim's photo, wrong name."
+          },
+          {
+            "name": "Carnival Flyer",
+            "icon": "🎪",
+            "detail": "Crumpled advertisement found under victim's table."
+          },
+          {
+            "name": "Coffee Receipt",
+            "icon": "🧾",
+            "detail": "Handwritten tab showing regular customer discount."
+          },
+          {
+            "name": "Bank Deposit Slip",
+            "icon": "💰",
+            "detail": "Yesterday's earnings, unusually large amount recorded."
+          }
+        ]
+      }
+    ],
+    "victim": "Harold Webb",
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Customer Testimony",
+        "text": "Dorothy saw Rita arguing with Harold about using his press pass. Rita stormed out twenty minutes before Harold collapsed.",
+        "alone": "Rita had a public confrontation with the victim.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Receipt Analysis",
+        "text": "Harold's coffee receipt shows a regular customer discount. Only longtime patrons get this special rate from Frank.",
+        "alone": "Harold was a valued regular customer.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🎪",
+        "heading": "Carnival Connection",
+        "text": "A crumpled carnival flyer was found under Harold's table. Mickey had been handing them out all morning.",
+        "alone": "Mickey had direct contact with the victim's area.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "ID Forgery",
+        "text": "The press credentials found in Rita's bag contain Harold's photo with Rita's name. Professional quality fake.",
+        "alone": "Rita possessed forged identification using the victim's photo.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Rita killed Harold to steal his press credentials and assume his identity for better journalism access."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "background",
+        "icon": "💼",
+        "heading": "Financial Motive",
+        "text": "Frank's bank deposit shows unusual profits this week. Harold had been investigating the shop's suspicious late-night activities.",
+        "alone": "Frank had financial secrets Harold was investigating.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Frank valued Harold as a customer but killed him to protect his illegal activities from exposure."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Carnival Schedule",
+        "text": "Mickey was performing at the school assembly across town when Harold died. Principal confirms his presence.",
+        "alone": "Mickey has a solid alibi for the time of death.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Mickey distributed flyers but was performing elsewhere during the murder, eliminating him as a suspect."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Rita Chen",
+      "location": "Main Seating",
+      "evidence": "Forged ID Card"
+    },
+    "epilogue": "Rita Chen had been struggling to break major stories in her journalism career. Harold Webb's press credentials opened doors she couldn't access on her own. When Harold discovered her using his identity, she panicked and poisoned his coffee to protect her stolen identity scheme. The ambitious reporter's desperation for recognition led to a tragic end for an innocent man."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #035",
+    "title": "The Coffee Shop Caper",
+    "setting": "Bean There Coffee Shop · Millbrook · 1964",
+    "emoji": "☕",
+    "flavor": "On April Fool's morning, the regulars at Bean There found more than spilled coffee beans. Someone's idea of a prank turned deadly serious.",
+    "emptyState": "The morning brew turned bitter. Someone's last cup.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Donovan",
+            "icon": "☕",
+            "detail": "Shop owner, worried about declining business."
+          },
+          {
+            "name": "Rita Chen",
+            "icon": "📰",
+            "detail": "Local reporter, frequent customer with press credentials."
+          },
+          {
+            "name": "Mickey Sullivan",
+            "icon": "🎪",
+            "detail": "Traveling carnival worker, new in town."
+          },
+          {
+            "name": "Dorothy Mills",
+            "icon": "👵",
+            "detail": "Retired teacher, daily regular for twenty years."
+          },
+          {
+            "name": "Carl Webb",
+            "icon": "👨",
+            "detail": "Harold's estranged brother, recently returned from service."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Cramped space behind counter, spare supplies."
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Frank's desk, filing cabinet, money safe."
+          },
+          {
+            "name": "Kitchen Area",
+            "icon": "🍳",
+            "detail": "Coffee preparation, pastry warming, cleaning supplies."
+          },
+          {
+            "name": "Main Seating",
+            "icon": "🪑",
+            "detail": "Six small tables, newspaper rack, window view."
+          },
+          {
+            "name": "Restroom",
+            "icon": "🚿",
+            "detail": "Single facility, accessed through narrow hallway."
+          }
+        ]
+      },
+      {
+        "key": "evidence",
+        "label": "Evidence",
+        "icon": "🔍",
+        "items": [
+          {
+            "name": "Forged ID Card",
+            "icon": "🆔",
+            "detail": "Press credentials with victim's photo, wrong name."
+          },
+          {
+            "name": "Carnival Flyer",
+            "icon": "🎪",
+            "detail": "Crumpled advertisement found under victim's table."
+          },
+          {
+            "name": "Coffee Receipt",
+            "icon": "🧾",
+            "detail": "Handwritten tab showing regular customer discount."
+          },
+          {
+            "name": "Bank Deposit Slip",
+            "icon": "💰",
+            "detail": "Yesterday's earnings, unusually large amount recorded."
+          },
+          {
+            "name": "Family Photo",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "Harold and Carl as children, found in victim's wallet."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Front Door",
+            "icon": "🚪",
+            "detail": "Main entrance, visible to all customers."
+          },
+          {
+            "name": "Service Window",
+            "icon": "🪟",
+            "detail": "Kitchen window, opens to alley behind."
+          },
+          {
+            "name": "Staff Key",
+            "icon": "🔑",
+            "detail": "Master key for all rooms, kept behind counter."
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Back door, alarm disabled during business hours."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🪜",
+            "detail": "Ladder from alley, leads to ventilation hatch."
+          }
+        ]
+      }
+    ],
+    "victim": "Harold Webb",
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Customer Testimony",
+        "text": "Dorothy saw Rita arguing with Harold about using his press pass. Rita stormed out twenty minutes before Harold collapsed.",
+        "alone": "Rita had a public confrontation with the victim.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Frank's Account",
+        "text": "Frank insists he saw Carl enter through the service window around closing time. Claims Carl looked angry and desperate.",
+        "alone": "Frank witnessed Carl entering the shop through an unusual route.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "Key Evidence",
+        "text": "Rita's fingerprints are on the staff key. She claims Frank gave it to her for an interview about the coffee business.",
+        "alone": "Rita had access to restricted areas of the shop.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "ID Forgery",
+        "text": "The press credentials found in Rita's bag contain Harold's photo with Rita's name. Professional quality fake.",
+        "alone": "Rita possessed forged identification using the victim's photo.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Rita killed Harold to steal his press credentials and assume his identity for better journalism access."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Window Timeline",
+        "text": "The service window was painted shut last month. Maintenance records show it hasn't been opened since renovation.",
+        "alone": "The service window couldn't have been used as an entry point.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Frank lied about Carl entering through the service window, attempting to frame Harold's brother for the murder."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensic",
+        "icon": "🔍",
+        "heading": "Key Investigation",
+        "text": "The staff key shows fresh scratches and coffee grounds. It was used to access the storage room where poison was hidden.",
+        "alone": "Someone used the staff key to access poison in the storage room.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Rita used her access to the staff key to retrieve poison from the storage room and kill Harold."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Rita Chen",
+      "location": "Main Seating",
+      "evidence": "Forged ID Card",
+      "access": "Staff Key"
+    },
+    "epilogue": "Rita Chen had been struggling to break major stories in her journalism career. Harold Webb's press credentials opened doors she couldn't access on her own. When Harold discovered her using his identity, she used the staff key Frank had given her to access poison from the storage room. The ambitious reporter's desperation for recognition led to a tragic end for an innocent man, while Frank's false testimony about Carl nearly destroyed a grieving family."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #035",
+    "title": "The Coffee Shop Caper",
+    "setting": "Bean There Coffee Shop · Millbrook · 1964",
+    "emoji": "☕",
+    "flavor": "On April Fool's morning, the regulars at Bean There found more than spilled coffee beans. Someone's idea of a prank turned deadly serious.",
+    "emptyState": "The morning brew turned bitter. Someone's last cup.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Donovan",
+            "icon": "☕",
+            "detail": "Shop owner, worried about declining business."
+          },
+          {
+            "name": "Rita Chen",
+            "icon": "📰",
+            "detail": "Local reporter, frequent customer with press credentials."
+          },
+          {
+            "name": "Mickey Sullivan",
+            "icon": "🎪",
+            "detail": "Traveling carnival worker, new in town."
+          },
+          {
+            "name": "Dorothy Mills",
+            "icon": "👵",
+            "detail": "Retired teacher, daily regular for twenty years."
+          },
+          {
+            "name": "Carl Webb",
+            "icon": "👨",
+            "detail": "Harold's estranged brother, recently returned from service."
+          },
+          {
+            "name": "Susan Baker",
+            "icon": "💼",
+            "detail": "Insurance investigator, been watching the coffee shop."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Cramped space behind counter, spare supplies."
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Frank's desk, filing cabinet, money safe."
+          },
+          {
+            "name": "Kitchen Area",
+            "icon": "🍳",
+            "detail": "Coffee preparation, pastry warming, cleaning supplies."
+          },
+          {
+            "name": "Main Seating",
+            "icon": "🪑",
+            "detail": "Six small tables, newspaper rack, window view."
+          },
+          {
+            "name": "Restroom",
+            "icon": "🚿",
+            "detail": "Single facility, accessed through narrow hallway."
+          },
+          {
+            "name": "Basement",
+            "icon": "🕳️",
+            "detail": "Unused storage area, accessible from office trapdoor."
+          }
+        ]
+      },
+      {
+        "key": "evidence",
+        "label": "Evidence",
+        "icon": "🔍",
+        "items": [
+          {
+            "name": "Forged ID Card",
+            "icon": "🆔",
+            "detail": "Press credentials with victim's photo, wrong name."
+          },
+          {
+            "name": "Carnival Flyer",
+            "icon": "🎪",
+            "detail": "Crumpled advertisement found under victim's table."
+          },
+          {
+            "name": "Coffee Receipt",
+            "icon": "🧾",
+            "detail": "Handwritten tab showing regular customer discount."
+          },
+          {
+            "name": "Bank Deposit Slip",
+            "icon": "💰",
+            "detail": "Yesterday's earnings, unusually large amount recorded."
+          },
+          {
+            "name": "Family Photo",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "Harold and Carl as children, found in victim's wallet."
+          },
+          {
+            "name": "Insurance Forms",
+            "icon": "📄",
+            "detail": "Claim documents for shop fire, Harold's signature as witness."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Front Door",
+            "icon": "🚪",
+            "detail": "Main entrance, visible to all customers."
+          },
+          {
+            "name": "Service Window",
+            "icon": "🪟",
+            "detail": "Kitchen window, opens to alley behind."
+          },
+          {
+            "name": "Staff Key",
+            "icon": "🔑",
+            "detail": "Master key for all rooms, kept behind counter."
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Back door, alarm disabled during business hours."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🪜",
+            "detail": "Ladder from alley, leads to ventilation hatch."
+          },
+          {
+            "name": "Basement Tunnel",
+            "icon": "🕳️",
+            "detail": "Old utility tunnel connecting to neighboring building."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Identity Theft",
+            "icon": "🎭",
+            "detail": "Stealing victim's press credentials for career advancement."
+          },
+          {
+            "name": "Insurance Fraud",
+            "icon": "💰",
+            "detail": "Silencing witness to fraudulent fire insurance claim."
+          },
+          {
+            "name": "Family Inheritance",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "Eliminating relative to claim family property."
+          },
+          {
+            "name": "Business Competition",
+            "icon": "☕",
+            "detail": "Removing threat to establish competing coffee business."
+          },
+          {
+            "name": "Blackmail Prevention",
+            "icon": "📰",
+            "detail": "Stopping victim from exposing criminal activities."
+          },
+          {
+            "name": "Romantic Jealousy",
+            "icon": "💔",
+            "detail": "Eliminating rival for another person's affections."
+          }
+        ]
+      }
+    ],
+    "victim": "Harold Webb",
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Customer Testimony",
+        "text": "Dorothy saw Rita arguing with Harold about using his press pass. Rita stormed out twenty minutes before Harold collapsed.",
+        "alone": "Rita had a public confrontation with the victim.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Frank's Account",
+        "text": "Frank insists he saw Carl enter through the service window around closing time. Claims Carl looked angry and desperate.",
+        "alone": "Frank witnessed Carl entering the shop through an unusual route.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "financial",
+        "icon": "💼",
+        "heading": "Insurance Investigation",
+        "text": "Susan discovered Frank filed fraudulent fire claims last year. Harold witnessed the suspicious fire and signed the insurance report.",
+        "alone": "Harold was a key witness to Frank's insurance fraud.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "ID Forgery",
+        "text": "The press credentials found in Rita's bag contain Harold's photo with Rita's name. Professional quality fake.",
+        "alone": "Rita possessed forged identification using the victim's photo.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Rita killed Harold to steal his press credentials and assume his identity for better journalism access."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Window Timeline",
+        "text": "The service window was painted shut last month. Maintenance records show it hasn't been opened since renovation.",
+        "alone": "The service window couldn't have been used as an entry point.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Frank lied about Carl entering through the service window, attempting to frame Harold's brother for the murder."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "background",
+        "icon": "💰",
+        "heading": "Fraud Exposure",
+        "text": "Harold recently contacted Susan about his concerns regarding Frank's insurance claims. He was scheduled to provide detailed testimony next week.",
+        "alone": "Harold was about to expose Frank's insurance fraud scheme.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Frank killed Harold to prevent him from testifying about the fraudulent insurance claims, protecting his financial crimes."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Donovan",
+      "location": "Main Seating",
+      "evidence": "Insurance Forms",
+      "access": "Front Door",
+      "motive": "Insurance Fraud"
+    },
+    "epilogue": "Frank Donovan's coffee shop was failing, and insurance fraud seemed like his only escape. Harold Webb's honest nature made him a reliable witness to the suspicious fire, but also a threat when Susan Baker's investigation intensified. Frank poisoned Harold's coffee during regular business hours, then tried to frame Carl with false testimony about the painted-shut window. The desperate shop owner's scheme to silence his witness ultimately exposed the very crimes he sought to hide."
+  }
+}
