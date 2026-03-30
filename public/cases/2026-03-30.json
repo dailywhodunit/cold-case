@@ -1,14 +1,14 @@
 {
   "rookie": {
     "schemaVersion": "1.0",
-    "caseNum": "Case #032",
-    "title": "Safari Tragedy",
     "tier": "rookie",
+    "caseNum": "Case #006",
+    "title": "The Final Will",
+    "setting": "Victorian Manor · London · 1889",
+    "emoji": "🏚️",
+    "flavor": "Lord Ashworth's funeral was yesterday, yet tonight someone made certain his will would never be read. The inheritance that should have brought joy instead brought death.",
+    "emptyState": "The will remains unread. Someone ensured it stays that way.",
     "timerSeconds": 600,
-    "setting": "African Safari · Kenya · 2026",
-    "emoji": "🦁",
-    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
-    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -16,19 +16,41 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Marcus Webb",
-            "icon": "📸",
-            "detail": "Wildlife photographer capturing the safari experience"
+            "name": "Margaret Ashworth",
+            "icon": "👩",
+            "detail": "Lord Ashworth's devoted sister and closest living relative."
           },
           {
-            "name": "Dr. Elena Vasquez",
-            "icon": "🩺",
-            "detail": "Veterinarian monitoring animal health on the reserve"
+            "name": "Thomas Whitmore",
+            "icon": "👨",
+            "detail": "The family solicitor who handled all legal matters."
           },
           {
-            "name": "Thomas Mwangi",
-            "icon": "🚙",
-            "detail": "Safari guide with twenty years local experience"
+            "name": "Eleanor Cross",
+            "icon": "👩‍🦳",
+            "detail": "Long-serving housekeeper who knew every family secret."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned brandy",
+            "icon": "🥃",
+            "detail": "Decanter laced with deadly nightshade from the garden."
+          },
+          {
+            "name": "Letter opener",
+            "icon": "📝",
+            "detail": "Sharp brass blade from Lord Ashworth's writing desk."
+          },
+          {
+            "name": "Candlestick",
+            "icon": "🕯️",
+            "detail": "Heavy silver piece from the dining room mantle."
           }
         ]
       },
@@ -38,41 +60,19 @@
         "icon": "📍",
         "items": [
           {
-            "name": "Watering Hole",
-            "icon": "💧",
-            "detail": "Primary gathering spot for wildlife during dry season"
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Where the victim was found among scattered legal documents."
           },
           {
-            "name": "Acacia Grove",
-            "icon": "🌳",
-            "detail": "Dense tree cluster providing shade and cover"
+            "name": "Study",
+            "icon": "🖋️",
+            "detail": "Lord Ashworth's private office containing his personal safe."
           },
           {
-            "name": "Safari Camp",
-            "icon": "⛺",
-            "detail": "Tourist accommodation with luxury tented suites"
-          }
-        ]
-      },
-      {
-        "key": "weapon",
-        "label": "Cause",
-        "icon": "⚔️",
-        "items": [
-          {
-            "name": "Elephant Stampede",
-            "icon": "🐘",
-            "detail": "Massive herd spooked into defensive charging behavior"
-          },
-          {
-            "name": "Rhino Gore",
-            "icon": "🦏",
-            "detail": "Aggressive territorial male defending watering rights"
-          },
-          {
-            "name": "Vehicle Collision",
-            "icon": "🚗",
-            "detail": "Safari jeep impact during emergency wildlife encounter"
+            "name": "Drawing room",
+            "icon": "🛋️",
+            "detail": "Elegant parlor where the family gathered for meetings."
           }
         ]
       }
@@ -80,106 +80,106 @@
     "clues": [
       {
         "id": "R1",
-        "type": "forensic",
-        "icon": "👣",
-        "heading": "Footprint Pattern",
-        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
-        "alone": "Thomas walked to the scene before the incident.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Garden Shears Found",
+        "text": "Muddy gardening shears discovered in Eleanor's quarters, with fresh nightshade stems nearby.",
+        "alone": "Eleanor had recent access to deadly nightshade plants.",
         "links": [
           {
             "with": "R4",
-            "insight": "Thomas was at the watering hole when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "R2",
         "type": "witness",
-        "icon": "🗣️",
-        "heading": "Guest Testimony",
-        "text": "Marcus Webb was seen arguing loudly with Kylie about exclusive photo rights just hours before her death.",
-        "alone": "Marcus had a recent conflict with the victim.",
+        "icon": "👁️",
+        "heading": "Heated Exchange",
+        "text": "Neighbor reports seeing Margaret and the victim arguing violently through library windows yesterday.",
+        "alone": "Margaret had a serious conflict with the victim recently.",
         "links": [
           {
             "with": "R5",
-            "insight": "Despite their argument, Marcus was photographing birds miles away when Kylie died, eliminating him as the killer."
+            "insight": "Margaret argued about charity work, not inheritance, proving her innocence."
           }
         ]
       },
       {
         "id": "R3",
-        "type": "physical",
-        "icon": "🩺",
-        "heading": "Medical Equipment",
-        "text": "Dr. Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
-        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Debt Records",
+        "text": "Thomas's personal ledger reveals massive gambling debts totaling three thousand pounds.",
+        "alone": "Thomas desperately needed money to cover enormous gambling losses.",
         "links": [
           {
             "with": "R6",
-            "insight": "The missing tranquilizer dart was used to sedate an injured zebra, not to harm Kylie, clearing Elena of suspicion."
+            "insight": "Thomas had financial motive but Eleanor was seen fleeing, creating reasonable doubt."
           }
         ]
       },
       {
         "id": "R4",
-        "type": "forensic",
-        "icon": "🐘",
-        "heading": "Elephant Dung",
-        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
-        "alone": "Thomas accidentally provoked the elephant herd.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Brandy Analysis",
+        "text": "Laboratory confirms the victim's brandy contained lethal nightshade. Thomas's fingerprints on decanter.",
+        "alone": "Thomas handled the poisoned brandy that killed the victim.",
         "links": [
           {
             "with": "R1",
-            "insight": "Thomas was at the watering hole when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "R5",
-        "type": "alibi",
-        "icon": "📷",
-        "heading": "Camera Timestamps",
-        "text": "Marcus's camera shows continuous bird photography taken fifteen miles north during Kylie's estimated time of death.",
-        "alone": "Marcus was far from the scene when Kylie died.",
+        "type": "document",
+        "icon": "💌",
+        "heading": "Charity Letters",
+        "text": "Margaret's correspondence reveals her argument concerned the victim's refusal to donate to orphanages.",
+        "alone": "Margaret's dispute was about charitable giving, not personal gain.",
         "links": [
           {
             "with": "R2",
-            "insight": "Despite their argument, Marcus was photographing birds miles away when Kylie died, eliminating him as the killer."
+            "insight": "Margaret argued about charity work, not inheritance, proving her innocence."
           }
         ]
       },
       {
         "id": "R6",
         "type": "witness",
-        "icon": "🦓",
-        "heading": "Injured Zebra",
-        "text": "Camp staff confirm Dr. Vasquez was treating a zebra with a broken leg using tranquilizers throughout the morning.",
-        "alone": "Elena's tranquilizer use was for legitimate veterinary work.",
+        "icon": "👀",
+        "heading": "Fleeing Figure",
+        "text": "Constable spotted Eleanor leaving the manor grounds hastily near midnight carrying a carpet bag.",
+        "alone": "Eleanor fled the scene shortly after the estimated time of death.",
         "links": [
           {
             "with": "R3",
-            "insight": "The missing tranquilizer dart was used to sedate an injured zebra, not to harm Kylie, clearing Elena of suspicion."
+            "insight": "Thomas had financial motive but Eleanor was seen fleeing, creating reasonable doubt."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Thomas Mwangi",
-      "location": "Watering Hole",
-      "weapon": "Elephant Stampede"
+      "suspect": "Thomas Whitmore",
+      "weapon": "Poisoned brandy",
+      "location": "Library"
     },
-    "epilogue": "Thomas Mwangi never intended to harm anyone when he dropped his energy bar wrapper near the elephants. The veteran guide's moment of carelessness at the watering hole triggered a deadly stampede. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his negligence turned the African savanna into a crime scene."
+    "epilogue": "Thomas Whitmore's gambling addiction drove him to poison Harold Cross with nightshade-laced brandy in the library. His access to legal documents and the victim's trust made the crime possible. Eleanor fled because she discovered the body and panicked, fearing blame. Margaret's charity argument was mere coincidence. Thomas now faces the gallows for his desperate gamble."
   },
   "detective": {
     "schemaVersion": "1.0",
-    "caseNum": "Case #032",
-    "title": "Safari Tragedy",
     "tier": "detective",
+    "caseNum": "Case #006",
+    "title": "The Final Will",
+    "setting": "Victorian Manor · London · 1889",
+    "emoji": "🏚️",
+    "flavor": "Lord Ashworth's funeral was yesterday, yet tonight someone made certain his will would never be read. The inheritance that should have brought joy instead brought death.",
+    "emptyState": "The will remains unread. Someone ensured it stays that way.",
     "timerSeconds": 600,
-    "setting": "African Safari · Kenya · Kenya · 2026",
-    "emoji": "🦁",
-    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
-    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -187,24 +187,51 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Marcus Webb",
-            "icon": "📸",
-            "detail": "Wildlife photographer capturing the safari experience"
+            "name": "Margaret Ashworth",
+            "icon": "👩",
+            "detail": "Lord Ashworth's devoted sister and closest living relative."
           },
           {
-            "name": "Dr. Elena Vasquez",
-            "icon": "🩺",
-            "detail": "Veterinarian monitoring animal health on the reserve"
+            "name": "Thomas Whitmore",
+            "icon": "👨",
+            "detail": "The family solicitor who handled all legal matters."
           },
           {
-            "name": "Thomas Mwangi",
-            "icon": "🚙",
-            "detail": "Safari guide with twenty years local experience"
+            "name": "Eleanor Cross",
+            "icon": "👩‍🦳",
+            "detail": "Long-serving housekeeper who knew every family secret."
           },
           {
-            "name": "Sarah Chen",
-            "icon": "🎬",
-            "detail": "Documentary filmmaker following Kylie's conservation efforts"
+            "name": "Dr. Benjamin Hayes",
+            "icon": "👨‍⚕️",
+            "detail": "Family physician who treated Lord Ashworth's final illness."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned brandy",
+            "icon": "🥃",
+            "detail": "Decanter laced with deadly nightshade from the garden."
+          },
+          {
+            "name": "Letter opener",
+            "icon": "📝",
+            "detail": "Sharp brass blade from Lord Ashworth's writing desk."
+          },
+          {
+            "name": "Candlestick",
+            "icon": "🕯️",
+            "detail": "Heavy silver piece from the dining room mantle."
+          },
+          {
+            "name": "Medical syringe",
+            "icon": "💉",
+            "detail": "Glass instrument containing traces of unknown substance."
           }
         ]
       },
@@ -214,51 +241,24 @@
         "icon": "📍",
         "items": [
           {
-            "name": "Watering Hole",
-            "icon": "💧",
-            "detail": "Primary gathering spot for wildlife during dry season"
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Where the victim was found among scattered legal documents."
           },
           {
-            "name": "Acacia Grove",
-            "icon": "🌳",
-            "detail": "Dense tree cluster providing shade and cover"
+            "name": "Study",
+            "icon": "🖋️",
+            "detail": "Lord Ashworth's private office containing his personal safe."
           },
           {
-            "name": "Safari Camp",
-            "icon": "⛺",
-            "detail": "Tourist accommodation with luxury tented suites"
+            "name": "Drawing room",
+            "icon": "🛋️",
+            "detail": "Elegant parlor where the family gathered for meetings."
           },
           {
-            "name": "Observation Deck",
-            "icon": "🔭",
-            "detail": "Elevated platform for safe wildlife viewing"
-          }
-        ]
-      },
-      {
-        "key": "weapon",
-        "label": "Cause",
-        "icon": "⚔️",
-        "items": [
-          {
-            "name": "Elephant Stampede",
-            "icon": "🐘",
-            "detail": "Massive herd spooked into defensive charging behavior"
-          },
-          {
-            "name": "Rhino Gore",
-            "icon": "🦏",
-            "detail": "Aggressive territorial male defending watering rights"
-          },
-          {
-            "name": "Vehicle Collision",
-            "icon": "🚗",
-            "detail": "Safari jeep impact during emergency wildlife encounter"
-          },
-          {
-            "name": "Leopard Attack",
-            "icon": "🐆",
-            "detail": "Nocturnal predator defending territorial boundaries"
+            "name": "Conservatory",
+            "icon": "🌿",
+            "detail": "Glass-enclosed garden room filled with exotic plants."
           }
         ]
       },
@@ -268,24 +268,24 @@
         "icon": "⏰",
         "items": [
           {
-            "name": "Dawn (5-7 AM)",
-            "icon": "🌅",
-            "detail": "Early morning when most wildlife is active"
+            "name": "9:00-10:00 PM",
+            "icon": "🕘",
+            "detail": "Early evening when most household members were present."
           },
           {
-            "name": "Morning (7-9 AM)",
-            "icon": "🌞",
-            "detail": "Peak game drive period with guided tours"
+            "name": "10:00-11:00 PM",
+            "icon": "🕙",
+            "detail": "Late evening as servants began retiring for night."
           },
           {
-            "name": "Midday (11 AM-1 PM)",
-            "icon": "☀️",
-            "detail": "Hot period when animals seek shade"
+            "name": "11:00-12:00 AM",
+            "icon": "🕚",
+            "detail": "Near midnight when the house was mostly quiet."
           },
           {
-            "name": "Evening (5-7 PM)",
-            "icon": "🌇",
-            "detail": "Second active period as temperatures cool"
+            "name": "12:00-1:00 AM",
+            "icon": "🕛",
+            "detail": "Past midnight when only insomniacs would be awake."
           }
         ]
       }
@@ -293,107 +293,107 @@
     "clues": [
       {
         "id": "D1",
-        "type": "forensic",
-        "icon": "👣",
-        "heading": "Footprint Pattern",
-        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
-        "alone": "Thomas walked to the scene before the incident.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Garden Shears Found",
+        "text": "Muddy gardening shears discovered in Eleanor's quarters, with fresh nightshade stems nearby.",
+        "alone": "Eleanor had recent access to deadly nightshade plants.",
         "links": [
           {
             "with": "D4",
-            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "D2",
         "type": "witness",
-        "icon": "🗣️",
-        "heading": "Misleading Account",
-        "text": "Camp manager insists Sarah Chen was filming at the observation deck all morning, providing her a solid alibi.",
-        "alone": "Sarah appears to have been safely filming elsewhere.",
+        "icon": "👁️",
+        "heading": "Doctor's Account",
+        "text": "Dr. Hayes swears he saw Thomas leaving the conservatory at 11:30 PM carrying something.",
+        "alone": "Thomas was near the plant collection late at night.",
         "links": [
           {
             "with": "D5",
-            "insight": "The camp manager was mistaken about Sarah's location - she was actually at the watering hole during the critical morning window when Kylie died."
+            "insight": "Dr. Hayes was mistaken about Thomas's identity due to poor lighting."
           }
         ]
       },
       {
         "id": "D3",
-        "type": "physical",
-        "icon": "🩺",
-        "heading": "Medical Equipment",
-        "text": "Dr. Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
-        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Debt Records",
+        "text": "Thomas's personal ledger reveals massive gambling debts totaling three thousand pounds.",
+        "alone": "Thomas desperately needed money to cover enormous gambling losses.",
         "links": [
           {
             "with": "D6",
-            "insight": "Elena's tranquilizer use occurred during midday heat, hours after the dawn incident, eliminating her from the critical morning window."
+            "insight": "Thomas needed money urgently and had opportunity during the 10-11 PM window."
           }
         ]
       },
       {
         "id": "D4",
-        "type": "forensic",
-        "icon": "🐘",
-        "heading": "Elephant Dung",
-        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
-        "alone": "Thomas accidentally provoked the elephant herd.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Brandy Analysis",
+        "text": "Laboratory confirms the victim's brandy contained lethal nightshade. Thomas's fingerprints on decanter.",
+        "alone": "Thomas handled the poisoned brandy that killed the victim.",
         "links": [
           {
             "with": "D1",
-            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "D5",
-        "type": "forensic",
-        "icon": "🎬",
-        "heading": "Camera Memory Card",
-        "text": "Sarah's filming equipment was found at the watering hole with footage timestamp showing 7:30 AM recording.",
-        "alone": "Sarah was actually filming at the death scene.",
+        "type": "evidence",
+        "icon": "🕯️",
+        "heading": "Broken Lamp",
+        "text": "Shattered oil lamp found in conservatory corridor created very poor lighting conditions.",
+        "alone": "The conservatory area was nearly dark during the evening.",
         "links": [
           {
             "with": "D2",
-            "insight": "The camp manager was mistaken about Sarah's location - she was actually at the watering hole during the critical morning window when Kylie died."
+            "insight": "Dr. Hayes was mistaken about Thomas's identity due to poor lighting."
           }
         ]
       },
       {
         "id": "D6",
         "type": "witness",
-        "icon": "🦓",
-        "heading": "Veterinary Log",
-        "text": "Staff records show Dr. Vasquez treated an injured zebra at 12:15 PM, accounting for the missing tranquilizer.",
-        "alone": "Elena's tranquilizer use was documented medical work.",
+        "icon": "👀",
+        "heading": "Butler's Timeline",
+        "text": "Butler confirms Thomas visited the library between 10:00-11:00 PM to retrieve legal documents.",
+        "alone": "Thomas was present at the crime scene during a crucial hour.",
         "links": [
           {
             "with": "D3",
-            "insight": "Elena's tranquilizer use occurred during midday heat, hours after the dawn incident, eliminating her from the critical morning window."
+            "insight": "Thomas needed money urgently and had opportunity during the 10-11 PM window."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Thomas Mwangi",
-      "location": "Watering Hole",
-      "weapon": "Elephant Stampede",
-      "window": "Morning (7-9 AM)"
+      "suspect": "Thomas Whitmore",
+      "weapon": "Poisoned brandy",
+      "location": "Library",
+      "window": "10:00-11:00 PM"
     },
-    "epilogue": "Thomas Mwangi never intended to harm anyone when he dropped his energy bar wrapper near the elephants during the busy morning game drive. The veteran guide's moment of carelessness at the watering hole triggered a deadly stampede during the peak wildlife viewing hours. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his negligence during the morning hours turned the African savanna into a crime scene."
+    "epilogue": "Thomas Whitmore poisoned Harold Cross with nightshade-laced brandy in the library between 10:00-11:00 PM. His gambling debts made him desperate for the inheritance he expected to control. Eleanor innocently gathered nightshade for garden pest control. Dr. Hayes mistook someone else for Thomas in the dark conservatory. Thomas's greed cost him everything."
   },
   "inspector": {
     "schemaVersion": "1.0",
-    "caseNum": "Case #032",
-    "title": "Safari Tragedy",
     "tier": "inspector",
+    "caseNum": "Case #006",
+    "title": "The Final Will",
+    "setting": "Victorian Manor · London · 1889",
+    "emoji": "🏚️",
+    "flavor": "Lord Ashworth's funeral was yesterday, yet tonight someone made certain his will would never be read. The inheritance that should have brought joy instead brought death.",
+    "emptyState": "The will remains unread. Someone ensured it stays that way.",
     "timerSeconds": 480,
-    "setting": "African Safari · Kenya · 2026",
-    "emoji": "🦁",
-    "flavor": "The morning game drive turned deadly when international soccer star Kylie Simpson was found trampled near the watering hole. What seemed like a wildlife accident has darker undertones in the savanna heat.",
-    "emptyState": "The Big Five became the Final One.",
     "categories": [
       {
         "key": "suspect",
@@ -401,29 +401,61 @@
         "icon": "🎭",
         "items": [
           {
-            "name": "Marcus Webb",
-            "icon": "📸",
-            "detail": "Wildlife photographer capturing the safari experience"
+            "name": "Margaret Ashworth",
+            "icon": "👩",
+            "detail": "Lord Ashworth's devoted sister and closest living relative."
           },
           {
-            "name": "Dr. Elena Vasquez",
-            "icon": "🩺",
-            "detail": "Veterinarian monitoring animal health on the reserve"
+            "name": "Thomas Whitmore",
+            "icon": "👨",
+            "detail": "The family solicitor who handled all legal matters."
           },
           {
-            "name": "Thomas Mwangi",
-            "icon": "🚙",
-            "detail": "Safari guide with twenty years local experience"
+            "name": "Eleanor Cross",
+            "icon": "👩‍🦳",
+            "detail": "Long-serving housekeeper who knew every family secret."
           },
           {
-            "name": "Sarah Chen",
-            "icon": "🎬",
-            "detail": "Documentary filmmaker following Kylie's conservation efforts"
+            "name": "Dr. Benjamin Hayes",
+            "icon": "👨‍⚕️",
+            "detail": "Family physician who treated Lord Ashworth's final illness."
           },
           {
-            "name": "James Okoye",
-            "icon": "🏛️",
-            "detail": "Government wildlife official overseeing park operations"
+            "name": "James Ashworth",
+            "icon": "👨‍🦱",
+            "detail": "Lord Ashworth's estranged nephew recently returned from India."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned brandy",
+            "icon": "🥃",
+            "detail": "Decanter laced with deadly nightshade from the garden."
+          },
+          {
+            "name": "Letter opener",
+            "icon": "📝",
+            "detail": "Sharp brass blade from Lord Ashworth's writing desk."
+          },
+          {
+            "name": "Candlestick",
+            "icon": "🕯️",
+            "detail": "Heavy silver piece from the dining room mantle."
+          },
+          {
+            "name": "Medical syringe",
+            "icon": "💉",
+            "detail": "Glass instrument containing traces of unknown substance."
+          },
+          {
+            "name": "Prussic acid",
+            "icon": "☠️",
+            "detail": "Deadly chemical compound found in photography supplies."
           }
         ]
       },
@@ -433,61 +465,29 @@
         "icon": "📍",
         "items": [
           {
-            "name": "Watering Hole",
-            "icon": "💧",
-            "detail": "Primary gathering spot for wildlife during dry season"
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Where the victim was found among scattered legal documents."
           },
           {
-            "name": "Acacia Grove",
-            "icon": "🌳",
-            "detail": "Dense tree cluster providing shade and cover"
+            "name": "Study",
+            "icon": "🖋️",
+            "detail": "Lord Ashworth's private office containing his personal safe."
           },
           {
-            "name": "Safari Camp",
-            "icon": "⛺",
-            "detail": "Tourist accommodation with luxury tented suites"
+            "name": "Drawing room",
+            "icon": "🛋️",
+            "detail": "Elegant parlor where the family gathered for meetings."
           },
           {
-            "name": "Observation Deck",
-            "icon": "🔭",
-            "detail": "Elevated platform for safe wildlife viewing"
-          },
-          {
-            "name": "Ranger Station",
-            "icon": "🏢",
-            "detail": "Administrative building housing park management offices"
-          }
-        ]
-      },
-      {
-        "key": "weapon",
-        "label": "Cause",
-        "icon": "⚔️",
-        "items": [
-          {
-            "name": "Elephant Stampede",
-            "icon": "🐘",
-            "detail": "Massive herd spooked into defensive charging behavior"
-          },
-          {
-            "name": "Rhino Gore",
-            "icon": "🦏",
-            "detail": "Aggressive territorial male defending watering rights"
-          },
-          {
-            "name": "Vehicle Collision",
-            "icon": "🚗",
-            "detail": "Safari jeep impact during emergency wildlife encounter"
-          },
-          {
-            "name": "Leopard Attack",
-            "icon": "🐆",
-            "detail": "Nocturnal predator defending territorial boundaries"
-          },
-          {
-            "name": "Poisonous Plant",
+            "name": "Conservatory",
             "icon": "🌿",
-            "detail": "Toxic vegetation causing fatal allergic reaction"
+            "detail": "Glass-enclosed garden room filled with exotic plants."
+          },
+          {
+            "name": "Darkroom",
+            "icon": "📷",
+            "detail": "Photography chamber equipped with chemical processing equipment."
           }
         ]
       },
@@ -497,61 +497,61 @@
         "icon": "⏰",
         "items": [
           {
-            "name": "Dawn (5-7 AM)",
-            "icon": "🌅",
-            "detail": "Early morning when most wildlife is active"
+            "name": "9:00-10:00 PM",
+            "icon": "🕘",
+            "detail": "Early evening when most household members were present."
           },
           {
-            "name": "Morning (7-9 AM)",
-            "icon": "🌞",
-            "detail": "Peak game drive period with guided tours"
+            "name": "10:00-11:00 PM",
+            "icon": "🕙",
+            "detail": "Late evening as servants began retiring for night."
           },
           {
-            "name": "Midday (11 AM-1 PM)",
-            "icon": "☀️",
-            "detail": "Hot period when animals seek shade"
+            "name": "11:00-12:00 AM",
+            "icon": "🕚",
+            "detail": "Near midnight when the house was mostly quiet."
           },
           {
-            "name": "Evening (5-7 PM)",
-            "icon": "🌇",
-            "detail": "Second active period as temperatures cool"
+            "name": "12:00-1:00 AM",
+            "icon": "🕛",
+            "detail": "Past midnight when only insomniacs would be awake."
           },
           {
-            "name": "Night (9 PM-5 AM)",
+            "name": "1:00-2:00 AM",
             "icon": "🌙",
-            "detail": "Darkness when nocturnal predators hunt"
+            "detail": "Deep night when even the most restless would sleep."
           }
         ]
       },
       {
         "key": "motive",
         "label": "Motive",
-        "icon": "💭",
+        "icon": "💰",
         "items": [
           {
-            "name": "Financial Gain",
-            "icon": "💰",
-            "detail": "Monetary benefit from victim's death or misfortune"
+            "name": "Inheritance greed",
+            "icon": "💎",
+            "detail": "Desire to claim or control the family fortune."
           },
           {
-            "name": "Professional Jealousy",
-            "icon": "🏆",
-            "detail": "Career advancement through eliminating competition"
+            "name": "Professional embarrassment",
+            "icon": "📊",
+            "detail": "Fear of exposure for incompetence or malpractice."
           },
           {
-            "name": "Accidental Negligence",
-            "icon": "⚠️",
-            "detail": "Unintended consequences of careless behavior"
+            "name": "Gambling debts",
+            "icon": "🎲",
+            "detail": "Desperate need for money to pay creditors."
           },
           {
-            "name": "Conservation Conflict",
-            "icon": "🌍",
-            "detail": "Disagreement over environmental protection policies"
+            "name": "Family honor",
+            "icon": "🛡️",
+            "detail": "Protection of reputation from potential scandal."
           },
           {
-            "name": "Personal Vendetta",
-            "icon": "⚔️",
-            "detail": "Long-standing grudge seeking revenge"
+            "name": "Blackmail pressure",
+            "icon": "🤐",
+            "detail": "Silencing someone who knew dangerous secrets."
           }
         ]
       }
@@ -559,96 +559,96 @@
     "clues": [
       {
         "id": "I1",
-        "type": "forensic",
-        "icon": "👣",
-        "heading": "Footprint Pattern",
-        "text": "Deep boot impressions lead from camp toward the watering hole, matching Thomas Mwangi's distinctive hiking boots.",
-        "alone": "Thomas walked to the scene before the incident.",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Garden Shears Found",
+        "text": "Muddy gardening shears discovered in Eleanor's quarters, with fresh nightshade stems nearby.",
+        "alone": "Eleanor had recent access to deadly nightshade plants.",
         "links": [
           {
             "with": "I4",
-            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "I2",
         "type": "witness",
-        "icon": "🗣️",
-        "heading": "Official Statement",
-        "text": "James Okoye claims he spent the morning reviewing conservation permits at the ranger station, supporting park policy.",
-        "alone": "James appears focused on legitimate government work.",
+        "icon": "👁️",
+        "heading": "Doctor's Account",
+        "text": "Dr. Hayes swears he saw Thomas leaving the conservatory at 11:30 PM carrying something.",
+        "alone": "Thomas was near the plant collection late at night.",
         "links": [
           {
             "with": "I5",
-            "insight": "Despite his claims of supporting conservation, James was secretly undermining Kylie's efforts due to conflicts with his development plans, but this doesn't make him the killer."
+            "insight": "Dr. Hayes was mistaken about Thomas's identity due to poor lighting."
           }
         ]
       },
       {
         "id": "I3",
-        "type": "physical",
-        "icon": "🩺",
-        "heading": "Medical Equipment",
-        "text": "Dr. Elena Vasquez's tranquilizer gun shows recent use, with one dart missing from her standard field kit.",
-        "alone": "Elena used her tranquilizer recently for unknown purposes.",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Loan Records",
+        "text": "Bank documents reveal Thomas borrowed against his practice to pay gambling debts last month.",
+        "alone": "Thomas was under severe financial pressure from gambling losses.",
         "links": [
           {
             "with": "I6",
-            "insight": "Elena's missing tranquilizer was used for legitimate veterinary work treating injured wildlife, driven by her dedication to animal care rather than any harmful intent."
+            "insight": "Thomas faced ruin from gambling debts and saw Harold Cross's death as financial salvation."
           }
         ]
       },
       {
         "id": "I4",
-        "type": "forensic",
-        "icon": "🐘",
-        "heading": "Elephant Dung",
-        "text": "Fresh elephant droppings contain traces of Thomas's energy bar wrapper, indicating the herd was agitated by human presence.",
-        "alone": "Thomas accidentally provoked the elephant herd.",
+        "type": "forensics",
+        "icon": "🧪",
+        "heading": "Brandy Analysis",
+        "text": "Laboratory confirms the victim's brandy contained lethal nightshade. Thomas's fingerprints on decanter.",
+        "alone": "Thomas handled the poisoned brandy that killed the victim.",
         "links": [
           {
             "with": "I1",
-            "insight": "Thomas was at the watering hole during morning hours when the elephants charged, making him responsible for the stampede that killed Kylie."
+            "insight": "Eleanor gathered nightshade but Thomas used it to poison the brandy."
           }
         ]
       },
       {
         "id": "I5",
-        "type": "forensic",
-        "icon": "📋",
-        "heading": "Permit Documents",
-        "text": "Hidden files reveal James opposed Kylie's conservation campaign, which threatened his undisclosed development contracts worth millions.",
-        "alone": "James had strong financial reasons to want Kylie silenced.",
+        "type": "evidence",
+        "icon": "🕯️",
+        "heading": "Broken Lamp",
+        "text": "Shattered oil lamp found in conservatory corridor created very poor lighting conditions.",
+        "alone": "The conservatory area was nearly dark during the evening.",
         "links": [
           {
             "with": "I2",
-            "insight": "Despite his claims of supporting conservation, James was secretly undermining Kylie's efforts due to conflicts with his development plans, but this doesn't make him the killer."
+            "insight": "Dr. Hayes was mistaken about Thomas's identity due to poor lighting."
           }
         ]
       },
       {
         "id": "I6",
-        "type": "witness",
-        "icon": "🦓",
-        "heading": "Veterinary Log",
-        "text": "Staff records show Dr. Vasquez treated an injured zebra at 12:15 PM, driven by her passionate commitment to wildlife welfare.",
-        "alone": "Elena's tranquilizer use reflected her dedication to animal care.",
+        "type": "document",
+        "icon": "💌",
+        "heading": "Threatening Letter",
+        "text": "Hidden note threatens Thomas with professional ruin unless gambling debts paid within days.",
+        "alone": "Thomas faced immediate destruction of his legal career.",
         "links": [
           {
             "with": "I3",
-            "insight": "Elena's missing tranquilizer was used for legitimate veterinary work treating injured wildlife, driven by her dedication to animal care rather than any harmful intent."
+            "insight": "Thomas faced ruin from gambling debts and saw Harold Cross's death as financial salvation."
           }
         ]
       }
     ],
     "solution": {
-      "suspect": "Thomas Mwangi",
-      "location": "Watering Hole",
-      "weapon": "Elephant Stampede",
-      "window": "Morning (7-9 AM)",
-      "motive": "Accidental Negligence"
+      "suspect": "Thomas Whitmore",
+      "weapon": "Poisoned brandy",
+      "location": "Library",
+      "window": "10:00-11:00 PM",
+      "motive": "Gambling debts"
     },
-    "epilogue": "Thomas Mwangi never intended to harm anyone when he carelessly dropped his energy bar wrapper near the elephants during the busy morning game drive at the watering hole. The veteran guide's moment of accidental negligence triggered a deadly stampede during the peak wildlife viewing hours. His twenty years of experience couldn't undo one tragic mistake that cost Kylie Simpson her life. Now Thomas faces the devastating reality that his unintended carelessness during the morning hours turned the African savanna into a crime scene."
+    "epilogue": "Thomas Whitmore poisoned Harold Cross with nightshade-laced brandy in the library between 10:00-11:00 PM, driven by crushing gambling debts. He planned to control the estate's legal affairs and embezzle funds to save his career. Eleanor innocently gathered nightshade for pest control, while Dr. Hayes mistook someone else for Thomas in the darkness. Thomas's desperation transformed him from trusted solicitor to cold-blooded killer."
   }
 }
