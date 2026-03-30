@@ -1,0 +1,669 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #033",
+    "title": "The Séance Silencing",
+    "tier": "rookie",
+    "setting": "Edwardian Country House · Yorkshire · 1912",
+    "emoji": "🏚️",
+    "flavor": "The séance ended abruptly when the medium collapsed over her crystal ball. What began as communion with spirits became a very earthly murder.",
+    "emptyState": "The spirits weren't the only ones with deadly intentions tonight.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Pemberton",
+            "icon": "👑",
+            "detail": "Wealthy widow hosting tonight's séance in her manor."
+          },
+          {
+            "name": "Dr. Whitmore",
+            "icon": "⚕️",
+            "detail": "Local physician skeptical of supernatural practices."
+          },
+          {
+            "name": "Miss Hartwell",
+            "icon": "👩",
+            "detail": "Young governess seeking contact with deceased mother."
+          },
+          {
+            "name": "Mr. Blackwood",
+            "icon": "🎩",
+            "detail": "Estate manager with gambling debts and opportunity."
+          }
+        ]
+      },
+      {
+        "key": "method",
+        "label": "Method",
+        "icon": "⚰️",
+        "items": [
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Strychnine added to the medium's evening refreshment."
+          },
+          {
+            "name": "Strangled",
+            "icon": "🪢",
+            "detail": "Silk scarf tightened around neck during darkness."
+          },
+          {
+            "name": "Stabbed",
+            "icon": "🗡️",
+            "detail": "Letter opener thrust between ribs in candlelight."
+          },
+          {
+            "name": "Suffocated",
+            "icon": "💨",
+            "detail": "Pillow pressed over face during spiritual trance."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Dark room filled with occult books and artifacts."
+          },
+          {
+            "name": "Drawing Room",
+            "icon": "🕯️",
+            "detail": "Candlelit space where the fatal séance took place."
+          },
+          {
+            "name": "Conservatory",
+            "icon": "🌿",
+            "detail": "Glass room overlooking the moonlit Yorkshire moors."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🔥",
+            "detail": "Servants' domain with easy access to poisons."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Medical Bag Contents",
+        "text": "Dr. Whitmore's leather bag contains empty strychnine vials and a prescription pad with Mr. Blackwood's name.",
+        "alone": "Dr. Whitmore had both poison and connection to Blackwood.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Servants Gossip",
+        "text": "Kitchen maids whisper that Mr. Blackwood threatened the medium after she exposed his embezzlement publicly.",
+        "alone": "Blackwood had clear motive to silence the medium.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🕯️",
+        "heading": "Candle Wax Pattern",
+        "text": "Melted wax on the drawing room carpet shows someone moved during the séance's darkest moment.",
+        "alone": "Someone broke the séance circle at the crucial time.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "📝",
+        "heading": "Prescription Forgery",
+        "text": "The strychnine prescription bears Dr. Whitmore's forged signature—handwriting analysis reveals Miss Hartwell's penmanship.",
+        "alone": "Miss Hartwell forged the doctor's signature to obtain poison.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Miss Hartwell forged Dr. Whitmore's signature to frame him for providing the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Kitchen Testimony",
+        "text": "Cook confirms Mr. Blackwood was arguing with her about unpaid bills during the séance.",
+        "alone": "Blackwood has solid alibi during the murder time.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Despite having motive, Mr. Blackwood was elsewhere during the actual murder."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "motive",
+        "icon": "💰",
+        "heading": "Inheritance Letters",
+        "text": "Hidden correspondence reveals the medium was blackmailing Miss Hartwell about her mother's real cause of death.",
+        "alone": "Miss Hartwell was being blackmailed by the victim.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Miss Hartwell left her position in the séance circle to poison the medium's tea cup."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miss Hartwell",
+      "method": "Poisoned Tea",
+      "location": "Drawing Room"
+    },
+    "epilogue": "Miss Hartwell's desperation to protect her mother's memory drove her to murder. She forged Dr. Whitmore's prescription, obtained strychnine, and poisoned the medium's tea during the séance. The young governess now faces the gallows, her mother's secret dying with the woman who threatened to expose it. Justice, unlike the spirits, proved all too real that Yorkshire evening."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #033",
+    "title": "The Séance Silencing",
+    "tier": "detective",
+    "setting": "Edwardian Country House · Yorkshire · 1912",
+    "emoji": "🏚️",
+    "flavor": "The séance ended abruptly when the medium collapsed over her crystal ball. What began as communion with spirits became a very earthly murder.",
+    "emptyState": "The spirits weren't the only ones with deadly intentions tonight.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Pemberton",
+            "icon": "👑",
+            "detail": "Wealthy widow hosting tonight's séance in her manor."
+          },
+          {
+            "name": "Dr. Whitmore",
+            "icon": "⚕️",
+            "detail": "Local physician skeptical of supernatural practices."
+          },
+          {
+            "name": "Miss Hartwell",
+            "icon": "👩",
+            "detail": "Young governess seeking contact with deceased mother."
+          },
+          {
+            "name": "Mr. Blackwood",
+            "icon": "🎩",
+            "detail": "Estate manager with gambling debts and opportunity."
+          },
+          {
+            "name": "Colonel Fairfax",
+            "icon": "⚔️",
+            "detail": "Retired military officer investigating spiritualist frauds."
+          }
+        ]
+      },
+      {
+        "key": "method",
+        "label": "Method",
+        "icon": "⚰️",
+        "items": [
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Strychnine added to the medium's evening refreshment."
+          },
+          {
+            "name": "Strangled",
+            "icon": "🪢",
+            "detail": "Silk scarf tightened around neck during darkness."
+          },
+          {
+            "name": "Stabbed",
+            "icon": "🗡️",
+            "detail": "Letter opener thrust between ribs in candlelight."
+          },
+          {
+            "name": "Suffocated",
+            "icon": "💨",
+            "detail": "Pillow pressed over face during spiritual trance."
+          },
+          {
+            "name": "Blunt Trauma",
+            "icon": "🔨",
+            "detail": "Heavy candlestick struck against temple repeatedly."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Dark room filled with occult books and artifacts."
+          },
+          {
+            "name": "Drawing Room",
+            "icon": "🕯️",
+            "detail": "Candlelit space where the fatal séance took place."
+          },
+          {
+            "name": "Conservatory",
+            "icon": "🌿",
+            "detail": "Glass room overlooking the moonlit Yorkshire moors."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🔥",
+            "detail": "Servants' domain with easy access to poisons."
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Stone basement where bodies could be hidden."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Before Séance",
+            "icon": "🌅",
+            "detail": "During afternoon preparation and guest arrivals."
+          },
+          {
+            "name": "Séance Beginning",
+            "icon": "🕯️",
+            "detail": "First fifteen minutes while circle formed."
+          },
+          {
+            "name": "During Trance",
+            "icon": "👻",
+            "detail": "Peak spiritual contact when lights dimmed."
+          },
+          {
+            "name": "After Collapse",
+            "icon": "💀",
+            "detail": "Chaos following the medium's sudden death."
+          },
+          {
+            "name": "Late Evening",
+            "icon": "🌙",
+            "detail": "Hours after authorities arrived and searched."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Medical Bag Contents",
+        "text": "Dr. Whitmore's leather bag contains empty strychnine vials and a prescription pad with Mr. Blackwood's name.",
+        "alone": "Dr. Whitmore had both poison and connection to Blackwood.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👀",
+        "heading": "Colonel's Observation",
+        "text": "Colonel Fairfax swears he saw Dr. Whitmore slip powder into the medium's teacup during the darkness.",
+        "alone": "A credible witness directly implicates Dr. Whitmore.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Butler's Schedule",
+        "text": "Tea service occurred precisely at 8:45 PM, fifteen minutes into the séance trance phase.",
+        "alone": "The poisoning happened during the deepest trance period.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "📝",
+        "heading": "Prescription Forgery",
+        "text": "The strychnine prescription bears Dr. Whitmore's forged signature—handwriting analysis reveals Miss Hartwell's penmanship.",
+        "alone": "Miss Hartwell forged the doctor's signature to obtain poison.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Miss Hartwell forged Dr. Whitmore's signature to frame him for providing the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "alibi",
+        "icon": "🎯",
+        "heading": "Military Precision",
+        "text": "Colonel Fairfax's war injury makes his night vision extremely poor—he cannot distinguish faces in dim light.",
+        "alone": "The colonel's eyewitness testimony is physically impossible.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Colonel Fairfax's poor night vision makes his identification of Dr. Whitmore completely unreliable."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "physical",
+        "icon": "🧤",
+        "heading": "Glove Examination",
+        "text": "Miss Hartwell's evening gloves test positive for strychnine residue despite her claims of innocence.",
+        "alone": "Physical evidence directly links Miss Hartwell to the poison.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Miss Hartwell handled strychnine during the exact time window when the medium was poisoned."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miss Hartwell",
+      "method": "Poisoned Tea",
+      "location": "Drawing Room",
+      "window": "During Trance"
+    },
+    "epilogue": "Miss Hartwell's desperation to protect her mother's memory drove her to elaborate murder. She forged Dr. Whitmore's prescription, obtained strychnine, and poisoned the medium's tea during the trance phase. The colonel's poor eyesight made him the perfect unwitting accomplice to frame the doctor. Her careful planning unraveled when science proved more reliable than supernatural darkness."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #033",
+    "title": "The Séance Silencing",
+    "tier": "inspector",
+    "setting": "Edwardian Country House · Yorkshire · 1912",
+    "emoji": "🏚️",
+    "flavor": "The séance ended abruptly when the medium collapsed over her crystal ball. What began as communion with spirits became a very earthly murder.",
+    "emptyState": "The spirits weren't the only ones with deadly intentions tonight.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Pemberton",
+            "icon": "👑",
+            "detail": "Wealthy widow hosting tonight's séance in her manor."
+          },
+          {
+            "name": "Dr. Whitmore",
+            "icon": "⚕️",
+            "detail": "Local physician skeptical of supernatural practices."
+          },
+          {
+            "name": "Miss Hartwell",
+            "icon": "👩",
+            "detail": "Young governess seeking contact with deceased mother."
+          },
+          {
+            "name": "Mr. Blackwood",
+            "icon": "🎩",
+            "detail": "Estate manager with gambling debts and opportunity."
+          },
+          {
+            "name": "Colonel Fairfax",
+            "icon": "⚔️",
+            "detail": "Retired military officer investigating spiritualist frauds."
+          },
+          {
+            "name": "Mrs. Ashford",
+            "icon": "🔮",
+            "detail": "Professional medium and tonight's unfortunate victim."
+          }
+        ]
+      },
+      {
+        "key": "method",
+        "label": "Method",
+        "icon": "⚰️",
+        "items": [
+          {
+            "name": "Poisoned Tea",
+            "icon": "☕",
+            "detail": "Strychnine added to the medium's evening refreshment."
+          },
+          {
+            "name": "Strangled",
+            "icon": "🪢",
+            "detail": "Silk scarf tightened around neck during darkness."
+          },
+          {
+            "name": "Stabbed",
+            "icon": "🗡️",
+            "detail": "Letter opener thrust between ribs in candlelight."
+          },
+          {
+            "name": "Suffocated",
+            "icon": "💨",
+            "detail": "Pillow pressed over face during spiritual trance."
+          },
+          {
+            "name": "Blunt Trauma",
+            "icon": "🔨",
+            "detail": "Heavy candlestick struck against temple repeatedly."
+          },
+          {
+            "name": "Drugged",
+            "icon": "💤",
+            "detail": "Chloroform administered causing respiratory failure."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Library",
+            "icon": "📚",
+            "detail": "Dark room filled with occult books and artifacts."
+          },
+          {
+            "name": "Drawing Room",
+            "icon": "🕯️",
+            "detail": "Candlelit space where the fatal séance took place."
+          },
+          {
+            "name": "Conservatory",
+            "icon": "🌿",
+            "detail": "Glass room overlooking the moonlit Yorkshire moors."
+          },
+          {
+            "name": "Kitchen",
+            "icon": "🔥",
+            "detail": "Servants' domain with easy access to poisons."
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Stone basement where bodies could be hidden."
+          },
+          {
+            "name": "Master Bedroom",
+            "icon": "🛏️",
+            "detail": "Lady Pemberton's private chambers upstairs."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Before Séance",
+            "icon": "🌅",
+            "detail": "During afternoon preparation and guest arrivals."
+          },
+          {
+            "name": "Séance Beginning",
+            "icon": "🕯️",
+            "detail": "First fifteen minutes while circle formed."
+          },
+          {
+            "name": "During Trance",
+            "icon": "👻",
+            "detail": "Peak spiritual contact when lights dimmed."
+          },
+          {
+            "name": "After Collapse",
+            "icon": "💀",
+            "detail": "Chaos following the medium's sudden death."
+          },
+          {
+            "name": "Late Evening",
+            "icon": "🌙",
+            "detail": "Hours after authorities arrived and searched."
+          },
+          {
+            "name": "Dawn Discovery",
+            "icon": "🌄",
+            "detail": "Early morning when full evidence emerged."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Blackmail Victim",
+            "icon": "💰",
+            "detail": "Being extorted over dark secrets from the past."
+          },
+          {
+            "name": "Professional Rivalry",
+            "icon": "🎭",
+            "detail": "Competition between spiritualists for wealthy clients."
+          },
+          {
+            "name": "Fraud Exposure",
+            "icon": "🔍",
+            "detail": "Medium threatened to reveal someone's deception."
+          },
+          {
+            "name": "Family Honor",
+            "icon": "⚡",
+            "detail": "Protecting deceased relative's reputation from scandal."
+          },
+          {
+            "name": "Financial Desperation",
+            "icon": "💸",
+            "detail": "Massive debts requiring immediate cash solution."
+          },
+          {
+            "name": "Medical Malpractice",
+            "icon": "⚕️",
+            "detail": "Covering up previous patient deaths or errors."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "Medical Bag Contents",
+        "text": "Dr. Whitmore's leather bag contains empty strychnine vials and a prescription pad with multiple suspects' names.",
+        "alone": "Dr. Whitmore had poison and connections to several guests.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👀",
+        "heading": "Colonel's Observation",
+        "text": "Colonel Fairfax swears he saw Dr. Whitmore slip powder into the medium's teacup during the darkness.",
+        "alone": "A credible witness directly implicates Dr. Whitmore.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Blackmail Portfolio",
+        "text": "Mrs. Ashford's hidden case contains compromising photographs and documents about multiple Yorkshire families.",
+        "alone": "The medium was blackmailing several wealthy locals.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "📝",
+        "heading": "Prescription Forgery",
+        "text": "The strychnine prescription bears Dr. Whitmore's forged signature—handwriting analysis reveals Miss Hartwell's distinctive penmanship.",
+        "alone": "Miss Hartwell forged the doctor's signature to obtain poison.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Miss Hartwell forged Dr. Whitmore's signature to frame him while obtaining the murder weapon herself."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "medical",
+        "icon": "🎯",
+        "heading": "War Injury Report",
+        "text": "Colonel Fairfax's military records confirm severe night blindness from shrapnel—he cannot distinguish faces in dim light.",
+        "alone": "The colonel's eyewitness testimony is medically impossible.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Colonel Fairfax's documented night blindness makes his identification of Dr. Whitmore completely unreliable."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "motive",
+        "icon": "💌",
+        "heading": "Mother's Suicide Note",
+        "text": "Hidden letters reveal Mrs. Ashford knew Miss Hartwell's mother killed patients as a nurse—not natural deaths.",
+        "alone": "Miss Hartwell's mother was a serial killer.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Miss Hartwell murdered Mrs. Ashford to prevent exposure of her mother's history as a medical serial killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miss Hartwell",
+      "method": "Poisoned Tea",
+      "location": "Drawing Room",
+      "window": "During Trance",
+      "motive": "Family Honor"
+    },
+    "epilogue": "Miss Hartwell's devotion to her mother's memory drove her to cold-blooded murder. When Mrs. Ashford threatened to expose her mother's serial killings in the hospital ward, she forged Dr. Whitmore's prescription and poisoned the medium's tea during the séance trance. Her elaborate frame-up exploited the colonel's war blindness and the doctor's medical access. The young governess chose murder over truth, protecting a legacy that was never worth preserving."
+  }
+}
