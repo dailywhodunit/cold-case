@@ -145,6 +145,19 @@ export default function App() {
     <>
       <style>{GLOBAL_STYLE}</style>
 
+      {isPastFallback && screen !== 'loading' && (
+        <div style={{
+          position: 'fixed', top: 0, left: 0, right: 0, zIndex: 9999,
+          background: '#1a1200', borderBottom: '1px solid #6a5018',
+          padding: '8px 16px', textAlign: 'center',
+          fontFamily: 'system-ui,sans-serif', fontSize: '13px', color: '#d4a84b',
+          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+        }}>
+          <span>📁</span>
+          <span>Today's case is on its way — in the meantime, here's a case from the archive.</span>
+        </div>
+      )}
+
       {screen === 'loading' && (
         <CaseLoader onReady={handleCaseReady} />
       )}
