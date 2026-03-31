@@ -27,15 +27,17 @@ export default function App() {
   const [tierId,   setTierId]   = useState(null);
   const [result,   setResult]   = useState(null);
   const [savedRes, setSavedRes] = useState(null);
-  const [practice, setPractice] = useState(false);
+  const [practice, setPractice]         = useState(false);
+  const [isPastFallback, setIsPastFallback] = useState(false);
 
   const realToday = getTodayString();
   const urlDate   = getUrlDate();
   const isArchive = urlDate && urlDate !== realToday;
 
   // Called by CaseLoader when fetch completes
-  const handleCaseReady = (loadedTiers, date) => {
+  const handleCaseReady = (loadedTiers, date, pastFallback = false) => {
     setTiers(loadedTiers);
+    if (pastFallback) setIsPastFallback(true);
     // Check already-played only for today's actual date (not archive replays)
     if (!practice && !isArchive) {
       const saved = loadResult(realToday);
