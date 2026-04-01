@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Pressure Point",
+    "tier": "rookie",
+    "setting": "Deep Sea Research Vessel · Pacific · 2031",
+    "emoji": "🌊",
+    "flavor": "Three miles beneath the Pacific surface, the research vessel Hadal Explorer houses humanity's deepest scientific ambitions. When the pressure hull remains intact but a life is lost, the real danger comes from within.",
+    "emptyState": "At crushing depths, some secrets refuse to stay buried.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yuki Tanaka",
+            "icon": "🧬",
+            "detail": "Marine biologist studying deep-sea organisms"
+          },
+          {
+            "name": "Captain Olsen",
+            "icon": "⚓",
+            "detail": "Vessel commander with thirty years experience"
+          },
+          {
+            "name": "Chief Engineer Kozlov",
+            "icon": "🔧",
+            "detail": "Maintains life support and pressure systems"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Nitrogen Embolism",
+            "icon": "💨",
+            "detail": "Deliberate decompression causing fatal air bubbles"
+          },
+          {
+            "name": "Neurotoxin Injection",
+            "icon": "💉",
+            "detail": "Synthetic compound from marine specimens"
+          },
+          {
+            "name": "Hyperbaric Overdose",
+            "icon": "🫁",
+            "detail": "Forced oxygen toxicity in pressure chamber"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Where marine samples are analyzed"
+          },
+          {
+            "name": "Decompression Chamber",
+            "icon": "🚪",
+            "detail": "Safety equipment for emergency ascent"
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Heart of vessel's life support systems"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Lab Access Log",
+        "text": "Security logs show Dr. Nakamura entered the specimen lab at 22:47. Only Dr. Tanaka's keycard accessed the neurotoxin storage afterward.",
+        "alone": "Tanaka accessed restricted toxins after the victim entered.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dr. Tanaka had exclusive access to the murder weapon and knew the victim's location."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Heated Argument",
+        "text": "Crew member reports violent shouting from Captain Olsen's quarters. Nakamura stormed out threatening to 'expose everything to the surface.'",
+        "alone": "Captain Olsen and victim had explosive confrontation.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Captain Olsen's public argument was actually defending Nakamura, not threatening him."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Pressure Readings",
+        "text": "Kozlov's maintenance logs show atmospheric pressure fluctuations in multiple compartments. His handwriting appears increasingly erratic throughout the shift.",
+        "alone": "Kozlov experienced stress and had access to pressure systems.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Kozlov's pressure fluctuations were routine maintenance, and his medication explains his behavior."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "Injection Site",
+        "text": "Coroner identifies microscopic puncture wound behind Nakamura's ear. Traces of synthetic neurotoxin in bloodstream match lab specimens.",
+        "alone": "Victim died from precise neurotoxin injection.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The victim was killed in the specimen lab using research neurotoxins."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Research Files",
+        "text": "Nakamura's personal logs detail discovering falsified depth readings in Tanaka's organism samples. He planned to report the scientific fraud.",
+        "alone": "Nakamura threatened to expose Tanaka's research fraud.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dr. Tanaka had exclusive access to the murder weapon and knew the victim's location."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Captain's Defense",
+        "text": "Olsen admits the argument was him trying to convince Nakamura to handle the fraud discovery quietly. 'I wanted to protect both their careers.'",
+        "alone": "Captain was trying to protect Nakamura, not threaten him.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Captain Olsen's public argument was actually defending Nakamura, not threatening him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "medical",
+        "icon": "💊",
+        "heading": "Medication Schedule",
+        "text": "Kozlov's medical file shows prescription anti-anxiety medication for claustrophobia. His hands shake visibly during questioning about tight spaces.",
+        "alone": "Kozlov suffers from claustrophobia affecting his behavior.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Kozlov's pressure fluctuations were routine maintenance, and his medication explains his behavior."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensic",
+        "icon": "🎯",
+        "heading": "Blood Spatter",
+        "text": "Luminol reveals cleaned blood traces on specimen lab workstation. Pattern suggests victim collapsed while examining deep-sea samples under microscope.",
+        "alone": "Victim was killed in the specimen laboratory.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The victim was killed in the specimen lab using research neurotoxins."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yuki Tanaka",
+      "weapon": "Neurotoxin Injection",
+      "location": "Specimen Laboratory"
+    },
+    "epilogue": "Dr. Yuki Tanaka had dedicated her life to marine biology, but the pressure of groundbreaking discoveries led her to falsify depth readings on her organism samples. When Dr. Nakamura discovered her scientific fraud and threatened exposure, she panicked and used her own research against him. The neurotoxin that should have advanced human knowledge instead became an instrument of desperate self-preservation. As the Hadal Explorer surfaces, Tanaka faces the crushing weight of consequences that no pressure suit can protect against."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Pressure Point",
+    "tier": "detective",
+    "setting": "Deep Sea Research Vessel · Pacific · 2031",
+    "emoji": "🌊",
+    "flavor": "Three miles beneath the Pacific surface, the research vessel Hadal Explorer houses humanity's deepest scientific ambitions. When the pressure hull remains intact but a life is lost, the real danger comes from within.",
+    "emptyState": "At crushing depths, some secrets refuse to stay buried.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yuki Tanaka",
+            "icon": "🧬",
+            "detail": "Marine biologist studying deep-sea organisms"
+          },
+          {
+            "name": "Captain Olsen",
+            "icon": "⚓",
+            "detail": "Vessel commander with thirty years experience"
+          },
+          {
+            "name": "Chief Engineer Kozlov",
+            "icon": "🔧",
+            "detail": "Maintains life support systems"
+          },
+          {
+            "name": "Security Chief Park",
+            "icon": "🛡️",
+            "detail": "Monitors vessel access and safety protocols"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Nitrogen Embolism",
+            "icon": "💨",
+            "detail": "Deliberate decompression causing fatal air bubbles"
+          },
+          {
+            "name": "Neurotoxin Injection",
+            "icon": "💉",
+            "detail": "Synthetic compound from marine specimens"
+          },
+          {
+            "name": "Hyperbaric Overdose",
+            "icon": "🫁",
+            "detail": "Forced oxygen toxicity"
+          },
+          {
+            "name": "Blunt Force Trauma",
+            "icon": "🔨",
+            "detail": "Heavy equipment used as weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Where marine samples are analyzed"
+          },
+          {
+            "name": "Decompression Chamber",
+            "icon": "🚪",
+            "detail": "Emergency safety equipment"
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Vessel's life support hub"
+          },
+          {
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring and communications center"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔐",
+        "items": [
+          {
+            "name": "Stolen Keycard",
+            "icon": "💳",
+            "detail": "Victim's access credentials taken"
+          },
+          {
+            "name": "Administrative Override",
+            "icon": "👑",
+            "detail": "Captain's master access codes"
+          },
+          {
+            "name": "Maintenance Backdoor",
+            "icon": "🔧",
+            "detail": "Service tunnels bypass security"
+          },
+          {
+            "name": "Legitimate Research",
+            "icon": "📋",
+            "detail": "Authorized scientific access"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Lab Access Log",
+        "text": "Security logs show Dr. Nakamura entered specimen lab at 22:47. Dr. Tanaka's legitimate research access occurred at 23:15.",
+        "alone": "Tanaka entered the lab during her scheduled research time.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dr. Tanaka used her legitimate research access to kill Nakamura after discovering his location through fraudulent means."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Security Report",
+        "text": "Chief Park swears she saw Captain Olsen's silhouette entering the specimen lab around 23:00. 'Distinctive posture, I'd know it anywhere.'",
+        "alone": "Park believes she witnessed Captain Olsen at crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Park's witness testimony was incorrect due to poor lighting and similar builds between suspects."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Maintenance Logs",
+        "text": "Kozlov's access records show service tunnel entry at 22:30. His route bypassed main security checkpoints entirely.",
+        "alone": "Kozlov used maintenance tunnels to avoid detection.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Kozlov's maintenance backdoor access was for scheduled repairs, not murder."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "Injection Evidence",
+        "text": "Microscopic puncture behind Nakamura's ear contains synthetic neurotoxin. Only specimen lab has access to these compounds.",
+        "alone": "Victim killed with lab-exclusive neurotoxin.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Security Chief Park had no access to neurotoxins, eliminating her as the killer."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "forensic",
+        "icon": "🎯",
+        "heading": "Hidden Camera",
+        "text": "Tanaka's personal research camera captured Nakamura examining her falsified data samples. Timestamp shows 22:50, three minutes after his lab entry.",
+        "alone": "Tanaka knew exactly where and when Nakamura discovered her fraud.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dr. Tanaka used her legitimate research access to kill Nakamura after discovering his location through fraudulent means."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "💡",
+        "heading": "Lighting Failure",
+        "text": "Corridor illumination logs show 60% power reduction during 22:45-23:30. Emergency lighting created deceptive shadows throughout vessel.",
+        "alone": "Poor lighting conditions caused visual identification errors.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Park's witness testimony was incorrect due to poor lighting and similar builds between suspects."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Repair Schedule",
+        "text": "Kozlov produces work orders for pressure valve maintenance. 'These systems fail, we all die. I follow protocol exactly.'",
+        "alone": "Kozlov's access was for critical safety repairs.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Kozlov's maintenance backdoor access was for scheduled repairs, not murder."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "inventory",
+        "icon": "🔒",
+        "heading": "Security Clearance",
+        "text": "Park's access credentials restricted to security areas only. Lab specimen storage requires Level 4 research authorization she lacks.",
+        "alone": "Park couldn't access the murder weapon storage.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Security Chief Park had no access to neurotoxins, eliminating her as the killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yuki Tanaka",
+      "weapon": "Neurotoxin Injection",
+      "location": "Specimen Laboratory",
+      "access": "Legitimate Research"
+    },
+    "epilogue": "Dr. Yuki Tanaka's brilliant career was built on a foundation of falsified research data that promised breakthrough discoveries. When her hidden camera revealed Dr. Nakamura discovering her fraud, she realized her life's work would crumble under scrutiny. Using her legitimate research access, she entered the specimen lab and administered a lethal neurotoxin injection with the precision of a scientist. The woman who dedicated herself to understanding life's deepest mysteries had destroyed one to protect her own. As the Hadal Explorer ascends toward judgment, Tanaka faces the crushing realization that some pressures cannot be contained by even the strongest hull."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Pressure Point",
+    "tier": "inspector",
+    "setting": "Deep Sea Research Vessel · Pacific · 2031",
+    "emoji": "🌊",
+    "flavor": "Three miles beneath the Pacific surface, the research vessel Hadal Explorer houses humanity's deepest scientific ambitions. When the pressure hull remains intact but a life is lost, the real danger comes from within.",
+    "emptyState": "At crushing depths, some secrets refuse to stay buried.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yuki Tanaka",
+            "icon": "🧬",
+            "detail": "Marine biologist studying deep-sea organisms"
+          },
+          {
+            "name": "Captain Olsen",
+            "icon": "⚓",
+            "detail": "Vessel commander with thirty years experience"
+          },
+          {
+            "name": "Chief Engineer Kozlov",
+            "icon": "🔧",
+            "detail": "Maintains life support systems"
+          },
+          {
+            "name": "Security Chief Park",
+            "icon": "🛡️",
+            "detail": "Vessel safety and access control"
+          },
+          {
+            "name": "Dr. Hassan Al-Rashid",
+            "icon": "🧪",
+            "detail": "Chemical oceanographer and toxin specialist"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Nitrogen Embolism",
+            "icon": "💨",
+            "detail": "Deliberate decompression causing air bubbles"
+          },
+          {
+            "name": "Neurotoxin Injection",
+            "icon": "💉",
+            "detail": "Synthetic compound from specimens"
+          },
+          {
+            "name": "Hyperbaric Overdose",
+            "icon": "🫁",
+            "detail": "Forced oxygen toxicity"
+          },
+          {
+            "name": "Blunt Force Trauma",
+            "icon": "🔨",
+            "detail": "Heavy equipment weapon"
+          },
+          {
+            "name": "Paralytic Compound",
+            "icon": "🕷️",
+            "detail": "Spider venom derivative causing suffocation"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Marine sample analysis center"
+          },
+          {
+            "name": "Decompression Chamber",
+            "icon": "🚪",
+            "detail": "Emergency safety equipment"
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Life support control center"
+          },
+          {
+            "name": "Security Office",
+            "icon": "📹",
+            "detail": "Monitoring and communications"
+          },
+          {
+            "name": "Chemical Storage",
+            "icon": "⚗️",
+            "detail": "Hazardous compound containment"
+          }
+        ]
+      },
+      {
+        "key": "primary_access",
+        "label": "Primary Access",
+        "icon": "🔐",
+        "items": [
+          {
+            "name": "Stolen Keycard",
+            "icon": "💳",
+            "detail": "Victim's credentials taken"
+          },
+          {
+            "name": "Administrative Override",
+            "icon": "👑",
+            "detail": "Captain's master access"
+          },
+          {
+            "name": "Maintenance Backdoor",
+            "icon": "🔧",
+            "detail": "Service tunnel bypass"
+          },
+          {
+            "name": "Legitimate Research",
+            "icon": "📋",
+            "detail": "Authorized scientific access"
+          },
+          {
+            "name": "Emergency Protocol",
+            "icon": "🚨",
+            "detail": "Security override activation"
+          }
+        ]
+      },
+      {
+        "key": "secondary_access",
+        "label": "Secondary Access",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Duplicated Badge",
+            "icon": "🎭",
+            "detail": "Cloned security credentials"
+          },
+          {
+            "name": "Ventilation System",
+            "icon": "💨",
+            "detail": "Air duct infiltration route"
+          },
+          {
+            "name": "Supply Hatch",
+            "icon": "📦",
+            "detail": "Cargo access point"
+          },
+          {
+            "name": "Buddy System",
+            "icon": "👥",
+            "detail": "Accompanied by authorized person"
+          },
+          {
+            "name": "Shift Change",
+            "icon": "🕐",
+            "detail": "Security gap exploitation"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Access Timeline",
+        "text": "Dr. Tanaka's legitimate research access at 23:15 overlaps with Nakamura's time of death. Her badge shows no secondary access methods.",
+        "alone": "Tanaka used standard research access during murder timeframe.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dr. Tanaka killed Nakamura using her legitimate access and Al-Rashid's paralytic compound to frame him."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Captain Sighting",
+        "text": "Security Chief Park insists she saw Captain Olsen's distinctive uniform entering the specimen lab. 'The shoulder insignia were clearly visible.'",
+        "alone": "Park claims visual confirmation of Captain at crime scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Park's sighting was Dr. Tanaka wearing a stolen captain's uniform during shift change chaos."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Maintenance Route",
+        "text": "Kozlov's service access through ventilation system avoided main corridors. His route provided perfect cover for undetected movement.",
+        "alone": "Kozlov had covert access method to crime scene.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Kozlov's ventilation access was for scheduled air filtration work, documented in advance."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "Toxin Analysis",
+        "text": "Paralytic compound in Nakamura's system matches Al-Rashid's experimental spider venom derivatives. Injection site shows medical precision.",
+        "alone": "Al-Rashid's specialized toxin used with expert technique.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Al-Rashid was unconscious during the murder timeframe, making him an unwitting accomplice rather than the killer."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "forensic",
+        "icon": "🎯",
+        "heading": "Chemical Theft",
+        "text": "Al-Rashid's paralytic samples show 2ml missing from secured storage. Only his biometric signature accessed the compound.",
+        "alone": "Al-Rashid's biometric signature accessed the murder weapon.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Tanaka killed Nakamura using her legitimate access and Al-Rashid's paralytic compound to frame him."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "👕",
+        "heading": "Uniform Discrepancy",
+        "text": "Captain's spare uniform missing from laundry. Shift change at 23:00 created window of security confusion and reduced monitoring.",
+        "alone": "Missing uniform during shift change provided disguise opportunity.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Park's sighting was Dr. Tanaka wearing a stolen captain's uniform during shift change chaos."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "testimony",
+        "icon": "🗣️",
+        "heading": "Filter Maintenance",
+        "text": "Kozlov's work orders confirm scheduled air filtration cleaning. 'Deep-sea particulates clog everything. I clean vents weekly on this schedule.'",
+        "alone": "Kozlov's ventilation access was routine scheduled maintenance.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Kozlov's ventilation access was for scheduled air filtration work, documented in advance."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "medical",
+        "icon": "💊",
+        "heading": "Sedated State",
+        "text": "Al-Rashid's blood shows therapeutic levels of prescribed sleep medication. Medical log confirms he was unconscious 22:00-02:00 for severe insomnia treatment.",
+        "alone": "Al-Rashid was medically unconscious during murder timeframe.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Al-Rashid was unconscious during the murder timeframe, making him an unwitting accomplice rather than the killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yuki Tanaka",
+      "weapon": "Paralytic Compound",
+      "location": "Specimen Laboratory",
+      "primary_access": "Legitimate Research",
+      "secondary_access": "Shift Change"
+    },
+    "epilogue": "Dr. Yuki Tanaka orchestrated an elaborate deception born from scientific desperation and calculated opportunism. When Dr. Nakamura discovered her falsified research data, she exploited the shift change chaos to steal Captain Olsen's uniform and Al-Rashid's paralytic compound while he was unconscious from medication. Using her legitimate research access, she entered the specimen lab disguised and administered the lethal injection with medical precision, creating a perfect frame that would implicate the sedated toxin specialist. The brilliant marine biologist who dedicated her life to understanding the ocean's deepest mysteries had become its most dangerous predator. As the Hadal Explorer surfaces toward justice, Tanaka faces the crushing realization that her elaborate web of deception will collapse under the same scrutiny she feared for her fraudulent research."
+  }
+}
