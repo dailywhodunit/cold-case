@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Monaco Gambit",
+    "tier": "rookie",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "flavor": "The roulette wheel stopped spinning hours ago, but the real game was just beginning. Someone placed their final bet tonight.",
+    "emptyState": "In Monte Carlo, the house always wins. Tonight, someone lost everything.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Claude Dubois",
+            "icon": "💼",
+            "detail": "Casino security chief with access to all areas."
+          },
+          {
+            "name": "Margot Beaumont",
+            "icon": "💎",
+            "detail": "High-stakes gambler owing substantial debts."
+          },
+          {
+            "name": "Viktor Petrov",
+            "icon": "🕴️",
+            "detail": "Soviet cultural attaché with diplomatic immunity."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Professional weapon found in service corridor."
+          },
+          {
+            "name": "Poison Ring",
+            "icon": "💍",
+            "detail": "Hollow signet ring containing deadly toxin."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎹",
+            "detail": "Thin wire from the lounge piano."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Gaming Room",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller suite on third floor."
+          },
+          {
+            "name": "Casino Vault",
+            "icon": "🏦",
+            "detail": "Underground secure area for valuables."
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only lift between floors."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Badge",
+        "text": "A casino security badge was found wedged behind the victim's chair. The magnetic strip shows it was used to access restricted areas at 11:47 PM.",
+        "alone": "Someone with security clearance was present during the murder.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The security badge belongs to Claude Dubois, placing him at the scene during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Croupier Statement",
+        "text": "The head croupier saw Margot Beaumont arguing loudly with the victim about unpaid debts. She threatened to 'make him pay one way or another.'",
+        "alone": "Margot had a heated confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Despite the public argument, Margot was playing poker in full view when the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🎫",
+        "heading": "Diplomatic Pouch",
+        "text": "A Soviet diplomatic pouch was discovered near the crime scene. Inside were forged casino chips and encrypted communications.",
+        "alone": "Someone was involved in counterfeiting and espionage operations.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The diplomatic pouch belongs to Viktor Petrov, but he was attending an official embassy function during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "💉",
+        "heading": "Toxicology Report",
+        "text": "The victim died from a rare neurotoxin delivered through a small puncture wound. Death was nearly instantaneous.",
+        "alone": "The victim was killed with an exotic poison.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The poison was delivered in the service elevator, where the victim was found slumped against the controls."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "🆔",
+        "heading": "Badge Registry",
+        "text": "Security logs show badge #247 belongs to Claude Dubois. The same badge was reported 'temporarily misplaced' three days ago.",
+        "alone": "Claude Dubois' security badge was missing before the murder.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The security badge belongs to Claude Dubois, placing him at the scene during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Poker Game",
+        "text": "Casino cameras show Margot playing high-stakes poker from 11:30 PM to midnight. She never left the main floor.",
+        "alone": "Margot has a solid alibi for the murder timeframe.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Despite the public argument, Margot was playing poker in full view when the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Embassy Records",
+        "text": "Viktor Petrov was attending a formal reception at the Soviet Embassy from 10 PM to 1 AM. Dozens of witnesses confirm his presence.",
+        "alone": "Viktor has an unshakeable diplomatic alibi.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The diplomatic pouch belongs to Viktor Petrov, but he was attending an official embassy function during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "🛗",
+        "heading": "Elevator Security",
+        "text": "The service elevator requires a security badge to operate. Blood traces and signs of struggle were found inside the car.",
+        "alone": "The murder occurred in the secure service elevator.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The poison was delivered in the service elevator, where the victim was found slumped against the controls."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Claude Dubois",
+      "weapon": "Poison Ring",
+      "location": "Service Elevator"
+    },
+    "epilogue": "Claude Dubois had been feeding information to rival casinos for months, and the victim had discovered his treachery. Facing exposure and imprisonment, Claude lured the victim to the service elevator using his security access. With a quick jab from his poison ring, he silenced the only witness to his crimes. The gambling den's security chief had made his final, fatal bet."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Monaco Gambit",
+    "tier": "detective",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "flavor": "The roulette wheel stopped spinning hours ago, but the real game was just beginning. Someone placed their final bet tonight.",
+    "emptyState": "In Monte Carlo, the house always wins. Tonight, someone lost everything.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Claude Dubois",
+            "icon": "💼",
+            "detail": "Casino security chief with access to all areas."
+          },
+          {
+            "name": "Margot Beaumont",
+            "icon": "💎",
+            "detail": "High-stakes gambler owing substantial debts."
+          },
+          {
+            "name": "Viktor Petrov",
+            "icon": "🕴️",
+            "detail": "Soviet cultural attaché with diplomatic immunity."
+          },
+          {
+            "name": "Isabella Romano",
+            "icon": "🌹",
+            "detail": "Italian countess and art dealer."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Professional weapon found in service corridor."
+          },
+          {
+            "name": "Poison Ring",
+            "icon": "💍",
+            "detail": "Hollow signet ring containing deadly toxin."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎹",
+            "detail": "Thin wire from the lounge piano."
+          },
+          {
+            "name": "Crystal Shard",
+            "icon": "💎",
+            "detail": "Sharp fragment from broken champagne flute."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Gaming Room",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller suite on third floor."
+          },
+          {
+            "name": "Casino Vault",
+            "icon": "🏦",
+            "detail": "Underground secure area for valuables."
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only lift between floors."
+          },
+          {
+            "name": "Champagne Bar",
+            "icon": "🥂",
+            "detail": "Upscale lounge overlooking the main floor."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Witness Silencing",
+            "icon": "🤫",
+            "detail": "Victim knew damaging secrets about illegal activities."
+          },
+          {
+            "name": "Gambling Debts",
+            "icon": "💸",
+            "detail": "Massive financial obligations to dangerous people."
+          },
+          {
+            "name": "Espionage Cover",
+            "icon": "🕵️",
+            "detail": "Protecting state secrets from exposure."
+          },
+          {
+            "name": "Art Forgery",
+            "icon": "🎨",
+            "detail": "Concealing fake masterpiece transactions."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Badge",
+        "text": "A casino security badge was found wedged behind the victim's chair. The magnetic strip shows it was used to access restricted areas at 11:47 PM.",
+        "alone": "Someone with security clearance was present during the murder.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The security badge belongs to Claude Dubois, placing him at the scene during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender Account",
+        "text": "The champagne bar tender swears he saw Margot Beaumont leave through the main exit at 11:30 PM, well before the murder occurred.",
+        "alone": "Margot apparently left before the murder happened.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The bartender was mistaken - he saw Isabella's coat on another woman leaving while Isabella remained inside."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Insurance Documents",
+        "text": "The victim's briefcase contained insurance papers for a stolen Monet painting. The documents list Isabella Romano as the original owner and beneficiary.",
+        "alone": "Isabella had financial interest in recovering a stolen artwork.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Isabella Romano was being blackmailed by the victim who knew her 'stolen' Monet was actually a forgery she created herself."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Forensic Analysis",
+        "text": "Paint residue under the victim's fingernails matches rare pigments used in art restoration. The victim had been handling artwork recently. Viktor Petrov was nowhere near the scene.",
+        "alone": "The victim was involved with valuable paintings and Viktor was elsewhere.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The victim discovered Isabella's art forgery operation and was demanding payment to keep quiet."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🆔",
+        "heading": "Badge Registry",
+        "text": "Security logs show badge #247 belongs to Claude Dubois. The same badge was reported 'temporarily misplaced' three days ago.",
+        "alone": "Claude Dubois' security badge was missing before the murder.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The security badge belongs to Claude Dubois, placing him at the scene during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🧥",
+        "heading": "Coat Check",
+        "text": "Isabella Romano's distinctive red coat was borrowed by Margot Beaumont who left early. Isabella remained in the casino wearing a borrowed black jacket.",
+        "alone": "Isabella never actually left the casino while Margot did.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The bartender was mistaken - he saw Isabella's coat on another woman leaving while Isabella remained inside."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Bank Records",
+        "text": "Recent transactions show Isabella Romano received insurance payouts for the 'stolen' Monet while simultaneously selling identical pieces to private collectors. Art forgery exposed.",
+        "alone": "Isabella was running an art fraud scheme concealing fake masterpieces.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Isabella Romano was being blackmailed by the victim who knew her 'stolen' Monet was actually a forgery she created herself."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Phone Records",
+        "text": "The victim made three calls to Isabella Romano yesterday, each lasting over twenty minutes. Hotel staff reported heated arguments. He threatened to expose her service elevator meetings.",
+        "alone": "The victim was pressuring Isabella about something important in the service elevator.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The victim discovered Isabella's art forgery operation and was demanding payment to keep quiet."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Romano",
+      "weapon": "Poison Ring",
+      "location": "Service Elevator",
+      "motive": "Art Forgery"
+    },
+    "epilogue": "Isabella Romano had built her fortune on masterful forgeries, collecting insurance on 'stolen' originals while selling copies to unsuspecting collectors. When the victim uncovered her elaborate scheme, he demanded a fortune to stay silent. Desperate to protect her reputation and freedom, Isabella used her poison ring in the service elevator to silence the blackmailer forever. The countess had painted herself into a corner, and murder was her only escape from the masterpiece of deception she had created."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Monaco Gambit",
+    "tier": "inspector",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "flavor": "The roulette wheel stopped spinning hours ago, but the real game was just beginning. Someone placed their final bet tonight.",
+    "emptyState": "In Monte Carlo, the house always wins. Tonight, someone lost everything.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Claude Dubois",
+            "icon": "💼",
+            "detail": "Casino security chief with access to all areas."
+          },
+          {
+            "name": "Margot Beaumont",
+            "icon": "💎",
+            "detail": "High-stakes gambler owing substantial debts."
+          },
+          {
+            "name": "Viktor Petrov",
+            "icon": "🕴️",
+            "detail": "Soviet cultural attaché with diplomatic immunity."
+          },
+          {
+            "name": "Isabella Romano",
+            "icon": "🌹",
+            "detail": "Italian countess and art dealer."
+          },
+          {
+            "name": "Henri Martineau",
+            "icon": "🎩",
+            "detail": "French antiquities broker and casino regular."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Professional weapon found in service corridor."
+          },
+          {
+            "name": "Poison Ring",
+            "icon": "💍",
+            "detail": "Hollow signet ring containing deadly toxin."
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎹",
+            "detail": "Thin wire from the lounge piano."
+          },
+          {
+            "name": "Crystal Shard",
+            "icon": "💎",
+            "detail": "Sharp fragment from broken champagne flute."
+          },
+          {
+            "name": "Stiletto Blade",
+            "icon": "🗡️",
+            "detail": "Concealed knife hidden in walking cane."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Gaming Room",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller suite on third floor."
+          },
+          {
+            "name": "Casino Vault",
+            "icon": "🏦",
+            "detail": "Underground secure area for valuables."
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only lift between floors."
+          },
+          {
+            "name": "Champagne Bar",
+            "icon": "🥂",
+            "detail": "Upscale lounge overlooking the main floor."
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🏢",
+            "detail": "Exclusive outdoor area for VIP guests."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Witness Silencing",
+            "icon": "🤫",
+            "detail": "Victim knew damaging secrets about illegal activities."
+          },
+          {
+            "name": "Gambling Debts",
+            "icon": "💸",
+            "detail": "Massive financial obligations to dangerous people."
+          },
+          {
+            "name": "Espionage Cover",
+            "icon": "🕵️",
+            "detail": "Protecting state secrets from exposure."
+          },
+          {
+            "name": "Art Forgery",
+            "icon": "🎨",
+            "detail": "Concealing fake masterpiece transactions."
+          },
+          {
+            "name": "Antiquities Theft",
+            "icon": "🏺",
+            "detail": "Hiding stolen archaeological treasures."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Claude Dubois",
+            "icon": "💼",
+            "detail": "Provided security access and covered tracks."
+          },
+          {
+            "name": "Margot Beaumont",
+            "icon": "💎",
+            "detail": "Created distractions and false alibis."
+          },
+          {
+            "name": "Viktor Petrov",
+            "icon": "🕴️",
+            "detail": "Used diplomatic immunity to transport evidence."
+          },
+          {
+            "name": "Isabella Romano",
+            "icon": "🌹",
+            "detail": "Supplied forged documents and fake identities."
+          },
+          {
+            "name": "Henri Martineau",
+            "icon": "🎩",
+            "detail": "Laundered stolen artifacts through legitimate sales."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Badge",
+        "text": "A casino security badge was found wedged behind the victim's chair. The magnetic strip shows it was used to access restricted areas at 11:47 PM.",
+        "alone": "Someone with security clearance was present during the murder.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The security badge was stolen from Claude Dubois by Isabella Romano, who used it to access the service elevator where she killed the victim."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender Account",
+        "text": "The champagne bar tender swears he saw Margot Beaumont leave through the main exit at 11:30 PM, well before the murder occurred.",
+        "alone": "Margot apparently left before the murder happened.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The bartender was deliberately misled by Henri Martineau, who paid him to provide false testimony about Isabella's whereabouts."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🏺",
+        "heading": "Ancient Artifacts",
+        "text": "The victim's hotel room contained photographs of stolen Etruscan vases. Notes indicate he was investigating smuggling operations through Monaco's antiquities market.",
+        "alone": "The victim was tracking stolen archaeological treasures.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Henri Martineau was the mastermind of the antiquities smuggling ring that Isabella helped operate through forged provenance documents."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Swiss Bank Account",
+        "text": "Financial records reveal Henri Martineau recently transferred 2 million francs to an account linked to several shell companies and fake identities.",
+        "alone": "Henri was moving large amounts of money through suspicious channels.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Henri Martineau orchestrated the murder plot and used Isabella Romano as his assassin while he maintained perfect alibis."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "📹",
+        "heading": "Hidden Camera",
+        "text": "A concealed security camera shows Isabella Romano picking Claude Dubois' pocket during a crowded roulette game. She expertly lifted his badge and key card.",
+        "alone": "Isabella stole Claude's security credentials.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The security badge was stolen from Claude Dubois by Isabella Romano, who used it to access the service elevator where she killed the victim."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "💵",
+        "heading": "Bribe Payment",
+        "text": "Bank records show Henri Martineau paid the champagne bartender 5,000 francs yesterday. The payment memo reads 'consultation services - future business.' Viktor Petrov was not involved.",
+        "alone": "Henri bribed the bartender while Viktor was excluded from the scheme.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The bartender was deliberately misled by Henri Martineau, who paid him to provide false testimony about Isabella's whereabouts."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Forged Provenance",
+        "text": "Art authentication documents in Isabella's possession show she created fake histories for stolen antiquities. Her signature appears on papers for the exact artifacts the victim was investigating.",
+        "alone": "Isabella forged documentation for stolen artifacts.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Henri Martineau was the mastermind of the antiquities smuggling ring that Isabella helped operate through forged provenance documents."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Coded Messages",
+        "text": "Intercepted phone calls between Henri and Isabella use art terminology as code. References to 'restoration work' and 'permanent exhibition' preceded the victim's death by hours.",
+        "alone": "Henri and Isabella communicated in code about deadly plans.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Henri Martineau orchestrated the murder plot and used Isabella Romano as his assassin while he maintained perfect alibis."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Romano",
+      "weapon": "Poison Ring",
+      "location": "Service Elevator",
+      "motive": "Antiquities Theft",
+      "accomplice": "Henri Martineau"
+    },
+    "epilogue": "Isabella Romano and Henri Martineau had built a lucrative empire smuggling stolen antiquities through Monaco's exclusive art market. When the victim uncovered their operation, Henri orchestrated an elaborate murder plot from the shadows while maintaining perfect alibis. Isabella executed the plan, stealing Claude's security badge, bribing witnesses through Henri's connections, and using her poison ring to silence their blackmailer in the service elevator. The countess was merely the beautiful face of a deadly partnership, with Henri pulling the strings from behind the scenes. Their masterpiece of deception crumbled when the evidence revealed the antiquities dealer as the true architect of murder."
+  }
+}
