@@ -1,0 +1,678 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #039",
+    "title": "The Depth Charge",
+    "setting": "Submarine Base · Reykjavik · 1943",
+    "emoji": "🚢",
+    "flavor": "The war brought strange alliances to this frozen outpost. When Commander Bjornsson was found dead in his quarters, the shadows seemed to whisper of betrayal from within.",
+    "emptyState": "Even submarines have nowhere to hide from murder.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Erik Magnusson",
+            "icon": "⚓",
+            "detail": "Navigation officer with gambling debts"
+          },
+          {
+            "name": "Sigrid Thorsdottir",
+            "icon": "📋",
+            "detail": "Base communications officer, fiercely patriotic"
+          },
+          {
+            "name": "Captain Hans Mueller",
+            "icon": "🎖️",
+            "detail": "German defector seeking asylum"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Heavy wrench",
+            "icon": "🔧",
+            "detail": "Standard submarine maintenance tool"
+          },
+          {
+            "name": "Signal lamp",
+            "icon": "💡",
+            "detail": "Metal communications equipment"
+          },
+          {
+            "name": "Depth charge detonator",
+            "icon": "💥",
+            "detail": "Explosive timing device"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Commander's quarters",
+            "icon": "🏠",
+            "detail": "Private cabin with locked door"
+          },
+          {
+            "name": "Communications room",
+            "icon": "📻",
+            "detail": "Restricted access radio facility"
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Loud mechanical area below deck"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Bloody Tool",
+        "text": "A heavy wrench lies beside Commander Bjornsson's body, blood still wet on the metal.",
+        "alone": "The murder weapon was a heavy wrench.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Strange Sounds",
+        "text": "Petty Officer Johansson heard metal clanging from the commander's quarters at 2300 hours.",
+        "alone": "Metal sounds came from the commander's quarters.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Gambling Debts",
+        "text": "Lieutenant Erik Magnusson owes substantial money to Reykjavik bookmakers, with threats escalating recently.",
+        "alone": "Erik Magnusson has serious gambling debts.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Locked Door",
+        "text": "The commander's quarters were locked from inside when his body was discovered this morning.",
+        "alone": "The room was locked from inside.",
+        "links": []
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "🧤",
+        "heading": "Work Gloves",
+        "text": "Captain Hans Mueller's work gloves show fresh blood stains despite his claims of mechanical work.",
+        "alone": "Mueller's gloves have suspicious blood stains.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Mueller used the bloody wrench while wearing his work gloves, directly linking him to the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Hidden Payment",
+        "text": "Commander Bjornsson had promised Erik Magnusson money to cover his debts by week's end.",
+        "alone": "The commander was helping Erik with money.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Since Bjornsson was helping Erik financially, Erik had no reason to kill him, eliminating the obvious suspect."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📡",
+        "heading": "Radio Contact",
+        "text": "Sigrid Thorsdottir was monitoring German submarine movements all night from the communications room.",
+        "alone": "Sigrid was on radio duty all night.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Sigrid's confirmed presence in communications proves she couldn't have confronted Erik about his debts."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "🗝️",
+        "heading": "Master Key",
+        "text": "Captain Hans Mueller possessed the only master key to all base quarters, kept secret from other staff.",
+        "alone": "Mueller had secret access to all rooms.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Mueller used his master key to enter the locked commander's quarters, explaining how he accessed the crime scene."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Hans Mueller",
+      "weapon": "Heavy wrench",
+      "location": "Commander's quarters"
+    },
+    "epilogue": "Captain Hans Mueller, desperate to prevent his war crimes from being exposed to Allied command, killed the one man who knew his true identity. Using his secret master key, he entered Bjornsson's quarters and struck him down with a heavy wrench. The German defector's quest for redemption ended in the very betrayal he sought to escape.",
+    "timerSeconds": 600
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #039",
+    "title": "The Depth Charge",
+    "setting": "Submarine Base · Reykjavik · 1943",
+    "emoji": "🚢",
+    "flavor": "The war brought strange alliances to this frozen outpost. When Commander Bjornsson was found dead in his quarters, the shadows seemed to whisper of betrayal from within.",
+    "emptyState": "Even submarines have nowhere to hide from murder.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Erik Magnusson",
+            "icon": "⚓",
+            "detail": "Navigation officer with gambling debts"
+          },
+          {
+            "name": "Sigrid Thorsdottir",
+            "icon": "📋",
+            "detail": "Base communications officer, fiercely patriotic"
+          },
+          {
+            "name": "Captain Hans Mueller",
+            "icon": "🎖️",
+            "detail": "German defector seeking asylum"
+          },
+          {
+            "name": "Dr. Astrid Eriksdottir",
+            "icon": "⚕️",
+            "detail": "Base medical officer, recently widowed"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Heavy wrench",
+            "icon": "🔧",
+            "detail": "Standard submarine maintenance tool"
+          },
+          {
+            "name": "Signal lamp",
+            "icon": "💡",
+            "detail": "Metal communications equipment"
+          },
+          {
+            "name": "Depth charge detonator",
+            "icon": "💥",
+            "detail": "Explosive timing device"
+          },
+          {
+            "name": "Medical bone saw",
+            "icon": "🩺",
+            "detail": "Surgical instrument from infirmary"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Commander's quarters",
+            "icon": "🏠",
+            "detail": "Private cabin with locked door"
+          },
+          {
+            "name": "Communications room",
+            "icon": "📻",
+            "detail": "Restricted access radio facility"
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Loud mechanical area below deck"
+          },
+          {
+            "name": "Medical bay",
+            "icon": "🏥",
+            "detail": "Base infirmary and treatment area"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master key",
+            "icon": "🗝️",
+            "detail": "Universal access to all base areas"
+          },
+          {
+            "name": "Ventilation shaft",
+            "icon": "🌬️",
+            "detail": "Narrow maintenance passages between rooms"
+          },
+          {
+            "name": "Emergency override",
+            "icon": "🚨",
+            "detail": "Medical emergency door codes"
+          },
+          {
+            "name": "Window entry",
+            "icon": "🪟",
+            "detail": "External access through porthole"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Bloody Tool",
+        "text": "A heavy wrench lies beside Commander Bjornsson's body, blood still wet on the metal.",
+        "alone": "The murder weapon was a heavy wrench.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Eyewitness Account",
+        "text": "Seaman Gunnarsson swears he saw Dr. Astrid Eriksdottir leaving the commander's quarters at midnight.",
+        "alone": "A witness claims to have seen Dr. Eriksdottir leaving.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Gambling Debts",
+        "text": "Lieutenant Erik Magnusson owes substantial money to Reykjavik bookmakers, with threats escalating recently.",
+        "alone": "Erik Magnusson has serious gambling debts.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Secret Alliance",
+        "text": "Hidden documents reveal Captain Hans Mueller was secretly reporting base activities to German intelligence.",
+        "alone": "Mueller was a German double agent.",
+        "links": []
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🧤",
+        "heading": "Work Gloves",
+        "text": "Captain Hans Mueller's work gloves show fresh blood stains despite his claims of routine mechanical work.",
+        "alone": "Mueller's gloves have suspicious blood stains.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Mueller used the bloody wrench while wearing his work gloves, directly linking him to the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "😴",
+        "heading": "Night Blindness",
+        "text": "Seaman Gunnarsson suffers from severe night blindness, requiring thick glasses he wasn't wearing during his watch.",
+        "alone": "The witness has serious vision problems at night.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Gunnarsson's night blindness means his eyewitness identification of Dr. Eriksdottir was completely unreliable."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "🗝️",
+        "heading": "Master Key",
+        "text": "Captain Hans Mueller possessed the only master key to all base quarters, kept secret from command.",
+        "alone": "Mueller had secret access to all rooms.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Mueller's master key gave him access to bypass locked doors, unlike Erik who had no way to enter secured areas."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "💊",
+        "heading": "Medical Emergency",
+        "text": "Dr. Astrid Eriksdottir was treating a critical patient in the medical bay during the murder timeframe.",
+        "alone": "Dr. Eriksdottir had a patient emergency.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Dr. Eriksdottir's medical emergency alibi eliminates her, leaving Mueller as the only suspect with means and motive for espionage-related murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Hans Mueller",
+      "weapon": "Heavy wrench",
+      "location": "Commander's quarters",
+      "access": "Master key"
+    },
+    "epilogue": "Captain Hans Mueller, playing a deadly double game, killed Commander Bjornsson when his espionage was about to be exposed. Using his secret master key to access the commander's quarters, he struck him down with a heavy wrench. The supposed defector's quest for Allied acceptance was nothing more than an elaborate cover for his continued loyalty to the Reich.",
+    "timerSeconds": 600
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #039",
+    "title": "The Depth Charge",
+    "setting": "Submarine Base · Reykjavik · 1943",
+    "emoji": "🚢",
+    "flavor": "The war brought strange alliances to this frozen outpost. When Commander Bjornsson was found dead in his quarters, the shadows seemed to whisper of betrayal from within.",
+    "emptyState": "Even submarines have nowhere to hide from murder.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Erik Magnusson",
+            "icon": "⚓",
+            "detail": "Navigation officer with gambling debts"
+          },
+          {
+            "name": "Sigrid Thorsdottir",
+            "icon": "📋",
+            "detail": "Base communications officer, fiercely patriotic"
+          },
+          {
+            "name": "Captain Hans Mueller",
+            "icon": "🎖️",
+            "detail": "German defector seeking asylum"
+          },
+          {
+            "name": "Dr. Astrid Eriksdottir",
+            "icon": "⚕️",
+            "detail": "Base medical officer, recently widowed"
+          },
+          {
+            "name": "Petty Officer Lars Johansson",
+            "icon": "⚡",
+            "detail": "Electrical systems specialist, devoutly religious"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Heavy wrench",
+            "icon": "🔧",
+            "detail": "Standard submarine maintenance tool"
+          },
+          {
+            "name": "Signal lamp",
+            "icon": "💡",
+            "detail": "Metal communications equipment"
+          },
+          {
+            "name": "Depth charge detonator",
+            "icon": "💥",
+            "detail": "Explosive timing device"
+          },
+          {
+            "name": "Medical bone saw",
+            "icon": "🩺",
+            "detail": "Surgical instrument from infirmary"
+          },
+          {
+            "name": "Electrical conduit",
+            "icon": "⚡",
+            "detail": "Heavy copper wiring component"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Commander's quarters",
+            "icon": "🏠",
+            "detail": "Private cabin with locked door"
+          },
+          {
+            "name": "Communications room",
+            "icon": "📻",
+            "detail": "Restricted access radio facility"
+          },
+          {
+            "name": "Engine room",
+            "icon": "⚙️",
+            "detail": "Loud mechanical area below deck"
+          },
+          {
+            "name": "Medical bay",
+            "icon": "🏥",
+            "detail": "Base infirmary and treatment area"
+          },
+          {
+            "name": "Electrical workshop",
+            "icon": "🔌",
+            "detail": "Maintenance area for base power systems"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master key",
+            "icon": "🗝️",
+            "detail": "Universal access to all base areas"
+          },
+          {
+            "name": "Ventilation shaft",
+            "icon": "🌬️",
+            "detail": "Narrow maintenance passages between rooms"
+          },
+          {
+            "name": "Emergency override",
+            "icon": "🚨",
+            "detail": "Medical emergency door codes"
+          },
+          {
+            "name": "Window entry",
+            "icon": "🪟",
+            "detail": "External access through porthole"
+          },
+          {
+            "name": "Power shutdown",
+            "icon": "🔌",
+            "detail": "Electrical system manipulation for entry"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Sigrid Thorsdottir",
+            "icon": "📋",
+            "detail": "Provided communication intercepts and timing"
+          },
+          {
+            "name": "Dr. Astrid Eriksdottir",
+            "icon": "⚕️",
+            "detail": "Created false medical emergency as cover"
+          },
+          {
+            "name": "Lieutenant Erik Magnusson",
+            "icon": "⚓",
+            "detail": "Shared navigation codes and route information"
+          },
+          {
+            "name": "Petty Officer Lars Johansson",
+            "icon": "⚡",
+            "detail": "Disabled security lighting and alarms"
+          },
+          {
+            "name": "Seaman Gunnarsson",
+            "icon": "👁️",
+            "detail": "Provided false witness testimony as distraction"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Bloody Tool",
+        "text": "A heavy wrench lies beside Commander Bjornsson's body, blood still wet on the metal.",
+        "alone": "The murder weapon was a heavy wrench.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Eyewitness Account",
+        "text": "Seaman Gunnarsson swears he saw Dr. Astrid Eriksdottir leaving the commander's quarters at midnight.",
+        "alone": "A witness claims to have seen Dr. Eriksdottir leaving.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "💡",
+        "heading": "Power Failure",
+        "text": "Base security lighting mysteriously failed for exactly twelve minutes during the murder timeframe.",
+        "alone": "Security lights were deliberately disabled during the murder.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Secret Alliance",
+        "text": "Hidden documents reveal Captain Hans Mueller was secretly reporting base activities to German intelligence.",
+        "alone": "Mueller was a German double agent.",
+        "links": []
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🧤",
+        "heading": "Work Gloves",
+        "text": "Captain Hans Mueller's work gloves show fresh blood stains despite his claims of routine mechanical work.",
+        "alone": "Mueller's gloves have suspicious blood stains.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Mueller used the bloody wrench while wearing his work gloves, directly linking him to the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "😴",
+        "heading": "Night Blindness",
+        "text": "Seaman Gunnarsson suffers from severe night blindness, making his identification completely unreliable.",
+        "alone": "The witness has serious vision problems at night.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Gunnarsson's night blindness proves his testimony was fabricated, making him complicit in providing false evidence."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "⚡",
+        "heading": "Electrical Logs",
+        "text": "Petty Officer Lars Johansson's work logs show he was in the electrical workshop exactly when the lights failed.",
+        "alone": "Johansson was working on electrical systems during the blackout.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Johansson deliberately disabled the security lighting to help Mueller move unseen, making him Mueller's accomplice."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Payment Records",
+        "text": "Recent German gold coins were found hidden in Petty Officer Lars Johansson's personal effects.",
+        "alone": "Johansson had suspicious German currency.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The German gold payment proves Johansson was working with Mueller's espionage operation, confirming their collaboration."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Hans Mueller",
+      "weapon": "Heavy wrench",
+      "location": "Commander's quarters",
+      "access": "Master key",
+      "accomplice": "Petty Officer Lars Johansson"
+    },
+    "epilogue": "Captain Hans Mueller's elaborate deception finally unraveled when Commander Bjornsson discovered his double agent activities. Using his secret master key to access the commander's quarters, Mueller struck him down with a heavy wrench while Petty Officer Lars Johansson disabled the security lighting for cover. The German's supposed defection was nothing more than an intricate espionage operation, with Johansson recruited through German gold and religious manipulation. Both men's betrayal of their adopted country ended in the cold justice of a wartime tribunal.",
+    "timerSeconds": 480
+  }
+}
