@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #038",
+    "title": "Silent Sanctuary",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The mountain winds howl through ancient stone corridors where prayer wheels spin endlessly. When enlightenment meets earthly greed, someone's final meditation becomes permanent.",
+    "emptyState": "In sacred halls, one soul has achieved eternal silence.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Tenzin",
+            "icon": "👨‍🦳",
+            "detail": "Elderly head monk, keeper of monastery treasures"
+          },
+          {
+            "name": "Pemba Norbu",
+            "icon": "🧑‍💼",
+            "detail": "Visiting British explorer disguised as pilgrim"
+          },
+          {
+            "name": "Dolma Yangchen",
+            "icon": "👩‍🍳",
+            "detail": "Local woman providing kitchen services"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prayer Bell",
+            "icon": "🔔",
+            "detail": "Heavy bronze ceremonial bell"
+          },
+          {
+            "name": "Ritual Dagger",
+            "icon": "🗡️",
+            "detail": "Sacred phurba used in ceremonies"
+          },
+          {
+            "name": "Stone Pestle",
+            "icon": "🥄",
+            "detail": "Kitchen tool for grinding barley"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer Hall",
+            "icon": "🏛️",
+            "detail": "Main meditation chamber with golden statues"
+          },
+          {
+            "name": "Bell Tower",
+            "icon": "🗼",
+            "detail": "High stone tower overlooking valley"
+          },
+          {
+            "name": "Kitchen Courtyard",
+            "icon": "🍲",
+            "detail": "Enclosed area for food preparation"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🍂",
+        "heading": "Barley Flour Traces",
+        "text": "Kitchen courtyard stone pestle shows fresh blood traces mixed with barley flour.",
+        "alone": "The murder weapon was used for food preparation.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dolma Yangchen's kitchen duties and the bloodied stone pestle in the kitchen courtyard prove she killed Brother Norbu with her familiar grinding tool."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Heated Argument",
+        "text": "Young monk saw Lama Tenzin shouting at Brother Norbu about 'stolen sacred items' yesterday.",
+        "alone": "The head monk had serious grievances with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Lama Tenzin's anger about theft was justified - Brother Norbu was indeed stealing artifacts, but the lama's alibi clears him of murder."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "👕",
+        "heading": "Clean Robes",
+        "text": "Pemba Norbu's explorer clothes are spotless, no blood or struggle signs anywhere.",
+        "alone": "This suspect shows no physical evidence of the crime.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Pemba Norbu's clean clothing and presence in the bell tower during the murder time eliminate him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "discovery",
+        "icon": "🏺",
+        "heading": "Hidden Artifacts",
+        "text": "Brother Norbu's body found in kitchen courtyard clutching stolen golden Buddha statue.",
+        "alone": "The victim was killed while stealing monastery treasures.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Brother Norbu was killed in the kitchen courtyard while stealing artifacts, confirming both the location and his criminal activity."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "personal",
+        "icon": "👩‍🍳",
+        "heading": "Kitchen Access",
+        "text": "Dolma Yangchen works daily in kitchen courtyard, has exclusive access to stone pestle.",
+        "alone": "Only one person regularly handles the murder weapon.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dolma Yangchen's kitchen duties and the bloodied stone pestle in the kitchen courtyard prove she killed Brother Norbu with her familiar grinding tool."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "🙏",
+        "heading": "Evening Prayers",
+        "text": "Lama Tenzin led meditation session in prayer hall when Brother Norbu died.",
+        "alone": "The head monk has witnesses for the murder time.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Lama Tenzin's anger about theft was justified - Brother Norbu was indeed stealing artifacts, but the lama's alibi clears him of murder."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "🔭",
+        "heading": "Star Watching",
+        "text": "Pemba Norbu was photographing constellations from bell tower during the murder.",
+        "alone": "The explorer was elsewhere when the crime occurred.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Pemba Norbu's clean clothing and presence in the bell tower during the murder time eliminate him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "motive",
+        "icon": "💰",
+        "heading": "Protecting Sacred Items",
+        "text": "Dolma Yangchen's family has served monastery for generations, fiercely protective of its treasures.",
+        "alone": "The killer had deep personal investment in monastery property.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Brother Norbu was killed in the kitchen courtyard while stealing artifacts, confirming both the location and his criminal activity."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dolma Yangchen",
+      "weapon": "Stone Pestle",
+      "location": "Kitchen Courtyard"
+    },
+    "epilogue": "Dolma Yangchen struck Brother Norbu with her stone pestle when she discovered him stealing the golden Buddha from the kitchen courtyard storage. Her family's generations of faithful service made her unable to tolerate such desecration. The quiet kitchen worker became a fierce guardian, defending sacred artifacts with deadly force. Though Lama Tenzin's anger was justified, only Dolma acted on protective instincts. She now faces earthly justice for her spiritual devotion."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #038",
+    "title": "Silent Sanctuary",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The mountain winds howl through ancient stone corridors where prayer wheels spin endlessly. When enlightenment meets earthly greed, someone's final meditation becomes permanent.",
+    "emptyState": "In sacred halls, one soul has achieved eternal silence.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Tenzin",
+            "icon": "👨‍🦳",
+            "detail": "Elderly head monk, keeper of treasures"
+          },
+          {
+            "name": "Pemba Norbu",
+            "icon": "🧑‍💼",
+            "detail": "British explorer disguised as pilgrim"
+          },
+          {
+            "name": "Dolma Yangchen",
+            "icon": "👩‍🍳",
+            "detail": "Local woman providing kitchen services"
+          },
+          {
+            "name": "Karma Wangdu",
+            "icon": "👨‍🔧",
+            "detail": "Monastery maintenance worker and handyman"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prayer Bell",
+            "icon": "🔔",
+            "detail": "Heavy bronze ceremonial bell"
+          },
+          {
+            "name": "Ritual Dagger",
+            "icon": "🗡️",
+            "detail": "Sacred phurba used in ceremonies"
+          },
+          {
+            "name": "Stone Pestle",
+            "icon": "🥄",
+            "detail": "Kitchen tool for grinding barley"
+          },
+          {
+            "name": "Iron Hammer",
+            "icon": "🔨",
+            "detail": "Maintenance tool for repairs"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer Hall",
+            "icon": "🏛️",
+            "detail": "Main meditation chamber with statues"
+          },
+          {
+            "name": "Bell Tower",
+            "icon": "🗼",
+            "detail": "High stone tower overlooking valley"
+          },
+          {
+            "name": "Kitchen Courtyard",
+            "icon": "🍲",
+            "detail": "Enclosed area for food preparation"
+          },
+          {
+            "name": "Storage Cellar",
+            "icon": "📦",
+            "detail": "Underground room for supplies"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Master Keys",
+            "icon": "🗝️",
+            "detail": "Administrative access to all areas"
+          },
+          {
+            "name": "Kitchen Service",
+            "icon": "🍽️",
+            "detail": "Daily work permits entry"
+          },
+          {
+            "name": "Guest Permission",
+            "icon": "📋",
+            "detail": "Visitor access to common areas"
+          },
+          {
+            "name": "Maintenance Duties",
+            "icon": "🔧",
+            "detail": "Repair work requires building access"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🍂",
+        "heading": "Barley Flour Traces",
+        "text": "Kitchen courtyard stone pestle shows fresh blood mixed with barley flour residue.",
+        "alone": "The murder weapon was a kitchen grinding tool.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dolma Yangchen's exclusive kitchen service access and the bloodied stone pestle in the kitchen courtyard prove she killed Brother Norbu with her familiar tool."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Mistaken Identity",
+        "text": "Elderly monk swears he saw Karma Wangdu arguing violently with Brother Norbu near the storage cellar.",
+        "alone": "A credible witness places the handyman in conflict with the victim.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The elderly monk's poor eyesight caused him to mistake Pemba Norbu for Karma Wangdu during the argument about stolen artifacts."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "Missing Master Keys",
+        "text": "Lama Tenzin's master keys found hidden under kitchen courtyard stones near the body.",
+        "alone": "Someone used the head monk's administrative access illegally.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Dolma Yangchen stole Lama Tenzin's master keys to access the storage cellar and catch Brother Norbu stealing artifacts in the kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "alibi",
+        "icon": "🔨",
+        "heading": "Repair Schedule",
+        "text": "Karma Wangdu was fixing bell tower mechanisms all evening, three monks confirm his presence.",
+        "alone": "The maintenance worker has solid witnesses for the murder time.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Karma Wangdu's confirmed presence in the bell tower during the murder eliminates him, despite the witness mistaking his identity earlier."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "personal",
+        "icon": "👩‍🍳",
+        "heading": "Daily Kitchen Service",
+        "text": "Dolma Yangchen works exclusively in kitchen courtyard, uses stone pestle for barley preparation daily.",
+        "alone": "Only one person regularly handles the murder weapon location.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dolma Yangchen's exclusive kitchen service access and the bloodied stone pestle in the kitchen courtyard prove she killed Brother Norbu with her familiar tool."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "medical",
+        "icon": "👓",
+        "heading": "Poor Eyesight",
+        "text": "Elderly monk witness suffers from severe cataracts, often confuses people's identities.",
+        "alone": "The key witness has significant vision problems affecting testimony reliability.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The elderly monk's poor eyesight caused him to mistake Pemba Norbu for Karma Wangdu during the argument about stolen artifacts."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "discovery",
+        "icon": "🏺",
+        "heading": "Artifact Theft",
+        "text": "Brother Norbu found dead clutching golden Buddha, kitchen service access allowed Dolma to catch him stealing.",
+        "alone": "The victim was killed while committing theft in an area requiring special access.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dolma Yangchen stole Lama Tenzin's master keys to access the storage cellar and catch Brother Norbu stealing artifacts in the kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Murder Timing",
+        "text": "Brother Norbu died between 8-9 PM while Karma Wangdu was verified working in bell tower.",
+        "alone": "The crime occurred when the suspected handyman was elsewhere with witnesses.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Karma Wangdu's confirmed presence in the bell tower during the murder eliminates him, despite the witness mistaking his identity earlier."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dolma Yangchen",
+      "weapon": "Stone Pestle",
+      "location": "Kitchen Courtyard",
+      "access": "Kitchen Service"
+    },
+    "epilogue": "Dolma Yangchen used her kitchen service access to discover Brother Norbu stealing the golden Buddha from the storage areas connected to the kitchen courtyard. She struck him with her stone pestle in protective fury, defending treasures her family had served for generations. After stealing Lama Tenzin's master keys to track the thief, she became both witness and executioner. Though Karma Wangdu was suspected due to mistaken identity, only Dolma had the means, access, and motivation. Her devotion to the monastery's sacred artifacts ultimately led to her downfall."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #038",
+    "title": "Silent Sanctuary",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The mountain winds howl through ancient stone corridors where prayer wheels spin endlessly. When enlightenment meets earthly greed, someone's final meditation becomes permanent.",
+    "emptyState": "In sacred halls, one soul has achieved eternal silence.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Tenzin",
+            "icon": "👨‍🦳",
+            "detail": "Elderly head monk, keeper of treasures"
+          },
+          {
+            "name": "Pemba Norbu",
+            "icon": "🧑‍💼",
+            "detail": "British explorer disguised as pilgrim"
+          },
+          {
+            "name": "Dolma Yangchen",
+            "icon": "👩‍🍳",
+            "detail": "Local woman providing kitchen services"
+          },
+          {
+            "name": "Karma Wangdu",
+            "icon": "👨‍🔧",
+            "detail": "Monastery maintenance worker"
+          },
+          {
+            "name": "Sonam Choeden",
+            "icon": "👨‍🎓",
+            "detail": "Young scholar studying ancient texts"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prayer Bell",
+            "icon": "🔔",
+            "detail": "Heavy bronze ceremonial bell"
+          },
+          {
+            "name": "Ritual Dagger",
+            "icon": "🗡️",
+            "detail": "Sacred phurba used in ceremonies"
+          },
+          {
+            "name": "Stone Pestle",
+            "icon": "🥄",
+            "detail": "Kitchen tool for grinding barley"
+          },
+          {
+            "name": "Iron Hammer",
+            "icon": "🔨",
+            "detail": "Maintenance tool for repairs"
+          },
+          {
+            "name": "Manuscript Weight",
+            "icon": "📚",
+            "detail": "Heavy stone for pressing texts"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer Hall",
+            "icon": "🏛️",
+            "detail": "Main meditation chamber"
+          },
+          {
+            "name": "Bell Tower",
+            "icon": "🗼",
+            "detail": "High stone tower overlooking valley"
+          },
+          {
+            "name": "Kitchen Courtyard",
+            "icon": "🍲",
+            "detail": "Enclosed food preparation area"
+          },
+          {
+            "name": "Storage Cellar",
+            "icon": "📦",
+            "detail": "Underground supply room"
+          },
+          {
+            "name": "Scripture Library",
+            "icon": "📜",
+            "detail": "Ancient text repository"
+          }
+        ]
+      },
+      {
+        "key": "primary_access",
+        "label": "Primary Access",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Master Keys",
+            "icon": "🗝️",
+            "detail": "Administrative access to all areas"
+          },
+          {
+            "name": "Kitchen Service",
+            "icon": "🍽️",
+            "detail": "Daily work permits entry"
+          },
+          {
+            "name": "Guest Permission",
+            "icon": "📋",
+            "detail": "Visitor access to common areas"
+          },
+          {
+            "name": "Maintenance Duties",
+            "icon": "🔧",
+            "detail": "Repair work building access"
+          },
+          {
+            "name": "Scholar Access",
+            "icon": "📖",
+            "detail": "Research permission for libraries"
+          }
+        ]
+      },
+      {
+        "key": "secondary_access",
+        "label": "Secondary Access",
+        "icon": "🔓",
+        "items": [
+          {
+            "name": "Stolen Keys",
+            "icon": "🗝️",
+            "detail": "Illegally obtained master keys"
+          },
+          {
+            "name": "Hidden Passage",
+            "icon": "🕳️",
+            "detail": "Secret route through walls"
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Climbing through exterior openings"
+          },
+          {
+            "name": "Door Left Open",
+            "icon": "🚪",
+            "detail": "Opportunistic access through carelessness"
+          },
+          {
+            "name": "Accomplice Aid",
+            "icon": "🤝",
+            "detail": "Helper provided entry assistance"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🍂",
+        "heading": "Barley Flour Traces",
+        "text": "Kitchen courtyard stone pestle shows fresh blood mixed with barley flour and tiny manuscript fibers.",
+        "alone": "The murder weapon shows evidence of both kitchen use and scholarly materials.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dolma Yangchen used stolen keys to access areas beyond her kitchen service permissions, then killed Brother Norbu with her stone pestle in the kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "False Accusation",
+        "text": "Respected elder monk insists he clearly saw Sonam Choeden threatening Brother Norbu about 'manuscript secrets'.",
+        "alone": "A trusted witness places the young scholar in serious conflict with the victim.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The elder monk's failing vision caused him to mistake Dolma Yangchen for Sonam Choeden during her confrontation with Brother Norbu about the stolen artifacts."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "Hidden Master Keys",
+        "text": "Lama Tenzin's stolen keys found buried under kitchen courtyard stones, still warm from recent use.",
+        "alone": "Someone illegally used administrative access very recently at the murder scene.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Dolma Yangchen stole Lama Tenzin's master keys as secondary access to track Brother Norbu's theft from the storage areas connected to her kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "discovery",
+        "icon": "🤝",
+        "heading": "Secret Partnership",
+        "text": "Brother Norbu's journal reveals Sonam Choeden was helping him identify and catalog valuable manuscripts for theft.",
+        "alone": "The victim had an accomplice in his criminal activities at the monastery.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Sonam Choeden helped Brother Norbu steal artifacts by providing his scholar access to identify valuable items, making him an accomplice rather than the killer."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Access Pattern",
+        "text": "Security evidence shows kitchen service permissions used, then stolen keys activated for storage cellar access within minutes.",
+        "alone": "Someone escalated from legitimate to illegal access methods during the crime timeframe.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dolma Yangchen used stolen keys to access areas beyond her kitchen service permissions, then killed Brother Norbu with her stone pestle in the kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "medical",
+        "icon": "👓",
+        "heading": "Severe Cataracts",
+        "text": "Elder monk witness suffers from advanced eye disease, monastery records show multiple mistaken identity incidents recently.",
+        "alone": "The key witness has documented vision problems that frequently cause identification errors.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The elder monk's failing vision caused him to mistake Dolma Yangchen for Sonam Choeden during her confrontation with Brother Norbu about the stolen artifacts."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "motive",
+        "icon": "🏺",
+        "heading": "Generational Service",
+        "text": "Dolma Yangchen discovered Brother Norbu stealing golden Buddha using stolen keys to access storage areas connected to kitchen courtyard.",
+        "alone": "The killer caught the victim red-handed using illegal access methods to commit theft.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Dolma Yangchen stole Lama Tenzin's master keys as secondary access to track Brother Norbu's theft from the storage areas connected to her kitchen courtyard."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "alibi",
+        "icon": "📚",
+        "heading": "Library Research",
+        "text": "Sonam Choeden was cataloging manuscripts in scripture library during murder, using his scholar access legitimately that evening.",
+        "alone": "The accused accomplice was in a different location with documentation proving his presence.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Sonam Choeden helped Brother Norbu steal artifacts by providing his scholar access to identify valuable items, making him an accomplice rather than the killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dolma Yangchen",
+      "weapon": "Stone Pestle",
+      "location": "Kitchen Courtyard",
+      "primary_access": "Kitchen Service",
+      "secondary_access": "Stolen Keys"
+    },
+    "epilogue": "Dolma Yangchen discovered Brother Norbu's theft scheme through her kitchen service access, then stole Lama Tenzin's master keys to track the criminal activity. When she caught Brother Norbu with the golden Buddha in the storage areas connected to the kitchen courtyard, she struck him with her stone pestle in protective fury. Though Sonam Choeden was Brother Norbu's accomplice in identifying valuable artifacts using his scholar access, he remained in the scripture library during the actual murder. Dolma's generations of family service to the monastery made her unable to tolerate such desecration, leading her to become both detective and executioner."
+  }
+}
