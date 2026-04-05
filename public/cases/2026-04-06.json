@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "Silent Prayer",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The morning chants fell silent when Brother Tenzin was found dead in the prayer hall. In this sacred sanctuary, someone had committed the ultimate sin.",
+    "emptyState": "Even here, earthly violence pierces the mountain peace.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Norbu",
+            "icon": "🧘",
+            "detail": "Head monk, stern disciplinarian with iron will"
+          },
+          {
+            "name": "Brother Pemba",
+            "icon": "📿",
+            "detail": "Young novice, ambitious and secretly resentful"
+          },
+          {
+            "name": "Dr. Heinrich Keller",
+            "icon": "🔬",
+            "detail": "German archaeologist studying monastery artifacts"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial dagger",
+            "icon": "🗡️",
+            "detail": "Ornate ritual blade from the altar"
+          },
+          {
+            "name": "Heavy prayer bowl",
+            "icon": "🥣",
+            "detail": "Bronze singing bowl used in ceremonies"
+          },
+          {
+            "name": "Silk prayer scarf",
+            "icon": "🧣",
+            "detail": "Traditional khata scarf, surprisingly strong"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer hall",
+            "icon": "🏛️",
+            "detail": "Main worship chamber where body was found"
+          },
+          {
+            "name": "Bell tower",
+            "icon": "🔔",
+            "detail": "High stone tower overlooking the valley"
+          },
+          {
+            "name": "Meditation garden",
+            "icon": "🌸",
+            "detail": "Peaceful courtyard with stone benches"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🧣",
+        "heading": "Strangled Victim",
+        "text": "Brother Tenzin died from strangulation with a silk prayer scarf. The killer knew to use something that wouldn't make noise.",
+        "alone": "The murder weapon was a silk prayer scarf.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin with methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Midnight Sounds",
+        "text": "Brother Pemba heard arguing voices near the prayer hall at midnight. He recognized Brother Tenzin's voice and another speaking broken Tibetan.",
+        "alone": "Someone with poor Tibetan argued with the victim at midnight.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Brother Pemba's account of broken Tibetan speech combined with Dr. Heinrich Keller's language struggles proves the German was arguing with the victim before the murder."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📿",
+        "heading": "Bloodied Beads",
+        "text": "Lama Norbu's prayer beads were found with blood on them near the altar. He claims he cut himself during evening prayers.",
+        "alone": "Lama Norbu's prayer beads were bloodied near the crime scene.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The blood on Lama Norbu's prayer beads matches his self-inflicted cut from repairing the altar, eliminating him as a suspect despite the suspicious evidence."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "timeline",
+        "icon": "🕐",
+        "heading": "Prayer Hall Access",
+        "text": "The prayer hall doors were locked from inside when the body was discovered. Only someone hiding inside could have committed the murder.",
+        "alone": "The killer was already inside the locked prayer hall.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The prayer hall being locked from inside combined with Dr. Heinrich Keller hiding there proves he was concealed in the chamber when he killed Brother Tenzin."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "🪢",
+        "heading": "Germanic Knot",
+        "text": "The silk prayer scarf was tied with an unusual Germanic slip knot. This technique is unknown to Tibetan monks.",
+        "alone": "The scarf was tied with a distinctly Germanic knot.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin with methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "background",
+        "icon": "🗣️",
+        "heading": "Language Barrier",
+        "text": "Dr. Heinrich Keller struggles with Tibetan pronunciation and grammar. The monks often smile politely at his broken attempts.",
+        "alone": "Dr. Heinrich Keller speaks very poor Tibetan.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Brother Pemba's account of broken Tibetan speech combined with Dr. Heinrich Keller's language struggles proves the German was arguing with the victim before the murder."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Fresh Cut",
+        "text": "Lama Norbu has a fresh cut on his palm from repairing a sharp edge on the altar. The wound matches the blood on his beads.",
+        "alone": "Lama Norbu's cut explains the blood on his prayer beads.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The blood on Lama Norbu's prayer beads matches his self-inflicted cut from repairing the altar, eliminating him as a suspect despite the suspicious evidence."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "discovery",
+        "icon": "👁️",
+        "heading": "Hidden Scholar",
+        "text": "Dr. Heinrich Keller was found sleeping in the prayer hall storage alcove. He claims he was studying artifacts and fell asleep.",
+        "alone": "Dr. Heinrich Keller was hiding in the prayer hall overnight.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The prayer hall being locked from inside combined with Dr. Heinrich Keller hiding there proves he was concealed in the chamber when he killed Brother Tenzin."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Heinrich Keller",
+      "weapon": "Silk prayer scarf",
+      "location": "Prayer hall"
+    },
+    "epilogue": "Dr. Heinrich Keller had been caught stealing sacred artifacts by Brother Tenzin. Rather than face disgrace and imprisonment, the desperate archaeologist strangled the witness with a silk prayer scarf using knots from his homeland. His poor Tibetan had betrayed him during their final argument, and his hiding place in the prayer hall became his trap. The mountain peace was shattered by one man's greed and desperation."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "Silent Prayer",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The morning chants fell silent when Brother Tenzin was found dead in the prayer hall. In this sacred sanctuary, someone had committed the ultimate sin.",
+    "emptyState": "Even here, earthly violence pierces the mountain peace.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Norbu",
+            "icon": "🧘",
+            "detail": "Head monk, stern disciplinarian with iron will"
+          },
+          {
+            "name": "Brother Pemba",
+            "icon": "📿",
+            "detail": "Young novice, ambitious and secretly resentful"
+          },
+          {
+            "name": "Dr. Heinrich Keller",
+            "icon": "🔬",
+            "detail": "German archaeologist studying monastery artifacts"
+          },
+          {
+            "name": "Jamyang Dolma",
+            "icon": "🍲",
+            "detail": "Kitchen servant, knows all monastery secrets"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial dagger",
+            "icon": "🗡️",
+            "detail": "Ornate ritual blade from the altar"
+          },
+          {
+            "name": "Heavy prayer bowl",
+            "icon": "🥣",
+            "detail": "Bronze singing bowl used in ceremonies"
+          },
+          {
+            "name": "Silk prayer scarf",
+            "icon": "🧣",
+            "detail": "Traditional khata scarf, surprisingly strong"
+          },
+          {
+            "name": "Stone pestle",
+            "icon": "🥄",
+            "detail": "Heavy grinding tool from the kitchen"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer hall",
+            "icon": "🏛️",
+            "detail": "Main worship chamber where body was found"
+          },
+          {
+            "name": "Bell tower",
+            "icon": "🔔",
+            "detail": "High stone tower overlooking the valley"
+          },
+          {
+            "name": "Meditation garden",
+            "icon": "🌸",
+            "detail": "Peaceful courtyard with stone benches"
+          },
+          {
+            "name": "Scriptorium",
+            "icon": "📜",
+            "detail": "Sacred text copying chamber"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Master key",
+            "icon": "🗝️",
+            "detail": "Universal key held by senior monks"
+          },
+          {
+            "name": "Window climbing",
+            "icon": "🪟",
+            "detail": "Scaling walls to enter through windows"
+          },
+          {
+            "name": "Hidden inside",
+            "icon": "👁️",
+            "detail": "Concealed within before doors were locked"
+          },
+          {
+            "name": "Secret passage",
+            "icon": "🕳️",
+            "detail": "Ancient tunnel between monastery chambers"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🧣",
+        "heading": "Strangled Victim",
+        "text": "Brother Tenzin died from strangulation with a silk prayer scarf. The killer knew to use something that wouldn't make noise.",
+        "alone": "The murder weapon was a silk prayer scarf.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin with methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Misleading Testimony",
+        "text": "Jamyang Dolma swears she saw Brother Pemba leaving the prayer hall at dawn. She seemed certain and genuinely concerned.",
+        "alone": "Jamyang Dolma claims Brother Pemba was at the crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Jamyang Dolma's mistaken identification combined with Brother Pemba's similar robes proves she confused two figures in the dim morning light, clearing the young monk."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "timeline",
+        "icon": "🕐",
+        "heading": "Locked Doors",
+        "text": "The prayer hall doors were locked from inside when the body was discovered. Brother Pemba was found sleeping in the dormitory.",
+        "alone": "The prayer hall was locked from inside during the murder.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The locked prayer hall doors combined with Dr. Heinrich Keller hiding in the storage alcove proves he was the only one who could have committed the murder from inside."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "📿",
+        "heading": "Bloodied Beads",
+        "text": "Lama Norbu's prayer beads were found with blood near the altar. He has a matching cut from repairing sharp bronze fittings.",
+        "alone": "Lama Norbu's bloodied beads match his innocent injury.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Lama Norbu's bloodied prayer beads combined with his documented altar repair work proves his presence was legitimate maintenance, not murder."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🪢",
+        "heading": "Germanic Knot",
+        "text": "The silk prayer scarf was tied with an unusual Germanic slip knot. This technique is completely unknown to Tibetan monks.",
+        "alone": "The scarf was tied with a distinctly Germanic knot.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin with methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "👘",
+        "heading": "Similar Robes",
+        "text": "Brother Pemba and Dr. Heinrich Keller both wear identical brown study robes. In dim light, they're easily confused from behind.",
+        "alone": "Two suspects wear nearly identical brown robes.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Jamyang Dolma's mistaken identification combined with Brother Pemba's similar robes proves she confused two figures in the dim morning light, clearing the young monk."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "discovery",
+        "icon": "👁️",
+        "heading": "Hidden Scholar",
+        "text": "Dr. Heinrich Keller was discovered sleeping in the prayer hall storage alcove. He claims he was studying artifacts overnight.",
+        "alone": "Dr. Heinrich Keller was concealed inside the prayer hall.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The locked prayer hall doors combined with Dr. Heinrich Keller hiding in the storage alcove proves he was the only one who could have committed the murder from inside."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "background",
+        "icon": "🔨",
+        "heading": "Altar Repairs",
+        "text": "Lama Norbu spent yesterday evening repairing loose bronze fittings on the altar. Several monks witnessed his careful work.",
+        "alone": "Lama Norbu was legitimately working near the crime scene.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Lama Norbu's bloodied prayer beads combined with his documented altar repair work proves his presence was legitimate maintenance, not murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Heinrich Keller",
+      "weapon": "Silk prayer scarf",
+      "location": "Prayer hall",
+      "access": "Hidden inside"
+    },
+    "epilogue": "Dr. Heinrich Keller had been caught stealing sacred artifacts by Brother Tenzin. Rather than face disgrace and imprisonment, the desperate archaeologist strangled the witness with a silk prayer scarf using Germanic knots. He had hidden inside the prayer hall overnight, claiming to study artifacts while actually planning his crime. His similar robes to Brother Pemba nearly deflected suspicion, but his foreign techniques betrayed him in the end."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "Silent Prayer",
+    "setting": "Monastery · Tibet · 1924",
+    "emoji": "🏔️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The morning chants fell silent when Brother Tenzin was found dead in the prayer hall. In this sacred sanctuary, someone had committed the ultimate sin.",
+    "emptyState": "Even here, earthly violence pierces the mountain peace.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lama Norbu",
+            "icon": "🧘",
+            "detail": "Head monk, stern disciplinarian with iron will"
+          },
+          {
+            "name": "Brother Pemba",
+            "icon": "📿",
+            "detail": "Young novice, ambitious and secretly resentful"
+          },
+          {
+            "name": "Dr. Heinrich Keller",
+            "icon": "🔬",
+            "detail": "German archaeologist studying monastery artifacts"
+          },
+          {
+            "name": "Jamyang Dolma",
+            "icon": "🍲",
+            "detail": "Kitchen servant, knows all monastery secrets"
+          },
+          {
+            "name": "Captain Harrison Blake",
+            "icon": "⚔️",
+            "detail": "British military escort, impatient and dismissive"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial dagger",
+            "icon": "🗡️",
+            "detail": "Ornate ritual blade from the altar"
+          },
+          {
+            "name": "Heavy prayer bowl",
+            "icon": "🥣",
+            "detail": "Bronze singing bowl used in ceremonies"
+          },
+          {
+            "name": "Silk prayer scarf",
+            "icon": "🧣",
+            "detail": "Traditional khata scarf, surprisingly strong"
+          },
+          {
+            "name": "Stone pestle",
+            "icon": "🥄",
+            "detail": "Heavy grinding tool from the kitchen"
+          },
+          {
+            "name": "Climbing rope",
+            "icon": "🪢",
+            "detail": "Hemp rope from mountaineering equipment"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Prayer hall",
+            "icon": "🏛️",
+            "detail": "Main worship chamber where body was found"
+          },
+          {
+            "name": "Bell tower",
+            "icon": "🔔",
+            "detail": "High stone tower overlooking the valley"
+          },
+          {
+            "name": "Meditation garden",
+            "icon": "🌸",
+            "detail": "Peaceful courtyard with stone benches"
+          },
+          {
+            "name": "Scriptorium",
+            "icon": "📜",
+            "detail": "Sacred text copying chamber"
+          },
+          {
+            "name": "Guest quarters",
+            "icon": "🏠",
+            "detail": "Simple rooms for visiting scholars"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Master key",
+            "icon": "🗝️",
+            "detail": "Universal key held by senior monks"
+          },
+          {
+            "name": "Window climbing",
+            "icon": "🪟",
+            "detail": "Scaling walls to enter through windows"
+          },
+          {
+            "name": "Hidden inside",
+            "icon": "👁️",
+            "detail": "Concealed within before doors were locked"
+          },
+          {
+            "name": "Secret passage",
+            "icon": "🕳️",
+            "detail": "Ancient tunnel between monastery chambers"
+          },
+          {
+            "name": "Forced entry",
+            "icon": "🔨",
+            "detail": "Breaking locks or barriers with tools"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Religious zealotry",
+            "icon": "⛪",
+            "detail": "Protecting sacred traditions from outsiders"
+          },
+          {
+            "name": "Theft cover-up",
+            "icon": "💎",
+            "detail": "Silencing witness to artifact smuggling"
+          },
+          {
+            "name": "Personal revenge",
+            "icon": "⚖️",
+            "detail": "Settling old grudges and betrayals"
+          },
+          {
+            "name": "Political secrets",
+            "icon": "🎭",
+            "detail": "Hiding sensitive military intelligence"
+          },
+          {
+            "name": "Academic rivalry",
+            "icon": "📚",
+            "detail": "Competing for prestigious discoveries"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🧣",
+        "heading": "Strangled Victim",
+        "text": "Brother Tenzin died from strangulation with a silk prayer scarf. The killer knew to use something that wouldn't make noise.",
+        "alone": "The murder weapon was a silk prayer scarf.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin using methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Mistaken Identity",
+        "text": "Jamyang Dolma insists she saw Captain Harrison Blake leaving the prayer hall at dawn. She seemed genuinely convinced despite the poor lighting.",
+        "alone": "Jamyang Dolma claims Captain Blake was at the crime scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Jamyang Dolma's mistaken identification combined with Dr. Heinrich Keller's borrowed military jacket proves she confused the German scholar for the British captain in dawn's dim light."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "💎",
+        "heading": "Missing Artifacts",
+        "text": "Several priceless jade prayer wheels have vanished from the monastery treasury. Brother Tenzin was the only keeper of the inventory records.",
+        "alone": "Valuable artifacts are missing and Brother Tenzin knew the inventory.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The missing jade artifacts combined with Dr. Heinrich Keller's hidden smuggling crates proves he murdered Brother Tenzin to cover up his systematic theft of sacred treasures."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "timeline",
+        "icon": "🕐",
+        "heading": "Locked Doors",
+        "text": "The prayer hall was locked from inside when discovered. Brother Pemba was confirmed sleeping in the dormitory by three other monks.",
+        "alone": "The prayer hall was locked from inside during the murder.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The locked prayer hall combined with Jamyang Dolma's role as Dr. Heinrich Keller's accomplice proves she helped him hide inside and later provided false testimony to protect their smuggling operation."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🪢",
+        "heading": "Germanic Knot",
+        "text": "The silk prayer scarf was tied with a distinctive Germanic slip knot. This technique is completely unknown in Tibetan culture.",
+        "alone": "The scarf was tied with a distinctly Germanic knot.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Heinrich Keller's Germanic knot technique combined with the silk prayer scarf proves he strangled Brother Tenzin using methods learned in his homeland."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🧥",
+        "heading": "Borrowed Jacket",
+        "text": "Dr. Heinrich Keller was wearing Captain Blake's distinctive military jacket yesterday evening. He claimed his own coat was being mended.",
+        "alone": "Dr. Heinrich Keller wore Captain Blake's military jacket recently.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Jamyang Dolma's mistaken identification combined with Dr. Heinrich Keller's borrowed military jacket proves she confused the German scholar for the British captain in dawn's dim light."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "discovery",
+        "icon": "📦",
+        "heading": "Hidden Crates",
+        "text": "Smuggling crates filled with monastery artifacts were discovered in Dr. Heinrich Keller's quarters. Several jade pieces match the missing inventory.",
+        "alone": "Dr. Heinrich Keller was smuggling stolen monastery artifacts.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The missing jade artifacts combined with Dr. Heinrich Keller's hidden smuggling crates proves he murdered Brother Tenzin to cover up his systematic theft of sacred treasures."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "revelation",
+        "icon": "🤝",
+        "heading": "Secret Partnership",
+        "text": "Jamyang Dolma has been receiving gold payments for helping Dr. Heinrich Keller access restricted areas. Her testimony was deliberate misdirection.",
+        "alone": "Jamyang Dolma was Dr. Heinrich Keller's paid accomplice.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The locked prayer hall combined with Jamyang Dolma's role as Dr. Heinrich Keller's accomplice proves she helped him hide inside and later provided false testimony to protect their smuggling operation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Heinrich Keller",
+      "weapon": "Silk prayer scarf",
+      "location": "Prayer hall",
+      "access": "Hidden inside",
+      "motive": "Theft cover-up"
+    },
+    "epilogue": "Dr. Heinrich Keller had been systematically stealing sacred artifacts with Jamyang Dolma's help, paying her gold for access to restricted areas. When Brother Tenzin discovered the theft through inventory discrepancies, the desperate archaeologist hid inside the prayer hall overnight and strangled the monk with a silk prayer scarf using Germanic knots. Jamyang Dolma provided false testimony blaming Captain Blake, hoping to protect their lucrative smuggling operation. The sacred mountain sanctuary had been defiled by greed, betrayal, and ultimately murder."
+  }
+}
