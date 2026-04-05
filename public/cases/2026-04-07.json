@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #041",
+    "title": "Silicon Valley Vendetta",
+    "setting": "Silicon Valley HQ · San Francisco · 2019",
+    "emoji": "🏢",
+    "flavor": "The unicorn startup's IPO dreams crashed when their CEO was found dead in the server room. Blood and broken dreams painted the walls of innovation.",
+    "emptyState": "Even billion-dollar dreams can't buy immortality.",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priya Sharma",
+            "icon": "👩‍💼",
+            "detail": "Disgruntled former CTO, terminated last month"
+          },
+          {
+            "name": "David Kim",
+            "icon": "👨‍💻",
+            "detail": "Lead developer with gambling debts"
+          },
+          {
+            "name": "Rachel Santos",
+            "icon": "👩‍⚖️",
+            "detail": "Corporate lawyer handling messy lawsuit"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Server rack cable",
+            "icon": "🔌",
+            "detail": "Heavy power cable from data center"
+          },
+          {
+            "name": "Glass award trophy",
+            "icon": "🏆",
+            "detail": "Sharp-edged innovation award from lobby"
+          },
+          {
+            "name": "Fire axe",
+            "icon": "🪓",
+            "detail": "Emergency axe from server room wall"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Server room",
+            "icon": "💾",
+            "detail": "Climate-controlled data center basement"
+          },
+          {
+            "name": "Executive boardroom",
+            "icon": "🏛️",
+            "detail": "Glass-walled conference room on top floor"
+          },
+          {
+            "name": "Parking garage",
+            "icon": "🚗",
+            "detail": "Underground employee parking level"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🎥",
+        "heading": "Security Footage Gap",
+        "text": "Server room cameras were disabled from 11:47 PM to 12:15 AM using admin override code.",
+        "alone": "Someone with system access killed the cameras.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Priya Sharma used her admin access to disable cameras and strangle CEO Bradley with server rack cable."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Heated Argument",
+        "text": "Night janitor heard David Kim shouting about money owed from the parking garage at midnight.",
+        "alone": "David Kim was angry about unpaid wages.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "David Kim was arguing about legitimate back pay, not planning murder - he never entered the building."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🧬",
+        "heading": "Blood Spatter",
+        "text": "Rachel Santos had defensive wounds on her knuckles and victim's blood under fingernails.",
+        "alone": "Rachel Santos fought with the victim recently.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Rachel Santos fought the victim in self-defense during an earlier assault, but wasn't the killer."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Murder Weapon",
+        "text": "Server rack cable found wrapped around CEO Bradley's neck with fresh fingerprints.",
+        "alone": "The killer strangled Bradley with server room equipment.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The server rack cable murder weapon confirms Bradley died in the server room where his body was found."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Admin Override",
+        "text": "Security system shows Priya Sharma's credentials were used to disable cameras and unlock server room.",
+        "alone": "Priya Sharma accessed secure systems that night.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Priya Sharma used her admin access to disable cameras and strangle CEO Bradley with server rack cable."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "financial",
+        "icon": "💳",
+        "heading": "Badge Records",
+        "text": "David Kim's keycard shows no building entry after 6 PM that day despite parking garage argument.",
+        "alone": "David Kim never entered the building that night.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "David Kim was arguing about legitimate back pay, not planning murder - he never entered the building."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "medical",
+        "icon": "🩹",
+        "heading": "Hospital Report",
+        "text": "Rachel Santos visited ER two days ago for facial injuries from CEO Bradley's physical assault.",
+        "alone": "Bradley had violently attacked Rachel Santos recently.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Rachel Santos fought the victim in self-defense during an earlier assault, but wasn't the killer."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensic",
+        "icon": "📋",
+        "heading": "Crime Scene",
+        "text": "CEO Bradley's body discovered in server room with strangulation marks matching cable thickness.",
+        "alone": "The murder happened in the server room.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The server rack cable murder weapon confirms Bradley died in the server room where his body was found."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priya Sharma",
+      "weapon": "Server rack cable",
+      "location": "Server room"
+    },
+    "epilogue": "Priya Sharma's brilliant career ended when CEO Bradley stole her algorithms and fired her without cause. She used her remaining admin access for one final login - not to steal code, but to settle accounts permanently. The server rack cable that powered Bradley's empire became the instrument of his downfall. Justice, Priya believed, had finally compiled without errors."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #041",
+    "title": "Silicon Valley Vendetta",
+    "setting": "Silicon Valley HQ · San Francisco · 2019",
+    "emoji": "🏢",
+    "flavor": "The unicorn startup's IPO dreams crashed when their CEO was found dead in the server room. Blood and broken dreams painted the walls of innovation.",
+    "emptyState": "Even billion-dollar dreams can't buy immortality.",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priya Sharma",
+            "icon": "👩‍💼",
+            "detail": "Disgruntled former CTO, terminated last month"
+          },
+          {
+            "name": "David Kim",
+            "icon": "👨‍💻",
+            "detail": "Lead developer with gambling debts"
+          },
+          {
+            "name": "Rachel Santos",
+            "icon": "👩‍⚖️",
+            "detail": "Corporate lawyer handling messy lawsuit"
+          },
+          {
+            "name": "Alex Chen",
+            "icon": "👨‍🔧",
+            "detail": "Building maintenance supervisor with access"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Server rack cable",
+            "icon": "🔌",
+            "detail": "Heavy power cable from data center"
+          },
+          {
+            "name": "Glass award trophy",
+            "icon": "🏆",
+            "detail": "Sharp-edged innovation award from lobby"
+          },
+          {
+            "name": "Fire axe",
+            "icon": "🪓",
+            "detail": "Emergency axe from server room wall"
+          },
+          {
+            "name": "Wrench",
+            "icon": "🔧",
+            "detail": "Heavy maintenance tool from utility closet"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Server room",
+            "icon": "💾",
+            "detail": "Climate-controlled data center basement"
+          },
+          {
+            "name": "Executive boardroom",
+            "icon": "🏛️",
+            "detail": "Glass-walled conference room on top floor"
+          },
+          {
+            "name": "Parking garage",
+            "icon": "🚗",
+            "detail": "Underground employee parking level"
+          },
+          {
+            "name": "Utility closet",
+            "icon": "🧰",
+            "detail": "Maintenance room near server area"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Admin override",
+            "icon": "💻",
+            "detail": "Digital credentials for system access"
+          },
+          {
+            "name": "Master keycard",
+            "icon": "🎫",
+            "detail": "Universal building access card"
+          },
+          {
+            "name": "Ventilation shaft",
+            "icon": "🕳️",
+            "detail": "Air duct connecting floors"
+          },
+          {
+            "name": "Service elevator",
+            "icon": "🛗",
+            "detail": "Freight elevator requiring special code"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🎥",
+        "heading": "Security Footage Gap",
+        "text": "Server room cameras were disabled from 11:47 PM to 12:15 AM using admin override code.",
+        "alone": "Someone with system access killed the cameras.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Priya Sharma used her admin override access to disable cameras and strangle CEO Bradley with server rack cable in the server room."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Witness Account",
+        "text": "Security guard claims he saw Alex Chen leaving through service elevator at 12:30 AM carrying tools.",
+        "alone": "Alex Chen was spotted leaving late with equipment.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The security guard was mistaken - Alex Chen was actually on medical leave and the service elevator malfunctioned that night."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🧬",
+        "heading": "Blood Spatter",
+        "text": "Rachel Santos had defensive wounds on knuckles and victim's blood under her fingernails.",
+        "alone": "Rachel Santos fought with the victim recently.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Rachel Santos fought Bradley in self-defense two days prior but couldn't access the server room that night due to suspended keycard."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Murder Weapon",
+        "text": "Server rack cable found wrapped around CEO Bradley's neck with fingerprints and fabric fibers.",
+        "alone": "The killer strangled Bradley with server room equipment.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "David Kim's gambling debts were legitimate financial pressure but he had no way to access the secure server room."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "System Logs",
+        "text": "Priya Sharma's credentials accessed security system and server room locks despite her termination.",
+        "alone": "Priya Sharma used admin override to enter restricted areas.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Priya Sharma used her admin override access to disable cameras and strangle CEO Bradley with server rack cable in the server room."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "employment",
+        "icon": "🏥",
+        "heading": "Medical Leave",
+        "text": "Alex Chen was on paid medical leave for back surgery, last worked three days ago.",
+        "alone": "Alex Chen wasn't working that night.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The security guard was mistaken - Alex Chen was actually on medical leave and the service elevator malfunctioned that night."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "access",
+        "icon": "🚫",
+        "heading": "Suspended Access",
+        "text": "Rachel Santos's keycard was suspended after filing harassment complaint, blocking server room entry.",
+        "alone": "Rachel Santos couldn't access the server room.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Rachel Santos fought Bradley in self-defense two days prior but couldn't access the server room that night due to suspended keycard."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "financial",
+        "icon": "🎰",
+        "heading": "Debt Records",
+        "text": "David Kim owed $80,000 to loan sharks but had no server room access or override codes.",
+        "alone": "David Kim had motive but no access method.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "David Kim's gambling debts were legitimate financial pressure but he had no way to access the secure server room."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priya Sharma",
+      "weapon": "Server rack cable",
+      "location": "Server room",
+      "access": "Admin override"
+    },
+    "epilogue": "Priya Sharma's brilliant career ended when CEO Bradley stole her algorithms and fired her without cause. She used her remaining admin override access for one final login - not to steal code, but to settle accounts permanently. The server room became her courtroom, and the server rack cable her gavel of justice. Her digital fingerprints told the story her heart couldn't bear to speak."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #041",
+    "title": "Silicon Valley Vendetta",
+    "setting": "Silicon Valley HQ · San Francisco · 2019",
+    "emoji": "🏢",
+    "flavor": "The unicorn startup's IPO dreams crashed when their CEO was found dead in the server room. Blood and broken dreams painted the walls of innovation.",
+    "emptyState": "Even billion-dollar dreams can't buy immortality.",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priya Sharma",
+            "icon": "👩‍💼",
+            "detail": "Disgruntled former CTO, terminated last month"
+          },
+          {
+            "name": "David Kim",
+            "icon": "👨‍💻",
+            "detail": "Lead developer with gambling debts"
+          },
+          {
+            "name": "Rachel Santos",
+            "icon": "👩‍⚖️",
+            "detail": "Corporate lawyer handling messy lawsuit"
+          },
+          {
+            "name": "Alex Chen",
+            "icon": "👨‍🔧",
+            "detail": "Building maintenance supervisor with access"
+          },
+          {
+            "name": "Marcus Webb",
+            "icon": "👨‍💼",
+            "detail": "Rival CEO from competing startup"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Server rack cable",
+            "icon": "🔌",
+            "detail": "Heavy power cable from data center"
+          },
+          {
+            "name": "Glass award trophy",
+            "icon": "🏆",
+            "detail": "Sharp-edged innovation award from lobby"
+          },
+          {
+            "name": "Fire axe",
+            "icon": "🪓",
+            "detail": "Emergency axe from server room wall"
+          },
+          {
+            "name": "Wrench",
+            "icon": "🔧",
+            "detail": "Heavy maintenance tool from utility closet"
+          },
+          {
+            "name": "Laptop charger",
+            "icon": "⚡",
+            "detail": "Thick power cord from executive office"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Server room",
+            "icon": "💾",
+            "detail": "Climate-controlled data center basement"
+          },
+          {
+            "name": "Executive boardroom",
+            "icon": "🏛️",
+            "detail": "Glass-walled conference room on top floor"
+          },
+          {
+            "name": "Parking garage",
+            "icon": "🚗",
+            "detail": "Underground employee parking level"
+          },
+          {
+            "name": "Utility closet",
+            "icon": "🧰",
+            "detail": "Maintenance room near server area"
+          },
+          {
+            "name": "Reception lobby",
+            "icon": "🏢",
+            "detail": "Main entrance with security desk"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Admin override",
+            "icon": "💻",
+            "detail": "Digital credentials for system access"
+          },
+          {
+            "name": "Master keycard",
+            "icon": "🎫",
+            "detail": "Universal building access card"
+          },
+          {
+            "name": "Ventilation shaft",
+            "icon": "🕳️",
+            "detail": "Air duct connecting floors"
+          },
+          {
+            "name": "Service elevator",
+            "icon": "🛗",
+            "detail": "Freight elevator requiring special code"
+          },
+          {
+            "name": "Fire escape",
+            "icon": "🚪",
+            "detail": "Emergency exit with alarm bypass"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Security guard",
+            "icon": "👮",
+            "detail": "Night shift guard with gambling debts"
+          },
+          {
+            "name": "IT contractor",
+            "icon": "💻",
+            "detail": "External tech support with system access"
+          },
+          {
+            "name": "Cleaning crew",
+            "icon": "🧹",
+            "detail": "Janitorial staff with building access"
+          },
+          {
+            "name": "Priya's brother",
+            "icon": "👨‍🎓",
+            "detail": "Computer science student, hacker skills"
+          },
+          {
+            "name": "None",
+            "icon": "🚫",
+            "detail": "Acted alone without assistance"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🎥",
+        "heading": "Security Footage Gap",
+        "text": "Server room cameras disabled 11:47 PM to 12:15 AM using admin override from two different terminals.",
+        "alone": "Multiple people coordinated the camera blackout.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Priya Sharma and her brother coordinated using admin override and hacking skills to disable cameras and kill CEO Bradley with server rack cable in the server room."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Security Guard",
+        "text": "Night guard insists Alex Chen left via service elevator at 12:30 AM despite medical leave records.",
+        "alone": "The guard seems certain about seeing Alex Chen.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The security guard was covering for the real killers by providing false testimony, having been bribed due to his gambling debts."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "digital",
+        "icon": "💾",
+        "heading": "Network Traffic",
+        "text": "Unusual data packets routed through external VPN matching Priya's brother's digital signature patterns.",
+        "alone": "Someone helped remotely access the building systems.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Priya's brother provided crucial hacking assistance, routing network traffic through his VPN to help disable security systems remotely."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🧬",
+        "heading": "DNA Evidence",
+        "text": "Server rack cable murder weapon contained DNA from both Priya Sharma and an unknown male contributor.",
+        "alone": "Two people handled the murder weapon.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Priya's brother's DNA on the murder weapon proves he physically assisted in the strangulation of CEO Bradley alongside his sister."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "forensic",
+        "icon": "🔍",
+        "heading": "Access Logs",
+        "text": "Priya Sharma's admin override credentials used simultaneously with remote hack from off-site location at murder time.",
+        "alone": "Priya Sharma had inside and outside help.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Priya Sharma and her brother coordinated using admin override and hacking skills to disable cameras and kill CEO Bradley with server rack cable in the server room."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "financial",
+        "icon": "💰",
+        "heading": "Bribe Payment",
+        "text": "Security guard received $10,000 cash deposit the morning after the murder to cover gambling debts.",
+        "alone": "The security guard was paid off recently.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The security guard was covering for the real killers by providing false testimony, having been bribed due to his gambling debts."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "digital",
+        "icon": "🌐",
+        "heading": "VPN Records",
+        "text": "Priya's brother's VPN service shows active connection to building systems during exact murder timeframe.",
+        "alone": "The brother was digitally present during the crime.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Priya's brother provided crucial hacking assistance, routing network traffic through his VPN to help disable security systems remotely."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "laboratory",
+        "icon": "🧪",
+        "heading": "DNA Match",
+        "text": "Unknown male DNA from murder weapon matches Priya's brother through familial database search.",
+        "alone": "Priya's brother physically touched the murder weapon.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Priya's brother's DNA on the murder weapon proves he physically assisted in the strangulation of CEO Bradley alongside his sister."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priya Sharma",
+      "weapon": "Server rack cable",
+      "location": "Server room",
+      "access": "Admin override",
+      "accomplice": "Priya's brother"
+    },
+    "epilogue": "Priya Sharma's brilliant career ended when CEO Bradley stole her algorithms and fired her without cause. But family bonds proved stronger than corporate betrayal - her brother's hacking skills provided the digital key while his physical presence ensured the job was finished. Together, they used admin override access and her brother's technical expertise to disable the cameras and strangle Bradley with a server rack cable in the very server room that housed her stolen code. Blood may be thicker than water, but in Silicon Valley, it's also thicker than ethernet cables."
+  }
+}
