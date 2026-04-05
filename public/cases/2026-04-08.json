@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #042",
+    "title": "Fatal Opening Night",
+    "setting": "Broadway Theater · New York · 1952",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The curtain fell on more than just another Broadway show tonight. In the gilded world of theater, passion and ambition dance a deadly waltz.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Caruso",
+            "icon": "🎩",
+            "detail": "Lead actor, married to socialite"
+          },
+          {
+            "name": "Dorothy Sterling",
+            "icon": "💃",
+            "detail": "Leading lady, ambitious and beautiful"
+          },
+          {
+            "name": "Harold Pemberton",
+            "icon": "💰",
+            "detail": "Theater owner, struggling financially"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage dagger",
+            "icon": "🗡️",
+            "detail": "Prop weapon, recently sharpened"
+          },
+          {
+            "name": "Sandbag",
+            "icon": "⚖️",
+            "detail": "Heavy counterweight from fly system"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Arsenic in champagne glass"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Star dressing room",
+            "icon": "⭐",
+            "detail": "Private space with locked door"
+          },
+          {
+            "name": "Stage wings",
+            "icon": "🎪",
+            "detail": "Hidden area behind curtains"
+          },
+          {
+            "name": "Theater balcony",
+            "icon": "🏛️",
+            "detail": "Ornate upper seating area"
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Sterling",
+      "weapon": "Poison",
+      "location": "Star dressing room"
+    },
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💄",
+        "heading": "Lipstick Message",
+        "text": "A mirror in the star dressing room bears a message in red lipstick: 'Some loves are worth dying for.'",
+        "alone": "Someone left a cryptic romantic message.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dorothy Sterling's lipstick matches the message, proving she was in the star dressing room where the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "testimony",
+        "icon": "💔",
+        "heading": "Forbidden Romance",
+        "text": "Vincent Caruso and the victim were having a secret affair. Vincent feared his wife would discover the truth.",
+        "alone": "Vincent Caruso had a dangerous secret to protect.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Vincent's alibi during the murder eliminates him as the killer despite his motive to silence the victim."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Financial Records",
+        "text": "Harold Pemberton's ledger shows massive debts. The victim held the mortgage on the theater.",
+        "alone": "Harold Pemberton desperately needed money.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Harold's presence in the theater balcony during the murder proves he couldn't have accessed the star dressing room."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensics",
+        "icon": "☠️",
+        "heading": "Cause of Death",
+        "text": "The victim died from arsenic poisoning. An empty champagne glass sits on the star dressing room vanity.",
+        "alone": "Poison was the murder weapon in the dressing room.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The poison method and dressing room location confirm the killer had intimate access to prepare the fatal champagne."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "💋",
+        "heading": "Makeup Kit",
+        "text": "Dorothy Sterling's makeup kit is missing its signature red lipstick shade.",
+        "alone": "Dorothy Sterling is missing her distinctive lipstick.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dorothy Sterling's lipstick matches the message, proving she was in the star dressing room where the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "testimony",
+        "icon": "🎬",
+        "heading": "Stage Manager Account",
+        "text": "Vincent Caruso was on stage during the entire second act, visible to hundreds of witnesses.",
+        "alone": "Vincent Caruso has an ironclad alibi.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Vincent's alibi during the murder eliminates him as the killer despite his motive to silence the victim."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "testimony",
+        "icon": "👀",
+        "heading": "Usher Statement",
+        "text": "Harold Pemberton watched the entire show from the theater balcony, nervously pacing throughout.",
+        "alone": "Harold Pemberton remained in the balcony all evening.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Harold's presence in the theater balcony during the murder proves he couldn't have accessed the star dressing room."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "🥂",
+        "heading": "Champagne Bottle",
+        "text": "A bottle of Dom Pérignon in the star dressing room shows Dorothy Sterling's fingerprints on the cork.",
+        "alone": "Dorothy Sterling handled the champagne bottle personally.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The poison method and dressing room location confirm the killer had intimate access to prepare the fatal champagne."
+          }
+        ]
+      }
+    ],
+    "epilogue": "Dorothy Sterling's ambition consumed her heart as surely as jealousy consumed her soul. She poisoned her rival with champagne in the star dressing room, unable to bear watching another woman claim the spotlight she craved. The red lipstick message revealed her twisted romantic delusion. The theater's golden dreams became her gilded cage, and opening night became closing night for her victim."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #042",
+    "title": "Fatal Opening Night",
+    "setting": "Broadway Theater · New York · 1952",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The curtain fell on more than just another Broadway show tonight. In the gilded world of theater, passion and ambition dance a deadly waltz.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Caruso",
+            "icon": "🎩",
+            "detail": "Lead actor, married to socialite"
+          },
+          {
+            "name": "Dorothy Sterling",
+            "icon": "💃",
+            "detail": "Leading lady, ambitious and beautiful"
+          },
+          {
+            "name": "Harold Pemberton",
+            "icon": "💰",
+            "detail": "Theater owner, struggling financially"
+          },
+          {
+            "name": "Margaret Whitmore",
+            "icon": "📝",
+            "detail": "Theater critic, influential reviewer"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage dagger",
+            "icon": "🗡️",
+            "detail": "Prop weapon, recently sharpened"
+          },
+          {
+            "name": "Sandbag",
+            "icon": "⚖️",
+            "detail": "Heavy counterweight from fly system"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Arsenic in champagne glass"
+          },
+          {
+            "name": "Garrote wire",
+            "icon": "🔗",
+            "detail": "Thin cable from lighting rig"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Star dressing room",
+            "icon": "⭐",
+            "detail": "Private space with locked door"
+          },
+          {
+            "name": "Stage wings",
+            "icon": "🎪",
+            "detail": "Hidden area behind curtains"
+          },
+          {
+            "name": "Theater balcony",
+            "icon": "🏛️",
+            "detail": "Ornate upper seating area"
+          },
+          {
+            "name": "Costume loft",
+            "icon": "👗",
+            "detail": "Storage area above stage"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "During Act I",
+            "icon": "🎬",
+            "detail": "8:00-8:45 PM, house lights down"
+          },
+          {
+            "name": "During intermission",
+            "icon": "☕",
+            "detail": "8:45-9:15 PM, audience mingling"
+          },
+          {
+            "name": "During Act II",
+            "icon": "🎭",
+            "detail": "9:15-10:30 PM, final performance"
+          },
+          {
+            "name": "After curtain call",
+            "icon": "👏",
+            "detail": "10:30-11:00 PM, backstage chaos"
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Sterling",
+      "weapon": "Poison",
+      "location": "Star dressing room",
+      "window": "During intermission"
+    },
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💄",
+        "heading": "Lipstick Message",
+        "text": "A mirror in the star dressing room bears a message in red lipstick: 'Some loves are worth dying for.'",
+        "alone": "Someone left a cryptic romantic message.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dorothy Sterling's lipstick matches the message and she was seen near the star dressing room during intermission."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "testimony",
+        "icon": "🚬",
+        "heading": "Stagehand Report",
+        "text": "Margaret Whitmore was seen arguing with the victim in the star dressing room during intermission.",
+        "alone": "Margaret Whitmore confronted the victim at the crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Margaret's heated argument was about a positive review, not murder - she left the victim alive and angry."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🎫",
+        "heading": "Program Timeline",
+        "text": "The victim was alive during Act I but found dead during intermission. Death occurred between 8:45-9:15 PM.",
+        "alone": "Murder happened during intermission window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The intermission timing eliminates Vincent Caruso, who was preparing for Act II in full view of cast."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensics",
+        "icon": "☠️",
+        "heading": "Cause of Death",
+        "text": "The victim died from arsenic poisoning. An empty champagne glass sits on the star dressing room vanity.",
+        "alone": "Poison was the murder weapon in the dressing room.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Harold Pemberton's financial desperation doesn't override his lack of access to prepare poisoned champagne undetected."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "testimony",
+        "icon": "👀",
+        "heading": "Dresser Witness",
+        "text": "Dorothy Sterling was spotted near the star dressing room during intermission, claiming she needed to borrow jewelry.",
+        "alone": "Dorothy Sterling had access during the murder window.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dorothy Sterling's lipstick matches the message and she was seen near the star dressing room during intermission."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📰",
+        "heading": "Review Draft",
+        "text": "Margaret Whitmore's briefcase contains a glowing review praising the victim's performance as 'transcendent.'",
+        "alone": "Margaret Whitmore planned to write a positive review.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Margaret's heated argument was about a positive review, not murder - she left the victim alive and angry."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "testimony",
+        "icon": "🎭",
+        "heading": "Assistant Director",
+        "text": "Vincent Caruso spent the entire intermission in the men's ensemble dressing room, running lines with three other actors.",
+        "alone": "Vincent Caruso has multiple witnesses during intermission.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The intermission timing eliminates Vincent Caruso, who was preparing for Act II in full view of cast."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "🥂",
+        "heading": "Champagne Source",
+        "text": "Dorothy Sterling brought a bottle of Dom Pérignon backstage, claiming it was for a post-show celebration.",
+        "alone": "Dorothy Sterling provided the poisoned champagne.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Harold Pemberton's financial desperation doesn't override his lack of access to prepare poisoned champagne undetected."
+          }
+        ]
+      }
+    ],
+    "epilogue": "Dorothy Sterling's jealousy festered like an infected wound, growing more toxic with each standing ovation her rival received. She brought poisoned champagne to the star dressing room during intermission, watching as her competition drank death from crystal. The lipstick message revealed her twisted romantic obsession. Broadway's bright lights cast the darkest shadows, and Dorothy chose to dance with murder rather than accept second billing."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #042",
+    "title": "Fatal Opening Night",
+    "setting": "Broadway Theater · New York · 1952",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The curtain fell on more than just another Broadway show tonight. In the gilded world of theater, passion and ambition dance a deadly waltz.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Caruso",
+            "icon": "🎩",
+            "detail": "Lead actor, married to socialite"
+          },
+          {
+            "name": "Dorothy Sterling",
+            "icon": "💃",
+            "detail": "Leading lady, ambitious and beautiful"
+          },
+          {
+            "name": "Harold Pemberton",
+            "icon": "💰",
+            "detail": "Theater owner, struggling financially"
+          },
+          {
+            "name": "Margaret Whitmore",
+            "icon": "📝",
+            "detail": "Theater critic, influential reviewer"
+          },
+          {
+            "name": "Thomas Ashford",
+            "icon": "🎺",
+            "detail": "Orchestra conductor, classically trained"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage dagger",
+            "icon": "🗡️",
+            "detail": "Prop weapon, recently sharpened"
+          },
+          {
+            "name": "Sandbag",
+            "icon": "⚖️",
+            "detail": "Heavy counterweight from fly system"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Arsenic in champagne glass"
+          },
+          {
+            "name": "Garrote wire",
+            "icon": "🔗",
+            "detail": "Thin cable from lighting rig"
+          },
+          {
+            "name": "Letter opener",
+            "icon": "✉️",
+            "detail": "Silver blade from office desk"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Star dressing room",
+            "icon": "⭐",
+            "detail": "Private space with locked door"
+          },
+          {
+            "name": "Stage wings",
+            "icon": "🎪",
+            "detail": "Hidden area behind curtains"
+          },
+          {
+            "name": "Theater balcony",
+            "icon": "🏛️",
+            "detail": "Ornate upper seating area"
+          },
+          {
+            "name": "Costume loft",
+            "icon": "👗",
+            "detail": "Storage area above stage"
+          },
+          {
+            "name": "Orchestra pit",
+            "icon": "🎼",
+            "detail": "Sunken performance area below stage"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "During Act I",
+            "icon": "🎬",
+            "detail": "8:00-8:45 PM, house lights down"
+          },
+          {
+            "name": "During intermission",
+            "icon": "☕",
+            "detail": "8:45-9:15 PM, audience mingling"
+          },
+          {
+            "name": "During Act II",
+            "icon": "🎭",
+            "detail": "9:15-10:30 PM, final performance"
+          },
+          {
+            "name": "After curtain call",
+            "icon": "👏",
+            "detail": "10:30-11:00 PM, backstage chaos"
+          },
+          {
+            "name": "Before show",
+            "icon": "🌅",
+            "detail": "6:00-8:00 PM, final preparations"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Master key",
+            "icon": "🔑",
+            "detail": "Opens all dressing room doors"
+          },
+          {
+            "name": "Fire escape",
+            "icon": "🚨",
+            "detail": "External ladder to upper floors"
+          },
+          {
+            "name": "Service tunnel",
+            "icon": "🚇",
+            "detail": "Underground passage between buildings"
+          },
+          {
+            "name": "Invited entry",
+            "icon": "🚪",
+            "detail": "Victim opened door willingly"
+          },
+          {
+            "name": "Hidden passage",
+            "icon": "🕳️",
+            "detail": "Secret door behind costume rack"
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Sterling",
+      "weapon": "Poison",
+      "location": "Star dressing room",
+      "window": "During intermission",
+      "access": "Invited entry"
+    },
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💄",
+        "heading": "Lipstick Message",
+        "text": "A mirror in the star dressing room bears a message in red lipstick: 'Some loves are worth dying for.'",
+        "alone": "Someone left a cryptic romantic message.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dorothy Sterling's missing lipstick and champagne gift prove she orchestrated the murder through invited entry during intermission."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "testimony",
+        "icon": "🎪",
+        "heading": "Stage Manager Report",
+        "text": "Thomas Ashford was seen entering the star dressing room during intermission, carrying sheet music and looking agitated.",
+        "alone": "Thomas Ashford visited the victim during the murder window.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Thomas Ashford's musical dispute was resolved peacefully - he left the victim alive to discuss tempo changes for Act II."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Key Investigation",
+        "text": "The star dressing room was locked from inside. No signs of forced entry or hidden passage usage.",
+        "alone": "The killer gained entry through invitation or trust.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Invited entry eliminates suspects who lacked personal relationship - Margaret Whitmore couldn't gain trusted access during intermission."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "forensics",
+        "icon": "☠️",
+        "heading": "Toxicology Report",
+        "text": "Arsenic concentration suggests poison was administered during intermission. Death occurred within minutes of consumption.",
+        "alone": "The victim was poisoned during intermission timeframe.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Harold Pemberton's wardrobe assistant disguise enabled access, but Vincent Caruso's presence in the dressing room reveals his secret accomplice role."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🥂",
+        "heading": "Champagne Gift",
+        "text": "Dorothy Sterling brought Dom Pérignon as a 'peace offering' and her makeup kit is missing red lipstick.",
+        "alone": "Dorothy Sterling provided both the weapon and left the message.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dorothy Sterling's missing lipstick and champagne gift prove she orchestrated the murder through invited entry during intermission."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🎼",
+        "heading": "Musical Score",
+        "text": "Thomas Ashford's sheet music contains penciled notes about tempo changes, and the victim's signature approving the modifications.",
+        "alone": "Thomas Ashford successfully resolved his musical dispute.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Thomas Ashford's musical dispute was resolved peacefully - he left the victim alive to discuss tempo changes for Act II."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "testimony",
+        "icon": "🚪",
+        "heading": "Security Guard",
+        "text": "Margaret Whitmore was denied entry to the star dressing room during intermission and left angrily through the lobby.",
+        "alone": "Margaret Whitmore couldn't access the victim during intermission.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Invited entry eliminates suspects who lacked personal relationship - Margaret Whitmore couldn't gain trusted access during intermission."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "🎭",
+        "heading": "Costume Discovery",
+        "text": "A wardrobe assistant uniform in Harold Pemberton's office, and Vincent Caruso's handkerchief found in the star dressing room wastebasket.",
+        "alone": "Harold Pemberton used disguise and Vincent Caruso was present.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Harold Pemberton's wardrobe assistant disguise enabled access, but Vincent Caruso's presence in the dressing room reveals his secret accomplice role."
+          }
+        ]
+      }
+    ],
+    "epilogue": "Dorothy Sterling's ambition curdled into deadly jealousy as she watched her rival steal both spotlight and lover. She arrived during intermission with poisoned champagne, gaining invited entry through false friendship while Vincent Caruso secretly assisted in the conspiracy. The lipstick message revealed her twisted romantic obsession. Broadway's golden age became tarnished with murder, and the star dressing room became a tomb where dreams die and curtains fall forever on forbidden love."
+  }
+}
