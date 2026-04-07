@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #044",
+    "title": "Highway Shadows",
+    "setting": "Highway Rest Area · Virginia · 1997",
+    "emoji": "🛣️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The fluorescent lights buzzed over empty picnic tables as fog rolled across Interstate 95. Truckers spoke in hushed tones about the body found behind the visitor center, where someone's past had finally caught up with them.",
+    "emptyState": "Mile marker 127. Not everyone made their next exit.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dale Whitmore",
+            "icon": "🚛",
+            "detail": "Long-haul trucker with gambling debts"
+          },
+          {
+            "name": "Ruby Carson",
+            "icon": "☕",
+            "detail": "Night shift diner waitress, recently fired"
+          },
+          {
+            "name": "Frank Holloway",
+            "icon": "🔧",
+            "detail": "Rest area maintenance supervisor"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "tire iron",
+            "icon": "🔧",
+            "detail": "Heavy steel tool from truck cab"
+          },
+          {
+            "name": "kitchen knife",
+            "icon": "🔪",
+            "detail": "Eight-inch blade from diner"
+          },
+          {
+            "name": "maintenance hammer",
+            "icon": "🔨",
+            "detail": "Claw hammer from tool shed"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "witness elimination",
+            "icon": "👁️",
+            "detail": "Victim knew about insurance fraud scheme"
+          },
+          {
+            "name": "blackmail revenge",
+            "icon": "📸",
+            "detail": "Victim had compromising photographs"
+          },
+          {
+            "name": "debt collection",
+            "icon": "💰",
+            "detail": "Victim owed money from card games"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Pattern",
+        "text": "Victim struck from behind with blunt object. Blood spatter suggests attacker was right-handed and tall.",
+        "alone": "The killer was right-handed and significantly tall.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Frank Holloway is the only tall, right-handed suspect who had access to the maintenance hammer used in the attack."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Trucker Account",
+        "text": "Dale Whitmore argued loudly with victim about unpaid gambling debts an hour before the murder.",
+        "alone": "Dale had a heated confrontation with the victim recently.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "While Dale argued with the victim about debts, he was playing poker with other truckers when the murder occurred, giving him a solid alibi."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📸",
+        "heading": "Hidden Photos",
+        "text": "Compromising photos of Ruby Carson found in victim's car suggest blackmail scheme.",
+        "alone": "The victim was blackmailing Ruby Carson with photographs.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Although Ruby was being blackmailed by the victim, her work schedule proves she was at the diner during the time of death."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🔨",
+        "heading": "Missing Tool",
+        "text": "Maintenance hammer missing from Frank Holloway's tool shed. Wood chips on victim match hammer handle.",
+        "alone": "The murder weapon was Frank's missing maintenance hammer.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Frank's maintenance hammer was used behind the visitor center, where only he had legitimate reason to be at night."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "👤",
+        "heading": "Height Analysis",
+        "text": "Frank Holloway is 6'3\" and right-handed, matching blood spatter trajectory perfectly.",
+        "alone": "Frank's height and handedness match the attack pattern exactly.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Frank Holloway is the only tall, right-handed suspect who had access to the maintenance hammer used in the attack."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "🎰",
+        "heading": "Poker Game",
+        "text": "Four truckers confirm Dale was playing cards in the main building during estimated time of death.",
+        "alone": "Dale has multiple witnesses confirming his whereabouts during the murder.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "While Dale argued with the victim about debts, he was playing poker with other truckers when the murder occurred, giving him a solid alibi."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Work Schedule",
+        "text": "Diner time cards show Ruby Carson was serving customers during the murder timeframe.",
+        "alone": "Ruby was working at the diner when the murder happened.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Although Ruby was being blackmailed by the victim, her work schedule proves she was at the diner during the time of death."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "location",
+        "icon": "🏢",
+        "heading": "Crime Scene",
+        "text": "Body found behind visitor center where Frank routinely checks equipment after midnight.",
+        "alone": "The murder occurred at Frank's usual late-night work location.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Frank's maintenance hammer was used behind the visitor center, where only he had legitimate reason to be at night."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Holloway",
+      "weapon": "maintenance hammer",
+      "motive": "witness elimination"
+    },
+    "epilogue": "Frank Holloway killed to protect his insurance fraud scheme, knowing the victim had discovered his falsified accident reports. Using his maintenance hammer during his usual night rounds, the mild-mannered supervisor silenced the only witness to his crimes. His desperation to avoid prison led him to murder behind the very building he was trusted to maintain."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #044",
+    "title": "Highway Shadows",
+    "setting": "Highway Rest Area · Virginia · 1997",
+    "emoji": "🛣️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The fluorescent lights buzzed over empty picnic tables as fog rolled across Interstate 95. Truckers spoke in hushed tones about the body found behind the visitor center, where someone's past had finally caught up with them.",
+    "emptyState": "Mile marker 127. Not everyone made their next exit.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dale Whitmore",
+            "icon": "🚛",
+            "detail": "Long-haul trucker with gambling debts"
+          },
+          {
+            "name": "Ruby Carson",
+            "icon": "☕",
+            "detail": "Night shift diner waitress, recently fired"
+          },
+          {
+            "name": "Frank Holloway",
+            "icon": "🔧",
+            "detail": "Rest area maintenance supervisor"
+          },
+          {
+            "name": "Lloyd Brennan",
+            "icon": "🚗",
+            "detail": "Traveling salesman, frequent rest stop visitor"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "tire iron",
+            "icon": "🔧",
+            "detail": "Heavy steel tool from truck cab"
+          },
+          {
+            "name": "kitchen knife",
+            "icon": "🔪",
+            "detail": "Eight-inch blade from diner"
+          },
+          {
+            "name": "maintenance hammer",
+            "icon": "🔨",
+            "detail": "Claw hammer from tool shed"
+          },
+          {
+            "name": "crowbar",
+            "icon": "⚒️",
+            "detail": "Bent steel pry bar found nearby"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "witness elimination",
+            "icon": "👁️",
+            "detail": "Victim knew about insurance fraud scheme"
+          },
+          {
+            "name": "blackmail revenge",
+            "icon": "📸",
+            "detail": "Victim had compromising photographs"
+          },
+          {
+            "name": "debt collection",
+            "icon": "💰",
+            "detail": "Victim owed money from card games"
+          },
+          {
+            "name": "territory dispute",
+            "icon": "🗺️",
+            "detail": "Victim threatened business routes"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "11:30-11:45 PM",
+            "icon": "🌙",
+            "detail": "Between final diner customer and shift change"
+          },
+          {
+            "name": "12:00-12:15 AM",
+            "icon": "🕛",
+            "detail": "During routine maintenance rounds"
+          },
+          {
+            "name": "12:30-12:45 AM",
+            "icon": "🌃",
+            "detail": "After poker game ended abruptly"
+          },
+          {
+            "name": "1:00-1:15 AM",
+            "icon": "⏰",
+            "detail": "When body was discovered by security"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Spatter",
+        "text": "Victim struck from behind with blunt object. Attack pattern suggests right-handed assailant over six feet tall.",
+        "alone": "The killer was exceptionally tall and right-handed.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Frank Holloway is the only suspect matching the blood spatter evidence who was present during the 12:00-12:15 AM maintenance window."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Security Report",
+        "text": "Night guard swears he saw Lloyd Brennan's sedan leaving at 12:10 AM, right after hearing shouting.",
+        "alone": "Security witnessed Lloyd leaving immediately after suspicious sounds.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The security guard mistakenly identified Lloyd's car in the dark, but Lloyd's credit card receipt proves he was at a gas station twenty miles away during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "⏰",
+        "heading": "Punch Clock",
+        "text": "Frank Holloway's time card shows he clocked in for maintenance rounds at exactly midnight.",
+        "alone": "Frank was officially on duty during the critical time period.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Frank's midnight punch-in time perfectly aligns with the 12:00-12:15 AM murder window when the victim was killed."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔨",
+        "heading": "Murder Weapon",
+        "text": "Maintenance hammer found in nearby storm drain matches victim's head wounds and Frank's tool inventory.",
+        "alone": "Frank's missing hammer was the murder weapon.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Frank Holloway had exclusive access to the maintenance hammer and was the only suspect present during the 12:00-12:15 AM murder window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "📏",
+        "heading": "Suspect Heights",
+        "text": "Frank Holloway stands 6'3\" and is right-handed, perfectly matching the attack trajectory analysis.",
+        "alone": "Frank's physical attributes match the crime scene evidence exactly.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Frank Holloway is the only suspect matching the blood spatter evidence who was present during the 12:00-12:15 AM maintenance window."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "alibi",
+        "icon": "🧾",
+        "heading": "Gas Station Receipt",
+        "text": "Lloyd Brennan's credit card shows purchase at Exxon twenty miles south at 12:05 AM.",
+        "alone": "Lloyd was miles away when the murder occurred.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The security guard mistakenly identified Lloyd's car in the dark, but Lloyd's credit card receipt proves he was at a gas station twenty miles away during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "timeline",
+        "icon": "🕛",
+        "heading": "Murder Window",
+        "text": "Coroner places time of death between 12:00 and 12:15 AM based on body temperature.",
+        "alone": "The victim died in the fifteen-minute window after midnight.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Frank's midnight punch-in time perfectly aligns with the 12:00-12:15 AM murder window when the victim was killed."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "opportunity",
+        "icon": "🎯",
+        "heading": "Access Pattern",
+        "text": "Only Frank Holloway had legitimate access to both the murder weapon and crime scene during the timeframe.",
+        "alone": "Frank alone had opportunity for both weapon and location access.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Frank Holloway had exclusive access to the maintenance hammer and was the only suspect present during the 12:00-12:15 AM murder window."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Holloway",
+      "weapon": "maintenance hammer",
+      "motive": "witness elimination",
+      "window": "12:00-12:15 AM"
+    },
+    "epilogue": "Frank Holloway struck during his midnight maintenance rounds, using his own hammer to silence the victim who had discovered his insurance fraud scheme. The mild-mannered supervisor disposed of the weapon in the storm drain, but the 12:00-12:15 AM time window trapped him at the scene. His desperate attempt to protect his fraudulent accident reports cost an innocent life."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #044",
+    "title": "Highway Shadows",
+    "setting": "Highway Rest Area · Virginia · 1997",
+    "emoji": "🛣️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The fluorescent lights buzzed over empty picnic tables as fog rolled across Interstate 95. Truckers spoke in hushed tones about the body found behind the visitor center, where someone's past had finally caught up with them.",
+    "emptyState": "Mile marker 127. Not everyone made their next exit.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dale Whitmore",
+            "icon": "🚛",
+            "detail": "Long-haul trucker with gambling debts"
+          },
+          {
+            "name": "Ruby Carson",
+            "icon": "☕",
+            "detail": "Night shift diner waitress, recently fired"
+          },
+          {
+            "name": "Frank Holloway",
+            "icon": "🔧",
+            "detail": "Rest area maintenance supervisor"
+          },
+          {
+            "name": "Lloyd Brennan",
+            "icon": "🚗",
+            "detail": "Traveling salesman, frequent rest stop visitor"
+          },
+          {
+            "name": "Maxine Torres",
+            "icon": "🎰",
+            "detail": "Professional card shark, victim's gambling partner"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "tire iron",
+            "icon": "🔧",
+            "detail": "Heavy steel tool from truck cab"
+          },
+          {
+            "name": "kitchen knife",
+            "icon": "🔪",
+            "detail": "Eight-inch blade from diner"
+          },
+          {
+            "name": "maintenance hammer",
+            "icon": "🔨",
+            "detail": "Claw hammer from tool shed"
+          },
+          {
+            "name": "crowbar",
+            "icon": "⚒️",
+            "detail": "Bent steel pry bar found nearby"
+          },
+          {
+            "name": "wrench set",
+            "icon": "🔩",
+            "detail": "Heavy mechanic tools from toolbox"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "witness elimination",
+            "icon": "👁️",
+            "detail": "Victim knew about insurance fraud scheme"
+          },
+          {
+            "name": "blackmail revenge",
+            "icon": "📸",
+            "detail": "Victim had compromising photographs"
+          },
+          {
+            "name": "debt collection",
+            "icon": "💰",
+            "detail": "Victim owed money from card games"
+          },
+          {
+            "name": "territory dispute",
+            "icon": "🗺️",
+            "detail": "Victim threatened business routes"
+          },
+          {
+            "name": "partner betrayal",
+            "icon": "🤝",
+            "detail": "Victim planned to expose gambling ring"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "11:30-11:45 PM",
+            "icon": "🌙",
+            "detail": "Between final diner customer and shift change"
+          },
+          {
+            "name": "12:00-12:15 AM",
+            "icon": "🕛",
+            "detail": "During routine maintenance rounds"
+          },
+          {
+            "name": "12:30-12:45 AM",
+            "icon": "🌃",
+            "detail": "After poker game ended abruptly"
+          },
+          {
+            "name": "1:00-1:15 AM",
+            "icon": "⏰",
+            "detail": "When body was discovered by security"
+          },
+          {
+            "name": "11:45 PM-12:00 AM",
+            "icon": "🌚",
+            "detail": "Staff shift change chaos period"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "master key",
+            "icon": "🗝️",
+            "detail": "Employee access to all facility areas"
+          },
+          {
+            "name": "service tunnel",
+            "icon": "🚇",
+            "detail": "Underground maintenance passages"
+          },
+          {
+            "name": "loading dock",
+            "icon": "🚚",
+            "detail": "Rear delivery entrance, usually unlocked"
+          },
+          {
+            "name": "emergency exit",
+            "icon": "🚪",
+            "detail": "Fire door with broken alarm system"
+          },
+          {
+            "name": "fence gap",
+            "icon": "⛓️",
+            "detail": "Hidden break in perimeter security"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Analysis",
+        "text": "Victim struck from behind with maintenance tool. Spatter indicates right-handed attacker over 6 feet tall.",
+        "alone": "The killer was exceptionally tall and used a maintenance tool.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Frank Holloway's physical profile and master key access to the victim's location during the 12:00-12:15 AM window makes him the only viable suspect."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Anonymous Tip",
+        "text": "Caller claims to have seen Maxine Torres arguing violently with victim about money an hour before death.",
+        "alone": "Someone reported Maxine had a heated confrontation with the victim.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The anonymous tip about Maxine Torres was deliberately misleading, as phone records prove she was in Atlantic City during the entire night of the murder."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "security",
+        "icon": "🔑",
+        "heading": "Key Card Log",
+        "text": "Frank Holloway's master key accessed restricted maintenance areas at 11:58 PM, just before the murder.",
+        "alone": "Frank used his master key to reach the crime scene area.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Frank Holloway's master key was the only access method used to reach the secured area where the victim was killed."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "🤝",
+        "heading": "Partnership Records",
+        "text": "Documents reveal victim was planning to expose Frank's insurance fraud to authorities next week.",
+        "alone": "The victim was about to turn Frank in for insurance fraud.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Frank Holloway orchestrated the murder with Ruby Carson as his accomplice, using her to provide false alibi information while he eliminated the witness to his fraud."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "👤",
+        "heading": "Suspect Profile",
+        "text": "Frank Holloway is 6'3\", right-handed, and had legitimate access to maintenance tools and crime scene.",
+        "alone": "Frank perfectly matches the physical evidence and had complete access.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Frank Holloway's physical profile and master key access to the victim's location during the 12:00-12:15 AM window makes him the only viable suspect."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "alibi",
+        "icon": "🏨",
+        "heading": "Hotel Records",
+        "text": "Atlantic City casino shows Maxine Torres checking in at 8 PM and using room service at midnight.",
+        "alone": "Maxine was 200 miles away in Atlantic City during the murder.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The anonymous tip about Maxine Torres was deliberately misleading, as phone records prove she was in Atlantic City during the entire night of the murder."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "access",
+        "icon": "🚪",
+        "heading": "Security Breach",
+        "text": "Crime scene area requires master key access; no other entry methods show signs of forced entry.",
+        "alone": "Only someone with a master key could have reached the victim.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Frank Holloway's master key was the only access method used to reach the secured area where the victim was killed."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "conspiracy",
+        "icon": "📱",
+        "heading": "Phone Records",
+        "text": "Ruby Carson called Frank three times that evening, then lied to police about his whereabouts during questioning.",
+        "alone": "Ruby coordinated with Frank and provided false information to investigators.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Frank Holloway orchestrated the murder with Ruby Carson as his accomplice, using her to provide false alibi information while he eliminated the witness to his fraud."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Holloway",
+      "weapon": "maintenance hammer",
+      "motive": "witness elimination",
+      "window": "12:00-12:15 AM",
+      "access": "master key"
+    },
+    "epilogue": "Frank Holloway used his master key to access the restricted area where he killed the victim with his maintenance hammer during the 12:00-12:15 AM window. Ruby Carson served as his accomplice, coordinating the timing and later providing false alibis to investigators. Frank's desperate attempt to silence the witness to his insurance fraud scheme ultimately exposed an even larger conspiracy of corruption at the rest stop."
+  }
+}
