@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #043",
+    "title": "Monaco Midnight",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The roulette wheel stopped spinning hours ago, but fortune's cruelest game was just beginning. In the gilded halls of Monte Carlo, family secrets prove deadlier than any bet.",
+    "emptyState": "The house always wins. Tonight, someone lost everything.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Philippe Dubois",
+            "icon": "👔",
+            "detail": "Victim's estranged younger brother, gambling addict"
+          },
+          {
+            "name": "Margot Rousseau",
+            "icon": "💎",
+            "detail": "Casino hostess, victim's secret mistress"
+          },
+          {
+            "name": "Henri Moreau",
+            "icon": "🃏",
+            "detail": "Professional card sharp, owed victim money"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy Baccarat crystal from private salon"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📝",
+            "detail": "Silver antique from casino manager's desk"
+          },
+          {
+            "name": "Poker Chip",
+            "icon": "🔴",
+            "detail": "Solid gold commemorative chip, casino's pride"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Salon",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller room overlooking the harbor"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Underground storage beneath main gaming floor"
+          },
+          {
+            "name": "Manager's Office",
+            "icon": "🗃️",
+            "detail": "Second floor office with panoramic casino view"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Family Trust Papers",
+        "text": "Legal documents in the Private Salon reveal Philippe Dubois stood to inherit millions upon his older brother's death.",
+        "alone": "Philippe had a massive financial motive.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Philippe's inheritance motive combined with his fingerprints on the murder weapon proves he killed his brother for money."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender's Account",
+        "text": "The bartender saw Henri Moreau arguing violently with the victim near the Wine Cellar an hour before the murder.",
+        "alone": "Henri had a public confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Henri's argument was about collecting legitimate winnings, not threatening the victim, clearing him of murder."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "💋",
+        "heading": "Love Letters",
+        "text": "Passionate letters from Margot Rousseau found in victim's jacket pocket, threatening to expose their affair to his wife.",
+        "alone": "Margot was having an affair and making threats.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Margot's threats were empty bluffs as she was working the main floor during the murder, eliminating her as the killer."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensics",
+        "icon": "🔬",
+        "heading": "Blood Spatter Analysis",
+        "text": "Blood patterns on the Private Salon carpet indicate the victim was struck while seated at the poker table.",
+        "alone": "The murder occurred in the Private Salon.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The Private Salon murder scene combined with the Crystal Decanter's blood evidence confirms both the location and weapon used."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "forensics",
+        "icon": "👆",
+        "heading": "Fingerprint Evidence",
+        "text": "Philippe Dubois's fingerprints are found on the Crystal Decanter recovered from the Private Salon's bar cart.",
+        "alone": "Philippe touched the murder weapon.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Philippe's inheritance motive combined with his fingerprints on the murder weapon proves he killed his brother for money."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "🧾",
+        "heading": "Casino Records",
+        "text": "Henri Moreau's argument was about collecting 50,000 francs in legitimate winnings the victim was disputing.",
+        "alone": "Henri's dispute was about money owed to him.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Henri's argument was about collecting legitimate winnings, not threatening the victim, clearing him of murder."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "⏰",
+        "heading": "Security Timeline",
+        "text": "Casino cameras show Margot Rousseau working the main gaming floor continuously during the estimated time of death.",
+        "alone": "Margot has a solid alibi for the murder.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Margot's threats were empty bluffs as she was working the main floor during the murder, eliminating her as the killer."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensics",
+        "icon": "🩸",
+        "heading": "Weapon Analysis",
+        "text": "The Crystal Decanter matches the victim's head wound perfectly and contains traces of his blood and hair.",
+        "alone": "The Crystal Decanter was definitely the murder weapon.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The Private Salon murder scene combined with the Crystal Decanter's blood evidence confirms both the location and weapon used."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Philippe Dubois",
+      "weapon": "Crystal Decanter",
+      "location": "Private Salon"
+    },
+    "epilogue": "Philippe Dubois, drowning in gambling debts and desperate for his inheritance, saw his brother's death as his only salvation. He lured his sibling to the Private Salon under the pretense of reconciliation, then struck him with the Crystal Decanter while his guard was down. The family fortune he'd coveted for years was finally within reach, but the price was his soul and his freedom."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #043",
+    "title": "Monaco Midnight",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The roulette wheel stopped spinning hours ago, but fortune's cruelest game was just beginning. In the gilded halls of Monte Carlo, family secrets prove deadlier than any bet.",
+    "emptyState": "The house always wins. Tonight, someone lost everything.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Philippe Dubois",
+            "icon": "👔",
+            "detail": "Victim's estranged younger brother, gambling addict"
+          },
+          {
+            "name": "Margot Rousseau",
+            "icon": "💎",
+            "detail": "Casino hostess, victim's secret mistress"
+          },
+          {
+            "name": "Henri Moreau",
+            "icon": "🃏",
+            "detail": "Professional card sharp, owed victim money"
+          },
+          {
+            "name": "Claude Fontaine",
+            "icon": "🎩",
+            "detail": "Casino security chief, victim's former business partner"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy Baccarat crystal from private salon"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📝",
+            "detail": "Silver antique from casino manager's desk"
+          },
+          {
+            "name": "Poker Chip",
+            "icon": "🔴",
+            "detail": "Solid gold commemorative chip, casino's pride"
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "Vintage Bordeaux from private collection"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Salon",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller room overlooking the harbor"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Underground storage beneath main gaming floor"
+          },
+          {
+            "name": "Manager's Office",
+            "icon": "🗃️",
+            "detail": "Second floor office with panoramic casino view"
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🌙",
+            "detail": "Private terrace reserved for VIP guests"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Keycard",
+            "icon": "💳",
+            "detail": "Electronic access to all casino areas"
+          },
+          {
+            "name": "Service Tunnel",
+            "icon": "🚇",
+            "detail": "Hidden maintenance passage between floors"
+          },
+          {
+            "name": "VIP Invitation",
+            "icon": "📜",
+            "detail": "Exclusive invitation to private gaming session"
+          },
+          {
+            "name": "Staff Uniform",
+            "icon": "👔",
+            "detail": "Stolen uniform allowing unrestricted movement"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Family Trust Papers",
+        "text": "Legal documents reveal Philippe Dubois stood to inherit millions, but only if his brother died before their father.",
+        "alone": "Philippe's inheritance had a crucial time condition.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Philippe's urgent inheritance deadline combined with his Master Keycard access proves he had both motive and means to commit murder."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard Report",
+        "text": "Claude Fontaine claims he saw Henri Moreau leaving the Private Salon covered in blood around midnight.",
+        "alone": "Claude witnessed Henri fleeing the murder scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Claude's testimony about Henri is false since Henri was dealing cards publicly when the murder occurred, revealing Claude's deliberate misdirection."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🔐",
+        "heading": "Access Logs",
+        "text": "Philippe Dubois used his Master Keycard to enter the Private Salon at 11:47 PM, just before the murder.",
+        "alone": "Philippe had electronic access to the crime scene.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Philippe's Master Keycard access combined with his keycard being the only method to reach the Private Salon proves he was the killer."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "📹",
+        "heading": "Camera Evidence",
+        "text": "Security footage shows Margot Rousseau working the main floor continuously from 11:30 PM to 12:30 AM.",
+        "alone": "Margot has a solid video alibi.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Margot's video alibi eliminates her completely, as she was visible on cameras during the entire murder window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "forensics",
+        "icon": "👆",
+        "heading": "Fingerprint Evidence",
+        "text": "Philippe Dubois's fingerprints are found on the Crystal Decanter alongside traces of the victim's blood.",
+        "alone": "Philippe handled the bloody murder weapon.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Philippe's urgent inheritance deadline combined with his Master Keycard access proves he had both motive and means to commit murder."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🃏",
+        "heading": "Dealer Records",
+        "text": "Casino logs show Henri Moreau was dealing high-stakes poker in the main room from 11:15 PM until 1:00 AM.",
+        "alone": "Henri was dealing cards during the murder timeframe.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Claude's testimony about Henri is false since Henri was dealing cards publicly when the murder occurred, revealing Claude's deliberate misdirection."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "🚪",
+        "heading": "Private Salon Security",
+        "text": "The Private Salon's electronic lock shows Master Keycard was the only access method used that night.",
+        "alone": "Only a Master Keycard could access the murder scene.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Philippe's Master Keycard access combined with his keycard being the only method to reach the Private Salon proves he was the killer."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "forensics",
+        "icon": "🕐",
+        "heading": "Time of Death",
+        "text": "Coroner places death between 11:50 PM and 12:10 AM based on body temperature and rigor mortis.",
+        "alone": "The murder occurred within a twenty-minute window.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Margot's video alibi eliminates her completely, as she was visible on cameras during the entire murder window."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Philippe Dubois",
+      "weapon": "Crystal Decanter",
+      "location": "Private Salon",
+      "access": "Master Keycard"
+    },
+    "epilogue": "Philippe Dubois, facing crushing gambling debts and a rapidly closing inheritance window, used his Master Keycard to access the Private Salon where his brother waited. He struck with the Crystal Decanter in a moment of desperate greed, knowing his father's declining health meant this was his last chance at the family fortune. The Master Keycard that granted him access became the very evidence that sealed his fate."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #043",
+    "title": "Monaco Midnight",
+    "setting": "Monte Carlo Casino · Monaco · 1974",
+    "emoji": "🎰",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The roulette wheel stopped spinning hours ago, but fortune's cruelest game was just beginning. In the gilded halls of Monte Carlo, family secrets prove deadlier than any bet.",
+    "emptyState": "The house always wins. Tonight, someone lost everything.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Philippe Dubois",
+            "icon": "👔",
+            "detail": "Victim's estranged younger brother, gambling addict"
+          },
+          {
+            "name": "Margot Rousseau",
+            "icon": "💎",
+            "detail": "Casino hostess, victim's secret mistress"
+          },
+          {
+            "name": "Henri Moreau",
+            "icon": "🃏",
+            "detail": "Professional card sharp, owed victim money"
+          },
+          {
+            "name": "Claude Fontaine",
+            "icon": "🎩",
+            "detail": "Casino security chief, victim's former business partner"
+          },
+          {
+            "name": "Isabelle Dubois",
+            "icon": "⚜️",
+            "detail": "Victim's estranged wife, pharmaceutical heiress"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy Baccarat crystal from private salon"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📝",
+            "detail": "Silver antique from casino manager's desk"
+          },
+          {
+            "name": "Poker Chip",
+            "icon": "🔴",
+            "detail": "Solid gold commemorative chip, casino's pride"
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "Vintage Bordeaux from private collection"
+          },
+          {
+            "name": "Ivory Cane",
+            "icon": "🦯",
+            "detail": "Antique walking stick with gold handle"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Salon",
+            "icon": "🚪",
+            "detail": "Exclusive high-roller room overlooking the harbor"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Underground storage beneath main gaming floor"
+          },
+          {
+            "name": "Manager's Office",
+            "icon": "🗃️",
+            "detail": "Second floor office with panoramic casino view"
+          },
+          {
+            "name": "Rooftop Terrace",
+            "icon": "🌙",
+            "detail": "Private terrace reserved for VIP guests"
+          },
+          {
+            "name": "Service Corridor",
+            "icon": "🔧",
+            "detail": "Hidden maintenance area behind kitchen"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Keycard",
+            "icon": "💳",
+            "detail": "Electronic access to all casino areas"
+          },
+          {
+            "name": "Service Tunnel",
+            "icon": "🚇",
+            "detail": "Hidden maintenance passage between floors"
+          },
+          {
+            "name": "VIP Invitation",
+            "icon": "📜",
+            "detail": "Exclusive invitation to private gaming session"
+          },
+          {
+            "name": "Staff Uniform",
+            "icon": "👔",
+            "detail": "Stolen uniform allowing unrestricted movement"
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Fire escape accessible from parking garage"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Inheritance Greed",
+            "icon": "💰",
+            "detail": "Desperate need for immediate family fortune"
+          },
+          {
+            "name": "Blackmail Exposure",
+            "icon": "📸",
+            "detail": "Fear of scandalous secrets being revealed"
+          },
+          {
+            "name": "Gambling Debts",
+            "icon": "🎲",
+            "detail": "Crushing debt to dangerous loan sharks"
+          },
+          {
+            "name": "Business Betrayal",
+            "icon": "💼",
+            "detail": "Revenge for stolen business partnership"
+          },
+          {
+            "name": "Romantic Jealousy",
+            "icon": "💔",
+            "detail": "Fury over spouse's infidelity"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Trust Fund Documents",
+        "text": "Philippe Dubois discovered their ailing father planned to change his will, cutting off Philippe's inheritance within days.",
+        "alone": "Philippe faced imminent financial ruin from inheritance loss.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Philippe's desperate Inheritance Greed motive combined with his Master Keycard access proves he killed his brother to secure the family fortune."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Anonymous Phone Tip",
+        "text": "Claude Fontaine received a call claiming Isabelle Dubois was seen entering the casino through the Emergency Exit at 11:45 PM.",
+        "alone": "Someone reported seeing Isabelle at the crime scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The anonymous tip about Isabelle was deliberately false, as hotel records prove she never left her room, revealing Claude's involvement in misdirection."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🎯",
+        "heading": "Loan Shark Records",
+        "text": "Philippe Dubois owed 2 million francs to Marseille crime families, with payment due within the week.",
+        "alone": "Philippe faced deadly consequences from unpaid gambling debts.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Philippe's crushing Inheritance Greed drove him to murder his brother, as the family fortune was his only escape from loan sharks and financial ruin."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Badge Logs",
+        "text": "Claude Fontaine's Master Keycard was used to delete specific security footage from the Private Salon cameras between 11:30 PM and midnight.",
+        "alone": "Claude deliberately destroyed evidence of the murder.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Claude's evidence tampering combined with his fake witness reports proves he was Philippe's accomplice, helping cover up the murder."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "forensics",
+        "icon": "👆",
+        "heading": "DNA Evidence",
+        "text": "Philippe Dubois's DNA and fingerprints cover the Crystal Decanter handle, mixed with the victim's blood spatter.",
+        "alone": "Philippe's genetic material is all over the murder weapon.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Philippe's desperate Inheritance Greed motive combined with his Master Keycard access proves he killed his brother to secure the family fortune."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🏨",
+        "heading": "Hotel Hermitage Records",
+        "text": "Isabelle Dubois never left her hotel suite that night, confirmed by room service deliveries and door sensor logs.",
+        "alone": "Isabelle has an unbreakable alibi for the entire evening.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The anonymous tip about Isabelle was deliberately false, as hotel records prove she never left her room, revealing Claude's involvement in misdirection."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Keycard Access Logs",
+        "text": "Philippe Dubois's Master Keycard accessed the Private Salon at 11:47 PM, with no other electronic entries recorded.",
+        "alone": "Philippe was the only person to access the murder scene electronically.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Philippe's crushing Inheritance Greed drove him to murder his brother, as the family fortune was his only escape from loan sharks and financial ruin."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Staff Testimony",
+        "text": "Multiple casino employees saw Claude Fontaine providing Philippe with inside information about victim's location and Private Salon access.",
+        "alone": "Claude was actively helping Philippe before the murder.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Claude's evidence tampering combined with his fake witness reports proves he was Philippe's accomplice, helping cover up the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Philippe Dubois",
+      "weapon": "Crystal Decanter",
+      "location": "Private Salon",
+      "access": "Master Keycard",
+      "motive": "Inheritance Greed"
+    },
+    "epilogue": "Philippe Dubois, trapped between loan sharks and an inheritance about to vanish, conspired with his old friend Claude Fontaine to eliminate his brother. Using his Master Keycard to access the Private Salon, Philippe struck with the Crystal Decanter in a moment of pure Inheritance Greed. Claude's attempt to destroy evidence and create false witnesses only delayed the inevitable - both men's greed and desperation sealed their fate. The family fortune Philippe killed for would never be his, as a murderer cannot inherit from his victim."
+  }
+}
