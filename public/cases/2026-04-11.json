@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #034",
+    "title": "Last Call Murder",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz stopped playing when Giuseppe 'Big Joe' Torrino hit the floor. In a room full of criminals, finding the killer won't be easy.",
+    "emptyState": "Last call was hours ago. Someone didn't make it home.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Valentina Romano",
+            "icon": "💃",
+            "detail": "Torch singer with debts to dangerous men"
+          },
+          {
+            "name": "Mickey O'Flanagan",
+            "icon": "🎰",
+            "detail": "Bookmaker who owes money to Big Joe"
+          },
+          {
+            "name": "Frankie 'The Fish' Benedetto",
+            "icon": "🐟",
+            "detail": "Rival bootlegger from the South Side"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "Sharp tool from behind the bar"
+          },
+          {
+            "name": "Tommy Gun",
+            "icon": "🔫",
+            "detail": "Automatic weapon hidden in coat check"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Cyanide slipped into his gin rickey"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded corner where Big Joe conducted business"
+          },
+          {
+            "name": "Dance Floor",
+            "icon": "💃",
+            "detail": "Crowded area near the stage"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back room where liquor is kept"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🍸",
+        "heading": "Bitter Gin",
+        "text": "Big Joe's gin rickey smells of almonds. The glass shows traces of cyanide.",
+        "alone": "Big Joe was poisoned with cyanide in his drink.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano had access to cyanide from her stage makeup supplies."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bartender Statement",
+        "text": "Mickey O'Flanagan was arguing with Big Joe about gambling debts. Mickey stormed off threatening revenge.",
+        "alone": "Mickey had motive and made threats against Big Joe.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Mickey threatened Big Joe but was seen leaving the speakeasy before the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Betting Slips",
+        "text": "Mickey's betting slips show he owed Big Joe three thousand dollars. The debt was due tonight.",
+        "alone": "Mickey owed Big Joe a substantial gambling debt.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Mickey had financial motive but his alibi proves he wasn't present during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🛋️",
+        "heading": "Death Scene",
+        "text": "Big Joe died in his private booth. No signs of struggle or forced entry.",
+        "alone": "Big Joe was killed in his usual private booth.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Big Joe died in his private booth from poison, confirming the murder location and method."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "💄",
+        "heading": "Makeup Kit",
+        "text": "Valentina Romano's dressing room contains stage makeup and a vial of cyanide for 'special effects.'",
+        "alone": "Valentina had access to the murder weapon.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano had access to cyanide from her stage makeup supplies."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Doorman Account",
+        "text": "Mickey O'Flanagan left the speakeasy at 11 PM. Big Joe was found dead at midnight.",
+        "alone": "Mickey had left before the murder occurred.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Mickey threatened Big Joe but was seen leaving the speakeasy before the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "👮",
+        "heading": "Police Report",
+        "text": "Mickey O'Flanagan was arrested for public intoxication at 11:30 PM, three blocks away.",
+        "alone": "Mickey has an ironclad alibi for the time of murder.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Mickey had financial motive but his alibi proves he wasn't present during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "☠️",
+        "heading": "Coroner Report",
+        "text": "Big Joe died from cyanide poisoning at approximately 11:45 PM in his private booth.",
+        "alone": "Official cause of death confirms poisoning.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Big Joe died in his private booth from poison, confirming the murder location and method."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Valentina Romano",
+      "weapon": "Poison",
+      "location": "Private Booth"
+    },
+    "epilogue": "Valentina Romano killed Big Joe Torrino to escape his violent control over her career and personal life. She slipped cyanide from her makeup kit into his gin rickey while performing at his private booth. The poison acted quickly, ending years of threats and abuse. Though she sang of love and heartbreak on stage, Valentina's real performance was the perfect murder in plain sight."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #034",
+    "title": "Last Call Murder",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz stopped playing when Giuseppe 'Big Joe' Torrino hit the floor. In a room full of criminals, finding the killer won't be easy.",
+    "emptyState": "Last call was hours ago. Someone didn't make it home.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Valentina Romano",
+            "icon": "💃",
+            "detail": "Torch singer with debts to dangerous men"
+          },
+          {
+            "name": "Mickey O'Flanagan",
+            "icon": "🎰",
+            "detail": "Bookmaker who owes money to Big Joe"
+          },
+          {
+            "name": "Frankie Benedetto",
+            "icon": "🐟",
+            "detail": "Rival bootlegger from the South Side"
+          },
+          {
+            "name": "Tommy 'The Weasel' Kowalski",
+            "icon": "🎺",
+            "detail": "Jazz musician and small-time dealer"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "Sharp tool from behind the bar"
+          },
+          {
+            "name": "Tommy Gun",
+            "icon": "🔫",
+            "detail": "Automatic weapon hidden in coat check"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Cyanide slipped into his gin rickey"
+          },
+          {
+            "name": "Brass Knuckles",
+            "icon": "👊",
+            "detail": "Heavy metal weapon found nearby"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded corner where Big Joe conducted business"
+          },
+          {
+            "name": "Dance Floor",
+            "icon": "💃",
+            "detail": "Crowded area near the stage"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back room where liquor is kept"
+          },
+          {
+            "name": "Coat Check",
+            "icon": "🧥",
+            "detail": "Small room near the entrance"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Staff Key",
+            "icon": "🔑",
+            "detail": "Master key used by employees"
+          },
+          {
+            "name": "VIP Pass",
+            "icon": "🎫",
+            "detail": "Special access to private areas"
+          },
+          {
+            "name": "Performer Badge",
+            "icon": "🎭",
+            "detail": "Allows backstage and booth access"
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Climbed through back alley window"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🍸",
+        "heading": "Poisoned Drink",
+        "text": "Big Joe's gin rickey contains lethal cyanide. The bitter almond smell is unmistakable.",
+        "alone": "Big Joe was murdered with cyanide poison.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano used her performer badge to access his private booth undetected."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Waitress Account",
+        "text": "The waitress swears she saw Frankie Benedetto near Big Joe's booth around 11:30 PM.",
+        "alone": "Frankie was allegedly seen near the victim's booth.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The waitress was mistaken about seeing Frankie Benedetto, who was actually meeting with suppliers across town during the murder."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🎺",
+        "heading": "Band Schedule",
+        "text": "Tommy Kowalski was performing on stage continuously from 11 PM to midnight. Multiple witnesses confirm.",
+        "alone": "Tommy has a solid alibi during the murder timeframe.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Tommy Kowalski was performing on stage and used his performer badge legitimately, eliminating him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🚗",
+        "heading": "Parking Records",
+        "text": "Mickey O'Flanagan's car was towed from downtown at 11:15 PM. He was nowhere near the speakeasy.",
+        "alone": "Mickey was not at the speakeasy during the murder.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Mickey O'Flanagan was across town when his car was towed, completely eliminating him as the killer."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🎭",
+        "heading": "Access Badge",
+        "text": "Valentina Romano's performer badge was used to access the private booth area at 11:40 PM.",
+        "alone": "Valentina accessed the private area minutes before the murder.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano used her performer badge to access his private booth undetected."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Delivery Receipt",
+        "text": "Frankie Benedetto was signing for a liquor shipment across town at 11:45 PM. Receipt shows his signature.",
+        "alone": "Frankie has documented proof he was elsewhere during the murder.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The waitress was mistaken about seeing Frankie Benedetto, who was actually meeting with suppliers across town during the murder."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🎪",
+        "heading": "Stage Manager",
+        "text": "Tommy Kowalski used his performer badge at 10:45 PM to set up equipment, then stayed on stage.",
+        "alone": "Tommy's badge access was for legitimate performance duties.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Tommy Kowalski was performing on stage and used his performer badge legitimately, eliminating him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "👮",
+        "heading": "Beat Cop",
+        "text": "Officer Murphy confirms Mickey O'Flanagan was arrested for disturbing the peace downtown at 11:20 PM.",
+        "alone": "Police records confirm Mickey's whereabouts during the murder.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Mickey O'Flanagan was across town when his car was towed, completely eliminating him as the killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Valentina Romano",
+      "weapon": "Poison",
+      "location": "Private Booth",
+      "access": "Performer Badge"
+    },
+    "epilogue": "Valentina Romano used her performer badge to slip into Big Joe's private booth undetected. She poisoned his gin rickey with cyanide, watching him die while pretending to entertain nearby patrons. Her performer badge provided the perfect cover, allowing her to move freely through restricted areas. Years of abuse and threats from Big Joe had driven her to this calculated revenge, executed with the precision of a seasoned performer."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #034",
+    "title": "Last Call Murder",
+    "setting": "Blue Moon Speakeasy · Chicago · 1927",
+    "emoji": "🍸",
+    "flavor": "The jazz stopped playing when Giuseppe 'Big Joe' Torrino hit the floor. In a room full of criminals, finding the killer won't be easy.",
+    "emptyState": "Last call was hours ago. Someone didn't make it home.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Valentina Romano",
+            "icon": "💃",
+            "detail": "Torch singer with debts to dangerous men"
+          },
+          {
+            "name": "Mickey O'Flanagan",
+            "icon": "🎰",
+            "detail": "Bookmaker who owes money to Big Joe"
+          },
+          {
+            "name": "Frankie Benedetto",
+            "icon": "🐟",
+            "detail": "Rival bootlegger from the South Side"
+          },
+          {
+            "name": "Tommy Kowalski",
+            "icon": "🎺",
+            "detail": "Jazz musician and small-time dealer"
+          },
+          {
+            "name": "Sophia Torrino",
+            "icon": "👑",
+            "detail": "Big Joe's estranged wife and business partner"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "Sharp tool from behind the bar"
+          },
+          {
+            "name": "Tommy Gun",
+            "icon": "🔫",
+            "detail": "Automatic weapon hidden in coat check"
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Cyanide slipped into his gin rickey"
+          },
+          {
+            "name": "Brass Knuckles",
+            "icon": "👊",
+            "detail": "Heavy metal weapon found nearby"
+          },
+          {
+            "name": "Stiletto Knife",
+            "icon": "🗡️",
+            "detail": "Concealed blade from coat check"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Booth",
+            "icon": "🛋️",
+            "detail": "Secluded corner where Big Joe conducted business"
+          },
+          {
+            "name": "Dance Floor",
+            "icon": "💃",
+            "detail": "Crowded area near the stage"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Back room where liquor is kept"
+          },
+          {
+            "name": "Coat Check",
+            "icon": "🧥",
+            "detail": "Small room near the entrance"
+          },
+          {
+            "name": "Office Upstairs",
+            "icon": "🏢",
+            "detail": "Big Joe's private business office"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Staff Key",
+            "icon": "🔑",
+            "detail": "Master key used by employees"
+          },
+          {
+            "name": "VIP Pass",
+            "icon": "🎫",
+            "detail": "Special access to private areas"
+          },
+          {
+            "name": "Performer Badge",
+            "icon": "🎭",
+            "detail": "Allows backstage and booth access"
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Climbed through back alley window"
+          },
+          {
+            "name": "Owner Access",
+            "icon": "👑",
+            "detail": "Full building access as co-owner"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Freedom",
+            "icon": "💰",
+            "detail": "Escape crushing debts and threats"
+          },
+          {
+            "name": "Business Rivalry",
+            "icon": "⚔️",
+            "detail": "Territory war between bootleggers"
+          },
+          {
+            "name": "Gambling Debts",
+            "icon": "🎲",
+            "detail": "Owed money to dangerous creditors"
+          },
+          {
+            "name": "Personal Revenge",
+            "icon": "🔥",
+            "detail": "Retaliation for years of abuse"
+          },
+          {
+            "name": "Inheritance Claim",
+            "icon": "💎",
+            "detail": "Gain control of criminal empire"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🍸",
+        "heading": "Cyanide Cocktail",
+        "text": "Big Joe's gin rickey reeks of bitter almonds. Lab confirms lethal cyanide dose.",
+        "alone": "Big Joe was murdered with cyanide poison in his drink.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano gained access using her performer badge to deliver the fatal drink."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎪",
+        "heading": "Stage Manager",
+        "text": "The stage manager insists Sophia Torrino was backstage during Valentina's entire 11:30 PM performance.",
+        "alone": "Sophia allegedly has an alibi during the critical time period.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The stage manager was covering for Sophia Torrino, who actually left backstage to confront her husband about the divorce papers."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Insurance Policy",
+        "text": "Sophia Torrino recently increased Big Joe's life insurance to half a million dollars. She's the sole beneficiary.",
+        "alone": "Sophia stands to inherit a fortune from Big Joe's death.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Sophia Torrino increased Big Joe's life insurance for inheritance claim, planning to gain control of his entire criminal empire."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "🚗",
+        "heading": "Parking Stub",
+        "text": "Mickey O'Flanagan's car was impounded across town at 11:15 PM for unpaid tickets.",
+        "alone": "Mickey was nowhere near the speakeasy during the murder.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Mickey O'Flanagan was dealing with impounded car issues across town, and Valentina Romano had her accomplice Sophia create the perfect distraction."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🎭",
+        "heading": "Badge Scanner",
+        "text": "Valentina Romano's performer badge accessed the private booth at 11:42 PM, just before the murder.",
+        "alone": "Valentina entered the private area minutes before Big Joe died.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Big Joe was poisoned with cyanide, and Valentina Romano gained access using her performer badge to deliver the fatal drink."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "💸",
+        "heading": "Bribery Receipt",
+        "text": "Stage manager deposited five hundred dollars cash today. Bank slip shows Sophia Torrino's account number.",
+        "alone": "The stage manager was paid by Sophia to lie about her whereabouts.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The stage manager was covering for Sophia Torrino, who actually left backstage to confront her husband about the divorce papers."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Divorce Papers",
+        "text": "Hidden divorce papers show Sophia would get nothing if Big Joe divorced her first. She needed him dead.",
+        "alone": "Sophia faced financial ruin if the divorce proceeded.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Sophia Torrino increased Big Joe's life insurance for inheritance claim, planning to gain control of his entire criminal empire."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "💌",
+        "heading": "Love Letters",
+        "text": "Secret correspondence reveals Valentina Romano and Sophia Torrino planned Big Joe's murder together for weeks.",
+        "alone": "Valentina and Sophia conspired together to kill Big Joe.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Mickey O'Flanagan was dealing with impounded car issues across town, and Valentina Romano had her accomplice Sophia create the perfect distraction."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Valentina Romano",
+      "weapon": "Poison",
+      "location": "Private Booth",
+      "access": "Performer Badge",
+      "motive": "Personal Revenge"
+    },
+    "epilogue": "Valentina Romano poisoned Big Joe Torrino in his private booth, using her performer badge for access and seeking personal revenge for years of abuse. She conspired with Sophia Torrino, who bribed the stage manager to create a false alibi and stood to inherit the criminal empire. Valentina delivered the cyanide-laced gin rickey as her final performance, ending Big Joe's reign of terror. The two women's alliance combined Valentina's access and motive with Sophia's financial planning, creating the perfect murder in the smoky shadows of the Blue Moon Speakeasy."
+  }
+}
