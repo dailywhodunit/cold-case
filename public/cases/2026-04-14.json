@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #046",
+    "title": "Borrowed Identity",
+    "setting": "Book Shop · London · 2010",
+    "emoji": "📚",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The rare books section holds more than literary treasures tonight. Someone's carefully constructed new life just came to a violent end.",
+    "emptyState": "The shop's closed, but someone's still reading between the lines.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Oliver Whitmore",
+            "icon": "👨‍💼",
+            "detail": "Victim's business partner in antiquarian book dealing."
+          },
+          {
+            "name": "Penelope Hartwell",
+            "icon": "👩‍🎓",
+            "detail": "Rare manuscript authenticator, frequent shop visitor."
+          },
+          {
+            "name": "Edmund Blackwood",
+            "icon": "🕴️",
+            "detail": "Private investigator hired to trace stolen identities."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "🔪",
+            "detail": "Victorian silver blade from the desk drawer."
+          },
+          {
+            "name": "Bookend",
+            "icon": "📖",
+            "detail": "Heavy bronze Shakespeare bust from the classics shelf."
+          },
+          {
+            "name": "Paper Cutter",
+            "icon": "✂️",
+            "detail": "Antique guillotine-style tool for trimming pages."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Rare Books Section",
+            "icon": "📚",
+            "detail": "Climate-controlled back room with valuable first editions."
+          },
+          {
+            "name": "Shop Counter",
+            "icon": "💰",
+            "detail": "Main checkout area with cash register and receipts."
+          },
+          {
+            "name": "Storage Basement",
+            "icon": "📦",
+            "detail": "Underground space for inventory and deliveries."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Victim's Wallet",
+        "text": "Three different credit cards, all with the victim's photo but different names entirely.",
+        "alone": "The victim was living under multiple false identities.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft schemes and discovered the multiple credit cards during his surveillance."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Neighbor's Account",
+        "text": "Oliver Whitmore was seen arguing loudly with the victim yesterday about missing rare manuscripts.",
+        "alone": "Oliver Whitmore had recent conflict with the victim over business.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The argument was about manuscripts Oliver legitimately purchased, but the victim tried to sell them under false provenance, creating the business dispute."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "👗",
+        "heading": "Torn Fabric",
+        "text": "Piece of expensive tweed caught on the Storage Basement door handle, matching Penelope Hartwell's jacket.",
+        "alone": "Penelope Hartwell was in the Storage Basement recently.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Penelope's jacket tore when she discovered the body in the Storage Basement and ran upstairs to call police, not during any criminal activity."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Blood Spatter",
+        "text": "Victim was struck in the Rare Books Section, then dragged to where the body was found.",
+        "alone": "The murder occurred in the Rare Books Section.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The heavy bronze Bookend from the Rare Books Section shows impact damage and blood traces, confirming it as the murder weapon used in that location."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Investigation Files",
+        "text": "Edmund Blackwood's case notes detail weeks of surveillance documenting the victim's identity theft operations.",
+        "alone": "Edmund Blackwood was professionally tracking the victim's criminal activities.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft schemes and discovered the multiple credit cards during his surveillance."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📄",
+        "heading": "Purchase Records",
+        "text": "Oliver Whitmore's receipts show legitimate purchases of all manuscripts the victim claimed were stolen.",
+        "alone": "Oliver Whitmore legally owned the disputed manuscripts.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The argument was about manuscripts Oliver legitimately purchased, but the victim tried to sell them under false provenance, creating the business dispute."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Emergency Call",
+        "text": "Penelope Hartwell called police immediately upon finding the body, voice shaking with genuine shock.",
+        "alone": "Penelope Hartwell appeared genuinely surprised to discover the victim.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Penelope's jacket tore when she discovered the body in the Storage Basement and ran upstairs to call police, not during any criminal activity."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Weapon Analysis",
+        "text": "The bronze Bookend bears impact damage and blood traces consistent with the victim's head wound.",
+        "alone": "The Bookend was definitely the murder weapon used.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The heavy bronze Bookend from the Rare Books Section shows impact damage and blood traces, confirming it as the murder weapon used in that location."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Edmund Blackwood",
+      "weapon": "Bookend",
+      "location": "Rare Books Section"
+    },
+    "epilogue": "Edmund Blackwood started as a legitimate private investigator, but the victim's identity theft ring was too lucrative to simply report. When the victim refused to cut him in on the profits, Edmund used the heavy bronze Bookend in a moment of greed-fueled rage. His professional investigation had given him perfect knowledge of the victim's crimes, making him feel justified in his deadly betrayal."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #046",
+    "title": "Borrowed Identity",
+    "setting": "Book Shop · London · 2010",
+    "emoji": "📚",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The rare books section holds more than literary treasures tonight. Someone's carefully constructed new life just came to a violent end.",
+    "emptyState": "The shop's closed, but someone's still reading between the lines.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Oliver Whitmore",
+            "icon": "👨‍💼",
+            "detail": "Victim's business partner in antiquarian book dealing."
+          },
+          {
+            "name": "Penelope Hartwell",
+            "icon": "👩‍🎓",
+            "detail": "Rare manuscript authenticator, frequent shop visitor."
+          },
+          {
+            "name": "Edmund Blackwood",
+            "icon": "🕴️",
+            "detail": "Private investigator hired to trace stolen identities."
+          },
+          {
+            "name": "Nigel Pemberton",
+            "icon": "👨‍🏫",
+            "detail": "University professor specializing in historical documents."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "🔪",
+            "detail": "Victorian silver blade from the desk drawer."
+          },
+          {
+            "name": "Bookend",
+            "icon": "📖",
+            "detail": "Heavy bronze Shakespeare bust from the classics shelf."
+          },
+          {
+            "name": "Paper Cutter",
+            "icon": "✂️",
+            "detail": "Antique guillotine-style tool for trimming pages."
+          },
+          {
+            "name": "Fire Poker",
+            "icon": "🔥",
+            "detail": "Cast iron rod from the shop's reading area fireplace."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Rare Books Section",
+            "icon": "📚",
+            "detail": "Climate-controlled back room with valuable first editions."
+          },
+          {
+            "name": "Shop Counter",
+            "icon": "💰",
+            "detail": "Main checkout area with cash register and receipts."
+          },
+          {
+            "name": "Storage Basement",
+            "icon": "📦",
+            "detail": "Underground space for inventory and deliveries."
+          },
+          {
+            "name": "Reading Alcove",
+            "icon": "🪑",
+            "detail": "Cozy corner with armchairs and fireplace for customers."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Front Door Key",
+            "icon": "🔑",
+            "detail": "Master key given to trusted business associates."
+          },
+          {
+            "name": "Back Alley Window",
+            "icon": "🪟",
+            "detail": "Basement window often left unlocked for deliveries."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🏢",
+            "detail": "Skylight accessible from adjoining building's fire escape."
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Rear exit with alarm system bypassed by code."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Victim's Wallet",
+        "text": "Three different credit cards, all with the victim's photo but different names entirely.",
+        "alone": "The victim was living under multiple false identities.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft schemes and had detailed surveillance photos of the victim using these exact credit cards."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Eyewitness Report",
+        "text": "Shop owner swears he saw Nigel Pemberton's distinctive red car parked outside at 9 PM.",
+        "alone": "Nigel Pemberton was supposedly near the shop during the murder timeframe.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The shop owner genuinely saw a red car but was mistaken about the make; it was Edmund Blackwood's rental car, not Nigel's distinctive vintage vehicle."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Lock Picking Tools",
+        "text": "Professional lock picks found near the Back Alley Window, recently used on the window latch.",
+        "alone": "Someone used professional tools to break in through the basement window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Edmund Blackwood's private investigator license includes locksmithing certification, and his fingerprints are on the lock picking tools found at the Back Alley Window."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Blood Spatter",
+        "text": "Victim was struck in the Rare Books Section, then dragged to where the body was found.",
+        "alone": "The murder occurred in the Rare Books Section.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Oliver Whitmore's solid alibi at his book club meeting eliminates him as a suspect, despite having access and motive for the murder in the Rare Books Section."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Investigation Files",
+        "text": "Edmund Blackwood's surveillance photos show the victim using multiple credit cards under different identities over several weeks.",
+        "alone": "Edmund Blackwood was professionally documenting the victim's identity theft operations.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft schemes and had detailed surveillance photos of the victim using these exact credit cards."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🚗",
+        "heading": "Car Registration",
+        "text": "Nigel Pemberton's red vintage Jaguar was in the shop for repairs all week, confirmed by garage records.",
+        "alone": "Nigel Pemberton's distinctive red car was not available to him that night.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The shop owner genuinely saw a red car but was mistaken about the make; it was Edmund Blackwood's rental car, not Nigel's distinctive vintage vehicle."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "Fingerprint Analysis",
+        "text": "Edmund Blackwood's fingerprints are clearly visible on the lock picking tools found at the break-in point.",
+        "alone": "Edmund Blackwood handled the lock picking tools used in the break-in.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Edmund Blackwood's private investigator license includes locksmithing certification, and his fingerprints are on the lock picking tools found at the Back Alley Window."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Book Club Alibi",
+        "text": "Oliver Whitmore was at his weekly book club meeting until 10:30 PM, confirmed by six other members.",
+        "alone": "Oliver Whitmore has a solid alibi for the time of murder.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Oliver Whitmore's solid alibi at his book club meeting eliminates him as a suspect, despite having access and motive for the murder in the Rare Books Section."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Edmund Blackwood",
+      "weapon": "Bookend",
+      "location": "Rare Books Section",
+      "access": "Back Alley Window"
+    },
+    "epilogue": "Edmund Blackwood started as a legitimate private investigator hired to trace identity thieves, but greed corrupted his mission. When he confronted the victim about joining the lucrative scheme, the victim laughed and threatened to expose Edmund's own surveillance methods as illegal. In rage, Edmund grabbed the bronze Bookend and struck the fatal blow in the Rare Books Section. His investigative skills, meant to catch criminals, became the tools of his own downfall."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #046",
+    "title": "Borrowed Identity",
+    "setting": "Book Shop · London · 2010",
+    "emoji": "📚",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The rare books section holds more than literary treasures tonight. Someone's carefully constructed new life just came to a violent end.",
+    "emptyState": "The shop's closed, but someone's still reading between the lines.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Oliver Whitmore",
+            "icon": "👨‍💼",
+            "detail": "Victim's business partner in antiquarian book dealing."
+          },
+          {
+            "name": "Penelope Hartwell",
+            "icon": "👩‍🎓",
+            "detail": "Rare manuscript authenticator, frequent shop visitor."
+          },
+          {
+            "name": "Edmund Blackwood",
+            "icon": "🕴️",
+            "detail": "Private investigator hired to trace stolen identities."
+          },
+          {
+            "name": "Nigel Pemberton",
+            "icon": "👨‍🏫",
+            "detail": "University professor specializing in historical documents."
+          },
+          {
+            "name": "Victoria Sterling",
+            "icon": "👩‍💻",
+            "detail": "Computer specialist who helped set up shop's digital systems."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "🔪",
+            "detail": "Victorian silver blade from the desk drawer."
+          },
+          {
+            "name": "Bookend",
+            "icon": "📖",
+            "detail": "Heavy bronze Shakespeare bust from the classics shelf."
+          },
+          {
+            "name": "Paper Cutter",
+            "icon": "✂️",
+            "detail": "Antique guillotine-style tool for trimming pages."
+          },
+          {
+            "name": "Fire Poker",
+            "icon": "🔥",
+            "detail": "Cast iron rod from the shop's reading area fireplace."
+          },
+          {
+            "name": "Crystal Paperweight",
+            "icon": "💎",
+            "detail": "Heavy glass ornament from the manager's desk."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Rare Books Section",
+            "icon": "📚",
+            "detail": "Climate-controlled back room with valuable first editions."
+          },
+          {
+            "name": "Shop Counter",
+            "icon": "💰",
+            "detail": "Main checkout area with cash register and receipts."
+          },
+          {
+            "name": "Storage Basement",
+            "icon": "📦",
+            "detail": "Underground space for inventory and deliveries."
+          },
+          {
+            "name": "Reading Alcove",
+            "icon": "🪑",
+            "detail": "Cozy corner with armchairs and fireplace for customers."
+          },
+          {
+            "name": "Manager's Office",
+            "icon": "🏢",
+            "detail": "Private workspace with computer and filing cabinets."
+          }
+        ]
+      },
+      {
+        "key": "entry",
+        "label": "Entry Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Front Door Key",
+            "icon": "🔑",
+            "detail": "Master key given to trusted business associates."
+          },
+          {
+            "name": "Back Alley Window",
+            "icon": "🪟",
+            "detail": "Basement window often left unlocked for deliveries."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🏢",
+            "detail": "Skylight accessible from adjoining building's fire escape."
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Rear exit with alarm system bypassed by code."
+          },
+          {
+            "name": "Service Tunnel",
+            "icon": "🕳️",
+            "detail": "Underground maintenance passage connecting to basement."
+          }
+        ]
+      },
+      {
+        "key": "escape",
+        "label": "Escape Route",
+        "icon": "🏃",
+        "items": [
+          {
+            "name": "Front Door Key",
+            "icon": "🔑",
+            "detail": "Left through main entrance using legitimate access."
+          },
+          {
+            "name": "Back Alley Window",
+            "icon": "🪟",
+            "detail": "Climbed back out through basement window entry point."
+          },
+          {
+            "name": "Roof Access",
+            "icon": "🏢",
+            "detail": "Escaped via skylight to adjoining building's fire escape."
+          },
+          {
+            "name": "Emergency Exit",
+            "icon": "🚨",
+            "detail": "Used rear exit, disabling alarm with insider code."
+          },
+          {
+            "name": "Service Tunnel",
+            "icon": "🕳️",
+            "detail": "Underground route back to maintenance access point."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Victim's Wallet",
+        "text": "Three different credit cards, all with the victim's photo but different names entirely.",
+        "alone": "The victim was living under multiple false identities.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft network and had traced the connections between all the false identities and credit cards."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard",
+        "text": "Night patrol officer insists he saw Victoria Sterling's motorcycle parked behind the shop at 9:15 PM.",
+        "alone": "Victoria Sterling was allegedly near the scene during the murder window.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The security guard saw a motorcycle but misidentified it in poor lighting; it was Edmund Blackwood's borrowed bike, not Victoria Sterling's distinctive red Ducati."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "Tunnel Access Tools",
+        "text": "Maintenance tools found in the Service Tunnel show fresh scratches from recent use on access grates.",
+        "alone": "Someone recently used the Service Tunnel for unauthorized access.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Edmund Blackwood's private investigator training included urban infiltration techniques, and his fingerprints are on the maintenance tools used to access the Service Tunnel."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Blood Evidence",
+        "text": "Victim was attacked in the Rare Books Section, blood spatter pattern indicates a struggle before the fatal blow.",
+        "alone": "The murder took place in the Rare Books Section after a confrontation.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Penelope Hartwell was working late with Oliver Whitmore at the university library, giving both of them solid alibis for the murder in the Rare Books Section."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🕸️",
+        "heading": "Network Analysis",
+        "text": "Edmund Blackwood's case files reveal an entire identity theft network with the victim at the center, worth millions.",
+        "alone": "Edmund Blackwood had mapped out the victim's extensive criminal enterprise.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Edmund Blackwood was investigating the victim's identity theft network and had traced the connections between all the false identities and credit cards."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🏍️",
+        "heading": "Motorcycle Registration",
+        "text": "Victoria Sterling's red Ducati was impounded for unpaid tickets three days ago, still in police custody.",
+        "alone": "Victoria Sterling's motorcycle was not available to her that night.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The security guard saw a motorcycle but misidentified it in poor lighting; it was Edmund Blackwood's borrowed bike, not Victoria Sterling's distinctive red Ducati."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "Tool Fingerprints",
+        "text": "Edmund Blackwood's fingerprints are all over the maintenance tools found in the Service Tunnel access point.",
+        "alone": "Edmund Blackwood handled the tools used to access the tunnel system.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Edmund Blackwood's private investigator training included urban infiltration techniques, and his fingerprints are on the maintenance tools used to access the Service Tunnel."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Library Security",
+        "text": "University cameras show Penelope Hartwell and Oliver Whitmore researching together until 11 PM, corroborated by sign-in logs.",
+        "alone": "Both Penelope Hartwell and Oliver Whitmore have verified alibis.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Penelope Hartwell was working late with Oliver Whitmore at the university library, giving both of them solid alibis for the murder in the Rare Books Section."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Edmund Blackwood",
+      "weapon": "Bookend",
+      "location": "Rare Books Section",
+      "entry": "Service Tunnel",
+      "escape": "Service Tunnel"
+    },
+    "epilogue": "Edmund Blackwood's investigation into identity theft had consumed him, revealing a criminal network worth millions that the victim controlled. When Edmund demanded a partnership rather than simply reporting his findings, the victim threatened to expose Edmund's illegal surveillance methods to the authorities. In a moment of desperate rage, Edmund grabbed the bronze Bookend and struck the fatal blow in the Rare Books Section. He used his investigative skills to enter and escape through the Service Tunnel, but those same skills left a trail of evidence that ultimately convicted him."
+  }
+}
