@@ -1,0 +1,678 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #045",
+    "title": "Ghostly Debts",
+    "setting": "Pizza Parlor · Detroit · 1987",
+    "emoji": "🍕",
+    "flavor": "The jukebox still plays Bon Jovi, but Sal Benedetto will never hear it again. In a city where everyone owes someone, some debts get collected in blood.",
+    "emptyState": "The last slice went cold hours ago.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tony Carlucci",
+            "icon": "🚗",
+            "detail": "Local loan shark with expensive tastes"
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩",
+            "detail": "Night shift waitress struggling with bills"
+          },
+          {
+            "name": "Frank Kowalski",
+            "icon": "🔧",
+            "detail": "Quiet maintenance worker from the old neighborhood"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pizza Cutter",
+            "icon": "🔪",
+            "detail": "Sharp steel wheel from the kitchen"
+          },
+          {
+            "name": "Meat Tenderizer",
+            "icon": "🔨",
+            "detail": "Heavy steel mallet for prep work"
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍺",
+            "detail": "Jagged Stroh's beer bottle from the floor"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, cramped space behind swinging doors"
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Cluttered room where Sal counted receipts"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with supplies"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Bloody Apron",
+        "text": "Frank Kowalski's maintenance apron hangs in the Storage Room, splattered with fresh blood.",
+        "alone": "Frank's apron is covered in blood.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Heated Argument",
+        "text": "Customer heard Tony Carlucci screaming at Sal about overdue payments around 9 PM.",
+        "alone": "Tony and Sal had a violent argument.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Hidden Cash",
+        "text": "Maria Santos had $500 cash tucked in her purse, unusual for someone behind on rent.",
+        "alone": "Maria was carrying suspicious amounts of cash.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🔨",
+        "heading": "Murder Weapon",
+        "text": "The Meat Tenderizer from the Kitchen shows blood and hair, found near the Back Office.",
+        "alone": "The meat tenderizer was used to kill Sal.",
+        "links": []
+      },
+      {
+        "id": "R5",
+        "type": "alibi",
+        "icon": "⏰",
+        "heading": "Work Schedule",
+        "text": "Frank Kowalski was scheduled to fix the freezer that night, explaining his bloody apron from handling raw meat.",
+        "alone": "Frank's blood came from maintenance work on the freezer.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Frank's bloody apron came from legitimate maintenance work, not murder."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "motive",
+        "icon": "💸",
+        "heading": "Collection Route",
+        "text": "Tony Carlucci collected his money from Sal and left peacefully, witnessed by three customers.",
+        "alone": "Tony got his money and left without violence.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Tony's argument was resolved when Sal paid his debt in full."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "evidence",
+        "icon": "🏦",
+        "heading": "Bank Records",
+        "text": "Maria Santos received her first paycheck in weeks that day, accounting for the cash.",
+        "alone": "Maria's cash came from her legitimate paycheck.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Maria's cash was her legitimate paycheck, not stolen money from Sal."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Office Sounds",
+        "text": "Cook heard Sal arguing with someone in the Back Office around 10 PM, after Tony left.",
+        "alone": "Someone else confronted Sal after Tony's departure.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Sal was killed in the Back Office by someone who came after Tony left."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Kowalski",
+      "weapon": "Meat Tenderizer",
+      "location": "Back Office"
+    },
+    "epilogue": "Frank Kowalski had borrowed money from Sal months ago to pay for his mother's medical bills. When Sal demanded immediate repayment with crushing interest, Frank snapped. He grabbed the Meat Tenderizer from the Kitchen and confronted Sal in the Back Office, striking him down in desperation. The quiet maintenance worker's gentle nature couldn't survive the pressure of impossible debt."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #045",
+    "title": "Ghostly Debts",
+    "setting": "Pizza Parlor · Detroit · 1987",
+    "emoji": "🍕",
+    "flavor": "The jukebox still plays Bon Jovi, but Sal Benedetto will never hear it again. In a city where everyone owes someone, some debts get collected in blood.",
+    "emptyState": "The last slice went cold hours ago.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tony Carlucci",
+            "icon": "🚗",
+            "detail": "Local loan shark with expensive tastes"
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩",
+            "detail": "Night shift waitress struggling with bills"
+          },
+          {
+            "name": "Frank Kowalski",
+            "icon": "🔧",
+            "detail": "Quiet maintenance worker from the old neighborhood"
+          },
+          {
+            "name": "Joey Benedetto",
+            "icon": "🎸",
+            "detail": "Sal's rebellious nephew, aspiring rock musician"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pizza Cutter",
+            "icon": "🔪",
+            "detail": "Sharp steel wheel from the kitchen"
+          },
+          {
+            "name": "Meat Tenderizer",
+            "icon": "🔨",
+            "detail": "Heavy steel mallet for prep work"
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍺",
+            "detail": "Jagged Stroh's beer bottle from the floor"
+          },
+          {
+            "name": "Cast Iron Pan",
+            "icon": "🍳",
+            "detail": "Heavy skillet used for deep dish preparation"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, cramped space behind swinging doors"
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Cluttered room where Sal counted receipts"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with supplies"
+          },
+          {
+            "name": "Dining Area",
+            "icon": "🪑",
+            "detail": "Main floor with checkered tables and neon lights"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "8:00-9:00 PM",
+            "icon": "🌅",
+            "detail": "Dinner rush, multiple witnesses around"
+          },
+          {
+            "name": "9:00-10:00 PM",
+            "icon": "🌆",
+            "detail": "Closing time, staff cleaning up"
+          },
+          {
+            "name": "10:00-11:00 PM",
+            "icon": "🌙",
+            "detail": "After hours, building nearly empty"
+          },
+          {
+            "name": "11:00-12:00 AM",
+            "icon": "🌃",
+            "detail": "Late night, Sal alone counting money"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Bloody Apron",
+        "text": "Frank Kowalski's maintenance apron hangs in the Storage Room, splattered with fresh blood.",
+        "alone": "Frank's apron is covered in blood.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Witness Account",
+        "text": "Reliable customer swears they saw Joey Benedetto leaving through the back door at 11:15 PM.",
+        "alone": "Joey was seen leaving after the murder occurred.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "⏰",
+        "heading": "Time Punch",
+        "text": "Frank Kowalski's timecard shows he clocked out at exactly 10:45 PM that night.",
+        "alone": "Frank officially left before the murder window.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "🔨",
+        "heading": "Murder Weapon",
+        "text": "The Meat Tenderizer from the Kitchen shows blood and hair, found near the Back Office.",
+        "alone": "The meat tenderizer was used to kill Sal.",
+        "links": []
+      },
+      {
+        "id": "D5",
+        "type": "alibi",
+        "icon": "❄️",
+        "heading": "Freezer Repair",
+        "text": "Frank Kowalski was fixing the broken freezer that evening, explaining the blood from handling raw meat.",
+        "alone": "Frank's blood came from legitimate repair work.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Frank's bloody apron came from legitimate maintenance work, not murder."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🚪",
+        "heading": "Security Camera",
+        "text": "Parking lot camera shows Joey Benedetto arriving at 11:20 PM, five minutes after the witness claimed to see him leave.",
+        "alone": "Joey actually arrived after he was supposedly seen leaving.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The witness mistook someone else for Joey, who actually arrived after the murder."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "motive",
+        "icon": "🔑",
+        "heading": "Hidden Key",
+        "text": "Frank Kowalski kept a spare key to return for overtime work during the 10:00-11:00 PM window.",
+        "alone": "Frank could return during the murder timeframe.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Frank clocked out but could return with his spare key during the 10:00-11:00 PM murder window."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Final Argument",
+        "text": "Maria Santos heard Sal arguing with someone about money in the Back Office around 10:30 PM.",
+        "alone": "Sal was killed during a confrontation about money.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Sal was killed in the Back Office during the 10:00-11:00 PM window with the meat tenderizer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Kowalski",
+      "weapon": "Meat Tenderizer",
+      "location": "Back Office",
+      "window": "10:00-11:00 PM"
+    },
+    "epilogue": "Frank Kowalski had borrowed money from Sal months ago to pay for his mother's medical bills. When Sal demanded immediate repayment with crushing interest, Frank returned after hours using his spare key. He grabbed the Meat Tenderizer from the Kitchen and confronted Sal in the Back Office during the 10:00-11:00 PM window, striking him down in desperation. The quiet maintenance worker's gentle nature couldn't survive the pressure of impossible debt."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #045",
+    "title": "Ghostly Debts",
+    "setting": "Pizza Parlor · Detroit · 1987",
+    "emoji": "🍕",
+    "flavor": "The jukebox still plays Bon Jovi, but Sal Benedetto will never hear it again. In a city where everyone owes someone, some debts get collected in blood.",
+    "emptyState": "The last slice went cold hours ago.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tony Carlucci",
+            "icon": "🚗",
+            "detail": "Local loan shark with expensive tastes"
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "👩",
+            "detail": "Night shift waitress struggling with bills"
+          },
+          {
+            "name": "Frank Kowalski",
+            "icon": "🔧",
+            "detail": "Quiet maintenance worker from the old neighborhood"
+          },
+          {
+            "name": "Joey Benedetto",
+            "icon": "🎸",
+            "detail": "Sal's rebellious nephew, aspiring rock musician"
+          },
+          {
+            "name": "Detective Ray Murphy",
+            "icon": "👮",
+            "detail": "Off-duty cop who owed Sal gambling debts"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pizza Cutter",
+            "icon": "🔪",
+            "detail": "Sharp steel wheel from the kitchen"
+          },
+          {
+            "name": "Meat Tenderizer",
+            "icon": "🔨",
+            "detail": "Heavy steel mallet for prep work"
+          },
+          {
+            "name": "Broken Bottle",
+            "icon": "🍺",
+            "detail": "Jagged Stroh's beer bottle from the floor"
+          },
+          {
+            "name": "Cast Iron Pan",
+            "icon": "🍳",
+            "detail": "Heavy skillet used for deep dish preparation"
+          },
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Standard issue police .38 special"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Kitchen",
+            "icon": "👨‍🍳",
+            "detail": "Hot, cramped space behind swinging doors"
+          },
+          {
+            "name": "Back Office",
+            "icon": "📋",
+            "detail": "Cluttered room where Sal counted receipts"
+          },
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with supplies"
+          },
+          {
+            "name": "Dining Area",
+            "icon": "🪑",
+            "detail": "Main floor with checkered tables and neon lights"
+          },
+          {
+            "name": "Alley",
+            "icon": "🗑️",
+            "detail": "Narrow brick passage behind the building"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "8:00-9:00 PM",
+            "icon": "🌅",
+            "detail": "Dinner rush, multiple witnesses around"
+          },
+          {
+            "name": "9:00-10:00 PM",
+            "icon": "🌆",
+            "detail": "Closing time, staff cleaning up"
+          },
+          {
+            "name": "10:00-11:00 PM",
+            "icon": "🌙",
+            "detail": "After hours, building nearly empty"
+          },
+          {
+            "name": "11:00-12:00 AM",
+            "icon": "🌃",
+            "detail": "Late night, Sal alone counting money"
+          },
+          {
+            "name": "12:00-1:00 AM",
+            "icon": "🌌",
+            "detail": "Deep night, mysterious shadows reported"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Front Door",
+            "icon": "🚪",
+            "detail": "Main entrance, locked after closing time"
+          },
+          {
+            "name": "Back Door",
+            "icon": "🔓",
+            "detail": "Employee entrance, broken lock mechanism"
+          },
+          {
+            "name": "Delivery Window",
+            "icon": "🪟",
+            "detail": "Kitchen pass-through, large enough to climb"
+          },
+          {
+            "name": "Basement Entrance",
+            "icon": "🪜",
+            "detail": "External cellar doors from the alley"
+          },
+          {
+            "name": "Spare Key",
+            "icon": "🔑",
+            "detail": "Hidden key known to certain employees"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Bloody Apron",
+        "text": "Frank Kowalski's maintenance apron hangs in the Storage Room, splattered with fresh blood.",
+        "alone": "Frank's apron is covered in blood.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Eyewitness Report",
+        "text": "Credible witness swears Detective Ray Murphy was responding to a domestic disturbance across town all night.",
+        "alone": "Ray Murphy has a solid alibi from police dispatch.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Missing Key",
+        "text": "Frank Kowalski's Spare Key to the building was found inside Sal's Back Office desk drawer.",
+        "alone": "Frank's spare key was inside the locked office.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🔨",
+        "heading": "Murder Weapon",
+        "text": "The Meat Tenderizer from the Kitchen shows blood and hair, found near the Back Office.",
+        "alone": "The meat tenderizer was used to kill Sal.",
+        "links": []
+      },
+      {
+        "id": "I5",
+        "type": "alibi",
+        "icon": "❄️",
+        "heading": "Freezer Repair",
+        "text": "Frank Kowalski was fixing the broken freezer that evening, explaining the blood from handling raw meat.",
+        "alone": "Frank's blood came from legitimate repair work.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Frank's bloody apron came from legitimate maintenance work, not murder."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Phone Records",
+        "text": "Detective Ray Murphy called in sick to dispatch, no domestic disturbance call existed that night.",
+        "alone": "Ray Murphy's alibi was completely fabricated.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Ray Murphy lied about his whereabouts and had no legitimate police alibi."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Broken Entry",
+        "text": "Someone forced the Back Door lock mechanism, leaving metal shavings and fresh scratch marks.",
+        "alone": "The killer broke in through the back door.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Frank's key was inside because the killer broke in through the Back Door, not using a key."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "motive",
+        "icon": "🎭",
+        "heading": "Secret Partnership",
+        "text": "Maria Santos was Detective Ray Murphy's confidential informant, helping him track Sal's loan shark operations.",
+        "alone": "Maria was working with Detective Murphy against Sal.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Detective Murphy killed Sal in the Back Office with the meat tenderizer, using Maria as his inside source."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Detective Ray Murphy",
+      "weapon": "Meat Tenderizer",
+      "location": "Back Office",
+      "window": "10:00-11:00 PM",
+      "access": "Back Door"
+    },
+    "epilogue": "Detective Ray Murphy had been investigating Sal's loan shark operation while secretly owing him thousands in gambling debts. Using Maria Santos as his confidential informant, Murphy learned Sal's nightly routine. He broke in through the Back Door during the 10:00-11:00 PM window, grabbed the Meat Tenderizer from the Kitchen, and confronted Sal in the Back Office. When Sal threatened to expose Murphy's gambling addiction to Internal Affairs, the corrupt cop struck him down, betraying both his badge and his informant's trust."
+  }
+}
