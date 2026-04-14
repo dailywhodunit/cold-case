@@ -1,0 +1,741 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #047",
+    "title": "Blood and Bylines",
+    "setting": "War Correspondent Camp · Vietnam · 1968",
+    "emoji": "📰",
+    "flavor": "The monsoon rains couldn't wash away the stench of betrayal in the press camp. Someone's final deadline had already been written.",
+    "emptyState": "The story ended with a bullet instead of a byline.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tommy Sullivan",
+            "icon": "📝",
+            "detail": "Veteran war correspondent with Chicago connections"
+          },
+          {
+            "name": "Frank DiMarco",
+            "icon": "📷",
+            "detail": "Combat photographer hiding from his past"
+          },
+          {
+            "name": "Bobby Chen",
+            "icon": "📡",
+            "detail": "Radio operator with gambling debts"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "M1911 Pistol",
+            "icon": "🔫",
+            "detail": "Standard issue military sidearm"
+          },
+          {
+            "name": "Combat Knife",
+            "icon": "🗡️",
+            "detail": "Marine Corps Ka-Bar fighting knife"
+          },
+          {
+            "name": "Grenade Fragment",
+            "icon": "💣",
+            "detail": "Shrapnel from demolished ordnance"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Communications Tent",
+            "icon": "📻",
+            "detail": "Radio equipment and transmission gear"
+          },
+          {
+            "name": "Press Bunker",
+            "icon": "🏠",
+            "detail": "Reinforced shelter for journalists"
+          },
+          {
+            "name": "Supply Cache",
+            "icon": "📦",
+            "detail": "Hidden weapons and equipment storage"
+          }
+        ]
+      }
+    ],
+    "victim": "Vincent Castellano",
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Blood Money",
+        "text": "Vincent Castellano's wallet contained $5000 cash and a note: 'Payment for Chicago silence.'",
+        "alone": "Castellano was being paid for keeping quiet about something.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Tommy Sullivan's Chicago connections and Castellano's payment prove Sullivan was buying his silence about organized crime activities."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Heated Exchange",
+        "text": "Medic saw Frank DiMarco arguing with Castellano near the Supply Cache at 2100 hours.",
+        "alone": "DiMarco and Castellano had a public confrontation.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "DiMarco's argument was about Castellano threatening to expose his mob connections, not the murder itself."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Debt Records",
+        "text": "Bobby Chen owed $8000 to Saigon bookies and asked Castellano for a loan yesterday.",
+        "alone": "Chen had serious financial problems and sought help.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Chen was in Communications Tent during the murder, making him impossible to be the killer despite his motive."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Murder Scene",
+        "text": "Castellano's body was found in the Press Bunker with a single M1911 Pistol wound.",
+        "alone": "The victim was shot once with military issue weapon.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The M1911 Pistol found in the Press Bunker confirms both the murder weapon and location."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "background",
+        "icon": "🏢",
+        "heading": "Chicago Connection",
+        "text": "Tommy Sullivan's brother runs numbers for the Outfit and needed Castellano's investigation stopped.",
+        "alone": "Sullivan had family ties to organized crime.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Tommy Sullivan's Chicago connections and Castellano's payment prove Sullivan was buying his silence about organized crime activities."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "motive",
+        "icon": "🕵️",
+        "heading": "Exposed Past",
+        "text": "Frank DiMarco fled New York after photographing a mob execution for the FBI.",
+        "alone": "DiMarco was hiding from the mafia.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "DiMarco's argument was about Castellano threatening to expose his mob connections, not the murder itself."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "📻",
+        "heading": "Radio Duty",
+        "text": "Bobby Chen was transmitting hourly reports from Communications Tent during the murder timeframe.",
+        "alone": "Chen had a solid alibi during the killing.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Chen was in Communications Tent during the murder, making him impossible to be the killer despite his motive."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🔫",
+        "heading": "Smoking Gun",
+        "text": "The M1911 Pistol was wiped clean but found hidden behind Press Bunker sandbags.",
+        "alone": "The murder weapon was concealed at the crime scene.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The M1911 Pistol found in the Press Bunker confirms both the murder weapon and location."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Sullivan",
+      "weapon": "M1911 Pistol",
+      "location": "Press Bunker"
+    },
+    "epilogue": "Tommy Sullivan killed Vincent Castellano with an M1911 Pistol in the Press Bunker to protect his brother's criminal empire. The veteran correspondent had spent years covering war zones, but couldn't escape the violence that followed him from Chicago's streets. When Castellano's investigation threatened to expose the family business, Sullivan chose blood over bylines. His final story would be written in a military prison, where organized crime's long reach finally caught up with him."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #047",
+    "title": "Blood and Bylines",
+    "setting": "War Correspondent Camp · Vietnam · 1968",
+    "emoji": "📰",
+    "flavor": "The monsoon rains couldn't wash away the stench of betrayal in the press camp. Someone's final deadline had already been written.",
+    "emptyState": "The story ended with a bullet instead of a byline.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tommy Sullivan",
+            "icon": "📝",
+            "detail": "Veteran war correspondent with Chicago connections"
+          },
+          {
+            "name": "Frank DiMarco",
+            "icon": "📷",
+            "detail": "Combat photographer hiding from his past"
+          },
+          {
+            "name": "Bobby Chen",
+            "icon": "📡",
+            "detail": "Radio operator with gambling debts"
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "🏥",
+            "detail": "Field nurse treating wounded journalists"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "M1911 Pistol",
+            "icon": "🔫",
+            "detail": "Standard issue military sidearm"
+          },
+          {
+            "name": "Combat Knife",
+            "icon": "🗡️",
+            "detail": "Marine Corps Ka-Bar fighting knife"
+          },
+          {
+            "name": "Grenade Fragment",
+            "icon": "💣",
+            "detail": "Shrapnel from demolished ordnance"
+          },
+          {
+            "name": "Medical Scalpel",
+            "icon": "🔪",
+            "detail": "Surgical instrument from field hospital"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Communications Tent",
+            "icon": "📻",
+            "detail": "Radio equipment and transmission gear"
+          },
+          {
+            "name": "Press Bunker",
+            "icon": "🏠",
+            "detail": "Reinforced shelter for journalists"
+          },
+          {
+            "name": "Supply Cache",
+            "icon": "📦",
+            "detail": "Hidden weapons and equipment storage"
+          },
+          {
+            "name": "Medical Station",
+            "icon": "🏥",
+            "detail": "Field hospital for treating wounded"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "2030-2100 Hours",
+            "icon": "🌅",
+            "detail": "Early evening before mess call"
+          },
+          {
+            "name": "2100-2130 Hours",
+            "icon": "🌆",
+            "detail": "During dinner and radio check"
+          },
+          {
+            "name": "2130-2200 Hours",
+            "icon": "🌃",
+            "detail": "Post-meal cleanup and briefings"
+          },
+          {
+            "name": "2200-2230 Hours",
+            "icon": "🌙",
+            "detail": "Late evening during curfew prep"
+          }
+        ]
+      }
+    ],
+    "victim": "Vincent Castellano",
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Blood Money",
+        "text": "Vincent Castellano's wallet contained $5000 cash and a note: 'Payment for Chicago silence.'",
+        "alone": "Castellano was being paid for keeping quiet about something.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Tommy Sullivan's Chicago mob connections and Castellano's hush money prove Sullivan was silencing an investigation into his family's crimes."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Mistaken Identity",
+        "text": "Captain Morrison swears he saw Tommy Sullivan entering the Medical Station during 2100-2130 Hours.",
+        "alone": "A reliable witness places Sullivan away from the crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Morrison confused Sullivan with DiMarco in the darkness, as both men wore similar field jackets and had comparable builds."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "⏱️",
+        "heading": "Death Clock",
+        "text": "Castellano's stopped watch shows impact damage at exactly 2125 hours during the struggle.",
+        "alone": "The murder occurred precisely at 2125 hours.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Castellano died at 2125 hours, which falls within the 2100-2130 Hours window when the killer struck."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Murder Scene",
+        "text": "Castellano's body was found in the Press Bunker with a single M1911 Pistol wound.",
+        "alone": "The victim was shot once with military issue weapon.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Bobby Chen was transmitting from Communications Tent during the murder, eliminating him despite his gambling motives."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "background",
+        "icon": "🏢",
+        "heading": "Family Business",
+        "text": "Tommy Sullivan's brother runs numbers for Chicago Outfit and Castellano was investigating the connection.",
+        "alone": "Sullivan had direct ties to organized crime.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Tommy Sullivan's Chicago mob connections and Castellano's hush money prove Sullivan was silencing an investigation into his family's crimes."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "clarification",
+        "icon": "🌃",
+        "heading": "Dark Confusion",
+        "text": "Frank DiMarco and Tommy Sullivan wore identical field jackets and had similar builds in dim light.",
+        "alone": "The two men could easily be confused at night.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Morrison confused Sullivan with DiMarco in the darkness, as both men wore similar field jackets and had comparable builds."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "timeline",
+        "icon": "📅",
+        "heading": "Window Confirmed",
+        "text": "Security logs show increased activity and gunfire reports during 2100-2130 Hours timeframe.",
+        "alone": "The murder window is definitively established.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Castellano died at 2125 hours, which falls within the 2100-2130 Hours window when the killer struck."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "alibi",
+        "icon": "📻",
+        "heading": "Radio Transmission",
+        "text": "Bobby Chen was broadcasting live updates from Communications Tent throughout 2100-2130 Hours.",
+        "alone": "Chen has an ironclad alibi during the murder window.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Bobby Chen was transmitting from Communications Tent during the murder, eliminating him despite his gambling motives."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Sullivan",
+      "weapon": "M1911 Pistol",
+      "location": "Press Bunker",
+      "window": "2100-2130 Hours"
+    },
+    "epilogue": "Tommy Sullivan killed Vincent Castellano with an M1911 Pistol in the Press Bunker during 2100-2130 Hours to protect his brother's criminal empire. The veteran correspondent had covered wars around the world, but the deadliest conflict followed him from Chicago's streets. When Castellano's investigation threatened to expose the family's mob connections, Sullivan chose loyalty over journalism. Captain Morrison's mistaken sighting nearly provided the perfect alibi, but the truth emerged from the darkness of that monsoon night."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #047",
+    "title": "Blood and Bylines",
+    "setting": "War Correspondent Camp · Vietnam · 1968",
+    "emoji": "📰",
+    "flavor": "The monsoon rains couldn't wash away the stench of betrayal in the press camp. Someone's final deadline had already been written.",
+    "emptyState": "The story ended with a bullet instead of a byline.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tommy Sullivan",
+            "icon": "📝",
+            "detail": "Veteran war correspondent with Chicago connections"
+          },
+          {
+            "name": "Frank DiMarco",
+            "icon": "📷",
+            "detail": "Combat photographer hiding from his past"
+          },
+          {
+            "name": "Bobby Chen",
+            "icon": "📡",
+            "detail": "Radio operator with gambling debts"
+          },
+          {
+            "name": "Maria Santos",
+            "icon": "🏥",
+            "detail": "Field nurse treating wounded journalists"
+          },
+          {
+            "name": "Lieutenant Pike",
+            "icon": "🎖️",
+            "detail": "Military liaison coordinating press activities"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "M1911 Pistol",
+            "icon": "🔫",
+            "detail": "Standard issue military sidearm"
+          },
+          {
+            "name": "Combat Knife",
+            "icon": "🗡️",
+            "detail": "Marine Corps Ka-Bar fighting knife"
+          },
+          {
+            "name": "Grenade Fragment",
+            "icon": "💣",
+            "detail": "Shrapnel from demolished ordnance"
+          },
+          {
+            "name": "Medical Scalpel",
+            "icon": "🔪",
+            "detail": "Surgical instrument from field hospital"
+          },
+          {
+            "name": "Rifle Bayonet",
+            "icon": "⚔️",
+            "detail": "M16 mounted blade weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Communications Tent",
+            "icon": "📻",
+            "detail": "Radio equipment and transmission gear"
+          },
+          {
+            "name": "Press Bunker",
+            "icon": "🏠",
+            "detail": "Reinforced shelter for journalists"
+          },
+          {
+            "name": "Supply Cache",
+            "icon": "📦",
+            "detail": "Hidden weapons and equipment storage"
+          },
+          {
+            "name": "Medical Station",
+            "icon": "🏥",
+            "detail": "Field hospital for treating wounded"
+          },
+          {
+            "name": "Command Post",
+            "icon": "🏛️",
+            "detail": "Military headquarters and briefing area"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "2030-2100 Hours",
+            "icon": "🌅",
+            "detail": "Early evening before mess call"
+          },
+          {
+            "name": "2100-2130 Hours",
+            "icon": "🌆",
+            "detail": "During dinner and radio check"
+          },
+          {
+            "name": "2130-2200 Hours",
+            "icon": "🌃",
+            "detail": "Post-meal cleanup and briefings"
+          },
+          {
+            "name": "2200-2230 Hours",
+            "icon": "🌙",
+            "detail": "Late evening during curfew prep"
+          },
+          {
+            "name": "2230-2300 Hours",
+            "icon": "🌌",
+            "detail": "Night watch and security rounds"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Family Protection",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "Shielding relatives from criminal exposure"
+          },
+          {
+            "name": "Blackmail Silencing",
+            "icon": "🤐",
+            "detail": "Stopping extortion and threats"
+          },
+          {
+            "name": "Debt Collection",
+            "icon": "💸",
+            "detail": "Recovering owed gambling money"
+          },
+          {
+            "name": "Cover Operation",
+            "icon": "🕵️",
+            "detail": "Protecting classified military intelligence"
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "⚡",
+            "detail": "Revenge for past betrayal"
+          }
+        ]
+      }
+    ],
+    "victim": "Vincent Castellano",
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Blood Money",
+        "text": "Vincent Castellano's wallet contained $5000 cash and a note: 'Payment for Chicago silence.'",
+        "alone": "Castellano was being paid substantial hush money.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Tommy Sullivan's Chicago Outfit connections and Castellano's hush money prove Sullivan was paying for Family Protection of his criminal relatives."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "False Sighting",
+        "text": "Captain Morrison claims he saw Tommy Sullivan entering Medical Station during 2100-2130 Hours murder window.",
+        "alone": "A credible witness provides Sullivan an apparent alibi.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Morrison's sighting was false because he confused Sullivan with DiMarco due to identical field jackets and similar builds in monsoon darkness."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "⏱️",
+        "heading": "Death Clock",
+        "text": "Castellano's watch stopped at exactly 2125 hours from impact damage during the fatal struggle.",
+        "alone": "The precise murder time is definitively established.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Castellano's death at 2125 hours confirms Family Protection as the motive, timed to prevent his expose of Sullivan's mob connections."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🔍",
+        "heading": "Murder Scene",
+        "text": "Castellano died from a single M1911 Pistol shot in the Press Bunker, weapon hidden nearby.",
+        "alone": "Standard military sidearm used in journalist shelter.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Lieutenant Pike helped Sullivan by providing the M1911 Pistol and cleaning up evidence, making Pike an accomplice to the murder."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "background",
+        "icon": "🏢",
+        "heading": "Chicago Outfit",
+        "text": "Tommy Sullivan's brother operates numbers racket for organized crime and Castellano was investigating the connection.",
+        "alone": "Sullivan had direct family ties to mob operations.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Tommy Sullivan's Chicago Outfit connections and Castellano's hush money prove Sullivan was paying for Family Protection of his criminal relatives."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "clarification",
+        "icon": "🌧️",
+        "heading": "Monsoon Confusion",
+        "text": "Frank DiMarco and Tommy Sullivan wore identical field jackets and appeared similar in heavy rain.",
+        "alone": "Weather conditions enabled mistaken identity between suspects.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Morrison's sighting was false because he confused Sullivan with DiMarco due to identical field jackets and similar builds in monsoon darkness."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "motive",
+        "icon": "📰",
+        "heading": "Expose Prevention",
+        "text": "Castellano planned to publish his Chicago Outfit investigation on the morning of his murder.",
+        "alone": "The victim was hours from exposing organized crime.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Castellano's death at 2125 hours confirms Family Protection as the motive, timed to prevent his expose of Sullivan's mob connections."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "accomplice",
+        "icon": "🤝",
+        "heading": "Inside Help",
+        "text": "Lieutenant Pike secretly provided weapons access and helped dispose of evidence for Sullivan.",
+        "alone": "A military officer assisted in covering up the crime.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Lieutenant Pike helped Sullivan by providing the M1911 Pistol and cleaning up evidence, making Pike an accomplice to the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Sullivan",
+      "weapon": "M1911 Pistol",
+      "location": "Press Bunker",
+      "window": "2100-2130 Hours",
+      "motive": "Family Protection"
+    },
+    "epilogue": "Tommy Sullivan killed Vincent Castellano with an M1911 Pistol in the Press Bunker during 2100-2130 Hours, driven by Family Protection motives to shield his brother's Chicago Outfit operations. Lieutenant Pike provided the weapon and cleanup assistance, becoming an accomplice to preserve military-mob connections. Sullivan had survived combat zones worldwide, but the deadliest enemy came from his own family's criminal past. When Castellano's investigation threatened to destroy everything Sullivan held dear, he chose blood over bylines in the monsoon-soaked darkness of that Vietnamese night."
+  }
+}
