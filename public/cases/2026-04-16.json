@@ -1,0 +1,678 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Grunge Fatale",
+    "tier": "rookie",
+    "setting": "Rock Concert · Seattle · 1993",
+    "emoji": "🎸",
+    "flavor": "The mosh pit went silent when Riot Grrrl pioneer Zoe Hartwell collapsed mid-song. In the world of alternative rock, jealousy cuts deeper than any power chord.",
+    "emptyState": "The music died with her. Someone wanted an encore.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Riot McKenzie",
+            "icon": "🎤",
+            "detail": "Lead singer of rival band Concrete Angels"
+          },
+          {
+            "name": "Danny Kowalski",
+            "icon": "📸",
+            "detail": "Music photographer documenting the Seattle scene"
+          },
+          {
+            "name": "Trent Vasquez",
+            "icon": "🎸",
+            "detail": "Hartwell's ex-boyfriend and former bandmate"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned energy drink",
+            "icon": "⚡",
+            "detail": "Backstage refreshment laced with lethal substance"
+          },
+          {
+            "name": "Electrical sabotage",
+            "icon": "🔌",
+            "detail": "Microphone wired to deliver fatal shock"
+          },
+          {
+            "name": "Drugged water bottle",
+            "icon": "💧",
+            "detail": "Personal bottle spiked with overdose"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Backstage area",
+            "icon": "🚪",
+            "detail": "Private space behind the main stage"
+          },
+          {
+            "name": "Sound booth",
+            "icon": "🎛️",
+            "detail": "Technical control room overlooking venue"
+          },
+          {
+            "name": "Green room",
+            "icon": "🛋️",
+            "detail": "Artist lounge and preparation area"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "⚡",
+        "heading": "Energy Drink Analysis",
+        "text": "Lab results show Zoe's backstage energy drink contained fatal levels of digitalis. The bottle was found in the green room trash.",
+        "alone": "The energy drink was definitely the murder weapon.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Roadie Statement",
+        "text": "Roadie saw Riot McKenzie near the green room thirty minutes before showtime. She was carrying promotional items from her record label.",
+        "alone": "Riot McKenzie had access to the victim's preparation area.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📸",
+        "heading": "Photo Timestamps",
+        "text": "Danny Kowalski's camera shows continuous shots from the photo pit during Zoe's entire performance. His final frame captured her collapse.",
+        "alone": "Danny was photographing throughout the fatal performance.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "testimony",
+        "icon": "🎸",
+        "heading": "Trent's Alibi",
+        "text": "Trent Vasquez was spotted by multiple witnesses arguing with security outside the venue. He never made it inside the building.",
+        "alone": "Trent Vasquez couldn't access the backstage area.",
+        "links": []
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Digitalis Source",
+        "text": "Security found a bottle of digitalis heart medication in Riot McKenzie's tour bus. The prescription was her mother's from last month.",
+        "alone": "Riot McKenzie had access to the poison used.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Riot McKenzie had both the poison source and means to contaminate the energy drink that killed Zoe."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "testimony",
+        "icon": "🎤",
+        "heading": "Record Deal Dispute",
+        "text": "Label executive confirms Riot McKenzie lost a major recording contract to Zoe Hartwell last week. The deal was worth half a million dollars.",
+        "alone": "Riot McKenzie had strong financial motive for jealousy.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Riot's presence in the green room combined with her bitter rivalry gives her clear motive and opportunity."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "evidence",
+        "icon": "🕐",
+        "heading": "Timeline Analysis",
+        "text": "Danny Kowalski's photo metadata proves he was in the photo pit when the poisoning occurred. His alibi is ironclad.",
+        "alone": "Danny Kowalski is eliminated as a suspect.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The continuous photo timeline completely eliminates Danny as the killer since he couldn't access the green room."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "🚪",
+        "heading": "Green Room Access",
+        "text": "Security logs show only band members and label representatives had green room access. The poisoned energy drink was placed there deliberately.",
+        "alone": "The murder definitely happened in the green room.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Since Trent never entered the venue and the murder occurred in the secured green room, he's definitively innocent."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Riot McKenzie",
+      "weapon": "Poisoned energy drink",
+      "location": "Green room"
+    },
+    "epilogue": "Riot McKenzie's jealousy over losing the record deal consumed her artistic soul. She used her label access to enter the green room and poison Zoe's energy drink with her mother's heart medication. The Seattle music scene mourned both the loss of a talented artist and the corruption of another by bitter rivalry."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Grunge Fatale",
+    "tier": "detective",
+    "setting": "Rock Concert · Seattle · 1993",
+    "emoji": "🎸",
+    "flavor": "The mosh pit went silent when Riot Grrrl pioneer Zoe Hartwell collapsed mid-song. In the world of alternative rock, jealousy cuts deeper than any power chord.",
+    "emptyState": "The music died with her. Someone wanted an encore.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Riot McKenzie",
+            "icon": "🎤",
+            "detail": "Lead singer of rival band Concrete Angels"
+          },
+          {
+            "name": "Danny Kowalski",
+            "icon": "📸",
+            "detail": "Music photographer documenting the Seattle scene"
+          },
+          {
+            "name": "Trent Vasquez",
+            "icon": "🎸",
+            "detail": "Hartwell's ex-boyfriend and former bandmate"
+          },
+          {
+            "name": "Casey Brennan",
+            "icon": "🎧",
+            "detail": "Sound engineer running the mixing board"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned energy drink",
+            "icon": "⚡",
+            "detail": "Backstage refreshment laced with lethal substance"
+          },
+          {
+            "name": "Electrical sabotage",
+            "icon": "🔌",
+            "detail": "Microphone wired to deliver fatal shock"
+          },
+          {
+            "name": "Drugged water bottle",
+            "icon": "💧",
+            "detail": "Personal bottle spiked with overdose"
+          },
+          {
+            "name": "Tainted beer bottle",
+            "icon": "🍺",
+            "detail": "Backstage alcohol contaminated with poison"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Backstage area",
+            "icon": "🚪",
+            "detail": "Private space behind the main stage"
+          },
+          {
+            "name": "Sound booth",
+            "icon": "🎛️",
+            "detail": "Technical control room overlooking venue"
+          },
+          {
+            "name": "Green room",
+            "icon": "🛋️",
+            "detail": "Artist lounge and preparation area"
+          },
+          {
+            "name": "Equipment room",
+            "icon": "🔧",
+            "detail": "Storage area for musical gear"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Label representative pass",
+            "icon": "💼",
+            "detail": "Official industry credentials"
+          },
+          {
+            "name": "Media photographer badge",
+            "icon": "📷",
+            "detail": "Press access for documentation"
+          },
+          {
+            "name": "Technical crew credentials",
+            "icon": "🔧",
+            "detail": "Sound and lighting team access"
+          },
+          {
+            "name": "Former band member status",
+            "icon": "🎵",
+            "detail": "Historical connection to artist"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "⚡",
+        "heading": "Energy Drink Analysis",
+        "text": "Lab results show Zoe's backstage energy drink contained fatal levels of digitalis. The bottle was found in the green room trash.",
+        "alone": "The energy drink was definitely the murder weapon.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🚨",
+        "heading": "Security Guard Report",
+        "text": "Head of security swears Danny Kowalski was seen backstage with camera equipment during soundcheck. Claims he had full venue access.",
+        "alone": "Danny allegedly had backstage access according to security.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "💼",
+        "heading": "Access Badge Found",
+        "text": "Riot McKenzie's label representative pass was discovered in the green room. It granted unlimited backstage access for the evening.",
+        "alone": "Riot McKenzie had official credentials for backstage access.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🎧",
+        "heading": "Casey's Statement",
+        "text": "Casey Brennan admits to arguing with Zoe about sound levels earlier. Says Zoe threatened to have her fired from future gigs.",
+        "alone": "Casey Brennan had a professional conflict with the victim.",
+        "links": []
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Digitalis Source",
+        "text": "Security found a bottle of digitalis heart medication in Riot McKenzie's tour bus. The prescription was her mother's from last month.",
+        "alone": "Riot McKenzie had access to the poison used.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Riot McKenzie had both the poison source and means to contaminate the energy drink that killed Zoe."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📸",
+        "heading": "Photo Credentials Invalid",
+        "text": "Danny Kowalski's media badge was expired and restricted to front-of-house only. Security logs show no backstage entry for him.",
+        "alone": "Danny Kowalski couldn't actually access backstage areas.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The security guard was mistaken about Danny's access - his expired badge prevented any backstage entry."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "🎛️",
+        "heading": "Sound Booth Locked",
+        "text": "The green room was only accessible through backstage areas, not from the sound booth. Casey would need separate credentials to enter.",
+        "alone": "Technical crew couldn't reach the green room from their work area.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Only Riot's label pass provided the specific access needed to reach the green room where the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "testimony",
+        "icon": "🎸",
+        "heading": "Trent Banned",
+        "text": "Venue manager confirms Trent Vasquez was permanently banned after last month's stalking incident. Security had photos to prevent his entry.",
+        "alone": "Trent Vasquez was actively prevented from entering the venue.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Casey's conflict was professional disagreement, but Trent's complete ban eliminates him as having any access to commit murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Riot McKenzie",
+      "weapon": "Poisoned energy drink",
+      "location": "Green room",
+      "access": "Label representative pass"
+    },
+    "epilogue": "Riot McKenzie's jealousy over losing the record deal consumed her artistic soul. She used her label representative pass to access the green room and poison Zoe's energy drink with her mother's heart medication. The Seattle music scene mourned both the loss of a talented artist and the corruption of another by bitter rivalry."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Grunge Fatale",
+    "tier": "inspector",
+    "setting": "Rock Concert · Seattle · 1993",
+    "emoji": "🎸",
+    "flavor": "The mosh pit went silent when Riot Grrrl pioneer Zoe Hartwell collapsed mid-song. In the world of alternative rock, jealousy cuts deeper than any power chord.",
+    "emptyState": "The music died with her. Someone wanted an encore.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Riot McKenzie",
+            "icon": "🎤",
+            "detail": "Lead singer of rival band Concrete Angels"
+          },
+          {
+            "name": "Danny Kowalski",
+            "icon": "📸",
+            "detail": "Music photographer documenting the Seattle scene"
+          },
+          {
+            "name": "Trent Vasquez",
+            "icon": "🎸",
+            "detail": "Hartwell's ex-boyfriend and former bandmate"
+          },
+          {
+            "name": "Casey Brennan",
+            "icon": "🎧",
+            "detail": "Sound engineer running the mixing board"
+          },
+          {
+            "name": "Jade Sullivan",
+            "icon": "🎹",
+            "detail": "Keyboardist in Riot's band Concrete Angels"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned energy drink",
+            "icon": "⚡",
+            "detail": "Backstage refreshment laced with lethal substance"
+          },
+          {
+            "name": "Electrical sabotage",
+            "icon": "🔌",
+            "detail": "Microphone wired to deliver fatal shock"
+          },
+          {
+            "name": "Drugged water bottle",
+            "icon": "💧",
+            "detail": "Personal bottle spiked with overdose"
+          },
+          {
+            "name": "Tainted beer bottle",
+            "icon": "🍺",
+            "detail": "Backstage alcohol contaminated with poison"
+          },
+          {
+            "name": "Spiked coffee cup",
+            "icon": "☕",
+            "detail": "Morning beverage laced with deadly drug"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Backstage area",
+            "icon": "🚪",
+            "detail": "Private space behind the main stage"
+          },
+          {
+            "name": "Sound booth",
+            "icon": "🎛️",
+            "detail": "Technical control room overlooking venue"
+          },
+          {
+            "name": "Green room",
+            "icon": "🛋️",
+            "detail": "Artist lounge and preparation area"
+          },
+          {
+            "name": "Equipment room",
+            "icon": "🔧",
+            "detail": "Storage area for musical gear"
+          },
+          {
+            "name": "Catering station",
+            "icon": "🍽️",
+            "detail": "Food and beverage service area"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Label representative pass",
+            "icon": "💼",
+            "detail": "Official industry credentials"
+          },
+          {
+            "name": "Media photographer badge",
+            "icon": "📷",
+            "detail": "Press access for documentation"
+          },
+          {
+            "name": "Technical crew credentials",
+            "icon": "🔧",
+            "detail": "Sound and lighting team access"
+          },
+          {
+            "name": "Former band member status",
+            "icon": "🎵",
+            "detail": "Historical connection to artist"
+          },
+          {
+            "name": "Band member guest list",
+            "icon": "📝",
+            "detail": "Access through associated musical act"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Jade Sullivan",
+            "icon": "🎹",
+            "detail": "Keyboardist who provided distraction"
+          },
+          {
+            "name": "Marco Reeves",
+            "icon": "🥤",
+            "detail": "Catering worker who planted poison"
+          },
+          {
+            "name": "Nina Chen",
+            "icon": "🎫",
+            "detail": "Venue coordinator with master access"
+          },
+          {
+            "name": "Blake Torres",
+            "icon": "📋",
+            "detail": "Label intern running errands"
+          },
+          {
+            "name": "Sam Mitchell",
+            "icon": "🔐",
+            "detail": "Security guard who looked away"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "⚡",
+        "heading": "Energy Drink Analysis",
+        "text": "Lab results show Zoe's backstage energy drink contained fatal levels of digitalis. The bottle was found in the green room trash.",
+        "alone": "The energy drink was definitely the murder weapon.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎫",
+        "heading": "Coordinator's Account",
+        "text": "Nina Chen claims she saw Jade Sullivan in the green room alone just before showtime. Says Jade was organizing promotional materials.",
+        "alone": "Jade Sullivan allegedly had solo access to the crime scene.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📝",
+        "heading": "Guest List Entry",
+        "text": "Jade Sullivan used her band member status to add Marco Reeves to the backstage guest list. Listed him as 'equipment assistant' for Concrete Angels.",
+        "alone": "Jade Sullivan brought Marco Reeves backstage through deception.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "testimony",
+        "icon": "🥤",
+        "heading": "Marco's Confession",
+        "text": "Catering worker Marco Reeves admits he placed the energy drink in the green room. Claims Jade Sullivan paid him five hundred dollars.",
+        "alone": "Marco Reeves placed the poisoned drink on Jade's orders.",
+        "links": []
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Digitalis Source",
+        "text": "Security found a bottle of digitalis heart medication in Riot McKenzie's tour bus. The prescription was her mother's from last month.",
+        "alone": "Riot McKenzie had access to the poison used.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Riot McKenzie had both the poison source and means to contaminate the energy drink that killed Zoe."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "📹",
+        "heading": "Security Camera Review",
+        "text": "Venue cameras show Jade Sullivan was on stage performing with Concrete Angels when the murder occurred. Her stage alibi is confirmed.",
+        "alone": "Jade Sullivan couldn't have personally committed the murder.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Nina Chen was either mistaken or lying about seeing Jade in the green room during the critical time period."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Payment Trail",
+        "text": "Bank records show Riot McKenzie withdrew five hundred dollars cash yesterday. Marco Reeves deposited exactly that amount this morning.",
+        "alone": "Riot McKenzie paid Marco the money he claimed receiving.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Riot McKenzie used Jade's guest list access to get Marco backstage, then paid him to plant the poison."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "testimony",
+        "icon": "🎹",
+        "heading": "Jade's Revelation",
+        "text": "Jade Sullivan breaks down and admits Riot McKenzie convinced her to help. Says Riot claimed it was just to embarrass Zoe, not kill her.",
+        "alone": "Jade Sullivan was an unwilling accomplice to Riot's murder plot.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Jade Sullivan provided the backstage access for Marco, while Riot McKenzie orchestrated the entire poisoning scheme."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Riot McKenzie",
+      "weapon": "Poisoned energy drink",
+      "location": "Green room",
+      "access": "Band member guest list",
+      "accomplice": "Jade Sullivan"
+    },
+    "epilogue": "Riot McKenzie's jealousy over losing the record deal consumed her artistic soul. She manipulated her bandmate Jade Sullivan into providing backstage access for Marco Reeves, then paid him to plant the poisoned energy drink in the green room. Jade's unwitting assistance through the band member guest list made her an accomplice to murder. The Seattle music scene mourned both the loss of a talented artist and the corruption of others by bitter rivalry."
+  }
+}
