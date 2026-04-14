@@ -1,0 +1,678 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #048",
+    "title": "Cursed Canvas",
+    "setting": "Art Auction House · Paris · 1987",
+    "emoji": "🎨",
+    "flavor": "The Maison Dubois auction house buzzes with whispers of a cursed painting that brings misfortune to its owners. Tonight, someone's luck ran out permanently.",
+    "emptyState": "The gavel fell silent. Someone won't be bidding again.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Henri Marchand",
+            "icon": "👨‍💼",
+            "detail": "Respected art dealer, recently divorced"
+          },
+          {
+            "name": "Isabelle Rousseau",
+            "icon": "👩‍🎨",
+            "detail": "Struggling painter, desperately needs money"
+          },
+          {
+            "name": "Claude Moreau",
+            "icon": "🧔",
+            "detail": "Wealthy collector, known for ruthless tactics"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Bust",
+            "icon": "🗿",
+            "detail": "Heavy sculpture from gallery display"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "Ornate silver blade from reception desk"
+          },
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy glass vessel from private office"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with crated artwork"
+          },
+          {
+            "name": "Main Gallery",
+            "icon": "🖼️",
+            "detail": "Elegant showroom with spotlit paintings"
+          },
+          {
+            "name": "Private Office",
+            "icon": "🏢",
+            "detail": "Luxurious space for important clients"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💍",
+        "heading": "Wedding Ring",
+        "text": "A woman's wedding ring lies shattered on the storage room floor. The inscription reads 'Pour Henri, mon amour.'",
+        "alone": "Someone's marriage ended violently tonight.",
+        "links": []
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Gallery Guard",
+        "text": "The night guard saw Isabelle Rousseau arguing loudly with the victim about unpaid commissions. She threatened to 'make him pay one way or another.'",
+        "alone": "Isabelle had a public confrontation with the victim.",
+        "links": []
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Bidding Records",
+        "text": "Claude Moreau's bidding paddle shows suspicious paint residue. He was seen wiping it clean after the auction ended.",
+        "alone": "Claude was cleaning evidence from his paddle.",
+        "links": []
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🩸",
+        "heading": "Blood Pattern",
+        "text": "Blood spatters on the storage room walls show the victim was struck from behind while examining crated paintings.",
+        "alone": "The murder happened in the storage room.",
+        "links": []
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "👗",
+        "heading": "Torn Fabric",
+        "text": "Henri Marchand's jacket has a torn pocket containing a divorce decree. His ex-wife was awarded half his art collection.",
+        "alone": "Henri lost everything in his divorce.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Henri's ex-wife's shattered wedding ring in the murder room proves she killed him in a rage over their bitter divorce."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "🎨",
+        "heading": "Paint Analysis",
+        "text": "The paint on Claude's paddle matches Isabelle's current artwork. She's been using a rare ultramarine pigment all evening.",
+        "alone": "The paint came from Isabelle's art supplies.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The paint on Claude's paddle came from Isabelle's supplies, not from any violent act - she's being framed."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🚬",
+        "heading": "Smoking Area",
+        "text": "Claude Moreau was outside smoking during the estimated time of death. Three other collectors can confirm he never left the courtyard.",
+        "alone": "Claude has a solid alibi for the murder time.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Claude's paint-covered paddle is suspicious, but his airtight alibi proves he couldn't have committed the murder."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensics",
+        "icon": "🔬",
+        "heading": "Weapon Analysis",
+        "text": "The marble bust bears microscopic fabric fibers matching expensive silk. Only one person wore silk clothing tonight.",
+        "alone": "The killer wore distinctive silk clothing.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The marble bust used in the storage room murder contains silk fibers, confirming both the weapon and location."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Henri Marchand",
+      "weapon": "Marble Bust",
+      "location": "Storage Room"
+    },
+    "epilogue": "Henri's ex-wife, consumed by jealousy over his continued success while she struggled financially, followed him to the auction house. When she confronted him in the storage room about hiding assets, years of resentment exploded into violence. The marble bust became her weapon of revenge, shattering not just his skull but the last remnants of their once-loving marriage. Her wedding ring, torn from her finger in the struggle, lay broken like the promises they once made."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #048",
+    "title": "Cursed Canvas",
+    "setting": "Art Auction House · Paris · 1987",
+    "emoji": "🎨",
+    "flavor": "The Maison Dubois auction house buzzes with whispers of a cursed painting that brings misfortune to its owners. Tonight, someone's luck ran out permanently.",
+    "emptyState": "The gavel fell silent. Someone won't be bidding again.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Henri Marchand",
+            "icon": "👨‍💼",
+            "detail": "Respected art dealer, recently divorced"
+          },
+          {
+            "name": "Isabelle Rousseau",
+            "icon": "👩‍🎨",
+            "detail": "Struggling painter, desperately needs money"
+          },
+          {
+            "name": "Claude Moreau",
+            "icon": "🧔",
+            "detail": "Wealthy collector, ruthless in business"
+          },
+          {
+            "name": "Sophie Marchand",
+            "icon": "💔",
+            "detail": "Henri's bitter ex-wife, financial struggles"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Bust",
+            "icon": "🗿",
+            "detail": "Heavy sculpture from gallery display"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "Ornate silver blade from reception desk"
+          },
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy glass vessel from private office"
+          },
+          {
+            "name": "Bronze Figurine",
+            "icon": "🏺",
+            "detail": "Antique statue from storage room"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with crated artwork"
+          },
+          {
+            "name": "Main Gallery",
+            "icon": "🖼️",
+            "detail": "Elegant showroom with spotlit paintings"
+          },
+          {
+            "name": "Private Office",
+            "icon": "🏢",
+            "detail": "Luxurious space for important clients"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Temperature-controlled room for entertaining"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:30-10:00 PM",
+            "icon": "🕘",
+            "detail": "During auction intermission break"
+          },
+          {
+            "name": "10:15-10:30 PM",
+            "icon": "🕙",
+            "detail": "After main auction ended"
+          },
+          {
+            "name": "10:45-11:00 PM",
+            "icon": "🕚",
+            "detail": "During private viewing session"
+          },
+          {
+            "name": "11:15-11:30 PM",
+            "icon": "🕦",
+            "detail": "After most guests departed"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💍",
+        "heading": "Wedding Ring",
+        "text": "Sophie Marchand's wedding ring lies shattered in the storage room. The inscription 'Pour Henri, mon amour' is barely legible.",
+        "alone": "Sophie's wedding ring was broken at the crime scene.",
+        "links": []
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👥",
+        "heading": "Gallery Assistant",
+        "text": "The assistant clearly saw Henri arguing with Claude Moreau at 10:20 PM about bidding irregularities. Claude stormed toward the storage room afterward.",
+        "alone": "Claude was seen heading to the storage room after arguing.",
+        "links": []
+      },
+      {
+        "id": "D3",
+        "type": "surveillance",
+        "icon": "📹",
+        "heading": "Security Camera",
+        "text": "Footage shows all guests left the building by 11:20 PM except for three people who remained inside.",
+        "alone": "Only three people stayed past 11:20 PM.",
+        "links": []
+      },
+      {
+        "id": "D4",
+        "type": "forensics",
+        "icon": "🧬",
+        "heading": "DNA Evidence",
+        "text": "Isabelle Rousseau's DNA is found under the victim's fingernails. She claims they shook hands earlier during business negotiations.",
+        "alone": "Isabelle's DNA was on the victim's hands.",
+        "links": []
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "👗",
+        "heading": "Torn Silk",
+        "text": "Sophie Marchand's dress has fresh tears and bloodstains. She claims she cut herself on broken glass while looking for the restroom.",
+        "alone": "Sophie's dress shows signs of a struggle.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Sophie's torn, bloodstained dress combined with her broken wedding ring at the crime scene proves she killed Henri in a violent confrontation."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "timeline",
+        "icon": "⌚",
+        "heading": "Security Log",
+        "text": "Entry records show Claude left the building at 10:35 PM, well before the estimated time of death at 11:25 PM.",
+        "alone": "Claude departed before the murder occurred.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The assistant was mistaken about timing - Claude had already left the building before the murder took place."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Access Cards",
+        "text": "Only Sophie, Henri, and Isabelle's keycards show access to the storage room after 11:15 PM.",
+        "alone": "Three people accessed the storage room during the murder window.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The three people who stayed late were the same three who accessed the storage room during the murder timeframe."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Art Restorer",
+        "text": "Isabelle was in the main gallery cleaning her brushes during the 11:15-11:30 window. The restorer helped her pack supplies.",
+        "alone": "Isabelle has an alibi for the murder time.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Isabelle's DNA under Henri's nails came from earlier contact, not the murder - she was elsewhere when he died."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sophie Marchand",
+      "weapon": "Marble Bust",
+      "location": "Storage Room",
+      "window": "11:15-11:30 PM"
+    },
+    "epilogue": "Sophie Marchand, consumed by jealousy and financial desperation after her divorce, followed Henri to confront him one final time. In the storage room's shadows, years of resentment erupted when she discovered he was hiding valuable pieces from their settlement. The marble bust became her weapon of revenge, striking him down during those final moments after 11:15 PM when the auction house had emptied. Her shattered wedding ring told the story of a love that had curdled into murderous hatred."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #048",
+    "title": "Cursed Canvas",
+    "setting": "Art Auction House · Paris · 1987",
+    "emoji": "🎨",
+    "flavor": "The Maison Dubois auction house buzzes with whispers of a cursed painting that brings misfortune to its owners. Tonight, someone's luck ran out permanently.",
+    "emptyState": "The gavel fell silent. Someone won't be bidding again.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Henri Marchand",
+            "icon": "👨‍💼",
+            "detail": "Respected art dealer, recently divorced"
+          },
+          {
+            "name": "Isabelle Rousseau",
+            "icon": "👩‍🎨",
+            "detail": "Struggling painter, desperately needs money"
+          },
+          {
+            "name": "Claude Moreau",
+            "icon": "🧔",
+            "detail": "Wealthy collector, ruthless in business"
+          },
+          {
+            "name": "Sophie Marchand",
+            "icon": "💔",
+            "detail": "Henri's bitter ex-wife, financial struggles"
+          },
+          {
+            "name": "Dr. Étienne Valois",
+            "icon": "👨‍⚕️",
+            "detail": "Psychiatrist and art collector, Henri's friend"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Bust",
+            "icon": "🗿",
+            "detail": "Heavy sculpture from gallery display"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "🗡️",
+            "detail": "Ornate silver blade from reception desk"
+          },
+          {
+            "name": "Crystal Decanter",
+            "icon": "🍾",
+            "detail": "Heavy glass vessel from private office"
+          },
+          {
+            "name": "Bronze Figurine",
+            "icon": "🏺",
+            "detail": "Antique statue from storage room"
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "Vintage Bordeaux from cellar collection"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Storage Room",
+            "icon": "📦",
+            "detail": "Dark basement filled with crated artwork"
+          },
+          {
+            "name": "Main Gallery",
+            "icon": "🖼️",
+            "detail": "Elegant showroom with spotlit paintings"
+          },
+          {
+            "name": "Private Office",
+            "icon": "🏢",
+            "detail": "Luxurious space for important clients"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Temperature-controlled room for entertaining"
+          },
+          {
+            "name": "Restoration Lab",
+            "icon": "🔬",
+            "detail": "Hidden workshop for authentication work"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:30-10:00 PM",
+            "icon": "🕘",
+            "detail": "During auction intermission break"
+          },
+          {
+            "name": "10:15-10:30 PM",
+            "icon": "🕙",
+            "detail": "After main auction ended"
+          },
+          {
+            "name": "10:45-11:00 PM",
+            "icon": "🕚",
+            "detail": "During private viewing session"
+          },
+          {
+            "name": "11:15-11:30 PM",
+            "icon": "🕦",
+            "detail": "After most guests departed"
+          },
+          {
+            "name": "11:45 PM-12:15 AM",
+            "icon": "🌙",
+            "detail": "Late night, building nearly empty"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Gallery Security",
+            "icon": "👮",
+            "detail": "Night guard with access to all areas"
+          },
+          {
+            "name": "Dr. Étienne Valois",
+            "icon": "👨‍⚕️",
+            "detail": "Henri's trusted friend and psychiatrist"
+          },
+          {
+            "name": "Auction House Staff",
+            "icon": "👔",
+            "detail": "Employee with insider knowledge"
+          },
+          {
+            "name": "Professional Forger",
+            "icon": "✍️",
+            "detail": "Criminal contact from art underworld"
+          },
+          {
+            "name": "No Accomplice",
+            "icon": "🚫",
+            "detail": "The killer acted completely alone"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💍",
+        "heading": "Wedding Ring",
+        "text": "Sophie Marchand's wedding ring lies shattered in the storage room, but forensics shows it was broken hours before the murder.",
+        "alone": "Sophie's ring was planted to frame her.",
+        "links": []
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Medical Expert",
+        "text": "Dr. Valois confidently states the head wound pattern indicates a left-handed attacker. Sophie and Claude are both right-handed.",
+        "alone": "The killer was supposedly left-handed.",
+        "links": []
+      },
+      {
+        "id": "I3",
+        "type": "surveillance",
+        "icon": "📱",
+        "heading": "Phone Records",
+        "text": "Dr. Valois made three calls to an unlisted number between 11:40-11:50 PM, each lasting under thirty seconds.",
+        "alone": "Dr. Valois made mysterious calls after the murder.",
+        "links": []
+      },
+      {
+        "id": "I4",
+        "type": "forensics",
+        "icon": "🧤",
+        "heading": "Glove Residue",
+        "text": "Microscopic latex particles on the marble bust suggest the killer wore surgical gloves. Only one person had medical access to such gloves.",
+        "alone": "The killer wore medical-grade gloves.",
+        "links": []
+      },
+      {
+        "id": "I5",
+        "type": "financial",
+        "icon": "💰",
+        "heading": "Insurance Policy",
+        "text": "Henri secretly increased his life insurance to 2 million francs last month, naming Dr. Valois as sole beneficiary instead of Sophie.",
+        "alone": "Dr. Valois stood to inherit everything.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Valois planted Sophie's ring to frame her while claiming the massive inheritance Henri secretly left him."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "forensics",
+        "icon": "🔬",
+        "heading": "Blood Spatter",
+        "text": "Advanced analysis reveals the attacker was right-handed, not left-handed. The wound angle was deliberately altered post-mortem.",
+        "alone": "The medical evidence was deliberately falsified.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Dr. Valois lied about the wound pattern to mislead the investigation, using his medical expertise to manipulate evidence."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Phone Trace",
+        "text": "The unlisted number belongs to a private disposal service that specializes in removing medical waste. They received specific instructions about bloody gloves.",
+        "alone": "Someone arranged disposal of medical evidence.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Dr. Valois called a disposal service to destroy the surgical gloves he used during the murder."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "surveillance",
+        "icon": "🚗",
+        "heading": "Parking Records",
+        "text": "Dr. Valois's car was seen at a 24-hour medical supply store at midnight. Security footage shows him disposing of a medical waste bag.",
+        "alone": "Dr. Valois made a suspicious midnight stop.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Dr. Valois disposed of the surgical gloves at a medical facility, confirming he was the killer who wore them."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Étienne Valois",
+      "weapon": "Marble Bust",
+      "location": "Storage Room",
+      "window": "11:45 PM-12:15 AM",
+      "accomplice": "No Accomplice"
+    },
+    "epilogue": "Dr. Étienne Valois, Henri's trusted friend and psychiatrist, had been secretly manipulating his patient's mental state and finances for months. When Henri revealed his plan to reconcile with Sophie and change his will back, Valois realized his carefully orchestrated inheritance scheme was crumbling. Using his medical knowledge, he struck Henri down with the marble bust in the storage room's shadows, then manipulated the crime scene to frame Sophie. His surgical gloves left no prints, but his greed and betrayal of friendship ultimately sealed his fate when investigators unraveled his web of deception."
+  }
+}
