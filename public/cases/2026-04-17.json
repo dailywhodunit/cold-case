@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #050",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The hurricane warning came too late for everyone to evacuate. Now someone's last resort has become their final destination.",
+    "emptyState": "The last boat left an hour ago. Someone won't need it.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Delacroix",
+            "icon": "👔",
+            "detail": "Resort security chief, former military contractor."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "💼",
+            "detail": "Financial advisor, handles offshore accounts for wealthy clients."
+          },
+          {
+            "name": "Tommy Valdez",
+            "icon": "🛥️",
+            "detail": "Boat captain, knows every smuggling route in the Caribbean."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "Razor-sharp titanium blade from the dive shop."
+          },
+          {
+            "name": "Speargun",
+            "icon": "🎯",
+            "detail": "High-powered underwater hunting weapon."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⚓",
+            "detail": "Heavy steel chain from the marina dock."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Beach",
+            "icon": "🏖️",
+            "detail": "Secluded cove away from the main resort."
+          },
+          {
+            "name": "Marina Office",
+            "icon": "🏢",
+            "detail": "Small building overlooking the boat slips."
+          },
+          {
+            "name": "Dive Equipment Room",
+            "icon": "🤿",
+            "detail": "Storage area filled with scuba gear and tools."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💎",
+        "heading": "Diamond Shipment",
+        "text": "Victor Castellanos was moving $50 million in conflict diamonds through the resort's marina. The shipment arrives tonight before the hurricane.",
+        "alone": "Victor was smuggling diamonds worth fifty million dollars.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Isabella's offshore expertise and the diamond operation prove she was Victor's smuggling partner who killed him for the entire shipment."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Footage",
+        "text": "Marcus was seen arguing violently with Victor near the marina at 9 PM. He threatened to 'end this once and for all.'",
+        "alone": "Marcus had a heated confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Marcus threatened Victor but was protecting Isabella, not planning murder - his anger was about Victor endangering someone he cared about."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Evidence",
+        "text": "Tommy's boat shirt has Victor's blood on it. He claims he tried to help but the stains suggest closer contact.",
+        "alone": "Tommy had Victor's blood on his clothing.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Tommy's bloody shirt came from genuinely trying to save Victor, not from killing him - his evacuation story checks out completely."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Weapon Analysis",
+        "text": "The diving knife shows recent cleaning but luminol reveals blood traces. It was hastily sanitized after the murder.",
+        "alone": "The diving knife was the murder weapon.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The diving knife from the equipment room confirms both the weapon and location where Isabella killed Victor during their business meeting."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Offshore Accounts",
+        "text": "Isabella managed shell companies in three Caribbean tax havens. All show large pending transactions scheduled for tonight.",
+        "alone": "Isabella had extensive offshore money laundering operations.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Isabella's offshore expertise and the diamond operation prove she was Victor's smuggling partner who killed him for the entire shipment."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "💌",
+        "heading": "Love Letters",
+        "text": "Marcus and Isabella have been secretly dating for months. He knew about her criminal involvement and wanted her out.",
+        "alone": "Marcus was romantically involved with Isabella despite her crimes.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Marcus threatened Victor but was protecting Isabella, not planning murder - his anger was about Victor endangering someone he cared about."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Coast Guard Radio",
+        "text": "Tommy radioed the Coast Guard at 10:15 PM reporting Victor's body. His voice shows genuine distress and shock.",
+        "alone": "Tommy discovered the body and immediately reported it.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Tommy's bloody shirt came from genuinely trying to save Victor, not from killing him - his evacuation story checks out completely."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "🗝️",
+        "heading": "Access Logs",
+        "text": "Isabella's keycard accessed the dive equipment room at 9:45 PM. She had no legitimate reason to be there.",
+        "alone": "Isabella was in the equipment room around the time of murder.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The diving knife from the equipment room confirms both the weapon and location where Isabella killed Victor during their business meeting."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Santos",
+      "weapon": "Diving Knife",
+      "location": "Dive Equipment Room"
+    },
+    "epilogue": "Isabella Santos killed her partner Victor Castellanos when their $50 million diamond smuggling operation turned deadly. She used a diving knife in the equipment room during what Victor thought was a routine business meeting. Marcus Delacroix, who loved Isabella despite her crimes, had tried to convince her to abandon the dangerous partnership. When the hurricane stranded everyone on the island, Isabella saw her chance to eliminate Victor and keep the entire fortune, but she never expected Marcus's protection to extend to helping solve her crime."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #050",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The hurricane warning came too late for everyone to evacuate. Now someone's last resort has become their final destination.",
+    "emptyState": "The last boat left an hour ago. Someone won't need it.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Delacroix",
+            "icon": "👔",
+            "detail": "Resort security chief, former military contractor."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "💼",
+            "detail": "Financial advisor, handles offshore accounts for wealthy clients."
+          },
+          {
+            "name": "Tommy Valdez",
+            "icon": "🛥️",
+            "detail": "Boat captain, knows every smuggling route in the Caribbean."
+          },
+          {
+            "name": "Elena Restrepo",
+            "icon": "💊",
+            "detail": "Resort nurse, has access to medical supplies and drugs."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "Razor-sharp titanium blade from the dive shop."
+          },
+          {
+            "name": "Speargun",
+            "icon": "🎯",
+            "detail": "High-powered underwater hunting weapon."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⚓",
+            "detail": "Heavy steel chain from the marina dock."
+          },
+          {
+            "name": "Surgical Scalpel",
+            "icon": "🏥",
+            "detail": "Precision medical blade from the resort clinic."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Beach",
+            "icon": "🏖️",
+            "detail": "Secluded cove away from the main resort."
+          },
+          {
+            "name": "Marina Office",
+            "icon": "🏢",
+            "detail": "Small building overlooking the boat slips."
+          },
+          {
+            "name": "Dive Equipment Room",
+            "icon": "🤿",
+            "detail": "Storage area filled with scuba gear and tools."
+          },
+          {
+            "name": "Medical Clinic",
+            "icon": "🏥",
+            "detail": "Fully equipped facility for guest emergencies."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Business Partnership",
+            "icon": "🤝",
+            "detail": "Joint criminal enterprise worth millions in diamonds."
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Love affair gone wrong with deadly consequences."
+          },
+          {
+            "name": "Witness Elimination",
+            "icon": "👁️",
+            "detail": "Silencing someone who knew too much."
+          },
+          {
+            "name": "Family Protection",
+            "icon": "👨‍👩‍👧",
+            "detail": "Killing to save a loved one from danger."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💎",
+        "heading": "Diamond Shipment",
+        "text": "Victor Castellanos was moving $50 million in conflict diamonds through the resort's marina. The shipment arrives tonight before the hurricane.",
+        "alone": "Victor was smuggling diamonds worth fifty million dollars.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Isabella's shell companies and Victor's diamond operation prove they were business partners, giving her motive to kill him for the entire fortune."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Eyewitness Account",
+        "text": "Elena swears she saw Marcus dragging something heavy toward the water at 10 PM. She was treating a guest nearby.",
+        "alone": "Elena witnessed Marcus with suspicious activity near the water.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Elena's testimony was sincere but wrong - she saw Marcus moving hurricane supplies, not a body, during the storm preparation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Text Messages",
+        "text": "Isabella texted Victor at 9:30 PM: 'Meet me at the usual place. Time to settle this permanently.'",
+        "alone": "Isabella arranged a final meeting with Victor before his death.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Isabella's text about settling things permanently with her business partner proves her motive was seizing their entire diamond smuggling operation."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Security Footage",
+        "text": "Tommy was loading emergency supplies onto his boat at 9:45 PM. He never went near the dive equipment room.",
+        "alone": "Tommy has a solid alibi during the critical time period.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Tommy's verified alibi loading supplies eliminates him as a suspect - he was genuinely preparing for hurricane evacuation duties."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🏦",
+        "heading": "Shell Companies",
+        "text": "Isabella operated three offshore companies that received payments from Victor's diamond network. Tonight's shipment would fund their biggest deal yet.",
+        "alone": "Isabella was financially connected to Victor's criminal operations.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Isabella's shell companies and Victor's diamond operation prove they were business partners, giving her motive to kill him for the entire fortune."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📦",
+        "heading": "Hurricane Supplies",
+        "text": "Marcus was moving sandbags and emergency equipment to secure the marina. Multiple staff members confirm his legitimate activities during the storm prep.",
+        "alone": "Marcus was doing authorized hurricane preparation work.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Elena's testimony was sincere but wrong - she saw Marcus moving hurricane supplies, not a body, during the storm preparation."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Financial Records",
+        "text": "Isabella's accounts show she was planning to transfer $75 million tomorrow. Far more than her legitimate business could generate.",
+        "alone": "Isabella expected a massive windfall the day after the murder.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Isabella's text about settling things permanently with her business partner proves her motive was seizing their entire diamond smuggling operation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "⏰",
+        "heading": "Duty Roster",
+        "text": "Tommy was officially assigned evacuation duties from 9 PM until midnight. Harbor master confirms he never left his post.",
+        "alone": "Tommy was on verified duty during the entire murder timeframe.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Tommy's verified alibi loading supplies eliminates him as a suspect - he was genuinely preparing for hurricane evacuation duties."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Santos",
+      "weapon": "Diving Knife",
+      "location": "Dive Equipment Room",
+      "motive": "Business Partnership"
+    },
+    "epilogue": "Isabella Santos murdered her business partner Victor Castellanos to seize their $50 million diamond smuggling operation. She lured him to the dive equipment room with promises of settling their partnership, then used a diving knife to kill him. Isabella planned to transfer the entire fortune through her offshore shell companies the next day. Elena Restrepo's eyewitness testimony, though sincere, mistakenly implicated Marcus who was actually performing legitimate hurricane preparation duties. The storm that trapped everyone on the island became Isabella's perfect cover for eliminating her partner and claiming their criminal empire."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #050",
+    "title": "Paradise Lost",
+    "setting": "Private Island Resort · Caribbean · 2024",
+    "emoji": "🏝️",
+    "flavor": "The hurricane warning came too late for everyone to evacuate. Now someone's last resort has become their final destination.",
+    "emptyState": "The last boat left an hour ago. Someone won't need it.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Delacroix",
+            "icon": "👔",
+            "detail": "Resort security chief, former military contractor."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "💼",
+            "detail": "Financial advisor, handles offshore accounts for wealthy clients."
+          },
+          {
+            "name": "Tommy Valdez",
+            "icon": "🛥️",
+            "detail": "Boat captain, knows every smuggling route in the Caribbean."
+          },
+          {
+            "name": "Elena Restrepo",
+            "icon": "💊",
+            "detail": "Resort nurse, has access to medical supplies and drugs."
+          },
+          {
+            "name": "Carlos Mendoza",
+            "icon": "🔧",
+            "detail": "Resort maintenance chief, Elena's brother and closest confidant."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "Razor-sharp titanium blade from the dive shop."
+          },
+          {
+            "name": "Speargun",
+            "icon": "🎯",
+            "detail": "High-powered underwater hunting weapon."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⚓",
+            "detail": "Heavy steel chain from the marina dock."
+          },
+          {
+            "name": "Surgical Scalpel",
+            "icon": "🏥",
+            "detail": "Precision medical blade from the resort clinic."
+          },
+          {
+            "name": "Pipe Wrench",
+            "icon": "🔧",
+            "detail": "Heavy steel tool from the maintenance workshop."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Private Beach",
+            "icon": "🏖️",
+            "detail": "Secluded cove away from the main resort."
+          },
+          {
+            "name": "Marina Office",
+            "icon": "🏢",
+            "detail": "Small building overlooking the boat slips."
+          },
+          {
+            "name": "Dive Equipment Room",
+            "icon": "🤿",
+            "detail": "Storage area filled with scuba gear and tools."
+          },
+          {
+            "name": "Medical Clinic",
+            "icon": "🏥",
+            "detail": "Fully equipped facility for guest emergencies."
+          },
+          {
+            "name": "Maintenance Workshop",
+            "icon": "🔧",
+            "detail": "Tool storage and repair facility in resort basement."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Business Partnership",
+            "icon": "🤝",
+            "detail": "Joint criminal enterprise worth millions in diamonds."
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Love affair gone wrong with deadly consequences."
+          },
+          {
+            "name": "Witness Elimination",
+            "icon": "👁️",
+            "detail": "Silencing someone who knew too much."
+          },
+          {
+            "name": "Family Protection",
+            "icon": "👨‍👩‍👧",
+            "detail": "Killing to save a loved one from danger."
+          },
+          {
+            "name": "Blackmail Scheme",
+            "icon": "📸",
+            "detail": "Extortion plot targeting wealthy resort guests."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Marcus Delacroix",
+            "icon": "👔",
+            "detail": "Provided security access and covered evidence."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "💼",
+            "detail": "Handled financial transfers and money laundering."
+          },
+          {
+            "name": "Tommy Valdez",
+            "icon": "🛥️",
+            "detail": "Arranged transportation and disposal logistics."
+          },
+          {
+            "name": "Elena Restrepo",
+            "icon": "💊",
+            "detail": "Used medical knowledge and provided false testimony."
+          },
+          {
+            "name": "Carlos Mendoza",
+            "icon": "🔧",
+            "detail": "Cleaned crime scene and disposed of evidence."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "📸",
+        "heading": "Blackmail Photos",
+        "text": "Victor had compromising photos of wealthy guests in illegal activities. Elena discovered his scheme and demanded he stop exploiting people.",
+        "alone": "Victor was blackmailing resort guests with incriminating photos.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Elena's medical expertise in pressure points and Victor's blackmail scheme prove she killed him to protect innocent guests from exploitation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Isabella's Statement",
+        "text": "Isabella claims she saw Elena leaving the medical clinic at 10 PM carrying a surgical bag toward the dive area.",
+        "alone": "Isabella places Elena near the crime scene with medical equipment.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Isabella's testimony about Elena was deliberately misleading - she was actually describing her own movements while carrying the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🔧",
+        "heading": "Workshop Access",
+        "text": "Carlos's keycard accessed the maintenance workshop at 11:30 PM. The industrial cleaners stored there can dissolve organic evidence completely.",
+        "alone": "Carlos accessed powerful cleaning supplies after the murder.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Carlos used his maintenance access and industrial cleaners to help Elena dispose of evidence, proving his role as her accomplice."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Deleted Messages",
+        "text": "Tommy's phone shows deleted texts from Elena at 9:15 PM asking about 'boat schedules' and 'deep water routes.'",
+        "alone": "Elena consulted Tommy about boats and disposal methods.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Elena's deleted messages to Tommy were innocent questions about evacuation procedures, not disposal plans - his alibi eliminates him completely."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🩺",
+        "heading": "Medical Knowledge",
+        "text": "The fatal wound shows precise knowledge of arterial pressure points. Only someone with advanced medical training could make such an efficient kill.",
+        "alone": "The killer had extensive medical expertise.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Elena's medical expertise in pressure points and Victor's blackmail scheme prove she killed him to protect innocent guests from exploitation."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🎭",
+        "heading": "False Testimony",
+        "text": "Security footage shows Isabella herself near the dive equipment room at 10 PM, not Elena. She deliberately misdirected the investigation.",
+        "alone": "Isabella lied about Elena's whereabouts during the murder.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Isabella's testimony about Elena was deliberately misleading - she was actually describing her own movements while carrying the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "🧪",
+        "heading": "Chemical Analysis",
+        "text": "Traces of industrial degreaser on Elena's medical scrubs match the specific formula used only in Carlos's maintenance workshop.",
+        "alone": "Elena's clothing was cleaned with Carlos's specialized chemicals.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Carlos used his maintenance access and industrial cleaners to help Elena dispose of evidence, proving his role as her accomplice."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "📊",
+        "heading": "Harbor Records",
+        "text": "Tommy was logged at the harbor master station from 9 PM to midnight, coordinating evacuation boats. Three witnesses confirm continuous presence.",
+        "alone": "Tommy has an unbreakable alibi for the entire evening.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Elena's deleted messages to Tommy were innocent questions about evacuation procedures, not disposal plans - his alibi eliminates him completely."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Restrepo",
+      "weapon": "Surgical Scalpel",
+      "location": "Medical Clinic",
+      "motive": "Family Protection",
+      "accomplice": "Carlos Mendoza"
+    },
+    "epilogue": "Elena Restrepo killed Victor Castellanos to protect innocent resort guests from his blackmail scheme, luring him to the medical clinic where she used her surgical expertise and a scalpel to make a precise fatal wound. Her brother Carlos Mendoza helped cover up the crime by using industrial cleaners from his maintenance workshop to dispose of evidence. Elena's motive was protecting vulnerable people from Victor's exploitation, but Isabella Santos tried to misdirect the investigation by giving false testimony about Elena's whereabouts. The hurricane that stranded everyone on the island gave the siblings time to clean the crime scene, but also trapped them with the evidence of their protective but deadly intervention."
+  }
+}
