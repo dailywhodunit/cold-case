@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "tier": "rookie",
+    "caseNum": "Case #034",
+    "title": "The Siren's Lament",
+    "setting": "Portuguese Fishing Village · Algarve · 1978",
+    "emoji": "🎣",
+    "flavor": "The old fishermen speak of voices from the deep, calling sailors to their doom. But sometimes the most dangerous currents flow between neighbors on dry land.",
+    "emptyState": "The nets came back empty. So did the boat.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tomás Ferreira",
+            "icon": "⚓",
+            "detail": "Village boat captain, competed with victim for fishing routes."
+          },
+          {
+            "name": "Isabel Santos",
+            "icon": "💰",
+            "detail": "Local fish merchant, owed victim substantial money."
+          },
+          {
+            "name": "João Medeiros",
+            "icon": "🔧",
+            "detail": "Boat mechanic, argued with victim over unpaid repairs."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Harbor Dock",
+            "icon": "🚢",
+            "detail": "Where victim's boat was found drifting empty."
+          },
+          {
+            "name": "Fish Market",
+            "icon": "🐟",
+            "detail": "Bustling morning trade center near the waterfront."
+          },
+          {
+            "name": "Lighthouse Rocks",
+            "icon": "🗼",
+            "detail": "Rocky outcrop where body washed ashore at dawn."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Fishing Net",
+            "icon": "🕸️",
+            "detail": "Heavy nets capable of dragging someone underwater."
+          },
+          {
+            "name": "Boat Hook",
+            "icon": "🪝",
+            "detail": "Sharp metal pole used for docking boats."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "Heavy chain that could easily drag victim down."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🧥",
+        "heading": "Torn Jacket",
+        "text": "Victim's jacket shows distinctive triple-hook tears. Only one person in the village uses that specific anchor style.",
+        "alone": "The tears match Tomás Ferreira's custom anchor hooks.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Tomás Ferreira's anchor hooks tore the victim's jacket during the struggle at Harbor Dock."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Night Argument",
+        "text": "Fisherman heard heated shouting from the Fish Market. Isabel Santos was demanding payment, threatening legal action.",
+        "alone": "Isabel Santos had a public confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Isabel's debt was resolved through insurance money, eliminating her financial motive."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🔨",
+        "heading": "Bloody Wrench",
+        "text": "João's boat repair tools show blood traces. He claims he cut himself working yesterday.",
+        "alone": "João Medeiros had blood on his repair equipment.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Hospital records confirm João's hand injury was treated hours before the murder, clearing him."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "witness",
+        "icon": "👓",
+        "heading": "Dawn Discovery",
+        "text": "Lighthouse keeper found the body at Lighthouse Rocks. Tide patterns show it drifted from Harbor Dock.",
+        "alone": "The murder occurred at Harbor Dock, not the lighthouse.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Anchor chain weights confirm the victim was killed at Harbor Dock and dumped there."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "⚓",
+        "heading": "Custom Hooks",
+        "text": "Tomás Ferreira's boat features unique triple-pronged anchor hooks. No other vessel in the harbor uses this design.",
+        "alone": "Only Tomás has the distinctive anchor hooks.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Tomás Ferreira's anchor hooks tore the victim's jacket during the struggle at Harbor Dock."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Insurance Settlement",
+        "text": "Isabel Santos received insurance payout covering her debt to victim. Payment arrived two days before his death.",
+        "alone": "Isabel no longer owed the victim any money.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Isabel's debt was resolved through insurance money, eliminating her financial motive."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "evidence",
+        "icon": "🏥",
+        "heading": "Medical Records",
+        "text": "Hospital treated João for severe hand laceration six hours before murder. Injury matches blood on tools.",
+        "alone": "João's blood evidence predates the crime by hours.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Hospital records confirm João's hand injury was treated hours before the murder, clearing him."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "evidence",
+        "icon": "⛓️",
+        "heading": "Anchor Weights",
+        "text": "Anchor chain fragments embedded in victim's clothing match Harbor Dock equipment. Body was weighed down there.",
+        "alone": "The anchor chain method confirms Harbor Dock as crime scene.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Anchor chain weights confirm the victim was killed at Harbor Dock and dumped there."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tomás Ferreira",
+      "location": "Harbor Dock",
+      "weapon": "Anchor Chain"
+    },
+    "epilogue": "Tomás Ferreira couldn't bear losing another season's catch to his rival's better fishing spots. The competition that once drove both men to excellence became poisoned by desperation and pride. When confrontation turned to violence at Harbor Dock, Tomás used his own anchor chain to silence his competitor forever. The sea that gave them both life became an unwilling accomplice to murder."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "tier": "detective",
+    "caseNum": "Case #034",
+    "title": "The Siren's Lament",
+    "setting": "Portuguese Fishing Village · Algarve · 1978",
+    "emoji": "🎣",
+    "flavor": "The old fishermen speak of voices from the deep, calling sailors to their doom. But sometimes the most dangerous currents flow between neighbors on dry land.",
+    "emptyState": "The nets came back empty. So did the boat.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tomás Ferreira",
+            "icon": "⚓",
+            "detail": "Village boat captain, competed with victim for fishing routes."
+          },
+          {
+            "name": "Isabel Santos",
+            "icon": "💰",
+            "detail": "Local fish merchant, owed victim substantial money."
+          },
+          {
+            "name": "João Medeiros",
+            "icon": "🔧",
+            "detail": "Boat mechanic, argued with victim over unpaid repairs."
+          },
+          {
+            "name": "Padre Miguel",
+            "icon": "✝️",
+            "detail": "Village priest, condemned victim's Sunday fishing practices."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Harbor Dock",
+            "icon": "🚢",
+            "detail": "Where victim's boat was found drifting empty."
+          },
+          {
+            "name": "Fish Market",
+            "icon": "🐟",
+            "detail": "Bustling morning trade center near the waterfront."
+          },
+          {
+            "name": "Lighthouse Rocks",
+            "icon": "🗼",
+            "detail": "Rocky outcrop where body washed ashore at dawn."
+          },
+          {
+            "name": "Village Chapel",
+            "icon": "⛪",
+            "detail": "Small stone church overlooking the harbor."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Fishing Net",
+            "icon": "🕸️",
+            "detail": "Heavy nets capable of dragging someone underwater."
+          },
+          {
+            "name": "Boat Hook",
+            "icon": "🪝",
+            "detail": "Sharp metal pole used for docking boats."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "Heavy chain that could easily drag victim down."
+          },
+          {
+            "name": "Blessed Crucifix",
+            "icon": "✝️",
+            "detail": "Heavy bronze cross from the chapel altar."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Before Midnight",
+            "icon": "🌙",
+            "detail": "Late evening when most villagers were asleep."
+          },
+          {
+            "name": "Midnight to 2 AM",
+            "icon": "🕛",
+            "detail": "Deep night hours with minimal foot traffic."
+          },
+          {
+            "name": "2 AM to Dawn",
+            "icon": "🌅",
+            "detail": "Pre-dawn hours when fishermen begin preparations."
+          },
+          {
+            "name": "After Sunrise",
+            "icon": "☀️",
+            "detail": "Morning hours with villagers starting daily routines."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🧥",
+        "heading": "Torn Jacket",
+        "text": "Victim's jacket shows distinctive triple-hook tears. Only one person in the village uses that specific anchor style.",
+        "alone": "The tears match Tomás Ferreira's custom anchor hooks.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Tomás Ferreira's anchor hooks tore the victim's jacket during the pre-dawn struggle at Harbor Dock."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Church Bell Witness",
+        "text": "Padre Miguel swears he saw Isabel Santos dragging something heavy near the chapel at 2 AM. He was praying through the night.",
+        "alone": "The priest claims Isabel was active during the murder timeframe.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Padre Miguel mistook Isabel's fish delivery cart for suspicious activity, while she had a solid alibi."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🕰️",
+        "heading": "Victim's Watch",
+        "text": "Victim's watch stopped at 3:47 AM, damaged by seawater. Coroner confirms this matches time of death.",
+        "alone": "The murder occurred during the 2 AM to Dawn window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 3:47 AM time of death falls within the 2 AM to Dawn window when Tomás was preparing his boat."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "👓",
+        "heading": "Harbor Master",
+        "text": "Harbor master confirms João Medeiros left village yesterday evening on the mainland ferry. Hasn't returned yet.",
+        "alone": "João was physically absent during the murder timeframe.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "João's mainland ferry alibi completely eliminates him from the 2 AM to Dawn murder window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "⚓",
+        "heading": "Custom Hooks",
+        "text": "Tomás Ferreira's boat features unique triple-pronged hooks. He was preparing for dawn fishing, alone at harbor since 3 AM.",
+        "alone": "Only Tomás has the hooks and was present pre-dawn.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Tomás Ferreira's anchor hooks tore the victim's jacket during the pre-dawn struggle at Harbor Dock."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🐟",
+        "heading": "Delivery Records",
+        "text": "Fish market logs show Isabel Santos making routine midnight delivery. Three witnesses confirm she worked until 4 AM.",
+        "alone": "Isabel has multiple witnesses confirming her whereabouts during murder.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Padre Miguel mistook Isabel's fish delivery cart for suspicious activity, while she had a solid alibi."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Boat Logs",
+        "text": "Harbor records show Tomás signed out his boat at 3:30 AM. Fifteen minutes before victim's watch stopped.",
+        "alone": "Tomás was actively preparing his boat when murder occurred.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The 3:47 AM time of death falls within the 2 AM to Dawn window when Tomás was preparing his boat."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "🚢",
+        "heading": "Ferry Schedule",
+        "text": "Mainland ferry tickets show João departed 6 PM yesterday. Next return ferry not until 8 AM today.",
+        "alone": "João couldn't physically return in time for 3:47 AM murder.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "João's mainland ferry alibi completely eliminates him from the 2 AM to Dawn murder window."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tomás Ferreira",
+      "location": "Harbor Dock",
+      "weapon": "Anchor Chain",
+      "window": "2 AM to Dawn"
+    },
+    "epilogue": "Tomás Ferreira's pride as the village's finest fisherman crumbled when his rival consistently outfished him at the prime spots. That pre-dawn morning at Harbor Dock, when confrontation escalated to violence, Tomás used his own anchor chain to end the competition permanently. The 2 AM to Dawn hours provided perfect cover, with only the fish and the tide as witnesses to his desperate act."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "tier": "inspector",
+    "caseNum": "Case #034",
+    "title": "The Siren's Lament",
+    "setting": "Portuguese Fishing Village · Algarve · 1978",
+    "emoji": "🎣",
+    "flavor": "The old fishermen speak of voices from the deep, calling sailors to their doom. But sometimes the most dangerous currents flow between neighbors on dry land.",
+    "emptyState": "The nets came back empty. So did the boat.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tomás Ferreira",
+            "icon": "⚓",
+            "detail": "Village boat captain, competed with victim for routes."
+          },
+          {
+            "name": "Isabel Santos",
+            "icon": "💰",
+            "detail": "Fish merchant, owed victim substantial money."
+          },
+          {
+            "name": "João Medeiros",
+            "icon": "🔧",
+            "detail": "Boat mechanic, argued over unpaid repairs."
+          },
+          {
+            "name": "Padre Miguel",
+            "icon": "✝️",
+            "detail": "Village priest, condemned victim's Sunday fishing."
+          },
+          {
+            "name": "Carlos Nunes",
+            "icon": "🎰",
+            "detail": "Tavern owner, victim owed gambling debts."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Harbor Dock",
+            "icon": "🚢",
+            "detail": "Where victim's boat was found drifting."
+          },
+          {
+            "name": "Fish Market",
+            "icon": "🐟",
+            "detail": "Morning trade center near waterfront."
+          },
+          {
+            "name": "Lighthouse Rocks",
+            "icon": "🗼",
+            "detail": "Rocky outcrop where body washed ashore."
+          },
+          {
+            "name": "Village Chapel",
+            "icon": "⛪",
+            "detail": "Stone church overlooking the harbor."
+          },
+          {
+            "name": "Seaside Tavern",
+            "icon": "🍺",
+            "detail": "Gambling den frequented by fishermen."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Method",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Fishing Net",
+            "icon": "🕸️",
+            "detail": "Heavy nets for dragging underwater."
+          },
+          {
+            "name": "Boat Hook",
+            "icon": "🪝",
+            "detail": "Sharp metal docking pole."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "Heavy chain for weighing down."
+          },
+          {
+            "name": "Blessed Crucifix",
+            "icon": "✝️",
+            "detail": "Bronze cross from chapel altar."
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "Heavy glass from tavern stock."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "Before Midnight",
+            "icon": "🌙",
+            "detail": "Late evening, most villagers asleep."
+          },
+          {
+            "name": "Midnight to 2 AM",
+            "icon": "🕛",
+            "detail": "Deep night, minimal foot traffic."
+          },
+          {
+            "name": "2 AM to Dawn",
+            "icon": "🌅",
+            "detail": "Pre-dawn fishing preparations."
+          },
+          {
+            "name": "After Sunrise",
+            "icon": "☀️",
+            "detail": "Morning with daily routines starting."
+          },
+          {
+            "name": "High Tide Only",
+            "icon": "🌊",
+            "detail": "Body movement required high tide."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Isabel Santos",
+            "icon": "💰",
+            "detail": "Provided false alibi and disposal help."
+          },
+          {
+            "name": "João Medeiros",
+            "icon": "🔧",
+            "detail": "Sabotaged boat to create opportunity."
+          },
+          {
+            "name": "Padre Miguel",
+            "icon": "✝️",
+            "detail": "Gave false testimony to mislead investigation."
+          },
+          {
+            "name": "Carlos Nunes",
+            "icon": "🎰",
+            "detail": "Helped with body disposal logistics."
+          },
+          {
+            "name": "None",
+            "icon": "❌",
+            "detail": "Killer acted completely alone."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🧥",
+        "heading": "Torn Jacket",
+        "text": "Victim's jacket shows triple-hook tears and fish scale traces. Only Tomás uses this anchor style and handles these fish types.",
+        "alone": "Physical evidence points to Tomás Ferreira's involvement.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Tomás Ferreira's unique equipment and fish handling directly connects him to the victim's torn jacket during the high tide murder."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Midnight Confession",
+        "text": "Padre Miguel claims he saw Carlos Nunes dragging a body near the chapel. Says he was conducting midnight mass.",
+        "alone": "The priest accuses Carlos of suspicious midnight activity.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Padre Miguel lied about midnight mass to cover his role in helping Tomás dispose of evidence."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🕰️",
+        "heading": "Tide Tables",
+        "text": "High tide occurred 3:45-4:15 AM, only window for body disposal. Harbor master confirms Tomás requested tide schedule yesterday.",
+        "alone": "Murder timing coordinated with high tide for disposal.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Tomás planned the murder around high tide, with Padre Miguel providing crucial timing information and false witness testimony."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Phone Records",
+        "text": "Village phone logs show call from Tomás to Padre Miguel at 2:30 AM. Conversation lasted twelve minutes.",
+        "alone": "Tomás contacted the priest during the murder timeframe.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The 2:30 AM call was Tomás recruiting Padre Miguel as accomplice, who then provided false testimony about Carlos Nunes."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "⚓",
+        "heading": "Harbor Evidence",
+        "text": "Tomás's boat dock shows blood traces and anchor chain marks. High tide schedule request found in his cabin.",
+        "alone": "Crime scene evidence places Tomás at Harbor Dock during high tide.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Tomás Ferreira's unique equipment and fish handling directly connects him to the victim's torn jacket during the high tide murder."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Church Records",
+        "text": "Chapel logs show no midnight mass scheduled. Padre Miguel's calendar was completely empty until morning prayers.",
+        "alone": "The priest lied about conducting midnight mass.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Padre Miguel lied about midnight mass to cover his role in helping Tomás dispose of evidence."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "🗣️",
+        "heading": "Confession Notes",
+        "text": "Padre Miguel's private notes reference 'helping a desperate soul cleanse his sins at the water's edge during God's high tide.'",
+        "alone": "The priest's notes suggest involvement in waterfront disposal.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Tomás planned the murder around high tide, with Padre Miguel providing crucial timing information and false witness testimony."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "🤝",
+        "heading": "Bloody Rosary",
+        "text": "Padre Miguel's rosary shows blood traces matching victim. Found hidden beneath chapel altar after his false testimony about Carlos.",
+        "alone": "Physical evidence proves Padre Miguel handled the victim's body.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The 2:30 AM call was Tomás recruiting Padre Miguel as accomplice, who then provided false testimony about Carlos Nunes."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tomás Ferreira",
+      "location": "Harbor Dock",
+      "weapon": "Anchor Chain",
+      "window": "High Tide Only",
+      "accomplice": "Padre Miguel"
+    },
+    "epilogue": "Tomás Ferreira's desperation over losing his livelihood to a superior rival drove him to murder, but he knew he couldn't dispose of the body alone during high tide. Padre Miguel, torn between Christian mercy and protecting his flock, agreed to help cleanse this 'sin' under cover of God's tide. The priest's false testimony about Carlos Nunes was meant to protect Tomás, but physical evidence on his bloodied rosary revealed the unholy alliance between fisherman and shepherd in the pre-dawn hours at Harbor Dock."
+  }
+}
