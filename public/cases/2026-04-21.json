@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Blood on the Nile",
+    "setting": "Nile Riverboat · Egypt · 1933",
+    "emoji": "🚢",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The luxury steamer cuts through ancient waters while wealthy passengers dine and gamble. When morning comes, one guest won't be seeing Alexandria.",
+    "emptyState": "Even paradise cruises have their dark currents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💃",
+            "detail": "Beautiful cabaret dancer with expensive tastes"
+          },
+          {
+            "name": "Colonel Reginald Harding",
+            "icon": "🎖️",
+            "detail": "British officer with gambling debts"
+          },
+          {
+            "name": "Dr. Farouk Mansour",
+            "icon": "⚕️",
+            "detail": "Ship's physician, calm under pressure"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Ornate blade from victim's collection"
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "Cyanide hidden in medicine bottle"
+          },
+          {
+            "name": "Heavy Statue",
+            "icon": "🗿",
+            "detail": "Ancient Egyptian artifact from lounge"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "First Class Cabin",
+            "icon": "🛏️",
+            "detail": "Luxurious private quarters with balcony"
+          },
+          {
+            "name": "Ship's Infirmary",
+            "icon": "🏥",
+            "detail": "Medical bay with locked drug cabinet"
+          },
+          {
+            "name": "Main Dining Hall",
+            "icon": "🍽️",
+            "detail": "Grand room where passengers gathered"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medical Records",
+        "text": "Dr. Mansour's patient log shows he treated the victim for heart palpitations yesterday evening.",
+        "alone": "The doctor had recent contact with the victim.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dr. Mansour had medical access to poison and treated the victim the night before death, establishing means and opportunity."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Heated Argument",
+        "text": "A steward heard Colonel Harding shouting about money owed in the victim's cabin at midnight.",
+        "alone": "The Colonel had a financial dispute with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Colonel Harding's angry confrontation was about legitimate business debts, not murder, clearing him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Love Letters",
+        "text": "Amira's cabin contained passionate letters from the victim promising to leave his wife for her.",
+        "alone": "Amira was having an affair with the victim.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Despite the affair, Amira was genuinely devastated by the victim's death and had no motive to kill him."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🏥",
+        "heading": "Poison Bottle",
+        "text": "An empty cyanide vial was found hidden behind medicine bottles in the ship's infirmary.",
+        "alone": "The poison came from the medical supplies.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The poison was taken from the infirmary where the victim died, confirming both the murder weapon and location."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "⚗️",
+        "heading": "Autopsy Results",
+        "text": "Traces of cyanide were found in the victim's bloodstream along with heart medication.",
+        "alone": "The victim was poisoned with cyanide.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dr. Mansour had medical access to poison and treated the victim the night before death, establishing means and opportunity."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "📜",
+        "heading": "Business Contract",
+        "text": "Legal papers show the victim owed Colonel Harding payment for legitimate archaeological consulting work.",
+        "alone": "The Colonel's money dispute was legitimate business.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Colonel Harding's angry confrontation was about legitimate business debts, not murder, clearing him as a suspect."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "😭",
+        "heading": "Genuine Grief",
+        "text": "Multiple passengers saw Amira weeping hysterically upon discovering the body this morning.",
+        "alone": "Amira appeared genuinely shocked by the death.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Despite the affair, Amira was genuinely devastated by the victim's death and had no motive to kill him."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🛏️",
+        "heading": "Death Scene",
+        "text": "The victim's body was discovered on the infirmary examination table this morning.",
+        "alone": "The victim died in the ship's medical bay.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The poison was taken from the infirmary where the victim died, confirming both the murder weapon and location."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Farouk Mansour",
+      "weapon": "Poison Capsule",
+      "location": "Ship's Infirmary"
+    },
+    "epilogue": "Dr. Farouk Mansour couldn't bear watching his childhood friend's wife suffer in their loveless marriage. When he learned of the victim's affair with Amira, jealousy consumed him - not romantic jealousy, but the deeper wound of a lifelong friendship betrayed. He lured his old friend to the infirmary with promises of discretion about the heart condition, then administered the fatal dose. Even as the handcuffs clicked, Mansour whispered that some betrayals cut deeper than any scalpel."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Blood on the Nile",
+    "setting": "Nile Riverboat · Egypt · 1933",
+    "emoji": "🚢",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The luxury steamer cuts through ancient waters while wealthy passengers dine and gamble. When morning comes, one guest won't be seeing Alexandria.",
+    "emptyState": "Even paradise cruises have their dark currents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💃",
+            "detail": "Beautiful cabaret dancer with expensive tastes"
+          },
+          {
+            "name": "Colonel Reginald Harding",
+            "icon": "🎖️",
+            "detail": "British officer with gambling debts"
+          },
+          {
+            "name": "Dr. Farouk Mansour",
+            "icon": "⚕️",
+            "detail": "Ship's physician, calm under pressure"
+          },
+          {
+            "name": "Hassan al-Rashid",
+            "icon": "💰",
+            "detail": "Wealthy merchant with political connections"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Ornate blade from victim's collection"
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "Cyanide hidden in medicine bottle"
+          },
+          {
+            "name": "Heavy Statue",
+            "icon": "🗿",
+            "detail": "Ancient Egyptian artifact from lounge"
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Expensive accessory used for strangulation"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "First Class Cabin",
+            "icon": "🛏️",
+            "detail": "Luxurious private quarters with balcony"
+          },
+          {
+            "name": "Ship's Infirmary",
+            "icon": "🏥",
+            "detail": "Medical bay with locked drug cabinet"
+          },
+          {
+            "name": "Main Dining Hall",
+            "icon": "🍽️",
+            "detail": "Grand room where passengers gathered"
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Hot mechanical area below deck"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🗝️",
+            "detail": "Stolen from ship's purser office"
+          },
+          {
+            "name": "Medical Authority",
+            "icon": "⚕️",
+            "detail": "Professional access to restricted areas"
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Climbed through porthole from deck"
+          },
+          {
+            "name": "Staff Uniform",
+            "icon": "👔",
+            "detail": "Disguised as crew member"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medical Records",
+        "text": "Dr. Mansour's patient log shows he treated the victim for heart palpitations yesterday evening.",
+        "alone": "The doctor had recent contact with the victim.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dr. Mansour used his medical authority to access the infirmary after hours and poison the victim during a fake treatment."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Night Watchman",
+        "text": "The security guard swears he saw Hassan al-Rashid near the infirmary at 2 AM.",
+        "alone": "Hassan was spotted near the crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The night watchman's identification was wrong due to poor lighting - Hassan has an alibi for the entire night."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Access Log",
+        "text": "The infirmary door requires a special key that only medical staff and senior officers possess.",
+        "alone": "The killer needed special access to enter.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Dr. Mansour's medical authority gave him legitimate access to the locked infirmary where the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "🏥",
+        "heading": "Poison Bottle",
+        "text": "An empty cyanide vial was found hidden behind medicine bottles in the ship's infirmary.",
+        "alone": "The poison came from the medical supplies.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Colonel Harding had no medical training or access to properly administer the precise fatal dose found in the victim."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "⚗️",
+        "heading": "Autopsy Results",
+        "text": "Traces of cyanide were found mixed with heart medication in the victim's system.",
+        "alone": "The poison was disguised as medical treatment.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dr. Mansour used his medical authority to access the infirmary after hours and poison the victim during a fake treatment."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Casino Records",
+        "text": "Hassan al-Rashid was playing poker in the main salon from midnight until 4 AM with multiple witnesses.",
+        "alone": "Hassan has a solid alibi for the murder time.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The night watchman's identification was wrong due to poor lighting - Hassan has an alibi for the entire night."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "⚕️",
+        "heading": "Medical License",
+        "text": "Hospital records confirm Dr. Mansour has full authority to access all medical facilities aboard ship.",
+        "alone": "The doctor could enter the infirmary freely.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dr. Mansour's medical authority gave him legitimate access to the locked infirmary where the murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "⚗️",
+        "heading": "Dosage Analysis",
+        "text": "The cyanide dose was precisely calculated to cause death within minutes, requiring medical knowledge.",
+        "alone": "The killer had professional poisoning expertise.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Colonel Harding had no medical training or access to properly administer the precise fatal dose found in the victim."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Farouk Mansour",
+      "weapon": "Poison Capsule",
+      "location": "Ship's Infirmary",
+      "access": "Medical Authority"
+    },
+    "epilogue": "Dr. Farouk Mansour couldn't bear watching his childhood friend's wife suffer in their loveless marriage. When he learned of the victim's affair with Amira, jealousy consumed him - not romantic jealousy, but the deeper wound of a lifelong friendship betrayed. He used his medical authority to lure his old friend to the infirmary with promises of discretion about the heart condition, then administered the fatal dose. Even as the handcuffs clicked, Mansour whispered that some betrayals cut deeper than any scalpel, and his medical authority had become the perfect weapon."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Blood on the Nile",
+    "setting": "Nile Riverboat · Egypt · 1933",
+    "emoji": "🚢",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The luxury steamer cuts through ancient waters while wealthy passengers dine and gamble. When morning comes, one guest won't be seeing Alexandria.",
+    "emptyState": "Even paradise cruises have their dark currents.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💃",
+            "detail": "Beautiful cabaret dancer with expensive tastes"
+          },
+          {
+            "name": "Colonel Reginald Harding",
+            "icon": "🎖️",
+            "detail": "British officer with gambling debts"
+          },
+          {
+            "name": "Dr. Farouk Mansour",
+            "icon": "⚕️",
+            "detail": "Ship's physician, calm under pressure"
+          },
+          {
+            "name": "Hassan al-Rashid",
+            "icon": "💰",
+            "detail": "Wealthy merchant with political connections"
+          },
+          {
+            "name": "Nadia Kassem",
+            "icon": "🩺",
+            "detail": "Young medical assistant, eager to please"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Ornate blade from victim's collection"
+          },
+          {
+            "name": "Poison Capsule",
+            "icon": "💊",
+            "detail": "Cyanide hidden in medicine bottle"
+          },
+          {
+            "name": "Heavy Statue",
+            "icon": "🗿",
+            "detail": "Ancient Egyptian artifact from lounge"
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Expensive accessory used for strangulation"
+          },
+          {
+            "name": "Surgical Scalpel",
+            "icon": "🔪",
+            "detail": "Sharp medical instrument from infirmary"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "First Class Cabin",
+            "icon": "🛏️",
+            "detail": "Luxurious private quarters with balcony"
+          },
+          {
+            "name": "Ship's Infirmary",
+            "icon": "🏥",
+            "detail": "Medical bay with locked drug cabinet"
+          },
+          {
+            "name": "Main Dining Hall",
+            "icon": "🍽️",
+            "detail": "Grand room where passengers gathered"
+          },
+          {
+            "name": "Engine Room",
+            "icon": "⚙️",
+            "detail": "Hot mechanical area below deck"
+          },
+          {
+            "name": "Upper Deck",
+            "icon": "⛵",
+            "detail": "Open air promenade with river views"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🗝️",
+            "detail": "Stolen from ship's purser office"
+          },
+          {
+            "name": "Medical Authority",
+            "icon": "⚕️",
+            "detail": "Professional access to restricted areas"
+          },
+          {
+            "name": "Window Entry",
+            "icon": "🪟",
+            "detail": "Climbed through porthole from deck"
+          },
+          {
+            "name": "Staff Uniform",
+            "icon": "👔",
+            "detail": "Disguised as crew member"
+          },
+          {
+            "name": "Duplicate Key",
+            "icon": "🔑",
+            "detail": "Copy made from original impression"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Ship's Purser",
+            "icon": "💼",
+            "detail": "Financial officer with access to records"
+          },
+          {
+            "name": "Nadia Kassem",
+            "icon": "🩺",
+            "detail": "Medical assistant who provided inside help"
+          },
+          {
+            "name": "Night Watchman",
+            "icon": "👮",
+            "detail": "Security guard who looked the other way"
+          },
+          {
+            "name": "Cabin Steward",
+            "icon": "🧹",
+            "detail": "Room service staff with master keys"
+          },
+          {
+            "name": "No Accomplice",
+            "icon": "🚫",
+            "detail": "The killer acted entirely alone"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medical Records",
+        "text": "Dr. Mansour's patient log shows he treated the victim for heart palpitations yesterday evening.",
+        "alone": "The doctor had recent contact with the victim.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dr. Mansour used his medical authority and Nadia's assistance to poison the victim during a fake emergency treatment."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Night Watchman",
+        "text": "The security guard swears he saw Hassan al-Rashid near the infirmary at 2 AM.",
+        "alone": "Hassan was spotted near the crime scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The night watchman was deliberately misdirected by Nadia, who pointed toward an innocent man while the real murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "🩺",
+        "heading": "Assistant Schedule",
+        "text": "Nadia Kassem was scheduled to work the night shift but left her post for thirty minutes around 2 AM.",
+        "alone": "The medical assistant abandoned her duties mysteriously.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Nadia's absence from her post coincided with helping Dr. Mansour commit the murder in the infirmary."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🏥",
+        "heading": "Poison Bottle",
+        "text": "An empty cyanide vial was found hidden behind medicine bottles in the ship's infirmary.",
+        "alone": "The poison came from the medical supplies.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Nadia's fingerprints on the poison bottle prove she helped Dr. Mansour prepare and administer the fatal dose."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "📞",
+        "heading": "Emergency Call",
+        "text": "Ship logs show Nadia Kassem called for Dr. Mansour to handle a 'cardiac emergency' at 2:15 AM.",
+        "alone": "A fake medical emergency was staged.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Mansour used his medical authority and Nadia's assistance to poison the victim during a fake emergency treatment."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Casino Records",
+        "text": "Hassan al-Rashid was playing poker in the main salon until Nadia ran in shouting about a man near the infirmary.",
+        "alone": "Hassan was deliberately framed by Nadia.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The night watchman was deliberately misdirected by Nadia, who pointed toward an innocent man while the real murder occurred."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Key Card Access",
+        "text": "Electronic logs show Nadia's medical key accessed the drug cabinet at exactly 2:05 AM.",
+        "alone": "Nadia retrieved the poison herself.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Nadia's absence from her post coincided with helping Dr. Mansour commit the murder in the infirmary."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "👆",
+        "heading": "Fingerprint Analysis",
+        "text": "Nadia Kassem's fingerprints were found on the empty cyanide vial alongside Dr. Mansour's.",
+        "alone": "Both medical staff handled the poison bottle.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Nadia's fingerprints on the poison bottle prove she helped Dr. Mansour prepare and administer the fatal dose."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Farouk Mansour",
+      "weapon": "Poison Capsule",
+      "location": "Ship's Infirmary",
+      "access": "Medical Authority",
+      "accomplice": "Nadia Kassem"
+    },
+    "epilogue": "Dr. Farouk Mansour couldn't bear watching his childhood friend's wife suffer in their loveless marriage. When he learned of the victim's affair with Amira, jealousy consumed him - not romantic jealousy, but the deeper wound of a lifelong friendship betrayed. He convinced young Nadia Kassem to help by claiming they were saving the victim from a painful illness, using his medical authority to access the infirmary and stage a fake emergency. As the handcuffs clicked on both conspirators, Mansour whispered that some betrayals cut deeper than any scalpel, while Nadia wept for the mentor who had used her devotion as a weapon. Even their partnership in crime couldn't heal the wound of friendship turned to murderous envy."
+  }
+}
