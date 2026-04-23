@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #034",
+    "title": "The Whitmore Incident",
+    "tier": "rookie",
+    "setting": "Asylum for the Criminally Insane · London · 1891",
+    "emoji": "🏥",
+    "flavor": "Dr. Edmund Whitmore's body was found in the asylum's east wing this morning, blood pooling beneath his head. The patients claim they saw nothing, but their attendants tell a different story.",
+    "emptyState": "Even madmen have their secrets to keep.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Matron Constance Harwick",
+            "icon": "👩‍⚕️",
+            "detail": "Head matron, controlled the asylum's daily operations."
+          },
+          {
+            "name": "Dr. Bartholomew Ashford",
+            "icon": "👨‍⚕️",
+            "detail": "Junior physician, ambitious and deeply in debt."
+          },
+          {
+            "name": "Orderly Thomas Grimsby",
+            "icon": "🔐",
+            "detail": "Night orderly with gambling debts and bruised knuckles."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Lead pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing fixture from the basement workshop."
+          },
+          {
+            "name": "Medical forceps",
+            "icon": "🔬",
+            "detail": "Surgical instrument found bloodied in supply room."
+          },
+          {
+            "name": "Iron candlestick",
+            "icon": "🕯️",
+            "detail": "Victorian brass holder from the director's office."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Director's office",
+            "icon": "📋",
+            "detail": "Private office where financial records were kept."
+          },
+          {
+            "name": "Supply room",
+            "icon": "📦",
+            "detail": "Medical storage area near the east wing."
+          },
+          {
+            "name": "Patient dormitory",
+            "icon": "🛏️",
+            "detail": "Sleeping quarters for the asylum's inmates."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Loan Document",
+        "text": "A crumpled promissory note in Dr. Ashford's desk shows £500 owed to Edmund Whitmore, due yesterday.",
+        "alone": "Dr. Ashford owed the victim a substantial sum.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps in his possession prove he killed his creditor."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Patient Statement",
+        "text": "Patient William Morris claims he saw Orderly Grimsby arguing with Dr. Whitmore near the supply room last night.",
+        "alone": "Grimsby was seen in conflict with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Morris's claim about Grimsby is contradicted by the night duty roster showing Grimsby was off duty."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "👊",
+        "heading": "Bruised Knuckles",
+        "text": "Orderly Grimsby's hands show fresh bruising, which he claims came from restraining violent patients.",
+        "alone": "Grimsby has suspicious injuries on his hands.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Grimsby's bruises came from boxing practice, not from killing Whitmore."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🗝️",
+        "heading": "Key Ring",
+        "text": "Dr. Ashford's key ring was found on the supply room floor, though he claims never to have been there.",
+        "alone": "Ashford's keys place him at the crime scene.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ashford's keys in the supply room and the victim's wounds confirm this is where Whitmore died."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🔬",
+        "heading": "Bloodied Forceps",
+        "text": "Medical forceps with blood and hair are found hidden in Dr. Ashford's medical bag.",
+        "alone": "The murder weapon was concealed in Ashford's possession.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps in his possession prove he killed his creditor."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "records",
+        "icon": "📋",
+        "heading": "Duty Roster",
+        "text": "The night duty roster shows Orderly Grimsby was off duty yesterday evening, contradicting witness accounts.",
+        "alone": "Grimsby wasn't working when the murder occurred.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Morris's claim about Grimsby is contradicted by the night duty roster showing Grimsby was off duty."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🥊",
+        "heading": "Boxing Club",
+        "text": "The local boxing instructor confirms Grimsby attended practice yesterday evening, explaining his bruised knuckles.",
+        "alone": "Grimsby has a legitimate alibi for his injuries.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Grimsby's bruises came from boxing practice, not from killing Whitmore."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensics",
+        "icon": "🩸",
+        "heading": "Blood Pattern",
+        "text": "Blood spatter analysis confirms Dr. Whitmore was struck in the supply room, not moved there afterward.",
+        "alone": "The victim was killed in the supply room.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ashford's keys in the supply room and the victim's wounds confirm this is where Whitmore died."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Bartholomew Ashford",
+      "weapon": "Medical forceps",
+      "location": "Supply room"
+    },
+    "epilogue": "Dr. Bartholomew Ashford's mounting gambling debts had driven him to borrow heavily from his colleague. When Whitmore demanded immediate repayment, Ashford lured him to the supply room under false pretenses. The young physician's promising career ended with a single desperate act. He tried to frame Grimsby by spreading false witness accounts, but the evidence trail led inexorably back to him."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #034",
+    "title": "The Whitmore Incident",
+    "tier": "detective",
+    "setting": "Asylum for the Criminally Insane · London · 1891",
+    "emoji": "🏥",
+    "flavor": "Dr. Edmund Whitmore's body was found in the asylum's east wing this morning, blood pooling beneath his head. The patients claim they saw nothing, but their attendants tell a different story.",
+    "emptyState": "Even madmen have their secrets to keep.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Matron Constance Harwick",
+            "icon": "👩‍⚕️",
+            "detail": "Head matron, controlled asylum operations and budgets."
+          },
+          {
+            "name": "Dr. Bartholomew Ashford",
+            "icon": "👨‍⚕️",
+            "detail": "Junior physician, ambitious and deeply in debt."
+          },
+          {
+            "name": "Orderly Thomas Grimsby",
+            "icon": "🔐",
+            "detail": "Night orderly with gambling debts, off duty yesterday."
+          },
+          {
+            "name": "Dr. Reginald Blackwood",
+            "icon": "🎩",
+            "detail": "Senior physician, Whitmore's rival for director position."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Lead pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing fixture from basement workshop."
+          },
+          {
+            "name": "Medical forceps",
+            "icon": "🔬",
+            "detail": "Surgical instrument found bloodied in supply room."
+          },
+          {
+            "name": "Iron candlestick",
+            "icon": "🕯️",
+            "detail": "Victorian brass holder from director's office."
+          },
+          {
+            "name": "Scalpel",
+            "icon": "⚔️",
+            "detail": "Sharp surgical blade from operating theater."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Director's office",
+            "icon": "📋",
+            "detail": "Private office where financial records kept."
+          },
+          {
+            "name": "Supply room",
+            "icon": "📦",
+            "detail": "Medical storage area near east wing."
+          },
+          {
+            "name": "Patient dormitory",
+            "icon": "🛏️",
+            "detail": "Sleeping quarters for asylum inmates."
+          },
+          {
+            "name": "Operating theater",
+            "icon": "🏥",
+            "detail": "Surgical suite in asylum's medical wing."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9-10 PM",
+            "icon": "🌙",
+            "detail": "Evening medication rounds, staff busy."
+          },
+          {
+            "name": "10-11 PM",
+            "icon": "🕙",
+            "detail": "Patient lockdown period, minimal staff movement."
+          },
+          {
+            "name": "11 PM-Midnight",
+            "icon": "🕛",
+            "detail": "Night shift change, brief confusion period."
+          },
+          {
+            "name": "Midnight-1 AM",
+            "icon": "🌃",
+            "detail": "Deep night hours, skeleton staff only."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Loan Document",
+        "text": "A crumpled promissory note in Dr. Ashford's desk shows £500 owed to Edmund Whitmore, due yesterday.",
+        "alone": "Dr. Ashford owed the victim a substantial sum.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps in his possession prove he killed his creditor during the shift change."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Matron's Account",
+        "text": "Matron Harwick insists she saw Dr. Blackwood leaving the supply room at 11:30 PM, looking disheveled and nervous.",
+        "alone": "A credible witness places Blackwood at the scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Matron Harwick mistook Dr. Ashford for Dr. Blackwood due to similar build and the dim gaslight."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "records",
+        "icon": "📋",
+        "heading": "Security Log",
+        "text": "The asylum's entry log shows no staff entered or left between 11 PM and midnight yesterday.",
+        "alone": "The killer was already inside during this timeframe.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The security log and witness timing confirm the murder occurred during the 11 PM-midnight shift change."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "💬",
+        "heading": "Patient Testimony",
+        "text": "Patient Elizabeth Fairfax claims she heard Dr. Blackwood arguing loudly with someone about money around 11:15 PM.",
+        "alone": "Blackwood was reportedly involved in a financial dispute.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Patient Fairfax's testimony about Blackwood is unreliable given her history of auditory hallucinations."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "🔬",
+        "heading": "Bloodied Forceps",
+        "text": "Medical forceps with blood and hair are found hidden in Dr. Ashford's medical bag this morning.",
+        "alone": "The murder weapon was concealed in Ashford's possession.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps in his possession prove he killed his creditor during the shift change."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "🕯️",
+        "heading": "Dim Gaslight",
+        "text": "The supply room's gaslight was turned low last night, creating poor visibility and dark shadows.",
+        "alone": "Lighting conditions would make identification difficult.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Matron Harwick mistook Dr. Ashford for Dr. Blackwood due to similar build and the dim gaslight."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "👮",
+        "heading": "Guard Statement",
+        "text": "Night guard confirms unusual activity near the supply room during the 11 PM shift change chaos.",
+        "alone": "The murder timing aligns with staff transition period.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The security log and witness timing confirm the murder occurred during the 11 PM-midnight shift change."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "records",
+        "icon": "📋",
+        "heading": "Medical File",
+        "text": "Patient Fairfax's medical record shows a history of severe auditory hallucinations and unreliable testimony.",
+        "alone": "Key witness has documented credibility issues.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Patient Fairfax's testimony about Blackwood is unreliable given her history of auditory hallucinations."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Bartholomew Ashford",
+      "weapon": "Medical forceps",
+      "location": "Supply room",
+      "window": "11 PM-Midnight"
+    },
+    "epilogue": "Dr. Bartholomew Ashford's mounting gambling debts had driven him to borrow heavily from his colleague. When Whitmore demanded immediate repayment, Ashford lured him to the supply room during the chaotic shift change. The young physician's promising career ended with a single desperate act during the 11 PM-midnight window. He nearly succeeded in framing Dr. Blackwood by exploiting the poor lighting and Matron Harwick's mistaken identification."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #034",
+    "title": "The Whitmore Incident",
+    "tier": "inspector",
+    "setting": "Asylum for the Criminally Insane · London · 1891",
+    "emoji": "🏥",
+    "flavor": "Dr. Edmund Whitmore's body was found in the asylum's east wing this morning, blood pooling beneath his head. The patients claim they saw nothing, but their attendants tell a different story.",
+    "emptyState": "Even madmen have their secrets to keep.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Matron Constance Harwick",
+            "icon": "👩‍⚕️",
+            "detail": "Head matron, controlled asylum operations completely."
+          },
+          {
+            "name": "Dr. Bartholomew Ashford",
+            "icon": "👨‍⚕️",
+            "detail": "Junior physician, ambitious and deeply indebted."
+          },
+          {
+            "name": "Orderly Thomas Grimsby",
+            "icon": "🔐",
+            "detail": "Night orderly with gambling debts, alibi verified."
+          },
+          {
+            "name": "Dr. Reginald Blackwood",
+            "icon": "🎩",
+            "detail": "Senior physician, Whitmore's rival for directorship."
+          },
+          {
+            "name": "Nurse Adelaide Pemberton",
+            "icon": "💉",
+            "detail": "Night nurse, romantically involved with Dr. Ashford."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "🔪",
+        "items": [
+          {
+            "name": "Lead pipe",
+            "icon": "🔧",
+            "detail": "Heavy plumbing fixture from basement workshop."
+          },
+          {
+            "name": "Medical forceps",
+            "icon": "🔬",
+            "detail": "Surgical instrument found bloodied and hidden."
+          },
+          {
+            "name": "Iron candlestick",
+            "icon": "🕯️",
+            "detail": "Victorian brass holder from director's office."
+          },
+          {
+            "name": "Scalpel",
+            "icon": "⚔️",
+            "detail": "Sharp surgical blade from operating theater."
+          },
+          {
+            "name": "Bone saw",
+            "icon": "🪚",
+            "detail": "Heavy surgical implement from pathology room."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Director's office",
+            "icon": "📋",
+            "detail": "Private office where financial records kept."
+          },
+          {
+            "name": "Supply room",
+            "icon": "📦",
+            "detail": "Medical storage area, crime scene location."
+          },
+          {
+            "name": "Patient dormitory",
+            "icon": "🛏️",
+            "detail": "Sleeping quarters for asylum inmates."
+          },
+          {
+            "name": "Operating theater",
+            "icon": "🏥",
+            "detail": "Surgical suite in asylum's medical wing."
+          },
+          {
+            "name": "Pathology room",
+            "icon": "⚗️",
+            "detail": "Morgue and examination area, basement level."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9-10 PM",
+            "icon": "🌙",
+            "detail": "Evening medication rounds, staff busy everywhere."
+          },
+          {
+            "name": "10-11 PM",
+            "icon": "🕙",
+            "detail": "Patient lockdown period, minimal staff movement."
+          },
+          {
+            "name": "11 PM-Midnight",
+            "icon": "🕛",
+            "detail": "Night shift change, brief confusion period."
+          },
+          {
+            "name": "Midnight-1 AM",
+            "icon": "🌃",
+            "detail": "Deep night hours, skeleton staff only."
+          },
+          {
+            "name": "1-2 AM",
+            "icon": "🌌",
+            "detail": "Early morning hours, most staff sleeping."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Matron Constance Harwick",
+            "icon": "👩‍⚕️",
+            "detail": "Head matron, provided false testimony deliberately."
+          },
+          {
+            "name": "Orderly Thomas Grimsby",
+            "icon": "🔐",
+            "detail": "Night orderly, has gambling connections elsewhere."
+          },
+          {
+            "name": "Dr. Reginald Blackwood",
+            "icon": "🎩",
+            "detail": "Senior physician, professional rival of victim."
+          },
+          {
+            "name": "Nurse Adelaide Pemberton",
+            "icon": "💉",
+            "detail": "Night nurse, romantically involved with killer."
+          },
+          {
+            "name": "Patient William Morris",
+            "icon": "🧠",
+            "detail": "Asylum patient, surprisingly lucid and observant."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "📄",
+        "heading": "Loan Document",
+        "text": "A crumpled promissory note in Dr. Ashford's desk shows £500 owed to Edmund Whitmore, due yesterday.",
+        "alone": "Dr. Ashford owed the victim a substantial sum.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps prove he killed his creditor with Nurse Pemberton's help during the shift change."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Matron's Account",
+        "text": "Matron Harwick insists she saw Dr. Blackwood leaving the supply room at 11:30 PM, looking disheveled.",
+        "alone": "A credible witness places Blackwood at the scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Matron Harwick deliberately lied to protect Dr. Ashford, whom she genuinely mistook for Dr. Blackwood initially."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "💌",
+        "heading": "Love Letter",
+        "text": "A passionate letter in Nurse Pemberton's quarters promises Dr. Ashford her eternal devotion and secrecy.",
+        "alone": "Pemberton has strong romantic attachment to Ashford.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Nurse Pemberton's love letter and her presence during the shift change confirm she helped Ashford commit murder."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🕰️",
+        "heading": "Timekeeper's Log",
+        "text": "The asylum timekeeper notes Nurse Pemberton signed out at 11:45 PM but was seen working until midnight.",
+        "alone": "Pemberton falsified her departure time suspiciously.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Pemberton's falsified timecard and the discovered bloody apron prove she helped conceal evidence after the murder."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "🔬",
+        "heading": "Bloodied Forceps",
+        "text": "Medical forceps with blood and hair are found hidden in Dr. Ashford's medical bag this morning.",
+        "alone": "The murder weapon was concealed in Ashford's possession.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dr. Ashford's debt to Whitmore and the bloodied forceps prove he killed his creditor with Nurse Pemberton's help during the shift change."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "👥",
+        "heading": "Similar Silhouettes",
+        "text": "Both Dr. Ashford and Dr. Blackwood are tall, thin men who look remarkably similar from behind.",
+        "alone": "The two doctors could easily be mistaken for each other.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Matron Harwick deliberately lied to protect Dr. Ashford, whom she genuinely mistook for Dr. Blackwood initially."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "👮",
+        "heading": "Guard Statement",
+        "text": "Night guard reports seeing Nurse Pemberton near the supply room during the 11 PM shift change confusion.",
+        "alone": "Pemberton was present at the crime scene during murder timeframe.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Nurse Pemberton's love letter and her presence during the shift change confirm she helped Ashford commit murder."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "physical",
+        "icon": "👗",
+        "heading": "Bloodied Apron",
+        "text": "A nurse's apron with bloodstains is discovered hidden in the laundry chute, matching Pemberton's size.",
+        "alone": "Evidence suggests a nurse helped clean up after the murder.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Pemberton's falsified timecard and the discovered bloody apron prove she helped conceal evidence after the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Bartholomew Ashford",
+      "weapon": "Medical forceps",
+      "location": "Supply room",
+      "window": "11 PM-Midnight",
+      "accomplice": "Nurse Adelaide Pemberton"
+    },
+    "epilogue": "Dr. Bartholomew Ashford's mounting gambling debts had driven him to borrow heavily from his colleague. When Whitmore demanded immediate repayment, Ashford lured him to the supply room during the chaotic shift change at 11 PM-midnight. Nurse Adelaide Pemberton, blinded by love, helped him clean up evidence and falsified her timecard to provide an alibi. The young physician's promising career ended with a single desperate act, aided by a devoted accomplice who believed love justified murder. Matron Harwick's mistaken identification nearly let them frame an innocent man."
+  }
+}
