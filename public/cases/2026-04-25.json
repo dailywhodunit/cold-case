@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Blood Money",
+    "setting": "Cruise Terminal · Miami · 2019",
+    "emoji": "🚢",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The luxury cruise was supposed to be a celebration of family wealth. Instead, it became a floating crime scene where greed proved deadlier than the open ocean.",
+    "emptyState": "All aboard for murder. Some passengers won't be returning.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Carmen Valdez",
+            "icon": "👩‍💼",
+            "detail": "Victim's niece, maritime lawyer specializing in inheritance law."
+          },
+          {
+            "name": "Roberto Mendoza",
+            "icon": "🧑‍💼",
+            "detail": "Victim's business partner in cruise line operations."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "👩‍⚕️",
+            "detail": "Ship's doctor who treated victim's recent illness."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "VIP Boarding Lounge",
+            "icon": "🛋️",
+            "detail": "Exclusive area where victim was found dead."
+          },
+          {
+            "name": "Terminal Security Office",
+            "icon": "🔒",
+            "detail": "Command center monitoring all terminal activity."
+          },
+          {
+            "name": "Baggage Handling Area",
+            "icon": "🧳",
+            "detail": "Restricted zone behind passenger areas."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Lethal injection disguised as medical treatment."
+          },
+          {
+            "name": "Champagne Flute",
+            "icon": "🥂",
+            "detail": "Crystal glass used as blunt instrument."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Designer accessory repurposed for strangulation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Bag",
+        "text": "Isabella's medical bag contains an empty insulin vial with fresh fingerprints. The vial held enough insulin to kill three people.",
+        "alone": "Isabella had access to lethal medical supplies.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge proves she had both means and motive to kill Augusto."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard",
+        "text": "Guard saw Roberto arguing with Augusto near the VIP lounge. Roberto stormed off saying 'You'll regret cutting me out!'",
+        "alone": "Roberto had a public confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Roberto's angry confrontation was about business expansion, not murder - he was fired but remained in public view during the killing."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "📱",
+        "heading": "Phone Records",
+        "text": "Carmen's phone shows she contacted three inheritance lawyers that morning. Her last search was 'contesting will modifications.'",
+        "alone": "Carmen was actively researching inheritance disputes.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Carmen's inheritance research was legitimate legal preparation - security footage confirms she was in the parking garage during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🎫",
+        "heading": "VIP Access",
+        "text": "Security logs show Isabella used her medical clearance to enter the VIP lounge. She was alone with Augusto for twelve minutes.",
+        "alone": "Isabella had private access to the victim.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Isabella's medical clearance and the insulin evidence confirm she committed the murder in the VIP lounge using her professional access."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "motive",
+        "icon": "📄",
+        "heading": "Will Discovery",
+        "text": "Isabella recently learned Augusto planned to donate his cruise fortune to charity. She would lose her expected $50 million inheritance.",
+        "alone": "Isabella faced losing a massive inheritance.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge proves she had both means and motive to kill Augusto."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Camera Coverage",
+        "text": "Terminal cameras show Roberto remained in the main lobby after his argument. Multiple tourists took photos with him visible in background.",
+        "alone": "Roberto has visual confirmation of his whereabouts.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Roberto's angry confrontation was about business expansion, not murder - he was fired but remained in public view during the killing."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "🚗",
+        "heading": "Parking Evidence",
+        "text": "Carmen's car shows damage from backing into a concrete barrier. Security footage confirms this happened during Augusto's time of death.",
+        "alone": "Carmen was in the parking garage when murder occurred.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Carmen's inheritance research was legitimate legal preparation - security footage confirms she was in the parking garage during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "method",
+        "icon": "💉",
+        "heading": "Injection Site",
+        "text": "Coroner found insulin injection mark on Augusto's arm. Only someone with medical training could have administered it so precisely.",
+        "alone": "The murder required professional medical knowledge.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Isabella's medical clearance and the insulin evidence confirm she committed the murder in the VIP lounge using her professional access."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Santos",
+      "location": "VIP Boarding Lounge",
+      "weapon": "Insulin Overdose"
+    },
+    "epilogue": "Dr. Isabella Santos had dedicated her career to healing, but greed corrupted her oath to do no harm. When she learned her uncle Augusto planned to donate his cruise line fortune to medical charities instead of family, she saw her future slip away. Using her medical clearance to access the VIP lounge, she administered a lethal insulin injection with the same precision she once used to save lives. As she's led away in handcuffs, Isabella stares at the cruise ship that was meant to celebrate the family fortune she killed to claim."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Blood Money",
+    "setting": "Cruise Terminal · Miami · 2019",
+    "emoji": "🚢",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The luxury cruise was supposed to be a celebration of family wealth. Instead, it became a floating crime scene where greed proved deadlier than the open ocean.",
+    "emptyState": "All aboard for murder. Some passengers won't be returning.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Carmen Valdez",
+            "icon": "👩‍💼",
+            "detail": "Victim's niece, maritime lawyer specializing in inheritance law."
+          },
+          {
+            "name": "Roberto Mendoza",
+            "icon": "🧑‍💼",
+            "detail": "Victim's business partner in cruise line operations."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "👩‍⚕️",
+            "detail": "Ship's doctor who treated victim's recent illness."
+          },
+          {
+            "name": "Diego Herrera",
+            "icon": "👨‍💼",
+            "detail": "Terminal operations manager with gambling debts."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "VIP Boarding Lounge",
+            "icon": "🛋️",
+            "detail": "Exclusive area where victim was found dead."
+          },
+          {
+            "name": "Terminal Security Office",
+            "icon": "🔒",
+            "detail": "Command center monitoring all terminal activity."
+          },
+          {
+            "name": "Baggage Handling Area",
+            "icon": "🧳",
+            "detail": "Restricted zone behind passenger areas."
+          },
+          {
+            "name": "Executive Conference Room",
+            "icon": "🏢",
+            "detail": "Private meeting space for cruise line business."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Lethal injection disguised as medical treatment."
+          },
+          {
+            "name": "Champagne Flute",
+            "icon": "🥂",
+            "detail": "Crystal glass used as blunt instrument."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Designer accessory repurposed for strangulation."
+          },
+          {
+            "name": "Document Weight",
+            "icon": "📎",
+            "detail": "Heavy brass paperweight from executive desk."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "2:15-2:30 PM",
+            "icon": "🕐",
+            "detail": "During passenger boarding chaos and distraction."
+          },
+          {
+            "name": "12:45-1:00 PM",
+            "icon": "🕒",
+            "detail": "Lunch hour when staff was away from posts."
+          },
+          {
+            "name": "3:00-3:15 PM",
+            "icon": "🕓",
+            "detail": "Final boarding call created maximum confusion."
+          },
+          {
+            "name": "1:30-1:45 PM",
+            "icon": "🕐",
+            "detail": "Security shift change left monitoring gaps."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Bag",
+        "text": "Isabella's medical bag contains an empty insulin vial with fresh fingerprints. The vial held enough insulin to kill three people.",
+        "alone": "Isabella had access to lethal medical supplies.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge proves she had both means and motive to kill Augusto during the boarding chaos."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Cruise Director",
+        "text": "Cruise director insists she saw Carmen entering the VIP lounge at 2:20 PM. 'I remember because she looked so nervous and kept checking her watch.'",
+        "alone": "Carmen was allegedly seen at the crime scene.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The cruise director confused Carmen with Isabella - they wore similar blue blazers, and the director was managing boarding chaos while distracted."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "⏰",
+        "heading": "Boarding Records",
+        "text": "Computer logs show the boarding system experienced a fifteen-minute malfunction from 2:15-2:30 PM. All electronic monitoring was compromised during this window.",
+        "alone": "Security systems failed during specific time period.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The boarding system malfunction from 2:15-2:30 PM provided the perfect window for Isabella to commit murder without electronic surveillance."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "🎫",
+        "heading": "VIP Access",
+        "text": "Security logs show Isabella used her medical clearance to enter the VIP lounge. She was alone with Augusto for twelve minutes during the system outage.",
+        "alone": "Isabella had private access to the victim.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Isabella's legitimate medical access and Diego's confirmed alibi prove she acted alone in murdering Augusto during the boarding chaos."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "motive",
+        "icon": "📄",
+        "heading": "Will Discovery",
+        "text": "Isabella recently learned Augusto planned to donate his cruise fortune to charity. She would lose her expected $50 million inheritance.",
+        "alone": "Isabella faced losing a massive inheritance.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge proves she had both means and motive to kill Augusto during the boarding chaos."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "clarification",
+        "icon": "👥",
+        "heading": "Mistaken Identity",
+        "text": "Security footage reveals both Carmen and Isabella wore navy blue blazers that day. The cruise director was managing three simultaneous boarding groups.",
+        "alone": "The witness was managing chaos and saw similar clothing.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The cruise director confused Carmen with Isabella - they wore similar blue blazers, and the director was managing boarding chaos while distracted."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "timing",
+        "icon": "💻",
+        "heading": "System Failure",
+        "text": "The boarding malfunction created perfect cover for murder. Isabella knew about the scheduled system update because she'd received the medical staff advisory.",
+        "alone": "Isabella knew about the surveillance gap in advance.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The boarding system malfunction from 2:15-2:30 PM provided the perfect window for Isabella to commit murder without electronic surveillance."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Diego's Location",
+        "text": "Terminal cameras show Diego resolving a baggage crisis in the lower level during the entire murder window. Forty passengers can confirm his presence.",
+        "alone": "Diego has an ironclad alibi with multiple witnesses.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Isabella's legitimate medical access and Diego's confirmed alibi prove she acted alone in murdering Augusto during the boarding chaos."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Santos",
+      "location": "VIP Boarding Lounge",
+      "weapon": "Insulin Overdose",
+      "window": "2:15-2:30 PM"
+    },
+    "epilogue": "Dr. Isabella Santos had dedicated her career to healing, but greed corrupted her oath to do no harm. When she learned her uncle Augusto planned to donate his cruise line fortune to medical charities instead of family, she saw her future slip away. Using her advance knowledge of the boarding system malfunction and her medical clearance, she administered a lethal insulin injection during the perfect fifteen-minute surveillance gap. As she's led away in handcuffs, Isabella stares at the cruise ship that was meant to celebrate the family fortune she killed to claim."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #036",
+    "title": "Blood Money",
+    "setting": "Cruise Terminal · Miami · 2019",
+    "emoji": "🚢",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The luxury cruise was supposed to be a celebration of family wealth. Instead, it became a floating crime scene where greed proved deadlier than the open ocean.",
+    "emptyState": "All aboard for murder. Some passengers won't be returning.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Carmen Valdez",
+            "icon": "👩‍💼",
+            "detail": "Victim's niece, maritime lawyer specializing in inheritance law."
+          },
+          {
+            "name": "Roberto Mendoza",
+            "icon": "🧑‍💼",
+            "detail": "Victim's business partner in cruise line operations."
+          },
+          {
+            "name": "Isabella Santos",
+            "icon": "👩‍⚕️",
+            "detail": "Ship's doctor who treated victim's recent illness."
+          },
+          {
+            "name": "Diego Herrera",
+            "icon": "👨‍💼",
+            "detail": "Terminal operations manager with gambling debts."
+          },
+          {
+            "name": "Sofia Restrepo",
+            "icon": "👩‍💻",
+            "detail": "IT specialist who manages terminal security systems."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "VIP Boarding Lounge",
+            "icon": "🛋️",
+            "detail": "Exclusive area where victim was found dead."
+          },
+          {
+            "name": "Terminal Security Office",
+            "icon": "🔒",
+            "detail": "Command center monitoring all terminal activity."
+          },
+          {
+            "name": "Baggage Handling Area",
+            "icon": "🧳",
+            "detail": "Restricted zone behind passenger areas."
+          },
+          {
+            "name": "Executive Conference Room",
+            "icon": "🏢",
+            "detail": "Private meeting space for cruise line business."
+          },
+          {
+            "name": "Medical Station",
+            "icon": "🏥",
+            "detail": "First aid facility near boarding gates."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Insulin Overdose",
+            "icon": "💉",
+            "detail": "Lethal injection disguised as medical treatment."
+          },
+          {
+            "name": "Champagne Flute",
+            "icon": "🥂",
+            "detail": "Crystal glass used as blunt instrument."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Designer accessory repurposed for strangulation."
+          },
+          {
+            "name": "Document Weight",
+            "icon": "📎",
+            "detail": "Heavy brass paperweight from executive desk."
+          },
+          {
+            "name": "Digitalis Pills",
+            "icon": "💊",
+            "detail": "Heart medication crushed into victim's drink."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "2:15-2:30 PM",
+            "icon": "🕐",
+            "detail": "During passenger boarding chaos and distraction."
+          },
+          {
+            "name": "12:45-1:00 PM",
+            "icon": "🕒",
+            "detail": "Lunch hour when staff was away from posts."
+          },
+          {
+            "name": "3:00-3:15 PM",
+            "icon": "🕓",
+            "detail": "Final boarding call created maximum confusion."
+          },
+          {
+            "name": "1:30-1:45 PM",
+            "icon": "🕐",
+            "detail": "Security shift change left monitoring gaps."
+          },
+          {
+            "name": "2:45-3:00 PM",
+            "icon": "🕕",
+            "detail": "System reboot period after technical maintenance."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🔑",
+        "items": [
+          {
+            "name": "Medical Clearance",
+            "icon": "🩺",
+            "detail": "Professional credentials bypassing security checks."
+          },
+          {
+            "name": "Maintenance Key",
+            "icon": "🔧",
+            "detail": "Service access through restricted corridors."
+          },
+          {
+            "name": "Executive Override",
+            "icon": "💼",
+            "detail": "Senior staff privileges for VIP areas."
+          },
+          {
+            "name": "Security Badge",
+            "icon": "🛡️",
+            "detail": "Law enforcement credentials for investigation."
+          },
+          {
+            "name": "System Backdoor",
+            "icon": "💻",
+            "detail": "IT administrator access to electronic locks."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Medical Bag",
+        "text": "Isabella's medical bag contains an empty insulin vial with fresh fingerprints. The vial held enough insulin to kill three people.",
+        "alone": "Isabella had access to lethal medical supplies.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge and Sofia's technical assistance proves they conspired to kill Augusto during the planned system outage."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Port Security",
+        "text": "Port authority officer swears he saw Diego running from the VIP lounge at 2:25 PM. 'He looked panicked, kept looking over his shoulder.'",
+        "alone": "Diego was allegedly seen fleeing the crime scene.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The port officer confused Diego with a passenger during the boarding chaos - Diego was actually managing the baggage crisis one floor below throughout the murder window."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "technical",
+        "icon": "💻",
+        "heading": "Access Logs",
+        "text": "Digital records show Isabella's medical clearance was used to unlock the VIP lounge doors. Her credentials bypassed all standard security protocols.",
+        "alone": "Isabella's medical access was electronically confirmed.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Isabella's medical clearance combined with Sofia's system manipulation created the perfect opportunity for murder without leaving digital evidence."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "financial",
+        "icon": "💰",
+        "heading": "Hidden Partnership",
+        "text": "Bank records reveal Isabella secretly paid Sofia $25,000 three weeks ago. The payment was labeled 'technical consulting services.'",
+        "alone": "Isabella made a large mysterious payment to Sofia.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Isabella's payment to Sofia and Sofia's system manipulation prove they were co-conspirators - Sofia provided technical support for the murder in exchange for money."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "motive",
+        "icon": "📄",
+        "heading": "Will Discovery",
+        "text": "Isabella recently learned Augusto planned to donate his cruise fortune to charity. She would lose her expected $50 million inheritance and promised Sofia $2 million for help.",
+        "alone": "Isabella faced losing a massive inheritance and offered Sofia payment.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Isabella's medical expertise combined with her inheritance knowledge and Sofia's technical assistance proves they conspired to kill Augusto during the planned system outage."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Baggage Crisis",
+        "text": "Terminal cameras show Diego managing a major luggage malfunction in the lower level during the entire murder window. Multiple staff members worked alongside him continuously.",
+        "alone": "Diego has comprehensive video evidence of his location.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The port officer confused Diego with a passenger during the boarding chaos - Diego was actually managing the baggage crisis one floor below throughout the murder window."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "technical",
+        "icon": "🔧",
+        "heading": "System Manipulation",
+        "text": "Forensic analysis reveals someone with administrator privileges deleted security footage from the VIP lounge. Only Sofia had the technical skills and system access.",
+        "alone": "Sofia manipulated the security system to hide evidence.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Isabella's medical clearance combined with Sofia's system manipulation created the perfect opportunity for murder without leaving digital evidence."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "conspiracy",
+        "icon": "🤝",
+        "heading": "Communication Trail",
+        "text": "Encrypted messages between Isabella and Sofia discuss 'the procedure' and 'eliminating complications.' Sofia replied 'System will be clean, no traces.'",
+        "alone": "Isabella and Sofia coordinated their criminal activities.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Isabella's payment to Sofia and Sofia's system manipulation prove they were co-conspirators - Sofia provided technical support for the murder in exchange for money."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Isabella Santos",
+      "location": "VIP Boarding Lounge",
+      "weapon": "Insulin Overdose",
+      "window": "2:15-2:30 PM",
+      "access": "Medical Clearance"
+    },
+    "epilogue": "Dr. Isabella Santos had dedicated her career to healing, but greed corrupted her oath to do no harm. When she learned her uncle Augusto planned to donate his cruise line fortune to medical charities instead of family, she recruited IT specialist Sofia Restrepo as an accomplice with promises of $2 million. Using her medical clearance to access the VIP lounge during Sofia's carefully orchestrated system blackout, Isabella administered a lethal insulin injection while Sofia erased all digital evidence. As both women are led away in handcuffs, they stare at the cruise ship that was meant to celebrate the family fortune Isabella killed to claim, their partnership in murder ensuring they'll both spend their inheritance years behind bars."
+  }
+}
