@@ -1,0 +1,308 @@
+{
+  "case": "Case #036",
+  "title": "The Man Who Wasn't There",
+  "setting": "Grand Budapest Style Hotel — Central Europe — 1932",
+  "marketing": {
+    "postCopy": {
+      "instagram": "A guest is dead at the Grand Szarvas Hotel. But the man accused of killing him... may not exist at all. 🔍 Can you untangle the identity before the real killer vanishes? Play Case #036 — The Man Who Wasn't There. Link in bio. #MysteryGame #BrainTeaser #EscapeRoom #StolenIdentity #GrandHotelMystery",
+      "tiktok": "Solve today's mystery: a dead guest, a stolen identity, and a killer hiding in plain sight at a 1932 Central European hotel. Can you crack it? 🕵️ Play free at thedailywhodunit.com #MysteryGame #BrainTeaser #EscapeRoom #StolenIdentity #GrandHotelMystery"
+    },
+    "imagePrompt": "A grand Central European hotel lobby in 1932, art deco architecture with ornate gilded columns, deep crimson carpets, and a sweeping marble staircase. A single leather travel trunk sits abandoned near the concierge desk beneath a vast chandelier. A shadow of a man is cast across the floor — but no figure is visible. Muted ochres, deep burgundy, and pale gold. Painterly, cinematic, slightly surreal. Style of Wes Anderson meets Otto Dix.",
+    "animationPrompt": "Slow push into the grand hotel lobby from outside through the revolving brass door. The chandelier flickers once. A shadow moves across the crimson carpet toward the staircase — but no one is there. Papers flutter on the concierge desk. Hold on the abandoned trunk as the name tag slowly rotates to reveal a different name on the reverse. Fade to black.",
+    "hashtags": ["#StolenIdentity", "#GrandHotelMystery", "#MysteryGame", "#BrainTeaser", "#EscapeRoom"]
+  },
+  "rookie": {
+    "title": "The Man Who Wasn't There",
+    "setting": "Grand Szarvas Hotel — Central Europe — 1932",
+    "flavor": "A guest registered as Count Aldric Voss was found dead in Room 14. But the real Count Voss is alive and well in Vienna — he never checked in. Someone stole his identity to gain access to the hotel. The question is who, and why.",
+    "categories": [
+      {
+        "name": "Suspect",
+        "items": ["Felix Morrow", "Petra Szabo", "Dmitri Crane"]
+      },
+      {
+        "name": "Method",
+        "items": ["Poisoned Wine", "Strangled with Sash", "Struck with Statuette"]
+      },
+      {
+        "name": "Motive",
+        "items": ["Blackmail Silenced", "Inheritance Seized", "Rivalry Ended"]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Concierge Remembers",
+        "text": "The night porter recalls the guest in Room 14 arguing loudly with a man he recognized — Felix Morrow, a travelling insurance broker who had been staying at the hotel for three days prior.",
+        "alone": "Felix Morrow was seen confronting the victim the night before the body was discovered.",
+        "links": [
+          { "with": "R4", "insight": "Morrow's presence at the argument and his access to the victim's floor together confirm he had both opportunity and proximity to commit the crime." }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "physical",
+        "icon": "🍷",
+        "heading": "A Half-Empty Decanter",
+        "text": "A crystal decanter of red wine on the writing desk was found half-empty. The hotel physician confirmed traces of potassium tartrate — a compound that in sufficient doses causes cardiac arrest — were dissolved in the remaining wine.",
+        "alone": "The victim was poisoned through wine left in his room.",
+        "links": [
+          { "with": "R5", "insight": "The poisoned wine and the victim's known blackmail correspondence together confirm the killing was premeditated — planned well before the confrontation." }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "document",
+        "icon": "📄",
+        "heading": "Letters in the Lining",
+        "text": "A hidden compartment in the victim's trunk contained correspondence addressed not to Count Voss but to a man named Eduard Halm — threatening letters demanding repayment of a debt or exposure of a financial crime. The letters were signed only with an initial: M.",
+        "alone": "The victim's true identity was Eduard Halm, a man being blackmailed — the stolen identity was his cover.",
+        "links": [
+          { "with": "R6", "insight": "Halm was fleeing a blackmailer whose initial matches Morrow — and the motive of silencing a blackmail victim explains why the killer chose poison over confrontation." }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🗝️",
+        "heading": "A Passkey Unaccounted For",
+        "text": "The hotel's master passkey log shows a key signed out under a staff alias on the evening of the death — the signature does not match any current employee. The key grants access to all guest rooms on the second floor, including Room 14.",
+        "alone": "Someone obtained unauthorized access to Room 14 using a forged staff credential.",
+        "links": [
+          { "with": "R1", "insight": "Morrow's documented confrontation with the victim and his use of a forged passkey to enter Room 14 place him at the scene with the means to administer the poison unobserved." }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Insurance File",
+        "text": "Felix Morrow's briefcase, examined by hotel security, contained a life insurance policy taken out on Eduard Halm — with Morrow listed as sole beneficiary. The policy was dated six weeks prior and worth a considerable sum.",
+        "alone": "Morrow stood to profit financially from Halm's death — this was not a crime of passion.",
+        "links": [
+          { "with": "R2", "insight": "The insurance policy naming Morrow as beneficiary and the premeditated poisoning of the wine confirm that Morrow planned this killing for financial gain weeks in advance." }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🧵",
+        "heading": "The Seamstress on the Third Floor",
+        "text": "A seamstress staying in Room 22 heard a man with a clipped northern accent on the telephone late at night, saying: 'Halm won't be a problem after tomorrow.' She identified the voice as coming from the room registered to Felix Morrow.",
+        "alone": "Morrow referred to the victim by his true name — Eduard Halm — proving he knew the stolen identity was a disguise.",
+        "links": [
+          { "with": "R3", "insight": "Morrow knew Halm's real name and the letters confirm he was the blackmailer — the M initial and the northern accent match, sealing his identity as both extortionist and killer." }
+        ]
+      }
+    ],
+    "solution": {
+      "Suspect": "Felix Morrow",
+      "Method": "Poisoned Wine",
+      "Motive": "Blackmail Silenced"
+    },
+    "epilogue": "Felix Morrow had been blackmailing Eduard Halm for months over a collapsed investment scheme. When Halm fled under a stolen identity, Morrow tracked him to the Grand Szarvas, forged a passkey, slipped poison into his wine, and waited. The insurance policy was the final proof — Morrow had planned a murder dressed as a natural death. He was arrested at the Vienna train station the following morning."
+  },
+  "detective": {
+    "title": "The Man Who Wasn't There",
+    "setting": "Grand Szarvas Hotel — Central Europe — 1932",
+    "flavor": "A guest registered as Count Aldric Voss was found dead in Room 14. The real Count Voss never left Vienna. Someone stole his identity to slip inside the hotel undetected — and someone else followed them there to make sure they never left.",
+    "categories": [
+      {
+        "name": "Suspect",
+        "items": ["Felix Morrow", "Petra Szabo", "Dmitri Crane", "Ilse Vander"]
+      },
+      {
+        "name": "Method",
+        "items": ["Poisoned Wine", "Strangled with Sash", "Struck with Statuette", "Induced Cardiac Arrest"]
+      },
+      {
+        "name": "Motive",
+        "items": ["Blackmail Silenced", "Inheritance Seized", "Rivalry Ended", "Debt Erased"]
+      },
+      {
+        "name": "Access Method",
+        "items": ["Forged Passkey", "Hidden Servants' Passage", "Duplicate Room Key", "Bribed Night Porter"]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Concierge Remembers",
+        "text": "The night porter recalls the guest in Room 14 arguing with Felix Morrow the evening before the death. Morrow, a travelling insurance broker, had checked in three days prior. The porter also notes that Petra Szabo — a Hungarian antiques dealer in Room 9 — was seen lingering in the corridor outside Room 14 that same evening.",
+        "alone": "Both Morrow and Szabo had proximity to the victim the night before he died.",
+        "links": [
+          { "with": "D4", "insight": "Morrow's argument with the victim combined with the forged passkey log entry in his alias confirms he had both motive-driven access and physical entry to Room 14." }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "physical",
+        "icon": "🍷",
+        "heading": "The Decanter and the Dose",
+        "text": "The crystal decanter contained potassium tartrate dissolved in wine — enough for a lethal cardiac event in a man of the victim's age and weight. The hotel physician noted the compound is used in certain photographic developing solutions. Dmitri Crane, a photographer staying in Room 7, had developing chemicals in his room.",
+        "alone": "The poison came from a photographic chemical — Crane had access to the compound but is not confirmed as the source.",
+        "links": [
+          { "with": "D5", "insight": "Crane possessed the chemical, but the insurance policy naming Morrow as beneficiary removes Crane as a financial suspect and redirects suspicion firmly toward Morrow as the one with motive to kill." }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📄",
+        "heading": "Letters and a Ledger",
+        "text": "The hidden trunk compartment held blackmail letters signed M and a personal ledger showing Eduard Halm — the victim's true name — had transferred funds to a shell account in Basel twice in the past year. The ledger entries stop abruptly two months ago, suggesting Halm had refused further payment.",
+        "alone": "Halm stopped paying his blackmailer two months ago — the killing followed his defiance.",
+        "links": [
+          { "with": "D6", "insight": "Morrow's overheard reference to Halm by his true name, combined with the ledger showing payments to a Basel account, confirms Morrow was the blackmailer who escalated to murder when payments stopped." }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "physical",
+        "icon": "🗝️",
+        "heading": "The Passkey Log",
+        "text": "The master passkey log shows a key signed out under the alias 'K. Brenner — Maintenance' on the night of the death. Handwriting analysis of the signature compared with Felix Morrow's hotel registration card shows matching letter formations in the K and the looped R.",
+        "alone": "Morrow signed out a master passkey under a false name — placing him inside Room 14 without an alibi.",
+        "links": [
+          { "with": "D1", "insight": "The forged passkey signature matching Morrow's handwriting, combined with his witnessed confrontation with the victim, establishes that Morrow both entered the room and had a prior grievance with the man inside it." }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Insurance File",
+        "text": "Felix Morrow's briefcase contained a life insurance policy on Eduard Halm worth 40,000 marks, with Morrow as sole beneficiary. The policy was taken out six weeks ago. Ilse Vander — a lawyer staying in Room 18 — is noted in the policy as the witnessing solicitor, though she claims not to have known the insured's true identity.",
+        "alone": "Morrow arranged and financed the insurance policy weeks before the killing — this was planned murder for profit.",
+        "links": [
+          { "with": "D2", "insight": "The insurance policy confirms Morrow's financial motive while the photographic chemical as murder weapon points away from Crane — Morrow acquired the compound separately to frame a chemical death as natural." }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🧵",
+        "heading": "The Late Night Call",
+        "text": "The seamstress in Room 22 heard a man with a clipped northern accent on the telephone saying: 'Halm won't be a problem after tomorrow.' Hotel telephone records confirm a call was placed from Room 11 — Felix Morrow's room — to an unregistered Basel number at 11:43 pm.",
+        "alone": "Morrow called a Basel number — the same city as the shell account in Halm's ledger — hours before the death.",
+        "links": [
+          { "with": "D3", "insight": "The Basel phone call matches the Basel shell account in Halm's ledger, confirming Morrow controlled the blackmail operation and had already arranged Halm's fate before the night was over." }
+        ]
+      }
+    ],
+    "solution": {
+      "Suspect": "Felix Morrow",
+      "Method": "Poisoned Wine",
+      "Motive": "Blackmail Silenced",
+      "Access Method": "Forged Passkey"
+    },
+    "epilogue": "Felix Morrow had tracked Eduard Halm across three countries. When Halm stopped paying, Morrow followed him to the Grand Szarvas under a fake insurance pretext, forged a passkey, and poisoned his wine with a compound he sourced from the hotel's photographic supply room — deliberately leaving Crane's chemicals in view as a potential misdirect. The Basel phone call sealed it. He was taken off the Vienna Express at the border."
+  },
+  "inspector": {
+    "title": "The Man Who Wasn't There",
+    "setting": "Grand Szarvas Hotel — Central Europe — 1932",
+    "flavor": "Count Aldric Voss never left Vienna. The man in Room 14 was Eduard Halm — a financier on the run from a blackmailer. Now Halm is dead, the real Count Voss is baffled, and the hotel's guest register is a web of false names and borrowed identities. One of the guests is not who they claim to be. Neither was the victim.",
+    "categories": [
+      {
+        "name": "Suspect",
+        "items": ["Felix Morrow", "Petra Szabo", "Dmitri Crane", "Ilse Vander", "Otto Reich"]
+      },
+      {
+        "name": "Method",
+        "items": ["Poisoned Wine", "Strangled with Sash", "Struck with Statuette", "Induced Cardiac Arrest", "Injected Compound"]
+      },
+      {
+        "name": "Motive",
+        "items": ["Blackmail Silenced", "Inheritance Seized", "Rivalry Ended", "Debt Erased", "Identity Reclaimed"]
+      },
+      {
+        "name": "Access Method",
+        "items": ["Forged Passkey", "Hidden Servants' Passage", "Duplicate Room Key", "Bribed Night Porter", "Impersonated Staff"]
+      },
+      {
+        "name": "Accomplice Role",
+        "items": ["Provided the Poison", "Forged the Document", "Created the Distraction", "Sourced the Identity", "Disposed of Evidence"]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Three People, One Corridor",
+        "text": "The night porter places Felix Morrow arguing with the victim at 9:15 pm, Petra Szabo loitering near Room 14 at 10:00 pm, and a man he did not recognize — wearing a hotel porter's uniform — entering Room 14 with a key at 11:20 pm. The unrecognized man was approximately the same height and build as Dmitri Crane.",
+        "alone": "Three separate individuals had proximity to Room 14 that evening — the false porter is the one who entered.",
+        "links": [
+          { "with": "I4", "insight": "The unrecognized false porter entering Room 14 at 11:20 pm, combined with the forged passkey signed out in Morrow's handwriting at 11:15 pm, confirms Morrow impersonated a staff member to gain undetected entry." }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "physical",
+        "icon": "🍷",
+        "heading": "Two Poisons, One Victim",
+        "text": "The hotel physician's full toxicology report reveals two compounds: potassium tartrate in the wine and a trace of chloral hydrate in the victim's bloodstream — a sedative that would have rendered him incapacitated before the cardiac poison took effect. The chloral hydrate was not in the decanter.",
+        "alone": "The victim was first sedated, then poisoned — two separate compounds, suggesting either two killers or a killer with two methods of delivery.",
+        "links": [
+          { "with": "I5", "insight": "The chloral hydrate sedative matches the compound in Ilse Vander's legal medicine bag — she administered the sedative first, making Halm unable to resist when Morrow delivered the fatal wine." }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Ledger and the Alias",
+        "text": "Halm's personal ledger shows Basel payments, but a second set of entries — in different handwriting — records payments received from a 'Count A. Voss' for the provision of forged travel documents. The handwriting matches Petra Szabo's hotel registration card.",
+        "alone": "Petra Szabo forged the travel papers that allowed Halm to assume Count Voss's identity — she was part of the scheme from the beginning.",
+        "links": [
+          { "with": "I6", "insight": "Szabo sourced the stolen identity that brought Halm to the hotel, and the Basel call log confirms Morrow knew Halm's location — Szabo inadvertently led the killer directly to his target." }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🗝️",
+        "heading": "The Passkey and the Uniform",
+        "text": "The forged passkey log entry was signed at 11:15 pm. A hotel porter's uniform — one size too large — was found bundled inside the linen cupboard at the end of the second-floor corridor. A single monogrammed cufflink was caught in the uniform's sleeve: the letter M, in a style consistent with German manufacture.",
+        "alone": "The killer wore a stolen porter's uniform and left a monogrammed cufflink — the initial M matches Felix Morrow.",
+        "links": [
+          { "with": "I1", "insight": "The M cufflink in the discarded uniform and the false porter seen entering Room 14 at 11:20 pm confirm Morrow impersonated hotel staff using the forged passkey to enter undetected and administer the poison." }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Lawyer's Medicine Bag",
+        "text": "Ilse Vander's room contained a legal medicine bag with a vial of chloral hydrate solution — standard for certain legal procedures involving distressed clients. One measured dose was missing. Her appointment diary shows a notation for Room 14 at 10:45 pm — listed as 'document witnessing — Halm'.",
+        "alone": "Vander visited Halm at 10:45 pm under a professional pretext — the missing chloral hydrate dose matches the sedative found in the victim's blood.",
+        "links": [
+          { "with": "I2", "insight": "Vander's missing chloral hydrate dose and her documented 10:45 pm visit to Room 14 confirm she administered the sedative — acting as Morrow's accomplice by incapacitating Halm before the poisoned wine was introduced." }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🧵",
+        "heading": "The Basel Connection",
+        "text": "Hotel telephone records show two calls the night of the death: Morrow's call from Room 11 to Basel at 11:43 pm, and an earlier call from Room 9 — Petra Szabo's room — to the same Basel number at 8:55 pm. Szabo's call lasted four minutes. Morrow's lasted forty seconds.",
+        "alone": "Both Morrow and Szabo called the same Basel number on the night of the killing — they were coordinating through a shared contact.",
+        "links": [
+          { "with": "I3", "insight": "Szabo called the Basel number before Morrow did — she alerted the blackmail network that Halm was at the hotel, and the ledger entries in her handwriting confirm she was the one who sold the stolen identity that led Morrow to his target." }
+        ]
+      }
+    ],
+    "solution": {
+      "Suspect": "Felix Morrow",
+      "Method": "Poisoned Wine",
+      "Motive": "Blackmail Silenced",
+      "Access Method": "Impersonated Staff",
+      "Accomplice Role": "Provided the Poison"
+    },
+    "epilogue": "Ilse Vander sedated Halm at 10:45 pm under the cover of document witnessing. Morrow, wearing a stolen porter's uniform, entered at 11:20 pm and introduced the potassium tartrate into the wine decanter. Petra Szabo had unwittingly set the trap — she forged Halm's identity papers and then called Basel to confirm his location, not knowing Morrow was listening on the same network. Vander turned witness for the prosecution. Morrow was convicted in Prague in 1933. Szabo fled to Bucharest and was never formally charged."
+  }
+}
