@@ -1,0 +1,427 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "A body in the dust. A death blamed on the drought. But the timeline doesn't add up. 🌾🔍 Case #037 — Dead Reckoning. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: solve a 1935 Oklahoma farmstead killing where the official story falls apart clue by clue. Daily deduction puzzle — can you crack the timeline? thedailywhodunit.com"
+    },
+    "imagePrompt": "A desolate Oklahoma farmstead in 1935, dust storm rolling across cracked earth toward a weathered wooden farmhouse. A single lantern glows in a ground-floor window. A silhouette of a figure stands motionless in the barn doorway. Parched sepia tones, amber dust haze, dramatic chiaroscuro lighting. Cinematic and painterly, style of Gordon Parks meets Edward Hopper.",
+    "animationPrompt": "Slow aerial drift across a vast dust-choked Oklahoma plain toward a lone farmhouse. A windmill turns once, then stops. The barn door swings open in the wind — no one exits. Cut to a close-up of a pocket watch face, hands stopped at 11:42. Fade to black as a dust cloud swallows the frame.",
+    "hashtags": ["#DustBowlMystery", "#DeadReckoning1935", "#MysteryGame", "#BrainTeaser", "#EscapeRoom"]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Dead Reckoning",
+    "setting": "Harlan Farm · Cimarron County · Oklahoma · 1935",
+    "emoji": "🌾",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Silas Harlan was found dead in his barn at dawn, officially ruled a tragic accident during the night's dust storm. But the county deputy who found him isn't satisfied — the wounds don't match the story, and the timeline has a hole big enough to drive a truck through.",
+    "emptyState": "The dust storm covered someone's tracks. Find them before the wind buries everything.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {"name": "Dottie Harlan", "icon": "👩‍🌾", "detail": "Silas's wife, inherited the farm debt along with everything else."},
+          {"name": "Roy Pruitt", "icon": "🤠", "detail": "Neighboring farmer and longtime rival over water rights."},
+          {"name": "Clem Voss", "icon": "🔧", "detail": "Farmhand employed by Silas for three seasons running."}
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {"name": "The Barn", "icon": "🏚️", "detail": "Where Silas was found, supposedly fallen from the loft."},
+          {"name": "The Farmhouse Kitchen", "icon": "🪵", "detail": "Last place Silas was seen alive by multiple witnesses."},
+          {"name": "The Dry Creek Bed", "icon": "🪨", "detail": "Disputed boundary between Harlan and Pruitt land."}
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {"name": "Blunt Farm Tool", "icon": "🔨", "detail": "A heavy implement consistent with the head wound pattern."},
+          {"name": "Rope and Pulley", "icon": "🪢", "detail": "The barn's loft pulley system, suggesting staged fall."},
+          {"name": "Bare Hands", "icon": "✋", "detail": "Bruising pattern on the neck suggests manual force."}
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "forensic",
+        "icon": "🔍",
+        "heading": "The Wound Angle",
+        "text": "The deputy's examination of Silas Harlan's head wound shows the blow landed at a downward angle inconsistent with a fall from the loft above. A fall would produce an upward-angled impact on the skull. This wound was delivered by someone standing over a prone man.",
+        "alone": "Silas was struck while already on the ground — the fall story is false.",
+        "links": [{"with": "R5", "insight": "The downward wound angle proving Silas was struck on the ground, combined with Clem Voss's boots matching the barn mud print, places Voss over the body at the time of death."}]
+      },
+      {
+        "id": "R2",
+        "type": "physical",
+        "icon": "⏱️",
+        "heading": "The Stopped Pocket Watch",
+        "text": "Silas Harlan's pocket watch, found smashed beside the body, stopped at 11:42 pm. Three witnesses place Silas alive in the farmhouse kitchen at midnight — eighteen minutes after the watch says he died.",
+        "alone": "The official time of death is impossible — Silas was seen alive after his watch stopped.",
+        "links": [{"with": "R6", "insight": "The watch stopping at 11:42 and Dottie's lamp extinguished at 11:38 confirms she was not in the kitchen at midnight — the alibi witnesses saw someone else, or were deceived about the time."}]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Roy Pruitt's Truck",
+        "text": "A neighboring sharecropper reports seeing Roy Pruitt's truck parked at the Harlan farm gate at approximately 11:30 pm — during the height of the dust storm. Pruitt claims he was home all night and his wife confirms it.",
+        "alone": "Pruitt's truck was at the scene during the estimated window of death despite his alibi.",
+        "links": [{"with": "R7", "insight": "Pruitt's truck at the farm gate during the storm and the bootprint near the creek bed fence matching Pruitt's size together confirm he was on Harlan property that night."}]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Insurance Policy",
+        "text": "A life insurance policy on Silas Harlan — worth $2,000, payable to Dottie Harlan — was taken out eleven weeks ago at a Guymon branch office. The farm's mortgage was three months in arrears at the time of Silas's death.",
+        "alone": "Dottie Harlan had recent and substantial financial motive for her husband's death.",
+        "links": [{"with": "R8", "insight": "The insurance policy taken out weeks before the death and Dottie's lamp extinguished before her stated alibi time together confirm she had both motive and a fabricated alibi for the night Silas died."}]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "👢",
+        "heading": "Mud Print in the Barn",
+        "text": "A single boot print preserved in the mud near the barn's water trough measures size ten — consistent with Clem Voss, who wears a size ten work boot. Silas Harlan wore a size eight. Roy Pruitt wears a size twelve.",
+        "alone": "Someone with size ten boots was in the barn near the body — only Voss fits.",
+        "links": [{"with": "R1", "insight": "The downward wound angle proving Silas was struck on the ground, combined with Clem Voss's boots matching the barn mud print, places Voss over the body at the time of death."}]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🪔",
+        "heading": "The Lamp in the Window",
+        "text": "A farmhand on an adjacent property noticed Dottie Harlan's bedroom lamp extinguish at 11:38 pm. Dottie claims she was in the kitchen with neighbors until midnight — but her lamp was out before the watch stopped.",
+        "alone": "Dottie's lamp was out before the official time of death — her alibi window has a gap.",
+        "links": [{"with": "R2", "insight": "The watch stopping at 11:42 and Dottie's lamp extinguished at 11:38 confirms she was not in the kitchen at midnight — the alibi witnesses saw someone else, or were deceived about the time."}]
+      },
+      {
+        "id": "R7",
+        "type": "physical",
+        "icon": "🥾",
+        "heading": "Bootprint at the Fence",
+        "text": "Near the dry creek bed fence line, investigators found a large bootprint — size twelve — pressed into the damp soil on the Harlan side of the property. Roy Pruitt wears a size twelve. The print was fresh, made within the last twenty-four hours.",
+        "alone": "A size twelve boot — Pruitt's size — was on Harlan land near the disputed boundary recently.",
+        "links": [{"with": "R3", "insight": "Pruitt's truck at the farm gate during the storm and the bootprint near the creek bed fence matching Pruitt's size together confirm he was on Harlan property that night."}]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Kitchen Log",
+        "text": "A neighbor who claims to have been with Dottie until midnight admits under questioning that she left the farmhouse at 11:35 pm due to the worsening storm — leaving Dottie alone. The neighbor assumed Dottie remained inside but did not see her after that point.",
+        "alone": "Dottie was alone in the farmhouse from 11:35 pm onward — her alibi collapses after that point.",
+        "links": [{"with": "R4", "insight": "The insurance policy taken out weeks before the death and Dottie's lamp extinguished before her stated alibi time together confirm she had both motive and a fabricated alibi for the night Silas died."}]
+      }
+    ],
+    "solution": {
+      "suspect": "Dottie Harlan",
+      "location": "The Barn",
+      "weapon": "Blunt Farm Tool"
+    },
+    "epilogue": "Dottie Harlan had spent eleven weeks planning an exit from a failing farm and a failing marriage. She lured Silas to the barn after her neighbor left, struck him with a fence post mallet, and staged the fall from the loft. The stopped watch was deliberate — she smashed it at 11:42 to predate the real time of death. Clem Voss's boot print was from an earlier chore. Roy Pruitt had come to argue about the creek boundary and left without seeing anything. Dottie was arrested in Guymon three days later, the insurance claim still unfiled."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Dead Reckoning",
+    "setting": "Harlan Farm · Cimarron County · Oklahoma · 1935",
+    "emoji": "🌾",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Silas Harlan is dead in his barn and the dust storm has scrambled every witness account. The official story is accident. The evidence says otherwise — but the timeline has been deliberately broken into pieces, and someone worked hard to make sure they don't fit back together.",
+    "emptyState": "Someone rearranged the facts. Put them back in order.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {"name": "Dottie Harlan", "icon": "👩‍🌾", "detail": "Silas's wife, sole insurance beneficiary, alibi has gaps."},
+          {"name": "Roy Pruitt", "icon": "🤠", "detail": "Rival farmer, truck seen at the gate, size twelve boots."},
+          {"name": "Clem Voss", "icon": "🔧", "detail": "Farmhand, size ten boot matches barn mud print."},
+          {"name": "Earl Dade", "icon": "🏦", "detail": "Bank loan officer who threatened foreclosure the prior week."}
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {"name": "The Barn", "icon": "🏚️", "detail": "Where Silas was found, supposedly fallen from the loft."},
+          {"name": "The Farmhouse Kitchen", "icon": "🪵", "detail": "Last confirmed sighting — but the timeline is contested."},
+          {"name": "The Dry Creek Bed", "icon": "🪨", "detail": "Disputed boundary, fresh bootprints on the Harlan side."},
+          {"name": "The Storm Cellar", "icon": "🕳️", "detail": "Locked from inside during the storm — key found on Silas."}
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {"name": "Blunt Farm Tool", "icon": "🔨", "detail": "Wound pattern matches a heavy flat-faced implement."},
+          {"name": "Rope and Pulley", "icon": "🪢", "detail": "Loft pulley, consistent with a staged drop."},
+          {"name": "Bare Hands", "icon": "✋", "detail": "Bruising on the neck suggests manual force applied."},
+          {"name": "Fence Post Mallet", "icon": "🪛", "detail": "Missing from the barn tool rack since the morning after."}
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {"name": "Unlocked Barn Door", "icon": "🚪", "detail": "The barn was found unlatched — no forced entry."},
+          {"name": "Storm Cellar Tunnel", "icon": "🕳️", "detail": "A crawl passage connects cellar to barn foundation."},
+          {"name": "Loft Window", "icon": "🪟", "detail": "The loft's east window latch was found broken inward."},
+          {"name": "Trusted Entry", "icon": "🤝", "detail": "Silas let the killer in — someone he had no reason to fear."}
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "forensic",
+        "icon": "🔍",
+        "heading": "The Wound Pattern",
+        "text": "The head wound's angle and depth are inconsistent with a loft fall. The forensic pattern matches a flat-faced heavy implement swung downward at a prone figure. The fence post mallet — normally hung on the barn's south wall — is missing.",
+        "alone": "Silas was struck by a flat implement while on the ground — and the likely weapon has vanished.",
+        "links": [{"with": "D5", "insight": "The missing fence post mallet as the weapon and Dottie's sole access to the barn after 11:35 pm confirm she had both the instrument and the opportunity to deliver the fatal blow."}]
+      },
+      {
+        "id": "D2",
+        "type": "physical",
+        "icon": "⏱️",
+        "heading": "The Smashed Watch",
+        "text": "Silas's pocket watch stopped at 11:42 pm. The watch glass is shattered inward — meaning it was struck deliberately rather than broken in a fall. Three witnesses initially placed Silas alive at midnight, but two now admit the kitchen was dark by 11:45.",
+        "alone": "The watch was deliberately smashed to set a false time of death — the alibi witnesses were confused about timing.",
+        "links": [{"with": "D6", "insight": "The deliberately smashed watch creating a false 11:42 time of death and the neighbor's revised testimony placing the kitchen dark by 11:45 confirm the midnight alibi was fabricated around a manufactured timestamp."}]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🚛",
+        "heading": "Pruitt's Truck at the Gate",
+        "text": "A sharecropper confirms Roy Pruitt's truck was parked at the Harlan gate between 11:25 and 11:50 pm. Pruitt admits under pressure he came to confront Silas about the water rights but claims he never left his truck. No footprints from the gate to the barn match Pruitt's size twelve.",
+        "alone": "Pruitt was present but the physical evidence does not place him inside the barn.",
+        "links": [{"with": "D7", "insight": "Pruitt's presence at the gate confirmed but no barn-side footprints in his size, combined with Dottie's insurance motive, redirect suspicion from Pruitt to Dottie as the killer who had interior access."}]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Insurance and the Debt",
+        "text": "The $2,000 insurance policy on Silas was taken out eleven weeks prior. The farm's mortgage arrears letter from Earl Dade at the Guymon bank was dated the same week — Dade had threatened immediate foreclosure in writing. Dottie signed both documents.",
+        "alone": "Dottie signed the insurance policy and received the foreclosure threat in the same week — establishing a clear timeline of financial desperation leading to motive.",
+        "links": [{"with": "D8", "insight": "Dottie signing the insurance policy amid an active foreclosure threat, and Clem Voss confirming she asked about the barn loft pulley a week before the death, establishes premeditated planning well in advance."}]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "🚪",
+        "heading": "The Unlocked Barn",
+        "text": "The barn door was found unlatched from the inside — not broken or forced. Silas habitually locked the barn at dusk. The only people with regular access to the barn key were Silas, Dottie, and Clem Voss. Voss was confirmed in his bunkhouse by two farmhands from 11:00 pm onward.",
+        "alone": "The barn was opened from inside by someone Silas trusted — Voss has an alibi, leaving Dottie as the only remaining key holder.",
+        "links": [{"with": "D1", "insight": "The missing fence post mallet as the weapon and Dottie's sole access to the barn after 11:35 pm confirm she had both the instrument and the opportunity to deliver the fatal blow."}]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🪔",
+        "heading": "The Neighbor's Revision",
+        "text": "The neighbor who initially placed Dottie in the kitchen until midnight now admits she left the farmhouse at 11:35 pm due to the storm. She assumed Dottie stayed but saw no one after departing. A second neighbor confirms the kitchen light was off by 11:45.",
+        "alone": "Dottie was alone and unaccounted for from 11:35 pm — the midnight alibi was based on assumption, not observation.",
+        "links": [{"with": "D2", "insight": "The deliberately smashed watch creating a false 11:42 time of death and the neighbor's revised testimony placing the kitchen dark by 11:45 confirm the midnight alibi was fabricated around a manufactured timestamp."}]
+      },
+      {
+        "id": "D7",
+        "type": "physical",
+        "icon": "👢",
+        "heading": "Footprint Accounting",
+        "text": "Forensic examination of all footprints in and around the barn accounts for: Silas (size 8, entering), Clem Voss (size 10, from earlier that day near the trough), and an unidentified size 6 print near the loft ladder — consistent with a woman's work boot. Dottie Harlan wears a size 6.",
+        "alone": "A size six print — consistent with Dottie's boot — was found at the base of the loft ladder inside the barn.",
+        "links": [{"with": "D3", "insight": "Pruitt's presence at the gate confirmed but no barn-side footprints in his size, combined with Dottie's insurance motive, redirect suspicion from Pruitt to Dottie as the killer who had interior access."}]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Voss Recalls a Question",
+        "text": "Clem Voss, cleared by his bunkhouse alibi, remembers Dottie asking him a week before the death how much weight the loft pulley system could hold and whether it would 'hold a grown man.' He thought nothing of it at the time.",
+        "alone": "Dottie asked about the loft pulley's weight capacity a week before Silas's staged fall — indicating advance planning.",
+        "links": [{"with": "D4", "insight": "Dottie signing the insurance policy amid an active foreclosure threat, and Clem Voss confirming she asked about the barn loft pulley a week before the death, establishes premeditated planning well in advance."}]
+      }
+    ],
+    "solution": {
+      "suspect": "Dottie Harlan",
+      "location": "The Barn",
+      "weapon": "Fence Post Mallet",
+      "access": "Trusted Entry"
+    },
+    "epilogue": "Dottie Harlan lured Silas to the barn after her neighbor left, knowing she had a narrow window. She struck him with the fence post mallet, staged the loft fall, smashed his watch at 11:42 to predate the real death by thirty minutes, and returned to the farmhouse before the storm peaked. Pruitt's presence at the gate was coincidental — a water rights argument he never followed through on. Voss's print was from afternoon chores. The size six boot print at the loft ladder was the detail that unraveled everything."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #037",
+    "title": "Dead Reckoning",
+    "setting": "Harlan Farm · Cimarron County · Oklahoma · 1935",
+    "emoji": "🌾",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Silas Harlan is dead, the timeline has been shattered into pieces, and at least two people on that farm that night had something to hide. The dust storm was not just cover — it was the reason the plan worked at all. Someone knew exactly how long the storm would last.",
+    "emptyState": "The storm gave someone thirty minutes. They used every second.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {"name": "Dottie Harlan", "icon": "👩‍🌾", "detail": "Wife, insurance beneficiary, alibi built on a false timestamp."},
+          {"name": "Roy Pruitt", "icon": "🤠", "detail": "Rival, at the gate that night, claims he never left his truck."},
+          {"name": "Clem Voss", "icon": "🔧", "detail": "Farmhand, cleared by alibi but asked suspicious questions."},
+          {"name": "Earl Dade", "icon": "🏦", "detail": "Loan officer who threatened foreclosure — and stood to profit."},
+          {"name": "Nora Finch", "icon": "👩‍⚕️", "detail": "County nurse and Dottie's closest confidante for two years."}
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {"name": "The Barn", "icon": "🏚️", "detail": "Crime scene — staged as an accidental loft fall."},
+          {"name": "The Farmhouse Kitchen", "icon": "🪵", "detail": "Alibi anchor point — but witnesses left before midnight."},
+          {"name": "The Dry Creek Bed", "icon": "🪨", "detail": "Disputed boundary, Pruitt's bootprint on Harlan land."},
+          {"name": "The Storm Cellar", "icon": "🕳️", "detail": "Connected to the barn via a crawl tunnel — key on Silas."},
+          {"name": "The Bunkhouse", "icon": "🛖", "detail": "Where Voss was confirmed from 11:00 pm — but left once."}
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {"name": "Blunt Farm Tool", "icon": "🔨", "detail": "General wound-consistent implement category."},
+          {"name": "Fence Post Mallet", "icon": "🪛", "detail": "Missing from the barn rack since the morning after."},
+          {"name": "Rope and Pulley", "icon": "🪢", "detail": "Loft system — used in the staging, not the killing."},
+          {"name": "Bare Hands", "icon": "✋", "detail": "Secondary bruising on neck suggests additional contact."},
+          {"name": "Storm Cellar Hatch", "icon": "🕳️", "detail": "Heavy iron hatch — could produce the wound if dropped."}
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {"name": "Unlocked Barn Door", "icon": "🚪", "detail": "Found unlatched from inside — trusted internal entry."},
+          {"name": "Storm Cellar Tunnel", "icon": "🕳️", "detail": "Crawl passage from cellar to barn, bypasses the main door."},
+          {"name": "Loft Window", "icon": "🪟", "detail": "East window latch found broken inward after the death."},
+          {"name": "Trusted Entry", "icon": "🤝", "detail": "Silas admitted the killer — no forced entry anywhere."},
+          {"name": "Spare Key", "icon": "🔑", "detail": "A duplicate barn key found hidden in the farmhouse pantry."}
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {"name": "Provided False Alibi", "icon": "🗣️", "detail": "Claimed to be with the killer when they were not."},
+          {"name": "Disposed of the Weapon", "icon": "🗑️", "detail": "Removed or hid the murder implement after the killing."},
+          {"name": "Staged the Scene", "icon": "🎭", "detail": "Arranged the body and loft to suggest accidental fall."},
+          {"name": "Sourced the Insurance", "icon": "📜", "detail": "Arranged or facilitated the policy taken out beforehand."},
+          {"name": "Created the Distraction", "icon": "🌪️", "detail": "Used the storm or another event to draw attention away."}
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "forensic",
+        "icon": "🔍",
+        "heading": "Two Impact Sites",
+        "text": "Full forensic examination reveals two distinct impact sites on Silas's skull: the primary fatal blow, consistent with the fence post mallet's flat face, and a secondary impact at the rear consistent with the barn's stone floor. The secondary impact was postmortem — Silas was struck first, then positioned to suggest a fall.",
+        "alone": "Silas was killed by the mallet first and placed on the floor after — the fall staging came second.",
+        "links": [{"with": "I5", "insight": "The two-impact forensic evidence proving staged positioning and Nora Finch's confirmed presence helping move the body together establish that the staging required two people working in sequence."}]
+      },
+      {
+        "id": "I2",
+        "type": "physical",
+        "icon": "⏱️",
+        "heading": "The Watch Mechanism",
+        "text": "A watchmaker's examination of Silas's smashed pocket watch reveals the mainspring was manually wound back before the crystal was broken — the hands were set to 11:42 deliberately, not frozen at the moment of impact. This required someone who knew how to manipulate a pocket watch movement.",
+        "alone": "The watch was set backward by someone with mechanical knowledge — the false timestamp was carefully engineered.",
+        "links": [{"with": "I6", "insight": "The watch being manually set backward requiring mechanical skill and Nora Finch's known background as a former telegraph repair assistant confirm she possessed the knowledge to manipulate the watch mechanism."}]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🚛",
+        "heading": "Pruitt Heard Two Voices",
+        "text": "Roy Pruitt, revisited under oath, admits he did briefly approach the barn before losing his nerve and returning to his truck. Through the storm wind he heard two voices inside — one male, one female — before the male voice went silent. He fled without looking inside.",
+        "alone": "Two people were in the barn with Silas — Pruitt heard a woman's voice before Silas went silent.",
+        "links": [{"with": "I7", "insight": "Pruitt hearing a woman's voice in the barn and the spare barn key found hidden in Nora Finch's coat pocket together confirm a second woman was present at the scene — Finch was Dottie's accomplice inside the barn."}]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Insurance Facilitator",
+        "text": "The Guymon insurance broker confirms the Harlan policy was brought to him by a woman matching Nora Finch's description two weeks before Dottie signed it. The broker recalls the woman explained the farm's financial situation in detail and asked specifically about accidental death clauses.",
+        "alone": "Nora Finch arranged the insurance policy before Dottie signed it — she was involved in the planning from the beginning.",
+        "links": [{"with": "I8", "insight": "Finch arranging the insurance policy weeks in advance and her written letter to Dottie recovered from the farmhouse mentioning the storm night as the planned date confirm coordinated premeditation between the two women."}]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "👣",
+        "heading": "Two Sets of Small Prints",
+        "text": "Re-examination of the barn floor reveals two distinct sets of small-footed prints near the loft ladder and the body: one size 6 consistent with Dottie's boot, and one size 7 consistent with Nora Finch's known shoe size. Both sets show weight distribution indicating the wearers were carrying or dragging a load.",
+        "alone": "Two women were in the barn that night — both footprint sets show the physical effort of moving a body.",
+        "links": [{"with": "I1", "insight": "The two-impact forensic evidence proving staged positioning and Nora Finch's confirmed presence helping move the body together establish that the staging required two people working in sequence."}]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Finch's Background",
+        "text": "County records show Nora Finch worked as a telegraph repair assistant in Amarillo from 1928 to 1931 before training as a nurse. Telegraph repair required detailed knowledge of mechanical clockwork and spring mechanisms — the same principles that govern a pocket watch movement.",
+        "alone": "Nora Finch had the specific mechanical knowledge required to manipulate a pocket watch's mainspring and hands.",
+        "links": [{"with": "I2", "insight": "The watch being manually set backward requiring mechanical skill and Nora Finch's known background as a former telegraph repair assistant confirm she possessed the knowledge to manipulate the watch mechanism."}]
+      },
+      {
+        "id": "I7",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Spare Key",
+        "text": "A search of Nora Finch's coat — left at the Harlan farmhouse during a visit two days after the death — reveals a spare barn key in the inner pocket. The key is a duplicate of the Harlan barn master, filed to match. Dottie claims she did not give it to her.",
+        "alone": "Nora Finch possessed an unauthorized duplicate barn key — she had independent access to the scene.",
+        "links": [{"with": "I3", "insight": "Pruitt hearing a woman's voice in the barn and the spare barn key found in Nora Finch's coat pocket together confirm a second woman was present at the scene — Finch was Dottie's accomplice inside the barn."}]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "The Letter in the Stove",
+        "text": "Partially burned in the farmhouse stove, a letter in Nora Finch's handwriting addressed to Dottie references 'our arrangement' and mentions 'the night of the big storm will be the right time — Silas won't expect it and Pruitt will be blamed.' The letter is dated three weeks before the death.",
+        "alone": "Finch wrote to Dottie three weeks before the death outlining the plan and naming Pruitt as the intended fall man.",
+        "links": [{"with": "I4", "insight": "Finch arranging the insurance policy weeks in advance and her letter to Dottie naming the storm night as the planned date confirm coordinated premeditation between the two women stretching back at least three weeks."}]
+      }
+    ],
+    "solution": {
+      "suspect": "Dottie Harlan",
+      "location": "The Barn",
+      "weapon": "Fence Post Mallet",
+      "access": "Trusted Entry",
+      "accomplice": "Staged the Scene"
+    },
+    "epilogue": "Dottie Harlan and Nora Finch had planned the killing for three weeks. Finch sourced the insurance policy, obtained a duplicate barn key, and coached Dottie on timing the storm. On the night, Dottie lured Silas to the barn under the pretext of a storm concern. Finch entered via the spare key, Dottie struck Silas with the fence post mallet, and together they staged the loft fall and set the watch back using Finch's clockwork knowledge. Roy Pruitt's presence — heard but unseen — had been anticipated and counted on to muddy the investigation. The partially burned letter undid everything. Both women were convicted in Guymon in the spring of 1936."
+  }
+}
