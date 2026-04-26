@@ -369,7 +369,7 @@ html,body{
   position:absolute;top:50%;left:50%;
   transform:translate(-50%,-50%);
   font-family:system-ui,-apple-system,"Segoe UI","Trebuchet MS",sans-serif;font-weight:900;
-  color:var(--td);font-size:20px;margin-top:6px;
+  color:var(--td);font-size:20px;margin-top:0;line-height:1;
 }
 
 .gm-cat{
@@ -1033,10 +1033,11 @@ const G = {
     this.updateScoreDisplay();
     this.updateStreakDisplay();
 
-    setTimeout(() => this.showFeedback(isCorrect, points, chosen, correct, prevStreak), isCorrect ? 900 : 1200);
+    const questionSnapshot = this.current;
+    setTimeout(() => this.showFeedback(isCorrect, points, chosen, correct, prevStreak, questionSnapshot), isCorrect ? 900 : 1200);
   },
 
-  showFeedback(isCorrect, points, chosen, correct, prevStreak) {
+  showFeedback(isCorrect, points, chosen, correct, prevStreak, questionSnapshot) {
     const hero = document.getElementById('fb-hero');
     hero.className = 'fb-hero ' + (isCorrect ? 'correct' : 'wrong');
     hero.setAttribute('data-symbol', isCorrect ? '✓' : '✕');
@@ -1056,7 +1057,7 @@ const G = {
       document.getElementById('fb-reveal-box').style.display = 'none';
     } else {
       document.getElementById('fb-pts').innerHTML = prevStreak > 0
-        ? `Streak of <span style="text-decoration:line-through;color:#FFB07080;">${prevStreak}</span> lost`
+        ? `Streak of <span style="text-decoration:line-through;color:#FFB07080;font-size:inherit;font-weight:inherit;">${prevStreak}</span> lost`
         : chosen ? `Wrong answer` : `Time's up!`;
       document.getElementById('fb-streak-msg').style.display = 'none';
 
@@ -1076,10 +1077,10 @@ const G = {
     // Did You Know
     const dyk = document.getElementById('dyk-box');
     const dykTxt = document.getElementById('dyk-text');
-    if (this.current && this.current.fact) {
+    if (questionSnapshot && questionSnapshot.fact) {
       dyk.className = 'dyk-box ' + (isCorrect ? 'correct' : 'wrong');
       dyk.style.display = 'block';
-      dykTxt.textContent = this.current.fact;
+      dykTxt.textContent = questionSnapshot.fact;
     } else {
       dyk.style.display = 'none';
     }
