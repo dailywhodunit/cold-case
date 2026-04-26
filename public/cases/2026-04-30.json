@@ -1,0 +1,160 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "A geisha is dead. A rival stands accused. But the evidence was placed too perfectly. 🏮🔍 Case #040 — The Weight of Silk. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: someone was framed for murder in a 1912 Kyoto geisha house — and the real killer is still inside. Daily deduction puzzle, new case every day. Can you solve it? thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a traditional Kyoto ochaya teahouse in 1912, low candlelight casting warm amber across tatami floors and silk screens. A red silk obi sash lies draped across a lacquered writing table. Cherry blossom petals visible through a paper shoji screen. Deep shadows in the corners. Color palette: deep indigo, warm amber, ivory, vermillion. Cinematic and painterly, style of Hiroshi Yoshida meets Toulouse-Lautrec.",
+    "animationPrompt": "Slow pan across a candlelit tatami room in a 1912 Kyoto geisha house. A silk shoji screen shifts slightly in an unseen draft. The candle flame bends once — something passed by. Hold on a red obi sash coiled on the lacquered table, one end trailing toward the shadows. Fade to black.",
+    "hashtags": ["#KyotoMystery", "#GeishaHouseMurder", "#MysteryGame", "#BrainTeaser", "#EscapeRoom"]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "The Weight of Silk",
+    "setting": "Hanamachi Ochaya · Gion District · Kyoto · 1912",
+    "emoji": "🏮",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Maiko Suzume was found dead in the receiving room of the Tsurugiku ochaya before dawn. Her rival, the senior geisha Hanako, stands accused — a damning fan bearing her name was found beneath the body. But the okasan who runs the house is not convinced. The evidence feels arranged.",
+    "emptyState": "The fan was placed. Find who placed it.",
+    "categories": [
+      {"key": "suspect", "label": "Suspect", "icon": "🎭", "items": [
+        {"name": "Hanako", "icon": "🪭", "detail": "Senior geisha, publicly humiliated by Suzume one month prior."},
+        {"name": "Kenji Mori", "icon": "🎋", "detail": "Wealthy merchant patron whose affections Suzume had redirected."},
+        {"name": "Okasan Yuri", "icon": "🏮", "detail": "The house mother who controls every contract and debt in the ochaya."}
+      ]},
+      {"key": "location", "label": "Location", "icon": "📍", "items": [
+        {"name": "The Receiving Room", "icon": "🏯", "detail": "Where Suzume's body was found, adjacent to the garden."},
+        {"name": "The Dressing Chamber", "icon": "🪞", "detail": "Where geisha prepare — accessible from the inner corridor."},
+        {"name": "The Garden Pavilion", "icon": "🌸", "detail": "An open-sided structure used for private entertainment."}
+      ]},
+      {"key": "weapon", "label": "Weapon", "icon": "⚔️", "items": [
+        {"name": "Silk Obi Sash", "icon": "🎀", "detail": "A formal sash of sufficient length and strength to strangle."},
+        {"name": "Lacquered Tray", "icon": "🍱", "detail": "A heavy serving tray found overturned near the body."},
+        {"name": "Decorative Hairpin", "icon": "📌", "detail": "A long ornamental kanzashi pin capable of causing a fatal wound."}
+      ]}
+    ],
+    "clues": [
+      {"id": "R1", "type": "physical", "icon": "🪭", "heading": "The Planted Fan", "text": "Hanako's personal fan was found beneath Suzume's body. However, Hanako reports the fan was stolen from her dressing room three days before the murder. The okasan confirms she saw the fan in Hanako's possession on the evening prior — then missing the following morning.", "alone": "The fan bearing Hanako's name was stolen before the murder — it was planted, not dropped.", "links": [{"with": "R5", "insight": "The stolen fan planted beneath the body and Kenji Mori's private access to the dressing chamber confirm he had both the means to steal the fan and the motive to frame Hanako for Suzume's death."}]},
+      {"id": "R2", "type": "forensic", "icon": "🎀", "heading": "Ligature Evidence", "text": "The physician's examination confirms Suzume died by strangulation. The silk obi found near the body bears the distinctive indigo dye pattern of a Nishijin weave — the same weave used exclusively in garments commissioned by Okasan Yuri for the house's senior entertainers.", "alone": "The murder weapon was a house obi — belonging to the ochaya's own senior garment stock, not brought from outside.", "links": [{"with": "R6", "insight": "The obi belonging to the house's senior garment stock and Kenji Mori's documented access to the inner corridor the night of the death confirm he could reach both the obi storage and the receiving room without passing any witness."}]},
+      {"id": "R3", "type": "witness", "icon": "👁️", "heading": "Hanako's Whereabouts", "text": "Two junior maiko confirm Hanako retired to her room before the Hour of the Rat — approximately 11 pm — and did not leave until dawn prayers. The paper shoji to her room remained lit with her lamp until well past midnight, visible from the inner courtyard.", "alone": "Hanako has a confirmed alibi for the window of death — two witnesses and a visible lamp account for her presence.", "links": [{"with": "R7", "insight": "Hanako's confirmed alibi placing her in her room all night and Kenji Mori's absence from the patron records after the Hour of the Boar together confirm Mori had unaccounted time during which Suzume was killed."}]},
+      {"id": "R4", "type": "document", "icon": "📄", "heading": "The Contract Dispute", "text": "House records show Suzume had petitioned Okasan Yuri to reassign Kenji Mori as her exclusive patron — transferring him from Hanako's register. The petition was granted two weeks prior. Mori's payments to Hanako had ceased; his considerable debt to the ochaya for Suzume's contract remained unpaid.", "alone": "Kenji Mori lost Hanako as his registered geisha and accumulated debt through Suzume's contract — he had financial grievance against Suzume.", "links": [{"with": "R8", "insight": "Mori's financial grievance over Suzume's contract and the ink stain on his sleeve matching the ochaya's writing desk confirm he was in the receiving room that night and staged the scene before departing."}]},
+      {"id": "R5", "type": "physical", "icon": "🚪", "heading": "The Dressing Room Entry", "text": "The dressing chamber where Hanako's fan was stolen adjoins the patron waiting alcove via a sliding panel — a passage known to regular visitors. Kenji Mori had used this passage previously when retrieving a forgotten item during an earlier visit, as witnessed by a serving girl.", "alone": "Kenji Mori knew about and had used the private passage to the dressing chamber — placing him in a position to steal Hanako's fan.", "links": [{"with": "R1", "insight": "The stolen fan planted beneath the body and Kenji Mori's private access to the dressing chamber confirm he had both the means to steal the fan and the motive to frame Hanako for Suzume's death."}]},
+      {"id": "R6", "type": "physical", "icon": "🌸", "heading": "The Garden Gate", "text": "The garden gate connecting the ochaya's rear garden to the lane outside was found unlatched from the inside on the morning of the discovery. Patron records show Kenji Mori signed in through the front entrance that evening but no corresponding sign-out entry exists.", "alone": "Mori entered through the front and exited through the unlatched garden gate — his departure was deliberately unrecorded.", "links": [{"with": "R2", "insight": "The obi belonging to the house's senior garment stock and Kenji Mori's documented access to the inner corridor the night of the death confirm he could reach both the obi storage and the receiving room without passing any witness."}]},
+      {"id": "R7", "type": "witness", "icon": "🍵", "heading": "The Tea Server's Account", "text": "A serving girl recalls bringing tea to the receiving room at the Hour of the Boar — approximately 10 pm — and seeing Kenji Mori and Suzume together. She did not see him depart. When she returned to collect the tray after the Hour of the Rat, the room was dark and she assumed the evening had concluded.", "alone": "Mori was confirmed present with Suzume at 10 pm and his departure was never witnessed — he had unaccounted time in the ochaya after that point.", "links": [{"with": "R3", "insight": "Hanako's confirmed alibi placing her in her room all night and Kenji Mori's absence from the patron records after the Hour of the Boar together confirm Mori had unaccounted time during which Suzume was killed."}]},
+      {"id": "R8", "type": "forensic", "icon": "✒️", "heading": "The Ink Stain", "text": "A distinctive smear of crimson ink — the same shade used in the ochaya's formal contract ledger kept on the receiving room's writing desk — was found on the inner cuff of Kenji Mori's kimono sleeve when he was examined the following morning. He claimed he had not entered the receiving room.", "alone": "Mori has ink from the receiving room's desk on his sleeve despite claiming he never entered — he was in that room and lied about it.", "links": [{"with": "R4", "insight": "Mori's financial grievance over Suzume's contract and the ink stain on his sleeve matching the ochaya's writing desk confirm he was in the receiving room that night and staged the scene before departing."}]}
+    ],
+    "solution": {"suspect": "Kenji Mori", "location": "The Receiving Room", "weapon": "Silk Obi Sash"},
+    "epilogue": "Kenji Mori had planned the killing for two weeks — ever since Suzume's contract transfer left him in debt and without a registered geisha. He stole Hanako's fan three days prior, waited until the serving girl's rounds were complete, strangled Suzume with a house obi, planted the fan beneath the body, and slipped out through the garden gate. The ink stain on his sleeve — from reaching across the writing desk to position the body — was the detail he had not anticipated. He was remanded to the prefectural court and convicted the following spring."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "The Weight of Silk",
+    "setting": "Hanamachi Ochaya · Gion District · Kyoto · 1912",
+    "emoji": "🏮",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Suzume is dead, Hanako is accused, and the evidence against her is almost too clean. Someone with intimate knowledge of the ochaya's routines placed that fan, chose that weapon, and timed their departure perfectly. The question is not whether Hanako is innocent — it is who needed her to look guilty.",
+    "emptyState": "The frame was built with care. Dismantle it piece by piece.",
+    "categories": [
+      {"key": "suspect", "label": "Suspect", "icon": "🎭", "items": [
+        {"name": "Hanako", "icon": "🪭", "detail": "Senior geisha, publicly humiliated, her fan found at the scene."},
+        {"name": "Kenji Mori", "icon": "🎋", "detail": "Patron in debt, present that evening, departure unrecorded."},
+        {"name": "Okasan Yuri", "icon": "🏮", "detail": "House mother, controls all contracts, knew every routine."},
+        {"name": "Daisuke Ito", "icon": "⚖️", "detail": "Rival patron who lost Suzume's favour to Mori six months prior."}
+      ]},
+      {"key": "location", "label": "Location", "icon": "📍", "items": [
+        {"name": "The Receiving Room", "icon": "🏯", "detail": "Primary crime scene — body found here at dawn."},
+        {"name": "The Dressing Chamber", "icon": "🪞", "detail": "Where Hanako's fan was stolen three days before the murder."},
+        {"name": "The Garden Pavilion", "icon": "🌸", "detail": "Private space — used by Mori and Suzume in prior visits."},
+        {"name": "The Inner Corridor", "icon": "🚪", "detail": "Connects all private rooms — no public access after the Hour of the Dog."}
+      ]},
+      {"key": "weapon", "label": "Weapon", "icon": "⚔️", "items": [
+        {"name": "Silk Obi Sash", "icon": "🎀", "detail": "House obi — Nishijin weave, stored in the senior garment chest."},
+        {"name": "Lacquered Tray", "icon": "🍱", "detail": "Heavy serving tray found overturned near the body."},
+        {"name": "Decorative Hairpin", "icon": "📌", "detail": "Long ornamental kanzashi capable of a fatal wound."},
+        {"name": "Ceramic Tea Bowl", "icon": "🍵", "detail": "Shattered bowl found beside the body — possible blunt force."}
+      ]},
+      {"key": "window", "label": "Time Window", "icon": "⏱️", "items": [
+        {"name": "Before the Hour of the Rat", "icon": "🌙", "detail": "Before 11 pm — guests still present, serving staff active."},
+        {"name": "Hour of the Rat", "icon": "🕚", "detail": "11 pm to 1 am — most staff retired, corridors empty."},
+        {"name": "Hour of the Ox", "icon": "🕐", "detail": "1 am to 3 am — deep night, only the gate warden on duty."},
+        {"name": "Before Dawn Prayers", "icon": "🌅", "detail": "3 am to 5 am — the body was discovered at this hour."}
+      ]}
+    ],
+    "clues": [
+      {"id": "D1", "type": "physical", "icon": "🪭", "heading": "The Stolen Fan", "text": "Hanako's fan — bearing her personal mon crest — was found beneath Suzume's body. The okasan and a junior maiko both confirm the fan went missing from Hanako's dressing stand three days before the murder. A serving girl saw Kenji Mori near the dressing chamber passage two days before the death.", "alone": "The fan was stolen before the murder and Mori was seen near the passage to the dressing chamber — he had access and opportunity to take it.", "links": [{"with": "D5", "insight": "Mori seen near the dressing passage two days before the murder and the fan going missing from Hanako's stand confirm he stole the fan in preparation for framing her — the frameup was premeditated, not opportunistic."}]},
+      {"id": "D2", "type": "forensic", "icon": "🎀", "heading": "The Obi and the Chest", "text": "The silk obi used as the ligature is confirmed as a house garment from the senior chest in the inner corridor storage alcove. The chest is unlocked after the Hour of the Dog when senior geisha may retrieve garments for late engagements. Only the okasan, senior geisha, and recognized patrons with inner corridor access could reach it.", "alone": "The murder weapon came from a locked senior chest — only someone with inner corridor access after 8 pm could have retrieved it.", "links": [{"with": "D6", "insight": "The obi sourced from the inner corridor chest and the tea server's account placing Mori in the inner corridor at the Hour of the Boar confirm he had access to the weapon's location before the murder occurred."}]},
+      {"id": "D3", "type": "witness", "icon": "👁️", "heading": "Hanako's Confirmed Alibi", "text": "Two junior maiko share a room adjacent to Hanako's and confirm her lamp remained lit and her voice was heard humming past the Hour of the Rat. A third witness — the gate warden — confirms the inner corridor door near Hanako's room remained undisturbed throughout his watch from midnight onward.", "alone": "Three independent witnesses account for Hanako's presence in her room from 11 pm through dawn — her alibi is airtight.", "links": [{"with": "D7", "insight": "Hanako's three-witness alibi accounting for her from 11 pm onward and Mori's last confirmed sighting at the Hour of the Boar with no recorded departure confirm the murder occurred during Mori's unwitnessed window."}]},
+      {"id": "D4", "type": "document", "icon": "📄", "heading": "The Contract and the Debt", "text": "The ochaya's formal ledger records Suzume's petition to transfer Kenji Mori from Hanako's register to her own. The transfer was granted and left Mori with an outstanding debt of forty-two yen to the house — equivalent to four months' patron fees. A separate notation shows Mori had threatened to withdraw entirely if the debt was not renegotiated.", "alone": "Mori was in significant debt to the ochaya and had threatened to withdraw — Suzume's contract transfer was the source of his financial and personal humiliation.", "links": [{"with": "D8", "insight": "Mori's documented financial humiliation over Suzume's contract transfer and the crimson ink from the receiving room's desk on his sleeve confirm he entered that room with intent and staged the scene before departing through the garden gate."}]},
+      {"id": "D5", "type": "physical", "icon": "🚪", "heading": "The Panel Passage", "text": "The sliding panel connecting the patron alcove to the dressing chamber was found with a fresh scratch on its lower rail — consistent with being opened by someone unfamiliar with its mechanism. Regular geisha slide it smoothly from muscle memory. Mori had used it once before, witnessed, and would need to force it slightly.", "alone": "The fresh scratch on the panel passage confirms it was used recently by someone not accustomed to it — consistent with Mori's single prior use.", "links": [{"with": "D1", "insight": "Mori seen near the dressing passage two days before the murder and the fan going missing from Hanako's stand confirm he stole the fan in preparation for framing her — the frameup was premeditated, not opportunistic."}]},
+      {"id": "D6", "type": "witness", "icon": "🍵", "heading": "The Tea Server's Timing", "text": "The serving girl brought tea at the Hour of the Boar — 10 pm — and saw Mori and Suzume in the receiving room. She returned to collect the tray after the Hour of the Rat — 11 pm — and found the room dark and empty. She assumed the evening had concluded but heard no footsteps departing through the front corridor.", "alone": "Mori and Suzume were together at 10 pm — by 11 pm the room was dark and Mori had departed without using the front corridor.", "links": [{"with": "D2", "insight": "The obi sourced from the inner corridor chest and the tea server's account placing Mori in the inner corridor at the Hour of the Boar confirm he had access to the weapon's location before the murder occurred."}]},
+      {"id": "D7", "type": "physical", "icon": "🌿", "heading": "The Garden Gate", "text": "The rear garden gate was found unlatched from the inside at dawn. Garden sand near the gate shows a single set of geta sandal prints heading outward — the tread pattern matches the formal geta worn by male patrons. No prints return. Mori's departure through the front was never recorded.", "alone": "A patron exited through the garden gate using male formal sandals and never returned — Mori's front departure was never logged.", "links": [{"with": "D3", "insight": "Hanako's three-witness alibi accounting for her from 11 pm onward and Mori's last confirmed sighting at the Hour of the Boar with no recorded departure confirm the murder occurred during Mori's unwitnessed window."}]},
+      {"id": "D8", "type": "forensic", "icon": "✒️", "heading": "The Ink Stain", "text": "Crimson ink from the ochaya's formal ledger — kept on the receiving room's writing desk — was found on the inner cuff of Kenji Mori's kimono sleeve. The transfer requires leaning across the desk at a specific angle, consistent with reaching over the desk surface to position something on the floor beneath it.", "alone": "Mori has ledger ink on his sleeve consistent with leaning over the receiving room desk — the position matches placing the fan beneath the body.", "links": [{"with": "D4", "insight": "Mori's documented financial humiliation over Suzume's contract transfer and the crimson ink from the receiving room's desk on his sleeve confirm he entered that room with intent and staged the scene before departing through the garden gate."}]}
+    ],
+    "solution": {"suspect": "Kenji Mori", "location": "The Receiving Room", "weapon": "Silk Obi Sash", "window": "Hour of the Rat"},
+    "epilogue": "Kenji Mori killed Suzume during the Hour of the Rat — after the serving girl's final round and before the gate warden's midnight check. He retrieved the obi from the inner corridor chest, strangled Suzume, placed Hanako's stolen fan beneath the body, leaned across the desk to position it precisely — smearing ink on his sleeve — then departed through the garden gate whose sand recorded his exit. The window was narrow and deliberate. The ink stain was not."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #040",
+    "title": "The Weight of Silk",
+    "setting": "Hanamachi Ochaya · Gion District · Kyoto · 1912",
+    "emoji": "🏮",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The frameup was sophisticated. The fan, the obi, the timing — all chosen by someone who understood the ochaya's rhythms deeply. But there is a second thread: Okasan Yuri had her own reason to want Suzume gone, and her own reason to want Hanako blamed. The question is whether one man acted alone, or whether the house mother opened the door.",
+    "emptyState": "Two people wanted Suzume dead. Only one of them killed her.",
+    "categories": [
+      {"key": "suspect", "label": "Suspect", "icon": "🎭", "items": [
+        {"name": "Kenji Mori", "icon": "🎋", "detail": "Patron in debt, ink on sleeve, departed through garden gate."},
+        {"name": "Hanako", "icon": "🪭", "detail": "Senior geisha, framed — but held a secret of her own."},
+        {"name": "Okasan Yuri", "icon": "🏮", "detail": "House mother — controlled every door, key, and contract."},
+        {"name": "Daisuke Ito", "icon": "⚖️", "detail": "Rival patron, rejected by Suzume, arrived unannounced that evening."},
+        {"name": "Hana-no-Mae", "icon": "🌸", "detail": "Senior maiko who stood to inherit Suzume's patron contracts."}
+      ]},
+      {"key": "location", "label": "Location", "icon": "📍", "items": [
+        {"name": "The Receiving Room", "icon": "🏯", "detail": "Primary crime scene — body found at dawn, fan planted beneath."},
+        {"name": "The Dressing Chamber", "icon": "🪞", "detail": "Fan was stolen here three days prior via the panel passage."},
+        {"name": "The Garden Pavilion", "icon": "🌸", "detail": "Mori and Suzume's private space — used earlier that evening."},
+        {"name": "The Inner Corridor", "icon": "🚪", "detail": "Connects all private rooms — obi chest stored here."},
+        {"name": "The Okasan's Office", "icon": "📜", "detail": "Where contracts are kept — and where a second key is stored."}
+      ]},
+      {"key": "weapon", "label": "Weapon", "icon": "⚔️", "items": [
+        {"name": "Silk Obi Sash", "icon": "🎀", "detail": "House obi from the senior chest — used as the ligature."},
+        {"name": "Lacquered Tray", "icon": "🍱", "detail": "Heavy tray, overturned near the body — possible staging prop."},
+        {"name": "Decorative Hairpin", "icon": "📌", "detail": "Long kanzashi — Suzume's own, found displaced from her hair."},
+        {"name": "Ceramic Tea Bowl", "icon": "🍵", "detail": "Shattered bowl — secondary struggle or deliberate distraction."},
+        {"name": "Poison in the Tea", "icon": "☕", "detail": "The tea consumed that evening — physician found trace anomalies."}
+      ]},
+      {"key": "access", "label": "Access Method", "icon": "🗝️", "items": [
+        {"name": "Panel Passage", "icon": "🚪", "detail": "Sliding panel from patron alcove to dressing chamber."},
+        {"name": "Garden Gate", "icon": "🌿", "detail": "Rear gate, unlatched from inside — used for covert exit."},
+        {"name": "Inner Corridor Key", "icon": "🔑", "detail": "A second key to the inner corridor held in the okasan's office."},
+        {"name": "Okasan's Permission", "icon": "📜", "detail": "Yuri could grant any patron extended inner access verbally."},
+        {"name": "Roof Passage", "icon": "🏯", "detail": "A maintenance crawl above the receiving room — known to staff only."}
+      ]},
+      {"key": "accomplice", "label": "Accomplice Role", "icon": "🤝", "items": [
+        {"name": "Unlocked the Inner Corridor", "icon": "🔑", "detail": "Provided or left unlocked the access needed to reach the obi chest."},
+        {"name": "Staged the Fan", "icon": "🪭", "detail": "Placed Hanako's stolen fan beneath the body after the killing."},
+        {"name": "Delayed the Discovery", "icon": "⏳", "detail": "Ensured no one checked the receiving room until dawn."},
+        {"name": "Provided the Alibi", "icon": "🗣️", "detail": "Confirmed false information about the timeline or presence of others."},
+        {"name": "Sourced the Obi", "icon": "🎀", "detail": "Retrieved or identified the weapon from the senior garment chest."}
+      ]}
+    ],
+    "clues": [
+      {"id": "I1", "type": "physical", "icon": "🪭", "heading": "The Fan's Journey", "text": "Hanako's fan disappeared three days before the murder. The dressing chamber panel passage shows a fresh scratch from Mori's prior use. But a second set of smudged fingerprints on the fan's lacquered guard — smaller than Mori's, consistent with a woman's hand — suggests the fan was handled by someone else before being placed beneath the body.", "alone": "Mori stole the fan but a woman's hand also touched it — a second person handled the fan after it was taken.", "links": [{"with": "I5", "insight": "A woman's fingerprints on the fan and Okasan Yuri's documented presence in the receiving room after the Hour of the Rat confirm she handled the fan and positioned it beneath the body — she staged the scene after Mori fled."}]},
+      {"id": "I2", "type": "forensic", "icon": "🎀", "heading": "Two Hands on the Obi", "text": "Forensic examination of the obi reveals two distinct grip patterns in the fabric's distortion: a wide-handed grip consistent with a large male hand consistent with Mori, and a second tighter grip pattern at the opposite end consistent with a smaller hand steadying the sash. Suzume did not resist — she was incapacitated first.", "alone": "Two people gripped the obi — Suzume was killed by two sets of hands, not one.", "links": [{"with": "I6", "insight": "Two grip patterns on the obi and the physician's finding of a sedative trace in the tea together confirm Suzume was first incapacitated by poison in her tea and then strangled by two people working in concert."}]},
+      {"id": "I3", "type": "witness", "icon": "👁️", "heading": "Daisuke Ito's Arrival", "text": "The gate warden confirms Daisuke Ito arrived unannounced at the Hour of the Dog — 8 pm — and was turned away by the okasan personally. A junior maiko overheard Ito say to Yuri before leaving: 'You promised me she would be gone by the new moon.' Yuri denied the exchange when questioned.", "alone": "Ito spoke to Yuri about Suzume being gone by the new moon — suggesting a prior arrangement between the two that Yuri denied.", "links": [{"with": "I7", "insight": "Ito's overheard reference to an arrangement with Yuri about Suzume being gone and the inner corridor key log showing Yuri held the spare key all night confirm she facilitated Mori's access to the obi chest as part of a coordinated plan."}]},
+      {"id": "I4", "type": "document", "icon": "📄", "heading": "The Hidden Contract", "text": "A secondary ledger found locked in Yuri's office desk records a private arrangement: Daisuke Ito had paid Yuri a retainer of one hundred yen — three months prior — to arrange Suzume's departure from the ochaya by any necessary means. The entry is initialed by Yuri and dated.", "alone": "Yuri accepted payment from Ito to arrange Suzume's removal — she had a financial contract to facilitate the death.", "links": [{"with": "I8", "insight": "Yuri's written contract with Ito to remove Suzume and her deliberate creation of an unmonitored corridor window confirm she orchestrated the killing and actively managed the conditions under which it took place."}]},
+      {"id": "I5", "type": "forensic", "icon": "✒️", "heading": "The Ink and the Position", "text": "The crimson ink on Mori's sleeve is on his right inner cuff — consistent with reaching across the desk from the left side. But the fan beneath the body was positioned under Suzume's left shoulder — reachable only from the right side of the desk. The ink transfer and the fan placement could not have been performed in the same motion by one person.", "alone": "The ink stain and the fan position require two separate people approaching the desk from opposite sides — one placed the body, one placed the fan.", "links": [{"with": "I1", "insight": "A woman's fingerprints on the fan and Okasan Yuri's documented presence in the receiving room after the Hour of the Rat confirm she handled the fan and positioned it beneath the body — she staged the scene after Mori fled."}]},
+      {"id": "I6", "type": "forensic", "icon": "☕", "heading": "The Tea Analysis", "text": "The physician's full report notes an anomalous bitter compound in the residue of Suzume's tea bowl — consistent with powdered bark of the torikabuto plant, a known sedative used in small doses by traditional physicians. Yuri keeps a locked medicine cabinet in her office. One vial of torikabuto powder is missing from the inventory.", "alone": "Suzume's tea was laced with a sedative sourced from Yuri's own medicine cabinet — she was incapacitated before the obi was applied.", "links": [{"with": "I2", "insight": "Two grip patterns on the obi and the physician's finding of a sedative trace in the tea together confirm Suzume was first incapacitated by poison in her tea and then strangled by two people working in concert."}]},
+      {"id": "I7", "type": "document", "icon": "📋", "heading": "The Corridor Key Log", "text": "The inner corridor key log — maintained by the gate warden — shows the spare key was signed out by Okasan Yuri at the Hour of the Dog and not returned until dawn. Yuri claimed she used it to check the garment chest inventory before retiring. The warden confirms she did not return the key to its hook until after the body was discovered.", "alone": "Yuri held the inner corridor spare key all night — she had unrestricted access to the obi chest, the receiving room, and every private passage until dawn.", "links": [{"with": "I3", "insight": "Ito's overheard reference to an arrangement with Yuri about Suzume being gone and the inner corridor key log showing Yuri held the spare key all night confirm she facilitated Mori's access and retained control of the scene throughout."}]},
+      {"id": "I8", "type": "witness", "icon": "🌙", "heading": "The Gate Warden's Gap", "text": "The gate warden confirms he was sent by Yuri to check the outer garden wall at the Hour of the Rat — an unusual task, as the wall check is normally done at dusk. This left the inner corridor unmonitored for approximately twenty minutes. It was during this window that the tea server heard no footsteps from the receiving room corridor.", "alone": "Yuri deliberately sent the gate warden away during the Hour of the Rat — creating an unmonitored window precisely when the murder occurred.", "links": [{"with": "I4", "insight": "Yuri's written contract with Ito to remove Suzume and her deliberate creation of an unmonitored corridor window confirm she orchestrated the killing and actively managed the conditions under which it took place."}]}
+    ],
+    "solution": {"suspect": "Kenji Mori", "location": "The Receiving Room", "weapon": "Silk Obi Sash", "access": "Inner Corridor Key", "accomplice": "Unlocked the Inner Corridor"},
+    "epilogue": "Okasan Yuri had taken Daisuke Ito's money and made a plan. She laced Suzume's tea with torikabuto, gave Mori the spare inner corridor key so he could retrieve the obi, sent the gate warden on a false errand during the Hour of the Rat, and staged Hanako's fan beneath the body after Mori fled through the garden gate. Mori killed Suzume. Yuri built the frame. Ito paid for both. All three were convicted — Mori for murder, Yuri as accessory, Ito for criminal conspiracy. The Tsurugiku ochaya closed the following autumn."
+  }
+}
