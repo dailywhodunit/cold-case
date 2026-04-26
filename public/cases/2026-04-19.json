@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Studio Death Blues",
+    "tier": "rookie",
+    "setting": "Recording Studio · Memphis · 1956",
+    "emoji": "🎙️",
+    "flavor": "The session was supposed to be the breakthrough hit that would change everything. Now the only sound echoing through Sun Records is the silence of death.",
+    "emptyState": "The music died with him in Studio B.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dewey Phillips",
+            "icon": "📻",
+            "detail": "Popular radio DJ who discovered the victim"
+          },
+          {
+            "name": "Maybelle Carter",
+            "icon": "🎸",
+            "detail": "Session guitarist and the victim's secret lover"
+          },
+          {
+            "name": "Colonel Tom Parker",
+            "icon": "🎪",
+            "detail": "Talent manager seeking new acts to represent"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Microphone Stand",
+            "icon": "🎤",
+            "detail": "Heavy chrome stand from the recording booth"
+          },
+          {
+            "name": "Guitar String",
+            "icon": "🎸",
+            "detail": "Steel string fashioned into a garrote"
+          },
+          {
+            "name": "Vinyl Record",
+            "icon": "💿",
+            "detail": "Sharp-edged acetate test pressing"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Control Room",
+            "icon": "🎚️",
+            "detail": "Soundproofed booth with mixing equipment"
+          },
+          {
+            "name": "Recording Studio",
+            "icon": "🎙️",
+            "detail": "Main performance space with instruments"
+          },
+          {
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Back room filled with amplifiers and cables"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "💄",
+        "heading": "Lipstick Stain",
+        "text": "A distinctive coral lipstick mark is found on the victim's collar. Only one woman was in the studio that night.",
+        "alone": "The victim was intimate with someone shortly before death.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Maybelle's lipstick matches the stain on the victim's collar, proving she was close enough to kill him."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👂",
+        "heading": "Radio Confession",
+        "text": "Dewey Phillips was heard arguing with the victim about airplay rights. He threatened to 'end his career permanently.'",
+        "alone": "Dewey made a threatening statement against the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Despite his threats, Dewey was broadcasting live when the murder occurred, clearing him completely."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🎪",
+        "heading": "Contract Dispute",
+        "text": "Colonel Parker had prepared an exclusive management contract. The victim's refusal cost Parker a fortune in potential earnings.",
+        "alone": "Colonel Parker had strong financial motive to harm the victim.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Colonel Parker was meeting with other artists across town when the murder happened, eliminating him as the killer."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensic",
+        "icon": "🎸",
+        "heading": "Broken String",
+        "text": "A snapped guitar string with blood traces is found near the victim's body. The wound pattern matches strangulation.",
+        "alone": "A guitar string was the murder weapon.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The bloody guitar string found in the recording studio confirms both the weapon and location of the murder."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "personal",
+        "icon": "💋",
+        "heading": "Coral Shade",
+        "text": "Maybelle Carter's makeup case contains the exact coral lipstick shade found on the victim. She's the only woman present.",
+        "alone": "Maybelle owns the lipstick that marked the victim.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Maybelle's lipstick matches the stain on the victim's collar, proving she was close enough to kill him."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "📻",
+        "heading": "Live Broadcast",
+        "text": "Radio station logs confirm Dewey Phillips was on-air during the murder timeframe. Thousands heard his voice live.",
+        "alone": "Dewey has an ironclad alibi for the murder time.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Despite his threats, Dewey was broadcasting live when the murder occurred, clearing him completely."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "🎭",
+        "heading": "Artist Meeting",
+        "text": "Colonel Parker was across town signing another act when the murder occurred. Multiple witnesses confirm his presence there.",
+        "alone": "Colonel Parker has witnesses placing him elsewhere during the murder.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Colonel Parker was meeting with other artists across town when the murder happened, eliminating him as the killer."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "scene",
+        "icon": "🎙️",
+        "heading": "Studio Floor",
+        "text": "The victim's body was discovered in the main recording studio. Blood spatter indicates he died where he fell.",
+        "alone": "The murder took place in the recording studio.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The bloody guitar string found in the recording studio confirms both the weapon and location of the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maybelle Carter",
+      "weapon": "Guitar String",
+      "location": "Recording Studio"
+    },
+    "epilogue": "Maybelle Carter killed her secret lover in a moment of passion when he threatened to end their affair to protect his rising career. She used her own guitar string as the weapon, a tragic irony for the woman who helped create his sound. The coral lipstick that marked him as hers became the evidence that sealed her fate. Their forbidden love, hidden in late-night recording sessions, ended in the very studio where their romance began."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Studio Death Blues",
+    "tier": "detective",
+    "setting": "Recording Studio · Memphis · 1956",
+    "emoji": "🎙️",
+    "flavor": "The session was supposed to be the breakthrough hit that would change everything. Now the only sound echoing through Sun Records is the silence of death.",
+    "emptyState": "The music died with him in Studio B.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dewey Phillips",
+            "icon": "📻",
+            "detail": "Popular radio DJ who discovered the victim"
+          },
+          {
+            "name": "Maybelle Carter",
+            "icon": "🎸",
+            "detail": "Session guitarist and the victim's secret lover"
+          },
+          {
+            "name": "Colonel Tom Parker",
+            "icon": "🎪",
+            "detail": "Talent manager seeking new acts to represent"
+          },
+          {
+            "name": "Sam Phillips",
+            "icon": "🎚️",
+            "detail": "Studio owner and record producer"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Microphone Stand",
+            "icon": "🎤",
+            "detail": "Heavy chrome stand from the recording booth"
+          },
+          {
+            "name": "Guitar String",
+            "icon": "🎸",
+            "detail": "Steel string fashioned into a garrote"
+          },
+          {
+            "name": "Vinyl Record",
+            "icon": "💿",
+            "detail": "Sharp-edged acetate test pressing"
+          },
+          {
+            "name": "Amplifier Tube",
+            "icon": "⚡",
+            "detail": "Glass vacuum tube used as stabbing weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Control Room",
+            "icon": "🎚️",
+            "detail": "Soundproofed booth with mixing equipment"
+          },
+          {
+            "name": "Recording Studio",
+            "icon": "🎙️",
+            "detail": "Main performance space with instruments"
+          },
+          {
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Back room filled with amplifiers and cables"
+          },
+          {
+            "name": "Parking Lot",
+            "icon": "🚗",
+            "detail": "Dimly lit area behind the studio building"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:00-9:30 PM",
+            "icon": "🌙",
+            "detail": "During the scheduled recording session"
+          },
+          {
+            "name": "10:15-10:45 PM",
+            "icon": "🕙",
+            "detail": "After the session ended, cleanup time"
+          },
+          {
+            "name": "11:00-11:30 PM",
+            "icon": "🕚",
+            "detail": "Late night when studio was nearly empty"
+          },
+          {
+            "name": "12:00-12:30 AM",
+            "icon": "🕛",
+            "detail": "After midnight when building was locked"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "💄",
+        "heading": "Lipstick Evidence",
+        "text": "Coral lipstick traces are found on the victim's shirt collar. The shade matches Maybelle Carter's makeup exactly.",
+        "alone": "Maybelle was intimately close to the victim before his death.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Maybelle's guitar string and lipstick traces prove she was the killer who used her own instrument against him."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard",
+        "text": "Night security claims he saw Sam Phillips leaving the building around 11:15 PM, right after hearing raised voices.",
+        "alone": "A witness places Sam Phillips at the scene during the suspected murder time.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The security guard mistook someone else for Sam Phillips in the dim lighting - Sam was actually at home."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "🎚️",
+        "heading": "Recording Logs",
+        "text": "Studio logs show recording equipment was actively used until 10:30 PM. The victim was alive and working then.",
+        "alone": "The murder occurred after 10:30 PM when recording ended.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The recording logs and cleanup schedule confirm the murder happened during the 10:15-10:45 PM cleanup window."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "Blood Analysis",
+        "text": "Blood traces on a guitar string match the victim's type. The weapon shows signs of being tuned recently.",
+        "alone": "A recently used guitar string was the murder weapon.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The blood evidence and Dewey's solid radio alibi eliminate him completely despite his earlier threats."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "personal",
+        "icon": "🎸",
+        "heading": "Missing String",
+        "text": "Maybelle's guitar is missing its high E string. She claims it broke during the session but no broken pieces are found.",
+        "alone": "Maybelle's guitar string is missing under suspicious circumstances.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Maybelle's guitar string and lipstick traces prove she was the killer who used her own instrument against him."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "alibi",
+        "icon": "🏠",
+        "heading": "Phone Records",
+        "text": "Sam Phillips called home at 11:20 PM from his house phone. His wife confirms he arrived home by 9:45 PM.",
+        "alone": "Sam Phillips was home during the murder timeframe.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The security guard mistook someone else for Sam Phillips in the dim lighting - Sam was actually at home."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "timeline",
+        "icon": "🧹",
+        "heading": "Cleanup Schedule",
+        "text": "The janitor's timesheet shows equipment cleanup began at 10:15 PM. This is when staff had private studio access.",
+        "alone": "The 10:15-10:45 PM window provided private access to the studio.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The recording logs and cleanup schedule confirm the murder happened during the 10:15-10:45 PM cleanup window."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "alibi",
+        "icon": "📻",
+        "heading": "Live Broadcast",
+        "text": "Radio station confirms Dewey Phillips was broadcasting live from 10:00-11:00 PM. His voice was heard by thousands.",
+        "alone": "Dewey has an unbreakable alibi for the entire murder window.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The blood evidence and Dewey's solid radio alibi eliminate him completely despite his earlier threats."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maybelle Carter",
+      "weapon": "Guitar String",
+      "location": "Recording Studio",
+      "window": "10:15-10:45 PM"
+    },
+    "epilogue": "Maybelle Carter strangled her secret lover with her own guitar string during the cleanup window when they were alone together. The forbidden affair had become too dangerous for his rising career, and she couldn't bear losing him. Her coral lipstick marked him one last time as hers, while the missing string from her guitar became the murder weapon. The music that brought them together ultimately tore them apart in the most tragic way possible."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Studio Death Blues",
+    "tier": "inspector",
+    "setting": "Recording Studio · Memphis · 1956",
+    "emoji": "🎙️",
+    "flavor": "The session was supposed to be the breakthrough hit that would change everything. Now the only sound echoing through Sun Records is the silence of death.",
+    "emptyState": "The music died with him in Studio B.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dewey Phillips",
+            "icon": "📻",
+            "detail": "Popular radio DJ who discovered the victim"
+          },
+          {
+            "name": "Maybelle Carter",
+            "icon": "🎸",
+            "detail": "Session guitarist and the victim's secret lover"
+          },
+          {
+            "name": "Colonel Tom Parker",
+            "icon": "🎪",
+            "detail": "Talent manager seeking new acts to represent"
+          },
+          {
+            "name": "Sam Phillips",
+            "icon": "🎚️",
+            "detail": "Studio owner and record producer"
+          },
+          {
+            "name": "Johnny Cash",
+            "icon": "🤠",
+            "detail": "Rising country singer and studio regular"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Microphone Stand",
+            "icon": "🎤",
+            "detail": "Heavy chrome stand from the recording booth"
+          },
+          {
+            "name": "Guitar String",
+            "icon": "🎸",
+            "detail": "Steel string fashioned into a garrote"
+          },
+          {
+            "name": "Vinyl Record",
+            "icon": "💿",
+            "detail": "Sharp-edged acetate test pressing"
+          },
+          {
+            "name": "Amplifier Tube",
+            "icon": "⚡",
+            "detail": "Glass vacuum tube used as stabbing weapon"
+          },
+          {
+            "name": "Piano Wire",
+            "icon": "🎹",
+            "detail": "High-tension wire from the studio piano"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Control Room",
+            "icon": "🎚️",
+            "detail": "Soundproofed booth with mixing equipment"
+          },
+          {
+            "name": "Recording Studio",
+            "icon": "🎙️",
+            "detail": "Main performance space with instruments"
+          },
+          {
+            "name": "Equipment Storage",
+            "icon": "📦",
+            "detail": "Back room filled with amplifiers and cables"
+          },
+          {
+            "name": "Parking Lot",
+            "icon": "🚗",
+            "detail": "Dimly lit area behind the studio building"
+          },
+          {
+            "name": "Office",
+            "icon": "📋",
+            "detail": "Business office with contracts and files"
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏰",
+        "items": [
+          {
+            "name": "9:00-9:30 PM",
+            "icon": "🌙",
+            "detail": "During the scheduled recording session"
+          },
+          {
+            "name": "10:15-10:45 PM",
+            "icon": "🕙",
+            "detail": "After the session ended, cleanup time"
+          },
+          {
+            "name": "11:00-11:30 PM",
+            "icon": "🕚",
+            "detail": "Late night when studio was nearly empty"
+          },
+          {
+            "name": "12:00-12:30 AM",
+            "icon": "🕛",
+            "detail": "After midnight when building was locked"
+          },
+          {
+            "name": "1:00-1:30 AM",
+            "icon": "🌌",
+            "detail": "Deep night hours before discovery"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Professional Jealousy",
+            "icon": "👑",
+            "detail": "Resentment over the victim's sudden rise to fame"
+          },
+          {
+            "name": "Forbidden Love",
+            "icon": "💔",
+            "detail": "Secret affair threatened by victim's career ambitions"
+          },
+          {
+            "name": "Financial Revenge",
+            "icon": "💰",
+            "detail": "Anger over lost money and broken business deals"
+          },
+          {
+            "name": "Family Honor",
+            "icon": "⚖️",
+            "detail": "Protecting family reputation from scandal"
+          },
+          {
+            "name": "Musical Theft",
+            "icon": "🎵",
+            "detail": "Dispute over stolen songs and unpaid royalties"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "physical",
+        "icon": "💄",
+        "heading": "Coral Traces",
+        "text": "Coral lipstick smears on the victim's collar match Maybelle's shade exactly. The pattern suggests an intimate embrace.",
+        "alone": "Maybelle was physically close to the victim before his death.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Maybelle's missing guitar string and her lipstick on the victim prove she killed him with her own instrument."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Exit Sighting",
+        "text": "The security guard swears he saw Sam Phillips leaving through the back door at 10:40 PM, looking agitated.",
+        "alone": "A witness claims Sam Phillips was present during the murder timeframe.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The security guard mistook Maybelle for Sam Phillips due to similar height and clothing in the dark parking lot."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "💌",
+        "heading": "Love Letter",
+        "text": "A crumpled letter in Maybelle's handwriting begs the victim not to end their affair for his career.",
+        "alone": "Maybelle was desperate to continue her forbidden relationship with the victim.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Maybelle's desperate love letter and the victim's rejection establish her motive as forbidden love turned deadly."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "forensic",
+        "icon": "🔬",
+        "heading": "String Analysis",
+        "text": "Blood on a high E guitar string matches the victim. Microscopic analysis shows it was recently removed from an instrument.",
+        "alone": "A freshly removed guitar string was used as the murder weapon.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The guitar string murder weapon and Johnny Cash's presence reveal he helped Maybelle cover up the crime."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "personal",
+        "icon": "🎸",
+        "heading": "Broken Guitar",
+        "text": "Maybelle's guitar is missing its high E string. She nervously claims it snapped but produces no broken pieces.",
+        "alone": "Maybelle's guitar string is suspiciously missing with no explanation.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Maybelle's missing guitar string and her lipstick on the victim prove she killed him with her own instrument."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "timeline",
+        "icon": "🏠",
+        "heading": "Home Arrival",
+        "text": "Sam Phillips' wife confirms he arrived home by 9:30 PM and never left. Phone records support her statement.",
+        "alone": "Sam Phillips has a solid alibi placing him at home during the murder.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The security guard mistook Maybelle for Sam Phillips due to similar height and clothing in the dark parking lot."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "motive",
+        "icon": "💔",
+        "heading": "Career Ultimatum",
+        "text": "The victim told Maybelle their affair must end to protect his rising career. She begged him to reconsider.",
+        "alone": "The victim chose his career over his relationship with Maybelle.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Maybelle's desperate love letter and the victim's rejection establish her motive as forbidden love turned deadly."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "accomplice",
+        "icon": "🤠",
+        "heading": "Cleanup Help",
+        "text": "Johnny Cash's fingerprints are found on equipment moved after the murder. He helped stage the scene.",
+        "alone": "Johnny Cash was involved in covering up evidence after the murder.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The guitar string murder weapon and Johnny Cash's presence reveal he helped Maybelle cover up the crime."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maybelle Carter",
+      "weapon": "Guitar String",
+      "location": "Recording Studio",
+      "window": "10:15-10:45 PM",
+      "motive": "Forbidden Love"
+    },
+    "epilogue": "Maybelle Carter killed her secret lover with her own guitar string when he chose fame over their forbidden love affair. The intimacy that once bound them together - marked by her coral lipstick on his collar - became the weapon that destroyed them both. Johnny Cash discovered the aftermath and helped move equipment to protect Maybelle, his fellow musician and friend. In the end, the music that created their passion became the instrument of its destruction, played out in the very studio where their love story began."
+  }
+}

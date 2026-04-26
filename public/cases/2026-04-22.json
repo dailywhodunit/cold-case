@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "Desert Thunder",
+    "setting": "Air Force Base · Nevada · 1947",
+    "emoji": "✈️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "The atomic age has brought new secrets to the Nevada desert. When classified blueprints go missing and blood is found in the hangar, even the most trusted officers become suspects.",
+    "emptyState": "Top secret files don't steal themselves. Someone paid in blood.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Frank Morrison",
+            "icon": "🎖️",
+            "detail": "Base commander with access to all classified materials"
+          },
+          {
+            "name": "Captain Billy Hutchins",
+            "icon": "🧑‍✈️",
+            "detail": "Test pilot recently denied promotion after security review"
+          },
+          {
+            "name": "Lieutenant Rex Palmer",
+            "icon": "🔧",
+            "detail": "Aircraft mechanic who discovered the body this morning"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Standard issue .45 caliber military sidearm"
+          },
+          {
+            "name": "Aircraft Wrench",
+            "icon": "🔧",
+            "detail": "Heavy mechanic's tool found near the hangar"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📎",
+            "detail": "Brass opener from the base commander's desk"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hangar Seven",
+            "icon": "🏭",
+            "detail": "Classified aircraft storage with restricted access"
+          },
+          {
+            "name": "Command Office",
+            "icon": "🏢",
+            "detail": "Administrative building housing classified documents"
+          },
+          {
+            "name": "Motor Pool",
+            "icon": "🚗",
+            "detail": "Vehicle maintenance area behind the barracks"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Pattern Analysis",
+        "text": "Blood spatter on Hangar Seven's east wall shows impact from a blunt instrument. The pattern indicates the victim was struck from behind while facing the aircraft.",
+        "alone": "The killer used a blunt weapon in Hangar Seven.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The blood evidence and Palmer's wrench prove he killed Major Stevens in Hangar Seven with the aircraft wrench."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard Report",
+        "text": "Private Johnson saw Captain Hutchins arguing with Major Stevens near the motor pool at 2100 hours. Hutchins was shouting about his ruined career and unfair treatment.",
+        "alone": "Hutchins had a heated confrontation with the victim.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Hutchins argued with Stevens but his alibi during the murder proves he's not the killer."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Fingerprint Evidence",
+        "text": "Colonel Morrison's fingerprints are found on classified documents in Stevens' office. The papers were scattered as if someone searched through them hastily.",
+        "alone": "Morrison handled classified files in the victim's office.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Morrison's fingerprints are explained by his authorized review of the documents, eliminating him as suspect."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "Missing Tool",
+        "text": "Lieutenant Palmer reports his aircraft wrench missing from his toolbox. The heavy wrench matches the dimensions of the victim's head wound perfectly.",
+        "alone": "Palmer's wrench is the likely murder weapon.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Palmer's missing wrench and presence in Hangar Seven confirm he had weapon and opportunity."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "Tool Mark Analysis",
+        "text": "Metal filings from an aircraft wrench are embedded in Major Stevens' skull. The tool's distinctive grip pattern is imprinted in the wound.",
+        "alone": "An aircraft wrench was definitely the murder weapon.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The blood evidence and Palmer's wrench prove he killed Major Stevens in Hangar Seven with the aircraft wrench."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "📋",
+        "heading": "Flight Log Records",
+        "text": "Captain Hutchins was conducting night flight training from 2130 to 0030 hours. Tower control confirms continuous radio contact throughout his flight.",
+        "alone": "Hutchins has a solid alibi during the murder timeframe.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Hutchins argued with Stevens but his alibi during the murder proves he's not the killer."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "authorization",
+        "icon": "📄",
+        "heading": "Document Review Order",
+        "text": "Colonel Morrison's signed authorization shows he was conducting a routine security audit of Stevens' classified files. The review was scheduled for yesterday evening.",
+        "alone": "Morrison had legitimate reasons to access Stevens' documents.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Morrison's fingerprints are explained by his authorized review of the documents, eliminating him as suspect."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "timeline",
+        "icon": "⏰",
+        "heading": "Duty Roster Check",
+        "text": "Lieutenant Palmer was assigned overnight maintenance duty in Hangar Seven. He had unrestricted access to the crime scene during the murder window.",
+        "alone": "Palmer was present at the murder scene overnight.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Palmer's missing wrench and presence in Hangar Seven confirm he had weapon and opportunity."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Rex Palmer",
+      "weapon": "Aircraft Wrench",
+      "location": "Hangar Seven"
+    },
+    "epilogue": "Lieutenant Rex Palmer killed Major Stevens to cover up his theft of classified aircraft blueprints. Palmer had been selling secrets to foreign agents and Stevens discovered his treachery during a routine inspection. Cornered by exposure, Palmer struck Stevens with his own wrench in a moment of panic. The young mechanic's perfect crime unraveled when forensics matched the tool marks to his missing equipment."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "Desert Thunder",
+    "setting": "Air Force Base · Nevada · 1947",
+    "emoji": "✈️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The atomic age has brought new secrets to the Nevada desert. When classified blueprints go missing and blood is found in the hangar, even the most trusted officers become suspects.",
+    "emptyState": "Top secret files don't steal themselves. Someone paid in blood.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Frank Morrison",
+            "icon": "🎖️",
+            "detail": "Base commander with access to all classified materials"
+          },
+          {
+            "name": "Captain Billy Hutchins",
+            "icon": "🧑‍✈️",
+            "detail": "Test pilot recently denied promotion after security review"
+          },
+          {
+            "name": "Lieutenant Rex Palmer",
+            "icon": "🔧",
+            "detail": "Aircraft mechanic who discovered the body this morning"
+          },
+          {
+            "name": "Sergeant Earl Kowalski",
+            "icon": "🔐",
+            "detail": "Security chief responsible for classified document protection"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Standard issue .45 caliber military sidearm"
+          },
+          {
+            "name": "Aircraft Wrench",
+            "icon": "🔧",
+            "detail": "Heavy mechanic's tool found near the hangar"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📎",
+            "detail": "Brass opener from the base commander's desk"
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Emergency equipment from the hangar wall"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hangar Seven",
+            "icon": "🏭",
+            "detail": "Classified aircraft storage with restricted access"
+          },
+          {
+            "name": "Command Office",
+            "icon": "🏢",
+            "detail": "Administrative building housing classified documents"
+          },
+          {
+            "name": "Motor Pool",
+            "icon": "🚗",
+            "detail": "Vehicle maintenance area behind the barracks"
+          },
+          {
+            "name": "Security Station",
+            "icon": "🔒",
+            "detail": "Checkpoint controlling access to restricted areas"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🔑",
+            "detail": "Command-level access to all base facilities"
+          },
+          {
+            "name": "Maintenance Pass",
+            "icon": "🎫",
+            "detail": "Work authorization for overnight repairs"
+          },
+          {
+            "name": "Security Override",
+            "icon": "🔐",
+            "detail": "Emergency access code for restricted areas"
+          },
+          {
+            "name": "Stolen Keycard",
+            "icon": "💳",
+            "detail": "Missing access card from victim's pocket"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Spatter Pattern",
+        "text": "Blood on Hangar Seven's wall shows blunt force trauma. The impact angle indicates the victim was facing away when struck from behind.",
+        "alone": "The killer used a blunt weapon in a surprise attack.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The blood pattern and wrench forensics prove Lieutenant Palmer killed Stevens with his aircraft wrench in Hangar Seven."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Kowalski's Statement",
+        "text": "Sergeant Kowalski swears he saw Captain Hutchins entering Hangar Seven at 2200 hours. He remembers because Hutchins seemed agitated and was carrying something heavy.",
+        "alone": "Kowalski places Hutchins at the crime scene with an object.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Kowalski's testimony is proven false by the flight records, revealing he's lying about Hutchins' whereabouts."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🎫",
+        "heading": "Work Authorization",
+        "text": "Lieutenant Palmer's maintenance pass shows approval for overnight engine repairs in Hangar Seven. The pass was validated at 2100 hours.",
+        "alone": "Palmer had legitimate access to the murder location.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Palmer's work pass and missing keycard prove he used his maintenance authorization to access the hangar and kill Stevens."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "🔍",
+        "heading": "Fingerprint Analysis",
+        "text": "Colonel Morrison's prints are on classified files in Stevens' office. The documents appear to have been searched through systematically, not randomly.",
+        "alone": "Morrison handled the victim's classified documents recently.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Morrison's fingerprints and the authorization records prove he was conducting legitimate security business, not murder."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "Tool Mark Evidence",
+        "text": "Metal fragments in Stevens' wound match Palmer's missing aircraft wrench. The tool's serial number is etched into bone fragments found at the scene.",
+        "alone": "Palmer's wrench was definitely the murder weapon.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The blood pattern and wrench forensics prove Lieutenant Palmer killed Stevens with his aircraft wrench in Hangar Seven."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "timeline",
+        "icon": "📋",
+        "heading": "Flight Control Records",
+        "text": "Tower logs show Captain Hutchins was airborne from 2130 to 0030 hours. Radio transmissions confirm continuous contact throughout his night training flight.",
+        "alone": "Hutchins was flying during the entire murder window.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Kowalski's testimony is proven false by the flight records, revealing he's lying about Hutchins' whereabouts."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Missing Access Card",
+        "text": "Major Stevens' security keycard is missing from his uniform. The card provides access to all classified storage areas and was last used at 2145 hours.",
+        "alone": "Someone stole Stevens' keycard for unauthorized access.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Palmer's work pass and missing keycard prove he used his maintenance authorization to access the hangar and kill Stevens."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "authorization",
+        "icon": "📄",
+        "heading": "Security Audit Papers",
+        "text": "Colonel Morrison's signed orders authorize a complete review of Stevens' classified files. The audit was scheduled as part of routine security protocols.",
+        "alone": "Morrison had official reasons to examine Stevens' documents.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Morrison's fingerprints and the authorization records prove he was conducting legitimate security business, not murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Rex Palmer",
+      "weapon": "Aircraft Wrench",
+      "location": "Hangar Seven",
+      "access": "Maintenance Pass"
+    },
+    "epilogue": "Lieutenant Rex Palmer murdered Major Stevens after the security officer discovered Palmer's espionage activities. Palmer had been photographing classified aircraft designs and selling them to Soviet agents for months. When Stevens found evidence of the theft during a routine inspection, Palmer used his maintenance access to lure Stevens to Hangar Seven and killed him with his own wrench. The young mechanic thought his legitimate work authorization would provide perfect cover, but forensic evidence linked him directly to the crime."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "Desert Thunder",
+    "setting": "Air Force Base · Nevada · 1947",
+    "emoji": "✈️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The atomic age has brought new secrets to the Nevada desert. When classified blueprints go missing and blood is found in the hangar, even the most trusted officers become suspects.",
+    "emptyState": "Top secret files don't steal themselves. Someone paid in blood.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Frank Morrison",
+            "icon": "🎖️",
+            "detail": "Base commander with access to all classified materials"
+          },
+          {
+            "name": "Captain Billy Hutchins",
+            "icon": "🧑‍✈️",
+            "detail": "Test pilot recently denied promotion after security review"
+          },
+          {
+            "name": "Lieutenant Rex Palmer",
+            "icon": "🔧",
+            "detail": "Aircraft mechanic who discovered the body this morning"
+          },
+          {
+            "name": "Sergeant Earl Kowalski",
+            "icon": "🔐",
+            "detail": "Security chief responsible for classified document protection"
+          },
+          {
+            "name": "Major Douglas Fletcher",
+            "icon": "📋",
+            "detail": "Intelligence officer overseeing classified project security"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Standard issue .45 caliber military sidearm"
+          },
+          {
+            "name": "Aircraft Wrench",
+            "icon": "🔧",
+            "detail": "Heavy mechanic's tool found near the hangar"
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📎",
+            "detail": "Brass opener from the base commander's desk"
+          },
+          {
+            "name": "Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Emergency equipment from the hangar wall"
+          },
+          {
+            "name": "Tire Iron",
+            "icon": "🔨",
+            "detail": "Tool from the motor pool maintenance kit"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Hangar Seven",
+            "icon": "🏭",
+            "detail": "Classified aircraft storage with restricted access"
+          },
+          {
+            "name": "Command Office",
+            "icon": "🏢",
+            "detail": "Administrative building housing classified documents"
+          },
+          {
+            "name": "Motor Pool",
+            "icon": "🚗",
+            "detail": "Vehicle maintenance area behind the barracks"
+          },
+          {
+            "name": "Security Station",
+            "icon": "🔒",
+            "detail": "Checkpoint controlling access to restricted areas"
+          },
+          {
+            "name": "Communications Room",
+            "icon": "📡",
+            "detail": "Radio facility for classified transmissions"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Master Key",
+            "icon": "🔑",
+            "detail": "Command-level access to all base facilities"
+          },
+          {
+            "name": "Maintenance Pass",
+            "icon": "🎫",
+            "detail": "Work authorization for overnight repairs"
+          },
+          {
+            "name": "Security Override",
+            "icon": "🔐",
+            "detail": "Emergency access code for restricted areas"
+          },
+          {
+            "name": "Stolen Keycard",
+            "icon": "💳",
+            "detail": "Missing access card from victim's pocket"
+          },
+          {
+            "name": "Duplicate Keys",
+            "icon": "🗝️",
+            "detail": "Unauthorized copies of restricted area keys"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💰",
+        "items": [
+          {
+            "name": "Espionage Money",
+            "icon": "💵",
+            "detail": "Payment from foreign agents for classified information"
+          },
+          {
+            "name": "Career Revenge",
+            "icon": "😡",
+            "detail": "Retaliation for blocked promotion and ruined reputation"
+          },
+          {
+            "name": "Blackmail Pressure",
+            "icon": "📮",
+            "detail": "Coercion from compromising personal information"
+          },
+          {
+            "name": "Gambling Debts",
+            "icon": "🎰",
+            "detail": "Desperate need to pay dangerous creditors"
+          },
+          {
+            "name": "Cover Up Murder",
+            "icon": "🤫",
+            "detail": "Silencing witness to previous criminal activity"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "🩸",
+        "heading": "Blood Pattern Analysis",
+        "text": "Blood spatter in Hangar Seven shows blunt force impact from behind. The victim never saw the attack coming and died instantly.",
+        "alone": "The killer struck from behind with a blunt weapon.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The blood evidence and wrench forensics conclusively prove Lieutenant Palmer killed Stevens with his aircraft wrench in Hangar Seven."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Kowalski's Testimony",
+        "text": "Sergeant Kowalski insists he saw Major Fletcher entering Hangar Seven at 2200 hours carrying a briefcase. Fletcher looked nervous and kept checking over his shoulder.",
+        "alone": "Kowalski claims Fletcher was at the scene looking suspicious.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Kowalski's false testimony about Fletcher and his own gambling debts prove he's deliberately misdirecting the investigation."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "financial",
+        "icon": "💰",
+        "heading": "Bank Deposit Records",
+        "text": "Lieutenant Palmer made three large cash deposits totaling $5,000 over the past month. The money came from an untraceable source.",
+        "alone": "Palmer received significant unexplained cash recently.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Palmer's cash deposits and the Soviet contact prove he was selling classified information for espionage money."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Security Breach Report",
+        "text": "Major Stevens filed a confidential report yesterday identifying security vulnerabilities in classified storage. The report mentions specific personnel concerns but names are redacted.",
+        "alone": "Stevens recently identified security problems involving personnel.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Stevens' security report and Kowalski's lies reveal that Kowalski was working with Palmer and helped cover the espionage."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "forensic",
+        "icon": "🧪",
+        "heading": "Tool Mark Analysis",
+        "text": "Metal fragments in Stevens' skull match Palmer's missing aircraft wrench perfectly. The tool's unique wear pattern is embedded in bone fragments.",
+        "alone": "Palmer's wrench was definitely the murder weapon.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The blood evidence and wrench forensics conclusively prove Lieutenant Palmer killed Stevens with his aircraft wrench in Hangar Seven."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "financial",
+        "icon": "🎰",
+        "heading": "Gambling Investigation",
+        "text": "Sergeant Kowalski owes $8,000 to Las Vegas bookmakers and has been threatened with violence. His creditors have been demanding payment for weeks.",
+        "alone": "Kowalski has serious gambling debts and financial pressure.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Kowalski's false testimony about Fletcher and his own gambling debts prove he's deliberately misdirecting the investigation."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "intelligence",
+        "icon": "📡",
+        "heading": "Intercepted Communication",
+        "text": "Radio surveillance caught Palmer transmitting technical data to a known Soviet operative. The coded messages contained classified aircraft specifications.",
+        "alone": "Palmer was secretly communicating with enemy agents.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Palmer's cash deposits and the Soviet contact prove he was selling classified information for espionage money."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "Access Log Tampering",
+        "text": "Security logs show unauthorized modifications in Kowalski's handwriting. Entry times for Palmer's hangar access have been altered to create false alibis.",
+        "alone": "Kowalski falsified records to protect Palmer.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Stevens' security report and Kowalski's lies reveal that Kowalski was working with Palmer and helped cover the espionage."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Rex Palmer",
+      "weapon": "Aircraft Wrench",
+      "location": "Hangar Seven",
+      "access": "Maintenance Pass",
+      "motive": "Espionage Money"
+    },
+    "epilogue": "Lieutenant Rex Palmer killed Major Stevens to protect his espionage operation selling classified aircraft designs to the Soviet Union. Palmer had been earning thousands in espionage money for months, with Sergeant Kowalski providing security assistance in exchange for help with his gambling debts. When Stevens discovered their scheme during a security audit, Palmer used his maintenance pass to access Hangar Seven and murdered Stevens with his wrench. Kowalski then tried to frame other suspects and tamper with access logs, but the evidence trail of blood, forensics, financial records, and Soviet communications exposed their conspiracy."
+  }
+}

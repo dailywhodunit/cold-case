@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #035",
+    "title": "Desert Vendetta",
+    "tier": "rookie",
+    "setting": "Desert Oasis Hotel · Dubai · 2009",
+    "emoji": "🏜️",
+    "flavor": "The Desert Oasis Hotel promised luxury and discretion for international clients. When arms dealer Viktor Kozlov was found dead in the presidential suite, someone had collected on an old debt.",
+    "emptyState": "In the desert, some mirages are deadly.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💼",
+            "detail": "Hotel security chief with military background"
+          },
+          {
+            "name": "Dimitri Petrov",
+            "icon": "🍸",
+            "detail": "Russian businessman and Kozlov's former partner"
+          },
+          {
+            "name": "Fatima Al-Rashid",
+            "icon": "💎",
+            "detail": "Wealthy socialite and arms trade victim"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🍾",
+            "detail": "Cyanide-laced Dom Pérignon from room service"
+          },
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Military-grade weapon fired through window"
+          },
+          {
+            "name": "Nerve Agent",
+            "icon": "☠️",
+            "detail": "Chemical weapon applied to door handle"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Presidential Suite",
+            "icon": "🏨",
+            "detail": "Luxury penthouse where Kozlov was found"
+          },
+          {
+            "name": "Hotel Bar",
+            "icon": "🍹",
+            "detail": "Ground floor lounge with surveillance cameras"
+          },
+          {
+            "name": "Rooftop Pool",
+            "icon": "🏊",
+            "detail": "Private deck overlooking the desert"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Swiss Bank Records",
+        "text": "Fatima's accounts show a $2M transfer to a Chechen rebel group that Kozlov's weapons killed.",
+        "alone": "Fatima funded rebels killed by Kozlov's arms deals.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Fatima had revenge motive and used her charity access to poison Kozlov's champagne."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Bellhop Statement",
+        "text": "Dimitri was screaming at Kozlov in the lobby about stolen money from their weapons partnership.",
+        "alone": "Dimitri publicly confronted Kozlov about financial disputes.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Dimitri had motive but his alibi proves he couldn't have delivered the poisoned champagne."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "physical",
+        "icon": "🎯",
+        "heading": "Ballistics Report",
+        "text": "No bullet holes in the suite windows or walls, ruling out sniper attack.",
+        "alone": "No evidence of gunfire in the crime scene.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The lack of bullet evidence and Amira's presence elsewhere eliminates the silenced pistol theory."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "evidence",
+        "icon": "🔬",
+        "heading": "Toxicology Results",
+        "text": "Cyanide found in Kozlov's champagne glass and bloodstream, not on door handles.",
+        "alone": "Kozlov died from poisoned champagne, not contact poison.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The champagne poisoning in the presidential suite confirms both weapon and location."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "🎭",
+        "heading": "Charity Gala Access",
+        "text": "Fatima's foundation sponsored hotel events, giving her unrestricted kitchen and service access.",
+        "alone": "Fatima had special access to hotel operations.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Fatima had revenge motive and used her charity access to poison Kozlov's champagne."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Security Footage",
+        "text": "Dimitri left the hotel at 8 PM, two hours before the poisoned champagne arrived.",
+        "alone": "Dimitri was gone when the fatal champagne was delivered.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Dimitri had motive but his alibi proves he couldn't have delivered the poisoned champagne."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "alibi",
+        "icon": "🏨",
+        "heading": "Security Logs",
+        "text": "Amira was handling a disturbance in the east wing during Kozlov's estimated time of death.",
+        "alone": "Amira was occupied elsewhere when Kozlov died.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The lack of bullet evidence and Amira's presence elsewhere eliminates the silenced pistol theory."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🍾",
+        "heading": "Room Service Receipt",
+        "text": "Dom Pérignon delivered to presidential suite at 10:15 PM, fifteen minutes before Kozlov's death.",
+        "alone": "Champagne arrived shortly before Kozlov's death.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The champagne poisoning in the presidential suite confirms both weapon and location."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima Al-Rashid",
+      "weapon": "Poisoned Champagne",
+      "location": "Presidential Suite"
+    },
+    "epilogue": "Fatima Al-Rashid's quest for justice became twisted revenge when she discovered Kozlov's weapons had massacred the Chechen village her charity supported. Using her foundation's catering connections, she poisoned the champagne meant to celebrate his latest arms deal. The wealthy socialite who dedicated her life to humanitarian causes couldn't bear knowing her donations had failed to save innocents from his greed. As Dubai police led her away, Fatima whispered that two million dollars in charity couldn't buy back the lives his presidential suite dealings had cost."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #035",
+    "title": "Desert Vendetta",
+    "tier": "detective",
+    "setting": "Desert Oasis Hotel · Dubai · 2009",
+    "emoji": "🏜️",
+    "flavor": "The Desert Oasis Hotel promised luxury and discretion for international clients. When arms dealer Viktor Kozlov was found dead in the presidential suite, someone had collected on an old debt.",
+    "emptyState": "In the desert, some mirages are deadly.",
+    "timerSeconds": 600,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💼",
+            "detail": "Hotel security chief with military background"
+          },
+          {
+            "name": "Dimitri Petrov",
+            "icon": "🍸",
+            "detail": "Russian businessman and Kozlov's former partner"
+          },
+          {
+            "name": "Fatima Al-Rashid",
+            "icon": "💎",
+            "detail": "Wealthy socialite and arms trade victim"
+          },
+          {
+            "name": "Omar Al-Zahra",
+            "icon": "🛎️",
+            "detail": "Night concierge with gambling debts"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🍾",
+            "detail": "Cyanide-laced Dom Pérignon from room service"
+          },
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Military-grade weapon fired through window"
+          },
+          {
+            "name": "Nerve Agent",
+            "icon": "☠️",
+            "detail": "Chemical weapon applied to door handle"
+          },
+          {
+            "name": "Garotte Wire",
+            "icon": "🔗",
+            "detail": "Professional assassin's strangling weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Presidential Suite",
+            "icon": "🏨",
+            "detail": "Luxury penthouse where Kozlov was found"
+          },
+          {
+            "name": "Hotel Bar",
+            "icon": "🍹",
+            "detail": "Ground floor lounge with surveillance cameras"
+          },
+          {
+            "name": "Rooftop Pool",
+            "icon": "🏊",
+            "detail": "Private deck overlooking the desert"
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only access to all hotel floors"
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Charity Event Pass",
+            "icon": "🎗️",
+            "detail": "Foundation credentials for hotel kitchen access"
+          },
+          {
+            "name": "Master Key Card",
+            "icon": "💳",
+            "detail": "Security override for all hotel rooms"
+          },
+          {
+            "name": "Service Staff Uniform",
+            "icon": "👔",
+            "detail": "Disguise for undetected movement"
+          },
+          {
+            "name": "Balcony Climbing Gear",
+            "icon": "🧗",
+            "detail": "Equipment for scaling exterior walls"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Swiss Bank Records",
+        "text": "Fatima's accounts show a $2M transfer to a Chechen rebel group that Kozlov's weapons killed.",
+        "alone": "Fatima funded rebels killed by Kozlov's arms deals.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Fatima had revenge motive and used her charity credentials to access hotel operations and poison the champagne."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Hotel Manager Report",
+        "text": "Claims he saw Dimitri arguing with Kozlov near the service elevator around 10 PM.",
+        "alone": "Manager places Dimitri near service areas at crucial time.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The manager's eyewitness account is contradicted by security footage showing Dimitri had already left the hotel."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "physical",
+        "icon": "🎯",
+        "heading": "Ballistics Report",
+        "text": "No bullet holes in the suite windows or walls, ruling out sniper attack.",
+        "alone": "No evidence of gunfire in the crime scene.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Without climbing gear evidence and no bullet holes, external access methods are eliminated."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Key Card Logs",
+        "text": "Omar's master key was used to access the presidential suite at 9:45 PM.",
+        "alone": "Omar's security credentials accessed Kozlov's room.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Omar used his master key access but had no motive, making him an unwitting accomplice rather than the killer."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "🎗️",
+        "heading": "Charity Foundation Pass",
+        "text": "Fatima's humanitarian credentials granted her unrestricted access to hotel kitchen and service areas.",
+        "alone": "Fatima had special access to hotel food preparation.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Fatima had revenge motive and used her charity credentials to access hotel operations and poison the champagne."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Security Footage",
+        "text": "Dimitri left the hotel at 8 PM, two hours before the poisoned champagne arrived.",
+        "alone": "Dimitri was gone when the fatal champagne was delivered.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The manager's eyewitness account is contradicted by security footage showing Dimitri had already left the hotel."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "forensics",
+        "icon": "🔍",
+        "heading": "Balcony Inspection",
+        "text": "No climbing equipment or rope marks found on the presidential suite's exterior walls.",
+        "alone": "No evidence of external climbing access to the suite.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Without climbing gear evidence and no bullet holes, external access methods are eliminated."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Gambling Debt Records",
+        "text": "Omar owed $50K to local bookmakers but had no personal connection to Kozlov.",
+        "alone": "Omar was desperate for money but had no motive against Kozlov.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Omar used his master key access but had no motive, making him an unwitting accomplice rather than the killer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima Al-Rashid",
+      "weapon": "Poisoned Champagne",
+      "location": "Presidential Suite",
+      "access": "Charity Event Pass"
+    },
+    "epilogue": "Fatima Al-Rashid's quest for justice became twisted revenge when she discovered Kozlov's weapons had massacred the Chechen village her charity supported. Using her foundation's credentials to access the hotel kitchen, she poisoned the Dom Pérignon meant to celebrate his latest arms deal. Her charitable status provided perfect cover to move through the presidential suite undetected. The wealthy socialite who dedicated her life to humanitarian causes couldn't bear knowing her donations had failed to save innocents from his greed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #035",
+    "title": "Desert Vendetta",
+    "tier": "inspector",
+    "setting": "Desert Oasis Hotel · Dubai · 2009",
+    "emoji": "🏜️",
+    "flavor": "The Desert Oasis Hotel promised luxury and discretion for international clients. When arms dealer Viktor Kozlov was found dead in the presidential suite, someone had collected on an old debt.",
+    "emptyState": "In the desert, some mirages are deadly.",
+    "timerSeconds": 480,
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amira Hassan",
+            "icon": "💼",
+            "detail": "Hotel security chief with military background"
+          },
+          {
+            "name": "Dimitri Petrov",
+            "icon": "🍸",
+            "detail": "Russian businessman and Kozlov's former partner"
+          },
+          {
+            "name": "Fatima Al-Rashid",
+            "icon": "💎",
+            "detail": "Wealthy socialite and arms trade victim"
+          },
+          {
+            "name": "Omar Al-Zahra",
+            "icon": "🛎️",
+            "detail": "Night concierge with gambling debts"
+          },
+          {
+            "name": "Yusuf Mansouri",
+            "icon": "🍽️",
+            "detail": "Head chef with Iranian intelligence connections"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🍾",
+            "detail": "Cyanide-laced Dom Pérignon from room service"
+          },
+          {
+            "name": "Silenced Pistol",
+            "icon": "🔫",
+            "detail": "Military-grade weapon fired through window"
+          },
+          {
+            "name": "Nerve Agent",
+            "icon": "☠️",
+            "detail": "Chemical weapon applied to door handle"
+          },
+          {
+            "name": "Garotte Wire",
+            "icon": "🔗",
+            "detail": "Professional assassin's strangling weapon"
+          },
+          {
+            "name": "Ricin Capsule",
+            "icon": "💊",
+            "detail": "Delayed-action biological weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Presidential Suite",
+            "icon": "🏨",
+            "detail": "Luxury penthouse where Kozlov was found"
+          },
+          {
+            "name": "Hotel Bar",
+            "icon": "🍹",
+            "detail": "Ground floor lounge with surveillance cameras"
+          },
+          {
+            "name": "Rooftop Pool",
+            "icon": "🏊",
+            "detail": "Private deck overlooking the desert"
+          },
+          {
+            "name": "Service Elevator",
+            "icon": "🛗",
+            "detail": "Staff-only access to all hotel floors"
+          },
+          {
+            "name": "Wine Cellar",
+            "icon": "🍷",
+            "detail": "Underground storage for premium bottles"
+          }
+        ]
+      },
+      {
+        "key": "primary_access",
+        "label": "Primary Access",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Charity Event Pass",
+            "icon": "🎗️",
+            "detail": "Foundation credentials for hotel kitchen access"
+          },
+          {
+            "name": "Master Key Card",
+            "icon": "💳",
+            "detail": "Security override for all hotel rooms"
+          },
+          {
+            "name": "Service Staff Uniform",
+            "icon": "👔",
+            "detail": "Disguise for undetected movement"
+          },
+          {
+            "name": "Balcony Climbing Gear",
+            "icon": "🧗",
+            "detail": "Equipment for scaling exterior walls"
+          },
+          {
+            "name": "Kitchen Authorization",
+            "icon": "👨‍🍳",
+            "detail": "Chef credentials for food preparation areas"
+          }
+        ]
+      },
+      {
+        "key": "secondary_access",
+        "label": "Secondary Access",
+        "icon": "🚪",
+        "items": [
+          {
+            "name": "Wine Cellar Key",
+            "icon": "🔑",
+            "detail": "Access to underground bottle storage"
+          },
+          {
+            "name": "Laundry Chute",
+            "icon": "🧺",
+            "detail": "Hidden route between floors"
+          },
+          {
+            "name": "Maintenance Tunnels",
+            "icon": "🔧",
+            "detail": "Underground service passages"
+          },
+          {
+            "name": "VIP Elevator Code",
+            "icon": "🔢",
+            "detail": "Direct access to presidential floor"
+          },
+          {
+            "name": "Fire Escape Route",
+            "icon": "🚨",
+            "detail": "Emergency stairwell bypassing security"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Swiss Bank Records",
+        "text": "Fatima's accounts show a $2M transfer to a Chechen rebel group that Kozlov's weapons killed.",
+        "alone": "Fatima funded rebels killed by Kozlov's arms deals.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Fatima had revenge motive and used both her charity credentials and wine cellar access to poison Kozlov's champagne undetected."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Hotel Manager Report",
+        "text": "Claims he saw Yusuf carrying champagne bottles through the service elevator around 10 PM.",
+        "alone": "Manager places Yusuf moving champagne at crucial time.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The manager mistook Fatima in kitchen attire for Yusuf, explaining his confused but sincere eyewitness account."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "physical",
+        "icon": "🎯",
+        "heading": "Ballistics Report",
+        "text": "No bullet holes in the suite windows or walls, ruling out sniper attack.",
+        "alone": "No evidence of gunfire in the crime scene.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The absence of bullet evidence and blocked maintenance access eliminates external entry methods entirely."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "💳",
+        "heading": "Key Card Logs",
+        "text": "Omar's master key was used to access the presidential suite at 9:45 PM for 'routine maintenance'.",
+        "alone": "Omar's security credentials accessed Kozlov's room.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Omar unknowingly enabled the murder by providing Fatima access, making him an unwitting accomplice to her revenge plot."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "🔑",
+        "heading": "Wine Cellar Security",
+        "text": "Fatima's foundation donated rare vintages, giving her secondary access to bottle storage areas.",
+        "alone": "Fatima had special wine storage access through donations.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Fatima had revenge motive and used both her charity credentials and wine cellar access to poison Kozlov's champagne undetected."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "alibi",
+        "icon": "📹",
+        "heading": "Kitchen Security Footage",
+        "text": "Shows someone in chef attire preparing champagne, but face obscured by steam and hat.",
+        "alone": "Unidentified person in chef clothing handled the champagne.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The manager mistook Fatima in kitchen attire for Yusuf, explaining his confused but sincere eyewitness account."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "forensics",
+        "icon": "🔧",
+        "heading": "Maintenance Tunnel Inspection",
+        "text": "Underground passages to presidential floor sealed for renovations since last month.",
+        "alone": "Service tunnels were inaccessible during the murder timeframe.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The absence of bullet evidence and blocked maintenance access eliminates external entry methods entirely."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Text Messages",
+        "text": "Omar received urgent texts about 'helping the charity lady with special delivery' from unknown number.",
+        "alone": "Omar was manipulated into providing access for a delivery.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Omar unknowingly enabled the murder by providing Fatima access, making him an unwitting accomplice to her revenge plot."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima Al-Rashid",
+      "weapon": "Poisoned Champagne",
+      "location": "Presidential Suite",
+      "primary_access": "Charity Event Pass",
+      "secondary_access": "Wine Cellar Key"
+    },
+    "epilogue": "Fatima Al-Rashid's quest for justice became twisted revenge when she discovered Kozlov's weapons had massacred the Chechen village her charity supported. Using her foundation's credentials and wine storage access, she poisoned Dom Pérignon in the cellar before manipulating Omar into delivering it to the presidential suite. Her charitable status and donated vintages provided perfect cover for the elaborate plot. The wealthy socialite who dedicated her life to humanitarian causes couldn't bear knowing her donations had failed to save innocents from his greed. As Dubai police led her away, Fatima whispered that some debts could only be paid in blood."
+  }
+}

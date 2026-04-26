@@ -1,0 +1,738 @@
+{
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Runway Revenge",
+    "setting": "Fashion Week Backstage · Milan · 1995",
+    "emoji": "👗",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Behind the glamour of Milan Fashion Week, ambition runs as thick as foundation. When the lights dim and cameras stop rolling, someone's career ended permanently.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Giulia Moretti",
+            "icon": "💄",
+            "detail": "Veteran makeup artist with trembling hands"
+          },
+          {
+            "name": "Francesco Bianchi",
+            "icon": "📷",
+            "detail": "Fashion photographer seeking the perfect shot"
+          },
+          {
+            "name": "Chiara Rossi",
+            "icon": "✂️",
+            "detail": "Head seamstress known for perfectionist standards"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Espresso",
+            "icon": "☕",
+            "detail": "Lethal dose of digitalis in morning coffee"
+          },
+          {
+            "name": "Fabric Scissors",
+            "icon": "✂️",
+            "detail": "Razor-sharp tailoring shears from workshop"
+          },
+          {
+            "name": "Hair Spray Canister",
+            "icon": "💨",
+            "detail": "Industrial aerosol used as blunt weapon"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Makeup Station",
+            "icon": "💄",
+            "detail": "Private booth with Hollywood-style mirrors"
+          },
+          {
+            "name": "Photography Studio",
+            "icon": "📸",
+            "detail": "Backstage area with professional lighting setup"
+          },
+          {
+            "name": "Wardrobe Room",
+            "icon": "👗",
+            "detail": "Cramped space filled with designer clothes"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medication Bottle",
+        "text": "Empty digitalis prescription bottle found in Chiara's sewing kit. Victim died of cardiac arrest from digitalis poisoning.",
+        "alone": "Chiara had access to the poison that killed the victim.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Security Guard",
+        "text": "Francesco was photographing near the catering area all morning. He kept checking his watch nervously.",
+        "alone": "Francesco was acting suspiciously around the coffee station.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Francesco was nervous about his portfolio deadline, not committing murder - he was legitimately working."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "evidence",
+        "icon": "💸",
+        "heading": "Credit Card Bills",
+        "text": "Giulia owes €50,000 to loan sharks. Threatening letters demand payment by week's end.",
+        "alone": "Giulia was facing severe financial pressure and threats.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Despite her debts, Giulia was genuinely trying to help the victim and had no involvement in the murder."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "forensics",
+        "icon": "🔬",
+        "heading": "Coffee Cup Analysis",
+        "text": "Digitalis residue found in victim's espresso cup from the wardrobe room catering station.",
+        "alone": "The poisoned coffee was consumed in the wardrobe room.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The victim was poisoned in the wardrobe room where Chiara had easy access to plant the digitalis."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "evidence",
+        "icon": "☕",
+        "heading": "Coffee Service Log",
+        "text": "Chiara prepared and served victim's usual morning espresso at 7:30 AM. No one else handled the cup.",
+        "alone": "Chiara was the only person who could have poisoned the coffee.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "evidence",
+        "icon": "📸",
+        "heading": "Photo Timestamps",
+        "text": "Francesco's camera shows continuous shooting from 7:00-9:00 AM. All photos timestamped during murder window.",
+        "alone": "Francesco was actively photographing during the entire murder timeframe.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Francesco was nervous about his portfolio deadline, not committing murder - he was legitimately working."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💬",
+        "heading": "Model Testimony",
+        "text": "Giulia was frantically calling banks about loans while doing makeup. She kept saying she'd find another way.",
+        "alone": "Giulia was desperately seeking legal solutions to her money problems.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Despite her debts, Giulia was genuinely trying to help the victim and had no involvement in the murder."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "👗",
+        "heading": "Designer Assistant",
+        "text": "Chiara insisted on personally bringing coffee to the victim in the wardrobe room that morning.",
+        "alone": "Chiara made sure she alone delivered the fatal coffee.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The victim was poisoned in the wardrobe room where Chiara had easy access to plant the digitalis."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chiara Rossi",
+      "weapon": "Poisoned Espresso",
+      "location": "Wardrobe Room"
+    },
+    "epilogue": "Chiara Rossi, the meticulous seamstress, had been embezzling from Fashion Week's budget for months. When the victim discovered her theft, Chiara chose murder over disgrace. She poisoned the morning espresso with her mother's heart medication, ensuring the victim's silence forever. The woman who crafted beautiful clothes ultimately tailored her own destruction."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Runway Revenge",
+    "setting": "Fashion Week Backstage · Milan · 1995",
+    "emoji": "👗",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Behind the glamour of Milan Fashion Week, ambition runs as thick as foundation. When the lights dim and cameras stop rolling, someone's career ended permanently.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Giulia Moretti",
+            "icon": "💄",
+            "detail": "Veteran makeup artist with trembling hands"
+          },
+          {
+            "name": "Francesco Bianchi",
+            "icon": "📷",
+            "detail": "Fashion photographer seeking the perfect shot"
+          },
+          {
+            "name": "Chiara Rossi",
+            "icon": "✂️",
+            "detail": "Head seamstress known for perfectionist standards"
+          },
+          {
+            "name": "Marco Colombo",
+            "icon": "🍸",
+            "detail": "Smooth-talking event coordinator with connections"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Espresso",
+            "icon": "☕",
+            "detail": "Lethal dose of digitalis in morning coffee"
+          },
+          {
+            "name": "Fabric Scissors",
+            "icon": "✂️",
+            "detail": "Razor-sharp tailoring shears from workshop"
+          },
+          {
+            "name": "Hair Spray Canister",
+            "icon": "💨",
+            "detail": "Industrial aerosol used as blunt weapon"
+          },
+          {
+            "name": "Champagne Flute",
+            "icon": "🥂",
+            "detail": "Crystal glass sharpened to deadly edge"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Makeup Station",
+            "icon": "💄",
+            "detail": "Private booth with Hollywood-style mirrors"
+          },
+          {
+            "name": "Photography Studio",
+            "icon": "📸",
+            "detail": "Backstage area with professional lighting setup"
+          },
+          {
+            "name": "Wardrobe Room",
+            "icon": "👗",
+            "detail": "Cramped space filled with designer clothes"
+          },
+          {
+            "name": "VIP Lounge",
+            "icon": "🛋️",
+            "detail": "Exclusive area for industry executives"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Ruin",
+            "icon": "💸",
+            "detail": "Desperate debts to dangerous creditors"
+          },
+          {
+            "name": "Career Sabotage",
+            "icon": "📈",
+            "detail": "Professional jealousy over stolen opportunities"
+          },
+          {
+            "name": "Embezzlement Cover-up",
+            "icon": "🏦",
+            "detail": "Hiding theft from Fashion Week budget"
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Revenge for broken promises and affairs"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medication Bottle",
+        "text": "Empty digitalis prescription bottle found in Chiara's sewing kit. Victim died of cardiac arrest from digitalis poisoning.",
+        "alone": "Chiara had access to the poison that killed the victim.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso to cover her embezzlement."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Model Eyewitness",
+        "text": "Saw Marco arguing with victim about missing money near the VIP lounge at 8 AM. Marco looked furious.",
+        "alone": "Marco had a heated confrontation with the victim about finances.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The model mistook Marco's passionate defense for anger - he was actually trying to protect the victim from the real thief."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "evidence",
+        "icon": "📊",
+        "heading": "Budget Audit",
+        "text": "€75,000 missing from Fashion Week accounts over six months. Chiara managed expense approvals for materials and catering.",
+        "alone": "Chiara embezzled significant funds from the Fashion Week budget.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Chiara systematically stole from Fashion Week to fund her gambling addiction, giving her a powerful motive for murder when discovered."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "forensics",
+        "icon": "🔬",
+        "heading": "Coffee Cup Analysis",
+        "text": "Digitalis residue found in victim's espresso cup from the wardrobe room catering station. Only Chiara's fingerprints on handle.",
+        "alone": "Chiara was the sole person who handled the poisoned coffee cup.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Chiara used her position as catering coordinator to poison the victim's coffee and eliminate the threat to her embezzlement scheme."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "evidence",
+        "icon": "☕",
+        "heading": "Coffee Service Log",
+        "text": "Chiara prepared and served victim's usual morning espresso at 7:30 AM. Security footage confirms she worked alone.",
+        "alone": "Chiara was the only person who could have poisoned the coffee.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso to cover her embezzlement."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "evidence",
+        "icon": "📋",
+        "heading": "Marco's Notes",
+        "text": "Handwritten memo in Marco's planner: 'Must warn about Chiara - discrepancies getting worse.' Dated three days ago.",
+        "alone": "Marco was investigating financial irregularities and suspected Chiara.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The model mistook Marco's passionate defense for anger - he was actually trying to protect the victim from the real thief."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Casino Receipts",
+        "text": "Chiara's purse contains €80,000 in gambling losses from Monte Carlo Casino. Dates match missing budget funds.",
+        "alone": "Chiara gambled away the stolen Fashion Week money.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Chiara systematically stole from Fashion Week to fund her gambling addiction, giving her a powerful motive for murder when discovered."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🛡️",
+        "heading": "Security Guard",
+        "text": "Chiara accessed the catering supplies twice that morning - once before and once after victim's death. Highly unusual.",
+        "alone": "Chiara made suspicious trips to tamper with catering equipment.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Chiara used her position as catering coordinator to poison the victim's coffee and eliminate the threat to her embezzlement scheme."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chiara Rossi",
+      "weapon": "Poisoned Espresso",
+      "location": "Wardrobe Room",
+      "motive": "Embezzlement Cover-up"
+    },
+    "epilogue": "Chiara Rossi, the meticulous seamstress, had fallen into a gambling spiral that consumed her life. She systematically embezzled from Fashion Week's budget to feed her addiction at Monte Carlo. When the victim discovered the theft, Chiara chose murder over exposure, poisoning the morning espresso with her mother's heart medication. The woman who crafted beautiful clothes ultimately tailored her own destruction, losing everything to the very vice she killed to protect."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Runway Revenge",
+    "setting": "Fashion Week Backstage · Milan · 1995",
+    "emoji": "👗",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Behind the glamour of Milan Fashion Week, ambition runs as thick as foundation. When the lights dim and cameras stop rolling, someone's career ended permanently.",
+    "emptyState": "The show must go on. But someone won't take their final bow.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Giulia Moretti",
+            "icon": "💄",
+            "detail": "Veteran makeup artist with trembling hands"
+          },
+          {
+            "name": "Francesco Bianchi",
+            "icon": "📷",
+            "detail": "Fashion photographer seeking the perfect shot"
+          },
+          {
+            "name": "Chiara Rossi",
+            "icon": "✂️",
+            "detail": "Head seamstress known for perfectionist standards"
+          },
+          {
+            "name": "Marco Colombo",
+            "icon": "🍸",
+            "detail": "Smooth-talking event coordinator with connections"
+          },
+          {
+            "name": "Valentina Romano",
+            "icon": "👑",
+            "detail": "Ambitious young designer desperate for recognition"
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Espresso",
+            "icon": "☕",
+            "detail": "Lethal dose of digitalis in morning coffee"
+          },
+          {
+            "name": "Fabric Scissors",
+            "icon": "✂️",
+            "detail": "Razor-sharp tailoring shears from workshop"
+          },
+          {
+            "name": "Hair Spray Canister",
+            "icon": "💨",
+            "detail": "Industrial aerosol used as blunt weapon"
+          },
+          {
+            "name": "Champagne Flute",
+            "icon": "🥂",
+            "detail": "Crystal glass sharpened to deadly edge"
+          },
+          {
+            "name": "Sewing Machine Needle",
+            "icon": "🪡",
+            "detail": "Industrial needle dipped in concentrated toxin"
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Makeup Station",
+            "icon": "💄",
+            "detail": "Private booth with Hollywood-style mirrors"
+          },
+          {
+            "name": "Photography Studio",
+            "icon": "📸",
+            "detail": "Backstage area with professional lighting setup"
+          },
+          {
+            "name": "Wardrobe Room",
+            "icon": "👗",
+            "detail": "Cramped space filled with designer clothes"
+          },
+          {
+            "name": "VIP Lounge",
+            "icon": "🛋️",
+            "detail": "Exclusive area for industry executives"
+          },
+          {
+            "name": "Loading Dock",
+            "icon": "🚚",
+            "detail": "Secluded service entrance behind main venue"
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Primary Motive",
+        "icon": "💭",
+        "items": [
+          {
+            "name": "Financial Ruin",
+            "icon": "💸",
+            "detail": "Desperate debts to dangerous creditors"
+          },
+          {
+            "name": "Career Sabotage",
+            "icon": "📈",
+            "detail": "Professional jealousy over stolen opportunities"
+          },
+          {
+            "name": "Embezzlement Cover-up",
+            "icon": "🏦",
+            "detail": "Hiding theft from Fashion Week budget"
+          },
+          {
+            "name": "Romantic Betrayal",
+            "icon": "💔",
+            "detail": "Revenge for broken promises and affairs"
+          },
+          {
+            "name": "Family Honor",
+            "icon": "⚖️",
+            "detail": "Protecting relatives from criminal exposure"
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "None",
+            "icon": "🚫",
+            "detail": "Solo operation with no assistance"
+          },
+          {
+            "name": "Distraction Provider",
+            "icon": "🎪",
+            "detail": "Created chaos to mask the crime"
+          },
+          {
+            "name": "Alibi Creator",
+            "icon": "🛡️",
+            "detail": "Manufactured false witness testimony"
+          },
+          {
+            "name": "Evidence Planter",
+            "icon": "🕵️",
+            "detail": "Placed clues to frame another suspect"
+          },
+          {
+            "name": "Poison Supplier",
+            "icon": "⚗️",
+            "detail": "Provided the lethal digitalis medication"
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "evidence",
+        "icon": "💊",
+        "heading": "Medication Bottle",
+        "text": "Empty digitalis prescription bottle found in Chiara's sewing kit. Victim died of cardiac arrest from digitalis poisoning.",
+        "alone": "Chiara had access to the poison that killed the victim.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso to cover her embezzlement."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Model Eyewitness",
+        "text": "Swears she saw Valentina dispose of coffee cups in loading dock dumpster at 8:15 AM looking panicked.",
+        "alone": "Valentina was seen disposing of evidence shortly after the murder.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The model was paid by Giulia to provide false testimony incriminating Valentina, creating a deliberate misdirection from the real killer."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "evidence",
+        "icon": "📊",
+        "heading": "Budget Audit",
+        "text": "€75,000 missing from Fashion Week accounts. Chiara managed expense approvals and had been gambling at Monte Carlo.",
+        "alone": "Chiara embezzled significant funds to support her gambling addiction.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Chiara's gambling debts created the desperate financial pressure that drove her to embezzle and ultimately murder to protect her secret."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "evidence",
+        "icon": "📱",
+        "heading": "Phone Records",
+        "text": "Giulia received three threatening calls from loan sharks between 6-7 AM. She was heard begging for more time.",
+        "alone": "Giulia was under extreme pressure from dangerous creditors that morning.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Giulia's desperation led her to help Chiara cover up the murder in exchange for money to pay her debts, making her an accessory after the fact."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "evidence",
+        "icon": "☕",
+        "heading": "Coffee Service Log",
+        "text": "Chiara prepared victim's espresso alone at 7:30 AM. Security footage shows no one else touched the cup.",
+        "alone": "Chiara was the only person who could have poisoned the coffee.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Chiara stole digitalis from her mother's medication and used it to poison the victim's morning espresso to cover her embezzlement."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "evidence",
+        "icon": "💰",
+        "heading": "Cash Payment",
+        "text": "Model found with €2,000 cash and note in Giulia's handwriting: 'Remember what you saw - Valentina at dumpster.'",
+        "alone": "Giulia paid the model to provide specific false testimony against Valentina.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The model was paid by Giulia to provide false testimony incriminating Valentina, creating a deliberate misdirection from the real killer."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "evidence",
+        "icon": "🎰",
+        "heading": "Casino Surveillance",
+        "text": "Monte Carlo footage shows Chiara losing €80,000 in two weeks. She borrowed against her mother's medicine cabinet.",
+        "alone": "Chiara's gambling spiral included stealing from her own family.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Chiara's gambling debts created the desperate financial pressure that drove her to embezzle and ultimately murder to protect her secret."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "evidence",
+        "icon": "🏦",
+        "heading": "Bank Transfer",
+        "text": "€20,000 transferred from Chiara to Giulia's account at 9:47 AM. Memo reads: 'For services rendered - stay quiet.'",
+        "alone": "Chiara paid Giulia a substantial sum to ensure her silence.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Giulia's desperation led her to help Chiara cover up the murder in exchange for money to pay her debts, making her an accessory after the fact."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chiara Rossi",
+      "weapon": "Poisoned Espresso",
+      "location": "Wardrobe Room",
+      "motive": "Embezzlement Cover-up",
+      "accomplice": "Alibi Creator"
+    },
+    "epilogue": "Chiara Rossi, the perfectionist seamstress, had spiraled into gambling addiction that consumed her soul and finances. She systematically embezzled from Fashion Week to feed her Monte Carlo habit, even stealing her mother's heart medication to sell. When the victim discovered her theft, Chiara poisoned the morning espresso with the very digitalis she'd pilfered from her own family. Desperate to escape justice, she paid Giulia €20,000 to create false testimony against innocent Valentina, weaving a web of corruption that ultimately unraveled with her own threads."
+  }
+}
