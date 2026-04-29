@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Havana, 1958. A gambling den the night before everything changed. A card dealer is dead. Two people swear they were together. Only one of them is telling the truth. 🃏🔍 Case #068 — House of Cards. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Havana 1958, a gambling house, a double alibi, and a betrayal no one saw coming. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1958 Havana gambling den, ceiling fans over green baize tables, rum glasses and poker chips, a back corridor lit by a bare bulb, cigarette smoke and tropical night air through louvred shutters. Deep green, gold, shadow. Sensual and dangerous, style of Raúl Corrales meets Walker Evans.",
+    "animationPrompt": "Slow pan through a 1958 Havana gambling den. Ceiling fans. Green baize. Poker chips. The camera finds a back corridor lit by a bare bulb — a door at the end standing open. Cigarette smoke in the air. A rum glass overturned on the corridor floor. The fan turns. Fade to black.",
+    "hashtags": [
+      "#HavanaMystery",
+      "#CubaNoir",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #068",
+    "title": "House of Cards",
+    "setting": "Club Tropicoro · Havana · Cuba · 1958",
+    "emoji": "🃏",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Card dealer Ramón Echevarría was found dead in the back corridor of the Club Tropicoro during a busy Friday night. Two suspects swear they were playing cards together during the killing. The third had no alibi — but the evidence says one of the card players wasn't at the table as long as they claim.",
+    "emptyState": "Two alibis. One gap. Find who left the table.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lola Reyes",
+            "icon": "💃",
+            "detail": "A club hostess — had been feeding Ramón information about cheating players for months."
+          },
+          {
+            "name": "Marco Delgado",
+            "icon": "🃏",
+            "detail": "A regular gambler — claims he and Lola were playing cards together all evening."
+          },
+          {
+            "name": "Señor Aguirre",
+            "icon": "💼",
+            "detail": "The club's silent partner — Ramón had discovered he was skimming the house."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Where Ramón was found — a rum glass overturned, a door to the alley standing open."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Where Marco and Lola claim to have been — a private room off the main floor."
+          },
+          {
+            "name": "Aguirre's Office",
+            "icon": "💼",
+            "detail": "The rear office where the club's financial records were kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "A heavy glass bottle — blunt force wound consistent with its base profile."
+          },
+          {
+            "name": "Poker Chip Tray",
+            "icon": "🎰",
+            "detail": "A metal tray — too light for the wound depth, eliminated."
+          },
+          {
+            "name": "Ceiling Fan Pull",
+            "icon": "🪢",
+            "detail": "The cord — no ligature mark, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "The Card Room Waiter",
+        "text": "The card room waiter — a teenager named Julio — confirms both Lola and Marco were in the private card room earlier in the evening. He brought them drinks at nine PM. He brought Lola a second drink at nine-forty PM. When he returned at ten-twenty PM to clear glasses, only Marco was at the table. Lola's chair was empty. He had not seen her leave.",
+        "alone": "The card room waiter confirms Lola was absent from the table at ten-twenty PM — at least forty minutes unaccounted for during the murder window.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Lola's empty chair at ten-twenty PM and the rum glass overturned in the corridor at a point consistent with a struggle during the same window confirm her absence from the card room coincides with the murder."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Rum Bottle",
+        "text": "A rum bottle — removed from behind the corridor bar — shows blood on its base consistent with the impact wound on Ramón's skull. The wound required a single decisive blow from behind. The bottle's neck carries a partial thumbprint in blood — too smeared for identification, but consistent with a right-handed grip. Lola Reyes is right-handed.",
+        "alone": "Ramón was struck from behind with the rum bottle — the partial bloody thumbprint is consistent with a right-handed grip.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The right-handed grip on the bottle and Lola's confirmed right-handedness together are consistent — but the thumbprint also eliminates a left-handed suspect, narrowing the field."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Aguirre's Public Evening",
+        "text": "Señor Aguirre had spent the evening in the main gambling hall — visible to the floor manager, the croupier at table three, and two American tourists who asked him for gaming recommendations. He had not entered the back corridor all evening. The floor manager confirms he was present continuously from eight PM until after the alarm. He is definitively cleared.",
+        "alone": "Aguirre was visible in the main hall continuously from eight PM — confirmed by multiple independent witnesses. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Aguirre cleared in the main hall and Marco confirmed alone at the card table at ten-twenty PM together eliminate two suspects and establish Lola's unaccounted absence as the key fact."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Ramón Had Found",
+        "text": "A note in Ramón's jacket pocket — in his own handwriting — reads: 'L. — tonight. Corridor. Ten PM. Bring what I showed you.' The note is addressed to Lola. Ramón had arranged a meeting with Lola in the back corridor at ten PM. Whatever he had shown her previously was the reason for the meeting.",
+        "alone": "Ramón had arranged a private corridor meeting with Lola at ten PM — she was the person he had summoned, and she had agreed to come.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ramón arranging the ten PM corridor meeting with Lola and Lola's empty chair at ten-twenty PM confirm she had left the card room to meet Ramón — the note places her at the scene by her own prior arrangement."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🥃",
+        "heading": "The Corridor Timeline",
+        "text": "The overturned rum glass in the corridor is found approximately three metres from where Ramón's body lay. The rum had partially dried by the time investigators arrived at ten-forty PM — consistent with being spilled approximately thirty to forty minutes earlier. This places the glass being knocked over between ten and ten-fifteen PM, within the window of Ramón's arranged meeting.",
+        "alone": "The rum glass's partial drying places the struggle at approximately ten to ten-fifteen PM — matching Ramón's arranged meeting time and Lola's absence from the card room.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Lola absent from the card table at ten-twenty PM and the struggle in the corridor at ten to ten-fifteen PM confirm her absence coincides exactly with the time and location of the killing."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "Marco's Inconsistency",
+        "text": "Marco Delgado's initial account states Lola was with him 'all evening without interruption.' When the waiter's account is presented to him — that Lola's chair was empty at ten-twenty PM — Marco revises his account: 'She may have stepped out briefly for the ladies' room.' The revision shows he had known about her absence and had initially concealed it. He then confirms she was gone 'perhaps twenty minutes.'",
+        "alone": "Marco had initially lied about Lola's continuous presence — he had known she was absent and had covered for her. His revised estimate of twenty minutes matches the murder window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The right-handed rum bottle grip consistent with Lola and Marco's confirmed lie about her continuous presence together establish that Marco knew about Lola's absence and had chosen to protect her — he was not an innocent bystander."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Why Marco Covered for Lola",
+        "text": "A club regular who knew both suspects confirms Marco and Lola had been in a relationship for four months — a fact both had kept quiet from the club's management, as the club prohibited relationships between hostesses and regular gamblers. Marco had a personal reason to cover for Lola beyond simple friendship. His initial false alibi was an act of protection for someone he cared about.",
+        "alone": "Marco had been in a relationship with Lola for four months — his false alibi was a personal act of protection, not a calculated criminal cover.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Marco's relationship with Lola and his revision of the alibi when confronted confirm his initial account was a reflexive lie to protect her — when confronted with contradicting evidence, he told the partial truth rather than sustain a fully false account."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Betrayal",
+        "text": "The note's reference to 'what I showed you' is clarified by a second document found in Ramón's locker: a copy of a financial ledger showing Aguirre's skimming from the house, annotated in Ramón's hand. Ramón had shown Lola the ledger previously — but Lola had been receiving payments from Aguirre for the past two months. She had been feeding Aguirre information about the club in exchange for money. Ramón had been about to expose both the skimming and Lola's role.",
+        "alone": "Lola had been paid by Aguirre while simultaneously feeding Ramón information — she had been a double agent, and Ramón had found out. The corridor meeting was a confrontation.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ramón's note arranging the corridor meeting and the ledger copy showing Lola's double role confirm the meeting was a confrontation — Ramón had summoned her to address her betrayal, and she had struck first."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lola Reyes",
+      "location": "The Back Corridor",
+      "weapon": "Rum Bottle"
+    },
+    "epilogue": "Lola Reyes had been receiving money from Aguirre for two months while passing information to Ramón about cheating players — a double arrangement that benefited her financially from both sides. When Ramón had discovered her arrangement with Aguirre, he had summoned her to the corridor. She had taken the rum bottle from behind the bar on her way. She had struck him from behind when he turned to show her the ledger. Marco had known she was gone and had covered for her. His relationship with her had cost him three years as an accessory after the fact. Aguirre was charged separately with the skimming. Lola received fifteen years."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #068",
+    "title": "House of Cards",
+    "setting": "Club Tropicoro · Havana · Cuba · 1958",
+    "emoji": "🃏",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Lola killed Ramón. Marco covered for her. But Aguirre had known about Ramón's investigation for a week — he had been the one to tell Lola that Ramón was gathering evidence. Find what Aguirre had asked Lola to do and whether he knew what she would.",
+    "emptyState": "Aguirre knew Ramón was onto him. Find what he asked Lola to do about it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lola Reyes",
+            "icon": "💃",
+            "detail": "The killer — corridor, rum bottle, absent from card room, confronted by Ramón over double role."
+          },
+          {
+            "name": "Marco Delgado",
+            "icon": "🃏",
+            "detail": "The alibi provider — relationship with Lola, initial lie, revision under pressure."
+          },
+          {
+            "name": "Señor Aguirre",
+            "icon": "💼",
+            "detail": "Cleared as killer — main hall confirmed. But had warned Lola about Ramón's investigation."
+          },
+          {
+            "name": "Ramón Echevarría",
+            "icon": "🎴",
+            "detail": "The victim — had discovered both the skimming and Lola's double role."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Lola's killing of Ramón at the ten PM meeting."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Where Marco and Lola were — Lola absent during the murder window."
+          },
+          {
+            "name": "Aguirre's Office",
+            "icon": "💼",
+            "detail": "Where Aguirre had briefed Lola on Ramón's investigation one week before."
+          },
+          {
+            "name": "The Main Hall",
+            "icon": "🎰",
+            "detail": "Where Aguirre spent the evening — multiple confirmed witnesses."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — blood on base, right-handed thumbprint, Lola right-handed."
+          },
+          {
+            "name": "Poker Chip Tray",
+            "icon": "🎰",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Ceiling Fan Pull",
+            "icon": "🪢",
+            "detail": "No ligature mark — eliminated."
+          },
+          {
+            "name": "The Financial Ledger",
+            "icon": "📋",
+            "detail": "Not a weapon — the instrument of Ramón's investigation and the reason for the confrontation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Witness",
+            "icon": "💃",
+            "detail": "Lola's surface motive — Ramón was about to expose her double role to the club management."
+          },
+          {
+            "name": "Protect the Double Income",
+            "icon": "💰",
+            "detail": "Lola's financial motive — losing both her hostess position and Aguirre's payments."
+          },
+          {
+            "name": "Prevent Skimming Exposure",
+            "icon": "💼",
+            "detail": "Aguirre's interest — Ramón's ledger would have ended his operation and triggered criminal investigation."
+          },
+          {
+            "name": "Personal Betrayal",
+            "icon": "💔",
+            "detail": "Ramón's position — he had trusted Lola with his investigation and she had sold him to the man he was investigating."
+          },
+          {
+            "name": "Protect the Relationship",
+            "icon": "🃏",
+            "detail": "Marco's motive for the alibi — four months of relationship, reflexive protection."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Aguirre's Briefing of Lola",
+        "text": "Aguirre, in an extended interview after his financial records are examined, admits he had met with Lola in his office one week before the murder. He had told her that Ramón was compiling a ledger of the house accounts and had specifically asked her to 'find out what he has and whether it is complete.' He had not instructed her to harm Ramón. He had asked for intelligence.",
+        "alone": "Aguirre had asked Lola to find out what Ramón's evidence looked like — intelligence gathering, not violence. He had not instructed her to kill.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Aguirre asking for intelligence about Ramón's evidence and Lola subsequently attending the ten PM corridor meeting with a rum bottle confirm she had gone beyond what Aguirre had asked — her decision to kill was her own."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Lola's Payments From Aguirre",
+        "text": "A review of the club's cash disbursement records — found in a second ledger in Aguirre's office — shows bi-weekly cash payments to 'L.R.' totalling 400 pesos over two months. The payments are coded as 'promotional expenses.' Lola's salary from the club was 80 pesos per month — Aguirre's payments had been 200 pesos per month, two and a half times her salary.",
+        "alone": "Aguirre had been paying Lola 200 pesos per month — two and a half times her club salary — for two months of intelligence work.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Aguirre's payments to Lola at two and a half times her salary and her double role passing information in both directions confirm she had been managing a financially driven double arrangement for the full two-month period."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "What Lola Told Aguirre",
+        "text": "Aguirre confirms that after his briefing, Lola had reported back to him three days before the murder: Ramón's ledger was 'nearly complete' and he was 'planning to take it to the authorities next week.' Aguirre had understood this to mean he had limited time. He states he had not instructed Lola to do anything beyond the intelligence report. He had been considering his own response when the murder occurred.",
+        "alone": "Aguirre had been informed by Lola that Ramón's ledger was nearly complete and that he planned to go to authorities the following week — Aguirre had been planning his own response.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Aguirre informed that Ramón planned to contact authorities and his confirmed presence in the main hall during the murder confirm he was not the killer — but he had been formulating a response that Lola had pre-empted by acting first."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💴",
+        "heading": "Ramón's Discovery of Lola's Role",
+        "text": "A second note found in Ramón's locker — separate from the corridor meeting note — is dated four days before the murder and reads: 'L. has been reporting to A. She told him about the ledger. He knows I know. I need to confront her before she tells him anything else. If I can turn her, I have both of them.' Ramón had discovered the double role and had planned to use the confrontation to turn Lola into a witness against Aguirre.",
+        "alone": "Ramón had planned to turn Lola into a witness against Aguirre — the corridor meeting was not just a confrontation but an attempted recruitment. Lola had not known this was his intent.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Ramón's plan to turn Lola into a witness and Lola's decision to kill him instead confirm the corridor meeting had two different purposes from each side's perspective — Ramón had offered her a way out that she had not understood or had rejected."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "Lola's Decision",
+        "text": "Lola, in her eventual confession, states: 'He had the ledger. He showed it to me. He told me what I had done — that I had been feeding Aguirre information while taking money from both sides. He told me I had a choice: I could testify against Aguirre or he would tell the club management what I had done. I could not testify. I could not lose my position. I took the bottle.' She had understood the offer and rejected it.",
+        "alone": "Lola had understood Ramón's proposal — testify or be exposed — and had chosen a third option he had not offered.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Aguirre asking only for intelligence and Lola's decision to kill in the corridor confirm she had acted entirely on her own calculation — Aguirre had not ordered the murder and Lola had not been instructed to commit it."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Double Income's Logic",
+        "text": "Lola's financial situation — eighty pesos per month salary, two hundred pesos from Aguirre, plus tips — had placed her in a significantly better position than any other club hostess. The arrangement had been financially rational: she had passed information to Ramón about cheating players (helping the house), passed information to Aguirre about Ramón's investigation (helping the skimmer), and collected from both. The double role had been sustainable while neither party knew about the other.",
+        "alone": "Lola's double arrangement had been financially rational and sustainable — it had only become dangerous when Ramón discovered it.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Aguirre's payments at two and a half times her salary and the double arrangement's logic confirm Lola had been operating a financially driven intelligence service for both sides — her motive for the killing was the protection of an income stream, not passion."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "What Aguirre Had Planned",
+        "text": "Aguirre, asked what he had been planning when the murder occurred, pauses and then says: 'I was going to close the club. Move the operation. Start fresh somewhere else before Ramón could take the ledger anywhere. I was going to disappear.' He had been planning flight, not murder. Lola had acted before he could execute his plan — and her action had drawn the investigation that prevented his escape.",
+        "alone": "Aguirre had planned to flee and close the operation before Ramón acted — Lola's murder had triggered the investigation that caught him before he could leave.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Aguirre informed about Ramón's timeline and his plan to flee before the ledger reached authorities confirm Lola's murder had ironically destroyed Aguirre's escape plan — the investigation it triggered caught him in place."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Ledger's Fate",
+        "text": "Ramón's financial ledger — the document he had been compiling — was found in his locker along with the notes. It was complete. Its evidence was sufficient to establish Aguirre's skimming over eighteen months. Cuban authorities, following the investigation, charged Aguirre with fraud. The ledger Ramón had died protecting was entered into evidence and secured the conviction Ramón had intended.",
+        "alone": "Ramón's ledger was complete and sufficient to convict Aguirre — the purpose of his investigation was achieved posthumously through the investigation his murder had triggered.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Ramón's plan to use Lola as a witness and the ledger's sufficiency for conviction without her testimony confirm his investigation would have succeeded with or without Lola's cooperation — and had ultimately succeeded because of the murder, not despite it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lola Reyes",
+      "location": "The Back Corridor",
+      "weapon": "Rum Bottle",
+      "motive": "Silence the Witness"
+    },
+    "epilogue": "Lola Reyes received fifteen years. Marco Delgado received three years as an accessory after the fact. Señor Aguirre was charged with fraud and tax evasion using Ramón's completed ledger — the investigation his planned escape had been meant to prevent was triggered by the murder of the man he had been trying to outrun. He received eight years. The Club Tropicoro closed in January 1959, during the first week of the revolution. Julio the card room waiter — whose account of the empty chair had broken the alibi — was seventeen years old. He is the only person in this case whose subsequent life is not recorded."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #068",
+    "title": "House of Cards",
+    "setting": "Club Tropicoro · Havana · Cuba · 1958",
+    "emoji": "🃏",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Lola killed Ramón. Aguirre was planning to flee. Marco covered for Lola. But Marco had known about Aguirre's skimming before any of this — he had seen the ledger discrepancy months earlier as a regular player, had said nothing, and had his own reason for staying quiet.",
+    "emptyState": "Marco knew before Ramón did. Find why he stayed quiet.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lola Reyes",
+            "icon": "💃",
+            "detail": "The killer — corridor, rum bottle, double role, chose killing over testimony."
+          },
+          {
+            "name": "Marco Delgado",
+            "icon": "🃏",
+            "detail": "The alibi provider — relationship with Lola, knew about skimming months before, had his own reason to stay quiet."
+          },
+          {
+            "name": "Señor Aguirre",
+            "icon": "💼",
+            "detail": "Cleared as killer — main hall confirmed. Planned to flee, caught by the murder's investigation."
+          },
+          {
+            "name": "Ramón Echevarría",
+            "icon": "🎴",
+            "detail": "The victim — had discovered both the skimming and Lola's double role, planned to use Lola as witness."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Lola's killing of Ramón."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Where Marco and Lola were — Lola absent, Marco knew and covered."
+          },
+          {
+            "name": "Aguirre's Office",
+            "icon": "💼",
+            "detail": "Where Aguirre had briefed Lola — and where his financial records confirmed the skimming."
+          },
+          {
+            "name": "The Main Hall",
+            "icon": "🎰",
+            "detail": "Where Aguirre spent the evening — and where Marco had first noticed the discrepancy months before."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Lola's right-handed strike from behind."
+          },
+          {
+            "name": "Poker Chip Tray",
+            "icon": "🎰",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Ceiling Fan Pull",
+            "icon": "🪢",
+            "detail": "No ligature mark — eliminated."
+          },
+          {
+            "name": "The Ledger Knowledge",
+            "icon": "📋",
+            "detail": "Not a weapon — the information Marco had held for months and chosen not to act on."
+          },
+          {
+            "name": "Marco's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — but his months-long non-disclosure had allowed the skimming to continue and set the conditions for the murder."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Witness",
+            "icon": "💃",
+            "detail": "Lola's motive — Ramón's offer of testimony or exposure had no acceptable outcome for her."
+          },
+          {
+            "name": "Protect the Double Income",
+            "icon": "💰",
+            "detail": "Lola's financial motive — losing both income streams simultaneously."
+          },
+          {
+            "name": "Protect the Relationship",
+            "icon": "🃏",
+            "detail": "Marco's stated motive for the alibi — four months with Lola, reflexive protection."
+          },
+          {
+            "name": "Protect His Own Position at the Club",
+            "icon": "🎰",
+            "detail": "Marco's concealed motive for prior silence — Aguirre had extended Marco credit he could not repay."
+          },
+          {
+            "name": "Prevent Skimming Exposure",
+            "icon": "💼",
+            "detail": "Aguirre's interest — Ramón's ledger would have ended his operation."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Provided the False Alibi",
+            "icon": "🃏",
+            "detail": "Marco's confirmed role — initially claimed Lola's continuous presence, revised when confronted."
+          },
+          {
+            "name": "Knew About the Skimming Months Before",
+            "icon": "📋",
+            "detail": "Marco had noticed the discrepancy as a regular player and had stayed silent."
+          },
+          {
+            "name": "Was in Debt to Aguirre",
+            "icon": "💰",
+            "detail": "Marco's reason for silence — Aguirre had extended credit Marco could not repay, creating a hold."
+          },
+          {
+            "name": "Used the Relationship to Rationalize",
+            "icon": "💔",
+            "detail": "Marco's alibi for the alibi — he framed his cover as loyalty to Lola, obscuring the prior debt motive."
+          },
+          {
+            "name": "Told Lola About His Prior Knowledge",
+            "icon": "🤫",
+            "detail": "Marco had eventually told Lola he'd seen the discrepancy — she had used this to judge the full scope of her exposure."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Marco's Gambling Debt",
+        "text": "A review of the club's credit records — found in Aguirre's office — shows Marco Delgado had been extended 600 pesos in credit over six months of gambling, against which he had repaid 200 pesos. He owed Aguirre 400 pesos — five times his apparent monthly income. A note in Aguirre's own hand beside Marco's account reads: 'Hold. Useful.'",
+        "alone": "Marco owed Aguirre 400 pesos — five times his monthly income — and Aguirre had noted him as 'useful' and had placed his debt on hold.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Marco's 400-peso debt to Aguirre and Aguirre's notation of him as useful confirm Aguirre had been using the debt as leverage — Marco's silence about the skimming was not simply personal loyalty but financial coercion."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎰",
+        "heading": "What Marco Had Noticed",
+        "text": "Marco, confronted with his debt record and Aguirre's notation, eventually admits he had noticed a pattern in the club's chip counts three months before the murder — as a regular high-stakes player, he had been aware that the house's reported take was inconsistent with the volume of play he observed. He had raised this with Aguirre directly. Aguirre had told him to forget it and had extended his credit line.",
+        "alone": "Marco had raised the discrepancy with Aguirre directly three months before the murder — and Aguirre had responded by extending Marco's credit, effectively buying his silence.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Marco raising the discrepancy and Aguirre extending his credit in response confirm the silence was purchased — Marco had been paid for his knowledge with a credit extension he could not otherwise have received."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "When Marco Told Lola",
+        "text": "Lola, in her full confession, reveals Marco had told her about the credit extension and his prior observation two months before the murder — shortly after they became involved. She had understood immediately that Marco was compromised by the debt. When she later became involved in her own double arrangement with Aguirre, she had known Marco's silence was already secured.",
+        "alone": "Lola had known about Marco's debt and compromised silence for two months — his involvement in the alibi was not a surprise to her but a calculated reliance on a dependency she had known about.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Lola knowing about Marco's debt before the murder and using his compromised position to rely on his alibi confirm the alibi was not an improvised act of loyalty but a pre-existing vulnerability she had calculated on."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Credit Extension Timing",
+        "text": "Aguirre's credit records show Marco's credit line was extended on the same day Marco had approached him about the discrepancy — the extension was immediate. The prior outstanding amount was also moved to 'indefinite deferral.' Aguirre had acted within hours of Marco's observation to neutralize him financially. The credit extension was the price of Marco's silence.",
+        "alone": "Aguirre extended Marco's credit and deferred his debt on the same day Marco raised the discrepancy — the transaction neutralized Marco as a witness within hours of his observation.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Marco raising the discrepancy and the same-day credit extension confirming the purchase of silence establish that Aguirre had been managing potential witnesses proactively — Marco was the first, Lola was the second."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Notation's Context",
+        "text": "Aguirre's notation 'Hold. Useful.' beside Marco's account is dated two days after the credit extension — it appears in a section of the ledger where other debtor notations appear alongside assessments of their potential utility. Two other entries carry similar notations: one a supply vendor, one a city official. Aguirre had been systematically building a network of financially compromised useful contacts.",
+        "alone": "The 'Hold. Useful.' notation was part of a systematic practice — Aguirre had other financially compromised contacts he used similarly. Marco was one entry in a structured leverage network.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Marco's debt notation and the systematic leverage network of other compromised contacts confirm Aguirre's approach to Marco was not personal — it was an operational pattern applied to anyone who knew too much."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Marco's Self-Assessment",
+        "text": "Marco, in his final interview, is asked: 'Did you stay silent about Aguirre's skimming because of Lola or because of the debt?' He is quiet for a long moment. Then: 'I told myself it was because of Lola. She needed the position. I did not want to cause trouble for her. But the debt was there. It was always there. I do not know which one it was. Both, maybe. Neither, maybe.' He does not resolve the question.",
+        "alone": "Marco acknowledges both the relationship and the debt as possible motivations for his silence — and cannot distinguish between them even under direct questioning.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Lola knowing about Marco's debt before the murder and Marco's inability to separate his motivations confirm the alibi had been built on a foundation of overlapping compromises — loyalty, debt, and relationship all pointing in the same direction."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "💔",
+        "heading": "What the Alibi Cost Marco",
+        "text": "Marco Delgado received three years as an accessory after the fact. The credit debt to Aguirre was deemed uncollectable following Aguirre's conviction and the club's closure. Marco had given a false alibi for a woman who had used his compromised position as a calculation, received three years in prison, and had his debt wiped by the criminal proceedings that followed. He emerged from prison in 1961.",
+        "alone": "Marco's false alibi had cost him three years in prison — and his debt to Aguirre, the instrument of his compromise, was ultimately voided by the same investigation his alibi had failed to prevent.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The credit extension buying Marco's silence and the debt's ultimate cancellation by the investigation confirm the irony of Marco's position: the compromise that had kept him quiet had been rendered worthless by the very chain of events his silence had enabled."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "The Club's Last Night",
+        "text": "The Club Tropicoro closed on January 8th, 1959 — one week after Batista fled Cuba. The revolution that ended Batista's Cuba also ended the conditions that had allowed clubs like Tropicoro to operate with the corruption Aguirre had embedded in its accounts. Ramón's ledger, compiled over months, had documented a system the revolution made irrelevant. His murder had been committed to protect an operation that was already ending.",
+        "alone": "The Club Tropicoro closed one week into the revolution — the skimming operation Ramón had died to expose was rendered irrelevant by the political change that followed within weeks.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Aguirre's systematic leverage network and the club's closure one week into the revolution confirm the entire structure of compromises and skimming had depended on a political environment that was already collapsing — Ramón's murder had protected something that was already dying."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lola Reyes",
+      "location": "The Back Corridor",
+      "weapon": "Rum Bottle",
+      "motive": "Silence the Witness",
+      "accomplice": "Provided the False Alibi"
+    },
+    "epilogue": "Marco Delgado had noticed the skimming three months before Ramón did. Aguirre had bought his silence the same day with a credit extension and a deferred debt. Lola had known about Marco's debt for two months before the murder and had relied on it when she needed his alibi. Marco had told himself it was love. It was probably both. He received three years. His debt to Aguirre was cancelled by the proceedings. He emerged in 1961 into a Cuba where the Club Tropicoro no longer existed, Aguirre was in prison, and Lola was serving fifteen years. The revolution had made Ramón's ledger historical rather than criminal. Julio the card room waiter, who had broken the alibi, was not found for the post-war inquiry. He had left Havana in January 1959."
+  }
+}

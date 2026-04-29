@@ -1,0 +1,721 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "South Georgia, 1923. A whaling station at the end of the world. One man dead. And only one method could have done it in that cold. 🐋🔍 Case #067 — Blubber and Blood. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Antarctic whaling station 1923, a frozen murder, and the one method that proves exactly who did it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "An Antarctic whaling station on South Georgia Island in 1923, corrugated iron buildings against a grey sky, whale carcasses on a slipway into black water, a single oil drum overturned on the dock. Bone-white snow, rust-red metal, black sea. Stark and brutal, style of Frank Hurley meets Edward Weston.",
+    "animationPrompt": "Slow pan across an Antarctic whaling station in 1923. Corrugated iron. Grey sky. A slipway into black water. An oil drum overturned on the dock. The camera finds boot prints in the snow leading to the edge of the slipway — and stopping. Wind. Silence. Fade to black.",
+    "hashtags": [
+      "#AntarcticMystery",
+      "#WhalingStation",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #067",
+    "title": "Blubber and Blood",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Foreman Arne Holt was found dead at the base of the slipway, his head below the waterline. Three men had motive to see him gone — the station's profits were being skimmed and Holt had figured out who. One weapon could only have been used by someone with a specific role at the station.",
+    "emptyState": "One weapon. One role. Find who held both.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Karl Engström",
+            "icon": "⚙️",
+            "detail": "The station engineer — responsible for all mechanical equipment including the slipway winch."
+          },
+          {
+            "name": "Pieter Vos",
+            "icon": "🐋",
+            "detail": "The harpooner — the station's highest-paid worker, had disputed his share with Holt."
+          },
+          {
+            "name": "Henrik Strand",
+            "icon": "📋",
+            "detail": "The station accountant — the one skimming the profits Holt had detected."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Slipway",
+            "icon": "⚓",
+            "detail": "Where Holt was found — head submerged, boot prints stopping at the edge."
+          },
+          {
+            "name": "The Engine House",
+            "icon": "⚙️",
+            "detail": "Where the winch controls are located — the slipway's winch chain is operated from here."
+          },
+          {
+            "name": "The Accounting Office",
+            "icon": "📋",
+            "detail": "Where Strand worked — the ledgers showing the skimming were found here."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Slipway Winch Chain",
+            "icon": "⛓️",
+            "detail": "A heavy chain used to haul carcasses — wrapped around Holt's ankle and run into the water."
+          },
+          {
+            "name": "Flensing Knife",
+            "icon": "🔪",
+            "detail": "The large blade used to cut blubber — no wound present, Holt drowned."
+          },
+          {
+            "name": "Oil Drum",
+            "icon": "🛢️",
+            "detail": "The overturned drum on the dock — no evidence of use as a weapon."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "⛓️",
+        "heading": "The Chain on the Ankle",
+        "text": "The winch chain from the slipway's primary hauling mechanism is found wrapped twice around Holt's right ankle, its end looped and fastened with the specific half-hitch knot used exclusively by the station's engine crew to secure loads. The chain is long enough to have held Holt's head below the waterline once he was at the slipway's lower edge. The winch drum in the engine house is partially unwound.",
+        "alone": "The slipway winch chain — fastened with a knot used only by the engine crew — is the murder weapon. Operating the winch and fastening this specific knot requires the engine crew's specialized knowledge.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The engine crew knot used to fasten the chain and Engström's exclusive operational control of the slipway winch confirm only the station engineer had both the technical knowledge and the equipment access to use this method."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💧",
+        "heading": "Cause of Death",
+        "text": "The station's doctor — visiting from a supply ship — confirms Holt drowned. There is no blunt force injury. The chain had secured him at the waterline while the tide rose, or while he was held down by the chain's weight. The doctor notes a bruise on Holt's right temple consistent with being struck once — enough to stun but not kill. He was alive when the chain was attached.",
+        "alone": "Holt was stunned by a blow to the temple, chained at the slipway edge, and drowned — the chain secured him; the tide or chain weight finished the work.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Holt stunned before chaining and Engström's winch spanner found with a fresh impact mark on its flat head confirm the spanner was used to stun Holt before the chain was fastened — both items are engine house equipment."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Strand's Office Alibi",
+        "text": "Henrik Strand states he was in the accounting office from seven AM until the alarm at nine AM — working on the monthly shipping report. The supply ship's purser confirms he visited the accounting office at seven-thirty AM and spent forty minutes with Strand reviewing manifests. The purser confirms Strand was present and working throughout. Strand is cleared.",
+        "alone": "Strand was in the accounting office from seven AM, confirmed by the supply ship purser for the first forty minutes — he is cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Strand cleared by the purser and Vos confirmed aboard the supply ship during the morning together eliminate both other suspects during the murder window — leaving only Engström unaccounted for on the dock."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Holt Had Found",
+        "text": "A note in Holt's bunkhouse — in his own handwriting — lists three discrepancies in the station's production ledgers with annotations: 'H.S. is taking from the oil tonnage.' H.S. are the initials of Henrik Strand. A second annotation reads: 'Told E. this morning — he said he would handle it.' 'E.' matches Karl Engström. Holt had told Engström about Strand's skimming the morning of the murder.",
+        "alone": "Holt had told Engström about Strand's skimming on the morning of the murder — and Engström had said he would handle it.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Holt telling Engström about the skimming that morning and Engström's response that he would handle it confirm Engström had advance knowledge and a stated intention to act — and Holt was dead by nine AM."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "⚙️",
+        "heading": "The Winch Controls",
+        "text": "The slipway winch in the engine house can be operated only by someone who knows the release sequence — a four-step mechanical process involving two levers and a brake wheel in a specific order. Engström had designed this sequence himself when the equipment was installed. Vos and Strand had no documented familiarity with the winch controls — Strand had never entered the engine house.",
+        "alone": "The winch requires a four-step release sequence that only Engström had designed and knew — Vos and Strand had no familiarity with its operation.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The engine crew knot on the chain and the winch's specialist operation sequence confirm only Engström possessed both the knowledge to operate the winch and the training to fasten the specific knot used."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "The Winch Spanner",
+        "text": "A heavy adjustable spanner — standard engine house tool — is found at the slipway's upper edge, partially covered by snow. Its flat head shows a fresh impact mark consistent with a single blow against a rounded object. The mark's curve matches a human skull's profile. The spanner is issued exclusively to the station engineer as part of his equipment kit.",
+        "alone": "The winch spanner — Engström's own equipment — shows a fresh impact mark consistent with striking a skull. It is the stunning weapon.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Holt stunned before being chained and the engine house spanner showing a fresh impact mark confirm the stun weapon was Engström's own tool — used before the chain was fastened."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🐋",
+        "heading": "Vos Aboard the Supply Ship",
+        "text": "Pieter Vos had gone aboard the supply ship at six-thirty AM to negotiate his contract for the next season — confirmed by the supply ship's captain and first mate, who met with him for two hours. He did not return to the station until after the alarm was raised. He is definitively cleared.",
+        "alone": "Vos was aboard the supply ship from six-thirty AM until after the alarm — confirmed by the captain and first mate. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Strand cleared by the purser and Vos cleared by the ship's captain together account for both other suspects — Engström is the only man without a confirmed location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "Engström's Missing Morning",
+        "text": "Engström states he was in the engine house from six AM performing maintenance. No one can confirm this — the engine house was his domain and he worked alone. The engine house log shows no maintenance entry for that morning, despite being required for any non-routine work. The absence of a log entry means either no work was done or the log was not completed.",
+        "alone": "Engström's claimed engine house alibi has no log entry or witness confirmation — his morning is entirely unaccounted for.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Holt telling Engström about the skimming that morning and Engström's unconfirmed morning location confirm he had the knowledge, the time, and the specialized equipment to carry out the killing before the supply ship purser arrived at Strand's office."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Karl Engström",
+      "location": "The Slipway",
+      "weapon": "Slipway Winch Chain"
+    },
+    "epilogue": "Karl Engström had listened to Holt describe Strand's skimming that morning and had said he would handle it. He had not meant a confrontation or a report. He had gone to the slipway with his spanner, waited for Holt on his morning walk to the dock, struck him once on the temple, fastened the winch chain around his ankle with his own engine crew knot, and operated the winch to play the chain out until the tide covered him. He had returned to the engine house and made no log entry. The spanner's impact mark, the knot, and the winch drum's partial unwinding told the story. Engström received a life sentence. Strand was charged with the fraud that had set the events in motion."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #067",
+    "title": "Blubber and Blood",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Engström killed Holt. But his motive was not simply protecting Strand — Engström was Strand's partner in the skimming operation. Find what they had been doing together and how long it had been running.",
+    "emptyState": "Engström wasn't protecting Strand. He was protecting himself.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Karl Engström",
+            "icon": "⚙️",
+            "detail": "The killer — winch chain, spanner, engine crew knot, Holt told him about the skimming."
+          },
+          {
+            "name": "Henrik Strand",
+            "icon": "📋",
+            "detail": "Cleared as killer — purser alibi. But the skimming was a joint operation with Engström."
+          },
+          {
+            "name": "Pieter Vos",
+            "icon": "🐋",
+            "detail": "Cleared as killer — supply ship confirmed. His disputed share was a separate matter."
+          },
+          {
+            "name": "The Station Owner",
+            "icon": "🏢",
+            "detail": "The Norwegian company that operated Grytviken — the ultimate victim of the skimming."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Slipway",
+            "icon": "⚓",
+            "detail": "Primary crime scene — chain, spanner, boot prints."
+          },
+          {
+            "name": "The Engine House",
+            "icon": "⚙️",
+            "detail": "Engström's domain — winch, spanner, no log entry."
+          },
+          {
+            "name": "The Accounting Office",
+            "icon": "📋",
+            "detail": "Strand's workspace — ledgers showing skimming, purser's alibi visit."
+          },
+          {
+            "name": "The Oil Processing Shed",
+            "icon": "🛢️",
+            "detail": "Where the skimmed oil was measured — Engström controlled the processing equipment."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Slipway Winch Chain",
+            "icon": "⛓️",
+            "detail": "Confirmed murder weapon — engine crew knot, winch operation, Holt drowned."
+          },
+          {
+            "name": "Flensing Knife",
+            "icon": "🔪",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Oil Drum",
+            "icon": "🛢️",
+            "detail": "No weapon evidence — eliminated."
+          },
+          {
+            "name": "Winch Spanner",
+            "icon": "🔧",
+            "detail": "The stunning weapon — Engström's own tool, fresh impact mark."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "That Morning",
+            "icon": "☀️",
+            "detail": "Holt told Engström about the skimming — triggering the decision to act."
+          },
+          {
+            "name": "Six to Seven AM",
+            "icon": "⚠️",
+            "detail": "The murder window — before Strand's purser meeting at seven-thirty, before Vos returned."
+          },
+          {
+            "name": "Two Years Prior",
+            "icon": "📅",
+            "detail": "When the skimming operation began — the full duration of Engström and Strand's scheme."
+          },
+          {
+            "name": "Three Years Running",
+            "icon": "📅",
+            "detail": "The full period of the station's operation — and Engström's employment there."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Double Ledger",
+        "text": "A thorough review of the accounting office — conducted after the murder — reveals a second set of books hidden behind a false panel in Strand's desk. The second ledger tracks oil tonnage separately from the official records — showing consistently higher yields than the figures filed with the station's Norwegian owners. The discrepancy totals approximately 1,400 barrels of oil over two years.",
+        "alone": "Strand maintained a double set of books showing the true oil yield — 1,400 barrels more than reported to the owners over two years.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The 1,400-barrel discrepancy over two years and Engström's control of the oil processing measurement equipment confirm only Engström could have produced false yield measurements — the skimming required both Strand's accounting and Engström's falsification of the processing figures."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🛢️",
+        "heading": "The Processing Equipment",
+        "text": "A review of the oil processing shed's measurement records — maintained by Engström as part of his engineering role — shows systematic under-recording of processed oil volume by approximately six percent per month over the same two-year period. Six percent under-recording translates precisely to the 1,400-barrel discrepancy in Strand's double ledger. The falsification was done at the measurement stage.",
+        "alone": "Engström had falsified the oil processing measurements by exactly the amount Strand's double ledger tracked — the scheme required both men's roles.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Engström's processing falsification and Strand's double ledger matching exactly confirm this was a coordinated operation from the start — neither man could have run the scheme without the other's participation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🐋",
+        "heading": "Vos's Separate Dispute",
+        "text": "Pieter Vos, interviewed after his clearance, confirms his pay dispute with Holt was genuine — Holt had refused to certify a bonus Vos believed he was owed for an exceptional catch. Vos had not known about the skimming operation. He had no connection to Strand or Engström beyond normal station interactions. His motive was real but unconnected to the murder.",
+        "alone": "Vos's pay dispute with Holt was a genuine separate grievance — he had no knowledge of or involvement in the skimming operation.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Vos's unconnected dispute and the skimming operation requiring both Strand and Engström confirm the murder's motive was the partnership between the two men — not Vos's individual grievance, which had been a misdirection."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Where the Oil Went",
+        "text": "A review of the station's supply chain — traced through shipping manifests — identifies a recurring buyer listed as 'Coastal Trading Co.' purchasing oil at below-market rates through a Norwegian intermediary. The buyer's actual identity, traced through the intermediary, is a shell company with two directors: Henrik Strand and Karl Engström. They had been selling the skimmed oil to themselves.",
+        "alone": "The skimmed oil was sold to a shell company with Strand and Engström as directors — they had been the buyers of their own stolen product.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The shell company with both men as directors and the two-year duration of the skimming confirm this was a deliberate long-term scheme — not opportunistic petty theft but a structured fraud that had been running since shortly after the station opened."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "⚙️",
+        "heading": "Engström's Role in the Scheme",
+        "text": "The processing shed measurement records in Engström's handwriting show the under-recording beginning precisely in the station's third month of operation — two months after both Strand and Engström began their employment. The scheme had started early and had been running consistently for two years without detection. Holt had only been foreman for eight months — he was the first person in a position to notice.",
+        "alone": "The skimming had started in the station's third month and had run for two years — Holt as foreman for eight months had been the first to be in a position to detect it.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The 1,400-barrel discrepancy over two years and the skimming starting in the third month of operation confirm the scheme had been planned from near the beginning of the station's operation — it was not an opportunistic exploit."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Strand's Knowledge of the Murder Plan",
+        "text": "Strand, in a second interview after the double ledger is presented to him, admits Engström had contacted him on the morning of the murder — via a brief note — saying 'Holt knows. I will handle it today.' Strand had understood what this meant and had remained in the accounting office. He had not attempted to stop Engström or warn Holt.",
+        "alone": "Strand had received Engström's note saying he would handle the Holt situation that day — and had done nothing to prevent the murder or warn Holt.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Engström's processing falsification and Strand's deliberate inaction after the note confirm both men were complicit in the murder's execution — Strand had known in advance and had chosen to remain in his office during the killing."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Total Stolen",
+        "text": "The full accounting of the scheme — 1,400 barrels sold to their own shell company at below-market rates over two years — represents a theft of approximately 14,000 Norwegian kroner from the station's owners. Divided between two men over two years, this represents a significant supplementary income in the context of their salaries — nearly doubling each man's annual earnings.",
+        "alone": "The scheme had nearly doubled both men's annual earnings over two years — the financial stakes were significant enough to motivate the protection of the operation.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The shell company with both men as directors and the near-doubling of their earnings from the scheme confirm the financial motive for killing Holt was substantial — the scheme was worth far more than their salaries and its exposure would have ended both careers and triggered criminal prosecution."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "Engström's Final Account",
+        "text": "At his trial, Engström states: 'Holt came to me that morning. He had figures. He had names. He had the discrepancies laid out. He was going to the company the next day. I had five minutes to decide. I decided.' He does not express remorse. He is asked if Strand knew in advance. He says: 'He knew what I was going to do. He stayed inside. That is all I will say.'",
+        "alone": "Engström confirms Strand had advance knowledge and had stayed inside — implicating him as a knowing party to the murder without directly naming him as an accomplice.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Strand's receipt of the note saying Engström would handle it and Engström's trial statement confirming Strand knew and stayed inside together establish Strand's knowing complicity in the murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Karl Engström",
+      "location": "The Slipway",
+      "weapon": "Slipway Winch Chain",
+      "window": "Six to Seven AM"
+    },
+    "epilogue": "Karl Engström received a life sentence for the murder of Arne Holt. Henrik Strand was convicted as an accessory before and after the fact and received twelve years. The shell company Coastal Trading Co. was dissolved and its assets recovered by the Norwegian station owners. Pieter Vos's contract dispute was settled in his favor by the incoming management. The station continued operating under new management until 1965. Engström's note to Strand — 'Holt knows. I will handle it today' — was read into the trial record. Strand had kept it."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #067",
+    "title": "Blubber and Blood",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Engström killed Holt. Strand was complicit. But Holt had not found the skimming on his own — he had been tipped off by Vos, who had noticed the oil measurement discrepancies while complaining about his own pay. Find what Vos knew and what he had set in motion.",
+    "emptyState": "Vos didn't know what he'd started. Find what he told Holt.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Karl Engström",
+            "icon": "⚙️",
+            "detail": "The killer — winch chain, spanner, processing falsification, Strand's co-conspirator."
+          },
+          {
+            "name": "Henrik Strand",
+            "icon": "📋",
+            "detail": "The accomplice — double ledger, shell company, advance knowledge of murder plan."
+          },
+          {
+            "name": "Pieter Vos",
+            "icon": "🐋",
+            "detail": "Cleared as killer — supply ship confirmed. But had inadvertently triggered the chain by telling Holt what he'd noticed."
+          },
+          {
+            "name": "The Station Owner",
+            "icon": "🏢",
+            "detail": "The Norwegian company — victim of 14,000 kroner in theft over two years."
+          },
+          {
+            "name": "Holt's Source",
+            "icon": "📋",
+            "detail": "The specific observation Vos had shared — connecting the pay dispute to the measurement discrepancy."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Slipway",
+            "icon": "⚓",
+            "detail": "Primary crime scene — Engström's execution of the plan."
+          },
+          {
+            "name": "The Engine House",
+            "icon": "⚙️",
+            "detail": "Where the processing falsification occurred — Engström's domain."
+          },
+          {
+            "name": "The Accounting Office",
+            "icon": "📋",
+            "detail": "Strand's workspace — double ledger, shell company, advance knowledge."
+          },
+          {
+            "name": "The Oil Processing Shed",
+            "icon": "🛢️",
+            "detail": "Where Vos had noticed the measurement discrepancy during an equipment check."
+          },
+          {
+            "name": "Holt's Bunkhouse",
+            "icon": "🛏️",
+            "detail": "Where Holt had written his notes connecting the discrepancies to H.S. — after Vos told him."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Slipway Winch Chain",
+            "icon": "⛓️",
+            "detail": "Confirmed murder weapon — Engström's method."
+          },
+          {
+            "name": "Flensing Knife",
+            "icon": "🔪",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Oil Drum",
+            "icon": "🛢️",
+            "detail": "No weapon evidence — eliminated."
+          },
+          {
+            "name": "Winch Spanner",
+            "icon": "🔧",
+            "detail": "The stun weapon — Engström's tool."
+          },
+          {
+            "name": "Vos's Observation",
+            "icon": "👁️",
+            "detail": "Not a weapon — the intelligence that started the chain. Vos had seen something and told the wrong person at the right time."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect the Skimming Operation",
+            "icon": "💰",
+            "detail": "Engström's motive — the scheme had nearly doubled his earnings for two years and its exposure would mean prison."
+          },
+          {
+            "name": "Preserve the Partnership",
+            "icon": "📋",
+            "detail": "Strand's motive — the same financial stakes, plus the shell company's exposure."
+          },
+          {
+            "name": "Pay Dispute Resolution",
+            "icon": "🐋",
+            "detail": "Vos's original grievance — he had complained about his share and noticed a discrepancy in doing so."
+          },
+          {
+            "name": "Inadvertent Intelligence",
+            "icon": "👁️",
+            "detail": "Vos's role — he had told Holt what he'd seen without knowing the full picture or the consequences."
+          },
+          {
+            "name": "Foreman's Duty",
+            "icon": "📋",
+            "detail": "Holt's motive for investigating — he had been doing his job, following up on information given to him."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🐋",
+        "heading": "What Vos Told Holt",
+        "text": "Pieter Vos, in a third interview after the scheme's full scope is established, reveals what had prompted his information to Holt: 'I was arguing with Holt about my bonus. I said the catch had been worth more than the records showed. He asked me what I meant. I told him I had seen the processing shed measurement during an equipment check — the reading was higher than what Engström had written in the log. I thought it was an error.'",
+        "alone": "Vos had seen a processing measurement reading higher than Engström's log entry during an equipment check — he had told Holt about this discrepancy while arguing about his bonus, thinking it was a clerical error.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Vos noticing the measurement discrepancy during his equipment check and Engström's systematic under-recording in the processing logs confirm Vos had observed the mechanism of the fraud — and had inadvertently handed Holt the thread that unravelled the scheme."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Holt's Investigation",
+        "text": "A review of Holt's bunkhouse papers shows he had been working on the discrepancy for three days before his murder — after Vos's conversation. His notes show a progressive understanding: first the measurement discrepancy, then the ledger comparison, then the initials H.S. A final note, written the morning of his death, reads: 'Told E. this morning. He said he would handle it. Meeting company rep next week.' He had trusted Engström to address it legitimately.",
+        "alone": "Holt had investigated for three days after Vos's tip and had trusted Engström with the information — he had planned to report to the company the following week and had not anticipated violence.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Holt's three-day investigation triggered by Vos's observation and his trust in Engström's stated intention to handle it confirm Holt had not recognized the threat — he had handed information to the person who would use it to kill him."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🐋",
+        "heading": "Vos's Realization",
+        "text": "When Vos is told the full sequence — his conversation with Holt, Holt's three-day investigation, Engström's response, and the murder — he is silent for a long time. He then says: 'I told him about a number on a gauge. I was angry about my pay. I did not know what I was doing. I did not know.' He is not charged with any role in the murder. He leaves the station on the supply ship and does not return.",
+        "alone": "Vos had not known the significance of what he was telling Holt — his observation had been incidental to a pay argument, and he had had no knowledge of the scheme or its consequences.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Vos's innocent observation and his departure from the station confirm his role was entirely inadvertent — he had triggered a chain of events he could not have anticipated and had no criminal responsibility for."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three-Day Window",
+        "text": "Holt's notes are dated over three days before the murder. He had spoken to Engström on the morning of his death — day three. If Holt had not told Engström and had gone directly to the company representative the following week as planned, Engström and Strand would have had no warning before the investigation began. By telling Engström, Holt had given the killers five minutes to decide and a week to act — he had used none of it.",
+        "alone": "Holt's decision to inform Engström before going to the company had given the guilty parties advance warning — if he had gone directly to the company, the scheme would have been discovered without them knowing.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Holt informing Engström as his first action and Engström's decision in five minutes to kill him confirm the fatal error was Holt's trust in the chain of command — he had done what a good foreman does and it had cost him his life."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "🛢️",
+        "heading": "The Gauge Vos Saw",
+        "text": "An inspection of the oil processing shed — conducted as part of the full investigation — identifies the specific gauge Vos had seen: a secondary volumetric meter mounted at eye level during the flensing platform equipment check. The meter's reading is not routinely logged — it was Engström's practice to log only the primary meter. The secondary meter's readings, if cross-referenced, consistently showed higher yields than the primary — confirming the falsification.",
+        "alone": "The secondary meter Vos had seen — not routinely logged by Engström — consistently showed higher yields than the primary meter Engström did log. The gauge was the evidence of the fraud.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Vos seeing the secondary meter reading during his equipment check and Engström's deliberate logging of only the primary meter confirm Engström had designed the falsification to avoid exactly the kind of incidental observation Vos had made."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💰",
+        "heading": "What the Company Received",
+        "text": "The Norwegian station owners, upon receiving the full investigation report, calculate their total loss at 14,200 kroner over two years. They note that had Holt's report reached them the following week as he had planned, the scheme would likely have been detected in its current season and future losses prevented. The investigation also finds that no prior audit had been conducted — the owners had relied entirely on the station's internal reporting.",
+        "alone": "The station owners had relied entirely on internal reporting — no external audit had been conducted in two years, enabling the scheme to run undetected until Vos's incidental observation.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Holt's plan to report to the company the following week and the owners' reliance on internal reporting confirm the fraud's survival had depended on a gap in oversight that Holt had been about to close — and Engström had closed Holt first."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "Engström's Design",
+        "text": "The investigation's engineering review finds that the secondary meter had been installed at Engström's specific instruction when the processing shed was built — justified as a 'backup measurement for equipment calibration.' The meter had never been formally incorporated into the logging protocol. Engström had installed a device that would reveal the fraud and then ensured it was never part of the official record.",
+        "alone": "Engström had installed the secondary meter himself and had then ensured it was never logged — he had created both the evidence of the fraud and the mechanism of its concealment.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The secondary meter installed by Engström and his deliberate exclusion of it from the logging protocol confirm the meter's existence was a byproduct of the installation design — Vos's observation was exactly the kind of incidental exposure Engström had sought to prevent by keeping the meter off the record."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "Vos's Departure and After",
+        "text": "Pieter Vos departed Grytviken on the supply ship three days after the murder and the investigation's opening. He is recorded as having settled in Cape Town, where he worked on fishing vessels until his death in 1951. The investigation report notes his status as an inadvertent witness and intelligence source — not a suspect, not an accomplice, not a party to any element of the fraud or the murder. His observation of a secondary meter gauge during a pay argument had set everything in motion.",
+        "alone": "Vos's inadvertent observation of a secondary meter during a pay argument had initiated the chain that led to Holt's death — and Vos himself bore no criminal responsibility for any part of it.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Vos's realization of what his observation had triggered and his departure from the station confirm the full human weight of the chain: an innocent observation made in frustration about pay had put information in motion that killed the man who received it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Karl Engström",
+      "location": "The Slipway",
+      "weapon": "Slipway Winch Chain",
+      "window": "Six to Seven AM",
+      "motive": "Protect the Skimming Operation"
+    },
+    "epilogue": "Pieter Vos had seen a number on a gauge during an equipment check, while angry about his bonus. He had mentioned it to his foreman. His foreman had spent three days following the thread and had brought it to the man whose thread it was. Engström had five minutes and then used his spanner and his chain. Vos left on the supply ship. He settled in Cape Town and worked on fishing vessels until 1951. He gave one interview about the Grytviken matter in 1937 and said only: 'I told a man about a gauge. He is dead. I have thought about that gauge every day for fourteen years.' The investigation report classified him as an inadvertent witness. The court record made no mention of him at all."
+  }
+}

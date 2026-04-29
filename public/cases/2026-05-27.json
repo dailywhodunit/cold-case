@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Florence, 1482. A master painter is found dead in his workshop. His greatest painting — finished the night before — is missing. And only his apprentices had keys. 🎨🔍 Case #069 — The Unfinished Master. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Renaissance Florence 1482, a murdered painter, a stolen masterwork, and two keys that tell the whole story. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1482 Florentine artist's workshop, timber beams, pigment-stained worktables, stretched canvases on frames, an overturned majolica paint vessel on a stone floor. Afternoon light through arched windows, a wooden easel empty at the room's center. Ochre, cobalt, raw umber. Renaissance atmosphere, style of Jan van Eyck meets Piero della Francesca.",
+    "animationPrompt": "Slow pan through a 1482 Florentine workshop. Timber beams. Pigment-stained worktables. An empty easel at the room's center. The camera finds an overturned majolica paint vessel, pigment spreading across stone. An open window. The easel stands empty where the finished painting had been. Fade to black.",
+    "hashtags": [
+      "#RenaissanceFlorence",
+      "#ArtMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #069",
+    "title": "The Unfinished Master",
+    "setting": "Maestro Sandro Bardi's Workshop · Florence · 1482",
+    "emoji": "🎨",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Maestro Sandro Bardi was found dead on the floor of his workshop at dawn. His completed altarpiece — three years of work, commissioned by the Medici — was gone from the easel. Two apprentices had keys to the workshop. One of them had also been selling Bardi's preliminary drawings to a rival atelier for six months.",
+    "emptyState": "One key. One theft. One killing. Find who held all three.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Luca Ferrini",
+            "icon": "🖌️",
+            "detail": "The senior apprentice — had held a workshop key for two years, resented Bardi's criticism."
+          },
+          {
+            "name": "Giulia Conti",
+            "icon": "🎨",
+            "detail": "The junior apprentice — recently given a key, had been quietly sketching her own compositions."
+          },
+          {
+            "name": "Fra Benedetto",
+            "icon": "⛪",
+            "detail": "The Medici's liaison friar — had delivered payment the day before and had seen the completed altarpiece."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Workshop",
+            "icon": "🎨",
+            "detail": "Where Bardi was found — paint vessel overturned, easel empty, window open."
+          },
+          {
+            "name": "The Pigment Store",
+            "icon": "🎨",
+            "detail": "The locked room adjacent to the workshop where expensive pigments were kept."
+          },
+          {
+            "name": "The Rival Atelier",
+            "icon": "🖼️",
+            "detail": "Maestro Conti's workshop across the Arno — buying drawings for six months."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron Pigment Pestle",
+            "icon": "⚗️",
+            "detail": "A heavy grinding tool — blunt force wound consistent with its head."
+          },
+          {
+            "name": "Wooden Easel Leg",
+            "icon": "🪵",
+            "detail": "A heavy timber — wound profile inconsistent with its flat face."
+          },
+          {
+            "name": "Majolica Paint Vessel",
+            "icon": "🏺",
+            "detail": "The overturned vessel — too fragile for the wound depth, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Two Keys",
+        "text": "The workshop has one lock with two keys — both made by the same locksmith six months prior when Giulia Conti received her copy. The locksmith's record shows the keys were made from a wax impression of the original. Only Luca and Giulia hold copies. The original key remained on Bardi's person — found in his pocket. The workshop door was locked from outside when the body was discovered.",
+        "alone": "The workshop was locked from outside — Bardi's key was in his pocket and the door required an apprentice's key. Only Luca or Giulia could have locked it after the killing.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The workshop locked from outside with an apprentice's key and Luca Ferrini's key found in the pigment store rather than on his person confirm he had entered the workshop, committed the killing, and locked it from outside before returning the key — or losing it in the pigment store."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⚗️",
+        "heading": "The Pigment Pestle",
+        "text": "The iron pigment pestle — used to grind dried pigments — shows blood on its flat grinding head. The wound on Bardi's skull matches the pestle's head profile and weight. The pestle is normally stored in the pigment store. It had been brought into the workshop and used as a weapon — requiring knowledge of where it was kept and access to the locked pigment store.",
+        "alone": "The murder weapon was the pigment pestle from the locked pigment store — the killer knew where it was and had access to retrieve it.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The pestle retrieved from the locked pigment store and Luca Ferrini's pigment store key found in that room confirm he had opened the pigment store that night — and the pestle's removal to the workshop is consistent with his entry."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "⛪",
+        "heading": "Fra Benedetto's Account",
+        "text": "Fra Benedetto had delivered the Medici's final payment the previous afternoon and confirms he saw the completed altarpiece on the easel at that time — Bardi had been alive and well. The friar had departed by vespers. He had not returned. He had no key to the workshop and the window was latched from inside when he left — he confirms this specifically. He is definitively cleared.",
+        "alone": "Fra Benedetto had seen the altarpiece completed and Bardi alive the previous afternoon — he is cleared and establishes the altarpiece existed and was in the workshop until at least vespers.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The altarpiece confirmed present at vespers and Giulia Conti confirmed at the convent of Santa Croce for evening prayers until late together narrow the murder window to the period after Giulia's return — or before it, if Luca acted alone."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Drawing Sales",
+        "text": "A letter found in the rival atelier's records — obtained through the investigation — lists seventeen drawings purchased over six months 'from a source within the Bardi workshop.' The drawings are described as Bardi's preliminary studies for the altarpiece. Each drawing sale is recorded with a payment amount. The total payments match a series of deposits in Luca Ferrini's account at a Florentine money-changer.",
+        "alone": "Luca had been selling Bardi's preliminary drawings to the rival atelier for six months — seventeen sales, payments matching deposits in his account.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Luca selling Bardi's drawings for six months and Bardi's annotation on a workshop inventory reading suspected theft — Luca confirm Bardi had begun to suspect Luca's betrayal in the days before the murder."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "Luca's Key Location",
+        "text": "Luca's key is found inside the pigment store — on the floor beside the pigment grinding bench. It had not been found on his person when he presented himself the following morning claiming to have discovered the body. His explanation is that he must have left the key there previously. The pigment store had been locked when Fra Benedetto visited — the friar had not entered it. The key had been left in the pigment store the night of the killing.",
+        "alone": "Luca's key was found inside the locked pigment store — he had entered the store the previous night and had not retrieved his key before leaving.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The workshop locked from outside with an apprentice key and Luca's key found inside the pigment store confirm Luca had been in the workshop complex the previous night — and that he had locked the workshop from outside using his own key before discovering he had left it in the store."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎨",
+        "heading": "The Open Window",
+        "text": "The workshop's single window — which Fra Benedetto had confirmed latched from inside at vespers — is found open at dawn. The altarpiece frame is too large to pass through the window. The painting itself, unframed, could have been rolled and passed through. Marks on the window sill show a rope or cord had been used to lower something heavy to the alley below.",
+        "alone": "The altarpiece had been removed through the open window — rolled and lowered to the alley below using a rope. The window could not have been unlatched without access from inside.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The altarpiece removed through the inside-latched window and the pigment pestle retrieved from the locked store confirm the killer had access to the workshop's interior and its locked secondary spaces — consistent only with Luca's key and knowledge."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Giulia's Evening",
+        "text": "Giulia Conti is confirmed at the convent of Santa Croce for compline prayers and a charitable work meeting until the tenth hour of the night — confirmed by the Mother Superior and two sisters. Her key was found in her lodgings by the investigation. She had not been at the workshop that evening. She is cleared.",
+        "alone": "Giulia was at Santa Croce until the tenth hour — confirmed by the Mother Superior. Her key was in her lodgings. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Fra Benedetto clearing the afternoon timeline and Giulia confirmed at Santa Croce until late together establish the murder occurred after vespers and potentially after the tenth hour — a window in which only Luca is unaccounted for."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Bardi's Suspicion",
+        "text": "A workshop inventory in Bardi's handwriting — dated three days before the murder — contains a marginal annotation beside the preliminary study drawings: 'Seven missing since autumn. Suspect theft — Luca.' Bardi had been tracking the missing drawings and had connected them to Luca. A second annotation on the same page reads: 'Must confront him. After the altarpiece is delivered.'",
+        "alone": "Bardi had suspected Luca of the drawing theft for months and had planned to confront him after the altarpiece delivery — the delivery payment had arrived the previous afternoon.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Luca selling seventeen drawings over six months and Bardi's annotation confirming his suspicion and planned post-delivery confrontation confirm the motive and the trigger — the payment's arrival the previous afternoon made the confrontation imminent."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Luca Ferrini",
+      "location": "The Workshop",
+      "weapon": "Iron Pigment Pestle"
+    },
+    "epilogue": "Luca Ferrini had known Bardi was going to confront him about the drawings — Bardi had mentioned reviewing the workshop inventory to him the day the payment arrived. He had gone to the workshop that night with the intention of speaking to Bardi before the confrontation, or preventing it. He had retrieved the pigment pestle from the store. The conversation had gone badly. He had taken the altarpiece through the window, lowering it to a confederate in the alley below, and had locked the workshop from outside. He had left his key in the pigment store and had not noticed until morning, when it was too late to retrieve it without being observed. The Medici recovered the altarpiece from the rival atelier three days later."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #069",
+    "title": "The Unfinished Master",
+    "setting": "Maestro Sandro Bardi's Workshop · Florence · 1482",
+    "emoji": "🎨",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Luca killed Bardi and took the altarpiece. But he had a confederate in the alley below to receive the painting. Find who the confederate was and what they intended to do with a stolen Medici commission.",
+    "emptyState": "Someone waited in the alley. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Luca Ferrini",
+            "icon": "🖌️",
+            "detail": "The killer — pigment pestle, key in store, drawing sales, window removal."
+          },
+          {
+            "name": "Giulia Conti",
+            "icon": "🎨",
+            "detail": "Cleared as killer — Santa Croce confirmed. But the rival atelier shares her family name."
+          },
+          {
+            "name": "Fra Benedetto",
+            "icon": "⛪",
+            "detail": "Cleared as killer — seen the previous afternoon. But had conveyed the Medici's interest to a third party."
+          },
+          {
+            "name": "Maestro Conti",
+            "icon": "🖼️",
+            "detail": "The rival master — had been buying Bardi's drawings and had sent the confederate to the alley."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Workshop",
+            "icon": "🎨",
+            "detail": "Primary crime scene — Luca's killing of Bardi."
+          },
+          {
+            "name": "The Pigment Store",
+            "icon": "⚗️",
+            "detail": "Where Luca's key was found — the pestle's storage location."
+          },
+          {
+            "name": "The Alley Below the Window",
+            "icon": "🪟",
+            "detail": "Where the confederate waited — rope marks on the sill, painting lowered here."
+          },
+          {
+            "name": "The Rival Atelier",
+            "icon": "🖼️",
+            "detail": "Maestro Conti's workshop — where the altarpiece was recovered three days later."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron Pigment Pestle",
+            "icon": "⚗️",
+            "detail": "Confirmed murder weapon — Luca's."
+          },
+          {
+            "name": "Wooden Easel Leg",
+            "icon": "🪵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Majolica Paint Vessel",
+            "icon": "🏺",
+            "detail": "Too fragile — eliminated."
+          },
+          {
+            "name": "The Rope at the Window",
+            "icon": "🪢",
+            "detail": "The removal instrument — cord marks on the sill, used to lower the rolled altarpiece."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Workshop Key — Luca's Copy",
+            "icon": "🔑",
+            "detail": "Used to enter and exit the workshop — left in the pigment store."
+          },
+          {
+            "name": "Pigment Store Key",
+            "icon": "🗝️",
+            "detail": "Required to retrieve the pestle — Luca held the only apprentice copy."
+          },
+          {
+            "name": "Inside Window Latch",
+            "icon": "🪟",
+            "detail": "Confirmed latched by Fra Benedetto at vespers — opened from inside during the killing."
+          },
+          {
+            "name": "The Alley Confederate",
+            "icon": "👤",
+            "detail": "The person who received the lowered altarpiece — identified through the rope and the rival atelier's records."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🖼️",
+        "heading": "The Rival Atelier's Receipt",
+        "text": "The rival atelier's records — examined after the altarpiece was recovered there — show an entry for the night of the murder: 'Received: one large panel painting, rolled, delivered by workshop assistant at the eleventh hour.' The entry is in Maestro Conti's hand. The 'workshop assistant' had delivered the painting to the rival atelier directly, arriving approximately an hour after the estimated time of death.",
+        "alone": "A workshop assistant had delivered the rolled altarpiece to Maestro Conti's atelier at the eleventh hour — one hour after the estimated time of death.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The altarpiece delivered to Conti's atelier at the eleventh hour and the seventeen-drawing purchase record showing six months of prior dealings confirm Maestro Conti had been in an active relationship with the drawing source — and had planned for the altarpiece's delivery."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🖌️",
+        "heading": "The Workshop Assistant Identified",
+        "text": "A description of the 'workshop assistant' from Maestro Conti's journeyman — who had received the delivery — matches a young man known to frequent both the Bardi workshop and the Conti atelier: a former Bardi student named Piero, who had transferred to Conti's workshop three months prior. Piero had been Luca's friend before the transfer.",
+        "alone": "The confederate in the alley was Piero — a former Bardi student now at Conti's atelier, and Luca's prior friend.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Piero identified as the alley confederate and his transfer to Conti's atelier three months before the murder confirm the arrangement between Luca and Piero had been set up before the killing — the transfer was part of the plan."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Giulia's Family Connection",
+        "text": "Giulia Conti is the niece of Maestro Conti — her family name is not coincidental. Her placement as Bardi's junior apprentice six months prior, at the time the new keys were made, had been arranged by Maestro Conti through an intermediary. The investigation cannot establish whether Giulia was aware of Conti's arrangement with Luca — her alibi remains solid and she is not charged.",
+        "alone": "Giulia's placement in Bardi's workshop had been arranged by her uncle Maestro Conti — but her alibi is solid and she is not connected to the murder.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Conti arranging Giulia's placement in Bardi's workshop and Luca's prior drawings sales to Conti's atelier confirm Conti had been systematically penetrating the Bardi workshop for months — Giulia was an observation asset, Luca was an active source."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Altarpiece's Value",
+        "text": "The Medici commission for the altarpiece had been documented at 800 florins — one of the largest single commissions in Florence that year. Maestro Conti's atelier was in financial difficulty, having lost two major commissions to Bardi the previous year. Acquiring the completed altarpiece — even a stolen one — would have been sufficient to restore his operation if he could sell it or use it as a demonstration of his atelier's capacity.",
+        "alone": "The altarpiece was worth 800 florins and Conti's atelier was in financial difficulty — the theft was motivated by the painting's capacity to restore his workshop's standing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 800-florin value and Conti's financial difficulty from losing commissions to Bardi confirm the theft was not merely competitive intelligence gathering but an attempt at a major financial recovery — the altarpiece was the most valuable single object in the Bardi workshop."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Six Months of Preparation",
+        "text": "Cross-referencing the drawing purchase records with the dates of Giulia's placement, Piero's transfer, and the key duplication: Giulia entered the Bardi workshop in April, the keys were duplicated in April, Luca's drawing sales began in May, and Piero transferred to Conti's atelier in September — the month before the altarpiece's projected completion. The entire operation had been staged over six months.",
+        "alone": "The sequence of Giulia's placement, key duplication, drawing sales, and Piero's transfer spans exactly six months — the operation had been planned and staged systematically.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Conti arranging Giulia's placement and the six-month staging of the full operation confirm Maestro Conti had planned the theft of the altarpiece from before Giulia arrived — the murder was not part of the original plan, but the theft had been."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🖌️",
+        "heading": "Piero's Account",
+        "text": "Piero, arrested after the investigation identifies him, states that Luca had told him the night of the killing that 'something had happened' and he needed help moving 'a large item' from the alley. He had not known Bardi was dead until the following morning. He had received 20 florins from Maestro Conti for the delivery. He had believed he was participating in a theft, not a murder's aftermath.",
+        "alone": "Piero had not known about the murder — he had believed he was assisting a theft and had received 20 florins from Conti for the delivery.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Piero identified as the alley confederate and his account of not knowing about the murder confirm Luca had not told him the full situation — the killing had been Luca's own action, the theft plan had been Conti's design."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🖼️",
+        "heading": "Conti's Plan for the Altarpiece",
+        "text": "Letters found in Conti's atelier — from a Venetian merchant — show a prior discussion about 'a significant Florentine panel work' that might be available 'if certain arrangements succeed.' The letters predate the murder by two months. Conti had been arranging the sale of the altarpiece to a Venetian buyer before the murder — the theft had been planned as a commercial transaction from the beginning.",
+        "alone": "Conti had arranged a Venetian buyer for the altarpiece two months before the murder — the theft had been pre-arranged as a sale, not an opportunistic acquisition.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The altarpiece's 800-florin Medici value and Conti's pre-arranged Venetian sale confirm the financial calculation was complete before the murder — Conti had a buyer, a price, and a delivery mechanism in place before Luca acted."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Legal Outcomes",
+        "text": "Luca Ferrini was tried before the Florentine magistrates for the murder of Sandro Bardi and sentenced to death. Maestro Conti was charged with receiving stolen property and conspiracy and exiled from Florence for ten years. Piero received a fine and a year's service to the magistrates' court. Giulia Conti was not charged. The Medici recovered the altarpiece from Conti's atelier before the Venetian buyer arrived to collect it.",
+        "alone": "Luca was executed, Conti was exiled, Piero received a light sentence, and the altarpiece was recovered — the Medici's commission survived the murder of the man who had painted it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The six-month staged operation and Conti's exile for conspiracy confirm the full scope of the plan was recognized by the court — the drawing sales, the key duplication, the placement of Giulia and Piero, and the Venetian pre-sale were all part of a single coordinated theft that had ended in murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Luca Ferrini",
+      "location": "The Workshop",
+      "weapon": "Iron Pigment Pestle",
+      "access": "Workshop Key — Luca's Copy"
+    },
+    "epilogue": "Maestro Conti had planned the theft of the altarpiece over six months. He had placed Giulia in the Bardi workshop, arranged Piero's transfer to his own atelier as the receiving confederate, and cultivated Luca's drawing sales as a financial hook. The murder had not been part of the plan — Conti had intended a theft, not a killing. But Bardi had suspected Luca, the payment had arrived, and the confrontation had been imminent. Luca had gone to the workshop that night with the pestle already in his hand. The Medici recovered the altarpiece. Luca died on the magistrates' scaffold. Conti spent ten years in exile and returned to Florence to find his atelier had been absorbed by a younger master. Giulia Conti received her own commission from a Florentine merchant house in 1485 — the first in her own name."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #069",
+    "title": "The Unfinished Master",
+    "setting": "Maestro Sandro Bardi's Workshop · Florence · 1482",
+    "emoji": "🎨",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Luca killed Bardi. Conti planned the theft. Piero was the confederate. But Giulia Conti had known about her uncle's plan — and had made a specific choice about what to do with that knowledge. Find what Giulia knew and what she chose.",
+    "emptyState": "Giulia knew. She chose. Find both.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Luca Ferrini",
+            "icon": "🖌️",
+            "detail": "The killer — pestle, key, drawing sales, confrontation imminent."
+          },
+          {
+            "name": "Giulia Conti",
+            "icon": "🎨",
+            "detail": "Cleared as killer — Santa Croce confirmed. But had known about her uncle's plan and had made a choice."
+          },
+          {
+            "name": "Maestro Conti",
+            "icon": "🖼️",
+            "detail": "The theft planner — drawing purchase records, Venetian pre-sale, Giulia and Piero placed deliberately."
+          },
+          {
+            "name": "Fra Benedetto",
+            "icon": "⛪",
+            "detail": "Cleared — but had inadvertently told Conti the altarpiece was complete."
+          },
+          {
+            "name": "Piero",
+            "icon": "👤",
+            "detail": "The confederate — had not known about the murder, received 20 florins from Conti."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Workshop",
+            "icon": "🎨",
+            "detail": "Primary crime scene — Luca's killing of Bardi."
+          },
+          {
+            "name": "The Convent of Santa Croce",
+            "icon": "⛪",
+            "detail": "Where Giulia was during the murder — her confirmed alibi and her refuge."
+          },
+          {
+            "name": "The Rival Atelier",
+            "icon": "🖼️",
+            "detail": "Where Conti planned the operation — and where the altarpiece was recovered."
+          },
+          {
+            "name": "Giulia's Lodgings",
+            "icon": "🏠",
+            "detail": "Where her key was found — and where her personal sketchbooks are kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron Pigment Pestle",
+            "icon": "⚗️",
+            "detail": "Confirmed murder weapon — Luca's."
+          },
+          {
+            "name": "Wooden Easel Leg",
+            "icon": "🪵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Majolica Paint Vessel",
+            "icon": "🏺",
+            "detail": "Too fragile — eliminated."
+          },
+          {
+            "name": "Giulia's Knowledge",
+            "icon": "🎨",
+            "detail": "Not a weapon — but what she knew and chose to do with it shaped the investigation."
+          },
+          {
+            "name": "The Convent Timing",
+            "icon": "⛪",
+            "detail": "Giulia's alibi location — chosen deliberately the night of the planned theft."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Workshop Key — Luca's Copy",
+            "icon": "🔑",
+            "detail": "Used to enter and exit — left in the pigment store."
+          },
+          {
+            "name": "Pigment Store Key",
+            "icon": "🗝️",
+            "detail": "Luca's access to the pestle."
+          },
+          {
+            "name": "Inside Window Latch",
+            "icon": "🪟",
+            "detail": "Opened from inside by Luca — altarpiece lowered to Piero."
+          },
+          {
+            "name": "Giulia's Prior Knowledge",
+            "icon": "🎨",
+            "detail": "The operational intelligence her uncle had — she had known the plan and had not warned Bardi."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Six Months Before",
+            "icon": "📅",
+            "detail": "When the operation began — Giulia placed, keys duplicated, Luca recruited."
+          },
+          {
+            "name": "Three Months Before",
+            "icon": "📅",
+            "detail": "When Piero transferred to Conti's atelier — the receiving confederate in place."
+          },
+          {
+            "name": "The Week Before",
+            "icon": "📅",
+            "detail": "When Giulia decided what she would do with her knowledge — and chose the convent."
+          },
+          {
+            "name": "The Night of the Murder",
+            "icon": "⚠️",
+            "detail": "When Giulia was at Santa Croce — away from the workshop by deliberate arrangement."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "What Giulia Knew",
+        "text": "Giulia Conti, in a careful interview conducted by the Florentine magistrates, admits she had known about her uncle's plan to steal the altarpiece since the previous month. Maestro Conti had told her the plan would 'proceed soon' and had instructed her to be away from the workshop on the night it happened. She had been told it would be a theft only — no violence was mentioned. She had chosen to comply with the instruction to be absent.",
+        "alone": "Giulia had known about the theft plan for a month and had been instructed by her uncle to be absent on the night. She had complied — going to Santa Croce as the convent alibi her uncle had suggested.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Giulia knowing the theft plan a month before and choosing the convent as her absence confirm her alibi was not incidental — it was a deliberate arrangement made in advance to ensure she was not present when the theft occurred."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Why Giulia Did Not Warn Bardi",
+        "text": "Asked directly why she had not warned Bardi, Giulia says: 'He is my master. Was my master. I thought — it is a painting. He will lose a painting. That is not a death. I thought if I was not there, I was not part of it. I was wrong about what a night's absence means.' She had not believed the theft would harm Bardi physically and had not anticipated Luca's decision to use violence.",
+        "alone": "Giulia had not warned Bardi because she had believed the theft was nonviolent — she had not anticipated the murder.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Giulia believing the theft would be nonviolent and her decision not to warn Bardi confirm she had made a moral calculation that proved fatally wrong — she had distinguished between theft and violence and had been wrong about which she was enabling."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎨",
+        "heading": "Giulia's Sketchbooks",
+        "text": "A review of Giulia's lodgings finds sketchbooks containing three years of her own compositions — paintings she had been developing independently while apprenticed to Bardi. The magistrates' art advisor assesses them as showing significant independent talent. A letter in the sketchbooks, from Maestro Conti to Giulia, reads: 'Your work is your own. After this matter is resolved, you will have a workshop of your own. I have promised this.' The placement had been partly an investment in her future.",
+        "alone": "Conti had promised Giulia her own workshop after the theft was completed — her compliance was partly motivated by the promise of independence.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Conti's promise of a workshop and Giulia's own significant independent talent confirm her position was more complex than simple family loyalty — she had been offered the means of professional independence in exchange for her silence and absence."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "⛪",
+        "heading": "The Convent Arrangement",
+        "text": "The Mother Superior of Santa Croce, in a second interview, confirms that Giulia's attendance at the charitable work meeting had been arranged three days before the murder — at Giulia's specific request. This is slightly unusual — such meetings were typically spontaneous attendances. Giulia had asked to be included three days in advance, ensuring her presence was documented and her absence from the workshop verifiable.",
+        "alone": "Giulia had arranged her convent attendance three days in advance — ensuring her alibi was documented before the night of the theft.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Giulia knowing the plan a month before and pre-arranging her convent alibi three days before confirm the alibi was a deliberate construction — she had ensured her absence was documentable before the operation began."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "🖌️",
+        "heading": "Luca's Knowledge of Giulia's Role",
+        "text": "Luca Ferrini, before his execution, gives a statement in which he mentions Giulia: 'She knew. She was never going to be there. Conti had arranged it. I did not tell her what I was going to do to Bardi. She would have stopped me. She cared about him.' He asserts she would have intervened had she known violence was planned — and that Conti had ensured she was absent before telling Luca he could proceed.",
+        "alone": "Luca asserts Giulia would have stopped him had she known violence was planned — and that Conti had timed her removal from the situation before authorizing the operation.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Giulia not anticipating violence and Luca's statement that she would have stopped him if she had known confirm her moral calculation had been based on incomplete information — Conti had managed the information she received as carefully as her physical location."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Magistrates' Decision on Giulia",
+        "text": "The Florentine magistrates consider a charge against Giulia for prior knowledge of the theft plan. The charge is ultimately not brought, on the grounds that she had not known violence was planned, had not participated in any element of the theft, and had been removed from the situation by her uncle's arrangement. A formal censure is recorded. She is required to surrender her apprentice position.",
+        "alone": "Giulia is formally censured but not charged — the magistrates find her culpability limited by her lack of knowledge of the planned violence and her non-participation in the theft itself.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Giulia pre-arranging her alibi three days before and the magistrates' censure but non-prosecution confirm the legal line was drawn at knowledge of violence — her advance arrangement was evidence of complicity in the theft plan but not in the murder."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎨",
+        "heading": "Giulia's Workshop",
+        "text": "Despite Conti's exile and the censure against Giulia, her uncle had transferred a modest sum of money to her before his exile — the promised investment in her independence. In 1485, three years after the murder, Giulia Conti opened a small workshop on the south side of the Arno, taking two female apprentices. Her first commission was a triptych for a local merchant. It was well received.",
+        "alone": "Giulia received the promised funds despite Conti's exile and opened her own workshop in 1485 — the promised independence materialized even through the legal consequences of the operation.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Conti's promise of a workshop and Giulia's opening of one three years later confirm the promise was kept — and that her compliance with the theft plan had achieved the professional independence she had been offered, even at the cost of her master's life and her own censure."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Giulia's Final Statement",
+        "text": "In her final interview with the magistrates, Giulia is asked whether she would make the same choice again — to stay silent and go to the convent. She says: 'I thought I was choosing not to participate. I was choosing to allow. I know the difference now. I did not know it then. I am not certain I would have been brave enough even if I had known. That is the thing I cannot answer.' The magistrates record the statement verbatim.",
+        "alone": "Giulia acknowledges she had been choosing to allow rather than not participate — and that her courage to intervene, had she known the full picture, is something she cannot answer with certainty.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Giulia not warning Bardi and her admission that she cannot be certain she would have acted even with full knowledge confirm the moral weight of the case extends beyond legal culpability — she had made a choice that had allowed a murder, even if the murder itself was beyond what she had been told to expect."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Luca Ferrini",
+      "location": "The Workshop",
+      "weapon": "Iron Pigment Pestle",
+      "access": "Workshop Key — Luca's Copy",
+      "window": "The Week Before"
+    },
+    "epilogue": "Giulia Conti had known about the theft plan for a month. She had arranged her alibi three days in advance. She had chosen to protect herself from participation without protecting her master from what was coming. Luca's execution, Conti's exile, Piero's fine — these were the legal outcomes. Giulia's outcome was the workshop she had been promised, opened three years later on the south bank of the Arno. The magistrates' censure was recorded in the court rolls. Her first commission was a triptych for a merchant who had not heard of Sandro Bardi. The Medici's altarpiece, recovered from Conti's atelier, was installed in the church it had been painted for and remained there for two hundred and fourteen years before being moved to a Florentine gallery, where it hangs today."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Constantinople, 1908. A palace vizier is dead in a room that could only be entered one way. And only one person had that way. 🕌🔍 Case #066 — The Golden Horn. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Ottoman Constantinople 1908, a locked palace chamber, a dead official, and one key that only one person held. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an Ottoman palace chamber in Constantinople in 1908, intricate tile work and carved plaster, a low cedar desk with calligraphy documents, a brass oil lamp, and a latticed window overlooking the Bosphorus at dusk. Deep turquoise, gold, ivory. Atmospheric and rich, style of Jean-Léon Gérôme meets Osman Hamdi Bey.",
+    "animationPrompt": "Slow pan through an Ottoman palace chamber in 1908. Carved plaster. Tile work. A brass oil lamp. The camera finds a cedar desk with calligraphy documents scattered and an overturned ink vessel. Through the latticed window: the Bosphorus at dusk. A key lies on the tiled floor. Fade to black.",
+    "hashtags": [
+      "#OttomanMystery",
+      "#Constantinople",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #066",
+    "title": "The Golden Horn",
+    "setting": "Yıldız Palace · Constantinople · 1908",
+    "emoji": "🕌",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Vizier Halil Pasha was found dead in his sealed private chamber during the constitutional crisis of 1908. The chamber had one entrance — a door that required a specific key held only by three people. The palace secretary, the Vizier's aide, and the palace physician each held a copy. One of them used theirs.",
+    "emptyState": "One door. Three keys. Only one killer.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Selim Bey",
+            "icon": "📜",
+            "detail": "The palace secretary — had drafted the Vizier's succession documents that morning."
+          },
+          {
+            "name": "Mustafa Efendi",
+            "icon": "🗡️",
+            "detail": "The Vizier's personal aide — had been with him since his appointment three years prior."
+          },
+          {
+            "name": "Dr. Artin Boyadjian",
+            "icon": "🩺",
+            "detail": "The palace physician — attended to the Vizier's health and had access to medical compounds."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "The sealed room where the Vizier was found — single keyed entrance, latticed window sealed from inside."
+          },
+          {
+            "name": "The Secretariat",
+            "icon": "📋",
+            "detail": "Where Selim Bey worked — adjacent to the chamber, succession documents on his desk."
+          },
+          {
+            "name": "The Palace Courtyard",
+            "icon": "🌿",
+            "detail": "Where Mustafa Efendi was confirmed during the morning hours."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Arsenic Compound",
+            "icon": "☠️",
+            "detail": "Traces found in the Vizier's coffee cup — the cause of death confirmed as poisoning."
+          },
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Found on the chamber wall — no wound or poison trace."
+          },
+          {
+            "name": "Brass Oil Lamp",
+            "icon": "🪔",
+            "detail": "Heavy enough for blunt force — no wound profile match."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Key on the Floor",
+        "text": "A key is found on the chamber floor, approximately one metre inside the door — as though dropped or left behind in haste. The key matches the chamber's lock. Each key-holder's copy is identifiable by a small personal marking made when they were issued: Selim's key bears a notch on the bow, Mustafa's has a scratch on the shaft, and Dr. Boyadjian's has an engraved crescent. The floor key has a notch on the bow.",
+        "alone": "The key left on the chamber floor is Selim Bey's — identified by the notch on its bow. He left his key behind when he exited.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Selim Bey's key found on the chamber floor and his confirmed presence in the secretariat drafting succession documents that same morning confirm he had entered the chamber that day and had reason connected to the succession."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "☠️",
+        "heading": "The Coffee Cup",
+        "text": "The Vizier's coffee cup — found at his cedar desk — shows traces of arsenic compound along the inner rim and base. The Vizier had been in the habit of drinking coffee brought to his chamber each morning. The palace cook confirms the coffee itself was clean — something had been added to the cup after it arrived in the chamber.",
+        "alone": "Arsenic was added to the Vizier's cup after the coffee arrived — someone in the chamber had introduced the poison directly.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Arsenic introduced to the cup in the chamber and Dr. Boyadjian's confirmed access to arsenic compounds from his medical stores together establish the means — but only Selim's key on the floor places a specific person inside the room."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Mustafa's Courtyard Confirmation",
+        "text": "Mustafa Efendi states he was in the palace courtyard from morning prayers until the alarm was raised at midday — a period of approximately four hours. Three palace guards and a gardener confirm his continuous presence. He had been overseeing the preparation of the Vizier's afternoon correspondence. He never entered the private chamber that morning.",
+        "alone": "Mustafa Efendi was in the courtyard for the full four-hour window — confirmed by four independent witnesses. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Mustafa cleared in the courtyard and Dr. Boyadjian's confirmed medical rounds in the western wing together account for two of the three key-holders — leaving Selim Bey's key on the chamber floor as the only confirmed entry that morning."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Succession Document",
+        "text": "The succession document on Selim's secretariat desk — partially completed — proposes that upon the Vizier's death or incapacitation, the position would transfer to a candidate named Rauf Pasha. Selim Bey's marginal notes on the document show he had been comparing this succession with a prior draft that had named a different candidate — one that would have benefited Selim's own patron.",
+        "alone": "The succession document Selim was drafting that morning favored a candidate opposed to his patron's interests — Selim had been annotating a comparison with a prior preferred draft.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The succession document favoring the wrong candidate from Selim's perspective and his key found inside the chamber confirm he had entered the chamber that morning — most likely to persuade or confront the Vizier about the succession before the document was finalized."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "📜",
+        "heading": "Selim's Missing Hour",
+        "text": "The secretariat log — maintained by a junior clerk — shows Selim Bey was at his desk at nine AM and again at ten-thirty AM, when he returned to review a document. He was not present between those times. The junior clerk assumed he had been called to attend the Vizier. The chamber is two minutes from the secretariat.",
+        "alone": "Selim Bey was absent from the secretariat for approximately ninety minutes — between nine AM and ten-thirty AM. The chamber is two minutes away.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Selim's key on the chamber floor and his ninety-minute secretariat absence confirm he had been in the chamber during the period when the arsenic was administered — his key identifies him specifically."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "The Arsenic Source",
+        "text": "Dr. Boyadjian's medical stores log shows a recorded dispensing of arsenic compound — used in small doses as a tonic at the time — two days before the murder. The quantity recorded is consistent with medical use. However, the dispensing entry is in different handwriting from the rest of the log — someone else made the entry. The physician confirms he did not dispense arsenic that day.",
+        "alone": "The arsenic dispensing entry two days before the murder is in different handwriting — someone accessed Dr. Boyadjian's medical stores and recorded the dispensing under a false entry.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Arsenic introduced to the cup in the chamber and the false dispensing entry in the medical stores log confirm the arsenic was obtained covertly — someone who had access to the medical stores two days before the murder."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Dr. Boyadjian's Rounds",
+        "text": "Dr. Boyadjian confirms he conducted morning medical rounds in the palace's western wing from seven AM until eleven AM — confirmed by four patients he attended and a nursing assistant. His key remained in his medical bag throughout. He did not enter the private chamber that morning and had no reason to do so — the Vizier had not requested his attendance.",
+        "alone": "Dr. Boyadjian was on medical rounds in the western wing from seven to eleven AM — confirmed by four patients and a nursing assistant. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Mustafa cleared in the courtyard and Dr. Boyadjian cleared in the western wing together account for two of the three key-holders — only Selim Bey's movements are unconfirmed during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Prior Succession Draft",
+        "text": "The prior succession draft — found in Selim's secretariat drawer, not filed — names a different candidate: Talat Bey, a figure associated with Selim's patron network. This draft had been superseded by the Vizier's decision to support Rauf Pasha. Selim's marginal annotations on the current draft show frustration with the change — one annotation reads simply: 'This must not stand.'",
+        "alone": "Selim's annotation reading 'this must not stand' is written on the document that would have governed the succession — he had documented his opposition to the Vizier's decision in his own handwriting.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The succession document favoring the opposing candidate and Selim's own annotation that it must not stand confirm his motive was explicit and documented — if the Vizier died before finalizing the document, the prior draft might still govern."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Selim Bey",
+      "location": "The Private Chamber",
+      "weapon": "Arsenic Compound"
+    },
+    "epilogue": "Selim Bey had obtained arsenic from the medical stores two days before the murder using a false log entry. On the morning of December 6th, 1908, he had entered the Vizier's private chamber at approximately nine AM — using his key — and introduced the arsenic into the already-arrived coffee cup while the Vizier reviewed documents. He had left, dropping his key as he closed the door. He had returned to his secretariat by ten-thirty AM and resumed drafting the succession document he had just ensured would never be signed. The key on the floor was the error he could not explain away."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #066",
+    "title": "The Golden Horn",
+    "setting": "Yıldız Palace · Constantinople · 1908",
+    "emoji": "🕌",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Selim killed the Vizier. But the patron whose succession candidate he was protecting was not a passive beneficiary — he had instructed Selim explicitly. Find who the patron was and how he communicated.",
+    "emptyState": "Someone instructed Selim. Find who gave the order.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Selim Bey",
+            "icon": "📜",
+            "detail": "The killer — key on floor, ninety-minute gap, arsenic obtained, annotation documented."
+          },
+          {
+            "name": "Mustafa Efendi",
+            "icon": "🗡️",
+            "detail": "Cleared as killer — courtyard confirmed. But had observed something the morning before."
+          },
+          {
+            "name": "Dr. Artin Boyadjian",
+            "icon": "🩺",
+            "detail": "Cleared as killer — western wing rounds confirmed. His stores were used."
+          },
+          {
+            "name": "Talat Bey",
+            "icon": "🏛️",
+            "detail": "The patron — whose candidate was named in the prior succession draft Selim had protected."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Selim's key, arsenic in coffee, Vizier's death."
+          },
+          {
+            "name": "The Secretariat",
+            "icon": "📋",
+            "detail": "Selim's workspace — succession documents, prior draft, annotation."
+          },
+          {
+            "name": "The Palace Courtyard",
+            "icon": "🌿",
+            "detail": "Mustafa's confirmed location — and where Selim met his messenger."
+          },
+          {
+            "name": "The Committee of Union and Progress Office",
+            "icon": "🏛️",
+            "detail": "Where Talat Bey operated — the political organization connected to the succession dispute."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Arsenic Compound",
+            "icon": "☠️",
+            "detail": "Confirmed cause of death — obtained via false medical log entry two days prior."
+          },
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Brass Oil Lamp",
+            "icon": "🪔",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Prior Succession Draft",
+            "icon": "📜",
+            "detail": "Not a weapon — the political instrument. Its survival after the Vizier's death depended on the killing."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Chamber Key — Selim's Copy",
+            "icon": "🔑",
+            "detail": "Found on the chamber floor — identified by notch on the bow."
+          },
+          {
+            "name": "False Medical Log Entry",
+            "icon": "📋",
+            "detail": "Used to obtain arsenic from Dr. Boyadjian's stores two days before the murder."
+          },
+          {
+            "name": "Secretariat Absence",
+            "icon": "📁",
+            "detail": "Ninety-minute gap in the secretariat log — the operational window."
+          },
+          {
+            "name": "The Messenger Contact",
+            "icon": "📨",
+            "detail": "How Talat Bey communicated with Selim — identified from the palace courier log."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📨",
+        "heading": "The Courier Log",
+        "text": "The palace courier log — required for all incoming and outgoing correspondence — shows a sealed letter delivered to Selim Bey three days before the murder, originating from the offices of the Committee of Union and Progress. The letter's listed sender is 'T.B.' — initials matching Talat Bey, a senior figure in the CUP and the patron whose candidate appeared in Selim's prior succession draft.",
+        "alone": "A letter from T.B. — Talat Bey of the CUP — was delivered to Selim Bey three days before the murder.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Talat Bey's letter arriving three days before the murder and the arsenic obtained two days before the murder confirm the sequence: the letter came first, the arsenic was obtained the following day — the instruction preceded the preparation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Letter's Contents",
+        "text": "The letter from Talat Bey — found in Selim's secretariat drawer, not destroyed — reads: 'The succession document must not be completed in its current form. The Vizier's decision to favor Rauf Pasha is contrary to the interests of those who have supported your position. You are asked to ensure the matter is resolved before the document is finalized. The method is at your discretion. Your future is secure.' The instruction is explicit.",
+        "alone": "Talat Bey's letter explicitly instructed Selim to prevent the succession document's completion by any method — and promised Selim's future security in exchange.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Talat Bey's explicit instruction and Selim's annotation on the succession document reading this must not stand confirm Selim had internalized the instruction — the annotation is the documentary link between the patron's order and the killer's state of mind."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "What Mustafa Saw",
+        "text": "Mustafa Efendi, in a second interview, recalls that the morning before the murder he had seen Selim Bey in conversation with a palace messenger near the kitchen entrance — an unusual location for secretariat business. The messenger handed Selim a small package. Mustafa had thought nothing of it at the time. The kitchen entrance is adjacent to the passage leading to Dr. Boyadjian's medical stores.",
+        "alone": "Mustafa had seen Selim receive a small package near the kitchen entrance the morning before the murder — the entrance adjacent to the medical stores passage.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Selim receiving a package near the medical stores passage and the false arsenic log entry the following day confirm the package contained the arsenic or the means to obtain it — Selim had been supplied through a secondary channel before making the false log entry."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Talat Bey's Position",
+        "text": "Historical records confirm Talat Bey was a senior figure in the Committee of Union and Progress — the Young Turks organization that had just forced the restoration of the constitution. The succession to the Vizier's position was politically significant: Rauf Pasha was a reformist candidate favored by the Sultan's court, while Talat Bey's preferred candidate Talat's own faction would control through. The Vizier's death left the position contested.",
+        "alone": "The succession dispute was part of a larger political contest between the reformist court faction and Talat Bey's CUP — the Vizier's death opened a vacancy both sides needed to control.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The succession dispute as a CUP-versus-court contest and Selim's letter from Talat Bey confirming explicit instruction confirm the murder was a political assassination conducted through a court official — not a personal grievance."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Arsenic Log Entry",
+        "text": "The false arsenic log entry — two days before the murder, one day after Talat's letter arrived — is in a handwriting that investigators match to Selim Bey through comparison with secretariat documents. He had made the entry himself, using the medical stores during a period when Dr. Boyadjian was on his morning rounds and the stores were unattended.",
+        "alone": "The false medical log entry is in Selim Bey's own handwriting — he had personally recorded the false arsenic dispensing while the physician was absent.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Talat Bey's letter three days before the murder and the false arsenic log entry in Selim's handwriting two days before confirm the preparation sequence was deliberate and personally executed — Selim had taken every step himself."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📝",
+        "heading": "Selim's Career Dependence",
+        "text": "Palace administrative records show Selim Bey's position as palace secretary had been secured three years prior through a letter of recommendation from the CUP — specifically citing Talat Bey's personal endorsement. His appointment was a political placement. His career existed because of Talat Bey's patronage. The promise of a secure future in the letter was a reminder, not a new offer.",
+        "alone": "Selim's palace secretariat position had been secured by Talat Bey's personal endorsement — his career was a product of patronage, and the letter's promise of security was a reminder of what he would lose if he refused.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Talat Bey's explicit instruction and Selim's career dependent on the same patron confirm the coercion implicit in the letter — a man whose position existed at his patron's discretion was not genuinely free to refuse."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Boyadjian's Stores Assessment",
+        "text": "Dr. Boyadjian, reviewing his medical stores after the investigation opened, confirms a small quantity of arsenic compound is missing — consistent with the false log entry's recorded amount. He also confirms the stores were unattended between eight and nine AM on the day of the false entry — the period when he was on his morning rounds. Anyone with knowledge of his schedule could have accessed the stores.",
+        "alone": "Dr. Boyadjian confirms arsenic is missing from his stores and that they were unattended during his morning rounds — accessible to anyone who knew his schedule.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Selim receiving a package near the medical stores and the stores confirmed unattended during Boyadjian's rounds confirm Selim had the means and the access window — he had obtained the arsenic during the physician's predictable absence."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Succession After the Murder",
+        "text": "Historical records confirm that following the Vizier's death, the succession to his position was contested for three months. The eventual appointee was neither Rauf Pasha nor Talat Bey's candidate — a third figure emerged from the CUP's internal negotiations. Selim Bey's position was confirmed during this period. Talat Bey's promise was kept, even though his preferred candidate did not ultimately prevail.",
+        "alone": "Selim's position was confirmed after the murder — Talat Bey honored his promise of security even though the political outcome was not what he had sought.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The succession dispute's contested outcome and Selim's confirmed position confirm Talat Bey had kept his side of the arrangement — Selim had acted, and his patron had protected him regardless of the political result."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Selim Bey",
+      "location": "The Private Chamber",
+      "weapon": "Arsenic Compound",
+      "access": "Chamber Key — Selim's Copy"
+    },
+    "epilogue": "Talat Bey's letter was found in Selim's drawer and entered into evidence. Selim was tried before a palace tribunal and convicted of the Vizier's murder. The tribunal formally found that he had acted under instruction from a senior political figure. Talat Bey was questioned but faced no criminal consequence — the political climate of 1908 made prosecution of a senior CUP figure impossible. Selim's position was revoked. He received twenty years. Talat Bey continued his political rise. The succession was resolved without the candidate either man had supported. The Vizier's preferred appointee, Rauf Pasha, eventually served in a different capacity during the later constitutional period."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #066",
+    "title": "The Golden Horn",
+    "setting": "Yıldız Palace · Constantinople · 1908",
+    "emoji": "🕌",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Selim killed the Vizier on Talat Bey's instruction. But Dr. Boyadjian had suspected something was wrong with his medical stores before the murder and had begun his own quiet inquiry. Find what he knew, when he knew it, and what he chose to do with it.",
+    "emptyState": "Boyadjian suspected before the murder. Find what he did with that suspicion.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Selim Bey",
+            "icon": "📜",
+            "detail": "The killer — key, arsenic, Talat's letter, ninety-minute gap, prior draft annotation."
+          },
+          {
+            "name": "Mustafa Efendi",
+            "icon": "🗡️",
+            "detail": "Cleared as killer — courtyard confirmed. His observation of Selim near the stores is now significant."
+          },
+          {
+            "name": "Dr. Artin Boyadjian",
+            "icon": "🩺",
+            "detail": "Cleared as killer — but had noticed arsenic missing and had written a note before the murder."
+          },
+          {
+            "name": "Talat Bey",
+            "icon": "🏛️",
+            "detail": "The patron — explicit instruction, career patronage, protected Selim after the murder."
+          },
+          {
+            "name": "The Palace Chamberlain",
+            "icon": "🏛️",
+            "detail": "The official who received Boyadjian's pre-murder note — and did not act on it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Selim's killing of the Vizier."
+          },
+          {
+            "name": "The Secretariat",
+            "icon": "📋",
+            "detail": "Where Talat's letter was found and the succession documents were held."
+          },
+          {
+            "name": "The Medical Stores",
+            "icon": "🩺",
+            "detail": "Where the arsenic was obtained — false log entry in Selim's handwriting."
+          },
+          {
+            "name": "The Chamberlain's Office",
+            "icon": "🏛️",
+            "detail": "Where Boyadjian sent his pre-murder note — and where it sat unread."
+          },
+          {
+            "name": "Boyadjian's Examination Room",
+            "icon": "🔬",
+            "detail": "Where he noticed the discrepancy and wrote the note — the day before the murder."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Arsenic Compound",
+            "icon": "☠️",
+            "detail": "Confirmed murder weapon — Selim obtained it via false log entry."
+          },
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Brass Oil Lamp",
+            "icon": "🪔",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Unread Note",
+            "icon": "📋",
+            "detail": "Not a weapon — Boyadjian's pre-murder warning to the chamberlain, which went unanswered."
+          },
+          {
+            "name": "The False Log Entry",
+            "icon": "📝",
+            "detail": "The instrument of acquisition — Selim's handwriting in Boyadjian's stores record."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Chamber Key — Selim's Copy",
+            "icon": "🔑",
+            "detail": "Found on the chamber floor, identified by notch on bow."
+          },
+          {
+            "name": "False Medical Log Entry",
+            "icon": "📋",
+            "detail": "Selim's handwriting in the stores record — arsenic obtained during Boyadjian's morning rounds."
+          },
+          {
+            "name": "Secretariat Absence Window",
+            "icon": "📁",
+            "detail": "Ninety minutes unaccounted — the operational window confirmed by junior clerk."
+          },
+          {
+            "name": "Boyadjian's Known Schedule",
+            "icon": "⏱️",
+            "detail": "Selim had known the physician's round schedule — the stores were predictably unattended."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Gave the Explicit Instruction",
+            "icon": "📨",
+            "detail": "Talat Bey's letter explicitly authorized the killing — method at Selim's discretion."
+          },
+          {
+            "name": "Noticed the Missing Arsenic",
+            "icon": "🩺",
+            "detail": "Boyadjian detected the discrepancy the day before the murder and wrote a note."
+          },
+          {
+            "name": "Sent the Warning Note",
+            "icon": "📋",
+            "detail": "Boyadjian sent his concern to the chamberlain — who did not act on it before the murder."
+          },
+          {
+            "name": "Protected Selim After the Murder",
+            "icon": "🏛️",
+            "detail": "Talat Bey ensured Selim's palace position was confirmed during the post-murder period."
+          },
+          {
+            "name": "Failed to Escalate",
+            "icon": "🏛️",
+            "detail": "The chamberlain received Boyadjian's note and did not act — the warning arrived and was not used."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "Boyadjian's Pre-Murder Note",
+        "text": "A note from Dr. Boyadjian — dated the day before the murder — is found in the chamberlain's incoming correspondence, beneath a stack of routine palace administration papers. The note reads: 'I have noticed a discrepancy in my medical stores arsenic record. The dispensing entry of two days ago is not in my hand. I request an inquiry into who may have accessed the stores during my morning rounds. This matter may be urgent.' The note had been received and not acted upon.",
+        "alone": "Boyadjian had written a warning to the chamberlain the day before the murder — identifying the false arsenic log entry and requesting an urgent inquiry. The note was not acted upon.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Boyadjian's warning the day before the murder and the chamberlain's failure to act confirm the murder was preventable — a functioning response to the note would have triggered an investigation before the Vizier was killed."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "When Boyadjian Noticed",
+        "text": "Dr. Boyadjian explains that he had conducted a routine inventory of his medical stores the day before the murder — a monthly practice. He had noticed the arsenic entry immediately because the handwriting was different and the quantity recorded was inconsistent with any patient currently under his care. He had connected the entry's timing to no specific concern but had felt uneasy and written the note within the hour.",
+        "alone": "Boyadjian had noticed the discrepancy during a routine monthly inventory the day before the murder and had written the warning note within the hour of noticing it.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Boyadjian noticing immediately and writing within the hour and the chamberlain's failure to escalate the note confirm the response failure was not in the detection — the physician had acted appropriately and promptly."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "The Chamberlain's Explanation",
+        "text": "The palace chamberlain, questioned after the murder, states he had received Boyadjian's note in the afternoon and had placed it in his incoming correspondence intending to review it the following morning. He explains: 'A note about a dispensing discrepancy did not present itself as an urgent matter. If I had known what the arsenic was for, I would have acted immediately.' He offers no further explanation.",
+        "alone": "The chamberlain had received the note and classified it as non-urgent — he had not connected a medical stores discrepancy to any political or personal threat to the Vizier.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The chamberlain classifying the note as non-urgent and Boyadjian's note specifically requesting an urgent inquiry confirm the urgency was communicated but not received — the note's language had not conveyed the physician's level of concern adequately."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Note's Escalation Path",
+        "text": "Palace administrative protocol required medical stores discrepancy reports to be forwarded to the palace security office, not the chamberlain's general correspondence. Boyadjian had sent his note to the chamberlain rather than the security office — a procedural mismatch that placed the note in a general pile rather than a security review queue. The security office received nothing.",
+        "alone": "Boyadjian had sent his warning note to the wrong office — the chamberlain's general correspondence rather than the palace security office. The security office that could have acted never received it.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The note sent to the wrong office and the security office receiving nothing confirm the warning's failure was partly procedural — Boyadjian had acted correctly in spirit but the routing mismatch had removed the note from the hands of those who could have responded."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "What Boyadjian Had Suspected",
+        "text": "In his fullest interview, Boyadjian admits he had connected the arsenic discrepancy to a vague concern but had not identified a specific threat: 'I knew someone had taken arsenic from my stores without recording it properly. I did not know who. I did not think of the Vizier specifically. I thought of illness, perhaps — someone self-medicating. I did not think of murder.' His concern had been genuine but unfocused.",
+        "alone": "Boyadjian had suspected something was wrong but had not identified the specific threat — his warning was precautionary, not targeted.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Boyadjian's unfocused concern and his prompt note to the chamberlain confirm his action was appropriate given his level of knowledge — he had acted on incomplete information as quickly as he could."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Chamberlain's Morning Review",
+        "text": "The chamberlain's office log shows he had planned to review correspondence from the prior day beginning at nine AM on the morning of the murder. The Vizier was killed between nine and ten-thirty AM — the same window during which the chamberlain was reviewing his correspondence stack. By the time he reached Boyadjian's note — approximately the twelfth item in the pile — the Vizier was likely already dead.",
+        "alone": "The chamberlain was reviewing his correspondence during the murder window — by the time he reached Boyadjian's note, the Vizier had already been killed.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Boyadjian writing the note within the hour of noticing the discrepancy and the chamberlain reaching it during the murder window confirm a twenty-four hour delay in processing a note that needed immediate action had cost the Vizier his life."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Mustafa's Retrospective",
+        "text": "Mustafa Efendi, informed of Boyadjian's pre-murder note during the investigation, says: 'If I had known about the arsenic, I would have told the Vizier myself. I was in the courtyard for four hours — I could have been anywhere he needed me.' He pauses, then adds: 'No one told me.' The note had been in the wrong office, reviewed too late, and shared with none of the people who would have acted on it.",
+        "alone": "Mustafa had been available and would have acted — but the note had not reached anyone who would have escalated it before the murder.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The chamberlain classifying the note as non-urgent and Mustafa's statement that he would have acted if informed confirm the warning had reached the wrong person — a chain of appropriate individuals existed but the note had bypassed them."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Inquiry's Finding on the Note",
+        "text": "The palace tribunal's final report includes a finding on Boyadjian's pre-murder note: 'The physician acted appropriately and promptly upon discovering the discrepancy. The failure to route the note to the palace security office, and the chamberlain's failure to treat it as an urgent matter, represent procedural failures that may have contributed to the Vizier's death. No individual is found criminally responsible for this failure. The system failed; not any one man.'",
+        "alone": "The tribunal found the procedural failures around the note contributed to the murder — but held no individual responsible. The system had failed.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The note routed to the wrong office and the tribunal's systemic failure finding confirm the pattern: correct action at the detection level, procedural failure at the routing level, insufficient urgency at the processing level — a chain of small failures that together enabled a murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Selim Bey",
+      "location": "The Private Chamber",
+      "weapon": "Arsenic Compound",
+      "access": "Chamber Key — Selim's Copy",
+      "accomplice": "Gave the Explicit Instruction"
+    },
+    "epilogue": "Selim Bey received twenty years. Talat Bey was questioned and faced no consequence. Dr. Boyadjian's note was entered into evidence and the tribunal found the procedural failures contributory but not criminal. The chamberlain was censured. The palace security protocol was revised to require medical stores discrepancy reports to route directly to the security office. Dr. Boyadjian continued as palace physician until the end of the Ottoman period. Mustafa Efendi served under the Vizier's eventual successor. The succession was resolved without either Rauf Pasha or Talat's preferred candidate prevailing. Selim Bey's annotation — this must not stand — was read into the tribunal record by the presiding judge."
+  }
+}
