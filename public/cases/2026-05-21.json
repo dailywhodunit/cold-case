@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Persian Gulf, 1952. A pearl diving vessel. A diver dead at sunrise. And the one person no one suspected had the most to hide. 🐚🔍 Case #063 — The Deep. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Persian Gulf 1952, a pearl diving boat, a jealous secret, and the killer everyone overlooked. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Deck of a 1952 pearl diving dhow in the Persian Gulf at dawn, weathered teak deck, diving ropes coiled beside the gunwale, a large woven basket of oysters overturned. The Gulf glittering gold at sunrise, low coastline in the distance. A single sandal on the deck beside the rope. Warm gold and deep teal, atmospheric and still, style of Henri Cartier-Bresson.",
+    "animationPrompt": "Slow pan across the deck of a 1952 pearl diving dhow at dawn. Teak deck. Coiled diving ropes. A woven basket of oysters overturned. The camera finds a single sandal beside the rope at the gunwale. The Gulf glitters gold at sunrise. The boat rocks gently. Silence. Fade to black.",
+    "hashtags": [
+      "#PearlDiving",
+      "#PersianGulf",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #063",
+    "title": "The Deep",
+    "setting": "Pearl Diving Dhow Al-Noor · Persian Gulf · 1952",
+    "emoji": "🐚",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Master diver Hamad Al-Rashid was found drowned at the side of the dhow at sunrise — his diving rope had been cut. Three people were aboard. The least likely of them had a reason no one knew about.",
+    "emptyState": "The rope was cut. One person aboard had a reason no one suspected.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Yusuf Al-Rashid",
+            "icon": "⚓",
+            "detail": "Hamad's younger brother — the boat's captain, stood to inherit the diving concession."
+          },
+          {
+            "name": "Tariq Mansour",
+            "icon": "🤿",
+            "detail": "The second diver — had been with the crew for three seasons."
+          },
+          {
+            "name": "Old Nasser",
+            "icon": "🐚",
+            "detail": "The rope handler — sixty years old, had served on pearl boats since boyhood."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Port Side Gunwale",
+            "icon": "⚓",
+            "detail": "Where Hamad's body was found — the diving rope still attached to his ankle."
+          },
+          {
+            "name": "The Rope Locker",
+            "icon": "🪢",
+            "detail": "Where the spare ropes are kept — the cutting tool was found here."
+          },
+          {
+            "name": "The Aft Deck",
+            "icon": "🛳️",
+            "detail": "Where Old Nasser slept — directly above the rope locker."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "A short-bladed cutting tool — the rope's cut end matches the knife's blade profile."
+          },
+          {
+            "name": "Deck Cleaver",
+            "icon": "🪓",
+            "detail": "Used to open oysters — cut profile inconsistent with the rope's end."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "No wound evidence — Hamad drowned, anchor not involved."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🪢",
+        "heading": "The Cut Rope",
+        "text": "Hamad's diving rope — which should have been his lifeline to the surface — is found cut at a point approximately two metres above the ankle knot. The cut is clean and deliberate, made with a short blade in a single motion. A diving knife found in the rope locker has a blade profile that matches the cut exactly. The knife shows a fresh nick consistent with cutting a rope under tension.",
+        "alone": "The rope was cut deliberately with a diving knife from the rope locker — the cut required proximity to the rope while Hamad was underwater.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The rope cut with the rope locker knife and Old Nasser's confirmed position at the rope locker during the dive confirm he was the person physically closest to both the rope and the cutting tool during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🤿",
+        "heading": "The Dive That Didn't Surface",
+        "text": "Hamad's last dive began at five-fifteen AM — confirmed by Yusuf, who called the time. Standard practice is for the rope handler to monitor the rope's tension and pull the diver up after four minutes. Hamad had never surfaced — his body was found at the rope's end at five-forty-five AM when Tariq dove to investigate. The rope handler had not signalled any problem.",
+        "alone": "Hamad was underwater for thirty minutes before his body was found — the rope handler had not raised the alarm during this time.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Hamad's thirty-minute absence without alarm from the rope handler and Old Nasser's confirmed position at the rope during the dive together confirm the rope handler had known Hamad was not returning."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "⚓",
+        "heading": "Yusuf's Location",
+        "text": "Yusuf Al-Rashid was at the dhow's helm from before Hamad's dive began until Tariq raised the alarm at five-forty PM. Three fishermen in a passing boat saw Yusuf at the helm at approximately five-thirty AM — they waved and he acknowledged them. He was visible and stationary throughout the dive window.",
+        "alone": "Yusuf was at the helm and visibly confirmed by passing fishermen throughout the dive window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Yusuf confirmed at the helm by external witnesses and Tariq confirmed underwater on his own simultaneous dive together account for two of the three suspects during the murder window — leaving Old Nasser as the only person at the rope."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Old Nasser's Hidden Connection",
+        "text": "A letter found in Old Nasser's belongings — worn from repeated reading — is from a woman in Bahrain named Fatima. The letter's content reveals she had been in a secret relationship with Hamad for two years. She had written to Nasser — her uncle — asking him to intervene because Hamad had recently ended the relationship and married another woman. The letter is six weeks old.",
+        "alone": "Fatima — Old Nasser's niece — had been in a secret relationship with Hamad. Hamad had ended it to marry someone else six weeks before his death.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Old Nasser's niece abandoned by Hamad and the rope cut by someone in the rope handler's position confirm Old Nasser had both the motive and the exclusive physical access to cut the rope while Hamad was underwater."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🐚",
+        "heading": "Nasser at the Rope",
+        "text": "Old Nasser's role as rope handler required him to stand at the port side gunwale holding the diving rope throughout the dive. Yusuf confirms Nasser was at his station at the start of the dive. Tariq confirms Nasser was at the rope when he himself descended for his simultaneous dive. Nasser was at the rope — and the rope — for the entire thirty-minute window.",
+        "alone": "Old Nasser was at the rope for the entire period Hamad was underwater — he was the only person in position to feel, monitor, and cut the rope.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The rope cut with the locker knife and Nasser's exclusive position at the rope for the full thirty-minute window confirm only he had the physical access to cut the rope while Hamad was diving."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🪢",
+        "heading": "The Missing Alarm",
+        "text": "Pearl diving protocol — followed strictly on all boats in the fleet — requires the rope handler to signal the captain immediately if the rope goes slack or if the diver exceeds four minutes underwater. Old Nasser had not signalled anything for thirty minutes. When Tariq surfaced and asked why no alarm had been raised, Nasser said he had thought Hamad was taking his time. A diver does not survive thirty minutes underwater.",
+        "alone": "Old Nasser gave no alarm for thirty minutes — a period in which any experienced rope handler would have known the diver was dead. His explanation is impossible.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Hamad's thirty-minute submersion without alarm and Nasser's impossible explanation of thinking the diver was taking his time confirm Nasser knew Hamad would not surface — he had ensured it."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🤿",
+        "heading": "Tariq's Own Dive",
+        "text": "Tariq Mansour was diving simultaneously with Hamad — a common practice on multi-diver boats. His own rope was handled by Yusuf's assistant deckhand. Tariq surfaced at five-thirty-five AM, found Nasser standing silently at the port rope, and asked where Hamad was. Nasser pointed down. Tariq dove to investigate and found the body. Tariq was underwater during the murder window.",
+        "alone": "Tariq was on his own simultaneous dive during the murder window — he could not have cut Hamad's rope while submerged on the opposite side of the boat.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Yusuf at the helm confirmed by passing fishermen and Tariq submerged on his own dive together eliminate both other suspects — Old Nasser alone was at Hamad's rope."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🔪",
+        "heading": "The Knife and the Locker",
+        "text": "The rope locker is directly beneath the port side gunwale where Old Nasser stood as rope handler. A small hatch in the deck provides access to the locker from above — a handler could open the hatch, reach in, and retrieve the knife without leaving their station. The hatch shows fresh scrape marks consistent with being opened in darkness or haste. The knife was not returned to the locker.",
+        "alone": "The rope locker hatch — directly at Old Nasser's feet — shows fresh scrape marks consistent with being opened recently. Nasser could have retrieved the knife without leaving his position.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Old Nasser's niece abandoned by Hamad and the locker hatch at his feet showing fresh use confirm he retrieved the knife from his station, cut the rope while Hamad was submerged, and waited thirty minutes before anyone else realized what had happened."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Old Nasser",
+      "location": "The Port Side Gunwale",
+      "weapon": "Diving Knife"
+    },
+    "epilogue": "Old Nasser had received Fatima's letter six weeks before the voyage. He had read it many times. He had served on pearl boats for fifty years and had known Hamad since the boy could walk. He had watched Hamad marry another woman and had said nothing. At five-fifteen AM, when Hamad descended on his rope, Nasser had opened the deck hatch, taken the knife, and cut the line after two minutes — early enough that Hamad was still deep. He had stood at the gunwale for thirty minutes, holding the severed end, before Tariq surfaced and asked where Hamad was. He had said nothing at all at his trial."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #063",
+    "title": "The Deep",
+    "setting": "Pearl Diving Dhow Al-Noor · Persian Gulf · 1952",
+    "emoji": "🐚",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Nasser cut the rope. But Fatima's letter was not the only pressure on him — Hamad had also been planning to replace Nasser as rope handler with a younger man, ending his livelihood. Find the second motive and what it reveals about the letter's timing.",
+    "emptyState": "There were two reasons. Find the second one.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Old Nasser",
+            "icon": "🐚",
+            "detail": "The killer — rope position, locker knife, no alarm given, Fatima's letter."
+          },
+          {
+            "name": "Yusuf Al-Rashid",
+            "icon": "⚓",
+            "detail": "Cleared as killer — helm confirmed by passing fishermen."
+          },
+          {
+            "name": "Tariq Mansour",
+            "icon": "🤿",
+            "detail": "Cleared as killer — own simultaneous dive confirmed."
+          },
+          {
+            "name": "Fatima",
+            "icon": "💔",
+            "detail": "Old Nasser's niece — had been abandoned by Hamad six weeks before the murder."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Port Side Gunwale",
+            "icon": "⚓",
+            "detail": "Primary scene — Nasser's station, rope cut from here, locker hatch at his feet."
+          },
+          {
+            "name": "The Rope Locker",
+            "icon": "🪢",
+            "detail": "Where the knife was kept — accessed through the deck hatch at Nasser's feet."
+          },
+          {
+            "name": "The Aft Deck",
+            "icon": "🛳️",
+            "detail": "Where Nasser slept — where the letter was found."
+          },
+          {
+            "name": "Bahrain",
+            "icon": "🏝️",
+            "detail": "Where Fatima lives — and where the fleet owner's office is located."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "Confirmed weapon — blade profile matches rope cut, fresh nick confirmed."
+          },
+          {
+            "name": "Deck Cleaver",
+            "icon": "🪓",
+            "detail": "Inconsistent cut profile — eliminated."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "Not involved — eliminated."
+          },
+          {
+            "name": "The Severed Rope",
+            "icon": "🪢",
+            "detail": "The instrument of death — Hamad's lifeline, cut while he was submerged."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Deck Hatch at Rope Station",
+            "icon": "🪢",
+            "detail": "Nasser retrieved the knife through the hatch directly at his feet without leaving his station."
+          },
+          {
+            "name": "Pre-dive Preparation",
+            "icon": "🔪",
+            "detail": "Nasser may have palmed the knife before the dive began — the hatch was not the only access point."
+          },
+          {
+            "name": "Yusuf's Helm Position",
+            "icon": "⚓",
+            "detail": "Yusuf's angle of view from the helm did not cover the port gunwale directly — Nasser's hands were not visible to him."
+          },
+          {
+            "name": "Tariq's Simultaneous Dive",
+            "icon": "🤿",
+            "detail": "Tariq's own descent removed the only other crew member who could have observed Nasser's actions."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Replacement Notice",
+        "text": "A document found in the boat's logbook — in Hamad's handwriting, dated three weeks before the voyage — reads: 'Note for Yusuf: Nasser's hands are no longer reliable for rope work. Arrange a younger handler for the next season. Give him what is owed and a respectful departure.' Hamad had already decided to replace Old Nasser — and had written it in the boat's own log.",
+        "alone": "Hamad had written instructions to replace Nasser as rope handler in the boat's log three weeks before the voyage — Nasser would have known the log contained this entry.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The replacement notice in the boat's log and Nasser's confirmed ability to read — attested by the letter from Fatima being read repeatedly — confirm he had access to and could have seen the entry during the voyage."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "⚓",
+        "heading": "Yusuf Confirms the Plan",
+        "text": "Yusuf, pressed in a second interview, confirms Hamad had told him verbally about the plan to replace Nasser at least a month before the voyage. He had not told Nasser himself — he had assumed Hamad would do so. Hamad had apparently not yet told Nasser directly. Yusuf does not know whether Nasser had seen the logbook entry.",
+        "alone": "Yusuf confirms the replacement plan was decided a month before the voyage — Nasser was to be dismissed at the season's end. It had not yet been communicated to him directly.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The replacement plan decided a month before the voyage and Nasser's fifty years of service on pearl boats confirm losing the role would have ended his livelihood entirely — he had no other skill or income."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🤿",
+        "heading": "Tariq's Observation",
+        "text": "Tariq Mansour, in a second interview, recalls that when he surfaced from his dive and found Nasser standing at the rope in silence, he noticed Nasser's right hand was closed — 'as if holding something.' When Nasser turned to help retrieve Hamad's body, Tariq heard a soft sound from the port side, as though something small had been dropped into the water. He had thought nothing of it at the time.",
+        "alone": "Tariq observed Nasser holding something in his closed fist at the gunwale and heard what sounded like a small object dropping into the water when Nasser turned away.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Nasser's closed fist at the gunwale and the sound of something dropped into the water confirm he disposed of the diving knife over the side when Tariq surfaced — the knife found in the locker is a separate blade, not the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💔",
+        "heading": "Fatima's Letter — Full Reading",
+        "text": "A full reading of Fatima's letter reveals more than the abandoned relationship. The letter's final paragraph reads: 'Uncle, I know you love the boat and your work. I know you would lose everything if Hamad dismissed you. He told me when he ended things that he intended to replace you this season. He told me you were too old. I thought you should know what he said about you.' Fatima had told Nasser about the replacement — in the same letter describing his niece's abandonment.",
+        "alone": "Fatima's letter had told Nasser both about the abandoned relationship and about Hamad's plan to replace him — both pieces of information arrived together six weeks before the murder.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Fatima's letter delivering both the abandonment and the replacement news simultaneously and the voyage beginning six weeks after the letter confirm Nasser had six weeks to decide what to do before the season's first dive."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Nasser Can Read",
+        "text": "An interview with fleet crew members confirms Old Nasser is one of the few rope handlers of his generation who is literate — he had attended a Bahraini religious school as a child. He is well known for reading the boat's log and weather records. He would have had access to the logbook during the voyage and was capable of reading Hamad's replacement notice.",
+        "alone": "Old Nasser is literate and known for reading the boat's records — he could have found Hamad's replacement notice in the logbook during the voyage.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The replacement notice in the logbook and Nasser's confirmed literacy and habit of reading the log confirm he almost certainly saw Hamad's written instruction to dismiss him — the logbook entry may have been the final confirmation of what Fatima had told him."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🐚",
+        "heading": "Fifty Years on Pearl Boats",
+        "text": "Fleet records confirm Old Nasser has worked as a rope handler on pearl diving dhows since 1902 — fifty years. He has no other documented employment. His payments from the fleet are his only recorded income. At sixty years of age, with the pearl industry itself declining due to Japanese cultured pearls, a dismissal would have left him without livelihood or prospects.",
+        "alone": "Nasser had spent fifty years in a single role on pearl boats — dismissal would have left a sixty-year-old man with no income, no alternative work, and no savings.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The replacement plan confirmed a month before the voyage and Nasser's total economic dependence on his rope handler role confirm the dismissal would have been financially catastrophic — on top of his niece's abandonment, it constituted an existential threat."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "physical",
+        "icon": "🔪",
+        "heading": "Two Knives",
+        "text": "An inventory of the dhow's equipment reveals two diving knives of the same make — a standard procurement by the fleet. The knife found in the rope locker shows a nick consistent with rope cutting but also shows significant corrosion from long-term salt water exposure — it has been in the locker for months. The murder weapon, if dropped into the Gulf, would not be found. The locker knife may have been left as a decoy.",
+        "alone": "The rope locker knife shows old corrosion suggesting long storage — it may not be the murder weapon. Nasser may have used a second knife and disposed of it over the side when Tariq surfaced.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Tariq's observation of Nasser's closed fist and the sound of a small object dropped into the water confirm the murder weapon was disposed of at sea — the locker knife was either a coincidence or a deliberate misdirection."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "Fatima's Interview",
+        "text": "Fatima, interviewed in Bahrain, confirms she wrote the letter and included both pieces of information — the abandonment and the replacement — because she believed her uncle had a right to know what Hamad had said about him. She had not intended to encourage violence. She had thought Nasser might confront Hamad or leave the boat. She says: 'I did not know what he would do. I only knew he would do something.'",
+        "alone": "Fatima had known her uncle would act on the information she provided — she had not anticipated the form his action would take.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Fatima's letter delivering both the abandonment and the replacement simultaneously and her statement that she knew he would do something confirm the letter was the triggering communication — Nasser had six weeks to decide, and the dive was his answer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Old Nasser",
+      "location": "The Port Side Gunwale",
+      "weapon": "Diving Knife",
+      "access": "Deck Hatch at Rope Station"
+    },
+    "epilogue": "Old Nasser had received Fatima's letter six weeks before the voyage set out. He had read it many times. He had read the logbook entry in Hamad's own hand. He had brought a second knife aboard — a precaution, or a decision already made. At five-fifteen AM, when Hamad descended, Nasser had cut the rope after two minutes and held the severed end for thirty minutes. When Tariq surfaced, he heard something small enter the water. The corrosion on the locker knife told investigators the murder weapon was in the Gulf. Nasser was convicted on the physical evidence of the hatch, Tariq's testimony, and the impossibility of his silence. He said nothing at his trial and nothing after."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #063",
+    "title": "The Deep",
+    "setting": "Pearl Diving Dhow Al-Noor · Persian Gulf · 1952",
+    "emoji": "🐚",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Nasser killed Hamad. But Tariq Mansour had his own secret — he had been in love with Fatima for years and had known about her relationship with Hamad before anyone else on the boat. Find what Tariq knew and when he knew it.",
+    "emptyState": "Tariq knew before the voyage. Find what he knew and what he chose.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Old Nasser",
+            "icon": "🐚",
+            "detail": "The killer — rope station, two knives, thirty-minute silence, Fatima's letter."
+          },
+          {
+            "name": "Yusuf Al-Rashid",
+            "icon": "⚓",
+            "detail": "Cleared as killer — helm confirmed. But processed the replacement notice."
+          },
+          {
+            "name": "Tariq Mansour",
+            "icon": "🤿",
+            "detail": "Cleared as killer — own dive confirmed. But had known about Fatima and Hamad for two years."
+          },
+          {
+            "name": "Fatima",
+            "icon": "💔",
+            "detail": "Old Nasser's niece — her letter triggered the chain. But Tariq had told her about Hamad's engagement first."
+          },
+          {
+            "name": "The Fleet Owner",
+            "icon": "🏢",
+            "detail": "The Bahrain-based fleet operator — had ordered the replacement of Nasser on Hamad's recommendation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Port Side Gunwale",
+            "icon": "⚓",
+            "detail": "Primary scene — Nasser's position, rope cut, second knife disposed of here."
+          },
+          {
+            "name": "The Rope Locker",
+            "icon": "🪢",
+            "detail": "Where the decoy knife was found — long corrosion suggests it was not the murder weapon."
+          },
+          {
+            "name": "The Aft Deck",
+            "icon": "🛳️",
+            "detail": "Where Nasser slept — where Fatima's letter was kept."
+          },
+          {
+            "name": "Bahrain",
+            "icon": "🏝️",
+            "detail": "Where Fatima lives — and where Tariq had met her during the off-season."
+          },
+          {
+            "name": "The Fleet Owner's Office",
+            "icon": "🏢",
+            "detail": "Where the replacement order was formalized — and where Tariq had first heard of Hamad's plan."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diving Knife",
+            "icon": "🔪",
+            "detail": "Confirmed weapon type — second knife brought aboard by Nasser, disposed of at sea."
+          },
+          {
+            "name": "Deck Cleaver",
+            "icon": "🪓",
+            "detail": "Inconsistent cut — eliminated."
+          },
+          {
+            "name": "Anchor Chain",
+            "icon": "⛓️",
+            "detail": "Not involved — eliminated."
+          },
+          {
+            "name": "The Severed Rope",
+            "icon": "🪢",
+            "detail": "The instrument of death — cut by Nasser, rope end held for thirty minutes."
+          },
+          {
+            "name": "Tariq's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — but his choice not to warn Nasser about what he knew enabled the situation to develop."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Deck Hatch at Rope Station",
+            "icon": "🪢",
+            "detail": "Confirmed access route — hatch shows fresh scrape marks."
+          },
+          {
+            "name": "Pre-dive Knife",
+            "icon": "🔪",
+            "detail": "Nasser brought the murder weapon aboard separately — the locker knife is the decoy."
+          },
+          {
+            "name": "Tariq's Simultaneous Dive",
+            "icon": "🤿",
+            "detail": "Tariq's own descent removed the only observer who could have seen Nasser's hands."
+          },
+          {
+            "name": "Yusuf's Blocked Sightline",
+            "icon": "⚓",
+            "detail": "The helm's angle did not cover the port gunwale — Yusuf could not see Nasser's actions from his position."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Told Fatima About Hamad's Engagement",
+            "icon": "💔",
+            "detail": "Tariq informed Fatima that Hamad was marrying another woman — triggering her letter to Nasser."
+          },
+          {
+            "name": "Chose Not to Warn Nasser",
+            "icon": "🤫",
+            "detail": "Tariq knew what Fatima would tell Nasser and chose not to intervene or warn anyone aboard."
+          },
+          {
+            "name": "Observed the Closed Fist",
+            "icon": "👁️",
+            "detail": "Tariq saw Nasser holding something when he surfaced — and delayed reporting this detail."
+          },
+          {
+            "name": "Provided the Timing Intelligence",
+            "icon": "⏱️",
+            "detail": "Tariq's decision to dive simultaneously removed the last possible witness to Nasser's actions."
+          },
+          {
+            "name": "Confirmed Nasser's Position Innocently",
+            "icon": "🪢",
+            "detail": "Tariq's confirmation of Nasser at the rope during his own descent was factual — but it also established the only witness's alibi for the period."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🤿",
+        "heading": "Tariq and Fatima",
+        "text": "Fatima, interviewed in Bahrain, mentions in passing that Tariq Mansour had visited her uncle's house during the off-season and had told her about Hamad's forthcoming engagement — before any formal announcement had been made. Tariq had known about the engagement before Fatima knew. He had told her first.",
+        "alone": "Tariq had informed Fatima of Hamad's engagement before any announcement — he had been the source of the information that set the chain in motion.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Tariq telling Fatima about the engagement and Fatima's letter to Nasser arriving six weeks before the murder confirm Tariq's disclosure to Fatima was the first link in the chain — he put the information in motion that ended with Hamad dead."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "Tariq's Feelings for Fatima",
+        "text": "Two crew members from a different vessel in the fleet confirm that Tariq Mansour had spoken openly about Fatima during previous off-seasons — describing her as the woman he intended to marry. He had not acted on this because Hamad had been involved with her first and Tariq had considered it a conflict of loyalty. When Hamad ended the relationship to marry another, Tariq had been the first to know.",
+        "alone": "Tariq had been in love with Fatima for years and had considered her unattainable while Hamad was involved with her — Hamad's departure from the relationship was information Tariq had strong personal reasons to communicate to Fatima.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Tariq's documented feelings for Fatima and his choice to tell her about Hamad's engagement before anyone else confirm his disclosure was not neutral — he had a personal interest in Fatima knowing Hamad was gone."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🐚",
+        "heading": "What Tariq Expected Nasser to Do",
+        "text": "Tariq, in a third interview after Fatima's account was obtained, is asked whether he knew Fatima would write to Nasser about Hamad's abandonment. He pauses, then says: 'I thought she might. I thought Nasser might confront Hamad. I thought there would be an argument. I did not think —' He stops. He does not complete the sentence.",
+        "alone": "Tariq admits he anticipated Fatima would tell Nasser and that Nasser might confront Hamad — he had predicted conflict without predicting murder.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Tariq anticipating a confrontation between Nasser and Hamad and choosing not to warn anyone aboard confirm he had forecast the general direction of events and made a deliberate choice not to intervene."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🤿",
+        "heading": "The Simultaneous Dive Decision",
+        "text": "Tariq explains that on the morning of the murder, it was Nasser who suggested the simultaneous dive arrangement — it was not standard practice on the Al-Noor. Nasser had proposed that Tariq descend from the starboard side at the same time as Hamad on the port side, saying it would allow them to cover more ground before the heat of the day. Tariq had agreed without question.",
+        "alone": "Nasser had proposed the simultaneous dive arrangement himself — the decision that removed the only observer from the port side during the murder window was Nasser's suggestion.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Nasser proposing the simultaneous dive and Tariq's own descent removing him as a witness confirm the operational setup was Nasser's planning — he had arranged his own unobserved window before the dive began."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📅",
+        "heading": "The Timeline of Disclosure",
+        "text": "Cross-referencing Fatima's account with fleet records: Hamad's engagement was announced within the fleet in late August. Tariq visited Fatima's uncle's house in early September — one week after the announcement. Fatima's letter to Nasser is dated mid-September. The voyage began in late October. Tariq had told Fatima within days of the engagement announcement.",
+        "alone": "Tariq had told Fatima about Hamad's engagement within days of learning it himself — the disclosure was prompt, not delayed. He had moved quickly to ensure she knew.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Tariq telling Fatima within days of the announcement and Fatima's letter to Nasser arriving six weeks before the murder confirm Tariq's disclosure was the initiating event in a chain he had started within days of Hamad's engagement becoming known."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "After the Murder",
+        "text": "Fleet records show that following Hamad's death, the Al-Noor's diving concession passed to Yusuf. Yusuf, as the new operation head, hired a new rope handler — an older man from Bahrain. The following off-season, Tariq visited Fatima's uncle's house again. He and Fatima were married in 1953.",
+        "alone": "Tariq married Fatima the year after Hamad's death — the outcome he had been unable to pursue while Hamad was alive was achieved within eighteen months of the murder.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Tariq's documented love for Fatima and his marriage to her the year after Hamad's death confirm his personal stake in the chain of events — the murder's outcome was precisely what he had wanted, even if not how he had imagined it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🤿",
+        "heading": "Tariq's Non-Warning",
+        "text": "When asked directly: 'After you told Fatima about the engagement, and you suspected she would write to Nasser, did you consider warning Hamad that Nasser might be angry?' Tariq says: 'I considered it.' When asked why he did not: 'I decided it was not my place. It was between Nasser and Hamad.' His answer is a deliberate non-intervention framed as respect for others' affairs.",
+        "alone": "Tariq had considered warning Hamad and decided not to — he framed his non-intervention as deference but had personal reasons to let the conflict develop.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Tariq anticipating a confrontation and his deliberate choice not to warn Hamad confirm the non-intervention was a decision, not an oversight — he allowed the chain he had initiated to continue without interference."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🐚",
+        "heading": "Nasser's Final Statement",
+        "text": "Old Nasser, in his only statement before trial, says: 'Tariq is a good man. He did nothing wrong. He told a girl what she deserved to know. What I did, I did alone.' He explicitly absolves Tariq. The investigators note this as a deliberate protective statement — Nasser understood the chain but chose to take sole responsibility.",
+        "alone": "Old Nasser explicitly absolved Tariq in his only statement — he understood the chain of causation and chose to claim sole responsibility for what he had done.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Nasser proposing the simultaneous dive to create his unobserved window and his statement absolving Tariq confirm Nasser had planned the murder independently — Tariq had started the chain but Nasser had designed the execution entirely on his own."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Old Nasser",
+      "location": "The Port Side Gunwale",
+      "weapon": "Diving Knife",
+      "access": "Deck Hatch at Rope Station",
+      "accomplice": "Told Fatima About Hamad's Engagement"
+    },
+    "epilogue": "Tariq Mansour had told Fatima about Hamad's engagement within days of learning it, knowing she would tell her uncle. He had not warned Hamad. He had agreed to the simultaneous dive without question. He had delayed reporting his observation of Nasser's closed fist. He had married Fatima in 1953. None of this constituted a criminal act. Old Nasser had absolved him explicitly. The investigators noted the chain and closed the file on Tariq's involvement. Nasser received fifteen years. He served twelve. Tariq and Fatima had three children. Nasser attended their eldest son's wedding in 1972 and sat at the back of the hall and said nothing."
+  }
+}

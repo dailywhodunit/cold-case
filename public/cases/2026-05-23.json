@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Washington D.C., 1941. A Japanese embassy attaché is found dead hours before Pearl Harbor. Someone was trying to defect — and someone else made sure they couldn't. 🗝️🔍 Case #065 — The Last Dispatch. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Washington D.C. December 1941, an embassy murder, a would-be defector, and a killer racing the clock of history. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the Imperial Japanese Embassy in Washington D.C. in December 1941, a formal reception room with lacquered screens and chrysanthemum panels, a telegraph machine on a side table, documents in the process of being burned in a fireplace. Dark mahogany, silk panels, cold grey December light through tall windows. Tense and beautiful, style of Hiroshi Hamaya meets Ben Shahn.",
+    "animationPrompt": "Slow pan through the Japanese Embassy in Washington D.C., December 1941. Lacquered screens. A telegraph machine. Documents burning in the fireplace. The camera finds a cipher pad on the floor beside an overturned chair. The fire pops. Through the window: grey December sky. Fade to black.",
+    "hashtags": [
+      "#Pearl Harbor",
+      "#EmbassyMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #065",
+    "title": "The Last Dispatch",
+    "setting": "Imperial Japanese Embassy · Washington D.C. · December 1941",
+    "emoji": "🗝️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Attaché Kenji Watanabe was found dead in the embassy cipher room on the morning of December 6th, 1941 — one day before Pearl Harbor. A contact inside the State Department believed Watanabe had been preparing to defect with Japanese military communications. Three embassy staff were present. One of them couldn't let him leave.",
+    "emptyState": "He was about to defect. Someone stopped him before he could.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ambassador Kato",
+            "icon": "🇯🇵",
+            "detail": "The senior diplomat — had received orders from Tokyo that morning requiring absolute loyalty."
+          },
+          {
+            "name": "Lieutenant Hara",
+            "icon": "🗡️",
+            "detail": "The military attaché — knew about the planned defection and had reported it to Tokyo."
+          },
+          {
+            "name": "Clerk Emi Suzuki",
+            "icon": "📋",
+            "detail": "The cipher clerk — had helped Watanabe copy the communications he intended to bring."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Cipher Room",
+            "icon": "🔐",
+            "detail": "Where Watanabe was found — documents partially burned, cipher pad on the floor."
+          },
+          {
+            "name": "The Ambassador's Study",
+            "icon": "📁",
+            "detail": "Where Kato received the morning's cables from Tokyo — adjacent to the cipher room."
+          },
+          {
+            "name": "The Reception Room",
+            "icon": "🖼️",
+            "detail": "The formal embassy entrance — where Suzuki was stationed as the morning's duty clerk."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cipher Room Fireplace Tool",
+            "icon": "🔥",
+            "detail": "A heavy iron poker — blunt force wound consistent with its shaft."
+          },
+          {
+            "name": "Telegraph Machine Weight",
+            "icon": "⚙️",
+            "detail": "A cast iron stabilizing weight — wound profile inconsistent."
+          },
+          {
+            "name": "Diplomatic Seal Press",
+            "icon": "🔏",
+            "detail": "A heavy brass document press — too broad for the wound's impact area."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Tokyo Cable",
+        "text": "A cable received by Ambassador Kato at six AM that morning — recovered partially from the fireplace — instructs the embassy to 'prevent any compromise of operational communications by all means necessary.' The phrase 'by all means necessary' is a specific Tokyo authorization for extreme action. Kato had received this instruction three hours before Watanabe was killed.",
+        "alone": "Kato had received an explicit Tokyo authorization for extreme action three hours before Watanabe's death — the cable gave him both instruction and authority.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Kato's Tokyo authorization for extreme action and his confirmed absence from the ambassador's study between eight and nine AM together confirm he had both the instruction and an unaccounted window during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔥",
+        "heading": "The Fireplace Poker",
+        "text": "The cipher room fireplace poker bears a smear of blood on its shaft approximately thirty centimetres from the tip. The wound on Watanabe's skull matches the shaft's diameter and curvature. The poker had been replaced in its stand — but imprecisely, at an angle different from the indentation left in the hearth mat showing its normal position.",
+        "alone": "Watanabe was killed with the cipher room poker, which was replaced in its stand after use — but positioned slightly differently than usual.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The poker replaced imprecisely and Lieutenant Hara's confirmed familiarity with the cipher room's layout from his daily access together confirm the replacement was done by someone who knew where the poker belonged but was not its habitual user."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Suzuki's Duty Log",
+        "text": "Clerk Suzuki's reception duty log shows continuous entries from seven AM until the alarm was raised at nine-fifteen AM — a required record for the reception clerk showing each visitor and telephone call. The log has entries at seven, seven-thirty, eight, eight-twenty, and nine AM. The handwriting is consistent throughout. Suzuki was at her reception post making log entries throughout the window.",
+        "alone": "Suzuki's reception duty log shows continuous entries throughout the murder window — her presence at the reception post is documented in her own handwriting.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Suzuki confirmed at the reception post by continuous duty log entries and Kato's unaccounted window between eight and nine AM together account for two of the three suspects — Kato's gap is the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🗡️",
+        "heading": "Hara's Report to Tokyo",
+        "text": "A cable sent by Lieutenant Hara the previous evening — found in the cipher log before burning — reports to Tokyo: 'Watanabe intends to approach American contact. Documents prepared. Window is tomorrow morning before 0900.' Hara had reported the defection plan to Tokyo twelve hours before the murder — his report was the basis for the 'extreme action' cable Kato received at six AM.",
+        "alone": "Lieutenant Hara had reported Watanabe's defection plan to Tokyo the previous evening — his report triggered the authorization cable Kato received.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Hara reporting the defection to Tokyo and the authorization cable arriving at six AM confirm the chain of command: Hara reported, Tokyo authorized, Kato received the instruction — and acted within three hours."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🇯🇵",
+        "heading": "Kato's Unaccounted Time",
+        "text": "Ambassador Kato states he was in his study from six AM — when he received the Tokyo cable — until nine AM when the alarm was raised. However, his personal secretary confirms she arrived at the study at eight AM with tea and found it empty. She returned at eight-forty AM and found Kato at his desk. He was absent from his study for at least forty minutes spanning the murder window.",
+        "alone": "Kato was absent from his study for at least forty minutes during the murder window — his secretary found it empty at eight AM.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Kato's Tokyo authorization for extreme action and his forty-minute unaccounted absence during the murder window confirm he had both the instruction and the opportunity — the cipher room is two doors from his study."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔐",
+        "heading": "The Cipher Room Access Log",
+        "text": "The cipher room maintains an access log — required for all classified spaces. The log shows Watanabe entered at seven-fifty AM. Kato's name appears at eight-oh-five AM — fifteen minutes after Watanabe. Hara's last entry is the previous evening. Suzuki's last entry is seven-ten AM when she delivered morning cables. Only Kato had entered the cipher room during the murder window.",
+        "alone": "The cipher room access log shows only Kato entered after Watanabe on the morning of the murder — he entered fifteen minutes after Watanabe and no one else entered until the alarm was raised.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The poker replaced imprecisely and Kato's sole cipher room entry after Watanabe confirm he was in the room with the weapon during the murder window — the imprecise replacement is consistent with someone using the fireplace of a room they accessed but did not habitually occupy."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Suzuki Heard",
+        "text": "Suzuki, pressed in a second interview, admits she heard raised voices from the cipher room direction at approximately eight-ten AM — shortly after Kato's logged entry. She describes one voice as 'controlled and low' and one as 'louder, distressed.' She did not investigate because raised voices in the cipher room during a high-tension diplomatic period were not unusual. She returned to her log.",
+        "alone": "Suzuki heard raised voices from the cipher room at eight-ten AM — five minutes after Kato's access log entry. The voices matched an argument before the killing.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Suzuki confirmed at her post by the duty log and her account of raised voices at eight-ten AM after Kato's cipher room entry confirm the sequence: Kato entered, an argument occurred, Watanabe was killed — all within the forty-minute window Kato's secretary cannot account for."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🔐",
+        "heading": "The Documents Watanabe Had",
+        "text": "The partially burned cipher room documents — reconstructed by American investigators — include copies of encrypted communications describing the Pearl Harbor operation's timing. Watanabe had prepared these copies over several days. They were in the process of being burned when the body was found. Kato had burned Watanabe's copies after killing him — ensuring the defection yielded nothing to the Americans.",
+        "alone": "Watanabe had prepared copies of Pearl Harbor communications for his defection contact — Kato burned them after the killing, ensuring the defection produced no intelligence.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Hara reporting the defection to Tokyo and the burned Pearl Harbor documents confirming Kato destroyed them after the killing confirm the full sequence: Hara reported, Tokyo authorized, Kato acted, and burned the evidence of what Watanabe had prepared."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ambassador Kato",
+      "location": "The Cipher Room",
+      "weapon": "Cipher Room Fireplace Tool"
+    },
+    "epilogue": "Ambassador Kato had received Tokyo's authorization at six AM and had spent two hours deciding how to act. At eight-oh-five AM he entered the cipher room. Watanabe, at his preparation desk, had been assembling his final package for the American contact. Kato had argued with him — Suzuki heard the voices. He had used the poker. He had burned Watanabe's documents in the cipher room fireplace. He had replaced the poker imprecisely. He had returned to his study by eight-forty AM. The Pearl Harbor attack proceeded the following morning. The American contact who had been awaiting Watanabe's package waited until noon on December 7th before reporting his absence to the State Department. By then it was too late."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #065",
+    "title": "The Last Dispatch",
+    "setting": "Imperial Japanese Embassy · Washington D.C. · December 1941",
+    "emoji": "🗝️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Kato killed Watanabe and burned the documents. But Clerk Suzuki had helped Watanabe copy the communications. Find what she had prepared and whether any of it survived.",
+    "emptyState": "Suzuki helped him. Find what she copied and where it went.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ambassador Kato",
+            "icon": "🇯🇵",
+            "detail": "The killer — Tokyo authorization, cipher room access log, forty-minute gap, burned documents."
+          },
+          {
+            "name": "Lieutenant Hara",
+            "icon": "🗡️",
+            "detail": "The reporter — sent the Tokyo cable the prior evening, triggered the authorization."
+          },
+          {
+            "name": "Clerk Emi Suzuki",
+            "icon": "📋",
+            "detail": "The helper — had assisted Watanabe with copying, duty log confirmed, but had a second copy."
+          },
+          {
+            "name": "The State Department Contact",
+            "icon": "🏛️",
+            "detail": "The American who was waiting for Watanabe's package — waited until December 7th."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Cipher Room",
+            "icon": "🔐",
+            "detail": "Primary crime scene — Kato and Watanabe, poker, burned documents."
+          },
+          {
+            "name": "The Ambassador's Study",
+            "icon": "📁",
+            "detail": "Kato's confirmed location before and after the murder window."
+          },
+          {
+            "name": "The Reception Room",
+            "icon": "🖼️",
+            "detail": "Suzuki's duty post — duty log confirmed throughout."
+          },
+          {
+            "name": "Suzuki's Desk Drawer",
+            "icon": "📋",
+            "detail": "Where the second copy of the communications was found — hidden beneath routine embassy correspondence."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cipher Room Fireplace Tool",
+            "icon": "🔥",
+            "detail": "Confirmed weapon — blood on shaft, wound profile, replaced imprecisely."
+          },
+          {
+            "name": "Telegraph Machine Weight",
+            "icon": "⚙️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Diplomatic Seal Press",
+            "icon": "🔏",
+            "detail": "Too broad — eliminated."
+          },
+          {
+            "name": "The Burned Documents",
+            "icon": "🔥",
+            "detail": "Not a weapon — the intelligence Kato destroyed. Suzuki's copy survived."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Follow Tokyo's Orders",
+            "icon": "🇯🇵",
+            "detail": "Kato's stated motive — the extreme action authorization left him no legitimate alternative."
+          },
+          {
+            "name": "Prevent Intelligence Compromise",
+            "icon": "🔐",
+            "detail": "Kato's operational motive — the Pearl Harbor timing documents could not reach the Americans."
+          },
+          {
+            "name": "Personal Loyalty to Japan",
+            "icon": "🗡️",
+            "detail": "Hara's motive for reporting — he believed the defection was a betrayal, not a conscience act."
+          },
+          {
+            "name": "Conscience and Moral Opposition",
+            "icon": "💔",
+            "detail": "Watanabe's motive for defecting — he had known about Pearl Harbor for weeks and could not stay silent."
+          },
+          {
+            "name": "Protect the Copy",
+            "icon": "📋",
+            "detail": "Suzuki's motive — she had made a second copy and hidden it, prepared for exactly this outcome."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Second Copy",
+        "text": "A search of the embassy reception room — conducted by American investigators after the Pearl Harbor attack — finds a concealed compartment in Suzuki's desk drawer, beneath a false bottom of routine correspondence. Inside: a complete set of copies of the Pearl Harbor communications, in Suzuki's handwriting, with a cover note reading: 'If Kenji does not arrive — this is why.'",
+        "alone": "Suzuki had made a second complete copy of the Pearl Harbor communications and concealed it in her desk — prepared in case Watanabe did not make the handoff.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Suzuki's second copy prepared in case Watanabe did not arrive and her duty log confirming she was at her desk throughout the morning confirm she had anticipated the possibility of his death and had ensured the intelligence would survive regardless."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Suzuki's Role in the Copying",
+        "text": "Suzuki, in a later interview with American investigators, confirms she had helped Watanabe copy the communications over three evenings — using her cipher clerk access to the originals during the day and transcribing them with him in the cipher room after the ambassador had retired. She had decided independently to make a second copy after Watanabe told her about Hara's surveillance of his movements.",
+        "alone": "Suzuki had made the second copy after learning Hara was watching Watanabe — she had anticipated interception and prepared accordingly.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Suzuki preparing the second copy after learning of Hara's surveillance and Hara's Tokyo cable sent the prior evening confirming his active role confirm Suzuki had correctly assessed the threat and taken countermeasures before the killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Hara's Position on the Defection",
+        "text": "Lieutenant Hara, interviewed by American investigators after the attack, states that he had reported Watanabe's plan to Tokyo not as an act of institutional loyalty but because he genuinely believed Watanabe was wrong. He says: 'He was going to betray our country at its most important moment. I could not allow that.' He does not express regret. He had known Watanabe since the academy.",
+        "alone": "Hara had reported Watanabe to Tokyo out of personal conviction, not merely institutional duty — he had considered the defection a genuine betrayal by a man he had known for years.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Hara's personal conviction and his prior relationship with Watanabe since the academy confirm the reporting was not an impersonal bureaucratic act — it was a deliberate choice with full awareness of the likely consequence."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💔",
+        "heading": "Watanabe's Letter",
+        "text": "Among the items found in the cipher room — not burned, having fallen behind the fireplace grate — is a letter from Watanabe to an unnamed recipient, undated: 'I have served Japan honestly. But I cannot serve this. The men who will die at Pearl Harbor did not choose this war. I have their names in schedule form. I am not a traitor. I am a man who still has a choice.' The letter was never delivered.",
+        "alone": "Watanabe had written a letter explaining his decision to defect — describing it as a moral choice, not a betrayal. It survived the burning, having fallen behind the grate.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Watanabe's letter surviving the burning because it fell behind the grate and Suzuki's second copy surviving in her desk confirm Kato's burning had destroyed only the copies on the desk — the intelligence survived through two separate accidents of concealment."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The American Contact",
+        "text": "The State Department contact — identified in post-war documents as a senior analyst named Howard Brill — confirms he received Suzuki's concealed copy on December 8th, 1941, the day after the Pearl Harbor attack, when American investigators searched the embassy. He confirms the documents were complete and accurate. The attack had already occurred. The copy was of historical significance only.",
+        "alone": "The American contact received Suzuki's copy on December 8th — one day after the attack. The intelligence was accurate but arrived twenty-four hours too late.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Suzuki's second copy prepared in advance and its recovery on December 8th confirm the intelligence survived — but the twenty-four hour gap created by Watanabe's murder meant it arrived after the attack it could have prevented."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Suzuki's Decision",
+        "text": "Suzuki explains her decision: 'I knew Lieutenant Hara was watching Kenji. I knew what it meant that Hara had been watching. I made the copy for myself because I thought — if he is stopped, someone must still know. The desk drawer was the safest place I had.' She had assessed the risk correctly, prepared the contingency, and executed it from her duty post.",
+        "alone": "Suzuki had correctly assessed the threat from Hara's surveillance and prepared the second copy as a contingency — the decision was deliberate and calm.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Suzuki preparing the second copy after learning of Hara's surveillance and her duty log confirming her calm presence at the reception post throughout the morning confirm she had managed her response to the situation while maintaining her cover."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🗡️",
+        "heading": "Hara After the Attack",
+        "text": "Hara's subsequent career record — compiled post-war — shows he was repatriated to Japan in January 1942 as part of a diplomatic exchange and served the remainder of the war in a staff capacity. He was never charged with any crime in connection with Watanabe's death — no jurisdiction claimed the case during or after the war. He died in 1974. His memoir, published in 1968, does not mention Watanabe.",
+        "alone": "Hara was never charged in connection with Watanabe's death and omitted him entirely from his published memoir — the reporting that set the killing in motion was never legally examined.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Hara's personal conviction about the defection and his omission of Watanabe from his memoir confirm the act remained something he had made peace with — or had chosen to leave unexamined in public record."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🔥",
+        "heading": "What the Burning Preserved",
+        "text": "The partially burned documents reconstructed by American investigators — combined with Suzuki's complete copy — allowed a full picture of the Pearl Harbor operation's planning timeline to be established post-war. The historical record includes both the burned fragments and the desk copy. Watanabe's letter, recovered from behind the grate, was published in a 1953 historical account of the embassy's final days.",
+        "alone": "Both the burned fragments and Suzuki's copy contributed to the post-war historical record — Watanabe's letter was eventually published, his reasoning preserved despite every effort to destroy it.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Watanabe's letter surviving behind the grate and Suzuki's copy surviving in her desk confirm that Kato's effort to destroy the evidence of Watanabe's conscience was ultimately unsuccessful — both the intelligence and the man's reasoning entered the historical record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ambassador Kato",
+      "location": "The Cipher Room",
+      "weapon": "Cipher Room Fireplace Tool",
+      "motive": "Prevent Intelligence Compromise"
+    },
+    "epilogue": "Ambassador Kato was repatriated in January 1942 and never tried for Watanabe's murder. The case fell into the gap between wartime jurisdictions. The Pearl Harbor attack proceeded as planned. Suzuki's copy reached Howard Brill on December 8th — accurate, complete, and twenty-four hours too late. Watanabe's letter was published in 1953 in a historical account of the embassy's final forty-eight hours. Lieutenant Hara's memoir, published in 1968, covered the days around December 7th in careful detail and never once mentioned the man who had tried to stop it."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #065",
+    "title": "The Last Dispatch",
+    "setting": "Imperial Japanese Embassy · Washington D.C. · December 1941",
+    "emoji": "🗝️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Kato killed Watanabe. Suzuki preserved the copy. But the State Department contact Howard Brill had known about Watanabe's plan for three weeks before the murder — and had not moved to accelerate the handoff or protect Watanabe. Find why Brill waited and what it cost.",
+    "emptyState": "Brill knew for three weeks. Find why he waited.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ambassador Kato",
+            "icon": "🇯🇵",
+            "detail": "The killer — Tokyo authorization, cipher room log, forty-minute gap, burned documents."
+          },
+          {
+            "name": "Lieutenant Hara",
+            "icon": "🗡️",
+            "detail": "The reporter — sent the Tokyo cable, triggered the chain, omitted Watanabe from his memoir."
+          },
+          {
+            "name": "Clerk Emi Suzuki",
+            "icon": "📋",
+            "detail": "The preserver — second copy, desk drawer, correctly assessed the threat."
+          },
+          {
+            "name": "Howard Brill",
+            "icon": "🏛️",
+            "detail": "The State Department contact — had known about Watanabe for three weeks and had not acted to protect him."
+          },
+          {
+            "name": "The State Department Chain",
+            "icon": "📋",
+            "detail": "The bureaucratic structure that received Brill's reports — and did not escalate them."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Cipher Room",
+            "icon": "🔐",
+            "detail": "Primary crime scene — Kato's killing, burned documents, Watanabe's preserved letter."
+          },
+          {
+            "name": "The Ambassador's Study",
+            "icon": "📁",
+            "detail": "Kato's confirmed location before and after."
+          },
+          {
+            "name": "The Reception Room",
+            "icon": "🖼️",
+            "detail": "Suzuki's post — concealed copy in desk drawer."
+          },
+          {
+            "name": "Brill's State Department Office",
+            "icon": "🏛️",
+            "detail": "Where Brill received Watanabe's initial contact and filed his reports."
+          },
+          {
+            "name": "The State Department Archive",
+            "icon": "🗄️",
+            "detail": "Where Brill's three-week-old reports sat unescalated — available for post-war review."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cipher Room Fireplace Tool",
+            "icon": "🔥",
+            "detail": "Confirmed murder weapon — Kato's."
+          },
+          {
+            "name": "Telegraph Machine Weight",
+            "icon": "⚙️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Diplomatic Seal Press",
+            "icon": "🔏",
+            "detail": "Too broad — eliminated."
+          },
+          {
+            "name": "Bureaucratic Delay",
+            "icon": "📋",
+            "detail": "Not a weapon — but Brill's three-week inaction enabled the conditions for the murder."
+          },
+          {
+            "name": "The Unescalated Reports",
+            "icon": "🗄️",
+            "detail": "Brill's filed intelligence that was never acted upon — available in the archive three weeks before the attack."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Intelligence Compromise",
+            "icon": "🔐",
+            "detail": "Kato's motive — the Pearl Harbor communications must not reach the Americans."
+          },
+          {
+            "name": "Personal Loyalty to Japan",
+            "icon": "🗡️",
+            "detail": "Hara's motive — reporting Watanabe was a conviction, not a duty."
+          },
+          {
+            "name": "Protect the Copy",
+            "icon": "📋",
+            "detail": "Suzuki's motive — the intelligence must survive even if Watanabe did not."
+          },
+          {
+            "name": "Institutional Caution",
+            "icon": "🏛️",
+            "detail": "Brill's stated reason for not escalating — he needed corroboration before presenting extraordinary claims."
+          },
+          {
+            "name": "Career Protection",
+            "icon": "💼",
+            "detail": "Brill's real constraint — escalating an unverified claim about Pearl Harbor would have exposed him to ridicule if it proved false."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Three Weeks Prior",
+            "icon": "📅",
+            "detail": "When Watanabe first contacted Brill — the beginning of the intelligence window."
+          },
+          {
+            "name": "One Week Prior",
+            "icon": "📅",
+            "detail": "When Brill filed his second report — still not escalated above his direct supervisor."
+          },
+          {
+            "name": "December 6th Morning",
+            "icon": "⚠️",
+            "detail": "The murder window — Kato acted on Tokyo's six AM authorization."
+          },
+          {
+            "name": "December 7th–8th",
+            "icon": "🚨",
+            "detail": "Pearl Harbor attacked, Suzuki's copy recovered, Brill received it one day too late."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Brill's First Report",
+        "text": "Brill's first internal report — dated three weeks before the murder — reads: 'Source inside Japanese Embassy claims to hold communications indicating a major military operation against American interests. Source requests protection in exchange for documents. Credibility assessment: possible but unverified. Recommend monitoring.' The report was filed with his supervisor and not escalated further.",
+        "alone": "Brill's first report three weeks prior assessed Watanabe as possible but unverified and recommended only monitoring — not protective action or escalation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Brill's monitoring recommendation three weeks before the murder and Watanabe's death on December 6th confirm the three-week gap between initial contact and the murder was the window in which protective action could have been taken — and was not."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Brill's Second Report",
+        "text": "A second report from one week before the murder: 'Source has provided partial sample of communications — encrypted, consistent with naval operational format. Content suggests Pacific theater operation. Request for protective extraction still pending. Recommend escalation to senior review.' The report was filed. His supervisor initialled it and passed it to a deputy director. No action was taken before the murder.",
+        "alone": "Brill had escalated to senior review one week before the murder — the request reached a deputy director level and produced no protective action.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Brill's escalation one week before the murder reaching a deputy director with no response and the murder occurring six days later confirm the bureaucratic chain failed at multiple levels — Brill filed, his supervisor escalated, the deputy director did not act."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Brill's Explanation",
+        "text": "Howard Brill, interviewed in a post-war inquiry, explains his inaction: 'The claim was extraordinary. A Japanese embassy official willing to hand over military communications on the eve of what he called a major operation — my career could not survive presenting that without verification and being wrong. I needed the documents in hand before I could move the institution.' He had been waiting for the handoff to validate the claim.",
+        "alone": "Brill had been waiting for the documents before escalating fully — his career calculus had delayed protective action until the documents were in hand, which required Watanabe to survive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Brill waiting for documents before protecting the source and Watanabe killed before the handoff confirm the logical inversion of Brill's approach — he needed the documents to protect the source, but the source needed protection to deliver the documents."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Deputy Director's Response",
+        "text": "Post-war declassification reveals the deputy director's response to Brill's escalation: a handwritten margin note reading: 'Monitor. Do not approach source directly. If documents arrive, evaluate.' The instruction to not approach the source directly had prevented Brill from taking any protective action — the chain of command had paralysed the response at the level above Brill.",
+        "alone": "The deputy director's instruction not to approach the source directly had prevented any protective action — the order came from above Brill and constrained his options.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The deputy director's non-approach order and the murder occurring six days after the order was given confirm the institutional constraint was the proximate cause of Brill's inaction — he had been ordered not to do the thing that might have protected Watanabe."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Suzuki's Assessment of Brill",
+        "text": "Suzuki, in her post-war interview, says: 'Kenji had met with Brill twice. He came back from the second meeting certain that Brill believed him but uncertain that Brill would act in time. He said: the Americans move slowly when they do not want to be wrong. He was right about that.' Watanabe had assessed Brill's institutional constraints accurately before his death.",
+        "alone": "Watanabe had accurately predicted Brill's institutional paralysis — he had known the Americans might not act in time and had taken the three-evening copying effort as his contingency.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Brill's monitoring recommendation and Watanabe's accurate prediction of American institutional slowness confirm Watanabe had correctly understood the risk and responded by involving Suzuki and preparing her copy — he had anticipated the possibility of his own failure."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🗄️",
+        "heading": "What the Archive Contains",
+        "text": "The State Department archive — reviewed in a 1946 congressional inquiry — contains Brill's two reports, the supervisor's escalation memo, the deputy director's margin note, and one further document: a third report from Brill dated December 5th — the day before the murder — reading: 'Source has not appeared at agreed contact point today. Concerned. Request permission to initiate direct contact.' No response was received before the murder.",
+        "alone": "Brill had filed a third report on December 5th expressing concern and requesting permission to contact Watanabe directly — the request was not answered before the murder the following morning.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The deputy director's standing order not to approach and Brill's unanswered December 5th request for permission confirm the institutional structure had left Brill unable to act even when he recognized the emergency — the non-approach order was never rescinded."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Brill at the Inquiry",
+        "text": "At the 1946 congressional inquiry, Brill is asked: 'If you had been authorized to contact Watanabe directly, what would you have done?' He answers without hesitation: 'Extracted him. Immediately. On December 5th at the latest. I had a car and a route prepared.' He had been ready to act — and had been held from doing so by an institutional order he had no authority to override.",
+        "alone": "Brill had a plan ready to extract Watanabe — and had been prevented from executing it by the deputy director's non-approach order.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Brill's career-protection framing of his initial delay and his prepared extraction plan confirming he had been ready to act later together reveal the full picture: initial delay from caution, subsequent readiness, and then institutional constraint — three separate failures at three different stages."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔐",
+        "heading": "Suzuki's Copy and History",
+        "text": "The congressional inquiry's final report includes a finding: 'The intelligence Watanabe Kenji prepared and Suzuki Emi preserved was accurate, complete, and available to American authorities in the form of a partial sample no later than November 20th, 1941 — seventeen days before the Pearl Harbor attack. The failure to act on this intelligence represents a systemic failure across multiple institutional levels, for which no single individual bears sole responsibility.'",
+        "alone": "The inquiry found the intelligence had been available seventeen days before the attack and that no single individual bore sole responsibility for the failure to act — the failure was systemic.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Brill's three unanswered reports in the archive and the inquiry's systemic failure finding confirm the intelligence chain had failed at every level simultaneously — Brill's caution, his supervisor's limited escalation, the deputy director's non-approach order, and the absence of any response on December 5th all contributed to the outcome."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ambassador Kato",
+      "location": "The Cipher Room",
+      "weapon": "Cipher Room Fireplace Tool",
+      "motive": "Prevent Intelligence Compromise",
+      "window": "Eight-Oh-Five to Eight-Forty AM"
+    },
+    "epilogue": "Ambassador Kato was never tried. Howard Brill testified at the 1946 congressional inquiry and retired from the State Department in 1947. The deputy director whose margin note had constrained Brill's options was not called to testify — he had died in 1944. Watanabe's letter was published in 1953. Suzuki's copy was declassified in 1961. Lieutenant Hara's memoir appeared in 1968 and covered the days around December 7th in careful detail. It never mentioned the man who had tried to stop it, the woman who had preserved his evidence, or the American who had a car and a route prepared and had been told not to use them."
+  }
+}

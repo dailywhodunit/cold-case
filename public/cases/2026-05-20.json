@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Berlin, 1931. A cabaret singer is dead backstage. The blackmail letters are still warm. And the killer left a trail no one was supposed to find. 🎭🔍 Case #062 — The Last Number. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Weimar Berlin 1931, a dead cabaret singer, a blackmail ring, and one physical clue that cracks the whole case. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Backstage at a 1931 Berlin cabaret, velvet curtains in deep crimson, a dressing table with greasepaint and a cracked mirror, a feather boa draped over a chair, champagne glass overturned on the floor. Harsh bare bulbs around the mirror, smoky blue atmosphere beyond the curtain. Expressionist shadows, style of Otto Dix meets Weimar-era photography.",
+    "animationPrompt": "Slow pan through a 1931 Berlin cabaret backstage. Crimson velvet. Greasepaint. A feather boa over a chair. The camera finds a champagne glass overturned on the floor and a cracked dressing mirror. Bare bulbs flicker. Applause from the house beyond the curtain. Then silence. Fade to black.",
+    "hashtags": [
+      "#WeimarMystery",
+      "#BerlinCabaret",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #062",
+    "title": "The Last Number",
+    "setting": "Silbervogel Cabaret · Berlin · 1931",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Cabaret singer Lotte Brenner was found dead in her dressing room during the interval. She had been blackmailing three people in the house that night. The blackmail letters are missing. One physical detail at the scene tells you exactly who was there last.",
+    "emptyState": "The letters are gone. One thing was left behind.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Heinrich Voss",
+            "icon": "🏦",
+            "detail": "A Berlin banker — Lotte had a letter detailing his fraudulent accounts."
+          },
+          {
+            "name": "Greta Schell",
+            "icon": "🎬",
+            "detail": "A film actress — Lotte knew about a past she had buried under a new name."
+          },
+          {
+            "name": "Kurt Albrecht",
+            "icon": "🏛️",
+            "detail": "A rising political figure — Lotte's letter concerned his pre-war associations."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Where Lotte was found — letters missing, champagne glass overturned."
+          },
+          {
+            "name": "The Stage Wing",
+            "icon": "🎭",
+            "detail": "The area directly behind the curtain — access to the dressing rooms from here."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Where the audience gathered during interval — witnesses place all three suspects here at various points."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "A ligature mark around Lotte's neck matches the weave of a silk scarf."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "The overturned glass had a companion bottle — no wound profile match."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "The cracked mirror — cracked from a fist, not a weapon impact."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🧣",
+        "heading": "The Scarf Fiber",
+        "text": "A single thread of deep green silk is found caught in Lotte's ring — a ring she wore on her right hand and habitually used to gesture during arguments. The fiber is not from any scarf found in her dressing room. Greta Schell is wearing a deep green silk scarf when the body is discovered. Heinrich Voss wears a grey wool tie. Kurt Albrecht wears no scarf.",
+        "alone": "A deep green silk fiber matching Greta Schell's scarf is caught in Lotte's ring — consistent with a struggle in which the scarf was used as a ligature.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The green silk fiber from Greta's scarf caught in Lotte's ring and Greta's confirmed absence from the house bar during the interval together place her in the dressing room during the murder window with the weapon that killed Lotte."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🧣",
+        "heading": "The Ligature Mark",
+        "text": "Lotte was strangled — the ligature mark on her neck shows a broad, smooth impression consistent with a silk fabric. The mark is approximately six centimetres wide. Greta Schell's scarf, measured by investigators, is six and a half centimetres wide. The mark is inconsistent with a rope or cord — it was fabric, and broad fabric specifically.",
+        "alone": "The ligature mark matches a broad silk fabric approximately six centimetres wide — consistent with Greta Schell's scarf.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The ligature mark matching Greta's scarf width and her confirmed interval departure from the bar at nine-forty PM together define the murder window and confirm she was at the scene with the matching weapon."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏦",
+        "heading": "Voss and Albrecht at the Bar",
+        "text": "The bar manager confirms Heinrich Voss arrived at the house bar at nine-thirty PM when the interval bell rang and remained until the second-act bell at ten-ten PM — he spoke with the bar manager about a wine order throughout. Kurt Albrecht arrived at nine-thirty-five and was seen continuously until ten-five PM by two other patrons who recognized him.",
+        "alone": "Both Voss and Albrecht were continuously visible at the house bar from interval start until the second-act call — they are definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Voss and Albrecht both confirmed at the bar throughout the interval and Greta confirmed absent from the bar between nine-forty and ten-five PM together leave Greta as the only suspect unaccounted for during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Letters",
+        "text": "Lotte had told her stage manager that morning she would be 'collecting payment at the interval' — a phrase he had heard before and understood to mean blackmail. Three sealed envelopes were found in her dressing table drawer — all empty. The letters they had contained are gone. Whoever killed her took them before leaving.",
+        "alone": "The blackmail letters Lotte had prepared for that evening were taken from their envelopes — the killer removed their own letter and apparently the others as well.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The blackmail letters taken from all three envelopes and the film career Greta had rebuilt under a new name confirm she had the strongest personal reason to ensure Lotte's letter never surfaced — the past Lotte knew about would have ended Greta's career entirely."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Greta's Missing Time",
+        "text": "The bar manager recalls Greta Schell arriving at the bar at nine-thirty PM but departing at nine-forty — saying she needed to visit the powder room. She did not return until ten-five PM. The powder room is a two-minute walk from the bar. Her absence is twenty-five minutes — far longer than any powder room visit. The dressing rooms are four minutes from the bar via the stage wing.",
+        "alone": "Greta was absent from the bar for twenty-five minutes during the interval — twenty-three minutes longer than the powder room visit she claimed. The dressing rooms were accessible during her absence.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The green silk fiber from Greta's scarf and her twenty-five minute unexplained absence during the murder window together confirm she was in the dressing room during the interval — not the powder room."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "The Stage Wing Access",
+        "text": "The stage doorman confirms he left his post at nine-forty-five PM to help a performer with a costume problem — a request that came through the stage manager. He was away from his post for approximately fifteen minutes. During this window, the stage wing and dressing room corridor were unmonitored. The request came from a woman whose description matches Greta Schell.",
+        "alone": "The stage doorman was called away from his post by a woman matching Greta's description — creating an unmonitored corridor to the dressing rooms during her own absence from the bar.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The ligature mark matching Greta's scarf and the stage wing unmonitored during her absence confirm she arranged her own access to the dressing room corridor before leaving the bar."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "What Lotte Knew",
+        "text": "A note in Lotte's handwriting — found in a separate locked drawer the stage manager opened — reads: 'G.S. — real name Gerda Sauer. Nuremberg. 1924. The fire.' The note suggests Lotte knew Greta Schell's real identity and connected her to a specific incident in Nuremberg in 1924. Whatever 'the fire' refers to, it was evidently serious enough to warrant blackmail and, ultimately, murder.",
+        "alone": "Lotte knew Greta's real name — Gerda Sauer — and had connected her to a fire in Nuremberg in 1924. This was the content of Greta's blackmail letter.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Voss and Albrecht confirmed at the bar and Lotte's note identifying Greta by her real name and a specific 1924 incident confirm the most devastating blackmail target was Greta — she had reinvented her identity entirely and had the most to lose."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🧣",
+        "heading": "The Scarf After the Show",
+        "text": "When Greta Schell is interviewed after the body is discovered, she is still wearing the deep green silk scarf. A close examination during the interview reveals a small area of distortion in the weave — consistent with a single fiber having been pulled free under tension. The distortion is on the scarf's midpoint, the section that would have been used as a ligature.",
+        "alone": "Greta's scarf shows a distortion in the weave at its midpoint — consistent with a fiber pulled free under tension during use as a ligature.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The blackmail letters taken by the killer and the scarf distortion confirming it was used as a ligature identify Greta as the killer — she took her own letter and the others to ensure nothing remained that connected her to Lotte's blackmail operation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Greta Schell",
+      "location": "The Dressing Room",
+      "weapon": "Silk Scarf"
+    },
+    "epilogue": "Greta Schell — born Gerda Sauer in Nuremberg — had rebuilt her life entirely after 1924. Whatever had happened in the fire, Lotte had found out and had been collecting payments for two years. At the interval, Greta left the bar, arranged for the stage doorman to be called away, entered the dressing room, and used her scarf. She took all three letters — her own and the others — so that no connection to a blackmail scheme would remain. She returned to the bar at ten-five PM and was still wearing the scarf that had killed Lotte when investigators arrived. The single green fiber in Lotte's ring ended the case."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #062",
+    "title": "The Last Number",
+    "setting": "Silbervogel Cabaret · Berlin · 1931",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Greta killed Lotte. But the Nuremberg fire of 1924 was not simply a personal scandal — it was a criminal matter with a surviving victim. Find what happened and who else in Berlin knew.",
+    "emptyState": "The fire had a survivor. Find them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Greta Schell",
+            "icon": "🎬",
+            "detail": "The killer — silk scarf, twenty-five minute gap, stage doorman diverted, letters taken."
+          },
+          {
+            "name": "Heinrich Voss",
+            "icon": "🏦",
+            "detail": "Cleared as killer — bar confirmed. But his bank processed a payment connected to the fire."
+          },
+          {
+            "name": "Kurt Albrecht",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — bar confirmed. But he knew Gerda Sauer before 1924."
+          },
+          {
+            "name": "The Nuremberg Survivor",
+            "icon": "🔥",
+            "detail": "The person who survived the 1924 fire — their identity connects to why Lotte knew."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Primary crime scene — Greta's scarf, missing letters, Lotte's ring fiber."
+          },
+          {
+            "name": "The Stage Wing",
+            "icon": "🎭",
+            "detail": "Greta's access route — stage doorman diverted by woman matching her description."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Voss and Albrecht confirmed here — Greta absent twenty-five minutes."
+          },
+          {
+            "name": "Nuremberg · 1924",
+            "icon": "🔥",
+            "detail": "The location of the fire — the origin of Greta's hidden identity."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Confirmed weapon — fiber in ring, ligature mark width, distortion at midpoint."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "Cracked by a fist, not a weapon — eliminated."
+          },
+          {
+            "name": "The Blackmail Letters",
+            "icon": "📋",
+            "detail": "Not a weapon — the motive object. Greta took all three."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before Nine-Thirty PM",
+            "icon": "🌙",
+            "detail": "Interval bell — all three suspects in the house."
+          },
+          {
+            "name": "Nine-Thirty to Nine-Forty PM",
+            "icon": "🎭",
+            "detail": "Greta at the bar — stage doorman still at post."
+          },
+          {
+            "name": "Nine-Forty to Ten-Five PM",
+            "icon": "⚠️",
+            "detail": "Greta's gap — doorman diverted, corridor unmonitored, murder window."
+          },
+          {
+            "name": "Ten-Five PM Onward",
+            "icon": "🚨",
+            "detail": "Greta returned to bar — body found when dressing room was checked at ten-fifteen."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🔥",
+        "heading": "The Nuremberg Fire",
+        "text": "Berlin police records — obtained through the investigation — cross-reference a 1924 Nuremberg arson case. A boarding house fire killed two residents. A third resident, listed as injured, gave their name as 'K. Albrecht' — an initial and surname matching Kurt Albrecht. The fire was ruled accidental at the time, but the insurance claim was investigated and closed without resolution.",
+        "alone": "Kurt Albrecht was a resident at the Nuremberg boarding house that burned in 1924 — he survived as an injured party and is the surviving witness Lotte's note referenced.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Albrecht as the surviving Nuremberg fire witness and his confirmed presence at the cabaret the same night Lotte planned to collect blackmail payments confirm his presence was not coincidental — he and Lotte had a prior connection through the 1924 case."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "Voss's Bank Connection",
+        "text": "A financial record found in Lotte's locked drawer — alongside her note about Greta — shows a payment of 800 Reichsmarks from an account at Voss's bank to a 'G. Sauer' in Nuremberg in December 1924, three months after the fire. Heinrich Voss processed the transfer personally. The payment's stated purpose is 'relocation assistance' — an unusual designation for a private bank transfer.",
+        "alone": "Voss's bank processed a payment to Gerda Sauer three months after the Nuremberg fire — he had a direct financial connection to Greta's post-fire disappearance from Nuremberg.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Voss processing the 1924 relocation payment to Gerda Sauer and his presence at the same blackmail event confirm he had helped fund Greta's reinvention — his own blackmail letter likely concerned this payment, not just his fraud accounts."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Albrecht's Prior Relationship",
+        "text": "Kurt Albrecht, interviewed after the investigation expanded, admits he had known Gerda Sauer — Greta Schell — before 1924. They had both lived at the Nuremberg boarding house. He denies knowing what caused the fire. He also admits he recognized Greta at a previous cabaret performance, six months before the murder, and had not reported it to anyone. He had stayed silent.",
+        "alone": "Albrecht had recognized Greta six months before the murder and said nothing — he had known her real identity for half a year before Lotte was killed.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Albrecht recognizing Greta six months prior and his silence about her real identity confirm he had a reason to protect her secret — or a reason to protect himself from whatever the Nuremberg fire investigation might reopen."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Greta's Film Career",
+        "text": "Greta Schell's film career had begun in 1925 — one year after the Nuremberg fire — with a small role in a Berlin production. Her agent's records show she had arrived in Berlin with no prior film experience and a letter of introduction from a private investor. The investor is identified only by initials: H.V. — matching Heinrich Voss.",
+        "alone": "Greta's film career was launched with a letter of introduction from H.V. — Heinrich Voss — who had also processed her 1924 relocation payment. He had helped her build her new identity.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Voss processing Greta's relocation payment and introducing her to the film industry confirm their relationship predated the cabaret by seven years — he had been a protector and enabler of her reinvented identity since 1924."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Lotte's Source",
+        "text": "A second locked drawer in Lotte's dressing table — opened with a key found in her costume — contains a letter from Kurt Albrecht dated four months before the murder. The letter does not explicitly accuse Greta but describes 'a woman at the Silbervogel whose face I cannot forget from Nuremberg' and asks Lotte — an old acquaintance — whether she knows the performer's background. Lotte had obtained her information from Albrecht himself.",
+        "alone": "Albrecht had written to Lotte about the woman from Nuremberg four months before the murder — he had inadvertently given Lotte the information she used to build Greta's blackmail letter.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Albrecht as the Nuremberg fire survivor and his letter to Lotte inadvertently identifying Greta confirm the blackmail chain: Albrecht told Lotte, Lotte built the letter, and Greta killed to prevent its use."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🏦",
+        "heading": "Voss's Awareness",
+        "text": "Heinrich Voss, pressed in a second interview, admits he knew about Lotte's blackmail scheme — she had contacted him regarding his own letter two months before the murder. He had paid her once and refused to pay again. He also admits he suspected Greta was being blackmailed when he saw all three of them at the cabaret that evening. He had not warned Greta.",
+        "alone": "Voss knew about the blackmail scheme, had paid once, and suspected Greta was also a target — but had not warned her before the evening.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Voss processing Greta's 1924 relocation and his admitted awareness of the blackmail scheme confirm he had been protecting Greta's secret for seven years and then failed to protect her from its exploitation — his silence that evening cost Lotte her life."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔥",
+        "heading": "The Fire's True Cause",
+        "text": "The Nuremberg police arson file — obtained through a formal request — shows the 1924 investigation was closed as accidental but included a note from the lead investigator: 'One resident, female, was seen near the gas fitting in the basement two hours before the fire. Name taken as Gerda Sauer. Not pursued further as the fire was ruled accidental.' The note had never been acted upon.",
+        "alone": "The 1924 Nuremberg arson file includes an investigator's note placing Gerda Sauer near the gas fitting before the fire — the fire may not have been accidental.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Albrecht surviving the fire in which Greta was seen near the gas fitting and his six-month silence after recognizing her confirm he either did not connect the two events or had reason to stay quiet about what he knew."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "The Two Deaths in the Fire",
+        "text": "The two residents who died in the Nuremberg fire are identified in the police file: a landlord named Brenner and his wife. The landlord's surname is Brenner. Lotte Brenner shares this surname. The connection is not coincidental — Lotte was the landlord's daughter. She had been blackmailing Greta for two years not only for money but because she believed Greta had killed her parents.",
+        "alone": "The two people who died in the Nuremberg fire were named Brenner — the same surname as the cabaret singer Lotte had been blackmailing Greta for years because she believed Greta had killed her parents.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Albrecht's letter inadvertently identifying Greta and the fire victims sharing Lotte's surname confirm Lotte's blackmail was personal — she had found the woman she believed killed her parents and had been extracting payment while building toward exposure."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Greta Schell",
+      "location": "The Dressing Room",
+      "weapon": "Silk Scarf",
+      "window": "Nine-Forty to Ten-Five PM"
+    },
+    "epilogue": "Gerda Sauer had set the gas in the Nuremberg boarding house in October 1924 — the two residents who died were the landlord Brenner and his wife, who had threatened to report her to the police over an unrelated matter. She had escaped to Berlin with Heinrich Voss's money and introduction. Lotte Brenner had spent years tracing her parents' killer and had finally found her on a Berlin cabaret stage. The blackmail was punishment and leverage simultaneously. Kurt Albrecht had written to Lotte about the woman he recognized from Nuremberg without realising he was giving Lotte her weapon. The Nuremberg arson file was reopened after the murder. Greta Schell was tried in Berlin for Lotte's murder and in Nuremberg for the 1924 fire. Heinrich Voss was charged as an accessory after the fact for the relocation payment. Kurt Albrecht was not charged."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #062",
+    "title": "The Last Number",
+    "setting": "Silbervogel Cabaret · Berlin · 1931",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Greta killed Lotte. The Nuremberg fire killed the Brenners. But Heinrich Voss did not simply help Greta out of generosity — he had been blackmailing her himself for six years before Lotte found her. Find the full extortion chain.",
+    "emptyState": "Lotte wasn't the first to extort Greta. Find who was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Greta Schell",
+            "icon": "🎬",
+            "detail": "The killer — scarf, dressing room, letters taken, Nuremberg arsonist."
+          },
+          {
+            "name": "Heinrich Voss",
+            "icon": "🏦",
+            "detail": "Cleared as killer — bar confirmed. But had been extracting payments from Greta for six years."
+          },
+          {
+            "name": "Kurt Albrecht",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — bar confirmed. Had recognized Greta and written to Lotte, triggering the chain."
+          },
+          {
+            "name": "Lotte Brenner",
+            "icon": "🎤",
+            "detail": "The victim — daughter of the Nuremberg fire victims, had been blackmailing Greta for two years."
+          },
+          {
+            "name": "The Political Handler",
+            "icon": "🏛️",
+            "detail": "The figure managing Albrecht's rise — who had his own interest in keeping the 1924 matter buried."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Primary crime scene — Greta killed Lotte here during the interval."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Voss and Albrecht's confirmed location — Greta absent twenty-five minutes."
+          },
+          {
+            "name": "Nuremberg · 1924",
+            "icon": "🔥",
+            "detail": "The origin — the Brenner fire, Gerda Sauer's flight, Voss's intervention."
+          },
+          {
+            "name": "Voss's Bank",
+            "icon": "🏦",
+            "detail": "Where the payment records were kept — and where Voss processed Greta's relocation and his own extraction."
+          },
+          {
+            "name": "The Silbervogel Stage",
+            "icon": "🎭",
+            "detail": "Where the first-act performance brought all five principals together for the first time simultaneously."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "Confirmed murder weapon — Greta's, used on Lotte in the dressing room."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "Cracked by a fist — eliminated."
+          },
+          {
+            "name": "The 1924 Arson Evidence",
+            "icon": "🔥",
+            "detail": "Not a weapon — the instrument of all three extortion operations against Greta."
+          },
+          {
+            "name": "Voss's Bank Records",
+            "icon": "🏦",
+            "detail": "The documentary evidence of the full extortion chain — six years of Voss, two years of Lotte."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "End the Blackmail Chain",
+            "icon": "🧣",
+            "detail": "Greta's motive — Lotte was the second extortionist. Killing her would not end the chain while Voss remained."
+          },
+          {
+            "name": "Protect the Reinvented Identity",
+            "icon": "🎬",
+            "detail": "Greta's surface motive — the Gerda Sauer identity and the Nuremberg fire must stay buried."
+          },
+          {
+            "name": "Six-Year Financial Extraction",
+            "icon": "🏦",
+            "detail": "Voss's motive — he had known about the fire since 1924 and had been paid for his silence and help."
+          },
+          {
+            "name": "Political Career Protection",
+            "icon": "🏛️",
+            "detail": "Albrecht's motive for silence — reopening the Nuremberg case would expose his own presence there."
+          },
+          {
+            "name": "Parental Justice",
+            "icon": "💔",
+            "detail": "Lotte's motive — she believed Greta had killed her parents and had been building toward exposure for two years."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Funded Greta's Reinvention",
+            "icon": "🏦",
+            "detail": "Voss provided the relocation payment and the letter of introduction — and then began extracting payments in return."
+          },
+          {
+            "name": "Silenced the Arson Investigation",
+            "icon": "🔥",
+            "detail": "Voss had used his financial connections to ensure the Nuremberg investigation was closed without pursuing Gerda Sauer."
+          },
+          {
+            "name": "Wrote to Lotte About Greta",
+            "icon": "📋",
+            "detail": "Albrecht's letter inadvertently triggered Lotte's blackmail operation against Greta."
+          },
+          {
+            "name": "Extracted Six Years of Payments",
+            "icon": "💰",
+            "detail": "Voss had been receiving monthly payments from Greta since 1925 in exchange for his silence and continued protection."
+          },
+          {
+            "name": "Stayed Silent After Recognition",
+            "icon": "🤫",
+            "detail": "Albrecht recognized Greta six months before the murder and said nothing — his silence enabled the situation to develop."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "Voss's Extraction Records",
+        "text": "A review of Voss's private bank records — obtained under the expanded investigation — shows monthly transfers of between 150 and 300 Reichsmarks from an account held by 'G. Schell Productions' to a private account controlled by Voss, beginning in January 1925. The transfers total approximately 18,000 Reichsmarks over six years. No legitimate service is documented for this payment stream.",
+        "alone": "Voss had been receiving monthly payments from Greta since 1925 — totalling 18,000 Reichsmarks over six years for no documented service.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Voss's six-year extraction from Greta and his 1924 role in funding her relocation confirm his help was never altruistic — he had positioned himself as her protector specifically to extract long-term payment for his silence."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🔥",
+        "heading": "How the Investigation Was Closed",
+        "text": "The Nuremberg arson file contains a letter from a Bavarian banking official requesting the investigation be 'resolved without further public proceedings' in the interest of a business matter the official declines to specify. The letter is signed with initials only — H.V. The file notes the investigation was closed the same week the letter was received.",
+        "alone": "The Nuremberg arson investigation was closed after a letter from H.V. — matching Heinrich Voss — requested resolution without public proceedings. Voss had used his position to close the investigation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Voss closing the Nuremberg investigation and his six-year extraction from Greta confirm the full structure of his operation: help, protect, extract. He had controlled Greta's exposure since 1924 and monetised it continuously."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Albrecht's Political Handler",
+        "text": "An investigation of Kurt Albrecht's political connections reveals a senior figure in his party — identified only as 'the Handler' in Albrecht's own notes — who had specifically advised Albrecht to stay away from any inquiry into the 1924 Nuremberg matter. The Handler's concern: Albrecht's presence at the boarding house, if publicised, would raise questions about his character that could derail his political rise.",
+        "alone": "Albrecht had been advised by a political handler to stay away from anything connected to the 1924 Nuremberg fire — the handler was protecting Albrecht's political career, not Greta's secret.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Albrecht's handler advising silence and Albrecht's subsequent letter to Lotte about the woman from Nuremberg confirm Albrecht was navigating competing pressures — he eventually broke his silence inadvertently through Lotte, triggering the entire chain."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Greta's Financial Collapse",
+        "text": "A review of Greta's financial position in 1931 shows she had been effectively insolvent for six months — her film career had stalled, her production company was heavily in debt, and Voss's monthly extraction had become financially impossible. She was paying Lotte's blackmail on top of Voss's extraction from a depleted account. By the night of the murder she had been operating at a total loss for three months.",
+        "alone": "By October 1931 Greta was financially broken — paying two extortionists simultaneously from a stalled career. The murder was as much financial desperation as identity protection.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Greta's financial collapse by the murder date and the full chain of Voss's six-year extraction plus Lotte's two-year payments confirm the killing was the act of someone cornered economically and emotionally — she had no remaining options."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Extraction's Beginning",
+        "text": "The January 1925 first payment to Voss was made two weeks after Greta's film debut — the same month her career began. A note in Voss's private file, recovered from his home, reads: 'G.S. arrangement formalised. Monthly payment begins. File secured.' He had formalised the extraction the moment she had a career worth protecting — using the arson file he had caused to be closed as permanent leverage.",
+        "alone": "Voss formalised the extraction immediately after Greta's career began — he had closed the Nuremberg investigation specifically to hold the leverage over her indefinitely.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Voss's six-year extraction records and his note formalising the arrangement after Greta's career began confirm the help was a trap — he had created a dependency he intended to monetise from the beginning."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Greta's Knowledge of Voss's Role",
+        "text": "Greta Schell, after her arrest, makes a statement that includes: 'Voss told me in 1924 that he had made the investigation disappear. He told me what it had cost him. He told me what it would cost me. Every month for six years I paid for what he called his generosity.' She had known since 1924 that his help came with a permanent price.",
+        "alone": "Greta confirms Voss told her explicitly in 1924 that he had closed the investigation and what the ongoing cost would be — she had paid knowingly for six years.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Voss closing the Nuremberg investigation and Greta's statement confirming he disclosed this to her in 1924 confirm the arrangement was explicit from the start — it was coercion dressed as rescue."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Albrecht's Letter and Its Effect",
+        "text": "Lotte's locked drawer also contains a draft response to Albrecht's letter — never sent — in which Lotte writes: 'You have given me what I needed. I will not involve you further. What I do with this is my own matter.' She had received Albrecht's letter, used it to identify Greta, and had deliberately excluded him from the blackmail operation — he was her source, not her target.",
+        "alone": "Lotte had deliberately excluded Albrecht from the blackmail operation after using his letter to identify Greta — she protected her source while targeting the person he had inadvertently identified.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Albrecht's handler advising silence and Lotte's deliberate exclusion of Albrecht from the blackmail confirm Albrecht had no awareness his letter had triggered the chain — and Lotte had ensured he would not know, protecting the source of her intelligence."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🧣",
+        "heading": "What Killing Lotte Did Not Solve",
+        "text": "After Greta's arrest, investigators note that Heinrich Voss continued to hold the closed Nuremberg arson file — his copy, not the police file. Killing Lotte had removed one extortionist. Voss remained. In her statement, Greta says: 'I knew Voss was still there. But I could not think past that evening. I only knew I could not pay Lotte anymore.' The killing solved one problem and left the larger one intact.",
+        "alone": "Greta knew killing Lotte did not end her exposure — Voss still held the leverage. She had acted out of immediate desperation, not a complete plan.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Greta's financial collapse by the murder date and her statement acknowledging Voss remained confirm the killing was a breaking point, not a solution — she had eliminated the most immediate pressure while the underlying structure of her exposure remained unchanged."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Greta Schell",
+      "location": "The Dressing Room",
+      "weapon": "Silk Scarf",
+      "window": "Nine-Forty to Ten-Five PM",
+      "motive": "End the Blackmail Chain"
+    },
+    "epilogue": "Heinrich Voss was arrested three weeks after Greta. The Nuremberg arson file he had caused to be closed was reopened using his own private copy as evidence. He was charged with obstruction of a criminal investigation, extortion, and accessory after the fact to arson. Greta Schell was tried in Berlin for Lotte's murder and in Nuremberg for the deaths of the Brenners. Kurt Albrecht's political career did not survive the inquiry — his presence in Nuremberg in 1924 and his letter to Lotte were published. His handler was never identified. Lotte Brenner's two years of blackmail were entered into evidence. The jury at Greta's murder trial was informed of Lotte's identity as the Brenners' daughter. The deliberation lasted four hours."
+  }
+}

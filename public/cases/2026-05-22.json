@@ -1,0 +1,726 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Louisiana, 1872. A plantation house. A dead landowner. And two suspects who swear they were together — but one of them is lying. 🌿🔍 Case #064 — Bitter Root. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Reconstruction-era Louisiana 1872, a land inheritance murder, and two alibis that can't both be true. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an 1872 Louisiana plantation house at night, wide cypress floorboards, a parlour with gas lamps casting warm amber light, Spanish moss visible through tall windows, a writing desk with papers scattered and an inkwell overturned. Deep greens, amber, shadow. Gothic and Southern, style of Winslow Homer meets Thomas Hart Benton.",
+    "animationPrompt": "Slow pan through an 1872 Louisiana plantation parlour at night. Cypress floors. Gas lamps. Spanish moss through tall windows. The camera finds a writing desk with papers scattered and an overturned inkwell, ink spreading across a land deed. A clock on the mantel ticks. Then stops. Fade to black.",
+    "hashtags": [
+      "#ReconstructionEra",
+      "#LouisianaMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #064",
+    "title": "Bitter Root",
+    "setting": "Delacroix Plantation House · Iberville Parish · Louisiana · 1872",
+    "emoji": "🌿",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Landowner Augustin Delacroix was found dead in his parlour, the land deed for the estate overturned on his desk. Two suspects claim to have been together all evening. The land would go to whoever was left. One of them is lying about where they were.",
+    "emptyState": "Two alibis. One lie. Find which story breaks.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Celestine Delacroix",
+            "icon": "🌿",
+            "detail": "Augustin's daughter — stood to inherit if her brother was disinherited."
+          },
+          {
+            "name": "René Delacroix",
+            "icon": "📜",
+            "detail": "Augustin's son — was about to be removed from the will for his debts."
+          },
+          {
+            "name": "Josephine Tureaud",
+            "icon": "🕯️",
+            "detail": "The household's free woman of color, long employed at the house — no inheritance stake."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "📜",
+            "detail": "Where Augustin was found — land deed on desk, inkwell overturned."
+          },
+          {
+            "name": "The Upper Gallery",
+            "icon": "🌙",
+            "detail": "Where Celestine and René both claim to have been during the evening."
+          },
+          {
+            "name": "The Kitchen House",
+            "icon": "🕯️",
+            "detail": "Where Josephine was working — confirmed by the kitchen boy."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Candlestick",
+            "icon": "🕯️",
+            "detail": "A heavy brass holder — blunt force wound consistent with its base profile."
+          },
+          {
+            "name": "Iron Fireplace Tool",
+            "icon": "🔥",
+            "detail": "A poker from the parlour hearth — wound profile inconsistent."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "🖋️",
+            "detail": "The heavy glass inkwell — overturned but no blood or wound match."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "🌙",
+        "heading": "The Joint Alibi",
+        "text": "Celestine and René both state they were together on the upper gallery from eight PM until they heard the household boy's alarm at ten PM. Each confirms the other's account in precise detail — they describe the same stars, the same sounds from the bayou, the same conversation. Their accounts are almost identical. Witnesses who provide too-identical accounts often rehearsed them together.",
+        "alone": "Celestine and René's accounts are suspiciously identical in detail — the kind of precision that suggests the alibi was constructed together rather than independently recalled.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The over-identical alibi accounts and the dew on the gallery chairs showing they were unoccupied during the evening together confirm the gallery alibi is fabricated — at least one of them was not there."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🕯️",
+        "heading": "The Candlestick",
+        "text": "The brass candlestick from the parlour mantel bears a smear of blood on its base — the wound on Augustin's skull matches the base's profile exactly. The candle is still in the holder and shows signs of having been burning earlier in the evening — the wax is partially melted. The candlestick was taken from the lit mantel and used as a weapon.",
+        "alone": "Augustin was killed with his own parlour candlestick, taken from the mantel during the evening while it was still burning.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The candlestick taken from the burning mantel and René's ink-stained right cuff confirming he was at the parlour desk during the evening together place René in the parlour with the weapon during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Josephine's Confirmed Location",
+        "text": "The kitchen boy — a twelve-year-old named Solomon — confirms Josephine was in the kitchen house the entire evening, from supper service at six PM until he went to his sleeping quarters at nine-thirty PM. She had been preserving fruit and he had helped her. The kitchen house is a separate building from the main house. Josephine is definitively cleared.",
+        "alone": "Josephine was in the separate kitchen house all evening — confirmed by Solomon. She had no access to the parlour during the murder window.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Josephine cleared in the kitchen house and the dew evidence showing the gallery chairs were unoccupied confirm both other suspects were lying about being on the gallery — and the killing occurred in the parlour."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Will Revision",
+        "text": "A letter on Augustin's desk — partially written, not yet sealed — is addressed to his attorney. It reads: 'It is my intention to revise my testament such that René Delacroix receives no portion of the Delacroix lands, in consequence of his debts and his conduct, which I have documented separately.' The letter was not completed — Augustin had been killed before finishing it.",
+        "alone": "Augustin had been writing a letter to disinherit René when he was killed — the killing prevented the disinheritance.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The disinheritance letter interrupted mid-writing and René's ink stain on his right cuff confirm he had been in the parlour at the desk — and if he saw the letter, he knew exactly what was happening to his inheritance."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "💧",
+        "heading": "The Dew on the Gallery Chairs",
+        "text": "An examination of the upper gallery shows two wicker chairs positioned where Celestine and René claim to have sat. The chairs bear a light coating of evening dew — consistent with chairs that had been outside in the night air without anyone sitting in them. Dew does not form on surfaces that have been occupied by a person's warmth during the evening.",
+        "alone": "The gallery chairs are dew-covered — consistent with having been unoccupied during the evening. Neither suspect had been sitting there.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The too-identical alibi accounts and the dew-covered gallery chairs confirming neither suspect sat there during the evening together prove the gallery alibi was fabricated — both René and Celestine were lying."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🖋️",
+        "heading": "René's Ink Stain",
+        "text": "When René is examined after the body is found, his right shirt cuff bears a fresh ink stain — dark blue, consistent with the ink from the overturned parlour inkwell. He claims the stain is from earlier in the day. The parlour inkwell contains the same dark blue ink. René's cuff is stained in a pattern consistent with reaching across a desk surface where wet ink had spilled.",
+        "alone": "René's right cuff bears fresh ink matching the overturned parlour inkwell — consistent with having been at the parlour desk when the inkwell was disturbed.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The candlestick used as the weapon from the parlour mantel and René's fresh ink stain from the parlour inkwell confirm he was in the parlour during the evening — the room where his father was killed."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "physical",
+        "icon": "🌙",
+        "heading": "What the Gallery Shows",
+        "text": "A search of the upper gallery finds no evidence of a recent occupation — no lamp had been brought out, no cups or glasses are present, and the gallery floorboards show no fresh footprints in the dust that had settled during the dry days prior. Two people spending two hours on a gallery on a warm Louisiana evening would leave traces. There are none.",
+        "alone": "The gallery shows no evidence of occupation — no lamp, no refreshments, no footprints in the settled dust. No one had been on the gallery that evening.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Josephine cleared in the kitchen house and the gallery showing no occupancy evidence confirm the only people unaccounted for are René and Celestine — both had provided a false alibi for a location neither of them had used."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Disinheritance Timing",
+        "text": "A review of Augustin's correspondence with his attorney shows the disinheritance had been under discussion for three months — the attorney's last letter, received two days before the murder, confirmed the legal mechanism was ready whenever Augustin chose to act. Augustin had been writing the final instruction letter when he was killed. René had known the process was advancing.",
+        "alone": "The disinheritance had been legally prepared for three months — René had been aware it was coming and had known the final letter would end his claim to the land.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The disinheritance letter interrupted mid-sentence and the three-month legal preparation confirming René had known the end was imminent together establish his motive as immediate — the letter on the desk was the final trigger."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "René Delacroix",
+      "location": "The Parlour",
+      "weapon": "Brass Candlestick"
+    },
+    "epilogue": "René Delacroix had gone to the parlour to speak with his father about the will. He had seen the letter on the desk. He had taken the brass candlestick from the burning mantel. The inkwell had overturned in the struggle. He had gone to Celestine afterward and told her what had happened. Together they had constructed the gallery alibi and rehearsed it. The dew on the chairs, the ink on René's cuff, and the absence of any trace of occupation on the gallery dismantled it entirely. René was convicted of his father's murder. Celestine was charged as an accessory. The Delacroix lands passed to a court-appointed administrator while the estate was settled."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #064",
+    "title": "Bitter Root",
+    "setting": "Delacroix Plantation House · Iberville Parish · Louisiana · 1872",
+    "emoji": "🌿",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "René killed Augustin. Celestine provided the false alibi. But Celestine had her own motive for wanting Augustin dead — separate from the inheritance — that she had concealed from René. Find what Celestine was hiding.",
+    "emptyState": "Celestine had her own reason. Find it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "René Delacroix",
+            "icon": "📜",
+            "detail": "The killer — parlour, candlestick, ink stain, interrupted disinheritance letter."
+          },
+          {
+            "name": "Celestine Delacroix",
+            "icon": "🌿",
+            "detail": "The alibi provider — gallery fabrication, concealed her own independent motive."
+          },
+          {
+            "name": "Josephine Tureaud",
+            "icon": "🕯️",
+            "detail": "Cleared — kitchen house confirmed by Solomon throughout the evening."
+          },
+          {
+            "name": "Attorney Bertrand Hébert",
+            "icon": "📋",
+            "detail": "Augustin's legal counsel — knew the full content of the will, including a provision Celestine had not known about."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "📜",
+            "detail": "Primary crime scene — René's ink stain, interrupted letter, candlestick."
+          },
+          {
+            "name": "The Upper Gallery",
+            "icon": "🌙",
+            "detail": "The false alibi location — dew-covered chairs, no footprints, no lamp."
+          },
+          {
+            "name": "The Kitchen House",
+            "icon": "🕯️",
+            "detail": "Josephine confirmed here — separate building."
+          },
+          {
+            "name": "The Document Room",
+            "icon": "📁",
+            "detail": "A locked room adjacent to the parlour — where Augustin kept his private papers."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Candlestick",
+            "icon": "🕯️",
+            "detail": "Confirmed weapon — blood on base, wound profile match, taken from burning mantel."
+          },
+          {
+            "name": "Iron Fireplace Tool",
+            "icon": "🔥",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "🖋️",
+            "detail": "Overturned in struggle — not a weapon."
+          },
+          {
+            "name": "The Disinheritance Letter",
+            "icon": "📜",
+            "detail": "Not a weapon — René's immediate trigger. But the document room contained a second document affecting Celestine."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Provided the Gallery Alibi",
+            "icon": "🌙",
+            "detail": "Celestine fabricated the joint gallery alibi after René told her what had happened."
+          },
+          {
+            "name": "Concealed Her Own Motive",
+            "icon": "🌿",
+            "detail": "Celestine had an independent reason to want Augustin dead that she had not disclosed to René."
+          },
+          {
+            "name": "Knew the Document Room's Contents",
+            "icon": "📁",
+            "detail": "Celestine had found a document in Augustin's private room that concerned her directly."
+          },
+          {
+            "name": "Chose Not to Act Herself",
+            "icon": "🕯️",
+            "detail": "Celestine had decided against acting personally — but when René came to her, she chose to help him."
+          },
+          {
+            "name": "Withheld the Second Document From Investigators",
+            "icon": "📋",
+            "detail": "The document in the locked room, which Celestine had accessed, was not disclosed during the initial investigation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Second Document",
+        "text": "The document room — adjacent to the parlour, accessible with a key Celestine had copied — contains a sealed letter from Augustin to Attorney Hébert, dated one week before the murder. The letter proposes a guardianship arrangement: upon Augustin's death, Celestine's share of the inheritance would be managed by a male trustee until she married, as Augustin 'did not believe a woman capable of managing land independently.'",
+        "alone": "Augustin had arranged for Celestine's inheritance to be controlled by a male trustee rather than her own hands — she would inherit but could not manage the land herself.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Augustin's guardianship arrangement stripping Celestine of direct control and her copied key to the document room confirming she had found this letter confirm her independent motive — the inheritance would have meant nothing if she could not control it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "The Copied Key",
+        "text": "Josephine, in a second interview, recalls that six months before the murder, Celestine had asked her to hold a key briefly — 'just a moment' — while Celestine made an impression in a block of soft wax she had brought. Josephine had not reported this. The original key is the document room key, held by Augustin. A wax-impression copy was sufficient for a locksmith to cut a duplicate.",
+        "alone": "Celestine had made a wax impression of the document room key six months before the murder — she had been preparing to access Augustin's private papers long before the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Celestine copying the document room key six months before the murder and the guardianship letter found in the room confirm she had been monitoring Augustin's plans for her inheritance — she had found the letter and known its contents before René acted."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Hébert Knew",
+        "text": "Attorney Hébert, interviewed after the murder, confirms the guardianship arrangement had been Augustin's instruction for three months. He also reveals that Augustin had told him, two weeks before the murder, that he planned to announce the arrangement to Celestine 'at the appropriate moment.' Celestine would have lost direct control of her inheritance upon hearing the announcement — which had not yet been made to her directly.",
+        "alone": "Augustin had planned to announce the guardianship arrangement to Celestine — she had found out through the document room, not from her father directly.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The announcement not yet made to Celestine and her copied key confirming she had accessed the document room confirm she knew the guardianship plan before her father told her — and had been living with that knowledge for weeks."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Celestine's Account Under Pressure",
+        "text": "In a second interview, Celestine is asked whether she had known about the guardianship arrangement before the murder. After a long pause, she says: 'I found the letter in August. I said nothing to René. It was my business, not his.' She had known about the arrangement for months and had deliberately concealed it from her brother — even as she helped him cover his killing of the man who had arranged it.",
+        "alone": "Celestine admits she found the guardianship letter in August — months before the murder — and had concealed this from René while helping him cover the killing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Celestine finding the guardianship letter in August and her immediate choice to provide René's alibi when he came to her after the killing confirm she saw his action as solving her own problem — she helped him not only out of family loyalty but because Augustin's death served her interest."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "What the Land Meant to Celestine",
+        "text": "Celestine's personal correspondence — found in her room — shows she had been in contact with a New Orleans cotton factor about independently managing the plantation's output. The correspondence predates the murder by four months. She had been planning to run the estate herself and had been cultivating the business relationships to do so — without her father's knowledge and before she knew about the guardianship.",
+        "alone": "Celestine had been independently building business relationships to manage the plantation herself — four months before the murder — suggesting she anticipated her father's death and her own management of the land.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Augustin's guardianship arrangement and Celestine's independent business planning to manage the estate herself confirm the guardianship letter was not just an insult — it directly destroyed a plan she had been building for months."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Josephine's Observation",
+        "text": "Josephine, in her second interview, also recalls that in the weeks before the murder, Celestine had become noticeably tense around her father — avoiding the parlour when he was present and spending extended time in her room alone. Josephine had attributed this to a family argument. She now believes Celestine had been carrying the knowledge of the guardianship letter as a sustained burden.",
+        "alone": "Celestine had been visibly tense around Augustin for weeks before the murder — consistent with someone managing the knowledge of a decision that directly harmed them.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Celestine copying the document room key six months prior and her visible tension around Augustin for weeks before the murder confirm she had been monitoring and aware of the guardianship plan well before René acted."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Inheritance After the Murder",
+        "text": "With Augustin dead before the guardianship letter was formally incorporated into the will, and the disinheritance letter for René unfinished and unsigned, both siblings stood to inherit equally under the prior will. The guardianship arrangement had not been legally formalized. Celestine inherited the land outright — exactly the outcome she had been planning for.",
+        "alone": "Augustin's death before formalising either the disinheritance of René or the guardianship of Celestine meant both provisions died with him — Celestine received exactly what she had planned.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Celestine finding the guardianship letter in August and the murder's outcome giving her exactly the unconstrained inheritance she had planned confirm her decision to provide René's alibi served her own interests as much as his."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "What Celestine Said Last",
+        "text": "At the conclusion of the investigation, Celestine makes a statement: 'I did not kill my father. I did not ask René to kill him. I helped René because he is my brother. What my father intended for me is not why I helped. That is what I choose to believe.' Investigators note the final sentence's careful phrasing — she chose what to believe about her own motives.",
+        "alone": "Celestine's final statement acknowledges the guardianship plan and implies awareness that her motives were not simple — she chose a version of her own reasoning that placed loyalty above interest.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Celestine's independent business planning to run the estate and her careful statement about what she chose to believe about her own motives confirm she was sophisticated enough to understand the complexity of her actions — and unwilling to fully examine them even at the end."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "René Delacroix",
+      "location": "The Parlour",
+      "weapon": "Brass Candlestick",
+      "accomplice": "Provided the Gallery Alibi"
+    },
+    "epilogue": "René Delacroix was convicted of his father's murder in 1873. Celestine was convicted as an accessory. The guardianship letter — found in the document room she had accessed with her copied key — was entered into evidence and provided Celestine's independent motive. Her statement that she helped only out of loyalty was not persuasive to the jury once the letter's content and her months-long awareness of it were established. The Delacroix land was placed in receivership. Josephine Tureaud purchased a portion of the estate at public sale in 1875, having saved for twenty years. Solomon worked her farm until 1910."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #064",
+    "title": "Bitter Root",
+    "setting": "Delacroix Plantation House · Iberville Parish · Louisiana · 1872",
+    "emoji": "🌿",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "René killed Augustin. Celestine covered for him and had her own motive. But Josephine Tureaud knew more than she disclosed initially — she had overheard Celestine copying the key and had been keeping a secret of her own about the Delacroix estate for twenty years. Find what Josephine knew.",
+    "emptyState": "Josephine knew more than she said. Find the twenty-year secret.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "René Delacroix",
+            "icon": "📜",
+            "detail": "The killer — parlour, candlestick, ink stain, disinheritance motive."
+          },
+          {
+            "name": "Celestine Delacroix",
+            "icon": "🌿",
+            "detail": "The accomplice — gallery alibi, copied key, independent motive, independent business planning."
+          },
+          {
+            "name": "Josephine Tureaud",
+            "icon": "🕯️",
+            "detail": "Cleared as killer — kitchen house confirmed. But had a twenty-year secret about the estate."
+          },
+          {
+            "name": "Attorney Hébert",
+            "icon": "📋",
+            "detail": "Cleared — not present. Knew about the guardianship and disinheritance, but also processed a prior deed."
+          },
+          {
+            "name": "The Estate's Hidden History",
+            "icon": "📁",
+            "detail": "The document Josephine had knowledge of — predating both René and Celestine's claims."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "📜",
+            "detail": "Primary crime scene — René's killing of Augustin."
+          },
+          {
+            "name": "The Upper Gallery",
+            "icon": "🌙",
+            "detail": "The false alibi — dew-covered, no occupation evidence."
+          },
+          {
+            "name": "The Kitchen House",
+            "icon": "🕯️",
+            "detail": "Josephine's confirmed location — and where she had kept her secret documentation."
+          },
+          {
+            "name": "The Document Room",
+            "icon": "📁",
+            "detail": "Where Celestine found the guardianship letter — and where a second document predated the Delacroix claim."
+          },
+          {
+            "name": "The Parish Records Office",
+            "icon": "🏛️",
+            "detail": "Where the prior deed's original was filed — and where Josephine had directed investigators in her final statement."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Candlestick",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — René's."
+          },
+          {
+            "name": "Iron Fireplace Tool",
+            "icon": "🔥",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "🖋️",
+            "detail": "Overturned in struggle — not a weapon."
+          },
+          {
+            "name": "The Prior Deed",
+            "icon": "📋",
+            "detail": "Not a weapon — the document Josephine had known about for twenty years. Its legal effect superseded the Delacroix inheritance."
+          },
+          {
+            "name": "Josephine's Knowledge",
+            "icon": "🕯️",
+            "detail": "The information she had held and chosen when to disclose — and to whom."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Disinheritance Prevention",
+            "icon": "📜",
+            "detail": "René's motive — killing Augustin before the will revision was signed."
+          },
+          {
+            "name": "Guardianship Avoidance",
+            "icon": "🌿",
+            "detail": "Celestine's motive — the guardianship arrangement would have stripped her of control."
+          },
+          {
+            "name": "Estate Justice",
+            "icon": "🕯️",
+            "detail": "Josephine's reason for eventual disclosure — the prior deed represented a legal claim she had protected for twenty years."
+          },
+          {
+            "name": "Family Loyalty",
+            "icon": "💔",
+            "detail": "Celestine's stated motive — covering for her brother, regardless of her own interests."
+          },
+          {
+            "name": "Economic Survival",
+            "icon": "💰",
+            "detail": "Josephine's long-term reason for keeping the secret — disclosing the deed earlier would have cost her her position and possibly more."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Prior Deed",
+        "text": "Attorney Hébert, questioned about the estate's full legal history, discloses that in his files is a copy of a deed from 1851 — twenty years before the murder — conveying a parcel of the Delacroix land to a free woman of color named Marie Tureaud. The conveyance was signed by Augustin's father, Édouard Delacroix, and witnessed. Marie Tureaud is Josephine's mother. The parcel was never transferred and the deed was never registered.",
+        "alone": "A 1851 deed conveying land to Josephine's mother exists in the attorney's files — it was signed but never registered, meaning the legal transfer never took effect.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The 1851 deed signed but never registered and Josephine's twenty-year employment at the house confirm she had spent two decades working on land that a document said should belong to her family — and had chosen to stay silent."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "What Josephine Knew",
+        "text": "Josephine, in a final interview after the discovery of the deed, confirms she had known about the 1851 conveyance since her mother told her before dying in 1855. Her mother had kept a copy of the deed — Josephine had the copy in her kitchen house quarters, sewn into the lining of a travelling bag. She had worked at the house for twenty years while holding a document that arguably gave her family a claim to part of the land.",
+        "alone": "Josephine had known about the 1851 deed for seventeen years and had kept her mother's copy hidden in her quarters — she had been working on potentially her own land the entire time.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Josephine's seventeen-year silence about the deed and her purchase of a portion of the estate at the 1875 receivership sale confirm she had been waiting — using the deed's existence as eventual leverage to acquire the land through legitimate means."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "When Celestine Copied the Key",
+        "text": "Josephine now reveals the full context of the key copying incident: when Celestine had asked to hold the document room key 'just a moment,' Josephine had understood immediately what she intended. She had allowed it because she had hoped Celestine might find the 1851 deed — which was also in the document room, in an unmarked envelope — and the deed's discovery might open a path to her family's claim.",
+        "alone": "Josephine had allowed Celestine to copy the key partly hoping Celestine might find the 1851 deed — she had seen an opportunity to surface the document through someone else's actions.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Josephine allowing the key copy hoping the deed would be found and Celestine finding the guardianship letter instead confirm the deed remained hidden — Celestine had not found the specific document Josephine hoped she would."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why the Deed Was Never Registered",
+        "text": "A letter from Édouard Delacroix to the Parish Registrar — found in the Parish Records Office — explains the deed's status: 'The conveyance to Marie Tureaud is my intention and my promise. However, I have been advised by counsel that registering such a conveyance would create difficulties I am not yet prepared to address. I will register when circumstances permit.' Circumstances never permitted — Édouard died in 1858 without registering it.",
+        "alone": "Édouard Delacroix had intended to register the deed but delayed — citing unspecified difficulties — and died before doing so. The promise was never legally completed.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Édouard's letter stating his intention but citing difficulties and Josephine's twenty-year silence confirm the deed existed in legal limbo — valid in intent, ineffective without registration, and held by Josephine as a quiet claim to justice she had never been in a position to press."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Why Josephine Stayed",
+        "text": "When asked directly why she had remained at the Delacroix house for twenty years knowing about the deed, Josephine says: 'Where else would I go? The deed was unregistered. If I had spoken, Augustin would have denied it and dismissed me. I stayed because staying was the only way to protect what my mother had been promised. And I saved what I earned.'",
+        "alone": "Josephine had stayed because leaving or disclosing would have destroyed her position without establishing the claim — she had calculated that patience and saving were her only path.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The 1851 deed signed but never registered and Josephine's explanation of staying to protect the promise confirm she had been in an impossible position — holding a document that meant everything but could not be safely used."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The 1875 Purchase",
+        "text": "Parish records from 1875 confirm Josephine Tureaud purchased a parcel of the Delacroix estate at public sale for 340 dollars — money she had saved over twenty years of employment. The parcel she purchased corresponds exactly to the land described in the 1851 deed signed by Édouard Delacroix. She bought at public sale what her mother had been promised by private conveyance — at a price she could afford.",
+        "alone": "Josephine purchased exactly the parcel described in the 1851 deed — at the estate receivership sale, using her savings, buying at market what she had always been entitled to by an unregistered promise.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Josephine's seventeen-year silence and her eventual purchase of exactly the promised parcel confirm her long game had been patient and deliberate — she had waited for a legal path to the land rather than pressing an unregistered claim."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "The Deed in the Document Room",
+        "text": "Celestine, when the 1851 deed is disclosed to her, confirms she did not find it during her visits to the document room. She had found the guardianship letter and the correspondence with Hébert, but had not opened the unmarked envelope that contained the deed. She had not known what else the room contained.",
+        "alone": "Celestine had not found the 1851 deed during her document room visits — she had found the guardianship letter and missed the deed entirely.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Josephine allowing the key copy hoping Celestine would find the deed and Celestine missing it entirely confirm Josephine's indirect strategy had not worked — the deed had remained hidden and she had continued to wait."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Josephine's Final Statement",
+        "text": "At the conclusion of the expanded investigation, Josephine makes a statement: 'I did not know what would happen that night. I knew the family was breaking. I waited, as I have always waited. The law gave me what the Delacroixs could not give themselves the grace to give. I have the land now. It is enough.'",
+        "alone": "Josephine's final statement frames the entire twenty-year period as waiting for the law to do what the Delacroix family should have done themselves — and the estate sale as the legal resolution of an unkept promise.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Édouard's letter stating the deed was his intention and Josephine's statement that the law gave her what the family could not give themselves confirm the deed was a promise that took twenty years, two murders of character, and one actual murder to resolve through legal means."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "René Delacroix",
+      "location": "The Parlour",
+      "weapon": "Brass Candlestick",
+      "accomplice": "Provided the Gallery Alibi",
+      "motive": "Disinheritance Prevention"
+    },
+    "epilogue": "René Delacroix was convicted in 1873. Celestine in 1873. The receivership sale of the Delacroix estate in 1875 brought the land to public auction. Josephine Tureaud — who had saved 340 dollars over twenty years — purchased the parcel her mother had been promised by Édouard Delacroix in 1851. She farmed it until her death in 1901. The 1851 deed was entered into the parish records as a historical document alongside the sale. Solomon worked her farm and inherited the land from her. The Delacroix name did not appear in the parish land records after 1875."
+  }
+}
