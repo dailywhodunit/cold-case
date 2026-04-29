@@ -7,5 +7,16 @@
     { "source": "/cases/:path*", "destination": "/cases/:path*" },
     { "source": "/archive", "destination": "/archive.html" },
     { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
   ]
 }
