@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Minus 40°C. Six scientists. One body under the ice. And someone at the base knew it was coming. 🧊🔍 Case #051 — Below Zero. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Antarctic research base 2024, a dead scientist, and a killer who has been planning this for months. Daily deduction puzzle — solve it at thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an Antarctic research base in 2024, a corridor of white steel and polycarbonate windows, blizzard pressing against the glass, a science lab lit cold blue. An overturned specimen tray on the floor, a door at the end of the corridor left open to the storm. Clinical white, ice blue, blizzard grey. Cinematic and cold, style of Stanley Kubrick meets Christopher Nolan.",
+    "animationPrompt": "Slow track through an Antarctic research base corridor at night, blizzard howling outside polycarbonate windows. Fluorescent lights flicker. The camera finds a laboratory door left open, cold air bleeding in. A specimen tray lies overturned on the floor. A single boot print in the frost on the threshold. The lights cut to emergency red. Fade to black.",
+    "hashtags": [
+      "#AntarcticaMystery",
+      "#ResearchBaseMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Below Zero",
+    "setting": "Meridian Station Research Base · Antarctica · 2024",
+    "emoji": "🧊",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Dr. Hana Perel was found dead in the specimen laboratory during a blizzard lockdown. The base was sealed — no entry or exit possible. Six scientists. One body. And a journal that suggests Dr. Perel had been watching someone very carefully for months.",
+    "emptyState": "The base is sealed. Everyone is inside. One of them did this.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yusuf Orin",
+            "icon": "🌡️",
+            "detail": "Station climatologist — had a professional dispute with Perel over data attribution."
+          },
+          {
+            "name": "Dr. Lena Voss",
+            "icon": "🔬",
+            "detail": "Glaciologist — Perel's closest collaborator and bunkmate."
+          },
+          {
+            "name": "Sgt. Cole Briggs",
+            "icon": "🪖",
+            "detail": "Base logistics officer — responsible for equipment and supply management."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Where Perel's body was found — door left open to the corridor."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🛋️",
+            "detail": "Where the base team gathered during lockdown — all claimed to be here."
+          },
+          {
+            "name": "The Equipment Bay",
+            "icon": "🧰",
+            "detail": "Where Briggs was conducting inventory — adjacent to the specimen lab."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Core Sample Rod",
+            "icon": "🪨",
+            "detail": "A heavy drilling rod — blunt force wound consistent with its weight."
+          },
+          {
+            "name": "Compressed Gas Cylinder",
+            "icon": "⚗️",
+            "detail": "A nitrogen cylinder — no trauma consistent with its use as a weapon."
+          },
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "Field extraction tool — puncture consistent with its tip, found near the body."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📓",
+        "heading": "Perel's Journal",
+        "text": "Dr. Perel's personal journal, found in her bunk, contains entries spanning four months. The most recent entry, written three days before her death, reads: 'Confirmed. The sample substitution is not accidental. Y.O. has been replacing control specimens with contaminated ones for months. The data invalidation is deliberate. I have documented everything.'",
+        "alone": "Perel had documented what she believed was deliberate data fraud by Dr. Yusuf Orin — and told her journal she had proof.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Perel's journal documenting Orin's suspected specimen substitution and the physical evidence of altered sample containers in Orin's storage locker confirm she had found real evidence of fraud that would have ended his career."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪨",
+        "heading": "The Rod and the Wound",
+        "text": "The base physician confirms the fatal wound is consistent with a heavy cylindrical blunt object — the core sample rod found beside the specimen shelving matches the wound profile precisely. The rod weighs four kilograms and shows trace blood and hair consistent with Dr. Perel's. It was available in the specimen lab at all times.",
+        "alone": "The core sample rod was the murder weapon — it was available in the lab and its profile matches the wound.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The core sample rod as the confirmed weapon and Orin's fingerprints on the rod's upper section in a grip consistent with swinging it confirm he handled the rod as a weapon during the period Perel was in the lab."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Lena's Location",
+        "text": "Dr. Lena Voss was in the common room during the lockdown — confirmed by three other team members who were playing cards with her from 8:00 PM until the alarm at 10:15 PM. She was visibly present for over two hours. The card game log is a base tradition maintained in the station diary.",
+        "alone": "Dr. Lena Voss was in the common room for the entire lockdown window — confirmed by three witnesses and the station diary.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Lena confirmed in the common room all evening and Briggs confirmed in the equipment bay by the inventory system together eliminate both suspects and confirm Orin's absence from any confirmed location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Data Discrepancy",
+        "text": "A review of the base's scientific data logs shows a systematic pattern: control specimens logged by Dr. Orin over four months show anomalous results that, if valid, would undermine five years of Dr. Perel's foundational climate research. Orin stood to be recognised as the correcting researcher — a significant career advancement.",
+        "alone": "Orin had a systematic professional motive — the specimen substitution, if it held, would elevate his reputation at Perel's expense.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Orin's data fraud motive and his absence from the common room during the murder window confirmed by the card game log confirm he was both motivated and unaccounted for when Perel was killed."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🧪",
+        "heading": "The Storage Locker",
+        "text": "Dr. Orin's personal storage locker in the specimen lab contains six control sample containers that have been relabelled — the original labels are still faintly visible beneath the new ones. Chemical analysis confirms the containers hold different compounds than their labels indicate. Perel's documentation of this discrepancy matches exactly.",
+        "alone": "The fraudulent sample containers are in Orin's locker — physical confirmation of the data manipulation Perel had documented.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Perel's journal documenting Orin's specimen substitution and the relabelled containers in his locker confirm she had found real evidence — Orin knew she had proof and acted before she could report it."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "Fingerprints on the Rod",
+        "text": "Fingerprint analysis of the core sample rod identifies two sets: Perel's on the lower section from routine lab handling, and Dr. Orin's on the upper section in a grip pattern inconsistent with routine use — the grip is consistent with someone holding the rod by the top as a weapon.",
+        "alone": "Orin's fingerprints on the rod in a weapon-grip position confirm he handled it as a weapon — his prints should not be in that position from any legitimate use.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The core sample rod confirmed as the weapon and Orin's prints on the upper section in a weapon grip confirm he struck Perel with the rod that evening."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "digital",
+        "icon": "🧰",
+        "heading": "Briggs's Inventory Log",
+        "text": "The equipment bay's automated inventory system logged Sgt. Briggs as active — scanning items — continuously from 7:45 PM to 10:00 PM. The system requires physical presence and barcode scanning to log activity. Briggs cannot have been in the specimen lab during this period.",
+        "alone": "Briggs was continuously active in the equipment bay from 7:45 to 10:00 PM — the automated system confirms he was physically present throughout.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Lena confirmed in the common room by three witnesses and Briggs confirmed in the equipment bay by the automated inventory system together account for all suspects except Orin during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "digital",
+        "icon": "📍",
+        "heading": "Orin's Missing Window",
+        "text": "Base movement logs — recorded by door sensors that log badge swipes — show Dr. Orin left the common room at 8:47 PM and did not badge back in until 10:02 PM. He claims he was in his bunk during this period. His bunk is not monitored by sensors. The specimen laboratory is between his bunk and the common room.",
+        "alone": "Orin was absent from any monitored location from 8:47 to 10:02 PM — a seventy-five minute window during which Perel was killed.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Orin's professional data fraud motive and his seventy-five minute unmonitored window spanning the murder time confirm he was both motivated and absent from confirmed locations when Perel was killed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yusuf Orin",
+      "location": "The Specimen Laboratory",
+      "weapon": "Core Sample Rod"
+    },
+    "epilogue": "Dr. Yusuf Orin had been substituting control specimens for four months, building a case that would reframe five years of Perel's climate research. When her journal documented proof of the fraud, he found it during a routine shared access moment three days before the lockdown. He waited for the blizzard. He struck her with the core sample rod in the lab, left the door open to suggest she had gone outside during the storm, and returned to his bunk. The open door was meant to make her death look accidental. The weapon-grip prints were not."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Below Zero",
+    "setting": "Meridian Station Research Base · Antarctica · 2024",
+    "emoji": "🧊",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Orin killed Perel to stop her report. But the specimen fraud was not random — it was a calculated attack on specific research that would have discredited Perel's foundational findings. Find why those specific findings needed to be discredited and by whom.",
+    "emptyState": "The fraud was deliberate. The target was specific. Find the reason.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yusuf Orin",
+            "icon": "🌡️",
+            "detail": "The killer — weapon prints, missing window, fraudulent samples."
+          },
+          {
+            "name": "Dr. Lena Voss",
+            "icon": "🔬",
+            "detail": "Cleared — card game alibi confirmed by three witnesses all evening."
+          },
+          {
+            "name": "Sgt. Cole Briggs",
+            "icon": "🪖",
+            "detail": "Cleared — automated inventory log continuous from 7:45 to 10:00 PM."
+          },
+          {
+            "name": "Dr. Petra Haas",
+            "icon": "🌍",
+            "detail": "Programme director — oversees the research station from Geneva."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Primary crime scene — door left open, rod found, Orin's prints."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🛋️",
+            "detail": "Lena confirmed here — Orin absent from 8:47 to 10:02 PM."
+          },
+          {
+            "name": "The Equipment Bay",
+            "icon": "🧰",
+            "detail": "Briggs confirmed here — automated inventory log."
+          },
+          {
+            "name": "Orin's Research Station",
+            "icon": "💻",
+            "detail": "Where the fraudulent data was compiled over four months."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Core Sample Rod",
+            "icon": "🪨",
+            "detail": "Confirmed weapon — blood, hair, weapon-grip prints."
+          },
+          {
+            "name": "Compressed Gas Cylinder",
+            "icon": "⚗️",
+            "detail": "No consistent trauma — eliminated."
+          },
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "No puncture wound found — eliminated."
+          },
+          {
+            "name": "The Fraudulent Data",
+            "icon": "📊",
+            "detail": "Not a weapon — the motive. Four months of systematic sabotage."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Career Advancement",
+            "icon": "📈",
+            "detail": "Discrediting Perel's research would elevate Orin as the correcting voice."
+          },
+          {
+            "name": "Protect the Fraud",
+            "icon": "🔒",
+            "detail": "Stop Perel's report before it exposed four months of data manipulation."
+          },
+          {
+            "name": "Corporate Interest",
+            "icon": "💰",
+            "detail": "Perel's research supported climate regulation — interests opposed to it had motive to discredit it."
+          },
+          {
+            "name": "Suppress a Breakthrough",
+            "icon": "🔬",
+            "detail": "Perel had found something in the ice cores that Orin's fraud was designed to obscure."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📊",
+        "heading": "What the Data Was Hiding",
+        "text": "A full analysis of the undoctored ice core specimens — the ones Perel had preserved separately from Orin's substituted samples — reveals an unprecedented methane layer at a depth corresponding to 2019. The finding would support emergency climate intervention policy on a global scale. Orin's substituted specimens were specifically selected to obscure this layer.",
+        "alone": "The specimen fraud was targeted at concealing a specific scientific finding — a methane layer that would support emergency climate policy.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The methane layer that Orin's fraud was designed to conceal and the consulting agreement connecting Orin to an energy industry lobby group confirm the fraud was not personal ambition — it was a commissioned scientific cover-up."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "📓",
+        "heading": "The Journal Access",
+        "text": "Perel's journal shows signs of being accessed by someone other than her — a bookmark has been moved, and a dog-eared page bears a smudge of a specific hand lotion identified by the base's medical records as the brand used exclusively by Dr. Orin. He read the journal before her death.",
+        "alone": "Orin accessed Perel's journal before her death — he knew what she had documented and that she had proof against him.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Orin reading Perel's journal and knowing she had documented the fraud, combined with the blizzard lockdown providing the isolation he needed, confirm he chose the lockdown deliberately as the window to act."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Two Suspects Confirmed Clear",
+        "text": "Dr. Lena Voss is confirmed in the common room by the station diary and three witnesses from 8:00 to 10:15 PM. Sgt. Briggs is confirmed by the automated inventory system from 7:45 to 10:00 PM. Dr. Petra Haas is confirmed in Geneva by video call logs showing her active on the base's remote operations terminal from 7:30 to 11:00 PM.",
+        "alone": "All three alternative suspects are definitively cleared — Orin is the only person without a confirmed location during the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "All three alternatives cleared and the door sensor log showing Orin absent from monitored spaces from 8:47 to 10:02 PM confirm he had the unaccounted window and was the only person without a confirmed alibi."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Consulting Agreement",
+        "text": "A financial disclosure filed by Orin with his home institution — obtained through a records request — reveals a consulting agreement with an energy industry research foundation that had publicly opposed the climate policy Perel's research would support. The agreement paid Orin 45,000 dollars per year for 'scientific advisory services.'",
+        "alone": "Orin was being paid by an energy industry foundation that had financial incentive to discredit Perel's climate research.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Orin's consulting agreement with the energy foundation and Perel's undoctored findings that would support climate regulation confirm the fraud was financially motivated by external interests — Orin was a paid operative, not simply an ambitious colleague."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "digital",
+        "icon": "📧",
+        "heading": "The Foundation's Emails",
+        "text": "Emails recovered from Orin's personal device show correspondence with the energy foundation's research director spanning fourteen months. One message, eight months prior, reads: 'We need the Meridian data neutralised before the IPCC submission window. Your methodology should ensure the core findings cannot be independently replicated.'",
+        "alone": "The energy foundation explicitly directed Orin to neutralise Perel's data before the international climate submission deadline — the fraud was commissioned.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The methane layer Orin's fraud was designed to conceal and the foundation's email directing him to neutralise the data before the IPCC deadline confirm the fraud was a deliberate commissioned operation targeting a specific scientific finding."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "digital",
+        "icon": "📡",
+        "heading": "Orin Checked the Forecast",
+        "text": "Base meteorological logs show someone accessed the storm forecast system at 6:15 PM — three hours before the blizzard lockdown. The access was under Orin's credentials. The forecast clearly predicted a twelve-hour lockdown beginning at 9:00 PM. Orin knew the base would be sealed and planned accordingly.",
+        "alone": "Orin checked the storm forecast under his own credentials at 6:15 PM — he knew the lockdown was coming and used it as the planned window.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Orin reading Perel's journal and knowing she had documented the fraud, combined with his deliberate forecast check three hours before lockdown, confirm he chose this specific night because the sealed base eliminated any possibility of outside help reaching Perel."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "digital",
+        "icon": "🚪",
+        "heading": "The Door Sensor Timeline",
+        "text": "Base door sensors log every badge swipe. The timeline reconstructed: Orin left common room 8:47 PM, no badge activity until 10:02 PM when he badged back into the common room. The specimen lab door sensor shows a badge swipe at 8:49 PM — under Orin's credentials. He entered the lab two minutes after leaving the common room.",
+        "alone": "Orin badged into the specimen laboratory at 8:49 PM — placing him physically in the lab with Perel during the murder window.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "All three alternatives cleared and the door sensor placing Orin in the specimen lab at 8:49 PM confirm he was the only person in the lab during the murder window — there is no other candidate."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The IPCC Deadline",
+        "text": "The International Panel on Climate Change submission window for the current reporting cycle closes in six weeks. Perel's undoctored findings — if submitted — would have met the deadline with data sufficient to influence emergency policy recommendations. Orin's fraud, if undiscovered, would have made her findings uncorroborated. Her death leaves the submission without a primary author.",
+        "alone": "Perel's death, six weeks before the IPCC deadline, removes the one scientist who could submit the undoctored findings in time — the timing of the murder serves the foundation's interests precisely.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Orin's consulting agreement with the energy foundation and the IPCC deadline six weeks away confirm the murder was timed to prevent the submission — the killing was the final step in an eighteen-month scientific suppression operation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yusuf Orin",
+      "location": "The Specimen Laboratory",
+      "weapon": "Core Sample Rod",
+      "motive": "Suppress a Breakthrough"
+    },
+    "epilogue": "Dr. Yusuf Orin had been a paid operative for fourteen months. The methane layer Perel found in the ice cores would have supported emergency climate intervention at the IPCC — the energy foundation needed it gone. Orin substituted specimens, built false data, waited for Perel to find out, read her journal to confirm she had proof, and chose the blizzard lockdown as the moment the base was most isolated. Perel died six weeks before the IPCC window. The undoctored specimens she had preserved separately survived. A colleague submitted her findings posthumously. The foundation was investigated. Orin was convicted of murder and scientific fraud. He received life imprisonment."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #051",
+    "title": "Below Zero",
+    "setting": "Meridian Station Research Base · Antarctica · 2024",
+    "emoji": "🧊",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Orin killed Perel on a commission from an energy foundation. But someone on the base was also being paid — not to commit violence, but to ensure the right conditions existed. The blizzard window was not just convenient. Someone at the base had been managing Orin's access to Perel's work for months.",
+    "emptyState": "Orin had inside help. Not for the killing — for the preparation.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Yusuf Orin",
+            "icon": "🌡️",
+            "detail": "The killer — commissioned fraud, door sensor in lab, weapon prints."
+          },
+          {
+            "name": "Dr. Lena Voss",
+            "icon": "🔬",
+            "detail": "Cleared as killer — card game alibi, but had unusual access to Perel's storage."
+          },
+          {
+            "name": "Sgt. Cole Briggs",
+            "icon": "🪖",
+            "detail": "Cleared as killer — inventory log, but controlled base access systems."
+          },
+          {
+            "name": "Dr. Petra Haas",
+            "icon": "🌍",
+            "detail": "Programme director — cleared in Geneva, but assigned Orin to Meridian Station."
+          },
+          {
+            "name": "Dr. Marcus Fell",
+            "icon": "🔭",
+            "detail": "Visiting researcher — arrived three months ago, has no assigned project."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Specimen Laboratory",
+            "icon": "🔬",
+            "detail": "Primary crime scene — Orin's badge, weapon, prints."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🛋️",
+            "detail": "Lena confirmed here — and where Perel's journal was sometimes left unattended."
+          },
+          {
+            "name": "The Equipment Bay",
+            "icon": "🧰",
+            "detail": "Briggs confirmed here — also houses the base access system controls."
+          },
+          {
+            "name": "The Data Archive",
+            "icon": "💾",
+            "detail": "Where Orin's fraudulent data was compiled — access logs available."
+          },
+          {
+            "name": "Dr. Fell's Laboratory",
+            "icon": "🔭",
+            "detail": "Fell's workspace — no assigned project, found to contain encrypted storage."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Core Sample Rod",
+            "icon": "🪨",
+            "detail": "Confirmed murder weapon — blood, hair, Orin's weapon-grip prints."
+          },
+          {
+            "name": "Compressed Gas Cylinder",
+            "icon": "⚗️",
+            "detail": "No consistent trauma — eliminated."
+          },
+          {
+            "name": "Ice Pick",
+            "icon": "🧊",
+            "detail": "No puncture wound — eliminated."
+          },
+          {
+            "name": "The Fraudulent Data",
+            "icon": "📊",
+            "detail": "The operational instrument — four months of commissioned scientific sabotage."
+          },
+          {
+            "name": "Perel's Journal",
+            "icon": "📓",
+            "detail": "The trigger — Orin read it before the blizzard and knew he had to act."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress a Breakthrough",
+            "icon": "🔬",
+            "detail": "Perel's methane findings would support emergency climate policy — the foundation needed them gone."
+          },
+          {
+            "name": "Protect the Commission",
+            "icon": "💰",
+            "detail": "Orin had received 45,000 per year — exposure would mean criminal fraud charges."
+          },
+          {
+            "name": "Serve an External Client",
+            "icon": "🏢",
+            "detail": "The energy foundation's IPCC deadline pressure drove the timing of the killing."
+          },
+          {
+            "name": "Eliminate the Witness",
+            "icon": "🤫",
+            "detail": "Perel had documented proof that would have exposed Orin and the foundation."
+          },
+          {
+            "name": "Preserve the Operation",
+            "icon": "🔒",
+            "detail": "The base-level accomplice needed the fraud to continue undetected after Perel's death."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Provided Access to Perel's Work",
+            "icon": "🔓",
+            "detail": "Enabled Orin to access Perel's storage and journal without triggering logs."
+          },
+          {
+            "name": "Managed the Blizzard Window",
+            "icon": "🌨️",
+            "detail": "Ensured the lockdown conditions were known to Orin in advance."
+          },
+          {
+            "name": "Assigned Orin to the Station",
+            "icon": "📋",
+            "detail": "Placed Orin in proximity to Perel's research with institutional authority."
+          },
+          {
+            "name": "Suppressed the Access Logs",
+            "icon": "💾",
+            "detail": "Cleared log entries showing Orin accessing areas he should not have reached."
+          },
+          {
+            "name": "Monitored Perel's Progress",
+            "icon": "👁️",
+            "detail": "Tracked how close Perel was to completing her findings and reported to Orin."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "digital",
+        "icon": "💾",
+        "heading": "The Cleaned Access Log",
+        "text": "A forensic recovery of the base data archive access logs — from backup — reveals seven entries spanning three months that were deleted from the live log. The deleted entries show Orin accessing Perel's personal research directory on dates when she was outside on field work. The deletions were made by a base administrator account. Only Sgt. Briggs and Dr. Petra Haas hold administrator credentials.",
+        "alone": "Seven access log entries showing Orin accessing Perel's data were deleted by an administrator — someone with base admin authority was actively concealing his access.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The deleted access logs showing Orin accessing Perel's directory and the administrator account traced to Sgt. Briggs's credentials confirm Briggs was suppressing the evidence of Orin's data access — he was the operational accomplice inside the base."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Briggs's External Payment",
+        "text": "A financial investigation reveals Sgt. Briggs received six payments of 3,000 dollars each from the same energy foundation shell account that paid Orin — over the same fourteen-month period. The payments are labelled 'technical consulting.' Briggs has no documented consulting relationship with any external organisation.",
+        "alone": "Briggs was paid 18,000 dollars by the energy foundation over fourteen months — he was financially connected to the same external operation as Orin.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Briggs's payments from the foundation and his control of the base access system used to suppress Orin's log entries confirm he was an active paid participant in the operation — not a passive enabler."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "How Orin Got to Meridian",
+        "text": "Dr. Orin's assignment to Meridian Station was arranged by Programme Director Petra Haas eight months before his arrival — at the request of an external scientific advisory board whose membership overlaps with the energy foundation's research committee. Haas chose Orin from a shortlist of three candidates; the other two had no connection to the foundation.",
+        "alone": "Orin's posting to Meridian was arranged through a channel connected to the energy foundation — his placement at the station was engineered, not coincidental.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Orin's engineered placement at Meridian and Dr. Fell's encrypted storage containing communications with the foundation's research director confirm Fell was the foundation's on-site monitor — placed to track the operation's progress."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "digital",
+        "icon": "📡",
+        "heading": "Fell's Encrypted Files",
+        "text": "Dr. Marcus Fell's personal laptop, examined after his storage was flagged as unusual, contains an encrypted partition. A partial decryption reveals status reports — filed monthly — describing Perel's research progress, Orin's specimen substitution timeline, and the estimated date of Perel's discovery. The reports are addressed to the energy foundation's research director.",
+        "alone": "Dr. Fell was filing monthly operational status reports to the energy foundation covering Perel's research progress and Orin's fraud timeline — he was the foundation's on-site observer.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Fell's monthly status reports to the foundation and his report three weeks before the murder noting Perel was close to completing her documentation confirm the foundation was tracking the threat level and the timing of action was responsive to his intelligence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "digital",
+        "icon": "🔓",
+        "heading": "Briggs's Admin Credentials",
+        "text": "A forensic audit of the base access system shows all seven deleted log entries were removed using the same admin session — a session opened under Briggs's credentials on days when he had also logged into the equipment bay system. He was operating both systems simultaneously, using his admin access to clean the data access trail while appearing to be doing inventory work.",
+        "alone": "Briggs used his admin credentials to delete Orin's data access logs on the same days he was doing inventory — he managed both tasks simultaneously.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The deleted access logs and Briggs's admin credentials used to remove them on inventory days confirm Briggs was actively managing Orin's operational security while maintaining a plausible cover activity."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "digital",
+        "icon": "🚪",
+        "heading": "The Lab Door Access",
+        "text": "A review of the specimen laboratory door sensor history across four months reveals nine instances of Orin's badge being used to access the lab on dates when Perel was outside on field collection. In all nine cases, the access occurred within twenty minutes of Briggs logging an inventory session in the adjacent equipment bay — their activities were synchronised.",
+        "alone": "Orin's lab access during Perel's field work was consistently synchronised with Briggs's equipment bay sessions — Briggs was providing operational cover and timing for Orin's specimen substitutions.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Briggs's payments from the foundation and the synchronised access pattern showing he timed his cover activity with Orin's specimen substitutions confirm their coordination was systematic and financially motivated."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🔭",
+        "heading": "What Fell Was Watching",
+        "text": "Dr. Fell's stated research project — a spectral analysis programme with no associated data or equipment — was investigated. Three base team members confirm Fell spent most of his time in the common areas, asking questions about colleagues' work rather than conducting his own. He had no published output from his three months at the base. He was a watcher, not a researcher.",
+        "alone": "Dr. Fell produced no scientific work during his three months at the base — he was there to observe and report, not research.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Orin's engineered placement and Fell's observer role with no genuine research project confirm the operation had three layers: Haas's institutional placement of Orin, Briggs's operational support, and Fell's on-site intelligence gathering for the foundation."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📊",
+        "heading": "The Final Status Report",
+        "text": "The most recently dated status report in Fell's encrypted partition — filed three weeks before the murder — reads: 'Subject has identified anomaly in control specimens. Timeline to full documentation: two to four weeks. Recommend immediate resolution.' The word 'resolution' appears in prior reports only in the context of completed suppression objectives. This was the kill order.",
+        "alone": "Fell's final report three weeks before the murder recommended immediate resolution — this was the signal that triggered Orin's decision to act.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Fell's monthly reports tracking Perel's progress and his final report recommending immediate resolution confirm the foundation was directing the operation's timeline — Orin killed Perel in direct response to a signal from the foundation transmitted through Fell."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Yusuf Orin",
+      "location": "The Specimen Laboratory",
+      "weapon": "Core Sample Rod",
+      "motive": "Suppress a Breakthrough",
+      "accomplice": "Suppressed the Access Logs"
+    },
+    "epilogue": "The operation had three layers. Dr. Fell monitored Perel's progress and filed monthly reports. Sgt. Briggs suppressed the access logs and synchronised cover activity. Dr. Orin committed the fraud and, when Fell's final report triggered the order, the murder. Perel's preserved specimens and her journal survived. Orin was convicted of murder. Briggs was convicted of conspiracy and obstruction. Fell received fifteen years for conspiracy. The energy foundation's research director was charged in three jurisdictions. Petra Haas's role in Orin's placement was investigated; she received a formal censure but faced no criminal charges. Perel's findings reached the IPCC in a posthumous submission co-authored by the remaining Meridian team."
+  }
+}

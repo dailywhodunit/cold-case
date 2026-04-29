@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Chicago World's Fair, 1893. A man is dead in the Palace of Fine Arts. No one knows who he really was. 🏛️🔍 Case #059 — The White City. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Chicago 1893, a dead man with a false name, and a killer who knew who he really was. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the Palace of Fine Arts at the 1893 Chicago World's Fair, white plaster columns soaring above a marble floor, electric arc lights casting blue-white brilliance, crowds in Victorian dress visible through tall doorways. A velvet rope barrier at one gallery entrance, a docent's stool overturned beside it. Brilliant white and blue light, deep classical shadow. Monumental, style of Thomas Eakins meets Gustave Caillebotte.",
+    "animationPrompt": "Slow pan through the Palace of Fine Arts at the 1893 Chicago World's Fair. White plaster columns. Electric arc lights blazing. A velvet rope barrier stands at a gallery entrance. The camera finds a docent's stool overturned beside it. The electric lights flicker once. The crowds beyond the archway continue unaware. Fade to black.",
+    "hashtags": [
+      "#ChicagoWorldsFair",
+      "#PalaceOfFineArts",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #059",
+    "title": "The White City",
+    "setting": "Palace of Fine Arts · Chicago World's Fair · 1893",
+    "emoji": "🏛️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "A man found dead in the Palace of Fine Arts had registered as 'Mr. A. White' from Milwaukee. The name is false. The killer knew his real name. And the location — a specific gallery that was closed to the public — tells you something important about how the killer got there.",
+    "emptyState": "He wasn't who he said he was. The killer knew. Find them both.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Eleanor Vass",
+            "icon": "🎨",
+            "detail": "A Chicago gallery curator — she had recognized the dead man before his death."
+          },
+          {
+            "name": "Edmund Cleary",
+            "icon": "🏛️",
+            "detail": "A Pinkerton detective — investigating fraud at the fair, staying at the same hotel."
+          },
+          {
+            "name": "Frank Morrow",
+            "icon": "🏭",
+            "detail": "A Chicago industrialist — attending the fair for business, saw the victim at the exhibit."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Gallery Six",
+            "icon": "🖼️",
+            "detail": "The closed gallery where the body was found — accessible only to staff and pass-holders."
+          },
+          {
+            "name": "The Main Atrium",
+            "icon": "🏛️",
+            "detail": "The public space where all three suspects were seen earlier in the evening."
+          },
+          {
+            "name": "The Docent Station",
+            "icon": "🪑",
+            "detail": "The access point for Gallery Six — the docent was absent at the time of death."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Pedestal",
+            "icon": "🗿",
+            "detail": "A heavy marble base — blunt force wound consistent with its corner profile."
+          },
+          {
+            "name": "Exhibition Lantern",
+            "icon": "🪔",
+            "detail": "An iron lamp stand — too light for the wound depth, eliminated."
+          },
+          {
+            "name": "Bronze Door Stopper",
+            "icon": "🔩",
+            "detail": "A cast bronze wedge — wound profile inconsistent with its flat face."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The False Registration",
+        "text": "The dead man had registered at the Grand Pacific Hotel as 'Mr. A. White, Milwaukee.' Chicago police confirm no A. White is registered with the city's business or residential records from Milwaukee. The hotel clerk recalls the man paid in cash and declined to provide an address. His true identity is unknown — but he carried a pocket diary with initials 'R.P.H.' embossed on the cover.",
+        "alone": "The dead man used a false name and paid cash — his real identity, suggested by the initials R.P.H., is concealed. The killer knew who he really was.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The false name used by R.P.H. and Eleanor Vass's confirmed recognition of him from a prior gallery interaction confirm she had identified him before his death — she knew he was using a false name."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗿",
+        "heading": "The Marble Pedestal",
+        "text": "The display pedestal in Gallery Six bears a fresh chip at its upper right corner — the chip is consistent with the impact wound on the victim's skull. A smear of hair and blood on the corner confirms it as the weapon. The pedestal is fixed to the floor and could not have been moved — the victim was brought to the pedestal, not the pedestal to the victim.",
+        "alone": "The victim was brought to the fixed pedestal and his head struck against its corner — the killer moved the victim to the weapon, not the other way around.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The victim moved to the fixed pedestal and Eleanor Vass's staff access to Gallery Six confirm she could have led him to the specific location in the closed gallery where the killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Cleary and Morrow in the Atrium",
+        "text": "Both Edmund Cleary and Frank Morrow were confirmed in the main atrium at the time of the killing — a charity reception with a guest list confirmed both their signatures at nine PM, and the reception ran until ten-thirty PM. The fair's timekeeper confirms death occurred between nine and ten PM. Both are cleared.",
+        "alone": "Cleary and Morrow were at a signed charity reception from nine PM through ten-thirty PM — they are definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Cleary and Morrow both cleared by signed reception attendance and Eleanor Vass's absence from the reception despite being listed as a guest confirm she was the only suspect unaccounted for during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎨",
+        "heading": "Eleanor's Recognition",
+        "text": "A statement from a fair volunteer confirms she overheard Eleanor Vass say — on seeing the victim in the main atrium at eight PM — 'That is not who he says he is.' The volunteer did not understand the remark at the time. Eleanor, when asked about it, denies having said it. The volunteer identifies Eleanor by her distinctive gallery curator badge.",
+        "alone": "Eleanor had recognized the victim at eight PM and identified him as using a false identity — she is the only suspect confirmed to have known his real identity before his death.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Eleanor recognizing the victim's false identity at eight PM and the Gallery Six pass found in her satchel confirm she had the means to bring him to the closed gallery — she alone recognized him and alone had access to the space where he died."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🎫",
+        "heading": "The Gallery Six Pass",
+        "text": "Access to Gallery Six requires a staff pass or a specific temporary pass issued by the curator's office. A search of Eleanor Vass's satchel — conducted after the body was found — reveals two Gallery Six passes: her own staff pass and a visitor's pass dated that evening. She had issued a second pass — to someone she intended to bring into the closed gallery.",
+        "alone": "Eleanor had issued a visitor's pass to Gallery Six on the evening of the murder — she arranged for someone to have access to the closed gallery where the killing occurred.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The victim's false registration and Eleanor's recognition of him at eight PM together confirm she knew his real identity — and the visitor's pass in her satchel confirms she was the one who gave him access to the gallery where he was killed."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🪑",
+        "heading": "The Absent Docent",
+        "text": "The docent normally stationed at Gallery Six confirms she was sent on an errand by Eleanor Vass at eight-forty-five PM — to retrieve a catalogue from the print room. She was absent from her station for approximately forty minutes. The docent's absence created an unmonitored entry point to Gallery Six during the murder window.",
+        "alone": "Eleanor sent the docent away from her station at eight-forty-five PM — creating an unmonitored entry to Gallery Six during exactly the murder window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The victim moved to the fixed pedestal inside Gallery Six and Eleanor sending the docent away to create an unmonitored entry confirm she had arranged the conditions for the killing — she led him in when the station was clear."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Eleanor's Missing Time",
+        "text": "Eleanor Vass was listed as a guest at the charity reception but did not sign the attendance log. The reception organizer confirms she arrived briefly at eight PM but departed before eight-thirty. Her claimed location for the rest of the evening is 'the gallery offices reviewing the following day's schedule.' No one confirms her presence in the offices.",
+        "alone": "Eleanor left the reception before eight-thirty PM and has no confirmed location from that time until the body was found — she is unaccounted for during the entire murder window.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Cleary and Morrow cleared by signed reception and Eleanor absent from the same reception with no confirmed alibi confirm she is the only suspect without a confirmed location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📔",
+        "heading": "The Pocket Diary",
+        "text": "The victim's pocket diary — with 'R.P.H.' embossed on the cover — contains an entry for that evening: 'Meet E.V. at Gallery Six. 9 PM.' The initials E.V. match Eleanor Vass. The victim had arranged to meet Eleanor in the closed gallery. He had trusted whoever 'E.V.' was — he did not know the meeting would be his last.",
+        "alone": "The victim had arranged to meet E.V. — Eleanor Vass — at Gallery Six at nine PM. He had agreed to the meeting and gone there trusting her.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Eleanor recognizing the victim's false identity at eight PM and the victim's diary entry confirming a nine PM meeting with E.V. at Gallery Six confirm Eleanor had approached him after recognizing him, arranged the gallery meeting, and killed him there."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Eleanor Vass",
+      "location": "Gallery Six",
+      "weapon": "Display Pedestal"
+    },
+    "epilogue": "Eleanor Vass had recognized the man in the main atrium at eight PM. She approached him during a quiet moment, made a remark that placed him at ease, and arranged a nine PM meeting at Gallery Six — telling him it was about an artwork he had admired. She sent the docent away at eight-forty-five PM. She let the victim into the gallery with the pass she had already issued. She struck his head against the marble pedestal. She was back in the gallery offices before the docent returned. The victim's real identity — Robert P. Harlow, a fugitive embezzler from Baltimore — was confirmed two days later from a Pinkerton bulletin. Eleanor Vass had known him in Baltimore. The motive was personal, not professional."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #059",
+    "title": "The White City",
+    "setting": "Palace of Fine Arts · Chicago World's Fair · 1893",
+    "emoji": "🏛️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Eleanor killed R.P.H. — Robert Harlow. Find who he was in Baltimore and what his connection to Eleanor was that made his recognition by her fatal.",
+    "emptyState": "She knew him in Baltimore. Find from what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Eleanor Vass",
+            "icon": "🎨",
+            "detail": "The killer — pass, docent sent away, diary meeting, recognition at eight PM."
+          },
+          {
+            "name": "Edmund Cleary",
+            "icon": "🏛️",
+            "detail": "Pinkerton detective — cleared by reception, but investigating Harlow's trail."
+          },
+          {
+            "name": "Frank Morrow",
+            "icon": "🏭",
+            "detail": "Industrialist — cleared by reception, had a prior financial relationship with Harlow."
+          },
+          {
+            "name": "Robert P. Harlow",
+            "icon": "💼",
+            "detail": "The victim — fugitive embezzler, Baltimore origin, false identity in Chicago."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Gallery Six",
+            "icon": "🖼️",
+            "detail": "Primary crime scene — closed gallery, docent sent away, victim led there by Eleanor."
+          },
+          {
+            "name": "The Main Atrium",
+            "icon": "🏛️",
+            "detail": "Where Eleanor recognized Harlow at eight PM — overheard by the volunteer."
+          },
+          {
+            "name": "The Docent Station",
+            "icon": "🪑",
+            "detail": "The unmonitored entry point — Eleanor sent the docent away at eight-forty-five PM."
+          },
+          {
+            "name": "Baltimore",
+            "icon": "🏙️",
+            "detail": "Where Eleanor and Harlow's prior connection originated."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Pedestal",
+            "icon": "🗿",
+            "detail": "Confirmed weapon — chip, blood, hair, victim moved to its position."
+          },
+          {
+            "name": "Exhibition Lantern",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Bronze Door Stopper",
+            "icon": "🔩",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "The Gallery Six Pass",
+            "icon": "🎫",
+            "detail": "The access instrument — Eleanor issued it, giving Harlow false confidence."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Eight PM",
+            "icon": "👁️",
+            "detail": "Eleanor recognized Harlow in the main atrium — made a remark the volunteer heard."
+          },
+          {
+            "name": "Eight to Eight-Thirty PM",
+            "icon": "🎟️",
+            "detail": "Eleanor arranged the Gallery Six meeting with Harlow and issued the visitor pass."
+          },
+          {
+            "name": "Eight-Forty-Five PM",
+            "icon": "🪑",
+            "detail": "Eleanor sent the docent on an errand — creating the unmonitored entry window."
+          },
+          {
+            "name": "Nine to Ten PM",
+            "icon": "⚠️",
+            "detail": "The confirmed murder window — Harlow met Eleanor in Gallery Six."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Harlow's Baltimore Record",
+        "text": "A Pinkerton bulletin — obtained by Cleary who was investigating art fraud at the fair — identifies Robert P. Harlow as a fugitive from Baltimore wanted for embezzlement from the Chesapeake Gallery Association. He had managed the association's acquisition fund and diverted 8,000 dollars over three years before disappearing. The bulletin predates the fair by two years.",
+        "alone": "Robert Harlow was a fugitive art fund embezzler from Baltimore — his connection to the Chesapeake Gallery Association is the link to his background.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Harlow's embezzlement from the Chesapeake Gallery Association and Eleanor Vass's confirmed prior employment at the same association establish their Baltimore connection — she had worked with him before his disappearance."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💸",
+        "heading": "The Embezzlement's Victims",
+        "text": "The Chesapeake Gallery Association's loss records — obtained from Baltimore — show the 8,000 dollars was diverted from a fund held in trust for junior staff pension contributions. Among the affected contributors: Eleanor Vass, who had contributed thirty dollars per month from 1887 to 1890 — totalling 1,080 dollars that was never deposited into the actual pension account.",
+        "alone": "Eleanor Vass was a direct victim of Harlow's embezzlement — her personal pension contributions were among the funds he stole.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Eleanor's personal pension stolen by Harlow and her recognition of him at the fair confirm the motive was personal financial grievance — she had lost her savings and found him living freely at the World's Fair."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Cleary and Morrow Fully Cleared",
+        "text": "Both Cleary and Morrow's reception attendance is confirmed by the signed guest list, the reception organizer, and three other attendees who spoke with each of them during the nine to ten PM window. Cleary's interest in Harlow was professional — he was pursuing the art fraud bulletin — not personal. Morrow had encountered Harlow in a legitimate business context before the embezzlement.",
+        "alone": "Both Cleary and Morrow are definitively cleared — Cleary was looking for Harlow professionally and Morrow had a legal prior relationship with him.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Cleary and Morrow cleared and Eleanor absent from the reception with no alibi confirm she had the opportunity — and the personal financial motive established by the pension theft confirms she had the reason."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎨",
+        "heading": "Eleanor's Chesapeake Employment",
+        "text": "Chicago fair employment records for Eleanor Vass list her prior employment as 'Chesapeake Gallery Association, Baltimore, 1885–1891.' She left the association the year after Harlow disappeared with the pension fund. She had joined the Chicago fair's curatorial staff in 1892.",
+        "alone": "Eleanor had worked at the Chesapeake Gallery Association from 1885 to 1891 — the full period of Harlow's employment and theft. She knew him professionally before the embezzlement.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Eleanor's six-year professional overlap with Harlow at the Chesapeake Association and the volunteer's confirmation that she recognized him immediately confirm she would have known his face and habits despite his false name — six years is sufficient time to make someone unforgettable."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📔",
+        "heading": "Harlow's Fair Activities",
+        "text": "Harlow's diary — fully reviewed — shows he had been at the fair for four days before his death. He had attended the Palace of Fine Arts twice previously without incident. His diary entries reference meetings with 'potential backers for the new venture' — suggesting he was soliciting investment at the fair using his false identity. He did not record Eleanor Vass by name — only 'E.V.' in the final entry.",
+        "alone": "Harlow had been at the fair for four days and was soliciting investment under his false identity — he was building a new fraud operation when Eleanor found him.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Harlow's Pinkerton fugitive status and his diary showing he was soliciting new investment at the fair under a false name confirm Eleanor had found him actively committing new fraud — on top of the pension theft she had already suffered."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💔",
+        "heading": "Eleanor's Pension Loss",
+        "text": "A letter in Eleanor's Chicago boarding house room — addressed to the Chesapeake Association's insurance trustee and never sent — details her attempt to recover her pension contributions after Harlow's disappearance. The trustee had responded that the fund was uninsured and the contributions were irrecoverable. Eleanor had lost her entire retirement savings.",
+        "alone": "Eleanor had tried and failed to recover her stolen pension after Harlow disappeared — the loss was permanent and the letter was never sent because there was no remedy.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Eleanor's personal pension stolen by Harlow and her unsuccessful attempt to recover it confirm she had lived with an irrecoverable financial loss for three years before finding him at the fair — and found him now enriched and working a new fraud."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "The Gallery Schedule",
+        "text": "The following day's gallery schedule — the document Eleanor claimed to be reviewing during her missing time — is found in the gallery offices. Eleanor's handwriting appears at the top of the page only, in a signature that matches her sign-in. The schedule was in place before she arrived that evening. She had not been reviewing it — the document was a false stated reason for her whereabouts.",
+        "alone": "The gallery schedule Eleanor claimed to be reviewing was already completed before she arrived — her stated alibi activity is contradicted by the document itself.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Cleary and Morrow cleared and Eleanor's false alibi activity contradicted by the pre-completed schedule confirm she had no genuine location for the murder window — the schedule was a cover story that failed on examination."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Volunteer's Context",
+        "text": "The fair volunteer who overheard Eleanor's remark provides additional context in a second interview: after saying 'That is not who he says he is,' Eleanor had moved toward Harlow and engaged him in conversation. The volunteer watched them speak for approximately five minutes. Harlow had appeared comfortable — even pleased — by the interaction. Eleanor had smiled throughout.",
+        "alone": "Eleanor approached Harlow warmly after recognizing him — he was at ease and pleased by the interaction, suggesting she had concealed her real feelings and manner from him.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Eleanor's six-year professional relationship with Harlow and her approach to him with a warm manner he responded to positively confirm she knew how to put him at ease — she used their prior familiarity to gain his trust for the gallery meeting."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Eleanor Vass",
+      "location": "Gallery Six",
+      "weapon": "Display Pedestal",
+      "window": "Nine to Ten PM"
+    },
+    "epilogue": "Eleanor Vass had arrived in Chicago in 1892 having lost her entire pension savings to Robert Harlow's embezzlement. She had tried to recover the money and failed. She had built a new career at the World's Fair. When she saw Harlow in the main atrium on August 3rd, 1893, she understood immediately what he was doing there — charming new victims at the most prominent gathering in America. She approached him warmly, using their prior familiarity. She arranged the gallery meeting under the pretense of a business discussion. She sent the docent away. She killed him with the first heavy object available. The Pinkerton detective Cleary had come close — he was at the fair looking for Harlow on the same bulletin. He arrived two hours too late."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #059",
+    "title": "The White City",
+    "setting": "Palace of Fine Arts · Chicago World's Fair · 1893",
+    "emoji": "🏛️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Eleanor killed Harlow. But Frank Morrow also knew who Harlow really was — and had his own reasons to want Harlow dead. He had arranged to be at the reception, knowing Eleanor had found Harlow, and was waiting to see whether she would act. Find the triangular relationship.",
+    "emptyState": "Morrow knew. He waited. Find what he knew and why he waited.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Eleanor Vass",
+            "icon": "🎨",
+            "detail": "The killer — pass, docent, diary meeting, pension motive, Baltimore connection."
+          },
+          {
+            "name": "Edmund Cleary",
+            "icon": "🏛️",
+            "detail": "Pinkerton detective — cleared, hunting Harlow professionally, arrived two hours late."
+          },
+          {
+            "name": "Frank Morrow",
+            "icon": "🏭",
+            "detail": "Cleared as killer — but knew Harlow's real identity and watched Eleanor at eight PM."
+          },
+          {
+            "name": "Robert P. Harlow",
+            "icon": "💼",
+            "detail": "The victim — Chesapeake embezzler, false identity, new fraud operation at the fair."
+          },
+          {
+            "name": "The Chesapeake Trustee",
+            "icon": "🏦",
+            "detail": "The association official who failed to insure the pension fund — a second enabler of Harlow's theft."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Gallery Six",
+            "icon": "🖼️",
+            "detail": "Primary crime scene — Eleanor's setup, Harlow's death."
+          },
+          {
+            "name": "The Main Atrium",
+            "icon": "🏛️",
+            "detail": "Where Eleanor recognized Harlow and Morrow observed both of them."
+          },
+          {
+            "name": "The Charity Reception",
+            "icon": "🎟️",
+            "detail": "Where Morrow signed in and stayed — and where he positioned himself as an alibi."
+          },
+          {
+            "name": "Baltimore",
+            "icon": "🏙️",
+            "detail": "Where the Chesapeake Association was — and where Morrow had his prior relationship with Harlow."
+          },
+          {
+            "name": "The Fair's Investment Gallery",
+            "icon": "💰",
+            "detail": "Where Harlow had held his solicitation meetings — and where Morrow had observed him."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Pedestal",
+            "icon": "🗿",
+            "detail": "Confirmed murder weapon — Eleanor struck Harlow against its corner."
+          },
+          {
+            "name": "Exhibition Lantern",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Bronze Door Stopper",
+            "icon": "🔩",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "The Gallery Six Pass",
+            "icon": "🎫",
+            "detail": "The access instrument — Eleanor issued it to Harlow."
+          },
+          {
+            "name": "The Baltimore Debt",
+            "icon": "💸",
+            "detail": "Not a weapon — Morrow's leverage over Harlow and the source of his own motive."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Eight PM",
+            "icon": "👁️",
+            "detail": "Eleanor and Morrow both saw Harlow in the atrium. Morrow observed Eleanor's reaction."
+          },
+          {
+            "name": "Eight to Eight-Thirty PM",
+            "icon": "🎟️",
+            "detail": "Eleanor approached Harlow. Morrow signed into the reception — establishing his alibi."
+          },
+          {
+            "name": "Eight-Forty-Five PM",
+            "icon": "🪑",
+            "detail": "Eleanor sent the docent away."
+          },
+          {
+            "name": "Nine to Ten PM",
+            "icon": "⚠️",
+            "detail": "Eleanor killed Harlow in Gallery Six. Morrow remained at the reception."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Stolen Pension Recovery",
+            "icon": "💰",
+            "detail": "Eleanor's motive — personal financial loss, irrecoverable, three years' grievance."
+          },
+          {
+            "name": "Personal Financial Debt",
+            "icon": "💸",
+            "detail": "Morrow's motive — Harlow owed Morrow a personal debt from a Baltimore transaction."
+          },
+          {
+            "name": "New Fraud Prevention",
+            "icon": "🚫",
+            "detail": "Both Eleanor and Morrow had reason to stop Harlow from victimizing more people at the fair."
+          },
+          {
+            "name": "Professional Restitution",
+            "icon": "📋",
+            "detail": "Cleary's goal — a legal arrest and return to Baltimore for trial. His method was different."
+          },
+          {
+            "name": "Concealed Complicity",
+            "icon": "🤫",
+            "detail": "Morrow's deepest motive — Harlow knew something about Morrow's Baltimore dealings that Morrow needed silenced."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🏭",
+        "heading": "Morrow at Eight PM",
+        "text": "A fair volunteer — different from the one who heard Eleanor's remark — confirms that Frank Morrow was also in the main atrium at eight PM. He was standing near Eleanor when she saw Harlow. He watched Eleanor approach Harlow. When asked, Morrow had told the volunteer he 'needed some air' and was taking a brief walk from the business exhibit before the reception.",
+        "alone": "Morrow was present when Eleanor recognized Harlow and watched her approach him — he saw the encounter that led to the gallery meeting.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Morrow watching Eleanor's recognition of Harlow and his early sign-in at the reception immediately after confirm he moved to establish his alibi as soon as he saw Eleanor had identified Harlow — he knew what her recognition might mean."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💸",
+        "heading": "Morrow's Baltimore Debt",
+        "text": "Financial records from Morrow's Chicago business — examined after the investigation expanded — show a notation from 1890: '12,000 dollars advanced to R.P.H. for Baltimore warehouse acquisition, terms to be settled.' The acquisition never occurred. Harlow had taken 12,000 dollars from Morrow on false pretenses — a significantly larger sum than the pension theft.",
+        "alone": "Harlow had taken 12,000 dollars from Frank Morrow in a fraudulent Baltimore transaction — Morrow was a much larger victim of Harlow than Eleanor.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Morrow's 12,000-dollar loss to Harlow and his positioning at the reception as an alibi immediately after watching Eleanor recognize him confirm Morrow understood the situation and chose to let Eleanor's evident intent proceed rather than intervene or alert authorities."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Cleary's Knowledge of Morrow",
+        "text": "Edmund Cleary, in a second interview, confirms he was aware Morrow was also a Harlow victim — the Pinkerton bulletin listed Morrow as a complainant in the Baltimore fraud investigation. Cleary had intended to interview Morrow at the fair about his knowledge of Harlow's current identity. He had planned to do so the morning after the murder. He arrived too late for Harlow — but not for the investigation.",
+        "alone": "Cleary knew Morrow was a Harlow victim and had planned to interview him — Morrow's presence at the fair and Harlow's presence were known to Cleary's investigation.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cleary knowing Morrow was a Harlow complainant and Morrow watching Eleanor's recognition without alerting Cleary confirm Morrow deliberately chose not to involve the Pinkerton detective — he allowed the situation to develop without interference."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🤫",
+        "heading": "What Harlow Knew About Morrow",
+        "text": "Harlow's diary — fully reviewed — contains a single entry from three days before the murder: 'F.M. in Chicago. Dangerous. He knows the Baltimore situation. But the Baltimore situation cuts both ways.' The phrase 'cuts both ways' suggests Harlow believed Morrow's knowledge of the Baltimore transaction was leverage that worked in both directions — Morrow also had something to hide.",
+        "alone": "Harlow's diary suggests the Baltimore transaction with Morrow was mutual leverage — Harlow believed Morrow could not expose him without exposing himself.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Harlow's diary noting the mutual leverage with Morrow and Morrow's concealed involvement in the Baltimore warehouse scheme confirm Morrow had reason beyond simple victimhood to want Harlow dead — the 'cuts both ways' leverage would have been silenced by Harlow's death."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎟️",
+        "heading": "Morrow's Early Reception Sign-In",
+        "text": "The charity reception sign-in log shows Morrow signed in at eight-twenty PM — twenty minutes before the reception formally began at eight-thirty. The organizer confirms he was the first guest to arrive. He had left the main atrium at eight-fifteen PM — immediately after watching Eleanor approach Harlow — and signed into the reception five minutes later. The early sign-in created an especially solid documented alibi.",
+        "alone": "Morrow signed into the reception at eight-twenty PM — immediately after watching Eleanor approach Harlow, creating an early and well-documented alibi.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Morrow watching Eleanor's recognition and his immediate move to sign into the reception confirm he anticipated what Eleanor might do and positioned himself with a documented alibi before any action had occurred — he was managing his own position."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🏭",
+        "heading": "Morrow's Silence",
+        "text": "Morrow, in a second interview, is asked directly: 'When you saw Miss Vass approach the man you recognized as Robert Harlow, did you consider alerting the Pinkerton agent you knew was at the fair?' He pauses for an extended time before answering: 'I did not know what she intended.' He does not deny recognizing Harlow or knowing Cleary was at the fair.",
+        "alone": "Morrow admits recognizing Harlow and knowing Cleary was present — but chose not to alert Cleary when he saw Eleanor approach Harlow. His silence was deliberate.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Morrow's 12,000-dollar loss and his deliberate silence when Eleanor approached Harlow confirm he chose to let events proceed — he had more reason than almost anyone to want Harlow dead, and he chose the passive role that kept his hands clean."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Baltimore Warehouse Scheme",
+        "text": "The Pinkerton bulletin's full version — obtained by Cleary after the murder — contains a note: 'Morrow's involvement in the original warehouse scheme is under separate investigation. His complaint against Harlow may be complicated by his own conduct in the 1890 transaction.' Morrow had not simply been defrauded — he had been a participant in a borderline scheme that Harlow had then turned against him.",
+        "alone": "Morrow was not simply a victim — the Pinkerton investigation noted his own conduct in the Baltimore transaction was questionable. Harlow's leverage over him was real.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Harlow's diary noting the mutual Baltimore leverage and the Pinkerton bulletin confirming Morrow's own conduct was under scrutiny confirm the cuts both ways phrase was accurate — Morrow had his own exposure to protect by ensuring Harlow never testified or spoke publicly."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Eleanor's Statement About Morrow",
+        "text": "When Eleanor eventually confessed — three days after the murder — she included an unprompted statement: 'Morrow was there. He saw me speak to Harlow. He looked at me and nodded once, very slightly, before he walked to the reception.' She interpreted this as an acknowledgment — perhaps encouragement. Morrow, when confronted with this, does not deny it.",
+        "alone": "Eleanor observed Morrow nod at her after their eye contact following her approach to Harlow — she interpreted it as acknowledgment. Morrow does not deny the gesture.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Morrow's deliberate silence when Eleanor approached Harlow and his single nod when their eyes met confirm he had communicated his awareness and his choice not to intervene — whether that constitutes encouragement or complicity is the question the investigation could not definitively answer."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Eleanor Vass",
+      "location": "Gallery Six",
+      "weapon": "Display Pedestal",
+      "window": "Nine to Ten PM",
+      "motive": "Stolen Pension Recovery"
+    },
+    "epilogue": "Eleanor Vass confessed on August 6th, 1893. Frank Morrow was questioned as a material witness. His single nod — which Eleanor interpreted as acknowledgment — was insufficient for a conspiracy charge. His own Baltimore conduct remained under Pinkerton investigation for another two years. Cleary had arrived at the Palace of Fine Arts two hours after Eleanor killed Harlow and four hours before Morrow could have said anything useful. Eleanor received twelve years. Morrow was never charged. The Chesapeake Association's uninsured pension fund was never recovered. Robert Harlow's investment solicitation victims at the World's Fair — three Chicago businessmen who had given him a combined 4,000 dollars over four days — were identified and their losses publicised but never repaid."
+  }
+}

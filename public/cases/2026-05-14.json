@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hollywood, 1944. A director is dead on the studio lot. His leading man confessed — but the timeline is impossible. 🎬🔍 Case #056 — Fade to Black. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Hollywood 1944, a studio murder, and a confession that should be true but can't be. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1944 Hollywood studio lot at night, soundstage doors looming in harsh arc light, a director's chair overturned beside a camera crane. Film reels scattered on the blacktop. A single figure in a trench coat disappears around a soundstage corner. Deep shadow, harsh white arc light, ink black sky. Cinematic, style of Billy Wilder meets Weegee.",
+    "animationPrompt": "Slow track along a 1944 Hollywood studio lot at night. Arc lights cast harsh shadows across soundstage doors. A director's chair lies overturned beside a camera crane. Film reels glitter on the blacktop. The camera catches a figure in a trench coat rounding a soundstage — then nothing. A reel unspools in the silence. Fade to black.",
+    "hashtags": [
+      "#HollywoodNoir",
+      "#StudioLotMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #056",
+    "title": "Fade to Black",
+    "setting": "Monarch Pictures Studio Lot · Los Angeles · 1944",
+    "emoji": "🎬",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Director Victor Sloane was found dead on the studio lot after the night shoot wrapped. His leading man, Rex Darrow, immediately confessed — dramatically and on the record. The studio detective has one problem: Rex's confession puts him at the scene at a time when three witnesses confirm he was somewhere else entirely.",
+    "emptyState": "The confession is false. Find who it protects.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Rex Darrow",
+            "icon": "🎬",
+            "detail": "The leading man — confessed immediately, but his timeline is impossible."
+          },
+          {
+            "name": "Mona Sloane",
+            "icon": "💄",
+            "detail": "Victor's wife and lead actress — had quarreled with Victor over her contract."
+          },
+          {
+            "name": "Irving Kraft",
+            "icon": "🎞️",
+            "detail": "The studio's head of production — Victor had cost the studio a million dollars."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Lot",
+            "icon": "🎬",
+            "detail": "Where Victor's body was found — between Soundstage 4 and the prop warehouse."
+          },
+          {
+            "name": "Soundstage 4",
+            "icon": "🎭",
+            "detail": "Where the night shoot wrapped — all crew present until the wrap call."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Where Irving Kraft spent the evening — confirmed by his assistant."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "A heavy aluminum leg — blunt force wound consistent with its profile."
+          },
+          {
+            "name": "Film Canister",
+            "icon": "🎞️",
+            "detail": "A metal reel container — no blood or wound trace found."
+          },
+          {
+            "name": "Director's Megaphone",
+            "icon": "📢",
+            "detail": "A heavy brass instrument — wound profile inconsistent."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Rex's Impossible Timeline",
+        "text": "Rex Darrow's confession states he killed Victor on the back lot at ten-fifteen PM. Three crew members — the gaffer, the script supervisor, and the boom operator — confirm Rex was on Soundstage 4 at ten-fifteen, working through a lighting adjustment that kept him visible to all three until ten-thirty. His confession is physically impossible.",
+        "alone": "Rex was visibly on Soundstage 4 at the time his own confession claims he was on the back lot — his confession is false.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Rex's impossible confession timeline and his confirmed presence on the soundstage until ten-thirty together confirm he did not commit the murder at the time he claims — he is confessing to protect someone he believes did it."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📷",
+        "heading": "The Tripod Leg",
+        "text": "A detached tripod leg from a camera crane on the back lot matches the wound profile — a cylindrical aluminum section, heavy, with a clean edge consistent with the impact wound on Victor's skull. Blood and hair are present on the upper section. The tripod leg had been separated from the crane prior to the killing — it was ready to hand.",
+        "alone": "The camera tripod leg is the murder weapon — and it had been separated from the crane in advance, suggesting the killer prepared the weapon before the encounter.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The tripod leg separated in advance and Mona Sloane's confirmed presence on the back lot after the wrap call confirm she had the opportunity to prepare and use the weapon during the post-wrap period."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💄",
+        "heading": "Irving's Office Alibi",
+        "text": "Irving Kraft's assistant confirms he was in the production office from nine PM until she left at eleven PM. The production office has a direct view of the lot entrance — she confirms no one entered or exited through the main gate between those hours except crew departing from the wrap. Irving is cleared.",
+        "alone": "Irving Kraft was in the production office from nine to eleven PM — confirmed by his assistant with a view of the lot entrance. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Irving cleared by his assistant and Rex cleared by three crew witnesses on the soundstage together leave Mona as the only suspect unaccounted for on the back lot during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Contract Fight",
+        "text": "A production memo found in Victor's chair — brought from the soundstage — documents his instruction to the studio's legal department to invoke a morality clause in Mona Sloane's contract, citing her 'conduct unbecoming the studio's standards.' The clause, if invoked, would terminate her contract with no payment for the remaining four pictures. The memo is dated that day.",
+        "alone": "Victor had signed a memo that day to terminate Mona's contract using a morality clause — she would lose four pictures' worth of fees.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Victor's morality clause memo and Mona's angry confrontation with him during the shoot witnessed by the script supervisor confirm she knew about the memo and had directly confronted Victor over it before the wrap."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📷",
+        "heading": "Mona After the Wrap",
+        "text": "The gaffer confirms that after the wrap call at ten PM, Mona Sloane went toward the back lot rather than toward the dressing rooms where most cast and crew headed. He saw her near Soundstage 4's back exit — the direction of the prop warehouse and the area where Victor's body was found. He thought nothing of it at the time.",
+        "alone": "Mona went toward the back lot after the wrap — toward the location where Victor's body was found, not toward the dressing rooms.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Rex's false confession and Mona's confirmed movement toward the back lot after the wrap together confirm Mona was at the scene during the murder window while Rex was on the soundstage — Rex is confessing to protect her."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "📷",
+        "heading": "The Separated Tripod",
+        "text": "Examination of the camera crane shows the tripod leg was not broken during a fall — the fastening bolt was deliberately unscrewed. A wrench from the grip truck is missing. The separation required tool use and approximately two minutes. Mona Sloane was a former stunt actress who had worked with camera equipment extensively before transitioning to starring roles.",
+        "alone": "The tripod leg was deliberately removed with a tool — the killer prepared the weapon in advance. Mona had the technical knowledge to do this from her stunt work background.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The tripod leg prepared in advance with a tool and Mona's technical knowledge from her stunt work confirm she had both the capability and the pre-planning to prepare the weapon before confronting Victor."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Rex's Relationship With Mona",
+        "text": "Two crew members, separately interviewed, confirm Rex Darrow and Mona Sloane had been involved romantically for three months — a relationship the studio had asked them to keep quiet. Rex had previously told the script supervisor he would 'do anything for Mona.' When the body was found, Rex confessed immediately — before Mona said anything.",
+        "alone": "Rex had publicly stated he would do anything for Mona — and confessed to murder immediately upon the body's discovery, before any investigation identified a suspect.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Irving cleared by his assistant and Rex's documented willingness to do anything for Mona together confirm Rex's immediate false confession was an act of protection for the woman he loved, not an admission of guilt."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "💄",
+        "heading": "The Confrontation During the Shoot",
+        "text": "The script supervisor confirms she witnessed a heated exchange between Mona and Victor during a break in the night shoot — at approximately nine-thirty PM. Mona had told Victor directly that if he filed the morality clause memo, 'one of us won't be leaving this lot tonight.' Victor had laughed and returned to the set. The script supervisor had dismissed it as theatrical bluster.",
+        "alone": "Mona had directly threatened Victor during the shoot — the script supervisor dismissed it as theatrical, but Victor was dead within the hour.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Victor's morality clause memo filed that day and Mona's direct threat to him during the shoot confirm she knew her career was at stake and had warned him explicitly before the wrap — the killing followed the threat by approximately one hour."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mona Sloane",
+      "location": "The Back Lot",
+      "weapon": "Camera Tripod"
+    },
+    "epilogue": "Mona Sloane had removed the tripod leg from the crane during the shoot's last setup, using a wrench from the grip truck. After the wrap call, she went directly to the back lot and waited for Victor, who walked to his car via his usual route between Soundstage 4 and the prop warehouse. She struck him once from behind. Rex Darrow, who had seen her walk to the back lot and heard the confrontation during the break, put the pieces together the moment the body was found and began confessing before investigators could focus on Mona. The three crew witnesses on the soundstage confirmed his impossibility within the hour. Mona was convicted of murder in the first degree. Rex received three years for obstruction. The morality clause memo was entered into evidence and then sealed. The studio settled with Mona's estate."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #056",
+    "title": "Fade to Black",
+    "setting": "Monarch Pictures Studio Lot · Los Angeles · 1944",
+    "emoji": "🎬",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Mona killed Victor. Rex covered for her. But the morality clause memo was not the real threat — Victor had already filed something worse three days earlier. Find what he filed and who else knew about it.",
+    "emptyState": "The memo was the surface. Find what was filed three days before.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mona Sloane",
+            "icon": "💄",
+            "detail": "The killer — back lot, tripod leg prepared, threat witnessed, contract motive."
+          },
+          {
+            "name": "Rex Darrow",
+            "icon": "🎬",
+            "detail": "False confessor — impossible timeline, three crew witnesses, protecting Mona."
+          },
+          {
+            "name": "Irving Kraft",
+            "icon": "🎞️",
+            "detail": "Cleared — production office confirmed, but knew about the deeper filing."
+          },
+          {
+            "name": "Studio Legal",
+            "icon": "📋",
+            "detail": "The department that processed Victor's filings — their records reveal the full picture."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Lot",
+            "icon": "🎬",
+            "detail": "Primary crime scene — tripod leg weapon, Victor's usual route to his car."
+          },
+          {
+            "name": "Soundstage 4",
+            "icon": "🎭",
+            "detail": "Rex confirmed here during the murder window — three witnesses."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Irving's confirmed location — and where the deeper filing was processed."
+          },
+          {
+            "name": "Victor's Office",
+            "icon": "📁",
+            "detail": "Where the three-day-old filing originated — Mona's personal file cabinet."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Confirmed weapon — blood, hair, pre-separated, Mona's technical knowledge."
+          },
+          {
+            "name": "Film Canister",
+            "icon": "🎞️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Director's Megaphone",
+            "icon": "📢",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "The Morality Clause Memo",
+            "icon": "📋",
+            "detail": "Not a weapon — the visible surface threat. The real threat was filed three days earlier."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During the Shoot",
+            "icon": "🎭",
+            "detail": "Before 10:00 PM — Mona separated the tripod leg, confronted Victor at 9:30 PM."
+          },
+          {
+            "name": "Wrap to Murder",
+            "icon": "⚠️",
+            "detail": "10:00–10:30 PM — wrap called, Mona to back lot, Victor took his usual route."
+          },
+          {
+            "name": "After Discovery",
+            "icon": "🚨",
+            "detail": "After 10:30 PM — body found, Rex confessed immediately, impossible timeline confirmed."
+          },
+          {
+            "name": "Three Days Prior",
+            "icon": "📅",
+            "detail": "When Victor filed the deeper document — the real trigger for the killing."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Prior Filing",
+        "text": "Studio legal records show Victor Sloane filed a separate document three days before the murder: a formal complaint to the Screen Actors Guild alleging Mona Sloane had misrepresented her acting credentials when signing with Monarch Pictures. If upheld, the SAG complaint would have resulted in Mona's suspension from the guild — effectively ending her career entirely, not merely at Monarch.",
+        "alone": "Victor had filed a SAG complaint three days before the murder that would have ended Mona's career industry-wide — the morality clause memo was a second blow on top of a prior, more damaging attack.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The SAG complaint filed three days before the murder and Mona's discovery of it the day before confirm she had forty-eight hours of planning time before the killing — the weapon preparation during the shoot was not impulsive."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "📷",
+        "heading": "The Wrench Print",
+        "text": "The missing grip truck wrench is recovered from behind the prop warehouse — wiped but not clean. A partial fingerprint on the wrench handle matches Mona Sloane. Stunt performer records from her pre-stardom years show she had completed a camera equipment safety course — she knew exactly which bolt to remove to detach the tripod leg cleanly.",
+        "alone": "Mona's fingerprint on the wrench and her documented camera equipment knowledge confirm she prepared the murder weapon herself during the shoot.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Mona's wrench print and her pre-planning of the weapon during the shoot confirm the killing was not reactive to Victor's back-lot presence — she had decided before the night shoot began that he would not leave the lot."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎞️",
+        "heading": "Irving Knew About the SAG Filing",
+        "text": "Irving Kraft, interviewed again, confirms he was aware of Victor's SAG complaint — Victor had told him three days before the murder. Irving had advised Victor to withdraw it, calling it 'going too far.' Victor had refused. Irving did not inform Mona of the complaint. He claims he did not know she would find out. He is cleared of the murder but confirms the filing's existence.",
+        "alone": "Irving knew about the SAG complaint and advised Victor to withdraw it — he believed it was excessive but took no action beyond advice.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Irving knowing about the SAG complaint and advising withdrawal and Rex's knowledge of Mona's confrontation during the shoot confirm the studio environment was aware of the escalating conflict — multiple people knew the situation was dangerous."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💄",
+        "heading": "Mona's Credential File",
+        "text": "The SAG complaint references specific credential misrepresentations in Mona's original guild application. A review of her file shows she had listed stage experience she did not have and omitted a prior film contract that had ended in dismissal. The misrepresentations were minor but documented. Victor had obtained her original application from guild records.",
+        "alone": "Victor had obtained Mona's original SAG application and documented specific misrepresentations — he had constructed a formal case against her, not merely made an allegation.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Victor's documented SAG case against Mona and her threat to him during the shoot that one of them would not leave the lot confirm she understood the SAG complaint meant the end of everything — the morality clause was almost secondary."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📅",
+        "heading": "Mona Learned of the Filing",
+        "text": "A note in Mona's dressing room — in her handwriting, dated the day before the murder — lists three items: '1. SAG complaint. 2. Morality clause. 3. Four pictures gone.' She had discovered the SAG filing the day before the murder and understood the full scope of what Victor had done. The note was written after she had found out — she had one day to decide what to do.",
+        "alone": "Mona had discovered both the SAG complaint and the morality clause memo the day before the murder and had written a summary of what she faced — she had a full day to plan.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The SAG complaint filed three days before and Mona's dressing room note showing she discovered it the day before confirm the killing was planned with at least twenty-four hours of deliberation — not an impulsive response to the back-lot encounter."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📷",
+        "heading": "When the Tripod Was Separated",
+        "text": "The grip truck's wrench inventory was checked at the shoot's start at seven PM — the wrench was present. A grip confirms the camera crane was intact at eight PM during the lighting setup. Mona had a thirty-minute break from nine PM to nine-thirty PM — the separation occurred during this break, before her confrontation with Victor. She prepared the weapon first, then confronted him.",
+        "alone": "Mona separated the tripod leg during her nine PM break — thirty minutes before confronting Victor and ninety minutes before killing him. The weapon preparation preceded the confrontation.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Mona's wrench print and the weapon separated during her break before the confrontation confirm the killing was planned before the shoot that evening — she arrived at the lot that night having already decided to kill Victor."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Rex's Prior Knowledge",
+        "text": "Rex Darrow, in a subsequent interview after his false confession collapsed, admits Mona had told him about both the SAG complaint and the morality clause the day before the murder. He had urged her to speak to a lawyer. She had said she would 'handle it herself.' When she walked to the back lot after the wrap, he understood what she had meant and began preparing his confession.",
+        "alone": "Rex knew about both filings the day before and understood Mona's intention when she headed to the back lot — his confession was prepared in advance, not improvised.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Irving knowing about the SAG filing and Rex knowing Mona's intention from the day before confirm multiple people in the studio environment were aware the situation was reaching a breaking point — the killing was visible in advance to those around it."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📄",
+        "heading": "Victor's Personal File on Mona",
+        "text": "Victor's office contains a personal file labelled with Mona's name. Inside: her original SAG application with his annotations, the morality clause memo, a list of her professional enemies who might corroborate the credential misrepresentations, and a draft letter to a studio rival offering them Mona's services 'once the current situation is resolved.' Victor had been systematically preparing to destroy Mona's career and then sell her to a competitor.",
+        "alone": "Victor had assembled a comprehensive personal file designed to end Mona's career and profit from her destruction — the scope went far beyond any professional dispute.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Victor's documented SAG case and his draft letter to a rival studio planning to profit from Mona's destruction confirm this was not a professional disagreement — it was a calculated campaign to destroy her, and Mona had seen at least part of this file the day before."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mona Sloane",
+      "location": "The Back Lot",
+      "weapon": "Camera Tripod",
+      "window": "Wrap to Murder"
+    },
+    "epilogue": "Mona Sloane had discovered Victor's full plan the day before the shoot. She arrived that night having already decided. She separated the tripod leg during her nine PM break, confronted Victor at nine-thirty to confirm his position, and waited at the back lot after the wrap call. Victor walked his usual route. She struck him once. Rex Darrow had known what she was going to do and had his confession ready. The three crew witnesses dismantled it within the hour. Victor's personal file on Mona — including the draft letter to his studio rival — was entered into evidence. The jury was out for forty minutes."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #056",
+    "title": "Fade to Black",
+    "setting": "Monarch Pictures Studio Lot · Los Angeles · 1944",
+    "emoji": "🎬",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Mona killed Victor. Rex covered. But Victor's campaign against Mona was not his own idea — Irving Kraft had fed him the intelligence about Mona's credential misrepresentations, and Irving had a reason to want Mona gone that had nothing to do with the studio's money.",
+    "emptyState": "Victor built the file. Find who handed him the ammunition.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mona Sloane",
+            "icon": "💄",
+            "detail": "The killer — tripod, back lot, planned since the day before."
+          },
+          {
+            "name": "Rex Darrow",
+            "icon": "🎬",
+            "detail": "False confessor — knew in advance, had confession prepared."
+          },
+          {
+            "name": "Irving Kraft",
+            "icon": "🎞️",
+            "detail": "Cleared as killer — but provided Victor with Mona's guild application."
+          },
+          {
+            "name": "Dorothy Kraft",
+            "icon": "🌹",
+            "detail": "Irving's wife — connected to Mona's past in a way Irving had concealed."
+          },
+          {
+            "name": "The Guild Registrar",
+            "icon": "📋",
+            "detail": "The SAG official who provided Victor with Mona's application file — under pressure."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Lot",
+            "icon": "🎬",
+            "detail": "Primary crime scene — Mona's prepared weapon, Victor's usual route."
+          },
+          {
+            "name": "Soundstage 4",
+            "icon": "🎭",
+            "detail": "Rex confirmed here — three witnesses."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Irving's location — and where he kept his personal correspondence file."
+          },
+          {
+            "name": "Victor's Office",
+            "icon": "📁",
+            "detail": "Where Mona's personal destruction file was assembled."
+          },
+          {
+            "name": "The Guild Archive",
+            "icon": "📋",
+            "detail": "Where Mona's original application was held — accessed by Victor through Irving's contact."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "Confirmed weapon — Mona's print, planned separation, single blow."
+          },
+          {
+            "name": "Film Canister",
+            "icon": "🎞️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Director's Megaphone",
+            "icon": "📢",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "The SAG Application",
+            "icon": "📋",
+            "detail": "Not a weapon — the instrument Irving provided to Victor to destroy Mona."
+          },
+          {
+            "name": "Irving's Correspondence File",
+            "icon": "📁",
+            "detail": "Contains the letter chain showing Irving initiated Victor's campaign against Mona."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During the Shoot",
+            "icon": "🎭",
+            "detail": "Before 10:00 PM — weapon prepared, confrontation at 9:30 PM."
+          },
+          {
+            "name": "Wrap to Murder",
+            "icon": "⚠️",
+            "detail": "10:00–10:30 PM — confirmed murder window."
+          },
+          {
+            "name": "Three Days Prior",
+            "icon": "📅",
+            "detail": "SAG complaint filed — Victor had the application from Irving."
+          },
+          {
+            "name": "Six Weeks Prior",
+            "icon": "📅",
+            "detail": "When Irving first contacted the guild registrar on Victor's behalf — the operation's starting point."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Career and Contract Destruction",
+            "icon": "📋",
+            "detail": "Mona's motive — Victor and Irving working together to end her career."
+          },
+          {
+            "name": "Professional Rivalry",
+            "icon": "🎬",
+            "detail": "Victor's surface motive — Mona had publicly outperformed and overshadowed him."
+          },
+          {
+            "name": "Personal Vendetta",
+            "icon": "💔",
+            "detail": "Irving's concealed motive — his wife Dorothy and Mona's history predated Hollywood."
+          },
+          {
+            "name": "Studio Control",
+            "icon": "🏢",
+            "detail": "Irving's professional motive — removing Mona would eliminate a contractual complication."
+          },
+          {
+            "name": "Protect a Family Secret",
+            "icon": "🔒",
+            "detail": "Irving's deepest motive — Mona knew something about Dorothy that Irving needed buried."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Irving's Letter to the Registrar",
+        "text": "Irving Kraft's production office correspondence file — obtained after his production role made him a secondary subject of investigation — contains a letter to the SAG guild registrar written six weeks before the murder. The letter requests access to Mona Sloane's original guild application 'on behalf of a studio inquiry.' The registrar had provided the application. Irving had then given it to Victor.",
+        "alone": "Irving initiated the retrieval of Mona's guild application six weeks before the murder and provided it to Victor — he was the source of Victor's ammunition against Mona.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Irving obtaining Mona's guild application six weeks before the murder and the letter from Dorothy Kraft in Mona's dressing room confirming their prior relationship confirm Irving's motive was personal, not professional — he needed Mona discredited before she could use what she knew about Dorothy."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "The Dorothy Connection",
+        "text": "A personal letter found in Mona's dressing room — not in Mona's handwriting — is from Dorothy Kraft, Irving's wife, dated four months before the murder. The letter reads: 'Please do not use this. It would destroy both of us. Irving must never know I told you.' The letter does not specify what Mona was asked not to use, but its existence confirms Mona held information about Dorothy that Irving feared.",
+        "alone": "Dorothy Kraft had written to Mona pleading with her not to use some information against her — Mona held leverage over Dorothy, and Irving knew it.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Dorothy's plea to Mona not to use her information and Irving's letter to the SAG registrar six weeks after Dorothy's letter confirm Irving moved to discredit Mona immediately after learning she held leverage over his wife — the professional campaign was a defensive measure."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎞️",
+        "heading": "Irving's Version of Events",
+        "text": "Irving, in a third interview after the correspondence file was obtained, admits he provided Victor with Mona's guild application but claims he did so 'at Victor's request, through proper channels.' He denies knowing Victor intended to use it to destroy Mona's career. He also denies knowing about Mona's information regarding Dorothy. Both denials are contradicted by his own correspondence.",
+        "alone": "Irving denies initiating the campaign against Mona — but his correspondence file shows he contacted the guild registrar before Victor ever mentioned Mona's credentials to anyone.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Irving's denial contradicted by his correspondence and the timeline showing he contacted the guild registrar before Victor's complaint confirm Irving drove the campaign — Victor was implementing Irving's intelligence, not acting independently."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💔",
+        "heading": "What Mona Knew About Dorothy",
+        "text": "A document found in Mona's locked personal bag — a document she had clearly prepared as insurance — is a sworn statement from a witness in Chicago identifying Dorothy Kraft (née Wilson) as having participated in a fraudulent insurance scheme in 1938 under a false name. The scheme had involved a fatality. Dorothy had fled Chicago and reinvented herself. Mona had obtained the statement and was holding it.",
+        "alone": "Mona held a sworn statement documenting Dorothy Kraft's involvement in a fatal fraud in Chicago — this was the leverage Dorothy had begged her not to use.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Mona's sworn statement about Dorothy's Chicago fraud and Irving's campaign to destroy Mona's credibility before she could use it confirm Irving's entire strategy was to discredit Mona first — a credible Mona with a sworn statement was an existential threat to his family."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📅",
+        "heading": "The Timeline of Irving's Actions",
+        "text": "The full correspondence file shows: Dorothy's letter to Mona in April 1944 (month four); Irving's letter to the guild registrar in May 1944 (month five); Victor's SAG complaint filed in September 1944 (the week before the murder). Irving moved to obtain Mona's application one month after Dorothy contacted her — his intervention was a direct response to learning about the leverage.",
+        "alone": "Irving contacted the SAG registrar exactly one month after Dorothy's letter to Mona — the timeline confirms his campaign against Mona was a direct response to discovering the leverage she held.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Irving obtaining Mona's application six weeks before the murder and the timeline showing his action followed Dorothy's letter by one month confirm this was a calculated defensive campaign, not a professional grievance — Irving was protecting his wife."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Dorothy's Knowledge of the Plan",
+        "text": "Dorothy Kraft, contacted by investigators, initially denies knowing about Irving's correspondence with the guild registrar. When shown the letter chain, she admits Irving had told her he was 'dealing with the Sloane situation.' She had understood this meant he was protecting her. She had not known Victor was involved until three days before the murder, when Irving told her the SAG complaint had been filed.",
+        "alone": "Dorothy knew Irving was dealing with the Mona situation and learned of the SAG complaint three days before the murder — the same day Victor filed the morality clause memo.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Dorothy's plea to Mona not to use her information and her confirmation that Irving was actively dealing with the situation confirm the full picture: Irving's campaign to destroy Mona's credibility was Dorothy's protection, not a studio management decision."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Victor's Correspondence With Irving",
+        "text": "Victor's personal office files contain letters from Irving that preceded the SAG complaint by six weeks — in which Irving specifically suggests Victor use Mona's credential misrepresentations as grounds for action. One letter reads: 'The application irregularities are yours to use as you see fit. I have no view on the matter beyond what is best for the studio.' Victor was acting on Irving's explicit suggestion.",
+        "alone": "Irving explicitly suggested to Victor that he use Mona's credential misrepresentations — Victor was implementing Irving's proposal, not developing the attack independently.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Irving's denial of initiating the campaign and his letters to Victor explicitly suggesting the use of Mona's credentials confirm Irving was the architect — his denials are directly contradicted by his own correspondence with Victor."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Mona Insurance Package",
+        "text": "Alongside the sworn statement about Dorothy, Mona's locked bag contains a note in her handwriting: 'If anything happens to me or my career — this goes to the Chicago DA, the LA Times, and Hecht at the Tribune. Rex knows where the bag is.' Mona had arranged a dead-man's switch for her own insurance document — she had anticipated the threat from Irving and prepared accordingly.",
+        "alone": "Mona had arranged her own insurance against Irving's campaign — if she was destroyed professionally, Dorothy's Chicago fraud would be published automatically through Rex.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Mona's sworn statement about Dorothy's fatal fraud and her dead-man's switch activated through Rex confirm she was not a passive victim of Irving's campaign — she held a deterrent and had arranged its release, but Irving moved faster than her deterrent could protect her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mona Sloane",
+      "location": "The Back Lot",
+      "weapon": "Camera Tripod",
+      "window": "Wrap to Murder",
+      "motive": "Career and Contract Destruction"
+    },
+    "epilogue": "Irving Kraft had discovered in May 1944 that Mona held a sworn statement about Dorothy's Chicago fraud. He had immediately contacted the SAG registrar for Mona's application and fed the credential misrepresentations to Victor, suggesting he use them. Victor had assembled his personal destruction file and filed the SAG complaint. Mona had found out the day before the shoot, written her summary note, and arrived that night having decided Victor would not survive the evening. Irving had done all of this to protect Dorothy. Dorothy had begged Mona to stay silent. Mona had prepared her own dead-man's switch. Irving's campaign had accelerated the very outcome it was designed to prevent. Dorothy Kraft's Chicago fraud was published three days after Mona's conviction, when Rex Darrow handed the bag to a journalist. Irving was charged with conspiracy to commit fraud and obstruction. Dorothy surrendered to Chicago authorities."
+  }
+}

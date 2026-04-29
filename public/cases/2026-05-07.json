@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "A codebase, a cover-up, and a dead engineer no one wants to talk about. 💻🔍 Case #049 — Pull Request. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Silicon Valley 2019, stolen code, a suspicious death, and a paper trail the killer forgot to delete. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Open plan Silicon Valley tech office at night in 2019, rows of standing desks with glowing monitors, a glass-walled conference room lit blue. A single workstation has its chair overturned. Coffee cups still steaming on the desk. The city lights of San Francisco visible through floor-to-ceiling glass. Cool blue and white, clinical. Cinematic, style of Michael Mann meets Edward Burtynsky.",
+    "animationPrompt": "Slow drift through an empty Silicon Valley office at night, 2019. Monitors glow unattended. A coffee cup sends up a single curl of steam. The camera finds an overturned chair beside a workstation. The screen shows lines of code — one line highlighted in red. The screen dims to sleep mode. Fade to black.",
+    "hashtags": [
+      "#SiliconValleyMurder",
+      "#TechThrillerPuzzle",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Pull Request",
+    "setting": "Nexus Labs HQ · San Francisco · 2019",
+    "emoji": "💻",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Dev lead Priya Nair was found dead at her workstation at 11 PM on a Tuesday. She had been working late — alone, supposedly. Her access logs show she was reviewing code commits. Three people were still in the building. One of them had a very good reason to stop her from finishing that review.",
+    "emptyState": "She was reviewing the code. Someone didn't want her to finish.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Caden Marsh",
+            "icon": "💻",
+            "detail": "Senior engineer — his commits were in Priya's review queue."
+          },
+          {
+            "name": "Zoe Tan",
+            "icon": "📊",
+            "detail": "Product manager — had been in conflict with Priya over launch delays."
+          },
+          {
+            "name": "Felix Osei",
+            "icon": "🔒",
+            "detail": "Security lead — was running a late network audit in the server room."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Dev Floor Workstation",
+            "icon": "💻",
+            "detail": "Where Priya was found — code review open on screen."
+          },
+          {
+            "name": "The Glass Conference Room",
+            "icon": "🏢",
+            "detail": "Visible from the dev floor — Zoe was using it until 10:30 PM."
+          },
+          {
+            "name": "The Server Room",
+            "icon": "🖥️",
+            "detail": "Where Felix was logged during the audit — keycard access required."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ergonomic Keyboard",
+            "icon": "⌨️",
+            "detail": "Found displaced — blunt force consistent with the impact wound."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Heavy ceramic — shattered on the floor, no blood transfer."
+          },
+          {
+            "name": "Monitor Stand",
+            "icon": "🖥️",
+            "detail": "Weighted steel base — found repositioned, trace blood on the edge."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "The Review Queue",
+        "text": "Priya's code review screen shows she was auditing commits from the past three weeks. Caden Marsh's name appears on twelve of the fifteen commits in her queue. A comment she had begun typing — 'This function appears to duplicate the Helios project core algorithm without attr—' — was left unfinished.",
+        "alone": "Priya had found something in Caden's code that she was flagging as stolen — she was cut off before completing the comment.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Priya's unfinished comment identifying Caden's code as duplicating stolen algorithm and Caden's access log showing him on the dev floor at the time of death together confirm he had both the motive and the opportunity to stop her review."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🖥️",
+        "heading": "The Monitor Stand",
+        "text": "The monitor stand at Priya's workstation was found repositioned — moved six inches to the right of its usual position, marked by a clean patch in the desk dust. Blood trace on the lower edge of the stand matches Priya's type. The stand weighs four kilograms — sufficient for the fatal blow.",
+        "alone": "The monitor stand was used as the murder weapon and then repositioned — the killer moved it back to appear undisturbed.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The monitor stand repositioned after use and Caden Marsh's fingerprints on the stand's upper housing confirm he handled the stand — his prints should not be there if he never visited Priya's workstation that evening."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Zoe's Conference Exit",
+        "text": "Building security footage confirms Zoe Tan left the glass conference room at 10:28 PM and badged out of the building at 10:31 PM — twenty-nine minutes before Priya's death is estimated at 11:00 PM. The badge log confirms her exit and her car was captured leaving the parking structure at 10:34 PM.",
+        "alone": "Zoe Tan left the building at 10:31 PM and was confirmed off-site well before Priya's death — she is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Zoe cleared by badge log and parking footage and Felix's server room keycard log showing continuous access during the murder window together leave Caden Marsh as the only suspect unaccounted for on the dev floor."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Helios Connection",
+        "text": "A search of Nexus Labs' personnel files reveals Caden Marsh worked at Helios Technologies — a competitor — eighteen months prior. He left under undisclosed circumstances. The algorithm Priya was flagging in her unfinished comment is the core of Helios's proprietary motion prediction engine, patented two years ago.",
+        "alone": "Caden had access to Helios's proprietary algorithm from his time there — and had embedded it in Nexus code without attribution.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Caden's prior employment at Helios giving him access to the stolen algorithm and the legal threat notification found in his email confirm he knew discovery of the code theft would end his career and expose him to criminal liability."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "📱",
+        "heading": "Caden's Access Log",
+        "text": "The building access log shows Caden Marsh badged into the dev floor at 9:45 PM and did not badge out until 11:23 PM — well after Priya's estimated time of death. He claimed in initial questioning to have been in the kitchen and then his own desk on the far side of the floor. His desk is forty metres from Priya's workstation.",
+        "alone": "Caden was on the dev floor from 9:45 PM to 11:23 PM — he was present in the building during the entire murder window and never left.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Priya's unfinished comment identifying Caden's code as potentially stolen and his confirmed presence on the dev floor during the murder window together confirm he had both reason and opportunity to stop her review."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "Fingerprints on the Stand",
+        "text": "Forensic analysis of the monitor stand finds three sets of prints: Priya's on the base (routine), a cleaning crew partial on the rear (routine), and Caden Marsh's on the upper housing — a position that would only be reached if someone lifted the stand from above to use as a weapon.",
+        "alone": "Caden's fingerprints are on the monitor stand in a grip position consistent with lifting it as a weapon — his prints have no innocent explanation at that location.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The monitor stand repositioned after use and Caden's prints on the upper housing in a weapon-grip position confirm he used the stand as the murder weapon and then replaced it in an attempt to disguise the crime."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "digital",
+        "icon": "🖥️",
+        "heading": "Felix's Server Log",
+        "text": "The server room keycard log shows Felix Osei entered at 8:30 PM and did not exit until 11:45 PM. Server room internal activity logs show continuous network commands executed under his credentials from 8:32 PM onward. The server room has no internal phone and no view of the dev floor — Felix was physically isolated throughout.",
+        "alone": "Felix was locked in the server room continuously from 8:30 PM — he could not have reached the dev floor without the exit being logged.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Zoe cleared by building exit logs and Felix isolated in the server room by keycard and activity logs together leave Caden as the only suspect on the dev floor with access and motive during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "digital",
+        "icon": "✉️",
+        "heading": "The Legal Threat",
+        "text": "Caden Marsh's company email — retrieved from the server — contains a message from Helios Technologies' legal counsel received three days prior, citing 'suspected misappropriation of proprietary algorithmic architecture' and requesting a meeting. Caden had not responded. Priya's review, if completed, would have provided Helios with documentary proof.",
+        "alone": "Caden had received a legal threat from Helios three days before the murder — Priya's completed review would have given Helios the evidence they needed to pursue criminal charges.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Caden's prior access to Helios's algorithm and the active legal threat against him confirm that Priya's completed review would have triggered immediate criminal exposure — giving him compelling motive to stop her that night."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Caden Marsh",
+      "location": "Dev Floor Workstation",
+      "weapon": "Monitor Stand"
+    },
+    "epilogue": "Caden Marsh had embedded Helios's algorithm in three separate product features over eighteen months. When Priya's review queue reached his commits on the night of the legal threat's deadline, he walked across the dev floor, struck her with her own monitor stand, repositioned it, and returned to his desk. He called 999 at 11:15 PM claiming he had heard a noise. The unfinished comment and the fingerprints on the stand were all that was needed. He was charged with murder and misappropriation of trade secrets."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Pull Request",
+    "setting": "Nexus Labs HQ · San Francisco · 2019",
+    "emoji": "💻",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Caden killed Priya to stop the code review. But the code theft is older and larger than one engineer's career move. Find when the theft happened and who knew about it before Priya did.",
+    "emptyState": "The code is the motive. Follow it back to the source.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Caden Marsh",
+            "icon": "💻",
+            "detail": "Senior engineer — Helios alumnus, stolen algorithm, monitor stand prints."
+          },
+          {
+            "name": "Zoe Tan",
+            "icon": "📊",
+            "detail": "Product manager — left at 10:31 PM, cleared by badge and parking log."
+          },
+          {
+            "name": "Felix Osei",
+            "icon": "🔒",
+            "detail": "Security lead — server room log shows continuous presence all evening."
+          },
+          {
+            "name": "Dana Rowe",
+            "icon": "🏢",
+            "detail": "CTO — hired Caden from Helios and approved his first commits."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Dev Floor Workstation",
+            "icon": "💻",
+            "detail": "Primary crime scene — monitor stand weapon, unfinished comment."
+          },
+          {
+            "name": "The Glass Conference Room",
+            "icon": "🏢",
+            "detail": "Zoe's location until 10:28 PM — she left before the murder."
+          },
+          {
+            "name": "The Server Room",
+            "icon": "🖥️",
+            "detail": "Felix's confirmed location — keycard and server logs both continuous."
+          },
+          {
+            "name": "Caden's Workstation",
+            "icon": "🖥️",
+            "detail": "Forty metres from Priya's — his claimed location for the evening."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Monitor Stand",
+            "icon": "🖥️",
+            "detail": "Confirmed weapon — blood trace, repositioned, Caden's prints on upper housing."
+          },
+          {
+            "name": "Ergonomic Keyboard",
+            "icon": "⌨️",
+            "detail": "Displaced — no blood transfer, not the weapon."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Shattered — fell during the struggle, not the weapon."
+          },
+          {
+            "name": "Helios Legal Letter",
+            "icon": "📄",
+            "detail": "Not a weapon — the trigger. Receipt three days prior preceded the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Code Review Completion",
+            "icon": "💻",
+            "detail": "Priya's review would have documented the stolen algorithm."
+          },
+          {
+            "name": "Avoid Criminal Prosecution",
+            "icon": "⚖️",
+            "detail": "Helios's legal threat would become actionable with Priya's evidence."
+          },
+          {
+            "name": "Protect Career and Reputation",
+            "icon": "🏢",
+            "detail": "Discovery would end Caden's engineering career permanently."
+          },
+          {
+            "name": "Protect a Senior Accomplice",
+            "icon": "👔",
+            "detail": "The CTO who hired Caden may have known about the stolen code."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "The Commit History",
+        "text": "A full audit of Nexus Labs' code repository shows Caden embedded the Helios algorithm across three product features over eighteen months. The first commit was approved by CTO Dana Rowe personally — she signed off on the architecture review. The algorithm is not cited or attributed anywhere in the codebase.",
+        "alone": "Dana Rowe approved the first code commit containing the stolen algorithm — she reviewed the architecture and signed off without attribution.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dana approving the initial stolen algorithm commit and her calendar showing a meeting with Caden the day after the Helios legal letter arrived confirm she was aware of the theft and was involved in managing the response before Priya's review could surface it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "🖥️",
+        "heading": "The Repositioned Stand",
+        "text": "Forensic photography from the scene establishes the monitor stand was moved after the killing — a clean dust patch shows its original position. The stand was moved six inches and rotated five degrees. The adjustment is consistent with someone replacing it carefully rather than accidentally nudging it.",
+        "alone": "The stand was deliberately repositioned after the killing — a calculated attempt to make the workstation appear undisturbed.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The stand deliberately repositioned and the CCTV gap showing Caden crossing the dev floor at 10:52 PM confirm he had the time and the composure to stage the scene after the killing before calling it in."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📹",
+        "heading": "Two Suspects Cleared",
+        "text": "Zoe Tan: badge out at 10:31 PM, parking structure camera at 10:34 PM, confirmed at a restaurant by three witnesses from 10:45 PM. Felix Osei: server room entry 8:30 PM, no exit logged until 11:45 PM, server activity continuous under his credentials. Both are definitively eliminated.",
+        "alone": "Zoe and Felix are both conclusively cleared — Caden is the only suspect on the dev floor during the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Zoe and Felix eliminated by logs and external witnesses and Caden's workstation showing no activity between 10:45 and 11:10 PM confirm he was not at his own desk during the murder window — he was at Priya's."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "digital",
+        "icon": "✉️",
+        "heading": "The Legal Letter and the Calendar",
+        "text": "The Helios legal letter arrived at 9:15 AM three days before the murder. At 9:47 AM the same day, Caden Marsh booked a recurring calendar block titled 'Architecture Review' for the following three evenings — covering the exact period during which Priya would be reviewing his commits. The block was a pretextual reason to stay late.",
+        "alone": "Caden booked fake calendar blocks to justify staying late during the precise period Priya was reviewing his code — the legal letter triggered immediate planning.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Caden's fake calendar blocks starting the day of the legal letter and Priya's review queue covering exactly his problematic commits confirm he was monitoring her progress and waiting for the right moment to act."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "digital",
+        "icon": "📅",
+        "heading": "Dana's Calendar Entry",
+        "text": "Dana Rowe's calendar shows a private one-on-one with Caden Marsh at 2:00 PM the day after the legal letter arrived — the entry is titled 'Code Architecture.' Dana claims it was routine. Caden's own calendar shows the same meeting labelled 'Helios situation.' The word 'situation' does not appear in any of his other calendar entries.",
+        "alone": "Caden's private label for the meeting with Dana as the Helios situation confirms they discussed the legal threat together — Dana was aware.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Dana's approval of the original stolen algorithm commit and her private meeting with Caden about the Helios situation confirm she was involved in managing the cover-up — Caden was not acting alone at the institutional level."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "digital",
+        "icon": "📹",
+        "heading": "The CCTV Gap",
+        "text": "CCTV from the dev floor shows Caden at his own workstation at 10:44 PM. The next footage of him is at 11:03 PM, back at his own workstation. During the intervening nineteen minutes — from 10:44 to 11:03 PM — he is not visible at his desk or anywhere on the captured floor footage. The camera covering the central aisle had a known blind spot between rows 4 and 7.",
+        "alone": "Caden was absent from any camera view for nineteen minutes spanning the estimated time of death — he moved through the blind spot to reach Priya's workstation.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The repositioned monitor stand requiring deliberate post-murder staging and Caden's nineteen-minute camera blind spot confirm he had time to kill Priya, stage the scene, and return to his desk before calling in the discovery."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "digital",
+        "icon": "💻",
+        "heading": "Caden's Workstation Gap",
+        "text": "Caden's own workstation shows no keyboard or mouse activity between 10:47 PM and 11:09 PM — twenty-two minutes of inactivity. A screensaver activated at 10:48 PM. His workstation was idle during the entire window of the killing. His claim to have been working at his desk throughout the evening is contradicted by his own machine's logs.",
+        "alone": "Caden's workstation was idle for twenty-two minutes covering the murder window — he was not at his own desk when he claims to have been.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Zoe and Felix eliminated by external evidence and Caden's own workstation showing he was not at his desk during the murder window confirm he was away from his claimed location — at Priya's workstation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "digital",
+        "icon": "👁️",
+        "heading": "Priya's Review Progress",
+        "text": "Priya's workstation shows her review timestamps: she opened Caden's first commit at 10:15 PM, moved through them methodically, and reached the problematic algorithm at 10:41 PM. Her typing speed on the partial comment — reconstructed from keystroke logs — shows she typed rapidly, then stopped abruptly at 10:47 PM. Caden's workstation went idle at 10:47 PM.",
+        "alone": "Priya stopped typing at exactly 10:47 PM — the same moment Caden's workstation went idle, indicating he left his desk immediately when she began flagging the stolen code.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Caden's fake calendar blocks to monitor Priya's review and the keystroke logs showing his workstation went idle the instant she began flagging his code confirm he was watching her progress and moved the moment she found the evidence."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Caden Marsh",
+      "location": "Dev Floor Workstation",
+      "weapon": "Monitor Stand",
+      "motive": "Avoid Criminal Prosecution"
+    },
+    "epilogue": "Caden Marsh had been tracking Priya's review progress all evening. When the keystroke logs show her flagging the Helios algorithm at 10:41 PM, he had six minutes — the time for her to finish the comment and submit the review — before Helios would have documentary proof. He walked through the camera blind spot, struck her with the monitor stand, repositioned it, and returned to his desk at 11:03 PM. Dana Rowe was charged separately with obstruction and misappropriation. The Nexus product line using the stolen algorithm was suspended pending litigation."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #049",
+    "title": "Pull Request",
+    "setting": "Nexus Labs HQ · San Francisco · 2019",
+    "emoji": "💻",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Caden killed Priya. Dana managed the cover-up. But the algorithm was not stolen by Caden alone — he had a partner at Helios who handed it over intentionally. And that partner is now at Nexus Labs too, hired six months after Caden, working in an adjacent team. Priya had found their name in the commits as well.",
+    "emptyState": "Two engineers left Helios. Both are at Nexus. Only one is dead.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Caden Marsh",
+            "icon": "💻",
+            "detail": "The killer — monitor stand, blind spot, workstation idle during murder."
+          },
+          {
+            "name": "Zoe Tan",
+            "icon": "📊",
+            "detail": "Cleared — left building at 10:31 PM, restaurant alibi confirmed."
+          },
+          {
+            "name": "Felix Osei",
+            "icon": "🔒",
+            "detail": "Cleared — server room continuous from 8:30 PM to 11:45 PM."
+          },
+          {
+            "name": "Dana Rowe",
+            "icon": "🏢",
+            "detail": "CTO — approved the stolen commits, met Caden about the Helios situation."
+          },
+          {
+            "name": "Iris Chow",
+            "icon": "🖥️",
+            "detail": "Infrastructure engineer — also from Helios, hired six months after Caden."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Dev Floor Workstation",
+            "icon": "💻",
+            "detail": "Primary crime scene — Priya's unfinished comment, repositioned stand."
+          },
+          {
+            "name": "The Glass Conference Room",
+            "icon": "🏢",
+            "detail": "Zoe cleared here — left at 10:28 PM."
+          },
+          {
+            "name": "The Server Room",
+            "icon": "🖥️",
+            "detail": "Felix cleared here — continuous keycard and server log."
+          },
+          {
+            "name": "Caden's Workstation",
+            "icon": "🖥️",
+            "detail": "Idle 10:47–11:09 PM — he was not there during the murder window."
+          },
+          {
+            "name": "Dana Rowe's Office",
+            "icon": "🏢",
+            "detail": "Where the Helios situation meeting occurred — calendar confirms."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Monitor Stand",
+            "icon": "🖥️",
+            "detail": "Confirmed weapon — blood, repositioned, Caden's prints."
+          },
+          {
+            "name": "Ergonomic Keyboard",
+            "icon": "⌨️",
+            "detail": "Displaced in struggle — not the weapon."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Shattered — fell, not the weapon."
+          },
+          {
+            "name": "Helios Legal Letter",
+            "icon": "📄",
+            "detail": "The trigger — arrived three days before the killing."
+          },
+          {
+            "name": "The Stolen Algorithm",
+            "icon": "💾",
+            "detail": "Embedded across three features — the secret Priya was documenting."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Avoid Criminal Prosecution",
+            "icon": "⚖️",
+            "detail": "Priya's completed review would have given Helios actionable evidence."
+          },
+          {
+            "name": "Protect a Senior Accomplice",
+            "icon": "👔",
+            "detail": "Dana Rowe approved the commits — her exposure was tied to Caden's."
+          },
+          {
+            "name": "Conceal the Insider Source",
+            "icon": "🔒",
+            "detail": "Iris Chow handed over the algorithm from inside Helios — her involvement would expose a conspiracy."
+          },
+          {
+            "name": "Protect Career and Equity",
+            "icon": "💰",
+            "detail": "Nexus Labs was twelve months from an IPO — a scandal would destroy vested stock options."
+          },
+          {
+            "name": "Prevent Partner Exposure",
+            "icon": "🤝",
+            "detail": "Priya had found Iris's name in the commits — both would be exposed."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Provided the Stolen Code",
+            "icon": "💾",
+            "detail": "Handed over Helios's proprietary algorithm from inside the company."
+          },
+          {
+            "name": "Approved the Commits",
+            "icon": "✅",
+            "detail": "Signed off on the code architecture review containing the stolen algorithm."
+          },
+          {
+            "name": "Managed the Legal Response",
+            "icon": "📄",
+            "detail": "Coordinated with Caden to suppress the Helios legal threat."
+          },
+          {
+            "name": "Deleted the Evidence",
+            "icon": "🗑️",
+            "detail": "Attempted to remove commit history after the murder."
+          },
+          {
+            "name": "Falsified the Hire Record",
+            "icon": "📋",
+            "detail": "Obscured the connection between Caden and Iris's prior employment."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "digital",
+        "icon": "💾",
+        "heading": "Iris in the Commits",
+        "text": "A forensic analysis of the full commit history — including deleted branches restored from backup — shows Iris Chow's Helios credentials in the metadata of the original algorithm files. The files were created on Helios systems using Iris's login before being transferred. Iris provided the code from inside Helios to Caden before either of them left.",
+        "alone": "Iris Chow used her Helios credentials to export the algorithm before leaving — she was the insider source, not just a subsequent hire.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Iris's Helios credentials in the original commit metadata and Priya's review notes showing she had identified a second Helios alumnus in the codebase confirm Priya had found Iris's trail — both were at risk of exposure when she was killed."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "digital",
+        "icon": "🗑️",
+        "heading": "The Deleted Branch",
+        "text": "At 11:14 PM — eleven minutes after Caden returned to his workstation following the killing — a git branch containing early development commits was deleted from the repository. The deletion was executed under Iris Chow's credentials. Iris's building access log shows she had badged out at 7:45 PM — she was not in the building.",
+        "alone": "Iris Chow remotely deleted incriminating commit history eleven minutes after the murder — she was coordinating with Caden in real time from outside the building.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Iris's remote deletion of commit history eleven minutes after the murder and the encrypted chat log showing her exchange with Caden beginning at 11:05 PM confirm she was his active accomplice — she began covering the trail before the body was discovered."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Falsified Hire Record",
+        "text": "Iris Chow's official hire record lists her previous employer as a consultancy firm — not Helios Technologies. The consultancy exists but has no record of Iris on its staff. Dana Rowe approved the hire. The falsification concealed the connection between Caden and Iris and prevented anyone from noting they had both come from the same company.",
+        "alone": "Iris's prior employment at Helios was deliberately concealed from her hire record — Dana Rowe approved the falsification.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Dana approving the falsified hire record for Iris and her approval of the stolen algorithm commits confirm Dana was aware of and facilitating the entire scheme — her involvement predates the murder by eighteen months."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "digital",
+        "icon": "📱",
+        "heading": "Priya's Review Notes",
+        "text": "A local draft file on Priya's workstation — not yet committed to the review system — shows extended notes she had been building across three evenings. On the final page: 'Second Helios alumnus in codebase — I.C. credentials in origin metadata. Need to check hire records before filing.' She had found Iris before she was killed.",
+        "alone": "Priya had identified Iris Chow as a second person connected to the stolen algorithm and was planning to check her hire record — she was one step from uncovering the full conspiracy.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Iris's Helios credentials in the commit metadata and Priya's draft notes identifying her as a second Helios alumnus confirm Priya would have exposed both Caden and Iris — the motive for the killing was protecting the full conspiracy, not just Caden's individual theft."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "digital",
+        "icon": "⏱️",
+        "heading": "The IPO Timeline",
+        "text": "Internal financial documents show Nexus Labs was scheduled to file for IPO in eleven months. Caden Marsh held 2.1 million dollars in unvested stock options. Iris Chow held 800,000 dollars. Dana Rowe held 4.3 million. A misappropriation scandal would have triggered a securities investigation and voided all unvested options.",
+        "alone": "Three people stood to lose a combined 7.2 million dollars in unvested stock options if the code theft became public before the IPO.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Dana approving Iris's falsified hire record and her 4.3 million in unvested options confirm her involvement was financially motivated at the highest level — she had the most to lose and actively suppressed the evidence trail."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "digital",
+        "icon": "💬",
+        "heading": "The Encrypted Chat",
+        "text": "A forensic recovery of an encrypted messaging app on Caden's phone shows a conversation thread with a contact labelled 'I' beginning at 11:05 PM — two minutes after he returned to his workstation. The messages are partially decrypted: 'done. clean the branch.' Reply: 'already on it.' Final message, 11:19 PM: 'she hadn't filed yet. nothing in the system.'",
+        "alone": "Caden and Iris were coordinating via encrypted message within minutes of the killing — the exchange confirms both knew what had happened and acted in concert to cover it.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Iris's remote branch deletion eleven minutes after the murder and the encrypted chat showing Caden directing her to clean the branch confirm they had a pre-arranged contingency plan for exactly this scenario."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📧",
+        "heading": "Dana's Suppression Email",
+        "text": "An email from Dana Rowe to the Nexus legal team — sent three days before the murder, the same day the Helios letter arrived — instructs them to 'hold all external communications regarding the Helios matter and route any further correspondence directly to me.' The legal team was bypassed. Priya's review, if completed, would have gone to the legal team first.",
+        "alone": "Dana instructed the legal team to route all Helios correspondence to her personally — she was actively suppressing the institutional response to the legal threat.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Dana's 4.3 million in unvested options and her instruction to suppress the Helios legal correspondence confirm she was managing the cover-up to protect her own financial stake in the IPO — the conspiracy ran from engineer to CTO."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "digital",
+        "icon": "🔍",
+        "heading": "Priya's Last Search",
+        "text": "Priya's browser history — recovered from the workstation — shows her final search at 10:43 PM: 'Iris Chow Helios Technologies employment.' The search returned results. At 10:47 PM she opened the Nexus HR portal and navigated to Iris's employee profile. She was four minutes from connecting the hire record falsification when the search stopped.",
+        "alone": "Priya was actively investigating Iris's hire record in the four minutes before she was killed — she had nearly reached the full picture.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Priya's draft notes identifying Iris and her final browser search confirming she was looking up Iris's hire record confirm she was minutes from uncovering the full conspiracy — Caden's timing was not coincidental, it was the last possible moment to stop her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Caden Marsh",
+      "location": "Dev Floor Workstation",
+      "weapon": "Monitor Stand",
+      "motive": "Prevent Partner Exposure",
+      "accomplice": "Provided the Stolen Code"
+    },
+    "epilogue": "Priya Nair was four minutes from connecting Iris Chow to the stolen algorithm when Caden Marsh crossed the dev floor. The IPO was eleven months away. Seven million dollars in stock options across three people depended on the story staying buried. Iris deleted the branch from a coffee shop two miles away. Dana's suppression email to the legal team was recovered in the morning. Caden was convicted of murder. Iris pleaded guilty to conspiracy and trade secret misappropriation. Dana resigned before charges were filed and reached a civil settlement. The IPO was cancelled. The Helios algorithm was removed from every Nexus product."
+  }
+}

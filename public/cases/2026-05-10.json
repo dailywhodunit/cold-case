@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Broadway, 1952. The director is dead. The leading man won't stop confessing. And only one of his confessions can be true. 🎭🔍 Case #052 — Final Curtain. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: 1952 Broadway, a dead director, and a star who confesses to everything — except the truth. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Backstage at a Broadway theater in 1952, a long corridor of dressing room doors, bare bulb lights, a director's chair overturned in the centre of the passage. A script lies open on the floor, pages scattered. Deep shadow at one end, a single dressing room light burning at the other. Rich blacks, warm amber, theatrical red. Cinematic, style of Elia Kazan meets Saul Leiter.",
+    "animationPrompt": "Slow track along a 1952 Broadway backstage corridor. Bare bulbs burn above dressing room doors. A director's chair lies overturned in the passage. Script pages drift across the floor in an unseen draft. The camera stops at a closed dressing room door, light visible beneath it. A shadow passes across the light from inside — then nothing. Fade to black.",
+    "hashtags": [
+      "#BroadwayMystery",
+      "#TheaterMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Final Curtain",
+    "setting": "Majestic Theater · Broadway · New York · 1952",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Director Harold Stane was found dead in the backstage corridor after the final dress rehearsal. His leading man, Vincent Cross, immediately confessed — loudly, repeatedly, and in three different versions. None of the confessions match the physical evidence. Cross is either guilty and lying about how, or protecting someone.",
+    "emptyState": "Three confessions. None of them fit. Find which part is true.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Cross",
+            "icon": "🎬",
+            "detail": "The leading man — confessing dramatically but inconsistently."
+          },
+          {
+            "name": "Miriam Stane",
+            "icon": "💔",
+            "detail": "Harold's estranged wife — came to the theater to serve divorce papers."
+          },
+          {
+            "name": "Otto Veld",
+            "icon": "🎹",
+            "detail": "The musical director — Harold had just fired him during the rehearsal."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🚪",
+            "detail": "Where Harold's body was found — between the stage door and his office."
+          },
+          {
+            "name": "The Stage",
+            "icon": "🎭",
+            "detail": "Where the dress rehearsal concluded — all cast present until the break."
+          },
+          {
+            "name": "Harold's Office",
+            "icon": "📋",
+            "detail": "Where Miriam waited to serve the divorce papers — adjacent to the corridor."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Cane",
+            "icon": "🦯",
+            "detail": "Harold's own walking cane — heavy brass handle, found near the body."
+          },
+          {
+            "name": "Script Binder",
+            "icon": "📚",
+            "detail": "A heavy three-ring production binder — no blood or impact trace."
+          },
+          {
+            "name": "Rehearsal Weight",
+            "icon": "🏋️",
+            "detail": "A stage counterweight — too heavy to wield quickly, ruled out."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Cross's Three Stories",
+        "text": "Vincent Cross's three confessions contradict each other on every material point: in the first he used a script binder, in the second his bare hands, in the third a stage weight. Each version places him at the scene at a different time. The detective notes: 'A genuine killer knows how they did it. Cross does not.'",
+        "alone": "Cross's contradictory confessions are not the confessions of someone who committed the crime — he is either deeply confused or deliberately obscuring something.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Cross's physically impossible confessions and his confirmed presence on stage until the director called the break together confirm he was not in the corridor when Harold was killed — he is confessing to cover someone else."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🦯",
+        "heading": "The Cane's Evidence",
+        "text": "Harold's walking cane — found beside the body — shows blood on the brass handle consistent with the wound profile. The cane was Harold's own, suggesting the killer grabbed it from him or found it already in the corridor. No external weapon was introduced. The blow was delivered with what was available.",
+        "alone": "Harold was killed with his own cane — the killer did not bring a weapon, suggesting the killing was opportunistic rather than fully premeditated.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Harold killed with his own cane in an opportunistic blow and Miriam Stane confirmed at the office door with papers in hand confirm she encountered Harold in the corridor immediately after his office meeting and the confrontation turned violent."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "Otto's Departure",
+        "text": "Three stagehands confirm Otto Veld left the theater through the stage door immediately after being fired — he was seen loading his music sheets into a taxi at the curb. The stage door sign-out log shows his exit at 10:47 PM. Harold's death is estimated between 11:00 and 11:15 PM. Otto was gone before the killing.",
+        "alone": "Otto Veld left the theater at 10:47 PM — at least thirteen minutes before Harold was killed. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Otto cleared by stage door log and taxi witnesses and Cross confirmed on stage until 11:00 PM together eliminate both suspects and leave Miriam as the only person in the backstage corridor area during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Divorce Papers",
+        "text": "The divorce papers found scattered in the corridor — partly beneath Harold's body — bear Miriam Stane's name as the petitioner. They were served by a process server at the theater at 10:30 PM but Harold refused to sign. Miriam was waiting in his office for him to return after the rehearsal break.",
+        "alone": "Miriam was at the theater with legal documents Harold had refused — she had direct cause for a confrontation when Harold returned to his office.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Harold's refusal to sign the divorce papers and Miriam's handprint on the cane handle in a position inconsistent with grabbing it for balance confirm she seized the cane during the confrontation and struck Harold when he refused again."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "🎭",
+        "heading": "Cross on Stage",
+        "text": "Multiple cast members confirm Vincent Cross remained on stage throughout the dress rehearsal and did not leave until Harold called the break at 11:00 PM. The stage manager's rehearsal notes log Cross as present at each scene call throughout the evening. His first claimed time of the killing falls during a scene in which he was visibly on stage.",
+        "alone": "Cross was on stage during the time he claims the killing occurred in his first confession — he was physically unable to have committed it at that time.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Cross's physically impossible confessions and his confirmed stage presence during his claimed murder window confirm he is not the killer — he is confessing to protect someone he believes is guilty."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Miriam in the Corridor",
+        "text": "A stagehand passing through the corridor at 11:05 PM saw Miriam Stane at the door to Harold's office, facing toward the stage door. He heard raised voices — male and female — coming from the direction of the corridor. He did not see what happened but recalls Miriam's expression when she turned: 'like she'd seen a ghost, or made one.'",
+        "alone": "Miriam was in the corridor at 11:05 PM — during the murder window — with raised voices audible near her position.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Harold killed with his own cane in an opportunistic confrontation and Miriam confirmed in the corridor at 11:05 PM with raised voices confirm she was present when the killing occurred and the confrontation over the divorce papers escalated."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Why Cross Is Confessing",
+        "text": "A chorus member — approached quietly by the detective — reveals that Cross and Miriam Stane had been seen together at a diner twice in the past week. Cross had told the chorus member he was helping Miriam 'sort out her situation with Harold.' When the body was found, Cross immediately began confessing before anyone told him how Harold had died.",
+        "alone": "Cross and Miriam had been meeting privately and Cross knew about her situation with Harold — he began confessing before knowing the method, suggesting he suspected Miriam and chose to shield her.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Otto cleared by stage door exit and Cross confessing before knowing the method together confirm Cross is providing a false confession to protect Miriam — who was the only suspect left in the corridor during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "Miriam's Print on the Cane",
+        "text": "Fingerprint analysis of Harold's cane finds his own prints along the shaft — and Miriam Stane's right handprint on the brass handle in a grip position inconsistent with casually handling the cane. The grip is consistent with someone seizing the cane from the top to swing it downward.",
+        "alone": "Miriam Stane's print on the cane's brass handle in a weapon-grip position confirms she handled it as a weapon — not as a casual touch.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Harold's refusal to sign the divorce papers and Miriam's weapon-grip print on the cane confirm the confrontation in the corridor escalated when Harold refused again — she seized his own cane and struck him."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miriam Stane",
+      "location": "The Backstage Corridor",
+      "weapon": "Director's Cane"
+    },
+    "epilogue": "Miriam Stane had waited two hours in Harold's office for him to return from rehearsal. When he came through the corridor at 11:00 PM she confronted him again about the papers. He refused again. She grabbed his cane from his hand and struck him once. She was still standing over him when the stagehand passed through. Vincent Cross, who had learned of the confrontation from a chorus member while still on stage, immediately began confessing the moment the body was found — covering three different versions to muddy the evidence. He had not witnessed the killing. He had simply guessed what had happened and tried to shield Miriam. She confessed three days later."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Final Curtain",
+    "setting": "Majestic Theater · Broadway · New York · 1952",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Miriam killed Harold. Cross is confessing to protect her. But Cross started confessing before anyone told him how Harold died — he already knew something. Find what Cross knew and when he learned it.",
+    "emptyState": "Cross knew before he should have. Find out how.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vincent Cross",
+            "icon": "🎬",
+            "detail": "False confessor — protecting Miriam, knew details before the announcement."
+          },
+          {
+            "name": "Miriam Stane",
+            "icon": "💔",
+            "detail": "The killer — cane grip, corridor at 11:05 PM, divorce confrontation."
+          },
+          {
+            "name": "Otto Veld",
+            "icon": "🎹",
+            "detail": "Cleared — stage door exit 10:47 PM, taxi witnesses confirmed."
+          },
+          {
+            "name": "The Stage Manager",
+            "icon": "📋",
+            "detail": "Logged all cast movements — his notes are the primary timeline document."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🚪",
+            "detail": "Crime scene — body found here, divorce papers scattered."
+          },
+          {
+            "name": "The Stage",
+            "icon": "🎭",
+            "detail": "Where Cross was confirmed all evening until 11:00 PM break."
+          },
+          {
+            "name": "Harold's Office",
+            "icon": "📋",
+            "detail": "Where Miriam waited — adjacent to the corridor."
+          },
+          {
+            "name": "The Wings Stage Left",
+            "icon": "🎭",
+            "detail": "Where a phone is installed — used by Cross at 10:58 PM."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Cane",
+            "icon": "🦯",
+            "detail": "Harold's own cane — Miriam's weapon-grip print on the brass handle."
+          },
+          {
+            "name": "Script Binder",
+            "icon": "📚",
+            "detail": "Cross cited in confession 1 — no blood trace, eliminated."
+          },
+          {
+            "name": "Rehearsal Weight",
+            "icon": "🏋️",
+            "detail": "Cross cited in confession 3 — too heavy, eliminated."
+          },
+          {
+            "name": "Bare Hands",
+            "icon": "✋",
+            "detail": "Cross cited in confession 2 — wound profile inconsistent, eliminated."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During Rehearsal",
+            "icon": "🎭",
+            "detail": "Before 11:00 PM — all cast on stage, Harold visible to all."
+          },
+          {
+            "name": "The Break Period",
+            "icon": "☕",
+            "detail": "11:00–11:15 PM — Harold moved to corridor, Miriam in office, Cross off stage."
+          },
+          {
+            "name": "After the Discovery",
+            "icon": "🚨",
+            "detail": "After 11:15 PM — body found, Cross began confessing immediately."
+          },
+          {
+            "name": "Late Evening",
+            "icon": "🌙",
+            "detail": "After 11:30 PM — police arrived, interviews began."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "The Wing Phone Call",
+        "text": "The stage manager's notes record that Vincent Cross used the wings stage left telephone at 10:58 PM — two minutes before the rehearsal break was called. The call lasted approximately three minutes. The telephone connects to the internal theater system, including Harold's office. Cross called Harold's office at 10:58 PM — when Miriam was there.",
+        "alone": "Cross called Harold's office at 10:58 PM — he spoke to whoever was in the office, which was Miriam, two minutes before the break.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Cross calling the office at 10:58 PM when Miriam was there and his immediate confession before knowing the method confirm Miriam told him what had happened during or immediately after the killing — he confessed to protect her based on information she gave him."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "🦯",
+        "heading": "The Cane Grip and the Blow",
+        "text": "The forensic analysis of Harold's wound confirms a single downward blow to the right temporal area — consistent with someone taller than Harold seizing his cane and swinging it overhead. Harold was five foot eight. Miriam is five foot eleven. Cross is six foot two — both could physically deliver the blow, but only Miriam's prints are on the handle.",
+        "alone": "The blow required someone taller than Harold, and only Miriam's prints are on the weapon — Cross's prints are entirely absent.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The blow requiring someone taller than Harold and Miriam's prints exclusively on the weapon handle confirm she struck him — Cross's absence from the weapon entirely eliminates him as the killer despite his confessions."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Cast and Stage Manager Agree",
+        "text": "The stage manager's detailed rehearsal notes, corroborated by six cast members, confirm Cross was visible on stage at every cue call throughout the evening. He was called for a scene at 10:55 PM — five minutes before the break. He was on stage until Harold announced the break at 11:00 PM. He could not have been in the corridor before that.",
+        "alone": "Cross was on stage at 10:55 PM and the killing occurred between 11:00 and 11:15 PM — he had a maximum of fifteen minutes after leaving the stage.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Cross leaving the stage at 11:00 PM and the stagehand placing Miriam in the corridor at 11:05 PM with raised voices confirm the killing happened during a five-minute window when both could theoretically have been there — but only Miriam's prints confirm her presence at the weapon."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Divorce Papers' Story",
+        "text": "The divorce papers found beneath Harold's body are crumpled — consistent with having been held and then dropped or torn from someone's hand during a struggle. The process server confirms Miriam was carrying them when she arrived and that Harold had refused to accept them, leaving them with the server who gave them to Miriam to hold.",
+        "alone": "Miriam was holding the divorce papers during the confrontation — their condition beneath the body is consistent with being dropped during a struggle.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Miriam holding the papers during the confrontation and Cross beginning to confess before the papers were publicly identified as evidence confirm Cross was told about the confrontation — Miriam's call or contact with him occurred between the killing and the discovery."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "What Cross Knew",
+        "text": "When Cross began confessing immediately after the body was found, he described the location — 'the corridor behind the stage door' — correctly. The body had not yet been moved and the announcement had not specified the location. He also described Harold as 'lying near his papers' — the divorce papers were not publicly visible until investigators arrived. He had been told.",
+        "alone": "Cross knew the location and the papers before either was announced — he received information from someone who was at the scene.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Cross calling the office at 10:58 PM when Miriam was there and his knowledge of scene-specific details not yet announced confirm Miriam told him what had happened — either during the 10:58 call or in a subsequent contact between the killing and the discovery."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "forensic",
+        "icon": "👆",
+        "heading": "The Print Pattern",
+        "text": "A complete fingerprint sweep of the cane finds Harold's prints on the shaft from extended use, Miriam's right hand weapon-grip print on the brass handle, and no prints from Cross or any other person. If Cross had seized the cane, his prints would be on the weapon. They are not.",
+        "alone": "The cane has only Harold's routine prints and Miriam's weapon-grip print — Cross touched the murder weapon at no point.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The weapon requiring a taller person than Harold and only Miriam's prints on the weapon handle confirm Cross's confessions are false — he has never touched the murder weapon."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "The Stagehand's Timing",
+        "text": "The stagehand who saw Miriam in the corridor at 11:05 PM specifies the time because he was on a scheduled prop check that runs every fifteen minutes on the dot. He entered the corridor from the stage side, saw Miriam at the office door, heard raised voices, and exited back through the stage door at 11:07 PM. Harold's estimated time of death is 11:05–11:10 PM.",
+        "alone": "The stagehand's precise timing places Miriam in the corridor at exactly the estimated time of death — she was present when Harold was killed.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Cross leaving the stage at 11:00 PM with only fifteen minutes available and Miriam confirmed in the corridor at 11:05–11:07 PM confirm the killing occurred while Miriam was present and Cross had insufficient confirmed time to have reached the corridor."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Cross After the Break",
+        "text": "Cast members confirm Cross left the stage at 11:00 PM and was not seen again until the body was discovered at approximately 11:15 PM — a fifteen-minute gap. He was not in the wings, the common dressing room, or the green room. Three cast members looked for him. He was located near the stage door entrance — the corridor end — when the alarm was raised.",
+        "alone": "Cross was missing for fifteen minutes after the break and was found at the corridor end when the body was discovered — he was near the scene but his prints are absent from the weapon.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Miriam holding the divorce papers during the confrontation and Cross found at the corridor end during his fifteen-minute absence confirm he reached Miriam at or near the scene after the killing — she told him what had happened and he immediately began confessing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miriam Stane",
+      "location": "The Backstage Corridor",
+      "weapon": "Director's Cane",
+      "window": "The Break Period"
+    },
+    "epilogue": "Miriam Stane killed Harold during the break at 11:05 PM. Vincent Cross had called the office at 10:58 PM and spoken to Miriam — she had told him she was going to confront Harold one final time. When the break was called at 11:00 PM, Cross went to the corridor end to find her. He arrived to find Harold dead and Miriam standing over him with the scattered papers. He told her to go back to the office and began confessing everything except the truth. His three contradictory versions were designed to exhaust the evidence. Miriam confessed three days later. Cross was charged with obstruction. He maintained he had only been trying to protect her."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #052",
+    "title": "Final Curtain",
+    "setting": "Majestic Theater · Broadway · New York · 1952",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Miriam killed Harold. Cross protected her. But Cross and Miriam's meetings were not about the divorce. Harold had been systematically stealing playwright credit from his writers for years — and Cross had helped him do it until he discovered what it was costing Miriam's brother, the play's original writer.",
+    "emptyState": "The motive goes deeper than a divorce. Find the original crime.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Miriam Stane",
+            "icon": "💔",
+            "detail": "The killer — cane grip, corridor, divorce papers, brother's stolen credit."
+          },
+          {
+            "name": "Vincent Cross",
+            "icon": "🎬",
+            "detail": "False confessor — protecting Miriam, knew she confronted Harold."
+          },
+          {
+            "name": "Otto Veld",
+            "icon": "🎹",
+            "detail": "Cleared — but fired for the same reason Miriam was served papers."
+          },
+          {
+            "name": "The Stage Manager",
+            "icon": "📋",
+            "detail": "Logged everything — his notes contain an irregularity no one asked about."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🚪",
+            "detail": "Primary crime scene — 11:05 PM, Harold's cane, Miriam's print."
+          },
+          {
+            "name": "Harold's Office",
+            "icon": "📋",
+            "detail": "Where Miriam waited — and where the contract dispute files were kept."
+          },
+          {
+            "name": "The Wings Stage Left",
+            "icon": "🎭",
+            "detail": "Where Cross made the 10:58 PM call to the office."
+          },
+          {
+            "name": "The Script Archive",
+            "icon": "📚",
+            "detail": "Where original drafts are stored — showing authorship alterations."
+          },
+          {
+            "name": "The Royalty Records",
+            "icon": "💰",
+            "detail": "Financial records showing who received credit and payment for the play."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Cane",
+            "icon": "🦯",
+            "detail": "Confirmed weapon — Miriam's grip print, single blow, opportunistic."
+          },
+          {
+            "name": "Script Binder",
+            "icon": "📚",
+            "detail": "Cross's first false claim — no evidence."
+          },
+          {
+            "name": "Rehearsal Weight",
+            "icon": "🏋️",
+            "detail": "Cross's third false claim — no evidence."
+          },
+          {
+            "name": "Bare Hands",
+            "icon": "✋",
+            "detail": "Cross's second false claim — wound profile inconsistent."
+          },
+          {
+            "name": "The Stolen Credit",
+            "icon": "📝",
+            "detail": "Not a weapon — the root cause. The murder grew from this."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During Rehearsal",
+            "icon": "🎭",
+            "detail": "Before 11:00 PM — Harold visible on stage, all cast present."
+          },
+          {
+            "name": "The Break Period",
+            "icon": "☕",
+            "detail": "11:00–11:15 PM — confirmed murder window, Miriam in corridor at 11:05."
+          },
+          {
+            "name": "After the Discovery",
+            "icon": "🚨",
+            "detail": "After 11:15 PM — Cross confessing, Miriam returned to office."
+          },
+          {
+            "name": "Late Evening",
+            "icon": "🌙",
+            "detail": "After 11:30 PM — police interviews, Cross's three versions given."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Stolen Authorship",
+            "icon": "📝",
+            "detail": "Harold had taken writing credit from Miriam's brother — the original playwright."
+          },
+          {
+            "name": "Divorce and Disinheritance",
+            "icon": "📋",
+            "detail": "The divorce was Harold's attempt to prevent Miriam recovering her brother's royalties."
+          },
+          {
+            "name": "Career Destruction",
+            "icon": "📉",
+            "detail": "Harold had ended her brother's writing career by suppressing the original attribution."
+          },
+          {
+            "name": "Financial Theft",
+            "icon": "💰",
+            "detail": "Harold had collected royalties from a play he did not write for seven years."
+          },
+          {
+            "name": "Protect a Family Legacy",
+            "icon": "👨‍👩‍👦",
+            "detail": "Miriam was fighting for her brother's name, not just the money."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Original Draft",
+        "text": "The script archive contains an early draft of the play Harold is directing — typed on a different typewriter than Harold's office machine and dated four years before his name appears on any production document. The author credit on the draft reads 'Daniel Vayne.' Daniel Vayne is Miriam Stane's maiden name — her brother.",
+        "alone": "The play Harold Stane was directing was originally written by Miriam's brother Daniel Vayne — Harold's name appears on no document until after the original draft.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The original draft authored by Miriam's brother and the royalty records showing Harold collecting sole credit for seven years confirm Harold stole both the work and the income — Miriam was fighting to recover her brother's legacy."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Royalty Records",
+        "text": "Financial records from the theater's management company show Harold Stane has received sole playwright royalties from the current production for seven years — since the play's original 1945 run. Daniel Vayne received a single payment in 1945 labelled 'script consultation fee' — 200 dollars — and nothing since.",
+        "alone": "Harold had collected seven years of sole playwright royalties from a play written by someone he paid a single consultation fee of 200 dollars.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Harold collecting seven years of royalties and the divorce papers being filed the same week Miriam's lawyer discovered the original authorship documents confirm the divorce was Harold's defensive move — he was trying to prevent Miriam legally recovering her brother's share."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "Why Otto Was Fired",
+        "text": "Otto Veld, interviewed after the investigation expanded, reveals Harold fired him not over a musical dispute but because Otto had discovered the original authorship records while researching the play's history for the musical arrangements. He had mentioned this to Miriam three weeks before the murder. Harold fired him to prevent the information spreading.",
+        "alone": "Harold fired Otto to silence him about the original authorship — Otto had told Miriam about the records three weeks before Harold's death.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Harold firing Otto to suppress authorship knowledge and Cross's meetings with Miriam beginning three weeks after Otto's disclosure confirm Cross was brought into the picture by Miriam after she learned the full extent of the theft from Otto."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Divorce Timing",
+        "text": "The divorce papers Miriam filed were not the result of a broken marriage — the petition was filed the same week her lawyer identified the original authorship documents in the archive. The divorce was a legal mechanism: as Harold's spouse, Miriam had standing to pursue a share of the marital assets, including the stolen royalties. Harold counter-filed within days, attempting to have the marriage annulled.",
+        "alone": "The divorce was a legal strategy to recover the stolen royalties — Harold's counter-filing confirms he understood this and was trying to prevent it.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The divorce as a legal strategy to recover royalties and Harold's refusal to sign the papers at the theater confirm the final confrontation in the corridor was about the stolen credit and money — not a personal marital dispute."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Daniel Vayne's Career",
+        "text": "A search of theater records shows Daniel Vayne submitted three plays to Broadway producers between 1946 and 1949 — all rejected. Rejection letters in two cases cite 'lack of originality' and suggest his work resembles themes already explored by Harold Stane. Harold had effectively used Vayne's own style against him to prevent future recognition.",
+        "alone": "Harold not only stole the play — he used the stolen work to undermine Daniel Vayne's subsequent career, preventing him from ever being recognised.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The original draft authored by Miriam's brother and Harold's use of the stolen style to undermine Vayne's future submissions confirm the theft was comprehensive — Harold took both the credit and destroyed the original author's career."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "Miriam's Stated Purpose",
+        "text": "In a later interview — after her arrest — Miriam confirms she came to the theater not primarily to serve divorce papers but to confront Harold about the authorship. She had the papers as a legal threat but her intention was to demand Harold publicly credit her brother before the play opened. He refused. The confrontation escalated.",
+        "alone": "Miriam's goal was public attribution for her brother — the divorce papers were leverage, not the primary demand. Harold's refusal of both triggered the killing.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The divorce as legal strategy and Miriam's stated goal of public attribution for Daniel confirm the confrontation was about recovering her brother's legacy — the killing was not premeditated, it was the result of a final refusal."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Cross's Role in the Theft",
+        "text": "Cross admits — after the investigation expanded — that he had known Harold was using Vayne's work when he signed on as lead seven years earlier. He had rationalized it as 'how the business works.' When Miriam came to him three weeks before the murder, he learned for the first time that Vayne was her brother. His confessions were guilt about his own complicity, not just protection of Miriam.",
+        "alone": "Cross had known about the theft for seven years and rationalized it — his false confessions were driven by guilt about his own role in sustaining a stolen production.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Otto's firing to suppress authorship knowledge and Cross's seven-year complicity in a stolen production confirm Harold's fraud had multiple knowing participants — the theater community had been built on a theft that everyone rationalized until it cost someone their life."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "Harold's Final Refusal",
+        "text": "A note found on Harold's desk — written in his hand, undated — reads: 'Under no circumstances. The credit is mine. If Daniel Vayne had wanted recognition he should have negotiated better in 1945. He signed the consultation agreement. This is finished.' The note appears to be a response draft to Miriam's lawyer's letter demanding attribution.",
+        "alone": "Harold had written a draft refusal of the attribution demand before the confrontation — he had already decided he would not give any credit to Miriam's brother.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Harold's pre-written refusal of attribution and Miriam's stated intention to secure public credit for Daniel confirm Harold had refused before she even arrived at the theater — the confrontation in the corridor was the final version of a refusal he had already decided on."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Miriam Stane",
+      "location": "The Backstage Corridor",
+      "weapon": "Director's Cane",
+      "window": "The Break Period",
+      "motive": "Stolen Authorship"
+    },
+    "epilogue": "Harold Stane had built a seven-year career on a play written by Daniel Vayne, paying him 200 dollars and a consultation credit that was never publicly acknowledged. Daniel's subsequent career was deliberately undermined by Harold's use of the stolen material as a stylistic benchmark against which Daniel's original work was judged derivative. Miriam spent three years uncovering the evidence and another year trying legal channels. When Harold refused again in the corridor at 11:05 PM, she grabbed his cane. Vincent Cross received a suspended sentence for obstruction. He left Broadway. Daniel Vayne received posthumous attribution credit for the play in 1954 through a settlement with Harold's estate."
+  }
+}

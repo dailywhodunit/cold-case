@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hampton Court, 1536. A nobleman is dead in his locked chamber. The King's court is sealed for the feast — no one came in, no one left. 🏰🔍 Case #048 — The King's Table. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Tudor England, a locked room, a dead nobleman, and everyone at the King's feast has a reason to lie. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Tudor chamber at Hampton Court Palace in 1536, candlelight flickering across oak panelling and tapestried walls, a feast table visible through an open archway. A velvet cloak pools on a stone floor beside an overturned wine goblet. Snow-light through a leaded window. Rich crimson and gold, deep shadow. Painterly, style of Hans Holbein meets Caravaggio.",
+    "animationPrompt": "Slow glide through a candlelit Tudor corridor at Hampton Court, 1536. Tapestries shift in a draft. The camera finds a heavy oak door, closed. A goblet rolls slowly from beneath it, red wine spreading across flagstone. A candle inside the chamber gutters and goes dark. Fade to black.",
+    "hashtags": [
+      "#TudorMystery",
+      "#HamptonCourtMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #048",
+    "title": "The King's Table",
+    "setting": "Hampton Court Palace · Surrey · 1536",
+    "emoji": "🏰",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Lord Edmund Carew was found dead in his private chamber during the Midsummer feast. The chamber door was barred from within. The palace is sealed for the royal celebration — no guest has entered or left since sundown. One of three people had access. One of them killed him.",
+    "emptyState": "The door was barred from inside. The killer never left.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Maud Carew",
+            "icon": "👑",
+            "detail": "Edmund's wife — stands to inherit his estate and title."
+          },
+          {
+            "name": "Sir Thomas Wynn",
+            "icon": "⚔️",
+            "detail": "Edmund's closest ally — and secret rival for the same land grant."
+          },
+          {
+            "name": "Father Aldous",
+            "icon": "✝️",
+            "detail": "The household chaplain — heard Edmund's confession that afternoon."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "Where the body was found — door barred, no forced entry."
+          },
+          {
+            "name": "The Great Hall",
+            "icon": "🍖",
+            "detail": "Where the feast was held — all guests present until the alarm."
+          },
+          {
+            "name": "The Chapel Corridor",
+            "icon": "✝️",
+            "detail": "The only passage connecting the private chambers to the hall."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Wine",
+            "icon": "🍷",
+            "detail": "The goblet beside the body — traces of a bitter compound."
+          },
+          {
+            "name": "Bodkin Dagger",
+            "icon": "🗡️",
+            "detail": "A thin blade found beneath the rushes — wiped but not clean."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🧵",
+            "detail": "A length of braided cord — ligature marks on the wrist."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Passage Key",
+        "text": "The chapel corridor has a secondary door with a lock accessible only from the chamber side — a mechanism installed by Edmund himself for private egress. Lady Maud knew of it; she had used it once before to surprise Edmund at prayer. Sir Thomas and Father Aldous did not know it existed.",
+        "alone": "Lady Maud knew of a hidden egress from the chamber — she alone could have entered and barred the main door while using the secondary route to depart.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Lady Maud's knowledge of the hidden secondary door and the unlatched chapel corridor lock found after the death together confirm she used this route to enter, kill Edmund, bar the main door, and leave — creating the illusion of a locked room."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🍷",
+        "heading": "The Goblet's Contents",
+        "text": "The court physician confirms the goblet beside Edmund's body contains a residue of white hellebore — a plant poison with a bitter taste masked by spiced wine. Edmund's stomach contents confirm ingestion within the hour before death. The poison was prepared in advance and added to the goblet before Edmund drank.",
+        "alone": "Edmund was deliberately poisoned through his wine — the compound was prepared and added to his goblet before he drank it.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The poisoned wine prepared in advance and Lady Maud's documented knowledge of Edmund's evening habits — including his private wine ritual before bed — confirm she had both the knowledge and the opportunity to administer the poison before the feast ended."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Sir Thomas at the Feast",
+        "text": "Three separate witnesses — a page, a carver, and the Lord Chamberlain — confirm Sir Thomas Wynn remained at the feast table from the opening grace through to the alarm being raised. He spoke publicly with the King's steward at the precise hour Edmund would have been drinking his evening wine.",
+        "alone": "Sir Thomas was visibly present at the feast throughout the murder window — he could not have reached the private chamber.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Sir Thomas's confirmed feast presence and Father Aldous's sealed chapel confirmed by the sacristan together eliminate both men — leaving Lady Maud as the only suspect with the access and knowledge to commit the killing."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Inheritance Deed",
+        "text": "A legal deed found in Edmund's writing chest — prepared but not yet sealed — transfers his entire estate to a distant male cousin, bypassing Lady Maud entirely. The deed is dated three days prior. Had Edmund sealed it, Maud would have received nothing on his death.",
+        "alone": "Edmund was preparing to disinherit Lady Maud — she stood to lose everything if the deed was sealed.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Edmund's unsigned disinheritance deed and Lady Maud's wax seal kit found with fresh hellebore residue confirm she knew about the deed and acted before it could be sealed — the timing of the killing was not coincidental."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🚪",
+        "heading": "The Chapel Corridor Latch",
+        "text": "The secondary door in the chapel corridor — which only Lady Maud knew about — was found unlatched on the corridor side when investigators checked after the alarm. The latch can only be operated from the chamber interior. Someone had unlatched it from within the chamber and then passed through to the corridor.",
+        "alone": "The hidden secondary door was unlatched from the chamber side after the death — proving someone used it to exit while leaving the main door barred.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Lady Maud's knowledge of the hidden secondary door and the unlatched corridor latch found after the death together confirm she used this route to enter, kill Edmund, bar the main door, and leave — creating the illusion of a locked room."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "The Evening Wine Ritual",
+        "text": "The household steward confirms Edmund kept a strict private ritual: each evening before the feast ended he would retire briefly to his chamber, drink a goblet of spiced wine, and return. Only members of his immediate household knew this habit. Lady Maud had observed it for eleven years.",
+        "alone": "Only Lady Maud knew Edmund's precise evening wine ritual — she alone could time the poisoning to coincide with his private chamber visit.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The poisoned wine prepared in advance and Lady Maud's eleven-year knowledge of Edmund's evening wine ritual confirm she knew exactly when he would drink and prepared the poison accordingly."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Father Aldous in the Chapel",
+        "text": "The palace sacristan confirms Father Aldous conducted a private vespers service in the sealed chapel from the second hour of evening until the alarm — a service the sacristan himself attended throughout. The chapel doors were locked from within during the service per ritual, and the sacristan did not leave.",
+        "alone": "Father Aldous was sealed in the chapel during the entire murder window — confirmed by the sacristan who was with him throughout.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Sir Thomas's confirmed feast presence and Father Aldous's sealed chapel confirmed by the sacristan eliminate both men — leaving Lady Maud as the only suspect with the access and knowledge to commit the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🕯️",
+        "heading": "The Wax Kit",
+        "text": "Lady Maud's private writing chest contains a wax sealing kit. Residue in one of the kit's small preparation dishes tests positive for white hellebore — the same compound found in Edmund's goblet. The residue is fresh, not historic. The dish shows signs of recent cleaning.",
+        "alone": "Lady Maud prepared the poison in her own writing chest — the hellebore residue in her sealing dish matches the compound that killed Edmund.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Edmund's unsigned disinheritance deed and the hellebore residue in Lady Maud's wax kit confirm she knew about the deed and prepared the poison before it could be sealed — the killing protected her inheritance."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Maud Carew",
+      "location": "The Private Chamber",
+      "weapon": "Poisoned Wine"
+    },
+    "epilogue": "Lady Maud Carew had found the unsigned deed three days earlier while retrieving Edmund's seal for a routine letter. She prepared the hellebore in her writing chest, slipped into the chamber via the secondary door during the feast, added the poison to the goblet Edmund would drink on his evening ritual, barred the main door from within, and exited through the chapel corridor. Edmund died alone, believing he had locked himself in for a private moment. The unlatched corridor door was the only flaw in a plan eleven years in the making."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #048",
+    "title": "The King's Table",
+    "setting": "Hampton Court Palace · Surrey · 1536",
+    "emoji": "🏰",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The chamber was locked from within. The palace is sealed. The killer is among the guests — and they used a door that should not exist to create a perfect locked-room illusion. Finding the door finds the killer.",
+    "emptyState": "There is a door no one admits knowing. Find it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Maud Carew",
+            "icon": "👑",
+            "detail": "Edmund's wife — knew of the hidden door, stands to inherit."
+          },
+          {
+            "name": "Sir Thomas Wynn",
+            "icon": "⚔️",
+            "detail": "Edmund's ally and land rival — feast alibi confirmed."
+          },
+          {
+            "name": "Father Aldous",
+            "icon": "✝️",
+            "detail": "The chaplain — sealed in chapel, heard the confession."
+          },
+          {
+            "name": "Master Greet",
+            "icon": "📜",
+            "detail": "Edmund's secretary — prepared the disinheritance deed on instruction."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "Locked from within — secondary door discovered post-death."
+          },
+          {
+            "name": "The Great Hall",
+            "icon": "🍖",
+            "detail": "Feast location — Sir Thomas and most guests present all evening."
+          },
+          {
+            "name": "The Chapel Corridor",
+            "icon": "✝️",
+            "detail": "The secondary exit route — latch found open after the death."
+          },
+          {
+            "name": "Lady Maud's Chambers",
+            "icon": "🧵",
+            "detail": "Adjacent suite — where the poison was prepared."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Wine",
+            "icon": "🍷",
+            "detail": "White hellebore in the goblet — confirmed by the physician."
+          },
+          {
+            "name": "Bodkin Dagger",
+            "icon": "🗡️",
+            "detail": "Found beneath the rushes — no wound on Edmund, eliminated."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🧵",
+            "detail": "No ligature marks on Edmund's neck — eliminated."
+          },
+          {
+            "name": "White Hellebore Compound",
+            "icon": "🌿",
+            "detail": "The specific preparation — matched to residue in Maud's wax kit."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Hidden Secondary Door",
+            "icon": "🚪",
+            "detail": "Chapel corridor door known only to Lady Maud."
+          },
+          {
+            "name": "Main Chamber Door",
+            "icon": "🔒",
+            "detail": "Found barred from inside — no external access possible."
+          },
+          {
+            "name": "Window Passage",
+            "icon": "🪟",
+            "detail": "Chamber window — exterior wall, forty feet above the courtyard."
+          },
+          {
+            "name": "Priest's Hole",
+            "icon": "🕳️",
+            "detail": "A concealed alcove — too small for an adult, ruled out."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "physical",
+        "icon": "🚪",
+        "heading": "The Impossible Room",
+        "text": "The main chamber door was found barred from within using a heavy oak beam. The window is forty feet above the exterior courtyard — no rope or ladder was found. The priest's hole is eighteen inches wide — too small for any adult. Investigators conclude a secondary exit must exist that is not on the palace plans.",
+        "alone": "The chamber is physically impossible to have exited through any known route — a hidden exit must exist.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The impossibility of exiting through any known route and the chapel corridor latch found unlatched from the chamber side confirm the secondary door was the killer's exit — and Lady Maud is the only person who knew it existed."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "🌿",
+        "heading": "The Hellebore Match",
+        "text": "The physician's analysis of the goblet residue and the residue in Lady Maud's wax preparation dish confirms an identical compound — the same source plant, the same preparation method, the same concentration. The probability of two independent preparations matching this precisely is negligible.",
+        "alone": "The poison in Edmund's goblet and the residue in Lady Maud's writing chest are the same compound — she prepared the murder weapon.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The matching hellebore compounds and Master Greet's testimony that Lady Maud visited Edmund's writing chest three days ago confirm she found the deed and prepared the poison in direct response — the killing was triggered by the discovery of the disinheritance."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Three Alibis Assessed",
+        "text": "Sir Thomas: confirmed at the feast by three witnesses including the Lord Chamberlain — unimpeachable. Father Aldous: confirmed in the sealed chapel by the sacristan for the full window. Master Greet: confirmed in the palace scriptorium by two junior clerks who worked alongside him until the alarm. All three are definitively cleared.",
+        "alone": "All three alternative suspects are cleared by independent witnesses — only Lady Maud has no confirmed alibi for the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "All three alternatives cleared and Lady Maud's absence from the feast for eighteen minutes confirmed by the head steward together establish she had both the unaccounted time and the motive to commit the killing."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Deed and Its Discovery",
+        "text": "Master Greet confirms he prepared the disinheritance deed on Edmund's instruction and left it in Edmund's writing chest three days ago. He also recalls Lady Maud visiting the chest two days ago to retrieve the household seal for a routine letter — she would have seen the deed.",
+        "alone": "Lady Maud saw the disinheritance deed two days ago when she opened Edmund's writing chest — she had sufficient time to plan and prepare a response.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Lady Maud discovering the deed two days ago and Edmund's private wine ritual timing known only to household members confirm she had both the motive and the knowledge of the precise window in which to administer the poison."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Secondary Door Found",
+        "text": "A detailed search of the chapel corridor wall reveals a concealed door — flush with the panelling, latched on the chamber side. It opens into the back of the chamber's wardrobe alcove. The latch mechanism is unlatched. Edmund himself had the door installed fifteen years ago; palace records confirm it was known only to him and, as his wife, Lady Maud.",
+        "alone": "The hidden secondary door is confirmed — it was known only to Edmund and Lady Maud, and it was found unlatched after his death.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The impossibility of any known exit and the hidden door known only to Lady Maud confirm she used this route to enter the chamber, poison Edmund, bar the main door, and exit — creating a false locked-room scene."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Maud at the Writing Chest",
+        "text": "Master Greet recalls that when Lady Maud visited the writing chest, she spent longer than expected and replaced the household seal in a different position than she had found it. He assumed she had been reading correspondence. She had been reading the deed — and noting the hellebore preparation notes Edmund had left in an adjacent folio.",
+        "alone": "Lady Maud found both the deed and Edmund's own folio of medicinal plant preparations — giving her knowledge of the poison as well as the motive to use it.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The matching hellebore compounds and Maud's access to Edmund's preparation notes confirm she learned both the motive and the method from the same visit to his writing chest."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🍖",
+        "heading": "Maud's Missing Minutes",
+        "text": "The feast's head steward confirms Lady Maud was present at the feast but absent from her seat for approximately eighteen minutes between the third and fourth courses — timed by the kitchen service rotation. She claimed to have visited the necessarium. No one corroborates this. The murder window falls precisely within those eighteen minutes.",
+        "alone": "Lady Maud was absent from the feast for exactly the window in which Edmund was killed — and her stated reason is unconfirmed by any witness.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "All three alternatives cleared by witnesses and Lady Maud's eighteen-minute unconfirmed absence during the murder window confirm she is the only suspect with the opportunity, the access, and the motive."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Edmund's Evening Ritual",
+        "text": "Edmund's personal memoranda — a daily journal found in his chest — records his evening wine ritual in precise terms: between the third and fourth feast courses, he retired briefly to the chamber, drank, and returned. The entry appears in identical form across forty consecutive days. The ritual was predictable to anyone who had read the journal.",
+        "alone": "Edmund's evening ritual was documented in his own journal — Lady Maud, as his wife with access to the chest, knew exactly when he would be alone with his wine.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Lady Maud discovering the deed and the journal documenting Edmund's precise ritual timing confirm she had both the motive and the knowledge to time the poisoning to the exact window he would be alone."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Maud Carew",
+      "location": "The Private Chamber",
+      "weapon": "Poisoned Wine",
+      "access": "Hidden Secondary Door"
+    },
+    "epilogue": "Lady Maud Carew entered through the hidden corridor door during the feast's third course, added the prepared hellebore to Edmund's goblet, barred the main door from within, and exited back through the corridor door, leaving it unlatched in her haste. Edmund retired as always between courses, drank as always, and died alone. The unlatched latch and the matching hellebore compounds convicted her. The disinheritance deed was never sealed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #048",
+    "title": "The King's Table",
+    "setting": "Hampton Court Palace · Surrey · 1536",
+    "emoji": "🏰",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Maud killed Edmund. But the hidden door was not her discovery — it was shown to her by the one person who had built the escape route for an entirely different purpose. Father Aldous knew about the door. He had used it himself. And his afternoon confession with Edmund was not spiritual counsel — it was a final warning Edmund chose to ignore.",
+    "emptyState": "Maud used the door. Someone else knew it was there. Find why they stayed silent.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Maud Carew",
+            "icon": "👑",
+            "detail": "The killer — hidden door, hellebore, eighteen minutes."
+          },
+          {
+            "name": "Sir Thomas Wynn",
+            "icon": "⚔️",
+            "detail": "Feast alibi — cleared, but stood to benefit from Edmund's death."
+          },
+          {
+            "name": "Father Aldous",
+            "icon": "✝️",
+            "detail": "Sealed in chapel — but knew about the door and heard the confession."
+          },
+          {
+            "name": "Master Greet",
+            "icon": "📜",
+            "detail": "Cleared in scriptorium — but prepared the deed and saw Maud's reaction."
+          },
+          {
+            "name": "Lord Carver Holt",
+            "icon": "🔑",
+            "detail": "Palace chamberlain — oversaw the original door installation, kept the secret."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Chamber",
+            "icon": "🚪",
+            "detail": "Crime scene — barred main door, hidden secondary exit."
+          },
+          {
+            "name": "The Chapel Corridor",
+            "icon": "✝️",
+            "detail": "The hidden door's corridor side — latch found unlatched."
+          },
+          {
+            "name": "Lady Maud's Chambers",
+            "icon": "🧵",
+            "detail": "Where the poison was prepared — matching residue found."
+          },
+          {
+            "name": "The Palace Archive",
+            "icon": "📜",
+            "detail": "Where original construction records are kept — confirming the door."
+          },
+          {
+            "name": "The Confession Alcove",
+            "icon": "✝️",
+            "detail": "Where Edmund confessed to Father Aldous that afternoon."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Wine",
+            "icon": "🍷",
+            "detail": "Confirmed cause of death — white hellebore in the goblet."
+          },
+          {
+            "name": "Bodkin Dagger",
+            "icon": "🗡️",
+            "detail": "Found beneath rushes — no wound, eliminated."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🧵",
+            "detail": "No ligature marks — eliminated."
+          },
+          {
+            "name": "White Hellebore Compound",
+            "icon": "🌿",
+            "detail": "Prepared by Maud — matched to Edmund's plant preparation folio."
+          },
+          {
+            "name": "The Unsigned Deed",
+            "icon": "📄",
+            "detail": "Not a weapon — but the catalyst. The deed triggered everything."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Hidden Secondary Door",
+            "icon": "🚪",
+            "detail": "Corridor door shown to Maud by Father Aldous — not her discovery."
+          },
+          {
+            "name": "Main Chamber Door",
+            "icon": "🔒",
+            "detail": "Barred from inside — could not be used for entry or exit."
+          },
+          {
+            "name": "Window Passage",
+            "icon": "🪟",
+            "detail": "Forty feet above courtyard — eliminated."
+          },
+          {
+            "name": "Priest's Hole",
+            "icon": "🕳️",
+            "detail": "Too small — eliminated."
+          },
+          {
+            "name": "Chamberlain's Master Key",
+            "icon": "🔑",
+            "detail": "Held by Lord Holt — logged as unused that evening."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Revealed the Hidden Door",
+            "icon": "🚪",
+            "detail": "Showed Lady Maud the secondary corridor exit she did not know existed."
+          },
+          {
+            "name": "Withheld the Confession",
+            "icon": "✝️",
+            "detail": "Did not disclose Edmund's afternoon confession about the deed."
+          },
+          {
+            "name": "Prepared the Deed",
+            "icon": "📜",
+            "detail": "Drafted the disinheritance document that triggered the killing."
+          },
+          {
+            "name": "Kept the Archive Secret",
+            "icon": "🗄️",
+            "detail": "Suppressed the palace construction record revealing the hidden door."
+          },
+          {
+            "name": "Confirmed the Ritual Timing",
+            "icon": "⏱️",
+            "detail": "Told Maud the precise window of Edmund's evening wine ritual."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Archive Record",
+        "text": "The palace construction archive — examined after the hidden door's discovery — shows the secondary corridor door was commissioned not by Edmund but by the previous chamberlain, Lord Holt's predecessor, as a private access route for the confessor's use. Father Aldous, as confessor, was given the door's details upon his appointment twelve years ago.",
+        "alone": "Father Aldous was officially informed of the hidden door upon his appointment as confessor — he has known about it for twelve years.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Father Aldous knowing about the hidden door for twelve years and his private meeting with Lady Maud in the confession alcove two days before the murder confirm he told her about the door — providing the access method she needed to create the locked-room illusion."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "The Afternoon Confession",
+        "text": "Father Aldous admits, under ecclesiastical examination, that Edmund confessed to him that afternoon that he intended to disinherit Lady Maud and that he feared her reaction when she discovered it. Edmund asked Aldous to pray for his safety. Aldous is bound by the seal of confession — but investigators note he took no further action to protect Edmund.",
+        "alone": "Father Aldous knew Edmund feared for his safety from Lady Maud — and took no action to prevent the killing that followed hours later.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Father Aldous knowing Edmund feared Maud and his failure to warn anyone confirm he made a choice to protect Maud over Edmund — a choice consistent with having already shown her the hidden door two days prior."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "The Alcove Meeting",
+        "text": "A novice attached to the chapel recalls seeing Father Aldous and Lady Maud in private conversation in the confession alcove two days before the feast — not in the confessional proper, but at a writing table, with a document between them. The novice saw Father Aldous draw something on the document. He did not see what it was.",
+        "alone": "Father Aldous and Lady Maud met privately two days before the murder — he drew something on a document during their meeting.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The novice seeing Aldous draw on a document during the private meeting and the architectural sketch found in Maud's chambers matching the hidden door's location confirm Aldous drew her a map showing the secondary door."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Edmund's Journal Entry",
+        "text": "Edmund's daily journal contains a final entry the morning of his death: 'Aldous has been to see Maud. I do not know what passed between them. I should have burned the deed before she found it. It is too late now for anything but prayer.' Edmund knew Aldous had spoken to Maud and understood the danger — but did nothing.",
+        "alone": "Edmund knew Father Aldous had met privately with Lady Maud and feared the consequences — his final journal entry records this premonition on the day of his death.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Edmund's final journal entry recording his fear after Aldous met Maud and Lord Holt's confirmation that Aldous had previously used the hidden door himself confirm Aldous showed Maud the route from personal knowledge — he had walked it himself."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "🗺️",
+        "heading": "The Map in Maud's Chamber",
+        "text": "A small architectural sketch found folded inside Lady Maud's prayer book shows the chapel corridor wall with a door marked in a different ink from the rest of the sketch. The sketch is not in Maud's hand — the lettering matches Father Aldous's known script from chapel records. It was drawn for her, not by her.",
+        "alone": "Father Aldous drew Lady Maud a map showing the hidden door — she did not discover it herself; he gave it to her.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Father Aldous's official knowledge of the hidden door for twelve years and the map drawn in his hand found in Maud's prayer book confirm he deliberately showed her the access route — providing the means for the locked-room killing."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Aldous's Prior Sympathies",
+        "text": "Palace correspondence from three years prior shows Father Aldous had written to a church superior describing Lady Maud as 'unjustly constrained in a loveless arrangement' and Edmund as 'a man of property over piety.' The letter was never sent — found among Aldous's papers. It reveals longstanding sympathy for Maud and antipathy toward Edmund.",
+        "alone": "Father Aldous held longstanding sympathetic views toward Lady Maud and negative views of Edmund — his motivations predate the confession by years.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Aldous knowing Edmund feared for his safety and his documented years-long sympathy for Maud confirm his failure to act after the confession was not negligence — it was a deliberate choice rooted in whose side he had already chosen."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Worn Latch",
+        "text": "Examination of the hidden door's latch mechanism reveals wear inconsistent with rare use — the metal is polished smooth on the operating surface, suggesting regular operation over years. The door had been used repeatedly, not just the night of the murder. Father Aldous, as confessor with private corridor access, is the only person who could have used it regularly.",
+        "alone": "The hidden door's latch shows years of regular use — Father Aldous had been using this private route throughout his twelve years as confessor.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The novice seeing Aldous draw something for Maud and the worn latch proving he regularly used the door himself confirm he showed Maud a route he knew intimately from personal use — not theoretical knowledge."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "Lord Holt's Admission",
+        "text": "Lord Carver Holt, the current palace chamberlain, admits under questioning that he was aware Father Aldous had been using the secondary door for private pastoral visits — visits not entered in the household log. Holt had tacitly permitted this as a courtesy to the confessor's discretion. He confirms Aldous had used the route as recently as the week before Edmund's death.",
+        "alone": "Father Aldous had been making unlogged private visits through the hidden door — Lord Holt had knowingly permitted this for years.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Edmund's final journal recording his fear after Aldous met Maud and Holt confirming Aldous used the hidden door regularly confirm Aldous's access to Maud was habitual and private — he had the means and the relationship to share the secret without detection."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Maud Carew",
+      "location": "The Private Chamber",
+      "weapon": "Poisoned Wine",
+      "access": "Hidden Secondary Door",
+      "accomplice": "Revealed the Hidden Door"
+    },
+    "epilogue": "Father Aldous had long believed Lady Maud was treated unjustly. When she visited him after finding the deed, he drew her the map. He told himself he was showing her an escape route — a way to flee if Edmund became violent. He did not ask what she planned. He chose not to know. After Edmund's confession that afternoon, he sealed his silence in prayer and attended vespers as though nothing had passed. Lady Maud was convicted. Father Aldous was stripped of his position and confined to a monastery. He maintained to his death that he had shown her nothing she could not have found herself."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Singapore, 2015. A rooftop bar. A body on the terrace. And a killer with a deadline. 🌆🔍 Case #054 — High Altitude. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Singapore 2015, a rooftop bar, a whistleblower dead before he could talk, and a killer racing the clock. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A Singapore rooftop bar at night in 2015, infinity pool gleaming, the city skyline blazing with towers and light, a cocktail glass overturned on a teak deck. A figure in a white linen jacket visible at the terrace railing against the blaze of the city. Deep navy sky, neon city glow, warm amber bar light. Cinematic and electric, style of Michael Mann meets Wong Kar-wai.",
+    "animationPrompt": "Slow pan across a Singapore rooftop bar at night, 2015. City towers blaze beyond the infinity pool. A cocktail glass lies overturned on the teak deck. The camera moves to the terrace railing — a phone face-down beside it, screen cracked. The city lights reflect in the poolwater below. A door swings closed in the wind. Fade to black.",
+    "hashtags": [
+      "#SingaporeMystery",
+      "#RooftopMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "High Altitude",
+    "setting": "Apex Bar · Marina Bay · Singapore · 2015",
+    "emoji": "🌆",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Financial analyst Teo Jun-wei was found dead on the private terrace of the Apex Bar at 11 PM. He had been scheduled to meet a journalist at midnight with documents exposing a major money laundering operation. Three people were on the terrace. The documents are gone. The midnight meeting never happened.",
+    "emptyState": "He had the documents. Someone needed them gone before midnight.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priscilla Tan",
+            "icon": "💼",
+            "detail": "Senior partner at the implicated law firm — arrived at the bar before Teo."
+          },
+          {
+            "name": "Marcus Loh",
+            "icon": "🔒",
+            "detail": "Private security consultant — was hired by the law firm that week."
+          },
+          {
+            "name": "Audrey Fong",
+            "icon": "📱",
+            "detail": "Teo's colleague — claimed she was there to warn him off the meeting."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Terrace",
+            "icon": "🌃",
+            "detail": "Where Teo's body was found — restricted access, key card required."
+          },
+          {
+            "name": "The Bar Interior",
+            "icon": "🥂",
+            "detail": "Where all three suspects were seen at various points during the evening."
+          },
+          {
+            "name": "The Service Stairwell",
+            "icon": "🚪",
+            "detail": "Staff-only access route adjacent to the private terrace."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cocktail Shaker",
+            "icon": "🍸",
+            "detail": "Heavy steel bar tool — blunt force wound consistent with its base."
+          },
+          {
+            "name": "Glass Balustrade Panel",
+            "icon": "🪟",
+            "detail": "Tempered glass panel — Teo's phone found against it, no blood trace."
+          },
+          {
+            "name": "Terrace Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Wall-mounted unit — wound profile inconsistent with its shape."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Missing Documents",
+        "text": "Teo Jun-wei had emailed his journalist contact at 8 PM confirming he would bring a USB drive containing financial records from the law firm's client accounts. When the body was found, no USB drive was on his person or in his bag. The journalist, arriving at midnight, found police tape instead of Teo.",
+        "alone": "The documents Teo had prepared to hand over were removed from his body — the killer took them before leaving the terrace.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The USB drive removed from Teo's body and Priscilla Tan's firm keycard accessing the private terrace thirty minutes before Teo's confirmed arrival together confirm she was on the terrace in advance and had the opportunity to search his belongings after the killing."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🍸",
+        "heading": "The Shaker Wound",
+        "text": "The forensic examination confirms Teo died from a single blow to the back of the head — the base of the steel cocktail shaker found on the terrace floor matches the wound profile precisely. The shaker belonged to the bar's private terrace service kit. No prints were recovered from the shaker's handle.",
+        "alone": "Teo was killed with the private terrace's own cocktail shaker — the killer wiped the handle but left the weapon.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The terrace shaker used as the weapon and Marcus Loh's confirmed absence from the bar interior between 10:15 and 10:45 PM together confirm he had the unaccounted window on the terrace when the killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Audrey's Account",
+        "text": "Audrey Fong says she arrived at the bar at 9:30 PM and waited in the interior for Teo until 10:00 PM, then left when he did not appear. Bar CCTV confirms she badged in at 9:31 PM and badged out at 10:03 PM — thirty-two minutes before Teo's estimated time of death between 10:30 and 10:45 PM. She was gone before the killing.",
+        "alone": "Audrey left the bar at 10:03 PM — at least twenty-seven minutes before Teo's estimated time of death. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Audrey cleared by badge log and CCTV and Priscilla's firm keycard used to access the terrace before Teo arrived together eliminate Audrey and confirm Priscilla had early terrace access the other suspects did not have."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Law Firm Connection",
+        "text": "The documents Teo had compiled implicate Hartwell & Tan LLP in facilitating money transfers for a regional criminal syndicate over three years. Priscilla Tan is the senior partner of Hartwell & Tan. The firm's name is literally her name. The documents, if published, would have ended her career and triggered criminal prosecution.",
+        "alone": "Priscilla Tan is the senior partner of the directly implicated firm — the documents Teo was about to publish named her practice explicitly.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The documents naming Priscilla's firm and the cracked phone screen showing a partial message to 'Marcus' sent at 10:18 PM confirm she and Marcus were coordinating that evening — Marcus was her hired security consultant."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "💳",
+        "heading": "The Keycard Access",
+        "text": "The private terrace requires a keycard for access. The terrace access log shows Priscilla Tan's firm visitor keycard — issued for a client dinner two weeks prior and not returned — was used to access the terrace at 10:08 PM. Teo Jun-wei's own keycard was not used until 10:22 PM. Priscilla was on the terrace fourteen minutes before Teo arrived.",
+        "alone": "Priscilla accessed the private terrace at 10:08 PM using an unreturned keycard — fourteen minutes before Teo arrived and during the window leading to his death.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The USB drive removed from Teo's body and Priscilla's keycard placing her on the terrace before and during the murder window confirm she had the access, the time, and the motive to kill Teo and take the documents."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "digital",
+        "icon": "📹",
+        "heading": "Marcus's Gap",
+        "text": "Bar interior CCTV shows Marcus Loh at the bar counter until 10:12 PM. He is not visible on any interior camera from 10:12 PM until 10:48 PM — a thirty-six minute gap. He reappears at the bar at 10:48 PM and orders a drink. The private terrace is not covered by interior cameras. The service stairwell has no camera coverage.",
+        "alone": "Marcus was absent from any camera view for thirty-six minutes spanning the entire murder window — he was not in the bar interior during this time.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The terrace cocktail shaker used as the weapon and Marcus's thirty-six minute camera gap spanning the murder window confirm he had the unaccounted time to be on the terrace when Teo was killed."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "digital",
+        "icon": "💳",
+        "heading": "No Second Keycard",
+        "text": "The terrace access log shows only two keycard uses after 9 PM: Priscilla's at 10:08 PM and Teo's at 10:22 PM. Marcus Loh was not issued a keycard at any point. The service stairwell door — which provides an alternative route to the terrace — requires a staff PIN. Bar staff confirm the PIN was not shared with any guest that evening.",
+        "alone": "Only Priscilla had a keycard for the terrace — Marcus had no legitimate access route that is confirmed.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Audrey cleared by badge log and Priscilla holding the only guest keycard for the terrace confirm that of the three suspects, only Priscilla had confirmed access to the terrace during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "digital",
+        "icon": "📱",
+        "heading": "Teo's Cracked Phone",
+        "text": "Teo's phone — found face-down against the glass balustrade — shows a cracked screen from impact. The lock screen displays a notification: a partial incoming message at 10:18 PM reading 'She's inside. Go now. —M.' The message is from a contact saved as 'M.L.' — Marcus Loh. Marcus was directing someone to act at 10:18 PM — four minutes before Teo accessed the terrace.",
+        "alone": "Marcus sent a message directing action at 10:18 PM — four minutes before Teo arrived — using language that implies he was coordinating with a second person already in position.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The documents naming Priscilla's firm and Marcus's 10:18 PM message saying she's inside and to go now confirm Marcus and Priscilla were coordinating — he was the lookout, she was already on the terrace waiting for Teo."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priscilla Tan",
+      "location": "The Private Terrace",
+      "weapon": "Cocktail Shaker"
+    },
+    "epilogue": "Priscilla Tan had accessed the private terrace at 10:08 PM using an unreturned keycard. Marcus Loh, watching from the bar interior, sent the signal when Teo approached at 10:18 PM. Teo accessed the terrace at 10:22 PM. Priscilla struck him from behind with the cocktail shaker, took the USB drive, and exited through the service stairwell using a PIN Marcus had obtained from a bribed bar employee. Marcus re-entered the bar at 10:48 PM and ordered a drink as though nothing had happened. The midnight meeting never took place. Priscilla was arrested six weeks later when a backup copy of the documents — emailed to the journalist's secure server before Teo left his apartment — was published."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "High Altitude",
+    "setting": "Apex Bar · Marina Bay · Singapore · 2015",
+    "emoji": "🌆",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Priscilla killed Teo. Marcus coordinated. But the midnight deadline was not their only constraint — Marcus had a second client meeting at 11:30 PM across the city, and the killing had to be done and cleared before he could get there. Find the ticking clock that made the timing non-negotiable.",
+    "emptyState": "The deadline was midnight. But the real clock stopped earlier. Find it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priscilla Tan",
+            "icon": "💼",
+            "detail": "The killer — terrace keycard, shaker wound, USB drive taken, coordinating with Marcus."
+          },
+          {
+            "name": "Marcus Loh",
+            "icon": "🔒",
+            "detail": "The coordinator — camera gap, 10:18 PM message, 11:30 PM second meeting."
+          },
+          {
+            "name": "Audrey Fong",
+            "icon": "📱",
+            "detail": "Cleared — badge log exit 10:03 PM, before the murder window."
+          },
+          {
+            "name": "The Journalist",
+            "icon": "📰",
+            "detail": "The midnight contact — arrived to find police tape, held a backup copy."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Terrace",
+            "icon": "🌃",
+            "detail": "Primary crime scene — Priscilla's keycard, shaker, Teo's body."
+          },
+          {
+            "name": "The Bar Interior",
+            "icon": "🥂",
+            "detail": "Marcus's claimed location — thirty-six minute camera gap."
+          },
+          {
+            "name": "The Service Stairwell",
+            "icon": "🚪",
+            "detail": "Staff-only exit route — Priscilla's escape path, PIN required."
+          },
+          {
+            "name": "The Raffles Hotel",
+            "icon": "🏨",
+            "detail": "Where Marcus's 11:30 PM second client meeting was held — cross-city."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cocktail Shaker",
+            "icon": "🍸",
+            "detail": "Confirmed weapon — wound profile, found on terrace, no prints on handle."
+          },
+          {
+            "name": "Glass Balustrade Panel",
+            "icon": "🪟",
+            "detail": "No blood — Teo's phone fell against it but it was not the weapon."
+          },
+          {
+            "name": "Terrace Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Wound profile inconsistent — eliminated."
+          },
+          {
+            "name": "USB Drive",
+            "icon": "💾",
+            "detail": "Not a weapon — the motive object. Removed from Teo's body."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before 10:00 PM",
+            "icon": "🌙",
+            "detail": "Pre-arrival — Priscilla in bar, Audrey present, Teo not yet there."
+          },
+          {
+            "name": "10:00–10:30 PM",
+            "icon": "⚠️",
+            "detail": "Priscilla on terrace from 10:08, Teo arrived 10:22 — murder window."
+          },
+          {
+            "name": "10:30–11:00 PM",
+            "icon": "🚨",
+            "detail": "Body found — Priscilla gone, Marcus reappeared at bar 10:48 PM."
+          },
+          {
+            "name": "After 11:00 PM",
+            "icon": "🌃",
+            "detail": "Police arrived, Marcus departed for 11:30 Raffles meeting."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "digital",
+        "icon": "💳",
+        "heading": "The Keycard Timeline",
+        "text": "The terrace access log is precise to the second: Priscilla's keycard at 10:08:14 PM, Teo's keycard at 10:22:07 PM, no other keycard uses. The stairwell PIN was entered at 10:43:55 PM from the terrace side — the exit direction. Priscilla had exited through the stairwell at 10:43 PM, three minutes before Marcus reappeared at the bar at 10:48 PM.",
+        "alone": "Priscilla exited the terrace through the stairwell at 10:43 PM — three minutes before Marcus returned to the bar, suggesting he met her at the stairwell bottom to receive the USB drive.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Priscilla exiting the stairwell at 10:43 PM and Marcus reappearing at the bar at 10:48 PM with a five-minute gap between them confirm he met her at the stairwell base — the handoff of the USB drive occurred in those five minutes."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "🍸",
+        "heading": "The Shaker and the Stance",
+        "text": "Forensic reconstruction of the blow indicates the attacker stood behind and to the left of Teo as he faced the city view — a position consistent with someone who had arrived before Teo and was waiting near the terrace bar station. The blow was single and decisive. The shaker was replaced on the bar station surface before the killer left — it was found upright, not dropped.",
+        "alone": "The attacker had positioned themselves at the bar station before Teo arrived and replaced the weapon carefully after the blow — controlled, not panicked.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The weapon carefully replaced and Priscilla's fourteen-minute head start on the terrace confirm she had time to position herself, wait for Teo, strike, and compose the scene before the body was found."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Audrey and the Journalist Cleared",
+        "text": "Audrey is confirmed gone at 10:03 PM by badge log and CCTV — thirty-six minutes before the earliest possible murder time. The journalist arrived at midnight and was met by police — his presence is confirmed by the responding officer's log at 00:03 AM. Both are definitively eliminated.",
+        "alone": "Audrey and the journalist are both cleared by documentary evidence — neither was present during the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Audrey and the journalist both cleared and Marcus's 11:30 PM cross-city meeting confirmed at the Raffles confirm Marcus needed the operation completed by 10:45 PM at the latest to reach his second client — the ticking clock was his schedule, not the midnight deadline."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📱",
+        "heading": "The Full Message Thread",
+        "text": "Forensic extraction of Teo's phone recovers the full notification: 'She's inside. Go now. He's coming up. —M.' The message implies Marcus could see Teo approaching and was alerting Priscilla in real time. A prior message in the thread, from 9:45 PM, reads: 'Confirmed on terrace. In position. Clock running. —M.'",
+        "alone": "Marcus was monitoring Teo's approach in real time and had confirmed Priscilla was in position at 9:45 PM — the operation had been running for over thirty minutes before Teo arrived.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Marcus confirming Priscilla in position at 9:45 PM and his 11:30 PM Raffles meeting requiring departure by 10:50 PM confirm the operation had to conclude by 10:45 PM — the clock was Marcus's transit window, not the journalist's midnight arrival."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "digital",
+        "icon": "📹",
+        "heading": "The Stairwell Handoff",
+        "text": "The service stairwell's lower landing has a single camera — monitored by the bar's security system but not reviewed until investigators requested it. At 10:47 PM the camera captures two figures in the stairwell's lower section: one in a white linen jacket consistent with Priscilla's described outfit, one in dark clothing consistent with Marcus. They exchange a small object and separate.",
+        "alone": "The stairwell camera captures Priscilla and Marcus exchanging an object at 10:47 PM — the USB drive was handed over in the stairwell before Marcus returned to the bar.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Priscilla exiting the terrace stairwell at 10:43 PM and the stairwell camera capturing the exchange at 10:47 PM confirm the four-minute gap was the handoff — Marcus took the USB drive from Priscilla in the stairwell before returning to the bar at 10:48 PM."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "digital",
+        "icon": "📋",
+        "heading": "Marcus's Raffles Meeting",
+        "text": "A calendar entry on Marcus Loh's phone — recovered during investigation — shows a confirmed 11:30 PM meeting at the Raffles Hotel with a client listed as 'GHL Advisors.' The Raffles is twenty-two minutes by taxi from Marina Bay. Marcus needed to depart by 11:05 PM at the latest. The killing had to be concluded and the stairwell exit completed before that window closed.",
+        "alone": "Marcus had a confirmed 11:30 PM meeting twenty-two minutes away — he needed the operation completed by 10:45 PM to reach it in time.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Audrey and journalist cleared and Marcus's 11:30 PM meeting requiring 10:45 PM completion confirm the real operational deadline was not midnight — it was Marcus's transit window to his next appointment."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📱",
+        "heading": "The Backup Email",
+        "text": "The journalist, interviewed after the investigation, reveals Teo had emailed a backup copy of the documents to his secure server at 7:45 PM — three hours before arriving at the bar. The email was time-locked to auto-forward to three media organisations at 6 AM the following morning unless Teo logged in to cancel it before then. Teo was dead. The lock expired. The documents published at 6 AM.",
+        "alone": "Teo had arranged a dead-man's switch — if he did not cancel the auto-forward by 6 AM, the documents would publish automatically. Killing him guaranteed publication.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Marcus's 9:45 PM confirmation that the operation was running and the dead-man's switch set at 7:45 PM confirm Priscilla and Marcus did not know about the backup — they killed Teo to stop publication and achieved the opposite."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💼",
+        "heading": "GHL Advisors",
+        "text": "GHL Advisors is identified as a Singapore-registered consultancy with one director — Marcus Loh himself. The 11:30 PM Raffles meeting listed on his calendar was with himself — it does not exist. The calendar entry was a constructed alibi anchor: if questioned about his movements after the killing, he could claim he had departed for a client meeting, creating a documented reason to have left the bar.",
+        "alone": "The GHL Advisors meeting was a fictitious alibi Marcus constructed for himself — the calendar entry was designed as a documented excuse to leave Marina Bay after the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marcus's fake Raffles meeting and his need to be gone from the bar by 11:05 PM confirm the constructed alibi was designed to explain a departure that had nothing to do with any genuine client — he needed a reason to leave that was not connected to a dead body on the terrace above."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priscilla Tan",
+      "location": "The Private Terrace",
+      "weapon": "Cocktail Shaker",
+      "window": "10:00–10:30 PM"
+    },
+    "epilogue": "Priscilla Tan had accessed the terrace at 10:08 PM and positioned herself at the bar station. Marcus had confirmed her in place at 9:45 PM and watched from the bar interior for Teo's arrival. At 10:18 PM he sent the signal. Teo arrived at 10:22 PM, faced the city view, and was struck from behind. Priscilla took the USB drive, replaced the shaker, and exited through the stairwell at 10:43 PM. She handed the drive to Marcus in the stairwell at 10:47 PM. He returned to the bar, ordered a drink, then departed for his fictitious Raffles meeting at 11:05 PM. Neither of them knew about the dead-man's switch. The documents published at 6:00 AM. Priscilla was arrested. Marcus received fourteen years as an accessory to murder and conspiracy. The law firm was dissolved."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #054",
+    "title": "High Altitude",
+    "setting": "Apex Bar · Marina Bay · Singapore · 2015",
+    "emoji": "🌆",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Priscilla killed Teo. Marcus coordinated. But the criminal syndicate whose money Teo had documented was not passive — they had their own operative in the bar that night. Find who the third layer was and what they were there to ensure.",
+    "emptyState": "Two killers. One more operative. Find the third layer.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Priscilla Tan",
+            "icon": "💼",
+            "detail": "The killer — terrace, shaker, USB drive, stairwell exit."
+          },
+          {
+            "name": "Marcus Loh",
+            "icon": "🔒",
+            "detail": "The coordinator — camera gap, message, stairwell handoff, fake alibi."
+          },
+          {
+            "name": "Audrey Fong",
+            "icon": "📱",
+            "detail": "Teo's colleague — cleared as killer, but her presence at the bar requires explanation."
+          },
+          {
+            "name": "The Journalist",
+            "icon": "📰",
+            "detail": "Midnight contact — cleared, held the backup that published at 6 AM."
+          },
+          {
+            "name": "Raymond Koh",
+            "icon": "🎰",
+            "detail": "Bar regular — identified in syndicate intelligence files, present at Apex that evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Private Terrace",
+            "icon": "🌃",
+            "detail": "Primary crime scene — Priscilla's operation, Teo's death."
+          },
+          {
+            "name": "The Bar Interior",
+            "icon": "🥂",
+            "detail": "Marcus's position — and where Raymond Koh was stationed."
+          },
+          {
+            "name": "The Service Stairwell",
+            "icon": "🚪",
+            "detail": "Priscilla and Marcus's stairwell handoff at 10:47 PM."
+          },
+          {
+            "name": "The VIP Lounge",
+            "icon": "🛋️",
+            "detail": "Adjacent to the bar — where Audrey and Koh were seen together briefly."
+          },
+          {
+            "name": "The Syndicate's Singapore Office",
+            "icon": "🏢",
+            "detail": "Where Koh's instructions originated — intelligence files connect him here."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Cocktail Shaker",
+            "icon": "🍸",
+            "detail": "Confirmed murder weapon — Priscilla's blow, replaced carefully."
+          },
+          {
+            "name": "Glass Balustrade Panel",
+            "icon": "🪟",
+            "detail": "No blood — eliminated."
+          },
+          {
+            "name": "Terrace Fire Extinguisher",
+            "icon": "🧯",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "USB Drive",
+            "icon": "💾",
+            "detail": "The motive object — taken by Priscilla, handed to Marcus, passed to Koh."
+          },
+          {
+            "name": "Dead-Man's Switch",
+            "icon": "⏱️",
+            "detail": "Teo's backup system — none of the three operatives knew about it."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before 10:00 PM",
+            "icon": "🌙",
+            "detail": "Setup phase — Priscilla on terrace 10:08, Koh in bar, Marcus in position."
+          },
+          {
+            "name": "10:00–10:30 PM",
+            "icon": "⚠️",
+            "detail": "Murder window — Teo arrived 10:22, killed shortly after."
+          },
+          {
+            "name": "10:30–11:00 PM",
+            "icon": "🚨",
+            "detail": "Extraction — stairwell handoff 10:47, Marcus to bar 10:48, Koh departed."
+          },
+          {
+            "name": "After 11:00 PM",
+            "icon": "🌃",
+            "detail": "Marcus departed on fake alibi, police arrived, 6 AM publication ensured."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Received the USB Drive",
+            "icon": "💾",
+            "detail": "Collected the stolen documents from Marcus after the stairwell handoff."
+          },
+          {
+            "name": "Monitored Audrey Fong",
+            "icon": "👁️",
+            "detail": "Ensured Teo's colleague left the bar without learning what was planned."
+          },
+          {
+            "name": "Provided the Stairwell PIN",
+            "icon": "🔑",
+            "detail": "Obtained the service stairwell PIN from a bribed bar employee."
+          },
+          {
+            "name": "Managed the Syndicate's Exposure",
+            "icon": "🏢",
+            "detail": "The syndicate's on-site representative ensuring the documents were secured."
+          },
+          {
+            "name": "Destroyed the USB Drive",
+            "icon": "🔥",
+            "detail": "Ensured the physical drive was disposed of before it could be recovered."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Raymond Koh's File",
+        "text": "Singapore financial intelligence files — obtained through the investigation — identify Raymond Koh as a known associate of the criminal syndicate named in Teo's documents. Koh's role: liaison between the syndicate's Singapore operations and local service providers. He had been under passive surveillance for four months but never charged. He was present at Apex Bar that evening.",
+        "alone": "Raymond Koh is a known syndicate liaison who was at Apex Bar on the night of the murder — his presence was not coincidental.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Koh identified as a syndicate liaison and his bar tab showing him present from 9:15 PM to 11:05 PM confirm he was stationed at the bar for the full duration of the operation — he was the syndicate's on-site representative."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "digital",
+        "icon": "💾",
+        "heading": "The Drive's Destination",
+        "text": "The stairwell camera captures Priscilla handing Marcus a small rectangular object at 10:47 PM. Marcus is then captured on bar interior CCTV at 10:48 PM — but by 11:05 PM, when he departs, a second stairwell camera capture at the ground floor exit shows him empty-handed. The USB drive left the building with someone else before 11:05 PM.",
+        "alone": "Marcus did not leave with the USB drive — he passed it to someone in the bar between 10:48 and 11:05 PM, and that person carried it out.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Marcus not leaving with the USB drive and Koh departing the bar at 11:02 PM three minutes before Marcus confirm Koh received the drive from Marcus and departed with it — he was the final carrier."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📱",
+        "heading": "Why Audrey Was There",
+        "text": "Audrey Fong, interviewed extensively, reveals she came to the bar because Teo had messaged her that afternoon saying he was nervous about the meeting and asked her to be nearby. She was not aware of the full extent of the documents. She also reveals that a man at the bar — whom she later identified from photographs as Raymond Koh — had engaged her in conversation for twenty minutes and specifically asked about Teo's plans.",
+        "alone": "Raymond Koh deliberately engaged Audrey in conversation — he was monitoring her and gathering intelligence about Teo's schedule from an unwitting source.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Koh engaging Audrey to extract information about Teo's plans and Audrey's badge-out at 10:03 PM confirming she left shortly after their conversation confirm Koh had established Teo's likely arrival time from Audrey before the operation began."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📱",
+        "heading": "Marcus and Koh's Message Thread",
+        "text": "A forensic extraction of Marcus Loh's phone reveals a separate encrypted message thread with a contact saved as 'R.K.' — Raymond Koh. The thread shows eleven messages over three days before the murder coordinating the operation, the stairwell PIN, and the handoff point. The final message, sent at 11:03 PM: 'Done. Clean. Yours now.' Reply from R.K.: 'Confirmed. Good work.'",
+        "alone": "Marcus and Koh had coordinated the operation for three days — Koh received the final confirmation and collected the USB drive at 11:03 PM.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Marcus passing the drive to someone before departing and the message thread showing his 11:03 PM confirmation to Koh confirm Koh received the USB drive in the bar before Marcus left — the syndicate's liaison secured the documents."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "digital",
+        "icon": "🧾",
+        "heading": "Koh's Bar Tab",
+        "text": "Raymond Koh's bar tab shows he arrived at 9:15 PM and ran a tab until 11:02 PM — a tab of 340 Singapore dollars across six drinks over nearly two hours. He was present from forty-seven minutes before Priscilla accessed the terrace through to three minutes before Marcus departed. His presence spanned the entire operation.",
+        "alone": "Koh was at the bar from 9:15 PM to 11:02 PM — present before, during, and after the killing, departing three minutes before Marcus.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Koh identified as a syndicate liaison and his bar tab confirming his presence across the entire operation window confirm he was the syndicate's on-site control — his role was to observe, support, and receive."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "digital",
+        "icon": "📹",
+        "heading": "Koh's Departure",
+        "text": "Bar exit CCTV captures Koh leaving at 11:02 PM. Ground floor lobby footage shows him pausing at a waste bin near the elevator lobby — he removes something from his jacket pocket and appears to inspect it before placing it inside the bin. Investigators recovered a destroyed USB drive casing from the bin — the drive had been physically snapped. The data storage chip was not recovered.",
+        "alone": "Koh destroyed the USB drive casing in the lobby but removed the data chip — the documents were transferred to another medium before the drive was discarded.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Marcus's message confirming the handoff and Koh destroying the USB casing while retaining the chip confirm the physical drive was discarded as planned — the data chip would be unrecoverable from the bin and untraceable to Koh."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Bar Employee",
+        "text": "A bar employee interviewed three weeks into the investigation admits Koh had approached him two days before the murder and offered 1,500 dollars for the service stairwell PIN. The employee provided it and was paid in cash. He identified Koh from a photograph. The PIN was passed to Marcus, who used it to arrange Priscilla's exit route and confirm the stairwell as the handoff point.",
+        "alone": "Koh bribed the bar employee for the stairwell PIN two days before the murder — the operational planning included obtaining the exit route in advance.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Koh gathering intelligence from Audrey and separately bribing a bar employee for the stairwell PIN confirm his role was comprehensive operational support — he handled both intelligence and logistics for Priscilla and Marcus."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The 6 AM Publication",
+        "text": "The documents published at 6 AM included the names of four syndicate accounts, two shell company directors, and three jurisdictions of money flow — none of which were on the USB drive Priscilla took. Teo's backup email had contained a more complete version of the documents than the version on the USB drive. The operation secured an incomplete set of evidence and ensured the complete set published regardless.",
+        "alone": "The USB drive contained less than the backup email — the operation failed to prevent publication and secured incomplete documents, meaning the syndicate's exposure was worse than if they had done nothing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Koh destroying the USB casing and the published documents being more complete than what was on the drive confirm the entire operation was a strategic failure — the syndicate killed Teo, took incomplete documents, and triggered the publication of a more damaging backup they never knew existed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Priscilla Tan",
+      "location": "The Private Terrace",
+      "weapon": "Cocktail Shaker",
+      "window": "10:00–10:30 PM",
+      "accomplice": "Received the USB Drive"
+    },
+    "epilogue": "Raymond Koh had managed the operational logistics for three days: the stairwell PIN from the bribed employee, the coordination with Marcus across eleven encrypted messages, the on-site intelligence from Audrey about Teo's schedule. Priscilla killed Teo and handed the drive to Marcus in the stairwell. Marcus passed it to Koh in the bar. Koh destroyed the drive casing in the lobby and removed the chip. None of them knew Teo had set a dead-man's switch. The backup email contained more complete documents than the USB drive. The 6 AM publication named names the USB drive did not include. The syndicate's operation had made the outcome worse. Priscilla received life imprisonment. Marcus received fourteen years. Koh was extradited and received twelve years in Singapore. The bar employee received a suspended sentence. The syndicate's Singapore office was dissolved under a regulatory order six months later."
+  }
+}

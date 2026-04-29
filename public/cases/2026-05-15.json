@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Moscow, 1953. Stalin is dead. The power is shifting. And someone in the inner council didn't make it out of the meeting room. 🪆🔍 Case #057 — The Moscow Candidate. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Kremlin 1953, a dead Soviet official, two suspects with each other's alibi, and a political betrayal that reaches the top. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Kremlin inner council chamber in 1953, dark mahogany panelling, a long table with water glasses, a Soviet flag behind a leather chair. Papers scattered on the table, one chair overturned. A telephone receiver off its hook. Cold blue winter light through high windows, warm amber from a single lamp. Tense and claustrophobic, style of Andrei Tarkovsky meets Henri Cartier-Bresson.",
+    "animationPrompt": "Slow pan across a Kremlin council chamber in 1953. Mahogany panelling. Long table. A telephone receiver dangles off the hook. The camera finds scattered papers and an overturned chair. A Soviet flag shifts slightly in an unseen draft. The single lamp on the table flickers. Fade to black.",
+    "hashtags": [
+      "#KremlinMystery",
+      "#SovietThriller",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #057",
+    "title": "The Moscow Candidate",
+    "setting": "Kremlin Inner Council Chamber · Moscow · 1953",
+    "emoji": "🪆",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Deputy Minister Aleksei Volkov was found dead in the inner council chamber two hours after an emergency session following Stalin's death. Three officials remain in the Kremlin. Two of them claim to have been together the entire time. The third has no alibi at all — but may have no motive either.",
+    "emptyState": "Two alibis. One impossible. Find which story breaks first.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Minister Pyotr Selin",
+            "icon": "⭐",
+            "detail": "Head of internal security — had been at odds with Volkov over post-Stalin succession."
+          },
+          {
+            "name": "Deputy Nadia Marsh",
+            "icon": "📋",
+            "detail": "The council secretary — claims she was with Selin the entire time."
+          },
+          {
+            "name": "Colonel Gregor Venn",
+            "icon": "🪖",
+            "detail": "Military attache — alone in his office with no witnesses."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Council Chamber",
+            "icon": "🪑",
+            "detail": "Where Volkov was found — papers scattered, telephone off the hook."
+          },
+          {
+            "name": "Minister Selin's Office",
+            "icon": "📁",
+            "detail": "Where Selin and Marsh claim to have been — adjacent to the chamber."
+          },
+          {
+            "name": "The Military Annex",
+            "icon": "🪖",
+            "detail": "Where Colonel Venn was stationed — separate wing, no direct chamber access."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Cord",
+            "icon": "☎️",
+            "detail": "The receiver cord — ligature marks on the neck consistent with its gauge."
+          },
+          {
+            "name": "Glass Water Carafe",
+            "icon": "🫙",
+            "detail": "A heavy crystal vessel — no blood or impact wound found."
+          },
+          {
+            "name": "Iron Paperweight",
+            "icon": "🔩",
+            "detail": "A Soviet-era desk weight — no ligature marks, wound profile inconsistent."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "⭐",
+        "heading": "The Joint Alibi",
+        "text": "Minister Selin and Deputy Marsh both state they were together in Selin's office from nine PM until the alarm at eleven PM — two full hours. They corroborate each other precisely. However, a guard posted at the corridor intersection recalls seeing Selin walking toward the council chamber at approximately ten-fifteen PM — alone.",
+        "alone": "A guard saw Selin walking alone toward the council chamber at ten-fifteen PM — contradicting his claim that he was in his office with Marsh the entire time.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The guard's sighting of Selin walking toward the chamber alone at ten-fifteen PM and the telephone cord's ligature profile matching the cause of death confirm Selin had both the access and the means during the window Volkov was killed."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "☎️",
+        "heading": "The Telephone Cord",
+        "text": "The telephone receiver is found off the hook on the chamber floor. The receiver cord shows evidence of being pulled taut — the connection is partially separated from the housing. Forensic examination confirms ligature marks on Volkov's neck are consistent with the cord's gauge and texture. The telephone was used as the murder weapon.",
+        "alone": "Volkov was strangled with the telephone cord — the weapon was the chamber's own telephone, removed from the desk during the killing.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The telephone cord used as the weapon and the guard's confirmation that Selin was seen returning from the council chamber direction at ten-forty PM together place Selin at the scene during the twenty-five minute window in which Volkov died."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🪖",
+        "heading": "Venn's Isolation",
+        "text": "Colonel Venn was in the military annex throughout the evening — confirmed by a duty sergeant who checked on him at nine-thirty and ten-thirty PM as part of a security protocol. The military annex has no direct access to the council chamber and requires passing through two checkpoints that logged no passage under Venn's credentials.",
+        "alone": "Colonel Venn was confirmed in the military annex at both nine-thirty and ten-thirty PM — the checkpoint logs show he never entered the council wing at all.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Venn confirmed in the military annex by the duty sergeant and checkpoints and Marsh's separate interview revealing Selin left the office at ten PM together confirm Venn is innocent and the alibi Selin and Marsh provided was fabricated."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Succession Document",
+        "text": "Scattered on the council chamber table is a draft memorandum — stamped with the session's classification — proposing that Deputy Minister Volkov be elevated to chair the succession committee following Stalin's death. The memo would have given Volkov significant authority over who succeeded Stalin. Selin is not named in the memo and would have been displaced by it.",
+        "alone": "Volkov was about to be given authority that would have sidelined Selin in the post-Stalin succession — Selin had direct political motivation to prevent this.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The succession memo elevating Volkov at Selin's expense and Selin's own correspondence found in his office referring to Volkov as an 'obstacle to be removed' confirm his motive was political survival in the most literal sense."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "The Guard's Sighting",
+        "text": "The corridor guard — stationed at the intersection outside Selin's office and the council chamber — confirms he saw Minister Selin walking past his post toward the council chamber at approximately ten-fifteen PM. The guard did not stop him — a minister requires no escort. He saw Selin return from the same direction at approximately ten-forty PM.",
+        "alone": "The guard saw Selin leave toward the council chamber at ten-fifteen and return at ten-forty — a twenty-five minute window that spans Volkov's estimated time of death.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The guard's sighting contradicting Selin's claimed continuous presence in his office and placing him at the council chamber during the murder window confirm Selin's alibi with Marsh is false and he was at the scene when Volkov was killed."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Marsh's Separate Account",
+        "text": "Interviewed separately from Selin — with an interpreter and a different interrogator — Deputy Marsh gives a slightly different version. She says Selin left the office 'briefly' at around ten PM to make a telephone call elsewhere and returned about forty minutes later. When pressed, she admits she had been instructed by Selin to say they were together the whole time.",
+        "alone": "Deputy Marsh admits Selin was absent from his office for approximately forty minutes around ten PM and that she had been instructed to lie about his whereabouts.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The telephone cord as the murder weapon and Marsh admitting Selin was absent during the murder window confirm both the means and the opportunity — the false alibi collapses when Marsh is interviewed separately."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "The Telephone Call That Wasn't",
+        "text": "Selin claimed — when his alibi was challenged — that he had left his office to use the council chamber telephone because his own office line was engaged. The Kremlin telephone exchange log shows no call was placed or received from the council chamber telephone between nine PM and eleven PM. The telephone was not used for a call during this period.",
+        "alone": "No call was placed from the council chamber telephone during the period Selin claims he used it — his revised explanation is contradicted by the exchange log.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Venn cleared by checkpoints and duty sergeant and Selin's telephone call explanation contradicted by the exchange log together confirm Selin's every alibi version fails — he was in the chamber for the purpose of killing Volkov."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📝",
+        "heading": "Selin's Internal Memorandum",
+        "text": "Selin's office contains a handwritten internal memorandum — not yet filed — in which he outlines his vision for the post-Stalin succession and describes Volkov as 'an obstacle whose removal from the process is essential to orderly transition.' The memo is written in the language of bureaucratic removal but uses the phrase 'by whatever means available' three times.",
+        "alone": "Selin's own memorandum describes Volkov as an obstacle requiring removal 'by whatever means available' — the language preceded the murder by hours.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The succession memo elevating Volkov at Selin's expense and Selin's own handwritten memorandum calling Volkov an obstacle for removal confirm his motive was explicit and documented — the killing followed his own written analysis."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Minister Pyotr Selin",
+      "location": "The Council Chamber",
+      "weapon": "Telephone Cord"
+    },
+    "epilogue": "Minister Pyotr Selin had attended the emergency session, seen the succession memo, and understood that Volkov's elevation would end his own position in the post-Stalin structure. He returned to his office, instructed Marsh to say they had been together all evening, and went back to the council chamber at ten-fifteen PM. He found Volkov alone reviewing the session documents. He used the telephone cord. He was back in his office by ten-forty PM. The guard's sighting and Marsh's separate interview dismantled the alibi. Selin was removed from his position and tried in closed proceedings. Marsh was released after testifying. Venn was cleared entirely."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #057",
+    "title": "The Moscow Candidate",
+    "setting": "Kremlin Inner Council Chamber · Moscow · 1953",
+    "emoji": "🪆",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Selin killed Volkov. Marsh provided the false alibi under instruction. But Marsh had her own reason to want the succession memo buried — she appears in it too, and not favorably.",
+    "emptyState": "Marsh lied for Selin. Find her own reason to lie.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Minister Pyotr Selin",
+            "icon": "⭐",
+            "detail": "The killer — telephone cord, twenty-five minute window, succession motive, Marsh's admission."
+          },
+          {
+            "name": "Deputy Nadia Marsh",
+            "icon": "📋",
+            "detail": "False alibi — instructed by Selin, but has her own stake in the memo."
+          },
+          {
+            "name": "Colonel Gregor Venn",
+            "icon": "🪖",
+            "detail": "Cleared — military annex confirmed by duty sergeant and two checkpoints."
+          },
+          {
+            "name": "Foreign Minister Danov",
+            "icon": "🌍",
+            "detail": "Absent from the Kremlin that evening — but connected to the succession document."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Council Chamber",
+            "icon": "🪑",
+            "detail": "Primary crime scene — telephone cord, scattered papers, Selin's twenty-five minute window."
+          },
+          {
+            "name": "Minister Selin's Office",
+            "icon": "📁",
+            "detail": "Where Marsh waited — and where Selin's succession memorandum was written."
+          },
+          {
+            "name": "The Military Annex",
+            "icon": "🪖",
+            "detail": "Venn's confirmed location — checkpoints and duty sergeant."
+          },
+          {
+            "name": "The Archive Room",
+            "icon": "🗄️",
+            "detail": "Adjacent to the chamber — where session documents are filed, Marsh had access."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Cord",
+            "icon": "☎️",
+            "detail": "Confirmed weapon — ligature marks match, receiver off hook, cord separated."
+          },
+          {
+            "name": "Glass Water Carafe",
+            "icon": "🫙",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Iron Paperweight",
+            "icon": "🔩",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Succession Memo",
+            "icon": "📄",
+            "detail": "Not a weapon — the motive document. Both Selin and Marsh had stakes in it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Political Survival",
+            "icon": "⭐",
+            "detail": "Selin's motive — Volkov's elevation would have displaced him from the succession process."
+          },
+          {
+            "name": "Protect a Past Record",
+            "icon": "📋",
+            "detail": "Marsh's motive — the succession memo includes a notation about her prior conduct that Volkov had appended."
+          },
+          {
+            "name": "Personal Loyalty",
+            "icon": "💼",
+            "detail": "Marsh's stated reason — she simply did as Selin instructed."
+          },
+          {
+            "name": "Career Preservation",
+            "icon": "📈",
+            "detail": "Marsh's career depends on Selin's position — if Selin falls, she falls with him."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📄",
+        "heading": "What the Memo Said About Marsh",
+        "text": "The succession memo found on the council chamber table contains a final appended section — in Volkov's handwriting, not the original drafter's — naming Deputy Marsh as 'unsuitable for continued access to classified session records' on the grounds of a prior information disclosure incident in 1951. The notation was Volkov's own addition. Marsh had seen the memo during the session.",
+        "alone": "Volkov had added a personal notation to the succession memo labelling Marsh as unsuitable based on a 1951 incident — her access to classified records would have been revoked.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Volkov's notation marking Marsh as unsuitable and Marsh's own prior correspondence confirming she knew about the 1951 incident's ongoing threat to her career confirm she had personal stakes in the memo beyond simple loyalty to Selin."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Marsh's Separate Interview Reveals More",
+        "text": "When Marsh admitted Selin left the office for forty minutes, she also volunteered — unprompted — that she had spent that time in the archive room adjacent to the chamber, reviewing that evening's session documents. She said she wanted to 'understand the situation.' The archive room is accessed through a door that is also adjacent to the council chamber side entrance.",
+        "alone": "Marsh was in the archive room — adjacent to the council chamber — during the same forty-minute window in which Selin was absent. She was physically proximate to the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marsh in the archive room adjacent to the chamber and the archive room's side door connecting to the chamber confirm she was steps away from the killing — whether she heard it, saw anything, or was a knowing party cannot be resolved without more evidence."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🪖",
+        "heading": "Venn Cleared Completely",
+        "text": "Full checkpoint records show Colonel Venn's credentials were not used at any Kremlin wing entrance between eight PM and midnight. The duty sergeant's two check-ins at nine-thirty and ten-thirty PM confirm his physical presence in the annex. He has no connection to the succession memo or to any of the principals. He is entirely cleared.",
+        "alone": "Colonel Venn is definitively cleared by all available evidence — no checkpoint access, two confirmed in-person checks, no connection to the events.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Venn entirely cleared and the guard's sighting of Selin alone at the chamber corridor confirm the killer was Selin — Venn's presence in the story was a misdirection created by his lack of alibi, not evidence of involvement."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1951 Incident",
+        "text": "A classified internal file — obtained during the expanded investigation — documents a 1951 incident in which Deputy Marsh was suspected of disclosing session content to a foreign embassy contact. The file was closed without action when the contact was expelled, but Volkov had access to it in his prior role and had retained knowledge of it. His notation on the succession memo was based on this file.",
+        "alone": "Volkov's notation on the memo was based on a real 1951 file that Marsh knew could surface — she had lived with this threat for two years.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 1951 file Volkov had knowledge of and Marsh's access to the archive room during the killing window confirm she had both the motive and the opportunity to have been more than a passive alibi — she chose to lie to protect Selin and herself simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "Marsh's Prior Correspondence",
+        "text": "Marsh's personal correspondence — found in her Kremlin quarters — contains a letter from three months prior in which she writes to an unnamed recipient: 'V. knows about the 51 matter. If he reaches the chair, it surfaces. Selin must prevail.' The letter was never sent — it exists as a draft. 'V.' is Volkov. 'The chair' is the succession committee chairmanship.",
+        "alone": "Marsh had written three months before the murder that Volkov's elevation would surface the 1951 matter and that Selin must prevail — her motive predates the murder by months.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Volkov's notation marking Marsh as unsuitable and her own letter saying Selin must prevail confirm Marsh's false alibi was not simply loyalty to her superior — it was self-preservation in an active threat she had been tracking for months."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "physical",
+        "icon": "🗄️",
+        "heading": "The Archive Room Access Log",
+        "text": "The archive room maintains a handwritten access log — required for all classified document access. Marsh's name appears in the log at ten-twelve PM, with the session document number from that evening's succession memo. She had formally requested access to the specific document that motivated the killing — during the same window Selin was in the chamber.",
+        "alone": "Marsh formally logged her access to the succession memo document at ten-twelve PM — she was reviewing the document that threatened her career while Selin was three minutes away killing the man who had written the threat.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Marsh in the archive room adjacent to the chamber and her formal log entry showing she accessed the succession memo at ten-twelve PM confirm she was actively engaged with the document that motivated the killing during the killing itself."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "The Guard's Full Statement",
+        "text": "The corridor guard's full statement — obtained in a second interview — notes that at ten-twelve PM he also saw Deputy Marsh walk past his post toward the archive room. He had seen both principals moving past his position within three minutes of each other — Marsh at ten-twelve PM, Selin at ten-fifteen PM. Both were heading in the same direction: the chamber and archive wing.",
+        "alone": "Both Selin and Marsh moved past the corridor guard within three minutes of each other at ten-twelve and ten-fifteen PM — both heading toward the chamber and archive wing simultaneously.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Venn entirely cleared and both Selin and Marsh confirmed moving toward the chamber wing within three minutes of each other confirm the joint movement was coordinated — they were not independently coinciding at the same location."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📝",
+        "heading": "Selin's Office Note",
+        "text": "A note found on Selin's desk — in his handwriting, undated but on the evening's session paper — reads: 'N. — take the archive. I will handle the chamber. Do not enter.' 'N.' is Nadia Marsh. The note confirms a plan was coordinated between them: Marsh would access the archive, Selin would handle the chamber. The note establishes prior coordination.",
+        "alone": "Selin's note to Marsh instructing her to take the archive while he handled the chamber confirms the two were coordinated — the alibi was not Selin covering himself, it was a joint plan.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marsh's letter identifying Volkov as a threat three months before and Selin's coordinating note confirm both had independently arrived at the same conclusion — that Volkov's elevation was fatal to both of them, and they had a plan for the evening."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Minister Pyotr Selin",
+      "location": "The Council Chamber",
+      "weapon": "Telephone Cord",
+      "motive": "Political Survival"
+    },
+    "epilogue": "Selin and Marsh had coordinated their response to the succession memo before the evening ended. Selin handled the chamber. Marsh took the archive room and formally logged access to the succession memo — establishing her presence elsewhere while also reviewing the document she needed to assess. Selin strangled Volkov with the telephone cord and returned to his office at ten-forty PM. Marsh returned from the archive at ten-forty-five. Both confirmed each other's supposed continuous presence. The corridor guard's full statement placed both of them moving toward the same wing within three minutes. The coordinating note on Selin's desk — found in the investigation's second phase — confirmed pre-planning. Selin was convicted of murder. Marsh was convicted of conspiracy. Both were removed from their positions. The succession committee was reconstituted without either of them."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #057",
+    "title": "The Moscow Candidate",
+    "setting": "Kremlin Inner Council Chamber · Moscow · 1953",
+    "emoji": "🪆",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Selin killed Volkov. Marsh coordinated. But the succession memo was not generated internally — it came from outside the Kremlin, from a Western intelligence contact who had fed it through a Soviet diplomat who did not know what he was carrying. Find the chain and the intent.",
+    "emptyState": "The memo came from outside the Kremlin. Follow the chain.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Minister Pyotr Selin",
+            "icon": "⭐",
+            "detail": "The killer — telephone cord, coordinated with Marsh, succession motive."
+          },
+          {
+            "name": "Deputy Nadia Marsh",
+            "icon": "📋",
+            "detail": "The coordinator — archive access, coordinating note, own motive confirmed."
+          },
+          {
+            "name": "Colonel Gregor Venn",
+            "icon": "🪖",
+            "detail": "Cleared as killer — but the Western intelligence contact is in his professional network."
+          },
+          {
+            "name": "Foreign Minister Danov",
+            "icon": "🌍",
+            "detail": "The diplomat who carried the memo draft — did not know its origin."
+          },
+          {
+            "name": "The Western Contact",
+            "icon": "🌐",
+            "detail": "An intelligence operative who fed the memo into Soviet channels to trigger exactly this outcome."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Council Chamber",
+            "icon": "🪑",
+            "detail": "Primary crime scene — Selin's killing, Marsh's coordinating note, telephone cord."
+          },
+          {
+            "name": "Minister Selin's Office",
+            "icon": "📁",
+            "detail": "Where the coordinating note was written — and where Marsh waited."
+          },
+          {
+            "name": "The Military Annex",
+            "icon": "🪖",
+            "detail": "Venn's confirmed location — also where Western military attache contacts are managed."
+          },
+          {
+            "name": "The Archive Room",
+            "icon": "🗄️",
+            "detail": "Marsh's location during the killing — formal log confirms her access."
+          },
+          {
+            "name": "The Vienna Channel",
+            "icon": "🌐",
+            "detail": "The diplomatic route through which the memo draft entered Soviet channels — via Danov's Vienna meeting."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Cord",
+            "icon": "☎️",
+            "detail": "Confirmed murder weapon — Selin's twenty-five minute window, ligature marks."
+          },
+          {
+            "name": "Glass Water Carafe",
+            "icon": "🫙",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Iron Paperweight",
+            "icon": "🔩",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Succession Memo",
+            "icon": "📄",
+            "detail": "The operational instrument — introduced from outside Soviet channels to trigger internal conflict."
+          },
+          {
+            "name": "The Vienna Briefing Document",
+            "icon": "🌐",
+            "detail": "The original Western-authored document that became the succession memo."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Political Survival",
+            "icon": "⭐",
+            "detail": "Selin's motive — Volkov's elevation ends his position."
+          },
+          {
+            "name": "Protect a Past Record",
+            "icon": "📋",
+            "detail": "Marsh's motive — the 1951 disclosure incident resurfaces under Volkov."
+          },
+          {
+            "name": "Destabilise Soviet Succession",
+            "icon": "🌐",
+            "detail": "The Western contact's motive — engineer a killing in the Kremlin during a vulnerable moment."
+          },
+          {
+            "name": "Remove a Moderate Voice",
+            "icon": "🕊️",
+            "detail": "The Western intent — Volkov was a potential moderate in the succession; his death removes him."
+          },
+          {
+            "name": "Trigger Internal Purges",
+            "icon": "🔄",
+            "detail": "The strategic outcome — Selin and Marsh's removal disrupts the succession further."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Authored the Succession Memo",
+            "icon": "📄",
+            "detail": "The Western contact wrote the original document designed to elevate Volkov and provoke Selin."
+          },
+          {
+            "name": "Introduced the Memo Through Danov",
+            "icon": "🌍",
+            "detail": "Used Foreign Minister Danov's Vienna meeting as the channel — Danov was unaware of the document's origin."
+          },
+          {
+            "name": "Coordinated the Alibi Cover",
+            "icon": "📋",
+            "detail": "Marsh managed the false alibi at Selin's instruction — her role was operational support."
+          },
+          {
+            "name": "Provided the 1951 File to Volkov",
+            "icon": "🗂️",
+            "detail": "The Western contact had obtained the 1951 file and passed it to Volkov to ensure he would add the Marsh notation."
+          },
+          {
+            "name": "Ensured the Meeting Room Was Isolated",
+            "icon": "🚪",
+            "detail": "The Western contact's network arranged for the corridor guard rotation to create a witness gap — the guard was briefly absent at ten-fifteen PM."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Memo's Origin",
+        "text": "A forensic analysis of the succession memo's paper stock — conducted by Soviet intelligence two weeks after the murder — identifies the paper as a Vienna-manufactured stock not used by any Soviet ministry. The typeface on the original draft section matches a Western embassy typewriter model. The memo was not created within the Kremlin or by any Soviet official.",
+        "alone": "The succession memo was authored on Western materials using a Western typewriter — it was introduced into Soviet channels from outside, not produced internally.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The memo authored on Western materials and Danov's Vienna meeting confirmed as the introduction point confirm the document was engineered by a Western intelligence contact and fed through Danov without his knowledge."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🌍",
+        "heading": "Danov's Vienna Meeting",
+        "text": "Foreign Minister Danov confirms that three weeks before the murder, at a Vienna diplomatic reception, a Western diplomat had given him what appeared to be a technical policy document for consideration — the diplomat described it as a proposal that 'might interest the council.' Danov had forwarded it through standard channels. He did not know it was a designed provocation.",
+        "alone": "Danov received the succession memo draft at a Vienna reception from a Western diplomat and forwarded it in good faith — he was the unwitting channel for its introduction.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Danov as the unwitting channel and the Marsh 1951 file showing it was provided to Volkov through the same Western network confirm the operation was multi-layered — the memo introduction and the 1951 file provision were coordinated inputs from the same external source."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🗂️",
+        "heading": "The 1951 File's Path to Volkov",
+        "text": "A reconstruction of how Volkov obtained the 1951 incident file shows it was delivered to him anonymously three months before the murder — in a sealed envelope via the internal courier system. The courier system log shows the envelope originated from a routing code used by the military attache office. Colonel Venn's office processes military attache routing.",
+        "alone": "The 1951 file that Volkov used to annotate the succession memo was delivered anonymously through the military attache routing — connecting its introduction to Venn's office network.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The 1951 file routed through Venn's office network and Venn's confirmed connection to a Western military attache contact confirm the external operative used Venn's professional network to deliver the file — Venn himself was not aware of the use of his routing."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "The Guard Rotation Gap",
+        "text": "The full security rotation log for the evening shows the corridor guard was scheduled for a routine rotation at ten-twelve PM — a five-minute gap during which no guard was posted at the corridor intersection. This was a standing rotation known to all Kremlin personnel. The killing occurred during the guard's five-minute absence from his post. The guard's return at ten-seventeen PM was when he saw Selin walking back.",
+        "alone": "The guard's rotation created a five-minute gap at ten-twelve PM — during which no witness was at the corridor intersection. The killing occurred in this window.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The rotation gap at ten-twelve PM and Selin's passage observed at ten-seventeen PM on the guard's return confirm the killing occurred during a standing security gap that any Kremlin insider would know — but that an external actor could also have identified through their network."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌐",
+        "heading": "The Western Contact Identified",
+        "text": "Western intelligence archives — obtained through a later defector — identify the Vienna diplomat who gave Danov the document as a British intelligence officer operating under diplomatic cover. His stated operational goal at the time: 'introduce division into the Soviet succession process during the vulnerability window following Stalin's death.' The succession memo was a designed provocation.",
+        "alone": "The Western contact who gave Danov the memo was a British intelligence officer with a documented goal of introducing division into the Soviet succession — the memo was an engineered provocation, not a genuine policy proposal.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The memo authored on Western materials and the British intelligence officer confirmed as the author confirm the entire provocation was designed from outside — the memo was built to trigger exactly the conflict between Volkov, Selin, and Marsh that led to the killing."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1951 File and the External Source",
+        "text": "The defector's files confirm the British intelligence officer also had access to Soviet internal personnel files through a separate asset — and had specifically identified the 1951 Marsh disclosure incident as potentially useful. He had provided a copy of the file to an asset with instructions to deliver it to Volkov in a way that would prompt him to use it against Marsh.",
+        "alone": "The British officer provided the 1951 Marsh file to an asset for delivery to Volkov — he had engineered both the memo and the personal threat to Marsh simultaneously, knowing Volkov would use the file.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Danov as the unwitting memo channel and the British officer also engineering the 1951 file delivery to Volkov confirm the external operation was comprehensive — both the political threat to Selin and the personal threat to Marsh were deliberately designed inputs."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🪖",
+        "heading": "Venn's Contact",
+        "text": "Colonel Venn, informed during a fourth interview that the 1951 file was routed through military attache channels, confirms that a Western military attache had handed him a sealed envelope three months before the murder with instructions to route it to the internal courier system for Volkov's attention. Venn had assumed it was a routine intelligence exchange. He had processed it without opening it.",
+        "alone": "Venn had unknowingly processed the sealed envelope containing the 1951 file at a Western attache's request — he was used as a routing mechanism without his knowledge of the file's contents or purpose.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The 1951 file routed through Venn's office and Venn confirming he processed a sealed envelope from a Western attache for Volkov confirm Venn was an unwitting conduit — like Danov, he was used without knowing what he was carrying."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "The Defector's Assessment",
+        "text": "The defector's files include an operational assessment written after the murder: 'Outcome achieved. Soviet succession disrupted. Volkov eliminated. Selin and Marsh removed in subsequent proceedings. Three moderate voices lost simultaneously. Estimated delay to stable Soviet succession: eighteen months.' The killing of Volkov and the removal of Selin and Marsh were all calculated outcomes of the operation.",
+        "alone": "The British operation had calculated all three outcomes — Volkov's death and both Selin's and Marsh's subsequent removals — as the desired result of their two-input provocation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The Western contact's documented goal of introducing division and the defector's post-event assessment confirming all three Soviet officials lost as planned confirm the operation succeeded entirely — the Kremlin killing was the designed outcome of an external intelligence provocation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Minister Pyotr Selin",
+      "location": "The Council Chamber",
+      "weapon": "Telephone Cord",
+      "motive": "Political Survival",
+      "accomplice": "Authored the Succession Memo"
+    },
+    "epilogue": "A British intelligence officer had identified the post-Stalin succession as the most vulnerable moment in Soviet politics since 1917. He had authored a succession memo designed to elevate Volkov above Selin, obtained the 1951 Marsh file through a separate asset, and delivered both documents through unwitting Soviet intermediaries. Selin and Marsh had done exactly what the provocation was designed to provoke. Volkov was killed. Selin and Marsh were removed in proceedings that followed. The Soviet succession was disrupted by eighteen months. The British officer received a commendation that remained classified for thirty years. Colonel Venn and Foreign Minister Danov were cleared of all involvement. The defector who provided the operational files was resettled in Canada in 1969."
+  }
+}

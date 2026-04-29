@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Egypt, 1933. A Nile steamship. A dead archaeologist. And the inheritance that would go to whoever survived the voyage. 🛳️🔍 Case #058 — River Blind. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: the Nile 1933, a locked cabin, a dead archaeologist, and one physical clue that tells the whole story. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Deck of a 1933 Nile river steamer at dusk, golden felucca sails in the distance, palm-lined banks glowing amber. A porthole on the ship's cabin level glows light from within. A single scarab brooch lies on the teak deck beside a railing. Rich golds, ochre, dusty rose. Atmospheric and golden age, style of Howard Carter meets Agatha Christie.",
+    "animationPrompt": "Slow pan along the deck of a 1933 Nile steamer at sunset. Palm-lined banks drift past. A scarab brooch lies on the teak deck beside the railing. The camera tracks to a closed cabin porthole — light visible within. The light goes out. The steamer's horn sounds once across the water. Fade to black.",
+    "hashtags": [
+      "#NileMystery",
+      "#EgyptMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #058",
+    "title": "River Blind",
+    "setting": "SS Amenhotep · River Nile · Egypt · 1933",
+    "emoji": "🛳️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Archaeologist Professor Cedric Holt was found dead in his locked cabin on the evening of the third day aboard the SS Amenhotep. He was due to update his will at the next port. Three passengers had reason to care who he left it to. One piece of physical evidence found on deck tells the story.",
+    "emptyState": "One piece of evidence. One story. Find both.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Vivienne Holt",
+            "icon": "💍",
+            "detail": "Cedric's niece — named in the current will, but recently fell out of favour."
+          },
+          {
+            "name": "Dr. Marcus Feld",
+            "icon": "🔍",
+            "detail": "Cedric's research partner — stood to gain funding rights to the dig if named."
+          },
+          {
+            "name": "Steward Youssef Bak",
+            "icon": "🛳️",
+            "detail": "The cabin steward — access to all cabins, no known motive."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Cabin 7",
+            "icon": "🚪",
+            "detail": "Cedric's locked cabin — no forced entry, no key found outside."
+          },
+          {
+            "name": "The Promenade Deck",
+            "icon": "🚢",
+            "detail": "Where the scarab brooch was found — directly above Cabin 7."
+          },
+          {
+            "name": "The Dining Saloon",
+            "icon": "🍽️",
+            "detail": "Where all three suspects claim to have been at the time of death."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Laudanum Bottle",
+            "icon": "💊",
+            "detail": "A medicine bottle found in Cedric's bag — poisoning confirmed as cause of death."
+          },
+          {
+            "name": "Ivory Letter Opener",
+            "icon": "✉️",
+            "detail": "Found on Cedric's desk — no blood or poison trace."
+          },
+          {
+            "name": "Leather Pillow",
+            "icon": "🛏️",
+            "detail": "A decorative cabin pillow — no suffocation evidence found."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "💎",
+        "heading": "The Scarab Brooch",
+        "text": "A scarab brooch found on the promenade deck — directly above Cabin 7 — is identified by Vivienne Holt as belonging to Dr. Marcus Feld. She had given it to him herself as a gift at the start of the voyage. Feld denies it is his and claims he never received such a brooch. Vivienne produces a letter she wrote accompanying the gift, which Feld also denies receiving.",
+        "alone": "The scarab brooch is identified as belonging to Dr. Feld — found on the deck above Cedric's cabin — and Feld's denial is contradicted by Vivienne's accompanying letter.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The scarab brooch identified as Feld's on the deck above Cabin 7 and the porthole latch found disturbed in Cabin 7 from above confirm Feld had leaned over the railing above the porthole during the relevant window — consistent with poisoning through the open porthole."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💊",
+        "heading": "The Laudanum",
+        "text": "The ship's physician confirms Cedric died of a concentrated laudanum overdose — far beyond any therapeutic dose. The laudanum bottle in Cedric's medical bag shows only his own fingerprints. However, the concentration found in his system is inconsistent with self-administration from the bottle's remaining contents — the dose would have required additional laudanum from a separate source.",
+        "alone": "Cedric was poisoned with more laudanum than his own bottle contained — a second, external source was used.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The overdose requiring an external laudanum source and Feld's medical research background confirming he had access to pharmaceutical compounds confirm he had both the means and the knowledge to prepare an additional dose."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🍽️",
+        "heading": "The Dining Saloon Accounts",
+        "text": "All three suspects claim they were in the dining saloon from eight PM until nine-thirty PM. The steward Bak confirms this for Vivienne and himself. He does not confirm Feld's presence continuously — he recalls Feld leaving the saloon briefly and returning, citing a visit to his cabin for a handkerchief.",
+        "alone": "Steward Bak confirms Vivienne and himself in the dining saloon throughout but recalls Feld leaving briefly — Feld's alibi has a gap.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Bak confirming Vivienne's continuous presence and Feld's admitted brief departure during the murder window confirm Feld had the unaccounted time while the other suspects have confirmed continuous alibis."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Will Revision Letter",
+        "text": "A letter found in Cedric's cabin — begun but not finished — is addressed to his solicitor in Cairo. It reads: 'I intend to revise my testament to name Marcus Feld as principal beneficiary, on the condition that...' The sentence is unfinished. The revision would have significantly benefited Feld — but the condition attached may have changed his calculus.",
+        "alone": "Cedric was preparing to name Feld as principal beneficiary but with an attached condition — the unfinished sentence leaves the condition unknown.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Cedric's unfinished will revision naming Feld with an attached condition and Feld's research notes showing he had calculated his inheritance under multiple will scenarios confirm he knew about the revision and was concerned about the condition."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🪟",
+        "heading": "The Porthole Latch",
+        "text": "Cabin 7's porthole is found unlatched from the inside — unusual, as Cedric habitually kept it latched in the evening. The porthole is directly beneath the railing section where the scarab brooch was found. The porthole is accessible from the promenade deck above at arm's length by someone leaning over the railing.",
+        "alone": "Cabin 7's porthole was unlatched and is directly accessible from the deck above — someone leaning over the railing could have introduced something through it.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The scarab brooch placing Feld on the deck above Cabin 7 and the porthole accessible from that position confirm Feld could have introduced the additional laudanum through the open porthole without entering the locked cabin."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Feld's Research Background",
+        "text": "Dr. Feld's academic publications — referenced in a bibliography found in Cedric's files — include a 1929 paper on the effects of concentrated opiates on the human system, written in collaboration with a Cairo pharmacologist. He had documented knowledge of lethal laudanum concentrations. His claim to have left the saloon for a handkerchief gave him approximately fifteen minutes.",
+        "alone": "Feld had published research on lethal laudanum concentrations and had a fifteen-minute window from the dining saloon — sufficient to reach the promenade deck above Cabin 7.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The overdose requiring an external laudanum source and Feld's documented knowledge of lethal concentrations confirm he knew exactly how much additional laudanum would be required and could have prepared it in advance."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🛳️",
+        "heading": "Bak's Full Account",
+        "text": "Steward Bak, pressed in a second interview, confirms Feld was absent from the dining saloon for approximately twelve to fifteen minutes — between eight-forty and eight-fifty-five PM. This matches the estimated time of Cedric's death. Bak also confirms the promenade deck above Cabin 7 was unoccupied during this period — he had checked it at eight-thirty PM on his rounds.",
+        "alone": "Feld was absent from the saloon for twelve to fifteen minutes during the exact window of Cedric's death — and the promenade deck was confirmed clear just before his absence.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Feld's gap in the dining saloon alibi and Bak confirming the promenade deck was clear just before the gap confirm Feld had an unwitnessed window to reach the deck above Cabin 7 during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Feld's Research Notes",
+        "text": "A notebook found in Feld's cabin contains financial calculations under the heading 'Inheritance Scenarios' — written in pencil, partially erased. The scenarios include 'With condition A' and 'With condition B' and 'Without restriction.' Only the 'Without restriction' scenario results in a figure large enough to fund the dig independently. Feld had calculated what the condition meant for his financial position.",
+        "alone": "Feld had calculated multiple inheritance scenarios and identified that only an unrestricted inheritance would fund his research — the condition Cedric intended to attach was a problem.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Cedric's unfinished will revision with an attached condition and Feld's calculations showing only an unrestricted inheritance met his needs confirm he had a specific financial reason to ensure Cedric died before attaching the condition — not simply to inherit."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Marcus Feld",
+      "location": "Cabin 7",
+      "weapon": "Laudanum Bottle"
+    },
+    "epilogue": "Dr. Marcus Feld had prepared additional laudanum in his cabin before dinner. He knew from Cedric's casual conversation that the will revision letter was being drafted. He left the dining saloon at eight-forty PM, walked to the promenade deck above Cabin 7, leaned over the railing above the open porthole, and introduced the additional laudanum into Cedric's evening drink — which Cedric habitually left on the porthole sill to cool. He dropped the scarab brooch in the process. He was back in the saloon by eight-fifty-five PM. The brooch and the porthole told the story."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #058",
+    "title": "River Blind",
+    "setting": "SS Amenhotep · River Nile · Egypt · 1933",
+    "emoji": "🛳️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Feld poisoned Cedric through the porthole. But the condition Cedric was about to attach to Feld's inheritance was not restrictive — it was generous. Find what the condition actually said and why it still made Feld kill.",
+    "emptyState": "The condition was not a threat. So why did Feld act now?",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Marcus Feld",
+            "icon": "🔍",
+            "detail": "The killer — scarab brooch, porthole, fifteen-minute gap, laudanum research."
+          },
+          {
+            "name": "Vivienne Holt",
+            "icon": "💍",
+            "detail": "Cleared — continuous saloon alibi confirmed by Bak."
+          },
+          {
+            "name": "Steward Youssef Bak",
+            "icon": "🛳️",
+            "detail": "Cleared — on rounds and confirmed in saloon throughout."
+          },
+          {
+            "name": "The Cairo Solicitor",
+            "icon": "📜",
+            "detail": "Cedric's legal contact — the will revision letter was addressed to him."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Cabin 7",
+            "icon": "🚪",
+            "detail": "Cedric's locked cabin — poison introduced through open porthole from above."
+          },
+          {
+            "name": "The Promenade Deck",
+            "icon": "🚢",
+            "detail": "Where Feld went during his gap — scarab brooch found here above the porthole."
+          },
+          {
+            "name": "The Dining Saloon",
+            "icon": "🍽️",
+            "detail": "Vivienne and Bak confirmed here — Feld absent twelve to fifteen minutes."
+          },
+          {
+            "name": "Feld's Cabin",
+            "icon": "🛳️",
+            "detail": "Where the inheritance scenario calculations were found — and where the laudanum was prepared."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Laudanum Bottle",
+            "icon": "💊",
+            "detail": "Confirmed cause of death — external concentration required a prepared second dose."
+          },
+          {
+            "name": "Ivory Letter Opener",
+            "icon": "✉️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Leather Pillow",
+            "icon": "🛏️",
+            "detail": "No suffocation evidence — eliminated."
+          },
+          {
+            "name": "The Porthole Route",
+            "icon": "🪟",
+            "detail": "The access method — Feld introduced the laudanum through the open porthole from the promenade deck."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Porthole from Deck Above",
+            "icon": "🪟",
+            "detail": "Feld leaned over the railing above Cabin 7 and introduced the laudanum through the open porthole."
+          },
+          {
+            "name": "Cabin Key",
+            "icon": "🔑",
+            "detail": "Feld did not have Cedric's cabin key — he never entered the cabin."
+          },
+          {
+            "name": "Steward's Master Key",
+            "icon": "🗝️",
+            "detail": "Held by Bak — logged as unused during the relevant window."
+          },
+          {
+            "name": "The Porthole Sill",
+            "icon": "🛳️",
+            "detail": "Cedric's drink sat on the porthole sill to cool — Feld knew this from prior voyages together."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Full Will Revision",
+        "text": "The solicitor in Cairo received a prior draft of the will revision — sent by post before the voyage departed. This draft reveals the condition Cedric intended to attach: 'Marcus Feld shall receive the principal inheritance on condition that he agrees to share the dig site publication rights with my niece Vivienne, who assisted with the original survey.' The condition was not punitive — it was collaborative.",
+        "alone": "The condition on Feld's inheritance was not a restriction — it required only that he share publication rights with Vivienne, who had genuinely contributed to the dig.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The condition requiring only shared publication rights and Feld's inheritance scenario calculations showing only the unrestricted amount funded the dig confirm the condition did not affect the money — but Feld had a separate reason the shared publication rights were unacceptable."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "The Publication Dispute",
+        "text": "Feld's research notebooks — fuller versions than the inheritance calculations — show a sustained argument with Vivienne Holt over the survey findings. Feld believed Vivienne's survey contribution was minimal and had planned to publish the findings under his name alone with a brief acknowledgment. The shared publication rights condition would have given Vivienne co-authorship — career-defining credit she had not earned in his view.",
+        "alone": "Feld had planned to publish the dig findings solely under his own name — the shared publication rights condition would have given Vivienne co-authorship he considered undeserved.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Feld's planned sole authorship and Vivienne's prior work on the original survey that gave her a genuine claim to co-authorship confirm the dispute was about professional recognition — Feld killed to prevent Vivienne's name appearing alongside his on what he expected to be a landmark publication."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Vivienne Confirmed Clear",
+        "text": "Vivienne Holt's presence in the dining saloon is confirmed by Bak, the table steward, two other passengers who greeted her, and the maître d' who seated her at eight PM. She did not leave between eight PM and nine-thirty PM. She is definitively cleared of the killing itself.",
+        "alone": "Vivienne is cleared by four independent witnesses — she was in the dining saloon throughout the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Vivienne confirmed clear and Bak's confirmed rounds placing him away from the promenade deck during Feld's gap together confirm Feld was alone on the promenade deck above Cabin 7 during the twelve to fifteen minute murder window."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Survey Credit",
+        "text": "Vivienne Holt's personal papers — examined with her permission — include a copy of the original excavation survey she produced before Feld joined the project. The survey identifies the site's primary archaeological potential, the access route, and three of the four excavation points Feld's subsequent work built upon. Cedric's condition was based on this prior contribution.",
+        "alone": "Vivienne had produced the foundational survey that made Feld's subsequent research possible — Cedric's condition was acknowledging a genuine prior contribution.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Vivienne's foundational survey and Feld's research notebooks showing he had read and built on her work confirm he had knowingly built his career on her prior contribution while planning to exclude her from the credit — the condition was a justified correction he could not accept."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Inheritance Amount",
+        "text": "The will's principal inheritance, calculated from Cedric's estate, is 12,400 Egyptian pounds. Feld's dig funding requirement, outlined in grant applications found in his cabin, is 11,000 pounds — achievable under both the conditional and unconditional versions of the bequest. The condition did not affect the money. Feld's calculations focused on publication timelines, not finances.",
+        "alone": "The inheritance amount was sufficient under either version of the will — the condition did not affect Feld financially at all. His calculations concerned publication, not money.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The condition affecting only publication rights and the inheritance amount sufficient under either version confirm Feld's motive was not financial — it was purely about excluding Vivienne from publication credit that would have been shared with him."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📖",
+        "heading": "The Landmark Publication",
+        "text": "Feld's correspondence with an Oxford publisher — found in his cabin — shows an agreement in principle to publish the dig findings as a solo-authored monograph. The publisher had described it as 'potentially the most significant Egyptological publication of the decade.' Co-authorship would have split the professional recognition — and, by the publisher's terms, required renegotiation of the agreement.",
+        "alone": "Feld had an agreement with Oxford for a solo-authored landmark monograph — co-authorship would have required renegotiating terms he had already secured.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Feld's planned sole authorship and his Oxford monograph agreement requiring renegotiation if co-authored confirm the publication credit was not merely ego — it had a specific, contractual professional value that the condition would have disrupted."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🛳️",
+        "heading": "Bak's Rounds Log",
+        "text": "The steward Bak maintains a rounds log — required by the ship's company — showing his position at each quarter-hour. At eight-forty PM he was at the bow for the flag lowering ceremony. At eight-fifty-five PM he was in the engine room corridor for a maintenance check. The promenade deck above Cabin 7 was not on his route between these two points — it was effectively unobserved from eight-forty to eight-fifty-five PM.",
+        "alone": "The promenade deck above Cabin 7 was unobserved between eight-forty and eight-fifty-five PM — the precise window of Feld's absence from the dining saloon.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Vivienne confirmed clear in the saloon and the promenade deck confirmed unobserved during Feld's gap confirm Feld had both an unwitnessed window and an unwatched location — the conditions for the porthole poisoning were ideal."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "Feld's Notes on the Survey",
+        "text": "Among Feld's research notebooks, a section headed 'Survey Credit — Analysis' dates from eighteen months before the voyage. In it, Feld writes: 'Vivienne's survey identified the location but not the method. The intellectual contribution is mine alone. She found the ground. I found what was in it.' He had constructed an internal argument for excluding her for at least eighteen months.",
+        "alone": "Feld had been constructing his argument for excluding Vivienne from publication credit for eighteen months — the conflict was not new to this voyage.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Vivienne's foundational survey and Feld's eighteen-month internal argument dismissing its value confirm he had known about her prior contribution for at least eighteen months and had deliberately developed a rationale to exclude her — the condition Cedric planned to attach simply made this exclusion impossible."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Marcus Feld",
+      "location": "Cabin 7",
+      "weapon": "Laudanum Bottle",
+      "access": "Porthole from Deck Above"
+    },
+    "epilogue": "Dr. Marcus Feld had spent eighteen months constructing the argument that Vivienne Holt's survey contribution did not warrant publication credit. When Cedric mentioned the will revision during the first day of the voyage, Feld had asked — casually — what the condition would be. Cedric had told him. Shared co-authorship. The Oxford monograph agreement would have required renegotiation. The landmark publication would have become a joint production. Feld prepared the additional laudanum that evening. The scarab brooch he had received and denied receiving — a detail Vivienne remembered precisely — told the rest. He was convicted on circumstantial evidence and the brooch identification. The Oxford monograph was never published. Vivienne published her original survey findings under her own name in 1935."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #058",
+    "title": "River Blind",
+    "setting": "SS Amenhotep · River Nile · Egypt · 1933",
+    "emoji": "🛳️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Feld poisoned Cedric. The porthole was the route. But Feld did not act alone — steward Bak had altered his rounds log to create the unobserved window deliberately. Find what Bak was paid and who paid him.",
+    "emptyState": "The deck was clear because someone made it clear. Find who arranged it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Marcus Feld",
+            "icon": "🔍",
+            "detail": "The killer — laudanum, porthole, scarab brooch, eighteen-month motive."
+          },
+          {
+            "name": "Vivienne Holt",
+            "icon": "💍",
+            "detail": "Cleared as killer — saloon alibi, four witnesses. But received the inheritance."
+          },
+          {
+            "name": "Steward Youssef Bak",
+            "icon": "🛳️",
+            "detail": "Cleared as killer — but his rounds log was altered to create the unobserved window."
+          },
+          {
+            "name": "The Cairo Solicitor",
+            "icon": "📜",
+            "detail": "Processed the will revision — and received an unusual communication from Feld."
+          },
+          {
+            "name": "The Ship's Purser",
+            "icon": "💰",
+            "detail": "Handled cash transactions aboard — a suspicious payment recorded in the ship's ledger."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Cabin 7",
+            "icon": "🚪",
+            "detail": "Primary crime scene — poison through open porthole from above."
+          },
+          {
+            "name": "The Promenade Deck",
+            "icon": "🚢",
+            "detail": "Where Feld went — confirmed unobserved during the gap because Bak altered his log."
+          },
+          {
+            "name": "The Dining Saloon",
+            "icon": "🍽️",
+            "detail": "Vivienne confirmed here — and Bak's presence anchored the scene."
+          },
+          {
+            "name": "The Purser's Office",
+            "icon": "💰",
+            "detail": "Where the suspicious payment was recorded — cash to Bak on day two of the voyage."
+          },
+          {
+            "name": "Feld's Cabin",
+            "icon": "🛳️",
+            "detail": "Where the laudanum was prepared and the inheritance calculations were made."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Laudanum Bottle",
+            "icon": "💊",
+            "detail": "Confirmed cause of death — external concentration, Feld's preparation."
+          },
+          {
+            "name": "Ivory Letter Opener",
+            "icon": "✉️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Leather Pillow",
+            "icon": "🛏️",
+            "detail": "No suffocation evidence — eliminated."
+          },
+          {
+            "name": "The Porthole Route",
+            "icon": "🪟",
+            "detail": "Feld's access method — required an unobserved deck window."
+          },
+          {
+            "name": "The Altered Rounds Log",
+            "icon": "📋",
+            "detail": "Bak's instrument — fabricating the unobserved window Feld needed."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Porthole from Deck Above",
+            "icon": "🪟",
+            "detail": "Confirmed — Feld leaned over the railing and introduced the laudanum."
+          },
+          {
+            "name": "Cabin Key",
+            "icon": "🔑",
+            "detail": "Never used — Feld did not enter the cabin."
+          },
+          {
+            "name": "Steward's Master Key",
+            "icon": "🗝️",
+            "detail": "Logged as unused — but Bak managed the log."
+          },
+          {
+            "name": "Cleared Deck Window",
+            "icon": "🚢",
+            "detail": "The operational requirement — Bak's altered log created the unobserved gap."
+          },
+          {
+            "name": "The Porthole Sill Drink",
+            "icon": "☕",
+            "detail": "Cedric's habit of cooling drinks on the sill — Feld knew this from four prior voyages."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before Eight PM",
+            "icon": "🌅",
+            "detail": "Feld prepared the additional laudanum in his cabin before dinner."
+          },
+          {
+            "name": "Eight-Forty PM",
+            "icon": "⚠️",
+            "detail": "Bak left the saloon for his rounds — creating the unobserved window."
+          },
+          {
+            "name": "Eight-Forty to Fifty-Five PM",
+            "icon": "🚨",
+            "detail": "Feld absent from saloon — promenade deck above Cabin 7 unobserved per altered log."
+          },
+          {
+            "name": "Day Two of the Voyage",
+            "icon": "📅",
+            "detail": "When Bak received the cash payment from Feld — the arrangement was made in advance."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Altered Rounds Log",
+        "text": "A comparison of Bak's handwritten rounds log against the ship's official schedule — which specifies fixed duties — shows a discrepancy: the flag lowering ceremony at the bow is listed at eight-forty PM in Bak's log, but ship's records show it occurred at eight-ten PM. Bak had recorded it thirty minutes late in his personal log — creating a false record of his whereabouts that placed him away from the promenade deck at eight-forty instead of eight-ten.",
+        "alone": "Bak's rounds log entry for the flag ceremony is thirty minutes late — the alteration created a false unobserved window at eight-forty PM that the actual ceremony did not provide.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Bak's false log entry creating the eight-forty PM unobserved window and the purser's ledger showing a cash payment to Bak on day two of the voyage confirm Bak was paid to arrange the unobserved window — the alteration was not accidental."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Cash Payment",
+        "text": "The ship's purser's ledger records a passenger cash transaction on day two of the voyage: forty Egyptian pounds recorded against Feld's cabin account, described as 'personal effects advance.' The purser confirms this is not a standard service — a passenger requesting cash from their travel account is unusual. Forty pounds is equivalent to two months' salary for a steward.",
+        "alone": "Feld withdrew forty Egyptian pounds from his travel account on day two — equivalent to two months' steward salary — with no legitimate service explanation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Feld's forty-pound cash withdrawal on day two and Bak's altered rounds log creating the false unobserved window confirm the cash was Bak's payment for arranging the operational gap — the transaction preceded the murder by one day."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🛳️",
+        "heading": "Bak's Second Interview",
+        "text": "Youssef Bak, when presented with the log discrepancy, initially claims a memory error. When presented with the purser's ledger showing Feld's cash withdrawal and asked directly if he received payment from Feld, he requests legal counsel. He does not deny it. A search of his quarters finds thirty-eight Egyptian pounds in notes — consistent with forty pounds less a tip spent.",
+        "alone": "Bak's refusal to deny receiving payment and thirty-eight pounds found in his quarters consistent with Feld's forty-pound withdrawal confirm Bak received money from Feld in exchange for the false log entry.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Bak receiving Feld's forty pounds and his altered log entry creating the false unobserved window confirm he was paid to manage the deck observation gap — his role was operational support, not coincidence."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Feld's Letter to the Solicitor",
+        "text": "The Cairo solicitor confirms he received a separate letter from Dr. Feld — posted before the voyage departed — asking for 'advance information on the terms Professor Holt intends to attach to any revised bequest.' The solicitor had declined to share client information. But the letter confirms Feld knew a revision was coming and was trying to discover its terms before the voyage.",
+        "alone": "Feld had written to Cedric's solicitor before the voyage trying to learn the conditions of the will revision — he had been attempting to obtain this information in advance.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Feld's pre-voyage letter to the solicitor seeking advance information on the will revision and his cash payment to Bak on day two confirm his planning began before the voyage — the arrangements were made with the killing in mind from before departure."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "🗓️",
+        "heading": "Day Two Payment Timing",
+        "text": "The forty-pound withdrawal was made on day two of the voyage. The voyage began in Alexandria. On day one, Cedric had mentioned at dinner — in Feld's presence — that he would be updating his will at the next port. On day two, Feld withdrew the cash and paid Bak. The chronology: Cedric announced the revision on day one; Feld paid Bak on day two; Cedric died on day three.",
+        "alone": "Feld paid Bak exactly one day after Cedric announced he would update his will — the payment was a direct response to learning the revision was imminent.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Bak's false log entry and the payment made one day after Cedric's will revision announcement confirm the operational arrangement was triggered by the announcement — Feld moved to pay Bak and arrange the gap within twenty-four hours of learning the will change was coming."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "The Porthole Sill Knowledge",
+        "text": "Bak's formal statement — given before he declined further comment — confirms that Feld had asked him on day one whether 'Professor Holt keeps his usual evening habits aboard.' Bak had confirmed that Cedric did maintain his porthole sill drink cooling habit, which Bak had observed on prior voyages with the professor. Feld had confirmed this critical operational detail through Bak before making any arrangement.",
+        "alone": "Feld confirmed Cedric's porthole sill drink habit through Bak on day one — before paying him on day two. Bak provided the operational intelligence as well as the log cover.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Feld's cash payment to Bak and Bak confirming the porthole sill habit on day one confirm Bak's role was dual: intelligence provider on day one and operational support through the false log on day three — he was involved in both the planning and the execution."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "physical",
+        "icon": "💎",
+        "heading": "The Brooch's Timing",
+        "text": "The scarab brooch Vivienne gave Feld was presented at the voyage's departure dinner — day one. It was found on the promenade deck on day three, the night of the murder. Feld's denial that he had received the brooch is contradicted by four witnesses at the departure dinner. The brooch was in Feld's possession for two days before he dropped it on the deck.",
+        "alone": "The scarab brooch was in Feld's possession for two days before appearing on the promenade deck on the night of the murder — he dropped it while administering the poison through the porthole.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Bak confirming receipt of payment and the scarab brooch in Feld's possession for two days before being found at the murder location confirm the physical evidence and the operational arrangement both point to the same actor — Feld planned the killing over two days with Bak's assistance."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Feld's Pre-Voyage Research",
+        "text": "Feld's cabin contains a navigation chart of the SS Amenhotep's standard Nile route — purchased before the voyage — with Cabin 7's porthole position marked in pencil and its relationship to the promenade deck railing annotated. Feld had researched the ship's layout before boarding. The annotation reads: 'Accessible. Confirm sill habit on board.'",
+        "alone": "Feld had researched the ship's layout before the voyage and had identified the porthole access route in advance — the annotation confirms he was planning the method before departure.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Feld's pre-voyage letter to the solicitor seeking will revision information and his pre-voyage ship layout research confirming the porthole access route confirm the killing was planned before the voyage began — the arrangements made on days one and two were executing a pre-existing plan."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Marcus Feld",
+      "location": "Cabin 7",
+      "weapon": "Laudanum Bottle",
+      "access": "Porthole from Deck Above",
+      "window": "Eight-Forty to Fifty-Five PM"
+    },
+    "epilogue": "Dr. Marcus Feld had researched the SS Amenhotep's layout before departure and annotated the porthole access route. He had written to the Cairo solicitor seeking information on the will revision before the voyage. On day one Cedric announced the revision at dinner. On day one Feld confirmed the porthole sill habit through Bak. On day two he paid Bak forty pounds for the false log entry. On day three he poisoned Cedric through the porthole he had identified months before boarding. Bak received five years for conspiracy to commit murder. Feld was convicted of murder and sentenced to life imprisonment. Vivienne Holt received the full inheritance. The Oxford monograph was never published. Her survey was."
+  }
+}

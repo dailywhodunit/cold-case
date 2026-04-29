@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Alaska, 1897. The Klondike rush is on. A fur trader is dead — and only one person at the post could have done it with what was available. 🐻🔍 Case #053 — Frozen Assets. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Alaska 1897, a dead fur trader, and a killer identified by the only weapon that could have made the wound. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an 1897 Alaskan fur trading post in winter, rough-hewn log walls hung with beaver and wolf pelts, a woodstove burning in the corner, snowlight through a small frost-edged window. A trapdoor in the floor lies open, a lantern overturned beside it. Deep amber, smoke grey, cold blue outside. Gritty and atmospheric, style of Frederic Remington meets Gordon Parks.",
+    "animationPrompt": "Slow pan through a log-walled 1897 Alaskan fur trading post. Pelts hang from the rafters. Snow presses against a small frost window. The camera finds an open trapdoor in the floor, lantern light coming from below. A dark stain on the floor beside it. Wind howls outside. The woodstove ticks in the silence. Fade to black.",
+    "hashtags": [
+      "#AlaskaMystery",
+      "#FurTradingMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Frozen Assets",
+    "setting": "Harker's Trading Post · Yukon River Territory · Alaska · 1897",
+    "emoji": "🐻",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Fur trader Benedict Harker was found dead in the cellar of his own trading post the morning after a blizzard sealed the post for three days. Three people were snowbound with him. The wound tells the story — if you know what made it.",
+    "emptyState": "Three people. One wound. Find the weapon and you find the killer.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elspeth Harker",
+            "icon": "🧶",
+            "detail": "Benedict's wife — managed the post accounts and knew the debt."
+          },
+          {
+            "name": "Amos Crewe",
+            "icon": "🪓",
+            "detail": "The post's trapper and supply handler — owed Benedict a season's wages."
+          },
+          {
+            "name": "Father Doyle",
+            "icon": "✝️",
+            "detail": "A travelling missionary — sheltering at the post during the blizzard."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Root Cellar",
+            "icon": "🕳️",
+            "detail": "Where Benedict was found — fell or was pushed through the trapdoor."
+          },
+          {
+            "name": "The Trading Floor",
+            "icon": "🏪",
+            "detail": "Main post room — where everyone gathered during the blizzard."
+          },
+          {
+            "name": "The Account Room",
+            "icon": "📒",
+            "detail": "Elspeth's workspace — where the debt ledger was kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trapping Spike",
+            "icon": "📍",
+            "detail": "A long iron spike used to anchor traps — owned exclusively by Crewe."
+          },
+          {
+            "name": "Account Book Spine",
+            "icon": "📒",
+            "detail": "The metal reinforced spine of the account ledger — no blood or impact trace."
+          },
+          {
+            "name": "Woodstove Poker",
+            "icon": "🔥",
+            "detail": "A heavy iron poker — wound profile inconsistent with its shape."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "forensic",
+        "icon": "📍",
+        "heading": "The Spike Wound",
+        "text": "The territorial marshal confirms the wound on Benedict's shoulder — the blow that incapacitated him before he fell through the trapdoor — is consistent with a long narrow iron object with a flattened tip. The trapping spike used to anchor winter traps matches this profile exactly. The woodstove poker and the account book spine do not.",
+        "alone": "The wound was made by a trapping spike — only a trapping spike matches the wound profile, and the other candidates do not.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The wound profile matching the trapping spike and the spike found in Crewe's equipment bundle with fresh blood in the eye confirm it is the murder weapon — and Crewe is the only person who owns one."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Debt Ledger",
+        "text": "The account ledger shows Benedict had been systematically underreporting Crewe's pelt catch and docking wages against fabricated supply debts for three seasons — Crewe effectively owed nothing but believed, based on Benedict's ledger, that he owed two full seasons' wages. The actual balance shows Benedict owed Crewe.",
+        "alone": "Benedict had been defrauding Crewe through falsified accounts for three seasons — if Crewe discovered this, he had both grievance and a correct anger.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Benedict's systematic wage fraud against Crewe and the account ledger found open at the relevant pages in the account room confirm Crewe had accessed the records and discovered the fraud before the blizzard's third night."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Father Doyle's Account",
+        "text": "Father Doyle states he was in prayer in the corner of the trading floor from after supper until he heard the trapdoor bang — at which point he raised the alarm. He confirms Elspeth was on the trading floor with him throughout the evening, visible in the lamplight, until she went to the account room at approximately nine o'clock. He did not see her return.",
+        "alone": "Father Doyle confirms Elspeth's presence on the trading floor until nine o'clock — and his own presence throughout, but does not account for Crewe.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Father Doyle accounting for his own location and Elspeth's until nine o'clock and Crewe's bunk found cold and empty at that hour together confirm Crewe was absent from the trading floor during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Debt Confrontation Note",
+        "text": "A note found tucked inside the account ledger — in Crewe's rough handwriting — reads: 'I seen the real numbers. Three years. You owe me.' The note is undated but the paper shows recent handling — no dust on the fold. Crewe had written the confrontation note and left it in the ledger before the killing.",
+        "alone": "Crewe had already discovered the fraud and written a confrontation note — he knew what Benedict had done to him before the night of the murder.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Crewe's confrontation note confirming he knew about the fraud and Benedict's defensive response note found in his pocket confirm they had reached a direct confrontation that evening — Benedict's pocket note suggests he anticipated Crewe's anger."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "📍",
+        "heading": "Blood on the Spike",
+        "text": "Amos Crewe's equipment bundle, searched after the discovery, contains his trapping spike with fresh blood in the eye of the tool — the narrow hole at the tip. The blood matches Benedict's type. The spike had been wiped but not fully cleaned. Crewe claims he has not used the spike since the last trapping run, three weeks prior.",
+        "alone": "Fresh blood in Crewe's trapping spike matching Benedict's type confirms it was used recently — three weeks of non-use would not produce fresh blood.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The wound profile matching the trapping spike exactly and Crewe's spike containing fresh matching blood confirm the spike is the murder weapon and Crewe is the only person who owns one."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "📒",
+        "heading": "The Open Ledger",
+        "text": "The account ledger was found open in the account room at the pages showing Crewe's falsified debt entries. The ledger had not been there before supper — Elspeth had placed it in the locked drawer as she always did. The drawer was unlocked and the ledger removed. Crewe knew where the key was kept from years working the post.",
+        "alone": "Crewe had removed the ledger from the locked drawer and left it open at the pages showing his falsified accounts — he had been reading it that night.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Benedict's systematic wage fraud and Crewe accessing the ledger from the locked drawer that evening confirm he verified the fraud that night before confronting and killing Benedict."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "physical",
+        "icon": "🛏️",
+        "heading": "Crewe's Cold Bunk",
+        "text": "Father Doyle, when asked, confirms he checked on Crewe's bunk area shortly after nine o'clock — he thought he had heard movement. Crewe's bunk was empty and cold. A working man's bunk retains heat for at least thirty minutes after he rises. The bunk had been unoccupied for significantly longer than that.",
+        "alone": "Crewe's bunk was cold at nine o'clock — he had been absent from his bunk for well over thirty minutes, placing him unaccounted for during the murder window.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Father Doyle's confirmed location and Elspeth's until nine o'clock and Crewe's cold empty bunk at nine o'clock confirm Crewe was the only person absent from the trading floor during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "📜",
+        "heading": "Benedict's Pocket Note",
+        "text": "A note found in Benedict's coat pocket — in his own handwriting — reads: 'Crewe knows. Must settle tonight before he takes it further.' The note suggests Benedict was aware of the confrontation coming and planned to address it. The word 'settle' appears twice, underlined.",
+        "alone": "Benedict knew Crewe had found out about the fraud and planned to address it that night — suggesting he may have initiated the confrontation himself.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Crewe's confrontation note confirming he had found the fraud and Benedict's pocket note showing he planned to settle it that night confirm both men were heading toward a confrontation — the violence was the outcome of a meeting both had anticipated."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Amos Crewe",
+      "location": "The Root Cellar",
+      "weapon": "Trapping Spike"
+    },
+    "epilogue": "Amos Crewe had spent three seasons watching Benedict dock his wages against debts that did not exist. When the blizzard sealed the post and Crewe found the real ledger, he confirmed three years of theft and wrote the confrontation note. That night, Benedict came to him first — planning to settle it his own way. The argument moved toward the trapdoor. Crewe struck Benedict with the trapping spike he always carried on his belt. Benedict fell through the open trapdoor into the cellar. Crewe covered the wound poorly and replaced the spike in his bundle. Father Doyle found the body at dawn when the banging of the wind-caught trapdoor woke him."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Frozen Assets",
+    "setting": "Harker's Trading Post · Yukon River Territory · Alaska · 1897",
+    "emoji": "🐻",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Crewe killed Benedict. But the fraud Crewe uncovered was larger than his own wages. Benedict had been running the same scheme on three other trappers whose accounts ran through Harker's Post. Find who else was defrauded and why the blizzard was the chosen moment.",
+    "emptyState": "Three seasons of theft. Four victims. Find the full scale.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amos Crewe",
+            "icon": "🪓",
+            "detail": "The killer — trapping spike, blood, confrontation note, cold bunk."
+          },
+          {
+            "name": "Elspeth Harker",
+            "icon": "🧶",
+            "detail": "Cleared of the killing — trading floor alibi until nine, but kept the books."
+          },
+          {
+            "name": "Father Doyle",
+            "icon": "✝️",
+            "detail": "Cleared — confirmed on trading floor throughout, raised the alarm."
+          },
+          {
+            "name": "Three Absent Trappers",
+            "icon": "🌲",
+            "detail": "Storm-delayed men due at the post — whose accounts also show fraud."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Root Cellar",
+            "icon": "🕳️",
+            "detail": "Where the body was found — blow first, then fell through the trapdoor."
+          },
+          {
+            "name": "The Trading Floor",
+            "icon": "🏪",
+            "detail": "Where all parties gathered — Crewe absent after nine o'clock."
+          },
+          {
+            "name": "The Account Room",
+            "icon": "📒",
+            "detail": "Where Crewe accessed the ledger — drawer unlocked, pages left open."
+          },
+          {
+            "name": "The Trapdoor",
+            "icon": "🕳️",
+            "detail": "The mechanism of death — open during the confrontation, fell or pushed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trapping Spike",
+            "icon": "📍",
+            "detail": "Confirmed weapon — wound profile match, blood in the eye, Crewe's."
+          },
+          {
+            "name": "Account Book Spine",
+            "icon": "📒",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Woodstove Poker",
+            "icon": "🔥",
+            "detail": "Wound profile inconsistent — eliminated."
+          },
+          {
+            "name": "The Fraud Ledger",
+            "icon": "📒",
+            "detail": "Not a weapon — the motive. Three seasons of systematic theft."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Belt Tool",
+            "icon": "📍",
+            "detail": "Crewe carried the trapping spike on his belt as standard — always accessible."
+          },
+          {
+            "name": "Account Room Key",
+            "icon": "🔑",
+            "detail": "Crewe knew where the account room key was kept from years at the post."
+          },
+          {
+            "name": "Trapdoor Knowledge",
+            "icon": "🕳️",
+            "detail": "Crewe knew the cellar trapdoor location — he used the cellar for pelt storage."
+          },
+          {
+            "name": "Blizzard Isolation",
+            "icon": "🌨️",
+            "detail": "The three-day blizzard created perfect isolation — no outside witnesses possible."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Full Ledger Fraud",
+        "text": "A complete review of the account ledger reveals four trapper accounts — not just Crewe's — showing the same pattern: systematic undercounting of pelt catches and fabricated supply debts. The total amount Benedict had siphoned from four trappers over three seasons amounts to just over four hundred dollars — equivalent to nearly two years' wages for each man.",
+        "alone": "Benedict had been defrauding four trappers simultaneously for three seasons — the scale was systematic and the total was substantial.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The four-trapper fraud totalling four hundred dollars and the blizzard-delayed arrival of the three other trappers who were due at the post that week confirm Crewe knew the others were coming — he had a narrow window to act before the collective discovery would have changed everything."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "📍",
+        "heading": "The Spike's History",
+        "text": "The trapping spike shows two types of wear: routine wear from staking use on the shaft, and a more recent abrasion on the tip consistent with impact against bone. The blood in the eye is fresh — dried within forty-eight hours. Crewe has carried this spike for three seasons; the fresh abrasion and blood are from the night of the killing.",
+        "alone": "The spike's fresh abrasion and blood are recent — the spike was used as a weapon within forty-eight hours of its examination.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The fresh spike evidence and Crewe's confrontation note left in the ledger confirm he prepared the confrontation deliberately — the note was placed before the killing, not after."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Elspeth and Father Doyle Cleared",
+        "text": "Father Doyle's prayer position placed him with a clear view of the trading floor throughout the evening — he confirms Elspeth was visible until nine o'clock. His own movements are accounted for entirely. Elspeth's account room visit at nine o'clock is confirmed by the open ledger she found — she discovered the open account room and the ledger before the body was found, and immediately told Father Doyle.",
+        "alone": "Both Father Doyle and Elspeth are fully accounted for — their movements are confirmed and neither was near the trapdoor during the murder window.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Father Doyle and Elspeth both confirmed clear and Elspeth discovering the open ledger at nine o'clock confirm Crewe had already left the account room before nine — he confronted Benedict between the account room visit and Elspeth's discovery."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Blizzard Window",
+        "text": "The blizzard had been forecast by the local trading network — word had reached the post three days before the storm that a major blow was coming. The three other defrauded trappers had been expected at the post that week for account settlement. The blizzard delayed them by at least four days. If Crewe had waited for them, the confrontation would have been collective.",
+        "alone": "Crewe had a specific window — the blizzard that delayed the other trappers — to confront Benedict alone before the situation became a collective dispute.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The blizzard delaying the other defrauded trappers and Crewe's individual confrontation note suggesting he acted alone confirm he used the isolation window to settle his own account — whether intending to kill or not, he chose the most isolated moment available."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Other Trappers' Accounts",
+        "text": "The three accounts belonging to the delayed trappers — MacRae, Vint, and Solen — show identical patterns to Crewe's. Each has been docked wages against fictitious debts for three seasons. The total owed to these three men, combined with Crewe's, represents Benedict's operating capital for the upcoming season — money he had already committed to a supply order.",
+        "alone": "Benedict needed the fraudulent debts to appear valid because he had spent the money — exposure would have left him unable to finance the post's next season.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The four-trapper fraud and the delayed trappers' imminent arrival confirm Benedict was in a desperate position — the fraud would have collapsed within days when the others arrived. Crewe's individual discovery gave him the first warning."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "physical",
+        "icon": "📒",
+        "heading": "The Note in the Ledger",
+        "text": "Crewe's confrontation note — 'I seen the real numbers. Three years. You owe me.' — was placed inside the ledger at Crewe's account page. The note's ink is fresh — written within the past twenty-four hours. The fold is tight and deliberate. This was not a casual annotation; Crewe had written it as a formal record of his discovery.",
+        "alone": "Crewe wrote and placed the confrontation note deliberately within twenty-four hours of the killing — he had planned to confront Benedict formally before the violence occurred.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The fresh spike evidence and the confrontation note written within twenty-four hours confirm Crewe had a plan: confront Benedict with documented evidence and demand repayment. The violence was the outcome when Benedict refused."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "physical",
+        "icon": "🕳️",
+        "heading": "The Trapdoor Position",
+        "text": "The root cellar trapdoor is normally kept closed with a wooden peg latch. The peg was found removed and the trapdoor standing open before Elspeth discovered the account room at nine o'clock — the stagehand mechanism was already open before the confrontation location was established. Crewe used the cellar for pelt storage and knew the trapdoor well.",
+        "alone": "The trapdoor was already open before the killing — suggesting it was either already open by chance or opened deliberately to create a hazard at the location.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Elspeth and Father Doyle both confirmed clear and the trapdoor open before nine o'clock confirm the confrontation area was set before Elspeth discovered the account room — the location of the killing was determined by where the trapdoor happened to be open."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Benedict's Supply Order",
+        "text": "A supply order found in Benedict's desk — already signed and stamped for the spring delivery — commits to a payment of 380 dollars, due in April. The trading post's legitimate cash reserves, based on honest accounting, total only 80 dollars. The remaining 300 dollars was to come from the fraudulent wage deductions — money he had already committed but not yet collected.",
+        "alone": "Benedict's signed supply order required 300 dollars he had already stolen but not yet deducted — the fraud had to succeed or the post would collapse in spring.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The blizzard window isolating Crewe from the other defrauded trappers and Benedict's supply order committing to stolen money not yet secured confirm both men were under pressure — Benedict needed the fraud to continue, Crewe had proof it must stop."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Amos Crewe",
+      "location": "The Root Cellar",
+      "weapon": "Trapping Spike",
+      "access": "Belt Tool"
+    },
+    "epilogue": "Amos Crewe had spent three seasons watching his wages disappear into Benedict's fabricated debts. When the blizzard sealed the post and he verified the fraud in the ledger, he wrote the confrontation note and waited. Benedict came to him first — planning to negotiate before the other trappers arrived. They argued near the open cellar trapdoor. Crewe struck Benedict with the spike on his belt. Benedict fell through the trapdoor. Crewe replaced the spike in his equipment and returned to his bunk. Elspeth found the open ledger at nine. Father Doyle found the body at dawn. The three delayed trappers arrived four days later and discovered their own accounts had been equally falsified. The post was closed and its assets liquidated to repay the four men."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #053",
+    "title": "Frozen Assets",
+    "setting": "Harker's Trading Post · Yukon River Territory · Alaska · 1897",
+    "emoji": "🐻",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Crewe killed Benedict over the fraud. But Elspeth kept the books. She had been maintaining the falsified accounts for three seasons — she knew the fraud better than Benedict did. And she had her own reason to want the other trappers never to see the real numbers.",
+    "emptyState": "Crewe killed. Elspeth maintained. Find what she was hiding in the accounts.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Amos Crewe",
+            "icon": "🪓",
+            "detail": "The killer — spike, blood, confrontation note, cold bunk."
+          },
+          {
+            "name": "Elspeth Harker",
+            "icon": "🧶",
+            "detail": "Kept the falsified accounts — her own entries hidden within the fraud."
+          },
+          {
+            "name": "Father Doyle",
+            "icon": "✝️",
+            "detail": "Cleared — full alibi, raised the alarm."
+          },
+          {
+            "name": "MacRae",
+            "icon": "🌲",
+            "detail": "One of the three delayed trappers — his account shows a specific discrepancy."
+          },
+          {
+            "name": "The Supply Company",
+            "icon": "🏢",
+            "detail": "Benedict's creditor — their records contradict his listed supply costs."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Root Cellar",
+            "icon": "🕳️",
+            "detail": "Crime scene — Crewe struck Benedict here, fell through the trapdoor."
+          },
+          {
+            "name": "The Account Room",
+            "icon": "📒",
+            "detail": "Where Elspeth worked — and where her own hidden entries are found."
+          },
+          {
+            "name": "The Trading Floor",
+            "icon": "🏪",
+            "detail": "Where the community gathered — and where Elspeth maintained her cover."
+          },
+          {
+            "name": "The Supply Depot Records",
+            "icon": "🏢",
+            "detail": "Outside records showing actual supply costs — contradicting Elspeth's figures."
+          },
+          {
+            "name": "Elspeth's Personal Cache",
+            "icon": "💰",
+            "detail": "A hidden strongbox found beneath the floorboard of the account room."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Trapping Spike",
+            "icon": "📍",
+            "detail": "Confirmed murder weapon — Crewe's, blood in the eye, wound match."
+          },
+          {
+            "name": "Account Book Spine",
+            "icon": "📒",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Woodstove Poker",
+            "icon": "🔥",
+            "detail": "Wound inconsistent — eliminated."
+          },
+          {
+            "name": "The Falsified Accounts",
+            "icon": "📒",
+            "detail": "Not a weapon — Elspeth's instrument of a second, separate theft from the post."
+          },
+          {
+            "name": "Elspeth's Strongbox",
+            "icon": "💰",
+            "detail": "Found beneath the account room floor — containing three seasons of skimmed cash."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Belt Tool",
+            "icon": "📍",
+            "detail": "Crewe's spike — always on his belt, immediately accessible."
+          },
+          {
+            "name": "Account Room Key",
+            "icon": "🔑",
+            "detail": "Elspeth held the key — she locked and unlocked the ledger drawer daily."
+          },
+          {
+            "name": "Trapdoor Knowledge",
+            "icon": "🕳️",
+            "detail": "Crewe knew the cellar layout from pelt storage use."
+          },
+          {
+            "name": "Ledger Authority",
+            "icon": "📒",
+            "detail": "Elspeth had full authority over the accounts — no one checked her entries."
+          },
+          {
+            "name": "Supply Invoice Control",
+            "icon": "📜",
+            "detail": "Elspeth processed all supply invoices — she controlled what costs were recorded."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Recover Stolen Wages",
+            "icon": "💰",
+            "detail": "Crewe's stated motive — three seasons of fraudulent wage deductions."
+          },
+          {
+            "name": "Conceal a Second Fraud",
+            "icon": "🔒",
+            "detail": "Elspeth had been skimming supply costs into a personal cache alongside Benedict's wage fraud."
+          },
+          {
+            "name": "Prevent Collective Discovery",
+            "icon": "👥",
+            "detail": "If all four trappers compared accounts, Elspeth's separate skimming would be visible."
+          },
+          {
+            "name": "Financial Independence",
+            "icon": "🏃",
+            "detail": "Elspeth had been saving to leave Benedict — the strongbox was her exit fund."
+          },
+          {
+            "name": "Protect the Exit Plan",
+            "icon": "🚪",
+            "detail": "Crewe's confrontation threatened to expose accounts that would reveal Elspeth's hidden cache."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Supply Invoice Gap",
+        "text": "A comparison of Benedict's ledger supply costs against the actual invoices from the Yukon supply depot — obtained four weeks after the murder — shows a consistent fifteen percent gap. The ledger records supply costs fifteen percent higher than the depot actually charged. Over three seasons, this gap amounts to sixty dollars.",
+        "alone": "Elspeth had been inflating supply costs by fifteen percent and recording the difference — sixty dollars over three seasons that went unaccounted for in the ledger.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The fifteen percent supply cost inflation and the strongbox containing sixty dollars in the account room floor confirm Elspeth had been systematically skimming from the post's supply account — the inflation was her mechanism and the cache was her storage."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "physical",
+        "icon": "💰",
+        "heading": "The Strongbox",
+        "text": "A search of the account room — conducted after the investigation expanded — finds a section of loose floorboard. Beneath it is a tin strongbox containing sixty dollars in mixed coin and note, a one-way steamship ticket to Seattle dated for the following spring, and a note in Elspeth's handwriting reading: 'Enough. April. Do not look back.'",
+        "alone": "Elspeth had saved sixty dollars — matching the supply invoice gap exactly — and had purchased a one-way ticket to Seattle for the following spring.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The strongbox matching the supply invoice gap exactly and the steamship ticket confirm Elspeth had been systematically building an exit fund from the post's accounts — she was planning to leave Benedict in the spring."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "MacRae's Account Anomaly",
+        "text": "Trapper MacRae's account — one of the four defrauded — shows an additional irregularity beyond the standard wage fraud pattern. Two entries in MacRae's favour have been made and then cancelled, with a notation in Elspeth's hand: 'queried — reconfirmed.' MacRae had previously questioned his account balance and Elspeth had settled the query herself without involving Benedict.",
+        "alone": "MacRae had previously questioned his account and Elspeth had resolved it personally — she was managing the fraud on Benedict's behalf and protecting it from scrutiny.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Elspeth managing MacRae's account query without Benedict's involvement and the steamship ticket confirming her exit plan confirm she was maintaining the fraud to protect both Benedict's scheme and her own skimming operation until she could leave."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🧶",
+        "heading": "What Elspeth Knew",
+        "text": "Elspeth, interviewed extensively after the investigation expanded, admits she maintained the falsified trapper accounts at Benedict's direction — she kept the books and knew all four accounts were fraudulent. She also admits she knew Crewe had accessed the ledger the evening of the murder — she had noticed the account room door was not fully latched when she arrived at nine o'clock.",
+        "alone": "Elspeth knew the accounts were falsified, knew Crewe had accessed the ledger, and said nothing — she chose silence at every critical moment.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Elspeth knowing Crewe accessed the ledger and choosing silence and her strongbox exit plan confirm she allowed the confrontation to proceed without warning Benedict — his death was not her goal, but it was not unwelcome given her plans to leave."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Invoice Records",
+        "text": "The supply depot's own records, sent to the territorial marshal on request, show every delivery to Harker's Post for three seasons. Compared line by line against Elspeth's ledger entries, the fifteen percent inflation is consistent and deliberate — it appears in every supply entry across all three seasons. The inflation began on the same date as the wage fraud, suggesting Elspeth launched her own scheme alongside Benedict's.",
+        "alone": "Elspeth's supply inflation began at the same time as Benedict's wage fraud — she appears to have launched her own skimming scheme in parallel with his, using the same accounts as cover.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The fifteen percent supply cost inflation and its simultaneous start with Benedict's wage fraud confirm Elspeth was not just maintaining the accounts — she was running a parallel theft operation using the fraudulent accounts as camouflage."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "physical",
+        "icon": "🎫",
+        "heading": "The Seattle Ticket",
+        "text": "The steamship ticket found in the strongbox was purchased from a Dawson City booking agent four months before the murder — during Elspeth's last supply run to town. She had been planning to leave for at least four months. The ticket is one-way, coach class, departing the following April — after the spring thaw opens the river routes.",
+        "alone": "Elspeth had been planning to leave Benedict for at least four months and had purchased a one-way ticket using money skimmed from the post.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The strongbox matching the supply gap and the Seattle ticket purchased four months ago confirm Elspeth had been executing a patient exit plan — the skimming was not opportunistic but deliberate long-term saving for departure."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📒",
+        "heading": "MacRae's Second Query",
+        "text": "A second query notation in MacRae's account — made six weeks before the murder — shows he had questioned his balance again. This time Elspeth's note reads: 'Reconfirmed. No further discussion.' MacRae, interviewed after the investigation expanded, confirms Elspeth had told him directly: 'The accounts are correct. Your word against ours.' He had backed down.",
+        "alone": "Elspeth had personally warned MacRae off questioning the accounts six weeks before the murder — she actively suppressed trapper scrutiny of the fraud.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Elspeth managing MacRae's first query and personally warning him off a second one six weeks before the murder confirm she was not a passive bookkeeper — she was an active participant in maintaining the fraud."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Why Elspeth Said Nothing",
+        "text": "Elspeth acknowledges she noticed the unlatched account room door at nine o'clock, understood Crewe had accessed the ledger, and could have warned Benedict before he walked toward the cellar area. She did not. She returned to the trading floor and sat with Father Doyle. Her explanation: 'I thought it would resolve itself. I didn't want to be involved.'",
+        "alone": "Elspeth chose not to warn Benedict when she knew the confrontation was imminent — a choice that allowed the killing to proceed without interference.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Elspeth knowing Crewe accessed the ledger and choosing not to warn Benedict and her strongbox exit plan for the following spring confirm her silence was not passive — she had reason to let the situation resolve without her intervention, because Benedict's death advanced her own plans."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Amos Crewe",
+      "location": "The Root Cellar",
+      "weapon": "Trapping Spike",
+      "access": "Belt Tool",
+      "motive": "Recover Stolen Wages"
+    },
+    "epilogue": "Amos Crewe killed Benedict Harker over three seasons of stolen wages. Elspeth Harker had known about the confrontation coming and said nothing — because Benedict's death did not harm her plans and might even have simplified them. Her own sixty-dollar skimming operation was hidden in a strongbox under the floorboard. Her one-way ticket to Seattle was purchased four months before her husband died. Crewe was convicted of manslaughter — the court accepted the fraud as significant provocation. Elspeth was charged with fraud and conspiracy but not murder. She did not board the April steamship. The trading post was liquidated. MacRae, Vint, Solen, and Crewe each received partial restitution from the estate. Father Doyle returned to his mission circuit."
+  }
+}

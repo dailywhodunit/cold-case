@@ -1,0 +1,725 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Medellín, 1989. A cartel accountant is dead. The ledger is missing. And only one person in the compound had the access to take it. 📒🔍 Case #060 — The Ledger. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Medellín 1989, a cartel compound, a dead accountant, and a missing ledger that one person needed gone. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Colombian cartel compound in 1989, a white-walled office with jalousie windows, a ceiling fan turning slowly, a heavy wooden desk with ledger books stacked beside it. One ledger lies open on the floor, pages fanned. A phone cord runs across the tiles. Humid afternoon light through the louvers. Cinematic and tense, style of Werner Herzog meets Robert Mapplethorpe.",
+    "animationPrompt": "Slow pan through a 1989 Medellín compound office. Jalousie windows. Ceiling fan turning. A ledger lies open on the tiled floor. The camera finds a phone cord stretched across the tiles and a desk chair overturned. Afternoon light filters through the louvers. Outside, birds. Inside, silence. Fade to black.",
+    "hashtags": [
+      "#MedellinMystery",
+      "#CartelThriller",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #060",
+    "title": "The Ledger",
+    "setting": "Villa Esmeralda Compound · Medellín · 1989",
+    "emoji": "📒",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Accountant Ernesto Salas was found dead in the compound's records office. The master ledger — containing the financial records of every operation — is missing. Three people had access to the records office. Only one of them had a name in the ledger that would have destroyed them.",
+    "emptyState": "The ledger is gone. One person needed it to disappear.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Camila Reyes",
+            "icon": "💼",
+            "detail": "The compound administrator — managed compound operations, had a separate ledger entry."
+          },
+          {
+            "name": "Lieutenant Díaz",
+            "icon": "🔫",
+            "detail": "The security chief — responsible for compound protection, name appears in the ledger."
+          },
+          {
+            "name": "Dr. Paulo Vente",
+            "icon": "🩺",
+            "detail": "The compound physician — treated both cartel members and their families."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Records Office",
+            "icon": "📁",
+            "detail": "Where Ernesto was found — ledger taken, phone cord used as a weapon."
+          },
+          {
+            "name": "The Main House",
+            "icon": "🏠",
+            "detail": "Where the compound's leadership worked — access requires a key code."
+          },
+          {
+            "name": "The Medical Suite",
+            "icon": "🩺",
+            "detail": "Where Dr. Vente was confirmed present — adjacent to the compound infirmary."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Phone Cord",
+            "icon": "📞",
+            "detail": "The office telephone cord — ligature marks on Ernesto's neck, cord stretched across the floor."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "The heavy cover of the missing ledger — no blood or wound trace on what remained."
+          },
+          {
+            "name": "Ceiling Fan Chain",
+            "icon": "🔗",
+            "detail": "The pull chain — too short for ligature use, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Missing Entry",
+        "text": "A partial ledger — a secondary copy maintained for tax concealment purposes — is found in a hidden drawer. It references a primary ledger entry for 'L.D. Commission: 240,000 USD.' The initials L.D. match Lieutenant Díaz. The entry suggests Díaz had been receiving commissions from the operation that his role should not have provided — a record that would expose him as running a parallel operation.",
+        "alone": "The ledger contained an entry showing Lieutenant Díaz had received 240,000 dollars in undisclosed commissions — evidence of a parallel operation that would be fatal if exposed.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The ledger entry connecting Díaz to undisclosed commissions and his key code access to the records office during the murder window confirm he had both the motive and the means to enter the office and take the ledger."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📞",
+        "heading": "The Phone Cord",
+        "text": "The telephone cord is found stretched across the records office floor — the receiver is off its base and lies under the desk. Ligature marks on Ernesto's neck match the cord's gauge exactly. The killing was not planned with a brought weapon — the killer used what was at hand in the office, suggesting they expected a conversation that became violent.",
+        "alone": "Ernesto was strangled with the office phone cord — the opportunistic weapon suggests the killing was not premeditated but became necessary during an encounter.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The phone cord used opportunistically and Díaz's confirmed presence at the records office corridor at three PM together confirm he entered for another purpose — likely to take the ledger — and killed Ernesto when he was found there."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Dr. Vente's Location",
+        "text": "The compound infirmary nurse confirms Dr. Vente was in the medical suite from one PM until five PM treating a guard with a foot injury. The treatment required continuous attention for the first two hours. Three other compound members were in the waiting area during this period and confirm Vente did not leave.",
+        "alone": "Dr. Vente was in the medical suite continuously from one PM to five PM — confirmed by the nurse and three waiting patients. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Dr. Vente cleared by the medical suite and Camila Reyes confirmed in the main house meeting until four PM together eliminate both suspects and leave Díaz as the only person unaccounted for near the records office during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Camila's Separate Entry",
+        "text": "The partial secondary ledger also shows an entry for 'C.R. Admin Allocation: 18,000 USD' — initials matching Camila Reyes. Her allocation is documented as an authorized administrative expense, properly categorized. Unlike the Díaz entry, Camila's allocation was legitimately recorded and sanctioned by the operation's leadership. She had no need to take the ledger.",
+        "alone": "Camila's ledger entry was legitimate and authorized — she had no reason to conceal it, eliminating the motive for taking the primary ledger.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Camila's legitimately documented entry requiring no concealment and her confirmed meeting alibi eliminate her entirely — the motive for the ledger's removal belongs only to Díaz."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "digital",
+        "icon": "🔑",
+        "heading": "Díaz's Key Code Access",
+        "text": "The compound records office uses a key code lock. The access log shows three entries that afternoon: Ernesto at one-thirty PM, Camila at two PM (exiting at two-fifteen PM), and Díaz at three PM. Díaz's access at three PM falls within the estimated time of death — between two-thirty and four PM. He was the last person to enter the office before the body was discovered at five PM.",
+        "alone": "Díaz accessed the records office at three PM — within the murder window — and was the last person to enter before the body was discovered.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The ledger entry exposing Díaz's undisclosed commissions and his key code access at three PM during the murder window confirm he entered the records office to retrieve the ledger and killed Ernesto when he found him there."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "Díaz at the Corridor",
+        "text": "A compound guard confirms he saw Lieutenant Díaz walking toward the records office corridor at approximately three PM. Díaz told the guard he was 'checking on something for the boss.' The guard did not follow him. No such instruction from the compound's leadership exists in the day's log — the reason given to the guard was false.",
+        "alone": "Díaz was seen walking to the records office corridor at three PM with a false stated purpose — his actual reason for going there is not documented.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The phone cord used opportunistically and Díaz approaching the records office with a false stated purpose confirm he entered the office intending to take the ledger and killed Ernesto when the accountant was present and witnessed him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Camila's Main House Meeting",
+        "text": "Camila Reyes was in a main house meeting with the compound's leadership from two-thirty PM until four PM — confirmed by two senior members and a log entry. She left the records office at two-fifteen PM before the murder window opened and did not return. She is cleared of the killing.",
+        "alone": "Camila left the records office at two-fifteen PM and was in a confirmed main house meeting from two-thirty to four PM — she is cleared by documentary evidence and two witnesses.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Vente cleared in the medical suite and Camila cleared in the main house meeting together account for all suspects except Díaz during the murder window — he is the only person whose location at three PM is unconfirmed by any witness."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "📒",
+        "heading": "The Ledger Shelf",
+        "text": "The empty shelf where the primary ledger was kept shows a clean rectangular outline in the dust — the ledger's footprint. Beside the outline, a bootprint in a fine chalk dust from the shelf's backing board matches a military-style boot sole. Díaz wears military-pattern boots. Camila wears flat-soled shoes. Vente wears rubber-soled medical clogs. The bootprint is Díaz's.",
+        "alone": "A military boot sole print in chalk dust beside the empty ledger shelf matches Díaz's boot pattern — he was at the shelf where the ledger was kept.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Camila's legitimate ledger entry requiring no concealment and Díaz's boot print beside the empty ledger shelf confirm the ledger was taken by the one person whose entry required concealment — Díaz."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Díaz",
+      "location": "The Records Office",
+      "weapon": "Phone Cord"
+    },
+    "epilogue": "Lieutenant Díaz had been running a parallel commission arrangement for three years — collecting fees from operations he facilitated outside the compound's official structure. The master ledger documented every transaction. When he entered the records office at three PM to remove the relevant pages, he found Ernesto at his desk reviewing the exact entries. He used the phone cord. He took the ledger. A secondary copy in a hidden drawer and the chalk dust bootprint were the only evidence the investigation needed. Díaz was removed from his position by the compound's leadership before Colombian authorities could act. His subsequent fate was not recorded."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #060",
+    "title": "The Ledger",
+    "setting": "Villa Esmeralda Compound · Medellín · 1989",
+    "emoji": "📒",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Díaz killed Ernesto and took the ledger. But the parallel operation Díaz was running had a client — someone outside the compound who had been paying the commissions. Find who was paying Díaz and what they were paying him for.",
+    "emptyState": "The 240,000 came from somewhere. Find the source.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Díaz",
+            "icon": "🔫",
+            "detail": "The killer — phone cord, boot print, key code at three PM, ledger entry."
+          },
+          {
+            "name": "Camila Reyes",
+            "icon": "💼",
+            "detail": "Cleared as killer — meeting alibi, legitimate ledger entry."
+          },
+          {
+            "name": "Dr. Paulo Vente",
+            "icon": "🩺",
+            "detail": "Cleared as killer — medical suite confirmed all afternoon."
+          },
+          {
+            "name": "Colonel Ramos",
+            "icon": "🎖️",
+            "detail": "A Colombian military officer — the external client paying Díaz's commissions."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Records Office",
+            "icon": "📁",
+            "detail": "Primary crime scene — Díaz's boot print, phone cord, empty ledger shelf."
+          },
+          {
+            "name": "The Main House",
+            "icon": "🏠",
+            "detail": "Compound leadership area — Camila's meeting confirmed here."
+          },
+          {
+            "name": "The Medical Suite",
+            "icon": "🩺",
+            "detail": "Vente's confirmed location — all afternoon."
+          },
+          {
+            "name": "The External Meeting Point",
+            "icon": "🤝",
+            "detail": "Where Díaz met Colonel Ramos — identified from Díaz's personal phone log."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Phone Cord",
+            "icon": "📞",
+            "detail": "Confirmed weapon — ligature marks match, opportunistic use."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Ceiling Fan Chain",
+            "icon": "🔗",
+            "detail": "Too short — eliminated."
+          },
+          {
+            "name": "The 240,000 Commission",
+            "icon": "💰",
+            "detail": "Not a weapon — the motive. Payment from Colonel Ramos for compound intelligence."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Paid the Commission",
+            "icon": "💰",
+            "detail": "Colonel Ramos paid Díaz 240,000 dollars for compound intelligence over three years."
+          },
+          {
+            "name": "Requested the Ledger",
+            "icon": "📒",
+            "detail": "Ramos had asked Díaz to obtain specific financial records for use against the compound."
+          },
+          {
+            "name": "Provided the Safe House",
+            "icon": "🏠",
+            "detail": "Ramos maintained a contact location where Díaz delivered intelligence."
+          },
+          {
+            "name": "Arranged Díaz's Extraction",
+            "icon": "🚗",
+            "detail": "After the murder, Ramos facilitated Díaz's exit from the compound before the leadership could act."
+          },
+          {
+            "name": "Sold the Intelligence to DEA",
+            "icon": "📡",
+            "detail": "Ramos was ultimately selling Díaz's compound intelligence to U.S. drug enforcement."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Díaz's Phone Log",
+        "text": "Díaz's personal phone log — found in his quarters after his removal — shows twelve calls over three years to a number registered to a Medellín real estate company. The company's registration is a shell — behind it is Colonel Ernesto Ramos of the Colombian National Police's anti-narcotics division. Díaz had been in regular contact with a law enforcement officer.",
+        "alone": "Díaz had been calling a shell company registered to Colonel Ramos of the anti-narcotics division for three years — he was an informant.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Díaz's calls to Ramos over three years and the 240,000 commission entry in the secondary ledger confirm Díaz was paid by Ramos for compound intelligence — the commission was his informant payment, not a cartel operation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Commission Source",
+        "text": "A financial trace of the 240,000 dollars identified in the secondary ledger — conducted by investigators working backward through the payment chain — identifies the origin as a series of wire transfers from a Panamanian account. The Panamanian account is connected to a DEA operational fund designated for confidential informant payments in Colombia.",
+        "alone": "The 240,000 dollars paid to Díaz originated from a DEA-connected operational fund — he was being paid by U.S. drug enforcement through Ramos as an intermediary.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The DEA-connected payment source and Ramos's request for the compound ledger three weeks before the murder confirm the ledger was the specific intelligence product Díaz was asked to deliver — not a spontaneous decision."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Ramos's Role",
+        "text": "Colonel Ramos, interviewed by investigators after Díaz's disappearance, initially denies any relationship with Díaz. When presented with the phone log and the payment trace, he admits Díaz had been providing compound intelligence for three years — structural information, personnel details, operational schedules. He denies asking for the ledger specifically. The denial is contradicted by the subsequent clue.",
+        "alone": "Ramos admits Díaz was a three-year informant but denies requesting the ledger specifically — his denial becomes significant when compared to Díaz's own notes.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Ramos denying the ledger request and Díaz's personal notes recording the specific ledger request from Ramos three weeks before the murder confirm Ramos's denial is false — he requested the ledger and Díaz acted on the request the day Ernesto was reviewing the relevant entries."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Camila's Unconnected Role",
+        "text": "A full review of Camila Reyes's compound activities — including her communications, meeting attendance, and financial records — confirms she had no knowledge of Díaz's informant relationship or the parallel commission operation. Her administrative role was entirely within the compound's official structure. She was not involved in any element of the external operation.",
+        "alone": "Camila had no knowledge of or involvement in Díaz's informant relationship — she is cleared of all connection to the external operation.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Camila completely disconnected from the external operation and the full DEA-to-Ramos-to-Díaz payment chain confirming the operation was Díaz's alone confirm Camila's clearance is complete and the conspiracy extended only to the three external parties."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Three Years of Intelligence",
+        "text": "A reconstruction of what Díaz had provided Ramos — pieced together from the phone log call dates, compound event records, and subsequent DEA operational activity — shows Díaz had timed his calls to coincide with major compound decisions: personnel changes, operational expansions, safe house relocations. His intelligence had enabled three successful DEA interdictions over three years.",
+        "alone": "Díaz's intelligence had enabled three DEA interdictions — he had been a productive informant at the highest level of compound operations for three years.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Díaz's twelve calls to Ramos and the three resulting DEA interdictions confirm the intelligence relationship was operational and consequential — the compound had suffered real damage from Díaz's informant activity without knowing the source."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger Request",
+        "text": "Díaz's personal notes — found in a concealed pocket of his equipment bag — include an entry from three weeks before the murder: 'R. needs full ledger. All entries. Complete picture for the case. Deadline: end of month.' 'R.' is Ramos. The request was for the complete primary ledger — not just specific pages — to be delivered by month's end.",
+        "alone": "Ramos had specifically requested the complete primary ledger from Díaz three weeks before the murder — with a month-end deadline that fell within days of the killing.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The DEA-connected payment source and Ramos's specific ledger request with a deadline confirm the killing was triggered by the deadline — Díaz entered the records office on the day Ernesto was reviewing the ledger entries because the delivery window was closing."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📝",
+        "heading": "Díaz's Exit Route",
+        "text": "After his removal from the compound — before Colombian authorities could act — Díaz was confirmed crossing the border into Venezuela through a checkpoint where a National Police officer was on duty. The checkpoint officer's log shows the crossing was flagged for priority clearance. Ramos had arranged Díaz's extraction through official channels.",
+        "alone": "Ramos facilitated Díaz's border crossing through official police channels after the murder — the extraction was pre-arranged, not improvised.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Ramos denying the ledger request while also facilitating Díaz's extraction confirms Ramos was actively managing the situation after the murder — his operational relationship with Díaz extended through the killing and the exit."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📡",
+        "heading": "The DEA Outcome",
+        "text": "DEA records from the subsequent investigation confirm the ledger — which was never recovered from Díaz — was used to build a case file that resulted in the indictment of fourteen compound members in U.S. federal court in 1991. Díaz himself was never charged. His identity as the informant was protected under U.S. law. He received a new identity through a witness protection arrangement.",
+        "alone": "The missing ledger was eventually used to indict fourteen compound members — Díaz had successfully delivered it to Ramos, who passed it to the DEA. The operation achieved its objective.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Three years of successful DEA interdictions enabled by Díaz and the ledger eventually used to indict fourteen compound members confirm the informant operation was strategically successful — Ernesto Salas's death was the only criminal act the operation could not sanitize."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Díaz",
+      "location": "The Records Office",
+      "weapon": "Phone Cord",
+      "accomplice": "Paid the Commission"
+    },
+    "epilogue": "Lieutenant Díaz had been a DEA informant for three years, paid through Colonel Ramos from a U.S. operational fund. Three weeks before the murder, Ramos had given him a month-end deadline to deliver the complete primary ledger. On the afternoon the deadline was approaching, Díaz entered the records office to take it and found Ernesto reviewing the commission entries. He used the phone cord. He left with the ledger. Ramos arranged his border crossing within hours. The ledger reached the DEA. Fourteen indictments followed in 1991. Díaz received a new identity and was never charged with Ernesto Salas's murder. The compound's leadership never knew the source of its destruction."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #060",
+    "title": "The Ledger",
+    "setting": "Villa Esmeralda Compound · Medellín · 1989",
+    "emoji": "📒",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Díaz was the informant. Ramos was the handler. But Ernesto Salas had not been reviewing the ledger accidentally — he had been tipped off about the commission entries by Camila Reyes, who had noticed a discrepancy in the secondary copy. Find what Camila knew and why she told Ernesto rather than the leadership.",
+    "emptyState": "Ernesto was at the right page because someone put him there. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Díaz",
+            "icon": "🔫",
+            "detail": "The killer — phone cord, boot print, informant, ledger delivered to DEA."
+          },
+          {
+            "name": "Camila Reyes",
+            "icon": "💼",
+            "detail": "Cleared as killer — but she found the discrepancy and told Ernesto, not the leadership."
+          },
+          {
+            "name": "Dr. Paulo Vente",
+            "icon": "🩺",
+            "detail": "Cleared as killer — medical suite. But treated Díaz for stress symptoms weeks before."
+          },
+          {
+            "name": "Colonel Ramos",
+            "icon": "🎖️",
+            "detail": "The external handler — facilitated Díaz's extraction, passed the ledger to DEA."
+          },
+          {
+            "name": "The Compound Leadership",
+            "icon": "👑",
+            "detail": "Were never told about the discrepancy — Camila made a specific choice about who to tell."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Records Office",
+            "icon": "📁",
+            "detail": "Crime scene — Díaz killed Ernesto here while taking the ledger."
+          },
+          {
+            "name": "The Main House",
+            "icon": "🏠",
+            "detail": "Compound leadership area — Camila could have gone here to report, but went to Ernesto instead."
+          },
+          {
+            "name": "The Medical Suite",
+            "icon": "🩺",
+            "detail": "Vente's location — and where he had treated Díaz three weeks before."
+          },
+          {
+            "name": "Camila's Office",
+            "icon": "💼",
+            "detail": "Where she found the secondary ledger discrepancy — and made her decision."
+          },
+          {
+            "name": "Ernesto's Desk",
+            "icon": "📒",
+            "detail": "Where Camila directed Ernesto to review — the specific ledger entry page."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Phone Cord",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Díaz's opportunistic use when Ernesto was found at the ledger."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Ceiling Fan Chain",
+            "icon": "🔗",
+            "detail": "Too short — eliminated."
+          },
+          {
+            "name": "The Secondary Ledger Entry",
+            "icon": "📋",
+            "detail": "Not a weapon — the trigger Camila used to send Ernesto to the exact page Díaz needed to remove."
+          },
+          {
+            "name": "Camila's Information",
+            "icon": "💡",
+            "detail": "The intelligence she chose to share with Ernesto rather than the leadership — a choice with lethal consequences."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Paid the Commission",
+            "icon": "💰",
+            "detail": "Colonel Ramos paid Díaz — the 240,000 originated from DEA funds through a Panamanian account."
+          },
+          {
+            "name": "Directed Ernesto to the Entry",
+            "icon": "📒",
+            "detail": "Camila told Ernesto to review the specific secondary ledger entry showing the Díaz commission."
+          },
+          {
+            "name": "Withheld Information from Leadership",
+            "icon": "🤫",
+            "detail": "Camila chose not to report the discrepancy to the compound's leadership — she went to Ernesto instead."
+          },
+          {
+            "name": "Arranged Díaz's Extraction",
+            "icon": "🚗",
+            "detail": "Ramos facilitated the border crossing through official channels after the murder."
+          },
+          {
+            "name": "Treated Díaz for Informant Stress",
+            "icon": "🩺",
+            "detail": "Vente had treated Díaz three weeks before — and had noted the nature of his symptoms without reporting them."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Camila's Discrepancy Finding",
+        "text": "A note in Camila's handwriting — found in her desk drawer, not filed — reads: 'Secondary ledger, L.D. entry. Cross-reference missing from main. Ask Ernesto to verify.' The note is dated the morning of the murder. She had found the secondary ledger discrepancy and asked Ernesto to verify it by reviewing the primary ledger — she directed him to the exact entry Díaz needed to remove.",
+        "alone": "Camila had found the discrepancy that morning and asked Ernesto to verify it in the primary ledger — she sent him to the exact page that led to his death.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Camila directing Ernesto to the specific ledger entry and her choice not to report the discrepancy to the leadership confirm she made a deliberate decision about how to handle the information — her choice of Ernesto rather than the leadership has a reason."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🤫",
+        "heading": "Why Not the Leadership",
+        "text": "Camila Reyes, in an extended interview, is asked directly: 'Why did you ask Ernesto to verify the discrepancy rather than reporting it immediately to the compound's leadership?' She pauses, then says: 'Because if it was Díaz, and I told the leadership, and I was wrong — that is more dangerous than being right.' Her answer reveals she understood the political risk of accusing a senior officer without certainty.",
+        "alone": "Camila chose Ernesto because accusing Díaz to the leadership without proof was too dangerous — she needed verification before making an accusation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Camila's risk-based decision to use Ernesto as a verifier rather than the leadership and Díaz's boot print confirming his presence at the ledger shelf confirm her decision placed Ernesto in the path of the man she suspected — with fatal results."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Vente's Treatment of Díaz",
+        "text": "Dr. Vente, in a second interview, confirms he treated Díaz three weeks before the murder for symptoms he describes as 'acute anxiety with autonomic features — elevated heart rate, sleep disruption, hypersensitivity to noise.' Vente had asked Díaz about possible sources of stress. Díaz had said 'a professional situation I am managing.' Vente had recorded this and said nothing to the compound's leadership.",
+        "alone": "Vente had treated Díaz for severe anxiety three weeks before the murder and had not reported the symptoms or Díaz's vague response to the compound's leadership.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Vente treating Díaz for anxiety three weeks before the murder — coinciding with Ramos's ledger request deadline — and his silence to the leadership confirm Vente had clinical knowledge that something was significantly wrong with Díaz and chose professional confidence over compound security."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Secondary Ledger's Origin",
+        "text": "The secondary ledger — found in the hidden drawer — was maintained by Ernesto as a tax concealment record. A review of its entries shows it was last updated three days before the murder. The L.D. commission entry had been in the secondary ledger for eight months — visible to Ernesto throughout that period. Camila had found it when reviewing the secondary ledger for an unrelated administrative reconciliation.",
+        "alone": "Ernesto had been maintaining the secondary ledger with the Díaz commission entry for eight months — he had either overlooked it or chosen to leave it undisturbed until Camila raised it.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Ernesto maintaining the Díaz entry for eight months without acting and Camila's morning note directing him to verify it confirm Ernesto may have been aware of the entry but uncertain what to do — Camila's note that morning resolved his uncertainty and put him at the page when Díaz arrived."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Camila's Self-Assessment",
+        "text": "In a final interview, Camila is told that Ernesto was found dead at the primary ledger's Díaz commission entry — the precise page she had asked him to verify. She responds: 'I know. I sent him there. That is something I will carry.' She does not claim she could not have anticipated the risk — only that she had not anticipated the speed with which Díaz would act.",
+        "alone": "Camila acknowledges she sent Ernesto to the specific page where he was found dead — and accepts that she had underestimated the timing of Díaz's response.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Camila's morning note directing Ernesto to the ledger entry and her acknowledgment that she sent him there confirm the chain of causation: Camila's discovery led to Ernesto's review, which was witnessed by Díaz when he entered to take the ledger."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "physical",
+        "icon": "📒",
+        "heading": "What Ernesto Was Looking At",
+        "text": "The primary ledger — recovered later from DEA records — shows a page marker at the Díaz commission entry. The marker is a strip of paper with Camila's administrative reference number printed on it — she had provided Ernesto with a reference strip to locate the entry quickly. Ernesto was at that exact page, marked with Camila's reference, when Díaz entered.",
+        "alone": "Ernesto was at the Díaz commission entry — marked with Camila's own reference strip — when Díaz entered the records office. He was at the page Camila had directed him to.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Camila's risk-based decision to use Ernesto and the reference strip she gave him that placed him at the exact compromising page confirm the encounter Díaz walked into was not coincidental — it was the direct outcome of Camila's morning instructions."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "The Three-Week Correlation",
+        "text": "The date of Vente's treatment of Díaz — three weeks before the murder — matches exactly the date of Ramos's ledger request in Díaz's personal notes. Díaz's anxiety had begun immediately upon receiving the request. He had sought medical treatment for a psychological response to the operational demand — suggesting the ledger request was something that disturbed even him.",
+        "alone": "Díaz's anxiety treatment coincided exactly with Ramos's ledger request — his psychological distress was a direct response to being asked to steal the complete primary ledger.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Vente treating Díaz for severe anxiety and the correlation with the ledger request date confirm Díaz had been in significant psychological distress for three weeks before the murder — his decision to act on the deadline was the resolution of three weeks of anxiety, not an impulsive moment."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "Ernesto's Prior Silence",
+        "text": "A review of Ernesto's records shows he had receipted the secondary ledger entry for 'L.D. Commission' eight months prior with a notation: 'Source unverified — monitor.' He had been watching the entry for eight months and had taken no action. When Camila raised it that morning, his verification review was the first active step he had taken. The entry had been in his awareness for months — he had been waiting for a reason to act.",
+        "alone": "Ernesto had known about the Díaz commission entry for eight months and had watched it passively — Camila's morning note was the catalyst that moved him from watching to investigating.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Ernesto maintaining the entry for eight months without acting and Camila's morning note triggering his investigation confirm both were operating cautiously around dangerous information — and both underestimated how quickly Díaz would respond when the deadline arrived."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Díaz",
+      "location": "The Records Office",
+      "weapon": "Phone Cord",
+      "accomplice": "Directed Ernesto to the Entry"
+    },
+    "epilogue": "Camila Reyes had found the discrepancy that morning. She chose Ernesto rather than the leadership because an accusation against Díaz without proof was a death sentence. She gave Ernesto her reference strip and directed him to the primary ledger entry. Ernesto had been watching the entry for eight months, waiting for a reason to act. Díaz had been managing his anxiety since Ramos's ledger request three weeks prior. On the afternoon Ernesto finally opened the primary ledger to the Díaz commission page, Díaz entered the records office to meet his deadline. Vente had noted Díaz's anxiety without reporting it. Camila had directed Ernesto without anticipating the speed of Díaz's response. Ramos had arranged the extraction before the body was found. The ledger reached the DEA. Fourteen people were indicted. Ernesto Salas was not among them."
+  }
+}

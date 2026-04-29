@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Mardi Gras, 1958. Everyone is masked. Someone is dead. And two suspects have each other's alibi. 🎭🔍 Case #050 — False Face. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: a 1958 New Orleans Mardi Gras masquerade, a murdered jewel fence, and two alibis that are too perfect to be real. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1958 New Orleans Mardi Gras masquerade ballroom, candlelight and gaslight warming gold and purple decorations, masked revellers in elaborate costumes. A figure in a white harlequin mask slumped against an ornate pillar. Confetti on a marble floor. Rich golds, deep purples, candlelit amber. Cinematic and lush, style of Toulouse-Lautrec meets Weegee.",
+    "animationPrompt": "Slow pan through a 1958 New Orleans Mardi Gras ballroom after midnight. Confetti drifts down through candlelight. Masked figures freeze as the camera finds a white harlequin mask lying on the marble floor beside a pillar. A gloved hand visible just behind it. The band plays on one beat more, then stops. Fade to black.",
+    "hashtags": [
+      "#MardiGrasMystery",
+      "#MasqueradeMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #050",
+    "title": "False Face",
+    "setting": "Beaumont Masquerade Hall · New Orleans · 1958",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Jewel fence Clement Baudin was found dead behind a pillar during the peak of the Mardi Gras masquerade ball. He had been poisoned — something slipped into his champagne. Two suspects insist they were together all evening. They can't both be telling the truth.",
+    "emptyState": "Two alibis. One lie. Find the crack.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Margot Deschamps",
+            "icon": "💎",
+            "detail": "A gemstone broker — Baudin had refused to fence her stolen emeralds."
+          },
+          {
+            "name": "Remy Soleil",
+            "icon": "🃏",
+            "detail": "A card sharp — Baudin owed him five thousand dollars from a deal gone wrong."
+          },
+          {
+            "name": "Cecile Fonvielle",
+            "icon": "🌹",
+            "detail": "A socialite — Baudin had been blackmailing her over a forgery."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Pillar Alcove",
+            "icon": "🏛️",
+            "detail": "Where Baudin's body was found — partially concealed, facing the dance floor."
+          },
+          {
+            "name": "The Champagne Bar",
+            "icon": "🥂",
+            "detail": "Where Baudin was last seen alive — his glass found empty here."
+          },
+          {
+            "name": "The Upper Balcony",
+            "icon": "🎭",
+            "detail": "Where Margot and Remy claim to have spent the evening together."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🥂",
+            "detail": "Baudin's glass — trace of alkaloid compound confirmed by the physician."
+          },
+          {
+            "name": "Hatpin",
+            "icon": "📌",
+            "detail": "A long decorative pin found near the body — no puncture wound found."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "A scarf found around the pillar — no ligature marks on the neck."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Balcony Claim",
+        "text": "Margot Deschamps and Remy Soleil both state they spent the evening together on the upper balcony, arriving at 9:00 PM and remaining until the alarm was raised at 11:15 PM. A balcony attendant confirms seeing a couple matching their general description — but the masquerade makes precise identification impossible.",
+        "alone": "The balcony alibi cannot be confirmed precisely — masks make identification unreliable for everyone present.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The unreliable balcony identification and the champagne bar record showing Margot's specific mask ordering a drink at 10:22 PM together confirm Margot left the balcony during the alibi window — her claim of continuous presence is false."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥂",
+        "heading": "The Poison in the Glass",
+        "text": "Baudin's champagne glass contains an alkaloid compound — the physician identifies it as strychnine derivative, dissolved in champagne. The compound acts within thirty to forty minutes. Baudin was found at 11:10 PM, placing the poison administration between 10:30 and 10:40 PM. Only one glass in the hall tested positive.",
+        "alone": "The poison was administered between 10:30 and 10:40 PM — whoever poisoned Baudin was near the champagne bar during that window.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The poison administered between 10:30 and 10:40 PM and the bar record showing Cecile Fonvielle ordering champagne at 10:18 PM — twelve minutes before the window — but departing before 10:30 PM confirm she was gone before the poison was introduced."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Remy's Confirmed Presence",
+        "text": "A card game on the upper balcony mezzanine was in progress from 9:30 PM to 11:00 PM. Three players confirm Remy Soleil participated from the start — he is identifiable not by his face but by a distinctive gold ring on his right hand, visible in the candlelight. He did not leave the card table during the game.",
+        "alone": "Remy Soleil was at the balcony card game from 9:30 to 11:00 PM — confirmed by three players who identified his distinctive ring.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Remy's confirmed card game presence from 9:30 to 11:00 PM and Margot's champagne bar sighting at 10:22 PM confirm they were not together all evening — Margot lied about their joint alibi while Remy had a genuine one."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Emerald Dispute",
+        "text": "A letter found in Baudin's coat — retrieved before the body was moved — is addressed to Margot Deschamps and states that he will not fence her emeralds because they are traceable to a robbery with violence, and he refuses the liability. The letter is dated two days before the ball. Margot had received it.",
+        "alone": "Baudin had formally refused to help Margot and put his refusal in writing two days before his death — Margot had a documented grievance and knew the refusal was final.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Baudin's written refusal of Margot's emerald deal and the vial of strychnine compound found in Margot's evening bag confirm she came to the ball prepared to poison him — the refusal letter was the final trigger."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "💎",
+        "heading": "The Bar Record",
+        "text": "The champagne bar's order ticket roll — maintained by the barman for billing purposes — shows a ticket for 'lady in emerald domino mask' at 10:22 PM. Margot Deschamps wore an emerald green domino mask, confirmed by three attendees who greeted her on arrival. The ticket places her at the bar during the alibi window she claims to have been on the balcony.",
+        "alone": "Margot's distinctive green domino mask places her at the champagne bar at 10:22 PM — within the window she claims to have been continuously on the balcony.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The unreliable balcony identification and the bar record placing Margot's green domino mask at the bar at 10:22 PM confirm she left the balcony during the evening — her joint alibi with Remy is false."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Cecile at the Bar",
+        "text": "Two witnesses confirm Cecile Fonvielle — identifiable by her distinctive red camellia corsage — was at the champagne bar at 10:18 PM and left before 10:28 PM. She was seen moving toward the conservatory at 10:30 PM, where she remained in conversation with three others until the alarm. The conservatory group alibi is confirmed by all four.",
+        "alone": "Cecile was at the bar before the poison window and had a confirmed group alibi in the conservatory during the 10:30–10:40 PM window — she is cleared.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The poison administered between 10:30 and 10:40 PM and Cecile's confirmed departure from the bar before 10:28 PM followed by a group alibi in the conservatory confirm she was not present when the poison was introduced."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "The Card Players Agree",
+        "text": "All three card players on the balcony mezzanine confirm Remy Soleil was present throughout the game. They recall specific hands he played and comments he made. They also confirm they did not see a woman in an emerald mask at the mezzanine during the game — she was not there for the period they were playing.",
+        "alone": "The card players confirm Remy was present and that Margot was not at the mezzanine during the game — the joint alibi is false on Margot's side.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Remy's confirmed card game from 9:30 to 11:00 PM and the players' confirmation that Margot was not present at the mezzanine during the game confirm she fabricated the joint alibi while Remy had a genuine independent one."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "The Vial in the Bag",
+        "text": "Margot Deschamps's evening bag, searched after the identification of her mask at the bar, contains a small glass vial with trace residue of the same strychnine compound found in Baudin's glass. The vial is empty. She came to the ball with the poison already prepared.",
+        "alone": "Margot carried a pre-prepared poison to the ball — the matching compound in her bag and Baudin's glass confirms she administered it.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Baudin's written refusal letter and the pre-prepared poison vial in Margot's bag confirm she came to the ball intending to kill him — the refusal letter triggered a plan she had already prepared."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Margot Deschamps",
+      "location": "The Champagne Bar",
+      "weapon": "Poisoned Champagne"
+    },
+    "epilogue": "Margot Deschamps had prepared the strychnine compound before arriving at the ball. She persuaded Remy to claim they had been together all evening — he agreed, not knowing she intended murder, believing it was simply cover for a meeting with Baudin. She approached Baudin at the champagne bar at 10:22 PM, introduced the compound into his glass while he was distracted by the dancing, and returned to the balcony. Remy's genuine card game alibi inadvertently confirmed the lie on his end. The green domino mask and the empty vial ended the deception."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #050",
+    "title": "False Face",
+    "setting": "Beaumont Masquerade Hall · New Orleans · 1958",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Margot poisoned Baudin. Remy gave her the alibi. But Remy didn't know she was going to kill anyone — he thought he was covering for a business meeting. Find when the alibi was arranged and what Remy thought it was for.",
+    "emptyState": "One alibi, two stories. Find what Remy thought he was covering.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Margot Deschamps",
+            "icon": "💎",
+            "detail": "The killer — emerald mask at bar, strychnine vial, Baudin's refusal letter."
+          },
+          {
+            "name": "Remy Soleil",
+            "icon": "🃏",
+            "detail": "False alibi provider — at the card game all evening, did not know the plan."
+          },
+          {
+            "name": "Cecile Fonvielle",
+            "icon": "🌹",
+            "detail": "Cleared — left bar before the poison window, conservatory alibi confirmed."
+          },
+          {
+            "name": "Auguste Blanc",
+            "icon": "🎪",
+            "detail": "Ball organiser — knew Baudin personally, handled the guest list."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Pillar Alcove",
+            "icon": "🏛️",
+            "detail": "Where Baudin died — he walked there after the poison took hold."
+          },
+          {
+            "name": "The Champagne Bar",
+            "icon": "🥂",
+            "detail": "Where Margot administered the poison at 10:22 PM."
+          },
+          {
+            "name": "The Upper Balcony",
+            "icon": "🎭",
+            "detail": "Where Remy genuinely was — but Margot was not during the poison window."
+          },
+          {
+            "name": "The Conservatory",
+            "icon": "🌿",
+            "detail": "Where Cecile was confirmed from 10:30 PM — her cleared alibi location."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🥂",
+            "detail": "Strychnine compound introduced at the bar — confirmed cause of death."
+          },
+          {
+            "name": "Hatpin",
+            "icon": "📌",
+            "detail": "Found near the body — no wound, irrelevant."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "No ligature marks — irrelevant."
+          },
+          {
+            "name": "Strychnine Compound",
+            "icon": "💊",
+            "detail": "Prepared in advance — matched between vial and glass."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before 10:00 PM",
+            "icon": "🌙",
+            "detail": "Ball underway — Baudin mingling, no opportunity recorded."
+          },
+          {
+            "name": "10:00–10:30 PM",
+            "icon": "🥂",
+            "detail": "Champagne bar active — Cecile present, Margot's mask recorded at 10:22 PM."
+          },
+          {
+            "name": "10:30–11:00 PM",
+            "icon": "⚠️",
+            "detail": "Poison window — Baudin began showing symptoms, Margot back on balcony."
+          },
+          {
+            "name": "After 11:00 PM",
+            "icon": "🚨",
+            "detail": "Body found — 11:10 PM, alarm raised 11:15 PM."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "💎",
+        "heading": "The Alibi Arrangement",
+        "text": "Remy Soleil, interviewed separately from Margot, describes the alibi arrangement differently. He says Margot approached him before the ball and asked him to say they had been together all evening because she needed to meet Baudin privately about the emerald deal — she did not want it known she was negotiating with him. He agreed as a favour. He had no idea she intended to kill anyone.",
+        "alone": "Remy agreed to the joint alibi as cover for a private business meeting — he did not know Margot planned a murder.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Remy believing the alibi was for a business meeting and his genuine card game alibi from 9:30 PM together confirm he was an unwitting alibi provider — the joint claim was Margot's fabrication, not a coordinated cover-up."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "💊",
+        "heading": "The Compound Analysis",
+        "text": "A pharmacist consulted by investigators identifies the strychnine derivative in the vial and glass as a preparation available through a specific apothecary supply company operating in the French Quarter. Records show Margot Deschamps purchased a small quantity of the compound eleven days before the ball, citing rat control at her warehouse.",
+        "alone": "Margot purchased the strychnine compound eleven days before the ball — the killing was planned at least eleven days in advance.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The compound purchased eleven days before the ball and Baudin's refusal letter dated two days before confirm the purchase preceded the refusal — Margot was planning to kill Baudin before he formally refused, suggesting she anticipated it."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "Cecile and Auguste Cleared",
+        "text": "Cecile's conservatory alibi is confirmed by all three companions including Auguste Blanc himself, who was present throughout. Auguste's role as ball organiser placed him at the entrance greeting guests from 8:30 PM until the alarm — confirmed by the door list and twelve guests who interacted with him. Both are definitively cleared.",
+        "alone": "Both Cecile and Auguste are confirmed clear — the investigation narrows entirely to Margot with Remy as an unwitting alibi provider.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Cecile and Auguste cleared and Remy's genuine card game alibi confirming he was not a knowing accomplice together leave Margot as the sole actor who administered the poison."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Long Con History",
+        "text": "Detective background inquiry reveals Margot Deschamps has a known history in gemstone fraud — three prior instances of acquiring stolen gems and seeking fences, always with cover stories. She is identified in French Quarter circles as a practiced confidence operator. The emerald operation was not her first attempt to move stolen stones through Baudin.",
+        "alone": "Margot had a documented history of gemstone fraud and confidence operations — the emerald deal was part of a pattern, not a one-off.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Margot's confidence operation history and her pre-planned poison purchase eleven days before the ball confirm she approached the ball as the final stage of a long-running scheme — not an impulsive act."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "🃏",
+        "heading": "The Ring on the Table",
+        "text": "The card players confirm Remy's distinctive gold ring was visible throughout the game. Photographs taken by a society photographer at the ball — developed the following day — show the balcony mezzanine card table at approximately 10:15 PM. Remy's ring is visible in the image. An emerald green mask is not visible at the table in any of the five photographs taken.",
+        "alone": "Photographic evidence confirms Remy at the card table and Margot absent from the mezzanine at 10:15 PM — she was not with him during the period she claims.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Remy believing the alibi was cover for a business meeting and photographs confirming Margot was not at the mezzanine during the alibi window confirm Remy was genuinely at the card game while Margot was at the bar administering the poison."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📅",
+        "heading": "The Purchase Predates the Letter",
+        "text": "The apothecary purchase record is dated eleven days before the ball. Baudin's refusal letter is dated two days before the ball. Margot purchased the poison nine days before Baudin's written refusal. She was planning to kill him before he formally refused — the letter was the confirmation she had already anticipated.",
+        "alone": "Margot bought the poison before Baudin's refusal letter — she had decided to kill him regardless, and the letter simply confirmed what she already knew.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The compound purchased before the refusal and Baudin's letter confirming what Margot already anticipated confirm the killing was not a reaction to being refused — it was a premeditated plan triggered by a failed business relationship she had decided to end violently."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🥂",
+        "heading": "The Barman's Memory",
+        "text": "The champagne bar barman recalls the emerald domino mask specifically because the woman asked him to keep Baudin's glass filled when he arrived — she described him by his costume, a gold half-mask with a raven feather. Baudin arrived at the bar at 10:18 PM. Margot was already there. She directed the barman's attention while introducing the compound.",
+        "alone": "Margot was at the bar before Baudin arrived, directed the barman's attention, and had the opportunity to introduce the compound into Baudin's glass during the distraction.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Cecile and Auguste cleared and the barman confirming Margot directed his attention while Baudin was at the bar confirm she had engineered the precise moment of poisoning — this was not impulsive, it was orchestrated."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💌",
+        "heading": "The Ball Invitation",
+        "text": "Margot Deschamps specifically requested an invitation to the Beaumont Masquerade Ball three weeks before the event — she was not on the original guest list. Auguste Blanc, as organiser, added her as a courtesy. She also requested confirmation of Baudin's attendance before accepting. She chose this event because she knew Baudin would be present.",
+        "alone": "Margot sought a specific invitation to a ball she knew Baudin would attend — the ball was the chosen venue, not a chance encounter.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Margot's confidence operation history and her deliberate pursuit of an invitation to an event where Baudin would be present confirm the entire operation — from the poison purchase to the ball attendance — was planned weeks in advance."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Margot Deschamps",
+      "location": "The Champagne Bar",
+      "weapon": "Poisoned Champagne",
+      "window": "10:00–10:30 PM"
+    },
+    "epilogue": "Margot Deschamps had decided to kill Baudin three weeks before the ball. She secured an invitation, purchased the strychnine, persuaded Remy to claim they had spent the evening together — telling him it was cover for a business meeting — and arrived at the ball prepared. She found Baudin at the bar at 10:18 PM, directed the barman's attention, and introduced the compound. She was back on the balcony by 10:35 PM. Remy was convicted of accessory after the fact for maintaining the alibi when questioned. Margot received life imprisonment. The emeralds were never recovered."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #050",
+    "title": "False Face",
+    "setting": "Beaumont Masquerade Hall · New Orleans · 1958",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Margot killed Baudin. Remy gave an alibi he thought was innocent. But the emerald deal Margot was running was not hers alone — the stones belonged to a criminal network whose fence Baudin had just refused. Margot was hired to solve the problem. The ball was the contract, not the motive.",
+    "emptyState": "Margot pulled the trigger. Find who gave the order.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Margot Deschamps",
+            "icon": "💎",
+            "detail": "The killer — hired operative, emerald mask at bar, strychnine vial."
+          },
+          {
+            "name": "Remy Soleil",
+            "icon": "🃏",
+            "detail": "Unwitting alibi — thought he was covering a meeting, not a murder."
+          },
+          {
+            "name": "Cecile Fonvielle",
+            "icon": "🌹",
+            "detail": "Cleared — conservatory alibi confirmed by four witnesses."
+          },
+          {
+            "name": "Auguste Blanc",
+            "icon": "🎪",
+            "detail": "Ball organiser — added Margot to the guest list, knew Baudin well."
+          },
+          {
+            "name": "Victor Lassalle",
+            "icon": "🎰",
+            "detail": "Gambling house operator — owner of the stolen emeralds, Margot's employer."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Pillar Alcove",
+            "icon": "🏛️",
+            "detail": "Where Baudin died — he walked there as the poison took hold."
+          },
+          {
+            "name": "The Champagne Bar",
+            "icon": "🥂",
+            "detail": "Where Margot administered the poison at 10:22 PM."
+          },
+          {
+            "name": "The Upper Balcony",
+            "icon": "🎭",
+            "detail": "Remy's genuine location — Margot's false claim."
+          },
+          {
+            "name": "The Conservatory",
+            "icon": "🌿",
+            "detail": "Cecile's confirmed location from 10:30 PM."
+          },
+          {
+            "name": "Victor's Private Room",
+            "icon": "🎰",
+            "detail": "A private suite above the hall — where the contract was arranged."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Champagne",
+            "icon": "🥂",
+            "detail": "Confirmed cause of death — strychnine in the glass."
+          },
+          {
+            "name": "Hatpin",
+            "icon": "📌",
+            "detail": "No wound — irrelevant."
+          },
+          {
+            "name": "Silk Scarf",
+            "icon": "🧣",
+            "detail": "No ligature marks — irrelevant."
+          },
+          {
+            "name": "Strychnine Compound",
+            "icon": "💊",
+            "detail": "Purchased by Margot eleven days before — from a supplier known to Lassalle's network."
+          },
+          {
+            "name": "The Emerald Consignment",
+            "icon": "💎",
+            "detail": "The stolen gems — traced to a robbery three months prior linked to Lassalle."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before 10:00 PM",
+            "icon": "🌙",
+            "detail": "Ball underway — Margot arrived, confirmed Baudin's presence."
+          },
+          {
+            "name": "10:00–10:30 PM",
+            "icon": "🥂",
+            "detail": "Poison administered — Margot at bar at 10:22 PM."
+          },
+          {
+            "name": "10:30–11:00 PM",
+            "icon": "⚠️",
+            "detail": "Poison taking effect — Margot back on balcony for the rest."
+          },
+          {
+            "name": "After 11:00 PM",
+            "icon": "🚨",
+            "detail": "Body found — Margot in place with the false joint alibi."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Commissioned the Killing",
+            "icon": "💰",
+            "detail": "Hired Margot to eliminate Baudin after his refusal threatened the emerald operation."
+          },
+          {
+            "name": "Provided the Alibi Cover",
+            "icon": "🃏",
+            "detail": "Persuaded Remy to claim a joint alibi with Margot."
+          },
+          {
+            "name": "Secured the Venue Access",
+            "icon": "🎭",
+            "detail": "Arranged Margot's ball invitation after confirming Baudin's attendance."
+          },
+          {
+            "name": "Supplied the Poison Source",
+            "icon": "💊",
+            "detail": "Connected Margot to the apothecary supplier used by the criminal network."
+          },
+          {
+            "name": "Held the Stolen Emeralds",
+            "icon": "💎",
+            "detail": "Stored and controlled the gems Baudin had refused to fence."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "💎",
+        "heading": "The Emerald Provenance",
+        "text": "The emeralds Margot claimed were hers are traced through a jewellery theft three months prior in Baton Rouge — a robbery with violence. Police records identify the stolen gems by carat weight and inclusion pattern. The robbery is linked to Victor Lassalle's gambling network through two prior intelligence reports. The gems were never Margot's.",
+        "alone": "The stolen emeralds belong to Victor Lassalle's criminal network — Margot was acting as a front to move his stolen property, not her own.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The emeralds traced to Lassalle's network and the payment record showing Margot received five thousand dollars from a Lassalle shell account after Baudin's death confirm she was paid for the killing — this was a contract, not a personal grievance."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Auguste Blanc's Role",
+        "text": "Auguste Blanc, interviewed under caution, admits Victor Lassalle asked him to add Margot to the guest list three weeks before the ball after confirming Baudin would attend. Blanc assumed it was a social favour for Lassalle, a regular patron of his events. He also confirms Lassalle booked a private suite above the ballroom for the evening — his usual arrangement.",
+        "alone": "Victor Lassalle arranged Margot's invitation and was present at the ball in a private suite — he orchestrated the venue and monitored the operation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Lassalle arranging Margot's invitation and his private suite above the ballroom during the killing confirm he was present and coordinating — the ball was his chosen venue and he managed the operation in real time."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💊",
+        "heading": "The Apothecary's Network",
+        "text": "The apothecary supplier who sold Margot the strychnine compound is identified in French Quarter vice records as a regular supplier to Lassalle's operations — providing compounds used in at least two prior incidents investigated but not prosecuted. The specific compound Margot purchased is the same formulation used in a Lassalle-adjacent poisoning in 1955.",
+        "alone": "The strychnine compound came from a supplier connected to Lassalle's network — and the same formulation was used in a prior killing linked to him.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The poison sourced from Lassalle's network supplier and the 1955 prior poisoning using the same formulation confirm this was not Margot's independent method — she was following Lassalle's established operational playbook."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Who Approached Remy",
+        "text": "Remy Soleil clarifies under extended questioning that it was not Margot who first asked him to provide the alibi — it was Victor Lassalle, who approached him two days before the ball and told him Margot needed cover for a private negotiation with Baudin and would be grateful for his discretion. Lassalle made the arrangement; Margot simply relied on it.",
+        "alone": "Victor Lassalle arranged the false alibi with Remy — Margot did not even need to make that arrangement herself, Lassalle had done it in advance.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Lassalle arranging the ball invitation and separately arranging Remy's false alibi confirm he managed every logistical element of the operation — Margot was the instrument, Lassalle was the architect."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Payment Record",
+        "text": "Banking records obtained under judicial order show a transfer of five thousand dollars from a shell account linked to Victor Lassalle to an account held in Margot Deschamps's name — made the morning after Baudin's death. The transfer description reads 'emerald consultation fee.' Margot was paid for the killing.",
+        "alone": "Margot received five thousand dollars from Lassalle the morning after the murder — the payment confirms she was operating under contract.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The emeralds traced to Lassalle's robbery and the payment to Margot the morning after the killing confirm this was a commercial transaction — Lassalle hired Margot to eliminate the fence who had refused his stolen goods."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🎰",
+        "heading": "The Private Suite",
+        "text": "A suite attendant confirms Victor Lassalle was in the private suite above the ballroom from 9:00 PM onward. At 10:25 PM — three minutes after Margot's mask was recorded at the bar — a bell was rung from the suite, which the attendant understood as a signal that service was not needed. The attendant confirms Lassalle looked out of the suite window toward the ballroom floor at approximately 10:45 PM.",
+        "alone": "Lassalle was in a private suite with a view of the ballroom and rang a bell signal at 10:25 PM — three minutes after Margot had administered the poison.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Lassalle managing the alibi arrangement with Remy and his suite-side bell signal three minutes after the poisoning confirm he was monitoring the operation in real time from his suite above the ballroom floor."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1955 Case",
+        "text": "French Quarter vice records contain an unresolved 1955 poisoning case — a port official who had refused to facilitate a stolen goods shipment for Lassalle's network. The victim died of a strychnine compound at a social event. The compound and the method — champagne at a social gathering — are identical. The 1955 case was never prosecuted.",
+        "alone": "Baudin's killing mirrors a 1955 poisoning linked to Lassalle's network — same method, same compound, same social setting, same reason: someone refused to facilitate his criminal operation.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The same poison supplier and the same method used in the 1955 Lassalle-adjacent case confirm this was an established playbook — Baudin was eliminated by the same operational template as a prior victim who crossed Lassalle."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "witness",
+        "icon": "🔍",
+        "heading": "Margot's Prior Work",
+        "text": "Detective inquiry into Margot Deschamps's background reveals she has no genuine gemstone brokerage business. Her three prior encounters with Baudin, referenced in vice records, were all as a courier or front for third parties — she has never independently held valuable stolen goods. She is a professional intermediary, not an independent criminal.",
+        "alone": "Margot has never operated independently — she has always been a front for others. The emerald operation was consistent with her established role as a hired intermediary.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Margot's established pattern of working as a hired intermediary for criminal networks and the payment from Lassalle the morning after the killing confirm she was acting under contract — the personal grievance narrative was the cover story, not the truth."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Margot Deschamps",
+      "location": "The Champagne Bar",
+      "weapon": "Poisoned Champagne",
+      "window": "10:00–10:30 PM",
+      "accomplice": "Commissioned the Killing"
+    },
+    "epilogue": "Victor Lassalle had used the same playbook in 1955. When Baudin refused the emerald consignment, Lassalle hired Margot, arranged Remy's alibi through a personal conversation, secured the ball invitation through Auguste Blanc, and monitored the operation from his suite above the floor. Margot was paid five thousand dollars the following morning. Lassalle was arrested four months later when the payment record surfaced. Margot received life imprisonment. Lassalle received twenty years as the principal in a murder-for-hire conspiracy. Remy received a suspended sentence for his unwitting role. The emeralds were recovered from a Lassalle warehouse in Metairie."
+  }
+}

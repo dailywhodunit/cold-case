@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Switzerland, 1927. A sanatorium in the Alps. A dying patient found dead. And a question: was it mercy, or was it murder? 🏔️🔍 Case #061 — The Davos Patient. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Switzerland 1927, a mountain sanatorium, a mercy killing no one admits to, and the one clue that tells you who truly pulled it off. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1927 Swiss alpine sanatorium, long white corridor with tall windows overlooking a snow-covered mountain, a wrought-iron bed in a private room with white cotton bedclothes, a morphine bottle on the bedside table. Cold alpine light, clinical white, a single dried edelweiss in a glass beside the bed. Quiet and haunting, style of Thomas Mann meets Edward Hopper.",
+    "animationPrompt": "Slow pan through a 1927 Swiss alpine sanatorium corridor. Tall windows. Snow mountains visible beyond. The camera enters a private room — white bedclothes, a wrought-iron bed, a morphine bottle on the bedside table. A single dried edelweiss in a glass. The alpine light fades. Silence. Fade to black.",
+    "hashtags": [
+      "#AlpineMystery",
+      "#SanatoriumMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #061",
+    "title": "The Davos Patient",
+    "setting": "Davos Sanatorium · Switzerland · 1927",
+    "emoji": "🏔️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Walter Kessler had been dying at the Davos Sanatorium for eleven months — advanced tuberculosis, prognosis terminal. He was found dead from a morphine overdose on a Tuesday morning. Three people had been in his room the previous evening. All three had reason to want his suffering to end. Only one of them acted.",
+    "emptyState": "All three wanted it to end. Only one did something about it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elise Hauer",
+            "icon": "🩺",
+            "detail": "The attending physician — had discussed palliative options with Walter's family."
+          },
+          {
+            "name": "Margarethe Kessler",
+            "icon": "💔",
+            "detail": "Walter's wife — had been at his bedside for three weeks, watching him suffer."
+          },
+          {
+            "name": "Nurse Lena Vogt",
+            "icon": "🏥",
+            "detail": "The night nurse — responsible for managing the ward's morphine cabinet."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 14",
+            "icon": "🛏️",
+            "detail": "Walter's private room — where he was found and where the morphine was administered."
+          },
+          {
+            "name": "The Morphine Cabinet",
+            "icon": "💊",
+            "detail": "The locked medication cabinet in the nursing station — log shows a late-evening dispense."
+          },
+          {
+            "name": "The Family Parlour",
+            "icon": "🪑",
+            "detail": "The adjacent room where relatives could rest — Margarethe slept here most nights."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Morphine Injection",
+            "icon": "💉",
+            "detail": "A fatal overdose — concentration far beyond any therapeutic dose."
+          },
+          {
+            "name": "Pillow Suffocation",
+            "icon": "🛏️",
+            "detail": "No petechial hemorrhage or physical evidence — eliminated."
+          },
+          {
+            "name": "Digitalis Tablet",
+            "icon": "💊",
+            "detail": "A cardiac medication — no trace found in the toxicology, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Morphine Log",
+        "text": "The nursing station morphine cabinet log shows a dispense of twelve milligrams at ten forty-five PM — significantly above the therapeutic maximum of three milligrams. The log entry is in Nurse Vogt's handwriting and bears her initials. However, the entry's ink color differs from all other entries she made that evening — this entry was written with a different pen.",
+        "alone": "Twelve milligrams was dispensed at ten forty-five PM — and the log entry is written in a different ink from Nurse Vogt's other entries that evening.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The morphine log entry in different ink and Dr. Hauer's pen found in the nursing station — not her office — confirm the log entry was not written by Nurse Vogt alone. It was either forged or written by someone using Vogt's initials."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💉",
+        "heading": "The Overdose",
+        "text": "The sanatorium physician who examined Walter confirms the cause of death as morphine toxicity — a dose of twelve milligrams administered intravenously. At Walter's weight and condition, this dose would have produced unconsciousness within minutes and death within thirty. He would not have suffered. The dose was precise and professionally calibrated.",
+        "alone": "The fatal dose was precisely calculated to be lethal without causing distress — the calibration suggests medical knowledge of the patient's specific condition.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The precisely calibrated dose matching Walter's specific weight and condition and Dr. Hauer's confirmed awareness of these parameters from his medical file confirm the dose was calculated by someone with access to his clinical records."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "Margarethe's Night",
+        "text": "Margarethe Kessler confirms she visited Walter at nine PM, stayed for approximately forty minutes, and returned to the family parlour at nine-forty PM. The parlour maid confirms she brought Margarethe a cup of broth at ten PM and found her seated and awake. Margarethe did not leave the parlour until the alarm was raised at six AM. She is cleared.",
+        "alone": "Margarethe was in the family parlour from nine-forty PM onward — confirmed by the parlour maid at ten PM. She did not return to Walter's room before the alarm.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Margarethe cleared by the parlour maid and Nurse Vogt's confirmed location in the western ward corridor at ten forty-five PM together account for two of the three suspects during the morphine dispense window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "Dr. Hauer's Prior Conversation",
+        "text": "A nursing journal entry from three weeks before the death records a conversation between Dr. Hauer and Margarethe Kessler. The note reads: 'Patient's wife asked about accelerated palliative options. Physician discussed limits of current practice. No decision made.' Hauer had discussed the possibility of hastening death with Margarethe — she was not unfamiliar with the idea.",
+        "alone": "Dr. Hauer had discussed accelerated palliative options with Margarethe three weeks before the death — she had considered and discussed mercy killing as a concept.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Dr. Hauer's prior discussion of accelerated palliative options with the family and the precisely calibrated dose using Walter's specific clinical parameters confirm the death was planned and executed with medical knowledge of his case — consistent with Hauer's access to his file."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🖊️",
+        "heading": "The Different Pen",
+        "text": "A search of the nursing station finds two pens: Nurse Vogt's standard ward pen — a black-ink nib pen — and a blue-ink fountain pen that belongs to Dr. Hauer, identified by her name scratched onto its barrel. The different-ink log entry is blue ink. The entry was written with Dr. Hauer's pen — not Vogt's.",
+        "alone": "The log entry recording the twelve-milligram dispense was written with Dr. Hauer's own pen — not the ward pen Nurse Vogt used for all her other entries.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The different ink in the morphine log entry and Dr. Hauer's blue-ink pen found in the nursing station confirm the entry was written by someone other than Nurse Vogt — and the pen identifies Dr. Hauer as the person who wrote it."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Walter's Clinical File",
+        "text": "Walter's clinical file — maintained by Dr. Hauer — contains a handwritten note from two days before the death: 'Patient weight: 48 kg. Current maximum tolerable dose: 3 mg. Lethal threshold at current hepatic function: approximately 10–12 mg.' The calculation of the lethal threshold is in Dr. Hauer's handwriting. She had calculated the fatal dose two days before it was administered.",
+        "alone": "Dr. Hauer had calculated Walter's lethal morphine threshold — ten to twelve milligrams — two days before his death. The administered dose of twelve milligrams matches the top of her calculated range.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The precisely calibrated fatal dose and Hauer's handwritten calculation of Walter's lethal threshold two days prior confirm the dose was not accidental or estimated — it was the specific amount she had calculated would be lethal for him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🏥",
+        "heading": "Nurse Vogt's Location",
+        "text": "Nurse Vogt's ward rounds log shows she was in the western ward at ten-forty PM — on the opposite side of the building from the nursing station. A patient in the western ward confirms Vogt checked on her at approximately ten-forty-five PM. Vogt could not have been at the nursing station dispensing morphine at ten-forty-five PM while simultaneously on the western ward.",
+        "alone": "Nurse Vogt was on the western ward at ten-forty-five PM — confirmed by a patient — placing her physically away from the nursing station during the morphine dispense entry.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Margarethe cleared in the family parlour and Vogt confirmed in the western ward at the time of the dispense entry together account for both other suspects — Dr. Hauer is the only person unaccounted for at the nursing station during the ten-forty-five PM window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "💉",
+        "heading": "The Injection Site",
+        "text": "The examination of Walter's body identifies the injection site as the left antecubital vein — the standard site for intravenous administration, requiring clinical knowledge of venipuncture. Margarethe had no medical training. Nurse Vogt is confirmed elsewhere. Dr. Hauer's training and experience with this technique is documented throughout her clinical career.",
+        "alone": "The intravenous injection required clinical knowledge and technique — specifically the antecubital venipuncture that is standard for trained physicians but not for untrained family members.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Dr. Hauer's prior discussion of accelerated palliative options and the intravenous injection requiring clinical technique confirm the death was carried out by someone with both the intent and the medical training — Hauer had discussed the concept and possessed the skill."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elise Hauer",
+      "location": "Room 14",
+      "weapon": "Morphine Injection"
+    },
+    "epilogue": "Dr. Elise Hauer had watched Walter Kessler suffer for eleven months. She had discussed the option with his wife three weeks before his death. She had calculated the lethal threshold in his clinical file two days before she acted. On the Tuesday evening, she entered the nursing station while Nurse Vogt was on her western ward rounds, wrote the dispense log entry with her own pen — an oversight she would not have made if she had been thinking clearly — and administered twelve milligrams intravenously in Room 14. Walter lost consciousness within minutes. She was the sanatorium's most experienced physician. At the subsequent inquiry, she stated only: 'He was ready to go. I helped him.' The Swiss medical board suspended her licence for three years. Criminal charges were not pursued."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #061",
+    "title": "The Davos Patient",
+    "setting": "Davos Sanatorium · Switzerland · 1927",
+    "emoji": "🏔️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Hauer gave Walter the overdose. But find when she decided — and what happened in the twenty-four hours before his death that moved her from contemplating it to acting.",
+    "emptyState": "Something changed in the last twenty-four hours. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elise Hauer",
+            "icon": "🩺",
+            "detail": "The killer — blue-ink log entry, lethal threshold calculation, clinical technique, solitary access."
+          },
+          {
+            "name": "Margarethe Kessler",
+            "icon": "💔",
+            "detail": "Cleared as killer — family parlour confirmed. But something she said triggered Hauer."
+          },
+          {
+            "name": "Nurse Lena Vogt",
+            "icon": "🏥",
+            "detail": "Cleared as killer — western ward confirmed. But her morphine cabinet routine was the model Hauer used."
+          },
+          {
+            "name": "Walter Kessler",
+            "icon": "🛏️",
+            "detail": "The victim — had expressed his wishes clearly, more than once."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 14",
+            "icon": "🛏️",
+            "detail": "Primary scene — Hauer administered the morphine here while Vogt was on western rounds."
+          },
+          {
+            "name": "The Morphine Cabinet",
+            "icon": "💊",
+            "detail": "Where Hauer accessed the morphine — her pen in the log confirmed the entry."
+          },
+          {
+            "name": "The Family Parlour",
+            "icon": "🪑",
+            "detail": "Where Margarethe rested — and where she and Hauer spoke the previous afternoon."
+          },
+          {
+            "name": "Hauer's Office",
+            "icon": "🩺",
+            "detail": "Where the lethal threshold calculation was made in Walter's clinical file."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Morphine Injection",
+            "icon": "💉",
+            "detail": "Confirmed cause of death — twelve milligrams, intravenous, precisely calibrated."
+          },
+          {
+            "name": "Pillow Suffocation",
+            "icon": "🛏️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Digitalis Tablet",
+            "icon": "💊",
+            "detail": "Not present in toxicology — eliminated."
+          },
+          {
+            "name": "The Lethal Threshold Calculation",
+            "icon": "📋",
+            "detail": "Hauer's clinical preparation — the specific dose was pre-determined two days prior."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Three Weeks Before",
+            "icon": "📅",
+            "detail": "Hauer's discussion with Margarethe about accelerated palliative options."
+          },
+          {
+            "name": "Two Days Before",
+            "icon": "📋",
+            "detail": "Hauer calculated the lethal threshold in Walter's clinical file."
+          },
+          {
+            "name": "The Previous Afternoon",
+            "icon": "☀️",
+            "detail": "Something specific happened in this window that moved Hauer to act that night."
+          },
+          {
+            "name": "Ten-Forty-Five PM",
+            "icon": "🌙",
+            "detail": "The dispense log entry — Vogt on western ward, Hauer alone at the nursing station."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Walter's Final Written Request",
+        "text": "A handwritten note found in Walter's bedside drawer — in his own hand, dated the day before his death — reads: 'I cannot do this any longer. Elise knows what I need. I have asked her again today. If I am found tomorrow, please understand she did what I could not do for myself.' The note is signed Walter Kessler and dated in full. He had asked Dr. Hauer directly the day before she acted.",
+        "alone": "Walter had written a note the day before his death explicitly requesting Dr. Hauer's intervention and anticipating that she would act — he had asked her again that day.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Walter's written request the day before his death and Hauer's calculation of the lethal threshold two days earlier confirm she had been preparing for a request she knew was coming — his direct appeal the following day resolved her hesitation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Hauer's Afternoon Visit",
+        "text": "The afternoon nursing log shows Dr. Hauer visited Room 14 at three PM — outside her normal morning rounds schedule. The log notes 'consultation: patient.' Nurse Vogt had passed the room at three-fifteen PM and overheard Walter say, clearly and without distress: 'I am asking you, Elise. You know when enough is enough.' She had not reported this at the time.",
+        "alone": "Walter had directly appealed to Dr. Hauer during a non-routine visit at three PM — Nurse Vogt overheard the appeal and did not report it.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Walter's direct appeal at three PM and Nurse Vogt's choice not to report what she heard confirm Vogt also understood the situation — her silence was its own decision, even if she did not act."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💔",
+        "heading": "Margarethe's Afternoon Conversation",
+        "text": "Margarethe confirms that she and Dr. Hauer spoke in the family parlour at four PM — after Hauer's room visit. Margarethe describes the conversation: 'She said Walter had told her he was finished. She said she needed to think about what that meant. I told her I had thought about it for weeks. I told her I trusted her.' Hauer had sought Margarethe's implicit blessing before acting.",
+        "alone": "Dr. Hauer had spoken with Margarethe at four PM — three hours before the killing — and received her implicit trust to make the decision.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Hauer seeking Margarethe's implicit blessing at four PM and the lethal threshold calculation two days prior confirm Hauer had been building toward this decision — the afternoon conversations were the final steps before action."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📔",
+        "heading": "Hauer's Clinical Notes That Evening",
+        "text": "Hauer's clinical notebook — separate from the ward file — contains an entry written that evening before she acted: 'W. Kessler. Eleven months. He is past the point where time is mercy. The family has trusted me. He has trusted me. I have calculated what is needed. I have decided.' The entry is timed at nine-thirty PM — one hour and fifteen minutes before the morphine dispense log entry.",
+        "alone": "Hauer wrote in her personal notebook at nine-thirty PM that she had decided — seventy-five minutes before she acted, she had already committed to the course.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Hauer's nine-thirty PM notebook entry recording her decision and her calculation in Walter's clinical file two days earlier confirm the act was not impulsive — it was deliberate, prepared, and executed within a planned window."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Two-Day Preparation",
+        "text": "Walter's clinical file contains the lethal threshold calculation with a notation: 'This information has been recorded should it become relevant.' The notation is clinical in language — it does not explicitly state intent. But recording a lethal threshold separately from any treatment plan, with a notation about future relevance, has no routine medical purpose.",
+        "alone": "The lethal threshold calculation was recorded with a notation about future relevance — there is no routine clinical reason to calculate and note a patient's lethal dose in a treatment file.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Walter's note anticipating Hauer's intervention and the clinical file's pre-calculated lethal threshold with a future relevance notation confirm Hauer had been preparing for a patient request she anticipated — the calculation was preparation, not routine documentation."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🏥",
+        "heading": "Nurse Vogt's Silence",
+        "text": "Nurse Vogt, in an extended interview, admits she had overheard Walter's appeal to Dr. Hauer at three-fifteen PM and had not reported it. When asked why, she says: 'I have worked here for six years. I have watched patients like Herr Kessler for six years. I thought — if Dr. Hauer decides it is time, it is not my place to stop her.' She does not apologize for her silence.",
+        "alone": "Nurse Vogt had overheard the direct appeal and chosen silence because she trusted Hauer's judgment — her non-report was a considered decision, not an oversight.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Walter's direct appeal at three PM witnessed by Vogt and her deliberate silence confirm Vogt was aware the situation was reaching its resolution — her silence removed the one procedural obstacle that might have delayed Hauer."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "The Pen Left Behind",
+        "text": "Dr. Hauer's pen was found in the nursing station — not her office. She had used it to write the log entry and then left it behind. The pen's presence in the wrong location is the error that confirmed her involvement. Hauer, when asked about it, says: 'I know. I left it because I was not trying to hide anything. If it had to come to light, let it come to light from the truth.'",
+        "alone": "Hauer left her pen behind intentionally — she was not trying to conceal her involvement. The error was a deliberate non-concealment.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Hauer seeking Margarethe's implicit blessing at four PM and her deliberate leaving of the pen in the nursing station confirm she had accepted that her action might come to light — she had made a moral decision and was prepared to stand behind it."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📔",
+        "heading": "Hauer's Medical Ethics Position",
+        "text": "A paper written by Dr. Hauer for a Swiss medical journal in 1924 — three years before the Kessler case — argues that the physician's obligation to relieve suffering takes precedence over the obligation to preserve life when these goals are in irreconcilable conflict. The paper was not widely read but was on record. Her position on assisted dying predated the case by three years.",
+        "alone": "Hauer had published a medical ethics position on mercy killing three years before the Kessler case — her action was consistent with a documented professional conviction, not a situational decision.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Hauer's nine-thirty PM notebook entry recording her decision and her published 1924 ethics paper confirming her pre-existing position confirm the act was the culmination of both a long-held conviction and a specific patient relationship — not an isolated crisis response."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elise Hauer",
+      "location": "Room 14",
+      "weapon": "Morphine Injection",
+      "window": "Ten-Forty-Five PM"
+    },
+    "epilogue": "Dr. Elise Hauer had held her position on mercy killing for three years before Walter Kessler arrived at the sanatorium. She had watched him for eleven months. She had calculated his lethal threshold two days before she acted, in a clinical file entry she labelled 'should it become relevant.' When Walter appealed to her directly at three PM, she visited Margarethe at four PM and received her implicit trust. At nine-thirty she wrote her decision in her personal notebook. At ten-forty-five, while Nurse Vogt was on her western ward rounds, she accessed the morphine cabinet and administered twelve milligrams intravenously in Room 14. She left her pen behind. At the Swiss medical inquiry, she read her 1924 paper into the record. Her licence was suspended for three years. Criminal charges were not pursued. Walter's note was entered into evidence by his wife."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #061",
+    "title": "The Davos Patient",
+    "setting": "Davos Sanatorium · Switzerland · 1927",
+    "emoji": "🏔️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Hauer acted. Her decision was not unwitnessed — Nurse Vogt knew and said nothing, Margarethe blessed it implicitly, and Walter had asked explicitly. But the inquiry that followed was shaped by a fourth person: the sanatorium's director, who moved to protect the institution before the facts were clear. Find what he concealed and why.",
+    "emptyState": "The inquiry was managed before it was conducted. Find who managed it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Elise Hauer",
+            "icon": "🩺",
+            "detail": "The killer — morphine, Room 14, deliberate, prepared, left the pen intentionally."
+          },
+          {
+            "name": "Margarethe Kessler",
+            "icon": "💔",
+            "detail": "Cleared as killer — but gave implicit blessing at four PM."
+          },
+          {
+            "name": "Nurse Lena Vogt",
+            "icon": "🏥",
+            "detail": "Cleared as killer — but heard the appeal at three-fifteen PM and chose silence."
+          },
+          {
+            "name": "Director Karl Frei",
+            "icon": "🏛️",
+            "detail": "Sanatorium director — the first person called when the body was found, and the first to begin managing the outcome."
+          },
+          {
+            "name": "The Swiss Medical Board",
+            "icon": "⚖️",
+            "detail": "The inquiry body — received a shaped version of events from Director Frei before the investigation began."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 14",
+            "icon": "🛏️",
+            "detail": "Primary crime scene — Hauer administered the morphine here."
+          },
+          {
+            "name": "The Morphine Cabinet",
+            "icon": "💊",
+            "detail": "Where Hauer accessed the morphine — pen found here confirmed her entry."
+          },
+          {
+            "name": "The Family Parlour",
+            "icon": "🪑",
+            "detail": "Where Margarethe received Hauer's implicit disclosure at four PM."
+          },
+          {
+            "name": "Director Frei's Office",
+            "icon": "🏛️",
+            "detail": "Where the investigation was pre-shaped — calls made before the inquiry arrived."
+          },
+          {
+            "name": "The Sanatorium Archive",
+            "icon": "🗄️",
+            "detail": "Where Frei removed specific records before investigators arrived."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Morphine Injection",
+            "icon": "💉",
+            "detail": "Confirmed cause of death — Hauer's clinical execution."
+          },
+          {
+            "name": "Pillow Suffocation",
+            "icon": "🛏️",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Digitalis Tablet",
+            "icon": "💊",
+            "detail": "Not in toxicology — eliminated."
+          },
+          {
+            "name": "The Removed Records",
+            "icon": "🗄️",
+            "detail": "Not a weapon — the concealment instrument. Frei removed Hauer's 1924 ethics paper from the sanatorium archive before inquiry arrived."
+          },
+          {
+            "name": "Director Frei's Pre-Inquiry Calls",
+            "icon": "📞",
+            "detail": "The instrument of managed disclosure — Frei called board members before the inquiry was formally opened."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Three PM",
+            "icon": "☀️",
+            "detail": "Walter's direct appeal to Hauer — witnessed by Vogt."
+          },
+          {
+            "name": "Four PM",
+            "icon": "🌤️",
+            "detail": "Hauer's conversation with Margarethe — implicit blessing given."
+          },
+          {
+            "name": "Nine-Thirty PM",
+            "icon": "🌙",
+            "detail": "Hauer's notebook entry recording her decision."
+          },
+          {
+            "name": "Six AM to Nine AM",
+            "icon": "🌅",
+            "detail": "Director Frei's pre-inquiry management window — the critical period before investigators arrived."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Mercy for the Patient",
+            "icon": "❤️",
+            "detail": "Hauer's motive — eleven months of watching suffering, a direct request, a pre-existing conviction."
+          },
+          {
+            "name": "Protect the Sanatorium",
+            "icon": "🏛️",
+            "detail": "Director Frei's motive — a mercy killing scandal would destroy the institution's reputation and licensing."
+          },
+          {
+            "name": "Implicit Acceptance",
+            "icon": "💔",
+            "detail": "Margarethe's participation — her blessing at four PM was not passive. She understood what she was endorsing."
+          },
+          {
+            "name": "Professional Loyalty",
+            "icon": "🏥",
+            "detail": "Nurse Vogt's motive for silence — trust in Hauer's judgment, six years of witnessing sanatorium deaths."
+          },
+          {
+            "name": "Institutional Preservation",
+            "icon": "📋",
+            "detail": "Frei's deepest motive — the sanatorium's 1925 license renewal had been conditional. A scandal would trigger revocation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Frei's First Call",
+        "text": "The sanatorium's telephone log shows Director Frei made three calls between six-ten AM — when the body was discovered — and eight AM, before the Swiss medical board investigator arrived. The first call was to the board's administrative secretary. The second was to the sanatorium's legal counsel. The third was to a board member he described as 'a colleague on the inquiry panel.'",
+        "alone": "Director Frei had contacted the board's administrative secretary, his legal counsel, and an inquiry panel member before the formal investigation opened — he was managing the process before it began.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Frei's pre-inquiry calls to the board secretary and a panel member and the conditional license renewal from 1925 confirm his motive for management — a mercy killing finding would trigger the license conditions and potentially close the sanatorium."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🗄️",
+        "heading": "The Missing Archive Entry",
+        "text": "The sanatorium's professional archive maintains copies of publications by senior medical staff. The archive index lists 'Dr. E. Hauer, 1924: On the Physician's Obligation in Irreconcilable Conflict.' The paper itself is absent from the archive — the slot is empty. The archive log shows it was accessed by Director Frei at six-forty AM on the morning of the discovery.",
+        "alone": "Director Frei accessed the archive at six-forty AM and removed Hauer's 1924 ethics paper — thirty minutes after the body was discovered.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Frei removing the 1924 paper at six-forty AM and the paper's argument that suffering relief takes precedence over life preservation confirm he understood exactly what the paper would imply about Hauer's intent — its removal was to prevent the inquiry from seeing a documented motivation."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Hauer's Awareness of Frei's Actions",
+        "text": "Dr. Hauer, in her inquiry statement, mentions — without being asked — that she had been told by the archive librarian that Director Frei had removed her 1924 paper that morning. She adds: 'I asked him to return it. He declined. I submitted my own copy to the inquiry. I was not interested in the paper being hidden.' Hauer had actively countered Frei's concealment.",
+        "alone": "Hauer knew about Frei's removal of her paper and actively submitted her own copy to the inquiry — she had undermined his concealment effort.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Hauer submitting her own copy to counter Frei's removal and Frei's pre-inquiry calls confirm the two were operating with conflicting strategies — Hauer was willing to be transparent about her reasoning, Frei was not."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1925 License Condition",
+        "text": "The sanatorium's licensing file — obtained after Frei's management activities became part of the inquiry — shows the 1925 renewal was granted with a condition: 'Any finding of unauthorized patient fatality will trigger immediate review and possible suspension of operating license.' A mercy killing inquiry could trigger this condition. Frei had been protecting the license, not Hauer.",
+        "alone": "The 1925 license renewal had a specific condition that an unauthorized patient fatality inquiry could trigger — Frei's motivation was institutional survival, not protection of Hauer personally.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The license condition Frei's inquiry management was designed to protect and his removal of Hauer's ethics paper confirm his goal was institutional self-preservation — he was not acting in Hauer's interest, he was acting in the sanatorium's interest."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Frei's Panel Contact",
+        "text": "The board member Frei called at seven-forty-five AM — before the inquiry formally opened — is identified as Dr. Heinrich Baum, the inquiry panel's chair. Frei's call to Baum, as later confirmed by Baum himself, concerned 'the institutional context' of the case and the sanatorium's record of patient care. Frei had spoken to the inquiry's chair before the inquiry began.",
+        "alone": "Frei had called the inquiry panel's chair before the investigation formally opened — seeking to establish the institutional context before the facts were examined.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Frei's pre-inquiry contacts with the board secretary, legal counsel, and the inquiry chair confirm the management effort was systematic — he was shaping the inquiry's frame before it started, not responding to it."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📔",
+        "heading": "What the Paper Would Have Shown",
+        "text": "The 1924 paper Hauer submitted to the inquiry — despite Frei's removal of the archive copy — argues explicitly that a physician who withholds a merciful death from a patient in irreconcilable suffering is complicit in that suffering. The paper includes a clinical framework for calculating when the obligation to relieve suffering supersedes the obligation to preserve life.",
+        "alone": "Hauer's 1924 paper included a clinical framework for calculating when mercy killing is professionally justified — it would have provided a documented rationale for exactly the decision she made in the Kessler case.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Frei removing the paper at six-forty AM and its content providing a documented clinical rationale for Hauer's decision confirm Frei understood what the paper would do to the inquiry's direction — removing it was an attempt to prevent Hauer's decision from appearing principled rather than criminal."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "The Inquiry's Finding on Frei",
+        "text": "The inquiry's final report includes a section on Director Frei's pre-investigation conduct. The panel found that Frei had 'engaged in communications with inquiry members and removed institutional records in a manner inconsistent with the obligations of a medical administrator.' He received a formal censure. The paper he removed was described as 'material to understanding the physician's professional position.'",
+        "alone": "The inquiry formally censured Frei for his pre-investigation conduct and specifically identified Hauer's removed paper as material to the case — his management effort backfired.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Hauer actively countering Frei's concealment and the inquiry censuring Frei for removing material evidence confirm Frei's strategy was counterproductive — it drew attention to his institutional interests and Hauer's transparent submission undermined his effort entirely."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The License Review",
+        "text": "Following the inquiry, the Swiss licensing authority reviewed the 1925 condition. The review found that while the Kessler case constituted an unauthorized patient fatality, 'the professional and ethical character of the physician's conduct, as documented in the inquiry record, distinguishes this matter from the conditions envisaged by the 1925 renewal clause.' The license was not suspended.",
+        "alone": "The license review found that the nature of Hauer's act — professional, ethical, documented — distinguished it from the conduct the 1925 condition was designed to prevent. The sanatorium survived.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The license condition Frei had been protecting and the review finding that Hauer's conduct distinguished the case from the condition's scope confirm Frei's management effort was unnecessary — Hauer's transparency achieved what his concealment could not."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Elise Hauer",
+      "location": "Room 14",
+      "weapon": "Morphine Injection",
+      "window": "Ten-Forty-Five PM",
+      "motive": "Mercy for the Patient"
+    },
+    "epilogue": "Director Karl Frei had been at his desk when the alarm was raised at six AM. By six-forty he had accessed the archive and removed Hauer's 1924 paper. By eight AM he had called the board secretary, his legal counsel, and the inquiry chair. He had spent two hours managing an investigation before it existed. Hauer had spent the same two hours giving her statement to the first investigator, submitting her own copy of the paper, and reading her notebook entry into the record. Frei received a formal censure. Hauer's licence was suspended for three years. The license review found the 1925 condition inapplicable. The sanatorium remained open. Walter Kessler's note was entered into evidence by Margarethe and read into the record by the inquiry chair. The Swiss medical board received seventeen letters about the case — fourteen from physicians, eleven of which were in support of Hauer's published position."
+  }
+}

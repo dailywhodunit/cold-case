@@ -1,0 +1,753 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "London, 1889. A baronet dead in his locked study. The least likely person in the house is the only one who could have done it. 🏚️🔍 Case #055 — The Ashworth Secret. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Victorian London 1889, a dark family secret, and the killer everyone overlooked. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Victorian London manor study in 1889, gaslight flickering over mahogany bookshelves, a leather-topped desk with papers scattered, a tall window showing foggy street below. A secret panel in the bookcase stands ajar. Dark greens, deep burgundy, amber gaslight. Atmospheric and gothic, style of John Atkinson Grimshaw meets Gustave Doré.",
+    "animationPrompt": "Slow pan through a Victorian manor study at night, 1889. Gaslight flickers across leather-bound books. A fire burns low. The camera finds a secret panel in the bookcase — standing ajar. A single page from a letter lies on the floor. The gas flickers and dims. Fog presses against the tall window. Fade to black.",
+    "hashtags": [
+      "#VictorianMystery",
+      "#LondonMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #055",
+    "title": "The Ashworth Secret",
+    "setting": "Ashworth Manor · London · 1889",
+    "emoji": "🏚️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Baronet Sir Edmund Ashworth was found dead in his locked study after the household had retired. A secret panel in the bookcase stood open. Three people were in the manor. The one everyone overlooked had more reason than anyone to open that panel.",
+    "emptyState": "The panel was open. Someone knew it was there.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Helena Ashworth",
+            "icon": "👑",
+            "detail": "Sir Edmund's wife — known to have quarreled with him that evening."
+          },
+          {
+            "name": "Mr. Cornelius Vane",
+            "icon": "📜",
+            "detail": "The family solicitor — visiting to discuss an inheritance matter."
+          },
+          {
+            "name": "Mrs. Ida Pell",
+            "icon": "🧹",
+            "detail": "The housekeeper — employed at the manor for twenty-two years."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Study",
+            "icon": "📚",
+            "detail": "Where Sir Edmund was found — locked from inside, secret panel ajar."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Where the household gathered after dinner — confirmed positions."
+          },
+          {
+            "name": "The Service Passage",
+            "icon": "🚪",
+            "detail": "The staff corridor connecting the kitchens to the study wing."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "A slim silver blade — puncture wound consistent with its profile."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "A heavy iron rod — no blood or impact trace found."
+          },
+          {
+            "name": "Crystal Paperweight",
+            "icon": "💎",
+            "detail": "A heavy desk object — no wound profile match."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🚪",
+        "heading": "The Secret Panel",
+        "text": "The secret panel in the study bookcase — concealed behind a false volume — leads to the service passage. It can be opened from either side with knowledge of the mechanism. Of the three suspects, Lady Helena and Mr. Vane did not know of its existence. Mrs. Ida Pell, who has kept the house for twenty-two years, not only knew of it but had used it to dust the passage shelves.",
+        "alone": "Only Mrs. Ida Pell knew about the secret panel — she is the only suspect with access to the study without passing through the locked main door.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Mrs. Pell's exclusive knowledge of the secret panel and the panel found ajar after the death confirm she used it to enter the study — it was the only route available that bypassed the locked door."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "✉️",
+        "heading": "The Letter Opener",
+        "text": "The silver letter opener on Sir Edmund's desk bears a thin line of blood along its blade. The wound on Sir Edmund's neck is a single precise puncture consistent with the opener's slim tapered profile. The wound required close contact and a deliberate motion — not a struggle.",
+        "alone": "Sir Edmund was killed with his own letter opener in a single precise motion — the killer was composed and close to him.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The precise single-motion wound and Mrs. Pell's twenty-two years in the household confirming she knew Sir Edmund's evening habits confirm she knew exactly how to approach him without raising alarm."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👁️",
+        "heading": "The Drawing Room Accounts",
+        "text": "Lady Helena and Mr. Vane were both in the drawing room until at least eleven o'clock — confirmed by each other and by the parlour maid who brought tea at ten-thirty and collected the service at eleven. The study door was found locked at eleven-fifteen when the footman went to deliver Sir Edmund's evening correspondence.",
+        "alone": "Lady Helena and Mr. Vane were confirmed in the drawing room until eleven o'clock — the killing occurred between ten-thirty and eleven-fifteen.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Lady Helena and Mr. Vane confirmed in the drawing room until eleven and Mrs. Pell's unaccounted absence from the kitchen during the same window confirm she was the only person without a confirmed location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Secret in the Panel",
+        "text": "The space behind the secret panel conceals a cavity where Sir Edmund kept private correspondence. A letter found in the cavity — in Sir Edmund's handwriting, addressed to a solicitor in Edinburgh — states his intention to reduce Mrs. Pell's pension from fifty pounds to nothing on the grounds of 'disloyalty and concealment.' The letter is undated but recent.",
+        "alone": "Sir Edmund had written a letter planning to strip Mrs. Pell of her pension — she had been with the household for twenty-two years and faced destitution.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Sir Edmund's pension reduction letter and the wax seal on the study desk still warm when discovered confirm Mrs. Pell had read the letter that evening — she found it in the panel cavity and understood what it meant for her future."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🧹",
+        "heading": "The Panel Mechanism",
+        "text": "Examination of the secret panel mechanism shows a thin smear of beeswax polish on the release lever — the same beeswax Mrs. Pell used to maintain the manor's woodwork. The smear is fresh. Lady Helena and Mr. Vane show no knowledge of the panel when questioned — they required it demonstrated to them.",
+        "alone": "Beeswax from Mrs. Pell's own polish is fresh on the panel release lever — she is the last person to have operated it.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Only Mrs. Pell knew about the panel and her beeswax polish on the fresh lever confirm she opened it that evening — entering the study through the service passage while the main door remained locked."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Pell's Missing Hour",
+        "text": "The kitchen maid confirms Mrs. Pell left the kitchen at approximately ten-fifteen, saying she was going to check the upstairs fires. The kitchen maid did not see her return until after the alarm was raised at eleven-fifteen. The upstairs fires were checked by the footman who found them all laid but unlit — Mrs. Pell had not checked them.",
+        "alone": "Mrs. Pell was absent from the kitchen from ten-fifteen to eleven-fifteen — one hour — and her stated reason is contradicted by the footman's evidence.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The precise single-motion wound requiring composure and Mrs. Pell's unaccounted hour during the murder window confirm she had the time and the presence of mind to enter through the panel, kill Sir Edmund, and exit before the alarm."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "The Locked Study Door",
+        "text": "The study door was found locked from the inside with the key still in the lock — a position that prevents any key from being inserted from the outside. The only other entry point is the secret panel. Sir Edmund's habit of locking his study door in the evenings was well known to Mrs. Pell from two decades of service.",
+        "alone": "The locked study door with key in the lock eliminates any entry from the main corridor — the panel was the only access route, and only Mrs. Pell knew it existed.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Lady Helena and Mr. Vane confirmed in the drawing room and the locked study door with no exterior key access confirm Mrs. Pell was the only person who could have entered the study — through the panel she alone knew about."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "✉️",
+        "heading": "The Warm Wax Seal",
+        "text": "Sir Edmund's desk holds a sealing wax kit — the wax stick is warm to the touch when the body is discovered, suggesting the kit was used within the past hour. The Edinburgh pension letter in the panel cavity bears a fresh seal. Sir Edmund had sealed the letter that evening, intending to post it the next morning.",
+        "alone": "Sir Edmund had sealed the pension letter that evening — Mrs. Pell, using the panel she knew about, could have read or seen it in the cavity before killing him.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The pension reduction letter found in the cavity Sir Edmund had accessed that evening and the warm wax seal confirming it was freshly sealed confirm Mrs. Pell found the letter through the panel — it was her motive, discovered that night."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Ida Pell",
+      "location": "The Study",
+      "weapon": "Letter Opener"
+    },
+    "epilogue": "Mrs. Ida Pell had worked at Ashworth Manor for twenty-two years. She had used the secret panel dozens of times — to dust, to deliver, and, on one occasion years before, to read correspondence she was not meant to see. That evening she had gone to check the cavity — a habit she maintained when Sir Edmund seemed agitated — and found the freshly sealed Edinburgh letter. She understood immediately what it meant. She entered through the panel, approached Sir Edmund at his desk, and used the letter opener in a single motion. She exited back through the panel and was in the kitchen when the footman raised the alarm. The beeswax on the lever ended her denial."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #055",
+    "title": "The Ashworth Secret",
+    "setting": "Ashworth Manor · London · 1889",
+    "emoji": "🏚️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Pell killed Sir Edmund. But the pension letter was not the only secret in the panel cavity. Find what else was hidden there and why Sir Edmund had written 'disloyalty and concealment' as the grounds for reducing Pell's pension.",
+    "emptyState": "The panel held more than the pension letter. Find the other secret.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mrs. Ida Pell",
+            "icon": "🧹",
+            "detail": "The killer — panel knowledge, beeswax lever, missing hour, pension motive."
+          },
+          {
+            "name": "Lady Helena Ashworth",
+            "icon": "👑",
+            "detail": "Cleared as killer — drawing room confirmed, but the panel secret concerns her."
+          },
+          {
+            "name": "Mr. Cornelius Vane",
+            "icon": "📜",
+            "detail": "Cleared as killer — drawing room confirmed, but he came about the inheritance."
+          },
+          {
+            "name": "Thomas Pell",
+            "icon": "👦",
+            "detail": "Mrs. Pell's adult son — the concealed secret directly involves him."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Study",
+            "icon": "📚",
+            "detail": "Crime scene — locked from inside, panel ajar, letter opener used."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Lady Helena and Mr. Vane confirmed here until eleven."
+          },
+          {
+            "name": "The Service Passage",
+            "icon": "🚪",
+            "detail": "Mrs. Pell's access route — connects through the secret panel."
+          },
+          {
+            "name": "The Panel Cavity",
+            "icon": "🗄️",
+            "detail": "Where Sir Edmund kept private letters — including the concealed secret."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "Confirmed weapon — blood on blade, wound profile match, single precise motion."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Crystal Paperweight",
+            "icon": "💎",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Pension Letter",
+            "icon": "📜",
+            "detail": "Not a weapon — the immediate trigger. Found in the panel cavity by Mrs. Pell."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Secret Panel",
+            "icon": "🚪",
+            "detail": "Known only to Mrs. Pell — beeswax polish confirms she operated it that evening."
+          },
+          {
+            "name": "Main Study Door",
+            "icon": "🔒",
+            "detail": "Locked from inside with key in lock — no exterior access possible."
+          },
+          {
+            "name": "Study Window",
+            "icon": "🪟",
+            "detail": "Second floor, twelve feet above street — no access evidence."
+          },
+          {
+            "name": "Service Passage Key",
+            "icon": "🔑",
+            "detail": "Mrs. Pell held the service passage master key — not required for the panel."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Second Letter",
+        "text": "Behind the pension letter in the panel cavity lies a second document — older, yellowed, and sealed with a different wax. When opened by investigators it proves to be a birth registration: Thomas Pell, born 1864, father listed as Edmund Ashworth. Mrs. Pell's son is Sir Edmund's illegitimate child. This is the 'concealment' cited in the pension reduction letter.",
+        "alone": "Mrs. Pell had concealed for twenty-five years that her son Thomas was Sir Edmund's illegitimate child — this is the secret Sir Edmund referenced when writing 'disloyalty and concealment.'",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The birth registration naming Sir Edmund as Thomas's father and Mr. Vane's inheritance visit concerning the same evening confirm Sir Edmund had recently discovered or chosen to act on Thomas's paternity — the pension letter and the inheritance matter were connected."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "forensic",
+        "icon": "🧹",
+        "heading": "The Panel and the Passage",
+        "text": "A search of the service passage reveals scuff marks on the stone floor outside the panel entry — consistent with the sole pattern of Mrs. Pell's house shoes, identified by a distinctive repair on the left heel. The marks are recent. The passage had been swept by Mrs. Pell herself that morning — any marks post-date her morning sweep.",
+        "alone": "Scuff marks matching Mrs. Pell's repaired house shoe sole are fresh in the passage outside the panel entry — she walked this route after her morning sweep, during the evening.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Mrs. Pell's fresh shoe marks in the passage and her missing hour from ten-fifteen to eleven-fifteen confirm she used the panel route during the murder window — the passage evidence places her at the scene."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "👑",
+        "heading": "What Mr. Vane Came For",
+        "text": "Mr. Vane, interviewed at length, reveals he came to discuss Sir Edmund's intention to revise his will. Specifically, Sir Edmund had instructed him to add a new bequest — a modest provision for a Thomas Pell, 'whose connection to the estate Sir Edmund now acknowledges.' The will revision would have publicly acknowledged Thomas as Sir Edmund's son.",
+        "alone": "Sir Edmund was about to formally acknowledge Thomas Pell as his son in his revised will — which would have made the concealment Mrs. Pell had maintained for twenty-five years publicly irrelevant, but would also have transformed Thomas's life.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Sir Edmund preparing to publicly acknowledge Thomas and Mrs. Pell's pension letter citing concealment confirm the two events were connected — Sir Edmund had discovered or decided to act on the paternity, and Mrs. Pell's pension reduction was punishment for the years of secrecy."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Pell's Twenty-Two Years",
+        "text": "Employment records show Mrs. Pell joined the Ashworth household in 1867 — three years after Thomas's birth. She had negotiated a pension arrangement with Sir Edmund personally, not through an agency, before starting. This was unusual. The pension was never formally recorded in the household accounts — it existed only as a private verbal agreement, later confirmed in a handwritten note from Sir Edmund.",
+        "alone": "Mrs. Pell's pension was a private arrangement made directly with Sir Edmund — not a standard employment benefit. Its informal nature made it entirely dependent on his goodwill.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The pension as an informal private arrangement and Sir Edmund's letter planning to reduce it to nothing confirm Mrs. Pell had no legal recourse — the pension existed only at his discretion, and once he reduced it she would have had no remedy."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Thomas's Letter",
+        "text": "A third document in the cavity — a letter from Thomas Pell to Sir Edmund, dated six weeks prior — requests a meeting 'to discuss what I now know regarding my origins.' Thomas had discovered his parentage independently and had written to Sir Edmund directly. Sir Edmund had apparently not yet responded.",
+        "alone": "Thomas Pell had contacted Sir Edmund six weeks before the murder about his paternity — Sir Edmund's will revision and pension reduction letter were his response to Thomas's approach.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The birth registration naming Sir Edmund as Thomas's father and Thomas's letter to Sir Edmund six weeks prior confirm Sir Edmund's decisions were reactions to Thomas's approach — the timing of the pension reduction and will revision were triggered by Thomas's contact."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🕯️",
+        "heading": "Pell's Absence Confirmed",
+        "text": "The kitchen maid's account is precise: Mrs. Pell left the kitchen at ten-fifteen saying she was going to check the upstairs fires. She did not return until after the alarm at eleven-fifteen — one full hour. The upstairs fires were found unlit by the footman. Mrs. Pell's stated reason for leaving is completely contradicted by the physical evidence of the unlit fires.",
+        "alone": "Mrs. Pell was absent for exactly one hour during the murder window with a false stated reason — her actual location during this hour is not accounted for by any witness.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The fresh shoe marks in the passage placing Mrs. Pell at the panel entry and her one-hour absence from the kitchen with a false stated reason confirm she used the passage and panel during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Grounds for Reduction",
+        "text": "The Edinburgh pension letter cites two grounds for reducing the pension: 'disloyalty' and 'concealment.' Of these, 'disloyalty' is not explained in the letter. A fourth document in the cavity — a note in Sir Edmund's handwriting — elaborates: 'Pell has been corresponding with Thomas behind my back since he wrote to me. She told him what I had decided before I had the chance to speak with him myself.'",
+        "alone": "Mrs. Pell had been corresponding with Thomas — her son — about Sir Edmund's decisions, and Sir Edmund considered this 'disloyalty' for which she would lose her pension.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Sir Edmund's will revision acknowledging Thomas and his accusation that Mrs. Pell had corresponded with Thomas about his decisions confirm the full picture: Mrs. Pell was protecting her son's interests and Sir Edmund saw this as a betrayal — punishing her with the pension reduction."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Pell's Financial Position",
+        "text": "A review of Mrs. Pell's personal savings — accessed through a Hackney savings institution identified from correspondence — shows a balance of eleven pounds and fourpence. Her annual salary of thirty pounds, combined with the fifty-pound pension expectation, had formed her entire retirement plan. Without the pension, she would be destitute within two years of leaving service.",
+        "alone": "Mrs. Pell's entire retirement security depended on the fifty-pound pension — its elimination would leave her destitute within two years.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The pension as an informal private arrangement entirely at Sir Edmund's discretion and Mrs. Pell's total financial dependence on it confirm she had no alternative — once she read the Edinburgh letter, she understood she faced destitution with no legal recourse."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Ida Pell",
+      "location": "The Study",
+      "weapon": "Letter Opener",
+      "access": "Secret Panel"
+    },
+    "epilogue": "Mrs. Ida Pell had maintained the secret for twenty-five years. When Thomas contacted Sir Edmund six weeks before the murder, she had cautiously written to her son — trying to protect him from a man whose generosity had always been conditional. Sir Edmund's note accusing her of disloyalty and his Edinburgh letter reducing her pension to nothing had been sealed that evening. She found them in the cavity she had tended for two decades. She entered through the panel she knew better than anyone in the house. She used the letter opener without hesitation. Thomas Pell was informed of his father's death and his inheritance provision three days later. He did not know what his mother had done until the trial."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #055",
+    "title": "The Ashworth Secret",
+    "setting": "Ashworth Manor · London · 1889",
+    "emoji": "🏚️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Pell killed Sir Edmund. The secret panel was her route. But Lady Helena Ashworth had her own reason to want Sir Edmund dead — and she knew about the panel. She had always known. She had shown it to Pell years ago, for reasons of her own.",
+    "emptyState": "Lady Helena knew about the panel. She never said so. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mrs. Ida Pell",
+            "icon": "🧹",
+            "detail": "The killer — panel, beeswax lever, missing hour, pension and Thomas."
+          },
+          {
+            "name": "Lady Helena Ashworth",
+            "icon": "👑",
+            "detail": "Claimed not to know about the panel — she was lying."
+          },
+          {
+            "name": "Mr. Cornelius Vane",
+            "icon": "📜",
+            "detail": "Cleared — drawing room, came about the will revision."
+          },
+          {
+            "name": "Thomas Pell",
+            "icon": "👦",
+            "detail": "Mrs. Pell's son — Sir Edmund's illegitimate child, contacted him six weeks prior."
+          },
+          {
+            "name": "Lady Helena's Counsel",
+            "icon": "⚖️",
+            "detail": "Her personal solicitor — had prepared papers she did not discuss that evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Study",
+            "icon": "📚",
+            "detail": "Crime scene — locked door, panel ajar, letter opener, Sir Edmund dead."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Lady Helena and Mr. Vane's confirmed location — but Lady Helena left briefly."
+          },
+          {
+            "name": "The Service Passage",
+            "icon": "🚪",
+            "detail": "Mrs. Pell's route — shoe marks confirm her passage."
+          },
+          {
+            "name": "The Panel Cavity",
+            "icon": "🗄️",
+            "detail": "Where the birth registration, pension letter, and Thomas's letter were stored."
+          },
+          {
+            "name": "Lady Helena's Boudoir",
+            "icon": "🌹",
+            "detail": "Her private room — contains her own correspondence with Pell about the panel."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "Confirmed weapon — Mrs. Pell's single precise motion."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No evidence — eliminated."
+          },
+          {
+            "name": "Crystal Paperweight",
+            "icon": "💎",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Birth Registration",
+            "icon": "📜",
+            "detail": "Not a weapon — the root secret. Its revelation would have destroyed Lady Helena's marriage settlement."
+          },
+          {
+            "name": "The Panel Knowledge",
+            "icon": "🚪",
+            "detail": "The access route — Lady Helena had always known and chose silence."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Secret Panel",
+            "icon": "🚪",
+            "detail": "Known to Mrs. Pell — and, it emerges, to Lady Helena since before her marriage."
+          },
+          {
+            "name": "Main Study Door",
+            "icon": "🔒",
+            "detail": "Locked from inside — no exterior access possible."
+          },
+          {
+            "name": "Study Window",
+            "icon": "🪟",
+            "detail": "Second floor — no access evidence."
+          },
+          {
+            "name": "Lady Helena's Drawing Room Exit",
+            "icon": "🚶",
+            "detail": "She left the drawing room briefly — she claimed for the necessarium."
+          },
+          {
+            "name": "Pell's Passage Route",
+            "icon": "🧹",
+            "detail": "The confirmed access — shoe marks, beeswax, missing hour."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Revealed the Panel to Pell",
+            "icon": "🚪",
+            "detail": "Lady Helena showed Pell the secret panel years ago — giving her the access route she used to kill."
+          },
+          {
+            "name": "Withheld Panel Knowledge",
+            "icon": "🤫",
+            "detail": "Lied to investigators about not knowing the panel existed."
+          },
+          {
+            "name": "Left the Drawing Room",
+            "icon": "🚶",
+            "detail": "Briefly absent from her confirmed location — her stated reason is unverified."
+          },
+          {
+            "name": "Shared the Pension Letter",
+            "icon": "📜",
+            "detail": "Told Pell about the Edinburgh letter before Sir Edmund had posted it."
+          },
+          {
+            "name": "Provided the Panel Key Phrase",
+            "icon": "🔑",
+            "detail": "The panel mechanism requires knowledge of a specific release phrase or action — Helena taught it to Pell."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Helena's Pre-Marriage Letter",
+        "text": "A letter found in Lady Helena's boudoir — from her personal files, not the panel cavity — is addressed to her before her marriage, from her mother. It reads: 'The panel in Edmund's study opens behind the third shelf from the left. He showed it to me years ago. It is where he keeps what matters. Learn what matters to him before you marry him.' Helena had known about the panel since before her wedding.",
+        "alone": "Lady Helena had known about the secret panel since before her marriage — her claim of ignorance to investigators was a deliberate lie.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Lady Helena knowing about the panel since before her marriage and her confirmed lie to investigators about its existence confirm she chose to suppress this knowledge — knowledge that would have made her a suspect in accessing the study."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "When Helena Showed Pell the Panel",
+        "text": "Thomas Pell, interviewed after the investigation expanded, states his mother had told him years ago that Lady Helena had shown her the panel 'so we could help each other.' Thomas did not know what this meant but remembered the phrase. Pell's correspondence with Thomas — recovered from her room — references 'the arrangement with Her Ladyship' in a letter from 1881.",
+        "alone": "Lady Helena showed the panel to Mrs. Pell in an arrangement dating to 1881 — nearly a decade before the murder. The arrangement was mutual.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Lady Helena showing Pell the panel as a mutual arrangement and Pell's 1881 letter referencing the arrangement confirm Helena provided Pell the access route years in advance — whether intentionally arming her for this moment or not."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "👑",
+        "heading": "Helena's Drawing Room Absence",
+        "text": "Mr. Vane, pressed in a second interview, admits Lady Helena left the drawing room once during the evening — for approximately ten minutes between ten-twenty and ten-thirty. He had previously omitted this because she had asked him not to mention it, saying she 'did not want Edmund bothered.' She was absent during the early part of the murder window.",
+        "alone": "Lady Helena was absent from the drawing room for ten minutes during the murder window — and had asked Mr. Vane to conceal this absence.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Lady Helena's ten-minute unconfirmed absence during the murder window and her instruction to Mr. Vane to conceal it confirm she had reason to hide her movements — even if she was not the killer, she was present in the house during the critical window."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Helena's Own Motive",
+        "text": "Lady Helena's personal counsel — interviewed by investigators — reveals Helena had instructed him to prepare separation papers the week before the murder. The grounds she cited included Sir Edmund's plan to publicly acknowledge an illegitimate child, which would humiliate her publicly and, under the terms of her marriage settlement, could be used to challenge her widow's portion. Sir Edmund's will revision directly threatened Helena's financial position.",
+        "alone": "Lady Helena had her own financial motive to prevent Sir Edmund's public acknowledgment of Thomas — the will revision threatened her widow's entitlement.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Lady Helena's financial threat from the will revision and her instruction to Mr. Vane to conceal her ten-minute absence confirm she had both the motive and the opportunity to have acted — or to have ensured someone else acted in her interest."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "Helena Told Pell About the Letter",
+        "text": "A letter from Lady Helena to Mrs. Pell — found folded inside Pell's Bible, dated three days before the murder — reads: 'He has written to Edinburgh. The pension is gone. I thought you should know before he tells you himself. What you do with this knowledge is your own affair.' Lady Helena informed Pell of the Edinburgh letter three days before she acted on it.",
+        "alone": "Lady Helena told Mrs. Pell about the Edinburgh pension letter three days before the murder — giving her the specific knowledge of her own financial ruin in advance.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Lady Helena knowing about the panel since her marriage and her letter informing Pell of the pension reduction three days before the murder confirm she provided both the means and the trigger — whether this was deliberate or not, the effect was to arm Pell for exactly what she did."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Mutual Arrangement",
+        "text": "Pell's 1881 letter to Thomas references 'the arrangement with Her Ladyship' in the context of keeping 'certain matters from Sir Edmund.' A further letter from 1875 — earlier in the correspondence — shows Helena had asked Pell to conceal visits to the study cavity from Sir Edmund in exchange for Pell's pension being formalised in writing. The arrangement was a mutual compact of secrecy.",
+        "alone": "The arrangement between Helena and Pell was mutual: Pell protected Helena's privacy around the study panel in exchange for pension security. Both held knowledge that could damage the other.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Lady Helena showing Pell the panel as part of a mutual secrecy arrangement and the arrangement dating to at least 1875 confirm the relationship between them was not simply employer and servant — it was a long-standing compact of mutual protection."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🚶",
+        "heading": "What Helena Did in Her Absence",
+        "text": "Lady Helena, interviewed under caution, eventually admits her ten-minute absence was spent in the first-floor corridor — near the service passage entrance. She claims she heard movement and went to investigate. She found no one. She returned to the drawing room and asked Mr. Vane to say nothing because she did not want to cause alarm. Her stated reason is unverifiable.",
+        "alone": "Lady Helena was in the first-floor corridor — adjacent to the service passage — during the murder window, and her stated reason for being there cannot be confirmed.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Lady Helena's absence from the drawing room during the murder window and her confirmed position in the corridor adjacent to the service passage confirm she was physically proximate to Mrs. Pell's access route — whether she saw Pell or not remains unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "Helena's Counsel's Instruction",
+        "text": "Lady Helena's counsel confirms that when she instructed him to prepare separation papers, she also asked him a specific question: 'If Edmund were to die before the will revision was completed, what would my position be?' The counsel had answered that she would inherit under the existing will, before any Thomas Pell provision. She had asked this question four days before the murder.",
+        "alone": "Lady Helena had specifically asked what her position would be if Sir Edmund died before completing the will revision — four days before his death.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Lady Helena's financial threat from the will revision and her specific question to her counsel about dying before the revision was completed confirm she had been calculating the implications of Sir Edmund's death — and three days later she told Pell about the pension letter."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Ida Pell",
+      "location": "The Study",
+      "weapon": "Letter Opener",
+      "access": "Secret Panel",
+      "accomplice": "Shared the Pension Letter"
+    },
+    "epilogue": "Lady Helena Ashworth had known about the panel since before her wedding. She had shown it to Mrs. Pell in 1875 as part of a mutual compact of secrecy. When Sir Edmund's will revision threatened her widow's entitlement and his pension letter threatened Mrs. Pell's survival, Helena had sent a letter to Pell informing her of the Edinburgh letter — choosing her words carefully: 'What you do with this knowledge is your own affair.' Three days later, Pell used the panel. Lady Helena was tried as an accessory after the fact. Her counsel argued she could not have known what Pell would do. The jury was not persuaded. She received five years. Mrs. Pell received life imprisonment. Thomas Pell received nothing — the will revision was never completed, and the existing will named no provision for him."
+  }
+}
