@@ -88,6 +88,8 @@ const TYPE_STYLE = {
   physical:  { bg:"#0e1208", border:"#1a3518", tag:"Physical",  tc:"#5ba060" },
   testimony: { bg:"#130e18", border:"#351a50", tag:"Testimony", tc:"#9b6fca" },
   document:  { bg:"#130e08", border:"#503518", tag:"Document",  tc:"#ca8f5b" },
+  forensic:  { bg:"#130e08", border:"#503518", tag:"Forensic",  tc:"#ca8f5b" },
+  digital:   { bg:"#0e1318", border:"#1a3a50", tag:"Digital",   tc:"#5ba3c9" },
 };
 
 // ── HELPERS ────────────────────────────────────────────────────────────────────
@@ -121,9 +123,6 @@ function useTimer(start, running, onExpire) {
   const ss=String(rem%60).padStart(2,"0");
   return { rem, display:`${mm}:${ss}`, urgent:rem<=120, critical:rem<=30, addPenalty };
 }
-
-// ── COUNTDOWN ─────────────────────────────────────────────────────────────────
-
 
 // ── INSIGHT CARD ──────────────────────────────────────────────────────────────
 function InsightCard({ insight, clueA, clueB, isNew }) {
@@ -314,7 +313,6 @@ function AdOverlay({ onResume }) {
 
 // ── GAME SCREEN ───────────────────────────────────────────────────────────────
 export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout, onReset, practice }) {
-  // caseData passed as prop from App
   const { clues, categories, solution, theme, timerSeconds } = caseData;
 
   const initMarks=()=>{ const m={}; categories.forEach(cat=>{m[cat.key]={}; cat.items.forEach(i=>{m[cat.key][i.name]=0;})}); return m; };
@@ -412,36 +410,60 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
       `}</style>
 
-      {/* Header */}
-      <div style={{ backgroundColor:theme.bg,borderBottom:`1px solid ${C.border}`,padding:"12px 18px",display:"flex",alignItems:"center",gap:10 }}>
-        <button onClick={onReset} style={{ padding:"7px 12px",backgroundColor:"transparent",border:`1px solid ${C.border}`,borderRadius:7,color:C.muted,fontSize:F.sm,cursor:"pointer",fontFamily:"system-ui,sans-serif" }}>←</button>
-        <div style={{ flex:1 }}>
-          <div style={{ display:"flex",alignItems:"center",gap:8 }}>
-            <div style={{ fontSize:F.xs,letterSpacing:"0.15em",textTransform:"uppercase",color:theme.accentDim,fontFamily:"system-ui,sans-serif" }}>Daily Whodunit{practice?" · 🎯 Practice":""}</div>
-            <div style={{ display:"flex",gap:3 }}>
-              {[...Array(3)].map((_,i)=>(
-                <div key={i} style={{ width:7,height:7,borderRadius:"50%",backgroundColor:i<tierInfo.stars?tierInfo.color:C.dim }}/>
-              ))}
+      {/* ── HEADER: two-row layout for mobile breathing room ── */}
+      <div style={{ backgroundColor:theme.bg,borderBottom:`1px solid ${C.border}`,position:"sticky",top:0,zIndex:50 }}>
+
+        {/* Row 1: back · title · timer · pause */}
+        <div style={{ padding:"10px 14px",display:"flex",alignItems:"center",gap:8 }}>
+
+          {/* Back */}
+          <button onClick={onReset} style={{ padding:"7px 11px",backgroundColor:"transparent",border:`1px solid ${C.border}`,borderRadius:7,color:C.muted,fontSize:F.md,cursor:"pointer",fontFamily:"system-ui,sans-serif",flexShrink:0 }}>←</button>
+
+          {/* Title block */}
+          <div style={{ flex:1,minWidth:0 }}>
+            <div style={{ fontSize:"12px",letterSpacing:"0.13em",textTransform:"uppercase",color:theme.accentDim,fontFamily:"system-ui,sans-serif",whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis" }}>
+              Daily Whodunit{practice?" · 🎯 Practice":""}
+            </div>
+            <div style={{ fontSize:F.lg,fontWeight:700,color:C.cream,fontFamily:"Georgia,serif",whiteSpace:"nowrap",overflow:"hidden",textOverflow:"ellipsis" }}>
+              {caseData.title}
             </div>
           </div>
-          <div style={{ fontSize:F.lg,fontWeight:700,color:C.cream,fontFamily:"Georgia,serif" }}>{caseData.title}</div>
-        </div>
-        <div style={{ display:"flex",gap:4 }}>
-          {clues.map((_,i)=>(
-            <div key={i} style={{ width:revealedIds.size>i?11:8,height:revealedIds.size>i?11:8,borderRadius:"50%",backgroundColor:revealedIds.size>i?accent:C.dim,transition:"all 0.2s",border:revealedIds.size>i?"none":`1px solid ${C.border}` }}/>
-          ))}
-        </div>
-        {foundInsights>0&&(
-          <div style={{ display:"flex",alignItems:"center",gap:5,padding:"5px 10px",backgroundColor:"#0e1808",border:"1px solid #1a4020",borderRadius:12 }}>
-            <span style={{ fontSize:F.sm }}>💡</span>
-            <span style={{ fontSize:F.sm,fontWeight:700,color:C.green,fontFamily:"system-ui,sans-serif" }}>{foundInsights}/{totalInsights}</span>
+
+          {/* Timer */}
+          <div style={{ display:"flex",alignItems:"center",gap:5,padding:"6px 11px",borderRadius:9,backgroundColor:paused?"#1a1808":critical?"#1a0808":urgent?"#1a1008":C.paper,border:`1px solid ${paused?C.goldDim:critical?"#7a2020":urgent?"#7a5010":C.border}`,flexShrink:0 }}>
+            <span style={{ fontSize:"14px" }}>{paused?"⏸":critical?"🚨":urgent?"⚠️":"⏱️"}</span>
+            <span style={{ fontSize:F.lg,fontWeight:800,color:paused?C.goldDim:timerColor,fontFamily:"monospace",animation:critical&&!paused?"blink 0.6s ease infinite":"none",letterSpacing:"0.03em" }}>{display}</span>
           </div>
-        )}
-        <div style={{ display:"flex",alignItems:"center",gap:5,padding:"6px 12px",borderRadius:9,backgroundColor:paused?"#1a1808":critical?"#1a0808":urgent?"#1a1008":C.paper,border:`1px solid ${paused?C.goldDim:critical?"#7a2020":urgent?"#7a5010":C.border}`,minWidth:80,justifyContent:"center" }}>
-          <span style={{ fontSize:F.sm }}>{paused?"⏸":critical?"🚨":urgent?"⚠️":"⏱️"}</span>
-          <span style={{ fontSize:F.lg,fontWeight:800,color:paused?C.goldDim:timerColor,fontFamily:"monospace",animation:critical&&!paused?"blink 0.6s ease infinite":"none" }}>{display}</span>
+
+          {/* Pause */}
+          <button onClick={()=>setPaused(true)} title="Pause" style={{ width:36,height:36,borderRadius:9,backgroundColor:C.dim,border:`1px solid ${C.border}`,color:C.muted,fontSize:F.md,cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0 }}>⏸</button>
         </div>
-        <button onClick={()=>setPaused(true)} title="Pause" style={{ width:36,height:36,borderRadius:9,backgroundColor:C.dim,border:`1px solid ${C.border}`,color:C.muted,fontSize:F.md,cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0 }}>⏸</button>
+
+        {/* Row 2: tier dots · clue progress · insights badge */}
+        <div style={{ padding:"0 14px 8px",display:"flex",alignItems:"center",gap:10 }}>
+
+          {/* Tier stars */}
+          <div style={{ display:"flex",gap:3,flexShrink:0 }}>
+            {[...Array(3)].map((_,i)=>(
+              <div key={i} style={{ width:6,height:6,borderRadius:"50%",backgroundColor:i<tierInfo.stars?tierInfo.color:C.dim }}/>
+            ))}
+          </div>
+
+          {/* Clue progress dots */}
+          <div style={{ display:"flex",gap:3,flex:1 }}>
+            {clues.map((_,i)=>(
+              <div key={i} style={{ width:revealedIds.size>i?9:7,height:revealedIds.size>i?9:7,borderRadius:"50%",backgroundColor:revealedIds.size>i?accent:C.dim,transition:"all 0.2s",border:revealedIds.size>i?"none":`1px solid ${C.border}` }}/>
+            ))}
+          </div>
+
+          {/* Insights — only when earned */}
+          {foundInsights>0&&(
+            <div style={{ display:"flex",alignItems:"center",gap:4,padding:"3px 9px",backgroundColor:"#0e1808",border:"1px solid #1a4020",borderRadius:12,flexShrink:0 }}>
+              <span style={{ fontSize:"13px" }}>💡</span>
+              <span style={{ fontSize:"13px",fontWeight:700,color:C.green,fontFamily:"system-ui,sans-serif" }}>{foundInsights}/{totalInsights}</span>
+            </div>
+          )}
+        </div>
       </div>
 
       <div style={{ maxWidth:540,margin:"0 auto",padding:"18px 18px 36px" }}>
@@ -453,7 +475,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
         <div style={{ marginBottom:20 }}>
           <AccuseButton caseData={caseData} marks={marks} onSubmit={submit} wrongShake={wrongShake} onOpenKey={()=>setAnswerOpen(true)}/>
         </div>
-        {/* Divider */}
+        {/* Evidence divider */}
         <div style={{ display:"flex",alignItems:"center",gap:12,margin:"4px 0 18px" }}>
           <div style={{ flex:1,height:1,backgroundColor:C.border }}/>
           <span style={{ fontSize:F.xs,color:C.muted,fontFamily:"system-ui,sans-serif",letterSpacing:"0.1em",textTransform:"uppercase" }}>Evidence</span>
@@ -475,7 +497,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
             return <ClueCard key={clue.id} clue={clue} revealedIds={revealedIds} linkedPairs={linkedPairs} onLink={handleLink} isNew={clue.id===newItemId} open={isOpen} onToggle={()=>setClueOpen(prev=>({...prev,[clue.id]:!isOpen}))} aloneOpen={isAlone} onToggleAlone={()=>handleToggleAlone(clue.id)} hintUsed={hintedClues.has(clue.id)} caseData={caseData}/>;
           })}
         </div>
-        {/* Next clue */}
+        {/* Next clue button */}
         {!allRevealed&&(
           <button onClick={revealNext} style={{ width:"100%",padding:"16px",background:"linear-gradient(135deg,#1a2008,#0e1305)",border:"1px solid #2a4020",borderRadius:12,color:C.green,fontSize:F.lg,fontWeight:700,cursor:"pointer",fontFamily:"Georgia,serif",letterSpacing:"0.03em" }}>
             {feedItems.length===0?"Begin Investigation →":"Next Clue →"}

@@ -20,13 +20,13 @@ export const C = {
 
 // ── FONT SIZES ─────────────────────────────────────────────────────────────────
 export const F = {
-  xs:  '13px',
-  sm:  '14px',
-  md:  '16px',
-  lg:  '17px',
-  xl:  '18px',
-  xxl: '22px',
-  h1:  '34px',
+  xs:  '14px',   // was 13 — labels, badges, fine print
+  sm:  '15px',   // was 14 — secondary text, meta
+  md:  '17px',   // was 16 — clue body text, main readable content
+  lg:  '18px',   // was 17 — clue headings, buttons
+  xl:  '20px',   // was 18 — tier labels, prominent UI
+  xxl: '24px',   // was 22 — screen titles
+  h1:  '36px',   // was 34 — case title on level select
 };
 
 // ── TIER CONFIG ────────────────────────────────────────────────────────────────
