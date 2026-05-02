@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Ross Ice Shelf, 1912. A polar expedition. A man dead in the ice camp. And a killer who knew that no one was coming to investigate for months. 🧊🔍 Case #074 — The White Silence. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Antarctic expedition 1912, a dead man in the ice, no rescue for months, and a killer among the five survivors. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1912 Antarctic expedition tent camp on the Ross Ice Shelf, canvas walls straining against wind, a kerosene lamp casting amber light over supply crates and sleeping rolls, a man's boot protruding from behind a crate. Outside through the tent flap: blinding white. Harsh amber interior, blue-white exterior, stark and frozen, style of Herbert Ponting meets Edward Munch.",
+    "animationPrompt": "Slow pan through a 1912 Antarctic expedition tent. Canvas walls. Kerosene lamp. Supply crates. The camera finds a boot protruding from behind a crate — a figure on the ice floor. Through the tent flap: blinding white. The lamp flickers in the wind. Silence except for the ice. Fade to black.",
+    "hashtags": [
+      "#AntarcticExpedition",
+      "#PolarMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #074",
+    "title": "The White Silence",
+    "setting": "Ross Ice Shelf Depot Camp · Antarctica · 1912",
+    "emoji": "🧊",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Geologist Dr. Edmund Farr was found dead in the supply tent at the depot camp — three hundred miles from the ship, no rescue possible for months. Five men remain. One of them had known Farr's discovery would cost them all their shares of the expedition's findings. In Antarctica, no one hears anything over the wind.",
+    "emptyState": "No rescue for months. The killer is still in the camp.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Aldous Vane",
+            "icon": "🧭",
+            "detail": "The expedition leader — responsible for all decisions including rights to any discoveries."
+          },
+          {
+            "name": "Dr. Silas Morrow",
+            "icon": "🔬",
+            "detail": "The expedition's biologist — had a separate publication agreement that Farr's discovery threatened."
+          },
+          {
+            "name": "Thomas Gale",
+            "icon": "🗺️",
+            "detail": "The cartographer — Farr's tent-mate, had been the last person confirmed near the supply tent."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Supply Tent",
+            "icon": "⛺",
+            "detail": "Where Farr was found — kerosene lamp overturned, supply crates disturbed."
+          },
+          {
+            "name": "The Main Tent",
+            "icon": "🏕️",
+            "detail": "The camp's central living space — where all five men ate and gathered."
+          },
+          {
+            "name": "The Instrument Shelter",
+            "icon": "🔭",
+            "detail": "The small canvas structure housing meteorological and geological equipment."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe",
+            "icon": "⛏️",
+            "detail": "A climbing tool — blunt force wound consistent with its pick end."
+          },
+          {
+            "name": "Kerosene Lamp",
+            "icon": "🪔",
+            "detail": "The overturned lamp — too light for the wound depth, eliminated."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "A wooden crate — wound profile inconsistent with its flat edge."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Farr's Discovery",
+        "text": "Farr's field notebook — found inside his sleeping roll — documents a geological formation he had identified three days before his death: a sub-ice mineral deposit consistent with a commercially significant iron ore body. A note in the margin reads: 'Vane will claim expedition rights. Morrow will want co-credit. Neither can have this.' He had been planning to file the discovery independently under his own name.",
+        "alone": "Farr had discovered a commercially significant mineral deposit and was planning to file it under his name alone — cutting out both the expedition leader and his fellow scientist.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Farr planning to file the discovery independently and Vane's expedition contract giving him rights to all findings confirm Vane had direct legal and financial reason to prevent Farr from acting before the expedition returned."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⛏️",
+        "heading": "The Ice Axe",
+        "text": "The camp's spare ice axe — kept in the supply tent — is found beside Farr's body, its pick end showing blood and hair consistent with the wound. The wound is a single heavy strike to the back of the skull, delivered with significant force from above. The ice axe requires two-handed use and substantial upper body strength to swing with killing force.",
+        "alone": "Farr was killed with a single strike from the camp's spare ice axe — a heavy blow requiring significant physical strength.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The ice axe requiring significant strength and Dr. Morrow's documented physical limitations from a shoulder injury sustained on the approach march together eliminate Morrow from physical capability for the killing blow."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🔭",
+        "heading": "Gale's Confirmed Location",
+        "text": "Thomas Gale had been in the instrument shelter from eight PM until ten PM — taking the evening meteorological readings as part of his assigned rotation. The readings themselves, recorded in the instrument log, are consistent with the conditions at those times and show no gap. The shelter is fifteen metres from the supply tent. Gale is confirmed absent from the supply tent area during the reading window.",
+        "alone": "Thomas Gale was in the instrument shelter from eight to ten PM — his log entries confirm continuous presence. He is cleared for that window.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Gale confirmed in the instrument shelter during the reading window and Morrow confirmed in the main tent during the same period together account for two suspects — only Captain Vane's location during this window is unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Expedition Contract",
+        "text": "The expedition's founding agreement — carried by Vane in his command documents — states: 'All geological, biological, and cartographic discoveries made during the expedition period are the property of the Vane Antarctic Expedition and its backers. Individual credit shall be granted only with the expedition's formal approval.' Farr's plan to file independently was a direct breach of this contract.",
+        "alone": "Farr's planned independent filing directly violated the expedition contract that gave Vane and his backers ownership of all discoveries.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The expedition contract giving Vane ownership of all discoveries and his note found in his command documents referring to Farr's notebook as a problem requiring resolution confirm Vane had both the motive and the documented awareness of the threat."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🧭",
+        "heading": "Vane's Missing Hour",
+        "text": "The camp's routine log — maintained by all five men in rotation — shows Vane recorded an entry at seven-thirty PM and the next entry in his hand is at ten PM. Two and a half hours are unaccounted for in his movements. The other four men have continuous log entries or witness confirmation during this period. Vane's gap spans the estimated time of death.",
+        "alone": "Captain Vane has a two-and-a-half-hour gap in his documented movements — spanning the estimated time of death — with no witness confirmation.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Farr's plan to file the discovery independently and Vane's unconfirmed two-and-a-half-hour gap spanning the murder window confirm he had both the motive and the unaccounted time to have entered the supply tent."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🩹",
+        "heading": "Morrow's Shoulder",
+        "text": "Dr. Morrow had sustained a rotator cuff injury during the approach march — documented in the expedition's medical log in Farr's own handwriting, as Farr had served as the camp's medical officer. The injury had required strapping and limited Morrow's ability to lift above shoulder height. The ice axe blow had been delivered from above — a motion Morrow's injury physically prevented him from executing with killing force.",
+        "alone": "Morrow's documented shoulder injury prevents the overhead swing required for the killing blow — he is eliminated on physical grounds.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The ice axe requiring an overhead swing and Morrow's documented rotator cuff injury preventing that motion confirm Morrow could not have delivered the killing blow — the physical requirement of the weapon eliminates him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "Morrow in the Main Tent",
+        "text": "Two other expedition members — the cook and the dog handler — confirm Morrow was in the main tent from approximately seven PM until they all retired, discussing the biological samples he had collected. He had not left the main tent during this period. He is definitively cleared.",
+        "alone": "Morrow was in the main tent from seven PM onward — confirmed by two expedition members who were with him throughout. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Gale confirmed in the instrument shelter and Morrow confirmed in the main tent together account for two suspects during the murder window — only Vane remains without witness confirmation during the critical period."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🧭",
+        "heading": "Vane's Private Note",
+        "text": "A folded note found in Vane's command documents — in his own handwriting, undated — reads: 'Farr's notebook is a problem. If he files before we return, the backers lose everything. I cannot allow this to reach London.' The note does not specify an intended action. Its existence confirms Vane had been considering Farr's notebook as a direct threat requiring resolution before the expedition's return.",
+        "alone": "Vane had written that Farr's notebook was a problem he could not allow to reach London — documenting his awareness of the threat and his intent to resolve it.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The expedition contract giving Vane legal ownership of all discoveries and his private note confirming he viewed Farr's notebook as a problem requiring prevention confirm both his motive and his documented intent to act against Farr's plan."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Aldous Vane",
+      "location": "The Supply Tent",
+      "weapon": "Ice Axe"
+    },
+    "epilogue": "Captain Aldous Vane had read Farr's notebook three days before the killing — he had found it while Farr was in the field and had understood immediately what the independent filing would mean for the expedition's backers and his own standing. He had spent three days deciding. At approximately eight PM on the night of the killing, while Gale was in the instrument shelter and Morrow in the main tent, he had entered the supply tent where Farr was working alone. He had used the camp's spare ice axe. He had returned to his command tent and recorded his next log entry at ten PM. The camp spent four months on the ice before the ship returned. By then, Vane had prepared a detailed account attributing Farr's death to a fall in the supply tent. Farr's notebook had been removed from his sleeping roll. It was found in Vane's personal kit when the ship reached New Zealand."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #074",
+    "title": "The White Silence",
+    "setting": "Ross Ice Shelf Depot Camp · Antarctica · 1912",
+    "emoji": "🧊",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Vane killed Farr and took the notebook. But Thomas Gale had known about Farr's discovery before the killing — Farr had confided in him. Find what Gale knew and what he chose to do with it.",
+    "emptyState": "Gale knew about the discovery. Find what he chose.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Aldous Vane",
+            "icon": "🧭",
+            "detail": "The killer — private note, two-and-a-half-hour gap, notebook in his kit."
+          },
+          {
+            "name": "Dr. Silas Morrow",
+            "icon": "🔬",
+            "detail": "Cleared as killer — shoulder injury, main tent confirmed."
+          },
+          {
+            "name": "Thomas Gale",
+            "icon": "🗺️",
+            "detail": "Cleared as killer — instrument shelter confirmed. But had known about the discovery."
+          },
+          {
+            "name": "The Expedition Backers",
+            "icon": "💰",
+            "detail": "The London financiers — stood to lose everything if Farr filed independently."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Supply Tent",
+            "icon": "⛺",
+            "detail": "Primary crime scene — ice axe, Farr's body, notebook missing."
+          },
+          {
+            "name": "The Main Tent",
+            "icon": "🏕️",
+            "detail": "Morrow's confirmed location — and where Gale and Farr had their conversation."
+          },
+          {
+            "name": "The Instrument Shelter",
+            "icon": "🔭",
+            "detail": "Gale's confirmed location during the murder window."
+          },
+          {
+            "name": "Vane's Command Tent",
+            "icon": "🧭",
+            "detail": "Where the notebook was found in Vane's personal kit."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Vane's strength, single overhead blow."
+          },
+          {
+            "name": "Kerosene Lamp",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "Inconsistent wound profile — eliminated."
+          },
+          {
+            "name": "Farr's Notebook",
+            "icon": "📓",
+            "detail": "Not a weapon — the motive object. Found in Vane's kit after the return."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Three Days Before",
+            "icon": "📅",
+            "detail": "When Vane read Farr's notebook and wrote his private note."
+          },
+          {
+            "name": "The Day Before",
+            "icon": "📅",
+            "detail": "When Farr confided in Gale about the discovery and his filing plan."
+          },
+          {
+            "name": "Seven-Thirty to Ten PM",
+            "icon": "⚠️",
+            "detail": "Vane's unconfirmed window — the murder occurred during this period."
+          },
+          {
+            "name": "Four Months on the Ice",
+            "icon": "🧊",
+            "detail": "The time before the ship returned — during which Vane prepared his account of Farr's death."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🗺️",
+        "heading": "What Farr Told Gale",
+        "text": "Thomas Gale, in his full account after the investigation opens, reveals that Farr had confided in him the day before the killing. Farr had shown Gale the notebook and explained the mineral deposit, the planned independent filing, and his intention to leave the expedition's official record and file separately. He had asked Gale to witness a statement he planned to write. Gale had agreed.",
+        "alone": "Farr had confided his full plan to Gale the day before the killing and had asked him to witness a statement — Gale had agreed to participate in the independent filing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Farr confiding in Gale and asking him to witness the filing statement and Gale's agreement to participate confirm Gale was a knowing participant in Farr's plan — he had information and a role that the killer may not have known about."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📓",
+        "heading": "The Witness Statement",
+        "text": "A separate document — found in Gale's cartography case, not in Farr's sleeping roll — is a partial witness statement in Farr's handwriting, signed and dated, with a space for Gale's countersignature. The statement describes the mineral deposit's location and claims independent discovery rights for Farr. Gale had not yet signed it when Farr was killed. He had kept it rather than surrendering it to Vane.",
+        "alone": "Gale had retained Farr's unsigned witness statement after the killing — he had not surrendered it to Vane with the rest of Farr's effects.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Gale retaining the unsigned witness statement and his decision not to tell Vane about its existence confirm he had been concealing the document from the killer — whether to protect the discovery or to use it later."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🧭",
+        "heading": "Vane's Account of the Death",
+        "text": "During the four months on the ice before the ship returned, Vane had presented a detailed account of Farr's death as an accidental fall in the supply tent — a lamp had been knocked over and Farr had struck his head on a supply crate corner. The other four men had accepted this account publicly. Privately, Gale had not accepted it but had said nothing for the duration of the ice camp stay.",
+        "alone": "Gale had privately not accepted Vane's account of an accidental fall — but had remained silent for the four months the camp was isolated on the ice.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Gale privately disbelieving Vane's account and retaining the unsigned witness statement confirm he had been managing information carefully during the four months on the ice — waiting for a moment when disclosure was safer."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Backers' Stakes",
+        "text": "The expedition's financing documents — carried by Vane — show the backers had invested 14,000 pounds against expected returns from any commercially significant discoveries. A discovery filed independently by Farr would have left the backers with no legal claim and no return. Vane's note about not allowing the notebook to reach London had been written with specific knowledge of this financial exposure.",
+        "alone": "The backers had invested 14,000 pounds against discoveries that Farr's independent filing would have voided — Vane's motive included protecting both his own position and his backers' investment.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The backers' 14,000-pound stake and Vane's private note confirming he understood the financial consequence confirm the killing had a specific financial scale — the discovery was worth killing over in the precise amount the backers stood to lose."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📓",
+        "heading": "The Notebook's Contents",
+        "text": "Farr's notebook — found in Vane's personal kit when the ship reached New Zealand — contains the full geological description of the mineral deposit, grid references, and Farr's independent claim notation. The notebook shows evidence of having been read multiple times — the pages are dog-eared at the deposit description section. Vane had been reading it repeatedly during the four months on the ice.",
+        "alone": "Vane had been reading Farr's notebook repeatedly during the four months on the ice — the deposit description pages show extensive handling after the killing.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Farr confiding the deposit's location to Gale and Vane reading the notebook repeatedly on the ice confirm both men had the deposit's details — and both were managing this information in different directions during the same four months."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🗺️",
+        "heading": "When Gale Disclosed",
+        "text": "When the ship reached New Zealand and the investigation opened, Gale was the first person to speak to the investigating officer — before Vane could shape the official account. He presented the unsigned witness statement, described Farr's plan, and stated his belief that Vane had killed Farr to prevent the independent filing. He had waited until the isolation of the ice camp was over before disclosing.",
+        "alone": "Gale had waited until New Zealand to disclose — choosing the moment when Vane could no longer control the information environment or harm him on the ice.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Gale staying silent on the ice for four months and disclosing immediately upon reaching New Zealand confirm his silence had been strategic — he had waited for the moment when disclosure was safe and effective."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🧭",
+        "heading": "Vane's Prepared Account",
+        "text": "Vane's command log for the four months on the ice contains a detailed written account of Farr's death as an accident — three pages, carefully composed, describing the lamp, the fall, and the supply crate. The account is far more detailed than any other entry in the log and shows signs of revision. He had written and rewritten the account during the four months of isolation.",
+        "alone": "Vane had spent the four months on the ice composing and revising a three-page account of Farr's death as an accident — the level of preparation is inconsistent with a truthful account.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The backers' 14,000-pound exposure and Vane's three-page revised accident account confirm the scale of what he had been protecting — the prepared account was designed to preserve the expedition's legal claim to the discovery."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📓",
+        "heading": "The Notebook Reaches London",
+        "text": "After Vane's arrest in New Zealand, Farr's notebook is submitted to the British Geological Survey along with Gale's countersigned witness statement — Gale had signed the statement in New Zealand, post-dating it in the manner Farr had intended. The Survey rules the discovery belongs to Farr's estate. The backers receive nothing. Farr's sister, his sole heir, receives the rights.",
+        "alone": "Farr's discovery was ultimately awarded to his estate — Gale's countersignature completed the witness statement Farr had prepared, achieving the independent filing Farr had planned.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Gale disclosing immediately on reaching New Zealand and signing the witness statement to complete Farr's filing confirm his four months of silence had been in service of exactly this outcome — waiting for the moment when Farr's plan could still succeed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Aldous Vane",
+      "location": "The Supply Tent",
+      "weapon": "Ice Axe",
+      "window": "Seven-Thirty to Ten PM"
+    },
+    "epilogue": "Thomas Gale had spent four months on the Ross Ice Shelf knowing Vane had killed Farr, retaining the unsigned witness statement, and saying nothing. He had understood that speaking on the ice would have left him isolated with a killer three hundred miles from any help. When the ship reached New Zealand he had gone directly to the investigating officer. He had signed Farr's witness statement himself, post-dated, and submitted it with the notebook to the British Geological Survey. Captain Aldous Vane was tried in London for murder and received life imprisonment. The backers received nothing. Farr's sister received the discovery rights. The mineral deposit was confirmed as commercially viable in 1924. It was never developed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #074",
+    "title": "The White Silence",
+    "setting": "Ross Ice Shelf Depot Camp · Antarctica · 1912",
+    "emoji": "🧊",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Vane killed Farr. Gale waited four months and then disclosed. But Dr. Morrow had his own separate reason to want Farr's discovery suppressed — his publication agreement. Find what Morrow's agreement was and what he did during the four months on the ice.",
+    "emptyState": "Morrow had his own reason to want the discovery buried. Find what he did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Aldous Vane",
+            "icon": "🧭",
+            "detail": "The killer — ice axe, two-and-a-half-hour gap, notebook in kit, prepared account."
+          },
+          {
+            "name": "Dr. Silas Morrow",
+            "icon": "🔬",
+            "detail": "Cleared as killer — shoulder injury, main tent. But had his own suppression interest."
+          },
+          {
+            "name": "Thomas Gale",
+            "icon": "🗺️",
+            "detail": "Cleared as killer — instrument shelter. Strategic silence, eventual disclosure, countersignature."
+          },
+          {
+            "name": "The Expedition Backers",
+            "icon": "💰",
+            "detail": "The London financiers — 14,000 pounds at stake, Vane acting partly in their interest."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Supply Tent",
+            "icon": "⛺",
+            "detail": "Primary crime scene — Vane's killing of Farr."
+          },
+          {
+            "name": "The Main Tent",
+            "icon": "🏕️",
+            "detail": "Morrow's confirmed location during the killing — and where he processed his response."
+          },
+          {
+            "name": "The Instrument Shelter",
+            "icon": "🔭",
+            "detail": "Gale's confirmed location — and where he composed his private plan during the four months."
+          },
+          {
+            "name": "London's Royal Society",
+            "icon": "🏛️",
+            "detail": "Where Morrow's publication agreement was held — and where he sent a communication from New Zealand."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Vane's."
+          },
+          {
+            "name": "Kerosene Lamp",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "Inconsistent wound profile — eliminated."
+          },
+          {
+            "name": "Morrow's Publication Agreement",
+            "icon": "📋",
+            "detail": "Not a weapon — the document that gave Morrow his own stake in suppressing Farr's discovery."
+          },
+          {
+            "name": "The Four Months",
+            "icon": "🧊",
+            "detail": "Not a weapon — the operational window during which Morrow pursued his own response to the killing."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Three Days Before",
+            "icon": "📅",
+            "detail": "When Vane found the notebook and Morrow first heard about the deposit from Farr."
+          },
+          {
+            "name": "Seven-Thirty to Ten PM",
+            "icon": "⚠️",
+            "detail": "The murder window — Vane acted, Morrow in the main tent."
+          },
+          {
+            "name": "Four Months on the Ice",
+            "icon": "🧊",
+            "detail": "During which Morrow composed his own response to the discovery."
+          },
+          {
+            "name": "New Zealand to London",
+            "icon": "🌍",
+            "detail": "When Morrow's communication reached the Royal Society — before the investigation concluded."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect the Expedition Contract",
+            "icon": "🧭",
+            "detail": "Vane's motive — legal ownership of all discoveries, backers' 14,000-pound stake."
+          },
+          {
+            "name": "Strategic Disclosure",
+            "icon": "🗺️",
+            "detail": "Gale's approach — protect the discovery until a safe moment, then complete Farr's filing."
+          },
+          {
+            "name": "Publication Priority",
+            "icon": "🔬",
+            "detail": "Morrow's motive — his publication agreement gave him priority on biological findings but not geological ones."
+          },
+          {
+            "name": "Suppress the Geological Credit",
+            "icon": "📋",
+            "detail": "Morrow's secondary action — worked to have the deposit classified as a biological-geological boundary finding."
+          },
+          {
+            "name": "Protect the Four-Month Window",
+            "icon": "🧊",
+            "detail": "All three survivors' shared interest — the isolation meant whatever happened on the ice stayed there until New Zealand."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Morrow's Publication Agreement",
+        "text": "Dr. Morrow's contract with the Royal Society — a copy of which he carried with him — granted him exclusive publication rights over all biological discoveries made during the expedition. A footnote in the agreement, added at Morrow's insistence, extended this to 'biological-geological boundary findings, including mineral formations associated with biological activity.' Farr's iron ore deposit, if it could be classified as associated with biological activity, would fall under Morrow's agreement.",
+        "alone": "Morrow's agreement extended to biological-geological boundary findings — if Farr's deposit could be reclassified, Morrow would hold the publication rights.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Morrow's agreement covering biological-geological boundary findings and the paper he composed on the ice arguing the deposit was associated with ancient biological sediment confirm he had been working to reclassify Farr's discovery under his own agreement during the four months of isolation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Morrow's Ice Camp Paper",
+        "text": "Among Morrow's biological samples and notes — examined during the New Zealand investigation — is a completed academic paper, drafted during the four months on the ice, arguing that the mineral deposit Farr had identified was associated with ancient microbial sediment layers, making it a biological-geological boundary finding. The paper claims co-discovery credit and asserts Morrow's agreement covers the finding.",
+        "alone": "Morrow had spent four months on the ice drafting an academic paper to reclassify Farr's discovery under his own publication agreement — the paper was complete before the ship reached New Zealand.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Morrow's completed reclassification paper and his communication to the Royal Society sent before the investigation concluded confirm he had been executing a parallel suppression strategy during the same four months Vane was composing his false accident account and Gale was protecting Farr's witness statement."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🗺️",
+        "heading": "What Gale Knew About Morrow",
+        "text": "Gale, in his full account, reveals that he had known about Morrow's parallel strategy — Morrow had told him during the third month on the ice that he had 'found a way to protect his interests' regarding Farr's discovery. Gale had understood this to mean the reclassification paper. He had not considered it his concern at the time — his focus was on completing Farr's original filing.",
+        "alone": "Morrow had told Gale about his reclassification strategy during the third month — Gale had known about it and had considered it a separate matter from Farr's original filing.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Gale knowing about Morrow's reclassification and focusing on Farr's original filing confirm the three survivors on the ice were each pursuing different outcomes from the same discovery — Vane's suppression, Morrow's reclassification, and Gale's preservation of Farr's claim."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Morrow's Royal Society Communication",
+        "text": "A letter from Morrow to the Royal Society's secretary — sent from New Zealand before the investigation had concluded — presents his reclassification paper and requests immediate assessment of his publication priority claim. The letter describes the deposit without mentioning Farr's discovery or Farr's death. It does not mention the murder investigation. The Society receives it three weeks before the investigation's findings are published.",
+        "alone": "Morrow had sent his reclassification paper to the Royal Society before the investigation concluded — framing the discovery without reference to Farr, his death, or the ongoing murder investigation.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Morrow's communication sent before the investigation concluded and the Society's subsequent ruling on the competing claims confirm Morrow had attempted to establish his position before the full legal context was available — timing his communication to arrive before Farr's estate claim was formalised."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "The Scientific Argument",
+        "text": "Morrow's reclassification paper is assessed by two independent geologists after the investigation concludes. Both find the argument — that the iron ore deposit is associated with ancient biological sediment — scientifically plausible but not conclusive. The deposit does show characteristics consistent with biological origin, but could equally be explained by purely geological processes. The science does not definitively support or refute the reclassification.",
+        "alone": "Morrow's reclassification argument is scientifically plausible but not conclusive — the geological evidence could support either interpretation.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Morrow's completed reclassification paper and the geological assessment finding the argument plausible confirm he had constructed a credible scientific case during the four months on the ice — the paper was not frivolous but a genuine attempt to establish a competing claim."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Competing Claims",
+        "text": "The British Geological Survey receives three competing claims on the deposit: Farr's estate (via the signed witness statement Gale completed in New Zealand), Vane's expedition backers (via the expedition contract), and Morrow (via his Royal Society publication agreement and reclassification paper). The Survey rules: Farr's estate holds the discovery claim; Morrow's reclassification argument is not sufficient to override an independent geological discovery; Vane's contract is voided by his criminal conviction.",
+        "alone": "The Survey rules for Farr's estate on the discovery claim — Morrow's reclassification and Vane's contract both fail. All three competing claims lose to the original finder's estate.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Morrow's early communication to the Royal Society and the Survey ruling against his reclassification confirm his four months of ice camp work had been unable to overcome the legal primacy of Farr's original claim — Gale's patient strategy had succeeded where both Vane's suppression and Morrow's reclassification had failed."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🧭",
+        "heading": "Vane's Knowledge of Morrow",
+        "text": "Vane, in his statement to the New Zealand investigation, admits he had known about Morrow's reclassification effort during the four months on the ice — Morrow had told him. Vane had considered this a potential complication but had decided it was preferable to Farr's independent filing. He had not obstructed Morrow's paper and had considered it a secondary line of defence if his own account of an accidental death was challenged.",
+        "alone": "Vane had known about Morrow's reclassification paper and had considered it a secondary defence — he had been aware of and had tolerated Morrow's parallel strategy.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Gale knowing about Morrow's strategy from the third month and Vane knowing about it and tolerating it confirm all four surviving men on the ice had been aware of at least parts of each other's responses to Farr's death — each managing their own position in an environment where no one could leave."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Morrow's Outcome",
+        "text": "Dr. Silas Morrow was not charged with any crime — his reclassification paper, while self-serving and timed to precede the investigation's conclusion, was not illegal. He was censured by the Royal Society for failing to disclose the murder investigation context in his communication. His publication agreement was honoured for the expedition's biological findings, which did not include the mineral deposit. He published a monograph on Antarctic microbial life in 1915. It did not mention Farr.",
+        "alone": "Morrow received a Royal Society censure but no criminal charge — his parallel strategy had been self-serving but not unlawful. His monograph never mentioned Farr.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Morrow's plausible but inconclusive reclassification argument and his censure but non-prosecution confirm the boundary between scientific self-interest and criminal conduct — his strategy had been aggressive but had not crossed a legal line, even if it had crossed a moral one."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Aldous Vane",
+      "location": "The Supply Tent",
+      "weapon": "Ice Axe",
+      "window": "Seven-Thirty to Ten PM",
+      "motive": "Protect the Expedition Contract"
+    },
+    "epilogue": "Four men had spent four months on the Ross Ice Shelf, each managing a different response to Edmund Farr's death. Vane had composed and revised his accident account. Morrow had drafted his reclassification paper. Gale had retained the unsigned witness statement. The fourth and fifth men — the cook and the dog handler — had accepted Vane's account and had known nothing of the others' strategies. When the ship reached New Zealand, Gale had moved first. Vane's account had collapsed within hours. Morrow's communication had arrived at the Royal Society before the investigation concluded. All three strategies had converged on the same deposit, and all three had been assessed simultaneously by the Survey. Farr's sister had received the rights in 1913. The deposit was confirmed as commercially viable in 1924. It was surveyed twice and never developed. Thomas Gale returned to Antarctica in 1921 as part of a cartographic survey. He placed a marker at the depot camp's location. It bore Farr's name."
+  }
+}

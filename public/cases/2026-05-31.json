@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Norway, 872. A Viking longhouse. A jarl found dead before the morning feast. Three people had reason. One weapon eliminates two of them. 🪓🔍 Case #073 — Blood and Oak. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Viking Norway 872, a jarl dead before the feast, a blood debt no one admits, and the weapon that solves it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Viking longhouse in 872 Norway, timber beams and a central fire pit glowing amber, animal pelts on the benches, a mead horn overturned on the long table, an axe embedded in the wooden post. Smoke rising through the roof opening, grey dawn light at the longhouse door. Stark and primitive, style of Frank Frazetta meets Norse mythology.",
+    "animationPrompt": "Slow pan through a Viking longhouse in 872. Timber beams. Central fire pit embers glowing. An overturned mead horn. The camera finds an axe embedded in a wooden post — and a figure on the floor beyond the fire. Dawn light through the longhouse door. Smoke rising. Silence. Fade to black.",
+    "hashtags": [
+      "#VikingMystery",
+      "#NorseMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #073",
+    "title": "Blood and Oak",
+    "setting": "Jarl Gunnar's Longhouse · Vestfold · Norway · 872",
+    "emoji": "🪓",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Jarl Gunnar was found dead before the morning feast, his skull split by an axe. Three people were in the longhouse when the guards entered at dawn: his shield-brother Björn, his thrall Signe, and his skald Ivar. One of them had a blood debt. One weapon eliminates two of them immediately.",
+    "emptyState": "One weapon. One killer. Eliminate the others first.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Björn the Shield-Brother",
+            "icon": "🛡️",
+            "detail": "Gunnar's oldest companion — had fought beside him for twenty years. Had a grievance no one spoke of."
+          },
+          {
+            "name": "Signe the Thrall",
+            "icon": "🔥",
+            "detail": "The longhouse's chief thrall — responsible for the fire and the morning preparations."
+          },
+          {
+            "name": "Ivar the Skald",
+            "icon": "📜",
+            "detail": "The longhouse poet — had sung Gunnar's deeds for a decade and knew all his secrets."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Long Table",
+            "icon": "🪵",
+            "detail": "Where Gunnar was found — an overturned mead horn beside him, axe wound to the skull."
+          },
+          {
+            "name": "The Fire Pit",
+            "icon": "🔥",
+            "detail": "Where Signe worked through the night — tending the embers for the morning feast."
+          },
+          {
+            "name": "The Sleeping Bench",
+            "icon": "🛏️",
+            "detail": "Where Björn and Ivar slept — both claimed to have woken to the guards' entry."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gunnar's Own Axe",
+            "icon": "🪓",
+            "detail": "The jarl's personal axe — embedded in the post beside the table after the blow. A two-handed weapon."
+          },
+          {
+            "name": "Hunting Knife",
+            "icon": "🗡️",
+            "detail": "A blade found on the floor — too small for the wound, eliminated."
+          },
+          {
+            "name": "Mead Horn",
+            "icon": "🍺",
+            "detail": "The overturned horn — no wound profile match, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🪓",
+        "heading": "The Jarl's Axe",
+        "text": "Gunnar's personal axe is embedded in the longhouse post — thrown or driven there after the killing blow. The axe is Gunnar's own: his name is carved on the haft. It is a heavy two-handed battle axe. The killing blow to Gunnar's skull matches the axe's blade profile exactly. The axe requires significant upper body strength to swing effectively — and both hands to wield it as a weapon.",
+        "alone": "Gunnar was killed with his own two-handed battle axe — a weapon requiring significant strength and both hands.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The two-handed battle axe requiring full arm strength and Signe's documented right hand injury from a fire accident three weeks prior confirm she could not have swung the axe with sufficient force — she is eliminated by the weapon itself."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪓",
+        "heading": "The Single Blow",
+        "text": "The wound is a single strike to the top of the skull — delivered from above and behind, with Gunnar likely seated at the table. The axe was embedded in the post at shoulder height, suggesting it was hurled or driven into the post after the blow — a warrior's gesture or a deliberate leaving of the weapon. The blow required the full arc of a two-handed swing.",
+        "alone": "A single blow from a full two-handed swing while Gunnar was seated — the killer stood above and behind him, familiar enough to approach from behind without raising alarm.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The blow from behind requiring familiarity and Björn's twenty-year relationship as Gunnar's shield-brother confirming he could approach from behind without alarm together establish that the killing required trust — the kind Björn held."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🔥",
+        "heading": "Signe's Hand",
+        "text": "Three weeks before the murder, Signe had burned her right hand badly while tending the fire — a wound still bandaged and visibly limiting her grip. The settlement's healer confirms the injury prevents any firm two-handed grip with the right hand. Signe could not have swung Gunnar's two-handed axe with sufficient force to deliver the killing blow. She is eliminated by the weapon's physical requirements.",
+        "alone": "Signe's documented right hand injury physically prevents the two-handed grip required to swing the battle axe — she is eliminated by the weapon's demands.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Signe eliminated by her hand injury and Ivar's small build and documented lack of warrior training together eliminate both non-warrior suspects — only Björn has the physical capability to wield the battle axe as used."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Blood Debt",
+        "text": "Ivar the Skald had composed a poem — performed at a feast three months prior — that indirectly described a blood debt owed to someone in the settlement. When pressed, Ivar confirms the poem referred to a real debt: Gunnar had killed a man named Ulf in a duel twelve years ago. Ulf was Björn's younger brother. The debt had never been settled. Björn had never spoken of it.",
+        "alone": "Gunnar had killed Björn's younger brother Ulf in a duel twelve years ago — a blood debt that Björn had carried in silence for over a decade.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The blood debt for Björn's brother's death carried in silence for twelve years and the feast arranged for that morning — the anniversary of Ulf's death — confirm the timing was deliberate. Björn had chosen the anniversary."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🛡️",
+        "heading": "Björn's Axe Knowledge",
+        "text": "The axe is embedded in the post at a height and angle consistent with being driven there by someone who had thrown axes competitively — a skill Björn was known for across the settlement. The throw is precise: the axe entered the post cleanly with the blade parallel to the grain, preventing it from falling. This level of control after a killing blow is the mark of a trained warrior who handles axes habitually.",
+        "alone": "The axe's precise post-embedding angle indicates habitual axe-throwing skill — consistent with Björn's known competitive accuracy and inconsistent with a non-warrior or someone acting in panic.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The two-handed battle axe requiring strength and the precise post-embedding consistent with Björn's competitive throwing confirm both the physical demand and the specific skill implicate only one suspect in the settlement."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Ivar's Build",
+        "text": "Ivar the Skald had never trained as a warrior — the settlement's training master confirms this specifically, noting Ivar had refused shield practice since boyhood. He is lean, of moderate height, and has no documented experience with battle axes. The settlement's other warriors confirm Ivar had never demonstrated the ability to swing a heavy weapon effectively. He is eliminated on physical capacity.",
+        "alone": "Ivar had no warrior training and no documented axe experience — he lacked the physical capability to deliver the killing blow with the battle axe.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Signe eliminated by her hand injury and Ivar eliminated by his lack of warrior training together remove both non-warrior suspects — the two-handed battle axe could only have been wielded by the trained warrior present."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🛡️",
+        "heading": "Björn's Twenty Years",
+        "text": "Multiple settlement members confirm Björn had been Gunnar's shield-brother for twenty years — fighting beside him, sharing his longhouse, eating at his table. He would have been the last person anyone suspected of harming Gunnar. His proximity and trust were total. He could approach Gunnar from behind at the long table without any guard or alarm being raised — he had done so thousands of times.",
+        "alone": "Björn's twenty years at Gunnar's side gave him the access and the trust to approach from behind at the table — he was the only person whose approach would have caused no alarm.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The blow from behind requiring familiarity and Björn's total trusted access to approach Gunnar from behind confirm he was the only person who could have struck in this manner without Gunnar turning or reaching for a weapon."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📅",
+        "heading": "The Anniversary",
+        "text": "Ivar, when pressed about the blood debt poem, reveals a detail he had withheld: the morning feast Gunnar had called was scheduled for the dawn following the twelfth anniversary of Ulf's death. Ivar had known this and had understood it as potentially significant. He had not acted on his suspicion because he had not believed Björn capable of it — the same assumption everyone else had made.",
+        "alone": "The feast was called for the morning of the twelfth anniversary of Ulf's death — Björn had chosen the anniversary to settle the debt.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The blood debt for Björn's brother carried for twelve years and the feast's anniversary timing confirm the killing was not impulsive — Björn had waited twelve years and had chosen the exact anniversary as the moment."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Björn the Shield-Brother",
+      "location": "The Long Table",
+      "weapon": "Gunnar's Own Axe"
+    },
+    "epilogue": "Björn the Shield-Brother had carried the blood debt for twelve years. He had fought beside the man who killed his brother at every battle, shared every feast, and said nothing. On the twelfth anniversary of Ulf's death, he had waited until Gunnar was seated at the long table before the morning feast, taken the jarl's own axe from the wall, and struck once from behind. He had driven the axe into the post in the old manner — leaving the weapon as a mark, not discarding it. When the guards entered at dawn he was seated on his sleeping bench with his eyes open. He surrendered without speech."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #073",
+    "title": "Blood and Oak",
+    "setting": "Jarl Gunnar's Longhouse · Vestfold · Norway · 872",
+    "emoji": "🪓",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Björn settled a blood debt. But Ivar the Skald had known about the blood debt and the anniversary — and had said nothing. Find what Ivar knew, when he knew it, and whether his silence was complicity.",
+    "emptyState": "Ivar knew. He stayed silent. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Björn the Shield-Brother",
+            "icon": "🛡️",
+            "detail": "The killer — two-handed axe, axe-throwing precision, blood debt, anniversary timing."
+          },
+          {
+            "name": "Signe the Thrall",
+            "icon": "🔥",
+            "detail": "Cleared as killer — hand injury prevents axe use. But had observed something."
+          },
+          {
+            "name": "Ivar the Skald",
+            "icon": "📜",
+            "detail": "Cleared as killer — no warrior training. But had known about the debt and the anniversary."
+          },
+          {
+            "name": "The Settlement's Thing",
+            "icon": "⚖️",
+            "detail": "The legal assembly — had the authority to rule on the killing's legitimacy under Norse law."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Long Table",
+            "icon": "🪵",
+            "detail": "Primary crime scene — Björn's chosen moment, Gunnar's own axe."
+          },
+          {
+            "name": "The Fire Pit",
+            "icon": "🔥",
+            "detail": "Where Signe worked — and where she had overheard something the previous evening."
+          },
+          {
+            "name": "The Sleeping Bench",
+            "icon": "🛏️",
+            "detail": "Where Björn sat after the killing — and where Ivar had lain awake."
+          },
+          {
+            "name": "The Settlement's Hall",
+            "icon": "⚖️",
+            "detail": "Where the Thing would rule on whether the killing was lawful blood-right."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gunnar's Own Axe",
+            "icon": "🪓",
+            "detail": "Confirmed murder weapon — Björn's skill, single blow, post-embedding precision."
+          },
+          {
+            "name": "Hunting Knife",
+            "icon": "🗡️",
+            "detail": "Too small — eliminated."
+          },
+          {
+            "name": "Mead Horn",
+            "icon": "🍺",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Ivar's Poem",
+            "icon": "📜",
+            "detail": "Not a weapon — but the poem three months prior had encoded the blood debt in public verse."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Composed the Blood Debt Poem",
+            "icon": "📜",
+            "detail": "Ivar had encoded the debt in public verse three months before the killing — at Björn's request."
+          },
+          {
+            "name": "Knew the Anniversary Timing",
+            "icon": "📅",
+            "detail": "Ivar had known the feast was called on the anniversary and had understood its significance."
+          },
+          {
+            "name": "Stayed Silent Before the Killing",
+            "icon": "🤫",
+            "detail": "Ivar had not warned Gunnar or the guards despite understanding Björn's likely intent."
+          },
+          {
+            "name": "Observed the Night's Events",
+            "icon": "👁️",
+            "detail": "Ivar had been awake on the sleeping bench — he had heard the killing occur."
+          },
+          {
+            "name": "Will Compose the Death Poem",
+            "icon": "📜",
+            "detail": "By Norse custom, Ivar would compose the account of Björn's act — shaping how it was remembered."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Poem's Commission",
+        "text": "Ivar, in a fuller account after the killing, reveals that Björn had approached him three months before and asked him to compose a poem referencing a blood debt and a settlement that had been too long delayed. Björn had not specified the debt or the target — he had given Ivar enough to compose the verse without naming himself or Gunnar. Ivar had understood immediately but had composed the poem anyway.",
+        "alone": "Björn had commissioned the blood debt poem three months before the killing — Ivar had understood its meaning and had composed it regardless.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Björn commissioning the poem three months before and Ivar composing it despite understanding its reference confirm Ivar had been knowingly participating in Björn's preparation — the poem was a public declaration of intent that Ivar had made possible."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🔥",
+        "heading": "What Signe Heard",
+        "text": "Signe, tending the fire the previous evening, had overheard Björn speaking quietly to Ivar near the sleeping bench after Gunnar had retired. She had heard Björn say: 'Tomorrow, before the feast. It is the day.' She had not understood the significance. She had continued tending the fire. In the morning, she had understood what she had heard.",
+        "alone": "Signe had overheard Björn tell Ivar the night before: 'Tomorrow, before the feast. It is the day.' Ivar had been informed the night before the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Björn informing Ivar the night before and Ivar remaining silent through the night and into the morning confirm Ivar had known the killing was planned for the following dawn and had made no move to warn Gunnar or the guards."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Why Ivar Stayed Silent",
+        "text": "Ivar, asked directly why he had not warned Gunnar, says: 'The debt was real. Ulf was killed in a duel that Gunnar called after a dispute over cattle. Ulf was not a warrior. Gunnar knew this and called the duel anyway. Björn had carried it for twelve years without asking for blood law. I did not think it was my place to prevent what the law would have permitted if Björn had invoked it properly.' He invokes Norse blood-right as his justification.",
+        "alone": "Ivar had stayed silent because he believed the blood debt was legitimate under Norse law — and that Björn's claim was valid even if the method was not formally invoked.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Ivar's justification citing Norse blood-right and the Thing's subsequent ruling that the debt was legitimate confirm Ivar's legal reasoning was not unfounded — the settlement's legal assembly agreed the debt existed, even if the method was irregular."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🛏️",
+        "heading": "Ivar Awake Through the Night",
+        "text": "Ivar admits he had not slept after Björn's disclosure. He had lain on the sleeping bench through the night, listening to Signe tend the fire and Gunnar's breathing from the long table where the jarl had fallen asleep. He had heard Björn rise before dawn, heard the single blow, and heard the axe driven into the post. He had remained still on the bench until the guards entered.",
+        "alone": "Ivar had been awake throughout and had heard the killing occur in real time — he had lain still on the bench during and after the killing, waiting for the guards.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Ivar awake and hearing the killing in real time and his subsequent composition of the poem he had been asked for confirm his role was both witness and participant — he had heard it happen and had agreed in advance to give it verse."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📅",
+        "heading": "The Anniversary Established",
+        "text": "Settlement records — maintained by the local chieftain's clerk — confirm that Ulf's death in the duel with Gunnar occurred on the same calendar date twelve years prior. The date can be verified through the settlement's legal records, which document all duels and their outcomes. Björn had known the anniversary precisely and had asked Gunnar to hold the morning feast on that date — Gunnar had agreed without knowing its significance.",
+        "alone": "The anniversary is documented in the settlement's legal records — Björn had chosen the date with full knowledge and had arranged the feast on that day through Gunnar's own agreement.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Björn commissioning the poem three months before and choosing the anniversary date confirm the killing had been planned with specific attention to symbolic timing — it was not simply revenge but a formal settlement in the old manner."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Thing's Ruling",
+        "text": "The settlement's Thing — the legal assembly — convenes three days after the killing. After hearing testimony from Ivar, Signe, the guards, and Björn himself, the Thing rules: the blood debt was legitimate under Norse law; Gunnar had killed Ulf knowing him to be an inadequate warrior; Björn had waited twelve years without demanding formal blood law; the killing is ruled a settlement of an old debt rather than murder. Björn receives a fine rather than exile or death.",
+        "alone": "The Thing rules the killing a legitimate blood debt settlement — Björn receives a fine. The legal framework Ivar had cited as his justification for silence is confirmed by the assembly.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Ivar's justification citing Norse blood-right and the Thing's ruling confirming the debt's legitimacy establish that Ivar's legal reasoning was accurate — his silence had been based on a correct reading of the law, even if its moral weight remains contested."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Death Poem",
+        "text": "Ivar composes the account of Björn's act — as he had been asked to three months before — and performs it at the settlement's next feast. The poem describes Ulf's death, Björn's twelve-year silence, the anniversary feast, the single blow, and the axe in the post. The poem does not use the word murder. It uses the word reckoning. The settlement receives it as an honorable account.",
+        "alone": "Ivar's death poem frames the killing as reckoning, not murder — and the settlement receives it as such. The poem Björn had commissioned three months prior is now the permanent record of the event.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Ivar awake through the killing and his subsequent composition of the poem as agreed three months before confirm his role was complete: he had heard it happen, stayed silent during it, and then given it the shape that the settlement would remember."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🛡️",
+        "heading": "Björn's Account to the Thing",
+        "text": "Björn's statement to the Thing: 'I waited twelve years because Gunnar was my shield-brother and I would not kill a man whose back I had guarded in battle until I had guarded it long enough to know he was worth the debt. He was not. He called Ulf to a duel knowing Ulf could not fight. I chose the morning of the twelfth year. I used his own axe because the debt was his to pay. I left it in the post in the old manner. I did not run.' The Thing is silent after he finishes.",
+        "alone": "Björn's statement to the Thing frames the killing in the language of old honor — waiting, witnessing, choosing the moment, using the debtor's own weapon. The Thing receives it in silence.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The anniversary documented in legal records and Björn's statement explaining his twelve-year calculation confirm the killing was conceived as a formal settlement in the old manner — the silence of the Thing suggests the assembly recognized it as such."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Björn the Shield-Brother",
+      "location": "The Long Table",
+      "weapon": "Gunnar's Own Axe",
+      "accomplice": "Composed the Blood Debt Poem"
+    },
+    "epilogue": "The Thing fined Björn twelve silver pieces — one for each year he had waited. Ivar was not charged: his silence before the killing was found to be a matter of personal judgment about a legitimate debt, not criminal complicity. Signe remained at the longhouse under the new jarl — Gunnar's eldest son, who had not been present that morning. Ivar's death poem was performed at three subsequent feasts and eventually carved into a memorial stone at the settlement's boundary. The stone describes Björn's act as reckoning. It describes Ivar as its witness. It does not name Gunnar's son."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #073",
+    "title": "Blood and Oak",
+    "setting": "Jarl Gunnar's Longhouse · Vestfold · Norway · 872",
+    "emoji": "🪓",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Björn killed Gunnar. Ivar knew and stayed silent. But Signe the thrall had a secret of her own — she had overheard Björn's disclosure to Ivar and had spent the night deciding whether to warn Gunnar. Find what stopped her and what that reveals about her own position.",
+    "emptyState": "Signe could have warned Gunnar. Find what stopped her.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Björn the Shield-Brother",
+            "icon": "🛡️",
+            "detail": "The killer — twelve-year blood debt, anniversary choice, Gunnar's own axe, Thing ruling."
+          },
+          {
+            "name": "Signe the Thrall",
+            "icon": "🔥",
+            "detail": "Cleared as killer — hand injury. But had overheard the disclosure and chose not to warn."
+          },
+          {
+            "name": "Ivar the Skald",
+            "icon": "📜",
+            "detail": "Cleared as killer — no warrior training. Complicit through the poem and his silence."
+          },
+          {
+            "name": "Gunnar's Son",
+            "icon": "🏯",
+            "detail": "The heir — absent the morning of the killing, now the new jarl. His relationship with Signe is significant."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Long Table",
+            "icon": "🪵",
+            "detail": "Primary crime scene — Björn's killing of Gunnar."
+          },
+          {
+            "name": "The Fire Pit",
+            "icon": "🔥",
+            "detail": "Where Signe worked and where she heard Björn's disclosure to Ivar."
+          },
+          {
+            "name": "The Sleeping Bench",
+            "icon": "🛏️",
+            "detail": "Where Ivar lay awake through the night — and where Björn had spoken."
+          },
+          {
+            "name": "The New Jarl's Chamber",
+            "icon": "🏯",
+            "detail": "Where Gunnar's son now lives — and where Signe's connection to him originates."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gunnar's Own Axe",
+            "icon": "🪓",
+            "detail": "Confirmed murder weapon — Björn's."
+          },
+          {
+            "name": "Hunting Knife",
+            "icon": "🗡️",
+            "detail": "Too small — eliminated."
+          },
+          {
+            "name": "Mead Horn",
+            "icon": "🍺",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Signe's Silence",
+            "icon": "🔥",
+            "detail": "Not a weapon — but her decision not to warn Gunnar was the final enabling condition of the killing."
+          },
+          {
+            "name": "The Blood Debt Law",
+            "icon": "⚖️",
+            "detail": "The legal framework — cited by both Ivar and Signe as partial justification for their silence."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Composed the Blood Debt Poem",
+            "icon": "📜",
+            "detail": "Ivar's confirmed role — at Björn's request, three months before."
+          },
+          {
+            "name": "Heard the Disclosure and Chose Silence",
+            "icon": "🤫",
+            "detail": "Signe's role — overheard Björn's announcement to Ivar and made a deliberate decision not to warn."
+          },
+          {
+            "name": "Had Personal Reason to Allow the Killing",
+            "icon": "🔥",
+            "detail": "Signe's concealed motive — her position would change under Gunnar's son, whom she trusted."
+          },
+          {
+            "name": "Will Remain at the Longhouse",
+            "icon": "🏯",
+            "detail": "Signe's outcome — stays under the new jarl, as she had anticipated."
+          },
+          {
+            "name": "Gave the Killing Its Public Shape",
+            "icon": "📜",
+            "detail": "Ivar's poem — framing the act as reckoning for the settlement's permanent record."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Blood Debt for Ulf",
+            "icon": "🛡️",
+            "detail": "Björn's motive — twelve-year debt for his brother's death in an unfair duel."
+          },
+          {
+            "name": "Legal Legitimacy Under Norse Law",
+            "icon": "⚖️",
+            "detail": "Ivar's justification for silence — he believed the debt was lawful."
+          },
+          {
+            "name": "Freedom or Better Treatment",
+            "icon": "🔥",
+            "detail": "Signe's concealed motive — Gunnar had been a hard master; his son had promised her different terms."
+          },
+          {
+            "name": "Desire to Shape History",
+            "icon": "📜",
+            "detail": "Ivar's secondary motive — the death poem was the most significant composition of his career."
+          },
+          {
+            "name": "Protect the New Jarl's Position",
+            "icon": "🏯",
+            "detail": "Signe's secondary concern — Gunnar's son had been her confidant and she had understood his interest in the succession."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🔥",
+        "heading": "What Signe Heard and What She Did",
+        "text": "Signe confirms she heard Björn tell Ivar 'Tomorrow, before the feast. It is the day.' She also confirms she understood what it meant — she had known about the blood debt for years, having tended the longhouse long enough to hear everything. She had gone to the far side of the fire pit and continued her work. She did not approach Gunnar, who was sleeping at the long table ten feet away.",
+        "alone": "Signe had understood Björn's disclosure immediately and had chosen to move to the far side of the fire pit rather than warn Gunnar — the choice was deliberate and immediate.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Signe understanding the disclosure immediately and moving away rather than warning confirm the decision not to warn was made within moments of hearing — it was not confusion or disbelief but a rapid choice with a reason."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🏯",
+        "heading": "Signe and the New Jarl",
+        "text": "Settlement members confirm Signe had a relationship of mutual trust with Gunnar's eldest son — she had raised him from boyhood and had been his confidante when he was young. Gunnar had treated Signe harshly: she had been punished for minor household failures and had been given no rest during the feast preparations. Gunnar's son had told her, within the previous month, that when he became jarl 'things would be different.'",
+        "alone": "Signe had been told by Gunnar's son that her treatment would change when he became jarl — a promise contingent on Gunnar's death.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The promise of different treatment under the new jarl and Signe's immediate decision not to warn Gunnar confirm she had weighed her own future in the moment of hearing — the new jarl's promise had made Gunnar's survival less important to her than it might have been."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🔥",
+        "heading": "Signe's Own Account",
+        "text": "Signe, asked directly why she had not warned Gunnar, says: 'Gunnar beat me for letting the fire drop in the feast of Midwinter. He beat Ulf's debt into Björn's back for twelve years and never paid it. The law said the debt was real. I heard what Björn said. I moved to the far fire and I worked. I did not wake him. That is what I did. I will not say it was wrong.' She does not claim she had not understood.",
+        "alone": "Signe explicitly refuses to say her silence was wrong — she cites both the blood debt's legitimacy and Gunnar's treatment of her as the basis for her decision.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Signe citing both legal legitimacy and personal grievance as her reasons for silence and the Thing's subsequent ruling on the debt's validity confirm both elements of her justification were grounded — the law supported the debt, and her personal situation gave her reason to allow it to be settled."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏯",
+        "heading": "What the New Jarl Knew",
+        "text": "Gunnar's son, interviewed as part of the Thing's proceedings, is asked whether he had known Björn intended to act. He denies foreknowledge. He is then asked whether he had known Björn carried the blood debt. He confirms he had — it was known to all who had been in the longhouse long enough. He is asked whether he had spoken to Signe about his succession. He confirms he had. He is not charged with any role in the killing.",
+        "alone": "Gunnar's son had known about the blood debt and had spoken to Signe about the succession — though he denies foreknowledge of Björn's specific plan.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The new jarl knowing the blood debt and having spoken to Signe about the succession and the Thing finding no criminal role for either confirm the killing's context included multiple people who had reasons to allow it — without any of them being its legal authors."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "physical",
+        "icon": "🔥",
+        "heading": "The Fire Through the Night",
+        "text": "The fire pit's condition when the guards entered at dawn shows the fire had been maintained throughout the night — the embers were fresh and well-tended, requiring attention approximately every hour. Signe had been awake and working the entire night after hearing Björn's disclosure. She had kept the fire through every hour of the night that preceded the killing.",
+        "alone": "Signe had tended the fire through the entire night after hearing the disclosure — she had been awake, working, and silent for the full duration of Björn's preparation and the killing itself.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Signe's immediate decision not to warn and her sustained wakefulness through the night confirm the silence was not a moment's hesitation but a sustained choice maintained through the full night — she had tended the fire while knowing what was coming."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Ivar's Poem About Signe",
+        "text": "Ivar's death poem — the reckoning account he had been commissioned to write — contains a single stanza about the fire pit and the thrall who tended it through the night. The stanza does not name Signe but describes a 'keeper of fire' who 'heard the night's debt named and fed the flames until morning.' Settlement members who hear the poem understand the stanza refers to Signe. She hears it performed without expression.",
+        "alone": "Ivar included Signe's silent role in the death poem — the settlement's permanent record includes the keeper of fire who heard the debt named and fed the flames until morning.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Signe's connection to the new jarl and her silent maintenance of the fire through the night confirmed in the death poem establish her role in the longhouse's permanent account — she had been a knowing participant in the night's events, and Ivar had chosen to record this."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Thing's Full Ruling",
+        "text": "The Thing's ruling on Björn's killing also contains a brief finding on Signe: 'The thrall who heard the night's word and did not speak it is not in law responsible for what she did not do. A thrall owes loyalty to the jarl but owes their silence to no law. The Thing makes no ruling on her silence.' The legal assembly explicitly declines to rule on Signe's decision — neither condemning nor endorsing it.",
+        "alone": "The Thing explicitly declines to rule on Signe's silence — neither condemning nor endorsing her decision not to warn Gunnar.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Signe's refusal to say her silence was wrong and the Thing's non-ruling on that silence confirm the legal and moral status of her decision is genuinely contested — the assembly would not condemn her, and she would not condemn herself."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔥",
+        "heading": "Signe's Position After",
+        "text": "Under the new jarl — Gunnar's son — Signe's duties are unchanged but her treatment is markedly different. She is given rest days. She is not beaten. She is addressed by name rather than by the word for thrall. The new jarl confirms this was his intention. Signe continues tending the longhouse fire. She does not speak of the night of the killing after her testimony to the Thing.",
+        "alone": "Signe's position under the new jarl is as he had promised — different treatment, rest, addressed by name. The promise made within the previous month has been kept.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The new jarl knowing the blood debt, speaking to Signe about the succession, and keeping his promise after confirm the network of knowledge and interest that surrounded the killing — Signe had heard it coming and had weighed a future the new jarl had described to her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Björn the Shield-Brother",
+      "location": "The Long Table",
+      "weapon": "Gunnar's Own Axe",
+      "accomplice": "Heard the Disclosure and Chose Silence",
+      "motive": "Blood Debt for Ulf"
+    },
+    "epilogue": "Three people had known the killing was coming before it happened. Ivar had composed the poem three months before. Signe had heard the disclosure the night before and tended the fire through every hour that followed. The new jarl had told Signe things would be different when he became jarl. None of them had warned Gunnar. The Thing fined Björn, found no crime in Ivar's conduct, and declined to rule on Signe's silence. The memorial stone was carved the following spring. The fire pit in Gunnar's longhouse was tended by Signe for another twelve years under the new jarl's household. She never spoke of the night again. The stone named her only as the keeper of fire."
+  }
+}

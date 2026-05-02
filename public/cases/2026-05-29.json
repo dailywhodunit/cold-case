@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Feudal Japan, 1600. A castle at war. A lord found dead in a room only the trusted could enter. And a question of honor that cuts both ways. ⛩️🔍 Case #071 — The Iron Fan. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: feudal Japan 1600, a castle lord dead in a locked inner chamber, a betrayal wrapped in ceremony, and one access method that names the killer. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a feudal Japanese castle inner chamber in 1600, paper shoji screens, a lacquered writing table, incense smoke curling upward, a silk robe draped over a cedar stand. Through the screen: a view of the castle's stone walls and a grey sky. An iron war fan lies on the tatami mat. Deep ink black, vermilion, pale gold. Austere and tense, style of Katsushika Hokusai meets Kurosawa.",
+    "animationPrompt": "Slow pan through a feudal Japanese castle inner chamber in 1600. Paper shoji screens. Incense smoke. A lacquered writing table. The camera finds an iron war fan on the tatami mat. Through the shoji: grey sky. A shadow moves behind the screen — then is still. Fade to black.",
+    "hashtags": [
+      "#FeudalJapan",
+      "#SamuraiMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #071",
+    "title": "The Iron Fan",
+    "setting": "Fushimi Castle · Kyoto · 1600",
+    "emoji": "⛩️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Lord Ishida Nobuaki was found dead in his inner chamber during the night before a decisive battle. The chamber could only be entered through the outer reception hall, which had a guard posted all night. Three people had legitimate access. The iron war fan on the floor was not decoration.",
+    "emptyState": "The guard saw everyone who entered. Only one did not leave.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Ishida",
+            "icon": "🌸",
+            "detail": "The lord's wife — had access to the inner chamber at all hours."
+          },
+          {
+            "name": "Advisor Tōru",
+            "icon": "📜",
+            "detail": "The lord's senior strategist — had been with the lord until the tenth hour."
+          },
+          {
+            "name": "Captain Hayashi",
+            "icon": "⚔️",
+            "detail": "The lord's personal guard captain — responsible for the outer hall post."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Inner Chamber",
+            "icon": "🏯",
+            "detail": "Where the lord was found — iron fan on the tatami, shoji screen disturbed."
+          },
+          {
+            "name": "The Outer Reception Hall",
+            "icon": "🚪",
+            "detail": "The only passage to the inner chamber — guarded all night."
+          },
+          {
+            "name": "The Garden Corridor",
+            "icon": "🌿",
+            "detail": "The passage connecting the lord's quarters to the castle's east wing."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron War Fan",
+            "icon": "🪭",
+            "detail": "A tessen — blunt force and edge wounds consistent with its spine and tip."
+          },
+          {
+            "name": "Tanto Blade",
+            "icon": "🗡️",
+            "detail": "A short ceremonial dagger — no wound profile match, found sheathed."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "Decorative cord from the screen — no ligature mark, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "The Guard's Record",
+        "text": "The outer reception hall guard — a junior ashigaru — maintained a log of all passages through the hall. His log shows three entries for the evening: Advisor Tōru departing at the tenth hour, Lady Ishida entering at the eleventh hour, and Lady Ishida departing at the eleventh hour and a half. No other person passed through the hall between the ninth hour and dawn.",
+        "alone": "The guard's log shows only Lady Ishida entered and exited the inner chamber after Advisor Tōru's departure — she is the only person who passed through the hall during the murder window.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Lady Ishida's entry and exit logged by the guard and the inner chamber's disturbed shoji screen confirming recent passage confirm she was in the inner chamber during the window when the lord was killed."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪭",
+        "heading": "The Iron Fan",
+        "text": "The lord's wounds are consistent with blows from the iron war fan found on the tatami — a tessen, a rigid metal fan used by commanders both for signalling and as a weapon. The wounds indicate two strikes, delivered from a position slightly above and behind the lord — consistent with someone approaching while he was seated at the writing table. The fan belongs to the lord's personal collection.",
+        "alone": "The lord was struck twice from behind with his own iron war fan while seated — the killer approached from behind and used a weapon already present in the chamber.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The tessen used from behind while the lord was seated and Lady Ishida's confirmed presence in the inner chamber during the murder window confirm she had both the access and the position — as the lord's wife, approaching from behind would not have raised alarm."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Advisor Tōru's Departure",
+        "text": "Advisor Tōru confirms he was with the lord until the tenth hour, reviewing battle dispositions for the following day. The guard confirms his departure at the tenth hour. Tōru went directly to the strategists' quarters in the east wing, where three other advisors confirm his continuous presence until dawn — they worked through the night on the battle plan. He is definitively cleared.",
+        "alone": "Advisor Tōru was with his fellow strategists from the tenth hour until dawn — confirmed by three colleagues. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Tōru cleared with three witnesses and Captain Hayashi confirmed at the outer hall post throughout the night together account for two of the three suspects — only Lady Ishida entered the inner chamber during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Battle Orders",
+        "text": "The writing table holds battle orders in the lord's handwriting — partially completed, the brush still in the ink stone. The orders, as written, would have sent Lady Ishida's family's forces to the most dangerous position in the following day's engagement. A notation in the margin reads: 'Ishida clan — forward flank.' Lady Ishida's father and brothers would have faced almost certain death.",
+        "alone": "The lord's battle orders had assigned Lady Ishida's family to the most dangerous position in the next day's battle — her father and brothers faced death by the lord's own command.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The battle orders assigning Lady Ishida's family to the forward flank and her confirmed entry into the inner chamber at the eleventh hour confirm she had known about the orders — and had acted before they could be sent."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🌸",
+        "heading": "The Disturbed Screen",
+        "text": "The inner chamber's eastern shoji screen shows a fresh tear at shoulder height — consistent with a person moving quickly past it in the dark. A silk thread caught in the screen's frame matches the pattern of Lady Ishida's outer robe, which shows a corresponding pull at the shoulder seam. She had caught her robe on the screen during her visit.",
+        "alone": "A silk thread from Lady Ishida's robe is caught in the inner chamber's torn screen — she had been in the chamber and had caught her clothing on the screen.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Lady Ishida's logged entry and exit and her robe thread caught in the inner chamber screen confirm she was moving through the chamber at speed — consistent with someone exiting quickly after an act of violence."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🪭",
+        "heading": "The Fan's Position",
+        "text": "The iron war fan is found approximately one metre from the writing table, as though dropped or released rather than set down. A fresh impression in the tatami near the table indicates the fan had been picked up from its display position on the wall-mounted rack — it had been deliberately taken down before use. The rack is on the wall to the left of the chamber entrance — the first thing reached upon entering.",
+        "alone": "The iron war fan had been deliberately taken from its wall rack near the entrance before the lord was struck — the killer had armed themselves immediately upon entering.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The fan taken from the wall rack immediately upon entering and the strikes delivered from behind confirm the killing was premeditated — Lady Ishida had entered the chamber already intending to act."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Captain Hayashi at the Hall",
+        "text": "Captain Hayashi had personally taken the outer hall post that night — an unusual decision, as he typically assigned junior guards to overnight duty. He confirms he was at his post from the ninth hour until dawn and confirms Lady Ishida's entries and exits as logged. He offers no explanation for why he personally staffed the post. His presence confirms the log's accuracy.",
+        "alone": "Captain Hayashi personally staffed the outer hall post — unusual, but his presence confirms the guard log's accuracy. He is cleared as killer by his own log.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Tōru cleared with three witnesses and Hayashi confirmed at the outer hall post all night together eliminate both male suspects — Lady Ishida's logged entry is the only access to the inner chamber during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Lady Ishida's Prior Knowledge",
+        "text": "A letter found in Lady Ishida's quarters — written the previous afternoon, addressed to her father but not yet dispatched — warns him: 'You will be sent to the forward flank. I have seen the orders. Do not arrive at the position — find reason to delay.' She had read the battle orders before the lord had finished writing them and had already begun warning her family.",
+        "alone": "Lady Ishida had read the unfinished battle orders and had written a warning to her father before the lord could complete and dispatch them — she had known what the orders said.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The battle orders assigning her family to the forward flank and her pre-emptive warning letter confirming she had already read them confirm she had entered the inner chamber that evening not to visit her husband but to prevent a command that would kill her father."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Ishida",
+      "location": "The Inner Chamber",
+      "weapon": "Iron War Fan"
+    },
+    "epilogue": "Lady Ishida had read the unfinished battle orders during the afternoon while her husband was in council. She had dispatched a warning letter to her father and had then decided the orders must not be completed. At the eleventh hour she had entered the inner chamber, taken the iron war fan from its rack, and struck her husband twice from behind as he sat at the writing table. She had exited at the eleventh hour and a half, catching her robe on the torn screen. The battle the following day was fought without the lord's completed orders. The forward flank was held by a different clan. Lady Ishida surrendered to the castle's senior commander at dawn and gave a full account."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #071",
+    "title": "The Iron Fan",
+    "setting": "Fushimi Castle · Kyoto · 1600",
+    "emoji": "⛩️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Lady Ishida killed the lord. But Captain Hayashi had personally taken the outer hall post that night — unusual for a captain. Find why he chose that post and what he knew before it happened.",
+    "emptyState": "Hayashi chose that post deliberately. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Ishida",
+            "icon": "🌸",
+            "detail": "The killer — robe thread, fan from rack, battle orders motive, guard log entry."
+          },
+          {
+            "name": "Advisor Tōru",
+            "icon": "📜",
+            "detail": "Cleared as killer — three strategist witnesses all night."
+          },
+          {
+            "name": "Captain Hayashi",
+            "icon": "⚔️",
+            "detail": "Cleared as killer — outer hall post all night. But his choice of post was deliberate."
+          },
+          {
+            "name": "Lady Ishida's Father",
+            "icon": "⚔️",
+            "detail": "The Ishida clan commander — received the warning letter, knew the plan."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Inner Chamber",
+            "icon": "🏯",
+            "detail": "Primary crime scene — fan, silk thread, writing table."
+          },
+          {
+            "name": "The Outer Reception Hall",
+            "icon": "🚪",
+            "detail": "Hayashi's personal post — the chokepoint he controlled."
+          },
+          {
+            "name": "The Garden Corridor",
+            "icon": "🌿",
+            "detail": "The passage connecting to the east wing — Tōru's confirmed route."
+          },
+          {
+            "name": "The Strategists' Quarters",
+            "icon": "📜",
+            "detail": "Where Tōru worked all night — three confirming witnesses."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron War Fan",
+            "icon": "🪭",
+            "detail": "Confirmed murder weapon — taken from wall rack, two strikes from behind."
+          },
+          {
+            "name": "Tanto Blade",
+            "icon": "🗡️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "No ligature — eliminated."
+          },
+          {
+            "name": "The Battle Orders",
+            "icon": "📜",
+            "detail": "Not a weapon — the motive document. Lady Ishida had read them in the afternoon."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Lady Ishida's Marital Right",
+            "icon": "🌸",
+            "detail": "Her legitimate access to the inner chamber at all hours — no suspicion raised."
+          },
+          {
+            "name": "Hayashi's Personal Post",
+            "icon": "⚔️",
+            "detail": "Hayashi took the outer hall post himself — ensuring the log would reflect only what he chose."
+          },
+          {
+            "name": "The Wall Rack",
+            "icon": "🪭",
+            "detail": "The iron fan's display position — first object reached upon entering the chamber."
+          },
+          {
+            "name": "The Afternoon Reading",
+            "icon": "📜",
+            "detail": "Lady Ishida had read the unfinished orders that afternoon — giving her the motive and the timeline."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Why Hayashi Took the Post",
+        "text": "Hayashi, in a second interview, admits he had taken the outer hall post personally because Lady Ishida had asked him to. She had approached him that afternoon and told him her husband was unwell and wished for a trusted officer to ensure the outer hall remained quiet. He had agreed. He had understood this to be a request for privacy — he had not understood it as preparation for a killing.",
+        "alone": "Lady Ishida had asked Captain Hayashi to personally staff the outer hall post — ensuring the only witness to passage would be someone she trusted and had briefed with a false reason.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Lady Ishida asking Hayashi to take the post personally and Hayashi's confirmation that he had not understood her true intent confirm she had managed the outer hall witness in advance — placing a sympathetic and uninformed guard between herself and scrutiny."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Battle Orders' Significance",
+        "text": "Advisor Tōru, when shown the partial battle orders, confirms that assigning the Ishida clan to the forward flank was strategically sound — the position was critical but highly exposed. He also confirms Lord Ishida had made the decision that afternoon and had told Tōru it was final. The orders, if completed and dispatched at dawn, would have been irrevocable under the battle's command structure.",
+        "alone": "The forward flank assignment was strategically defensible and had been decided that afternoon as final — Lady Ishida had understood the orders would be dispatched at dawn with no recourse.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The orders final and irrevocable at dawn and Lady Ishida's pre-emptive warning letter to her father written that afternoon confirm she had understood the timeline — the killing had to occur before dawn when the orders would be dispatched."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🌸",
+        "heading": "Hayashi's Loyalty",
+        "text": "Junior castle staff confirm that Captain Hayashi had served the Ishida clan before entering Lord Ishida's personal service — he had been a guard captain for Lady Ishida's father's household for four years before the marriage. His primary loyalty, in practice, was to the Ishida clan family, not to the lord he guarded.",
+        "alone": "Hayashi had served Lady Ishida's family before the lord — his loyalty to the Ishida clan preceded and may have superseded his duty to the lord.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Hayashi's prior service to the Ishida clan and his agreement to personally staff the outer hall post confirm his willingness to act in the clan's interest — whether or not he understood what he was enabling."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Lady Ishida's Letter",
+        "text": "The warning letter to her father — 'Do not arrive at the position — find reason to delay' — also contains a postscript that Hayashi had not been shown during the initial investigation: 'Hayashi will be at the outer hall. He does not know, but he is loyal. The matter will be resolved before dawn.' The letter confirms she had planned Hayashi's presence as part of the arrangement.",
+        "alone": "Lady Ishida's warning letter explicitly mentions Hayashi's placement at the outer hall as part of her plan — 'he does not know, but he is loyal.' She had engineered his presence deliberately.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Lady Ishida's letter confirming she placed Hayashi at the post and his prior clan loyalty confirming his willingness to accommodate her confirm the outer hall was managed as part of a planned killing — not a spontaneous act."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Hayashi's Knowledge After the Fact",
+        "text": "When the body was found and Lady Ishida had already surrendered, Hayashi is observed destroying a note — a junior guard witnesses him tearing paper and dropping it into the garden channel. The note, partially recovered, reads: '…forgive me. I should have understood what you…' It is addressed to no one named. Hayashi had understood his role in the night's events after the fact.",
+        "alone": "Hayashi had been destroying a note of self-reproach after the killing — he had realised his complicity even if he had not known in advance what he was enabling.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Hayashi taking the post at Lady Ishida's request and his post-facto note of self-reproach confirming he understood his role confirm he had been used as an unwitting instrument — loyal to the clan, managed into position without full understanding."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "physical",
+        "icon": "🪭",
+        "heading": "The Fan's Premeditation",
+        "text": "The iron war fan had been taken from its wall rack — but the rack shows no disturbance of dust except at the fan's own position. Every other object on the rack is undisturbed. Lady Ishida had reached for the specific fan she intended to use without hesitation — she had known exactly where it was and had gone directly to it in the dark.",
+        "alone": "Lady Ishida had reached the fan's position without hesitation in a dark chamber — she had known its exact location, consistent with planning rather than impulse.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The orders final and irrevocable at dawn and Lady Ishida going directly to the fan without hesitation confirm the killing was planned during the afternoon when she read the orders — she had known what she would use and where it was."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Afternoon Timeline",
+        "text": "A reconstruction of Lady Ishida's afternoon: she had read the battle orders when her husband left the writing table briefly at the fourth hour. She had written the warning letter at the fifth hour. She had approached Hayashi at the sixth hour. She had returned to her quarters until the eleventh hour, when she entered the inner chamber. The killing had been planned over a seven-hour window.",
+        "alone": "Lady Ishida had planned the killing over seven hours — reading the orders, warning her father, managing the outer hall witness, and then acting at the eleventh hour.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Hayashi's clan loyalty and the seven-hour planning window confirming she had managed each element in sequence confirm the killing was organised with care — not a crime of passion but a deliberate protective act."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌸",
+        "heading": "Lady Ishida's Statement",
+        "text": "Lady Ishida's surrender statement reads: 'I do not deny what I have done. My father and my brothers would have died at the forward flank on my husband's command. I could not permit this. Captain Hayashi did not know. I used his loyalty without his consent and I regret this. I accept whatever judgment is given.' She neither confesses guilt in the moral sense nor denies the act.",
+        "alone": "Lady Ishida's statement acknowledges the killing, exonerates Hayashi explicitly, and frames the act as protection of her family rather than murder — she accepts judgment without claiming innocence.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Lady Ishida's letter confirming Hayashi was placed without knowing and her statement explicitly exonerating him confirm she had managed his complicity carefully and was willing to protect him from consequences even at her own trial."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Ishida",
+      "location": "The Inner Chamber",
+      "weapon": "Iron War Fan",
+      "access": "Lady Ishida's Marital Right"
+    },
+    "epilogue": "Lady Ishida had planned the killing over seven hours. She had read the orders, warned her father, placed Hayashi at the outer hall using his clan loyalty without his knowledge, and entered the inner chamber at the eleventh hour knowing exactly which weapon to reach for in the dark. She had surrendered before dawn and had explicitly protected Hayashi in her statement. The battle the following day was delayed by the lord's death. The Ishida clan forces were reassigned from the forward flank by the interim commander. Lady Ishida's father survived the engagement. She received death by her own hand — the traditional sentence — and was permitted to conduct the ceremony herself."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #071",
+    "title": "The Iron Fan",
+    "setting": "Fushimi Castle · Kyoto · 1600",
+    "emoji": "⛩️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Lady Ishida killed the lord and protected Hayashi. But Advisor Tōru had known about the forward flank assignment and had said nothing to Lady Ishida — he had a reason to want the Ishida clan destroyed that had nothing to do with the battle.",
+    "emptyState": "Tōru knew and said nothing. Find his reason.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lady Ishida",
+            "icon": "🌸",
+            "detail": "The killer — seven-hour plan, iron fan, marital access, surrendered."
+          },
+          {
+            "name": "Advisor Tōru",
+            "icon": "📜",
+            "detail": "Cleared as killer — three witnesses. But had withheld knowledge of the orders from Lady Ishida."
+          },
+          {
+            "name": "Captain Hayashi",
+            "icon": "⚔️",
+            "detail": "Cleared as killer — outer hall post. Unwitting instrument of Lady Ishida's plan."
+          },
+          {
+            "name": "Lord Ishida's Brother",
+            "icon": "🏯",
+            "detail": "The lord's younger brother — stands to inherit the domain and had lobbied for the Ishida clan's destruction."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Inner Chamber",
+            "icon": "🏯",
+            "detail": "Primary crime scene — Lady Ishida's killing of the lord."
+          },
+          {
+            "name": "The Outer Reception Hall",
+            "icon": "🚪",
+            "detail": "Hayashi's managed post — the access chokepoint."
+          },
+          {
+            "name": "The Strategists' Quarters",
+            "icon": "📜",
+            "detail": "Where Tōru worked — and where he had reviewed the battle orders before they were shown to anyone else."
+          },
+          {
+            "name": "The Lord's Brother's Quarters",
+            "icon": "🏯",
+            "detail": "Where the inheritance conversation had taken place — and where Tōru had spent an hour before the strategy session."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Iron War Fan",
+            "icon": "🪭",
+            "detail": "Confirmed murder weapon — Lady Ishida's premeditated choice."
+          },
+          {
+            "name": "Tanto Blade",
+            "icon": "🗡️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "No ligature — eliminated."
+          },
+          {
+            "name": "The Battle Orders",
+            "icon": "📜",
+            "detail": "The instrument of the forward flank assignment — drafted by the lord, reviewed by Tōru."
+          },
+          {
+            "name": "Tōru's Silence",
+            "icon": "📜",
+            "detail": "Not a weapon — but his deliberate withholding of the orders from Lady Ishida shaped the night's outcome."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Lady Ishida's Marital Right",
+            "icon": "🌸",
+            "detail": "Her legitimate access — no suspicion, no barrier."
+          },
+          {
+            "name": "Hayashi's Personal Post",
+            "icon": "⚔️",
+            "detail": "Managed by Lady Ishida — unwitting instrument of her planning."
+          },
+          {
+            "name": "The Afternoon Orders Reading",
+            "icon": "📜",
+            "detail": "Lady Ishida had read the orders herself — Tōru had reviewed them first and had not warned her."
+          },
+          {
+            "name": "Tōru's Prior Meeting",
+            "icon": "🏯",
+            "detail": "Tōru's hour with the lord's brother before the strategy session — the meeting that preceded the orders' drafting."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect Her Family",
+            "icon": "🌸",
+            "detail": "Lady Ishida's motive — the forward flank assignment would have killed her father and brothers."
+          },
+          {
+            "name": "Clan Loyalty Over Duty",
+            "icon": "⚔️",
+            "detail": "Hayashi's motive for compliance — prior service to the Ishida family superseded his guard duty."
+          },
+          {
+            "name": "Destroy the Ishida Clan",
+            "icon": "🏯",
+            "detail": "Tōru's concealed motive — had advised the forward flank assignment knowing it would weaken or destroy the Ishida family's military strength."
+          },
+          {
+            "name": "Inheritance and Domain Control",
+            "icon": "📜",
+            "detail": "The lord's brother's motive — stood to inherit and had promised Tōru a senior role in the new administration."
+          },
+          {
+            "name": "Strategic Calculation",
+            "icon": "⚔️",
+            "detail": "Tōru's stated motive — the forward flank was genuinely the best strategic position, giving him plausible denial."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🏯",
+        "heading": "Tōru's Prior Meeting",
+        "text": "The lord's household log — maintained by the head steward — shows Advisor Tōru visited the lord's younger brother's quarters for approximately one hour during the afternoon, before his evening strategy session with the lord. The visit is not recorded in the strategy session notes as relevant context. The lord's brother had been lobbying for a military restructuring that would reduce the Ishida clan's influence.",
+        "alone": "Tōru had met with the lord's brother for an hour before the strategy session where the forward flank assignment was decided — the meeting that preceded the orders.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Tōru's prior meeting with the lord's brother and the brother's documented lobbying for Ishida clan reduction confirm the meeting was substantive — the forward flank assignment followed directly from a conversation with the man who would benefit from the Ishida clan's destruction."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Who Reviewed the Orders First",
+        "text": "The lord's writing table procedure — as described by the head steward — required all battle orders to be reviewed by the senior advisor before being sealed for dispatch. Tōru had reviewed the forward flank assignment at the ninth hour, before Lady Ishida had read the unfinished orders at the fourth hour. He had seen the orders in their final form and had approved them without raising any concern about the Ishida clan's exposure.",
+        "alone": "Tōru had reviewed the final battle orders and approved them without comment — he had known the Ishida clan would face near-certain destruction and had said nothing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Tōru approving the orders without comment and his prior meeting with the lord's brother confirming a mutual interest in the Ishida clan's reduction confirm his silence was not oversight — it was a deliberate choice to allow the orders to stand."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🌸",
+        "heading": "What Tōru Could Have Done",
+        "text": "Lady Ishida, in her surrender statement's extended version, notes: 'Advisor Tōru knew what the orders said. He reviewed them before they were sealed. He could have told me. He could have counselled my husband differently. He chose silence.' She had understood that Tōru had the means and the position to prevent the forward flank assignment — and had not acted.",
+        "alone": "Lady Ishida explicitly identified Tōru's failure to warn her or counsel differently as a deliberate choice — she had understood his silence as complicit.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Lady Ishida identifying Tōru's silence as deliberate and his prior meeting with the lord's brother confirming a concurrent interest confirm her reading was accurate — Tōru had chosen silence in alignment with his prior meeting's interests."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏯",
+        "heading": "The Inheritance Promise",
+        "text": "A letter found in the lord's brother's quarters — addressed to Tōru — reads: 'When the domain passes to my management, your position as senior counsellor is assured. The clans that have weakened us must be addressed. The forward position will test their worth.' The letter was written three days before the battle — before the lord's death — suggesting the forward flank assignment had been anticipated or arranged.",
+        "alone": "The lord's brother had promised Tōru a senior position in exchange for support, specifically mentioning the forward flank testing the weakening clans — written three days before the battle.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The inheritance promise to Tōru and the forward flank assignment decided at the strategy session Tōru attended after meeting with the brother confirm the assignment was coordinated — Tōru had advised the lord toward a position that served the brother's interests."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Tōru's Strategic Justification",
+        "text": "Tōru, confronted with the inheritance letter, insists the forward flank assignment was the correct strategic decision regardless of any other consideration. He presents a detailed military analysis supporting the Ishida clan's placement. The analysis is competent — the position was genuinely important. He argues his advice was honest even if it served another interest simultaneously.",
+        "alone": "Tōru's strategic analysis supporting the forward flank is militarily sound — he can argue the advice was correct independent of the inheritance arrangement.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Tōru approving the orders without alerting Lady Ishida and his sound strategic justification confirm the most damning element is not the advice itself but his silence — he had chosen not to warn her when he could have, knowing what the orders meant for her family."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three-Day Gap",
+        "text": "The lord's brother's letter to Tōru is dated three days before the battle — but the forward flank assignment was not decided until the afternoon strategy session. Either the brother had anticipated the assignment, or the assignment had been suggested to the lord by Tōru in a way that led predictably to this outcome. The letter's confidence about the forward position suggests foreknowledge, not prophecy.",
+        "alone": "The inheritance letter references the forward flank three days before the assignment was decided — suggesting Tōru had advised the lord toward this outcome in a coordinated way with the brother's knowledge.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The inheritance promise and the three-day foreknowledge in the brother's letter confirm the forward flank assignment was not an independent strategic decision — it had been steered by Tōru in coordination with the man who would benefit from the Ishida clan's destruction."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Hayashi's View of Tōru",
+        "text": "Captain Hayashi, asked whether he had suspected any prior arrangement, says: 'Tōru-dono had been spending time with the young lord's brother for several weeks. I noticed. I said nothing. It was not my place.' He had observed the developing relationship between Tōru and the brother without acting on his observation — a pattern consistent with the castle's political environment in the days before a decisive battle.",
+        "alone": "Hayashi had observed Tōru's developing relationship with the lord's brother over several weeks and had said nothing — the alliance had been visible to those who were looking.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Tōru's afternoon meeting with the brother and Hayashi's observation of a weeks-long developing relationship confirm the coordination was sustained, not incidental — the forward flank assignment was the culmination of a weeks-long arrangement."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌸",
+        "heading": "The Outcome",
+        "text": "The lord's death delayed the battle by two days. In the interim, the battle's overall command structure shifted. The Ishida clan forces were not reassigned to the forward flank — the interim commander selected a different clan for the position. The lord's brother did not inherit the domain — the political situation following the battle rendered the succession contested. Tōru received no senior counsellor position. The three-day letter's promises were not kept.",
+        "alone": "Lady Ishida's killing of the lord had not only saved her family from the forward flank — it had disrupted the succession arrangement that Tōru and the lord's brother had built, denying them both the outcomes they had sought.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Tōru's sound strategic justification for the forward flank and the outcome showing the arrangement ultimately failed confirm the irony: the killing Tōru's silence had helped precipitate was the act that destroyed the inheritance plan he had been cultivating for weeks."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lady Ishida",
+      "location": "The Inner Chamber",
+      "weapon": "Iron War Fan",
+      "access": "Lady Ishida's Marital Right",
+      "motive": "Protect Her Family"
+    },
+    "epilogue": "Advisor Tōru had spent three weeks cultivating the lord's younger brother, steering the strategy session toward the forward flank assignment, and approving the orders in silence. His strategic analysis had been sound — he could defend the advice on military merit alone. What he could not defend was the inheritance letter, the three-day foreknowledge, and his deliberate choice not to warn Lady Ishida when he had reviewed the orders and understood what they meant for her family. He was charged with conspiracy and removed from service. The lord's brother was exiled. Hayashi served under the interim commander until the battle's resolution. Lady Ishida's father and brothers survived the engagement in which they did not fight. Lady Ishida's ceremony was conducted at dawn, three days after her surrender."
+  }
+}

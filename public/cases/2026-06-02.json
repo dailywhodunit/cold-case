@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Kansas City, 1931. A speakeasy. A bookie found dead in the back room. And a double cross that nobody saw coming — except the one person who set it up. 🥃🔍 Case #075 — The Fix. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Kansas City 1931, a Prohibition speakeasy, a double cross three layers deep, and a killer who played all sides. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Back room of a 1931 Kansas City speakeasy, a single hanging bulb over a card table, ledger books and cash stacked beside an overturned glass, a telephone off its hook on a side table, playing cards scattered on the floor. Deep shadow, single amber light, cigarette smoke. Dangerous and close, style of Weegee meets James M. Cain.",
+    "animationPrompt": "Slow pan through the back room of a 1931 Kansas City speakeasy. Hanging bulb. Card table. Ledger books and cash. The camera finds a telephone off its hook and playing cards scattered on the floor. An overturned glass. The bulb swings slightly. The room is very quiet. Fade to black.",
+    "hashtags": [
+      "#KansasCity1931",
+      "#ProhibitionNoir",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #075",
+    "title": "The Fix",
+    "setting": "The Starlight Room · Kansas City · Missouri · 1931",
+    "emoji": "🥃",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Bookie Sal Piccolo was found dead in the Starlight Room's back office after the Friday card game. The ledger was open. The cash was gone. Three people had been in the back room that evening. One of them had been playing both sides of a fixed race — and Sal had found out.",
+    "emptyState": "Sal found out about the fix. The fix found out about Sal.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Delia Cross",
+            "icon": "🃏",
+            "detail": "The card dealer — had worked the Starlight for three years and knew every account in the ledger."
+          },
+          {
+            "name": "Ray Fontaine",
+            "icon": "🎲",
+            "detail": "A regular gambler — had been placing bets on both sides of a fixed horse race through Sal."
+          },
+          {
+            "name": "Vincent 'Vinnie' Lore",
+            "icon": "💰",
+            "detail": "The speakeasy's silent owner — Sal ran the books for him and had been skimming."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Where Sal was found — ledger open, cash gone, telephone off the hook."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "The main gambling floor — where all three suspects were seen during the evening."
+          },
+          {
+            "name": "The Service Corridor",
+            "icon": "🚪",
+            "detail": "The passage connecting the card room to the back office and the street exit."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "A heavy Bakelite receiver — blunt force wound consistent with its base weight."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "A heavy bound ledger — wound profile inconsistent with its flat spine."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "Found broken in the card room — no blood trace, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Open Ledger",
+        "text": "The ledger found open on the back office desk shows Sal's accounts in detail. The open page displays Ray Fontaine's bet record — two simultaneous bets on the same race, one on each horse, placed through separate accounts but both traceable to Fontaine. A notation in Sal's handwriting beside Fontaine's entry reads: 'RF — knows about the split. Confronting tonight.' Sal had planned to confront Fontaine.",
+        "alone": "Sal had discovered Fontaine's double-betting scheme and had written a note indicating he planned to confront him that night — Fontaine knew the confrontation was coming.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Sal's ledger notation planning to confront Fontaine and Fontaine's confirmed presence in the back office during the confrontation window confirm he knew what was coming and had reason to act before Sal could expose the scheme."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📞",
+        "heading": "The Telephone Receiver",
+        "text": "The telephone receiver — found on the floor beside Sal's body — shows blood on its base consistent with the impact wound on his skull. The receiver is a heavy Bakelite model weighing approximately one kilogram — sufficient for a lethal blow when swung by the cord. A partial fingerprint on the receiver's cord shows smearing consistent with hasty gripping.",
+        "alone": "Sal was killed with the telephone receiver, used as a flail via its cord — a weapon of opportunity in a room where the phone was already within reach.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The telephone receiver used as an opportunistic weapon and Ray Fontaine's confirmed presence in the back office during the confrontation window together confirm the killing was reactive — the confrontation had escalated and Fontaine had reached for the nearest object."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Delia's Card Room Alibi",
+        "text": "Delia Cross had been dealing at the main card table from eight PM until the alarm at ten-forty PM — confirmed by four players who had been at her table throughout. She had not left the card room during this period. The card room's only exit to the back office was through the service corridor, which one of the players confirms Delia had not used. She is definitively cleared.",
+        "alone": "Delia Cross dealt cards continuously from eight PM to ten-forty PM — confirmed by four players. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Delia cleared by four card players and Vinnie Lore confirmed at the bar until ten PM together eliminate two suspects — only Ray Fontaine's movements after nine-thirty PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Missing Cash",
+        "text": "The back office cash box — normally kept in the desk drawer during business hours — is missing. The desk drawer is open and empty. A receipt stub in the drawer shows the box had contained approximately 800 dollars before the evening's card game. The cash's disappearance during a killing points to either a robbery-murder or a killer with specific knowledge of where the cash was kept.",
+        "alone": "Eight hundred dollars in cash was taken from the locked desk drawer — the killer knew where the cash was kept, suggesting familiarity with the back office's layout.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The missing cash requiring knowledge of the desk drawer's contents and Fontaine's documented months of regular back-office access through his betting account visits confirm he had the familiarity needed to know where the cash was kept."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎲",
+        "heading": "Fontaine in the Back Office",
+        "text": "A kitchen worker, entering the service corridor at approximately nine-forty PM to take out garbage, saw Ray Fontaine exiting the back office through the service corridor door. Fontaine told her he had been discussing a bet with Sal. She had not seen anyone else in the corridor. She noticed the back office door was closed behind Fontaine when he left — she had not heard anything unusual.",
+        "alone": "Fontaine was seen exiting the back office via the service corridor at nine-forty PM — the back office where Sal's body was later found.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Sal's ledger notation planning to confront Fontaine and Fontaine confirmed exiting the back office at nine-forty PM together confirm he had been in the room during the confrontation and had left before the body was discovered."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Vinnie at the Bar",
+        "text": "Vincent Lore had been at the bar from eight PM until approximately ten PM — confirmed by the bartender and two regular customers who had spoken with him. After ten PM, Vinnie had gone to the card room and had been seen there until the alarm. He had not been in the service corridor or the back office all evening. He is definitively cleared.",
+        "alone": "Vinnie Lore was at the bar until ten PM and then in the card room — confirmed by the bartender and multiple witnesses. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Delia cleared by four card players and Vinnie cleared at the bar and card room together eliminate both other suspects — Fontaine is the only person confirmed in the back office during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "🎲",
+        "heading": "The Double Bet Scheme",
+        "text": "The ledger's full accounting of Fontaine's records shows he had been placing simultaneous bets on both horses in fixed races for six months — using two different account names but the same address. The scheme had guaranteed him a profit regardless of outcome. Sal's notation indicates he had traced the accounts to the same address three days before the murder. Fontaine had known the exposure was coming.",
+        "alone": "Fontaine had been running the double-bet scheme for six months and had known Sal had traced it three days before the killing — he had had three days to decide what to do about it.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The missing 800 dollars requiring back-office familiarity and Fontaine's six months of regular account visits giving him that familiarity confirm he had both the motive and the knowledge of the room to take the cash after the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "📞",
+        "heading": "The Cord's Length",
+        "text": "The telephone cord, from the wall mounting to the receiver, is approximately one metre long. For the receiver to have been used as a flail with killing force, the user needed to be standing within one metre of the wall-mounted phone — on the desk's left side, behind Sal's chair as it was positioned. Only someone who knew the room's layout would have instinctively moved to that position.",
+        "alone": "Using the receiver as a flail required standing at a specific position behind Sal's chair — a position consistent with someone familiar with the room's layout.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Fontaine confirmed exiting the back office at nine-forty and the cord position requiring familiarity with the room's layout confirm Fontaine had been in the room long enough and often enough to know exactly where to stand."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ray Fontaine",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver"
+    },
+    "epilogue": "Ray Fontaine had been running his double-bet scheme for six months and had known for three days that Sal had traced it. When Sal had called him into the back office that evening to confront him, Fontaine had let the confrontation begin and then reached for the telephone receiver — swinging it by the cord, striking once from behind when Sal turned to the ledger. He had taken the 800 dollars from the desk drawer, knowing exactly where it was from months of account visits. He had exited through the service corridor and told the kitchen worker he had been discussing a bet. He was arrested two days later when the kitchen worker's account was taken."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #075",
+    "title": "The Fix",
+    "setting": "The Starlight Room · Kansas City · Missouri · 1931",
+    "emoji": "🥃",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Fontaine killed Sal. But the fixed races Fontaine had been betting on were fixed by someone — find who was fixing the races and how that connects to the Starlight Room.",
+    "emptyState": "Someone was fixing the races. Find who and follow the money.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ray Fontaine",
+            "icon": "🎲",
+            "detail": "The killer — telephone receiver, service corridor exit, six-month double-bet scheme."
+          },
+          {
+            "name": "Delia Cross",
+            "icon": "🃏",
+            "detail": "Cleared as killer — card table alibi. But connected to the race-fixing operation."
+          },
+          {
+            "name": "Vincent 'Vinnie' Lore",
+            "icon": "💰",
+            "detail": "Cleared as killer — bar and card room. But the races were fixed through his network."
+          },
+          {
+            "name": "The Jockey",
+            "icon": "🏇",
+            "detail": "The race participant who had been paid to throw — connected to Vinnie through a Kansas City intermediary."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — Fontaine's killing of Sal, 800 dollars taken."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Delia's alibi location — and where the race-fixing payments were processed."
+          },
+          {
+            "name": "The Service Corridor",
+            "icon": "🚪",
+            "detail": "Fontaine's exit route — witnessed by the kitchen worker."
+          },
+          {
+            "name": "The Racetrack",
+            "icon": "🏇",
+            "detail": "Where the fixed races ran — and where Vinnie's jockey contact operated."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Fontaine's opportunistic use."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Race-Fixing Payments",
+            "icon": "💰",
+            "detail": "Not a weapon — the financial instrument connecting Fontaine, the Starlight, and the racetrack."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Exposure",
+            "icon": "🎲",
+            "detail": "Fontaine's immediate motive — Sal had traced the double-bet scheme and planned to expose it."
+          },
+          {
+            "name": "Protect the Race-Fixing Network",
+            "icon": "🏇",
+            "detail": "Fontaine's deeper motive — exposure of his bets would have unravelled the fixing operation entirely."
+          },
+          {
+            "name": "Financial Self-Interest",
+            "icon": "💰",
+            "detail": "Vinnie's motive — the fixing operation was generating significant income through the Starlight."
+          },
+          {
+            "name": "Protect the Arrangement",
+            "icon": "🃏",
+            "detail": "Delia's connected interest — she had been passing race information to Fontaine, making her complicit."
+          },
+          {
+            "name": "Sal's Own Skimming",
+            "icon": "📒",
+            "detail": "Vinnie's secondary grievance — the ledger also showed Sal skimming from Vinnie's accounts."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger's Full Picture",
+        "text": "The ledger open on Sal's desk contains more than Fontaine's double-bet record. A second section, tabbed with a strip of paper, shows payments from Sal to an account labelled 'R.T. — track.' The payments are monthly, consistent for eight months, and total 1,600 dollars. 'R.T.' is identified by investigators as Robert Tanner, a jockey at the Riverside Park track who had been paid to throw races.",
+        "alone": "Sal had been making monthly payments to a jockey named Robert Tanner to throw races — the fixing operation had been running through Sal's books for eight months.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Sal paying Tanner to throw races and Vinnie's confirmed network connection to the Riverside Park track confirm the fixing operation had been funded through the Starlight Room's books with Vinnie's knowledge."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🃏",
+        "heading": "Delia's Information",
+        "text": "A second set of notes in the ledger — in a different hand, identified as Delia Cross's — lists race outcomes alongside annotations: 'favored to run slow' and 'tell RF' beside specific race entries. Delia had been passing advance race information to Fontaine — she had known which races were fixed and had told him, enabling his double-bet scheme. She had been an active participant in the operation.",
+        "alone": "Delia had been passing advance race-fixing information to Fontaine — her notes in the ledger confirm she had been telling him which races were going to be thrown.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Delia passing race information to Fontaine and Fontaine's six months of guaranteed double bets using this information confirm Delia had been the intelligence source for Fontaine's scheme — she had made his guaranteed profits possible."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Vinnie's Connection to Tanner",
+        "text": "Investigation of the Riverside Park track identifies Robert Tanner as a jockey with a documented connection to a Kansas City intermediary named Kowalski. Kowalski is identified as an associate of Vincent Lore. The payment chain runs: Vinnie → Kowalski → Tanner. The Starlight Room's books had funded the jockey payments through Sal — who had been skimming a percentage from the fixing income.",
+        "alone": "The race-fixing payments ran from Vinnie through an intermediary to the jockey — Sal had been the bookkeeper and had been skimming from the fixing income.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Vinnie's connection to the jockey through Kowalski and Sal skimming from the fixing income confirm both why Sal managed the payments and why Vinnie had known about Sal's skimming — the ledger that exposed Fontaine also documented Sal's own theft from Vinnie."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎲",
+        "heading": "How Fontaine Benefited",
+        "text": "A review of Fontaine's six months of bets, cross-referenced with the fixed race outcomes, shows he had profited approximately 4,200 dollars from guaranteed wins — betting on the horse Tanner had been paid not to beat. Fontaine had not been paying into the fixing operation; he had been receiving its benefits through Delia's information without contributing to the jockey payments. He had been a free rider on Vinnie's operation.",
+        "alone": "Fontaine had profited 4,200 dollars from the fixing operation without paying into it — he had received Vinnie's race-fixing benefits through Delia without Vinnie's knowledge or a share.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Fontaine free-riding on Vinnie's operation and Vinnie's lack of knowledge about Fontaine's double bets confirm Vinnie had not known Fontaine was extracting value from his own scheme — a secondary betrayal within the fixing operation that the ledger made visible."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Vinnie's Ledger Section",
+        "text": "The ledger also contains a section in Sal's hand showing Vinnie's cut of the fixing income — net of the jockey payments, Vinnie had been clearing approximately 600 dollars per month from the operation. The section also shows Sal's skimming: he had been taking 80 dollars per month from Vinnie's cut and recording it as 'administrative costs.' Sal had been stealing from Vinnie for eight months.",
+        "alone": "Sal had been skimming 80 dollars per month from Vinnie's fixing income for eight months — 640 dollars total in undocumented theft from his own employer.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Vinnie's connection to the fixing operation through Kowalski and Sal's eight months of skimming from Vinnie's income confirm the back office confrontation that night had multiple financial dimensions — the ledger documented betrayals running in multiple directions."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🃏",
+        "heading": "Delia's Role After the Murder",
+        "text": "Delia Cross, confronted with her notes in the ledger, admits she had been passing race information to Fontaine for six months. She claims she had believed Fontaine was paying Vinnie for the information and had not known he was free-riding. She is charged with conspiracy to fix races. Her card-dealing alibi stands — she had not been in the back office — but her role in the operation is documented in her own handwriting.",
+        "alone": "Delia admits passing race information to Fontaine for six months but claims she believed he was paying Vinnie — whether or not this is true, her handwriting in the ledger confirms her active participation.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Delia's notes identifying races as fixed and telling Fontaine and her claim that she thought he was paying Vinnie confirm the information chain — she had been the source, Fontaine had been the beneficiary, and Vinnie had been receiving nothing from Fontaine's use of his own operation."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Vinnie's Reaction",
+        "text": "Vincent Lore, interviewed after the full ledger is analysed, is asked about Sal's skimming. He is quiet for a long time and then says: 'I knew Sal was taking something. I was going to deal with it.' He is asked when he had planned to deal with it. He says: 'When the season ended.' He is asked whether he had known Fontaine was using his operation without paying. He says: 'I did not know about Fontaine until tonight.' He is not charged with the murder.",
+        "alone": "Vinnie had known about Sal's skimming and had been planning to address it at the season's end — and had not known about Fontaine's free-riding until the investigation revealed it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Sal skimming from Vinnie for eight months and Vinnie's confirmation that he had known and planned to act confirm the ledger was documenting an active grievance between Sal and Vinnie that had been developing independently of the Fontaine situation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger as Evidence",
+        "text": "The open ledger — which Sal had apparently been reviewing when Fontaine entered — documented four simultaneous betrayals: Fontaine's double bets, Delia's information passing, Sal's skimming from Vinnie, and Tanner's race-throwing. Sal had been sitting at a desk showing every secret in the room when Fontaine arrived for the confrontation Sal had called.",
+        "alone": "The open ledger had been showing all four betrayals simultaneously when the killing occurred — Sal had been reviewing the complete picture when Fontaine entered.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Fontaine free-riding on Vinnie's operation without paying and the open ledger documenting all four betrayals confirm the back office had been the node where every thread of the operation's corruption intersected — and Sal had been the person who could see all of it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ray Fontaine",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver",
+      "motive": "Silence the Exposure"
+    },
+    "epilogue": "Ray Fontaine was convicted of murder and received thirty years. Delia Cross received five years for conspiracy to fix races. Robert Tanner was banned from racing for life. Vincent Lore was charged with operating an illegal gambling enterprise and received three years — the fixing operation had been documented in such detail in Sal's ledger that the prosecution barely needed additional evidence. Sal's 640 dollars of skimming was noted in the trial record and dismissed as a civil matter. The Starlight Room closed in 1932. The ledger, entered into evidence, was described by the judge as the most comprehensive criminal self-documentation he had encountered in twenty years on the bench."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #075",
+    "title": "The Fix",
+    "setting": "The Starlight Room · Kansas City · Missouri · 1931",
+    "emoji": "🥃",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Fontaine killed Sal. The race-fixing network is documented. But Sal had been about to make a deal with the Kansas City police — trading the ledger for immunity. Find what Sal knew about the police arrangement and who else knew he was about to flip.",
+    "emptyState": "Sal was about to make a deal. Find who else knew.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ray Fontaine",
+            "icon": "🎲",
+            "detail": "The killer — telephone receiver, six-month scheme, 4,200 dollar free-ride."
+          },
+          {
+            "name": "Delia Cross",
+            "icon": "🃏",
+            "detail": "Cleared as killer — card table. Conspiracy charges. Had passed information to Fontaine."
+          },
+          {
+            "name": "Vincent 'Vinnie' Lore",
+            "icon": "💰",
+            "detail": "Cleared as killer — bar and card room. Had known about skimming. Had a police contact."
+          },
+          {
+            "name": "Detective Moran",
+            "icon": "🚔",
+            "detail": "The Kansas City detective Sal had approached — had been processing the immunity deal."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — Fontaine's killing, open ledger, missing cash."
+          },
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Delia's location — and where the information about Sal's police approach had circulated."
+          },
+          {
+            "name": "The Service Corridor",
+            "icon": "🚪",
+            "detail": "Fontaine's exit route — the kitchen worker's sighting."
+          },
+          {
+            "name": "Police Headquarters",
+            "icon": "🚔",
+            "detail": "Where Sal had met Detective Moran to discuss the immunity deal."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Fontaine's."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Sal's Police Meeting",
+            "icon": "🚔",
+            "detail": "Not a weapon — the intelligence that accelerated Fontaine's decision to act."
+          },
+          {
+            "name": "Detective Moran's Leak",
+            "icon": "📞",
+            "detail": "The information channel that brought Sal's police approach to the wrong ears."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Exposure",
+            "icon": "🎲",
+            "detail": "Fontaine's immediate motive — the double-bet scheme being traced."
+          },
+          {
+            "name": "Prevent the Police Deal",
+            "icon": "🚔",
+            "detail": "Fontaine's deeper motive — Sal turning the ledger over to the police would have ended everything."
+          },
+          {
+            "name": "Protect the Network",
+            "icon": "💰",
+            "detail": "Vinnie's interest — the police deal would have exposed his fixing operation, Kowalski, and Tanner."
+          },
+          {
+            "name": "Detective Moran's Corruption",
+            "icon": "🚔",
+            "detail": "Moran's concealed role — he had been receiving payments from Vinnie and had leaked Sal's approach."
+          },
+          {
+            "name": "Self-Preservation",
+            "icon": "🃏",
+            "detail": "Delia's motive — the immunity deal would have included her race-information passing."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Leaked Sal's Police Approach",
+            "icon": "🚔",
+            "detail": "Detective Moran told Vinnie that Sal had come to the police — Vinnie passed this to Fontaine."
+          },
+          {
+            "name": "Passed the Race Information",
+            "icon": "🃏",
+            "detail": "Delia's confirmed role — told Fontaine which races to bet on."
+          },
+          {
+            "name": "Paid the Jockey",
+            "icon": "🏇",
+            "detail": "Vinnie's network — Kowalski to Tanner, funded through Sal's books."
+          },
+          {
+            "name": "Accelerated Fontaine's Timeline",
+            "icon": "📞",
+            "detail": "Vinnie informing Fontaine about the police approach had turned a gradual exposure into an urgent threat."
+          },
+          {
+            "name": "Processed the Immunity Deal",
+            "icon": "🚔",
+            "detail": "Detective Moran had been in negotiation with Sal — and had simultaneously been protecting Vinnie's operation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🚔",
+        "heading": "Sal's Police Approach",
+        "text": "A document found in police headquarters — after Detective Moran is investigated — shows Sal Piccolo had visited the station three days before his death and requested a meeting with the detective handling gambling enforcement. He had described the ledger, the race-fixing operation, and the jockey payments. He had asked for immunity in exchange for the ledger and testimony. Moran had told him to return the following week to finalise the arrangement.",
+        "alone": "Sal had approached the police three days before his death and had described the fixing operation and the ledger in exchange for immunity — Moran had told him to return the following week.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Sal approaching the police three days before the killing and Moran's payment records showing Vinnie had paid him for six months confirm Moran had received Sal's approach while simultaneously being on Vinnie's payroll — the leak was not a coincidence."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Moran's Payments",
+        "text": "An investigation of Detective Moran's finances — triggered by his connection to the case — reveals monthly payments from a shell account traceable to Vincent Lore, totalling 1,800 dollars over six months. Moran had been receiving protection payments from Vinnie. When Sal had come to him with the immunity proposal, Moran had been in Vinnie's pay. He had told Vinnie about Sal's approach the same day.",
+        "alone": "Detective Moran had been receiving monthly payments from Vinnie for six months — and had informed Vinnie of Sal's police approach on the same day it occurred.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Moran on Vinnie's payroll and informing Vinnie of the police approach on the same day confirm the leak was immediate — Vinnie had known about Sal's immunity deal within hours of Sal walking into the police station."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Vinnie Told Fontaine",
+        "text": "Vinnie, confronted with Moran's payments and the immunity deal's timeline, eventually admits he had been told about Sal's police approach by Moran on the same day. He had then told Fontaine — whom he had known was exposed through the ledger's double-bet records — that Sal was about to flip. He had not instructed Fontaine to act. He claims he had told Fontaine 'so he could make arrangements to leave.' Fontaine had not left.",
+        "alone": "Vinnie had told Fontaine about Sal's police approach — ostensibly to give him time to leave, but effectively telling the person most immediately exposed that a deadline had arrived.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Vinnie informing Fontaine about the police deal and Fontaine's confirmed back-office confrontation with Sal that same week confirm Vinnie's disclosure had functioned as a trigger — whether or not Vinnie intended it as one."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎲",
+        "heading": "Fontaine's Timeline After the Disclosure",
+        "text": "Cross-referencing the dates: Sal approaches police on Tuesday. Moran tells Vinnie on Tuesday. Vinnie tells Fontaine on Wednesday. Sal plans the back-office confrontation for Friday — the night of the card game. Fontaine kills Sal on Friday. The three-day window between Fontaine learning about the police deal and the killing is the period during which he had decided to act rather than leave.",
+        "alone": "Fontaine had three days between learning about Sal's police deal and the killing — he had chosen to eliminate the source rather than disappear.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three-day window between Fontaine's disclosure and the killing and his decision to stay and eliminate Sal rather than flee confirm the killing was not panicked — Fontaine had considered his options and had chosen the most permanent one."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🚔",
+        "heading": "Moran's Position",
+        "text": "Detective Moran had processed Sal's immunity request while on Vinnie's payroll — a clear conflict of interest. He had not forwarded the request to his supervisor or recused himself. He had told Vinnie and then continued the immunity negotiation, asking Sal to return the following week. By the time Sal was killed, Moran had been scheduled to process a deal he had already torpedoed.",
+        "alone": "Moran had continued processing the immunity deal while having already leaked it — he had been managing both sides simultaneously.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Moran's payments from Vinnie and his continued processing of the immunity deal while leaking it confirm he had been running a parallel operation — protecting Vinnie while appearing to assist Sal, with no intention of allowing the deal to complete."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🚔",
+        "heading": "Moran's Defence",
+        "text": "Detective Moran, charged with corruption and obstruction, states he had told Vinnie about Sal's approach 'as a matter of professional courtesy to an informant.' He claims he had not known Vinnie would tell Fontaine or that Fontaine would kill Sal. He is asked whether telling a criminal that their bookkeeper was cooperating with police constitutes professional courtesy. He does not answer.",
+        "alone": "Moran's defence — professional courtesy to an informant — is the only explanation he offers for leaking Sal's approach. The court does not accept it.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Vinnie telling Fontaine after Moran's disclosure and Moran's inadequate explanation for the leak confirm the chain of disclosure was the proximate cause of the killing's timing — Sal's approach had been neutralised within days of it being made."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger's Fate",
+        "text": "The ledger — which Fontaine had not taken when he took the cash — was recovered from the back office and entered into evidence. The immunity deal Sal had been negotiating was never completed. However, the ledger's contents were sufficient to prosecute the full operation without Sal's testimony. The deal's incompleteness did not prevent the convictions — the ledger had been more than enough.",
+        "alone": "Sal's immunity deal was never completed — but the ledger he had intended to trade was recovered and used as the primary evidence anyway. His death had made the deal unnecessary on both sides.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Fontaine's three-day decision to eliminate Sal and the ledger recovered and used without Sal's testimony confirm the killing had achieved only one of its two intended effects — Sal was silenced, but the ledger had not been taken and the exposure had occurred regardless."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚔",
+        "heading": "The Final Accounting",
+        "text": "Final charges: Fontaine — murder, thirty years. Delia Cross — conspiracy, five years. Vincent Lore — gambling operation and conspiracy, three years. Robert Tanner — race fixing, banned from racing. Detective Moran — corruption and obstruction, seven years. The Starlight Room closed. The immunity deal that had triggered the chain of disclosure was noted in the trial record as never having been finalised.",
+        "alone": "Five people received criminal charges from a ledger that had documented every element of its own prosecution — the immunity deal that had set the killing in motion had never been completed, but had not been needed.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Moran's inadequate defence for the leak and the trial's five convictions confirm the disclosure chain had been the instrumental cause of the killing — but had also, ultimately, secured the convictions it had been intended to prevent."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ray Fontaine",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver",
+      "motive": "Prevent the Police Deal",
+      "accomplice": "Leaked Sal's Police Approach"
+    },
+    "epilogue": "Detective Moran had told Vinnie about Sal's immunity approach on a Tuesday. Vinnie had told Fontaine on a Wednesday. Fontaine had spent Thursday deciding. On Friday he had gone to the Starlight and let Sal call him to the back office for the confrontation Sal had planned, and had then reached for the telephone receiver. The ledger had still been on the desk when the kitchen worker found the body. It had been the most self-documenting criminal enterprise in Kansas City history. The immunity deal that had killed Sal had not been needed. Everything Sal had planned to trade was in the ledger all along."
+  }
+}

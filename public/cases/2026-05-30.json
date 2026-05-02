@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Harlem, 1929. A jazz club. A trumpet player dead in the alley. And the one person nobody suspected had the most to hide. 🎺🔍 Case #072 — Blue Note. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Harlem 1929, a jazz club murder, a jealous secret, and the killer everyone overlooked. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1929 Harlem jazz club at night, cigarette smoke curling under low lights, a trumpet on the bandstand beside an overturned music stand, empty glasses on the tables, a back door to an alley standing open. Deep blue shadow, amber spotlight, ivory keys of an upright piano. Atmospheric and nocturnal, style of James Van Der Zee meets Edward Hopper.",
+    "animationPrompt": "Slow pan through a 1929 Harlem jazz club after hours. Cigarette smoke. Low light. A trumpet on the bandstand beside an overturned music stand. Empty glasses. The camera finds a back door standing open to an alley. Cold blue light from outside. The piano keys catch the amber light. Fade to black.",
+    "hashtags": [
+      "#HarlemJazz",
+      "#1929Mystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #072",
+    "title": "Blue Note",
+    "setting": "The Velvet Room · Harlem · New York · 1929",
+    "emoji": "🎺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Trumpet player Clarence Webb was found dead in the alley behind the Velvet Room after the last set. Three people were backstage when he left. Everyone assumed it was the bandleader or the club owner. Nobody looked at the piano player.",
+    "emptyState": "Everyone looked at the obvious suspects. Nobody looked at the piano player.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Delroy King",
+            "icon": "🎷",
+            "detail": "The bandleader — had publicly argued with Clarence over the band's direction."
+          },
+          {
+            "name": "Mr. Solomon Fitch",
+            "icon": "💰",
+            "detail": "The club owner — Clarence had been negotiating to leave for a rival club."
+          },
+          {
+            "name": "Pearl Macon",
+            "icon": "🎹",
+            "detail": "The piano player — quiet, steady, overlooked by everyone including the investigators."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Alley",
+            "icon": "🌙",
+            "detail": "Where Clarence was found — one exit from the back door, no streetlight."
+          },
+          {
+            "name": "The Backstage Room",
+            "icon": "🎭",
+            "detail": "Where all three suspects were after the last set — cramped, smoky, crowded."
+          },
+          {
+            "name": "The Club Floor",
+            "icon": "🎺",
+            "detail": "Where the last set was performed — audience still present during the final number."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Trumpet Case",
+            "icon": "🎺",
+            "detail": "A heavy case struck against the skull — wound profile consistent with its corner edge."
+          },
+          {
+            "name": "Liquor Bottle",
+            "icon": "🥃",
+            "detail": "Found broken in the alley — no blood or wound trace, eliminated."
+          },
+          {
+            "name": "Brick Fragment",
+            "icon": "🧱",
+            "detail": "Loose brick from the alley wall — wound profile inconsistent with its flat face."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "🎺",
+        "heading": "The Trumpet Case",
+        "text": "Clarence's own trumpet case — found beside him in the alley — bears a fresh dent on its upper right corner with blood and hair consistent with the wound on his skull. The case had been used to strike him and then left at the scene. The case was Clarence's own property, meaning someone had picked it up from backstage — or from Clarence himself.",
+        "alone": "Clarence was struck with his own trumpet case — the killer had access to it either backstage or had taken it from him in the alley.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The trumpet case used as the weapon and Pearl Macon's confirmed presence carrying the case from the backstage room to the alley door confirm she had handled the case before the killing — her fingerprints on the case's handle place her as the last person to carry it."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🌙",
+        "heading": "The Alley Timeline",
+        "text": "The kitchen boy, who took out garbage at approximately one AM, confirms the alley was empty at that time. Clarence had left the backstage room at approximately one-fifteen AM. A musician returning from the bathroom at one-thirty AM noticed the back door was ajar. The killing occurred between one-fifteen and one-thirty AM — a fifteen-minute window.",
+        "alone": "The killing window is fifteen minutes — between Clarence leaving backstage at one-fifteen and the door noticed ajar at one-thirty AM.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The fifteen-minute murder window and Pearl Macon's confirmed absence from the backstage room between one-fifteen and one-thirty AM confirm she was outside during the exact window — her absence is the only one that matches the timeline."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎷",
+        "heading": "Delroy King's Argument",
+        "text": "The argument between Delroy King and Clarence was witnessed by four musicians — it concerned the setlist and Clarence's desire to play original compositions rather than standards. The argument had ended before the last set, with Delroy conceding on two numbers. After the last set, Delroy was seen at the bar with three audience members until two AM — they had bought him drinks to discuss a booking. He is cleared.",
+        "alone": "Delroy King was at the bar with three audience members from after the last set until two AM — witnesses confirmed. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Delroy cleared at the bar and Solomon Fitch confirmed in his office with the accountant together eliminate both obvious suspects — leaving Pearl Macon as the only person without a confirmed location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💌",
+        "heading": "Pearl's Hidden Letters",
+        "text": "A search of the backstage room — conducted after Pearl's alibi collapses — finds a bundle of letters in Pearl's coat pocket, tied with a ribbon. They are love letters, written by Pearl to Clarence over eight months, never sent. The most recent, written that week, reads: 'You smile at every woman in this room and none of them is me. I have played behind you for two years. You have never once looked up from your trumpet.' The jealousy is explicit.",
+        "alone": "Pearl had been in love with Clarence for two years and had been invisible to him — eight months of unsent letters document a jealousy that had been building in silence.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Pearl's unsent letters documenting two years of silent jealousy and Clarence's confirmed departure that week for a rival club where Pearl was not engaged together confirm the motive had reached its peak the night of the last set."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "🎹",
+        "heading": "The Fingerprints on the Case",
+        "text": "The trumpet case's handle shows three distinct sets of fingerprints: Clarence's own, a partial set matching Delroy King from earlier in the evening, and a third full set — taken from Pearl Macon for comparison — that matches the handle prints precisely. Pearl's prints are on the handle in a carrying grip, not a casual touch. She had carried the case.",
+        "alone": "Pearl Macon's fingerprints are on the trumpet case handle in a full carrying grip — she had physically carried the case, not merely touched it in passing.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The trumpet case used as the murder weapon and Pearl's fingerprints on the handle in a carrying grip confirm she had the case in her hands — consistent with carrying it from backstage and using it in the alley."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "Pearl's Missing Time",
+        "text": "Three musicians confirm Pearl was in the backstage room after the last set. All three independently note that she left the room at approximately one-fifteen AM — one of them remembers because she asked him to watch her drink. She returned at approximately one-thirty AM, when the back door was noticed ajar. She had been absent during the entire murder window.",
+        "alone": "Pearl was absent from the backstage room from one-fifteen to one-thirty AM — the exact fifteen-minute murder window. Three musicians confirm both her departure and her return.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The fifteen-minute murder window matching Pearl's absence precisely and her return coinciding with the ajar door noticed at one-thirty confirm she was in the alley during the killing — her absence is not incidental, it is the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Solomon Fitch's Office",
+        "text": "Solomon Fitch had been in his office with the club's accountant from midnight until two AM, reviewing the week's receipts. The accountant confirms his continuous presence. Fitch's negotiation with Clarence about the contract had concluded inconclusively — Clarence had not yet signed with the rival club and Fitch had not yet received the rival's final offer. Fitch is definitively cleared.",
+        "alone": "Solomon Fitch was in his office with the accountant from midnight to two AM — confirmed. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Delroy cleared at the bar and Fitch cleared in his office together leave Pearl Macon as the only suspect whose location during the murder window is unconfirmed — and confirmed absent by three witnesses."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "What Happened That Week",
+        "text": "The club's other musicians confirm that earlier that week, Clarence had announced he was leaving the Velvet Room for a booking at the Cotton Club — a prestigious engagement that did not include Pearl. Pearl was not a Cotton Club musician. She had been silent when the announcement was made. One musician recalls she had simply nodded and returned to the piano. No one had registered it as anything but acceptance.",
+        "alone": "Clarence's departure for the Cotton Club that week would have ended his proximity to Pearl entirely — she had known it was coming and had said nothing. No one had noticed.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Pearl's unsent letters documenting two years of unrequited love and Clarence's imminent Cotton Club departure removing him from her world permanently together establish a motive that had peaked the night of his final set at the Velvet Room."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pearl Macon",
+      "location": "The Back Alley",
+      "weapon": "Brass Trumpet Case"
+    },
+    "epilogue": "Pearl Macon had played piano behind Clarence Webb for two years. She had written him eight months of letters and sent none of them. When he announced the Cotton Club engagement — a booking that did not include her — she had nodded and returned to the piano. She had carried his trumpet case from backstage at one-fifteen AM, followed him into the alley, and struck him with his own case. She had returned to the backstage room at one-thirty AM and asked the musician to return her drink. No one had looked at her because no one ever had."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #072",
+    "title": "Blue Note",
+    "setting": "The Velvet Room · Harlem · New York · 1929",
+    "emoji": "🎺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Pearl killed Clarence. But the Cotton Club booking had not come to Clarence by chance — Delroy King had arranged it, specifically to remove Clarence from the band. Find why Delroy wanted Clarence gone and what that means for the investigation.",
+    "emptyState": "Delroy arranged the Cotton Club booking. Find why he wanted Clarence gone.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Pearl Macon",
+            "icon": "🎹",
+            "detail": "The killer — fingerprints, absent during murder window, unsent letters, Cotton Club motive."
+          },
+          {
+            "name": "Delroy King",
+            "icon": "🎷",
+            "detail": "Cleared as killer — bar confirmed. But had arranged the Cotton Club booking to remove Clarence."
+          },
+          {
+            "name": "Solomon Fitch",
+            "icon": "💰",
+            "detail": "Cleared as killer — office confirmed. But had known about the booking arrangement."
+          },
+          {
+            "name": "The Cotton Club Booker",
+            "icon": "🎭",
+            "detail": "The agent who processed the engagement — had been contacted by Delroy, not Clarence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Alley",
+            "icon": "🌙",
+            "detail": "Primary crime scene — Pearl's fingerprints, trumpet case, fifteen-minute window."
+          },
+          {
+            "name": "The Backstage Room",
+            "icon": "🎭",
+            "detail": "Where all three suspects were — Pearl's departure confirmed by three musicians."
+          },
+          {
+            "name": "The Club Floor",
+            "icon": "🎺",
+            "detail": "Where the last set played — the argument between Delroy and Clarence visible to all."
+          },
+          {
+            "name": "The Cotton Club Office",
+            "icon": "🎭",
+            "detail": "Where the booking was processed — Delroy had made the initial contact."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Trumpet Case",
+            "icon": "🎺",
+            "detail": "Confirmed murder weapon — Pearl's fingerprints in carrying grip, wound profile match."
+          },
+          {
+            "name": "Liquor Bottle",
+            "icon": "🥃",
+            "detail": "No blood or wound trace — eliminated."
+          },
+          {
+            "name": "Brick Fragment",
+            "icon": "🧱",
+            "detail": "Inconsistent wound profile — eliminated."
+          },
+          {
+            "name": "The Cotton Club Contract",
+            "icon": "📋",
+            "detail": "Not a weapon — the instrument of Delroy's plan to remove Clarence, which triggered Pearl's action."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Last Set",
+            "icon": "🎺",
+            "detail": "When the argument resolution and Clarence's departure notice created the final context."
+          },
+          {
+            "name": "One to One-Fifteen AM",
+            "icon": "🎭",
+            "detail": "Post-set backstage — all three suspects present, Pearl preparing to act."
+          },
+          {
+            "name": "One-Fifteen to One-Thirty AM",
+            "icon": "⚠️",
+            "detail": "The murder window — Pearl absent, Clarence in alley, killing occurred."
+          },
+          {
+            "name": "That Week's Announcement",
+            "icon": "📅",
+            "detail": "When Clarence announced the Cotton Club engagement — Pearl's breaking point."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Delroy's Cotton Club Contact",
+        "text": "The Cotton Club's booking records — obtained through the investigation — show the initial contact for Clarence Webb's engagement was made not by Clarence but by Delroy King, who had called the booker two weeks before the announcement and described Clarence as 'the finest trumpet in Harlem, ready for a showcase.' Delroy had arranged the booking without Clarence's knowledge and then presented it as an opportunity.",
+        "alone": "Delroy King had initiated the Cotton Club booking himself — he had arranged Clarence's departure from the Velvet Room without telling him, then presented it as an offer Clarence had earned.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Delroy arranging the Cotton Club booking to remove Clarence and the bandleader's agreement with Solomon Fitch to restructure the band around a different trumpet player confirm Delroy wanted Clarence out of the Velvet Room — the argument over setlists was secondary to this larger plan."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "Why Delroy Wanted Clarence Gone",
+        "text": "A letter from Delroy King to Solomon Fitch — found in Fitch's office files — written three weeks before the murder, reads: 'Webb is drawing the crowd but he is drawing them for himself. Another season and they will come to see him and not the Velvet Room. I have a young trumpet from New Orleans who will work with the band rather than above it. We must move Webb on before he becomes the act.' The bandleader feared being eclipsed.",
+        "alone": "Delroy had written to Fitch three weeks before the murder explaining his plan to replace Clarence before Clarence's talent overshadowed the band — the Cotton Club booking was a sophisticated way to remove a rival.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Delroy's letter revealing his fear of being eclipsed and Fitch's confirmation that he had agreed to the replacement plan confirm both men had been managing Clarence's departure for weeks — the setlist argument was a performance covering a larger strategy."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "Pearl's Knowledge of the Arrangement",
+        "text": "A second musician — different from the three who confirmed Pearl's absence — recalls that two days before the murder, Pearl had approached him and said: 'Delroy sent Clarence to the Cotton Club to get rid of him. He doesn't know it yet.' She had known about the arrangement before Clarence did — and had understood it as a disposal, not an opportunity.",
+        "alone": "Pearl had known Delroy had engineered the Cotton Club booking to remove Clarence from the band — she had understood what was happening two days before Clarence's announcement.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Pearl knowing the booking was an engineered removal and Clarence's announcement that week confirming he had accepted without understanding its true nature confirm Pearl's experience of the week was of watching Clarence unknowingly embrace the arrangement designed to take him away from her."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💌",
+        "heading": "The Final Unsent Letter",
+        "text": "The most recent unsent letter in Pearl's pocket is dated the morning of the murder. It reads: 'Tonight is your last set here. Delroy sent you away and you smiled about it. You thanked him. He gave you away like something he didn't need anymore and you were grateful. I have played every note for two years and you are grateful to Delroy.' The letter documents her state of mind hours before the killing.",
+        "alone": "Pearl had written a letter hours before the murder documenting her anguish at watching Clarence thank Delroy for the arrangement that was removing him — the final straw was Clarence's gratitude toward the man who had engineered his departure.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Pearl's letter written the morning of the murder documenting her peak anguish and her absent-during-the-window confirmation placing her in the alley confirm the morning's writing and the evening's killing were the final expression of the same two-year accumulation."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Fitch's Agreement",
+        "text": "Solomon Fitch, confronted with the Delroy letter, confirms he had agreed to the plan three weeks before the murder. He had approved the Cotton Club contact and had agreed to offer Clarence a reduced contract renewal as a way of encouraging his acceptance of the outside booking. He had understood it as a business arrangement — he had not known about Pearl's letters or her attachment to Clarence.",
+        "alone": "Fitch had been a willing participant in Delroy's plan to move Clarence on — he had understood it as sound business and had not considered any other dimension of the situation.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Delroy's fear of eclipsing and Fitch's agreement to the removal plan confirm the murder's chain of causation: Delroy arranged the removal, Pearl discovered the arrangement was engineered, and the combination of removal and engineered betrayal triggered the killing."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🎷",
+        "heading": "The Setlist Argument's Real Purpose",
+        "text": "Delroy, in a second interview after the letter is revealed, admits the public argument over the setlist was partly genuine and partly a way of positioning Clarence as difficult to work with — creating a narrative that would make the Cotton Club departure seem mutual and professional rather than a managed removal. He had been building a false account of a deteriorating working relationship.",
+        "alone": "The public setlist argument was partly fabricated narrative — Delroy had been constructing a story to explain Clarence's departure as natural rather than engineered.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Delroy arranging the Cotton Club booking and the setlist argument being partly performative confirm the entire context Pearl had been watching for two years had layers she could see through — she had understood the arrangement, Clarence had not."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "What Pearl Saw During the Announcement",
+        "text": "The musician Pearl had confided in recalls the announcement night: 'Clarence stood up and said he was going to the Cotton Club and thanked Delroy for putting his name forward. Pearl was at the piano. She played a chord — just one, very soft — and didn't look up. Delroy was smiling. Clarence was smiling. Pearl played the chord again and stopped.' The musician had not understood what he was watching.",
+        "alone": "Pearl had played a single soft chord — twice — when Clarence thanked Delroy for the booking. The musician watching had not understood its significance.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Pearl knowing the booking was an engineered removal and the chord played twice when Clarence thanked Delroy confirm the chord was her private response to watching Clarence express gratitude to the man who was taking him away from her — the moment the accumulation became a decision."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "What Pearl Said",
+        "text": "Pearl Macon, after her arrest, gives a single statement: 'I played behind Clarence for two years. He never looked up from his trumpet. I played every note he needed and he never once turned around. Delroy sent him away and he was grateful. I followed him into the alley. I used his own case. I thought — if you will not hear me play, you will not hear anything.' She does not claim mitigating circumstances.",
+        "alone": "Pearl's statement frames the killing as the final act of two years of invisibility — she had been unheard, unseen, and when Clarence's departure made the invisibility permanent, she had ended the music entirely.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Pearl's morning letter documenting her peak anguish and her statement framing the killing as the end of two years of invisibility confirm the act was not impulsive — it was the conclusion of an accumulation she had been documenting in letters for eight months."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pearl Macon",
+      "location": "The Back Alley",
+      "weapon": "Brass Trumpet Case",
+      "window": "One-Fifteen to One-Thirty AM"
+    },
+    "epilogue": "Delroy King had arranged Clarence's removal from the Velvet Room with Solomon Fitch's agreement, built a false narrative around a setlist dispute, and had not known Pearl existed as anything but a piano player. Pearl had known about the arrangement for two days before Clarence. When Clarence had thanked Delroy, she had played two chords and made a decision. She received twenty years. Delroy King was never charged — the Cotton Club booking was not a crime. The Velvet Room hired a new trumpet player from New Orleans, as Delroy had planned. Pearl's unsent letters were entered into evidence. The judge read three of them aloud."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #072",
+    "title": "Blue Note",
+    "setting": "The Velvet Room · Harlem · New York · 1929",
+    "emoji": "🎺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Pearl killed Clarence. Delroy had engineered his departure. But Solomon Fitch had a third layer — he had been skimming the club's receipts and Clarence had noticed. The Cotton Club booking solved two problems simultaneously. Find what Clarence knew about Fitch.",
+    "emptyState": "Fitch had a second reason to want Clarence gone. Find what Clarence knew.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Pearl Macon",
+            "icon": "🎹",
+            "detail": "The killer — fingerprints, murder window, two-year jealousy, used his own case."
+          },
+          {
+            "name": "Delroy King",
+            "icon": "🎷",
+            "detail": "Cleared as killer — engineered the Cotton Club removal to prevent eclipsing."
+          },
+          {
+            "name": "Solomon Fitch",
+            "icon": "💰",
+            "detail": "Cleared as killer — office confirmed. But had agreed to the removal plan for a second reason."
+          },
+          {
+            "name": "The Accountant",
+            "icon": "📋",
+            "detail": "Fitch's office alibi — and the person who processed the receipts Clarence had noticed."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Alley",
+            "icon": "🌙",
+            "detail": "Primary crime scene — Pearl's killing of Clarence."
+          },
+          {
+            "name": "The Backstage Room",
+            "icon": "🎭",
+            "detail": "Where all three suspects were — Pearl's departure confirmed."
+          },
+          {
+            "name": "The Club Floor",
+            "icon": "🎺",
+            "detail": "Where Clarence had performed and had conversations with audience members."
+          },
+          {
+            "name": "Fitch's Office",
+            "icon": "💰",
+            "detail": "Where the skimming occurred and where Fitch's alibi was established."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Trumpet Case",
+            "icon": "🎺",
+            "detail": "Confirmed murder weapon — Pearl's."
+          },
+          {
+            "name": "Liquor Bottle",
+            "icon": "🥃",
+            "detail": "No wound trace — eliminated."
+          },
+          {
+            "name": "Brick Fragment",
+            "icon": "🧱",
+            "detail": "Inconsistent wound profile — eliminated."
+          },
+          {
+            "name": "The Skimming Records",
+            "icon": "📋",
+            "detail": "Not a weapon — what Clarence had noticed, giving Fitch a second motive."
+          },
+          {
+            "name": "The Cotton Club Contract",
+            "icon": "🎭",
+            "detail": "The instrument of removal — serving both Delroy's jealousy and Fitch's financial exposure."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Last Set",
+            "icon": "🎺",
+            "detail": "The final context — Clarence's last night, Pearl's decision confirmed."
+          },
+          {
+            "name": "One-Fifteen to One-Thirty AM",
+            "icon": "⚠️",
+            "detail": "The confirmed murder window — Pearl absent, Clarence dead."
+          },
+          {
+            "name": "Three Weeks Before",
+            "icon": "📅",
+            "detail": "When Delroy wrote to Fitch about the removal plan — and Fitch agreed for two reasons."
+          },
+          {
+            "name": "Two Weeks Before",
+            "icon": "📅",
+            "detail": "When Clarence approached Fitch with his observation about the receipts — accelerating the removal timeline."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Two-Year Invisible Love",
+            "icon": "🎹",
+            "detail": "Pearl's motive — eight months of unsent letters, two years of invisibility, Cotton Club announcement as the final rupture."
+          },
+          {
+            "name": "Fear of Eclipsing",
+            "icon": "🎷",
+            "detail": "Delroy's motive — Clarence's talent was outgrowing the band and the bandleader."
+          },
+          {
+            "name": "Financial Exposure",
+            "icon": "💰",
+            "detail": "Fitch's second motive — Clarence had noticed the skimming and had raised it with Fitch directly."
+          },
+          {
+            "name": "Career Protection",
+            "icon": "📋",
+            "detail": "Fitch's surface motive — agreed with Delroy to prevent Clarence from becoming the draw."
+          },
+          {
+            "name": "Silence the Witness",
+            "icon": "💰",
+            "detail": "Fitch's deeper fear — Clarence had been talking to audience members about the receipts discrepancy."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Clarence's Conversation",
+        "text": "A musician who had been present on the club floor two weeks before the murder recalls Clarence having a conversation with a regular audience member — a numbers runner named Calvin — during a set break. Clarence had said: 'The door count last Saturday was three hundred easy. Fitch told the band the receipts showed one-eighty. Either he can't count or he doesn't want to.' Calvin had laughed and changed the subject.",
+        "alone": "Clarence had noticed a significant discrepancy between the door count and the reported receipts — and had been discussing it openly with audience members two weeks before his death.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Clarence's open discussion of the receipts discrepancy with audience members and Fitch's skimming records showing systematic under-reporting confirm Clarence had accurately identified the fraud — and had been talking about it in a room full of people."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Receipts Discrepancy",
+        "text": "The club's actual receipt records — obtained from a second set of books in Fitch's office, behind the filing cabinet — show systematic under-reporting of door receipts over fourteen months. The skimmed amount totals approximately 3,400 dollars. The accountant who handled both sets of books was complicit. The musicians' pay was calculated on the false figures, meaning the band had been underpaid throughout.",
+        "alone": "Fitch had been skimming door receipts for fourteen months through a second set of books — the band, including Clarence, had been systematically underpaid.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fitch's systematic skimming for fourteen months and Clarence's correct identification of the discrepancy two weeks before his death confirm Fitch had acute reason to want Clarence removed before the observation could be formalised or shared with the right people."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Clarence Approached Fitch",
+        "text": "Fitch, in a third interview after the second set of books is found, admits Clarence had come to his office two weeks before the murder and raised the receipts question directly. Fitch had told him it was a counting error. Clarence had said he would look into it further. Fitch had then contacted Delroy the same afternoon — the letter to Delroy proposing the Cotton Club removal is dated the day after Clarence's office visit.",
+        "alone": "Clarence's approach to Fitch about the receipts preceded Fitch's letter to Delroy by one day — Fitch had been motivated to accelerate the removal plan immediately after Clarence raised the discrepancy.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Clarence confronting Fitch about the receipts and Fitch writing to Delroy the following day confirm the removal plan's acceleration was triggered by Clarence's observation — the Cotton Club booking was partly designed to remove a witness to financial fraud."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "Fitch's Second Reason",
+        "text": "Fitch's letter to Delroy — which had been found in his office files — is longer than initially summarised. A second paragraph, not initially examined, reads: 'Webb has been talking to people about the receipts. He came to me about it directly. He is more observant than he should be for a trumpet player. Moving him on solves more than one problem. The Cotton Club will take him and he will be too busy to look back.' The letter confirms Fitch's dual motive.",
+        "alone": "Fitch had explicitly identified Clarence's receipts observation as a second reason for the removal — the Cotton Club booking was designed to solve both Delroy's bandleader problem and Fitch's financial exposure simultaneously.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Fitch's explicit second motive in the letter and the accountant's complicity in the skimming confirm the removal plan served financial self-protection as much as competitive management — both Delroy and Fitch had converging reasons to arrange Clarence's departure."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Accountant's Involvement",
+        "text": "The accountant who had been in Fitch's office the night of the murder — confirming his alibi — was the same person who had maintained both sets of books for fourteen months. He had been complicit in the skimming operation. His confirmation of Fitch's presence that night is the alibi of an accomplice, which investigators note but cannot legally discredit as unreliable without additional evidence.",
+        "alone": "Fitch's alibi witness was his accomplice in the skimming fraud — the alibi is provided by the person most motivated to protect Fitch's freedom.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The systematic skimming through a second set of books and the alibi provided by the accountant who maintained those books confirm Fitch's alibi is structurally compromised — though not legally dismantled, the confirming witness had a direct interest in Fitch's continued freedom."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "Calvin's Account",
+        "text": "Calvin — the numbers runner Clarence had spoken to — is located and interviewed. He confirms the conversation and adds that Clarence had said he planned to bring the receipts matter to the musicians' union representative before leaving for the Cotton Club. He had intended to address the underpayment before going. He had told Calvin this two days before the murder — the same week he made the announcement.",
+        "alone": "Clarence had planned to raise the receipts issue with the musicians' union before leaving — his departure from the Velvet Room was going to include a formal complaint about the skimming.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Clarence confronting Fitch directly and his plan to go to the union before departing confirm the Cotton Club removal had not solved Fitch's problem — Clarence intended to address the underpayment formally on his way out."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "What Fitch Knew That Night",
+        "text": "Fitch, asked directly whether he had known Clarence planned to contact the union, says: 'He told me himself. He came back to my office the day of the last set and said — I am going to the Cotton Club and before I go I am going to tell the union what I found. He was going to do it on his way out.' Fitch had known about the union plan the night of the murder — and had been in his office with his accountant when it happened.",
+        "alone": "Fitch had known about Clarence's union plan since the afternoon of the murder — and had done nothing to prevent it because he could not have anticipated that Pearl would act in the alley.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Fitch's explicit dual motive in his letter and his knowledge of the union plan the day of the murder confirm he had been in an escalating crisis around Clarence's departure — Pearl's killing had inadvertently solved a problem Fitch had been unable to resolve through the removal arrangement."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Union Report That Never Came",
+        "text": "The musicians' union representative confirms no complaint from Clarence Webb was received. The union's records show no contact. Clarence had died in the alley before he could file. Fitch was eventually charged with the skimming fraud through the second books — not through Clarence's planned complaint, but through the investigation that followed the murder. The fraud charge gave him three years. Pearl's killing had inadvertently protected Fitch's secret for several more months.",
+        "alone": "Clarence's planned union complaint was never filed — his death in the alley prevented the complaint that would have exposed Fitch's fraud, which was eventually discovered through the murder investigation instead.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Clarence's union plan and its prevention by his death in the alley confirm the killing had consequences none of its participants had intended — Pearl had not known about the union plan, Fitch had not known Pearl would act, and the murder that silenced the witness also triggered the investigation that eventually exposed the fraud."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pearl Macon",
+      "location": "The Back Alley",
+      "weapon": "Brass Trumpet Case",
+      "window": "One-Fifteen to One-Thirty AM",
+      "motive": "Two-Year Invisible Love"
+    },
+    "epilogue": "Solomon Fitch received three years for the skimming fraud — discovered through the murder investigation, not through the union complaint Clarence had never filed. Delroy King received no charges but lost his position at the Velvet Room when the skimming investigation disrupted the club's financing. The new trumpet player from New Orleans never arrived — the club closed in 1930. Pearl Macon received twenty years. Clarence Webb's unsent letters, read into evidence, became the basis for a short story published in an African American literary magazine in 1931. The author is not credited. The pianist in the story is never named."
+  }
+}

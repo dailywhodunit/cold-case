@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Constantinople, 1875. A merchant found dead in the Grand Bazaar. He had been selling under a stolen name for ten years. And the real owner of that name had finally found him. 🕌🔍 Case #076 — The Merchant's Mark. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Ottoman Constantinople 1875, a Grand Bazaar murder, a stolen identity ten years in the making, and the one clue that reveals the killer's own name. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the Grand Bazaar in Constantinople in 1875, a vaulted stone corridor hung with lanterns, silk bolts in deep jewel tones stacked against the walls, a merchant's stall with an overturned scales balance, coins scattered on the stone floor. Rich crimson, saffron, gold. Dense and atmospheric, style of John Frederick Lewis meets Amadeo Preziosi.",
+    "animationPrompt": "Slow pan through the Grand Bazaar in Constantinople in 1875. Stone vaults. Lantern light. Silk bolts in jewel tones. The camera finds a merchant's stall with an overturned scales balance and coins scattered on the stone floor. A handprint in spilled dye on the counter. The lantern swings. Fade to black.",
+    "hashtags": [
+      "#GrandBazaar",
+      "#OttomanMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #076",
+    "title": "The Merchant's Mark",
+    "setting": "Grand Bazaar · Constantinople · 1875",
+    "emoji": "🕌",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Merchant Yusuf Demirci was found dead in his silk stall in the Grand Bazaar. He had been trading under this name for ten years. His real name was something else entirely. Three people in the bazaar knew who he really was — and one of them was the person whose name he had been using.",
+    "emptyState": "He wasn't who he said he was. Find who knew.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Halim Demirci",
+            "icon": "🏺",
+            "detail": "A carpet merchant in the adjacent stall — claims the dead man stole his name and his trading licence."
+          },
+          {
+            "name": "Madame Cecile Renard",
+            "icon": "🎀",
+            "detail": "A French textile buyer — had been purchasing silk from Yusuf for three years and had begun asking questions."
+          },
+          {
+            "name": "Ibrahim the Broker",
+            "icon": "💼",
+            "detail": "A bazaar trade broker — had facilitated the original licence transaction ten years ago."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Silk Stall",
+            "icon": "🏮",
+            "detail": "Where Yusuf was found — scales overturned, coins scattered, dye handprint on the counter."
+          },
+          {
+            "name": "The Carpet Corridor",
+            "icon": "🪵",
+            "detail": "The adjacent passage where Halim's stall was — connected to the silk stall by a shared wall."
+          },
+          {
+            "name": "The Broker's Office",
+            "icon": "📜",
+            "detail": "Ibrahim's small office at the bazaar's eastern entrance — where licences and trade documents were processed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Scales Weight",
+            "icon": "⚖️",
+            "detail": "A heavy balance weight — blunt force wound consistent with its flat base."
+          },
+          {
+            "name": "Silk Bolt End",
+            "icon": "🧵",
+            "detail": "A rolled bolt — too cylindrical for the wound profile, eliminated."
+          },
+          {
+            "name": "Ceramic Dye Vessel",
+            "icon": "🏺",
+            "detail": "A stoneware container — too broad for the wound's impact area, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Trading Licence",
+        "text": "The dead man's trading licence — found in the stall's locked strongbox — is issued in the name of Yusuf Demirci, carpet and silk merchant, dated 1865. However, a second document in the strongbox is a correspondence receipt from the Ottoman trade registry confirming that the original Yusuf Demirci licence had been reported stolen and cancelled in 1864 — one year before the dead man began trading. He had been using a cancelled licence.",
+        "alone": "The dead man had been trading on a stolen and cancelled licence for ten years — someone had reported the licence stolen before he began using it.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The stolen licence reported by its original owner in 1864 and Halim Demirci's claim that the dead man had stolen his name and licence together confirm Halim is the original Yusuf Demirci — the man whose identity had been taken."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⚖️",
+        "heading": "The Brass Weight",
+        "text": "The brass balance weight — found beside the body on the stone floor — shows blood on its flat base consistent with the wound on the dead man's skull. The weight is approximately two kilograms, sufficient for a lethal blow. A partial handprint in indigo dye on the stall's counter shows a hand reaching across toward the scales rack — the killer had reached for the weight from the customer side of the counter.",
+        "alone": "The killer had reached across the counter from the customer side to take the brass weight — the dye handprint shows the approach direction.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The killer reaching from the customer side of the counter and Halim Demirci's confirmed presence at the stall as a customer-side visitor that afternoon together confirm the approach direction is consistent with Halim's position during his visit."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎀",
+        "heading": "Madame Renard's Afternoon",
+        "text": "Madame Renard had visited the silk stall in the early afternoon — confirmed by the stall's neighbouring spice seller, who had noticed her distinctive French dress. She had departed before the midday prayer call. The estimated time of death is the late afternoon — at least two hours after Madame Renard's confirmed departure. She is definitively cleared.",
+        "alone": "Madame Renard had departed the silk stall at least two hours before the estimated time of death — she is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Madame Renard cleared by the spice seller's timing and Ibrahim the Broker confirmed in his office during the late afternoon together eliminate two suspects — only Halim Demirci's location during the late afternoon is unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Halim's Claim",
+        "text": "Halim Demirci states that his name, trading licence, and family mark had been taken by the dead man — whose real name he claims is Kasım — after a business dispute in 1864. Kasım had obtained the cancelled licence documentation through Ibrahim the Broker and had been trading as 'Yusuf Demirci' ever since. Halim had been operating under a different name in the adjacent stall, building his legitimate business back up from nothing.",
+        "alone": "Halim claims the dead man was actually named Kasım and had stolen his identity through Ibrahim the Broker in 1864 — he had been operating next to his own stolen identity for years.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Halim's claim that the dead man was Kasım operating under his stolen name and Ibrahim's confirmed role in the original licence transaction together establish the identity theft's mechanism — and Halim's ten-year proximity to the man who had taken his name."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Original Licence Report",
+        "text": "Ottoman trade registry records — obtained from the bazaar's administration — confirm the original Yusuf Demirci licence was reported stolen on the fourteenth day of October, 1864. The complainant's name on the stolen licence report is Halim Demirci, listed as the licence's original holder. Halim had reported his own licence stolen ten years before the killing — and had been operating in the adjacent stall ever since.",
+        "alone": "The stolen licence report is in Halim Demirci's name — he had reported the theft ten years ago and had continued operating in the adjacent stall while the dead man used his stolen identity.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The cancelled licence documented in the strongbox and Halim's 1864 stolen licence report confirming he is the original holder establish both the identity theft's reality and Halim's decade-long awareness of the man using his stolen name next door."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "⚖️",
+        "heading": "The Dye Handprint",
+        "text": "The indigo dye handprint on the counter shows a right-handed grip reaching from the customer side toward the scales rack. The handprint's size is consistent with an adult male hand. A smear of the same indigo dye is found on the left sleeve of Halim Demirci's outer robe when he is examined — he had been in contact with the dye that afternoon and had not been in his own stall, where no indigo dye is kept.",
+        "alone": "Halim Demirci has indigo dye on his left sleeve — matching the dye found in the silk stall. The dye is not from his own carpet stall.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The killer's handprint reaching from the customer side and the matching indigo dye on Halim's sleeve confirming he had been in contact with the silk stall's dye confirm his physical presence at the counter during the relevant period."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Ibrahim's Afternoon",
+        "text": "Ibrahim the Broker confirms he was in his office at the bazaar's eastern entrance from noon until closing — his office log shows multiple client appointments throughout the afternoon. Two clients confirm his presence during the late afternoon window. He had not been in the silk stall section of the bazaar that day. He is definitively cleared of the killing.",
+        "alone": "Ibrahim was in his office with documented appointments throughout the late afternoon — confirmed by two clients. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Madame Renard cleared by the spice seller and Ibrahim cleared by his office log and clients eliminate both other suspects — only Halim lacks a confirmed location during the late afternoon murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "🏺",
+        "heading": "Ten Years Next Door",
+        "text": "The spice seller who had noticed Madame Renard's departure also confirms that Halim Demirci had visited the silk stall in the late afternoon — he had seen Halim enter through the stall's front arch and had assumed it was a neighbourly visit, as he had seen Halim visit before. He had not seen Halim leave. He had heard no disturbance — the bazaar's ambient noise had covered any sound from the stall.",
+        "alone": "The spice seller had seen Halim enter the silk stall in the late afternoon and had not seen him leave — placing him inside the stall during the murder window.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Halim's claim that the dead man had stolen his identity and the spice seller placing him inside the silk stall during the murder window together confirm Halim had entered the stall of the man who had been living under his name for ten years — and had not left before the killing occurred."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Halim Demirci",
+      "location": "The Silk Stall",
+      "weapon": "Brass Scales Weight"
+    },
+    "epilogue": "Halim Demirci had operated in the carpet corridor adjacent to Kasım's silk stall for ten years, watching the man who had stolen his name build a prosperous business. He had reported the licence theft in 1864 and had received no remedy. He had rebuilt his trade under a different name. On the afternoon of the killing he had entered the silk stall through the front arch — the spice seller had thought it was a neighbourly visit. He had reached across the counter for the brass balance weight and had struck once. The indigo dye had transferred to his sleeve during the reach. He was tried before the Ottoman trade court and received twenty years."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #076",
+    "title": "The Merchant's Mark",
+    "setting": "Grand Bazaar · Constantinople · 1875",
+    "emoji": "🕌",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Halim killed Kasım. But Ibrahim the Broker had facilitated the original identity theft in 1864. Find what Ibrahim had done and what he had received for it.",
+    "emptyState": "Ibrahim arranged the theft. Find what he was paid.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Halim Demirci",
+            "icon": "🏺",
+            "detail": "The killer — dye on sleeve, spice seller sighting, ten-year grievance, brass weight."
+          },
+          {
+            "name": "Madame Cecile Renard",
+            "icon": "🎀",
+            "detail": "Cleared as killer — departed two hours before death. But had been asking questions."
+          },
+          {
+            "name": "Ibrahim the Broker",
+            "icon": "💼",
+            "detail": "Cleared as killer — office confirmed. But had arranged the 1864 identity theft."
+          },
+          {
+            "name": "Kasım",
+            "icon": "🏮",
+            "detail": "The victim — had been operating as Yusuf Demirci for ten years using Halim's stolen licence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Silk Stall",
+            "icon": "🏮",
+            "detail": "Primary crime scene — Halim's killing of Kasım, brass weight, dye handprint."
+          },
+          {
+            "name": "The Carpet Corridor",
+            "icon": "🪵",
+            "detail": "Halim's legitimate stall — adjacent to the stolen-name stall for ten years."
+          },
+          {
+            "name": "The Broker's Office",
+            "icon": "📜",
+            "detail": "Where the 1864 transaction occurred — and where Ibrahim's payment records are kept."
+          },
+          {
+            "name": "The Trade Registry",
+            "icon": "📋",
+            "detail": "Where the stolen licence was originally cancelled — and where the 1864 complaint is filed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Scales Weight",
+            "icon": "⚖️",
+            "detail": "Confirmed murder weapon — dye handprint, blood on base, Halim's sleeve match."
+          },
+          {
+            "name": "Silk Bolt End",
+            "icon": "🧵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Ceramic Dye Vessel",
+            "icon": "🏺",
+            "detail": "Too broad — eliminated."
+          },
+          {
+            "name": "The Stolen Licence",
+            "icon": "📜",
+            "detail": "Not a weapon — the instrument of the 1864 crime that set the chain in motion."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Neighbourly Visit",
+            "icon": "🏺",
+            "detail": "Halim's cover for entering the silk stall — the spice seller assumed it was routine."
+          },
+          {
+            "name": "Ibrahim's Document Forgery",
+            "icon": "📜",
+            "detail": "How the 1864 transaction was executed — Ibrahim had altered the licence registration documents."
+          },
+          {
+            "name": "The Trade Registry Gap",
+            "icon": "📋",
+            "detail": "The administrative window in 1864 that allowed the cancelled licence to be reissued."
+          },
+          {
+            "name": "Ten Years of Proximity",
+            "icon": "🗺️",
+            "detail": "Halim's position in the adjacent stall — giving him knowledge of Kasım's routines and stall layout."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Ibrahim's 1864 Role",
+        "text": "Trade registry records from 1864 — obtained during the expanded investigation — show that the cancelled Yusuf Demirci licence was reissued through a broker's facilitation, bypassing the standard cancellation hold. The facilitating broker is identified as Ibrahim. He had processed a document that the registry should have flagged as cancelled and had guided Kasım through the reissuance procedure as though the cancellation had not occurred.",
+        "alone": "Ibrahim had facilitated the reissuance of a cancelled licence in 1864 — he had processed the transaction knowing the licence had been reported stolen.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Ibrahim processing the cancelled licence knowing it was stolen and his payment records showing a significant one-time deposit in 1864 confirm he had been paid for the facilitation — the identity theft had been a commercial transaction for Ibrahim."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Ibrahim's Payment",
+        "text": "Ibrahim's personal account records — maintained in his office ledger — show a single large deposit in October 1864: 200 gold kuruş, entered as 'special document service.' This is significantly above any legitimate broker's fee. The deposit coincides precisely with the date the cancelled Yusuf Demirci licence was reissued. Ibrahim had been paid for facilitating the identity theft.",
+        "alone": "Ibrahim had received 200 gold kuruş in October 1864 — a payment far above any legitimate fee, coinciding with the stolen licence's reissuance.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Ibrahim's 200 gold kuruş payment in October 1864 and his continued relationship with Kasım's stall through annual document renewal services confirm the original payment had established a relationship that had continued for ten years."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎀",
+        "heading": "What Madame Renard Had Been Asking",
+        "text": "Madame Renard, interviewed after the investigation expands, reveals that she had been questioning the authenticity of the Yusuf Demirci trading licence for six months — specifically, she had noticed the licence's registration number did not match the series used for 1865 registrations. She had approached Ibrahim three months before the murder to ask about the discrepancy. Ibrahim had told her the numbering was a registry error.",
+        "alone": "Madame Renard had noticed the licence number's inconsistency and had approached Ibrahim about it three months before the murder — Ibrahim had covered for the inconsistency.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Madame Renard identifying the licence number inconsistency and Ibrahim actively covering for it three months before the murder confirm Ibrahim had been protecting the identity theft's integrity ten years after facilitating it."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Annual Renewal Services",
+        "text": "Ibrahim's office ledger shows annual document renewal fees paid by Kasım's stall — 'Yusuf Demirci' — every year from 1865 to 1875: ten years of regular payments for Ibrahim's continued administrative assistance. The amounts are modest but consistent. Ibrahim had been receiving ongoing payment for maintaining the fiction of the legitimate licence, including annual renewals that should have been flagged by the registry.",
+        "alone": "Ibrahim had received annual payments from Kasım for ten consecutive years — ongoing fees for maintaining the stolen identity's administrative legitimacy.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Ibrahim's ten years of annual maintenance payments and his active cover of the licence inconsistency when Madame Renard raised it confirm his complicity in the identity theft was sustained and active, not a one-time facilitation."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Registry Gap",
+        "text": "A review of the 1864 trade registry process — conducted by the bazaar's administration after the murder — identifies the specific administrative gap Ibrahim had exploited: a three-week window when the registry's cancellation list was not cross-referenced against new applications due to a clerical staff shortage. Ibrahim had submitted the application during this window, knowing the cancelled licence would not be flagged.",
+        "alone": "Ibrahim had timed the 1864 submission to exploit a three-week administrative gap when cancellations were not cross-referenced — he had known about the gap and had used it deliberately.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Ibrahim facilitating the cancelled licence reissuance and his deliberate timing to exploit the registry gap confirm the identity theft was not an administrative error — it was a professionally executed fraud that required insider knowledge of the registry's processes."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Ibrahim's Ongoing Knowledge",
+        "text": "Ibrahim, confronted with the full payment record and the annual maintenance fees, admits he had known the licence was stolen when he facilitated the reissuance and had continued providing services to maintain the fiction. He claims he had considered it a private commercial arrangement between Kasım and himself and had not anticipated the harm to Halim. He is asked whether ten years of annual payments had not sustained his awareness. He does not answer.",
+        "alone": "Ibrahim admits he had known the licence was stolen throughout and had continued facilitating its maintenance for ten years — his attempted justification is rejected by his own silence.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Madame Renard's approach about the licence inconsistency and Ibrahim covering for it three months before the murder confirm his awareness was active and current, not distant — he had been actively protecting the fraud within three months of the killing."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Halim's Decade of Awareness",
+        "text": "Halim Demirci's statement reveals he had known since approximately 1868 — four years after the theft — that Kasım was operating in the adjacent stall under his stolen name. He had reported the ongoing fraud to the bazaar's administration twice and had been told the matter was under review. He had never received a resolution. He had watched Kasım's silk business grow for seven more years after first identifying him.",
+        "alone": "Halim had known Kasım was in the adjacent stall since 1868 and had reported it twice to the bazaar administration without result — he had spent seven years watching his stolen identity prosper next door.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Halim's two unanswered reports to the administration and his seven years of watching without resolution confirm the killing was not impulsive — it was the end of a seven-year administrative failure to address a documented fraud."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Administration's Inaction",
+        "text": "Bazaar administration records confirm Halim had submitted two formal complaints in 1868 and 1871 identifying Kasım as operating under a stolen licence. Both complaints are marked 'referred to trade registry for review.' Neither complaint received a resolution. The trade registry shows both referrals arrived and were filed without action — Ibrahim's annual renewal services had kept the licence appearing legitimate in every subsequent review.",
+        "alone": "Both of Halim's formal complaints had been filed and had received no action — Ibrahim's annual renewal services had made the stolen licence appear legitimate to every reviewer who received the complaints.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Ibrahim's ten years of annual maintenance payments enabling the licence to appear legitimate and the administration's inaction on both of Halim's complaints confirm Ibrahim's ongoing facilitation had actively prevented the remedy that the administrative process should have provided."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Halim Demirci",
+      "location": "The Silk Stall",
+      "weapon": "Brass Scales Weight",
+      "access": "Neighbourly Visit"
+    },
+    "epilogue": "Ibrahim the Broker received five years for facilitating the original identity theft and ten years of sustained maintenance that had enabled Kasım to trade under a stolen licence and had blocked the resolution of two formal complaints. Halim Demirci received twenty years for the murder. The Ottoman trade court noted in its ruling that the bazaar administration's failure to act on two documented complaints over seven years had not mitigated the killing but had contributed to the circumstances in which it occurred. The silk stall was closed. Its inventory was sold to settle Kasım's debts. Halim's original trading licence was restored to the Demirci family name posthumously."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #076",
+    "title": "The Merchant's Mark",
+    "setting": "Grand Bazaar · Constantinople · 1875",
+    "emoji": "🕌",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Halim killed Kasım. Ibrahim facilitated the theft. But Madame Renard had been investigating the licence for six months — and had discovered something the murder interrupted. Find what she had found and what she intended to do with it.",
+    "emptyState": "Renard found something before the murder. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Halim Demirci",
+            "icon": "🏺",
+            "detail": "The killer — dye sleeve, brass weight, ten-year grievance, seven years of unanswered complaints."
+          },
+          {
+            "name": "Madame Cecile Renard",
+            "icon": "🎀",
+            "detail": "Cleared as killer — departed two hours before death. Had been investigating the licence for six months."
+          },
+          {
+            "name": "Ibrahim the Broker",
+            "icon": "💼",
+            "detail": "Cleared as killer — office confirmed. Ten years of maintenance fees and active cover."
+          },
+          {
+            "name": "The French Consul",
+            "icon": "🇫🇷",
+            "detail": "Madame Renard's contact — she had been preparing a formal complaint through diplomatic channels."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Silk Stall",
+            "icon": "🏮",
+            "detail": "Primary crime scene — Halim's killing, brass weight, dye handprint."
+          },
+          {
+            "name": "The Carpet Corridor",
+            "icon": "🪵",
+            "detail": "Halim's stall — ten years adjacent to the stolen identity."
+          },
+          {
+            "name": "The Broker's Office",
+            "icon": "📜",
+            "detail": "Where Ibrahim had facilitated the fraud — and where he had covered for Renard's enquiry."
+          },
+          {
+            "name": "The French Consulate",
+            "icon": "🇫🇷",
+            "detail": "Where Madame Renard had been building her formal complaint — with documentation she had assembled over six months."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Scales Weight",
+            "icon": "⚖️",
+            "detail": "Confirmed murder weapon — Halim's."
+          },
+          {
+            "name": "Silk Bolt End",
+            "icon": "🧵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Ceramic Dye Vessel",
+            "icon": "🏺",
+            "detail": "Too broad — eliminated."
+          },
+          {
+            "name": "Madame Renard's Documentation",
+            "icon": "📋",
+            "detail": "Not a weapon — the evidence package she had assembled that would have exposed the fraud through diplomatic channels."
+          },
+          {
+            "name": "The Consulate Complaint",
+            "icon": "🇫🇷",
+            "detail": "The formal action she had been preparing — interrupted by the murder."
+          }
+        ]
+      },
+      {
+        "key": "access",
+        "label": "Access Method",
+        "icon": "🗝️",
+        "items": [
+          {
+            "name": "Neighbourly Visit",
+            "icon": "🏺",
+            "detail": "Halim's confirmed cover for entering the silk stall — the spice seller's assumption."
+          },
+          {
+            "name": "Ibrahim's Document Forgery",
+            "icon": "📜",
+            "detail": "The 1864 mechanism — registry gap exploited deliberately."
+          },
+          {
+            "name": "Renard's Trade Network",
+            "icon": "🎀",
+            "detail": "How Renard had assembled documentation — through her contacts across the silk trading network."
+          },
+          {
+            "name": "Consulate Diplomatic Channels",
+            "icon": "🇫🇷",
+            "detail": "The formal route Renard had been using — avoiding the Ottoman administrative process that had failed Halim."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Ten-Year Identity Grievance",
+            "icon": "🏺",
+            "detail": "Halim's motive — stolen name, stolen licence, seven years of unanswered complaints."
+          },
+          {
+            "name": "Protect the Ongoing Trade",
+            "icon": "🏮",
+            "detail": "Kasım's interest in maintaining the stolen identity — his entire business depended on it."
+          },
+          {
+            "name": "Commercial Self-Interest",
+            "icon": "💰",
+            "detail": "Ibrahim's motive — 200 gold kuruş initially, ten years of annual fees."
+          },
+          {
+            "name": "Diplomatic Trade Protection",
+            "icon": "🇫🇷",
+            "detail": "Renard's motive — French textile buyers had commercial interest in clean title chains for their purchases."
+          },
+          {
+            "name": "Expose the Fraud Before It Cost Her",
+            "icon": "📋",
+            "detail": "Renard's specific concern — if the licence was fraudulent, her three years of purchases might be legally compromised."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Renard Had Assembled",
+        "text": "Madame Renard, interviewed after the murder, reveals she had spent six months assembling a documentation package: the licence number inconsistency, trade registry correspondence showing the 1864 cancellation, a comparison of Kasım's signature on current documents versus historical Demirci family trade records, and Ibrahim's 1864 payment receipt — which she had obtained from a registry clerk who had found it misfiled. She had been three weeks from filing a formal consulate complaint.",
+        "alone": "Renard had assembled a complete documentation package including the 1864 payment receipt and had been three weeks from filing a formal diplomatic complaint — the murder interrupted a nearly complete fraud exposure.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Renard three weeks from filing her consulate complaint and Halim's seven years of unanswered administrative complaints together confirm two parallel exposure tracks had converged on the same fraud simultaneously — the killing occurred at the moment the fraud faced its greatest exposure risk."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🇫🇷",
+        "heading": "Renard's Commercial Interest",
+        "text": "Renard's concern was not purely moral — a French commercial law opinion she had obtained from the consulate had advised her that purchasing goods from a merchant operating on a fraudulent licence could expose her own purchases to legal challenge under Ottoman trade law. Three years of silk purchases worth approximately 2,400 French francs were potentially at risk. Her investigation had been driven by commercial self-protection.",
+        "alone": "Renard's six months of investigation had been motivated partly by self-protection — her 2,400 francs of purchases were legally exposed if the licence was fraudulent.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Renard's commercial exposure from three years of purchases and her near-complete consulate complaint confirm the investigation had both moral and financial dimensions — the fraud had created legal risk she could not ignore."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Ibrahim Knew Renard Was Investigating",
+        "text": "Ibrahim, confronted with Renard's account of approaching him three months before the murder, admits he had understood the seriousness of her enquiry. He had told Kasım the following day that a French buyer was asking questions about the licence. He had advised Kasım to 'resolve the matter.' He had not specified what resolution meant. He claims he had intended a financial settlement with Renard, not violence.",
+        "alone": "Ibrahim had told Kasım that Renard was investigating and had advised him to resolve the matter — Kasım had known about Renard's investigation for three months before his death.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Ibrahim informing Kasım about Renard's investigation three months before the killing and Kasım's knowledge of the approaching exposure confirm the silk stall had been under two simultaneous pressures in the months before Halim acted — Renard's consulate complaint and the general instability of the fraud's position."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Murder Interrupted",
+        "text": "The formal consulate complaint Renard had been preparing would have been filed with the French consul-general and forwarded to the Ottoman trade ministry through diplomatic channels — bypassing the bazaar administration entirely. This route would have avoided the same administrative process that had failed to act on Halim's two complaints. Renard's diplomatic track would very likely have achieved what Halim's administrative complaints had not.",
+        "alone": "Renard's diplomatic route would have bypassed the bazaar administration that had failed to act on Halim's complaints — it would very likely have resolved the fraud without the killing.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Renard's consulate complaint three weeks from filing and the diplomatic track likely to succeed where the administrative process had failed confirm Halim had killed Kasım at the precise moment an external mechanism was about to resolve the fraud — the killing was unnecessary by three weeks."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "🏺",
+        "heading": "Did Halim Know About Renard",
+        "text": "Halim is asked directly whether he had known Madame Renard was investigating the licence. He says: 'I knew a French woman had been asking questions. I did not know what she had found or what she intended to do. I had reported the fraud twice and received nothing. I did not believe another complaint would succeed.' He had known about Renard's investigation in general terms but had not known she was three weeks from filing.",
+        "alone": "Halim had known Renard was asking questions but had not known she was three weeks from a diplomatic filing — he had not known the resolution was imminent.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Halim not knowing Renard was three weeks from filing and the diplomatic track being likely to succeed confirm the tragic timing of the killing — had Halim known what Renard had assembled and how close she was, the murder might not have occurred."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🇫🇷",
+        "heading": "The Consulate's Response",
+        "text": "After the murder, Madame Renard filed her documentation package anyway — as a material witness, she submitted the entire evidence package to the Ottoman trade court. The court used her documentation as the primary evidence in Ibrahim's prosecution. The 1864 payment receipt she had obtained from the misfiled registry records was the critical document in establishing Ibrahim's knowing facilitation. Her six months of work shaped the outcome of the trial she had never intended to participate in.",
+        "alone": "Renard's evidence package was submitted to the trade court after the murder and became the primary evidence in Ibrahim's prosecution — her investigation's products outlived her commercial purpose.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Renard's commercial self-protection motivation for the investigation and her documentation package becoming the basis for Ibrahim's prosecution confirm her six months of work had achieved a legal outcome she had not anticipated — protecting not herself but the integrity of the trade registry."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Trade Court's Finding",
+        "text": "The Ottoman trade court's ruling on Ibrahim includes a specific finding on the administrative failures in 1864 and in response to Halim's 1868 and 1871 complaints: 'The registry's failure to cross-reference the cancellation and the bazaar administration's failure to act on two documented complaints over seven years created a sustained injustice that directly contributed to the conditions in which the killing occurred.' The court does not excuse the killing but acknowledges the system's failure.",
+        "alone": "The trade court explicitly found that the administrative failures had contributed to the conditions of the killing — an institutional acknowledgment of seven years of unresolved injustice.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Halim not knowing Renard's complaint was three weeks from filing and the court acknowledging seven years of administrative failure confirm the killing occurred in a context of sustained institutional failure — the court's finding places the individual act within the systemic negligence that preceded it."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Three-Week Question",
+        "text": "The most haunting element of the trade court's record is a calculation entered into the final proceeding: Madame Renard had been three weeks from filing her consulate complaint. The diplomatic channel she had been using would have bypassed the bazaar administration. The fraud would very likely have been resolved without violence. Halim Demirci had killed Kasım twenty-one days before the mechanism that would have resolved the matter was scheduled to arrive.",
+        "alone": "Halim had killed Kasım twenty-one days before Renard's complaint would have resolved the fraud through diplomatic channels — the killing was unnecessary by precisely three weeks.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Renard's diplomatic route likely to succeed and the twenty-one day gap between the killing and the planned filing confirm the tragedy of the timing — not that Halim was wrong about the injustice, but that the resolution was closer than he had known."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Halim Demirci",
+      "location": "The Silk Stall",
+      "weapon": "Brass Scales Weight",
+      "access": "Neighbourly Visit",
+      "motive": "Ten-Year Identity Grievance"
+    },
+    "epilogue": "Halim Demirci had killed Kasım twenty-one days before Madame Renard's consulate complaint would have resolved the fraud through diplomatic channels. He had not known she was that close. He had known only that his two administrative complaints over seven years had produced nothing and that a French woman was asking questions he did not know the outcome of. The trade court sentenced him to twenty years and noted the seven-year administrative failure in its ruling. Ibrahim received five years. Renard filed her documentation package as a material witness — it became the basis for Ibrahim's prosecution. The trade court acknowledged the institutional failure that had created the conditions for the killing. The acknowledgment did not reduce Halim's sentence. Twenty-one days."
+  }
+}

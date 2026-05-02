@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Cape Canaveral, 1969. The night before Apollo 11. An engineer found dead in the launch facility. And a sabotage attempt that almost changed history. 🚀🔍 Case #077 — T Minus. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Cape Canaveral 1969, the night before Apollo 11, a dead engineer, and a sabotage plot that almost made history a different story. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1969 Cape Canaveral launch facility control room at night, banks of instrumentation panels with glowing amber and green displays, a launch checklist on a clipboard beside a chair, a coffee cup overturned on the console. Through the wide observation window: Saturn V on the pad, lit by arc lights against a black Florida sky. Tense and electric, style of NASA archival photography meets Stanley Kubrick.",
+    "animationPrompt": "Slow pan through a 1969 Cape Canaveral control room at night. Glowing instrument panels. A checklist on a clipboard. An overturned coffee cup on the console. The camera moves to the wide observation window — Saturn V on the pad, blazing with arc lights against a black sky. The instruments pulse. Silence. Fade to black.",
+    "hashtags": [
+      "#Apollo11",
+      "#CapeCanaverala",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #077",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Systems engineer Walter Pruett was found dead in the Launch Control Center the night before Apollo 11's scheduled launch. A sabotage attempt on the guidance computer had been interrupted — or completed. Three people had clearance to be in the facility that night. One of them had a reason that went beyond politics.",
+    "emptyState": "The launch was tomorrow. Someone needed it not to happen.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Lena Marsh",
+            "icon": "💻",
+            "detail": "A guidance systems specialist — had been working late on the navigation software."
+          },
+          {
+            "name": "Technician Roy Holt",
+            "icon": "🔧",
+            "detail": "A propulsion technician — had clearance to access the facility for a pre-launch systems check."
+          },
+          {
+            "name": "Security Chief Warren Cole",
+            "icon": "🔐",
+            "detail": "The night security chief — responsible for all facility access and log maintenance."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Launch Control Center",
+            "icon": "🖥️",
+            "detail": "Where Pruett was found — guidance console disturbed, coffee overturned."
+          },
+          {
+            "name": "The Propulsion Bay",
+            "icon": "🚀",
+            "detail": "Roy Holt's assigned area for the night — connected to the LCC by a secure corridor."
+          },
+          {
+            "name": "The Security Station",
+            "icon": "🔐",
+            "detail": "Warren Cole's post — where the facility access log was maintained."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Instrument Panel Wrench",
+            "icon": "🔧",
+            "detail": "A heavy torque wrench from the console — blunt force wound consistent with its head."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "The overturned ceramic mug — too light for the wound depth, eliminated."
+          },
+          {
+            "name": "Clipboard",
+            "icon": "📋",
+            "detail": "The launch checklist board — wound profile inconsistent with its thin edge."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Guidance Console",
+        "text": "The guidance computer console shows signs of unauthorized access — a panel cover has been partially removed and replaced imprecisely, and the console's internal diagnostic log shows an access attempt at eleven-forty PM that did not correspond to any authorized procedure. The attempted modification would have introduced a navigational error into the lunar module's descent guidance, detectable only after trans-lunar injection.",
+        "alone": "Someone had attempted to modify the guidance computer's navigational parameters in a way that would only become apparent after the spacecraft was beyond Earth orbit — the sabotage was designed to be undetectable at launch.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The guidance console sabotage attempt at eleven-forty PM and Dr. Marsh's confirmed expertise in the specific navigation software targeted confirm she had both the knowledge to make the modification and the access to the console's internal systems."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔧",
+        "heading": "The Torque Wrench",
+        "text": "A torque wrench from the console's tool tray — used for panel cover fasteners — is found beside Pruett's body, its hexagonal head showing blood consistent with the wound on his skull. The wrench is a standard facility tool. The wound indicates a single heavy blow from behind, delivered while Pruett was seated at the console — consistent with someone approaching from behind in the narrow instrument corridor.",
+        "alone": "Pruett was struck from behind with a console torque wrench while seated — the killer had approached from behind through the instrument corridor.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The torque wrench blow from behind and Roy Holt's confirmed access to the instrument corridor connecting the propulsion bay to the LCC confirm he had a physical route to approach the console from behind."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🔐",
+        "heading": "Cole's Access Log",
+        "text": "Security Chief Cole's facility access log shows three authorized entries that night: Dr. Marsh at nine PM, Roy Holt at ten-thirty PM, and a maintenance crew at eight PM who departed by nine-thirty. Cole had been at the security station continuously — confirmed by the log's continuous entries and a phone call to NASA headquarters at eleven PM that lasted twelve minutes. Cole is definitively cleared.",
+        "alone": "Cole was at his security station continuously throughout the night — his log entries and a documented eleven PM phone call confirm his presence. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Cole cleared by his continuous log entries and Roy Holt's log entry showing him in the facility from ten-thirty PM during the murder window together confirm Holt was present in the facility when the sabotage and killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Pruett Had Found",
+        "text": "Pruett's personal notebook — found in his jacket pocket — contains a handwritten note dated that evening: 'LGC parameter anomaly — Marsh modification query — check with Houston in AM.' He had noticed an anomaly in the guidance computer parameters that he attributed to something Dr. Marsh had done and had planned to verify it with Houston the following morning. He had not yet reported it.",
+        "alone": "Pruett had noticed the guidance computer anomaly and had attributed it to Dr. Marsh — he had planned to report it to Houston the morning of the launch.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Pruett's notebook attributing the guidance anomaly to Marsh and his plan to report it the morning of the launch confirm he had identified the sabotage and was about to disclose it — the disclosure would have halted the launch and exposed the modification."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Dr. Marsh's Software Access",
+        "text": "The guidance computer's access log shows Dr. Marsh's credentials used at nine-fifteen PM — fifteen minutes after she entered the facility. The access is to the lunar module descent navigation parameters: precisely the subsystem the unauthorized modification targeted. A second access at eleven-thirty PM shows the same credentials accessing the same subsystem. The eleven-thirty access precedes the unauthorized modification attempt at eleven-forty by ten minutes.",
+        "alone": "Dr. Marsh's credentials accessed the descent navigation subsystem twice — at nine-fifteen PM and again at eleven-thirty PM, ten minutes before the unauthorized modification attempt.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The guidance console targeted modification and Marsh's credentials accessing the same subsystem ten minutes before the attempt confirm she had been in the navigation parameters immediately before the unauthorized modification — her access immediately preceded the sabotage."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Holt's Corridor Access",
+        "text": "The instrument corridor connecting the propulsion bay to the Launch Control Center is accessible from Holt's assigned area. Cole's log shows Holt entered the propulsion bay at ten-thirty PM. The corridor's internal security camera — a newer addition to the facility — shows Holt in the corridor at eleven-fifty PM, moving toward the LCC. He had not logged this movement with Cole.",
+        "alone": "The corridor camera shows Holt moving toward the LCC at eleven-fifty PM — ten minutes after the unauthorized modification attempt and within the window of Pruett's estimated time of death. He had not logged this corridor movement.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The torque wrench blow from behind through the instrument corridor and Holt confirmed in the corridor at eleven-fifty PM confirm he had the physical route and the timing to approach the console from behind — his unlogged corridor movement places him at the scene."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Why Holt Was There",
+        "text": "Holt's assigned pre-launch systems check had been completed by eleven PM — documented in the propulsion bay's own log. He had no authorized reason to be in the corridor at eleven-fifty PM. His pre-launch checklist was finished. His movement toward the LCC was outside his assigned area and outside his completed task scope. He had gone to the LCC voluntarily, without authorization, and had not reported it.",
+        "alone": "Holt's assigned tasks were complete by eleven PM — his eleven-fifty PM corridor movement toward the LCC was entirely unauthorized and unreported.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Cole cleared by his continuous log and Holt's unauthorized corridor movement toward the LCC after his tasks were complete confirm Holt had entered the LCC area without authorization — his unlogged movement is the only unaccounted access during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📓",
+        "heading": "Holt's Personnel File",
+        "text": "Roy Holt's personnel file contains a flag from a 1967 security review: he had been investigated for contact with a foreign national. The contact had been deemed non-operational and the flag had not resulted in removal from the program. The foreign national contact was from the Soviet Union. The 1967 investigation had concluded: 'Contact appears social. No evidence of information transfer.' The flag was not removed from the file.",
+        "alone": "Holt had a 1967 security flag for contact with a Soviet national — the flag was retained in his file but had not resulted in removal from the program.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Pruett's notebook attributing the guidance anomaly to Marsh but planning to report it to Houston and Holt's 1967 Soviet contact flag confirm the sabotage had a motivation beyond personal grievance — and Pruett's planned report would have triggered an investigation that might have reached Holt."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roy Holt",
+      "location": "The Launch Control Center",
+      "weapon": "Instrument Panel Wrench"
+    },
+    "epilogue": "Roy Holt had completed his propulsion bay checklist by eleven PM. He had waited in the bay until eleven-fifty PM — allowing Dr. Marsh's unauthorized guidance modification to proceed and then moving to the LCC to ensure Pruett had not yet reported the anomaly. He had found Pruett at the console with his notebook open to the guidance parameter entry. He had used the torque wrench. Pruett had been about to report an anomaly that would have been attributed to Marsh — not to Holt. Holt had not made the guidance modification. He had killed the man who was about to report it, knowing the investigation would follow Marsh's credential trail. The guidance modification was discovered and corrected before the launch. Apollo 11 launched on schedule on July 16th, 1969."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #077",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Holt killed Pruett. But the guidance modification had been made using Dr. Marsh's credentials — she had made the first access. Find whether Marsh was complicit in the sabotage or whether her credentials had been used without her knowledge.",
+    "emptyState": "Marsh's credentials were used. Find whether she knew.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roy Holt",
+            "icon": "🔧",
+            "detail": "The killer — corridor camera, unauthorized movement, Soviet contact flag, torque wrench."
+          },
+          {
+            "name": "Dr. Lena Marsh",
+            "icon": "💻",
+            "detail": "Cleared as killer — but her credentials used for both accesses. Her role requires resolution."
+          },
+          {
+            "name": "Warren Cole",
+            "icon": "🔐",
+            "detail": "Cleared — continuous log and phone call. But the security system's credential gap is his responsibility."
+          },
+          {
+            "name": "The Soviet Contact",
+            "icon": "🇷🇺",
+            "detail": "The foreign national from Holt's 1967 file — the investigation's unanswered question."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Launch Control Center",
+            "icon": "🖥️",
+            "detail": "Primary crime scene — Holt's killing of Pruett, Marsh's credentials used."
+          },
+          {
+            "name": "The Propulsion Bay",
+            "icon": "🚀",
+            "detail": "Holt's assigned area — tasks complete by eleven PM, corridor movement at eleven-fifty."
+          },
+          {
+            "name": "The Instrument Corridor",
+            "icon": "🔐",
+            "detail": "Where the corridor camera caught Holt at eleven-fifty PM."
+          },
+          {
+            "name": "The Guidance Console",
+            "icon": "💻",
+            "detail": "Where the modification was attempted — Marsh's credentials in the log."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Instrument Panel Wrench",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Holt's unlogged corridor access, torque wrench blow."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Clipboard",
+            "icon": "📋",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Dr. Marsh's Credentials",
+            "icon": "💻",
+            "detail": "Not a weapon — the forensic trail that led investigators toward Marsh and away from Holt."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Nine to Nine-Fifteen PM",
+            "icon": "💻",
+            "detail": "Dr. Marsh's first credential access — authorized routine navigation review."
+          },
+          {
+            "name": "Eleven to Eleven-Thirty PM",
+            "icon": "🔧",
+            "detail": "Holt's tasks complete, Marsh's second credential access — the unauthorized modification window."
+          },
+          {
+            "name": "Eleven-Forty PM",
+            "icon": "⚠️",
+            "detail": "The unauthorized modification attempt logged — immediately after the second credential access."
+          },
+          {
+            "name": "Eleven-Fifty PM",
+            "icon": "🚨",
+            "detail": "Holt in the corridor — Pruett killed shortly after."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Two Credential Accesses",
+        "text": "NASA's security analysts examine the guidance computer's access log in detail. The nine-fifteen PM access is consistent with Dr. Marsh's authorized work — she had been reviewing navigation parameters as part of her assigned pre-launch verification. The eleven-thirty PM access is different: it accesses a specific subset of parameters that Marsh's verification task did not require. The second access was not part of her authorized work.",
+        "alone": "The nine-fifteen PM access was Marsh's authorized work. The eleven-thirty PM access went beyond her authorized scope — someone had used her credentials to access parameters she had no reason to be in.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The eleven-thirty PM credential access outside Marsh's authorized scope and the console's physical keyboard showing Holt's fingerprint on the access terminal confirm the second access was not made by Marsh — her credentials were used by someone else."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔐",
+        "heading": "How Credentials Were Obtained",
+        "text": "An investigation of the facility's credential system reveals a significant gap: access credentials were printed on laminated cards that operators often left at their consoles when stepping away. Dr. Marsh had left the LCC at ten PM to get coffee from the facility canteen — confirmed by the canteen's log. During the thirty minutes she was absent, her credential card had been at her console. Holt had entered the facility at ten-thirty PM.",
+        "alone": "Marsh had left her credential card at her console from ten PM — Holt entered the facility at ten-thirty PM, thirty minutes after her card was left unattended.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marsh leaving her credential card unattended from ten PM and Holt entering the facility at ten-thirty PM and having access to the LCC confirm he had a thirty-minute window to take, copy, or use her credential before the eleven-thirty PM unauthorized access."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Marsh's Account",
+        "text": "Dr. Marsh confirms she had left the LCC at ten PM for the canteen and had returned at ten-forty PM. She confirms her credential card had been at her console during her absence — this was common practice, as the cards were inconvenient to carry. She had not noticed anything unusual when she returned. She had continued her work until approximately eleven-fifteen PM and had then moved to a different section of the LCC.",
+        "alone": "Marsh confirms her credential card had been at her unattended console from ten to ten-forty PM — she had not noticed anything unusual upon returning.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Marsh confirming her credential was unattended and the console's terminal log showing the eleven-thirty PM access occurring from the same physical terminal confirm the access was made from her console using her card — in her absence."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🇷🇺",
+        "heading": "The 1967 Contact Revisited",
+        "text": "A full review of Holt's 1967 security file — triggered by the murder investigation — reveals the 'social contact' determination had been based on a single interview with Holt. The foreign national had not been interviewed. The contact had occurred at a technical conference in Vienna. The foreign national was a Soviet aerospace engineer. The 1967 investigation had closed the matter as social without pursuing the aerospace engineer's identity or affiliation.",
+        "alone": "The 1967 Soviet contact had been an aerospace engineer at a technical conference in Vienna — the original investigation had not pursued the engineer's specific affiliation or the conference's subject matter.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The Soviet aerospace engineer contact at a Vienna technical conference and Holt's specific knowledge of the guidance navigation subsystem's vulnerability confirm the Vienna conference had been a substantive connection — the 1967 investigation had missed the significance of an aerospace-to-aerospace contact."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "The Console Fingerprints",
+        "text": "A forensic examination of the guidance console's access terminal keyboard — conducted after the credential analysis — finds fingerprints from two individuals: Dr. Marsh's (expected, from her authorized access) and a partial set from a second person. The partial set, matched against facility personnel records, belongs to Roy Holt. Holt's fingerprints are on the keyboard of a console he had no authorized reason to access.",
+        "alone": "Roy Holt's fingerprints are on the guidance console's keyboard — a console outside his authorized work area that he had no legitimate reason to touch.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The eleven-thirty PM credential access outside Marsh's authorized scope and Holt's fingerprints on the same console's keyboard confirm Holt had physically used the console — the unauthorized access was made by Holt using Marsh's stolen credential."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Holt's Technical Knowledge",
+        "text": "Holt's personnel file and training records show he had completed guidance system cross-training in 1968 — unusual for a propulsion technician. The cross-training had included lunar module descent navigation parameters: the specific subsystem the unauthorized modification targeted. He had the technical knowledge to make the modification. The cross-training had been approved as a routine capability broadening.",
+        "alone": "Holt had completed cross-training in lunar module descent navigation in 1968 — he had the specific technical knowledge required to make the unauthorized modification.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Marsh's credential unattended for thirty minutes before Holt's entry and Holt's 1968 guidance cross-training giving him the navigation knowledge confirm both the means and the method — he had the credential and the knowledge to make the modification."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Terminal Log",
+        "text": "The guidance console's terminal log records not just credential access but physical terminal interactions — keystrokes, timing, and operator patterns. Analysis of the eleven-thirty PM access shows keystroke patterns and timing inconsistent with Dr. Marsh's known terminal behaviour from the nine-fifteen PM access. The same terminal, the same credentials, but a different operator — the typing cadence, pause patterns, and navigation sequence are different.",
+        "alone": "The terminal log's keystroke patterns at eleven-thirty PM are inconsistent with Marsh's established behaviour — the same credentials but a different operator's interaction style.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Holt's fingerprints on the console keyboard and the terminal log's different keystroke pattern at eleven-thirty PM confirm the same physical and forensic finding from two different angles — the unauthorized access was made by Holt, not Marsh."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🇷🇺",
+        "heading": "The Vienna Conference Subject",
+        "text": "Records of the 1966 Vienna technical conference Holt had attended show its primary subject: 'Guidance and navigation systems for lunar and deep space missions.' The Soviet aerospace engineer Holt had contacted was a specialist in lunar module navigation — the same system Holt had been cross-trained on in 1968 and the same system the unauthorized modification had targeted. The conference, the contact, the cross-training, and the modification target form a single line.",
+        "alone": "The Vienna conference had been specifically about lunar navigation systems — the Soviet engineer was a specialist in the exact system the sabotage targeted. The four elements form a connected chain.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The 1967 Soviet aerospace engineer contact at a lunar navigation conference and Holt's subsequent cross-training in the same system and his sabotage of the same system confirm the Vienna contact had been substantive — the 1967 investigation's 'social' conclusion had missed a chain of events that culminated in the night before Apollo 11."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roy Holt",
+      "location": "The Launch Control Center",
+      "weapon": "Instrument Panel Wrench",
+      "window": "Eleven-Fifty PM"
+    },
+    "epilogue": "Roy Holt had met a Soviet aerospace engineer at a Vienna conference in 1966. He had been cross-trained in lunar navigation in 1968. He had entered the facility at ten-thirty PM, found Dr. Marsh's credential card unattended at her console, made the unauthorized navigation modification using her credentials, and then waited to see whether Pruett would report the anomaly he had noticed. When Pruett's notebook showed he planned to report it, Holt had used the torque wrench. The modification had been found and corrected by the morning shift. Apollo 11 launched on July 16th, 1969. Roy Holt was tried under the Espionage Act. The Soviet engineer was identified but never extradited."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #077",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Holt killed Pruett and made the navigation modification using Marsh's stolen credentials. But Security Chief Cole had known about Holt's 1967 Soviet contact flag and had cleared his access for the night anyway. Find why Cole had made that decision and what it reveals about the facility's security culture.",
+    "emptyState": "Cole knew about Holt's flag. He cleared him anyway. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roy Holt",
+            "icon": "🔧",
+            "detail": "The killer — credential theft, navigation modification, corridor camera, torque wrench."
+          },
+          {
+            "name": "Dr. Lena Marsh",
+            "icon": "💻",
+            "detail": "Cleared — credentials used without her knowledge, terminal keystroke patterns confirm."
+          },
+          {
+            "name": "Warren Cole",
+            "icon": "🔐",
+            "detail": "Cleared as killer — continuous log. But had processed Holt's access clearance knowing about the 1967 flag."
+          },
+          {
+            "name": "NASA Security Division",
+            "icon": "🏛️",
+            "detail": "The institutional body whose review processes had created the conditions for the murder."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Launch Control Center",
+            "icon": "🖥️",
+            "detail": "Primary crime scene — Holt's modification, Pruett's death."
+          },
+          {
+            "name": "The Security Station",
+            "icon": "🔐",
+            "detail": "Cole's post — where the 1967 flag had been visible and where Holt's access had been processed."
+          },
+          {
+            "name": "The Propulsion Bay",
+            "icon": "🚀",
+            "detail": "Holt's assigned area — from which he had moved to the LCC unlogged."
+          },
+          {
+            "name": "The NASA Security Division Office",
+            "icon": "🏛️",
+            "detail": "Where the 1967 investigation had been closed and the flag retained but not acted upon."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Instrument Panel Wrench",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Holt's."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Clipboard",
+            "icon": "📋",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "The Credential System Gap",
+            "icon": "🔐",
+            "detail": "Not a weapon — the structural vulnerability that allowed Holt to steal Marsh's credentials."
+          },
+          {
+            "name": "The 1967 Flag",
+            "icon": "📋",
+            "detail": "Not a weapon — the unactioned warning that should have prevented Holt's access."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "1966 Vienna Conference",
+            "icon": "📅",
+            "detail": "When Holt met the Soviet aerospace engineer — the chain's starting point."
+          },
+          {
+            "name": "1967 Security Investigation",
+            "icon": "📅",
+            "detail": "When the flag was placed and closed without removal from the program."
+          },
+          {
+            "name": "1968 Guidance Cross-Training",
+            "icon": "📅",
+            "detail": "When Holt acquired the technical knowledge for the modification."
+          },
+          {
+            "name": "July 15, 1969",
+            "icon": "⚠️",
+            "detail": "The night before Apollo 11 — when all three prior elements converged."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Sabotage Apollo 11",
+            "icon": "🚀",
+            "detail": "Holt's operational objective — the navigation modification would have caused mission failure after trans-lunar injection."
+          },
+          {
+            "name": "Foreign Intelligence Obligation",
+            "icon": "🇷🇺",
+            "detail": "Holt's presumed motivation — the Vienna contact had established a relationship that eventually produced the sabotage instruction."
+          },
+          {
+            "name": "Administrative Convenience",
+            "icon": "🔐",
+            "detail": "Cole's reason for clearing Holt — the pre-launch period was understaffed and Holt's tasks required his presence."
+          },
+          {
+            "name": "Institutional Normalization",
+            "icon": "🏛️",
+            "detail": "The security division's failure — the 1967 flag had been retained but not acted upon for two years, normalizing Holt's presence."
+          },
+          {
+            "name": "Protect the Launch Schedule",
+            "icon": "📋",
+            "detail": "The pressure that overrode security concerns — Apollo 11 had to launch on schedule, and removing personnel was disruptive."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🔐",
+        "heading": "Cole's Access Decision",
+        "text": "Cole's security station log for the night shows Holt's access authorization was processed at ten-twenty PM — ten minutes before Holt entered. Cole had checked the personnel file before authorizing the access. His log entry beside Holt's name shows a notation: 'Flag present — pre-launch essential — authorized per standing protocol.' He had seen the 1967 Soviet contact flag and had authorized access anyway.",
+        "alone": "Cole had seen the 1967 Soviet contact flag in Holt's file before authorizing his access — he had noted the flag and had authorized the entry under a 'pre-launch essential' standing protocol.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cole seeing the flag and authorizing under the pre-launch essential protocol and the protocol's existence documented in standing security orders confirm the authorization was not personal negligence — it was systematic. The protocol had been designed to override flags during launch preparation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Pre-Launch Essential Protocol",
+        "text": "NASA's security division standing orders contain a protocol — added in 1968, during the Apollo program's acceleration — allowing security chiefs to authorize access for personnel with unresolved security flags if their tasks were deemed 'mission essential' and no replacement was available within the pre-launch window. The protocol had been designed to prevent staffing shortages from delaying launches. It had never been used before this night.",
+        "alone": "The pre-launch essential protocol had been created in 1968 to allow flag-bearing personnel to be authorized during launch preparation — Cole had followed an existing institutional procedure, not made a personal exception.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The pre-launch essential protocol existing as institutional policy and Cole following it exactly as written confirm the authorization decision was not Cole's individual failure — it was the application of a policy that had not considered the specific threat it enabled."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🔐",
+        "heading": "Cole's Reasoning",
+        "text": "Cole, in his statement, explains his decision: 'Holt was the only qualified propulsion technician available for the night check. The flag was from 1967 and had been reviewed and retained, not acted upon. The standing protocol exists for exactly this situation. I followed procedure.' He is asked whether he had considered whether the flag's subject — Soviet aerospace contact — was relevant to the night's activity. He says: 'The protocol doesn't distinguish by flag type.'",
+        "alone": "Cole had followed the protocol without considering whether a Soviet aerospace contact flag was specifically relevant to a night inside a launch facility handling a lunar mission — the protocol had not required this consideration.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cole applying the protocol without considering the flag's specific content and the protocol not requiring flag-type consideration confirm the security gap was structural — the system had created an authorization pathway that did not require judgment about the nature of the risk."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The 1967 Investigation's Closure",
+        "text": "A full review of the 1967 security investigation file shows it had been closed within two weeks of opening — a remarkably fast resolution. The investigator's notes cite 'resource constraints' and 'no immediate evidence of information transfer' as the basis for closure. The foreign national had not been identified to any intelligence agency. The Vienna conference had not been reviewed for its subject matter. The flag had been placed as a record but the investigation had been substantively incomplete.",
+        "alone": "The 1967 investigation had been closed within two weeks due to resource constraints — the foreign national had not been identified to intelligence agencies and the conference subject had not been reviewed.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The 1967 investigation closed within two weeks due to resource constraints and the 2024 review finding the Vienna conference was specifically about lunar navigation confirm the original investigation's incompleteness had left an unresolved risk in the personnel file for two years."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Staffing Shortage",
+        "text": "NASA's pre-launch staffing records for the night of July 15th show that two propulsion technicians had been scheduled and one had called in with a medical absence that afternoon. Holt had been added to the roster as a replacement at four PM. The decision to add Holt had been made by the scheduling office, not by Cole — Cole had received the updated roster and had processed Holt's access according to the updated schedule.",
+        "alone": "Holt had been added to the roster that afternoon as a replacement for an absent technician — Cole had processed the access according to a schedule he had received, not one he had made.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The pre-launch essential protocol designed for exactly this staffing situation and Holt being added to fill an absence that afternoon confirm the conditions for the protocol's application had been created by a genuine staffing emergency — not by anyone's deliberate design."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🔐",
+        "heading": "The Credential Card Gap",
+        "text": "A separate security review triggered by the investigation examines the credential card system. The review finds that sixteen of the facility's forty-two operators had left their credential cards at their consoles during the previous month's operations — a practice that had been informally permitted as a convenience and had never been formally addressed. The gap was known and had not been acted upon. Marsh was not unique in leaving her card at the console.",
+        "alone": "Sixteen of forty-two operators had been leaving credential cards at consoles — an informally permitted practice that had never been formally addressed. The gap was systemic, not individual.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Cole applying the protocol without flag-type consideration and the credential card gap being systemic and known confirm the murder had been enabled by multiple institutional failures simultaneously — no single person had created the vulnerability, but each had failed to close it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Congressional Review",
+        "text": "Following the investigation and Holt's prosecution, a congressional subcommittee reviewed NASA's security procedures. The review found: the pre-launch essential protocol had been poorly designed; the 1967 investigation had been closed prematurely; the credential card practice had been known and unaddressed; and the cross-training approval had not considered security flag status. Four separate procedural failures had each been minor but their combination had enabled the sabotage attempt and the killing.",
+        "alone": "The congressional review identified four separate procedural failures — no single failure was catastrophic, but their combination had created the conditions for the murder.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The four procedural failures identified by the review and the 1967 investigation's premature closure confirm the institutional analysis reached the same conclusion as the criminal investigation — the murder had been enabled by accumulated small failures rather than any single person's negligence."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "Apollo 11 Launched",
+        "text": "Apollo 11 launched on July 16th, 1969, at 9:32 AM Eastern time. The unauthorized navigation modification had been detected and corrected by the morning shift before the launch window opened. The correction took eleven minutes. The launch proceeded on schedule. Roy Holt was arrested in his quarters at six AM, two hours before the launch. He watched the Saturn V rise from a holding room in the security facility. He did not speak.",
+        "alone": "Apollo 11 launched on schedule despite the sabotage attempt — the modification was corrected before launch and Holt was arrested two hours before liftoff. He watched it from custody.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The 1967 investigation's incomplete closure and Holt watching the launch from custody confirm the chain that had begun at a Vienna conference in 1966 had ended with the mission it had tried to prevent proceeding on schedule — the sabotage had failed, the murder had not, and the launch had not waited for either."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roy Holt",
+      "location": "The Launch Control Center",
+      "weapon": "Instrument Panel Wrench",
+      "window": "Eleven-Fifty PM",
+      "motive": "Sabotage Apollo 11"
+    },
+    "epilogue": "Roy Holt was tried under the Espionage Act and received life imprisonment. Warren Cole received a formal censure for applying the pre-launch essential protocol without considering the flag's specific content — the congressional review found he had followed procedure correctly but that the procedure was insufficient. The pre-launch essential protocol was suspended pending revision. The credential card practice was formally prohibited. Cross-training approvals were required to cross-reference security flags. The 1967 investigation was reopened and classified. The Soviet aerospace engineer was identified but never extradited. Apollo 11 returned safely on July 24th, 1969. Walter Pruett's name was added to the NASA memorial wall in 1971."
+  }
+}

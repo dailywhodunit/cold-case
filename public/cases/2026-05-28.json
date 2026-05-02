@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Eastern Europe, 1934. The Orient Express. A passenger dead in a locked compartment. And an identity no one on the train is willing to confirm. 🚂🔍 Case #070 — The Compartment. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Orient Express 1934, a locked compartment, a dead man with three names, and a killer who knew all of them. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an Orient Express sleeping compartment in 1934, dark mahogany panelling and brass fittings, a berth with rumpled burgundy bedding, a leather attaché case open on the fold-down table, papers scattered. Snow pressing against the frosted window. Deep burgundy, gold, shadow. Opulent and claustrophobic, style of Roger Ackling meets Agatha Christie's era.",
+    "animationPrompt": "Slow pan through an Orient Express sleeping compartment in 1934. Mahogany. Brass. Snow against the frosted window. The camera finds an open attaché case on the fold-down table — three passports fanned out, each with a different name. The train sways. The compartment door stands slightly ajar. Fade to black.",
+    "hashtags": [
+      "#OrientExpress",
+      "#GoldenAgeMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #070",
+    "title": "The Compartment",
+    "setting": "Orient Express · Eastern Europe · 1934",
+    "emoji": "🚂",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "A man was found dead in his locked sleeping compartment between Vienna and Budapest. His attaché case held three passports — three different names, three different nationalities. The conductor, the dining car steward, and a fellow passenger each knew him by a different name. One of them knew his real one.",
+    "emptyState": "Three names. One dead man. One killer who knew who he really was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Conductor Brandt",
+            "icon": "🎫",
+            "detail": "The train conductor — knew the victim as 'Mr. Hartmann' from his ticket."
+          },
+          {
+            "name": "Steward Molnár",
+            "icon": "🍽️",
+            "detail": "The dining car steward — knew the victim as 'Mr. Varga' from his dinner reservation."
+          },
+          {
+            "name": "Mrs. Elise Farrow",
+            "icon": "💎",
+            "detail": "A British passenger — claimed she had never met the victim, but was seen near his compartment."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sleeping Compartment 7",
+            "icon": "🚂",
+            "detail": "Where the victim was found — door locked from inside, window latched."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where the victim dined alone the previous evening — seen arguing quietly."
+          },
+          {
+            "name": "The Corridor",
+            "icon": "🚪",
+            "detail": "The narrow passage outside the compartments — no camera, no witnesses at night."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid",
+            "icon": "☠️",
+            "detail": "A fast-acting poison — trace found in the victim's wine glass, cause of death confirmed."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "A decorative cord from the compartment curtains — no ligature mark, eliminated."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "Found in the attaché case — no wound or poison trace."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🪪",
+        "heading": "The Three Passports",
+        "text": "The attaché case contains three passports: Austrian (Karl Hartmann), Hungarian (István Varga), and British (Charles Farrow). All three carry the same photograph — the dead man's face. Charles Farrow is the surname of the British passenger Mrs. Elise Farrow. The British passport lists a London address matching the one Mrs. Farrow gave when boarding.",
+        "alone": "One of the three passports shares Mrs. Farrow's surname and her London address — the dead man and Mrs. Farrow have a documented connection.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The British passport sharing Mrs. Farrow's surname and address and her confirmed presence near Compartment 7 at the relevant hour confirm she knew who the dead man was — despite claiming never to have met him."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "☠️",
+        "heading": "The Prussic Acid",
+        "text": "The train's physician confirms death by prussic acid — introduced into the victim's wine glass. The glass shows a small crystalline residue. Prussic acid in crystalline form requires advance preparation and specific chemical knowledge. It acts within minutes of ingestion. The victim had wine with dinner and retired to his compartment at approximately ten PM.",
+        "alone": "The killer had prepared prussic acid crystals in advance — this was premeditated and required chemical knowledge or access.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Prussic acid requiring advance preparation and Mrs. Farrow's possession of a pharmacist's vial in her luggage confirm she had both the means and the specific compound used."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎫",
+        "heading": "Conductor Brandt's Account",
+        "text": "Conductor Brandt confirms he issued the ticket to 'Mr. Hartmann' at Vienna's Westbahnhof — a cash purchase, no reservation. He had not seen the man before boarding. He confirms the compartment door was locked when he passed at eleven PM and the body was found at six AM when the door did not open for the breakfast service knock. Brandt is confirmed at the front of the train throughout the night.",
+        "alone": "Conductor Brandt was at the front of the train throughout the night — confirmed by his log entries every thirty minutes. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Brandt cleared by his half-hourly log entries and Steward Molnár confirmed in the dining car until midnight together account for two suspects — only Mrs. Farrow is unaccounted for in the corridor during the relevant window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Dinner Argument",
+        "text": "Steward Molnár recalls that during dinner, the victim — whom he knew as 'Mr. Varga' from a reservation made in Budapest — had a quiet but tense exchange with a woman at the adjacent table. He describes the woman as British, well-dressed, travelling alone. The woman leaned across and said something in a low voice. The victim had gone pale. The woman was Mrs. Elise Farrow.",
+        "alone": "Mrs. Farrow had a tense exchange with the victim at dinner — her claim to have never met him is directly contradicted by the dining car steward.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Steward Molnár witnessing the tense dinner exchange between Mrs. Farrow and the victim and her British passport in the attaché case sharing her address confirm the encounter was a recognition — she and the dead man knew each other before the train."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Mrs. Farrow Near the Compartment",
+        "text": "A fellow passenger — an elderly Belgian gentleman returning to his compartment at ten-forty PM — passed Mrs. Farrow standing in the corridor outside Compartment 7. She told him she had lost her way in the dark. Her own compartment, number 12, is at the opposite end of the carriage from Compartment 7. She had no reason to be in that section of the corridor.",
+        "alone": "Mrs. Farrow was standing outside Compartment 7 at ten-forty PM — forty minutes after the victim retired there. Her stated reason for being there is false.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The British passport connecting Mrs. Farrow to the dead man and her confirmed presence outside his compartment at ten-forty PM confirm she was at the scene during the window in which the poison took effect."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "The Pharmacist's Vial",
+        "text": "A search of Mrs. Farrow's luggage — conducted after her contradictions were established — finds a small glass pharmacist's vial, empty, with a crystalline residue identical to that found in the victim's wine glass. The vial's label has been removed but a partial chemical notation remains, consistent with prussic acid preparation.",
+        "alone": "An empty pharmacist's vial with residue matching the murder weapon is found in Mrs. Farrow's luggage — she carried the poison and had used it.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Prussic acid requiring advance preparation and the matching vial in Mrs. Farrow's luggage confirm she had prepared the poison before boarding — the killing was planned before the train departed Vienna."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🍽️",
+        "heading": "Molnár's Night",
+        "text": "Steward Molnár confirms he worked the dining car from six PM until the kitchen closed at midnight, then assisted with a minor mechanical issue in the service area until one AM. Two kitchen staff confirm his presence throughout. He had no access to Compartment 7 after dinner service. He is definitively cleared.",
+        "alone": "Steward Molnár was in the dining car and service area from six PM to one AM — confirmed by two kitchen staff. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Brandt cleared by his log and Molnár cleared by kitchen staff together eliminate both other suspects — only Mrs. Farrow remains unaccounted for at Compartment 7 during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🪪",
+        "heading": "Charles Farrow",
+        "text": "The British passport in the name of Charles Farrow lists an occupation: 'diplomatic courier.' The London address matches the registered address of Elise Farrow. A further search of the attaché case reveals a letter, partially burned at the edges, addressed to 'Elise' and signed 'Charles' — discussing money, a false identity, and a threat to expose both. The letter's tone is one of coercion.",
+        "alone": "Charles Farrow had been coercing Elise with knowledge of her own secrets — the letter reveals a blackmail arrangement she had decided to end permanently.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The dinner exchange witnessed by Molnár and the coercive letter confirming Charles had been blackmailing Elise confirm the tense exchange was a final warning — and the poison had been prepared before she boarded."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Elise Farrow",
+      "location": "Sleeping Compartment 7",
+      "weapon": "Prussic Acid"
+    },
+    "epilogue": "Charles Farrow had been blackmailing Elise for two years — using knowledge of her involvement in a prewar financial scheme to extract payments while maintaining the fiction that he was dead. When she discovered he was travelling on the Orient Express under two additional aliases, she had purchased prussic acid from a Vienna pharmacist and boarded the same train. She had introduced the poison into his wine glass during dinner, using the tense exchange as cover for the transfer. She had been in the corridor at ten-forty PM to confirm he had returned to his compartment. The Belgian gentleman's account ended her denial. She was arrested at Budapest station."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #070",
+    "title": "The Compartment",
+    "setting": "Orient Express · Eastern Europe · 1934",
+    "emoji": "🚂",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Elise killed Charles. But the financial scheme Charles had been using to blackmail her was not hers alone — a third party had been the scheme's architect. Find who designed the scheme and why they were also on the train.",
+    "emptyState": "Charles wasn't the only one who knew. Find the architect.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mrs. Elise Farrow",
+            "icon": "💎",
+            "detail": "The killer — vial, corridor, dinner exchange, coercive letter."
+          },
+          {
+            "name": "Conductor Brandt",
+            "icon": "🎫",
+            "detail": "Cleared as killer — log confirmed. But his ticket records show a connection."
+          },
+          {
+            "name": "Steward Molnár",
+            "icon": "🍽️",
+            "detail": "Cleared as killer — kitchen staff confirmed. But the Budapest reservation name was his."
+          },
+          {
+            "name": "Count Andrássy",
+            "icon": "🏛️",
+            "detail": "A Hungarian passenger in Compartment 9 — not initially questioned, but connected to the scheme."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sleeping Compartment 7",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Charles Farrow's death."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where Elise warned Charles and introduced the poison."
+          },
+          {
+            "name": "The Corridor",
+            "icon": "🚪",
+            "detail": "Where Elise confirmed his return to his compartment at ten-forty PM."
+          },
+          {
+            "name": "Compartment 9",
+            "icon": "🏛️",
+            "detail": "Count Andrássy's compartment — adjacent to the victim's, booked on the same day."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid",
+            "icon": "☠️",
+            "detail": "Confirmed cause of death — vial found in Elise's luggage, residue in wine glass."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "No ligature mark — eliminated."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "The Blackmail Letters",
+            "icon": "📋",
+            "detail": "Not a weapon — the instrument of Charles's coercion and the motive for the killing."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During Dinner",
+            "icon": "🍽️",
+            "detail": "When Elise introduced the poison — the tense exchange covered the transfer."
+          },
+          {
+            "name": "Ten to Ten-Forty PM",
+            "icon": "⚠️",
+            "detail": "Between Charles retiring and Elise confirmed in the corridor — the poison's active window."
+          },
+          {
+            "name": "After Midnight",
+            "icon": "🌙",
+            "detail": "When Charles was certainly dead — Elise confirmed in her compartment."
+          },
+          {
+            "name": "The Vienna Departure",
+            "icon": "🚉",
+            "detail": "When the scheme's architect also boarded — Compartment 9 booked the same day as Compartment 7."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Count Andrássy's Booking",
+        "text": "The train's passenger manifest shows Compartment 9 was booked on the same day as Compartment 7 — both cash purchases at Vienna's Westbahnhof within one hour of each other. Count Andrássy is listed as the occupant of Compartment 9. He had not been questioned because he reported hearing nothing and was considered peripheral. His booking's timing places him at the same Vienna station as Charles.",
+        "alone": "Count Andrássy booked his compartment within one hour of Charles, at the same Vienna station — their presence on the train at the same time was not coincidental.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Andrássy's booking within one hour of Charles at the same station and the scheme documentation found in Andrássy's own luggage confirm he and Charles were coordinating their travel — they were travelling together under the fiction of being strangers."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Scheme's Architecture",
+        "text": "The partially burned letter in Charles's attaché case, fully reconstructed, refers to 'A.'s structure' — the financial scheme had been designed by someone with the initial A. Count Andrássy's first name is Alajos. The scheme, as described in the letter, involved falsified war reparations claims filed through a Vienna intermediary — a form of fraud that required detailed knowledge of postwar treaty mechanisms.",
+        "alone": "The scheme Charles used to blackmail Elise was designed by 'A.' — consistent with Count Alajos Andrássy, who had the treaty knowledge and the Vienna connection.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The scheme attributed to 'A.' in Charles's letter and Andrássy's documented postwar treaty advisory role confirm he had both the knowledge and the motive — the scheme was his design and Charles was his instrument."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💎",
+        "heading": "What Elise Knew About the Architect",
+        "text": "Elise, in her initial statement before her arrest, mentions — apparently without realising its significance — that Charles had told her 'the man who started all of this is also watching.' She had understood this as a general threat. Investigators connect 'the man who started all of this' to the architect of the scheme — and 'watching' to a fellow passenger.",
+        "alone": "Elise had been told by Charles that the scheme's architect was watching her — someone on the train was monitoring whether she would comply or act.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Charles telling Elise the architect was watching and Andrássy's compartment adjacent to Charles's confirm the watching was literal — Andrássy in Compartment 9 was positioned to observe Compartment 7's corridor."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Andrássy's Treaty Role",
+        "text": "A search of Andrássy's luggage — conducted after the scheme connection is established — finds correspondence confirming he had served as a treaty advisory consultant in Vienna from 1920 to 1928. The reparations claims mechanism described in Charles's letter corresponds precisely to a legal framework Andrássy had helped draft. He had created the loophole the scheme exploited.",
+        "alone": "Andrássy had drafted the legal framework that the scheme exploited — he had created the mechanism and then used it for fraud through Charles as his instrument.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Andrássy creating the treaty loophole and his presence on the same train as Charles confirm he was not a passive beneficiary — he was the scheme's founder and had been monitoring its active blackmail operation."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Scheme Documents in Compartment 9",
+        "text": "Andrássy's luggage contains a folder of documents matching the financial scheme described in Charles's letter — including account numbers, names of victims (Elise among them), and payment records. The folder shows Andrássy had been receiving thirty percent of all blackmail payments collected by Charles. He was a financial beneficiary of the coercion.",
+        "alone": "Andrássy had been receiving thirty percent of Charles's blackmail payments — he was a direct financial beneficiary of the scheme that had been destroying Elise's life.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Andrássy's same-day Vienna booking and his scheme documents with payment records confirm the coordination was financial as well as logistical — he and Charles were travelling together to manage an active operation."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Andrássy in the Corridor",
+        "text": "The Belgian gentleman who had seen Elise in the corridor at ten-forty PM, when asked in a second interview whether he had seen anyone else, recalls that the door to Compartment 9 had been slightly open as he passed — and he had caught a glimpse of a man standing at the door, apparently watching the corridor. He had not mentioned this initially because he assumed the man was simply looking out.",
+        "alone": "Andrássy had been watching from his compartment door as Elise stood in the corridor outside Compartment 7 — he was monitoring the situation in real time.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Charles telling Elise the architect was watching and Andrássy confirmed watching from his compartment door at the critical moment confirm the watching was active surveillance — Andrássy had known what was happening that night."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Andrássy Did Not Report",
+        "text": "Andrássy had not reported the corridor observation to the train's investigation. He had not volunteered any information about his connection to Charles. He had presented himself as a Hungarian nobleman travelling independently. When investigators confront him with the scheme documents, he initially claims the folder belongs to Charles — a claim contradicted by his name on the payment records.",
+        "alone": "Andrássy had concealed his knowledge of the corridor observation and his connection to Charles — his silence was deliberate concealment of his role in the scheme.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Andrássy drafting the treaty loophole the scheme exploited and his active concealment of his corridor observation confirm he was not an innocent bystander — he had been an architect and a beneficiary who watched the killing of his own instrument without intervening."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Payment Records",
+        "text": "The payment records in Andrássy's folder show eighteen months of blackmail payments from Elise, totalling 4,200 Austrian schillings — of which 1,260 had been transferred to an account in Andrássy's name in a Zurich bank. The most recent transfer was seven days before the train journey. Charles had been collecting and splitting with Andrássy until Elise had decided the arrangement was over.",
+        "alone": "Andrássy had received 1,260 schillings of Elise's blackmail money over eighteen months — he had been profiting from her coercion until she put a poison vial in Charles's wine glass.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The scheme attributed to Andrássy and his confirmed financial benefit from eighteen months of Elise's payments confirm the killing had ended not just Charles's operation but Andrássy's income — he had watched from his compartment door as his financial arrangement was terminated."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Elise Farrow",
+      "location": "Sleeping Compartment 7",
+      "weapon": "Prussic Acid",
+      "window": "During Dinner"
+    },
+    "epilogue": "Count Alajos Andrássy had designed the reparations fraud in 1928 and had recruited Charles Farrow as his collection instrument, knowing Charles had leverage over Elise. For eighteen months he had received thirty percent of her payments from a Zurich account. He had been on the train to observe whether the pressure on Elise was still functioning — Charles had warned him she was becoming resistant. He had watched from his compartment door as the situation resolved itself in a way he had not anticipated. He was charged with conspiracy and fraud. Elise received ten years for the murder. Andrássy received seven for his role in the scheme. The Zurich account was seized."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #070",
+    "title": "The Compartment",
+    "setting": "Orient Express · Eastern Europe · 1934",
+    "emoji": "🚂",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Elise killed Charles. Andrássy was the architect. But the financial scheme's victims were not limited to Elise — there was a second victim on the train who had also been paying Charles, and who had their own plan that Elise's poison pre-empted. Find the second victim and what they had intended.",
+    "emptyState": "Elise wasn't the only one paying. Find the second victim.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mrs. Elise Farrow",
+            "icon": "💎",
+            "detail": "The killer — prussic acid, dining car transfer, corridor confirmed."
+          },
+          {
+            "name": "Conductor Brandt",
+            "icon": "🎫",
+            "detail": "Cleared as killer — log confirmed throughout night."
+          },
+          {
+            "name": "Steward Molnár",
+            "icon": "🍽️",
+            "detail": "Cleared as killer — kitchen staff confirmed. But the Budapest reservation reveals his connection."
+          },
+          {
+            "name": "Count Andrássy",
+            "icon": "🏛️",
+            "detail": "The architect — scheme designer, financial beneficiary, corridor observer."
+          },
+          {
+            "name": "The Second Victim",
+            "icon": "💼",
+            "detail": "Another blackmail target on the train — had their own plan that was rendered unnecessary by Elise's action."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sleeping Compartment 7",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Charles's death."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where the poison was transferred during the tense exchange."
+          },
+          {
+            "name": "The Corridor",
+            "icon": "🚪",
+            "detail": "Where Elise confirmed his return and Andrássy observed both."
+          },
+          {
+            "name": "Compartment 9",
+            "icon": "🏛️",
+            "detail": "Andrássy's position — adjacent to Compartment 7, watching."
+          },
+          {
+            "name": "Compartment 4",
+            "icon": "💼",
+            "detail": "The second victim's compartment — booked under a professional title."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid",
+            "icon": "☠️",
+            "detail": "Elise's weapon — vial in luggage, wine glass residue."
+          },
+          {
+            "name": "Silk Cord",
+            "icon": "🪢",
+            "detail": "No ligature — eliminated."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "✉️",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Chloral Hydrate",
+            "icon": "💊",
+            "detail": "Found in the second victim's luggage — a different poison, a different plan."
+          },
+          {
+            "name": "The Scheme Documents",
+            "icon": "📁",
+            "detail": "Andrássy's records — containing both victims' payment histories."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "During Dinner",
+            "icon": "🍽️",
+            "detail": "Elise's transfer window — the tense exchange covered the poison introduction."
+          },
+          {
+            "name": "Ten to Ten-Forty PM",
+            "icon": "⚠️",
+            "detail": "The active murder window — poison acted, Elise in corridor."
+          },
+          {
+            "name": "After Midnight",
+            "icon": "🌙",
+            "detail": "When the second victim's plan would have been executed — pre-empted by Elise."
+          },
+          {
+            "name": "The Budapest Approach",
+            "icon": "🚉",
+            "detail": "When the train approached the border — both victims had planned to act before arrival."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Designed the Scheme",
+            "icon": "🏛️",
+            "detail": "Andrássy's role — created the reparations fraud and recruited Charles as the collection instrument."
+          },
+          {
+            "name": "Had a Second Plan",
+            "icon": "💊",
+            "detail": "The second victim's role — had brought chloral hydrate and planned to act before Budapest."
+          },
+          {
+            "name": "Watched from the Corridor",
+            "icon": "🚪",
+            "detail": "Andrássy's observation — saw both victims' plans converge on the same night."
+          },
+          {
+            "name": "Made the Budapest Reservation",
+            "icon": "🍽️",
+            "detail": "The second victim's reservation under 'Varga' — the name Charles used with Steward Molnár."
+          },
+          {
+            "name": "Informed Elise of the Second Victim",
+            "icon": "📋",
+            "detail": "Charles had told Elise she was not the only target — this had accelerated her timeline."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Second Payment Record",
+        "text": "Andrássy's scheme documents contain a second victim's payment history — listed only by initials 'D.M.' and an occupation: 'physician, Budapest.' Fourteen months of payments, totalling 2,800 schillings. The payments had stopped two months before the train journey. A note in Charles's hand beside the D.M. record reads: 'Travelling. Will collect in person. Train.'",
+        "alone": "A Budapest physician with the initials D.M. had been a second blackmail victim — payments had stopped and Charles planned to collect in person on this train.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The D.M. physician as a second victim and Compartment 4's occupant listed as 'Dr. D. Molnár, physician, Budapest' confirm the steward and the second victim share a surname — a connection that becomes significant when the Budapest reservation is examined."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "physical",
+        "icon": "💊",
+        "heading": "The Chloral Hydrate",
+        "text": "A search of Compartment 4 — conducted after the D.M. connection is established — finds a small bottle of chloral hydrate in a medical bag. The bottle has been opened and a portion removed — a quantity sufficient to incapacitate or kill an adult male in wine. Dr. D. Molnár is the compartment's occupant. The physician had brought a sedative sufficient for a killing.",
+        "alone": "Dr. Molnár in Compartment 4 had brought chloral hydrate in a quantity sufficient to kill — the physician was also planning to act against Charles on this train.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Dr. Molnár's chloral hydrate and his plan to act before Budapest and Elise's prussic acid acting first during dinner confirm two separate killing plans converged on the same target on the same night — Elise's timing pre-empted the physician's."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🍽️",
+        "heading": "The Budapest Reservation",
+        "text": "Steward Molnár's dinner reservation for 'Mr. Varga' had been made in Budapest — but by telephone, not in person, two days before departure. The telephone number used for the reservation traces to the Budapest Medical Faculty. Dr. D. Molnár is a faculty physician. The steward had taken a reservation from someone who shares his surname and works at his institution — they are the same person or closely related.",
+        "alone": "The 'Mr. Varga' dinner reservation was made from the Budapest Medical Faculty — the same institution where Dr. D. Molnár works. The reservation was likely made by the physician himself to observe Charles at dinner.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Dr. Molnár making the reservation in Charles's alias name and his confirmed presence in Compartment 4 with chloral hydrate confirm he had arranged to observe Charles at dinner before acting — the reservation gave him a reason to watch without arousing suspicion."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💎",
+        "heading": "What Charles Told Elise",
+        "text": "Elise, in a fuller statement after her arrest, reveals that during the dinner exchange, Charles had told her: 'You are not my only concern on this train. There is another who has also stopped paying. I will attend to both of you before Budapest.' This had been the specific threat that resolved her hesitation — she had understood Charles intended to act against her and another victim on the same journey.",
+        "alone": "Charles had told Elise during dinner that she was not his only non-paying target on the train — he had intended to act against two victims before Budapest.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Charles threatening both victims before Budapest and Dr. Molnár's chloral hydrate confirming his own planned action confirm both victims had been on the same timeline — racing Charles to act first."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Dr. Molnár's Blackmail",
+        "text": "The blackmail material Charles held against Dr. D. Molnár — reconstructed from the scheme documents — concerned a wartime medical certification the physician had falsified in 1917, enabling a wealthy patient to avoid military service. The patient had subsequently died in an unrelated accident. The falsification, if exposed, would have ended Molnár's faculty position and medical licence.",
+        "alone": "Charles held wartime medical fraud evidence against Dr. Molnár — exposure would have destroyed his career and potentially triggered criminal proceedings.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The D.M. payment records stopping two months before the train and the medical fraud evidence confirming a career-ending threat confirm Dr. Molnár had stopped paying and had decided on a different resolution — the same decision Elise had reached."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🚂",
+        "heading": "Dr. Molnár After the Death",
+        "text": "Dr. Molnár is among the passengers who assist when the body is discovered. He is the first to arrive when the compartment is opened, and he conducts an initial medical examination. He correctly identifies the cause as prussic acid poisoning before the train's own physician arrives — a detail that initially seems consistent with his medical expertise but later appears as advance knowledge of the poison used.",
+        "alone": "Dr. Molnár identified prussic acid as the cause before the train's physician arrived — his speed of diagnosis is consistent with someone who knew a poison had been used that night.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Dr. Molnár's chloral hydrate in his luggage and his immediate correct diagnosis of prussic acid confirm he had been planning to poison Charles himself and recognised the signs instantly when someone else had acted first."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🚪",
+        "heading": "Andrássy Saw Both",
+        "text": "Count Andrássy, confronted with the full picture, eventually admits he had seen both Elise in the corridor at ten-forty PM and Dr. Molnár leaving Compartment 4 at approximately eleven-fifteen PM — approximately one hour after the poison had already acted. Molnár had walked toward Compartment 7, reached the door, stood for a moment, and returned to his own compartment. He had found the door already locked.",
+        "alone": "Andrássy had seen Dr. Molnár approach Compartment 7 at eleven-fifteen PM — one hour after the poison had acted. Molnár had gone to act and found Charles already dead.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Dr. Molnár making the dinner reservation to observe Charles and Andrássy confirming Molnár approached Compartment 7 with his own timing confirm his plan had been pre-empted by approximately one hour — Elise's poison had acted before he could use his chloral hydrate."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Dr. Molnár's Statement",
+        "text": "Dr. Molnár, when confronted with the chloral hydrate, Andrássy's account, and the payment records, gives a statement: 'I had intended to end the arrangement myself. I had prepared the means. When I reached the compartment, I understood that someone else had reached the same conclusion before me. I returned to my room. I did not consider myself innocent of intent.' He is charged with conspiracy to commit murder.",
+        "alone": "Dr. Molnár acknowledges his intent, his preparation, and his approach to the compartment — he considers himself culpable in intent even though Elise had acted first.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Charles threatening both victims before Budapest and Dr. Molnár's acknowledgment of his own intent confirm two people had independently decided to kill Charles on the same night — one had acted, one had arrived too late, and both had carried poisons onto the Orient Express."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Mrs. Elise Farrow",
+      "location": "Sleeping Compartment 7",
+      "weapon": "Prussic Acid",
+      "window": "During Dinner",
+      "accomplice": "Had a Second Plan"
+    },
+    "epilogue": "Two passengers had boarded the Orient Express with the intention of killing Charles Farrow. Elise had acted during dinner. Dr. Molnár had approached the compartment at eleven-fifteen PM and found it already locked — Charles already dead. He had returned to his room with his unused chloral hydrate. Count Andrássy had watched both from adjacent positions and said nothing. Elise received ten years. Dr. Molnár received three years for conspiracy. Andrássy received seven for the scheme. The chloral hydrate was entered into evidence as the second murder weapon that had not been used. The train had arrived in Budapest on schedule."
+  }
+}
