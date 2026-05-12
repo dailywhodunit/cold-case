@@ -1,19 +1,3 @@
-// GameScreen_v2.jsx — Phase-based alternate (Option B)
-//
-// CHANGES vs GameScreen.jsx:
-//   1. Added `phase` state: 'investigate' | 'deduce'
-//   2. AnswerKey + AccuseButton are hidden during 'investigate' phase
-//   3. When all clues are revealed, a "Ready to Accuse →" CTA appears
-//      instead of the Next Clue button — player triggers the phase flip
-//   4. Phase flip slides in the AnswerKey + AccuseButton with animation
-//   5. answerOpen initialises to false (was true) — no longer matters for
-//      phase gating but keeps the collapsed default sane
-//   6. Added ReadyToAccuseButton component for the phase-transition beat
-//   7. Evidence feed + "Next Clue" remain at bottom during investigate phase
-//
-// Everything else (timer, scoring, analytics, clue linking, hints) is
-// identical to the original. Drop this file in src/components/ to test.
-
 import { useState, useEffect, useRef } from 'react';
 import { C, F } from '../lib/constants.js';
 import { trackClueRevealed, trackHintUsed, trackWrongAccusation } from '../lib/analytics.js';
@@ -67,7 +51,7 @@ function getCsiOneLiner(caseData) {
     return "Someone wanted out badly enough to kill for it.";
   if (setting.includes('church') || setting.includes('cathedral') || setting.includes('chapel'))
     return "Not all sins stay confessed.";
-  if (setting.includes('farm') || setting.includes('ranch'))
+  if (setting.includes('farm') || setting.includes('ranch') || setting.includes('estate'))
     return "Old MacDonald had a farm. Had.";
 
   if (isHistorical) return "History is written by the survivors. Start reading.";
@@ -212,15 +196,15 @@ function AnswerKey({ caseData, marks, onCycle, open, onToggle, wrongCount }) {
   }).filter(Boolean);
 
   return (
-    <div style={{ backgroundColor:canAccuse?C.greenBg:C.paper,border:`2px solid ${canAccuse?C.green:C.border}`,borderRadius:14,overflow:"hidden",transition:"all 0.25s",boxShadow:canAccuse?`0 0 24px ${C.green}33`:"none",animation:"slideInFromTop 0.5s cubic-bezier(0.16,1,0.3,1)" }}>
+    <div style={{ backgroundColor:canAccuse?C.greenBg:C.paper,border:`2px solid ${canAccuse?C.green:C.border}`,borderRadius:14,overflow:"hidden",transition:"all 0.25s",boxShadow:canAccuse?`0 0 24px ${C.green}33`:"none" }}>
       <button onClick={onToggle} style={{ width:"100%",padding:"14px 18px",backgroundColor:"transparent",border:"none",display:"flex",alignItems:"center",gap:12,cursor:"pointer",textAlign:"left" }}>
         <div style={{ width:10,height:10,borderRadius:"50%",backgroundColor:canAccuse?C.green:C.muted,flexShrink:0,transition:"background-color 0.2s" }}/>
         <div style={{ flex:1 }}>
           <div style={{ fontSize:F.sm,fontWeight:700,letterSpacing:"0.08em",textTransform:"uppercase",color:canAccuse?C.green:C.muted,fontFamily:"system-ui,sans-serif",marginBottom:3 }}>
-            Suspects {wrongCount>0?`· ❌ ${wrongCount} wrong`:""}
+            Answer Key {wrongCount>0?`· ❌ ${wrongCount} wrong`:""}
           </div>
           <div style={{ fontSize:F.md,color:canAccuse?C.green:C.muted,fontFamily:"system-ui,sans-serif" }}>
-            {summaryParts.length===0?"Tag suspects below to build your accusation":summaryParts.join(" · ")}
+            {summaryParts.length===0?"Tap suspects below to tag them":summaryParts.join(" · ")}
           </div>
         </div>
         <span style={{ fontSize:F.md,color:C.muted }}>{open?"▴":"▾"}</span>
@@ -287,49 +271,6 @@ function AccuseButton({ caseData, marks, onSubmit, wrongShake, onOpenKey }) {
   );
 }
 
-// ── READY TO ACCUSE BUTTON (NEW) ──────────────────────────────────────────────
-// Appears only when all clues are revealed and phase === 'investigate'.
-// Tapping it flips the phase to 'deduce', revealing the suspect list.
-function ReadyToAccuseButton({ onReady }) {
-  return (
-    <div style={{ animation:"slideIn 0.5s cubic-bezier(0.16,1,0.3,1)" }}>
-      {/* Divider with dramatic label */}
-      <div style={{ display:"flex",alignItems:"center",gap:12,margin:"8px 0 16px" }}>
-        <div style={{ flex:1,height:1,backgroundColor:C.goldDim }}/>
-        <span style={{ fontSize:F.xs,color:C.gold,fontFamily:"system-ui,sans-serif",letterSpacing:"0.12em",textTransform:"uppercase" }}>Evidence reviewed</span>
-        <div style={{ flex:1,height:1,backgroundColor:C.goldDim }}/>
-      </div>
-      <button
-        onClick={onReady}
-        style={{
-          width:"100%",
-          padding:"20px 24px",
-          background:"linear-gradient(135deg,#1a1200,#0e0d00)",
-          border:`3px solid ${C.gold}`,
-          borderRadius:16,
-          color:C.gold,
-          fontSize:F.xl,
-          fontWeight:800,
-          cursor:"pointer",
-          fontFamily:"Georgia,serif",
-          letterSpacing:"0.06em",
-          boxShadow:`0 0 28px ${C.gold}44`,
-          display:"flex",
-          alignItems:"center",
-          justifyContent:"center",
-          gap:14,
-        }}
-      >
-        <span style={{ fontSize:32 }}>🔍</span>
-        <span>I'm ready to accuse</span>
-      </button>
-      <p style={{ textAlign:"center",marginTop:10,fontSize:F.xs,color:C.muted,fontFamily:"system-ui,sans-serif",letterSpacing:"0.05em" }}>
-        The suspect list will be revealed
-      </p>
-    </div>
-  );
-}
-
 // ── AD OVERLAY ────────────────────────────────────────────────────────────────
 function AdOverlay({ onResume }) {
   const [cd,setCd]=useState(5);
@@ -362,7 +303,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
   const initMarks=()=>{ const m={}; categories.forEach(cat=>{m[cat.key]={}; cat.items.forEach(i=>{m[cat.key][i.name]=0;})}); return m; };
 
   const [marks,        setMarks]        = useState(initMarks);
-  const [answerOpen,   setAnswerOpen]   = useState(false); // ← was true; starts collapsed
+  const [answerOpen,   setAnswerOpen]   = useState(false); // ← CHANGE: was true
   const [revealedIds,  setRevealedIds]  = useState(new Set());
   const [feedItems,    setFeedItems]    = useState([]);
   const [linkedPairs,  setLinkedPairs]  = useState(new Set());
@@ -376,11 +317,6 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
   const [hintedClues,  setHintedClues]  = useState(new Set());
   const [hintsUsed,    setHintsUsed]    = useState(0);
   const [timerOn,      setTimerOn]      = useState(true);
-
-  // ── NEW: phase state ───────────────────────────────────────────────────────
-  // 'investigate' → clues only, no suspect list
-  // 'deduce'      → suspect list + accuse button revealed
-  const [phase, setPhase] = useState('investigate');
 
   const nextIdx     = clues.findIndex(c=>!revealedIds.has(c.id));
   const allRevealed = nextIdx===-1;
@@ -418,15 +354,10 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
     setFeedItems(prev=>[...prev,{type:"clue",id:clue.id}]);
     trackClueRevealed({ clueId: clue.id, clueIndex: nextIdx, caseNum: caseData.caseNum || '', tier: tierId });
     setNewItemId(clue.id);
+    // ← CHANGE: removed setAnswerOpen(false) — player owns their notebook state
     setClueOpen(prev=>{ const n={}; Object.keys(prev).forEach(id=>{n[id]=false;}); n[clue.id]=true; return n; });
     setAloneOpen(prev=>({...prev,[clue.id]:false}));
     setTimeout(()=>setNewItemId(null),700);
-  };
-
-  // ── NEW: flip to deduce phase ──────────────────────────────────────────────
-  const handleReadyToAccuse = () => {
-    setPhase('deduce');
-    setAnswerOpen(true); // open the suspect list on reveal for dramatic effect
   };
 
   const handleToggleAlone=(clueId)=>{
@@ -459,13 +390,12 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
       {paused&&<AdOverlay onResume={()=>setPaused(false)}/>}
       <style>{`
         @keyframes slideIn{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}
-        @keyframes slideInFromTop{from{opacity:0;transform:translateY(-14px)}to{opacity:1;transform:translateY(0)}}
         @keyframes expandIn{from{opacity:0;transform:scaleY(0.9);transform-origin:top}to{opacity:1;transform:scaleY(1)}}
         @keyframes shake{0%,100%{transform:translateX(0)}20%{transform:translateX(-9px)}40%{transform:translateX(9px)}60%{transform:translateX(-5px)}80%{transform:translateX(5px)}}
         @keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
       `}</style>
 
-      {/* ── HEADER ── */}
+      {/* ── HEADER: two-row layout for mobile breathing room ── */}
       <div style={{ backgroundColor:theme.bg,borderBottom:`1px solid ${C.border}`,position:"sticky",top:0,zIndex:50 }}>
 
         {/* Row 1: back · title · timer · pause */}
@@ -486,7 +416,7 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
           <button onClick={()=>setPaused(true)} title="Pause" style={{ width:36,height:36,borderRadius:9,backgroundColor:C.dim,border:`1px solid ${C.border}`,color:C.muted,fontSize:F.md,cursor:"pointer",display:"flex",alignItems:"center",justifyContent:"center",flexShrink:0 }}>⏸</button>
         </div>
 
-        {/* Row 2: tier dots · clue progress · phase label · insights badge */}
+        {/* Row 2: tier dots · clue progress · insights badge */}
         <div style={{ padding:"0 14px 8px",display:"flex",alignItems:"center",gap:10 }}>
           <div style={{ display:"flex",gap:3,flexShrink:0 }}>
             {[...Array(3)].map((_,i)=>(
@@ -498,12 +428,6 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
               <div key={i} style={{ width:revealedIds.size>i?9:7,height:revealedIds.size>i?9:7,borderRadius:"50%",backgroundColor:revealedIds.size>i?accent:C.dim,transition:"all 0.2s",border:revealedIds.size>i?"none":`1px solid ${C.border}` }}/>
             ))}
           </div>
-          {/* Phase pill — shows current phase */}
-          <div style={{ padding:"3px 9px",backgroundColor:phase==='deduce'?"#0a0d18":"#0a1208",border:`1px solid ${phase==='deduce'?"#1a3050":"#1a4020"}`,borderRadius:12,flexShrink:0 }}>
-            <span style={{ fontSize:"11px",fontWeight:700,color:phase==='deduce'?"#5ba3c9":"#5ba060",fontFamily:"system-ui,sans-serif",letterSpacing:"0.08em",textTransform:"uppercase" }}>
-              {phase==='deduce'?"⚖️ Deduce":"🔍 Investigate"}
-            </span>
-          </div>
           {foundInsights>0&&(
             <div style={{ display:"flex",alignItems:"center",gap:4,padding:"3px 9px",backgroundColor:"#0e1808",border:"1px solid #1a4020",borderRadius:12,flexShrink:0 }}>
               <span style={{ fontSize:"13px" }}>💡</span>
@@ -514,34 +438,27 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
       </div>
 
       <div style={{ maxWidth:540,margin:"0 auto",padding:"18px 18px 36px" }}>
-
-        {/* ── DEDUCE PHASE: suspect list + accuse button slide in from top ── */}
-        {phase==='deduce'&&(
-          <>
-            <div style={{ marginBottom:14 }}>
-              <AnswerKey caseData={caseData} marks={marks} onCycle={cycleMark} open={answerOpen} onToggle={()=>setAnswerOpen(v=>!v)} wrongCount={wrongCount}/>
-            </div>
-            <div style={{ marginBottom:20 }}>
-              <AccuseButton caseData={caseData} marks={marks} onSubmit={submit} wrongShake={wrongShake} onOpenKey={()=>setAnswerOpen(true)}/>
-            </div>
-          </>
-        )}
-
-        {/* ── Evidence divider ── */}
+        {/* Answer key — always present, starts closed */}
+        <div style={{ marginBottom:14 }}>
+          <AnswerKey caseData={caseData} marks={marks} onCycle={cycleMark} open={answerOpen} onToggle={()=>setAnswerOpen(v=>!v)} wrongCount={wrongCount}/>
+        </div>
+        {/* Accuse */}
+        <div style={{ marginBottom:20 }}>
+          <AccuseButton caseData={caseData} marks={marks} onSubmit={submit} wrongShake={wrongShake} onOpenKey={()=>setAnswerOpen(true)}/>
+        </div>
+        {/* Evidence divider */}
         <div style={{ display:"flex",alignItems:"center",gap:12,margin:"4px 0 18px" }}>
           <div style={{ flex:1,height:1,backgroundColor:C.border }}/>
           <span style={{ fontSize:F.xs,color:C.muted,fontFamily:"system-ui,sans-serif",letterSpacing:"0.1em",textTransform:"uppercase" }}>Evidence</span>
           <div style={{ flex:1,height:1,backgroundColor:C.border }}/>
         </div>
-
-        {/* ── Empty state ── */}
+        {/* Empty state */}
         {feedItems.length===0&&(
           <div style={{ textAlign:"center",padding:"40px 20px",color:C.muted,fontSize:F.md,fontFamily:"Georgia,serif",fontStyle:"italic",border:`1px dashed ${C.border}`,borderRadius:12,lineHeight:1.9,marginBottom:16 }}>
             {caseData.emptyState || getCsiOneLiner(caseData)}
           </div>
         )}
-
-        {/* ── Clue feed ── */}
+        {/* Feed */}
         <div style={{ display:"flex",flexDirection:"column",gap:10,marginBottom:16 }}>
           {feedItems.map(item=>{
             if(item.type==="insight") return <InsightCard key={item.id} insight={item.insight} clueA={item.clueA} clueB={item.clueB} isNew={item.id===newItemId}/>;
@@ -551,14 +468,11 @@ export default function GameScreen({ caseData, tierId, tiers, onSolve, onTimeout
             return <ClueCard key={clue.id} clue={clue} revealedIds={revealedIds} linkedPairs={linkedPairs} onLink={handleLink} isNew={clue.id===newItemId} open={isOpen} onToggle={()=>setClueOpen(prev=>({...prev,[clue.id]:!isOpen}))} aloneOpen={isAlone} onToggleAlone={()=>handleToggleAlone(clue.id)} hintUsed={hintedClues.has(clue.id)} caseData={caseData}/>;
           })}
         </div>
-
-        {/* ── INVESTIGATE PHASE: Next Clue button OR Ready to Accuse ── */}
-        {phase==='investigate'&&(
-          allRevealed
-            ? <ReadyToAccuseButton onReady={handleReadyToAccuse}/>
-            : <button onClick={revealNext} style={{ width:"100%",padding:"16px",background:"linear-gradient(135deg,#1a2008,#0e1305)",border:"1px solid #2a4020",borderRadius:12,color:C.green,fontSize:F.lg,fontWeight:700,cursor:"pointer",fontFamily:"Georgia,serif",letterSpacing:"0.03em" }}>
-                {feedItems.length===0?"Begin Investigation →":"Next Clue →"}
-              </button>
+        {/* Next clue button */}
+        {!allRevealed&&(
+          <button onClick={revealNext} style={{ width:"100%",padding:"16px",background:"linear-gradient(135deg,#1a2008,#0e1305)",border:"1px solid #2a4020",borderRadius:12,color:C.green,fontSize:F.lg,fontWeight:700,cursor:"pointer",fontFamily:"Georgia,serif",letterSpacing:"0.03em" }}>
+            {feedItems.length===0?"Begin Investigation →":"Next Clue →"}
+          </button>
         )}
       </div>
     </div>
