@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import CaseLoader from './components/CaseLoader.jsx';
 import LevelSelect from './components/LevelSelect.jsx';
-import GameScreen from './components/GameScreen.jsx';
+import GameScreenV1 from './components/GameScreen.jsx';
+import GameScreenV2 from './components/GameScreen_v2.jsx';
 import SolvedScreen from './components/SolvedScreen.jsx';
 import TimeoutScreen from './components/TimeoutScreen.jsx';
 import AlreadyPlayed from './components/AlreadyPlayed.jsx';
@@ -12,6 +13,13 @@ import {
   trackGameStarted, trackGameCompleted, trackGameTimeout,
   trackShareClicked, trackPracticeStarted, trackArchivePlay,
 } from './lib/analytics.js';
+
+// ── VERSION FLAG ──────────────────────────────────────────────────────────────
+// Append ?v2 to the URL to test the phase-based game flow.
+// Example: thedailywhodunit.com?v2
+// Everything else is identical between versions.
+const useV2 = new URLSearchParams(window.location.search).has('v2');
+const GameScreen = useV2 ? GameScreenV2 : GameScreenV1;
 
 const GLOBAL_STYLE = `
   * { box-sizing: border-box; margin: 0; padding: 0; }
