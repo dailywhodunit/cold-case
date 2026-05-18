@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Houston, 1986. NASA Mission Control. An engineer dead in the data room the night before a critical review. And a report that someone needed to disappear. 🚀🔍 Case #094 — The Data Room. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: NASA 1986, a dead engineer, a suppressed safety report, and someone who needed the data to vanish before the morning review. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1986 NASA Mission Control data room at night, banks of computer terminals with amber and green displays, printed telemetry readouts on the floor, a filing cabinet drawer open and empty, a coffee cup overturned on a console. Fluorescent light, no windows, the weight of critical systems. Tense and technical, style of Ron Howard's Apollo 13 cinematography meets archival NASA photography.",
+    "animationPrompt": "Slow pan through a 1986 NASA data room at night. Computer terminals. Amber displays. Printed telemetry on the floor. The camera finds an open empty filing cabinet and a coffee cup overturned on a console. Fluorescent light. Absolute silence. Fade to black.",
+    "hashtags": [
+      "#NASA1986",
+      "#MissionControl",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #094",
+    "title": "The Data Room",
+    "setting": "Johnson Space Center · Houston · Texas · 1986",
+    "emoji": "🚀",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Aerospace engineer Carol Wendell was found dead in the Mission Control data room at six AM, two hours before a critical launch readiness review. Her analysis of O-ring performance data — a report that showed dangerous temperature-related failure risk — was missing from the filing cabinet. Three people had after-hours access that night.",
+    "emptyState": "The safety report was gone. Carol was gone. Find who needed both to disappear.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Director Walt Prudhoe",
+            "icon": "🏛️",
+            "detail": "The program director — under intense pressure from Washington to maintain the launch schedule."
+          },
+          {
+            "name": "Dr. Ray Simms",
+            "icon": "💻",
+            "detail": "A senior systems engineer — had been told the report threatened his project's funding."
+          },
+          {
+            "name": "Ellen Marsh",
+            "icon": "📋",
+            "detail": "Carol's immediate supervisor — had tried to convince Carol to soften the report's conclusions."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💾",
+            "detail": "Where Carol was found — filing cabinet open, telemetry printouts on the floor, coffee overturned."
+          },
+          {
+            "name": "The Mission Control Floor",
+            "icon": "🖥️",
+            "detail": "The main operations area — adjacent to the data room, accessible after hours with a badge."
+          },
+          {
+            "name": "The Director's Conference Room",
+            "icon": "📊",
+            "detail": "Where the morning review was scheduled — and where the missing report would have been presented."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Filing Cabinet Drawer",
+            "icon": "🗄️",
+            "detail": "A heavy steel drawer — blunt force wound consistent with its edge driven against the skull."
+          },
+          {
+            "name": "Computer Terminal",
+            "icon": "💻",
+            "detail": "No wound profile match — the terminal's housing is rounded, eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Too light for the wound depth — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Report",
+        "text": "Carol Wendell's O-ring analysis — a twenty-two page technical document showing statistically significant failure correlation between low ambient temperatures and O-ring resiliency — is missing from the filing cabinet. The cabinet's index shows the report had been filed at nine PM the previous evening. Carol had signed the index at nine-oh-seven PM. The filing receipt is still in the cabinet. The report is not.",
+        "alone": "Carol had filed the report at nine-oh-seven PM and signed the index — the receipt is there but the report is gone, taken after nine PM.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The report filed at nine PM and Ellen Marsh's confirmed presence in the data room until eleven PM establish that the report had been accessible during Marsh's two-hour window — she had both access and the documented motive to make it disappear."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗄️",
+        "heading": "The Filing Cabinet Drawer",
+        "text": "The open filing cabinet's third drawer — the one from which the report had been taken — shows blood on its upper edge. The wound on Carol's skull matches the drawer edge's profile: a straight-edged blunt force impact. The drawer had been pulled fully open and Carol had either been struck with it or had been pushed against it with force. The cabinet is bolted to the floor — Carol had been brought to the drawer, not the drawer to Carol.",
+        "alone": "Carol had been struck against the open filing cabinet drawer — brought to it, not it to her, indicating a controlled attack rather than an opportunistic one.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Carol brought to the drawer rather than the drawer swung at her indicating a controlled attack and Ellen Marsh's documented physical capability from her personnel file's medical clearance confirm the attack had been planned rather than spontaneous."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Prudhoe's Evening",
+        "text": "Director Walt Prudhoe had been at a Washington teleconference from seven PM until ten PM — confirmed by the teleconference log maintained by the administrative assistant in DC. He had then gone to his hotel near JSC and had checked in at ten-forty-five PM — confirmed by the hotel's front desk. He had not returned to JSC that night. He is definitively cleared.",
+        "alone": "Prudhoe had been on a Washington call until ten PM and had checked into his hotel at ten-forty-five PM — he had not been at JSC during the murder window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Prudhoe cleared by the teleconference log and hotel check-in and Dr. Simms confirmed in his office until nine PM then at a restaurant together eliminate both other suspects from the data room during the late-night murder window — only Ellen Marsh's movements after nine PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Ellen's Pressure on Carol",
+        "text": "An email chain recovered from the JSC server — printed and found among Carol's desk papers — shows Ellen had sent Carol three messages over four days asking her to 'moderate the language' and 'reframe the statistical confidence intervals' in the O-ring report. Carol's final reply, sent at eight-fifty PM the night of the killing: 'The data is what the data is. I'm filing it tonight as written.' She had filed forty minutes later.",
+        "alone": "Carol had refused Ellen's requests to soften the report and had told Ellen she was filing it as written forty minutes before she filed it — Ellen had known the unmodified report would be filed that evening.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Carol's final email telling Ellen the report was being filed as written and Ellen's confirmed presence in the data room after nine PM together confirm Ellen had known the unmodified report was in the cabinet — and had been in the building when the report was accessible."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Ellen in the Data Room",
+        "text": "The JSC badge access log shows Ellen Marsh had badged into the data room at nine-twenty PM — thirteen minutes after Carol had filed the report — and had badged out at eleven-oh-five PM. She had been in the data room for one hour and forty-five minutes after the report was filed. The log shows no other badge entries to the data room between nine PM and six AM when the body was discovered.",
+        "alone": "Ellen had badged into the data room at nine-twenty PM and had been the only person to enter after nine PM — she had been alone in the data room with the report and with Carol for one hour and forty-five minutes.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The report filed at nine-oh-seven PM and Ellen in the data room from nine-twenty PM confirm she had been in the room with the report during the entire window — the only person there after the filing."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Ellen's Career Exposure",
+        "text": "A personnel note in Ellen's file — written by Director Prudhoe three weeks before the killing — states: 'Marsh has been warned that the O-ring analysis delay is affecting the review timeline. If the report cannot be managed within the program's parameters, her role as supervisor will be reconsidered.' Ellen had been told her job depended on the report not reaching the review in its current form.",
+        "alone": "Ellen had been formally warned that her supervisory role was contingent on managing the O-ring report — her job had been explicitly tied to the report's outcome.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ellen's three pressure emails asking Carol to soften the report and the personnel note confirming her job depended on the report's management together establish a motive that had been building over weeks — the final email's refusal had been the trigger."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Dr. Simms's Evening",
+        "text": "Dr. Simms had been in his office until nine PM, confirmed by a colleague who had left at the same time. He had then gone to a restaurant near JSC with two other engineers, confirmed by the restaurant's credit card receipt at nine-forty-five PM. He had not returned to JSC. He is definitively cleared.",
+        "alone": "Simms had been in his office until nine PM and at a restaurant by nine-forty-five — confirmed by a colleague and a credit card receipt. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Prudhoe cleared by the teleconference log and hotel check-in and Simms cleared by his colleague and restaurant receipt together eliminate both other suspects — Ellen's badge entry at nine-twenty is the only confirmed data room access during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "The Morning Review",
+        "text": "The launch readiness review proceeded at eight AM without Carol's O-ring analysis. The report's absence was noted but attributed to a filing error. The launch was approved. The investigation into Carol's death — treated initially as a workplace accident — delayed the launch by eleven days. A copy of the O-ring analysis was subsequently found in Carol's home, submitted to the review board, and became a central document in the subsequent safety inquiry.",
+        "alone": "A copy of the O-ring report had been at Carol's home — the report had not been entirely suppressed, and the safety inquiry had eventually received it.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Carol's final email confirming she had filed the report as written and the home copy proving she had kept a personal backup together confirm Carol had anticipated the report might be suppressed — she had taken precautions that the killer had not known about."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ellen Marsh",
+      "location": "The Data Room",
+      "weapon": "Filing Cabinet Drawer"
+    },
+    "epilogue": "Ellen Marsh had badged into the data room at nine-twenty PM. Carol had been working late. Ellen had taken the report from the filing cabinet, had confronted Carol about it, and the confrontation had ended with Carol's head against the open drawer. Ellen had taken the report and had badged out at eleven-oh-five PM. A copy had been at Carol's home. The home copy had reached the review board eleven days after the launch that Carol had been trying to prevent. Ellen received twenty years. The O-ring data had been correct. Carol Wendell's name appears in the subsequent safety inquiry's acknowledgments."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #094",
+    "title": "The Data Room",
+    "setting": "Johnson Space Center · Houston · Texas · 1986",
+    "emoji": "🚀",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Ellen killed Carol and took the report. But Director Prudhoe had written the personnel note threatening Ellen's job — find whether his pressure on Ellen had been an independent management decision or whether he had known the report's specific content and had acted to suppress it.",
+    "emptyState": "Prudhoe pressured Ellen. Find whether he knew what was in the report.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ellen Marsh",
+            "icon": "📋",
+            "detail": "The killer — badge log, drawer wound, report taken, twenty years."
+          },
+          {
+            "name": "Director Walt Prudhoe",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — teleconference and hotel confirmed. His personnel note threatening Ellen raises questions."
+          },
+          {
+            "name": "Dr. Ray Simms",
+            "icon": "💻",
+            "detail": "Cleared as killer — colleague and restaurant confirmed. His funding stake in the report's outcome is significant."
+          },
+          {
+            "name": "Washington",
+            "icon": "🏛️",
+            "detail": "The launch schedule pressure source — had been communicating urgency to Prudhoe directly."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💾",
+            "detail": "Primary crime scene — Ellen's killing, report taken, home copy survived."
+          },
+          {
+            "name": "The Director's Conference Room",
+            "icon": "📊",
+            "detail": "Where the review would have been — and where Prudhoe had been briefed on the report's existence."
+          },
+          {
+            "name": "Washington",
+            "icon": "🏛️",
+            "detail": "The source of the schedule pressure — and where the teleconference had originated."
+          },
+          {
+            "name": "Carol's Home",
+            "icon": "🏠",
+            "detail": "Where the backup copy had been kept — found after the killing."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Filing Cabinet Drawer",
+            "icon": "🗄️",
+            "detail": "Confirmed murder weapon — Ellen's controlled attack, report taken."
+          },
+          {
+            "name": "Computer Terminal",
+            "icon": "💻",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "The Personnel Note",
+            "icon": "📋",
+            "detail": "Not a weapon — but the management pressure that had created Ellen's specific motive."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the O-Ring Report",
+            "icon": "📋",
+            "detail": "Ellen's immediate motive — job threatened, three pressure emails, Carol's refusal the trigger."
+          },
+          {
+            "name": "Maintain the Launch Schedule",
+            "icon": "🚀",
+            "detail": "Prudhoe's management objective — Washington pressure, review timeline, program credibility."
+          },
+          {
+            "name": "Protect Project Funding",
+            "icon": "💻",
+            "detail": "Simms's stake — the report threatened his project's continued funding."
+          },
+          {
+            "name": "Prudhoe's Knowledge of the Report's Content",
+            "icon": "🏛️",
+            "detail": "The investigation's question — had Prudhoe known what was in the report when he pressured Ellen."
+          },
+          {
+            "name": "Washington's Schedule Pressure",
+            "icon": "🏛️",
+            "detail": "The chain's origin — pressure from above had created the conditions for the killing."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Teleconference Content",
+        "text": "The Washington teleconference Prudhoe had attended the night of the killing — its content is classified but its general subject is noted in the administrative log as 'launch schedule review and risk assessment.' Prudhoe had been discussing launch timing with Washington officials at the same time Carol had been filing her O-ring report. The teleconference's specific discussion of the O-ring issue is eventually declassified and shows Prudhoe had been told the analysis existed and had been asked 'how significant is the concern.'",
+        "alone": "Prudhoe had been told during the teleconference that Carol's O-ring analysis existed and had been asked how significant the concern was — he had known the report existed during the call.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Prudhoe told about the O-ring analysis during the teleconference and his personnel note threatening Ellen's job over the report's management together confirm he had known the report's existence and significance when he wrote the note — his pressure on Ellen had been informed by knowledge of the report's content."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Prudhoe's Response During the Call",
+        "text": "The declassified teleconference transcript shows Prudhoe had responded to the Washington officials: 'Our engineers are working through the data. The concern is being managed at the supervisory level.' He had been describing Ellen's pressure on Carol during a call with Washington — he had been reporting the suppression effort as it was happening, presenting it as normal management.",
+        "alone": "Prudhoe had told Washington the O-ring concern was 'being managed at the supervisory level' — he had been aware of and had been representing Ellen's pressure on Carol to suppress the report.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Prudhoe representing Ellen's suppression effort to Washington as normal management and Ellen killing Carol that same evening confirm Prudhoe had known the suppression was occurring — the teleconference had been conducted while the pressure he had enabled was active."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Simms's Funding Stake",
+        "text": "Dr. Simms's project — solid rocket booster redesign — had been funded contingent on the current booster design's continued operational certification. Carol's O-ring report, if accepted, would have triggered a design review that could have paused Simms's redesign funding for eighteen months. Simms had known this. He had told Ellen directly, in a documented conversation four days before the killing: 'If Carol's report goes in as written, I lose a year and a half of funding.'",
+        "alone": "Simms had told Ellen directly that Carol's report threatened his project funding — he had been a voice pressuring Ellen from the technical side, complementing Prudhoe's pressure from the management side.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Simms telling Ellen about his funding stake and Prudhoe's teleconference representation of the suppression as normal management confirm Ellen had been receiving pressure from two directions simultaneously — her supervisor and her colleague had both been pushing her toward the action she took."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Home Copy's Significance",
+        "text": "The home copy of Carol's O-ring analysis — found by Carol's husband two days after the killing, submitted to investigators — becomes the central document in the subsequent safety inquiry. Carol had made the copy the same evening she had filed the original, before writing her final email to Ellen. She had anticipated the report might be suppressed and had taken precautions before sending the email that had told Ellen she was filing it as written.",
+        "alone": "Carol had made the home copy before sending Ellen the final email — she had anticipated suppression and had created a backup before informing Ellen of her filing decision.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Carol anticipating suppression and creating a home copy before the final email and the home copy reaching the safety inquiry confirm Carol had understood the stakes — she had acted to protect the data's survival before making the disclosure that had triggered the killing."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Safety Inquiry's Finding on Prudhoe",
+        "text": "The subsequent safety inquiry's finding on Prudhoe: 'Director Prudhoe was aware of the O-ring temperature correlation analysis during the teleconference of the evening preceding the incident. His representation to Washington officials that the concern was being managed at the supervisory level constituted a knowing mischaracterization of a safety-critical concern. He is found to have contributed to the conditions enabling the suppression of the analysis through his personnel communication to Marsh.' He is not criminally charged.",
+        "alone": "The safety inquiry finds Prudhoe had knowingly mischaracterized a safety concern and had contributed to the suppression conditions — but does not criminally charge him.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Prudhoe told about the analysis during the teleconference and the inquiry finding him to have contributed to suppression conditions confirm the full chain of management pressure — Washington had asked, Prudhoe had represented the suppression as management, and Ellen had carried it out."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "The Launch's Eleven-Day Delay",
+        "text": "The launch had been delayed eleven days by the investigation into Carol's death. The delay had pushed the mission into a different temperature window than the one Carol's analysis had flagged. The O-ring concern had been about performance at specific low temperatures. The delayed launch had occurred at a different temperature profile. The delay caused by the investigation into Carol's murder had inadvertently moved the launch away from the temperature conditions she had identified as dangerous.",
+        "alone": "The eleven-day delay caused by the murder investigation had moved the launch to a different temperature window — the killing had inadvertently created the safety margin the report had been trying to establish.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Carol's home copy reaching the safety inquiry and the investigation-caused delay moving the launch to safer temperatures confirm the full irony — the killing that had been meant to suppress the safety concern had caused the delay that had addressed it."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Pressure Chain",
+        "text": "The safety inquiry reconstructs the pressure chain: Washington had asked Prudhoe about the O-ring concern; Prudhoe had written the personnel note threatening Ellen's position; Simms had told Ellen about his funding stake; Ellen had sent three pressure emails to Carol; Carol had refused; Ellen had killed Carol. Five people had been in the chain. One had died. One had killed. Three had contributed to the conditions and had not been criminally charged.",
+        "alone": "The safety inquiry identifies five people in the pressure chain that had led to the killing — only Ellen had been criminally charged, though three others had contributed to the conditions.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Simms's funding pressure and Prudhoe's management pressure both documented in the inquiry confirm the pressure had been institutional and multi-directional — Ellen had been the endpoint of a chain that had started with Washington's schedule demands."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Carol's Final Actions",
+        "text": "In reconstructing Carol's final evening, investigators establish: she had completed the report by eight PM; had made a home copy at eight-twenty PM; had sent the final email to Ellen at eight-fifty PM; had filed the original at nine-oh-seven PM; had been in the data room when Ellen arrived at nine-twenty PM. She had spent her final fifty minutes creating a record that had outlasted her, had filed the original that had been taken, and had made the backup that had reached the inquiry.",
+        "alone": "Carol had spent her final fifty minutes protecting the data's survival before the confrontation — the home copy had been made before the email, the email before the filing, the filing before Ellen arrived.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Carol anticipating suppression and creating the home copy before the final email and her sequential final actions confirm she had been systematically protecting the data's survival — the engineering precision she had applied to the O-ring analysis she had applied to ensuring the analysis survived."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ellen Marsh",
+      "location": "The Data Room",
+      "weapon": "Filing Cabinet Drawer",
+      "motive": "Suppress the O-Ring Report"
+    },
+    "epilogue": "Carol Wendell had spent her final fifty minutes ensuring the data would survive. She had made the home copy at eight-twenty PM. She had sent the email at eight-fifty. She had filed the original at nine-oh-seven. Ellen had arrived at nine-twenty. The pressure chain had run from Washington through Prudhoe through Simms through Ellen and had ended with a filing cabinet drawer. The home copy had reached the safety inquiry. The inquiry's report had cited the O-ring temperature analysis as the critical safety finding of the period. Carol Wendell's name appears in the acknowledgments. Ellen Marsh received twenty years. Prudhoe received a safety inquiry finding and retired. Simms received a funding review. Washington received a report."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #094",
+    "title": "The Data Room",
+    "setting": "Johnson Space Center · Houston · Texas · 1986",
+    "emoji": "🚀",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Ellen killed Carol. Prudhoe enabled the pressure. But Dr. Simms had known the report's specific technical content before Carol had finished writing it — he had accessed her terminal three days earlier. Find what Simms had done with that knowledge.",
+    "emptyState": "Simms accessed Carol's terminal three days before the killing. Find what he did with what he found.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ellen Marsh",
+            "icon": "📋",
+            "detail": "The killer — badge log, drawer wound, twenty years, pressure chain endpoint."
+          },
+          {
+            "name": "Director Walt Prudhoe",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — teleconference and hotel. Safety inquiry finding: contributed to suppression conditions."
+          },
+          {
+            "name": "Dr. Ray Simms",
+            "icon": "💻",
+            "detail": "Cleared as killer — colleague and restaurant. Had accessed Carol's terminal three days before and had acted on the content."
+          },
+          {
+            "name": "The Contractor Representative",
+            "icon": "🏢",
+            "detail": "The external stakeholder who had received Simms's summary of Carol's findings — and had passed them to Washington."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💾",
+            "detail": "Primary crime scene — Ellen's killing."
+          },
+          {
+            "name": "Carol's Terminal",
+            "icon": "💻",
+            "detail": "Where Simms had accessed the draft analysis three days before — using his own credentials on her logged-in session."
+          },
+          {
+            "name": "The Contractor's Office",
+            "icon": "🏢",
+            "detail": "Where Simms's summary had been sent — and where the Washington pressure chain had originated."
+          },
+          {
+            "name": "Washington",
+            "icon": "🏛️",
+            "detail": "Where the schedule pressure had originated — fed by information Simms had provided through the contractor."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Filing Cabinet Drawer",
+            "icon": "🗄️",
+            "detail": "Confirmed murder weapon — Ellen's."
+          },
+          {
+            "name": "Computer Terminal",
+            "icon": "💻",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Simms's Terminal Access",
+            "icon": "💻",
+            "detail": "Not a weapon — but the unauthorized access that had fed the pressure chain its initial intelligence."
+          },
+          {
+            "name": "The Contractor Summary",
+            "icon": "🏢",
+            "detail": "Not a weapon — but the document Simms had created from Carol's draft that had reached Washington and had started the schedule pressure."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Report Before the Review",
+            "icon": "📋",
+            "detail": "Ellen's motive — job threatened, three pressure emails, cabinet drawer."
+          },
+          {
+            "name": "Protect Project Funding",
+            "icon": "💻",
+            "detail": "Simms's motive — eighteen months of funding at risk if the report triggered a design review."
+          },
+          {
+            "name": "Maintain the Launch Schedule",
+            "icon": "🚀",
+            "detail": "Prudhoe's management objective — Washington pressure, represented as normal management."
+          },
+          {
+            "name": "Feed the Pressure Chain's Origin",
+            "icon": "🏢",
+            "detail": "What Simms had done — had informed the contractor, who had informed Washington, who had pressured Prudhoe."
+          },
+          {
+            "name": "The Unauthorized Terminal Access",
+            "icon": "💻",
+            "detail": "How Simms had obtained advance intelligence on the report's content — three days before Carol had finished writing it."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Carol and Took the Report",
+            "icon": "📋",
+            "detail": "Ellen's confirmed role — twenty years."
+          },
+          {
+            "name": "Represented the Suppression as Normal Management",
+            "icon": "🏛️",
+            "detail": "Prudhoe's role — told Washington the concern was being managed, safety inquiry finding."
+          },
+          {
+            "name": "Accessed Carol's Terminal and Informed the Contractor",
+            "icon": "💻",
+            "detail": "Simms's role — fed the pressure chain's origin intelligence to the contractor, who fed Washington."
+          },
+          {
+            "name": "Passed Simms's Summary to Washington",
+            "icon": "🏢",
+            "detail": "The contractor representative's role — the external intermediary who had carried the intelligence to the schedule pressure source."
+          },
+          {
+            "name": "Created the Home Copy That Survived",
+            "icon": "🏠",
+            "detail": "Carol's own protective action — the precaution that had ensured the data's survival despite the killing."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Terminal Access Log",
+        "text": "JSC's computer system access log — examined during the expanded investigation — shows that three days before the killing, Dr. Ray Simms had accessed Carol Wendell's terminal during a period when Carol had been at lunch and had left her session logged in. Simms had used his own credentials on her session — a violation of access protocol — and had opened her O-ring analysis draft. He had been in the file for twenty-two minutes.",
+        "alone": "Simms had accessed Carol's draft O-ring analysis for twenty-two minutes three days before the killing — using his credentials on her logged-in session, a protocol violation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Simms's unauthorized twenty-two-minute access to Carol's draft and the contractor summary sent to Washington two days later confirm he had read the draft and had immediately acted on its content — the pressure chain had been fed from information Simms had obtained without authorization."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "The Contractor Summary",
+        "text": "A document obtained from the booster contractor's records — an internal memo dated two days before the killing — summarizes Carol's O-ring analysis findings in non-technical language and concludes: 'If the Wendell analysis reaches the review board in its current form, a design freeze on the current booster configuration is likely.' The memo had been sent from the contractor's JSC liaison to the contractor's Washington representative. The JSC liaison had received the technical summary from Simms.",
+        "alone": "The contractor had circulated a summary of Carol's draft analysis two days before the killing — received from Simms, passed to Washington as grounds for schedule concern.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Simms providing the contractor with Carol's draft content and the contractor memo reaching Washington two days before the killing confirm the pressure chain's origin — Washington's schedule demands had been fed by Simms's unauthorized access to Carol's work."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Simms's Explanation",
+        "text": "Simms, confronted with the terminal access log and the contractor memo, says: 'I looked at her draft because I needed to understand the impact on my project. I shared a summary with the contractor because they had a stake in the outcome. I did not tell anyone to suppress the report. I did not tell Ellen to do anything other than manage her team.' He draws a sharp line between information sharing and directing the suppression.",
+        "alone": "Simms acknowledges the terminal access and the contractor summary but draws a line at directing the suppression — he claims he had shared information, not issued instructions.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Simms's acknowledgment of the terminal access and the contractor summary and his claim of not directing suppression confirmed by the safety inquiry's finding confirm the line he draws is legally accurate but morally insufficient — feeding the pressure chain had been the functional equivalent of directing it."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "How Washington Had Known",
+        "text": "The declassified teleconference transcript shows Washington officials had known the specific technical concern — O-ring temperature correlation — before Prudhoe's call. They had asked Prudhoe specific questions about the analysis's statistical confidence intervals: language that had come from the contractor memo, which had come from Simms, which had come from Carol's draft. Washington's pressure had been informed by stolen intelligence from Carol's own work.",
+        "alone": "Washington had used the specific language from the contractor memo during the teleconference — confirming the pressure chain's full path from Simms's terminal access to Washington's schedule demands.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Washington using language from the contractor memo and the contractor memo originating from Simms's terminal access confirm the full causal chain — the pressure that had led to Carol's killing had been initiated by the unauthorized reading of Carol's own work."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Safety Inquiry's Finding on Simms",
+        "text": "The safety inquiry's finding on Simms: 'Dr. Simms accessed the Wendell analysis draft without authorization and provided its content to an external contractor, who transmitted it to Washington officials who then applied schedule pressure to JSC management. While Simms neither directed nor foresaw the killing, his unauthorized access and disclosure were the initiating actions of the pressure chain that culminated in the incident. He is found to have contributed materially to the conditions enabling the killing.' He is not criminally charged. His project funding is suspended.",
+        "alone": "The safety inquiry finds Simms's unauthorized access and disclosure were the initiating actions of the pressure chain — not criminally charged but found to have contributed materially. His funding is suspended.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Simms drawing a line between information sharing and directing suppression and the inquiry finding him to have contributed materially confirm the legal and moral distinction — his line holds legally but the inquiry finds the contribution real regardless of intent."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "The Contractor's Role",
+        "text": "The booster contractor's Washington representative — who had received the contractor memo and had passed it to Washington officials — is interviewed by the safety inquiry. He says: 'I was told there was a technical concern that might affect the schedule. I told our Washington contacts because that affects our contract timelines. I did not know what the consequence of that communication would be.' The inquiry finds the contractor's role contributory but finds no criminal conduct.",
+        "alone": "The contractor representative had passed the memo to Washington without knowing the consequence — found contributory but not criminally liable by the inquiry.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The contractor memo reaching Washington two days before the killing and the representative not knowing the consequence confirm the chain had been assembled from individually defensible actions — each person had done something that had seemed locally justified, and the combination had been lethal."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Full Chain's Accounting",
+        "text": "The safety inquiry's full accounting of the pressure chain: Simms (unauthorized access, funding stake) → Contractor (summary, Washington contact) → Washington (schedule pressure, teleconference) → Prudhoe (personnel note, suppression representation) → Simms again (funding stake disclosure to Ellen) → Ellen (three pressure emails, killing). Six steps. Five people. One fatal outcome. The inquiry recommends criminal charges for Ellen only. The others receive findings ranging from suspension to retirement.",
+        "alone": "Six steps, five people, one fatal outcome — criminal charges only for Ellen, with findings for the others ranging from suspension to retirement.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Washington using Carol's own language from Simms's stolen draft and six steps connecting the terminal access to the killing confirm the chain was traceable end to end — the unauthorized reading of Carol's work had started a process that had ended with Carol's death."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "Carol's Analysis, Vindicated",
+        "text": "Carol's O-ring analysis — the home copy, submitted to the safety inquiry — is validated by independent review as statistically sound and methodologically rigorous. The inquiry's report describes it as 'an exemplary piece of safety-critical engineering analysis, accurately identifying a performance correlation with significant mission risk implications.' The analysis that had gotten Carol killed had been correct. The safety inquiry's report cites it forty-seven times.",
+        "alone": "Carol's analysis was validated as exemplary engineering — accurate, rigorous, and cited forty-seven times in the safety inquiry's report.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Simms accessing Carol's draft without authorization and the inquiry citing the completed analysis forty-seven times confirm the full weight of what had been at stake — the work that had been stolen, pressured, suppressed, and killed over had been correct, and the killing had been the last action in a chain that had failed to stop it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ellen Marsh",
+      "location": "The Data Room",
+      "weapon": "Filing Cabinet Drawer",
+      "motive": "Suppress the O-Ring Report",
+      "accomplice": "Accessed Carol's Terminal and Informed the Contractor"
+    },
+    "epilogue": "Simms had accessed Carol's draft for twenty-two minutes at lunchtime three days before the killing. He had summarized it for the contractor. The contractor had told Washington. Washington had pressured Prudhoe. Prudhoe had written the personnel note. Simms had told Ellen about his funding stake. Ellen had sent three emails. Carol had refused, had made the home copy, had filed the original, and had been in the data room when Ellen arrived. Six steps. The analysis had been correct. The inquiry had cited it forty-seven times. Carol Wendell's name appears in the acknowledgments of a report that would not have existed without the work she had done and the precautions she had taken in the fifty minutes before she died."
+  }
+}

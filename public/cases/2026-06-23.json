@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Berlin, 1961. A checkpoint on the Wall. An East German officer dead in the booth. And a defection plan that someone had betrayed from the inside. 🧱🔍 Case #096 — The Crossing. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Berlin 1961, the Wall just built, a defection plan betrayed, and a dead officer at the checkpoint. Find who sold out the crossing. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1961 Berlin Wall checkpoint booth at night, harsh floodlights, a striped barrier arm lowered, a guard's peaked cap on the ground, a telephone handset dangling from the booth wall. Concrete and wire beyond. Black and white atmosphere, cold and absolute. Style of Henri Cartier-Bresson meets Billy Wilder's Cold War Berlin.",
+    "animationPrompt": "Slow pan along a 1961 Berlin Wall checkpoint at night. Floodlights. Striped barrier arm. The camera finds a guard's peaked cap on the ground and a telephone handset dangling from the checkpoint booth. Beyond: the Wall. Concrete. Wire. Absolute darkness. Fade to black.",
+    "hashtags": [
+      "#Berlin1961",
+      "#BerlinWall",
+      "#ColdWar",
+      "#MysteryGame",
+      "#BrainTeaser"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #096",
+    "title": "The Crossing",
+    "setting": "Checkpoint Bravo · East Berlin · August 1961",
+    "emoji": "🧱",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "East German border officer Klaus Richter was found dead in the checkpoint booth three hours after the Wall's first sections were completed. He had been planning to facilitate a defection that night — a family of four, passing as diplomatic staff. The defection had failed. The family had been arrested. Three people had known the plan.",
+    "emptyState": "The family was arrested. Someone sold them out. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Sergeant Horst Bremer",
+            "icon": "🪖",
+            "detail": "Richter's fellow checkpoint officer — had known the defection plan from Richter's own disclosure."
+          },
+          {
+            "name": "Anna Vogel",
+            "icon": "📝",
+            "detail": "A West Berlin contact — had arranged the false diplomatic papers and had known the crossing time."
+          },
+          {
+            "name": "Dietrich Haas",
+            "icon": "🕵️",
+            "detail": "A Stasi informant embedded in the West Berlin resistance network — had been told the plan by the network."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Checkpoint Booth",
+            "icon": "🚧",
+            "detail": "Where Richter was found — phone dangling, cap on the ground, single wound."
+          },
+          {
+            "name": "The Crossing Lane",
+            "icon": "🚗",
+            "detail": "Where the defecting family had been stopped — the arrest had occurred at the barrier."
+          },
+          {
+            "name": "The Guard Station",
+            "icon": "🏠",
+            "detail": "The staffed building adjacent to the checkpoint — where Bremer had been between patrols."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "A single shot wound to the chest — the standard East German border guard sidearm."
+          },
+          {
+            "name": "Barrier Arm",
+            "icon": "🚧",
+            "detail": "No wound profile match — the arm is not a projectile weapon."
+          },
+          {
+            "name": "Telephone Handset",
+            "icon": "📞",
+            "detail": "No wound profile — eliminated as the killing weapon."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Defection Plan",
+        "text": "A folded document found in Richter's jacket — a handwritten plan in his own hand — describes the crossing arrangement: a family of four with false diplomatic credentials, crossing at Checkpoint Bravo at eleven PM, with Richter facilitating passage. The plan shows three contact names: Bremer (his partner), Vogel (the West Berlin contact), and a coded reference to the resistance network. All three had been told.",
+        "alone": "Richter had documented the plan himself, naming all three contacts — the written plan confirms who had known, but not who had informed.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The plan naming all three contacts and Horst Bremer's confirmed absence from the guard station during the murder window together establish that Bremer had been unaccounted for at the checkpoint while the family was being arrested — and while Richter was being killed."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Service Pistol Wound",
+        "text": "The wound is a single shot to the chest from a service pistol — the standard East German border guard weapon. Both Richter and Bremer had been issued identical sidearms. The bullet recovered matches Bremer's weapon's rifling when the weapons are compared — Richter's own weapon is fully loaded and holstered. He had not drawn his weapon, confirming he had not expected to be shot.",
+        "alone": "The bullet matches Bremer's weapon's rifling — Richter had been shot with Bremer's service pistol, not his own, while his own weapon remained holstered.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Bremer's weapon firing the fatal shot and Richter's weapon remaining holstered confirm Richter had been shot by his partner without drawing his own weapon — he had not anticipated being shot by the man he had trusted with the plan."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📝",
+        "heading": "Anna Vogel's Account",
+        "text": "Anna Vogel had been in West Berlin when the family was arrested — the crossing had been visible from the West side's observation point and she had watched the arrest from across the barrier. She had not crossed to the East. She is confirmed in West Berlin throughout the evening by three members of the resistance network who had been with her at the observation point.",
+        "alone": "Anna Vogel had been watching from West Berlin when the arrest occurred — confirmed by three resistance members at the observation point. She could not have killed Richter.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Vogel confirmed in West Berlin by three witnesses and Haas confirmed still in his West Berlin cover location at the time of the killing together eliminate both West Berlin contacts — the killer had been on the East side."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Haas's Stasi Connection",
+        "text": "Post-reunification Stasi files — opened in 1992 — identify Dietrich Haas as a Stasi informant codenamed GABRIEL, active in the West Berlin resistance network from 1959 to 1965. His file shows he had reported the defection plan to the Stasi two days before the crossing attempt. The family's arrest had been the Stasi's operational response to GABRIEL's report. Haas had betrayed the plan — but he had not killed Richter.",
+        "alone": "Haas had reported the defection plan to the Stasi two days before the crossing — his Stasi file documents this clearly. The arrest had been the Stasi's response. But Haas had been in West Berlin.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Haas informing the Stasi two days before and Bremer's weapon firing the shot confirm two separate betrayals had occurred — Haas had sold the plan to the Stasi, and Bremer had killed Richter to prevent him from facilitating the crossing even after the family had been arrested."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🪖",
+        "heading": "Bremer's Missing Hour",
+        "text": "The guard station's duty log shows Bremer had signed in for his patrol at nine PM and should have been in the guard station at ten-fifty PM — the standard rotation. At ten-fifty PM, when the duty log required his signature, it is missing. The log shows a gap between ten-fifty and eleven-forty PM. The checkpoint booth is fifty metres from the guard station. The killing had occurred during the gap.",
+        "alone": "Bremer has an unlogged hour from ten-fifty to eleven-forty PM — the exact window in which the family was arrested and Richter was killed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The plan naming Bremer as a contact and his unlogged hour during the murder window confirm he had been absent from the guard station during the critical period — the officer who had known the plan was unaccounted for while it was being stopped."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Why Bremer Killed Richter",
+        "text": "Post-reunification Stasi files include a second East German file: Bremer himself had been a Stasi informant, codenamed FELIX. His file shows he had been recruited six months before the Wall's construction and had been assigned to report on checkpoint personnel. He had not informed the Stasi about Richter's defection plan — Haas had done that independently. Bremer had killed Richter to prevent his own exposure if the defection had succeeded and Richter had reached the West.",
+        "alone": "Bremer had been a Stasi informant himself — he had killed Richter not to stop the defection (Haas had already done that) but to prevent Richter from reaching the West where he might have exposed Bremer's informant status.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Bremer's weapon firing the shot and his Stasi informant status being the reason for the killing confirm the killing had been self-protective — Bremer had shot his partner to prevent his own exposure, not to stop the defection."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Two Stasi Informants",
+        "text": "The Stasi files reveal that two informants had independently known about the defection plan: Haas (GABRIEL) in the West, who had reported it to the Stasi two days before; and Bremer (FELIX) in the East, who had known from Richter's direct disclosure. The Stasi had received two separate intelligence reports about the same plan. The operational response — the family's arrest — had been based on GABRIEL's report. FELIX had not been asked to act.",
+        "alone": "Two Stasi informants had each known about the plan independently — Haas had been the one who had reported it to the Stasi for the operational response, Bremer had acted independently for personal reasons.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Haas betraying the plan to the Stasi and Bremer killing Richter for personal exposure prevention confirm two parallel betrayals had converged on the same defection attempt — each had been independent, each had served different interests, and together they had destroyed the crossing entirely."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🧱",
+        "heading": "The Family's Fate",
+        "text": "The defecting family — identified in the Stasi files as the Schreiber family — had been arrested at the barrier at eleven-oh-three PM. The father had received seven years for attempting illegal border crossing. The mother and two children had been released after four months. The family had been reunited after the Wall fell in 1989. The Stasi files identifying Haas and Bremer as the betrayals had been opened in 1992. Bremer had died in 1984. Haas had lived until 1998 and had never been charged.",
+        "alone": "The Schreiber family had been arrested and imprisoned — reunited after 1989. The Stasi files had opened in 1992, identifying both betrayals. Neither Bremer nor Haas had been criminally prosecuted.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Bremer killing Richter for personal protection and his 1984 death before the files opened confirm he had never been accountable — the full picture had emerged only after his death, from the files of the organization he had been serving when he killed his partner."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sergeant Horst Bremer",
+      "location": "The Checkpoint Booth",
+      "weapon": "Service Pistol"
+    },
+    "epilogue": "Two Stasi informants had independently known about the Schreiber family's defection plan. Haas had reported it two days before the crossing. Bremer had known from Richter's own disclosure. The Stasi had arrested the Schreibers based on Haas's report. Bremer had shot Richter in the checkpoint booth to prevent him from reaching the West — where he might have exposed Bremer as an informant. The killing had been personal protection, not operational duty. Bremer had died in 1984. The Wall had fallen in 1989. The Stasi files had opened in 1992. The Schreiber family had been reunited before anyone had known who had betrayed them, or why Richter had died."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #096",
+    "title": "The Crossing",
+    "setting": "Checkpoint Bravo · East Berlin · August 1961",
+    "emoji": "🧱",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Bremer killed Richter. Haas betrayed the plan. But Anna Vogel — watching from the West — had seen something at the checkpoint before the arrest that she had not reported to the network. Find what she had seen and what she had done with it.",
+    "emptyState": "Vogel watched the arrest from the West. She saw something before it happened. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Sergeant Horst Bremer",
+            "icon": "🪖",
+            "detail": "The killer — service pistol match, unlogged hour, Stasi informant FELIX, personal protection motive."
+          },
+          {
+            "name": "Anna Vogel",
+            "icon": "📝",
+            "detail": "Cleared as killer — West Berlin observation point, three resistance witnesses. Saw something before the arrest."
+          },
+          {
+            "name": "Dietrich Haas",
+            "icon": "🕵️",
+            "detail": "Cleared as killer — West Berlin confirmed. Stasi informant GABRIEL, betrayed the plan two days before."
+          },
+          {
+            "name": "The Schreiber Family",
+            "icon": "👨‍👩‍👧‍👦",
+            "detail": "The defecting family — arrested at eleven-oh-three PM, imprisoned, released after 1989."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Checkpoint Booth",
+            "icon": "🚧",
+            "detail": "Primary crime scene — Bremer's killing of Richter."
+          },
+          {
+            "name": "The West Berlin Observation Point",
+            "icon": "🔭",
+            "detail": "Where Vogel and three resistance members had watched — and where Vogel had seen something before the arrest."
+          },
+          {
+            "name": "The Crossing Lane",
+            "icon": "🚗",
+            "detail": "Where the Schreibers had been stopped — visible from the West observation point."
+          },
+          {
+            "name": "The Guard Station",
+            "icon": "🏠",
+            "detail": "Where Bremer should have been during his missing hour — fifty metres from the booth."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Bremer's, rifling match, Richter's weapon holstered."
+          },
+          {
+            "name": "Barrier Arm",
+            "icon": "🚧",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Telephone Handset",
+            "icon": "📞",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Vogel's Withheld Observation",
+            "icon": "🔭",
+            "detail": "Not a weapon — but what she had seen and not reported had consequences for the full picture's reconstruction."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Personal Exposure",
+            "icon": "🪖",
+            "detail": "Bremer's motive — killing Richter before he could reach the West and expose Bremer as FELIX."
+          },
+          {
+            "name": "Protect the Network by Withholding",
+            "icon": "📝",
+            "detail": "Vogel's stated reason for not reporting — what she had seen would have implicated a network member."
+          },
+          {
+            "name": "Stasi Obligation",
+            "icon": "🕵️",
+            "detail": "Haas's motive — GABRIEL's file shows consistent pattern of reporting network activities."
+          },
+          {
+            "name": "The Network's Internal Suspicion",
+            "icon": "📝",
+            "detail": "What Vogel had seen — a network member behaving suspiciously at the crossing site before the arrest."
+          },
+          {
+            "name": "Network Cohesion Over Individual Accountability",
+            "icon": "📝",
+            "detail": "Why Vogel had not reported — the network's survival had depended on not exposing its own members."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📝",
+        "heading": "What Vogel Saw Before the Arrest",
+        "text": "Anna Vogel, interviewed by West German intelligence in 1962, reveals she had seen something from the observation point before the Schreibers reached the checkpoint: Dietrich Haas had been at the checkpoint's Western approach — the West Berlin side of the crossing zone — at approximately ten-forty-five PM, fifteen minutes before the Schreibers arrived. He had spoken briefly to someone through the wire and had then departed. She had recognized him and had been disturbed by his presence.",
+        "alone": "Vogel had seen Haas at the Western approach of the checkpoint at ten-forty-five PM — fifteen minutes before the Schreibers arrived and during the window of the crossing attempt.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Haas at the checkpoint approach fifteen minutes before the Schreibers and his Stasi file showing he had reported the plan two days before together confirm his presence had not been coincidental — he had been confirming the crossing was proceeding as reported."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "📝",
+        "heading": "Why Vogel Had Not Reported It",
+        "text": "Vogel explains her non-reporting: 'I saw Haas at the wire. I thought — I hoped — it meant something else. He was a friend of several years. I did not want to believe what it looked like. If I had reported it, the network would have been torn apart looking for informants. I decided to watch and see if the crossing succeeded.' She had prioritized network cohesion over reporting a suspicious observation about a trusted member.",
+        "alone": "Vogel had seen Haas at the wire and had chosen not to report it to protect network cohesion — she had hoped the observation meant something innocent.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Vogel choosing not to report Haas and the crossing failing three hours after her observation confirm the moral weight of her decision — her silence had not prevented the arrest (the Stasi had already known for two days) but had prevented the network from identifying the leak before further damage was done."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "What Haas Had Been Doing at the Wire",
+        "text": "Haas's Stasi file includes a report from the night of the crossing: he had gone to the checkpoint's Western approach to observe whether the crossing attempt would proceed despite the Stasi's advance knowledge. He had been confirming for his handler that the operation was proceeding as scheduled — ensuring the arrest would occur at the correct time. His presence at the wire had been operational confirmation, not curiosity.",
+        "alone": "Haas had been at the wire to confirm for his Stasi handler that the crossing was proceeding as scheduled — his presence had been an operational reporting action.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Haas confirming the crossing was proceeding for his handler and Vogel seeing him but not reporting confirm the network had had a chance to identify the leak in real time — and had let it pass because Vogel had prioritized cohesion over accountability."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Network's Subsequent Investigation",
+        "text": "The West Berlin resistance network conducted its own investigation after the crossing's failure — attempting to identify the leak. Vogel participated in the investigation but did not disclose what she had seen at the wire. The investigation was unable to identify Haas as the informant. He had continued operating in the network for four more years, reporting regularly to the Stasi, before being identified through a different route in 1965.",
+        "alone": "Haas had continued in the network for four more years after the crossing failure — Vogel's non-disclosure had allowed him to continue operating, and the network's investigation had not found him.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Haas operating for four more years after the crossing failure and Vogel's non-disclosure being the gap in the network's investigation confirm the silence had had concrete consequences — multiple further operations had been compromised during those four years."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Haas's Four Additional Years",
+        "text": "The Stasi files show Haas had filed seventeen additional intelligence reports between August 1961 and his identification in 1965. Each report had concerned a specific West Berlin resistance operation. Of the seventeen operations reported, eleven had failed. The crossing failure had been the first of twelve Haas-reported operations that had not succeeded. Vogel's silence at the wire had allowed eleven more operations to be compromised.",
+        "alone": "Eleven additional operations had failed over four years because Haas had remained undetected — Vogel's non-disclosure had been the gap that had allowed the further damage.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Vogel prioritizing network cohesion over reporting and eleven further operations failing because Haas remained undetected confirm the cost of the silence — the network cohesion she had protected had been compromised eleven more times by the member whose exposure she had delayed."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📝",
+        "heading": "Vogel's 1992 Reckoning",
+        "text": "When the Stasi files opened in 1992, Vogel reads Haas's file and sees the seventeen reports, the eleven failed operations, and the operational confirmation at the wire on the night of the crossing. She gives an interview in 1993: 'I saw him at the wire. I knew what it probably meant. I chose to not know what I knew. Eleven operations. I have counted them. I have counted them many times.' She does not characterize her choice as forgivable.",
+        "alone": "Vogel reads the files in 1992 and counts the eleven subsequent failures — she does not forgive herself for the choice she had made at the observation point.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The network's failed internal investigation and Vogel counting eleven operations confirm the full weight of the non-disclosure — what had seemed like an act of network protection had been an act that had allowed the network's destruction to continue for four more years."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🧱",
+        "heading": "Haas's 1965 Identification",
+        "text": "Haas had been identified in 1965 through a defector who had seen his name in a Stasi document during a brief access to East German files. The defector had provided the name to West German intelligence, which had confronted Haas with evidence he could not deny. He had broken contact with the Stasi and had left West Berlin. He had never been charged — the evidence had been insufficient for a West German prosecution at the time.",
+        "alone": "Haas had been identified through a defector in 1965 and had left West Berlin — never charged due to insufficient prosecutable evidence at the time.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Haas's seventeen reports over four years and his 1965 departure without charges confirm the full arc — identified through a defector, departing without accountability, the full scope of his damage documented only when the Stasi files opened in 1992."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Two Betrayals' Different Legacies",
+        "text": "Bremer (FELIX) and Haas (GABRIEL) had both betrayed the Schreiber crossing — one through killing, one through informing. Bremer had died in 1984 before the files opened. Haas had lived until 1998 and had given one interview, in 1995, in which he had described his Stasi work as 'a product of the times.' Neither had faced criminal accountability. The Schreiber family had read both files when they opened and had declined to comment on either man.",
+        "alone": "Both betrayers had avoided criminal accountability — Bremer through death before the files opened, Haas through insufficient evidence and the passage of time. The Schreibers had declined to comment on either.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Vogel counting eleven operations and the Schreibers declining to comment on either betrayer confirm the full human weight of the two betrayals — the network member who had been closest to accountability had held it only in private, and the family whose crossing had been the occasion for all of it had chosen silence."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sergeant Horst Bremer",
+      "location": "The Checkpoint Booth",
+      "weapon": "Service Pistol",
+      "motive": "Prevent Personal Exposure"
+    },
+    "epilogue": "Vogel had seen Haas at the wire at ten-forty-five PM and had said nothing. The network's investigation had not found him. He had filed seventeen more reports over four years. Eleven more operations had failed. He had been identified in 1965 through a defector and had left without charges. He had died in 1998. Bremer had died in 1984. The Stasi files had opened in 1992. Vogel had read the files and had counted eleven. The Schreiber family had been reunited before anyone had known the full story. They had read both files and had declined to comment. The Wall had been thirty-one years old when it fell. The files had been closed for thirty-one years when they opened. The crossing had been twenty-eight years old when the family had been reunited. Some things are counted. Some things are not commented on. Both are forms of keeping."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #096",
+    "title": "The Crossing",
+    "setting": "Checkpoint Bravo · East Berlin · August 1961",
+    "emoji": "🧱",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Bremer killed Richter. Haas betrayed the plan. Vogel saw and stayed silent. But Klaus Richter had known he was being watched — his defection plan document shows a fourth name, partially erased. Find whose name had been there and what it means.",
+    "emptyState": "The plan showed a fourth name, erased. Find whose it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Sergeant Horst Bremer",
+            "icon": "🪖",
+            "detail": "The killer — FELIX, service pistol, personal protection, died 1984."
+          },
+          {
+            "name": "Anna Vogel",
+            "icon": "📝",
+            "detail": "Cleared as killer — saw Haas at the wire, did not report, counted eleven. Not charged."
+          },
+          {
+            "name": "Dietrich Haas",
+            "icon": "🕵️",
+            "detail": "Cleared as killer — GABRIEL, seventeen reports, left 1965, died 1998. Not charged."
+          },
+          {
+            "name": "The Fourth Contact",
+            "icon": "❓",
+            "detail": "The person whose name had been erased from Richter's plan — the investigation's final unresolved question."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Checkpoint Booth",
+            "icon": "🚧",
+            "detail": "Primary crime scene — Bremer's killing of Richter."
+          },
+          {
+            "name": "The West Berlin Observation Point",
+            "icon": "🔭",
+            "detail": "Vogel's location — saw Haas at the wire, eleven operations."
+          },
+          {
+            "name": "The Plan Document's Margin",
+            "icon": "📝",
+            "detail": "Where the fourth name had been written and partially erased — the physical evidence of someone Richter had trusted and then removed."
+          },
+          {
+            "name": "The Stasi Archive",
+            "icon": "🕵️",
+            "detail": "Where the investigation's final answer may or may not exist — the files that had identified FELIX and GABRIEL but not the fourth name."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Bremer's, rifling match."
+          },
+          {
+            "name": "Barrier Arm",
+            "icon": "🚧",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Telephone Handset",
+            "icon": "📞",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "The Erased Name",
+            "icon": "📝",
+            "detail": "Not a weapon — but the physical evidence of Richter's final decision about who to trust."
+          },
+          {
+            "name": "Richter's Knowledge of the Surveillance",
+            "icon": "📋",
+            "detail": "The context for the erasure — Richter had suspected he was being watched and had removed a name before filing the plan."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Personal Exposure",
+            "icon": "🪖",
+            "detail": "Bremer's motive — FELIX, shot Richter before he could reach the West."
+          },
+          {
+            "name": "Network Cohesion Over Accountability",
+            "icon": "📝",
+            "detail": "Vogel's reason for silence — cost: eleven operations."
+          },
+          {
+            "name": "Stasi Obligation and Pattern",
+            "icon": "🕵️",
+            "detail": "Haas's motive — GABRIEL, seventeen reports, operational confirmation at the wire."
+          },
+          {
+            "name": "Richter's Prior Suspicion",
+            "icon": "📋",
+            "detail": "The context for the erased name — he had suspected surveillance and had acted on that suspicion."
+          },
+          {
+            "name": "The Fourth Contact's Unknown Role",
+            "icon": "❓",
+            "detail": "What the erased name might represent — a third Stasi informant, a contact Richter had suspected, or someone he had protected."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Richter With His Service Pistol",
+            "icon": "🪖",
+            "detail": "Bremer's confirmed role."
+          },
+          {
+            "name": "Reported the Plan to the Stasi Two Days Before",
+            "icon": "🕵️",
+            "detail": "Haas's confirmed role — GABRIEL, operational confirmation at the wire."
+          },
+          {
+            "name": "Saw Haas at the Wire and Did Not Report",
+            "icon": "📝",
+            "detail": "Vogel's role — chose network cohesion, counted eleven."
+          },
+          {
+            "name": "Erased a Fourth Name From the Plan Document",
+            "icon": "📋",
+            "detail": "Richter's own action — he had added and then removed a fourth contact from his plan."
+          },
+          {
+            "name": "The Stasi Files' Partial Answer",
+            "icon": "🕵️",
+            "detail": "What the 1992 files reveal and do not reveal — FELIX and GABRIEL identified, the fourth name not matching any known Stasi asset."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Erased Name",
+        "text": "Forensic examination of Richter's plan document — conducted by West German intelligence after the plan was found — reveals a fourth name in the margin, erased with deliberate strokes. The erasure is not complete: the letters 'S—H—' are partially legible under angled light. Below the erased name, in different ink as though added later, Richter had written: 'No. Not safe.' He had added a name, reconsidered, erased it, and noted his reason.",
+        "alone": "Richter had added a fourth name beginning with 'S—H—' and had erased it with the note 'Not safe' — he had intended to include someone and had decided against it.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The 'S—H—' partial letters and Richter's 'Not safe' notation confirm he had been considering including someone he had then assessed as a security risk — the erasure had been a deliberate operational security decision, not an accidental inclusion."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Stasi Files' Index",
+        "text": "The 1992 Stasi archive opens fully and investigators search for any asset with initials or a name matching 'S—H—' who had been connected to the Checkpoint Bravo area or the Schreiber crossing operation. The search finds no matching asset in the files. The fourth name, if it had been a Stasi informant, had either been filed under a different codename or had never been formally recruited into the Stasi's registered asset network.",
+        "alone": "No Stasi asset matching 'S—H—' appears in the files connected to the crossing operation — the fourth name either had a different codename or had never been formally registered.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The fourth name not appearing in the Stasi files and Richter's 'Not safe' notation suggesting a suspected security risk rather than a confirmed informant together open the possibility that the erased person had not been a Stasi agent but someone Richter had suspected of being one — correctly or incorrectly."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📝",
+        "heading": "Vogel's Knowledge of 'S—H—'",
+        "text": "Anna Vogel, shown the partial letters in 1993, says: 'S—H—. There was a man in the network in 1961 — Stefan Holz. He had worked with Richter on a prior crossing two years before. He had left the network in early 1961 — said he was leaving Berlin for family reasons. Richter had trusted him very much. If Richter had written Stefan's name and then erased it...' She does not complete the sentence.",
+        "alone": "Vogel identifies the partial letters as consistent with Stefan Holz — a former network member who had worked with Richter and had left the network in early 1961.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Stefan Holz identified as consistent with the partial letters and his departure from the network in early 1961 — the same year the Wall was built — present the question of whether he had left voluntarily or had been turned by the Stasi before his departure."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Stefan Holz in the Files",
+        "text": "Investigators search the full Stasi archive for Stefan Holz. A file is found — not in the active informant index but in a category marked 'Persons of Interest — Unrecruited.' The file shows Holz had been approached for recruitment in January 1961 and had refused. The Stasi had not registered him as an asset. The file ends in February 1961 — when he had reportedly left Berlin. The Stasi had considered him and had not recruited him.",
+        "alone": "Holz had been approached for Stasi recruitment in January 1961 and had refused — he had not been recruited. He had left Berlin in February 1961.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Holz refusing Stasi recruitment and leaving Berlin in February 1961 and Richter writing and erasing his name in August 1961 confirm Richter had suspected Holz of being compromised — but the files suggest Holz had refused recruitment and had left rather than been turned."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Richter Had Suspected Holz",
+        "text": "A letter found in Richter's personal effects — never sent, addressed to no one — describes his suspicion: 'Holz left too quickly. In January, then February, gone. Someone approached him. I don't know which side approached him or what he said. I don't know if he is clean. I cannot trust what I don't know. Stefan, if you are safe, forgive me.' Richter had suspected Holz had been approached and had not known the outcome.",
+        "alone": "Richter had suspected Holz had been approached by someone in January and had not known whether Holz had refused or complied — his 'Not safe' notation had been the product of this unresolved uncertainty.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Richter writing 'Not safe' beside Holz's erased name and his letter describing unresolved uncertainty about whether Holz had been recruited confirm the erasure had been precautionary — he had excluded someone he had been unable to fully trust, not someone he had known to be compromised."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "❓",
+        "heading": "Where Holz Had Gone",
+        "text": "Stefan Holz had left Berlin in February 1961 and had moved to Munich. He had lived in Munich until his death in 1989 — the year the Wall fell. He had not returned to Berlin during the Wall's existence. Investigators who locate his family in 1993 are told he had spoken of the crossing failure once, in 1988, saying: 'I heard about the Schreibers. I always wondered if someone thought it was me. It wasn't.' He had never been told his name had been in and erased from Richter's plan.",
+        "alone": "Holz had lived in Munich until 1989 and had died before the files opened — his family reports he had wondered if he had been suspected but had not known his name had been in the plan.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Holz refusing Stasi recruitment and his family's report of him wondering if he had been suspected confirm the erasure's full irony — Richter had suspected a man who had refused to be recruited, and the man who had actually been recruited (Bremer) had been trusted with the plan."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Erasure's Significance",
+        "text": "The plan document's erased name tells the investigation's final story: Richter had been trying to assess who to trust in a system saturated with informants. He had correctly suspected that someone in his circle had been approached. He had excluded the one person who had been approached and had refused. He had included the person who had been recruited. His precaution had been applied to the wrong person. The erasure had been the work of a man trying to see clearly in a fog, erasing the clean name and keeping the compromised one.",
+        "alone": "Richter had excluded the person who had refused recruitment and included the person who had accepted it — his precaution had protected the innocent and trusted the guilty.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Richter's unresolved uncertainty about Holz and the full picture confirming he had trusted Bremer and excluded Holz confirm the tragedy of the erasure — the fog of an informant-saturated system had led him to apply his precaution to exactly the wrong person."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🧱",
+        "heading": "What the Files Reveal and Do Not Resolve",
+        "text": "The 1992 Stasi files answer most questions and leave one open: FELIX is Bremer; GABRIEL is Haas; Holz had refused recruitment; the fourth erased name is Holz. What the files do not answer: whether Richter, in his final minutes in the checkpoint booth, had understood that his precaution had been wrong — that the man he had erased had been the clean one, and the man he had trusted had been pointing a gun at him. The files are silent on what Richter knew at the end.",
+        "alone": "The files answer every question except one — whether Richter had understood, at the end, that his precaution had been misapplied. The Stasi files are silent on what he knew in the checkpoint booth.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The erasure revealing Richter's misapplied precaution and the files being silent on his final understanding confirm the investigation's limit — the documentary evidence reaches the edge of what can be known, and what happened inside the checkpoint booth in the final moments is not in the archive."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Sergeant Horst Bremer",
+      "location": "The Checkpoint Booth",
+      "weapon": "Service Pistol",
+      "motive": "Prevent Personal Exposure",
+      "accomplice": "Reported the Plan to the Stasi Two Days Before"
+    },
+    "epilogue": "Klaus Richter had written Stefan Holz's name in the margin of his plan, had thought about it, and had erased it with the note 'Not safe.' He had kept Bremer's name. Holz had refused Stasi recruitment and had moved to Munich. Bremer had been recruited and had been assigned to Checkpoint Bravo. Richter had applied his precaution to the wrong person. Haas had filed the report two days before. Bremer had shot Richter in the checkpoint booth. The Schreibers had been arrested at eleven-oh-three. Vogel had seen Haas at the wire and had counted eleven later. The files had opened in 1992. Stefan Holz had died in 1989 and had never been told his name had been in the plan. The investigation's final answer is in the archive. What Klaus Richter knew at the end is not."
+  }
+}

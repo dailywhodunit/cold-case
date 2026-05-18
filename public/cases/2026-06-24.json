@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hollywood, 1950. The Red Scare. A screenwriter dead on the studio backlot. And a list of names that someone needed to hand over — or destroy. 🎬🔍 Case #097 — The List. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Hollywood 1950, the blacklist, a dead screenwriter, and a list of names that could destroy careers — or save one. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1950 Hollywood studio backlot at night, a fake New York street set with brownstone facades, a director's chair overturned on the cobblestones, a screenplay binder open on the ground, a woman's scarf caught on a set lamp. Studio arc lights in the distance, deep shadow between the sets, the feeling of a false world at night. Style of Edward Hopper meets Film Noir.",
+    "animationPrompt": "Slow pan along a 1950 Hollywood studio backlot at night. Fake brownstone facades. Cobblestones. An overturned director's chair. The camera finds an open screenplay binder on the ground and a woman's scarf caught on a set lamp. Arc lights in the distance. Deep shadow. The false street is very quiet. Fade to black.",
+    "hashtags": [
+      "#Hollywood1950",
+      "#BlacklistEra",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #097",
+    "title": "The List",
+    "setting": "Pinnacle Pictures Studio · Hollywood · California · 1950",
+    "emoji": "🎬",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Screenwriter Martin Cole was found dead on the studio backlot at two AM. He had compiled a list of colleagues who had been coerced into naming names to HUAC — evidence he planned to use to publicly expose the committee's pressure tactics. The list was in his screenplay binder. The binder was open. The list was gone.",
+    "emptyState": "Martin had the list. The list named names. Someone needed it gone.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dorothy Vane",
+            "icon": "🎬",
+            "detail": "A studio executive — had been told by the studio head that naming names was the price of keeping her position."
+          },
+          {
+            "name": "Frank Kellner",
+            "icon": "📜",
+            "detail": "A writer who had already named names — was on Martin's list as a coerced informant, and feared exposure."
+          },
+          {
+            "name": "Ray Ochoa",
+            "icon": "🎥",
+            "detail": "A director under HUAC scrutiny — had refused to name names but was on Martin's list as a potential future witness."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backlot Street Set",
+            "icon": "🎬",
+            "detail": "Where Martin was found — director's chair overturned, screenplay binder open, list gone."
+          },
+          {
+            "name": "The Writers' Building",
+            "icon": "📜",
+            "detail": "Where Martin had compiled the list — his office, three floors up, facing the backlot."
+          },
+          {
+            "name": "The Screening Room",
+            "icon": "🎥",
+            "detail": "Where the studio's Thursday evening screenings were held — all three suspects had attended."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Chair Leg",
+            "icon": "🪑",
+            "detail": "A wooden chair leg — one is missing from the overturned chair, blunt force wound consistent."
+          },
+          {
+            "name": "Screenplay Binder",
+            "icon": "📋",
+            "detail": "Too soft for the wound depth — eliminated."
+          },
+          {
+            "name": "Set Lamp Stand",
+            "icon": "💡",
+            "detail": "Too tall for the wound's approach angle — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The List's Contents",
+        "text": "Martin Cole had told his wife — whose account is taken after the discovery — that the list contained twenty-three names: colleagues who had been threatened with professional destruction unless they testified before HUAC. The list documented the specific coercive tactics used in each case. Frank Kellner's name had been on it — he had named seven colleagues under explicit threat to his career. Martin had planned to deliver the list to a civil liberties attorney the following morning.",
+        "alone": "The list documented coercive HUAC tactics for twenty-three people — Frank Kellner among them — and was scheduled for delivery to a civil liberties attorney the following morning.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The list naming Kellner as a coerced informant and Kellner's confirmed presence on the backlot that evening together establish both his motive and his opportunity — exposure as a coerced informant was better than exposure as a voluntary one, but still potentially career-ending."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪑",
+        "heading": "The Chair Leg",
+        "text": "The director's chair — overturned on the cobblestones — is missing its front right leg. The wound on Martin's skull is consistent with a wooden rod struck from above and behind. The missing leg is not found at the scene — the killer had taken it. A wood splinter in the wound matches the chair's painted wood type. The chair had been there before the killing — it was a permanent set piece on the backlot New York street.",
+        "alone": "Martin was killed with the director's chair's front right leg — removed from the chair and taken by the killer after the killing.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The chair leg taken by the killer and Dorothy Vane's confirmed presence on the backlot that evening and her wrap dress's pocket being large enough to conceal a chair leg together confirm she had been in a position to take the weapon with her."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎥",
+        "heading": "Ray Ochoa's Evening",
+        "text": "Ray Ochoa had left the Thursday evening screening at ten PM and had gone directly to a dinner at Chasen's restaurant with four colleagues — confirmed by the restaurant's reservation and all four colleagues. He had not returned to the studio. The backlot was accessible only through the studio gate after hours, and the gate log shows Ochoa had not re-entered. He is definitively cleared.",
+        "alone": "Ochoa had gone from the screening to Chasen's and had not returned to the studio — gate log and four dinner witnesses confirm. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Ochoa cleared by the gate log and dinner witnesses and Dorothy Vane confirmed as the last person to re-enter through the studio gate after the screening together eliminate Ochoa and establish Vane's post-screening studio access."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Dorothy's Position",
+        "text": "Dorothy Vane's personnel file shows she had been told by studio head Albert Pinnacle three weeks before the killing that her contract renewal — worth 60,000 dollars per year — was contingent on her cooperation with HUAC's investigations. She had not yet testified. Martin Cole's list, if delivered to the civil liberties attorney, would have documented the same coercive tactic used on Kellner — and would have been usable to argue that her own coercion had been illegal, potentially freeing her from the obligation without testifying.",
+        "alone": "Dorothy's contract renewal was contingent on HUAC cooperation — Martin's list, if delivered, could have legally freed her from the obligation. The list had been her way out if it reached the attorney.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The list potentially freeing Dorothy from the HUAC obligation and her confirmed presence on the backlot that evening present a complex motive — she had reason to want the list delivered, not destroyed, unless she had feared what else was on it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Kellner on the Backlot",
+        "text": "The studio gate log shows Frank Kellner had re-entered the studio after the screening at ten-twenty PM — he had told the gate guard he had left his briefcase in the writers' building. He had not gone to the writers' building — the building's after-hours log shows no entry. He had been on the studio grounds with no confirmed destination during the murder window.",
+        "alone": "Kellner had re-entered the studio at ten-twenty PM claiming to retrieve a briefcase he had not retrieved — his actual movements after re-entering are unconfirmed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Kellner on Martin's list as a coerced informant and his unconfirmed movements inside the studio after ten-twenty PM confirm his motive and his opportunity — the list's delivery to the attorney would have documented his naming of seven colleagues, however coerced."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎬",
+        "heading": "Dorothy's Backlot Access",
+        "text": "Dorothy Vane had also re-entered the studio after the screening — logged at ten-thirty-five PM, stating she had forgotten a script. She had gone to the backlot rather than to any office building — the gate guard had seen her walking in the direction of the New York street set. She had departed through the same gate at eleven-forty PM. Martin's estimated time of death is between ten-thirty and eleven-thirty PM.",
+        "alone": "Dorothy had gone to the New York street set after re-entering at ten-thirty-five PM and had departed at eleven-forty — she had been at the scene during the murder window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The chair leg taken after the killing and Dorothy departing at eleven-forty PM — ten minutes after the latest estimated death time — confirm she had been at the scene during the window and had departed with enough time to have taken the weapon."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Kellner's Departure",
+        "text": "The gate log shows Kellner had departed the studio at ten-fifty PM — thirty minutes after re-entering. His stated purpose had been to retrieve a briefcase he had not retrieved from a building he had not entered. His thirty-minute unaccounted presence inside the studio spans the beginning of the murder window. However, a cleaning woman confirms she had seen Kellner in the studio commissary at ten-thirty PM — not on the backlot.",
+        "alone": "A cleaning woman places Kellner in the commissary at ten-thirty PM — not on the backlot. He had been inside the studio but not at the scene during the murder window.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Ochoa cleared by the gate log and Kellner placed in the commissary not the backlot together leave Dorothy Vane as the only person confirmed at the New York street set during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "What Was on the List — For Dorothy",
+        "text": "Martin Cole's wife, describing the list's contents further, mentions that Dorothy Vane's name was also on it — not as a coerced informant who had named names, but as someone who had been approached with the same coercive tactic and had not yet complied. Dorothy had been on the list as a potential victim of the same pressure tactic. If the list reached the attorney, Dorothy's own coercion would have been documented — but so would her as-yet undelivered cooperation obligation, which she had feared would trigger the studio's retaliation before the legal argument could be made.",
+        "alone": "Dorothy had been on the list as someone who had been approached but not yet cooperated — she had feared the list's delivery would expose her obligation before the legal argument could protect her.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The list potentially freeing Dorothy legally and her fear that the delivery timing would expose her obligation before protection was in place confirm the complex motive — she had killed Martin not to suppress the list entirely but to control its timing and delivery."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Vane",
+      "location": "The Backlot Street Set",
+      "weapon": "Director's Chair Leg"
+    },
+    "epilogue": "Dorothy Vane had been on Martin's list as a HUAC pressure target who had not yet cooperated. She had understood the list's legal value but had feared that its delivery the following morning would expose her obligation before any legal protection could be put in place. She had gone to the backlot at ten-thirty-five PM. She had taken the chair leg from the director's chair. She had taken the list from the open binder. She had departed at eleven-forty PM. She had testified before HUAC six weeks later, naming four colleagues. The civil liberties attorney had never received the list. Martin Cole's wife had given her account to a journalist in 1953. The story had not been published until 1972."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #097",
+    "title": "The List",
+    "setting": "Pinnacle Pictures Studio · Hollywood · California · 1950",
+    "emoji": "🎬",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Dorothy killed Martin and took the list. But Frank Kellner had been in the studio that night for a reason he had not disclosed — find what Kellner had actually been planning to do about the list before Dorothy acted.",
+    "emptyState": "Kellner was in the studio for a real reason. Find what he had planned.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dorothy Vane",
+            "icon": "🎬",
+            "detail": "The killer — ten-thirty-five PM entry, backlot confirmed, chair leg taken, testified six weeks later."
+          },
+          {
+            "name": "Frank Kellner",
+            "icon": "📜",
+            "detail": "Cleared as killer — commissary confirmed. Had been in the studio for a purpose he had not disclosed."
+          },
+          {
+            "name": "Ray Ochoa",
+            "icon": "🎥",
+            "detail": "Cleared as killer — Chasen's confirmed, gate log clear. His later role is significant."
+          },
+          {
+            "name": "Albert Pinnacle",
+            "icon": "🏢",
+            "detail": "The studio head — had issued the coercive employment ultimatums that Martin's list documented."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backlot Street Set",
+            "icon": "🎬",
+            "detail": "Primary crime scene — Dorothy's killing, chair leg, list taken."
+          },
+          {
+            "name": "The Writers' Building",
+            "icon": "📜",
+            "detail": "Where Martin's office had been — and where Kellner had actually gone."
+          },
+          {
+            "name": "The Commissary",
+            "icon": "☕",
+            "detail": "Where Kellner had been seen at ten-thirty PM — his intermediate location."
+          },
+          {
+            "name": "The Studio Gate",
+            "icon": "🚧",
+            "detail": "Where all movements had been logged — and where the actual sequence had been established."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Chair Leg",
+            "icon": "🪑",
+            "detail": "Confirmed murder weapon — Dorothy's, taken after the killing."
+          },
+          {
+            "name": "Screenplay Binder",
+            "icon": "📋",
+            "detail": "Too soft — eliminated."
+          },
+          {
+            "name": "Set Lamp Stand",
+            "icon": "💡",
+            "detail": "Too tall — eliminated."
+          },
+          {
+            "name": "Kellner's Actual Purpose",
+            "icon": "📜",
+            "detail": "Not a weapon — but what he had been planning to do with the list before Dorothy acted."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Control the List's Timing and Delivery",
+            "icon": "🎬",
+            "detail": "Dorothy's motive — feared the morning delivery would expose her obligation before legal protection."
+          },
+          {
+            "name": "Retrieve His Own Entry From the List",
+            "icon": "📜",
+            "detail": "Kellner's actual purpose — had gone to Martin's office to ask Martin to remove his name before delivery."
+          },
+          {
+            "name": "Protect His Family From the Blacklist's Consequences",
+            "icon": "📜",
+            "detail": "Kellner's deeper motive — had named names under threat to his children's wellbeing, not just his career."
+          },
+          {
+            "name": "Protect the Studio's Business Relationships",
+            "icon": "🏢",
+            "detail": "Pinnacle's operational interest — HUAC cooperation had been protecting the studio's Washington relationships."
+          },
+          {
+            "name": "The List's Different Meanings to Each Person",
+            "icon": "📋",
+            "detail": "The structural theme — the same document had represented different threats and opportunities to each person on it."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "What Kellner Had Actually Done",
+        "text": "Kellner, interviewed the morning after the killing, had said he went to retrieve a briefcase. When investigators establish he had not gone to the writers' building, he revises: he had gone to the commissary to gather his thoughts before going to see Martin. He had intended to ask Martin to remove his name from the list — not to destroy the list, but to be excluded from it. He had been in the commissary deciding how to make the request.",
+        "alone": "Kellner had been planning to ask Martin to remove his name from the list — not to destroy it. He had been in the commissary deciding how to approach the conversation.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Kellner planning to ask for his name's removal rather than the list's destruction and his actual commissary presence confirming the plan had not involved the backlot confirm his intent had been negotiation, not violence — he had been too late and in the wrong building when Dorothy had acted."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Why Kellner Had Named Names",
+        "text": "Kellner's HUAC testimony — a public record — shows he had named seven colleagues. His later account, given in 1965 when the blacklist era was partially analyzed in retrospect, describes the threat: the studio had told him that his children, both of whom had minor film roles, would be removed from all productions if he did not cooperate. The threat had been to his children's livelihoods, not just his own career. He had named the seven to protect his children.",
+        "alone": "Kellner had named seven colleagues under threat to his children's employment — the coercion had targeted his family, not just his career.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Kellner naming names to protect his children and Martin's list documenting this coercion as institutional abuse confirm the list had been designed to exonerate people like Kellner — he had been planning to ask for name removal from a document that was intended to help him."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Dorothy's Post-Killing Testimony",
+        "text": "Dorothy Vane testified before HUAC six weeks after the killing and named four colleagues. The testimony had been arranged by the studio. She had cooperated exactly as Pinnacle had demanded. The list that Martin had compiled — had it reached the civil liberties attorney — would have documented that her cooperation had been coerced in the same way Kellner's had been. She had killed to prevent that documentation, and had then provided the testimony the documentation would have challenged.",
+        "alone": "Dorothy had testified six weeks after killing Martin — doing exactly what the list would have helped her legally resist. The killing had removed the legal protection and then she had complied anyway.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Dorothy killing Martin to control the list's timing and then testifying anyway confirm the irony of her motive — she had killed for a legal position she had not used, and the testimony she had given had been exactly what Martin's list would have helped her avoid being coerced into."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Albert Pinnacle's Role",
+        "text": "Albert Pinnacle — the studio head — had issued the coercive employment ultimatums documented in Martin's list. The list, had it reached the civil liberties attorney, would have established Pinnacle's personal role in pressuring employees to testify under threat of career destruction. Pinnacle had known about Martin's list — Martin had confronted him directly three days before the killing, telling him the list would be delivered Friday morning. Pinnacle had been present at the Thursday screening.",
+        "alone": "Pinnacle had known about the list for three days — Martin had told him directly. He had been at the Thursday screening from which the suspects had dispersed.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Pinnacle knowing about the list for three days and the killing occurring Thursday night confirm the information had been available to multiple people following Pinnacle's awareness — the three-day window had been enough for anyone he had told to act."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "What the List's Delivery Would Have Done",
+        "text": "The civil liberties attorney Martin had been working with — contacted after the killing — describes what the list would have accomplished: it would have established a pattern of institutionalized coercion that would have provided legal grounds for any employee named on it to refuse HUAC cooperation without career penalty. The list had been a legal shield, not a weapon of exposure. Kellner had been planning to ask for removal from a document designed to protect him.",
+        "alone": "The list would have legally protected everyone on it from the coercion they had been subject to — Kellner had been planning to remove himself from his own legal shield.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Kellner naming names to protect his children and the list being designed to protect him from that coercion confirm the tragedy of his commissary hesitation — he had been considering removing himself from the document that had been his best protection."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "The List's Fate",
+        "text": "Dorothy had taken the list from the binder. She had kept it — it was found in her home safe in 1972, when a journalist investigating the blacklist era received a tip and a search warrant. The list was intact. Dorothy had not destroyed it. She had kept it for twenty-two years. When asked by the journalist why she had kept it rather than destroyed it, she said: 'I suppose I thought there would be a time when it should be known. I wasn't that time's keeper.' She was eighty-one years old.",
+        "alone": "Dorothy had kept the list for twenty-two years — it was found in her home safe in 1972, intact. She had taken it to control its timing and had never destroyed it.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dorothy killing Martin to control the list's timing and keeping it for twenty-two years rather than destroying it confirm her stated motive — she had not wanted the list destroyed, she had wanted to control when it came out. She had then never chosen the time."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The List's 1972 Publication",
+        "text": "The journalist published the list in 1972 — twenty-two years after Martin Cole had planned to deliver it. The publication identified all twenty-three names and the coercive tactics used in each case. Frank Kellner had died in 1968 and had never seen the publication. Ray Ochoa had lived to read it and had said, in 1972: 'Martin was right. He was always going to be right. The question was only when.' Dorothy Vane had been interviewed but had declined to comment on Martin's death specifically.",
+        "alone": "The list was published in 1972 — Kellner had died before it was published, Ochoa had lived to see it, Dorothy had declined to comment specifically on Martin's death.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Dorothy keeping the list for twenty-two years and the publication occurring twenty-two years after the killing confirm the list had eventually done what Martin had intended — documented the coercion, protected the reputations of the named — just twenty-two years later and under different circumstances."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "The Killing's Accounting",
+        "text": "Dorothy Vane was never charged with Martin Cole's murder — no physical evidence had connected her to the killing at the time of the investigation, and the chair leg had never been found. The 1972 discovery of the list in her safe had reopened the investigation, but by then the statute of limitations on manslaughter had passed, and the murder charge required physical evidence the intervening twenty-two years had not preserved. She died in 1979. Martin Cole's wife died in 1971, one year before the list was published.",
+        "alone": "Dorothy was never charged — no physical evidence at the time, and the 1972 discovery was too late for prosecution. She died in 1979. Martin's wife died before the publication.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dorothy testifying anyway after killing Martin and dying without charges confirm the full accounting — she had killed for a legal protection she had not used, had kept the evidence for twenty-two years, and had died before accountability became possible even in principle."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Vane",
+      "location": "The Backlot Street Set",
+      "weapon": "Director's Chair Leg",
+      "motive": "Control the List's Timing and Delivery"
+    },
+    "epilogue": "Frank Kellner had been in the commissary at ten-thirty PM deciding how to ask Martin to remove his name from a document designed to protect him. Dorothy had been on the backlot at ten-thirty-five PM. She had taken the chair leg. She had taken the list. She had kept the list in her home safe for twenty-two years. She had testified before HUAC six weeks after the killing, naming four colleagues, doing exactly what the list would have helped her legally resist. The list had been published in 1972. Kellner had died in 1968 and had never read it. Martin Cole's wife had died in 1971 and had never seen the list in print. Dorothy had declined to comment specifically on Martin's death. She had died in 1979. The list had done, eventually, what Martin had intended. Twenty-two years is a long time to wait for what was always going to be right."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #097",
+    "title": "The List",
+    "setting": "Pinnacle Pictures Studio · Hollywood · California · 1950",
+    "emoji": "🎬",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Dorothy killed Martin and kept the list for twenty-two years. Albert Pinnacle had known about the list for three days. Find what Pinnacle had done with that knowledge — and whether he had told Dorothy about the list or whether she had found out another way.",
+    "emptyState": "Pinnacle knew for three days. Find what he did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dorothy Vane",
+            "icon": "🎬",
+            "detail": "The killer — backlot confirmed, chair leg, list kept twenty-two years, never charged."
+          },
+          {
+            "name": "Frank Kellner",
+            "icon": "📜",
+            "detail": "Cleared as killer — commissary confirmed. Planning to ask for name removal from his own legal shield."
+          },
+          {
+            "name": "Ray Ochoa",
+            "icon": "🎥",
+            "detail": "Cleared as killer — Chasen's confirmed. His 1972 response confirms his perspective on Martin's work."
+          },
+          {
+            "name": "Albert Pinnacle",
+            "icon": "🏢",
+            "detail": "The studio head — had known for three days and had told someone. The question is who."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backlot Street Set",
+            "icon": "🎬",
+            "detail": "Primary crime scene — Dorothy's killing."
+          },
+          {
+            "name": "The Writers' Building",
+            "icon": "📜",
+            "detail": "Martin's office — where the list had been compiled and where Kellner had intended to go."
+          },
+          {
+            "name": "Pinnacle's Office",
+            "icon": "🏢",
+            "detail": "Where Martin had confronted Pinnacle three days before — and where Pinnacle's response had been formulated."
+          },
+          {
+            "name": "The Thursday Screening",
+            "icon": "🎥",
+            "detail": "Where all parties had been before dispersing — and where the information may have been transmitted."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Director's Chair Leg",
+            "icon": "🪑",
+            "detail": "Confirmed murder weapon — Dorothy's, never found."
+          },
+          {
+            "name": "Screenplay Binder",
+            "icon": "📋",
+            "detail": "Too soft — eliminated."
+          },
+          {
+            "name": "Set Lamp Stand",
+            "icon": "💡",
+            "detail": "Too tall — eliminated."
+          },
+          {
+            "name": "Pinnacle's Disclosure",
+            "icon": "🏢",
+            "detail": "Not a weapon — but the information he had passed and to whom had determined who had known about the list before the killing."
+          },
+          {
+            "name": "The Thursday Screening as Information Exchange",
+            "icon": "🎥",
+            "detail": "Not a weapon — but the social setting where the pre-killing information had circulated."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Control the List's Timing",
+            "icon": "🎬",
+            "detail": "Dorothy's motive — feared exposure of her obligation before legal protection could be established."
+          },
+          {
+            "name": "Protect the Studio's Washington Relationships",
+            "icon": "🏢",
+            "detail": "Pinnacle's operational interest — HUAC cooperation had been protecting Pinnacle Pictures' federal relationships."
+          },
+          {
+            "name": "Use the Information Strategically",
+            "icon": "🏢",
+            "detail": "What Pinnacle had done with three days of foreknowledge — had told specific people to create pressure."
+          },
+          {
+            "name": "The Screening as Informal Briefing",
+            "icon": "🎥",
+            "detail": "How the information had circulated — Pinnacle had told Dorothy at the screening, not in a formal meeting."
+          },
+          {
+            "name": "Dorothy's Reaction as Intended",
+            "icon": "🎬",
+            "detail": "Whether Pinnacle had anticipated that telling Dorothy would produce the killing — the moral question the investigation cannot resolve."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Martin and Kept the List",
+            "icon": "🎬",
+            "detail": "Dorothy's confirmed role — never charged."
+          },
+          {
+            "name": "Was Planning to Ask for Name Removal",
+            "icon": "📜",
+            "detail": "Kellner's role — commissary, too late, in the wrong building."
+          },
+          {
+            "name": "Told Dorothy About the List at the Screening",
+            "icon": "🏢",
+            "detail": "Pinnacle's role — the disclosure that had given Dorothy the specific information and the specific timing."
+          },
+          {
+            "name": "Kept His Disclosure Informal",
+            "icon": "🏢",
+            "detail": "How Pinnacle had protected himself — a conversation at a screening, not a documented order."
+          },
+          {
+            "name": "Benefited From the Killing Without Directing It",
+            "icon": "🏢",
+            "detail": "Pinnacle's outcome — the list was suppressed for twenty-two years, his studio relationships remained intact."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Dorothy's Account of How She Knew",
+        "text": "Dorothy Vane, in the 1972 journalist interview, is asked how she had known about Martin's list before the killing. She says: 'Albert told me at the Thursday screening. He said Martin had come to him with a document, that it contained my name, and that it was going to a lawyer Friday morning. He said he thought I should know.' She had been told by Pinnacle at the screening — during the same evening from which all suspects had dispersed.",
+        "alone": "Pinnacle had told Dorothy about the list at the Thursday screening — her knowledge of the list had come directly from the studio head three hours before the killing.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Pinnacle telling Dorothy at the screening and the killing occurring three hours later confirm the disclosure had been the trigger for the killing's timing — Dorothy had gone to the backlot with specific knowledge of the list's location and its Friday morning delivery plan."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "What Pinnacle Had Said Exactly",
+        "text": "Dorothy's account continues: 'Albert said: Dorothy, there's a document going to a lawyer tomorrow morning. Your name is in it. I thought you should know before it leaves. He didn't tell me what to do. He walked away and spoke to someone else.' She had been told the document's existence, her name's presence, and the Friday morning delivery — all the information needed to act. No instruction had been given.",
+        "alone": "Pinnacle had given Dorothy all the operational information she needed without giving any instruction — the disclosure had been framed as courtesy, not direction.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Pinnacle's informational disclosure without instruction and Dorothy's killing three hours later confirm the structure of plausible deniability — he had given her the information that had motivated the action and had not given the action that could be attributed to him."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Who Else Pinnacle Had Told",
+        "text": "The 1972 investigation examines whether Pinnacle had told anyone else about the list at the Thursday screening. Dorothy's account mentions he had 'walked away and spoken to someone else' after telling her. A studio grip who had been working the screening room confirms he had overheard Pinnacle in brief conversation with Frank Kellner immediately after speaking to Dorothy — he had heard Pinnacle say 'Cole has something that concerns you' and nothing further.",
+        "alone": "Pinnacle had also told Kellner that Martin had something concerning him — immediately after telling Dorothy, he had briefed the second person on the list.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Pinnacle briefing both Dorothy and Kellner at the screening and Kellner's subsequent commissary presence and intended writers' building visit confirm both had been set in motion by Pinnacle's disclosures — the two parallel responses to the list had both originated from the same conversation at the Thursday screening."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Pinnacle's Outcome",
+        "text": "Albert Pinnacle was never investigated in connection with Martin Cole's death — his disclosure at the screening had been informal, undocumented, and had not resulted in any directives. He had continued as studio head until 1961, when he had retired. His relationship with HUAC investigators had protected Pinnacle Pictures throughout the blacklist era. The list's 1972 publication had documented his coercive tactics explicitly. He had died in 1969, three years before publication.",
+        "alone": "Pinnacle had died in 1969 — three years before the list was published documenting his coercive tactics. He had never faced accountability for either the coercion or the disclosure.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Pinnacle dying before the list's publication and Dorothy dying without charges confirm the blacklist era's accountability failures — the two people most directly responsible for Martin's death and the list's suppression had both died before the full picture had emerged."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "The Screening's Sequence",
+        "text": "Reconstructing the Thursday screening's sequence: the film had ended at nine-fifty PM; Pinnacle had spoken to Dorothy at approximately ten PM; he had spoken to Kellner at approximately ten-oh-five PM; Dorothy had re-entered the studio at ten-thirty-five PM; Kellner had re-entered at ten-twenty PM; both had been given the same thirty-to-forty-minute window of knowing before acting. The screening had been the information distribution event from which two different responses had been set in motion.",
+        "alone": "The Thursday screening had been the information distribution event — both Dorothy and Kellner had received specific disclosures and had each acted within forty minutes.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Dorothy told at ten PM and re-entering at ten-thirty-five PM and Kellner told at ten-oh-five and re-entering at ten-twenty confirm both had acted within the same window following the same event — the screening had been the operational trigger point for both responses."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🏢",
+        "heading": "Whether Pinnacle Had Anticipated the Killing",
+        "text": "The 1972 journalist asks Dorothy directly: 'Do you believe Pinnacle expected you to do what you did?' Dorothy pauses for a long time. She says: 'Albert was a careful man. He knew what telling me would do. He told me in a way that couldn't be traced back to him. I don't know if he expected it specifically. I know he was not surprised when Martin was dead.' The journalist does not press further. Dorothy does not continue.",
+        "alone": "Dorothy believes Pinnacle had anticipated the killing's possibility — he had known what telling her would do and had structured the disclosure for deniability.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Pinnacle dying without accountability and Dorothy's assessment that he had not been surprised confirm the full moral weight of his disclosure — he had known, had structured for deniability, had benefited from the outcome, and had died before the full picture emerged."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Kellner's Parallel Response",
+        "text": "Kellner's commissary presence and his intended writers' building visit — set in motion by Pinnacle's 'Cole has something that concerns you' — had been a negotiation attempt rather than a violent one. He had been planning to ask Martin to remove his name. He had been in the commissary deciding how to make the request. Dorothy had been on the backlot making a different decision. Two people had received similar information and had planned entirely different responses.",
+        "alone": "Kellner had planned negotiation; Dorothy had acted with violence — both responses had been set in motion by Pinnacle's disclosures at the same screening.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Pinnacle briefing both Dorothy and Kellner and their entirely different planned responses confirm the disclosure had not predetermined the outcome — the same information had been received by two people who had chosen entirely different actions, and one had acted before the other could."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Martin's Wife's Knowledge",
+        "text": "Martin Cole's wife, in her 1953 account to the journalist who had not published it, had said: 'Martin knew they would come for the list. He knew someone would try to take it or destroy it. He made a second copy and gave it to Ray Ochoa for safekeeping. Ochoa kept it for twenty years. When the journalist found Dorothy's copy in 1972, Ochoa still had his. There were two copies.' The publication in 1972 had used Dorothy's copy. Ochoa's copy had confirmed its accuracy.",
+        "alone": "Martin had given a second copy to Ochoa for safekeeping — Ochoa had kept it for twenty years and it had been used to confirm Dorothy's copy's accuracy in 1972.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Martin anticipating the attempt to take the list and giving Ochoa a second copy and Ochoa's 1972 comment that Martin had always been right confirm Martin had understood the stakes and had taken precautions — the list had survived not because Dorothy had kept it but because Martin had given it to Ochoa."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dorothy Vane",
+      "location": "The Backlot Street Set",
+      "weapon": "Director's Chair Leg",
+      "motive": "Control the List's Timing and Delivery",
+      "accomplice": "Told Dorothy About the List at the Screening"
+    },
+    "epilogue": "Albert Pinnacle had told Dorothy at the Thursday screening. He had told Kellner immediately after. He had structured both disclosures for deniability. Dorothy had gone to the backlot. Kellner had gone to the commissary. One had acted. The other had been too late. Martin had given a second copy to Ochoa before the killing. Ochoa had kept it for twenty years. Dorothy had kept the first copy in her home safe for twenty-two years. The journalist had found both copies in 1972 and had published what Martin had planned to deliver on a Friday morning in 1950. Pinnacle had died in 1969. Dorothy had died in 1979. Kellner had died in 1968. Ochoa had read the publication in 1972 and had said Martin had always been going to be right. Martin Cole's wife had died in 1971. She had not seen the list in print. Twenty-two years is a long time to wait for what was always going to happen."
+  }
+}

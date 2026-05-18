@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "New York, 1987. The Stock Exchange. A trader dead in the back office on Black Monday. And a deal that someone needed to kill before the market opened. 📈🔍 Case #095 — Black Monday. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Wall Street 1987, Black Monday, a dead trader, and an insider deal that was about to cost someone everything. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1987 Wall Street trading firm back office at night, ticker tape and printouts on the floor, a phone off the hook on a cluttered desk, a leather briefcase open with documents spilling out, fluorescent light over a rolling chair knocked sideways. Urgent, contemporary, dangerous. Style of Oliver Stone's Wall Street meets Helmut Newton.",
+    "animationPrompt": "Slow pan through a 1987 Wall Street trading firm back office at night. Ticker tape. Printouts on the floor. A phone off the hook. The camera finds a leather briefcase with documents spilling out and a rolling chair knocked sideways. The ticker machine in the corner is still running. Numbers scroll. Fade to black.",
+    "hashtags": [
+      "#WallStreet1987",
+      "#BlackMonday",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #095",
+    "title": "Black Monday",
+    "setting": "Harrington & Cole Trading · New York · October 1987",
+    "emoji": "📈",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Trader Danny Fitch was found dead in the back office of Harrington & Cole on the Sunday night before Black Monday. He had discovered an insider trading scheme running through the firm's proprietary accounts. The scheme was worth 40 million dollars. Three people stood to lose everything if Danny had gone to the SEC the following morning.",
+    "emptyState": "40 million dollars. One trader who knew. Find who needed him silent.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victor Harrington",
+            "icon": "💼",
+            "detail": "The firm's senior partner — the scheme ran through accounts he controlled."
+          },
+          {
+            "name": "Grace Nakamura",
+            "icon": "📊",
+            "detail": "The firm's compliance officer — had been processing the trades and had known they were irregular."
+          },
+          {
+            "name": "Pete Doyle",
+            "icon": "📞",
+            "detail": "The head trader — had been executing the scheme's trades and had received a cut."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Where Danny was found — documents scattered, briefcase open, phone off hook."
+          },
+          {
+            "name": "The Trading Floor",
+            "icon": "📈",
+            "detail": "The main operations area — where the scheme's trades had been executed."
+          },
+          {
+            "name": "The Partners' Suite",
+            "icon": "💼",
+            "detail": "Harrington's office area — where the scheme's account records were kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "A heavy handset — blunt force wound consistent with its weighted base."
+          },
+          {
+            "name": "Briefcase Lock Edge",
+            "icon": "💼",
+            "detail": "No wound profile match — the lock's shape is inconsistent with the wound."
+          },
+          {
+            "name": "Ticker Machine",
+            "icon": "📟",
+            "detail": "Too fixed and light for the wound — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Danny's Discovery",
+        "text": "Danny Fitch's desk holds a yellow legal pad with handwritten notes — his own analysis of the firm's proprietary trading account activity over six months. The notes identify a pattern: trades placed in accounts controlled by Harrington in the hours before major corporate announcements, consistently profitable. The final note reads: 'V.H. — insider. SEC Monday AM. 40M+.' He had been planning to report Monday morning.",
+        "alone": "Danny had been planning to report Victor Harrington to the SEC Monday morning — his notes document the insider trading pattern and the 40-million-dollar scale.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Danny's SEC plan and Victor Harrington's confirmed presence in the building Sunday night together establish both the specific threat and the person most immediately endangered by Monday morning's disclosure."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📞",
+        "heading": "The Telephone Receiver",
+        "text": "The telephone receiver — off the hook on Danny's desk — shows blood on its weighted base. The wound on Danny's skull matches the receiver base's profile: heavy, rounded, delivered from above. Danny had been at his desk when struck — his legal pad was still open, his pen still in hand. The killer had reached across the desk or had approached from the side.",
+        "alone": "Danny had been struck while working at his desk with his pen in hand — the attack had come without warning, from someone he had not been alarmed to see approach.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Danny struck without warning while working and Victor Harrington's established pattern of late-night partner floor visits at Harrington & Cole confirm the killing had the characteristics of someone Danny had expected to see in the building on a Sunday night."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📊",
+        "heading": "Grace Nakamura's Sunday",
+        "text": "Grace Nakamura had been at a family dinner in Queens from four PM until midnight — confirmed by eight family members and a restaurant receipt in Forest Hills. She had not been in Manhattan that evening. She is definitively cleared.",
+        "alone": "Grace had been at a family dinner in Queens from four PM to midnight — confirmed by eight family members and a restaurant receipt. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Grace cleared by eight family members and Pete Doyle confirmed at a client dinner in Midtown together eliminate both other suspects — only Victor Harrington's Sunday evening movements within the firm are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Harrington's Account Pattern",
+        "text": "The firm's trading records — subpoenaed after Danny's death triggers an SEC investigation — show Harrington's proprietary accounts had made 847 profitable trades in the preceding six months, each placed between two and six hours before a publicly announced corporate event. The statistical probability of this pattern occurring by chance is calculated by SEC experts as less than one in ten billion. The trades had been made on insider information.",
+        "alone": "The statistical analysis of Harrington's trades makes chance essentially impossible — the pattern demonstrates insider trading beyond any reasonable statistical doubt.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The insider trading pattern documented by Danny's notes and confirmed by statistical analysis and Harrington's 40-million-dollar exposure from Monday morning's planned SEC report confirm the killing had a specific dollar value attached — the largest financial motive in the case."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Harrington at the Firm Sunday Night",
+        "text": "The building's security log shows Victor Harrington had badged into Harrington & Cole's floor at seven PM Sunday evening and had not badged out until eleven-fifteen PM. He had been in the building for four hours and fifteen minutes on a Sunday night before Black Monday. The back office was accessible from the partners' suite through an internal corridor that did not require additional badge access.",
+        "alone": "Harrington had been in the building from seven PM to eleven-fifteen PM Sunday night — the murder window — with internal corridor access to the back office without additional badging.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Danny's SEC plan for Monday morning and Harrington in the building Sunday night with internal access to the back office confirm the killing had occurred in the window between Danny's discovery and his planned disclosure — Harrington had acted on the Sunday that separated the discovery from the report."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Danny's Knowledge Source",
+        "text": "Danny had discovered the insider trading pattern through the firm's internal trading analytics system — a program he had been authorized to run as part of his risk management role. He had run the analysis on Saturday afternoon and had spent Sunday refining his notes. He had not told anyone about his findings. The analytics system's run log shows his Saturday session — Harrington had not known Danny was running the analysis until he had seen Danny's desk.",
+        "alone": "Harrington had not known Danny was running the analysis until he saw Danny's desk that Sunday evening — the legal pad with the SEC notation had been what told him.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Danny struck while working with his pen in hand and Harrington not knowing about the analysis until he saw the desk confirm the sequence — Harrington had come to the office for routine Sunday preparation and had found Danny's notes by chance, making the killing reactive rather than premeditated."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Pete Doyle's Dinner",
+        "text": "Pete Doyle had been at a client dinner at the Four Seasons restaurant in Midtown from six PM until ten-thirty PM — confirmed by the client, the maître d', and a credit card receipt. He had not been in the firm's offices Sunday evening. He is definitively cleared.",
+        "alone": "Pete Doyle had been at the Four Seasons with a client from six PM to ten-thirty PM — confirmed by the client, the maître d', and a credit card receipt. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Grace cleared by eight family members in Queens and Pete cleared by the client dinner receipt and maître d' together eliminate both other suspects from the back office Sunday evening — Harrington's seven-to-eleven-fifteen PM presence is the only unconfirmed movement toward the back office."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📈",
+        "heading": "Black Monday's Irony",
+        "text": "The following day — Black Monday, October 19, 1987 — the stock market crashed, losing 22.6 percent of its value in a single session. Harrington's proprietary accounts, leveraged on positions taken before the crash, lost approximately 38 million dollars. The 40-million-dollar insider trading scheme that Danny had discovered was largely wiped out by the crash that occurred the day after the killing. Harrington had killed Danny to protect a position that had not survived the following day.",
+        "alone": "The Black Monday crash wiped out most of the 40-million-dollar insider trading scheme's value — Harrington had killed Danny to protect a position the market had destroyed the following day.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The insider trading pattern worth 40 million dollars and the crash wiping out most of that value the day after the killing confirm the killing's central irony — the SEC report Danny would have filed had been pre-empted by a market correction that had rendered the scheme's profits essentially worthless before any investigation had begun."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Victor Harrington",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver"
+    },
+    "epilogue": "Victor Harrington had arrived at the office for routine Sunday preparation before Black Monday. He had walked through the internal corridor to the back office and had found Danny Fitch at his desk with a legal pad that read 'V.H. — insider. SEC Monday AM. 40M+.' He had picked up the telephone receiver. He had struck once. He had left through the internal corridor at eleven-fifteen PM. Black Monday had destroyed most of the position's value the following day. The SEC investigation triggered by the murder inquiry had reconstructed the scheme and had prosecuted both the insider trading and the killing. Harrington received thirty years for murder and twelve concurrent for securities fraud. The 40 million was gone before the sentence was handed down."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #095",
+    "title": "Black Monday",
+    "setting": "Harrington & Cole Trading · New York · October 1987",
+    "emoji": "📈",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Harrington killed Danny. But Grace Nakamura had been processing the irregular trades for six months — find whether she had known they were insider trades or had been processing them in ignorance.",
+    "emptyState": "Grace processed the trades for six months. Find whether she knew what they were.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victor Harrington",
+            "icon": "💼",
+            "detail": "The killer — badge log, telephone receiver, legal pad discovery, thirty years."
+          },
+          {
+            "name": "Grace Nakamura",
+            "icon": "📊",
+            "detail": "Cleared as killer — Queens dinner confirmed. Had processed the trades for six months."
+          },
+          {
+            "name": "Pete Doyle",
+            "icon": "📞",
+            "detail": "Cleared as killer — Four Seasons confirmed. Had executed the trades and received a cut."
+          },
+          {
+            "name": "The Information Source",
+            "icon": "🕵️",
+            "detail": "The corporate insider who had been providing Harrington with advance information — identified in the SEC investigation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — Harrington's reactive killing."
+          },
+          {
+            "name": "The Compliance Office",
+            "icon": "📊",
+            "detail": "Grace's workspace — where the irregular trades had been processed and where her pattern records were kept."
+          },
+          {
+            "name": "The Trading Floor",
+            "icon": "📈",
+            "detail": "Where Pete had executed the trades — and where the scheme's operational core had run."
+          },
+          {
+            "name": "The Partners' Suite",
+            "icon": "💼",
+            "detail": "Harrington's domain — where the information source's contacts had been managed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Harrington's reactive killing."
+          },
+          {
+            "name": "Briefcase Lock Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Ticker Machine",
+            "icon": "📟",
+            "detail": "Too fixed — eliminated."
+          },
+          {
+            "name": "Grace's Compliance Records",
+            "icon": "📊",
+            "detail": "Not a weapon — but the documentation of her processing that the SEC investigation examined to determine her knowledge."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the SEC Report",
+            "icon": "💼",
+            "detail": "Harrington's reactive motive — legal pad found by chance, telephone receiver reached for."
+          },
+          {
+            "name": "Protect Complicit Processing",
+            "icon": "📊",
+            "detail": "Grace's potential concern if she had known — six months of knowingly processing irregular trades."
+          },
+          {
+            "name": "Protect the Execution Cut",
+            "icon": "📞",
+            "detail": "Pete's financial stake — a percentage cut on every insider trade he had executed."
+          },
+          {
+            "name": "Grace's Actual Knowledge Level",
+            "icon": "📊",
+            "detail": "The investigation's key question — had she known, suspected, or been genuinely unaware."
+          },
+          {
+            "name": "The Information Source's Identity",
+            "icon": "🕵️",
+            "detail": "The SEC investigation's additional thread — the corporate insider providing the advance information."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📊",
+        "heading": "Grace's Compliance Records",
+        "text": "The SEC investigation examines Grace's compliance records for the six months of irregular trading. Her files show: each trade had been flagged by the system as unusual timing; each flag had been resolved with a notation in Grace's handwriting: 'Reviewed — within parameters' or 'Reviewed — approved.' She had manually cleared every automated flag. The clearing notations show she had been aware the system had flagged the trades.",
+        "alone": "Grace had manually cleared automated flags on every insider trade for six months — each clearing was in her handwriting, showing she had been aware the system had identified the trades as unusual.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Grace's manual clearing of automated flags for six months and her subsequent explanation to the SEC about what she had understood the flags to mean together frame the central question — clearing a flag means you have seen it, but what you understood it to mean is a separate determination."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📊",
+        "heading": "What Grace Says She Knew",
+        "text": "Grace, interviewed by the SEC, says: 'The flags indicated unusual timing relative to news cycles. When I reviewed them, I was looking for system errors — data entry mistakes, timing glitches. I cleared them because I didn't find system errors. I was not looking for insider trading. My role was technical compliance, not pattern analysis.' She claims she had been checking for mechanical errors, not trading misconduct.",
+        "alone": "Grace had been clearing the flags as part of a technical compliance check for system errors — she claims she had not been performing a pattern analysis for trading misconduct.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Grace's claimed technical compliance focus and her compliance training records showing she had received insider trading pattern recognition training in 1985 present the central inconsistency — she had been trained to recognize the pattern she claims not to have seen."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Pete Doyle's Cut",
+        "text": "The trading records show Pete Doyle had received a performance bonus on top of his salary for the six months of the insider trading scheme — bonuses that, when traced, correspond directly to a percentage of the insider trading profits. Pete had known he was executing unusual trades and had received financial benefit from their profitability. His SEC interview admits he had 'suspected' the trades were based on advance information but had 'not asked questions.'",
+        "alone": "Pete had suspected the trades were based on advance information and had not asked questions — he had received a cut and had executed the trades without reporting his suspicion.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Pete's admitted suspicion and receipt of a cut and Grace's claimed unawareness despite flag-clearing present the contrast — one participant had suspected and not reported, the other claims not to have suspected despite training that would have enabled recognition."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Information Source",
+        "text": "The SEC investigation identifies the corporate insider who had been providing Harrington with advance information: a CFO at a major industrial conglomerate who had been alerting Harrington to acquisition announcements before public release. The CFO had received cash payments routed through a shell account. He had been providing information for fourteen months — the scheme had been running longer than Grace's six months of compliance records showed.",
+        "alone": "The information source had been providing advance information for fourteen months — the scheme had predated Grace's compliance involvement by eight months, and the CFO had been receiving cash through a shell account.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The scheme running fourteen months and Grace's involvement covering six months confirm the compliance processing had been added partway through — and the question of whether Grace had been brought in as a knowing participant or an unknowing technical processor is the SEC's central determination."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📊",
+        "heading": "The 1985 Training",
+        "text": "Grace's employment records show she had attended a mandatory SEC compliance training in 1985 specifically covering insider trading pattern recognition. The training materials — obtained by the investigation — include the specific pattern of pre-announcement trading timing that Grace's flags had been identifying. She had been trained to recognize the pattern. Her 1985 certification is in her personnel file.",
+        "alone": "Grace had been specifically trained in 1985 to recognize the insider trading pattern that her automated flags had been identifying for six months — the training had covered exactly what the flags had been showing.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Grace's claimed technical compliance focus and her 1985 training specifically covering the pattern her flags had identified confirm the inconsistency at the heart of her explanation — she had been trained to see what she claims not to have seen."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📊",
+        "heading": "The SEC's Finding on Grace",
+        "text": "The SEC's finding on Grace: 'Nakamura had received specific training in insider trading pattern recognition. The automated flags she manually cleared for six months corresponded directly to the pattern her training had covered. The investigation finds it more probable than not that Nakamura had recognized the pattern and had continued processing the trades without reporting. She is charged with failure to report a known securities violation and aiding and abetting insider trading.' She receives a civil penalty and a permanent securities industry bar.",
+        "alone": "The SEC finds it more probable than not that Grace had recognized the pattern — she is charged with failure to report and aiding and abetting, receiving a civil penalty and industry bar.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Grace's 1985 insider trading pattern recognition training and the SEC's 'more probable than not' finding on her knowledge confirm the legal conclusion — the training made the claimed ignorance implausible enough for the civil standard, though not the criminal standard."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Pete's Outcome",
+        "text": "Pete Doyle pleads guilty to aiding and abetting insider trading and obstruction of justice — his 'not asking questions' is found to constitute willful blindness, a legal standard that treats deliberate ignorance as equivalent to knowledge. He receives three years and disgorges his bonus payments. His guilty plea provides evidence used in the CFO's prosecution. He does not testify against Harrington — by the time his plea is entered, Harrington's murder conviction is already complete.",
+        "alone": "Pete's 'not asking questions' is found to constitute willful blindness — treated as equivalent to knowledge. He receives three years and disgorges his bonuses.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Pete admitting suspicion and not asking questions and the willful blindness finding treating deliberate ignorance as knowledge confirm the legal framework — the 'I didn't ask' defence had been specifically addressed by a doctrine designed for exactly that argument."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📈",
+        "heading": "The Black Monday Effect on the Prosecution",
+        "text": "The Black Monday crash complicates the securities fraud prosecution: the scheme's profits had been substantially wiped out before the scheme was discovered by investigators. The disgorgement orders against Harrington target the scheme's profits, most of which no longer existed. The trading records show the insider trading had made approximately 40 million dollars, of which 38 million had been lost in the crash. Harrington had killed Danny to protect 40 million dollars, had gone to prison for thirty years, and the market had taken 38 million of what he had killed for.",
+        "alone": "The crash had wiped out 38 million of the 40 million the scheme had made — Harrington had killed for 40 million and the market had taken 38 of it before the sentence.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The information source providing advance information for fourteen months and the crash wiping out most of the scheme's profits confirm the scheme's full arc — fourteen months of building a 40-million-dollar position, one Sunday night killing to protect it, and one trading session that made most of it irrelevant."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Victor Harrington",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver",
+      "motive": "Prevent the SEC Report"
+    },
+    "epilogue": "Grace Nakamura had cleared six months of automated flags that her 1985 training had specifically covered. The SEC had found it more probable than not that she had known. She received a civil penalty and a permanent bar. Pete Doyle had not asked questions and had received a cut. The willful blindness doctrine had treated his silence as knowledge. He received three years. The CFO had provided advance information for fourteen months and had received cash. He received eight years. Victor Harrington had struck Danny with a telephone receiver on a Sunday night and had gone to prison for thirty years. The market had taken 38 of the 40 million the following day. The four-person operation had produced four convictions, a civil finding, a permanent industry bar, and no money worth keeping."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #095",
+    "title": "Black Monday",
+    "setting": "Harrington & Cole Trading · New York · October 1987",
+    "emoji": "📈",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Harrington killed Danny. Grace knew and cleared the flags. Pete suspected and didn't ask. But Danny had been building his analysis for two days — find who else at the firm had known Danny was running the analytics before he confronted Harrington.",
+    "emptyState": "Danny ran his analysis for two days. Find who else knew before Sunday night.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Victor Harrington",
+            "icon": "💼",
+            "detail": "The killer — reactive, legal pad found Sunday night, thirty years."
+          },
+          {
+            "name": "Grace Nakamura",
+            "icon": "📊",
+            "detail": "Civil penalty and industry bar — cleared flags, SEC training, 'more probable than not' finding."
+          },
+          {
+            "name": "Pete Doyle",
+            "icon": "📞",
+            "detail": "Three years — willful blindness, didn't ask, disgorged bonuses."
+          },
+          {
+            "name": "Danny's Colleague Marcus Webb",
+            "icon": "💻",
+            "detail": "A fellow risk analyst — had seen Danny running the analytics Saturday and had mentioned it to someone."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — Harrington's reactive killing."
+          },
+          {
+            "name": "The Risk Analytics Room",
+            "icon": "💻",
+            "detail": "Where Danny had run the analysis Saturday — and where Marcus had seen him."
+          },
+          {
+            "name": "Pete Doyle's Trading Desk",
+            "icon": "📞",
+            "detail": "Where Marcus had told Pete about Danny's Saturday session — the information's first transmission."
+          },
+          {
+            "name": "The Partners' Suite",
+            "icon": "💼",
+            "detail": "Where the information had eventually reached Harrington — before Sunday night."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Harrington's reactive choice."
+          },
+          {
+            "name": "Briefcase Lock Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Ticker Machine",
+            "icon": "📟",
+            "detail": "Too fixed — eliminated."
+          },
+          {
+            "name": "Marcus's Information Chain",
+            "icon": "💻",
+            "detail": "Not a weapon — but the disclosure that had given Harrington warning and had changed the killing from a discovery to a preparation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the SEC Report",
+            "icon": "💼",
+            "detail": "Harrington's stated motive — but the prior warning changes whether it was reactive."
+          },
+          {
+            "name": "Protect His Cut",
+            "icon": "📞",
+            "detail": "Pete's interest — he had told Grace and Marcus that Danny was running analytics, not knowing the context."
+          },
+          {
+            "name": "Social Information Sharing",
+            "icon": "💻",
+            "detail": "Marcus's role — had mentioned Danny's analytics session casually, without understanding the consequence."
+          },
+          {
+            "name": "Prior Warning vs. Reactive Discovery",
+            "icon": "💼",
+            "detail": "The key question — Harrington's prior knowledge of Danny's analysis changes the killing from reactive to premeditated."
+          },
+          {
+            "name": "The Legal Pad's Significance",
+            "icon": "📋",
+            "detail": "What the legal pad showed — if Harrington had known Danny was running the analysis before Sunday, his account of discovering the legal pad changes."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Danny With the Telephone Receiver",
+            "icon": "📞",
+            "detail": "Harrington's confirmed role — thirty years."
+          },
+          {
+            "name": "Cleared the Automated Flags for Six Months",
+            "icon": "📊",
+            "detail": "Grace's confirmed role — civil penalty, industry bar."
+          },
+          {
+            "name": "Executed Trades Without Reporting Suspicion",
+            "icon": "📞",
+            "detail": "Pete's role — willful blindness, three years."
+          },
+          {
+            "name": "Mentioned Danny's Analytics Session to Pete",
+            "icon": "💻",
+            "detail": "Marcus's inadvertent role — casual information sharing that had given Harrington prior warning."
+          },
+          {
+            "name": "Told Harrington About Danny's Analysis Before Sunday",
+            "icon": "💼",
+            "detail": "Pete's second role — had passed Marcus's information to Harrington on Saturday afternoon."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Marcus Saw Danny on Saturday",
+        "text": "Marcus Webb — a fellow risk analyst — confirms he had seen Danny running an extended analytics session on the proprietary trading accounts on Saturday afternoon. He had noticed because the analytics program required significant compute time and had been running for several hours. He had said to Danny: 'Running the big scan?' Danny had said: 'Something like that.' Marcus had not asked further. He had mentioned it to Pete Doyle later that afternoon: 'Danny's running a deep dive on prop accounts.'",
+        "alone": "Marcus had seen Danny's analytics session Saturday and had mentioned it to Pete Doyle — the information had been in casual circulation before Danny's Sunday analysis was complete.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Marcus telling Pete about Danny's analytics session Saturday and Pete passing the information to Harrington confirm the prior warning chain — Harrington had known Danny was running a deep analysis of the proprietary accounts before he arrived at the office Sunday night."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📞",
+        "heading": "Pete Told Harrington",
+        "text": "Pete Doyle, in his SEC interview, admits: 'On Saturday afternoon Marcus told me Danny was running a deep dive on the prop accounts. I called Victor and told him. I thought he'd want to know.' He had not understood the consequence of the information — he had believed he was performing routine upward communication. Harrington had received the warning that Danny was analyzing the prop accounts approximately twenty-four hours before he arrived at the office.",
+        "alone": "Pete had called Harrington Saturday afternoon to report Danny's analytics session — Harrington had known for twenty-four hours before Sunday night.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Harrington knowing for twenty-four hours and his Sunday night office visit being the first opportunity to act confirm the killing had been premeditated — he had arrived at the office knowing what Danny had been working on and what he needed to do about it."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Premeditation Question",
+        "text": "The prior warning changes the killing's legal characterization: Harrington had claimed in his initial statement that he had arrived at the office for routine Sunday preparation and had discovered the legal pad by chance. If he had known Danny was running a prop account analysis for twenty-four hours, his Sunday night office visit had not been routine preparation — it had been a visit to find and deal with the analysis before Monday morning.",
+        "alone": "Harrington's claimed chance discovery of the legal pad is contradicted by his twenty-four-hour prior knowledge — his Sunday night visit had been purposeful, changing the killing from reactive to premeditated.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Harrington's claimed chance discovery and Pete's confirmation of the Saturday afternoon call together require a revision of the murder charge from second-degree to first-degree — the prior knowledge had converted an apparently reactive killing into a premeditated one."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Marcus's Legal Position",
+        "text": "Marcus Webb had not known about the insider trading scheme. He had mentioned Danny's analytics session to Pete as routine professional communication. He had not known Pete would tell Harrington. He had not known Harrington had reason to be concerned about a prop account analysis. The SEC investigation finds Marcus had no knowledge of the scheme and no criminal or civil liability. He is interviewed as a witness and not charged.",
+        "alone": "Marcus had been entirely unaware of the scheme — his mention to Pete had been routine professional communication with no understanding of its consequence.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Marcus's complete unawareness and his information being the chain's initiating link confirm the killing had been enabled by a piece of ordinary workplace communication — the most consequential disclosure in the chain had been the one made by the only person who had not known what he was disclosing."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Harrington's Revised Statement",
+        "text": "Confronted with Pete's admission of the Saturday call, Harrington revises his statement: 'Pete told me Danny was running analytics on the prop accounts. I went to the office Sunday to see what he had found. I had not decided what I would do. When I saw the legal pad, I made a decision.' The revision acknowledges prior knowledge but maintains the specific decision had been reactive to the legal pad's content rather than predetermined.",
+        "alone": "Harrington acknowledges the prior knowledge and Sunday night's purposeful visit but maintains the specific killing decision had been reactive to the legal pad — his revised statement introduces premeditation to the visit while claiming reactiveness to the specific act.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Harrington's purposeful Sunday night visit acknowledged and his claim of reactive decision on the legal pad present the legal distinction the prosecution and defence argue — the visit was premeditated, the question is whether the killing was."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Prosecution's Premeditation Argument",
+        "text": "The prosecution argues: Harrington had known for twenty-four hours that Danny was analyzing the accounts that contained evidence of his insider trading. He had gone to the office on a Sunday night — unusual for a partner — to find Danny. He had encountered Danny working on the analysis. The legal pad was the product of the analysis he had known was occurring. The killing had been the foreseeable consequence of going to find someone who was building a case against you.",
+        "alone": "The prosecution argues the killing was the foreseeable consequence of going to find someone building a case against you — premeditation attaches to the visit, not just the moment.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Harrington's purposeful Sunday visit and the prosecution's foreseeable consequence argument confirm the legal theory — the intent had been formed when he decided to go to the office, and the specific act had been the execution of that intent when the opportunity had presented itself."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Murder Charge's Revision",
+        "text": "Following Pete's admission and Harrington's revised statement, the murder charge is revised from second-degree to first-degree murder — premeditated killing. The jury deliberates for six hours and convicts on first-degree. The prior knowledge, the purposeful Sunday visit, and the legal pad's content as the specific trigger are all accepted as consistent with premeditation. Harrington receives life without parole, subsequently reduced to thirty years on appeal.",
+        "alone": "Harrington is convicted of first-degree murder — life without parole, reduced to thirty years on appeal. The premeditation finding is upheld.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Harrington's prior knowledge changing the killing's characterization and the first-degree conviction being upheld on appeal confirm the premeditation finding had survived legal scrutiny — the Saturday phone call had been the fact that had converted the murder charge."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Marcus's Testimony",
+        "text": "Marcus Webb testifies at Harrington's trial. He describes seeing Danny at the analytics terminal on Saturday, mentioning it to Pete, and understanding nothing of the consequence. Under cross-examination, the defence suggests Marcus had triggered the chain of events. Marcus says: 'I mentioned that a colleague was doing his job. I didn't know what his job had found. I didn't know what Victor Harrington had done. I said five words to a colleague on a Saturday afternoon.' The jury finds the defence argument unpersuasive.",
+        "alone": "Marcus testifies that he had said five words to a colleague on a Saturday — the jury finds the attempt to transfer responsibility to him unpersuasive.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Marcus's complete unawareness confirmed at trial and the jury rejecting the defence's attempt to implicate him confirm the chain's moral allocation — the information had passed through an unknowing party, and the responsibility had remained with those who had known what the information meant."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Victor Harrington",
+      "location": "The Back Office",
+      "weapon": "Telephone Receiver",
+      "motive": "Prevent the SEC Report",
+      "accomplice": "Cleared the Automated Flags for Six Months"
+    },
+    "epilogue": "Marcus Webb had said five words on a Saturday afternoon. Pete Doyle had called Harrington. Harrington had gone to the office Sunday night knowing what Danny had been doing. He had found Danny at his desk with a legal pad that confirmed what he had feared. He had picked up the telephone receiver. The first-degree conviction had been upheld. Life without parole had been reduced to thirty years. Grace had received a civil penalty and a bar. Pete had received three years and had disgorged his bonuses. The CFO had received eight years. Marcus had received nothing and had said, accurately, that he had said five words to a colleague on a Saturday afternoon. The market had taken thirty-eight million the following day. The five words had cost more than the crash."
+  }
+}
