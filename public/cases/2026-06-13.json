@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Prague, 1939. The Germans have just arrived. A British agent is dead in the clock tower. And someone in the resistance sold him out. 🕰️🔍 Case #086 — The Clockmaker. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Prague 1939, a British spy dead in the astronomical clock tower, a defection that went wrong, and a traitor inside the resistance. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior stairwell of the Prague Astronomical Clock Tower in 1939, stone steps worn smooth, a narrow window with a view of the Old Town Square below, a man's coat crumpled on the landing, a leather briefcase open and empty. Grey March light, cold stone, one oil lamp. Tense and claustrophobic, style of Carol Reed meets Jan Lukas.",
+    "animationPrompt": "Slow pan up the stairwell of the Prague Astronomical Clock Tower in 1939. Stone steps. A narrow window. The camera finds a man's coat crumpled on the landing and an open, empty leather briefcase. Grey March light through the window. The Old Town Square below. Silence. Fade to black.",
+    "hashtags": [
+      "#Prague1939",
+      "#WartimeMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #086",
+    "title": "The Clockmaker",
+    "setting": "Prague Astronomical Clock Tower · Prague · March 1939",
+    "emoji": "🕰️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "British agent Miles Hartley was found dead on the clock tower stairwell the morning after the German occupation of Prague. He had been carrying documents for a Czech official planning to defect. The briefcase was empty. Three members of the Czech resistance had known the meeting location. One of them had informed.",
+    "emptyState": "Three people knew the meeting place. One told the Germans. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Věra Novák",
+            "icon": "📚",
+            "detail": "A university librarian and resistance courier — had arranged the clock tower meeting."
+          },
+          {
+            "name": "Jan Horák",
+            "icon": "🔧",
+            "detail": "A clockmaker who maintained the tower — had provided the access key to Hartley."
+          },
+          {
+            "name": "Colonel Beneš",
+            "icon": "🎖️",
+            "detail": "The Czech official planning to defect — had agreed to the meeting location."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Tower Stairwell",
+            "icon": "🕰️",
+            "detail": "Where Hartley was found — briefcase empty, coat on the landing, single wound."
+          },
+          {
+            "name": "The Mechanism Room",
+            "icon": "⚙️",
+            "detail": "The upper chamber housing the clock's gears — accessible only with Horák's key."
+          },
+          {
+            "name": "The Old Town Square",
+            "icon": "🏙️",
+            "detail": "Below the tower — where German patrols had been stationed the previous night."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "A single shot wound to the chest — consistent with a suppressed weapon, no witnesses reported sound."
+          },
+          {
+            "name": "Clock Mechanism Gear",
+            "icon": "⚙️",
+            "detail": "A heavy brass gear from the mechanism room — no wound profile match."
+          },
+          {
+            "name": "Tower Key",
+            "icon": "🗝️",
+            "detail": "The iron access key — too blunt for the wound, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Empty Briefcase",
+        "text": "Hartley's briefcase — found open on the landing beside him — had contained the defection documents: Colonel Beneš's intelligence on German troop dispositions, signed in the Colonel's hand. The documents are gone. The briefcase's interior shows the impression of a thick document folder — the shape of what had been there. Whoever killed Hartley had taken the documents before or after the shot.",
+        "alone": "The defection documents were taken from Hartley's briefcase — the killer had known they were there and had removed them.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The documents taken from Hartley's briefcase and Dr. Novák's confirmed knowledge of the briefcase's contents establish she was one of three people who knew what Hartley was carrying — and the only one who had arranged the specific meeting location where the briefcase was found."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Suppressed Shot",
+        "text": "The wound is a single pistol shot to the chest — a professional kill. No witnesses in the square below heard a shot. A suppressed weapon had been used. Hartley had been shot on the landing rather than in the mechanism room above, suggesting he had been intercepted on his way up, not at the meeting point. The shooter had been waiting on the stairs.",
+        "alone": "Hartley was shot on the stairs before reaching the meeting room — the killer had been waiting below the meeting point, knowing he would come from below.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The killer waiting on the stairs below the meeting room and Dr. Novák's confirmed use of the tower's lower entrance that evening establish her as the person who had used the same route Hartley had taken — the same stairwell where he had been intercepted."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Colonel Beneš's Account",
+        "text": "Colonel Beneš had not attended the meeting — he had sent a message cancelling, citing increased German surveillance of his movements. He had sent the cancellation through the resistance network that afternoon. He had not been in the tower. His cancellation message, if intercepted, would have told the Germans that the meeting was still planned — only Hartley would show up without knowing it was cancelled.",
+        "alone": "Beneš had cancelled by the afternoon — only Hartley, apparently not reached by the cancellation, had come to the tower. The killer had known Hartley would come alone.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Beneš cancelling and the cancellation not reaching Hartley confirm that whoever informed the Germans had known both that the meeting was still on for Hartley and that Beneš would not be there — only the person who handled the cancellation message had both pieces of information."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Horák's Key",
+        "text": "Jan Horák had provided the tower key to Hartley through Dr. Novák two days before the meeting. Horák's own copy of the key — he held the official maintenance key — was confirmed in his workshop. He had not been to the tower the previous evening. His workshop log shows he had been working until midnight on a repair commission. The log is countersigned by his apprentice.",
+        "alone": "Horák had not been to the tower the previous evening — his workshop log confirms he was elsewhere, and his key had been transferred to Hartley through Novák two days prior.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Horák confirmed in his workshop and the key having been transferred through Novák two days prior confirm he had not been present at the tower — and that Novák had been the intermediary for the key, placing her physically in possession of it before Hartley received it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Dr. Novák's Evening",
+        "text": "Dr. Novák states she had gone to the tower that evening to check that everything was ready for the meeting — confirming the key worked and the stairwell was clear. She had departed before Hartley arrived, she claims. A watchman in the square, interviewed afterward, had seen a woman enter the tower at approximately nine PM and had not seen her leave before the tower was closed at ten PM.",
+        "alone": "A watchman saw a woman enter the tower at nine PM and had not seen her leave before closing at ten PM — Dr. Novák claims she had departed but this is not confirmed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The documents taken from Hartley's briefcase and Novák confirmed inside the tower during the murder window together place her in the tower at the time of the killing — she is the only suspect whose presence in the tower that evening is confirmed by a witness."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Novák's Gestapo Contact",
+        "text": "A document recovered from the Gestapo's Prague office after the war — declassified in 1960 — lists Dr. Věra Novák as a registered informant, code-named 'Librarian,' with payments documented from January 1939. The payments begin two months before the German occupation. She had been working for the Gestapo while operating as a resistance courier.",
+        "alone": "Declassified Gestapo records identify Dr. Novák as a registered informant with payments from January 1939 — she had been working for the Germans while inside the resistance.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The killer waiting on the stairs and Novák confirmed inside the tower during the murder window with a documented Gestapo informant history confirm she had been in position to intercept Hartley on the stairwell — the informant payments confirm her motive for the betrayal."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Cancellation Message",
+        "text": "The cancellation message Beneš had sent that afternoon — recovered from the resistance network's records — had been routed through Dr. Novák's contact point before being forwarded to Hartley. Novák had been the relay. The message had not reached Hartley. It had stopped at Novák's contact point. She had received the message and had not forwarded it — ensuring Hartley would come to the tower alone.",
+        "alone": "Beneš's cancellation message had passed through Novák's relay point and had not been forwarded — she had held it, ensuring Hartley would arrive without knowing the meeting was cancelled.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Beneš cancelling through Novák's relay and the message not reaching Hartley confirming she had suppressed it establish the operational picture — Novák had known Hartley would come alone, without Beneš, carrying the documents."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Documents' Destination",
+        "text": "The Gestapo records recovered after the war include a receipt for 'documents of intelligence value' received from 'Librarian' on the night of the clock tower incident. The documents are described as 'Czech military intelligence, signed original.' The defection documents Hartley had been carrying had been delivered to the Gestapo by Novák that same night.",
+        "alone": "Gestapo records confirm 'Librarian' — Novák's codename — had delivered the defection documents to the Gestapo on the night of the killing.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Novák's registered Gestapo informant status and her confirmed delivery of the defection documents to the Gestapo on the night of the killing confirm she had been the informant, the killer, and the courier of the stolen documents — all three roles in a single operation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Věra Novák",
+      "location": "The Tower Stairwell",
+      "weapon": "Suppressed Pistol"
+    },
+    "epilogue": "Dr. Věra Novák had been a Gestapo informant since January 1939 — two months before the occupation. She had arranged the clock tower meeting, received Beneš's cancellation, suppressed it, and waited on the stairwell. Hartley had climbed toward a meeting that had already been cancelled, unaware. She had used a suppressed pistol and had taken the briefcase's documents before descending. The documents had been delivered to the Gestapo by midnight. Horák and Beneš had both been investigated and cleared. Novák had continued working as a resistance courier until 1941, when another agent discovered her codename in a captured document. She was executed by the resistance in October 1941."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #086",
+    "title": "The Clockmaker",
+    "setting": "Prague Astronomical Clock Tower · Prague · March 1939",
+    "emoji": "🕰️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Novák killed Hartley and delivered the documents. But Horák had suspected Novák for weeks before the killing — he had noticed inconsistencies in her courier work. Find what Horák had seen and why he had not acted on it in time.",
+    "emptyState": "Horák suspected Novák before the killing. Find what he saw.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Věra Novák",
+            "icon": "📚",
+            "detail": "The killer — Gestapo informant, suppressed cancellation, tower stairwell, documents delivered."
+          },
+          {
+            "name": "Jan Horák",
+            "icon": "🔧",
+            "detail": "Cleared as killer — workshop confirmed. Had suspected Novák but had not acted in time."
+          },
+          {
+            "name": "Colonel Beneš",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — had cancelled. His cancellation had been suppressed by Novák."
+          },
+          {
+            "name": "The Gestapo Handler",
+            "icon": "🕵️",
+            "detail": "Novák's German contact — the person receiving her intelligence and managing her payments."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Tower Stairwell",
+            "icon": "🕰️",
+            "detail": "Primary crime scene — Novák's killing of Hartley."
+          },
+          {
+            "name": "The Mechanism Room",
+            "icon": "⚙️",
+            "detail": "The upper meeting point — where the meeting would have occurred if Beneš had come."
+          },
+          {
+            "name": "The Old Town Square",
+            "icon": "🏙️",
+            "detail": "Where German patrols had been — and where Novák had exited after the killing."
+          },
+          {
+            "name": "Horák's Workshop",
+            "icon": "🔧",
+            "detail": "Where Horák had been working — and where he had stored his observations about Novák."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — professional kill, single shot, Novák's Gestapo-provided equipment."
+          },
+          {
+            "name": "Clock Mechanism Gear",
+            "icon": "⚙️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Tower Key",
+            "icon": "🗝️",
+            "detail": "Too blunt — eliminated."
+          },
+          {
+            "name": "The Suppressed Cancellation",
+            "icon": "📋",
+            "detail": "Not a weapon — the operational act that had ensured Hartley came to the tower alone."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "January 1939",
+            "icon": "📅",
+            "detail": "When Novák began working for the Gestapo — two months before the occupation."
+          },
+          {
+            "name": "Two Weeks Before",
+            "icon": "📅",
+            "detail": "When Horák first noticed inconsistencies in Novák's courier work."
+          },
+          {
+            "name": "The Afternoon of the Killing",
+            "icon": "☀️",
+            "detail": "When Beneš's cancellation arrived at Novák's relay point and was suppressed."
+          },
+          {
+            "name": "Nine PM to Midnight",
+            "icon": "🌙",
+            "detail": "The killing window — Novák in the tower, Hartley intercepted, documents delivered."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "What Horák Had Noticed",
+        "text": "Horák, in his full account, reveals that two weeks before the killing he had noticed that a message he had sent through the resistance network — using Novák as relay — had not reached its intended recipient but had been acted on by the Germans within forty-eight hours. He had not been certain Novák was the leak — the message had passed through three other points. He had been building a case.",
+        "alone": "Horák had noticed a forty-eight-hour German response to a message relayed through Novák — he had suspected the leak was in her relay but had not been certain.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Horák's forty-eight-hour German response observation and his incomplete evidence at the time of the killing confirm he had been aware of the pattern but had not had sufficient certainty to act — and had not known the clock tower meeting would be the operation that confirmed it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Horák's Notebook",
+        "text": "Horák's workshop notebook — a private record he kept separate from the resistance network's official documents — contains entries over two weeks tracking three messages he had relayed through Novák and the German response times. The pattern is consistent: each message had been acted on within forty-eight hours of passing through her relay. The notebook's final entry, written the day before the killing, reads: 'Must warn before the tower meeting. Not enough time?'",
+        "alone": "Horák's notebook documents two weeks of tracking and ends with a note that he must warn before the tower meeting — written the day before the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Horák writing 'not enough time' the day before the killing and the killing occurring the following evening confirm his warning had never reached anyone — he had identified the threat with insufficient time to act on it."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Who Horák Had Tried to Warn",
+        "text": "Horák confirms he had attempted to reach Beneš directly the evening before the killing — to tell him his concerns about Novák. He had not been able to reach Beneš. He had then tried to reach the British network through a separate channel. That channel had not responded in time. He had gone to his workshop and continued his commission, working until midnight, because he had had no other option.",
+        "alone": "Horák had attempted to warn both Beneš and the British network the evening before the killing — both had failed to respond in time, leaving him able only to continue his workshop work.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Horák's failed warning attempts and his workshop alibi being the result of having exhausted his options confirm his presence in the workshop was not indifference — he had tried and failed to prevent the outcome he had foreseen."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Novák's Pattern Over Months",
+        "text": "The Gestapo records recovered after the war show Novák had been making deliveries to her handler approximately every three weeks from January through March 1939 — seven deliveries in total before the clock tower operation. The resistance network had lost assets in five of those seven cycles, each loss occurring within forty-eight hours of a message passing through Novák's relay. Horák had identified the pattern from a sample of three — the full picture was worse.",
+        "alone": "Novák had made seven Gestapo deliveries over three months — five had corresponded to resistance losses within forty-eight hours. Horák's two-week observation had captured only part of a much longer pattern.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Novák's full three-month pattern of deliveries and Horák's observation capturing only part of it confirm the resistance had been operating with an embedded informant for much longer than anyone had suspected — the clock tower had been the seventh operation, not the first."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The British Network's Response",
+        "text": "British intelligence records — also recovered after the war — show that Horák's warning attempt had been received by the British network's Prague contact at eleven PM on the night of the killing — one hour after Hartley had already been shot. The contact had immediately reported the Novák suspicion to London. London had responded the following morning. Hartley had been dead for eight hours.",
+        "alone": "The British network had received Horák's warning at eleven PM — one hour after Hartley was shot. The warning had arrived in time for the network, not for Hartley.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Horák's failed same-evening warning attempts and the British network receiving it at eleven PM confirm the communication chain had worked eventually but too slowly — the outcome had been determined by hours, not failures of intent."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Horák's Self-Assessment",
+        "text": "Horák, in a post-war interview conducted in 1948, says: 'I had two weeks of evidence and I spent two weeks being careful. I needed to be certain. In resistance work, you do not accuse without certainty — a false accusation destroys a network. By the time I was certain, Hartley was dead.' He had been applying professional caution to a situation that had required professional speed.",
+        "alone": "Horák had applied the caution required to avoid false accusations — and had been exactly too slow. He had been certain by the day before the killing, had been unable to reach anyone in time.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Horák's notebook showing he had reached certainty the day before and his assessment that caution had cost him time confirm the dilemma — resistance protocols had required certainty before accusation, and certainty had arrived with insufficient lead time."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "What Happened After the War",
+        "text": "Jan Horák survived the war and provided his notebook to Czech intelligence in 1945. The notebook — combined with the recovered Gestapo records — formed the primary documentation of Novák's informant activity. Horák was recognized for his resistance service. His notebook's final entry — 'not enough time?' — was cited in the official record of the clock tower operation as evidence of the cost of communication failure in occupied resistance networks.",
+        "alone": "Horák's notebook became primary documentation of Novák's betrayal — his 'not enough time?' entry was cited officially as evidence of communication failure under occupation.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The British warning received one hour after the killing and Horák's entry cited officially as communication failure confirm the outcome had been a systems failure as much as an individual one — multiple people had been trying to prevent it and had all been too slow."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📚",
+        "heading": "The Resistance Network's Losses",
+        "text": "Czech resistance records from January to March 1939 document eleven network members lost — arrested, killed, or forced to flee — during the period of Novák's informant activity. Five had been directly traceable to messages she had relayed. Six others had been lost through secondary exposure from those five. The clock tower had been the eleventh loss. Horák's two-week observation had identified a leak that had been running for three months.",
+        "alone": "Eleven resistance members had been lost during Novák's three months of informant activity — Horák had identified the leak after it had already cost ten lives before Hartley.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Novák's full seven-delivery pattern over three months and eleven network losses confirm the clock tower had been the culmination of a sustained operation — Hartley had been the twelfth casualty of an informant who had been active for the full period of the occupation."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Věra Novák",
+      "location": "The Tower Stairwell",
+      "weapon": "Suppressed Pistol",
+      "window": "Nine PM to Midnight"
+    },
+    "epilogue": "Horák had written 'not enough time?' the day before the killing. The answer had been no. Eleven resistance members had already been lost to Novák's deliveries before Hartley. The British network had received Horák's warning at eleven PM. Hartley had been dead since ten. Novák had continued operating until 1941. Horák's notebook had been entered into the official record. In 1948 it was cited as evidence of the cost of communication failure under occupation — which was accurate, and which was also a way of not saying that a woman named Věra Novák had killed twelve people over three months while the network had been trying to be careful enough not to accuse the wrong person."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #086",
+    "title": "The Clockmaker",
+    "setting": "Prague Astronomical Clock Tower · Prague · March 1939",
+    "emoji": "🕰️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Novák killed Hartley. Horák had suspected her and been too slow. But Colonel Beneš had cancelled for a reason he had not fully disclosed — the German surveillance he had cited was real, but it had been surveillance specifically of him, arranged by someone who knew his plans. Find who had reported Beneš's movements to the Germans.",
+    "emptyState": "Beneš was being watched. Someone reported his movements. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Věra Novák",
+            "icon": "📚",
+            "detail": "The killer — Gestapo informant, tower stairwell, suppressed cancellation, documents delivered."
+          },
+          {
+            "name": "Jan Horák",
+            "icon": "🔧",
+            "detail": "Cleared as killer — workshop confirmed, warning attempted, too slow."
+          },
+          {
+            "name": "Colonel Beneš",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — cancelled. But had been specifically surveilled, and the surveillance's source is unknown."
+          },
+          {
+            "name": "Beneš's Aide",
+            "icon": "🎖️",
+            "detail": "The officer who had managed Beneš's schedule — the person whose knowledge of his movements had been the surveillance's likely source."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Tower Stairwell",
+            "icon": "🕰️",
+            "detail": "Primary crime scene — Novák's killing of Hartley."
+          },
+          {
+            "name": "The Mechanism Room",
+            "icon": "⚙️",
+            "detail": "The planned meeting point — never reached."
+          },
+          {
+            "name": "Beneš's Office",
+            "icon": "🎖️",
+            "detail": "Where the surveillance had been focused — and where his aide had managed his schedule."
+          },
+          {
+            "name": "The Gestapo Prague Office",
+            "icon": "🕵️",
+            "detail": "Where both Novák's payments and the Beneš surveillance reports had been processed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Novák's Gestapo-provided equipment."
+          },
+          {
+            "name": "Clock Mechanism Gear",
+            "icon": "⚙️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Tower Key",
+            "icon": "🗝️",
+            "detail": "Too blunt — eliminated."
+          },
+          {
+            "name": "The Beneš Surveillance Reports",
+            "icon": "📋",
+            "detail": "Not a weapon — the intelligence that had caused Beneš to cancel, whose source reveals a second informant."
+          },
+          {
+            "name": "The Aide's Schedule Access",
+            "icon": "🎖️",
+            "detail": "Not a weapon — the operational access that had made the surveillance possible."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Gestapo Payment",
+            "icon": "📚",
+            "detail": "Novák's motive — registered informant, seven deliveries, documented payments."
+          },
+          {
+            "name": "Identify and Neutralize Defectors",
+            "icon": "🎖️",
+            "detail": "The Gestapo's operational goal — both the Beneš surveillance and the clock tower operation served this purpose."
+          },
+          {
+            "name": "Protect His Own Position",
+            "icon": "🎖️",
+            "detail": "The aide's likely motive — informing on Beneš to the Germans after the occupation had preserved his own safety."
+          },
+          {
+            "name": "Horák's Professional Caution",
+            "icon": "🔧",
+            "detail": "The structural cause of delay — resistance protocols requiring certainty before accusation."
+          },
+          {
+            "name": "Novák's Three-Month Operation",
+            "icon": "📋",
+            "detail": "The full scope — twelve casualties over three months, seven Gestapo deliveries, two informants serving different functions."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Suppressed the Cancellation Message",
+            "icon": "📋",
+            "detail": "Novák's operational act — held Beneš's message, ensuring Hartley came alone."
+          },
+          {
+            "name": "Reported Beneš's Movements",
+            "icon": "🎖️",
+            "detail": "The aide's role — reported Beneš's schedule to the Gestapo, causing the surveillance that made Beneš cancel."
+          },
+          {
+            "name": "Delivered the Defection Documents",
+            "icon": "📚",
+            "detail": "Novák's post-killing delivery — the documents reached the Gestapo that same night."
+          },
+          {
+            "name": "Attempted the Warning Too Late",
+            "icon": "🔧",
+            "detail": "Horák's role — identified the leak, warned too slowly, documented everything."
+          },
+          {
+            "name": "Observed the Tower Entry",
+            "icon": "🏙️",
+            "detail": "The watchman's role — confirmed Novák's presence in the tower, key evidence."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Beneš Surveillance Reports",
+        "text": "Gestapo records recovered after the war include, alongside Novák's informant file, a separate series of reports on Colonel Beneš's movements filed under a different codename: 'Adjutant.' The reports describe Beneš's daily schedule, his meeting locations, and his contacts with precision that could only come from someone with direct access to his office schedule. The Beneš surveillance had been conducted by a second informant inside his own command.",
+        "alone": "A second Gestapo informant codenamed 'Adjutant' had been filing reports on Beneš's schedule — the surveillance that had caused Beneš to cancel had originated inside his own office.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The 'Adjutant' informant reporting Beneš's movements from inside his office and the surveillance causing Beneš to cancel the clock tower meeting confirm the clock tower operation had failed at two levels simultaneously — Novák from the resistance side and Adjutant from the military side."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Adjutant's Identity",
+        "text": "The 'Adjutant' codename — cross-referenced with the reports' content and the payment records — points to Beneš's personal aide, Lieutenant Karel Dvořák. Dvořák had managed Beneš's schedule for eighteen months. The reports had begun five weeks after the German occupation — Dvořák had started informing within days of the Germans' arrival. His payments are smaller than Novák's but more frequent.",
+        "alone": "Lieutenant Karel Dvořák — Beneš's personal aide — had been the 'Adjutant' informant, reporting his commander's schedule to the Gestapo from within Beneš's own command.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Dvořák reporting Beneš's movements from inside his command and Beneš cancelling the clock tower meeting because of increased surveillance confirm Dvořák had been the direct cause of the cancellation — his reports had made Beneš's movements visible enough to create genuine danger."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Two Informants, One Operation",
+        "text": "The post-war intelligence analysis establishes that Novák and Dvořák had been operating independently — each reporting to different Gestapo handlers, unaware of the other. The clock tower operation had unknowingly benefited from both: Dvořák's reports had made Beneš cancel, ensuring only Hartley would come; Novák had suppressed the cancellation, ensuring Hartley would come unwarned. Neither had known the other's role.",
+        "alone": "Novák and Dvořák had operated independently, each serving different Gestapo handlers — together they had created the conditions for the clock tower killing without either knowing the other's contribution.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The two informants operating independently and their effects combining confirms the operation's success had been the product of two simultaneous penetrations neither the resistance nor the Gestapo had fully coordinated — the outcome had been more thorough than anyone had planned."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Beneš's Account of the Surveillance",
+        "text": "Colonel Beneš, in his post-war testimony, describes the surveillance he had detected: 'I knew I was being followed. I could feel it — meetings being interrupted, contacts being arrested after speaking with me. I did not know who in my command had betrayed me. I cancelled the clock tower meeting because I could not bring danger to Hartley. I did not know that Hartley would come anyway because my cancellation had been suppressed.'",
+        "alone": "Beneš had cancelled precisely to protect Hartley — he had not known his cancellation would be suppressed, turning his protective action into a death sentence.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Beneš cancelling to protect Hartley and the cancellation being suppressed to ensure Hartley came alone confirm the deepest irony of the operation — Beneš's protective instinct had been weaponised by Novák's suppression into the mechanism of Hartley's isolation."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Dvořák's Fate",
+        "text": "Lieutenant Karel Dvořák was identified as 'Adjutant' in 1946 from the recovered Gestapo files. He had survived the war working within the German administration. He was tried by a Czech court in 1947 for collaboration and treason. He received twelve years. His defence argued he had informed on Beneš's movements, not on the resistance network — a distinction the court found insufficient to mitigate the collaboration charge.",
+        "alone": "Dvořák received twelve years for collaboration — his defence that he had reported only military movements rather than resistance operations was rejected by the court.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Dvořák's identity as the 'Adjutant' informant and his twelve-year sentence confirm the second penetration of the clock tower operation had been identified and prosecuted — the distinction between military and resistance reporting had not protected him from the consequences of enabling the German surveillance that had contributed to Hartley's death."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Operation's Intelligence Value to the Gestapo",
+        "text": "Post-war German intelligence records assess the clock tower operation's value: the defection documents Novák had delivered had provided German command with Czech military intelligence that had been used in planning the occupation's first administrative phase. The intelligence value is assessed as significant. The operation had achieved more than simply killing a British agent — it had converted a defection attempt into a German intelligence gain.",
+        "alone": "The stolen defection documents had been used in planning the occupation's administrative phase — the clock tower operation had been strategically significant beyond the killing of one agent.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The two informants combining independently to enable the operation and the documents being used in occupation planning confirm the clock tower killing had been part of a broader intelligence operation whose full scope neither informant had been aware of — each had served a piece of a plan larger than their own handler had disclosed to them."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Horák's View of the Full Picture",
+        "text": "Horák, shown the post-war analysis in 1948, reads it carefully. He says: 'I identified one leak. There were two. I was watching Novák's relay points. Dvořák was inside Beneš's office. I could not have seen Dvořák from where I was standing. My warning would have stopped Novák and left Dvořák in place.' He pauses. 'Beneš would still have been watched. There would have been another operation.'",
+        "alone": "Horák acknowledges that even a successful warning about Novák would not have identified Dvořák — the second penetration would have remained in place.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Beneš detecting the surveillance and Horák acknowledging a second informant would have remained undetected confirm the clock tower outcome had been the product of a penetration deeper than any single warning could have addressed — even success would have been partial."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🕰️",
+        "heading": "The Clock Tower Today",
+        "text": "The Prague Astronomical Clock Tower continues to strike on the hour as it has since 1410. Jan Horák's notebook is held in the Czech National Archives. It is occasionally shown to researchers studying resistance operations under occupation. The notebook's final entry — 'not enough time?' — is displayed in a small exhibition on the occupation period in the Old Town Hall. Věra Novák's name appears in the exhibition without a photograph. Karel Dvořák's name does not appear at all.",
+        "alone": "The clock tower still strikes. Horák's notebook is in the archives. Novák's name is in the exhibition. Dvořák's is not. The clock marks time without distinguishing between those it counted out.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The operation's strategic significance and the incomplete historical record — Novák named, Dvořák omitted — confirm that the full picture of what had happened in the tower had taken decades to emerge and had still not fully entered public memory."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Věra Novák",
+      "location": "The Tower Stairwell",
+      "weapon": "Suppressed Pistol",
+      "window": "Nine PM to Midnight",
+      "motive": "Gestapo Payment"
+    },
+    "epilogue": "Two informants had penetrated the clock tower operation from different directions. Novák had suppressed the cancellation. Dvořák had reported the movements that caused it. Neither had known the other. Hartley had climbed the stairs toward a meeting that had ended before it began. Horák had been two weeks too slow and one informant short. Beneš had cancelled to protect a man he could not reach. The documents had been used to administer an occupation. The clock had struck ten when Hartley died, and it had struck ten every night since. Jan Horák's notebook ends on a question. The archives do not answer it."
+  }
+}

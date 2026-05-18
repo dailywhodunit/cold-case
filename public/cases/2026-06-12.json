@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Venice, 1780. Carnival. A masked figure found dead in the Piazza. Nobody can say who they were — because nobody saw their face. 🎭🔍 Case #085 — The Mask. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Venice Carnival 1780, a masked victim, a mistaken identity, and a killer who thought they were killing someone else entirely. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Venice Carnival in 1780 at night, the Piazza San Marco lit by torches and lanterns, masked revelers in bauta and moretta masks, a fallen figure in a black domino cloak beside a colonnaded archway, a mask on the stone pavement beside them. Torchlight and deep shadow, gold and black, carnival excess. Style of Pietro Longhi meets Francisco Goya.",
+    "animationPrompt": "Slow pan through Venice Carnival night 1780. Torchlit Piazza San Marco. Masked revelers. The camera finds a fallen figure in a black domino cloak beside a colonnaded archway — a bauta mask on the stone pavement beside them. Torchlight flickers. The crowd moves past without stopping. Fade to black.",
+    "hashtags": [
+      "#VeniceCarnival",
+      "#1780Mystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #085",
+    "title": "The Mask",
+    "setting": "Piazza San Marco · Venice · Carnival · 1780",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "A figure in a black domino cloak and bauta mask was found dead beneath the colonnade of the Piazza San Marco on the third night of Carnival. Nobody had seen the victim's face. The dead man turned out to be a merchant named Foscari — not the man the killer had intended to find in that costume. Three suspects had reason to want the man they thought was wearing that mask.",
+    "emptyState": "The killer struck the wrong person. Find who they meant to kill.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Bianca Morosini",
+            "icon": "💍",
+            "detail": "A Venetian noblewoman — had been deceived by a man she believed wore the black domino costume."
+          },
+          {
+            "name": "Paolo Grimani",
+            "icon": "⚖️",
+            "detail": "A merchant rival — had been threatened by the man he believed wore the black domino."
+          },
+          {
+            "name": "Fra Sebastiano",
+            "icon": "✝️",
+            "detail": "A friar — had been blackmailed by the man he believed wore the black domino."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Colonnade",
+            "icon": "🏛️",
+            "detail": "Where the victim was found — beneath the Piazza's arches, away from the main crowd."
+          },
+          {
+            "name": "The Piazza",
+            "icon": "🎭",
+            "detail": "The main carnival space — where all three suspects had been during the evening."
+          },
+          {
+            "name": "The Canal Embankment",
+            "icon": "🚣",
+            "detail": "The waterside behind the Piazza — where the killer had departed after the attack."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Blade",
+            "icon": "🗡️",
+            "detail": "A narrow puncture weapon — wound consistent with a Venetian stiletto's length and gauge."
+          },
+          {
+            "name": "Carnival Torch",
+            "icon": "🔦",
+            "detail": "A heavy resin torch — wound profile inconsistent with its blunt end."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "The colonnade stone — no wound consistent with blunt impact, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "👔",
+        "heading": "The Black Domino Costume",
+        "text": "The black domino cloak and bauta mask had been a deliberately chosen costume — the dead man Foscari had hired the costume from a rental shop on the Merceria. However, investigation reveals that the same shop had rented an identical black domino and bauta to another customer two days prior: a man named Corradini, a merchant known to all three suspects as a mutual adversary. Corradini had been expected to wear that costume to the Carnival.",
+        "alone": "The same costume had been rented by Corradini two days before — all three suspects had reason to expect Corradini in a black domino and bauta mask at the Carnival.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The identical costume rented by Corradini and the Countess's confirmed knowledge of Corradini's planned costume together confirm she had gone to the Carnival expecting to find Corradini wearing a black domino — and had found Foscari in his place."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗡️",
+        "heading": "The Stiletto Wound",
+        "text": "The wound is a single narrow puncture to the back — a stiletto thrust delivered from behind while the victim stood beneath the colonnade. The blade had been thrust upward at an angle consistent with a shorter assailant striking a taller victim from behind. The wound is clean and deliberate — not the blow of a panic or struggle but of a resolved approach from behind.",
+        "alone": "A single deliberate stiletto thrust from behind — the killer had approached without the victim turning, indicating either stealth or an expected encounter.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The thrust from behind indicating stealth or expected encounter and the Countess's shorter stature relative to the male victim together confirm the wound angle is consistent with the Countess's height — she is the shorter assailant the angle implies."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "Grimani's Position",
+        "text": "Paolo Grimani had been at the center of the Piazza during the evening, surrounded by business associates who had been with him continuously. He had made no movement toward the colonnade. He is definitively cleared.",
+        "alone": "Grimani was surrounded by business associates continuously in the center of the Piazza — he had not approached the colonnade. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Grimani cleared at the center of the Piazza and Fra Sebastiano confirmed at the church confessionals throughout the evening together eliminate both other suspects — only the Countess's movements toward the colonnade remain unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💍",
+        "heading": "The Countess's Grievance",
+        "text": "The Countess Morosini had been deceived by Corradini in a land transaction — he had sold her title to a property in Murano that he did not legally own. She had lost 400 ducats and the property. She had been pursuing legal redress for six months without success. A letter in her possession — addressed to Corradini and never sent — reads: 'At Carnival, all accounts are settled. No mask can protect a debtor forever.'",
+        "alone": "The Countess had written that Carnival was where accounts would be settled — and that no mask would protect the debtor, implying she had known he would be masked.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The Countess's letter saying no mask would protect and the stiletto wound angle consistent with her shorter stature together confirm she had gone to the Carnival intending to confront and kill Corradini — and had killed Foscari by mistake."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "The Countess and the Costume",
+        "text": "A carnival costume vendor confirms the Countess had visited his stall two days before the murder and had asked whether he knew what costume 'a particular merchant' was planning to wear. The vendor had described Corradini's black domino rental from the Merceria shop — information that had circulated among the vendors. She had specifically sought out Corradini's planned costume before the Carnival.",
+        "alone": "The Countess had specifically sought out and found Corradini's planned costume before the Carnival — she had gone to the Piazza knowing to look for a black domino and bauta mask.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The identical costume rented by Corradini and the Countess's advance knowledge of his planned costume confirm she had gone to the Piazza targeting a specific masked figure — and had found the wrong man wearing the same costume."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎭",
+        "heading": "The Mask on the Pavement",
+        "text": "The bauta mask found beside the body had been disturbed — the chin piece had been lifted slightly, as though someone had reached to lift it and then stopped. The killer had apparently begun to check the victim's face after the attack and had stopped — possibly interrupted by approaching footsteps or revelers. The disturbed mask suggests the killer had acted before confirming identity.",
+        "alone": "The mask had been partially lifted after the killing — the killer had begun to check who was beneath it and had stopped, suggesting they had acted before confirming identity.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The killer approaching from behind without the victim turning and the mask partially lifted after the attack together confirm the sequence: the Countess had struck without seeing the face, had then begun to check, and had been interrupted before discovering the error."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Fra Sebastiano's Evening",
+        "text": "Fra Sebastiano had been conducting Carnival confessions in the church of San Zaccaria — a traditional service during the festival period. The church's sacristan confirms he had been at the confessional from sunset until the bells of midnight. He had not been in the Piazza. He is definitively cleared.",
+        "alone": "Fra Sebastiano was at the confessional from sunset to midnight — confirmed by the sacristan. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Grimani cleared at the Piazza center and Fra Sebastiano cleared at the confessional together leave the Countess as the only suspect with unconfirmed movements near the colonnade during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "The Countess's Account",
+        "text": "The Countess, when the victim's identity is revealed as Foscari rather than Corradini, has a visible reaction that investigators note as 'a sustained stillness followed by a sound she made only once.' She had not known Foscari. She had not intended to kill him. She had gone to the Piazza, found a black domino and bauta mask at the agreed location — the colonnade — and had acted. She had not seen the face beneath the mask.",
+        "alone": "The Countess's reaction to Foscari's identity confirms she had not known who she was killing — her intended target had been Corradini, not the merchant Foscari.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The Countess's letter promising Carnival settlement and her reaction confirming she had killed the wrong man together establish the full tragedy of mistaken identity — she had killed a man who owed her nothing, while the man she blamed remained alive."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Countess Bianca Morosini",
+      "location": "The Colonnade",
+      "weapon": "Stiletto Blade"
+    },
+    "epilogue": "Countess Bianca Morosini had gone to the Piazza San Marco with a stiletto and a knowledge of Corradini's planned costume. She had found a black domino and bauta mask at the colonnade — Foscari, who had rented the same costume from a different shop, having coincidentally chosen the same location to avoid the crowd. She had struck from behind. She had begun to check the face and had been interrupted. Corradini had been on the other side of the Piazza all evening in a different costume — he had changed his mind about the domino at the last moment and had worn a harlequin instead. Foscari was a cloth merchant with no connection to any of the suspects. The Countess received five years. Corradini was alive and owed her 400 ducats."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #085",
+    "title": "The Mask",
+    "setting": "Piazza San Marco · Venice · Carnival · 1780",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "The Countess killed the wrong man. But Corradini had changed his costume at the last minute — find who told him to change and why, and whether it was coincidence or a deliberate act that saved his life.",
+    "emptyState": "Corradini changed his costume. Find who told him and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Bianca Morosini",
+            "icon": "💍",
+            "detail": "The killer — stiletto, wound angle, advance costume knowledge, killed the wrong man."
+          },
+          {
+            "name": "Paolo Grimani",
+            "icon": "⚖️",
+            "detail": "Cleared as killer — Piazza center confirmed. But had spoken to Corradini that afternoon."
+          },
+          {
+            "name": "Fra Sebastiano",
+            "icon": "✝️",
+            "detail": "Cleared as killer — confessional confirmed. But had heard something relevant in confession."
+          },
+          {
+            "name": "Corradini",
+            "icon": "🎭",
+            "detail": "The intended victim — had changed his costume at the last minute and survived the evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Colonnade",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Foscari's death, mask on pavement, Countess's attack."
+          },
+          {
+            "name": "The Piazza",
+            "icon": "🎭",
+            "detail": "Where Corradini had been — in a harlequin costume, not the black domino."
+          },
+          {
+            "name": "The Canal Embankment",
+            "icon": "🚣",
+            "detail": "Where the Countess had departed after the attack."
+          },
+          {
+            "name": "Corradini's Palazzo",
+            "icon": "🏛️",
+            "detail": "Where the costume change had been decided — and where someone had visited that afternoon."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Blade",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Countess's, wound angle consistent with her height."
+          },
+          {
+            "name": "Carnival Torch",
+            "icon": "🔦",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "No blunt impact wound — eliminated."
+          },
+          {
+            "name": "The Costume Change",
+            "icon": "🎭",
+            "detail": "Not a weapon — the decision that had saved Corradini's life, whose origin is the investigation's new question."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "400-Ducat Land Fraud",
+            "icon": "💍",
+            "detail": "The Countess's motive — Corradini had sold her fraudulent title to Murano property."
+          },
+          {
+            "name": "Business Rivalry",
+            "icon": "⚖️",
+            "detail": "Grimani's motive — Corradini had been undercutting him in cloth trading."
+          },
+          {
+            "name": "Blackmail",
+            "icon": "✝️",
+            "detail": "Fra Sebastiano's motive — Corradini had been extorting him over a past confession's content."
+          },
+          {
+            "name": "Survival Instinct",
+            "icon": "🎭",
+            "detail": "Corradini's possible reason for changing — if he had been warned, the change was deliberate protection."
+          },
+          {
+            "name": "Coincidence",
+            "icon": "🎭",
+            "detail": "The alternative explanation — Corradini had simply changed his mind about the costume for unrelated reasons."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "Grimani's Afternoon Visit",
+        "text": "Corradini's servant confirms that Paolo Grimani had visited Corradini's palazzo that afternoon — the day of the killing. The visit had lasted approximately thirty minutes. Grimani had not mentioned this visit in his initial account. When confronted, he confirms the visit and says he had gone to discuss a trade dispute. He had not mentioned the black domino costume. He claims he had not known about the Countess's plan.",
+        "alone": "Grimani had visited Corradini's palazzo the afternoon of the killing but had not mentioned it — the visit's full content is unknown from his initial account.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Grimani's unmentioned afternoon visit and Corradini's costume change that evening present the timing connection — the visit had occurred hours before the Carnival, which is when the costume decision would have been made."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "What Grimani Had Said",
+        "text": "Grimani, pressed further, reveals he had told Corradini that afternoon: 'I have heard that someone intends you harm at the Carnival. I will not say more than that.' He had warned Corradini vaguely without naming the Countess or specifying the costume. He had believed Corradini would take appropriate precautions. He had not known Corradini would change his costume specifically.",
+        "alone": "Grimani had warned Corradini that someone intended him harm at the Carnival — a vague warning that had led Corradini to change his recognizable costume.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Grimani warning Corradini vaguely and Corradini changing from the rented domino to a harlequin confirm the warning had been effective — Corradini had understood that his known, pre-arranged costume was the vulnerability and had changed it."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "What Fra Sebastiano Had Heard",
+        "text": "Fra Sebastiano, released from the seal of confession, reveals that earlier in the week a penitent had confessed to planning harm at the Carnival against a specific individual. He had not been able to name the penitent to Grimani directly — but he had told Grimani that 'a serious harm is planned for Carnival and I cannot speak further.' Grimani had inferred the target from his own knowledge of the Corradini disputes.",
+        "alone": "Fra Sebastiano had received a confession of planned harm and had told Grimani obliquely — Grimani had connected the warning to Corradini from his own knowledge of who had enemies.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Fra Sebastiano's oblique warning enabling Grimani's inference and Grimani's vague warning to Corradini saving his life confirm the chain of partial information had achieved what direct disclosure could not — protecting someone through indirection."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Why Corradini Changed",
+        "text": "Corradini, interviewed after the killing, confirms Grimani's account. He says: 'Grimani told me someone intended harm. I knew I had enemies. I had rented the domino — it was known. I chose instead the harlequin, which no one expected. I stayed in the Piazza where I could be seen.' He had understood the vulnerability of his planned recognizable costume and had acted to neutralize it.",
+        "alone": "Corradini had understood that his pre-arranged costume was the vulnerability and had deliberately chosen something unexpected — staying in the open where he could be seen.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Corradini choosing to be visible and unexpected after the warning and the Countess killing Foscari in the domino he had abandoned confirm the warning had been precisely effective — his survival had depended on being visible and on not wearing the costume his enemies expected."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💍",
+        "heading": "The Countess's Confession",
+        "text": "Fra Sebastiano confirms, without identifying the penitent, that the confession of planned harm at the Carnival had been made by a woman. The Countess Morosini had been to confession that week. Fra Sebastiano had not named her to Grimani — he had given only the oblique warning. The chain that had saved Corradini had begun with the Countess's own confession of her intent.",
+        "alone": "The confession that had warned Corradini had been made by the Countess herself — she had confessed her plan and had inadvertently set in motion the chain that saved her intended victim.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Fra Sebastiano receiving the Countess's confession and using it to warn Grimani obliquely confirm the Countess's own act of confession had been the origin of Corradini's survival — she had confessed an intent that had been relayed, transformed, and had ultimately protected her target."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "The Costume Shop's Other Domino",
+        "text": "The Merceria costume shop confirms that after Corradini had rented the black domino, another customer had rented an identical costume from a different shop two days later — this was Foscari. The shops had no connection and no knowledge of each other's rentals. The Piazza on Carnival night had two men in identical black domino and bauta costumes, one of whom had been the Countess's target and one of whom had not.",
+        "alone": "Two men had been wearing identical costumes — Corradini's rental from the Merceria and Foscari's from a different shop. The Countess had known only that her target would be in a black domino.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Grimani's afternoon warning enabling Corradini's costume change and the second identical domino existing by coincidence confirm the killing had involved two separate chance elements — Corradini's survival and Foscari's death had each depended on independent coincidences converging."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "The Countess and the Confession",
+        "text": "The Countess, when informed that Fra Sebastiano had received her confession and had used it obliquely to warn Grimani — who had warned Corradini — who had changed his costume — is silent for a long time. She then says: 'I confessed my intent to a priest. He told someone. That someone warned the man I intended. And I killed a cloth merchant instead.' She asks no further questions about the chain.",
+        "alone": "The Countess traces the complete chain from her own confession to Foscari's death — she understands that she had set her own plan's failure in motion by confessing it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Countess's confession starting the warning chain and her tracing the full sequence after confirm the extraordinary irony — the religious act of confession had protected her intended victim while leaving her to face the consequences of killing an unintended one."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "Corradini's Legal Status",
+        "text": "Following the investigation, Corradini's land fraud against the Countess is fully documented and brought before the Venetian magistrate. The 400-ducat loss is confirmed as fraudulent. Corradini is ordered to repay the full amount with penalty. The legal redress the Countess had been pursuing for six months is granted three months after she killed the wrong man while trying to take it into her own hands.",
+        "alone": "Corradini was ordered to repay the Countess's 400 ducats with penalty — the legal remedy she had abandoned in favor of violence was granted after the killing.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Corradini surviving because of the Countess's own confession and the legal remedy granted after the killing confirm the full irony — had she waited for the law, the law had been about to work in her favor."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Countess Bianca Morosini",
+      "location": "The Colonnade",
+      "weapon": "Stiletto Blade",
+      "motive": "400-Ducat Land Fraud"
+    },
+    "epilogue": "Countess Bianca Morosini had confessed her plan to Fra Sebastiano, who had told Grimani obliquely, who had warned Corradini, who had changed his costume. She had gone to the Piazza and found Foscari — a cloth merchant from the Rialto who had rented the same costume by coincidence and had chosen the colonnade to rest his feet. She had killed him. Corradini had been across the Piazza in a harlequin mask, visible and alive. The magistrate had ordered his repayment three months later. The Countess received five years. Corradini paid the 400 ducats and the penalty. Fra Sebastiano continued his Carnival confessions the following year. Foscari's wife received nothing."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #085",
+    "title": "The Mask",
+    "setting": "Piazza San Marco · Venice · Carnival · 1780",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "The Countess killed the wrong man. Her confession warned Corradini. But Fra Sebastiano had received two confessions that week about Corradini — one from the Countess about violence, and one from Corradini himself about the fraud. Find what Corradini had confessed and what it reveals about his own awareness of his exposure.",
+    "emptyState": "Corradini had also confessed that week. Find what he said.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Bianca Morosini",
+            "icon": "💍",
+            "detail": "The killer — stiletto, wrong victim, her own confession starting the warning chain."
+          },
+          {
+            "name": "Paolo Grimani",
+            "icon": "⚖️",
+            "detail": "Cleared as killer — Piazza center confirmed. Warned Corradini using Fra Sebastiano's oblique alert."
+          },
+          {
+            "name": "Fra Sebastiano",
+            "icon": "✝️",
+            "detail": "Cleared as killer — confessional confirmed. Received two relevant confessions that week."
+          },
+          {
+            "name": "Corradini",
+            "icon": "🎭",
+            "detail": "The intended victim — survived, changed costume, knew he had enemies, had himself confessed that week."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Colonnade",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Foscari's death."
+          },
+          {
+            "name": "The Piazza",
+            "icon": "🎭",
+            "detail": "Where Corradini had been in the harlequin costume — visible and protected."
+          },
+          {
+            "name": "The Church of San Zaccaria",
+            "icon": "✝️",
+            "detail": "Where Fra Sebastiano had received both confessions — and where the Countess and Corradini had both sought absolution that week."
+          },
+          {
+            "name": "Corradini's Palazzo",
+            "icon": "🏛️",
+            "detail": "Where Grimani had visited and Corradini had made his costume decision."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Blade",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Countess's, wrong victim."
+          },
+          {
+            "name": "Carnival Torch",
+            "icon": "🔦",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "No blunt impact — eliminated."
+          },
+          {
+            "name": "The Confession Seal",
+            "icon": "✝️",
+            "detail": "Not a weapon — but the protection of confession had been the instrument through which both the warning and Corradini's own awareness had operated."
+          },
+          {
+            "name": "Corradini's Self-Knowledge",
+            "icon": "🎭",
+            "detail": "Not a weapon — his awareness of his own exposure had shaped his survival strategy."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "400-Ducat Revenge",
+            "icon": "💍",
+            "detail": "The Countess's motive — land fraud, legal failure, Carnival as final resort."
+          },
+          {
+            "name": "Business Rivalry Protection",
+            "icon": "⚖️",
+            "detail": "Grimani's motive for warning Corradini — protecting himself from Corradini's death complicating their dispute."
+          },
+          {
+            "name": "Seek Absolution for the Fraud",
+            "icon": "✝️",
+            "detail": "Corradini's motive for confessing — he had known his actions against the Countess were fraudulent and had sought religious relief."
+          },
+          {
+            "name": "Corradini's Awareness of Enemies",
+            "icon": "🎭",
+            "detail": "What his confession reveals — he had known he was exposed and had been thinking about his safety."
+          },
+          {
+            "name": "The Legal System's Inadequacy",
+            "icon": "⚖️",
+            "detail": "The structural cause — the Countess had lost faith in legal process six months before the killing."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Received the Countess's Confession",
+            "icon": "✝️",
+            "detail": "Fra Sebastiano's first relevant reception — the Countess's plan for Carnival."
+          },
+          {
+            "name": "Received Corradini's Confession",
+            "icon": "✝️",
+            "detail": "Fra Sebastiano's second relevant reception — Corradini's acknowledgment of the fraud and his enemies."
+          },
+          {
+            "name": "Warned Grimani Obliquely",
+            "icon": "⚖️",
+            "detail": "Fra Sebastiano's action — used Grimani as an intermediary to protect Corradini without naming names."
+          },
+          {
+            "name": "Warned Corradini Vaguely",
+            "icon": "🎭",
+            "detail": "Grimani's action — told Corradini someone meant him harm without naming the Countess or the costume."
+          },
+          {
+            "name": "Changed His Costume",
+            "icon": "🎭",
+            "detail": "Corradini's action — abandoned the recognizable domino for the unexpected harlequin."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Corradini's Confession",
+        "text": "Fra Sebastiano reveals, after the investigation's expanded scope, that Corradini had also come to confession that week — two days before the Carnival. Corradini had confessed to defrauding the Countess Morosini in the Murano property transaction. He had said: 'I have wronged a woman who trusted me. I know she has tried the law and failed. I know there are others who wish me ill. I fear Carnival.' He had confessed the specific fraud to the specific priest who had also heard the specific threat against him.",
+        "alone": "Corradini had confessed the Countess's fraud to Fra Sebastiano two days before Carnival — and had explicitly expressed fear of Carnival, naming it as a time of danger.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Corradini confessing the fraud and fearing Carnival specifically and the Countess confessing her plan to the same priest in the same week confirm both parties had sought the same absolution from the same confessor within days of each other — Fra Sebastiano had been at the center of the full situation without naming either party to the other."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Fra Sebastiano's Position",
+        "text": "Fra Sebastiano, asked how he had managed receiving confessions from both parties in the same week, says: 'I am bound by the seal. I gave each absolution. I could not tell either what the other had said. I could not tell the woman to stop. I could not tell the man who intended harm to him. I could only — with great care — make it possible for someone not bound by the seal to act.' He had navigated the seal's constraints with precision.",
+        "alone": "Fra Sebastiano had used Grimani as the uninstructed intermediary because Grimani was not bound by the seal — he had created a warning path without violating the confession's protection.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fra Sebastiano using Grimani as an uninstructed intermediary and Corradini already fearing Carnival confirm the warning had reached fertile ground — Corradini's own fear had made him receptive to Grimani's vague alert in a way that a less worried man might not have been."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Corradini's State of Mind",
+        "text": "Corradini explains that when Grimani had warned him vaguely, he had not needed details: 'I had confessed what I had done. I knew the Countess had failed at law. I knew others also wished me ill. When Grimani said someone intended harm at Carnival, I did not ask who. I changed my costume. I stayed in the light. I knew something was coming — I did not know what.' His own confession had prepared him to receive the warning without needing specifics.",
+        "alone": "Corradini's own awareness of his exposure had made Grimani's vague warning immediately actionable — he had already known the general threat and had only needed confirmation that it was Carnival-specific.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Corradini's confession preparing him to act on vague warning and his costume change and public visibility confirming effective self-protection establish that the chain's final link had worked because Corradini had already been primed — his own guilt had made him alert to danger."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💍",
+        "heading": "The Countess's Unanswered Question",
+        "text": "After the investigation reveals the full chain — her confession, Fra Sebastiano's oblique warning, Grimani's visit, Corradini's costume change — the Countess asks one question: 'If he confessed the fraud to the same priest — why did no one tell me to wait for the law to work?' Fra Sebastiano answers: 'Because you had already told me what you intended to do at Carnival. I did not know the law would grant you remedy.'",
+        "alone": "The Countess had confessed her violent intent before the legal process had run its course — Fra Sebastiano had not known the magistrate would eventually rule in her favor.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The Countess confessing violent intent before the legal outcome and Fra Sebastiano not knowing the law would work confirm the timing tragedy — had she confessed doubt instead of intent, or waited two more months, the legal outcome would have rendered the killing unnecessary."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "The Week of Two Confessions",
+        "text": "Fra Sebastiano's confession log — which records only date and duration, not content — shows two entries in the week before Carnival: one lasting twelve minutes and one lasting twenty. Both are in the period when the Countess and Corradini had each come to San Zaccaria. The same priest, the same week, had received the perpetrator's plan and the victim's guilt — and had protected each from the other through the seal.",
+        "alone": "The log confirms both confessions occurred in the same week — the perpetrator and the intended victim had both sought absolution from the same confessor within days of each other.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Both confessions in the same week and Fra Sebastiano protecting each party from the other confirm the extraordinary moral position the friar had occupied — bound to silence to both, he had found the only path that saved a life without breaking the seal."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "Grimani's Motive for Warning",
+        "text": "Grimani, asked why he had warned Corradini rather than staying uninvolved, says: 'Corradini owed me money from a trade dispute. If he died, I would never recover it. I warned him for practical reasons. I am not pretending otherwise.' His warning had been financially motivated — the chain that saved Corradini's life had been driven by debt recovery, not altruism.",
+        "alone": "Grimani had warned Corradini because Corradini's death would have cost him an outstanding debt — the warning had been a financial calculation, not a moral one.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Fra Sebastiano using Grimani as an uninstructed intermediary and Grimani acting from financial self-interest confirm the warning chain's irony — a life had been saved through a combination of a priest's careful moral navigation and a merchant's debt recovery calculation."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Foscari's Irrelevance",
+        "text": "The investigation establishes that Marco Foscari — the cloth merchant who had died in the colonnade — had no connection to Corradini, the Countess, Grimani, Fra Sebastiano, or any element of the dispute. He had chosen the black domino costume because his wife had suggested it. He had gone to the colonnade to avoid the crowd's noise, which had been giving him a headache. He had been resting when the Countess had found him.",
+        "alone": "Foscari had been entirely disconnected from all parties and had died because he had chosen a costume and a location by chance — his death had been the product of coincidences he had no part in creating.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The Countess's timing tragedy and Foscari's complete innocence and coincidental death confirm the full weight of what her early confession had set in motion — a man with no connection to any of the parties had died because a sequence of moral decisions, financial calculations, and coincidences had converged on him."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Fra Sebastiano's Assessment",
+        "text": "Fra Sebastiano, in the final interview of the investigation, is asked whether he believes the outcomes were just. He says: 'The woman who committed fraud lives and repays a debt. The woman who killed an innocent man receives five years. The priest who found a path through the seal saved one life and could not save another. The cloth merchant who chose a costume rests in San Michele. I do not know what justice looks like in this. I know what happened.'",
+        "alone": "Fra Sebastiano declines to assess the justice of the outcomes — he offers only the facts of what occurred, without claiming any of it resolved correctly.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Grimani's financial motive saving Corradini and Fra Sebastiano's refusal to assess the justice of the outcome together confirm the chain's moral complexity — the life saved had been saved by self-interest, and the life lost had been lost to coincidence, and the priest who had navigated the seal would not say whether any of it had been just."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Countess Bianca Morosini",
+      "location": "The Colonnade",
+      "weapon": "Stiletto Blade",
+      "motive": "400-Ducat Land Fraud",
+      "accomplice": "Received the Countess's Confession"
+    },
+    "epilogue": "Marco Foscari had chosen a costume and a location. Countess Bianca Morosini had chosen violence before the law had finished working. Corradini had confessed guilt and changed a costume. Grimani had warned a debtor to protect a debt. Fra Sebastiano had navigated the seal of confession with such precision that a man had lived who would otherwise have died, and a man had died who had no part in any of it. Corradini paid the 400 ducats and the penalty. The Countess served five years. Grimani recovered his debt. Fra Sebastiano conducted Carnival confessions the following year and the year after that. Foscari's wife received nothing. His wife had suggested the costume."
+  }
+}

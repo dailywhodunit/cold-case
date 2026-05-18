@@ -1,0 +1,738 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Scottish Highlands, 1745. A Jacobite hideout after Culloden. A fugitive found dead in the farmhouse. And only the loyalists inside could have done it. ⚔️🔍 Case #079 — After Culloden. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Scottish Highlands 1745, Jacobite fugitives hiding from Redcoats, one of them dead at dawn, and a betrayal that cuts deeper than politics. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1745 Scottish Highland farmhouse at night, rough stone walls and a peat fire glowing, tartan cloaks draped over a wooden bench, a broadsword leaning against the wall, a figure slumped near the hearth. Rain against the small windows, firelight, deep shadow. Stark and desperate, style of Henry Raeburn meets Caspar David Friedrich.",
+    "animationPrompt": "Slow pan through a 1745 Scottish Highland farmhouse at night. Stone walls. Peat fire glowing. Tartan on a bench. The camera finds a broadsword leaning against the wall — and a figure slumped near the hearth. Rain against the window. The fire pops. Silence. Fade to black.",
+    "hashtags": [
+      "#JacobiteMystery",
+      "#ScottishHighlands",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #079",
+    "title": "After Culloden",
+    "setting": "Jacobite Hideout · Strathglass · Scottish Highlands · 1745",
+    "emoji": "⚔️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Three days after Culloden, four Jacobite fugitives were sheltering in a farmhouse in Strathglass. By dawn one of them was dead — Captain Alasdair Mòr MacDonald, the group's commander. The broadsword on the wall had been used. Someone in the farmhouse was not what they seemed.",
+    "emptyState": "Four fugitives. One dawn. One traitor.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Fergus MacRae",
+            "icon": "🗡️",
+            "detail": "A clansman who had fought at Culloden — had been with MacDonald since before the battle."
+          },
+          {
+            "name": "Morag Campbell",
+            "icon": "🌿",
+            "detail": "A widow who had sheltered the group — claimed to support the cause but had English family."
+          },
+          {
+            "name": "Duncan Grant",
+            "icon": "📜",
+            "detail": "A young lawyer who had joined the flight — had documents proving land grants from the Crown."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hearth Room",
+            "icon": "🔥",
+            "detail": "Where MacDonald was found — broadsword nearby, peat fire still burning."
+          },
+          {
+            "name": "The Sleeping Loft",
+            "icon": "🛏️",
+            "detail": "Where Fergus and Duncan had slept — accessible by a ladder from the hearth room."
+          },
+          {
+            "name": "The Byre",
+            "icon": "🐄",
+            "detail": "The attached animal shelter — where Morag had been tending the cow at dawn."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Broadsword",
+            "icon": "⚔️",
+            "detail": "The wall-mounted clan sword — a single thrust wound consistent with its blade."
+          },
+          {
+            "name": "Dirk",
+            "icon": "🗡️",
+            "detail": "A short blade carried by Fergus — wound profile inconsistent with its shorter length."
+          },
+          {
+            "name": "Hearthstone",
+            "icon": "🪨",
+            "detail": "A loose stone near the fire — no wound match, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Crown Land Grant",
+        "text": "Duncan Grant's documents — searched during the investigation — include a land grant from the Crown dated six months before Culloden, conveying Highland farmland to 'D. Grant in recognition of loyal service.' The grant predates the rebellion. Duncan had been receiving Crown rewards while publicly supporting the Jacobite cause. He had been a government informer.",
+        "alone": "Duncan Grant held a Crown land grant for loyal service dated six months before Culloden — he had been rewarded as a government loyalist while appearing to support the Jacobites.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The Crown land grant proving Duncan's government loyalty before Culloden and his documents showing MacDonald's planned escape route confirm he had been positioned to betray the Jacobite command — and MacDonald's route was the intelligence the government needed."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⚔️",
+        "heading": "The Broadsword Wound",
+        "text": "MacDonald's wound is a single thrust to the chest — the broadsword's blade length and profile match exactly. The wound angle indicates the thrust was delivered while MacDonald was seated or kneeling — he had been struck by someone standing over him. The sword had been replaced on the wall after the killing, but a fresh blood smear on the wall mount shows it had been returned there.",
+        "alone": "MacDonald was killed with a single thrust while seated — the broadsword had been returned to the wall mount after the killing.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The broadsword returned to the wall after the killing indicating deliberate concealment and Duncan's confirmed wakefulness throughout the night suggesting he had not been asleep when the killing occurred together confirm the killing was premeditated and composedly executed."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Morag in the Byre",
+        "text": "Fergus MacRae confirms Morag had gone to the byre before first light to tend the cow — a routine she had followed every morning of the group's stay. He had heard her leave. When the alarm was raised, she was found in the byre with fresh milk in the pail — consistent with having been there throughout the early morning. She is cleared.",
+        "alone": "Morag was in the byre when the alarm was raised, with fresh milk consistent with early morning tending — Fergus confirms hearing her leave. She is cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Morag cleared in the byre and Fergus confirmed asleep in the loft until the alarm together leave Duncan Grant as the only person unaccounted for in the hearth room during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "MacDonald's Route Documents",
+        "text": "Among MacDonald's personal papers — carried in a wrapped oilcloth — is a detailed escape route to the French coast: safe houses, contacts, timing, and the names of sympathetic skippers. The papers are intact but show signs of having been unfolded and refolded recently — they had been read by someone who was not MacDonald. The folds are in different directions from MacDonald's own habit.",
+        "alone": "MacDonald's escape route documents had been read by someone else recently — the refolding pattern is inconsistent with MacDonald's own handling.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "MacDonald's escape documents read by someone other than him and Duncan's Crown land grant confirming his government loyalty together establish that the escape route had been compromised — Duncan had read the papers to pass the intelligence before MacDonald could use it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Duncan's Second Document",
+        "text": "A second document in Duncan's papers — folded and hidden in the document case's lining — is a letter of introduction to a government officer in Inverness, written in English, describing Duncan as 'the bearer of intelligence regarding the whereabouts and plans of Jacobite officers in flight.' The letter was prepared before the battle. Duncan had been assigned to the Jacobite flight specifically to report on it.",
+        "alone": "Duncan carried a pre-prepared letter of introduction to a government officer describing him as an intelligence bearer — he had been placed with the Jacobite group to report on their flight.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The Crown land grant for prior loyal service and the pre-prepared intelligence letter confirm Duncan had been operating as a government agent from before Culloden — his attachment to MacDonald's group had been a deliberate intelligence assignment."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Duncan's Wakefulness",
+        "text": "Fergus MacRae, asked about the night, recalls that when he had risen in the early morning he had noticed Duncan's eyes open — 'as if he hadn't slept.' Duncan had claimed he had been awake with anxiety. Fergus had thought nothing of it. The hearth room below would have been accessible from the loft without passing Fergus's sleeping position.",
+        "alone": "Fergus had observed Duncan awake in the early morning hours — Duncan claimed anxiety, but his wakefulness coincides with the murder window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The broadsword returned to the wall indicating deliberate composure and Duncan found awake in the early hours confirm he had been alert and active during the murder window — his wakefulness was not anxiety but preparation or completion."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Fergus's Sleep",
+        "text": "Fergus MacRae confirms he had slept deeply — exhausted from the retreat from Culloden. He had not heard movement during the night until Morag left for the byre before dawn. He had next woken when Morag returned and found MacDonald's body. He is confirmed in the loft throughout the night except for the moment he first observed Duncan awake.",
+        "alone": "Fergus was asleep in the loft throughout the night — he heard nothing and is confirmed there by the circumstances of the dawn discovery. He is cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Morag cleared in the byre and Fergus cleared asleep in the loft account for both other suspects — only Duncan was awake and unaccounted for in the hearth room area during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "📜",
+        "heading": "The Refolded Documents",
+        "text": "MacDonald's oilcloth documents are examined more carefully — the escape route papers show a small ink transfer on the outer fold, consistent with a thumb smeared with writing ink pressing the document closed. Duncan's right thumb, examined when he was questioned, shows a faint ink stain on the inner pad. He had been writing before handling MacDonald's documents — or had handled inked paper and then refolded them.",
+        "alone": "Duncan's right thumb bears ink consistent with the transfer found on MacDonald's refolded escape documents — he had handled the papers with ink-stained hands.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "MacDonald's documents refolded by someone other than him and the ink transfer matching Duncan's thumb confirm Duncan had been reading and handling the escape route papers — the intelligence he had been assigned to collect."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Duncan Grant",
+      "location": "The Hearth Room",
+      "weapon": "Broadsword"
+    },
+    "epilogue": "Duncan Grant had been placed with MacDonald's group before Culloden as a government intelligence agent. He had the Crown land grant and the letter of introduction to Inverness. When MacDonald's escape route was finalised in the farmhouse, Duncan had read the documents — ink still on his thumb from a letter he had been composing to the Inverness officer. He had waited until the early hours, descended from the loft while Fergus slept, and used the broadsword. He had returned it to the wall. He had been found awake. He was taken by the government the following week and subsequently vanished from the record — neither rewarded nor punished, simply absent. The escape route MacDonald had planned was used by Fergus MacRae and Morag Campbell two weeks later. They reached France."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #079",
+    "title": "After Culloden",
+    "setting": "Jacobite Hideout · Strathglass · Scottish Highlands · 1745",
+    "emoji": "⚔️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Duncan killed MacDonald. But Morag Campbell had English family and had been under suspicion from MacDonald himself. Find what MacDonald suspected about Morag and how that suspicion had affected his trust of the group.",
+    "emptyState": "MacDonald suspected Morag. Find what he had written.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Duncan Grant",
+            "icon": "📜",
+            "detail": "The killer — Crown land grant, intelligence letter, ink thumb, broadsword, awake at the critical hour."
+          },
+          {
+            "name": "Morag Campbell",
+            "icon": "🌿",
+            "detail": "Cleared as killer — byre confirmed. But MacDonald had suspected her."
+          },
+          {
+            "name": "Fergus MacRae",
+            "icon": "🗡️",
+            "detail": "Cleared as killer — loft confirmed. Had been MacDonald's most trusted man."
+          },
+          {
+            "name": "Morag's English Cousin",
+            "icon": "🇬🇧",
+            "detail": "The family connection that had drawn MacDonald's suspicion — a cousin in Crown service."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hearth Room",
+            "icon": "🔥",
+            "detail": "Primary crime scene — Duncan's killing of MacDonald."
+          },
+          {
+            "name": "The Sleeping Loft",
+            "icon": "🛏️",
+            "detail": "Where Duncan had been found awake — accessible to the hearth room without passing Fergus."
+          },
+          {
+            "name": "The Byre",
+            "icon": "🐄",
+            "detail": "Morag's confirmed location — and where MacDonald had searched her belongings."
+          },
+          {
+            "name": "MacDonald's Oilcloth",
+            "icon": "📋",
+            "detail": "Where the escape documents were kept — and where Duncan's ink transfer was found."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Broadsword",
+            "icon": "⚔️",
+            "detail": "Confirmed murder weapon — single thrust, returned to wall, Duncan's opportunity."
+          },
+          {
+            "name": "Dirk",
+            "icon": "🗡️",
+            "detail": "Inconsistent wound length — eliminated."
+          },
+          {
+            "name": "Hearthstone",
+            "icon": "🪨",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "MacDonald's Escape Documents",
+            "icon": "📜",
+            "detail": "Not a weapon — the intelligence Duncan had been reading and needed to extract before killing."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Before Culloden",
+            "icon": "📅",
+            "detail": "When Duncan was placed with the group and received his Crown land grant."
+          },
+          {
+            "name": "The Three Hideout Days",
+            "icon": "📅",
+            "detail": "When MacDonald had been developing his suspicion of Morag — and when Duncan had been reading the documents."
+          },
+          {
+            "name": "The Night Before Dawn",
+            "icon": "⚠️",
+            "detail": "When Duncan had composed his intelligence letter and descended to the hearth room."
+          },
+          {
+            "name": "Dawn",
+            "icon": "🌅",
+            "detail": "When Morag found the body — and when Duncan was found awake with ink-stained thumb."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "MacDonald's Private Journal",
+        "text": "Among MacDonald's papers — examined in full — is a small journal. The final entry, written the evening before his death, reads: 'Morag's cousin serves the garrison at Fort Augustus. She knows this and has said nothing. I must decide whether to trust her further. Her silence on this matter troubles me. Grant watches everything — perhaps he will be useful as I assess her.' He had been using Duncan to watch Morag.",
+        "alone": "MacDonald had written that evening that he was using Duncan to assess Morag — he had trusted Duncan with the task of watching the person he actually suspected.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "MacDonald using Duncan to watch Morag and Duncan's pre-prepared intelligence letter confirming he was already the government's man confirm the irony: MacDonald had assigned the actual spy to watch the woman he suspected, giving Duncan complete access and cover."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Morag's English Cousin",
+        "text": "Morag Campbell confirms she had an English cousin — Thomas Campbell — who served as a supply officer at Fort Augustus garrison. She had not disclosed this because she had feared exactly the suspicion it would create. She insists she had not contacted him or passed any information. A search of the farmhouse finds no evidence of any communication between Morag and the garrison.",
+        "alone": "Morag had concealed her cousin's garrison service out of fear — but no evidence of communication with the garrison is found. Her concealment had been defensive, not operational.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Morag's concealment of her cousin's service being defensive rather than operational and MacDonald's journal confirming he had been investigating her rather than Duncan confirm MacDonald's suspicion had been entirely misdirected — he had been watching the wrong person."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Fergus and the Suspicion",
+        "text": "Fergus MacRae confirms MacDonald had spoken to him two days before the killing about Morag — 'I do not know her politics as well as I thought.' He had asked Fergus to keep watch on her movements. He had not mentioned any concern about Duncan. In MacDonald's assessment, Duncan had been 'sound' — a young lawyer who had given up a comfortable position to join the cause.",
+        "alone": "MacDonald had expressed concern about Morag to Fergus but had described Duncan as sound — his suspicion had been entirely focused on the wrong person.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "MacDonald judging Duncan as sound and his journal showing he had assigned Duncan to watch Morag confirm he had been completely deceived — Duncan's professional cover as a lawyer turned Jacobite had been thoroughly convincing."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Intelligence Letter Duncan Was Writing",
+        "text": "The ink on Duncan's thumb came from a letter he had been composing — fragments of which are found in the hearth's ash, partially burned. Reconstructed, the letter describes MacDonald's farmhouse location, the composition of the group, the escape route's general direction, and a request for a government contact to be at a specified road junction in four days. Duncan had been preparing to deliver MacDonald to the government.",
+        "alone": "Duncan had been composing a letter identifying the farmhouse's location and requesting a government intercept — he had been preparing to betray the entire group to the authorities.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Duncan preparing a letter to betray the whole group and MacDonald's journal showing he had trusted Duncan with watching Morag confirm the scope of Duncan's operation — he had been positioned to destroy the entire remnant group, not merely silence MacDonald."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "Why Duncan Killed That Night",
+        "text": "The intelligence letter's timing reveals the reason for acting that night: MacDonald's journal entry from the previous evening mentions he was considering moving the group 'within two days' to a new location. If the group moved, Duncan's directions to the government would be useless. He had needed to eliminate MacDonald before the move and extract the escape route for the letter. The killing had been triggered by MacDonald's own plan to move.",
+        "alone": "Duncan had killed that night because MacDonald planned to move within two days — the government intercept he was arranging required a fixed location, and the escape route documents gave him what he needed.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "MacDonald using Duncan to watch Morag and his plan to move triggering Duncan's timeline confirm Duncan had been waiting for the right moment and MacDonald's own decision had created the deadline that forced Duncan's hand."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Morag's Account of Duncan",
+        "text": "Morag, when told that Duncan had been the government agent rather than her, is quiet for a moment and then says: 'He asked me, the second evening, whether my cousin at Fort Augustus wrote to me. He said he was asking because MacDonald was concerned. I thought he was checking on me for the Captain. I told him I had heard nothing from my cousin since before the battle.' She had given Duncan the confirmation he needed.",
+        "alone": "Duncan had extracted from Morag the confirmation that she had no active contact with the garrison — using MacDonald's trust in him as cover for his own intelligence gathering.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Morag's concealment being defensive and Duncan using MacDonald's assignment to extract intelligence from her confirm Duncan had turned his surveillance role into a two-directional intelligence operation — gathering information while maintaining his cover."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "MacDonald's Final Miscalculation",
+        "text": "MacDonald's journal shows he had been planning the following morning to tell Duncan the full escape route — not from the documents, which Duncan had already read, but as a verbal briefing that would have included the safe house contacts' actual names. He had been planning to trust Duncan with the most sensitive remaining intelligence on the morning he was killed.",
+        "alone": "MacDonald had been planning to brief Duncan with the safe house contacts' names the following morning — Duncan had killed him hours before the briefing that would have completed his intelligence extraction.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Duncan's need to act before the group moved and MacDonald's planned morning briefing that would have given him the remaining names confirm the killing had occurred at the precise moment when waiting any longer would have left the escape route partially exposed — Duncan had acted with careful timing."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "The Government's Record",
+        "text": "Government records from 1745 — found in a later historical review — show a report filed by a 'D. Grant, agent' describing a Jacobite group's location in Strathglass and a request for intercept. The report was received but the intercept was not executed in time — a different patrol had been diverted. The farmhouse was found abandoned two days later. Fergus and Morag had moved the group before the government could act.",
+        "alone": "Duncan's intelligence report had been received but the intercept had been too slow — the remaining group had moved before the government arrived.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Duncan's partially burned letter preparing the intercept and the government's record showing the intercept had been attempted but failed confirm the full chain: Duncan had executed his intelligence mission, the killing had worked, but the larger betrayal had not — Fergus and Morag had escaped."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Duncan Grant",
+      "location": "The Hearth Room",
+      "weapon": "Broadsword",
+      "window": "The Night Before Dawn"
+    },
+    "epilogue": "MacDonald had trusted Duncan with watching the person he suspected. He had been planning to give him the safe house contacts' names the following morning. He had been killed hours before the briefing. Duncan's partially burned intelligence letter had reached the government, but the intercept had been too slow. Fergus MacRae and Morag Campbell had moved the group two days later. They had reached France in October 1745. Duncan Grant's name appears in government records as an agent. He received his land grant in full. He does not appear in any subsequent record. The farmhouse in Strathglass stood empty for three years before a family from Inverness moved in. They found a broadsword mounted on the wall of the hearth room. They kept it."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #079",
+    "title": "After Culloden",
+    "setting": "Jacobite Hideout · Strathglass · Scottish Highlands · 1745",
+    "emoji": "⚔️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Duncan killed MacDonald. Morag and Fergus escaped. But Fergus had suspected Duncan before the killing — and had said nothing to MacDonald. Find what Fergus had seen and why he had stayed silent.",
+    "emptyState": "Fergus suspected Duncan. He warned no one. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Duncan Grant",
+            "icon": "📜",
+            "detail": "The killer — Crown land grant, intelligence letter, ink thumb, broadsword."
+          },
+          {
+            "name": "Morag Campbell",
+            "icon": "🌿",
+            "detail": "Cleared as killer — byre confirmed. Suspected by MacDonald, cleared by evidence."
+          },
+          {
+            "name": "Fergus MacRae",
+            "icon": "🗡️",
+            "detail": "Cleared as killer — loft confirmed. Had suspected Duncan and stayed silent."
+          },
+          {
+            "name": "The Government Intercept Team",
+            "icon": "🇬🇧",
+            "detail": "The patrol that had been dispatched — arrived too late, found the farmhouse empty."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hearth Room",
+            "icon": "🔥",
+            "detail": "Primary crime scene — Duncan's killing of MacDonald."
+          },
+          {
+            "name": "The Sleeping Loft",
+            "icon": "🛏️",
+            "detail": "Where Fergus had observed Duncan — and where his suspicion had formed."
+          },
+          {
+            "name": "The Byre",
+            "icon": "🐄",
+            "detail": "Morag's confirmed location at dawn."
+          },
+          {
+            "name": "The Road to Inverness",
+            "icon": "🛤️",
+            "detail": "Where Fergus had seen Duncan speaking to a stranger two days before the killing."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Broadsword",
+            "icon": "⚔️",
+            "detail": "Confirmed murder weapon — Duncan's single thrust while MacDonald was seated."
+          },
+          {
+            "name": "Dirk",
+            "icon": "🗡️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Hearthstone",
+            "icon": "🪨",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Fergus's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — his decision not to warn MacDonald had left the Captain unprotected."
+          },
+          {
+            "name": "MacDonald's Trust in Duncan",
+            "icon": "📜",
+            "detail": "Not a weapon — the vulnerability Duncan had exploited that Fergus had seen and not reported."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Two Days Before",
+            "icon": "📅",
+            "detail": "When Fergus saw Duncan speaking to a stranger on the road — his suspicion's origin."
+          },
+          {
+            "name": "The Previous Evening",
+            "icon": "🌙",
+            "detail": "When MacDonald wrote his journal entry trusting Duncan."
+          },
+          {
+            "name": "The Night Before Dawn",
+            "icon": "⚠️",
+            "detail": "When Duncan killed MacDonald and composed the intelligence letter."
+          },
+          {
+            "name": "The Two-Day Escape",
+            "icon": "🛤️",
+            "detail": "When Fergus and Morag moved and reached safety — using MacDonald's route."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Government Intelligence Mission",
+            "icon": "📜",
+            "detail": "Duncan's motive — Crown land grant, pre-placed agent, escape route extraction."
+          },
+          {
+            "name": "Protect MacDonald From Suspicion",
+            "icon": "🗡️",
+            "detail": "Fergus's stated reason for silence — he had not been certain enough to accuse a man MacDonald trusted."
+          },
+          {
+            "name": "Fear of Being Wrong",
+            "icon": "🤫",
+            "detail": "Fergus's deeper reason — accusing Duncan wrongly in a fugitive group would have had consequences."
+          },
+          {
+            "name": "Clan Loyalty Over Evidence",
+            "icon": "⚔️",
+            "detail": "The culture Fergus operated in — accusation required certainty, and certainty required evidence he did not have."
+          },
+          {
+            "name": "Protect the Group's Cohesion",
+            "icon": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+            "detail": "Fergus's pragmatic calculation — a divided group could not survive the Redcoats."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "What Fergus Saw on the Road",
+        "text": "Fergus, in his full account, reveals that two days before the killing he had gone to the road's edge to check for patrols. He had seen Duncan fifty yards along the road, speaking quietly to a man Fergus did not recognize — a man in plain clothes who had arrived on horseback and departed quickly. Duncan had not mentioned the encounter when he returned to the farmhouse. Fergus had noted it and had not raised it.",
+        "alone": "Fergus had seen Duncan speaking privately to a stranger on horseback two days before the killing and had not mentioned it to anyone — not even to MacDonald.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Fergus seeing Duncan speak to the stranger and the government record confirming a contact point on the road to Inverness in that period confirm the rider had been Duncan's government contact — Fergus had witnessed the intelligence handoff and had stayed silent."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Why Fergus Said Nothing",
+        "text": "Fergus explains: 'I had no proof. The Captain trusted Grant. A lawyer who had given up his practice to join us — what was I to say? That I saw him speak to a stranger on a road? Men speak to strangers on roads. If I had said it and been wrong, I would have broken the Captain's trust in all of us. A group that suspects itself cannot survive.' He had weighed the risk of accusation against the risk of silence.",
+        "alone": "Fergus had calculated that a false accusation in their situation would have destroyed the group's cohesion — he had chosen silence over uncertain accusation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fergus's calculation that uncertain accusation would destroy the group and MacDonald's journal showing he trusted Duncan completely confirm the structural trap Fergus had been in — the evidence he had was not enough to overcome the social cost of being wrong."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Stranger's Identity",
+        "text": "The government record — found in the 1745 archive — includes a note from an agent handler describing 'a road meeting two days before the termination of the target' during which further instructions had been delivered. The handler's description matches Fergus's account of the horseback stranger. The meeting had been a handler delivering the final instructions for the killing — Duncan had received his order to act that day.",
+        "alone": "The stranger on the road had been Duncan's handler delivering the order to kill MacDonald — Fergus had witnessed the operational instruction being given.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The handler delivering the kill order two days before and Fergus witnessing the meeting confirm he had been present at the exact moment the decision to kill MacDonald was communicated — and had not known what he was seeing."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Morag's Knowledge of Fergus's Doubt",
+        "text": "Morag, in her account, reveals that Fergus had told her about the road encounter the evening before the killing — privately, after Duncan and MacDonald were inside. He had said: 'I do not like that man. But I cannot say why.' She had told him to speak to MacDonald. He had said: 'With what? A feeling?' He had been one step from disclosure and had pulled back.",
+        "alone": "Fergus had told Morag about his unease the evening before the killing — he had been on the verge of disclosure and had declined because he had only a feeling, not evidence.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Fergus telling Morag his unease the evening before the killing and the killing occurring that night confirm he had been aware of the threat within hours of it being executed — his single evening of holding back had been the margin."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🛤️",
+        "heading": "The Road to Inverness Contact Point",
+        "text": "Government records from 1745 describe a series of contact points used by agents operating in the Highlands — one is listed as 'the second mile marker on the Inverness road east of Strathglass.' This matches the location where Fergus had seen Duncan speaking to the stranger. The contact point had been established before Culloden — Duncan had been using a pre-arranged meeting location.",
+        "alone": "The contact point where Fergus saw Duncan had been a pre-established government meeting location — the encounter had been a scheduled handler meeting, not a chance conversation.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Fergus witnessing the road meeting and the pre-established contact point confirming it was a scheduled handler meeting confirm he had seen an operational intelligence meeting without knowing that was what it was — the encounter had looked like a chance conversation."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "After the Killing",
+        "text": "After MacDonald's body was found and Duncan had fled, Fergus had told Morag about the road encounter. He had said: 'I should have spoken. I knew something was wrong. I told myself I had no proof. I had proof enough.' He had not been uncertain about what he had seen — he had been uncertain about whether it was enough to act on. He carries this distinction with him.",
+        "alone": "After the killing, Fergus acknowledged he had known something was wrong — his silence had not been ignorance but a judgment about what constituted sufficient evidence.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Fergus's calculation about the cost of false accusation and his post-murder acknowledgment that he had known something was wrong confirm the silence was a considered decision, not an oversight — he had made a judgment that had proved fatal."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Escape After the Killing",
+        "text": "After the killing, Fergus had taken MacDonald's escape route documents and had led Morag and himself along the route. He had used every contact listed. All of them had been genuine — MacDonald's network had been intact and the escape had succeeded. They had reached France in October 1745. Fergus had delivered MacDonald's documents to the Jacobite court in exile. He had reported what he knew about Duncan.",
+        "alone": "Fergus had used MacDonald's escape route successfully and had delivered a full account to the Jacobite court in exile — the route Duncan had read and reported had been used by the people Duncan had intended to betray.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The handler delivering the kill order and Fergus successfully using the route Duncan had reported confirm the government's intercept had failed entirely — the intelligence Duncan had extracted and transmitted had ultimately served the people it was meant to destroy."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "Fergus's Account in France",
+        "text": "Fergus MacRae's account of the events in Strathglass — given to the Jacobite court in exile and preserved in their archive — ends with: 'I saw the man speak to a rider on the road. I said nothing because I had no proof that would have satisfied the Captain. I have thought of this every day since. The Captain was not wrong to trust. I was not wrong to doubt. We were both right about different things, and a man died for the space between.'",
+        "alone": "Fergus's account concludes with his reflection on the space between MacDonald's justified trust and his own justified doubt — a space in which Duncan had operated and MacDonald had been killed.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fergus acknowledging he had known something was wrong and his reflection on the space between trust and doubt confirm the full human weight of his decision — not a simple failure but a judgment made under uncertainty that he had carried as a question for the rest of his life."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Duncan Grant",
+      "location": "The Hearth Room",
+      "weapon": "Broadsword",
+      "window": "The Night Before Dawn",
+      "motive": "Government Intelligence Mission"
+    },
+    "epilogue": "Fergus MacRae and Morag Campbell reached France in October 1745. Fergus gave his account to the Jacobite court in exile. The route MacDonald had prepared had worked exactly as intended. Duncan Grant received his land grant. He does not appear in any record after 1746. The space Fergus had described — between MacDonald's justified trust and his own justified doubt — was the space in which all betrayals live. The broadsword stayed on the wall in Strathglass for three years. The family from Inverness who moved in kept it because it was a fine sword and there had been no one to return it to."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Paris, 1955. A couture house. A fashion editor found dead in the stockroom. And a collection that was about to be stolen by someone who had been in the building all season. 💄🔍 Case #088 — The Parisian Cut. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Paris 1955 haute couture, a dead fashion editor, a stolen collection sketch, and the person who had been copying designs all season. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1955 Parisian couture house stockroom at dusk, bolts of silk and satin stacked on shelves, a dressmaker's dummy with a half-finished gown, a fashion sketch torn and scattered on the floor, a woman's evening glove beside a tipped ink stand. Warm amber light through frosted windows, deep shadow behind the racks. Elegant and dangerous, style of Horst P. Horst meets Henri Cartier-Bresson.",
+    "animationPrompt": "Slow pan through a 1955 Parisian couture house stockroom. Silk bolts. A dressmaker's dummy. The camera finds a fashion sketch torn and scattered on the floor and a woman's evening glove beside a tipped ink stand. Warm light through frosted windows. The silk moves slightly. Fade to black.",
+    "hashtags": [
+      "#Paris1955",
+      "#CoutureMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #088",
+    "title": "The Parisian Cut",
+    "setting": "Maison Élise · Paris · 1955",
+    "emoji": "💄",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Fashion editor Colette Marchand was found dead in the stockroom of Maison Élise three days before the spring collection's debut. The house's original collection sketches were missing. Three people had after-hours access that evening. One of them had been selling design intelligence to a rival house all season.",
+    "emptyState": "The sketches were worth more than the season. Find who took them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Gisèle Fontaine",
+            "icon": "✂️",
+            "detail": "The head seamstress — had worked at Maison Élise for twelve years and knew every design intimately."
+          },
+          {
+            "name": "Théodore Blanc",
+            "icon": "📸",
+            "detail": "The house photographer — had documented every sketch and fitting for the season's archive."
+          },
+          {
+            "name": "Nadine Petit",
+            "icon": "📋",
+            "detail": "The collections assistant — had managed the schedule, access, and correspondence for the season."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stockroom",
+            "icon": "🧵",
+            "detail": "Where Colette was found — sketches scattered and missing, ink stand overturned."
+          },
+          {
+            "name": "The Atelier",
+            "icon": "✂️",
+            "detail": "The main workroom — where the season's garments were being finished."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Where Blanc had been developing archive photographs — adjacent to the stockroom."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dressmaker's Shears",
+            "icon": "✂️",
+            "detail": "Heavy professional scissors — blunt force wound from the closed handle, not the blades."
+          },
+          {
+            "name": "Ink Stand",
+            "icon": "🖊️",
+            "detail": "The heavy ceramic stand — wound profile inconsistent with its rounded base."
+          },
+          {
+            "name": "Bolt End Rod",
+            "icon": "🪵",
+            "detail": "A wooden rod used to secure fabric bolts — too long for the wound's impact area, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Sketches",
+        "text": "Maison Élise's head designer, Élise Moreau, confirms that the original collection sketches — twenty-seven drawings representing the full spring line — are missing from the stockroom portfolio. Copies existed only in the archive photographs taken by Blanc. The original sketches contained handwritten notations on fabric and construction that the photographs did not fully capture. The theft was specifically of the originals.",
+        "alone": "The original sketches with their handwritten construction notes were taken — copies existed but lacked the specific technical detail of the originals, which would allow a rival to reproduce the garments precisely.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The originals taken for their construction notes and Théodore Blanc's archive photographs being the only copies confirm that whoever took the originals had understood their specific value — the construction notations were what a rival house needed to reproduce the designs, not just the visual sketches."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "✂️",
+        "heading": "The Dressmaker's Shears",
+        "text": "A pair of professional dressmaker's shears — found half-hidden behind a fabric bolt — show blood on the closed handle. The wound on Colette's skull is consistent with the shears' handle used as a bludgeon. The shears belong to Gisèle Fontaine — her name is engraved on the blade. They had been taken from the atelier and brought to the stockroom.",
+        "alone": "Gisèle's personal shears had been used as the weapon — taken from the atelier and brought to the stockroom, suggesting the killer had armed themselves before entering.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Gisèle's shears taken from the atelier to the stockroom and her confirmed presence in the building that evening establish she had the weapon — but the shears' presence in the stockroom also means someone else could have taken them from the atelier."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Blanc's Studio",
+        "text": "Théodore Blanc had been in the photography studio developing the season's archive photographs. The studio's chemical log — which recorded developer solution usage by time — shows continuous activity from seven PM until nine-thirty PM. The chemical reactions required uninterrupted attention at specific intervals. Blanc is confirmed in the studio throughout the murder window. He is definitively cleared.",
+        "alone": "Blanc's chemical development log confirms continuous studio activity from seven to nine-thirty PM — the process required his uninterrupted presence. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Blanc cleared by the chemical log and Nadine Petit confirmed at her desk until eight PM together eliminate two suspects from the stockroom during the murder window — only Gisèle's whereabouts between eight and nine PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Rival House Intelligence",
+        "text": "Colette Marchand — the victim — had been investigating a leak from Maison Élise to the rival house Éditions Beaumont for three weeks. Her personal notebook, found in her jacket pocket, documents payments from Beaumont to an unknown source within Maison Élise, received at two-week intervals. The most recent entry, written that morning, reads: 'Pattern confirms G.F. — confirm before going to Moreau.'",
+        "alone": "Colette had identified 'G.F.' — consistent with Gisèle Fontaine — as the likely source of the leak and had planned to confirm before reporting to the house's owner.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Colette's notebook identifying G.F. as the leak and her plan to confirm before reporting to Moreau confirm she had confronted or was about to confront Gisèle — the killing had occurred before she could complete her investigation."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "✂️",
+        "heading": "Gisèle's Payment Records",
+        "text": "An investigation of Gisèle's bank account — authorized after Colette's notebook is found — shows deposits of 200 francs every two weeks for the past three months, matching the payment pattern Colette had documented. The deposits are described as 'consulting fees' with no named client. The amounts and timing precisely match the Beaumont payment schedule Colette had been tracking.",
+        "alone": "Gisèle's bank account shows biweekly 200-franc deposits matching Colette's documented Beaumont payment schedule — the payment pattern confirms her as the intelligence source.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The original sketches' construction notes being what a rival house needed and Gisèle's confirmed Beaumont payments over three months confirm she had both the access to the technical details and the established relationship with the rival to make the theft commercially purposeful."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "✂️",
+        "heading": "Gisèle's Missing Hour",
+        "text": "Gisèle Fontaine accounts for her evening: in the atelier until eight PM finishing a hem, then in the staff room for tea. Three seamstresses confirm her in the atelier until eight. The staff room's tea log — a domestic record kept by the house's housekeeper — shows Gisèle had poured tea at eight-fifteen but the cup had not been returned until nine-thirty. She has no confirmed account of her movements between eight-fifteen and nine-thirty.",
+        "alone": "Gisèle is unaccounted for between eight-fifteen and nine-thirty PM — the murder window — with an untouched tea cup as her only claimed alibi for that period.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Gisèle's shears taken from the atelier where she had been until eight PM and her unconfirmed movements between eight-fifteen and nine-thirty establish she had both access to the weapon and an unaccounted window during the murder."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Nadine's Desk",
+        "text": "Nadine Petit had been at her desk in the collections office until eight PM, confirmed by the building's concierge who had brought her coffee at seven-forty-five. She had left the building at eight — the concierge confirms her departure. She had not been in the stockroom section of the building that evening. She is definitively cleared.",
+        "alone": "Nadine had departed the building at eight PM — confirmed by the concierge. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Blanc cleared by the chemical log and Nadine cleared by the concierge departure together eliminate both other suspects — Gisèle's unaccounted eight-fifteen to nine-thirty window is the only unconfirmed presence during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "✂️",
+        "heading": "Gisèle's Account",
+        "text": "Gisèle initially denies any knowledge of the Beaumont payments. When her bank records are presented, she changes her account: she had been providing Beaumont with general trend information, not specific designs. When Colette's notebook identifying her as 'G.F.' is shown, she says: 'She confronted me in the stockroom at eight-thirty. She said she had proof. I told her she was wrong. The shears were on the table — I had brought them to check a hem sample.' She does not explain how Colette ended up dead.",
+        "alone": "Gisèle admits to the stockroom confrontation with Colette at eight-thirty but does not explain the killing — she acknowledges her shears were present and changes her account twice when presented with evidence.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Colette's notebook plan to confront Gisèle before reporting to Moreau and Gisèle admitting to the stockroom confrontation at eight-thirty confirm the confrontation had occurred exactly as Colette's notebook had predicted — and had ended with Colette dead and the sketches missing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Gisèle Fontaine",
+      "location": "The Stockroom",
+      "weapon": "Dressmaker's Shears"
+    },
+    "epilogue": "Gisèle Fontaine had been selling design intelligence to Éditions Beaumont for three months at 200 francs per fortnight. When Colette had confronted her in the stockroom with the payment evidence, Gisèle had used her own shears — brought to check a hem sample, as she had said — and had then taken the collection sketches to complete the delivery she had been planning. She received eight years. The collection sketches were recovered from a Beaumont contact's apartment two days later. The spring collection debuted on schedule. Maison Élise gave Colette a credit in the programme. Gisèle's name was removed from the atelier."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #088",
+    "title": "The Parisian Cut",
+    "setting": "Maison Élise · Paris · 1955",
+    "emoji": "💄",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Gisèle killed Colette and took the sketches. But Théodore Blanc had been photographing those sketches for three months — his archive contained everything a rival house needed. Find whether Blanc had also been selling intelligence to Beaumont.",
+    "emptyState": "Blanc photographed everything. Find whether he was also selling.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Gisèle Fontaine",
+            "icon": "✂️",
+            "detail": "The killer — shears, Beaumont payments, stockroom confrontation, sketches taken."
+          },
+          {
+            "name": "Théodore Blanc",
+            "icon": "📸",
+            "detail": "Cleared as killer — chemical log. But had archive photographs of every sketch."
+          },
+          {
+            "name": "Nadine Petit",
+            "icon": "📋",
+            "detail": "Cleared as killer — concierge confirmed departure. Had managed all access and correspondence."
+          },
+          {
+            "name": "Éditions Beaumont",
+            "icon": "🏢",
+            "detail": "The rival house — had been receiving intelligence from Maison Élise all season."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stockroom",
+            "icon": "🧵",
+            "detail": "Primary crime scene — Gisèle's killing of Colette."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Blanc's confirmed location — adjacent to the stockroom, archive photographs stored here."
+          },
+          {
+            "name": "The Atelier",
+            "icon": "✂️",
+            "detail": "Where Gisèle had worked until eight PM — and where her shears had been before the killing."
+          },
+          {
+            "name": "Beaumont's Studio",
+            "icon": "🏢",
+            "detail": "The rival house — where recovered materials revealed two separate intelligence sources."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dressmaker's Shears",
+            "icon": "✂️",
+            "detail": "Confirmed murder weapon — Gisèle's personal shears, used in the stockroom confrontation."
+          },
+          {
+            "name": "Ink Stand",
+            "icon": "🖊️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Bolt End Rod",
+            "icon": "🪵",
+            "detail": "Too long — eliminated."
+          },
+          {
+            "name": "Blanc's Archive Photographs",
+            "icon": "📸",
+            "detail": "Not a weapon — the parallel intelligence channel investigators examine after recovering the stolen sketches."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Investigation",
+            "icon": "✂️",
+            "detail": "Gisèle's motive — Colette had identified her and was about to report to Moreau."
+          },
+          {
+            "name": "Complete the Sketch Delivery",
+            "icon": "📋",
+            "detail": "Gisèle's operational objective — the original sketches had been the season's final delivery."
+          },
+          {
+            "name": "Supplementary Income",
+            "icon": "📸",
+            "detail": "Blanc's potential motive — his archive photographs had been worth significant money to a rival."
+          },
+          {
+            "name": "Competitive Intelligence",
+            "icon": "🏢",
+            "detail": "Beaumont's operational interest — had been receiving intelligence from multiple sources."
+          },
+          {
+            "name": "The Two-Channel Penetration",
+            "icon": "🔍",
+            "detail": "The structural revelation — Beaumont had been running two separate sources inside Maison Élise simultaneously."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📸",
+        "heading": "The Beaumont Recovery",
+        "text": "When the stolen sketches are recovered from a Beaumont contact's apartment, investigators find more than Gisèle's original drawings. The apartment also contains a set of photographic prints matching Blanc's archive work — professional-quality photographs of the collection's early-season sketches, taken before the designs had been finalized. The photographs show details that the originals did not — construction stages visible only during the fitting process.",
+        "alone": "Beaumont's contact had both the stolen original sketches and a set of professional photographs of early-season construction stages — the photographs could only have come from Blanc.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The professional photographs of early-season construction stages found at Beaumont and Blanc's bank account showing deposits beginning four months before the killing confirm he had been selling archive material to Beaumont independently of Gisèle — two sources, same rival."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📸",
+        "heading": "Blanc's Bank Account",
+        "text": "Blanc's bank account — examined after the photograph discovery — shows deposits of 300 francs monthly for four months, beginning at the start of the season. The deposits are described as 'freelance photographic work.' Blanc's known commercial clients are three — none accounts for the monthly 300 francs. The deposits are higher than Gisèle's per-fortnight payments, suggesting his materials had been assessed as more valuable.",
+        "alone": "Blanc had been receiving 300 francs monthly for four months — higher than Gisèle's rate, suggesting his photographic archive had been valued as premium intelligence by Beaumont.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Blanc's higher payment rate and the photographs showing construction stages inaccessible to Gisèle confirm his intelligence had been complementary rather than duplicate — Beaumont had been receiving both the finished design notes from Gisèle and the construction process documentation from Blanc."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Blanc's Explanation",
+        "text": "Blanc, confronted with the photographs and the bank deposits, does not deny them. He says: 'I was taking those photographs anyway. The archive prints were mine to do with as I chose — the house's contract specified only that the negatives belonged to Maison Élise. The prints were my property. I sold prints. I did not steal anything.' He claims a contractual right to sell his own prints.",
+        "alone": "Blanc claims his contract gave Maison Élise the negatives but left him the rights to prints — his legal argument is that selling prints was permitted under the contract's terms.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Blanc's contract argument and the legal assessment finding the prints' sale to a competitor actionable as a breach of confidentiality confirm the contractual defence had been partially correct but legally insufficient — the specific context of selling to a direct competitor had overridden the print ownership right."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Colette's Notebook — The Full Entry",
+        "text": "Colette's notebook, read in full, contains more than the 'G.F.' entry found initially. An earlier entry from one week before reads: 'Two sources at Élise — G.F. for designs, T.B. for process photography. Both to Beaumont. G.F. higher risk — originals. T.B. contractual grey area. Confirm G.F. first.' She had identified both informants but had assessed Gisèle as the more urgent target.",
+        "alone": "Colette had identified both Gisèle and Blanc as Beaumont sources but had prioritized Gisèle as more urgent — she had planned to address them in sequence, Gisèle first.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Colette identifying both informants and planning to address Gisèle first confirm she had understood the full picture before the killing — the stockroom confrontation had been the first step of a two-step plan that had not survived its first step."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Beaumont's Two-Channel Strategy",
+        "text": "Investigation of Éditions Beaumont's internal records — obtained through French commercial court orders — reveals a deliberate two-source strategy: Gisèle had been recruited for final design intelligence; Blanc had been recruited for process-stage photography showing construction methods. The two channels had provided complementary intelligence that together allowed Beaumont to reproduce not just the designs but the construction techniques.",
+        "alone": "Beaumont had deliberately run two complementary sources — designs from Gisèle, construction process from Blanc — creating a complete reproduction package that neither source alone could have provided.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Both sources' materials found at Beaumont's contact and the deliberate two-channel strategy confirm this had been a coordinated intelligence operation rather than two independent leaks — Beaumont had recruited both sources knowingly."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Did Blanc Know About Gisèle",
+        "text": "Blanc is asked whether he had known Gisèle was also selling to Beaumont. He says: 'I knew someone was. The payments to me came through a contact who mentioned they had other sources inside the house. I did not know it was Gisèle. I did not ask. I told myself it was not my concern.' He had known about the existence of another source but had not identified it or reported it.",
+        "alone": "Blanc had known there was another source inside Maison Élise selling to Beaumont — and had chosen not to ask or report it.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Colette's notebook identifying both informants and Blanc knowing another source existed but choosing not to investigate confirm both had been aware of a broader operation while focusing only on their own participation — neither had been fully isolated from knowledge of the other's existence."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📸",
+        "heading": "Blanc's Legal Outcome",
+        "text": "Théodore Blanc is charged with breach of confidentiality and unfair competition. His contractual defence — that he owned the prints — is partially upheld: the court finds he had the right to sell prints for personal portfolio purposes but not to a direct commercial competitor for competitive intelligence purposes. He receives a suspended sentence and is ordered to repay the 1,200 francs received over four months.",
+        "alone": "Blanc receives a suspended sentence and repays his payments — the court finds the print-sale defence valid in principle but not in the specific context of competitive intelligence delivery.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Blanc's contract argument and the court's nuanced ruling confirm the legal grey area he had identified was real but insufficient as a full defence — the specific commercial context had converted a permitted act into a prohibited one."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💄",
+        "heading": "The Collection's Outcome",
+        "text": "Maison Élise's spring collection debuted three days after the killing, on schedule. Colette Marchand received a programme credit. Gisèle Fontaine's name was removed. Blanc's photographs were credited but he did not attend. Éditions Beaumont released its spring collection two weeks later — designs that Élise's team recognized as derived from their own sketches. Beaumont's collection received poor reviews. Critics described it as derivative. Nobody mentioned of what.",
+        "alone": "Beaumont's derived collection received poor reviews — the critics had not known what it was derived from, but the fashion industry had understood.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Beaumont's two-channel intelligence operation and their poorly received derived collection confirm the irony — the sophisticated operation had produced a collection that had failed commercially, making the three months of payments, the killing, and the legal consequences consequences of an enterprise that had not achieved its purpose."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Gisèle Fontaine",
+      "location": "The Stockroom",
+      "weapon": "Dressmaker's Shears",
+      "motive": "Silence the Investigation"
+    },
+    "epilogue": "Colette Marchand had identified two informants and planned to address them in sequence. She had not survived the first confrontation. Gisèle received eight years. Blanc received a suspended sentence and repaid 1,200 francs. Beaumont's derived collection received poor reviews. The two-channel intelligence operation that had cost one life and two careers had produced a spring line that critics called derivative — which was, in every sense, accurate. The house of Beaumont closed in 1958. Maison Élise continued for another twenty years. The spring 1955 collection is described in retrospective catalogues as one of the house's finest. Gisèle Fontaine's contribution to it is not mentioned."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #088",
+    "title": "The Parisian Cut",
+    "setting": "Maison Élise · Paris · 1955",
+    "emoji": "💄",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Gisèle killed Colette. Blanc had been selling archive photographs. But Nadine Petit — the collections assistant cleared by the concierge — had been the person who had recruited both of them to Beaumont. Find how Nadine had been operating and why she had not appeared in Colette's notebook.",
+    "emptyState": "Nadine recruited both of them. Find how she stayed invisible.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Gisèle Fontaine",
+            "icon": "✂️",
+            "detail": "The killer — shears, confrontation, eight years. Recruited by Nadine to sell design intelligence."
+          },
+          {
+            "name": "Théodore Blanc",
+            "icon": "📸",
+            "detail": "Cleared as killer — chemical log. Suspended sentence. Recruited by Nadine for archive photography."
+          },
+          {
+            "name": "Nadine Petit",
+            "icon": "📋",
+            "detail": "Cleared as killer — concierge confirmed departure. But had been Beaumont's handler inside the house."
+          },
+          {
+            "name": "Beaumont's Director",
+            "icon": "🏢",
+            "detail": "The rival house's head — had authorized the two-channel operation Nadine had run."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stockroom",
+            "icon": "🧵",
+            "detail": "Primary crime scene — Gisèle's killing of Colette."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Blanc's cleared location — and where the archive photographs had been stored before Nadine accessed them."
+          },
+          {
+            "name": "The Collections Office",
+            "icon": "📋",
+            "detail": "Nadine's workspace — where she had managed access, schedules, and communications, giving her operational control."
+          },
+          {
+            "name": "Beaumont's Director's Office",
+            "icon": "🏢",
+            "detail": "Where Nadine had been meeting monthly — her handler meetings had been disguised as freelance consultations."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dressmaker's Shears",
+            "icon": "✂️",
+            "detail": "Confirmed murder weapon — Gisèle's."
+          },
+          {
+            "name": "Ink Stand",
+            "icon": "🖊️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Bolt End Rod",
+            "icon": "🪵",
+            "detail": "Too long — eliminated."
+          },
+          {
+            "name": "Nadine's Administrative Access",
+            "icon": "📋",
+            "detail": "Not a weapon — the operational infrastructure that had made the two-channel operation possible."
+          },
+          {
+            "name": "The Monthly Handler Meetings",
+            "icon": "🏢",
+            "detail": "Not a weapon — Nadine's disguised coordination sessions with Beaumont's director."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence the Investigation",
+            "icon": "✂️",
+            "detail": "Gisèle's motive for the killing — Colette had identified her."
+          },
+          {
+            "name": "Supplementary Income",
+            "icon": "📸",
+            "detail": "Blanc's motive — 300 francs monthly."
+          },
+          {
+            "name": "Career Advancement at Beaumont",
+            "icon": "📋",
+            "detail": "Nadine's motive — had been promised a senior position at Beaumont when she departed Élise."
+          },
+          {
+            "name": "Competitive Market Intelligence",
+            "icon": "🏢",
+            "detail": "Beaumont's operational interest — the two-channel operation had been designed to neutralize Élise's competitive advantage."
+          },
+          {
+            "name": "The Promise of a Senior Role",
+            "icon": "💄",
+            "detail": "What Nadine had been working toward — a head of collections role at Beaumont promised for the following season."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Recruited Both Sources",
+            "icon": "📋",
+            "detail": "Nadine's confirmed role — had approached both Gisèle and Blanc separately and arranged the Beaumont payments."
+          },
+          {
+            "name": "Managed the Payment Channels",
+            "icon": "💰",
+            "detail": "Nadine's operational function — had ensured payments reached Gisèle and Blanc through channels that did not name Beaumont directly."
+          },
+          {
+            "name": "Stayed Invisible to Colette",
+            "icon": "🤫",
+            "detail": "Nadine's operational success — had not appeared in Colette's investigation because she had never handled the intelligence directly."
+          },
+          {
+            "name": "Was Promised a Beaumont Role",
+            "icon": "🏢",
+            "detail": "Nadine's anticipated reward — a senior collections position, which was withdrawn after the investigation."
+          },
+          {
+            "name": "Departed the Building Before the Killing",
+            "icon": "🚪",
+            "detail": "The alibi that had protected her — she had left at eight PM and the killing had occurred after eight-fifteen."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "How Nadine Had Operated",
+        "text": "Beaumont's internal records — obtained through the commercial court orders — show that the two-source operation had been managed by a single coordinator inside Maison Élise. The coordinator had arranged the payment channels, selected the intelligence targets, and managed the delivery schedule. The coordinator is identified in Beaumont's records only as 'the Coordinator.' The description — administrative access, schedule control, seasonal knowledge — matches Nadine Petit precisely.",
+        "alone": "Beaumont's records identify a single coordinator inside Élise who had managed both sources — the description of their access and role matches Nadine exactly.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Beaumont's 'Coordinator' description matching Nadine and her payment channel management confirmed by both Gisèle and Blanc establish she had been the operational hub of the entire three-month intelligence operation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "✂️",
+        "heading": "Gisèle's Account of Her Recruitment",
+        "text": "Gisèle, asked in a second interview how she had first made contact with Beaumont, reveals: 'Nadine came to me in October. She said she had an arrangement with a house that wanted to understand the season's direction. She said it was common practice — sharing trend intelligence. She arranged the payments. I never dealt with Beaumont directly.' She had been recruited by Nadine and had never interacted with Beaumont herself.",
+        "alone": "Gisèle had been recruited directly by Nadine in October — she had never dealt with Beaumont and had believed the arrangement was routine trend sharing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Gisèle recruited by Nadine believing it was routine trend sharing and Blanc similarly recruited confirm Nadine had framed the arrangement to each source in terms that made it seem less serious than it was — managing their participation through partial disclosure."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Blanc's Recruitment Account",
+        "text": "Blanc confirms the same pattern: 'Nadine asked me in September whether I would sell prints from the archive for a private client. She said it was a collector. She arranged the payment. I asked no questions because the contractual argument seemed valid.' He had been recruited a month before Gisèle, with the same framing of legitimacy and the same payment channel management.",
+        "alone": "Blanc had been recruited by Nadine in September with the 'private collector' framing — she had managed both recruitments using different legitimizing narratives tailored to each person's likely concerns.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Nadine framing the operation differently for each recruit and managing both payment channels confirm she had operated with sophisticated compartmentalization — each source had known only their own arrangement and had not known they were part of a coordinated operation."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Colette Had Not Found Nadine",
+        "text": "Colette's notebook documents her investigation methodology: she had been tracking payment origins through bank records, matching payment timing to intelligence deliveries, and working backward from Beaumont's source payments to the recipients. This method had identified Gisèle and Blanc — the payment recipients — but had not reached Nadine, who had received no direct payments. Nadine's compensation had been the promised Beaumont position, not current cash payments.",
+        "alone": "Colette's bank-record methodology had found payment recipients — Gisèle and Blanc — but not Nadine, who had been compensated with a future position rather than current payments. The methodology had been correct but incomplete.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Colette's bank-record methodology missing Nadine's deferred compensation and Nadine's operational invisibility confirmed by Beaumont's compartmentalized records establish that the investigation had been structurally sound but had not anticipated the coordinator's compensation being non-monetary."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Nadine's Promised Position",
+        "text": "Beaumont's records confirm a verbal offer to 'the Coordinator' of a head of collections position beginning with the autumn 1955 season — conditional on the spring intelligence delivery being complete. The offer had been made in November. Nadine had been working toward a specific career outcome, not a cash accumulation. The position offer was withdrawn in March 1955 when the investigation became public.",
+        "alone": "Nadine had been working toward a senior Beaumont position promised for autumn 1955 — the offer was withdrawn when the investigation became public.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Beaumont's 'Coordinator' description matching Nadine and the promised senior position confirmed in their records establish both her identity and her specific motivation — the entire operation had been the price of admission for a career advancement she had not received."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Nadine's Own Account",
+        "text": "Nadine, confronted with Beaumont's records and the two recruits' accounts, says: 'I arranged introductions. I did not steal anything. I did not tell anyone to kill anyone. Gisèle made her own decision in that stockroom.' She acknowledges the recruitment and payment channel management but draws a line at the killing — which she had not directed and had not known was coming.",
+        "alone": "Nadine acknowledges the recruitment and payment management but distinguishes herself from the killing — she had not known Colette would confront Gisèle that evening.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Colette's investigation not reaching Nadine and Nadine's post-exposure claim that she had not directed the killing confirm the timeline had protected her from both Colette's investigation and direct responsibility for the killing — she had been invisible until the legal proceedings reached Beaumont's records."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Nadine's Legal Outcome",
+        "text": "Nadine Petit is charged with orchestrating a commercial espionage operation — a charge that had not previously been brought under French law in this form. She receives a two-year suspended sentence and is barred from working in the Paris fashion industry for five years. The court notes her sophistication in structuring the operation to avoid direct fingerprints — the compartmentalization is cited as evidence of deliberate concealment rather than naivety.",
+        "alone": "Nadine receives a suspended sentence — the court explicitly cites her sophisticated compartmentalization as evidence of deliberate concealment.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Blanc recruited with the 'private collector' framing and the court citing deliberate compartmentalization confirm Nadine's operation had been professionally structured — the different narratives for each recruit had been intentional concealment, recognized as such by the court."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "💄",
+        "heading": "The Season's Accounting",
+        "text": "The full accounting of the 1955 Maison Élise spring season: Colette Marchand, dead. Gisèle Fontaine, eight years. Théodore Blanc, suspended sentence, 1,200 francs repaid. Nadine Petit, suspended sentence, five-year industry ban. Beaumont's director, fined and formally censured. The promised senior position: withdrawn. The derived spring collection: poor reviews. The original collection: acclaimed. One person in the chain — Peters, who had delivered Cobb's message to Sacramento in the gold rush case — had spent his two dollars on boots. In this case, no one spent anything. Everything cost more than it was worth.",
+        "alone": "The full accounting shows every participant worse off than before the season began — the operation had produced no lasting benefit for anyone who had been part of it.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Nadine's promised position withdrawn and the entire operation's net negative outcome for all participants confirm the intelligence operation had been commercially self-defeating — the derived collection had failed, the legal consequences had exceeded the operational gains, and the coordinator's career advancement had been the casualty of her own plan's exposure."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Gisèle Fontaine",
+      "location": "The Stockroom",
+      "weapon": "Dressmaker's Shears",
+      "motive": "Silence the Investigation",
+      "accomplice": "Recruited Both Sources"
+    },
+    "epilogue": "Nadine Petit had recruited Gisèle in October and Blanc in September. She had managed their payments, framed their participation in terms each would accept, and had never appeared in any document Colette had access to. She had left the building at eight PM and the killing had occurred after eight-fifteen. Her alibi was real. Her involvement was total. The court had noted the compartmentalization as deliberate. The senior position at Beaumont had been withdrawn the week the investigation became public. Nadine had organized an operation that had cost one life, produced three convictions, and delivered a spring collection that critics had found derivative. She had received a suspended sentence and five years away from an industry she had never left, in practical terms, because she had known where everything was made."
+  }
+}

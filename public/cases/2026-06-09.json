@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Shanghai, 1920. An opium den. A money lender found dead in the back room. Three people owed him everything. One of them decided to stop owing. 🏮🔍 Case #082 — The Red Ledger. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Shanghai 1920, an opium den, a dead money lender, and a debt that someone decided to cancel permanently. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1920 Shanghai opium den back room, lacquered panels and silk lanterns casting red light, a low table with ledger books and an abacus, a carved opium pipe on the floor beside an overturned tea vessel. Dense red shadow, gold light through carved screens. Atmospheric and dangerous, style of Childe Hassam meets Charles Maybon.",
+    "animationPrompt": "Slow pan through a 1920 Shanghai opium den back room. Lacquered panels. Red silk lanterns. A low table with ledger books and an abacus. The camera finds a carved opium pipe on the floor and an overturned tea vessel. Red light through the carved screens. Silence. Fade to black.",
+    "hashtags": [
+      "#Shanghai1920",
+      "#OpiumDenMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #082",
+    "title": "The Red Ledger",
+    "setting": "The Jade Phoenix Den · Shanghai · 1920",
+    "emoji": "🏮",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Money lender Chen Wei was found dead in the back room of the Jade Phoenix Den, his ledger open on the table. Three debtors had been summoned to settle accounts that evening. One of them had a debt that had tripled in six months through interest and had received a final collection notice that morning.",
+    "emptyState": "Three debtors. One final notice. One who decided to clear the debt differently.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Thomas Caldwell",
+            "icon": "💼",
+            "detail": "An English cotton trader — had borrowed to cover a failed shipment, debt now tripled."
+          },
+          {
+            "name": "Madame Song Ru",
+            "icon": "🎋",
+            "detail": "The den's manager — had borrowed against her establishment's lease two years prior."
+          },
+          {
+            "name": "Li Junfeng",
+            "icon": "🎻",
+            "detail": "A musician — had borrowed to pay for his sister's passage to Hong Kong."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "📒",
+            "detail": "Where Chen Wei was found — ledger open, abacus disturbed, tea vessel overturned."
+          },
+          {
+            "name": "The Main Den",
+            "icon": "🏮",
+            "detail": "The smoking room — where patrons reclined, separated from the back by a carved screen."
+          },
+          {
+            "name": "The Courtyard",
+            "icon": "🌿",
+            "detail": "The small enclosed garden behind the den — accessible from the back room's rear door."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Abacus",
+            "icon": "🧮",
+            "detail": "A heavy counting frame — blunt force wound consistent with its brass frame edge."
+          },
+          {
+            "name": "Opium Pipe",
+            "icon": "💨",
+            "detail": "A carved hardwood pipe — wound profile inconsistent with its narrow shaft."
+          },
+          {
+            "name": "Tea Vessel",
+            "icon": "🫖",
+            "detail": "The overturned ceramic pot — too light for the wound depth, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger's Open Page",
+        "text": "The ledger is open to a page bearing three accounts. The page shows Thomas Caldwell's debt in red ink — 2,400 taels, tripled from an original 800 through compound interest over six months. A notation beside his name reads 'Final Collection — Tonight.' The other two accounts on the page are in black ink and show manageable outstanding balances. The red ink and the notation are specific to Caldwell.",
+        "alone": "Caldwell's account is the only one marked in red with a final collection notice — his debt of 2,400 taels had tripled in six months and he had been specifically summoned for final collection that evening.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Caldwell's final collection notice and his confirmed presence in the back room during the confrontation window together confirm he had the specific financial desperation and the access that the other two debtors did not share in the same degree that evening."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🧮",
+        "heading": "The Brass Abacus",
+        "text": "The brass counting abacus on the table shows blood on its upper frame edge — the wound on Chen Wei's skull matches the frame's profile. The abacus had been used as a weapon and replaced on the table, slightly displaced from its original position — an impression in the lacquered surface shows where it normally sat. Chen Wei had been struck while reviewing the ledger, suggesting he was seated and facing away.",
+        "alone": "Chen Wei was struck from behind with the brass abacus while reviewing the ledger — the abacus had been returned to the table after the killing.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The abacus replaced after the killing indicating deliberate composure and Caldwell's confirmed familiarity with the back room's layout from prior collection meetings confirm the killing was not panicked — the killer had acted with enough composure to reposition the weapon."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎋",
+        "heading": "Madame Song's Account",
+        "text": "Madame Song Ru confirms she had met with Chen Wei in the back room at eight PM, paid a partial installment, and departed through the main den by eight-thirty PM. Three patrons in the main den confirm seeing her pass through at that time. She had not returned to the back room. She is cleared.",
+        "alone": "Madame Song paid her installment at eight PM and departed through the main den by eight-thirty — confirmed by three patrons. She is cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Madame Song cleared by eight-thirty PM and Li Junfeng confirmed in the courtyard from nine PM together establish that after eight-thirty, only Caldwell's movements in the back room remain unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Final Collection Notice",
+        "text": "Caldwell's final collection notice — a formal document delivered to his lodgings that morning by Chen Wei's runner — demanded full payment of 2,400 taels by midnight or 'all security interests will be exercised immediately.' The security interest was Caldwell's cotton warehouse lease, which Chen Wei held as collateral. Failure to pay would have left Caldwell without the warehouse he used for his trading operation.",
+        "alone": "The final collection notice demanded 2,400 taels by midnight or Caldwell would lose his warehouse — the entire basis of his trading business.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The final notice threatening Caldwell's warehouse and the ledger's red ink final collection notation confirming this was Chen Wei's terminal demand establish that Caldwell had faced complete business destruction by midnight — a deadline that had arrived that evening."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Caldwell in the Back Room",
+        "text": "A den attendant confirms he brought tea to the back room at nine-fifteen PM and saw Caldwell seated across from Chen Wei, the ledger between them. The attendant left the tea and returned to the main den. When the alarm was raised at ten PM, Caldwell was found in the main den. He had been in the back room with Chen Wei during the window and had moved to the main den afterward.",
+        "alone": "Caldwell was seen in the back room with Chen Wei at nine-fifteen PM and was in the main den when the alarm was raised at ten PM — he had been in the back room during the murder window.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Caldwell's final collection notice and his confirmed presence in the back room with Chen Wei during the murder window confirm he had both the specific desperate motive and the access — he was the debtor for whom the evening had been existential."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🧮",
+        "heading": "Caldwell's Prior Visits",
+        "text": "Den records show Caldwell had met with Chen Wei in the back room on four previous occasions over six months. He knew the room's layout, the abacus's position on the table, and Chen Wei's habit of sitting with his back to the door when reviewing accounts. He had been in the room enough times to know exactly where every object was.",
+        "alone": "Caldwell had been in the back room four times previously — he knew Chen Wei's seated position and the abacus's location on the table.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The abacus replaced with composure after the killing and Caldwell's four prior visits giving him knowledge of the room's layout and Chen Wei's habits confirm the killing required familiarity — not a panicked reaction but a prepared act by someone who knew where everything was."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎻",
+        "heading": "Li Junfeng in the Courtyard",
+        "text": "Li Junfeng had met with Chen Wei at eight-forty-five PM, arranged a payment extension in exchange for a higher interest rate, and had gone to the courtyard to smoke a pipe — confirmed by a den attendant who had seen him there at nine PM and again at nine-thirty PM. He had not been in the back room during the murder window. He is cleared.",
+        "alone": "Li Junfeng was in the courtyard from nine PM onward — confirmed by the den attendant at nine and nine-thirty. He is cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Madame Song cleared through the main den by eight-thirty and Li Junfeng cleared in the courtyard from nine PM together account for both other debtors — only Caldwell remained in the back room during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Warehouse Lease",
+        "text": "Chen Wei's security files — kept in a locked box in the back room, forced open during the investigation — contain Caldwell's warehouse lease as collateral. A separate document shows Chen Wei had already been in contact with a rival cotton trader about selling the lease if Caldwell defaulted. The sale had been arranged — Caldwell's business would have passed to a competitor by the following morning if the debt had not been paid.",
+        "alone": "Chen Wei had already arranged to sell Caldwell's warehouse to a competitor — the default consequence had been operative before the evening's meeting.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The final collection notice demanding payment by midnight and Chen Wei's pre-arranged sale of the warehouse to a competitor confirming the consequence was already in motion establish that Caldwell had understood the meeting had no negotiating space — the sale was already arranged."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Caldwell",
+      "location": "The Back Room",
+      "weapon": "Brass Abacus"
+    },
+    "epilogue": "Thomas Caldwell had known for six months that the debt was growing beyond his reach. When the final collection notice arrived that morning, he had understood that the meeting that evening was not a negotiation but a formality. He had attended, listened to Chen Wei review the account, and had struck from behind with the brass abacus while Chen Wei faced the ledger. He had replaced the abacus and moved to the main den. The warehouse was returned to Caldwell's operation after his arrest. The competitor who had arranged to purchase it declined to comment."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #082",
+    "title": "The Red Ledger",
+    "setting": "The Jade Phoenix Den · Shanghai · 1920",
+    "emoji": "🏮",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Caldwell killed Chen Wei. But Madame Song Ru had known the killing was likely — she had overheard Caldwell and Chen Wei's previous meeting and had told no one. Find what she had heard and why she had stayed silent.",
+    "emptyState": "Song Ru heard the previous meeting. Find what she knew.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Thomas Caldwell",
+            "icon": "💼",
+            "detail": "The killer — red ledger, abacus, four prior visits, warehouse threatened."
+          },
+          {
+            "name": "Madame Song Ru",
+            "icon": "🎋",
+            "detail": "Cleared as killer — main den confirmed. But had overheard Caldwell's prior meeting."
+          },
+          {
+            "name": "Li Junfeng",
+            "icon": "🎻",
+            "detail": "Cleared as killer — courtyard confirmed. His payment extension reveals the rate structure."
+          },
+          {
+            "name": "Chen Wei's Runner",
+            "icon": "📜",
+            "detail": "The man who delivered the final collection notices — had delivered all three that morning."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "📒",
+            "detail": "Primary crime scene — Caldwell's killing of Chen Wei."
+          },
+          {
+            "name": "The Main Den",
+            "icon": "🏮",
+            "detail": "Where Song Ru managed operations — and where the carved screen allowed sound to carry."
+          },
+          {
+            "name": "The Courtyard",
+            "icon": "🌿",
+            "detail": "Li Junfeng's confirmed location — and where he had processed his extension arrangement."
+          },
+          {
+            "name": "Song Ru's Office",
+            "icon": "🎋",
+            "detail": "The small room adjacent to the main den — where she had made her decision not to act."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Abacus",
+            "icon": "🧮",
+            "detail": "Confirmed murder weapon — Caldwell's composed use and replacement."
+          },
+          {
+            "name": "Opium Pipe",
+            "icon": "💨",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Tea Vessel",
+            "icon": "🫖",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Song Ru's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — but her decision not to warn Chen Wei or the authorities had left him unprotected."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Cancel the Debt Permanently",
+            "icon": "💼",
+            "detail": "Caldwell's motive — 2,400 taels and the warehouse, no negotiating space."
+          },
+          {
+            "name": "Protect Her Own Interest",
+            "icon": "🎋",
+            "detail": "Song Ru's reason for silence — Chen Wei held her lease and his death created a legal question about the debt."
+          },
+          {
+            "name": "Li's Extension Rate Structure",
+            "icon": "🎻",
+            "detail": "What Li's extension reveals — Chen Wei's interest rates had been predatory across all accounts."
+          },
+          {
+            "name": "The Den's Legal Exposure",
+            "icon": "🏮",
+            "detail": "Song Ru's deeper concern — reporting what she knew would have involved the den in a criminal investigation."
+          },
+          {
+            "name": "The Debt's Disappearance",
+            "icon": "📒",
+            "detail": "What Chen Wei's death meant for Song Ru — without the ledger's enforcement, her debt became contested."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🎋",
+        "heading": "What Song Ru Heard",
+        "text": "Song Ru, in her second interview, admits she had been in the main den during Caldwell's previous meeting with Chen Wei one month before the murder. The carved screen between the main den and the back room allowed sound to pass clearly. She had heard Caldwell say: 'If you will not adjust the rate, there is no way to pay this. You know that.' She had heard Chen Wei respond: 'The rate is the rate. The notice will come when I decide.' She had understood what was coming.",
+        "alone": "Song Ru had overheard Caldwell tell Chen Wei that the debt was unpayable at the existing rate — and had heard Chen Wei refuse to adjust. She had understood the trajectory.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Song Ru hearing the previous meeting's impasse and her decision not to warn Chen Wei or report to authorities confirm she had made a calculated choice — her own interest in the outcome of Chen Wei's death had shaped her silence."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎋",
+        "heading": "Song Ru's Own Debt Situation",
+        "text": "Song Ru's account in the ledger — examined in full — shows her original loan of 600 taels against the den's lease, with interest accumulating at a rate that would have required the den's full monthly income to service within two more years. The ledger also shows Chen Wei had the right to assume the lease if Song Ru defaulted. With Chen Wei dead, the enforcement of this right became legally uncertain.",
+        "alone": "Song Ru's debt to Chen Wei had been growing toward an unpayable level — his death had created legal uncertainty about enforcement, which served her interest.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Song Ru's debt growing toward an unpayable level and Chen Wei's death creating enforcement uncertainty confirm she had a specific financial interest in his death — not enough to make her a killer, but enough to make her silence a calculation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎻",
+        "heading": "Li's Extension and What It Reveals",
+        "text": "Li Junfeng's extension arrangement — 'higher interest rate' in exchange for more time — reveals the rate structure Chen Wei had been applying. Li had accepted an extension at eighteen percent monthly compounding. Caldwell's rate had been the same. Song Ru's rate was sixteen percent monthly. All three debtors had been subject to interest rates that mathematically guaranteed the debt would exceed repayment capacity within months.",
+        "alone": "All three debtors had been charged rates that mathematically guaranteed unpayable growth — the debts had been designed to become uncollectable by conventional means, leaving only the collateral as the real target.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Chen Wei's predatory rate structure ensuring debt growth beyond repayment and his pre-arranged sale of Caldwell's warehouse confirming collateral was the real target establish that Chen Wei's business model had been converting debt into collateral acquisition — the murders it generated were a predictable downstream consequence."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger After the Murder",
+        "text": "Chen Wei's estate — managed by a Shanghai court administrator after the murder — attempts to enforce the outstanding debts. Song Ru's legal counsel argues the lease debt is unenforceable without the original creditor and challenges the estate's standing. The challenge succeeds partially — Song Ru's lease debt is reduced to the original principal without interest. The predatory interest rate structure is cited as legally unconscionable.",
+        "alone": "Song Ru's legal challenge to the estate successfully reduces her debt to the original principal — the outcome of Chen Wei's death had been financially beneficial to her.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Song Ru's debt reduced to original principal after the murder and her overheard knowledge of the impending confrontation confirm the outcome had been exactly what she had calculated when she chose silence — Chen Wei's death had resolved her debt situation in a way his continued operation could not have."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "🎋",
+        "heading": "Song Ru's Explanation",
+        "text": "Song Ru explains her silence: 'I manage a den. If I report what I hear through my own screens to the police, my business is finished. If I warn Chen Wei, I owe him a favor I cannot afford. If I say nothing, the matter resolves itself. I am not proud of this. But I have lived in Shanghai long enough to know that some things resolve themselves if you do not interrupt them.' She is not charged.",
+        "alone": "Song Ru offers a calculation, not a confession — she had allowed a likely violence to proceed because intervening would have cost her more than silence.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Song Ru's debt growing toward unpayable and her calculation that silence was cheaper than intervention confirm the logic was financial as well as procedural — she had stood aside from a killing that had materially benefited her."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Chen Wei's Business Model",
+        "text": "A full review of Chen Wei's ledger reveals a pattern across twelve debtors over three years: all loans carry compound monthly interest rates between fifteen and twenty percent, all have collateral clauses, and eleven of the twelve had passed the point of conventional repayment within four months. The twelfth — a new loan — had not yet reached that threshold. Chen Wei had been systematically converting loans into collateral seizures.",
+        "alone": "Chen Wei's full ledger documents a systematic pattern of predatory lending designed to convert debt into collateral acquisition across twelve debtors — Caldwell's case was not exceptional but typical.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Li's extension revealing the rate structure and Chen Wei's systematic pattern across twelve debtors confirm the lending operation had been a deliberate collateral acquisition scheme — each debtor had been a target from the moment of the loan."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Other Debtors",
+        "text": "The twelve debtors documented in Chen Wei's ledger are all contacted by the estate administrator. Of the twelve, seven had lost their collateral properties to Chen Wei within the preceding three years. Two others had made final payments at significant personal cost. Caldwell and Song Ru are the two remaining active debtors. Li's extension had bought him time but had not changed his trajectory.",
+        "alone": "Seven of Chen Wei's twelve debtors had already lost their collateral — the scheme had been functioning as designed for three years before Caldwell acted.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Song Ru's debt reduced by the court challenge and seven prior debtors having lost their collateral confirm Chen Wei's death had interrupted a functioning predatory operation — and that the outcome for the surviving debtors had been significantly better than if he had continued."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "witness",
+        "icon": "🎋",
+        "heading": "Song Ru After the Trial",
+        "text": "After Caldwell's trial, Song Ru is asked whether she would make the same decision again — to stay silent when she understood what was likely. She says: 'I would make the same decision. Not because it was right. But because the alternative — warning a man who had systematically destroyed seven families to protect himself — required a loyalty to a system I do not have.' She pauses. 'I did not kill him. I did not save him. Those are different things.'",
+        "alone": "Song Ru distinguishes between killing and not saving — she had made a deliberate decision to withhold protection from a man she believed had caused harm, and she frames this as a moral position rather than a calculation.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Song Ru's calculation that silence was cheaper than intervention and her post-trial framing of the decision as a moral position confirm the same choice had multiple simultaneous dimensions — financial self-interest, procedural practicality, and a judgment about Chen Wei's character had all pointed in the same direction."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Caldwell",
+      "location": "The Back Room",
+      "weapon": "Brass Abacus",
+      "motive": "Cancel the Debt Permanently"
+    },
+    "epilogue": "Thomas Caldwell received twelve years. Madame Song Ru was not charged — the court found her silence, while morally complex, did not meet the legal threshold for criminal complicity. Her lease debt was reduced to its original principal. Li Junfeng's extension rate was declared unconscionable and his debt restructured at a legal rate. Seven families who had lost properties to Chen Wei's collateral seizures filed civil claims against the estate. Four succeeded. The Jade Phoenix Den continued operating under Song Ru's management for another decade. She replaced the carved screen between the main den and the back room with a solid partition."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #082",
+    "title": "The Red Ledger",
+    "setting": "The Jade Phoenix Den · Shanghai · 1920",
+    "emoji": "🏮",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Caldwell killed Chen Wei. Song Ru knew and stayed silent. But Chen Wei's runner — the man who had delivered the final notices — had a third piece of information he had not disclosed. Find what the runner knew about Caldwell before the evening.",
+    "emptyState": "The runner knew something about Caldwell before the meeting. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Thomas Caldwell",
+            "icon": "💼",
+            "detail": "The killer — abacus, four prior visits, warehouse threatened, 2,400 taels with no exit."
+          },
+          {
+            "name": "Madame Song Ru",
+            "icon": "🎋",
+            "detail": "Cleared as killer — knew and stayed silent, debt reduced by the court."
+          },
+          {
+            "name": "Li Junfeng",
+            "icon": "🎻",
+            "detail": "Cleared as killer — courtyard confirmed. Extension rate restructured."
+          },
+          {
+            "name": "Bao the Runner",
+            "icon": "📜",
+            "detail": "Chen Wei's delivery man — had delivered all three final notices and had seen something at Caldwell's warehouse."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "📒",
+            "detail": "Primary crime scene — Caldwell's killing of Chen Wei."
+          },
+          {
+            "name": "The Main Den",
+            "icon": "🏮",
+            "detail": "Song Ru's location — solid screen installed after the murder."
+          },
+          {
+            "name": "The Courtyard",
+            "icon": "🌿",
+            "detail": "Li Junfeng's confirmed location."
+          },
+          {
+            "name": "Caldwell's Warehouse",
+            "icon": "💼",
+            "detail": "Where Bao had delivered the final notice — and where he had observed something that morning."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Abacus",
+            "icon": "🧮",
+            "detail": "Confirmed murder weapon — Caldwell's."
+          },
+          {
+            "name": "Opium Pipe",
+            "icon": "💨",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Tea Vessel",
+            "icon": "🫖",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Bao's Withheld Observation",
+            "icon": "📜",
+            "detail": "Not a weapon — the information the runner had seen that morning and had not disclosed."
+          },
+          {
+            "name": "The Final Collection Notice",
+            "icon": "📋",
+            "detail": "The document Bao had delivered — and the interaction he had observed when delivering it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Cancel the Debt Permanently",
+            "icon": "💼",
+            "detail": "Caldwell's motive — 2,400 taels, no negotiating space, warehouse pre-sold."
+          },
+          {
+            "name": "Financial Self-Interest",
+            "icon": "🎋",
+            "detail": "Song Ru's reason for silence — debt reduction through legal challenge."
+          },
+          {
+            "name": "Protect His Employment",
+            "icon": "📜",
+            "detail": "Bao's reason for withholding — disclosing what he had seen would have complicated his role."
+          },
+          {
+            "name": "Caldwell's Premeditation",
+            "icon": "💼",
+            "detail": "What Bao had observed — evidence of preparation before the meeting."
+          },
+          {
+            "name": "Chen Wei's Pre-Arranged Sale",
+            "icon": "📒",
+            "detail": "The structural cause of the killing — Caldwell had known there was no exit."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "That Morning",
+            "icon": "🌅",
+            "detail": "When Bao delivered the final notices — and what he observed at Caldwell's warehouse."
+          },
+          {
+            "name": "Eight PM",
+            "icon": "🌙",
+            "detail": "When Song Ru met with Chen Wei and departed."
+          },
+          {
+            "name": "Nine to Ten PM",
+            "icon": "⚠️",
+            "detail": "The murder window — Caldwell in the back room, abacus used."
+          },
+          {
+            "name": "The Previous Month",
+            "icon": "📅",
+            "detail": "When Song Ru overheard the impasse — the chain's earlier link."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "What Bao Saw at the Warehouse",
+        "text": "Bao, in his third interview after the investigation expands, admits he had seen something when delivering the final notice to Caldwell's warehouse that morning. Caldwell had been in the warehouse's rear section — Bao had glimpsed him through an open door before Caldwell had closed it. Caldwell had been examining a brass object. Bao had not seen it clearly but had registered it as unusual — 'something he was turning over in his hands, like he was testing its weight.'",
+        "alone": "Bao had seen Caldwell examining a heavy brass object in his warehouse that morning — before the evening meeting.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Bao seeing Caldwell with a heavy brass object that morning and the brass abacus confirmed as the murder weapon together establish a possible chain — Caldwell had been considering and handling a weapon before going to the meeting."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Why Bao Had Not Disclosed",
+        "text": "Bao explains: 'I deliver notices for Chen Wei. I am paid to deliver and report back whether the notice was received. Not to report what the recipient does afterward. If I report what I see in people's warehouses, no one will accept delivery from me again. My work depends on discretion.' He had operated under a professional code of non-disclosure that had allowed a premeditated killing to proceed undetected.",
+        "alone": "Bao had withheld his observation because disclosure would have violated the professional discretion his work depended on — a code that had, in this case, protected a killer's preparation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Bao's professional discretion preventing disclosure and Song Ru's procedural calculation preventing intervention confirm two people had independently chosen silence for different professional reasons — both decisions had contributed to the uninterrupted execution of a premeditated killing."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Brass Object at the Warehouse",
+        "text": "An inventory of Caldwell's warehouse — conducted after the arrest — lists the warehouse's contents in detail. Among the items: 'one brass counting frame, trade model, commercial grade.' A cotton trader's warehouse would not normally contain an abacus — these were back-office instruments. The warehouse abacus had been removed from the warehouse inventory after the murder. Caldwell had had a brass abacus in his warehouse.",
+        "alone": "Caldwell's warehouse inventory includes a brass abacus — an unusual item for a warehouse — that had been removed from the inventory after the murder.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The warehouse brass abacus removed from inventory after the murder and the den's abacus confirmed as the murder weapon present a question of sequence — investigators consider whether Caldwell had brought his own weapon or had used the den's."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "physical",
+        "icon": "🧮",
+        "heading": "One Abacus or Two",
+        "text": "Forensic examination of the den's abacus — the confirmed murder weapon — shows it is a commercial Chinese counting frame, standard to the den's accounting. Its serial marks match a Shanghai supplier's inventory of items sold to the Jade Phoenix Den in 1918. It had been in the den for two years. Caldwell had not brought his own weapon — he had used the den's abacus. The warehouse abacus had been a different object.",
+        "alone": "The murder weapon was the den's own abacus — Caldwell had not brought the warehouse abacus. Bao had seen him examining a different brass object that morning.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The murder weapon confirmed as the den's abacus and the warehouse brass object being different establish that Caldwell had not premeditated the specific weapon — but Bao's observation of him handling a heavy brass object that morning still indicates a state of mind consistent with planning violence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "What the Brass Object Was",
+        "text": "Caldwell, confronted with Bao's account, confirms he had been holding a brass doorweight in his warehouse that morning. He explains: 'I had been thinking about the meeting. I was considering — I am not going to say what I was considering. I had the weight in my hands. I put it down. I went to the meeting without it.' He had been contemplating violence that morning and had not brought a weapon — but had found one at the scene.",
+        "alone": "Caldwell confirms he had been considering violence that morning while handling the brass doorweight — he had decided against bringing a weapon and had then used the opportunistic abacus at the scene.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Bao seeing Caldwell with the brass object and Caldwell's admission that he had been contemplating violence that morning confirm the killing had been premeditated in intent if not in specific method — he had gone to the meeting having already decided what he might do."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Premeditation Question",
+        "text": "At Caldwell's trial, the prosecution argues premeditation based on Bao's testimony and Caldwell's admission. The defence argues the decision not to bring a weapon demonstrates he had not made a firm decision until the moment in the back room. The court finds: 'The defendant had contemplated violence before the meeting, had attended the meeting with violent intent forming, and had acted on that intent when the opportunity presented itself. The distinction between premeditation and impulse in these circumstances does not operate in the defendant's favor.'",
+        "alone": "The court finds that contemplating violence before the meeting and acting on it at the scene constitutes sufficient premeditation — the absence of a brought weapon does not negate the intent.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Caldwell's admission of contemplating violence while holding the doorweight and the court's finding that intent formed before the meeting constitutes premeditation confirm the legal significance of Bao's withheld observation — it had been evidence of a state of mind, not a specific plan."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Bao's Role in the Trial",
+        "text": "Bao is called as a prosecution witness at Caldwell's trial. His testimony about the morning observation is admitted as evidence of premeditation. Under cross-examination, Bao is asked whether he had told Chen Wei about what he had seen. He says: 'No. It was not my place.' He is asked whether he understands that Chen Wei might have been alive if he had said something. He says: 'Yes. I understand that now.'",
+        "alone": "Bao acknowledges at trial that Chen Wei might have survived if he had disclosed his morning observation — his professional discretion had had a specific, traceable consequence.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Bao's professional discretion preventing disclosure and his acknowledgment at trial that Chen Wei might have survived confirm the full weight of his withheld observation — the professional code he had followed had protected a killer's preparation."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Investigation's Three Silences",
+        "text": "The trial record notes three separate decisions not to disclose information that might have prevented the killing: Song Ru's decision not to warn Chen Wei after overhearing the prior meeting; Bao's decision not to report the morning observation; and Caldwell's own decision not to bring a weapon — which, perversely, had allowed him to present the killing as less premeditated than it was. Three silences, each with its own logic, each contributing to an outcome none of them had individually decided.",
+        "alone": "The trial identifies three separate non-disclosures that had each contributed to the killing — Song Ru's, Bao's, and ironically Caldwell's own decision not to arm himself in advance.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The court's premeditation finding and the three identified silences confirm the killing had emerged from a convergence of individual calculations — each person had made a decision that served their own logic, and the combination had left Chen Wei without protection, warning, or any path to survival."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Caldwell",
+      "location": "The Back Room",
+      "weapon": "Brass Abacus",
+      "motive": "Cancel the Debt Permanently",
+      "window": "Nine to Ten PM"
+    },
+    "epilogue": "Thomas Caldwell received twelve years. The court's finding on premeditation was upheld on appeal — intent formed before the meeting was sufficient, regardless of the weapon's source. Bao gave his testimony and was not charged. He continued working as a delivery runner for two more years before finding other employment. Madame Song Ru's solid partition remained in place. The seven families who had lost collateral to Chen Wei's scheme received partial restitution from the estate. Li Junfeng's sister sent a letter from Hong Kong the following year. He read it in the courtyard of the Jade Phoenix Den and did not show it to anyone."
+  }
+}

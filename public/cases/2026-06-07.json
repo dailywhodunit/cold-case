@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Buenos Aires, 1953. A tango hall. A dance partner found dead between sets. And a jealousy so old it had become a way of life. 🌹🔍 Case #080 — Milonga. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Buenos Aires 1953, a tango hall murder, a jealousy that had been burning for years, and the one clue that names the killer. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1953 Buenos Aires tango hall between sets, marble floor and wrought iron chairs, a single red rose on an empty table, a man's jacket draped over a chair beside a glass of malbec overturned. Warm amber light, deep shadow, the empty bandstand visible beyond. Sensual and charged, style of Leandro Elrich meets Edward Hopper.",
+    "animationPrompt": "Slow pan through a 1953 Buenos Aires tango hall between sets. Marble floor. Wrought iron chairs. A single red rose on an empty table. The camera finds an overturned malbec glass and a man's jacket draped over a chair. Beyond: the empty bandstand. The amber light holds. Fade to black.",
+    "hashtags": [
+      "#BuenosAiresTango",
+      "#MilongaMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #080",
+    "title": "Milonga",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1953",
+    "emoji": "🌹",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Dance instructor Roberto Fuentes was found dead between the first and second sets at the Salón Porteño. He had danced with three women that evening. One of them had been watching him dance with the others for years — and had finally had enough.",
+    "emptyState": "He danced with everyone. One person had watched too long.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "🌹",
+            "detail": "Roberto's regular partner — had danced with him for six years and considered their partnership exclusive."
+          },
+          {
+            "name": "Señora Cristina Leal",
+            "icon": "💃",
+            "detail": "A married socialite — had begun taking lessons from Roberto three months ago."
+          },
+          {
+            "name": "Pilar Montoya",
+            "icon": "🎵",
+            "detail": "The hall's bookkeeper — had known Roberto since childhood and carried a quiet devotion."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Where Roberto was found — behind the stage, between the bandstand and the kitchen."
+          },
+          {
+            "name": "The Dance Floor",
+            "icon": "💃",
+            "detail": "Where the first set had taken place — all three suspects present."
+          },
+          {
+            "name": "The Powder Room",
+            "icon": "🪞",
+            "detail": "Where Señora Leal confirmed she had been during the interval."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Heel",
+            "icon": "👠",
+            "detail": "A broken dance shoe heel — the wound is a narrow deep puncture consistent with its tip."
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "Found near the corridor entrance — no blood or wound trace, eliminated."
+          },
+          {
+            "name": "Music Stand",
+            "icon": "🎵",
+            "detail": "A metal stand from the bandstand — wound profile inconsistent, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "physical",
+        "icon": "👠",
+        "heading": "The Broken Heel",
+        "text": "The wound is a narrow, deep puncture to Roberto's neck — consistent with the tip of a stiletto heel striking with force. A stiletto dance shoe heel, broken at the base, is found near the body. The heel's tip shows blood. A single scuff on Roberto's jacket shoulder indicates he had been grabbed from behind before the heel was used. The heel belongs to a size-five dance shoe — a small woman's size.",
+        "alone": "Roberto was struck from behind with a broken stiletto heel belonging to a size-five dance shoe — someone had grabbed him from behind first.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The size-five stiletto heel and Elena Vargas's dance shoes found with a freshly broken heel matching the size confirm she had been wearing the shoe that killed Roberto — and the break is fresh, consistent with being used as a weapon that evening."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🌹",
+        "heading": "The First Set",
+        "text": "Witnesses confirm Roberto had danced with Señora Leal for three consecutive tangos during the first set — an unusually public display of attention. Elena had been seated, watching. A witness at an adjacent table describes Elena as 'absolutely still, like a person made of stone.' The first set had ended at ten-fifteen PM. Roberto had gone backstage at ten-twenty PM.",
+        "alone": "Elena had watched Roberto dance with Señora Leal for three consecutive tangos — witnesses describe her as unnaturally still during the dances.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Elena's witnessed stillness watching Roberto dance with Señora Leal and her six-year history as his exclusive partner together establish the specific trigger — the three consecutive dances had been the public humiliation that had broken her patience."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🪞",
+        "heading": "Señora Leal's Powder Room",
+        "text": "Señora Leal went to the powder room after the first set — confirmed by the powder room attendant who handed her a towel and by another guest who spoke to her there at approximately ten-twenty PM. She had been in the powder room for at least fifteen minutes. The back corridor where Roberto was found is not adjacent to the powder room route. She is definitively cleared.",
+        "alone": "Señora Leal was in the powder room from ten-twenty PM — confirmed by the attendant and another guest. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Señora Leal cleared in the powder room and Pilar Montoya confirmed at the booking desk throughout the interval together eliminate two suspects — only Elena Vargas is unaccounted for during the interval."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Elena and Roberto's History",
+        "text": "The hall's booking records — maintained by Pilar — show Elena and Roberto had partnered at the Salón Porteño every Friday night for six years without exception. Pilar's own notes in the margin of the booking ledger — private annotations she had not expected to be read — describe the partnership as 'an arrangement that only one of them believes is more than professional.' She had observed the asymmetry for years.",
+        "alone": "Pilar's private marginal notes describe the six-year partnership as one that only Elena believed was more than professional — an asymmetry Pilar had been observing from the booking desk.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The six-year partnership Pilar had documented as professionally asymmetric and Roberto's three consecutive dances with Señora Leal that evening together establish the specific context of Elena's motive — six years of believing in something that had been publicly contradicted that night."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "👠",
+        "heading": "Elena's Dance Shoes",
+        "text": "Elena Vargas's dance shoes — examined after she is questioned — show a freshly broken heel on the right shoe. The break is clean and recent. The broken heel found near Roberto's body is a precise match to the shoe's base socket — the heel fits back into Elena's shoe exactly. She had been wearing the shoe when the heel broke, or had broken it deliberately.",
+        "alone": "The broken heel found at the scene fits Elena's right dance shoe exactly — the heel had been part of her shoe that evening.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The size-five stiletto heel matching Elena's shoe and the fresh break consistent with that evening confirm Elena had been wearing the shoe from which the murder weapon had come — whether it broke during a struggle or was used deliberately."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Elena After the First Set",
+        "text": "A bandstand musician saw Elena walk toward the back corridor at approximately ten-twenty PM — the same time Roberto had gone backstage. The musician had assumed she was following Roberto to speak with him privately. He had not seen her return to the dance floor before the alarm was raised. Her stated account — that she had gone for air on the back terrace — is not confirmed by any witness.",
+        "alone": "Elena walked toward the back corridor at ten-twenty PM — the same direction Roberto had gone — and was not seen returning before the alarm. Her stated location is unconfirmed.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Elena's witnessed stillness watching the three consecutive dances and her unconfirmed movement to the back corridor at the same time as Roberto establish she had followed him backstage during the interval."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎵",
+        "heading": "Pilar at the Desk",
+        "text": "Pilar Montoya was at the booking desk throughout the interval — confirmed by three guests who had spoken to her about reservations for the following Friday. She had been at her desk from the end of the first set until the alarm. She had not been in the back corridor. She is definitively cleared.",
+        "alone": "Pilar was at the booking desk throughout the interval — confirmed by three guests. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Señora Leal cleared in the powder room and Pilar cleared at the booking desk together account for both other suspects — only Elena's interval movements are unconfirmed, and she is placed moving toward the back corridor."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "What Elena Said",
+        "text": "When questioned, Elena says: 'I followed him. I wanted to speak with him. He was going to tell me it meant nothing — the dances with that woman. He had said this before. I did not want to hear it again.' She pauses. 'The heel broke when I fell against him. I did not plan it.' Investigators note the heel's wound is directional — it had been driven, not fallen.",
+        "alone": "Elena admits following Roberto to the back corridor — she claims the heel broke accidentally, but the wound's direction is inconsistent with an accidental fall.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Elena's shoe matching the broken heel and her admission of following Roberto to the corridor together confirm she was the person with the weapon at the location during the time — her account of the heel breaking accidentally is contradicted by the wound's angle."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Back Corridor",
+      "weapon": "Stiletto Heel"
+    },
+    "epilogue": "Elena Vargas had watched Roberto dance with Señora Leal for three consecutive tangos and had been still in a way that the table beside her had noticed. When the first set ended, she had followed him to the back corridor. Roberto had been about to give the explanation he had given before — it means nothing, only you mean something. The heel had not broken accidentally. The angle confirmed the drive. She had been partnered with Roberto at the Salón Porteño every Friday for six years. The following Friday, the hall had a substitute instructor and two fewer bookings."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #080",
+    "title": "Milonga",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1953",
+    "emoji": "🌹",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Elena killed Roberto. But Pilar Montoya's marginal notes in the booking ledger reveal she had been watching the partnership for years. Find what Pilar actually felt and whether her observation had been entirely neutral.",
+    "emptyState": "Pilar watched for years. Find what was beneath the watching.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "🌹",
+            "detail": "The killer — matching heel, corridor confirmed, six-year motive, wound direction."
+          },
+          {
+            "name": "Señora Cristina Leal",
+            "icon": "💃",
+            "detail": "Cleared as killer — powder room confirmed. But had been told something about Elena."
+          },
+          {
+            "name": "Pilar Montoya",
+            "icon": "🎵",
+            "detail": "Cleared as killer — booking desk confirmed. Her marginal notes reveal a sustained private history."
+          },
+          {
+            "name": "Roberto Fuentes",
+            "icon": "💃",
+            "detail": "The victim — had been managing multiple relationships simultaneously and had told each woman something different."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Elena's killing of Roberto."
+          },
+          {
+            "name": "The Dance Floor",
+            "icon": "💃",
+            "detail": "Where the three consecutive dances with Señora Leal had publicly humiliated Elena."
+          },
+          {
+            "name": "The Powder Room",
+            "icon": "🪞",
+            "detail": "Señora Leal's confirmed location — and where Roberto had spoken to her before the first set."
+          },
+          {
+            "name": "The Booking Desk",
+            "icon": "📋",
+            "detail": "Pilar's post — and where years of private observation had been recorded in margin notes."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Heel",
+            "icon": "👠",
+            "detail": "Confirmed murder weapon — Elena's shoe, fresh break, directional wound."
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Music Stand",
+            "icon": "🎵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Pilar's Booking Notes",
+            "icon": "📋",
+            "detail": "Not a weapon — but the documentary record of a sustained private feeling that investigators had not anticipated finding."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Six Years of Asymmetric Partnership",
+            "icon": "🌹",
+            "detail": "Elena's motive — she had believed the partnership was more than professional; Roberto had not."
+          },
+          {
+            "name": "Three Consecutive Public Dances",
+            "icon": "💃",
+            "detail": "The specific trigger — Roberto's public display with Señora Leal that evening."
+          },
+          {
+            "name": "Childhood Devotion",
+            "icon": "🎵",
+            "detail": "Pilar's private feeling — she had known Roberto since childhood and had watched Elena have what she had not."
+          },
+          {
+            "name": "Roberto's Simultaneous Promises",
+            "icon": "📋",
+            "detail": "The structural cause — Roberto had been giving different signals to multiple women at the same time."
+          },
+          {
+            "name": "The Booking Ledger's Hidden Record",
+            "icon": "📋",
+            "detail": "What Pilar had written — years of private observation that the investigation had not been looking for."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Pilar's Marginal Notes — Full Reading",
+        "text": "A full reading of Pilar's booking ledger margin notes — which Pilar had not expected to be examined — spans four years and documents her observations of Roberto and Elena's partnership in detail. The notes begin as professional observations: 'E.V. — exclusive booking, always Friday.' They become more personal: 'He danced with Señorita Ríos tonight. E. watched. She always watches.' The final entry, written that evening, reads: 'Señora Leal again. Three dances. E. will not survive this.'",
+        "alone": "Pilar had written that evening that Elena would not survive watching Roberto dance with Señora Leal three times — a prediction written before the killing occurred.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Pilar predicting Elena would not survive the three dances and her childhood relationship with Roberto confirming she had observed him across decades together establish that Pilar had understood both Elena's psychology and Roberto's pattern with an accuracy born from years of close watching."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Pilar and Roberto's Childhood",
+        "text": "Pilar Montoya and Roberto Fuentes had grown up in the same neighbourhood in San Telmo. Neighbours confirm they had been inseparable from ages eight to sixteen — Pilar had taught Roberto his first tango steps. At sixteen, Roberto had begun dancing with others. Pilar had taken the booking desk position at the Salón Porteño at twenty-two, the same year Roberto had become its principal instructor. They had never danced together at the hall.",
+        "alone": "Pilar had taught Roberto his first steps — she had been the origin of his dance life and had spent years at the desk watching him dance with everyone except her.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Pilar teaching Roberto his first steps and then watching from the booking desk for years confirm the specific texture of her observation — she had made him what he was and had never been asked to dance with what she had made."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "What Roberto Told Señora Leal",
+        "text": "Señora Leal, in a second interview, reveals that before the first set, Roberto had told her: 'Elena thinks we are something we are not. You should not concern yourself with her watching. She watches everyone.' He had specifically told Señora Leal to disregard Elena's reactions — suggesting he had been aware of Elena's feelings and had been managing them rather than addressing them.",
+        "alone": "Roberto had told Señora Leal to ignore Elena's reactions — he had known about Elena's feelings and had been actively managing them rather than resolving them.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Roberto telling Señora Leal to disregard Elena and his similar patterns with Pilar and possibly others confirm he had been managing multiple women's feelings simultaneously — a sustained pattern of giving different signals to different people."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Pilar Had Never Said",
+        "text": "Among Pilar's marginal notes, a single entry from two years before the killing reads: 'He asked me tonight if I was happy at the desk. I said yes. He said the hall would not run without me. He said no one sees everything the way I do. I have been waiting for him to say something else for twenty years and he never does. He never will.' She had articulated the asymmetry herself — and had continued.",
+        "alone": "Pilar had written two years before the killing that she had been waiting for Roberto to say something else for twenty years — and had acknowledged he never would, and yet had continued.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Pilar's two-year-old note acknowledging Roberto would never say what she had been waiting for and her prediction the night of the killing that Elena would not survive the three dances confirm she had understood the situation completely — and had been watching from the desk as it moved toward exactly the outcome she had predicted."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What Elena Had Known About Pilar",
+        "text": "Elena, in her full account, says: 'Pilar loved him. Anyone could see it. I was not angry at Pilar — she had loved him longer than I had. I was angry at Roberto, who let both of us love him and told us each we were special.' She had known about Pilar's feeling — and had seen it as parallel to her own rather than competitive.",
+        "alone": "Elena had known about Pilar's devotion and had seen it as parallel to her own — both women had been told they were special by the same man in different ways.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Roberto telling Señora Leal to disregard Elena and Elena describing how Roberto had told both her and Pilar they were special confirm the structural pattern — Roberto had been managing multiple simultaneous feelings without resolving any of them."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🎵",
+        "heading": "Pilar After the Killing",
+        "text": "After Roberto's death, Pilar is asked whether she had known what Elena would do when she followed Roberto to the corridor. She says: 'I wrote it in the ledger. I said she would not survive it. I did not mean survive it — I meant survive it quietly. I did not think she would do what she did.' She pauses. 'But I did not go after her to stop her either.'",
+        "alone": "Pilar admits she had not gone after Elena to stop her — she had watched Elena follow Roberto to the corridor and had not intervened.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Pilar's twenty-year acknowledgment that Roberto would never change and her admission that she had not intervened confirm the inaction was not shock but a quiet, decades-long resignation — she had watched the situation move toward its conclusion and had not stopped it."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three-Dance Calculation",
+        "text": "Pilar's notes from the previous three weeks document a pattern: Roberto had danced two consecutive dances with Señora Leal each of the past three Fridays. The notes track the escalation: 'Two dances,' 'Two dances again,' 'Three tonight.' Pilar had been counting the dances — she had seen the escalation coming before Elena had.",
+        "alone": "Pilar had been tracking the escalating number of dances between Roberto and Señora Leal over three weeks — she had seen the escalation building before it reached the evening of the killing.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Pilar tracking three weeks of escalating dances and writing that evening that Elena would not survive confirms she had been watching a process she understood in detail — her prediction had been based on three weeks of counted evidence."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The Final Booking",
+        "text": "The last entry in Pilar's booking ledger — written after the investigation — is a single line: 'Friday: no booking for E. Vargas. No booking for R. Fuentes. Closed.' She had written the closure of the thing she had been watching for six years as a booking ledger entry. Investigators note the entry is in her usual professional handwriting — no change in pressure, no visible emotion in the script.",
+        "alone": "Pilar closed the record of Elena and Roberto's partnership in the same handwriting she used for all bookings — no visible change in the script that had documented years of private feeling.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Pilar admitting she had not intervened and her closing the partnership's record in unchanged handwriting confirm the observation had been conducted with a composure that had not broken even at the end — she had watched everything and had written it all down in the same hand."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Back Corridor",
+      "weapon": "Stiletto Heel",
+      "motive": "Six Years of Asymmetric Partnership"
+    },
+    "epilogue": "Elena Vargas received twelve years. Pilar Montoya was not charged — her admission that she had not gone after Elena to stop her was found insufficient for any criminal finding. The booking ledger was entered into evidence. The marginal notes spanning four years were read into the record by the prosecution. They were described by the presiding judge as 'the most complete documentation of a preventable tragedy the court had encountered.' The Salón Porteño continued operating. Pilar remained at the booking desk for eleven more years. She never noted another partnership in the margins."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #080",
+    "title": "Milonga",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1953",
+    "emoji": "🌹",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Elena killed Roberto. Pilar watched and did not intervene. But Señora Leal had been told something specific by Roberto that evening that she had not disclosed in her first interview. Find what Roberto told her and what it reveals about his intentions.",
+    "emptyState": "Señora Leal was told something before the first set. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "🌹",
+            "detail": "The killer — matching heel, corridor confirmed, wound direction, six-year asymmetric love."
+          },
+          {
+            "name": "Señora Cristina Leal",
+            "icon": "💃",
+            "detail": "Cleared as killer — powder room confirmed. But Roberto had told her something that evening."
+          },
+          {
+            "name": "Pilar Montoya",
+            "icon": "🎵",
+            "detail": "Cleared as killer — booking desk. Twenty years of watching, three weeks of counting, one evening of not intervening."
+          },
+          {
+            "name": "Señor Leal",
+            "icon": "💍",
+            "detail": "Señora Leal's husband — unaware of the tango lessons, present in the hall that evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Corridor",
+            "icon": "🚪",
+            "detail": "Primary crime scene — Elena's killing."
+          },
+          {
+            "name": "The Dance Floor",
+            "icon": "💃",
+            "detail": "Where the three consecutive dances had publicly humiliated Elena."
+          },
+          {
+            "name": "The Powder Room",
+            "icon": "🪞",
+            "detail": "Señora Leal's confirmed location — and where she had processed what Roberto told her."
+          },
+          {
+            "name": "The Hall Entrance",
+            "icon": "🚪",
+            "detail": "Where Señor Leal had been seated — and where he had been watching his wife dance."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stiletto Heel",
+            "icon": "👠",
+            "detail": "Confirmed murder weapon — Elena's."
+          },
+          {
+            "name": "Wine Bottle",
+            "icon": "🍷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Music Stand",
+            "icon": "🎵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Roberto's Words to Señora Leal",
+            "icon": "💬",
+            "detail": "Not a weapon — but what he had told her that evening had been the specific context for the three public dances."
+          },
+          {
+            "name": "Señor Leal's Presence",
+            "icon": "💍",
+            "detail": "Not a weapon — but Roberto had known the husband was there and had danced publicly anyway."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Six Years of Asymmetric Love",
+            "icon": "🌹",
+            "detail": "Elena's motive — the killing was the end of a belief, not an act of jealousy."
+          },
+          {
+            "name": "Twenty-Year Childhood Devotion",
+            "icon": "🎵",
+            "detail": "Pilar's motive for watching — and for not intervening."
+          },
+          {
+            "name": "Roberto's Specific Plan",
+            "icon": "💬",
+            "detail": "What he had told Señora Leal before the first set — a declaration that had made the three dances a performance of intent."
+          },
+          {
+            "name": "Demonstrate Seriousness",
+            "icon": "💃",
+            "detail": "Roberto's purpose in the three dances — he had wanted to show Señor Leal he was not intimidated."
+          },
+          {
+            "name": "Elena as Collateral",
+            "icon": "🌹",
+            "detail": "What Roberto had not considered — Elena's reaction had not been part of his calculation that evening."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Did Not Intervene",
+            "icon": "🎵",
+            "detail": "Pilar's role — saw Elena follow Roberto to the corridor and did not go after her."
+          },
+          {
+            "name": "Received Roberto's Declaration",
+            "icon": "💬",
+            "detail": "Señora Leal's role — had been told before the first set what the three dances were meant to communicate."
+          },
+          {
+            "name": "Was Present as Witness",
+            "icon": "💍",
+            "detail": "Señor Leal's passive role — his presence had been the audience Roberto had been performing for."
+          },
+          {
+            "name": "Tracked the Escalation",
+            "icon": "📋",
+            "detail": "Pilar's active observation — three weeks of counted dances leading to her evening prediction."
+          },
+          {
+            "name": "Withheld the Declaration in First Interview",
+            "icon": "🤫",
+            "detail": "Señora Leal's post-murder choice — she had not disclosed what Roberto told her until pressed."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "What Roberto Told Señora Leal",
+        "text": "In her third interview, Señora Leal discloses what she had withheld: Roberto had told her before the first set that he intended to leave Buenos Aires with her. He had said he was going to make clear to everyone — including her husband, who was present — that he was serious by dancing with her three times in public. He had planned the three dances as a public declaration of intent.",
+        "alone": "Roberto had planned the three consecutive dances as a deliberate public declaration — he had told Señora Leal before the first set that this was his intention, and that her husband was the audience.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Roberto planning the three dances as a public declaration to Señor Leal and Elena watching from the table confirm he had been performing an act of intentional public commitment — without considering that Elena's six years of belief was also watching."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Señor Leal's Account",
+        "text": "Señor Leal, interviewed after his wife's account is disclosed, confirms he had understood what Roberto was doing with the three dances. He had not been angered — he had been contemptuous. He says: 'A dance instructor announcing himself with three tangos. My wife takes lessons from a man who thinks a public exhibition settles the matter. I was not threatened.' He had understood Roberto's intent and had found it insufficient.",
+        "alone": "Señor Leal had understood Roberto's public declaration and had been contemptuous rather than threatened — he had not considered Roberto a serious rival.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Señor Leal finding Roberto's declaration contemptibly insufficient and Roberto's plan to leave Buenos Aires confirming his seriousness establish the scale of Roberto's miscalculation — he had been performing a declaration for an audience that had not been moved by it."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎵",
+        "heading": "Pilar's Knowledge of the Plan",
+        "text": "Pilar admits, in her fourth interview, that Roberto had told her that afternoon about his plan for the evening. He had said he intended to 'make clear tonight what I want.' He had not given her details. She had understood from the way he spoke that it involved Señora Leal. She had written the evening's prediction in the ledger before the first set had even begun.",
+        "alone": "Pilar had known before the first set that Roberto intended a public declaration that evening — she had written her prediction in the ledger after speaking with him that afternoon.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Pilar writing her prediction before the first set and her admission of not intervening when Elena followed Roberto to the corridor confirm she had known the evening would end badly before it began — her prediction had been foreknowledge, not intuition."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Señora Leal Had Not Disclosed",
+        "text": "Señora Leal explains her withholding: 'If I had said in the first interview that Roberto had told me he intended to leave Buenos Aires with me, my husband would have known. He did not know the full extent of what Roberto had planned. I told the investigators about his ignoring Elena because that seemed relevant. I did not tell them about the declaration because it was not my declaration to give.' She had been protecting her own situation.",
+        "alone": "Señora Leal had withheld the declaration to protect her marital situation — she had given the investigators a partial truth that did not implicate her own choices.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Señora Leal protecting her marital position by withholding the declaration and Roberto's plan to leave Buenos Aires with her confirming the full scope of his intention establish that Roberto had been planning a life-scale action on the basis of an affair her husband had not known was serious."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What Elena Had Not Known",
+        "text": "Elena, confronted with Roberto's declared intention to leave Buenos Aires with Señora Leal, is silent for a long time. Then: 'He was going to leave. He told her he was going to leave. He never told me anything — he only ever told me the dances meant nothing. He was going to leave with her and tell me the dances meant nothing.' She had not known about the plan to leave — only about the dances.",
+        "alone": "Elena had not known about Roberto's plan to leave Buenos Aires — she had killed him for the dances without knowing the dances had been a declaration of a larger intention.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Roberto's planned departure with Señora Leal and Elena killing him for the public dances without knowing their full meaning confirm she had acted on the surface of a situation whose depth she had not seen — the three dances had been the visible fraction of something much larger."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Pilar's Full Foreknowledge",
+        "text": "A final review of Pilar's notes from that afternoon — before the evening — shows an entry written before the hall opened: 'Roberto says tonight. Señora Leal. He does not know how Elena will receive it. He does not think about Elena when he is thinking about Señora Leal. This is how it has always been with him — he forgets whoever he is not with.' She had articulated Roberto's pattern precisely before the killing.",
+        "alone": "Pilar had written before the evening that Roberto forgot whoever he was not with — and that he did not know how Elena would receive his declaration.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Pilar knowing about the plan that afternoon and writing that Roberto did not think about Elena when focused on Señora Leal confirm her foreknowledge was specific and complete — she had known the plan, the likely consequence, and had watched the hall open anyway."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🎵",
+        "heading": "Why Pilar Had Not Warned Elena",
+        "text": "Pilar, asked directly why she had not warned Elena that evening, says: 'Warn her of what? That the man she loved was going to dance with someone else publicly? She already knew. She was there. I could not have told her anything she did not see with her own eyes.' She pauses. 'I could have gone after her when she followed him. That I could have done.'",
+        "alone": "Pilar acknowledges the one thing she could have done — going after Elena when she followed Roberto — and does not explain why she had not.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Señora Leal protecting her marital situation by withholding information and Pilar acknowledging she could have intervened and not explaining her inaction together confirm two people had held partial knowledge that together might have prevented the killing — and each had made a choice not to act."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Booking Ledger's Last Entry",
+        "text": "The last entry in Pilar's ledger — the one she had written after the investigation — reads simply: 'Friday: closed.' Before it, on the previous page, her afternoon note about Roberto's plan. Between the afternoon note and the closing entry: the evening's prediction, and a blank where the second set's bookings would have been. The ledger closes on a blank page. The evening had been booked for two sets and had only had one.",
+        "alone": "The ledger's structure — afternoon foreknowledge, evening prediction, blank second set, closing entry — documents the full shape of an evening Pilar had known would not complete itself.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Pilar's afternoon foreknowledge of Roberto's plan and the blank second-set page confirming the evening had ended before completion establish the ledger as a complete document — it records an evening that had been heading toward its conclusion before the first dance had begun."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Back Corridor",
+      "weapon": "Stiletto Heel",
+      "motive": "Six Years of Asymmetric Partnership",
+      "accomplice": "Did Not Intervene"
+    },
+    "epilogue": "Roberto Fuentes had told Señora Leal he intended to leave Buenos Aires with her. He had told Pilar that morning that tonight was the night. He had told Elena nothing — only ever that the dances meant nothing. He had planned the three public dances as a declaration to Señor Leal without considering that Elena had been watching from six years of believing they meant everything. Pilar had known the full picture since that afternoon. She had watched Elena follow Roberto to the corridor and had not moved. The ledger closes on a blank page. The second set that had been booked had never been played. The Salón Porteño was still operating in 1970. Pilar retired that year. She did not take the booking ledger with her when she left."
+  }
+}

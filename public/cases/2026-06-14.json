@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "California, 1849. A gold rush mining camp. A prospector dead in his claim. And the man who filed the paperwork the next morning. 🪙🔍 Case #087 — Gold Rush. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: California 1849 gold rush, a dead prospector, a stolen claim, and the man who was already at the assay office when they opened. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A California gold rush mining camp in 1849 at dusk, canvas tents along a creek bed, a wooden sluice box beside a pan of dark gravel, a prospector's bedroll and tools outside a tent, a claim marker stake in the ground. Warm orange dusk light, brown dust, rugged Sierra Nevada foothills. Rough and elemental, style of Charles Christian Nahl meets Albert Bierstadt.",
+    "animationPrompt": "Slow pan through a California gold rush mining camp at dusk 1849. Canvas tents. A creek bed. A wooden sluice box. The camera finds a claim marker stake in the ground and a bedroll outside a tent — empty. Orange dusk light. The creek sounds. No other movement. Fade to black.",
+    "hashtags": [
+      "#GoldRush1849",
+      "#CaliforniaMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #087",
+    "title": "Gold Rush",
+    "setting": "Coloma Creek Mining Camp · California · 1849",
+    "emoji": "🪙",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Prospector Eli Crane was found dead at his creek-side claim on the morning of August 14th. His claim marker had been pulled and a new one planted by morning. Three men in the camp had known Crane had struck a significant vein the previous day. One of them was at the assay office when it opened.",
+    "emptyState": "Someone was at the assay office at dawn. Find who — and why they already knew the claim's value.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Walt Dupree",
+            "icon": "⛏️",
+            "detail": "A neighboring claim holder — had been working a dry patch for two months beside Crane's rich vein."
+          },
+          {
+            "name": "Silas Cobb",
+            "icon": "🏪",
+            "detail": "The camp's general store owner — had extended Crane significant credit and stood to collect."
+          },
+          {
+            "name": "Red Doyle",
+            "icon": "🐴",
+            "detail": "A teamster who hauled supplies to the camp — had seen Crane's find while delivering goods the previous afternoon."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Crane's Creek Claim",
+            "icon": "⛏️",
+            "detail": "Where Crane was found — claim marker replaced, sluice box disturbed, pan overturned."
+          },
+          {
+            "name": "The Camp Store",
+            "icon": "🏪",
+            "detail": "Where Cobb operated — and where Crane's credit ledger was kept."
+          },
+          {
+            "name": "The Assay Office",
+            "icon": "🏛️",
+            "detail": "Where claims were registered — a day's ride from the camp."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Claim Marker Stake",
+            "icon": "🪵",
+            "detail": "The wooden stake used to mark the claim — blunt force wound consistent with its squared end."
+          },
+          {
+            "name": "Prospecting Pick",
+            "icon": "⛏️",
+            "detail": "Crane's own tool — wound profile inconsistent with its pointed end."
+          },
+          {
+            "name": "River Stone",
+            "icon": "🪨",
+            "detail": "A creek-side stone — too rounded for the wound's angular profile, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🪙",
+        "heading": "Crane's Find",
+        "text": "Camp miners confirm Crane had struck a significant gold-bearing vein the previous afternoon — he had shown his pan to three men at supper: Walt Dupree, Silas Cobb, and Red Doyle. The pan had held an estimated two ounces of raw gold from a single afternoon's work. Crane had told the three men he would register the find at the assay office the following morning. He had not made it through the night.",
+        "alone": "Three men had seen Crane's gold at supper and had known he planned to register the find the following morning — the person who killed him and took the claim had known there was a limited window before registration.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Crane's plan to register at the assay office the next morning and Walt Dupree confirmed riding out of camp before dawn confirm Dupree had moved to file before Crane could — the window he had known about from supper had been exactly what he had acted on."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪵",
+        "heading": "The Claim Marker",
+        "text": "Crane's original claim marker — a squared wooden stake with his name carved into it — had been pulled from the ground and used to strike him. The stake's squared end matches the wound on his skull. A new stake bearing the name 'W. Dupree' had been planted in its place by the time the body was discovered. The new stake was freshly cut — it had been prepared before the killing.",
+        "alone": "Dupree's new claim marker had been freshly cut before the killing — he had prepared the replacement stake in advance, indicating premeditation.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Dupree's pre-cut replacement stake confirming premeditation and his two-month dry run beside Crane's vein establishing his acute motive together confirm this was not an opportunistic killing but a planned act by someone who had been watching Crane's claim fail to produce and then suddenly strike."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏪",
+        "heading": "Cobb's Store Account",
+        "text": "Silas Cobb had been at his store all night — a camp-wide poker game had kept him occupied until well past midnight, confirmed by six players. He had not left the store area. His ledger shows Crane's debt at fourteen dollars — significant but not ruinous. He is definitively cleared.",
+        "alone": "Cobb had been at a poker game in his store all night — confirmed by six players. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Cobb cleared by six poker game witnesses and Red Doyle confirmed at the teamster's camp three miles away together eliminate both other suspects — only Dupree's overnight movements are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Assay Office Record",
+        "text": "The assay office record for August 14th shows the first filing of the morning was made by one Walter Dupree at seven-fifteen AM, registering a claim on the creek section corresponding exactly to Crane's location. The clerk notes Dupree had arrived before the office officially opened and had been waiting. The filing describes the claim's gold-bearing vein in specific geological detail that could only have come from direct examination.",
+        "alone": "Dupree had been waiting at the assay office before it opened and had filed the claim in specific geological detail — he had examined Crane's vein before riding to file.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Dupree filing at dawn with geological specifics and the assay office being a full day's ride from camp confirm he had ridden through the night after the killing — the filing time and the ride distance establish that he had killed Crane in the early evening and ridden immediately after."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "⛏️",
+        "heading": "Dupree Leaving Camp",
+        "text": "A camp miner woken by his mule at approximately nine PM on August 13th reports seeing Dupree's horse being saddled and Dupree riding out of camp heading south — the direction of the assay office. He had noted this as unusual because Dupree normally worked his claim through the early evening. He had thought nothing more of it until the body was found the following morning.",
+        "alone": "Dupree had ridden south — toward the assay office — at approximately nine PM on the night of the killing, after supper when all three suspects had seen Crane's gold.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Crane telling the three men at supper he would register the following morning and Dupree riding south at nine PM — after supper — confirm Dupree had acted within hours of the supper conversation, using the knowledge of Crane's registration plan as his deadline."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "⛏️",
+        "heading": "Dupree's Dry Claim",
+        "text": "Camp records and witness accounts confirm Dupree had been working a largely unproductive claim adjacent to Crane's for two months — he had found only trace amounts of gold during this period. Multiple miners had noted that Crane's claim, by contrast, had been producing steadily for six weeks before the major find. Dupree had been watching Crane's success from an empty patch for two months.",
+        "alone": "Dupree had spent two months beside Crane's productive claim with nothing to show — his motive had been building for the full period of his dry run.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Dupree's pre-cut replacement stake confirming premeditation and two months of watching Crane's rich claim from an empty patch confirm the killing had not been a sudden decision — Dupree had been considering it since Crane's first good week."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🐴",
+        "heading": "Red Doyle's Camp",
+        "text": "Red Doyle had returned to the teamster's camp three miles from the mining settlement after delivering his afternoon supplies. The teamster camp's night log — maintained for the company's mule care records — shows Doyle had been present from six PM through the following morning. Three other teamsters confirm his presence. He is definitively cleared.",
+        "alone": "Doyle had been at the teamster's camp from six PM through the following morning — confirmed by the mule care log and three colleagues. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Cobb cleared by six poker witnesses and Doyle cleared by the teamster log and three colleagues together eliminate both other suspects — Dupree is the only man among the three who had known about the find and whose overnight movements placed him heading toward the assay office."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Ride's Timing",
+        "text": "The assay office is approximately thirty miles from the Coloma Creek camp — a ride of roughly ten hours at a steady pace. Dupree had ridden out at nine PM and had arrived before the seven AM opening. The timing accounts for the ride with a brief stop. The geological detail in his filing — describing the vein's angle and depth — is consistent with an examination conducted in the hours before departure, in the remaining daylight of the evening.",
+        "alone": "The thirty-mile overnight ride's timing accounts exactly for Dupree's nine PM departure and pre-dawn arrival — and the geological filing detail confirms he had examined the vein before riding.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Dupree filing at dawn with geological specifics and the overnight ride timing confirming he had killed Crane and examined the claim before riding establish the complete sequence — killing, examination, ride, filing — all within a twelve-hour window."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Walt Dupree",
+      "location": "Crane's Creek Claim",
+      "weapon": "Claim Marker Stake"
+    },
+    "epilogue": "Walt Dupree had cut the replacement stake before supper. He had listened to Crane describe the find, had calculated the window before the assay office opened, and had acted at dusk. He had used Crane's own claim marker. He had examined the vein, cut the new stake in, and ridden south at nine PM. He had been waiting at the assay office before seven. The claim filing was legally valid under California mining law at the time. It was contested by Crane's estate — Crane had a brother in Missouri — and the case moved slowly through the newly formed California courts. Dupree received twenty years for the murder. The claim's legal status was unresolved at sentencing. The vein produced for another eight months."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #087",
+    "title": "Gold Rush",
+    "setting": "Coloma Creek Mining Camp · California · 1849",
+    "emoji": "🪙",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Dupree killed Crane and filed the claim. But Silas Cobb had known the claim's value before supper — Crane had shown him the gold privately that afternoon. Find what Cobb had done with that advance knowledge.",
+    "emptyState": "Cobb knew before supper. Find what he did with the knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Walt Dupree",
+            "icon": "⛏️",
+            "detail": "The killer — pre-cut stake, nine PM departure, assay office filing, overnight ride."
+          },
+          {
+            "name": "Silas Cobb",
+            "icon": "🏪",
+            "detail": "Cleared as killer — poker game confirmed. But had known about the find before supper."
+          },
+          {
+            "name": "Red Doyle",
+            "icon": "🐴",
+            "detail": "Cleared as killer — teamster log confirmed. His delivery had been when Crane first showed the gold."
+          },
+          {
+            "name": "The Assay Office Clerk",
+            "icon": "🏛️",
+            "detail": "The official who had processed Dupree's filing — and who had received a prior visit from Cobb."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Crane's Creek Claim",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Dupree's killing, pre-cut stake, vein examined."
+          },
+          {
+            "name": "The Camp Store",
+            "icon": "🏪",
+            "detail": "Cobb's location — and where Crane had shown him the gold that afternoon."
+          },
+          {
+            "name": "The Assay Office",
+            "icon": "🏛️",
+            "detail": "Where Dupree had filed — and where Cobb had sent a rider the previous afternoon."
+          },
+          {
+            "name": "The Rider's Route",
+            "icon": "🐴",
+            "detail": "The thirty-mile route — ridden by Cobb's messenger before Dupree rode it himself."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Claim Marker Stake",
+            "icon": "🪵",
+            "detail": "Confirmed murder weapon — Dupree's pre-cut replacement, Crane's original used to kill."
+          },
+          {
+            "name": "Prospecting Pick",
+            "icon": "⛏️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "River Stone",
+            "icon": "🪨",
+            "detail": "Too rounded — eliminated."
+          },
+          {
+            "name": "Cobb's Advance Knowledge",
+            "icon": "🏪",
+            "detail": "Not a weapon — but the intelligence Cobb had acted on before supper."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Claim the Vein",
+            "icon": "⛏️",
+            "detail": "Dupree's motive — two months of watching from an empty patch."
+          },
+          {
+            "name": "Collect the Debt",
+            "icon": "🏪",
+            "detail": "Cobb's surface interest — fourteen dollars Crane owed him."
+          },
+          {
+            "name": "Secure a Buyer for the Claim",
+            "icon": "🏛️",
+            "detail": "Cobb's actual action — had sent a rider to alert a land buyer in Sacramento about the vein's quality."
+          },
+          {
+            "name": "Broker Commission",
+            "icon": "💰",
+            "detail": "Cobb's financial motive — had arranged to receive a percentage if the claim changed hands."
+          },
+          {
+            "name": "Advance Intelligence",
+            "icon": "🏪",
+            "detail": "Cobb's operational advantage — had known the vein's value hours before anyone else at the camp."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🏪",
+        "heading": "Crane's Afternoon Visit",
+        "text": "Crane had visited Cobb's store at approximately three PM on August 13th — before the supper where he had shown the gold to the three men. He had brought the pan to show Cobb specifically, and had asked Cobb to extend his credit further for supplies. Cobb had extended the credit and had examined the gold carefully. He had known about the find for four hours before supper.",
+        "alone": "Cobb had seen the gold at three PM — four hours before supper — and had extended Crane's credit, giving him reason to examine the find carefully.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Cobb seeing the gold at three PM and sending a rider to Sacramento before supper confirm he had acted on the advance knowledge immediately — the rider had left before Dupree had even learned about the find."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Sacramento Land Buyer",
+        "text": "A Sacramento land broker named Harmon Fitch had received a message from Cobb on the evening of August 13th — delivered by a hired rider — describing a significant gold-bearing vein at a specific creek location and offering Fitch first option to purchase the claim for a fee of five percent of the sale price. Fitch had begun preparing travel documents to ride to the claim the following morning. He had arrived to find it a murder scene.",
+        "alone": "Cobb had sent a rider to Sacramento with the claim's details before Dupree had even known about it — he had arranged a brokered sale hours before the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Cobb arranging the brokered sale to Fitch before supper and Dupree killing Crane that same evening confirm two independent actions had converged on the same claim simultaneously — Cobb's commercial arrangement and Dupree's violent one had been set in motion within hours of each other."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🏪",
+        "heading": "Cobb's Rider",
+        "text": "The hired rider — a camp hand named Peters — confirms he had been paid by Cobb at approximately five PM on August 13th to ride to Sacramento with a sealed message. Peters had departed before supper and had delivered the message to Fitch's office by late evening. Cobb had paid Peters two dollars for the ride — a significant amount for a camp hand, suggesting urgency.",
+        "alone": "Cobb had paid Peters two dollars — twice the daily wage — to ride urgently to Sacramento before supper. He had acted on the advance knowledge with financial investment.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Cobb's two-dollar urgent payment to Peters and his five percent brokered arrangement with Fitch confirm he had moved quickly and at real cost — the advance knowledge had been worth immediate investment."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Cobb's Commission Arrangement",
+        "text": "Harmon Fitch, interviewed after the killing, produces the message Cobb had sent: it describes the vein's location, the current claim holder's name, and states 'the holder may be willing to sell — or circumstances may change.' The phrase 'circumstances may change' is noted by investigators. Fitch had understood it as a hedge. Investigators note it as possibly anticipating the killing.",
+        "alone": "Cobb's message had included the phrase 'circumstances may change' — a hedge that could have been commercial caution or foreknowledge of what Dupree might do.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 'circumstances may change' phrase and Cobb's knowledge of Dupree's two-month frustration with his dry claim together raise the question of whether Cobb had anticipated violence — or had simply written cautious commercial language without knowing how literally it would be fulfilled."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏪",
+        "heading": "Cobb's Knowledge of Dupree",
+        "text": "Cobb's store ledger shows both Crane and Dupree had been running credit accounts. Dupree's account shows mounting debt over two months and a notation from Cobb: 'Dupree — dry. Unlikely to settle.' Cobb had known Dupree's claim was producing nothing and had assessed him as a bad debt risk. He had also known Crane's claim was suddenly extremely productive. He had known both men's situations intimately.",
+        "alone": "Cobb had known Dupree was in debt, unproductive, and a credit risk — and had known Crane had just struck a significant vein. He had the information to anticipate what might happen between the two men.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Cobb's 'circumstances may change' phrase and his knowledge of Dupree's desperate financial position and Crane's sudden wealth together make the phrase more ambiguous — whether it was caution or calculated anticipation cannot be definitively resolved."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Fitch's Arrival",
+        "text": "Harmon Fitch had ridden from Sacramento and arrived at the camp at approximately two PM on August 14th — the morning after the killing, the same morning the body had been found. He had found the claim staked by Dupree, Crane's body already discovered, and the camp in uproar. He had turned around and ridden back to Sacramento without speaking to investigators. He contacted them three days later through a lawyer.",
+        "alone": "Fitch had arrived to find the murder scene and had immediately departed without speaking to investigators — his lawyer had made contact three days later.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Peters delivering Cobb's message to Fitch and Fitch's immediate departure from the murder scene confirm Fitch had understood the situation and had sought legal counsel before engaging — his initial non-disclosure had been self-protective."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Cobb's Legal Exposure",
+        "text": "The investigating committee — a miner's committee formed under California's informal legal structure — examines Cobb's role. They find: he had not been present at the killing, had not known Dupree would act, and had no evidence of prior arrangement with Dupree. The 'circumstances may change' phrase is found insufficient to establish foreknowledge. Cobb is not charged but is required to forfeit his brokerage commission arrangement.",
+        "alone": "Cobb is not charged — the committee finds no evidence he had known Dupree would act, and the phrase is found insufficient for a foreknowledge finding.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Cobb's knowledge of both men's situations and the committee finding insufficient evidence of foreknowledge confirm the 'circumstances may change' phrase remains historically ambiguous — it had been written by a man who knew everything relevant to anticipating violence and had not committed to anything that could be proven."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Claim's Contested Status",
+        "text": "Dupree's filed claim is contested by three parties: Crane's estate, Harmon Fitch on behalf of his cancelled arrangement, and the California territorial authority asserting jurisdiction. The case moves through three courts over four years. Dupree is convicted of murder and sentenced to twenty years. The claim is ultimately awarded to Crane's estate in 1853. The vein had been exhausted by then. The legal fees had consumed most of its assessed value.",
+        "alone": "The claim is awarded to Crane's estate in 1853 — after the vein is exhausted and the legal fees have consumed most of its value. Nobody profited from the killing.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Cobb's brokered arrangement with Fitch and the claim's eventual worthless status after four years of litigation confirm the irony — the vein's value had dissipated while three parties fought over its legal ownership, and the man who had killed for it had been in prison since the day after the filing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Walt Dupree",
+      "location": "Crane's Creek Claim",
+      "weapon": "Claim Marker Stake",
+      "motive": "Claim the Vein"
+    },
+    "epilogue": "Silas Cobb had known about the vein at three PM and had sent Peters to Sacramento with a brokered sale arrangement before supper. His message had included the phrase 'circumstances may change.' The committee had found this insufficient for a foreknowledge charge. Walt Dupree had killed Crane, filed the claim, and received twenty years. Harmon Fitch had arrived to find a murder scene and had hired a lawyer. Crane's brother had come from Missouri. The courts had worked for four years. The vein had given out in eighteen months. By the time the estate received the claim, it was worth approximately the cost of the litigation. Peters had spent his two dollars on a new pair of boots."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #087",
+    "title": "Gold Rush",
+    "setting": "Coloma Creek Mining Camp · California · 1849",
+    "emoji": "🪙",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Dupree killed Crane. Cobb had advance knowledge and arranged a broker. But Red Doyle — cleared by the teamster log — had delivered goods to the camp that afternoon and had seen more than he admitted. Find what Doyle had witnessed and why he had kept it to himself.",
+    "emptyState": "Doyle saw something on his afternoon delivery. Find what he kept quiet.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Walt Dupree",
+            "icon": "⛏️",
+            "detail": "The killer — pre-cut stake, overnight ride, assay filing, twenty years."
+          },
+          {
+            "name": "Silas Cobb",
+            "icon": "🏪",
+            "detail": "Cleared as killer — poker game. Advance knowledge, brokered arrangement, 'circumstances may change.'"
+          },
+          {
+            "name": "Red Doyle",
+            "icon": "🐴",
+            "detail": "Cleared as killer — teamster log. Had seen something on his afternoon delivery that he had not disclosed."
+          },
+          {
+            "name": "Crane's Brother",
+            "icon": "🏠",
+            "detail": "The Missouri heir — arrived months after the killing to pursue the estate claim."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Crane's Creek Claim",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — and where Doyle had made his afternoon delivery."
+          },
+          {
+            "name": "The Camp Store",
+            "icon": "🏪",
+            "detail": "Where Cobb had seen the gold at three PM."
+          },
+          {
+            "name": "The Assay Office",
+            "icon": "🏛️",
+            "detail": "Where Dupree had filed — and where Doyle had also been, two days before."
+          },
+          {
+            "name": "The Teamster Camp",
+            "icon": "🐴",
+            "detail": "Three miles from the mining camp — where Doyle's alibi had been established."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Claim Marker Stake",
+            "icon": "🪵",
+            "detail": "Confirmed murder weapon — Dupree's."
+          },
+          {
+            "name": "Prospecting Pick",
+            "icon": "⛏️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "River Stone",
+            "icon": "🪨",
+            "detail": "Too rounded — eliminated."
+          },
+          {
+            "name": "Doyle's Withheld Observation",
+            "icon": "🐴",
+            "detail": "Not a weapon — but what he had seen that afternoon and not reported."
+          },
+          {
+            "name": "The Pre-Cut Stake",
+            "icon": "🪵",
+            "detail": "The premeditation evidence — Dupree had cut it before supper, before seeing Crane's gold."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Claim the Vein",
+            "icon": "⛏️",
+            "detail": "Dupree's motive — two months dry, Crane's sudden find, pre-cut stake."
+          },
+          {
+            "name": "Broker Commission",
+            "icon": "🏪",
+            "detail": "Cobb's motive — five percent of the sale value."
+          },
+          {
+            "name": "Avoid Involvement",
+            "icon": "🐴",
+            "detail": "Doyle's reason for silence — had seen something that would have implicated him in a legal dispute."
+          },
+          {
+            "name": "Prior Assay Office Visit",
+            "icon": "🏛️",
+            "detail": "What Doyle had done two days before — had been assessing the claim's registration status."
+          },
+          {
+            "name": "Doyle's Own Claim Interest",
+            "icon": "🪙",
+            "detail": "The concealed dimension — Doyle had been considering acquiring Crane's claim through legitimate means before the killing made it moot."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Saw the Pre-Cut Stake Before Supper",
+            "icon": "🪵",
+            "detail": "Doyle's key observation — had seen Dupree with the freshly cut stake before the supper when Crane showed the gold."
+          },
+          {
+            "name": "Had Been at the Assay Office Two Days Prior",
+            "icon": "🏛️",
+            "detail": "Doyle's prior action — had visited the assay office to ask about Crane's claim's registration status."
+          },
+          {
+            "name": "Withheld Both Pieces of Information",
+            "icon": "🤫",
+            "detail": "Doyle's consequential silence — neither piece had been disclosed until pressed."
+          },
+          {
+            "name": "Sent Cobb's Rider to Sacramento",
+            "icon": "🏪",
+            "detail": "Peters's role — the messenger whose delivery had set the commercial chain in motion."
+          },
+          {
+            "name": "Contested the Claim Legally",
+            "icon": "🏠",
+            "detail": "Crane's brother's role — arrived from Missouri, pursued the estate claim through four years of courts."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🐴",
+        "heading": "What Doyle Had Seen on the Afternoon Delivery",
+        "text": "Doyle, pressed in a third interview after the investigation expands, admits that during his afternoon delivery to the camp on August 13th, he had passed Dupree's tent and had seen a freshly cut wooden stake leaning against it — squared at one end, with 'W. Dupree' already carved into it. He had noticed it because it was unusual — a claim marker with a name carved but no claim to plant it on, as far as he had known. He had not understood its significance until after the killing.",
+        "alone": "Doyle had seen Dupree's pre-cut replacement stake leaning against his tent during the afternoon delivery — before supper, before Crane had shown the gold to anyone.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Doyle seeing the pre-cut stake before supper and Crane only showing the gold at supper together establish that Dupree had prepared the replacement marker before he knew about the extent of the find — the premeditation was deeper than the supper conversation implied."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Doyle's Assay Office Visit",
+        "text": "Doyle admits a second piece of withheld information: two days before the killing, he had ridden to the assay office and had asked the clerk about the registration status of the creek claim section — specifically whether Crane's claim had been formally registered. The clerk had confirmed it was registered. Doyle had then asked what would happen to the claim if Crane were to sell or be unable to work it. He had been assessing the claim's availability.",
+        "alone": "Two days before the killing, Doyle had been at the assay office asking about Crane's claim's availability — he had been considering acquiring it through legitimate means.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Doyle's assay office inquiry two days before and his withholding of the pre-cut stake sighting confirm both his prior interest in the claim and his calculation that disclosing either piece would have placed him in a legally complex position as an interested party."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🐴",
+        "heading": "Why Doyle Had Said Nothing",
+        "text": "Doyle explains: 'I had been at the assay office asking about that claim two days before. If I tell the committee I saw Dupree's stake before supper, they ask why I noticed it, and I have to explain why I was interested in a claim that wasn't mine. Then I'm a suspect. I kept quiet because I had a prior interest in the claim and I couldn't explain the stake without explaining the interest.' His silence had been legally self-protective.",
+        "alone": "Doyle had withheld the stake sighting to avoid having to disclose his prior assay office inquiry — both pieces of information would have placed him as an interested party with potential motive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Doyle's self-protective silence and the committee finding his explanation credible confirm his role had been one of omission rather than commission — he had protected himself by staying quiet about information that would have advanced the investigation."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🪵",
+        "heading": "The Stake's Premeditation Timeline",
+        "text": "If Dupree had cut and carved the replacement stake before the supper where he first saw Crane's gold, the premeditation timeline shifts dramatically. He had not decided to kill Crane after seeing the pan — he had been planning to take the claim before knowing how rich it was. The stake's prior existence suggests Dupree had been planning to move on Crane's claim regardless of the specific find, simply on the basis of Crane's months of steady production.",
+        "alone": "The pre-cut stake before supper suggests Dupree had planned to take the claim regardless of the specific find — the supper had confirmed the urgency, not created the plan.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Dupree's plan predating the supper and the two-month context of watching Crane's steady production confirm the killing had been brewing for months — the major find had simply created a deadline, not a motive. The motive had been building since Crane's first good week."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🪙",
+        "heading": "What Doyle Had Intended",
+        "text": "Doyle's assay office inquiry had been about legitimate acquisition — he had been asking about purchasing procedures if Crane chose to sell. He had been planning to approach Crane with an offer. His visit to the assay office had been preparation for a negotiation that had never occurred because Dupree had killed Crane the night before Doyle had planned to make the approach.",
+        "alone": "Doyle had been planning to make Crane a legitimate purchase offer — the approach had never happened because Crane had been killed the night before Doyle intended to make it.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Doyle's assay inquiry and his planned legitimate approach confirm he had been on a parallel track to Dupree — one violent, one commercial — both converging on the same claim within forty-eight hours of each other."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Three Parties, One Claim",
+        "text": "The full picture reveals three men had each been making independent moves on Crane's claim on the same day: Cobb had sent a broker to Sacramento; Doyle had been preparing a purchase approach; Dupree had cut a replacement stake. All three had acted before or during the supper where Crane had shown his gold. Crane had been surrounded by people planning to acquire what he had, and had known none of it.",
+        "alone": "Three men had each been independently moving on Crane's claim on August 13th — all before or during the supper, all unknown to each other and to Crane.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Dupree's plan predating the supper and all three men moving on the claim simultaneously confirm Crane's find had created a convergence — three independent interests had been in motion around one man who had had no idea any of them existed."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🐴",
+        "heading": "The Committee's Finding on Doyle",
+        "text": "The miner's committee finds that Doyle had withheld material evidence — the pre-cut stake sighting — that would have advanced the investigation. He is formally censured and fined one dollar. The committee notes that his explanation for the silence — protecting himself from being implicated as an interested party — is credible but does not excuse the withholding. He is not charged with a crime.",
+        "alone": "Doyle receives a formal censure and one-dollar fine — the committee finds his explanation credible but the withholding inexcusable. He is not charged.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Doyle's self-protective calculation and the committee's censure finding it credible but inexcusable confirm the judgment on his silence — understandable in human terms, insufficient in legal ones."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🪙",
+        "heading": "What the Stake Tells About Dupree",
+        "text": "The pre-supper stake changes the understanding of Dupree's state of mind. He had not been a desperate man who had seen gold and acted impulsively. He had been a man who had spent two months watching a neighbor succeed while he failed, had made a decision, had prepared a physical instrument for that decision, and had been waiting for the right moment. The supper had given him the moment. The plan had preceded it by at least a day.",
+        "alone": "Dupree had been planning for at least a day before the killing — the stake proves the decision had preceded the supper where he saw how rich the vein was.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Doyle seeing the stake before supper and the stake proving Dupree's prior decision confirm the full psychology of the killing — not impulse, not desperation, but a plan built over months of watching and executed with a prepared instrument."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Walt Dupree",
+      "location": "Crane's Creek Claim",
+      "weapon": "Claim Marker Stake",
+      "motive": "Claim the Vein",
+      "accomplice": "Saw the Pre-Cut Stake Before Supper"
+    },
+    "epilogue": "Walt Dupree had cut the stake at least a day before the killing. Doyle had seen it and had said nothing because explaining it would have required explaining his assay office visit. Cobb had sent his rider to Sacramento before supper. Three men had been moving on Crane's claim simultaneously, and Crane had known about none of them. Doyle received a censure and a dollar fine. Cobb forfeited his commission arrangement. Dupree received twenty years. Crane's brother arrived from Missouri, hired a lawyer, and waited four years for a claim that had already run out. Doyle spent the dollar fine on whiskey and left California in 1851. He never found gold."
+  }
+}

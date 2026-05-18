@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Berlin, 1932. A cabaret singer dead in her dressing room. Three people were being blackmailed by her. One of them decided to stop paying. 🎭🔍 Case #078 — The Final Act. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Weimar Berlin 1932, a blackmail ring, a dead singer, and the one person who decided the price was too high. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Backstage dressing room of a 1932 Berlin cabaret, a vanity mirror ringed with bare bulbs, greasepaint and feathers on the table, a cracked champagne coupe on the floor, a folded letter beside the body. Deep crimson curtain visible through the doorway, smoky amber light. Expressionist shadow, style of Otto Dix.",
+    "animationPrompt": "Slow pan through a 1932 Berlin cabaret dressing room. Bare bulb mirror. Greasepaint and feathers. A cracked champagne coupe on the floor. The camera finds a folded letter beside it. Through the doorway: crimson curtain, cigarette smoke. The bare bulbs flicker once. Fade to black.",
+    "hashtags": [
+      "#WeimarBerlin",
+      "#CabaretMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #078",
+    "title": "The Final Act",
+    "setting": "Nachtfalter Cabaret · Berlin · 1932",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Cabaret singer Rosa Engel was found dead in her dressing room after the second show. She had been blackmailing three people simultaneously for months. All three were in the building that night. One of them had received a final demand letter that afternoon — and had decided the answer was no.",
+    "emptyState": "Three people were paying. One stopped. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ernst Bauer",
+            "icon": "🏭",
+            "detail": "A factory owner — Rosa had evidence of his dealings with the wrong political faction."
+          },
+          {
+            "name": "Frau Hedwig Kroll",
+            "icon": "💍",
+            "detail": "A socialite — Rosa knew about an illegitimate child she had concealed for twenty years."
+          },
+          {
+            "name": "Dr. Felix Arndt",
+            "icon": "🩺",
+            "detail": "A physician — Rosa had documents relating to a patient death he had covered up."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Where Rosa was found — letter on the floor, champagne coupe cracked, door unlocked."
+          },
+          {
+            "name": "The Stage Wing",
+            "icon": "🎭",
+            "detail": "The passage behind the curtain — accessed by performers and anyone who knew the route."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Where the audience gathered between shows — all three suspects seen here."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Glass Champagne Coupe",
+            "icon": "🥂",
+            "detail": "The cracked coupe — impact wound consistent with its heavy base when used as a strike."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "The vanity mirror — no blood or wound trace, eliminated."
+          },
+          {
+            "name": "Feather Boa",
+            "icon": "🪶",
+            "detail": "A heavy feathered wrap — no ligature mark found, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Final Demand Letter",
+        "text": "The folded letter on the dressing room floor is a final demand — in Rosa's handwriting, addressed to no name but with a specific sum: 800 Reichsmarks, to be delivered by the end of the week or 'the material goes to the press.' The letter is one of three identical demands found in Rosa's strongbox — the other two still sealed and unsent. This one had been delivered and returned. Whoever received it had brought it back.",
+        "alone": "The final demand letter had been delivered and returned to the dressing room by the recipient — they had come back to Rosa that evening with an answer that was not payment.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The returned final demand letter indicating the recipient had come to Rosa that evening and Ernst Bauer's confirmed presence in the stage wing during the interval together confirm Bauer had the access and the motive — and his demand letter is missing from his possession."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥂",
+        "heading": "The Champagne Coupe",
+        "text": "The cracked coupe bears blood on its base — the wound on Rosa's temple is consistent with a single strike from the heavy base of a coupe glass. The coupe had been in use — Rosa's lipstick is on the rim. The killer had taken the coupe from her hand or the table and struck once. The blow required proximity and opportunity — someone Rosa had admitted willingly.",
+        "alone": "Rosa was struck with her own champagne coupe — the killer had been close enough to take it from the table or her hand, meaning Rosa had not been alarmed by their presence.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Rosa admitting the killer without alarm and Ernst Bauer's known prior visits to her dressing room confirming she was comfortable with him together establish the kind of familiarity that would have allowed him to reach the coupe without raising her guard."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Frau Kroll at the Bar",
+        "text": "Frau Kroll was at the house bar from the interval bell until the second show's end — confirmed by the bar steward who served her three times and two acquaintances who joined her table. She had not left the bar area. She is definitively cleared.",
+        "alone": "Frau Kroll was at the house bar continuously — confirmed by the bar steward and two table companions. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Frau Kroll cleared at the bar and Dr. Arndt confirmed in the audience for the full second show together eliminate both other suspects — only Ernst Bauer's movements during the interval are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three Strongbox Letters",
+        "text": "Rosa's strongbox contains three final demand envelopes — identical in format, each addressed to a different victim by coded initial. Two are still sealed: 'H.K.' and 'F.A.' — matching Frau Kroll and Dr. Arndt. The third envelope is empty. The third initial is 'E.B.' — Ernst Bauer. His letter had been delivered and returned. The empty envelope with his initials is on the dressing room floor.",
+        "alone": "The empty envelope bearing Ernst Bauer's initials confirms it was his final demand letter that had been delivered and returned — he is the recipient who came back to Rosa that evening.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Bauer's final demand letter returned and the 800 Reichsmarks representing the final escalation of a months-long payment scheme together confirm Bauer had been paying and had now refused — the return of the letter was the declaration that the arrangement was over."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Bauer in the Stage Wing",
+        "text": "The cabaret's stage manager confirms he saw Ernst Bauer in the stage wing during the interval — Bauer had told him he was looking for the toilet. The stage wing is directly adjacent to the dressing room corridor. Bauer had been in the area between the shows — the window in which Rosa's time of death falls.",
+        "alone": "Ernst Bauer was in the stage wing during the interval — adjacent to the dressing room corridor — with a false stated reason for being there.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The returned final demand letter and Bauer's confirmed presence in the stage wing adjacent to the dressing rooms during the interval confirm he had been in the right place at the right time with the right letter in his hand."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🥂",
+        "heading": "Bauer's Prior Visits",
+        "text": "Three cabaret staff members confirm Bauer had visited Rosa's dressing room on previous occasions — paying visits between shows, always during the interval. The visits had been understood as a financial arrangement. He had been admitted without question every time. Rosa would not have been alarmed by his arrival that evening.",
+        "alone": "Bauer had made multiple prior interval visits to Rosa's dressing room and had always been admitted — his arrival that evening would have caused no alarm.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Rosa admitting the killer without alarm and Bauer's prior visits establishing his routine access confirm he was one of the few people Rosa would have welcomed into the dressing room during the interval without suspicion."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Dr. Arndt in the Audience",
+        "text": "Dr. Arndt had been in the audience seats for the full second show — confirmed by the seat number on his ticket stub and the usher who had directed him to his seat. He had not left his seat during the performance. He had been in the audience when the body was discovered. He is definitively cleared.",
+        "alone": "Dr. Arndt was in his audience seat for the full second show — confirmed by ticket stub and the usher. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Frau Kroll cleared at the bar and Dr. Arndt cleared in the audience together account for both other suspects during the murder window — only Bauer had been in the stage wing, adjacent to the dressing rooms, without a confirmed account of his movements."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Payment History",
+        "text": "Rosa's strongbox also contains a payment log — six months of entries showing monthly payments from 'E.B.', 'H.K.', and 'F.A.' The E.B. payments had been 300 Reichsmarks per month for five months, escalating to the 800 Reichsmark final demand. The escalation had doubled the previous month's demand. Bauer had been paying for five months and had been presented with a demand that doubled his previous payment.",
+        "alone": "Bauer had paid 300 Reichsmarks per month for five months — the 800 Reichsmark final demand was nearly three times his previous payment. The escalation had made continued payment untenable.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Bauer's empty final demand envelope confirming he received and returned the letter and the payment history showing an escalation to nearly three times his prior amount confirm the financial pressure had reached a breaking point — the final demand had been the trigger."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ernst Bauer",
+      "location": "The Dressing Room",
+      "weapon": "Glass Champagne Coupe"
+    },
+    "epilogue": "Ernst Bauer had paid Rosa Engel for five months. When the final demand arrived that afternoon — 800 Reichsmarks, nearly three times his previous payment — he had made a decision. He had attended the cabaret as normal, visited the stage wing during the interval, and entered Rosa's dressing room through the familiar route. She had been at her vanity with her champagne coupe. He had struck once with the coupe's base. He had placed the demand letter on the floor and left. The stage manager had seen him in the wing. The two sealed envelopes for Frau Kroll and Dr. Arndt were handed to the police. Both were interviewed. Neither was charged."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #078",
+    "title": "The Final Act",
+    "setting": "Nachtfalter Cabaret · Berlin · 1932",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Bauer killed Rosa. But Rosa had not been operating alone — she had a partner who supplied the blackmail material. Find who had been feeding her the compromising information on all three victims.",
+    "emptyState": "Rosa had a source. Find who was feeding her the material.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ernst Bauer",
+            "icon": "🏭",
+            "detail": "The killer — returned letter, stage wing, prior visits, coupe strike."
+          },
+          {
+            "name": "Frau Hedwig Kroll",
+            "icon": "💍",
+            "detail": "Cleared as killer — bar confirmed. But her sealed letter reveals her secret."
+          },
+          {
+            "name": "Dr. Felix Arndt",
+            "icon": "🩺",
+            "detail": "Cleared as killer — audience confirmed. But his sealed letter reveals his secret."
+          },
+          {
+            "name": "Otto Veen",
+            "icon": "📸",
+            "detail": "The cabaret's house photographer — had documented the private lives of Berlin's elite for years."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Primary crime scene — Bauer's killing of Rosa."
+          },
+          {
+            "name": "The Stage Wing",
+            "icon": "🎭",
+            "detail": "Where Bauer was seen — adjacent to the dressing room corridor."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Frau Kroll's confirmed location — and where the photographer worked the room."
+          },
+          {
+            "name": "The Photographer's Studio",
+            "icon": "📸",
+            "detail": "Otto Veen's studio above the cabaret — where the compromising material was developed and stored."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Glass Champagne Coupe",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — blood on base, Rosa's lipstick on rim."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Feather Boa",
+            "icon": "🪶",
+            "detail": "No ligature mark — eliminated."
+          },
+          {
+            "name": "The Blackmail Photographs",
+            "icon": "📸",
+            "detail": "Not a weapon — the material Otto Veen supplied to Rosa that enabled the scheme."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "End the Escalating Payments",
+            "icon": "💰",
+            "detail": "Bauer's motive — 800 Reichsmarks was nearly three times his prior payment."
+          },
+          {
+            "name": "Supply the Blackmail Material",
+            "icon": "📸",
+            "detail": "Otto Veen's role — had been providing Rosa with compromising photographs and documents."
+          },
+          {
+            "name": "Financial Partnership",
+            "icon": "💼",
+            "detail": "Veen's arrangement with Rosa — he had received a share of each month's collections."
+          },
+          {
+            "name": "Protect the Source",
+            "icon": "🔒",
+            "detail": "Why Rosa had not named her source — exposing Veen would have ended the supply chain."
+          },
+          {
+            "name": "Veen's Own Exposure",
+            "icon": "📸",
+            "detail": "What Veen faced if the scheme was investigated — he had been photographing private moments without consent."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📸",
+        "heading": "The Photographs in the Strongbox",
+        "text": "Rosa's strongbox contains not just letters and payment records but seventeen photographs — all taken in the cabaret's private booths and backstage areas. Each photograph shows one of the three victims in a compromising situation. The photographs are professionally developed, not amateur snapshots. A stamp on the reverse of each reads 'Atelier Veen — Berlin.' Otto Veen, the cabaret's house photographer, had taken every blackmail photograph.",
+        "alone": "Every blackmail photograph in Rosa's strongbox was developed at Otto Veen's studio — he had taken all seventeen compromising images used in the scheme.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "All seventeen photographs stamped with Veen's studio mark and his payment records showing a consistent monthly share of Rosa's collections confirm he had been the material supplier and a financial beneficiary of the scheme throughout its operation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Veen's Payment Share",
+        "text": "Rosa's payment log contains a second column — unlabelled — beside each monthly entry. The unlabelled amounts total exactly thirty percent of each month's collections from all three victims. A separate envelope in the strongbox contains cash in the amount of the most recent month's thirty percent share, labelled only 'O.' Otto Veen had been receiving thirty percent of Rosa's blackmail income every month.",
+        "alone": "Veen had been receiving thirty percent of the blackmail income monthly — the envelope labelled 'O.' in the strongbox was his current share, not yet collected.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Veen's thirty percent share and his role taking photographs in the private areas of the cabaret confirm he had been operating with Rosa's knowledge and participation — the scheme had been a business partnership from the beginning."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Veen's Access",
+        "text": "As the cabaret's house photographer, Otto Veen had unrestricted access to all areas of the venue — including private booths, backstage corridors, and the dressing room wing. He had been photographing Nachtfalter events for four years. Staff confirm he moved through the building freely and had been present in every area at various times throughout the evening.",
+        "alone": "Veen had unrestricted venue access as the house photographer — he could have been anywhere in the building at any time without raising suspicion.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Veen's unrestricted access to all areas and his confirmed presence in the private booth corridor during the interval confirm he had the physical access to photograph victims in compromising situations without their awareness."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Photographs Show",
+        "text": "The seventeen photographs are examined by investigators. Each shows a different moment: Bauer in conversation with a known Communist organizer; Frau Kroll with a young man matching the description of her concealed son; Dr. Arndt administering something to a patient who had subsequently died. The photographs are technically excellent — taken from angles suggesting concealed positions. Veen had been deliberately photographing moments of vulnerability.",
+        "alone": "The photographs had been taken from concealed positions at moments of maximum vulnerability — Veen had been systematically documenting compromising situations, not accidentally capturing them.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Veen systematically photographing vulnerable moments and his four years of unrestricted access confirm the scheme had been his design as much as Rosa's — he had identified the targets, created the opportunity, and supplied the evidence."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "🍸",
+        "heading": "Veen at the Bar After the Killing",
+        "text": "The bar steward confirms Veen had been at the bar during the second show's interval — the same window in which Rosa was killed. He had been drinking and had appeared, the steward notes, 'more than usually tense.' He had left the bar at an unspecified point during the interval and had not been observed returning until after the alarm was raised.",
+        "alone": "Veen had been tense at the bar during the interval and had left at an unspecified time — his location during part of the interval is unconfirmed.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "All seventeen photographs bearing Veen's studio mark and his tense unconfirmed interval movements confirm his acute awareness of what was happening in the dressing room that evening — whether or not he had known in advance that Bauer planned to act."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📸",
+        "heading": "Veen's Studio Records",
+        "text": "A search of Veen's studio above the cabaret finds a filing system organized by subject — each of Rosa's three victims has a folder containing additional prints and negatives beyond those in the strongbox. The system shows photographs dating back eighteen months — six months before the blackmail scheme began. Veen had been building dossiers on targets for six months before Rosa began collecting payment.",
+        "alone": "Veen had been photographing targets for six months before the blackmail scheme began — he had assembled the dossiers and had then brought them to Rosa to execute the collection.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Veen's six months of dossier-building before the scheme began and his thirty percent share confirm he had initiated the operation and had recruited Rosa as the collection mechanism — the scheme had been his concept from the start."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "How Veen Photographed the Victims",
+        "text": "An examination of the private booths in the cabaret reveals a small concealed aperture in the booth partition — consistent with a camera lens. Staff confirm the aperture had not been there two years ago. Veen had modified the booth partition to allow concealed photography. The modification was his own work, made during a period when the cabaret was closed for renovation.",
+        "alone": "Veen had physically modified the booth partition to install a concealed camera aperture — the systematic photography had been enabled by his own structural modification to the venue.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Veen's unrestricted access enabling the modification and the concealed aperture confirming systematic covert photography establish that the scheme had required months of physical preparation — this was not opportunistic but planned infrastructure."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What Veen Faced",
+        "text": "Otto Veen was charged with conspiracy to commit extortion and violation of personal privacy laws — charges that carried significant penalties in 1932 Germany. His studio was searched and the full dossier system was recovered. The thirty percent share envelope found in Rosa's strongbox was entered into evidence. His four-year relationship with the Nachtfalter had ended before the investigation was a week old.",
+        "alone": "Veen was charged with conspiracy and privacy violations — the full scope of his scheme, including the concealed aperture and the dossier system, was documented by the investigation.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Veen building dossiers for six months before the scheme and his charges including the concealed aperture infrastructure confirm the investigation had recovered a complete picture of a methodically planned extortion operation — Rosa had been the face, Veen had been the architect."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ernst Bauer",
+      "location": "The Dressing Room",
+      "weapon": "Glass Champagne Coupe",
+      "motive": "End the Escalating Payments"
+    },
+    "epilogue": "Otto Veen had built dossiers on targets for six months before approaching Rosa Engel. He had installed the concealed aperture during the renovation. He had photographed Bauer, Kroll, and Arndt systematically over months. He had brought the photographs to Rosa and had proposed the arrangement: she would collect, he would supply, they would split thirty percent to him. For five months it had worked. When Bauer returned the final demand letter that evening, he had killed Rosa in the dressing room Veen had given her access to. Veen had been at the bar, tense, aware that the arrangement's most volatile participant had gone backstage. Ernst Bauer received twelve years. Otto Veen received eight years for conspiracy. Frau Kroll and Dr. Arndt were not charged. Their sealed envelopes were destroyed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #078",
+    "title": "The Final Act",
+    "setting": "Nachtfalter Cabaret · Berlin · 1932",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Bauer killed Rosa. Veen supplied the material. But Dr. Arndt had known about the concealed aperture for three months — he had discovered it accidentally and had told no one. Find what stopped him from reporting it.",
+    "emptyState": "Arndt found the aperture. He said nothing. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ernst Bauer",
+            "icon": "🏭",
+            "detail": "The killer — returned letter, stage wing, prior visits, champagne coupe."
+          },
+          {
+            "name": "Frau Hedwig Kroll",
+            "icon": "💍",
+            "detail": "Cleared as killer — bar confirmed. Her sealed letter held her twenty-year secret."
+          },
+          {
+            "name": "Dr. Felix Arndt",
+            "icon": "🩺",
+            "detail": "Cleared as killer — audience confirmed. Had found the aperture three months before and stayed silent."
+          },
+          {
+            "name": "Otto Veen",
+            "icon": "📸",
+            "detail": "The scheme's architect — six-month dossiers, concealed aperture, thirty percent share."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🪞",
+            "detail": "Primary crime scene — Bauer's killing of Rosa."
+          },
+          {
+            "name": "The Private Booths",
+            "icon": "📸",
+            "detail": "Where Veen's concealed aperture was installed — and where Arndt had discovered it."
+          },
+          {
+            "name": "The House Bar",
+            "icon": "🍸",
+            "detail": "Frau Kroll's location — and where Veen had been during part of the interval."
+          },
+          {
+            "name": "Veen's Studio",
+            "icon": "📸",
+            "detail": "Above the cabaret — dossiers, filing system, negatives recovered."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Glass Champagne Coupe",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — Bauer's."
+          },
+          {
+            "name": "Dressing Mirror",
+            "icon": "🪞",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Feather Boa",
+            "icon": "🪶",
+            "detail": "No ligature mark — eliminated."
+          },
+          {
+            "name": "The Concealed Aperture",
+            "icon": "📸",
+            "detail": "Not a weapon — the surveillance infrastructure Arndt had found and not reported."
+          },
+          {
+            "name": "Arndt's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — but the three months of inaction that had allowed the scheme to continue."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "End the Escalating Payments",
+            "icon": "💰",
+            "detail": "Bauer's motive — 800 Reichsmarks was the breaking point."
+          },
+          {
+            "name": "Financial Partnership",
+            "icon": "📸",
+            "detail": "Veen's motive — architect of the scheme, thirty percent beneficiary."
+          },
+          {
+            "name": "Protect His Own Secret",
+            "icon": "🩺",
+            "detail": "Arndt's reason for silence — reporting the aperture would have triggered an investigation that reached him."
+          },
+          {
+            "name": "Rosa's Patient Death Document",
+            "icon": "📋",
+            "detail": "What Rosa held on Arndt — a covered-up patient death that reporting the aperture would have surfaced."
+          },
+          {
+            "name": "The Sealed Envelope",
+            "icon": "📋",
+            "detail": "Arndt's sealed final demand — still in the strongbox, unopened, waiting for delivery."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Supplied the Blackmail Material",
+            "icon": "📸",
+            "detail": "Veen's confirmed role — six-month dossier building, concealed aperture, thirty percent share."
+          },
+          {
+            "name": "Found the Aperture and Stayed Silent",
+            "icon": "🤫",
+            "detail": "Arndt's role — discovered the concealed camera three months before the murder, reported nothing."
+          },
+          {
+            "name": "Paid Monthly to Suppress the Evidence",
+            "icon": "💰",
+            "detail": "Arndt's ongoing participation — had been paying Rosa monthly to keep his patient death document suppressed."
+          },
+          {
+            "name": "Protected the Scheme's Infrastructure",
+            "icon": "🔒",
+            "detail": "Arndt's silence had functioned as protection for the aperture and the ongoing surveillance."
+          },
+          {
+            "name": "Withheld the Aperture Discovery From Police",
+            "icon": "🚔",
+            "detail": "Arndt's post-murder silence — had not disclosed his prior knowledge even after Rosa's death."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "How Arndt Found the Aperture",
+        "text": "Dr. Arndt, confronted during the investigation's expanded phase, admits he had discovered the concealed aperture three months before the murder. He had been in Private Booth 3 when he had noticed a small lens-shaped reflection in the partition at eye level. He had examined it and had found it was a camera aperture mounted in the wood. He had recognized immediately what it was and what it meant.",
+        "alone": "Arndt had found the concealed aperture three months before the murder, had recognized its purpose immediately, and had said nothing.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Arndt finding the aperture three months before and his ongoing monthly payments to Rosa during the same period confirm his silence was not ignorance — he had been paying to suppress his own secret while knowingly allowing the surveillance infrastructure to remain in place."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Arndt Stayed Silent",
+        "text": "Arndt explains: 'If I had reported the aperture, there would have been an investigation. The investigation would have found Rosa's strongbox. The strongbox would have had my envelope. The patient death I had covered had involved a prominent family. Reporting the camera would have exposed me faster than saying nothing.' He had calculated that silence protected him better than disclosure.",
+        "alone": "Arndt had made a calculated decision — reporting the aperture would have triggered an investigation that exposed his covered-up patient death faster than staying silent.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Arndt's calculation that silence protected him and the sealed envelope in Rosa's strongbox confirming exactly the exposure he had feared confirm his reasoning was accurate — the strongbox had been the reason he could not report the aperture."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "The Patient Death",
+        "text": "Rosa's sealed envelope for Dr. Arndt — opened during the investigation — contains a document: a death certificate in Arndt's handwriting with a cause of death listed as 'cardiac failure,' alongside a private clinical note in a different hand stating the patient had been administered an incorrect dosage. A second document is a letter from the patient's family, never sent, accusing Arndt of negligence. Rosa had obtained both.",
+        "alone": "The sealed envelope contained evidence of a covered-up medication error — the incorrect dosage that had killed a patient and that Arndt had recorded as cardiac failure.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The covered-up medication error in the sealed envelope and Arndt's calculation that any investigation would find the strongbox confirm the aperture's discovery had placed him in an impossible position — the infrastructure of his own blackmail was protecting itself against him."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "What Veen Knew About Arndt",
+        "text": "Veen, in his statement, reveals he had known Arndt had found the aperture — he had noticed Arndt examining the booth partition three months before the murder and had understood what the doctor had seen. He had told Rosa. Rosa had sent Arndt a note the following week: 'I know you found it. Your envelope is still sealed. Keep it that way.' Arndt had received the note and had continued paying.",
+        "alone": "Veen had seen Arndt find the aperture and had told Rosa — she had sent Arndt an explicit threat to keep silent, which he had received and complied with.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Rosa explicitly threatening Arndt into silence after his discovery and Arndt's continued monthly payments confirming compliance establish that his silence was actively managed by the scheme — Rosa had converted the discovery into an additional control mechanism."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Three Months of Knowing",
+        "text": "Arndt's payment records in Rosa's log show he had paid 300 Reichsmarks in each of the three months following his discovery of the aperture — the same amount as before, with no interruption. He had known about the surveillance infrastructure for three months and had continued paying as though he had not. The scheme had continued operating, including photographing Bauer and Kroll, during those three months.",
+        "alone": "Arndt's payments continued unchanged for three months after he found the aperture — the scheme had operated normally, including accumulating further material on the other victims, during his period of knowing silence.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Arndt's calculated silence and his unchanged payments for three months confirm the scheme's continuation during his knowledge period — his decision not to act had not been passive but an active choice that had allowed the operation to proceed."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📸",
+        "heading": "The Photographs Taken During Arndt's Silence",
+        "text": "The dossier photographs from Veen's studio include images of Bauer — including the most recent and most compromising — taken in the two months after Arndt found the aperture. The most recent Bauer photograph, showing him in conversation with the Communist organizer, had been taken six weeks before the murder. The escalating demand that had pushed Bauer to kill had been supported by evidence gathered while Arndt had been silent.",
+        "alone": "The escalating demand that triggered Rosa's murder had been supported by photographs taken during Arndt's three months of knowing silence — his inaction had directly enabled the scheme's final phase.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Rosa converting Arndt's discovery into continued compliance and the murder-triggering photographs gathered during his silence confirm Arndt's silence had been operationally significant — the scheme's final escalation had relied on material gathered while he knew and said nothing."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🩺",
+        "heading": "Arndt's Post-Murder Silence",
+        "text": "After Rosa's death, Arndt had not disclosed his prior knowledge of the aperture to the police — his initial statement mentioned nothing about the booth partition. He had been prepared to allow the investigation to proceed without this information. He had disclosed only when Veen's statement confirmed he had been seen examining the aperture, making denial impossible.",
+        "alone": "Arndt had remained silent about the aperture even after Rosa's murder — he had disclosed only when Veen's statement made denial impossible.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The sealed envelope's covered-up patient death and Arndt's post-murder silence confirming he had been protecting the same secret after Rosa's death confirm his interest in the scheme's suppression had not ended with Rosa — the evidence against him remained in the strongbox."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Investigation's Finding on Arndt",
+        "text": "The investigation's final report includes a specific finding on Dr. Arndt: 'The subject discovered the surveillance aperture three months before the murder. He received an explicit instruction from the deceased to remain silent, which he followed. His compliance enabled the continued operation of the blackmail scheme and the accumulation of material that contributed to the victim's escalating demands. He is charged with failure to report a criminal enterprise.' He received a suspended sentence.",
+        "alone": "Arndt received a suspended sentence for failure to report — the investigation explicitly found his silence had enabled the scheme's final phase.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The escalating demand photographs gathered during Arndt's silence and his suspended sentence for enabling the scheme confirm the investigation's conclusion: his calculated inaction had been a form of participation, even if passive, in the chain that had ended in murder."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ernst Bauer",
+      "location": "The Dressing Room",
+      "weapon": "Glass Champagne Coupe",
+      "motive": "End the Escalating Payments",
+      "accomplice": "Supplied the Blackmail Material"
+    },
+    "epilogue": "Ernst Bauer received twelve years. Otto Veen received eight. Dr. Felix Arndt received a suspended sentence for failure to report. Frau Hedwig Kroll was not charged — her sealed envelope was destroyed with the others. The concealed aperture in Booth 3 was removed during the investigation. The Nachtfalter Cabaret closed in the spring of 1933. Veen's studio above it was emptied by the authorities. The dossier system he had built over eighteen months, documented in the investigation's records, listed forty-seven names — only three of whom had been actively targeted. The others had been photographed and filed. The investigation closed without pursuing the remaining forty-four."
+  }
+}

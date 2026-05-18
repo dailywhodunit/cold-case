@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "London, 1976. A Tube platform. A British intelligence officer dead during rush hour. And a dead drop that someone arrived to collect — and found someone else had already been there. 🚇🔍 Case #092 — Dead Drop. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: London Underground 1976, a spy dead on a Tube platform, a Cold War dead drop, and a killer who knew the collection time. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1976 London Underground platform at rush hour, tiled arches and platform edge, a briefcase left against the wall, a man's umbrella on the platform floor, passengers in 1970s coats streaming past. Harsh fluorescent light, deep tunnel shadow, period London atmosphere. Tense and procedural, style of John le Carré meets London Transport photography.",
+    "animationPrompt": "Slow pan along a 1976 London Underground platform at rush hour. Tiled arches. A briefcase left against the wall. The camera finds an umbrella on the platform floor. Passengers in coats stream past without stopping. Fluorescent light. The tunnel beyond. A train sound in the distance. Fade to black.",
+    "hashtags": [
+      "#LondonUnderground1976",
+      "#ColdWarSpy",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #092",
+    "title": "Dead Drop",
+    "setting": "Aldgate East Station · London Underground · 1976",
+    "emoji": "🚇",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "MI6 officer Peter Lyle was found dead on the Aldgate East platform during evening rush hour — collapsed against the wall, mistaken for a sleeping commuter for twenty minutes before anyone looked closely. He had been attending a dead drop collection. The briefcase he had come to collect was empty. Three people knew the drop's time and location.",
+    "emptyState": "Three people knew the dead drop's time. Find who else was there.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Gerald Ashford",
+            "icon": "🎩",
+            "detail": "Lyle's MI6 superior — had approved the dead drop operation and knew every detail of the collection."
+          },
+          {
+            "name": "Irina Sorokina",
+            "icon": "🧣",
+            "detail": "A Soviet cultural attaché — had been under surveillance and was believed to be the drop's originating source."
+          },
+          {
+            "name": "Colin Marsh",
+            "icon": "📎",
+            "detail": "An MI6 analyst — had processed the dead drop intelligence for the past six months and knew the collection schedule."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Aldgate East Platform",
+            "icon": "🚇",
+            "detail": "Where Lyle was found — briefcase empty, umbrella on the floor, against the east wall."
+          },
+          {
+            "name": "The Platform Concourse",
+            "icon": "🎫",
+            "detail": "The ticket hall above — where the station's CCTV camera was positioned."
+          },
+          {
+            "name": "The Adjacent Carriage",
+            "icon": "🚃",
+            "detail": "The train carriage stopped at the platform during the window — where witnesses had been."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison Umbrella",
+            "icon": "☂️",
+            "detail": "A modified umbrella with a retractable pellet tip — the method associated with known Soviet assassination techniques of the period."
+          },
+          {
+            "name": "Platform Edge",
+            "icon": "🚇",
+            "detail": "No fall or impact wound — Lyle had not gone near the platform edge."
+          },
+          {
+            "name": "Briefcase Corner",
+            "icon": "💼",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📎",
+        "heading": "The Empty Briefcase",
+        "text": "The briefcase left at the dead drop location — the east wall, third bench from the tunnel — is confirmed as the drop container by its specific identifying mark: a green luggage tag on the left handle, standard MI6 field signal. The briefcase is empty. The intelligence it had been meant to contain — a microfilm roll of Soviet naval communications — is not inside. Someone had already emptied it before Lyle arrived, or the drop had never been filled.",
+        "alone": "The briefcase was empty when Lyle arrived — either the drop had never been filled or someone had already taken the contents before Lyle reached the collection point.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The briefcase empty before Lyle's arrival and Gerald Ashford's confirmed knowledge of both the collection time and the drop's identification mark confirm he had been one of only three people who could have known to be at the east wall, third bench, at that specific time."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "☂️",
+        "heading": "The Umbrella Pellet",
+        "text": "The post-mortem finds a small pellet wound on Lyle's right calf — a ricin pellet delivered by a modified umbrella mechanism. The wound had been missed initially because the pellet entry point was small and Lyle had been fully clothed. The method matches known KGB assassination techniques used in London and abroad during the 1970s. The umbrella found on the platform floor is the weapon — its tip shows the retracted firing mechanism.",
+        "alone": "Lyle had been killed by a ricin pellet fired from a modified umbrella — a known KGB assassination technique. The umbrella had been left on the platform.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The KGB-attributed umbrella technique and Irina Sorokina's confirmed Soviet intelligence affiliation — established through surveillance files — place the method within her operational capability."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Ashford's Account",
+        "text": "Gerald Ashford had been in his Whitehall office at the time of the killing — confirmed by his secretary and two colleagues who had been in a meeting with him from five PM until seven PM. The killing had occurred at six-fifteen PM. He had not been on the Underground. He is definitively cleared of being the killer.",
+        "alone": "Ashford had been in a Whitehall meeting from five to seven PM — confirmed by his secretary and two colleagues. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Ashford cleared in his Whitehall meeting and Colin Marsh confirmed at his desk in Century House until six-forty-five PM together eliminate both British suspects from the platform during the murder window — only Sorokina's movements during that hour remain unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📎",
+        "heading": "The Drop's Schedule",
+        "text": "Colin Marsh had processed the dead drop collection schedule — a document he had typed himself and distributed to Ashford and Lyle only. The schedule specified Aldgate East, east wall third bench, six-fifteen PM on the third Tuesday of each month. Marsh had been the only analyst with access to the full collection schedule. He had also been the person who had briefed Sorokina's surveillance team.",
+        "alone": "Marsh had typed the collection schedule and had also briefed the surveillance team watching Sorokina — he had been the information node connecting both sides of the operation.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Marsh typing the schedule and briefing Sorokina's surveillance team confirm he had access to both the dead drop's specifics and the surveillance operation that would have known Sorokina's movements — his position gave him the information needed to coordinate a compromise."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🧣",
+        "heading": "Sorokina at Aldgate East",
+        "text": "The station's CCTV — reviewed after the killing — shows a woman matching Sorokina's description entering Aldgate East at six-ten PM and departing at six-twenty-two PM. She had been on the platform for approximately twelve minutes — the window bracketing Lyle's death. The CCTV image quality is insufficient for positive identification but the description, clothing, and timing are consistent with Sorokina's surveillance profile.",
+        "alone": "A woman matching Sorokina's description had been on the platform from six-ten to six-twenty-two PM — the window in which Lyle was killed.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The KGB umbrella technique and a woman matching Sorokina's description on the platform during the killing window together place the method and the person in the same location at the same time — the CCTV, while insufficient for identification, is consistent with her."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🧣",
+        "heading": "Sorokina's Intelligence File",
+        "text": "Sorokina's MI6 surveillance file — assembled over eighteen months — classifies her as a probable KGB officer operating under diplomatic cover. Her file notes a specific tradecraft signature: she had been observed twice in the vicinity of dead drop locations used by Soviet assets in London. The umbrella modification technique had been attributed to KGB operational assets in a classified assessment dated three months before the killing.",
+        "alone": "Sorokina's file classifies her as probable KGB with observed dead drop proximity and the umbrella technique attributed to KGB assets in a recent assessment.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Sorokina on the platform during the killing window and the umbrella technique attributed to KGB assets in her operational classification confirm the method and the operator are consistent with each other — and with the specific platform presence."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📎",
+        "heading": "Marsh at Century House",
+        "text": "Colin Marsh had been at his desk at Century House — MI6 headquarters — until six-forty-five PM, confirmed by the building's sign-out log and a colleague who had spoken to him at six-thirty. He had not been at Aldgate East. However, the investigation notes that his role in briefing the surveillance team had given him knowledge of Sorokina's operational patterns — knowledge that could have been used to coordinate timing.",
+        "alone": "Marsh had been at Century House until six-forty-five — confirmed by log and a colleague. He had not been on the platform. But his surveillance briefings had given him knowledge of Sorokina's patterns.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Marsh's schedule access and his Sorokina surveillance briefings giving him both the drop's timing and Sorokina's operational patterns confirm his position as an information node — even if he had not been on the platform, the information had flowed through him."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🧣",
+        "heading": "The Source of the Compromise",
+        "text": "Post-incident analysis by MI6 identifies two possible compromise scenarios: Sorokina had identified the dead drop through surveillance of Lyle's prior collections, independent of any insider knowledge; or the schedule had been passed to Soviet intelligence through a source with access to the collection document. The analysis cannot determine which scenario had applied without further evidence. Both are flagged for ongoing investigation.",
+        "alone": "The compromise had two possible sources — independent Soviet surveillance of the drop pattern, or an insider with access to the schedule. The analysis cannot determine which without further evidence.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Marsh's access to the schedule and the analysis flagging both an insider and independent surveillance as possible sources confirm the investigation's limit — the CCTV and the method place Sorokina at the scene, but the question of whether she had been tipped or had identified the drop independently remains open."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Irina Sorokina",
+      "location": "The Aldgate East Platform",
+      "weapon": "Poison Umbrella"
+    },
+    "epilogue": "Irina Sorokina had been on the platform from six-ten to six-twenty-two PM. The CCTV had been insufficient for positive identification. The ricin pellet had been sufficient for positive cause of death. She had been expelled from Britain ten days later — declared persona non grata on the basis of the MI6 assessment, not through formal criminal proceedings. The briefcase had remained empty. Whether she had identified the dead drop through independent surveillance or had received the schedule remained a matter of ongoing investigation. Colin Marsh had been investigated and cleared in 1977. The dead drop at Aldgate East had been retired. The umbrella had been catalogued as evidence and transferred to a classified archive."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #092",
+    "title": "Dead Drop",
+    "setting": "Aldgate East Station · London Underground · 1976",
+    "emoji": "🚇",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Sorokina killed Lyle and took the microfilm. But Colin Marsh had been investigated and cleared — the evidence against him had been insufficient. Find what the ongoing investigation eventually discovered about Marsh's role.",
+    "emptyState": "Marsh was cleared in 1977. Find what the ongoing investigation found later.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Irina Sorokina",
+            "icon": "🧣",
+            "detail": "The killer — CCTV-consistent, ricin pellet, KGB umbrella technique, expelled 1976."
+          },
+          {
+            "name": "Gerald Ashford",
+            "icon": "🎩",
+            "detail": "Cleared as killer — Whitehall meeting confirmed. His knowledge of the schedule under fresh scrutiny."
+          },
+          {
+            "name": "Colin Marsh",
+            "icon": "📎",
+            "detail": "Cleared in 1977 — but the ongoing investigation reached a different conclusion later."
+          },
+          {
+            "name": "The KGB Rezidentura",
+            "icon": "🕵️",
+            "detail": "Soviet intelligence's London operation — managing Sorokina and the broader London network."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Aldgate East Platform",
+            "icon": "🚇",
+            "detail": "Primary crime scene — Sorokina's killing of Lyle."
+          },
+          {
+            "name": "Century House",
+            "icon": "🏛️",
+            "detail": "MI6 headquarters — where Marsh had worked and where the schedule document had been kept."
+          },
+          {
+            "name": "The KGB Rezidentura",
+            "icon": "🕵️",
+            "detail": "Soviet intelligence's London base — where the dead drop schedule had eventually arrived."
+          },
+          {
+            "name": "The Safe House in Bermondsey",
+            "icon": "🏠",
+            "detail": "Where Marsh had been meeting his KGB handler — identified in the subsequent investigation."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison Umbrella",
+            "icon": "☂️",
+            "detail": "Confirmed murder weapon — Sorokina's KGB-attributed technique."
+          },
+          {
+            "name": "Platform Edge",
+            "icon": "🚇",
+            "detail": "No relevant wound — eliminated."
+          },
+          {
+            "name": "Briefcase Corner",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Marsh's Schedule Document",
+            "icon": "📎",
+            "detail": "Not a weapon — the intelligence product that had enabled the operation's targeting."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "KGB Operational Directive",
+            "icon": "🧣",
+            "detail": "Sorokina's motive — assigned to neutralize Lyle and recover the microfilm."
+          },
+          {
+            "name": "Ideological Conviction",
+            "icon": "📎",
+            "detail": "Marsh's motive — subsequently established as the driver of his Soviet cooperation."
+          },
+          {
+            "name": "Financial Payment",
+            "icon": "💰",
+            "detail": "The secondary element — Marsh had also received payments, though ideology had been primary."
+          },
+          {
+            "name": "Career Frustration",
+            "icon": "📎",
+            "detail": "The contextual factor — Marsh had been repeatedly passed over for promotion despite strong analytical work."
+          },
+          {
+            "name": "Protect the Source Network",
+            "icon": "🕵️",
+            "detail": "The KGB's operational interest — the microfilm would have exposed a Soviet asset in the British defence establishment."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📎",
+        "heading": "The 1981 Defector's Information",
+        "text": "In 1981, a KGB officer defected to the CIA in Vienna and provided, among other intelligence, confirmation that the Aldgate East operation had been enabled by a source inside MI6 who had provided the dead drop schedule. The defector identified the source by his Soviet codename: ARCHIVIST. The codename had not previously been known to MI6. The investigation into ARCHIVIST's identity began immediately.",
+        "alone": "A 1981 KGB defector confirmed an MI6 insider had provided the Aldgate East dead drop schedule — the insider's Soviet codename was ARCHIVIST.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The ARCHIVIST codename confirmed by the 1981 defector and Marsh's access to the schedule document as the analyst who had typed it confirm the codename's operational function — an archivist had access to documents, and Marsh had been the analyst-level document handler for the dead drop schedule."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📎",
+        "heading": "The ARCHIVIST Investigation",
+        "text": "The ARCHIVIST investigation — codenamed CORMORANT internally — examined all MI6 personnel with access to dead drop schedules between 1972 and 1981. The investigation identified three candidates. Two were eliminated within months. Colin Marsh remained under investigation for eighteen months before a surveillance operation identified him meeting with a known KGB officer in a Bermondsey safe house in 1983.",
+        "alone": "Marsh was the last remaining ARCHIVIST candidate after two others were eliminated — and was subsequently identified in 1983 meeting a KGB officer in Bermondsey.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marsh surviving as the last ARCHIVIST candidate and the 1983 Bermondsey meeting confirming active KGB contact together establish the chain — the 1977 clearance had been based on insufficient evidence, not on Marsh's actual innocence."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📎",
+        "heading": "Marsh's Handler Meetings",
+        "text": "The Bermondsey safe house surveillance — documented in the CORMORANT file — shows Marsh had met his KGB handler at the safe house on eleven occasions between 1979 and 1983. The handler is identified as a Soviet trade official who had been under light surveillance. The meetings had been assessed as social by the light surveillance — CORMORANT's closer observation had revealed their operational nature.",
+        "alone": "Eleven handler meetings over four years had been occurring while Marsh remained in post at MI6 — each meeting had been assessed as social by the surveillance that had not been close enough.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Eleven handler meetings between 1979 and 1983 and Marsh's 1977 clearance being based on the same light surveillance that had missed the meetings confirm the clearance had been a product of the surveillance's limitations — not of Marsh's actual clean record."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📎",
+        "heading": "How Marsh Had Passed the Schedule",
+        "text": "Marsh's confession — given after his 1983 confrontation — describes how he had passed the Aldgate East schedule: he had photographed the document with a concealed camera during a lunch break and had transferred the film to his handler at a dead drop in St. James's Park. He had done this within hours of typing the schedule. Lyle had been killed two weeks later — the KGB had moved quickly once they had the collection date.",
+        "alone": "Marsh had photographed the schedule at lunch on the day he typed it and had transferred the film to his handler at St. James's Park — the KGB had acted within two weeks of receiving the collection date.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Marsh passing the schedule two weeks before the killing and the KGB acting within that window confirm the timeline of the compromise — Sorokina had been deployed to Aldgate East with specific date and location intelligence that Marsh had provided."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📎",
+        "heading": "Why Marsh Had Cooperated",
+        "text": "Marsh's confession describes his recruitment: he had been approached by a Soviet contact at a 1969 academic conference in Warsaw, had been ideologically persuaded over eighteen months, and had begun cooperating in 1971. He had been passed over for promotion three times between 1968 and 1972 — the frustration had made him receptive to the ideological argument. He had also received payments, though he describes these as secondary.",
+        "alone": "Marsh had been recruited in 1971 following eighteen months of ideological persuasion after initial contact at a Warsaw conference — career frustration had made him receptive.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Marsh recruited in 1971 and the eleven handler meetings between 1979 and 1983 confirm five years of cooperation between recruitment and the Aldgate East killing, and seven more years after — he had been active for at least twelve years before being identified."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📎",
+        "heading": "The 1977 Clearance's Basis",
+        "text": "The 1977 investigation of Marsh had been based on the same light surveillance that had assessed his handler meetings as social. The investigation had also found no unexplained financial activity — Marsh had been receiving his KGB payments in cash, deposited in small amounts to avoid detection. The clearance had been technically sound based on the evidence available and had been misleading based on the evidence not yet gathered.",
+        "alone": "The 1977 clearance had been sound given the available evidence — the cash payments and the light surveillance's social assessment had both concealed what CORMORANT later found.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The ARCHIVIST codename revealed by the 1981 defector and the 1977 clearance being based on evidence that had been concealed confirm the defector's information had been the necessary catalyst — without it, Marsh might not have been identified."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📎",
+        "heading": "Marsh's Prosecution",
+        "text": "Colin Marsh was arrested in 1983 and charged under the Official Secrets Act. His trial was held in camera — classified proceedings. He received twenty-five years. The CORMORANT file established that he had compromised at least eleven separate MI6 operations between 1971 and 1983. The Aldgate East operation had been one of eleven — Peter Lyle the only fatality directly attributable to his cooperation.",
+        "alone": "Marsh had compromised eleven MI6 operations over twelve years — Lyle's death was the only direct fatality, though the operational losses had been significant across all eleven.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Marsh photographing the schedule on the day he typed it and eleven operations compromised over twelve years confirm the full scale of his activity — Aldgate East had been the operation that had produced a body and had ultimately contributed to his identification, but it had been one of eleven."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🚇",
+        "heading": "The Full Picture's Assembly",
+        "text": "The Lyle killing had been solved in two stages separated by seven years: Sorokina had been expelled in 1976 on the basis of the CCTV and the method assessment. Marsh had been convicted in 1983 on the basis of the defector's intelligence and the CORMORANT surveillance. The first stage had addressed the hand that had held the umbrella. The second had addressed the hand that had provided the schedule. Both had been necessary to understand the full operation.",
+        "alone": "Two stages, seven years apart, had been required to understand the full picture — the killer and the enabler had been identified through separate investigations triggered by separate intelligence.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The 1981 defector's ARCHIVIST information enabling the CORMORANT investigation and the 1976 CCTV enabling Sorokina's expulsion confirm the two investigations had been independently triggered but had addressed the same operation — the complete picture had required both."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Irina Sorokina",
+      "location": "The Aldgate East Platform",
+      "weapon": "Poison Umbrella",
+      "motive": "KGB Operational Directive"
+    },
+    "epilogue": "Irina Sorokina had been expelled in 1976. Colin Marsh had been convicted in 1983. The defector in Vienna had made the second conviction possible. CORMORANT had made it actionable. Marsh had been passing intelligence since 1971 — five years before Aldgate East, seven years after. The Lyle killing had been the operation that had produced a body and had contributed, eventually, to the identification of the schedule's source. Peter Lyle's death had been the event that had generated the investigation that had generated the intelligence that had generated the defector interest that had generated the ARCHIVIST identification. Seven years. Eleven operations. One direct fatality. Twenty-five years."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #092",
+    "title": "Dead Drop",
+    "setting": "Aldgate East Station · London Underground · 1976",
+    "emoji": "🚇",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Sorokina killed Lyle. Marsh provided the schedule. But Gerald Ashford had been Marsh's supervisor for six years and had recommended him for the dead drop scheduling role. Find what Ashford had missed about Marsh and whether he had missed it or had chosen not to see it.",
+    "emptyState": "Ashford supervised Marsh for six years. Find what he missed — or chose not to see.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Irina Sorokina",
+            "icon": "🧣",
+            "detail": "The killer — ricin pellet, KGB umbrella technique, expelled 1976, CCTV-consistent."
+          },
+          {
+            "name": "Gerald Ashford",
+            "icon": "🎩",
+            "detail": "Cleared as killer — Whitehall meeting. Had supervised Marsh for six years and recommended him for the scheduling role."
+          },
+          {
+            "name": "Colin Marsh",
+            "icon": "📎",
+            "detail": "The insider — recruited 1971, twelve years active, twenty-five years. Supervised by Ashford throughout."
+          },
+          {
+            "name": "The Warsaw Contact",
+            "icon": "🕵️",
+            "detail": "The KGB officer who had made initial contact with Marsh at the 1969 conference — never identified."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Aldgate East Platform",
+            "icon": "🚇",
+            "detail": "Primary crime scene — Sorokina's killing."
+          },
+          {
+            "name": "Century House",
+            "icon": "🏛️",
+            "detail": "MI6 headquarters — where Marsh had worked under Ashford's supervision for six years."
+          },
+          {
+            "name": "The Bermondsey Safe House",
+            "icon": "🏠",
+            "detail": "Where Marsh's handler meetings had occurred — identified in CORMORANT."
+          },
+          {
+            "name": "The Warsaw Conference, 1969",
+            "icon": "🕵️",
+            "detail": "Where Marsh had been initially contacted — and where Ashford had also been present."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison Umbrella",
+            "icon": "☂️",
+            "detail": "Confirmed murder weapon — Sorokina's."
+          },
+          {
+            "name": "Platform Edge",
+            "icon": "🚇",
+            "detail": "No relevant wound — eliminated."
+          },
+          {
+            "name": "Briefcase Corner",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Ashford's Recommendation",
+            "icon": "🎩",
+            "detail": "Not a weapon — but the supervisory endorsement that had placed Marsh in the scheduling role."
+          },
+          {
+            "name": "The Six-Year Oversight Gap",
+            "icon": "📎",
+            "detail": "Not a weapon — the period during which indicators had been present but not acted upon."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "KGB Operational Directive",
+            "icon": "🧣",
+            "detail": "Sorokina's motive — assigned to neutralize Lyle and recover the microfilm."
+          },
+          {
+            "name": "Ideological Conviction With Financial Supplement",
+            "icon": "📎",
+            "detail": "Marsh's motive — twelve years, eleven operations, one fatality."
+          },
+          {
+            "name": "Supervisory Blind Spot",
+            "icon": "🎩",
+            "detail": "Ashford's failure — had endorsed Marsh repeatedly while missing indicators that the CORMORANT investigation later identified as significant."
+          },
+          {
+            "name": "Institutional Loyalty Culture",
+            "icon": "🏛️",
+            "detail": "The structural context — MI6's culture of trusting colleagues had made questioning a supervised analyst professionally costly."
+          },
+          {
+            "name": "Ashford's Warsaw Connection",
+            "icon": "🕵️",
+            "detail": "The complicating factor — Ashford had also been at the 1969 Warsaw conference where Marsh had been initially contacted."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Lyle With the Ricin Umbrella",
+            "icon": "🧣",
+            "detail": "Sorokina's confirmed role."
+          },
+          {
+            "name": "Provided the Dead Drop Schedule",
+            "icon": "📎",
+            "detail": "Marsh's confirmed role — photographed and transferred within hours of typing."
+          },
+          {
+            "name": "Recommended Marsh for the Scheduling Role",
+            "icon": "🎩",
+            "detail": "Ashford's confirmed enabling action — his endorsement had placed Marsh in the document access position."
+          },
+          {
+            "name": "Missed or Ignored Indicators Over Six Years",
+            "icon": "🎩",
+            "detail": "Ashford's failure of supervision — the CORMORANT investigation identified indicators that had been present during his supervision period."
+          },
+          {
+            "name": "Was Present at the Warsaw Conference",
+            "icon": "🕵️",
+            "detail": "The complicating biographical fact — Ashford had been at the same conference where Marsh had been initially contacted."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Ashford's Recommendation",
+        "text": "The CORMORANT file includes Ashford's formal recommendation of Marsh for the dead drop scheduling role, dated 1972 — one year after Marsh had been recruited by the KGB. The recommendation describes Marsh as 'methodical, discreet, and reliable under pressure — exactly the temperament required for sensitive schedule management.' The recommendation had placed a recruited Soviet asset in a role giving him access to operational collection schedules.",
+        "alone": "Ashford had recommended Marsh for the scheduling role in 1972 — one year after the KGB recruitment, without knowing Marsh had been turned.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Ashford's 1972 recommendation placing Marsh in the scheduling role and the indicators present during his six-year supervision that CORMORANT later identified confirm the recommendation had been made without adequate vetting — and the subsequent supervision had not caught what the vetting had missed."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "The Indicators Ashford Had Missed",
+        "text": "The CORMORANT investigation's retrospective analysis identifies four indicators present during Ashford's supervision period that had not been acted upon: Marsh's unexplained absences at lunch on three occasions following access to sensitive documents; his attendance at a Soviet cultural event in 1973 without logging the visit as required; a financial anomaly in 1974 (small cash deposits not explained by salary); and social contact with a known Soviet official in 1975 that had been reported but not escalated.",
+        "alone": "Four indicators had been present during Ashford's supervision — unexplained absences, an unlogged Soviet event, small cash deposits, and an unreported Soviet contact. None had been escalated.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The four indicators present during Ashford's supervision and the CORMORANT investigation identifying them as missed confirm Ashford had been the supervisor during a period when warning signs had been available — the question of whether he had missed them or had chosen not to act on them is the investigation's central unresolved issue."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Ashford at Warsaw",
+        "text": "The CORMORANT investigation notes, without further elaboration: 'Subject Ashford was present at the 1969 Warsaw academic conference where Marsh was initially contacted by KGB officer [name redacted]. Ashford's interactions at the conference have been reviewed. No contact between Ashford and the KGB officer is documented. No evidence of Ashford's cooperation with Soviet intelligence has been identified. The Warsaw co-presence is noted as contextual.' The investigation had examined and not resolved Ashford's Warsaw presence.",
+        "alone": "Ashford had been at the same Warsaw conference where Marsh had been recruited — the CORMORANT investigation had examined this and found no evidence of Ashford's cooperation, but had noted it as contextual.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Ashford's Warsaw co-presence noted as contextual by CORMORANT and the four missed indicators during his supervision together present the ambiguity — coincidence and negligence are difficult to distinguish from the outside, and the investigation had found only evidence of negligence, not of complicity."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Ashford's Own Account",
+        "text": "Ashford, interviewed by CORMORANT in 1982, is asked about each of the four missed indicators. On the absences: 'I was aware. I attributed them to personal matters.' On the Soviet event: 'A logging failure — I spoke to him about it.' On the cash deposits: 'I wasn't aware of those.' On the 1975 contact report: 'I recall seeing it. I assessed it as social and did not escalate.' He acknowledges three of the four indicators and explains each as a judgment call or an oversight.",
+        "alone": "Ashford acknowledges three of the four indicators and provides explanations — judgment calls and one genuine oversight. He denies awareness of the financial anomaly.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Ashford acknowledging three indicators and explaining them as judgment calls and the CORMORANT finding stopping at negligence rather than complicity confirm the investigation had found a supervisor who had made consistently wrong judgment calls — but had not found evidence that the wrong calls had been deliberate."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "The Institutional Context",
+        "text": "A broader review of MI6 supervision practices in the 1970s — commissioned following the Marsh case — finds that the culture of the institution had made escalating concerns about colleagues professionally costly. Officers who had raised concerns that had not been substantiated had experienced informal career consequences. The culture had incentivized the kind of judgment calls Ashford had made — reassessing concerning indicators as benign rather than escalating them.",
+        "alone": "The post-Marsh institutional review finds that MI6's culture had actively disincentivized escalating concerns about colleagues — Ashford's judgment calls had been consistent with the institutional culture's implicit expectations.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The four indicators during Ashford's supervision and the institutional culture disincentivizing escalation confirm Ashford had operated within a system that had actively discouraged the action that might have caught Marsh earlier — his individual failures had been enabled by institutional failures."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "The CORMORANT Finding on Ashford",
+        "text": "The CORMORANT investigation's finding on Ashford: 'Subject Ashford demonstrated a consistent pattern of reassessing concerning indicators relating to Marsh as benign over a six-year supervision period. This pattern is assessed as negligent supervision rather than complicit concealment. No evidence of coordination between Ashford and Soviet intelligence has been identified. Ashford is formally censured for supervisory negligence. His security clearance is reduced. He is removed from operational roles.' He is not prosecuted.",
+        "alone": "CORMORANT formally finds negligent supervision rather than complicit concealment — Ashford is censured and removed from operational roles but not prosecuted.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Ashford's Warsaw co-presence not resolved as complicity by CORMORANT and the formal finding of negligent supervision confirm the investigation had examined the question of deliberate concealment and had not found sufficient evidence — negligence was the conclusion, co-presence was contextual."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Ashford's Retirement",
+        "text": "Gerald Ashford retires from MI6 in 1984, following the censure and clearance reduction. In a private note written after his retirement — obtained by a journalist in 1994 through a source and subsequently published — Ashford writes: 'I supervised Marsh for six years. I saw things I explained away. I don't know whether I explained them away because I believed my explanations or because I wanted to believe them. I have thought about Peter Lyle often. I do not find the distinction between those two things as clear as I once did.'",
+        "alone": "Ashford's private note acknowledges the distinction between genuine belief and motivated belief — and admits he cannot determine which had governed his judgment calls.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Ashford acknowledging three indicators to CORMORANT as judgment calls and his private note admitting uncertainty about whether the judgments had been genuine or motivated together confirm the deepest layer of the case — even Ashford himself could not determine whether his blindness had been accidental or chosen."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚇",
+        "heading": "The Case's Unresolvable Question",
+        "text": "The Lyle killing and its full investigation establish the following with certainty: Sorokina had operated the umbrella; Marsh had passed the schedule; Ashford had supervised Marsh negligently; Lyle had died. What the investigation cannot establish with certainty: whether Ashford's negligence had been institutional habit, motivated blindness, or something else. Whether the Warsaw co-presence had been coincidence. Whether Marsh had been the organization's only source on the dead drop system. The case is closed. The questions are not.",
+        "alone": "The investigation closes with certainty on four elements and without certainty on three — the closed questions are the ones that would have required Ashford or the KGB's cooperation to answer.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "CORMORANT's formal finding of negligence rather than complicity and the three unresolvable questions confirm the investigation had reached its evidentiary limit — the case had been solved to the extent the available evidence permitted and had remained unsolved to the extent it had not."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Irina Sorokina",
+      "location": "The Aldgate East Platform",
+      "weapon": "Poison Umbrella",
+      "motive": "KGB Operational Directive",
+      "accomplice": "Provided the Dead Drop Schedule"
+    },
+    "epilogue": "Peter Lyle had died on a Tube platform during rush hour. Sorokina had been expelled ten days later. Marsh had been convicted seven years after that. Ashford had been censured and had retired the following year. His private note had been published in 1994. The distinction between genuine belief and motivated belief had remained unclear to him. The case had been closed in 1983 with Marsh's conviction. The questions Ashford had raised in his private note had not been answered by the time he died in 1997. The Warsaw contact who had recruited Marsh had never been identified. The umbrella had remained in the classified archive. The Aldgate East platform had continued to serve the District and Hammersmith & City lines."
+  }
+}

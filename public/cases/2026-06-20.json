@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Las Vegas, 1963. A casino counting room. A pit boss dead on the floor. And a skim operation that was missing more than anyone had reported. 🎰🔍 Case #093 — The Count. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Las Vegas 1963, a casino skim operation, a dead pit boss, and someone who was stealing from the people doing the stealing. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1963 Las Vegas casino counting room at night, stacks of cash on metal tables under fluorescent lights, counting machines and ledger books, a single overturned chair, a man's jacket and hat on the floor. Hard fluorescent light, no windows, the feeling of a sealed vault. Crisp and dangerous, style of Robert Frank meets Saul Leiter.",
+    "animationPrompt": "Slow pan through a 1963 Las Vegas casino counting room at night. Fluorescent lights. Metal tables with stacked cash. Counting machines. A ledger book open. The camera finds an overturned chair and a man's jacket on the floor. The cash is very still. The ledger is open at the wrong page. Fade to black.",
+    "hashtags": [
+      "#LasVegas1963",
+      "#CasinoNoir",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #093",
+    "title": "The Count",
+    "setting": "The Desert Sovereign Casino · Las Vegas · Nevada · 1963",
+    "emoji": "🎰",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Pit boss Eddie Crane was found dead in the counting room of the Desert Sovereign at two AM. The casino was running a mob skim operation — taking cash off the top before reporting to the Nevada Gaming Commission. Eddie had discovered that someone was stealing from the skim. Three people had access to the counting room that night.",
+    "emptyState": "Someone was stealing from the skim. Eddie found out. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Sal Delfino",
+            "icon": "💰",
+            "detail": "The casino's mob-connected general manager — ran the skim operation and reported to Chicago."
+          },
+          {
+            "name": "Norma Vance",
+            "icon": "📒",
+            "detail": "The head cashier — managed the counting room's daily operations and the skim's ledger books."
+          },
+          {
+            "name": "Deke Hutto",
+            "icon": "🎰",
+            "detail": "A pit supervisor — had been covering Eddie's shifts and had after-hours counting room access."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Counting Room",
+            "icon": "💵",
+            "detail": "Where Eddie was found — cash on the tables, ledger open, chair overturned."
+          },
+          {
+            "name": "The Casino Floor",
+            "icon": "🎰",
+            "detail": "Where the shift had been running — all three suspects had been there earlier."
+          },
+          {
+            "name": "The Manager's Office",
+            "icon": "📋",
+            "detail": "Sal's domain — where the skim's destination accounts were managed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Counting Machine",
+            "icon": "🔢",
+            "detail": "A heavy mechanical bill counter — blunt force wound consistent with its metal housing edge."
+          },
+          {
+            "name": "Casino Chip Tray",
+            "icon": "🎲",
+            "detail": "A heavy tray of casino chips — wound profile inconsistent with its flat base."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "The heavy bound ledger — wound shape inconsistent with its spine width, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Open Ledger",
+        "text": "The counting room ledger is open to a page showing the skim's monthly totals. Eddie's handwriting appears in the margin beside the most recent entry: 'D.H. — short 4,200.' The notation accuses Deke Hutto of a 4,200-dollar discrepancy in the skim's collected amounts. The discrepancy had been accumulating over three months — Eddie had been tracking it silently and had confronted someone that night.",
+        "alone": "Eddie had been tracking a 4,200-dollar discrepancy and had written Deke Hutto's initials beside it — he had identified the source of the secondary theft and had confronted someone about it.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Eddie's marginal notation identifying Deke as the source of the discrepancy and Deke's confirmed presence in the counting room during the relevant window together confirm Eddie had confronted Deke directly — and the confrontation had not ended with a conversation."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔢",
+        "heading": "The Counting Machine",
+        "text": "The bill counting machine — a heavy mechanical unit with a metal housing — shows blood on its right corner edge. Eddie's wound is consistent with his head having been struck against the machine's corner — or the machine having been swung at him. The machine is fixed to the table. The chair is overturned. Eddie had been pushed or struck into the machine's corner from the front — the wound angle indicates the impact had come from the right side.",
+        "alone": "Eddie had been struck on the right side of his head against or with the counting machine — the fixed position of the machine and the overturned chair indicate a struggle.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The counting machine strike from the right and Deke Hutto's left-hand dominance noted in his personnel file creating an inconsistency prompt investigators to re-examine the approach angle — a right-side strike from a right-handed attacker approaching from the left is consistent with someone reaching across the ledger to push Eddie's head into the machine."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📒",
+        "heading": "Norma's Evening",
+        "text": "Norma Vance had completed her shift at midnight — the counting room's access log shows her key-out at twelve-oh-three AM. The killing had occurred between one and two AM. The log is controlled by an electronic key system that records every entry and exit. Norma had not re-entered after midnight. She is definitively cleared.",
+        "alone": "Norma had key-out at twelve-oh-three AM — the electronic log confirms she had not re-entered the counting room after midnight. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Norma cleared by the electronic key log and Sal Delfino confirmed in his office through the killing window together eliminate both other suspects — only Deke Hutto had key access and unconfirmed movements during the one-to-two AM window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Deke's Secondary Skim",
+        "text": "Deke Hutto had been running a secondary skim — taking from the casino's mob skim before it was counted and reported to Chicago. He had been taking approximately 1,400 dollars per month over three months — a total of 4,200 dollars. Eddie's marginal notation matched the precise discrepancy. Deke had identified an opportunity within an already-criminal operation and had exploited it, believing the skim's own illegality would prevent scrutiny.",
+        "alone": "Deke had been stealing 1,400 dollars monthly from the mob skim — calculating correctly that the skim's own illegality made scrutiny unlikely. Eddie had been the exception.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Deke stealing from the skim and the mob's reaction to any secondary theft being predictably lethal establish that even if Eddie had not confronted him, discovery by Chicago would have been equally dangerous — Deke had been in a precarious position from the moment he had started the secondary theft."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎰",
+        "heading": "Deke in the Counting Room",
+        "text": "The electronic key log shows Deke Hutto had entered the counting room at one-fifteen AM — logging in on a shift coverage basis. He had been covering a late count that Eddie had initially been assigned. At two-ten AM, a casino security guard had found the counting room door ajar and had discovered Eddie's body. Deke's key-out had not been logged — he had exited through the service door, which had a manual lock.",
+        "alone": "Deke had entered the counting room at one-fifteen AM and had exited through the unlogged service door — he had been inside from one-fifteen AM until the body was found at two-ten.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Eddie's 'D.H. — short 4,200' notation and Deke's confirmed presence in the counting room from one-fifteen AM confirm the confrontation had occurred after Deke arrived — Eddie had been waiting for him with the evidence in the open ledger."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "💰",
+        "heading": "The Missing 4,200",
+        "text": "A count of the counting room's cash — conducted by Sal Delfino and two witnesses after the body was discovered — shows a 4,200-dollar shortfall consistent with Eddie's marginal notation. The cash that Deke had been skimming was not in the room. Deke had taken the secondary skim amount with him when he left through the service door.",
+        "alone": "The 4,200-dollar shortfall confirms Deke had taken the skimmed amount with him — the cash was missing from the count, consistent with a secondary theft over three months being removed in a single exit.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Deke's three-month secondary skim totaling 4,200 dollars and the same amount missing from the counting room count confirm he had taken the accumulated amount during the same visit where he had killed Eddie — the killing and the cash removal had been simultaneous."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Sal's Office",
+        "text": "Sal Delfino had been in his office from midnight until two AM — confirmed by a phone call to Chicago at one AM that lasted forty minutes, logged by the casino's switchboard. He had not been in the counting room. He is definitively cleared of being the killer. However, his reaction to the discovery of the 4,200-dollar discrepancy — and to Eddie's death — is noted as calculating rather than shocked.",
+        "alone": "Sal had been in his office with the Chicago call confirming his presence — he is cleared. His calculating reaction to the discovery is noted.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Norma cleared by the key log and Sal cleared by the Chicago phone call together eliminate both other suspects — Deke's one-fifteen AM entry and unlogged service door exit are the only unaccounted movements during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "Deke's Calculation Error",
+        "text": "Deke had calculated that the skim's illegality would prevent scrutiny of his secondary theft. He had not calculated that Eddie Crane — a meticulous pit boss who had been trusted with the skim's integrity specifically because of his precision — would track the discrepancy over three months and would confront him privately rather than going to Sal. Deke had been caught not by the mob's auditing but by the one person who had been watching the numbers for a different reason.",
+        "alone": "Deke had been caught by Eddie's precision — the mob's own auditing had not found the discrepancy, but the pit boss who had been trusted with the skim's integrity had.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Deke correctly calculating the mob's scrutiny gap and Eddie's precision catching what the mob had not confirm the killing's irony — the very rigor that had made Eddie trusted with the skim was what had gotten him killed for protecting it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deke Hutto",
+      "location": "The Counting Room",
+      "weapon": "Counting Machine"
+    },
+    "epilogue": "Deke Hutto had entered the counting room at one-fifteen AM to find Eddie Crane waiting with the open ledger and the 'D.H. — short 4,200' notation. The confrontation had ended with Eddie's head against the counting machine's corner. Deke had taken the 4,200 dollars, had exited through the unlogged service door, and had left Nevada by dawn. He had been picked up in Phoenix three days later. He had received twenty years for the murder. Sal Delfino had continued managing the Desert Sovereign until the mob's Chicago operations were prosecuted in 1968. The skim had continued until then. The Nevada Gaming Commission had never discovered it."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #093",
+    "title": "The Count",
+    "setting": "The Desert Sovereign Casino · Las Vegas · Nevada · 1963",
+    "emoji": "🎰",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Deke killed Eddie. But Sal Delfino's calculating reaction had been because he had known about Deke's secondary skim before the killing — and had been planning to handle it his own way. Find what Sal had intended and what the killing had disrupted.",
+    "emptyState": "Sal already knew about Deke's theft. Find what he had planned.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deke Hutto",
+            "icon": "🎰",
+            "detail": "The killer — one-fifteen AM entry, service door exit, 4,200 taken, twenty years."
+          },
+          {
+            "name": "Sal Delfino",
+            "icon": "💰",
+            "detail": "Cleared as killer — Chicago phone call confirmed. Had known about Deke's skim and had his own plan."
+          },
+          {
+            "name": "Norma Vance",
+            "icon": "📒",
+            "detail": "Cleared as killer — key-out at midnight confirmed. Had been Sal's source on the discrepancy."
+          },
+          {
+            "name": "The Chicago Organization",
+            "icon": "🕵️",
+            "detail": "The mob's Chicago oversight — expected quarterly reports and would have reacted to the discrepancy."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Counting Room",
+            "icon": "💵",
+            "detail": "Primary crime scene — Deke's killing of Eddie."
+          },
+          {
+            "name": "The Manager's Office",
+            "icon": "📋",
+            "detail": "Sal's confirmed location — and where the plan for Deke had been developed."
+          },
+          {
+            "name": "The Casino Floor",
+            "icon": "🎰",
+            "detail": "Where the nightly operations ran — and where Sal had been watching Deke for weeks."
+          },
+          {
+            "name": "The Chicago Contact",
+            "icon": "🕵️",
+            "detail": "The one AM phone call — and what Sal had been reporting to Chicago that night."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Counting Machine",
+            "icon": "🔢",
+            "detail": "Confirmed murder weapon — Deke's, counting room corner, twenty years."
+          },
+          {
+            "name": "Casino Chip Tray",
+            "icon": "🎲",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Sal's Intended Resolution",
+            "icon": "💰",
+            "detail": "Not a weapon — but the plan that the killing had pre-empted, which would have been considerably less survivable for Deke than twenty years in prison."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence Eddie Before He Reported to Sal",
+            "icon": "🎰",
+            "detail": "Deke's immediate motive — preventing the discrepancy from reaching Sal."
+          },
+          {
+            "name": "Irony: Sal Already Knew",
+            "icon": "💰",
+            "detail": "The structural revelation — Deke had killed Eddie to prevent Sal from knowing what Sal already knew."
+          },
+          {
+            "name": "Protect the Chicago Relationship",
+            "icon": "🕵️",
+            "detail": "Sal's motive for his own plan — the discrepancy would have reflected on him if Chicago discovered it independently."
+          },
+          {
+            "name": "Handle It Quietly",
+            "icon": "📋",
+            "detail": "Sal's preferred resolution — his own method for dealing with Deke, pre-empted by the killing."
+          },
+          {
+            "name": "The One AM Call's Content",
+            "icon": "📞",
+            "detail": "What Sal had been telling Chicago — the discrepancy, his knowledge of Deke's theft, and his plan for resolution."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📒",
+        "heading": "Norma Was Sal's Source",
+        "text": "Norma Vance, interviewed after the killing, reveals that she had told Sal Delfino about the discrepancy six days before Eddie's death. She had noticed the shortfall during a routine count and had reported it to Sal rather than to Eddie — standard procedure for anything that touched the skim. Sal had told her: 'Don't say anything to Eddie. I'll handle it.' She had followed his instruction.",
+        "alone": "Norma had reported the discrepancy to Sal six days before the killing — Sal had instructed her not to tell Eddie and had said he would handle it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Sal knowing about the discrepancy for six days and instructing Norma to keep it from Eddie confirm Sal had been planning his own resolution — and that Eddie had found the discrepancy independently, without Norma's help, through his own tracking."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📞",
+        "heading": "The One AM Call's Content",
+        "text": "The Chicago organization's phone records — obtained through a federal investigation years later — include a transcript of the one AM call between Sal and his Chicago contact. Sal had been reporting the discrepancy to Chicago that night. He had described Deke's secondary skim, the amount, and had said: 'I have someone handling it this week. Clean.' The call had been Sal reporting that the problem was being addressed — by someone Sal had arranged.",
+        "alone": "Sal had been telling Chicago at one AM that the discrepancy was being handled 'clean' by someone he had arranged — he had been planning a mob resolution for Deke that night.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Sal reporting to Chicago at one AM that the problem was being handled and Deke killing Eddie at approximately that same time confirm the two plans had been running simultaneously — Sal's mob resolution and Deke's panicked killing had converged on the same night by coincidence."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "What Sal Had Intended",
+        "text": "Sal, in a later deposition given during the 1968 federal investigation into the Desert Sovereign, describes what he had planned for Deke: 'A message. A serious message. The kind that doesn't end with a trial.' He does not elaborate. The federal investigators understand the implication. Sal had planned to have Deke killed by the mob's own enforcement — not through the police but through the organization's internal resolution mechanism.",
+        "alone": "Sal had planned to have Deke killed by the organization's enforcement — a mob resolution that would not have involved a trial, a conviction, or any public proceeding.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Sal's planned mob resolution for Deke and the irony that Deke's killing of Eddie had resulted in a murder trial and twenty years confirm the killing had been worse for Deke than Sal's plan would have been — in the sense that prison is a known quantity, while a mob resolution is not."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "The Killing's Disruption",
+        "text": "Deke's killing of Eddie had disrupted Sal's plan in a specific way: it had introduced a police investigation into the counting room — a space where the skim's ledger books were kept. The police presence had required Sal to manage the investigation while simultaneously protecting the skim's documentation from scrutiny. Sal's calculating reaction to the discovery had been the calculation of a man managing two problems simultaneously.",
+        "alone": "The killing had created a police investigation in the counting room — forcing Sal to manage a murder investigation while protecting skim documentation. His calculating reaction had been two-problem management.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Sal managing the police investigation while protecting the skim and the federal investigation eventually prosecuting the operation confirm the killing had created a chain of scrutiny that Sal had not been able to fully contain — Deke's panic had started a process that had eventually reached what Sal had been protecting."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Eddie's Independent Tracking",
+        "text": "Eddie had discovered the discrepancy independently — through his own meticulous counting, not through Norma's report. His marginal notations spanned three months and showed a systematic tracking of the shortfall before he had identified Deke as the source. He had not known Sal already knew. He had been planning to report to Sal as his next step — the confrontation in the counting room had been Eddie telling Deke he was going to Sal, not Eddie reporting to Sal directly.",
+        "alone": "Eddie had discovered the discrepancy independently and had confronted Deke first as a warning — he had been planning to go to Sal as the next step if Deke didn't confess.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Norma telling Sal six days before and Eddie discovering it independently confirm two parallel tracks had been converging on the same resolution — both had been heading toward Sal, and neither had known about the other."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Irony's Full Weight",
+        "text": "Deke had killed Eddie to prevent Eddie from going to Sal. Sal had already known for six days. The killing had been based on a false premise — Eddie's report to Sal would not have been news. It would have confirmed what Sal already knew and would have accelerated Sal's planned resolution. By killing Eddie, Deke had introduced a police investigation that had made Sal's clean resolution impossible and had ultimately led to a murder charge.",
+        "alone": "Deke had killed Eddie to prevent information reaching Sal that Sal already had — the killing had been based on a false premise that had made every subsequent consequence worse.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The killing disrupting Sal's plan and the false premise confirming Deke had acted on incorrect information confirm the killing had been strategically counterproductive — Deke had traded Sal's mob resolution for a murder conviction, based on information that Sal already held."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Sal's 1968 Prosecution",
+        "text": "The 1968 federal investigation into the Desert Sovereign — part of a broader inquiry into organized crime's Nevada casino operations — prosecuted Sal Delfino for tax fraud and racketeering related to the skim operation. The counting room's ledger books, preserved as evidence from the 1963 murder investigation, had been the primary documentation. Deke's killing of Eddie had preserved the very evidence that had eventually prosecuted Sal.",
+        "alone": "The ledger books preserved as murder evidence had been the primary documentation for Sal's 1968 prosecution — Deke's killing had inadvertently preserved the evidence that had put Sal in prison.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Sal's planned mob resolution for Deke and his 1968 prosecution from evidence the murder investigation had preserved confirm the full irony — Deke's panic killing had been the action that had eventually destroyed Sal's operation, which is the one outcome neither of them had been working toward."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "The Count's Final Accounting",
+        "text": "The Desert Sovereign Casino closed in 1969. Deke Hutto served eighteen of his twenty years and was released in 1981. Sal Delfino received twelve years for racketeering and served eight. Norma Vance was not charged — her cooperation had provided the foundation for the federal investigation. Eddie Crane's precision, which had tracked a 4,200-dollar discrepancy in an otherwise unscrutinized criminal operation, had set in motion a chain that had eventually closed the casino, convicted its manager, and sent his killer to prison for twenty years.",
+        "alone": "Eddie's precision had started a chain that had closed the casino and convicted its manager — the pit boss killed for protecting the integrity of a criminal operation had been the one whose work had ultimately exposed it.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The killing's false premise and the chain it had set in motion confirming Deke's strategic error establish the full picture — Eddie's precision had been the one variable that had not been accounted for, and it had been the one that had mattered most."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deke Hutto",
+      "location": "The Counting Room",
+      "weapon": "Counting Machine",
+      "motive": "Silence Eddie Before He Reported to Sal"
+    },
+    "epilogue": "Sal had known for six days. Norma had told him. He had been reporting to Chicago at one AM. He had arranged a clean resolution for that week. Deke had entered the counting room at one-fifteen AM and had found Eddie waiting with the open ledger. Deke had killed Eddie to prevent information reaching Sal that Sal already held — acting on a false premise that had made every subsequent consequence worse. The ledger books preserved as murder evidence had prosecuted Sal in 1968. The casino had closed in 1969. Deke had served eighteen years. Sal had served eight. Eddie Crane's precision, which had tracked a 4,200-dollar theft in an otherwise unauditable criminal operation, had been the variable that had not been accounted for. It had been the only one that had mattered."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #093",
+    "title": "The Count",
+    "setting": "The Desert Sovereign Casino · Las Vegas · Nevada · 1963",
+    "emoji": "🎰",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Deke killed Eddie. Sal knew before the killing. But Norma Vance had told Sal six days earlier — and she had also been doing something with the counting room's records that the federal investigators found when they examined the 1968 evidence. Find what Norma had been doing.",
+    "emptyState": "Norma reported to Sal — and also did something with the records. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deke Hutto",
+            "icon": "🎰",
+            "detail": "The killer — one-fifteen AM, service door exit, false premise, twenty years."
+          },
+          {
+            "name": "Sal Delfino",
+            "icon": "💰",
+            "detail": "Cleared as killer — Chicago call. Knew about Deke, planned a mob resolution, prosecuted 1968."
+          },
+          {
+            "name": "Norma Vance",
+            "icon": "📒",
+            "detail": "Cleared as killer — midnight key-out. Had reported to Sal and had been doing something with the records."
+          },
+          {
+            "name": "The Federal Investigation",
+            "icon": "🏛️",
+            "detail": "The 1968 inquiry — found what Norma had been doing when it examined the preserved ledger evidence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Counting Room",
+            "icon": "💵",
+            "detail": "Primary crime scene — and where Norma's records activity had occurred."
+          },
+          {
+            "name": "The Manager's Office",
+            "icon": "📋",
+            "detail": "Sal's location — and where Norma had gone to report the discrepancy six days before."
+          },
+          {
+            "name": "The Casino Floor",
+            "icon": "🎰",
+            "detail": "Where the skim's cash originated — and where Norma's records had been tracking something beyond the standard count."
+          },
+          {
+            "name": "The Federal Evidence Archive",
+            "icon": "🏛️",
+            "detail": "Where the ledger books had been preserved — and where the federal investigators had found Norma's secondary records."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Counting Machine",
+            "icon": "🔢",
+            "detail": "Confirmed murder weapon — Deke's, twenty years."
+          },
+          {
+            "name": "Casino Chip Tray",
+            "icon": "🎲",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Ledger Book",
+            "icon": "📒",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Norma's Secondary Records",
+            "icon": "📒",
+            "detail": "Not a weapon — but the documentation she had been keeping that the federal investigation had found invaluable."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Silence Eddie Before He Reported",
+            "icon": "🎰",
+            "detail": "Deke's motive — the false premise, the counting machine, twenty years."
+          },
+          {
+            "name": "Protect the Skim's Integrity",
+            "icon": "💰",
+            "detail": "Sal's management interest — Chicago expected specific amounts, discrepancies were his problem."
+          },
+          {
+            "name": "Personal Protection",
+            "icon": "📒",
+            "detail": "Norma's actual motive for her secondary records — she had been keeping documentation as insurance against the day the operation collapsed."
+          },
+          {
+            "name": "Federal Cooperation",
+            "icon": "🏛️",
+            "detail": "What Norma's records had enabled — her cooperation with the federal investigation in exchange for immunity."
+          },
+          {
+            "name": "Self-Preservation in a Criminal Environment",
+            "icon": "📒",
+            "detail": "The structural logic — Norma had understood she was embedded in a criminal operation and had been preparing for its inevitable end."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Eddie With the Counting Machine",
+            "icon": "🔢",
+            "detail": "Deke's confirmed role — twenty years."
+          },
+          {
+            "name": "Knew About the Discrepancy and Planned a Resolution",
+            "icon": "💰",
+            "detail": "Sal's role — reported to Chicago, planned a mob resolution, prosecuted 1968."
+          },
+          {
+            "name": "Reported the Discrepancy to Sal and Kept Secondary Records",
+            "icon": "📒",
+            "detail": "Norma's dual role — informed Sal and simultaneously maintained documentation for personal protection."
+          },
+          {
+            "name": "Cooperated With the Federal Investigation",
+            "icon": "🏛️",
+            "detail": "Norma's outcome — provided the secondary records in exchange for immunity."
+          },
+          {
+            "name": "Preserved the Primary Records as Murder Evidence",
+            "icon": "🏛️",
+            "detail": "The police investigation's unintended role — the ledger books preserved for the murder trial became the 1968 prosecution's foundation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Secondary Records",
+        "text": "The federal investigation's examination of the Desert Sovereign's counting room ledgers — preserved as murder evidence since 1963 — finds a second set of records interleaved in the primary ledger's back pages. The secondary records, in Norma's handwriting, document the skim's actual amounts alongside the reported amounts, with dates spanning four years. The secondary records are more detailed and accurate than the primary skim ledger.",
+        "alone": "Norma had been keeping a second, more accurate set of skim records interleaved in the back of the primary ledger — a complete four-year documentation of the skim's actual operation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Norma's secondary records spanning four years and her role as the head cashier with daily counting room access confirm the records had been maintained systematically — this was not opportunistic but a planned documentation effort that had been ongoing throughout her tenure."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📒",
+        "heading": "Norma's Explanation",
+        "text": "Norma, approached by federal investigators in 1966 — two years before the formal prosecution — offers her secondary records in exchange for immunity. She explains: 'I have been working in that counting room for four years. I knew what the operation was. I also knew that operations like this end one of two ways — the mob decides you're a liability, or the federal government decides you're useful. I chose to make myself useful.' She had been preparing for the end from the beginning.",
+        "alone": "Norma had been keeping the secondary records as insurance since the beginning — preparing to make herself useful to the federal government when the operation inevitably ended.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Norma's four-year preparation for federal cooperation and her decision to report to Sal rather than directly to federal authorities before the killing confirm she had been managing her position within the criminal operation while preparing her exit — the Sal report had been organizational compliance, the secondary records had been self-protection."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📒",
+        "heading": "What the Secondary Records Showed",
+        "text": "Norma's secondary records document the skim's actual monthly amounts, the Chicago remittances, the discrepancies introduced by Deke's secondary theft, and — critically — the names of the Chicago recipients. The primary skim ledger had used coded account numbers. Norma's secondary records had decoded them. The secondary records had been the document that had made the 1968 prosecution possible by connecting the Desert Sovereign's skim to specific Chicago organization figures.",
+        "alone": "Norma's records had decoded the Chicago recipient accounts — connecting the skim to specific named figures in the Chicago organization that the primary coded ledger had concealed.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Norma's decoded Chicago accounts enabling the prosecution of named figures and the coded primary ledger being insufficient alone confirm her secondary records had been the decisive evidentiary element — without them, the 1968 case would have been significantly weaker."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Immunity Arrangement",
+        "text": "Norma's immunity arrangement — documented in the federal investigation file — grants her full immunity from prosecution for any crime committed in connection with the Desert Sovereign's operations between 1959 and 1966, in exchange for her testimony and the secondary records. She had been immune before she had been asked to testify. The arrangement had been negotiated with Norma's lawyer over six months before the formal charges had been filed.",
+        "alone": "Norma had negotiated immunity six months before the formal charges — she had been the investigation's foundation, not its supplementary witness.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Norma's immunity arranged before the formal charges and her secondary records being the prosecution's primary evidentiary foundation confirm she had been central to the case's construction — the federal investigation had been built around her records and her cooperation."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📒",
+        "heading": "When Norma Had Started Keeping Records",
+        "text": "Norma's secondary records begin on a specific date in 1959 — her third month of employment at the Desert Sovereign. A note on the first page of the secondary records reads: 'Started because I needed to know what I was in. Staying because I need to know how to get out.' She had begun the records not as an informant but as personal documentation of her own exposure — and had realized their federal utility later.",
+        "alone": "Norma had begun the records in 1959 to understand her own exposure — and had recognized their federal utility as a means of exit from the operation.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Norma's 1959 start explaining her original intent and her four-year preparation for federal cooperation confirming the evolution of purpose establish the full trajectory — the records had begun as self-assessment and had become the most valuable piece of evidence in a major organized crime prosecution."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "📒",
+        "heading": "Norma's Role in the Skim",
+        "text": "Norma's role in the skim had been essential — she had managed the counting room's daily operations, had supervised the counts, and had ensured the reported figures matched what Chicago expected. She had been a knowing participant in the criminal operation. Her secondary records did not change this fact. Her immunity arrangement acknowledged it and set it aside in exchange for cooperation. She had been simultaneously complicit and documenting her own complicity.",
+        "alone": "Norma had been a knowing participant in the skim while simultaneously documenting it — her complicity and her documentation had coexisted throughout her four years at the Desert Sovereign.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Norma's decoded Chicago accounts enabling the prosecution and her knowing participation in the skim confirm the complexity of her role — she had been simultaneously an operational asset of the criminal organization and the federal investigation's most valuable future witness."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "What the Records Accomplished",
+        "text": "Norma's secondary records, combined with the primary ledger books preserved as murder evidence, enabled the prosecution of: Sal Delfino (twelve years), three Chicago organization figures (sentences ranging from eight to fifteen years), and two Nevada officials who had been receiving payments to look the other way (three years each). Nine individuals had been prosecuted using documents that had originated in a counting room where a pit boss had been killed for tracking a 4,200-dollar discrepancy.",
+        "alone": "Nine prosecutions had resulted from the counting room's records — the chain beginning with Eddie's precision tracking had ended with a federal prosecution that had convicted nine people.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Norma's immunity being the foundation for the prosecution's construction and nine resulting convictions confirming the secondary records' evidentiary significance establish the full scope — Eddie's death had been the event that had preserved the records, and the records had done more damage to the organization than Eddie's report to Sal ever could have."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "Norma's Life After",
+        "text": "Norma Vance left Nevada in 1966 after the immunity arrangement was concluded and before the formal charges were filed. She moved to Portland, Oregon, under her own name — her immunity had been unconditional. She worked as a bookkeeper for a hardware company for twenty years. She died in 1991. Her obituary did not mention the Desert Sovereign. The federal case file notes, in a summary paragraph, that without Vance's cooperation and secondary records, the prosecution would have been unlikely to succeed. The obituary was eight lines long.",
+        "alone": "Norma had moved to Portland and worked as a bookkeeper for twenty years — her obituary was eight lines long and mentioned nothing of the Desert Sovereign.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Norma beginning the records to understand her own exposure and the federal case file noting her records had been essential to the prosecution confirm the full arc — a woman who had started keeping records to manage her personal risk had produced the most consequential piece of evidence in a major organized crime prosecution."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deke Hutto",
+      "location": "The Counting Room",
+      "weapon": "Counting Machine",
+      "motive": "Silence Eddie Before He Reported to Sal",
+      "accomplice": "Reported the Discrepancy to Sal and Kept Secondary Records"
+    },
+    "epilogue": "Norma Vance had begun keeping records in 1959 because she had needed to know what she was in. She had reported the 4,200-dollar discrepancy to Sal six days before the killing. She had left Nevada in 1966 with an immunity arrangement. Her secondary records had decoded the Chicago recipients and had made nine prosecutions possible. Deke Hutto had killed Eddie Crane to prevent information from reaching Sal that Sal already held, based on a false premise, and had inadvertently preserved the counting room as a crime scene whose evidence had destroyed the organization Sal had been protecting. Eddie's precision had started it. Norma's records had finished it. The obituary was eight lines long."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Oklahoma, 1934. A Dust Bowl farmstead. A farmer dead in the dry field. Three families sharing one well. And a survival calculation no one admits to making. 🌾🔍 Case #084 — Dry Season. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Oklahoma 1934, the Dust Bowl, three families on one failing farm, and a survival decision that someone made for everyone else. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1934 Oklahoma Dust Bowl farmstead at dusk, a wooden farmhouse with peeling paint, a dried creek bed, a hand-pump well with a cracked wooden trough, an overturned bushel basket on the cracked earth. Brown dust in the air, orange dusk sky, sparse dead grass. Bleak and stark, style of Dorothea Lange meets Grant Wood.",
+    "animationPrompt": "Slow pan across a 1934 Oklahoma Dust Bowl farmstead at dusk. Peeling farmhouse. Dried creek bed. A hand-pump well with a cracked trough. The camera finds an overturned bushel basket on the cracked earth. Brown dust in the air. Orange dusk sky. Silence. Fade to black.",
+    "hashtags": [
+      "#DustBowl1934",
+      "#OklahomaMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #084",
+    "title": "Dry Season",
+    "setting": "Harmon County Farmstead · Oklahoma · 1934",
+    "emoji": "🌾",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Farmer Earl Pruitt was found dead in the field beside the shared well. Two neighboring families had been drawing from that well for six months, with Earl setting the daily allocation. He had cut one family's allocation in half the previous week. The well was nearly dry.",
+    "emptyState": "One well. Three families. One man controlled the water. Not anymore.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Clem Dockery",
+            "icon": "🌾",
+            "detail": "The neighboring farmer whose allocation had been cut in half — had three children and livestock."
+          },
+          {
+            "name": "Vera Oates",
+            "icon": "🏡",
+            "detail": "The widow on the eastern plot — had been drawing full allocation without challenge."
+          },
+          {
+            "name": "Roy Pruitt",
+            "icon": "👦",
+            "detail": "Earl's own son — had argued with his father about selling the farm and leaving."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Well Field",
+            "icon": "⛏️",
+            "detail": "Where Earl was found — the area around the shared well, cracked earth, overturned basket."
+          },
+          {
+            "name": "The Pruitt Farmhouse",
+            "icon": "🏚️",
+            "detail": "Where the family argument had taken place — Roy's account of the previous evening."
+          },
+          {
+            "name": "The Dockery Fence Line",
+            "icon": "🌵",
+            "detail": "The boundary between Pruitt and Dockery land — where Clem had confronted Earl the previous day."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pump Handle",
+            "icon": "🔧",
+            "detail": "The removable iron handle of the well pump — blunt force wound consistent with its weight and profile."
+          },
+          {
+            "name": "Fence Post",
+            "icon": "🪵",
+            "detail": "A loose wooden post — wound profile inconsistent with its rounded end."
+          },
+          {
+            "name": "Bushel Basket",
+            "icon": "🧺",
+            "detail": "The overturned basket — too light for the wound depth, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Allocation Record",
+        "text": "Earl Pruitt had kept a written record of daily water allocations in a notebook found in the farmhouse. The record shows Clem Dockery's family had been receiving two buckets per day — reduced from four the previous week. Earl's notation beside the reduction: 'Clem's livestock are dying anyway. Water saved here goes to vegetables.' The reduction had been unilateral and had offered no appeal.",
+        "alone": "Earl had unilaterally cut Clem's allocation from four to two buckets, noting the decision in writing — Clem had received no warning and no appeal.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Earl's unilateral allocation cut with no appeal and Clem's confrontation at the fence line the previous day confirming he had challenged it together establish both the specific grievance and Clem's immediate response."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔧",
+        "heading": "The Pump Handle",
+        "text": "The iron pump handle — normally attached to the well mechanism — is found ten feet from the pump, in the dry grass beside Earl's body. Blood on the handle's weighted end matches the wound on Earl's skull. The handle is detachable and had been removed from the pump. Someone had taken the handle off the pump deliberately and used it as a weapon.",
+        "alone": "The pump handle had been deliberately detached before being used as a weapon — the killer had prepared it in advance or had removed it during a confrontation at the well.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The pump handle deliberately detached and Clem Dockery's confirmed presence at the well that morning before Earl arrived confirm he had been there and had either removed the handle in advance or during an early encounter."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏡",
+        "heading": "Vera Oates's Morning",
+        "text": "Vera Oates confirms she had drawn her allocation at dawn — before the rest of the farmstead was moving. The track through the field shows her footprints arriving and departing before a second set of prints appears. She had been gone from the well before Clem or Earl had arrived. She is cleared.",
+        "alone": "Vera's footprints show she had drawn water at dawn and departed before any other person arrived at the well. She is cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Vera cleared at dawn and Roy Pruitt confirmed inside the farmhouse during the morning together eliminate both other suspects — only Clem Dockery's morning movements at and near the well remain unaccounted for."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "witness",
+        "icon": "🌾",
+        "heading": "The Fence Line Confrontation",
+        "text": "Vera Oates confirms she had witnessed the confrontation at the fence line the previous day — she had been in her field and had heard Clem tell Earl: 'You cut my family's water and my children go without. You do that again and there'll be a reckoning.' Earl had told Clem the allocation was his decision to make. Clem had walked away without resolution.",
+        "alone": "Clem had explicitly threatened 'a reckoning' when Earl refused to restore his family's water allocation — witnessed by Vera the previous day.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Clem's explicit reckoning threat and his children's water dependency establishing the severity of his motive together confirm the grievance had been spoken aloud — the threat had been made before the killing."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "physical",
+        "icon": "⛏️",
+        "heading": "Clem at the Well",
+        "text": "The track evidence around the well shows three distinct sets of footprints. Vera's dawn prints arriving and departing. A second set — matching Clem's boot size — arriving from the Dockery direction and present near the pump before Earl's footprints appear. Clem had been at the well before Earl that morning. He had been there when Earl arrived.",
+        "alone": "Clem's boot prints are at the well before Earl's — he had arrived before Earl and had been present at the pump when Earl arrived that morning.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Earl's unilateral allocation cut and Clem arriving at the well before Earl that morning confirm Clem had been there waiting — not drawing water but present at the site of the confrontation before his accuser arrived."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "witness",
+        "icon": "👦",
+        "heading": "Roy's Account",
+        "text": "Roy Pruitt confirms his father had left the farmhouse for the well at approximately seven AM. He had not accompanied him. He had heard no sound from the well field until a neighbor's dog had barked at approximately seven-thirty AM. He had gone to the field at seven-forty-five and had found his father. Roy had been inside the farmhouse throughout. He is cleared.",
+        "alone": "Roy was inside the farmhouse from his father's departure until he found the body — confirmed by his own account and the absence of his footprints near the well. He is cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Vera cleared at dawn and Roy cleared inside the farmhouse together eliminate both other suspects — Clem's boot prints at the well before Earl's arrival confirm he was the only person present at the scene during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "The Handle's Removal Marks",
+        "text": "The well pump's handle attachment point shows fresh scrape marks consistent with the handle being removed forcefully and recently. The scrape marks have no rust — they are new. The handle had been removed that morning, not left off from a previous day. Someone had deliberately detached it during the morning's events at the well.",
+        "alone": "The pump handle had been removed that morning — the fresh scrape marks confirm it was detached during the events, not beforehand.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The handle detached that morning and Clem present at the well before Earl arrived together establish the sequence — Clem had removed the handle during the confrontation that had developed when Earl arrived."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Well's Remaining Water",
+        "text": "A measurement of the well's remaining water — taken after the investigation — shows approximately four days of water at the current extraction rate for all three families. Earl's allocation record projects the well running dry in six days at the reduced rate he had set. At the pre-reduction rate for all three families, the well would have been dry in three days. The allocation dispute had been about the distribution of a resource that was ending regardless.",
+        "alone": "The well had four days of water remaining — the allocation dispute had been about who got what in the final days of a resource that was ending for everyone.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Clem's reckoning threat and the well's four remaining days of water confirming the dispute was about the final allocation of a dying resource establish that both men had understood the stakes — and Clem had decided the allocation would not stand even for the remaining days."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Clem Dockery",
+      "location": "The Well Field",
+      "weapon": "Pump Handle"
+    },
+    "epilogue": "Clem Dockery had arrived at the well before Earl that morning. When Earl had come to draw water and had confirmed the reduced allocation, Clem had pulled the pump handle from its fitting. The confrontation that followed had ended with Earl dead in the dry field beside the well that had four days of water left. Clem received fifteen years. The Dockery children were taken in by relatives in Texas. Vera Oates drew the well's last water four days after the killing and departed the following morning. Roy Pruitt sold the land for thirty-two dollars and took the bus west."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #084",
+    "title": "Dry Season",
+    "setting": "Harmon County Farmstead · Oklahoma · 1934",
+    "emoji": "🌾",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Clem killed Earl. But Earl's allocation decision had been driven by something Roy had told him — Roy had found a buyer for the farm and Earl had been trying to conserve water to make the land look viable. Find what Roy had arranged.",
+    "emptyState": "Earl's allocation decision had a reason Roy knew about. Find it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Clem Dockery",
+            "icon": "🌾",
+            "detail": "The killer — boot prints, pump handle, reckoning threat, four-day water supply."
+          },
+          {
+            "name": "Vera Oates",
+            "icon": "🏡",
+            "detail": "Cleared as killer — dawn footprints, departed before others arrived."
+          },
+          {
+            "name": "Roy Pruitt",
+            "icon": "👦",
+            "detail": "Cleared as killer — farmhouse confirmed. But had arranged a land sale that drove Earl's allocation decision."
+          },
+          {
+            "name": "The Land Buyer",
+            "icon": "💼",
+            "detail": "The person Roy had found — whose interest in the land had changed Earl's water management."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Well Field",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Clem's killing of Earl."
+          },
+          {
+            "name": "The Pruitt Farmhouse",
+            "icon": "🏚️",
+            "detail": "Where Roy and Earl had argued about selling — and where Roy had shown Earl the buyer's offer."
+          },
+          {
+            "name": "The Dockery Fence Line",
+            "icon": "🌵",
+            "detail": "Where Clem had made his threat — and where the allocation dispute had been public."
+          },
+          {
+            "name": "Amarillo",
+            "icon": "🏙️",
+            "detail": "Where the land buyer was based — and where Roy had made contact."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pump Handle",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Clem's, detached during the morning confrontation."
+          },
+          {
+            "name": "Fence Post",
+            "icon": "🪵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Bushel Basket",
+            "icon": "🧺",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Roy's Land Sale Offer",
+            "icon": "📋",
+            "detail": "Not a weapon — but the document that had driven Earl's allocation decision and created the context for Clem's motive."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Restore the Water Allocation",
+            "icon": "🌾",
+            "detail": "Clem's surface motive — his family's survival over the well's remaining four days."
+          },
+          {
+            "name": "Prevent the Farm Sale",
+            "icon": "📋",
+            "detail": "The concealed context — Earl had cut allocations to make the well look productive for the buyer."
+          },
+          {
+            "name": "Leave Oklahoma",
+            "icon": "👦",
+            "detail": "Roy's motive for arranging the sale — he wanted out, with or without his father's agreement."
+          },
+          {
+            "name": "Protect the Farm's Apparent Value",
+            "icon": "💼",
+            "detail": "Earl's reason for the allocation cut — conservation for the buyer's visit, not survival logic."
+          },
+          {
+            "name": "The Buyer's Assessment Window",
+            "icon": "📅",
+            "detail": "The deadline Earl was managing toward — the buyer was coming to assess the land within the week."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Sale Offer",
+        "text": "Among the farmhouse papers — examined after the killing — is a letter from a land consolidation company based in Amarillo, offering 180 dollars for the Pruitt farmstead contingent on 'satisfactory water access assessment.' The letter is addressed to Roy Pruitt, not to Earl. Roy had initiated the inquiry. A handwritten note in Earl's hand on the letter reads: 'DO NOT REPLY YET. Well must show better.'",
+        "alone": "Earl had found the land sale letter Roy had initiated — and had written 'well must show better,' indicating he had been managing the water to improve the well's apparent output for the buyer's assessment.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Earl's note that the well must show better and the buyer's assessment contingency on water access confirm Earl had cut Clem's allocation not for survival logic but to make the well appear more productive than it was — the cut had been a deception for the buyer."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "👦",
+        "heading": "Roy and Earl's Argument",
+        "text": "Roy admits the argument he had mentioned had been about the land sale letter. Earl had found it and had confronted Roy. Roy had argued they should sell and leave. Earl had refused — he had been born on that land. They had not resolved it. Earl had then reduced the Dockery allocation that same week, apparently deciding that if there was going to be a sale, the well would look its best for the buyer.",
+        "alone": "Earl had reduced Clem's allocation the same week he had found Roy's land sale letter — the connection between the two events confirms the allocation cut had been motivated by the sale, not by resource management.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Earl cutting Clem's allocation the same week he found the sale letter and the buyer's assessment contingency on water access confirm the allocation cut had been a deception for commercial purposes — Clem's family had been denied water to make the well look better for a buyer."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Buyer's Assessment Visit",
+        "text": "The land consolidation company's correspondence — recovered from Roy's room — shows the buyer had been scheduled to assess the farmstead within five days of the killing. Earl had been managing the well's output for a specific inspection window. Clem's reduced allocation had been part of a calculated deception that Earl had never disclosed to the Dockery family.",
+        "alone": "The buyer's assessment had been five days away — Earl had been managing the allocation to deceive an assessor, not to extend the well's life for the families depending on it.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The five-day assessment window and Clem's reckoning threat the day before the killing confirm the temporal pressure — Earl had been managing toward a commercial deadline while Clem had been responding to what he understood as simple injustice."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🌾",
+        "heading": "What Clem Had Not Known",
+        "text": "Clem Dockery, informed after his arrest that the allocation cut had been motivated by a land sale assessment rather than water conservation, is silent for a long time. He says: 'He cut my children's water to sell the land to somebody in Amarillo. I thought he was managing the well. He was managing a sale.' He had not known the real reason for the reduction when he threatened Earl or when he killed him.",
+        "alone": "Clem had not known the allocation cut was for a commercial sale — he had acted against what he understood as arbitrary water management, not a calculated deception.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Clem not knowing the real reason and the full context being a commercial deception confirm the killing had emerged from a misunderstanding of the motive — Clem had responded to what he saw as injustice without knowing the injustice was worse than he thought."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Well's Measurement History",
+        "text": "Earl's allocation notebook contains not just the allocation records but daily water level measurements. The measurements show the well had been declining steadily — the reduced allocation had not improved the decline rate. The well's level was dropping at the same rate regardless of how much was drawn. Earl's conservation strategy had been based on a false assumption — or had not been about conservation at all.",
+        "alone": "The water level had been declining at the same rate regardless of the allocation — Earl's reduction had not been saving water but had been managing appearances for the buyer.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Earl's note that the well must show better and the water level declining at the same rate regardless of extraction confirm the allocation cut had served no conservation purpose — it had been purely cosmetic, reducing visible usage to create the appearance of a more productive well."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Sale's Outcome",
+        "text": "The land consolidation company's buyer arrived for the assessment six days after the killing — five days after the scheduled date, having been delayed. He found the farmstead unoccupied. The well was dry. He filed an assessment of 'no viable water access' and the sale offer was withdrawn. The 180-dollar sale that Earl had been managing toward had been rendered moot by the killing and its aftermath.",
+        "alone": "The buyer's assessment found the well dry and withdrew the offer — the sale Earl had been managing toward had produced nothing.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The five-day assessment window Earl had been managing toward and the offer withdrawn after the well ran dry confirm the full irony — Earl had denied Clem's family water to preserve a sale that had not survived the killing it had helped cause."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "🏡",
+        "heading": "Vera's Understanding",
+        "text": "Vera Oates, informed of the sale arrangement, says: 'Earl was trying to sell land he'd been born on to a company in Amarillo. He was cutting Clem's water to fool a buyer. And Clem killed him for it. And the buyer came and found dust.' She pauses. 'I left the next morning. There was nothing left to stay for.'",
+        "alone": "Vera summarizes the situation with precision — and had departed the following morning after drawing the well's last water.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Clem not knowing the commercial deception and Vera's summary confirming the full picture was worse than he had understood together establish the moral weight of the situation — the killing had responded to an injustice that was actually larger than Clem had known when he acted."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌾",
+        "heading": "What Roy Did",
+        "text": "Roy Pruitt sold the farmstead land — which he had inherited after his father's death — to a different buyer for forty dollars the following month. He took the bus to California. In a letter to a cousin written six months later, he says: 'Dad wouldn't leave. He wouldn't sell. Then he got killed over the well and I sold the land for forty dollars anyway. I don't know what any of it was for.'",
+        "alone": "Roy sold the land for forty dollars after all — a fraction of the 180-dollar offer his father had been managing toward when he was killed.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Roy's land sale letter starting the chain and his eventual sale for forty dollars confirming the irony — the sale his father had refused and then died trying to enable had happened anyway, for far less, after everything."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Clem Dockery",
+      "location": "The Well Field",
+      "weapon": "Pump Handle",
+      "motive": "Restore the Water Allocation"
+    },
+    "epilogue": "Clem Dockery had arrived at the well to restore his family's water allocation and had killed the man who controlled it. He had not known the allocation had been cut to deceive a land buyer in Amarillo. The buyer had come six days later, found the well dry, and withdrawn the offer. Roy Pruitt sold the land for forty dollars and went to California. Vera Oates left the morning after drawing the last water. The three families who had shared that well for six months had all been gone within two weeks of Earl's death. Clem served fifteen years and returned to Harmon County in 1949. The well had been filled in. He could not find where it had been."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #084",
+    "title": "Dry Season",
+    "setting": "Harmon County Farmstead · Oklahoma · 1934",
+    "emoji": "🌾",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Clem killed Earl over a water allocation that had been a commercial deception. But Vera Oates had known about the land sale before anyone else — she had seen the buyer's representative visit the week before. Find what Vera had observed and why she had said nothing.",
+    "emptyState": "Vera saw the buyer's man a week before. She said nothing. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Clem Dockery",
+            "icon": "🌾",
+            "detail": "The killer — boot prints, pump handle, reckoning threat, did not know the full deception."
+          },
+          {
+            "name": "Vera Oates",
+            "icon": "🏡",
+            "detail": "Cleared as killer — dawn footprints. But had seen the buyer's representative visit and had stayed silent."
+          },
+          {
+            "name": "Roy Pruitt",
+            "icon": "👦",
+            "detail": "Cleared as killer — farmhouse confirmed. Arranged the sale, inherited the land, sold for forty dollars."
+          },
+          {
+            "name": "The Buyer's Representative",
+            "icon": "💼",
+            "detail": "The company's advance man who had visited the week before — had assessed the water situation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Well Field",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Clem's killing of Earl."
+          },
+          {
+            "name": "The Pruitt Farmhouse",
+            "icon": "🏚️",
+            "detail": "Where the sale letter was held — and where the buyer's representative had visited."
+          },
+          {
+            "name": "The Dockery Fence Line",
+            "icon": "🌵",
+            "detail": "Where Clem had made his reckoning threat — the day after the allocation cut."
+          },
+          {
+            "name": "Vera's Eastern Plot",
+            "icon": "🏡",
+            "detail": "Where Vera had observed the buyer's representative's visit the week before."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Pump Handle",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Clem's."
+          },
+          {
+            "name": "Fence Post",
+            "icon": "🪵",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Bushel Basket",
+            "icon": "🧺",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Vera's Silence",
+            "icon": "🤫",
+            "detail": "Not a weapon — but her decision not to warn Clem about the sale had left him acting on incomplete information."
+          },
+          {
+            "name": "The Allocation Cut",
+            "icon": "📋",
+            "detail": "The proximate cause — a decision Earl made for commercial reasons that he presented as resource management."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Restore the Water Allocation",
+            "icon": "🌾",
+            "detail": "Clem's stated motive — his family's survival, the reckoning threat, the pump handle."
+          },
+          {
+            "name": "Protect Her Own Departure Plans",
+            "icon": "🏡",
+            "detail": "Vera's reason for silence — she had already decided to leave and did not want to be drawn into the dispute."
+          },
+          {
+            "name": "The Sale's Impact on Vera's Plot",
+            "icon": "💼",
+            "detail": "What the land sale meant for Vera — if Pruitt sold, the shared well arrangement would have ended anyway."
+          },
+          {
+            "name": "Vera Had Nothing to Gain From Warning",
+            "icon": "🤫",
+            "detail": "The calculation Vera had made — warning Clem would have involved her in a dispute she was preparing to leave."
+          },
+          {
+            "name": "Roy's Commercial Decision",
+            "icon": "👦",
+            "detail": "The chain's origin — Roy's letter to the buyer that Earl had found and tried to manage."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Saw the Buyer's Representative Visit",
+            "icon": "💼",
+            "detail": "Vera's observation — she had seen the advance man assess the property the week before the killing."
+          },
+          {
+            "name": "Had Already Decided to Leave",
+            "icon": "🏡",
+            "detail": "Vera's context — she had been planning departure and had not wanted involvement in the dispute."
+          },
+          {
+            "name": "Did Not Warn Clem About the Sale",
+            "icon": "🤫",
+            "detail": "Vera's consequential silence — Clem had acted against what he understood as injustice, not knowing the full picture."
+          },
+          {
+            "name": "Drew the Last Water and Departed",
+            "icon": "⛏️",
+            "detail": "Vera's final action — she had drawn the well's last water and left the morning after."
+          },
+          {
+            "name": "Arranged the Land Sale Inquiry",
+            "icon": "📋",
+            "detail": "Roy's confirmed role — initiated the buyer contact without his father's knowledge."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🏡",
+        "heading": "What Vera Saw",
+        "text": "Vera, in her full account after the expanded investigation, admits she had seen a man she did not recognize visit the Pruitt farmhouse one week before the killing. The man had examined the well, tested the pump, and spent approximately an hour on the property. He had not approached her. She had understood from the examination's focus on the well that someone was assessing the property for a potential sale or lease.",
+        "alone": "Vera had seen the buyer's representative conduct a water assessment of the Pruitt property one week before the killing — she had understood its purpose but had not said anything.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Vera seeing the advance assessment and the buyer's assessment letter confirming it was a contingent sale inspection confirm she had correctly understood the situation a full week before the allocation cut — she had known the sale was being considered before Clem received the reduced allocation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🏡",
+        "heading": "Why Vera Had Said Nothing",
+        "text": "Vera explains: 'I had already written to my sister in Tulsa. I was leaving before the end of the month. If I tell Clem that Pruitt might be selling, I am in the middle of a dispute between two families on a piece of land I am already leaving. What does that do for me or for them? The well was going dry regardless. None of us were staying.' Her departure had already been decided before the killing.",
+        "alone": "Vera had already planned to leave before the end of the month — her silence had been the silence of someone who had already disconnected from the situation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Vera's departure already planned and her calculation that warning Clem would not change the outcome for anyone confirm her silence had not been malicious — it had been the practical detachment of someone who was already gone in every meaningful sense."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Advance Assessment's Report",
+        "text": "The buyer's representative's advance report — recovered from the company's Amarillo office — describes the Pruitt well as 'marginal but potentially viable with reduced extraction and good seasonal rainfall.' The report had recommended a contingent offer. The representative had assessed the well one week before the allocation cut — Earl had received the assessment's feedback through Roy and had then reduced Clem's allocation the following week.",
+        "alone": "Earl had cut Clem's allocation the week after the advance assessment recommended reduced extraction — the timing confirms the allocation cut had directly followed the assessor's recommendation.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The advance assessment recommending reduced extraction and Earl cutting Clem's allocation the following week confirm the sequence was operationally driven — Earl had been implementing the assessor's recommendation to make the sale viable."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🌾",
+        "heading": "What the Full Picture Means for Clem",
+        "text": "Clem Dockery, presented with the full sequence — the advance assessment, Earl's implementation of the recommendation, the five-day buyer visit window — says: 'He cut my children's water because a man from Amarillo told him to. He didn't tell me. He didn't tell Clem. He just cut it.' He pauses. 'I would have done the same thing I did. Maybe I would have done it knowing more. Maybe not. But I would have done it.'",
+        "alone": "Clem acknowledges knowing the full picture would not necessarily have changed his action — the core injustice remained regardless of its commercial motivation.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Clem saying he might have acted the same way regardless and the well running dry four days after the killing confirm the fundamental tragedy — the resource at the center of the dispute had been ending regardless of any decision any person had made."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Vera's Letter to Her Sister",
+        "text": "Vera's letter to her sister in Tulsa — dated three days before the killing — says: 'I am coming before the end of the month. The well is nearly gone. The Pruitts might sell to someone in Amarillo. The Dockerys are already angry about water. It's all falling apart here.' She had been aware of the full situation three days before the killing and had been writing about departure, not intervention.",
+        "alone": "Vera had known about the sale, the water crisis, and the Dockery anger three days before the killing — and had been writing about leaving, not about how to prevent what she could see coming.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Vera's departure already planned and her letter three days before the killing showing she could see the situation's trajectory confirm she had understood what was likely to happen — and had been focused on her own exit rather than any intervention."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🏡",
+        "heading": "Vera's Moral Position",
+        "text": "Vera is asked directly: 'If you had told Clem about the sale, do you think the killing would have happened?' She says: 'I think Clem would have gone to Earl about the sale instead of the water. I think Earl would have denied it or argued. I think Clem would have been just as angry. I think I might have prevented the specific argument. I don't think I would have changed the ending.' She had assessed the situation as too far gone for her intervention to matter.",
+        "alone": "Vera had assessed that telling Clem would have changed the argument but not the outcome — her calculation had been pessimistic and may or may not have been correct.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Clem saying he might have acted the same way even knowing more and Vera's assessment that the ending would not have changed together present the same conclusion from both sides — the situation had been past a point where information would have resolved it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🌾",
+        "heading": "The Well's Final Measurement",
+        "text": "The last water level measurement in Earl's notebook — taken the morning of his death, apparently before he left for the well — shows the well at its lowest recorded level. Earl had known the well was nearly gone. He had gone to the well that morning knowing the resource he had been managing for the buyer was nearly exhausted. The advance assessment's 'marginal but viable' finding had been optimistic.",
+        "alone": "Earl had measured the well at its lowest level the morning he was killed — he had known the well was almost gone when he left to draw water that morning.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The advance assessment finding the well marginal and Earl's final measurement showing it below that assessment confirm Earl had been managing a resource toward a sale that the resource itself could no longer support — the commercial deception had been built on a premise that was already failing."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏡",
+        "heading": "The Letter Vera Received",
+        "text": "Vera's sister's reply letter — found in Vera's farmhouse after she departed — says: 'Come now. Don't wait for the end of the month. Whatever is happening there, you don't need to see it through.' Vera had received this reply two days before the killing. She had not left early. She had drawn the last water the morning after the killing and had departed the following day. She had stayed two more days than her sister had asked her to.",
+        "alone": "Vera had stayed two days beyond when her sister had urged her to leave — she had been present for the killing she had assessed as likely and had departed the morning after.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Vera's letter describing the approaching crisis three days before and her decision to stay two days past her sister's urgent request confirm she had not been indifferent to what was coming — she had stayed, witnessed, drawn the last water, and then left."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Clem Dockery",
+      "location": "The Well Field",
+      "weapon": "Pump Handle",
+      "motive": "Restore the Water Allocation",
+      "accomplice": "Saw the Buyer's Representative Visit"
+    },
+    "epilogue": "Vera Oates had seen the advance assessment, had written to her sister about leaving, had received an urgent reply to come now, and had stayed two days longer anyway. She had drawn the last water from the well the morning after the killing and had departed. She did not explain why she had stayed the extra two days. Clem Dockery served fifteen years and could not find the well when he returned. Roy Pruitt sold the land for forty dollars and went to California. The advance assessor's report — 'marginal but viable with good seasonal rainfall' — had been filed and forgotten. There was no good seasonal rainfall in Oklahoma in 1934."
+  }
+}

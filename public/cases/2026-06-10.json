@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Rome, 44 BC. The day before the Ides of March. A senator found dead in the Forum. And a conspiracy that had one too many members. 🏛️🔍 Case #083 — The Ides. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Rome 44 BC, the eve of the Ides of March, a dead senator, and a conspiracy with a traitor inside it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a Roman Senate antechamber in 44 BC, marble columns and terracotta floor, a fallen scroll beside a senator's toga draped over a bench, a ceremonial dagger on the stone floor, oil lamps casting amber light. Deep marble shadow, warm lamp glow, classical austerity. Style of Lawrence Alma-Tadema meets John William Waterhouse.",
+    "animationPrompt": "Slow pan through a Roman Senate antechamber in 44 BC. Marble columns. Terracotta floor. A fallen scroll. The camera finds a ceremonial dagger on the stone floor and a senator's toga draped over a bench. Oil lamp light. Through the arch: the Forum beyond, dawn light. Fade to black.",
+    "hashtags": [
+      "#AncientRome",
+      "#IdesOfMarch",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #083",
+    "title": "The Ides",
+    "setting": "Roman Senate Antechamber · Rome · 44 BC",
+    "emoji": "🏛️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Senator Gaius Servilius was found dead in the Senate antechamber the night before the Ides of March — the day Caesar was to be killed. He had been a member of the conspiracy. Three other conspirators had been in the antechamber that evening. One of them had concluded that Servilius was about to betray the plot.",
+    "emptyState": "He was one of the conspirators. They killed him because they thought he would talk.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Tullius",
+            "icon": "📜",
+            "detail": "A senior senator — had recruited Servilius to the conspiracy but had recently doubted his resolve."
+          },
+          {
+            "name": "Lucius Varro",
+            "icon": "⚔️",
+            "detail": "A younger tribune — had been assigned to watch Servilius and had reported his hesitation."
+          },
+          {
+            "name": "Calpurnia's Freedman",
+            "icon": "🏺",
+            "detail": "A servant who had delivered a message to the antechamber that evening — claims he saw nothing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antechamber",
+            "icon": "🏛️",
+            "detail": "Where Servilius was found — dagger on the floor, scroll fallen, lamp still burning."
+          },
+          {
+            "name": "The Senate Portico",
+            "icon": "🌿",
+            "detail": "The colonnade outside the chamber — where conspirators had gathered before dispersing."
+          },
+          {
+            "name": "The Forum Steps",
+            "icon": "🗿",
+            "detail": "The public area below — where Servilius had been seen in conversation earlier that day."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "A short blade — puncture wound to the chest consistent with its length and width."
+          },
+          {
+            "name": "Bronze Writing Stylus",
+            "icon": "✒️",
+            "detail": "A sharp metal tool — wound profile inconsistent with its narrow gauge."
+          },
+          {
+            "name": "Marble Bench Edge",
+            "icon": "🪨",
+            "detail": "The stone bench — no wound consistent with a blunt edge, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Fallen Scroll",
+        "text": "The scroll on the antechamber floor — partially unrolled — is a letter in Servilius's handwriting, addressed to Caesar. The letter describes the conspiracy in general terms without naming its members but warns Caesar to 'take care of those who approach you with private petitions on the Ides.' Servilius had been writing a warning to Caesar. The letter is unfinished and unsigned — he had not sent it yet.",
+        "alone": "Servilius had been writing a warning letter to Caesar, describing the conspiracy without naming its members — the letter was unfinished and unsigned when he was found dead.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The warning letter to Caesar confirming Servilius had been planning to betray the plot and Lucius Varro's report of his hesitation that had led to the antechamber meeting confirm the conspirators had been correct in their assessment — Servilius had been on the verge of disclosure."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗡️",
+        "heading": "The Dagger",
+        "text": "The ceremonial dagger on the floor matches the wound — a single thrust to the chest, delivered face-to-face. The wound's angle indicates Servilius had been standing when struck, facing the killer. The dagger is not Servilius's own — its hilt design is associated with a military tribune's ceremonial kit. Lucius Varro holds the rank of tribune.",
+        "alone": "The dagger's hilt design is consistent with a military tribune's ceremonial kit — Servilius was struck face-to-face by someone he had not been alarmed to see.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The tribune's ceremonial dagger used face-to-face and Lucius Varro's confirmed position as the conspiracy's watcher of Servilius confirm he had both the instrument and the assigned role — and had been the person Servilius would have expected to face that evening."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏺",
+        "heading": "The Freedman's Account",
+        "text": "Calpurnia's freedman — who had delivered a message from Caesar's wife warning him to stay home on the Ides — had arrived at the antechamber at sunset. He confirms he had seen Marcus Tullius in the portico, had delivered the message to a slave inside, and had departed immediately. He had not entered the antechamber and had not seen Servilius or Varro. He is cleared.",
+        "alone": "The freedman had not entered the antechamber and had departed at sunset — before the murder window. He is cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The freedman cleared at sunset and Marcus Tullius confirmed departing the portico before the antechamber meeting together eliminate both other suspects from the antechamber during the murder window — only Varro's movements inside the antechamber remain unaccounted for."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Varro's Report",
+        "text": "Marcus Tullius confirms that Varro had come to him two days before the murder with a report: Servilius had been seen on the Forum steps in conversation with a known Caesar loyalist. The conversation had been brief but had been enough to raise concern. Tullius had called the antechamber meeting to assess Servilius's loyalty. Varro had been assigned to be present and to watch.",
+        "alone": "Varro had reported Servilius's Forum conversation to Tullius two days before the murder — the antechamber meeting had been called specifically because of Varro's surveillance report.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Varro reporting the Forum conversation and the unfinished warning letter confirming Servilius's betrayal intent together establish that Varro's report had been accurate — and that the meeting had been convened specifically to address the threat he had identified."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Marcus Tullius's Account",
+        "text": "Marcus Tullius confirms he had been in the portico before the antechamber meeting and had departed when the freedman arrived, not wishing to be seen. He had left Varro to conduct the assessment of Servilius inside the antechamber. He had not been inside the antechamber that evening. He is cleared of being the killer but confirms he had authorized Varro to 'resolve the matter if necessary.'",
+        "alone": "Tullius had authorized Varro to resolve the matter if necessary — and had deliberately departed the portico to provide himself distance from what followed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The warning letter confirming Servilius's betrayal intent and Tullius's authorization for Varro to resolve the matter confirm the killing had been authorized by the conspiracy's leadership — Varro had acted on instructions, not independently."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🗡️",
+        "heading": "The Tribune's Dagger",
+        "text": "A search of Lucius Varro's quarters — conducted after Tullius's account — finds an empty dagger sheath in his belt kit. The sheath's dimensions match the ceremonial dagger found at the scene. The sheath's inner leather shows fresh wear consistent with having recently held the blade. Varro's own ceremonial dagger is missing.",
+        "alone": "The empty sheath in Varro's quarters matches the murder weapon — his own ceremonial dagger is missing and the scene dagger fits the sheath.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The tribune's dagger hilt consistent with Varro's rank and the empty matching sheath in his quarters confirming it is his weapon establish that the dagger found at the scene is Varro's — he had used his own blade and had left it at the scene."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Varro's Account",
+        "text": "Lucius Varro initially states he had assessed Servilius, found him loyal, and departed. When the empty sheath is presented, he revises: he had found Servilius composing the letter, had confronted him, and Servilius had denied its content. Varro had not believed the denial. He describes the killing as 'a necessity for the preservation of the plan, authorized by those above me.' He does not deny the killing.",
+        "alone": "Varro admits to the killing, framing it as authorized by the conspiracy's leadership — a necessity rather than a personal act.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Varro's report triggering the antechamber meeting and his admission of the killing as authorized confirm the killing had been the conspiracy's internal enforcement mechanism — Varro had been its instrument."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Conspiracy's Outcome",
+        "text": "Caesar was assassinated the following day on the Ides of March. Servilius's warning letter — unfinished and unsigned — had not reached him. The conspiracy had succeeded in its primary objective the day after eliminating its own member. Brutus and Cassius led the act. Marcus Tullius was not among the direct participants. Lucius Varro was.",
+        "alone": "Caesar was killed the following day — Servilius's unfinished warning had not reached him, and the conspiracy's elimination of its wavering member had preserved the plan for one more day.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Tullius authorizing the resolution and the conspiracy succeeding the following day confirm Varro's killing of Servilius had achieved its purpose — the plan had survived its internal threat and had been executed on schedule."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lucius Varro",
+      "location": "The Antechamber",
+      "weapon": "Ceremonial Dagger"
+    },
+    "epilogue": "Lucius Varro had found Servilius composing the warning letter. He had confronted him. Servilius had denied it. Varro had not believed the denial — the letter was in front of him. He had used his own ceremonial dagger. He had left it at the scene. Caesar was killed the following day on the Ides of March. Servilius's unfinished, unsigned letter had not reached anyone. Marcus Tullius had authorized the killing and had not been present for it. In the chaos that followed the Ides, no investigation of Servilius's death was conducted. The dagger remained in the antechamber for three days before being removed by a slave who did not know what it was."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #083",
+    "title": "The Ides",
+    "setting": "Roman Senate Antechamber · Rome · 44 BC",
+    "emoji": "🏛️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Varro killed Servilius on Tullius's authorization. But the Forum conversation that had triggered Servilius's suspicion had not been with a Caesar loyalist — find who Servilius had actually spoken to and what the conversation had really been.",
+    "emptyState": "The Forum conversation wasn't what Varro reported. Find what it really was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lucius Varro",
+            "icon": "⚔️",
+            "detail": "The killer — ceremonial dagger, empty sheath, authorized by Tullius, faced Servilius."
+          },
+          {
+            "name": "Marcus Tullius",
+            "icon": "📜",
+            "detail": "Cleared as killer — portico confirmed, departed before the antechamber meeting."
+          },
+          {
+            "name": "Calpurnia's Freedman",
+            "icon": "🏺",
+            "detail": "Cleared as killer — departed at sunset. But his message's recipient is significant."
+          },
+          {
+            "name": "The Forum Contact",
+            "icon": "🗿",
+            "detail": "The person Servilius had spoken with — not a Caesar loyalist, as Varro had reported."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antechamber",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Varro's killing of Servilius."
+          },
+          {
+            "name": "The Senate Portico",
+            "icon": "🌿",
+            "detail": "Where Tullius had been — and where he had departed before the killing."
+          },
+          {
+            "name": "The Forum Steps",
+            "icon": "🗿",
+            "detail": "Where Servilius had been seen in conversation — the conversation Varro had misrepresented."
+          },
+          {
+            "name": "The Home of Brutus",
+            "icon": "🏛️",
+            "detail": "Where the Forum contact had been going — the conversation's actual context."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Varro's own blade, empty sheath confirmed."
+          },
+          {
+            "name": "Bronze Writing Stylus",
+            "icon": "✒️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Marble Bench Edge",
+            "icon": "🪨",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Varro's False Report",
+            "icon": "📋",
+            "detail": "Not a weapon — but the misrepresentation of the Forum conversation had been the killing's trigger."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Preserve the Conspiracy",
+            "icon": "⚔️",
+            "detail": "Varro's stated motive — authorized by Tullius, Servilius's warning letter confirmed the threat."
+          },
+          {
+            "name": "Eliminate a Personal Rival",
+            "icon": "📜",
+            "detail": "Varro's concealed motive — Servilius had been competing with him for Tullius's trust."
+          },
+          {
+            "name": "Misrepresent the Forum Conversation",
+            "icon": "🗿",
+            "detail": "Varro's fabrication — the conversation had not been with a Caesar loyalist."
+          },
+          {
+            "name": "Secure His Own Position",
+            "icon": "⚔️",
+            "detail": "Varro's secondary benefit — with Servilius gone, he was Tullius's primary operative."
+          },
+          {
+            "name": "The Warning Letter's Actual Motivation",
+            "icon": "📜",
+            "detail": "What the letter reveals about Servilius — he had been wavering not because he was a traitor but because he had moral objections."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🗿",
+        "heading": "The Forum Contact Identified",
+        "text": "An investigation of the Forum witnesses — merchants and citizens present on the steps that day — identifies the person Servilius had spoken with. The contact was not a Caesar loyalist but Servilius's own brother-in-law, a private citizen with no political affiliation. The brother-in-law confirms they had discussed a family matter — Servilius's concern about the moral implications of what he had been asked to participate in.",
+        "alone": "The Forum conversation had been with Servilius's brother-in-law, discussing his moral doubts about the conspiracy — not with a Caesar loyalist as Varro had reported.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Forum conversation being about moral doubt rather than Caesar loyalty and Varro's report identifying it as loyalty contact confirm Varro had deliberately misrepresented the conversation — a misrepresentation that had triggered a killing the facts did not justify."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Warning Letter's True Content",
+        "text": "A full reading of the unfinished warning letter reveals nuance: Servilius had not named the conspirators, had not described the method, and had specifically written 'those who approach you with private petitions' — a vague warning. The letter had been the work of a man who could not bring himself to betray his colleagues but could not ignore his conscience entirely. He had been trying to warn Caesar without actually betraying anyone.",
+        "alone": "The warning letter had been written to warn Caesar without naming or exposing the conspirators — Servilius had been trying to navigate his conscience without actual betrayal.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The letter designed to warn without betraying and the Forum conversation being about moral doubt confirm Servilius had not been a traitor — he had been a man with doubts that Varro had weaponised into a false accusation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Varro and Servilius's History",
+        "text": "Multiple senators confirm Varro and Servilius had been competing for the same senior role in Tullius's operation — both had been vying for the position of primary liaison to Brutus. Servilius had been considered the more experienced candidate. With Servilius dead, Varro had become the sole candidate. The killing had resolved an internal rivalry as much as an internal security threat.",
+        "alone": "Varro and Servilius had been competing for the same senior role — Servilius's death had resolved the rivalry in Varro's favour.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Varro and Servilius competing for the liaison role and Varro's false report triggering the meeting that led to the killing confirm the misrepresentation had served Varro's personal interest as much as the conspiracy's security — the two motivations had been perfectly aligned."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Tullius's Realization",
+        "text": "Marcus Tullius, confronted with the brother-in-law's account of the Forum conversation, is silent for a long time. He then says: 'Varro told me the conversation was with a loyalist. If I had known it was a family matter about conscience, I would not have authorized the meeting. I would have spoken with Servilius myself.' He had authorized a killing based on a false report and had not known the report was false until the investigation.",
+        "alone": "Tullius had authorized the killing based on Varro's false report — if he had known the truth, the killing would not have been authorized.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Tullius's authorization based on false information and Varro's personal benefit from Servilius's death confirm the killing had served Varro's individual interest under the cover of conspiracy security — Tullius had been a tool in Varro's personal scheme as much as Varro had been a tool in the conspiracy."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "🗿",
+        "heading": "What the Brother-in-Law Heard",
+        "text": "Servilius's brother-in-law provides the exact content of the Forum conversation: Servilius had said he was uncertain whether he could go through with it. He had asked whether there was a way to 'warn without destroying.' The brother-in-law had told him: 'If you write something without names, you cannot be held responsible for what is done with it.' Servilius had nodded and departed. He had written the letter that evening.",
+        "alone": "The brother-in-law had suggested writing a nameless warning — the conversation had been the origin of the warning letter, not evidence of betrayal to a loyalist.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The Forum conversation producing the idea for the warning letter and Varro misrepresenting it as a loyalist contact confirm the chain: the brother-in-law's suggestion had led to the letter, the letter had been found by Varro, and Varro had used both the misrepresented conversation and the genuine letter to build a case for killing a man who had been trying not to betray anyone."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Letter's Inadequacy as Evidence",
+        "text": "Legal scholars consulted by the investigation note that the warning letter — unfinished, unsigned, and without names — would not have identified any conspirator to Caesar. If delivered, it would have warned Caesar of a general threat without enabling him to identify or arrest anyone involved. The letter was insufficient as a betrayal and had been more of a moral gesture than an operational threat.",
+        "alone": "The warning letter was insufficient to identify any conspirator — it would have warned Caesar without enabling him to act against anyone in the plot.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The letter designed to warn without betraying and its legal insufficiency as an identification of conspirators confirm Servilius had not posed the threat Varro had represented — the killing had been based on a threat assessment that overstated the letter's operational significance."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "Varro's Appointment After the Ides",
+        "text": "Following Caesar's assassination and in the period of the conspirators' brief ascendancy, Lucius Varro received appointment as primary liaison to Brutus — the role he and Servilius had both been considered for. The appointment came within weeks of Servilius's death. Whether it had been offered regardless of Servilius's elimination or whether Servilius would have received it instead cannot be determined from the record.",
+        "alone": "Varro received the role he and Servilius had been competing for within weeks of the killing — the appointment had been the precise outcome his misrepresentation had made possible.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Varro and Servilius competing for the liaison role and Varro's appointment to it after the killing confirm the personal benefit had been specific and swift — the misrepresented report had achieved both the conspiracy's internal security objective and Varro's personal advancement simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Inquiry's Impossibility",
+        "text": "No formal inquiry into Servilius's death was conducted — the chaos following the Ides of March and the subsequent civil conflict made any retrospective investigation impossible. The facts of the Forum conversation were established only through the brother-in-law's account, given years later to a historian recording the period. Varro died in the civil war that followed. Tullius survived to old age. The letter remained in the antechamber until a slave removed it.",
+        "alone": "No formal inquiry was ever conducted — the historical record of the true Forum conversation came only from the brother-in-law's later account to a historian.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Tullius authorizing the killing based on false information and the impossibility of any formal inquiry confirm the misrepresentation had never been formally exposed — Varro had acted with impunity, benefited personally, and died in a subsequent war before any accounting was possible."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lucius Varro",
+      "location": "The Antechamber",
+      "weapon": "Ceremonial Dagger",
+      "motive": "Eliminate a Personal Rival"
+    },
+    "epilogue": "Lucius Varro had misrepresented the Forum conversation, triggered the antechamber meeting, received authorization for a killing he had already decided to commit, and had used his own ceremonial dagger. Caesar was killed the following day. Varro received the liaison appointment within weeks. He died in the civil war that followed Philippi. Marcus Tullius survived and lived into old age, believing for the rest of his life that Servilius had been a genuine threat. Servilius's brother-in-law gave his account to a historian forty years after the events. The historian included it in a work that survived in partial form. The part describing the Forum conversation does not survive."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #083",
+    "title": "The Ides",
+    "setting": "Roman Senate Antechamber · Rome · 44 BC",
+    "emoji": "🏛️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Varro killed Servilius using a false report and authorization from Tullius. But the warning letter had been suggested by Servilius's brother-in-law — find whether the brother-in-law had known Varro was watching Servilius and had deliberately created the paper trail that doomed him.",
+    "emptyState": "The brother-in-law suggested the letter. Find whether he knew what he was starting.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lucius Varro",
+            "icon": "⚔️",
+            "detail": "The killer — false report, personal rivalry, ceremonial dagger, authorized killing."
+          },
+          {
+            "name": "Marcus Tullius",
+            "icon": "📜",
+            "detail": "Cleared as killer — authorized based on false information, believed the threat assessment."
+          },
+          {
+            "name": "Calpurnia's Freedman",
+            "icon": "🏺",
+            "detail": "Cleared as killer — departed at sunset. His message's delivery is now newly significant."
+          },
+          {
+            "name": "Decimus, the Brother-in-Law",
+            "icon": "🗿",
+            "detail": "The Forum contact — may or may not have known Servilius was being watched when he suggested the letter."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antechamber",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Varro's killing of Servilius."
+          },
+          {
+            "name": "The Forum Steps",
+            "icon": "🗿",
+            "detail": "Where the conversation with Decimus occurred — the conversation that produced the letter idea."
+          },
+          {
+            "name": "The Senate Portico",
+            "icon": "🌿",
+            "detail": "Where Tullius had been watching — and where Varro had reported what he observed."
+          },
+          {
+            "name": "Decimus's Household",
+            "icon": "🏛️",
+            "detail": "Where the investigation into Decimus's own politics reveals his allegiances."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ceremonial Dagger",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Varro's own blade."
+          },
+          {
+            "name": "Bronze Writing Stylus",
+            "icon": "✒️",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Marble Bench Edge",
+            "icon": "🪨",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Letter Suggestion",
+            "icon": "📜",
+            "detail": "Not a weapon — but the advice Decimus gave may have been the instrument of his brother-in-law's death."
+          },
+          {
+            "name": "Varro's Observation Post",
+            "icon": "👁️",
+            "detail": "Not a weapon — but Varro's presence on the steps watching Servilius shaped what he chose to report."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Eliminate a Personal Rival",
+            "icon": "⚔️",
+            "detail": "Varro's concealed motive — Servilius's death opened the liaison role."
+          },
+          {
+            "name": "Preserve the Conspiracy",
+            "icon": "📜",
+            "detail": "The stated justification — the warning letter was genuine, if legally insufficient."
+          },
+          {
+            "name": "Decimus's Own Loyalties",
+            "icon": "🗿",
+            "detail": "What the investigation reveals — Decimus was a Caesar loyalist, which changes the meaning of his advice."
+          },
+          {
+            "name": "Deliberate Entrapment",
+            "icon": "📜",
+            "detail": "The darkest reading — if Decimus knew Servilius was being watched, the letter suggestion was a trap."
+          },
+          {
+            "name": "Innocent Advice With Fatal Consequences",
+            "icon": "🗿",
+            "detail": "The benign reading — Decimus gave genuine advice without knowing it would be seen."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Misrepresented the Forum Conversation",
+            "icon": "📋",
+            "detail": "Varro's confirmed role — told Tullius the contact was a loyalist when it was Servilius's brother-in-law."
+          },
+          {
+            "name": "Authorized the Killing Based on False Information",
+            "icon": "📜",
+            "detail": "Tullius's unwitting role — genuinely deceived by Varro's report."
+          },
+          {
+            "name": "Suggested Writing the Warning Letter",
+            "icon": "📜",
+            "detail": "Decimus's role — the advice that created the evidence Varro used to confirm his false report."
+          },
+          {
+            "name": "Was a Caesar Loyalist",
+            "icon": "🗿",
+            "detail": "What changes the meaning of Decimus's advice — if he knew Servilius was watched, the advice was a weapon."
+          },
+          {
+            "name": "Delivered Calpurnia's Message",
+            "icon": "🏺",
+            "detail": "The freedman's role — innocent delivery, but the message's content reveals the climate of foreknowledge."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🗿",
+        "heading": "Decimus's Political Allegiance",
+        "text": "An investigation of Decimus's household and associations — conducted as part of the expanded inquiry — reveals he had received gifts from Caesar's household on three occasions in the preceding year. A freedman in his household confirms Decimus had dined twice with a known Caesar loyalist in the month before the Ides. Decimus had been a Caesar supporter, though not a formal member of any loyalist organization.",
+        "alone": "Decimus had received gifts from Caesar's household and had dined with Caesar loyalists in the month before the events — he had been a Caesar supporter.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Decimus's Caesar support and his suggestion that Servilius write a nameless warning letter together present the question: had the advice been genuine help to a troubled brother-in-law, or a deliberate creation of evidence for Servilius's watchers?"
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🗿",
+        "heading": "Did Decimus Know About the Watching",
+        "text": "Decimus is asked directly whether he had known Servilius was being watched by conspiracy members at the time of their Forum conversation. He says: 'I did not know he was being followed on that day. I knew the conspiracy existed — Servilius had told me he was involved, which is why he was speaking with me about his doubts. I did not know someone was watching us as we spoke.' He claims ignorance of the observation.",
+        "alone": "Decimus claims he had not known Servilius was being watched on the Forum steps that day — though he had known about the conspiracy from Servilius himself.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Decimus claiming ignorance of the watching and his Caesar support confirming a motivation to want Caesar warned together present the interpretive problem: an innocent man giving genuinely helpful advice, or a loyalist giving advice he knew would produce a warning letter."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Letter's Origin in the Conversation",
+        "text": "Decimus's account of how the letter idea arose: Servilius had said he wanted Caesar to be careful without naming anyone. Decimus had said 'write something without names — you cannot betray anyone with a nameless warning.' The suggestion had been immediate, specific, and had addressed Servilius's exact stated concern. A more calculated version of this advice would have been identical.",
+        "alone": "Decimus's advice had been immediate, specific, and precisely targeted at Servilius's stated concern — the same advice a deliberate actor would have given, indistinguishable from genuine help.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The advice being identical whether genuine or deliberate and Decimus's Caesar support confirming a motivation to want the warning created together establish the interpretive impossibility — the historical record cannot determine which it was."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Varro's Observation of the Conversation",
+        "text": "Varro, confronted with the brother-in-law's Caesar support, is asked whether he had known who Servilius was speaking with at the time. He says: 'I saw a man I did not recognize. I learned afterward from my sources that Decimus had ties to the loyalist network. I reported what I had concluded, not merely what I had seen.' He had drawn a conclusion and had reported the conclusion as fact.",
+        "alone": "Varro had not known the man's identity when he observed the conversation — he had subsequently learned of Decimus's loyalist ties and had reported his conclusion as though it were direct observation.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Varro reporting his conclusion rather than his observation and the conclusion serving his personal interest in Servilius's elimination confirm the false report was a deliberate transformation of ambiguous evidence into actionable intelligence — shaped by what Varro needed the evidence to say."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Historian's Assessment",
+        "text": "The historian who recorded Decimus's later account notes in his own commentary: 'Whether Decimus knew his advice would be observed and used is a question the record does not answer. He was a Caesar supporter who gave advice that produced a warning letter. The conspirators who observed the conversation misrepresented it. Both things are true simultaneously. History does not always distinguish between a trap and a coincidence.'",
+        "alone": "The historian who recorded the events explicitly notes that the record cannot determine whether Decimus's advice was deliberate entrapment or genuine help — both interpretations fit the available evidence equally.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Decimus's Caesar support providing a motivation for deliberate entrapment and the historian's assessment that the record cannot resolve the question confirm the interpretive limit — the investigation can establish what happened but not whether Decimus intended it."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🗿",
+        "heading": "What Decimus Did After the Ides",
+        "text": "Following Caesar's assassination, Decimus withdrew from public life entirely. He did not celebrate the Ides publicly, did not associate with the conspirators, and made no claim to having helped protect Caesar. He moved his household to his country estate within a month of the assassination. His subsequent life is not documented. The withdrawal is consistent with either guilt or grief — or both.",
+        "alone": "Decimus withdrew entirely from public life after the assassination — a response consistent with guilt, grief, or both, and not conclusive of either.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Decimus claiming ignorance of the watching and his withdrawal from public life after the assassination confirm the ambiguity extends to his behavior after the events — nothing he did resolves the question of his intentions in the Forum conversation."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "📜",
+        "heading": "Tullius's Final Assessment",
+        "text": "Marcus Tullius, asked in old age about the Servilius matter, says: 'I authorized a killing based on a report I believed. The report was shaped by a man who benefited from the killing. The man who died had been trying, in his inadequate way, to prevent a death without betraying his friends. I have thought about this for thirty years. I do not know what Decimus intended. I know what Varro did. Those two things are different questions.'",
+        "alone": "Tullius in old age distinguishes between the question of Varro's deliberate misrepresentation and the question of Decimus's intent — he treats them as separate and separately resolvable, finding certainty only about Varro.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The historian's assessment that the record cannot resolve Decimus's intent and Tullius's distinction between Varro's known conduct and Decimus's unknown intent confirm the two questions separate cleanly — Varro's guilt is established, Decimus's remains permanently open."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "What the Record Establishes",
+        "text": "The historical record establishes: Lucius Varro misrepresented a Forum conversation, used the misrepresentation to trigger an authorized killing, benefited personally from the killing, and used his own dagger. The record does not establish: whether Decimus knew Servilius was being watched, whether his advice was deliberate or genuine, or whether the warning letter would have reached Caesar in a form that could have changed anything. The killing is solved. Its full moral architecture is not.",
+        "alone": "The killer is established — Varro. The full moral architecture of the events, including Decimus's intent and the letter's potential impact, remains historically unresolvable.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Varro reporting his conclusion rather than his observation and the record establishing his guilt while leaving Decimus's intent open confirm the investigation's limit — the criminal question is answered, the historical question is not."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lucius Varro",
+      "location": "The Antechamber",
+      "weapon": "Ceremonial Dagger",
+      "motive": "Eliminate a Personal Rival",
+      "accomplice": "Suggested Writing the Warning Letter"
+    },
+    "epilogue": "Lucius Varro had observed a conversation, shaped what he had seen into a usable report, and killed a man who had been trying not to betray anyone. He had benefited personally. He had died in the civil war. Marcus Tullius had lived thirty more years with the knowledge that he had authorized a killing based on a report he should have verified. Decimus had withdrawn from public life. The historian's account survives in partial form. The part describing the Forum conversation does not survive. The warning letter was removed from the antechamber by a slave who could not read. It was used to wrap a market purchase. Caesar was killed the following day."
+  }
+}

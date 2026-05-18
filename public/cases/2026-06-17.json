@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "New York, 1962. A Madison Avenue ad agency. A copywriter dead in the creative department. And a campaign that someone needed to steal before the pitch. 🖊️🔍 Case #090 — The Big Idea. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Madison Avenue 1962, a dead copywriter, a stolen ad campaign, and the person who needed that pitch more than anyone. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1962 Madison Avenue advertising agency creative department at night, drafting tables with campaign layouts and storyboards, a whiskey glass overturned on a typewriter, scattered index cards with tagline ideas on the floor, one desk lamp still burning. Amber and shadow, cigarette smoke, the New York skyline through the window. Tense and atmospheric, style of Saul Bass meets Weegee.",
+    "animationPrompt": "Slow pan through a 1962 Madison Avenue creative department at night. Drafting tables. Storyboards. The camera finds a whiskey glass overturned on a typewriter and index cards scattered on the floor. One desk lamp burning. Through the window: the New York skyline. The typewriter carriage is at mid-line. Fade to black.",
+    "hashtags": [
+      "#MadisonAvenue1962",
+      "#AdAgencyMurder",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #090",
+    "title": "The Big Idea",
+    "setting": "Crane & Lowe Advertising · Madison Avenue · New York · 1962",
+    "emoji": "🖊️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Copywriter Danny Fisk was found dead in the creative department of Crane & Lowe at eleven PM. He had cracked the tagline for the Consolidated Motors account — the biggest pitch in the agency's history, due the following morning. His campaign index cards were scattered but the key tagline card was missing. Three people had stayed late that night.",
+    "emptyState": "The tagline was worth a career. Someone took it — and Danny too.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roger Hatch",
+            "icon": "🎨",
+            "detail": "The art director — had been Danny's creative partner for three years but was up for the same promotion."
+          },
+          {
+            "name": "Sylvia Kane",
+            "icon": "📋",
+            "detail": "The account executive — had the client relationship and needed a winning campaign to keep it."
+          },
+          {
+            "name": "Ted Wolfe",
+            "icon": "💼",
+            "detail": "A senior copywriter from the competing Hargrove Agency — had been hired away that week and was starting Monday."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Creative Department",
+            "icon": "🖊️",
+            "detail": "Where Danny was found — typewriter, scattered cards, overturned whiskey glass."
+          },
+          {
+            "name": "The Conference Room",
+            "icon": "📊",
+            "detail": "Where the pitch materials were being assembled — Sylvia's domain for the evening."
+          },
+          {
+            "name": "The Copy Room",
+            "icon": "📄",
+            "detail": "A smaller office adjacent to the creative department — where the agency's files and duplicating machine were kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter",
+            "icon": "⌨️",
+            "detail": "A heavy Underwood typewriter — blunt force wound consistent with its carriage edge."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "A half-empty bottle — no blood or wound trace, eliminated."
+          },
+          {
+            "name": "Drafting Table Edge",
+            "icon": "📐",
+            "detail": "The metal table edge — wound profile inconsistent with its thin lip, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Tagline Card",
+        "text": "Danny's index card system — his creative process — involved writing each idea on a separate card and pinning the winner. The scattered cards on the floor show twelve rejected taglines, each crossed out. The thirteenth card — the accepted winner — is missing. The pushpin that held it is still in the corkboard above his desk, with a small paper fragment suggesting the card had been torn away rather than unpinned.",
+        "alone": "The winning tagline card had been torn from the corkboard — taken in haste, leaving a fragment and the pin behind.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The tagline card torn in haste and Roger Hatch's confirmed presence in the creative department during the murder window together establish he had been in the room when the card was taken — his access and his competing promotion candidacy confirm the value of the card to him specifically."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⌨️",
+        "heading": "The Typewriter",
+        "text": "The Underwood typewriter on Danny's desk shows blood on the right side of the carriage — the wound on Danny's temple is consistent with the carriage edge. The typewriter had been swung or pushed sideways into Danny's head, or Danny had been pushed into the typewriter. The carriage is at mid-line — Danny had been typing when he was struck. A partial word is on the paper in the typewriter: 'AMERI—'",
+        "alone": "Danny had been mid-word on the typewriter when struck — he had been working, not expecting the attack, and had typed the beginning of a word that had not been finished.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Danny mid-word on the typewriter indicating no alarm at the killer's approach and Roger Hatch's established familiarity as a three-year creative partner confirm the killer had been someone Danny had not been alarmed to see — someone he had continued working in front of."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Sylvia in the Conference Room",
+        "text": "Sylvia Kane had been in the conference room assembling the pitch deck — confirmed by the building's night security guard who had brought her coffee at nine-thirty PM and again at eleven PM. She had not left the conference room between those two visits. The creative department is at the opposite end of the floor. She is definitively cleared.",
+        "alone": "Sylvia had been in the conference room with the security guard confirming her presence at nine-thirty and eleven PM — she had not left the floor's far end. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Sylvia cleared at the conference room end of the floor and Ted Wolfe confirmed in the lobby until ten-thirty PM together eliminate both other suspects from the creative department during the murder window — only Roger Hatch's movements within the creative department area are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Ted Wolfe's Timing",
+        "text": "Ted Wolfe had arrived at the building at ten PM — confirmed by the lobby sign-in log. He had told the guard he was collecting personal items from his new office before starting Monday. He had been in the building during the murder window. However, his new office was on the fourth floor — the creative department was on the seventh. The elevator log shows him on four only.",
+        "alone": "Ted Wolfe had been in the building during the murder window but confined to the fourth floor — the elevator log shows no seventh-floor visits. He is cleared of being in the creative department.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ted Wolfe confined to the fourth floor and the tagline card's value to a competing agency making him a theoretical motive together confirm his physical access had been eliminated — the elevator log is the key."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Roger's Promotion",
+        "text": "Agency records show both Danny Fisk and Roger Hatch had been under consideration for the same Creative Director promotion — the decision was to be made the following week, after the Consolidated Motors pitch. The account executive had noted in her file: 'Whoever cracks the CM campaign gets the nod.' The tagline card had been worth not just the account but the promotion.",
+        "alone": "The Creative Director promotion was tied directly to the CM campaign — whoever produced the winning tagline would receive the promotion Danny and Roger had both been competing for.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The tagline card torn in haste and the promotion tied to the CM campaign confirm the card represented both the account and the career advancement Roger had been competing for — the motive had two compounding dimensions."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎨",
+        "heading": "Roger's Fingerprints",
+        "text": "The typewriter carriage — swabbed for prints after the blood was documented — shows a partial fingerprint on the left side of the carriage consistent with a left-handed grip pushing the carriage sideways. Roger Hatch is left-handed — confirmed by his drafting table setup. A left-handed person pushing the typewriter's carriage into someone seated at the machine would produce exactly the wound angle found on Danny.",
+        "alone": "The partial fingerprint shows a left-handed push on the typewriter carriage — Roger Hatch is left-handed, and the wound angle is consistent with a left-handed push from a standing position.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Danny mid-word with no alarm and the left-handed carriage push matching Roger's handedness confirm the killer had approached from the left while Danny typed — a familiar position for a three-year creative partner who had stood at that desk countless times before."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Roger's Account",
+        "text": "Roger Hatch claims he had been at his own drafting table all evening, working on visual concepts for the pitch. He states he had not approached Danny's desk. He claims to have heard nothing unusual. The night security guard, however, confirms he had seen Roger walking toward the creative department's interior at approximately ten-fifteen PM — in the direction of Danny's desk, not his own.",
+        "alone": "The security guard had seen Roger walking toward Danny's desk at ten-fifteen PM — contradicting his claim of having stayed at his own table all evening.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Roger's movement toward Danny's desk at ten-fifteen PM and the promotion tied to the winning tagline confirm he had gone to Danny's desk during the murder window with the campaign card as the specific object of interest."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Pitch the Next Morning",
+        "text": "The Consolidated Motors pitch proceeded the following morning — with Sylvia presenting and Roger delivering the creative concepts. The tagline presented was 'America Moves with Consolidated' — the word on Danny's typewriter had been 'AMERI—'. Roger presented it as his own concept. Crane & Lowe won the account. Roger received the Creative Director promotion two weeks later. Danny's contribution was not credited.",
+        "alone": "The tagline Roger presented — 'America Moves with Consolidated' — begins with the partial word Danny had been typing when he was killed. Danny had created it.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The left-handed typewriter push matching Roger's handedness and the tagline beginning with Danny's unfinished word confirm the full picture — Roger had struck Danny mid-creation, taken the completed card from the corkboard, and presented Danny's work as his own the following morning."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roger Hatch",
+      "location": "The Creative Department",
+      "weapon": "Typewriter"
+    },
+    "epilogue": "Roger Hatch had approached Danny's desk at ten-fifteen PM. Danny had been typing — mid-word, mid-idea, mid-career. Roger had pushed the typewriter carriage sideways into Danny's temple. He had torn the tagline card from the corkboard. He had returned to his own desk. The following morning he had presented 'America Moves with Consolidated' as his own creation. Crane & Lowe had won the account. Roger had received the Creative Director promotion. He had held the position for eleven years. The partial word 'AMERI—' on the typewriter paper had been entered into evidence at his trial in 1963. The jury had needed four hours."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #090",
+    "title": "The Big Idea",
+    "setting": "Crane & Lowe Advertising · Madison Avenue · New York · 1962",
+    "emoji": "🖊️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Roger killed Danny and took the tagline. But Sylvia Kane had known the tagline existed before the pitch — she had heard Danny describe it that afternoon. Find what Sylvia did with that knowledge and whether she had been complicit in what followed.",
+    "emptyState": "Sylvia knew the tagline existed. Find what she did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roger Hatch",
+            "icon": "🎨",
+            "detail": "The killer — left-handed carriage push, tagline card taken, 'AMERI—' on the typewriter."
+          },
+          {
+            "name": "Sylvia Kane",
+            "icon": "📋",
+            "detail": "Cleared as killer — conference room confirmed. But had known about Danny's tagline since the afternoon."
+          },
+          {
+            "name": "Ted Wolfe",
+            "icon": "💼",
+            "detail": "Cleared as killer — fourth floor confirmed. His Hargrove Agency connection becomes relevant."
+          },
+          {
+            "name": "Arthur Crane",
+            "icon": "🏢",
+            "detail": "The agency's founder and principal — had been told about the winning tagline by Sylvia that afternoon."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Creative Department",
+            "icon": "🖊️",
+            "detail": "Primary crime scene — Roger's killing of Danny."
+          },
+          {
+            "name": "The Conference Room",
+            "icon": "📊",
+            "detail": "Sylvia's confirmed location — and where she had briefed Arthur Crane that afternoon."
+          },
+          {
+            "name": "The Copy Room",
+            "icon": "📄",
+            "detail": "Adjacent to the creative department — and where the duplicating machine was kept."
+          },
+          {
+            "name": "Arthur Crane's Office",
+            "icon": "🏢",
+            "detail": "Where the afternoon briefing had occurred — and where the promotion decision resided."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter",
+            "icon": "⌨️",
+            "detail": "Confirmed murder weapon — left-handed carriage push, Danny's unfinished word."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Drafting Table Edge",
+            "icon": "📐",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Sylvia's Briefing",
+            "icon": "📋",
+            "detail": "Not a weapon — but her disclosure of the tagline's existence to Arthur Crane had shaped the evening's stakes."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Win the Promotion",
+            "icon": "🎨",
+            "detail": "Roger's motive — the Creative Director role tied to the CM campaign winner."
+          },
+          {
+            "name": "Secure the Account",
+            "icon": "📋",
+            "detail": "Sylvia's surface interest — the Consolidated Motors account was her largest client relationship."
+          },
+          {
+            "name": "Protect Her Own Position",
+            "icon": "💼",
+            "detail": "Sylvia's deeper interest — if the pitch failed, her account executive role was in question."
+          },
+          {
+            "name": "The Afternoon Briefing's Consequence",
+            "icon": "🏢",
+            "detail": "What Sylvia's disclosure to Crane had done — had confirmed to Roger that the tagline existed and that the pitch's outcome depended on it."
+          },
+          {
+            "name": "Roger's Knowledge of the Stakes",
+            "icon": "🎨",
+            "detail": "What the briefing had told Roger — that Danny had something, that it was good, and that the promotion decision would follow the pitch."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Sylvia's Afternoon Briefing",
+        "text": "Arthur Crane confirms that Sylvia had come to his office at four PM on the day of the murder and had told him: 'Danny has cracked it. He showed me the card this afternoon — it's the one. We're going to win this.' She had been describing the tagline to Crane with enthusiasm. She had not shown him the card but had described its concept in enough detail that Crane had understood the pitch was in good shape.",
+        "alone": "Sylvia had confirmed to Arthur Crane at four PM that Danny had the winning tagline — her disclosure had been intended as good news, but it had established the tagline's existence to anyone who might have overheard.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Sylvia's four PM disclosure to Crane and Roger's confirmed presence in the office corridor at four-fifteen PM together place him adjacent to the conversation at the time it occurred — he had known the tagline existed and that it was already good enough to brief the principal."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🎨",
+        "heading": "Roger Overheard",
+        "text": "Arthur Crane's secretary, interviewed after the investigation expands, recalls that Roger Hatch had been in the corridor outside Crane's office at approximately four-fifteen PM — she had seen him through the glass partition. Crane's office door had been partially open during Sylvia's briefing. Roger had been in the corridor for approximately five minutes before moving on. She had thought nothing of it at the time.",
+        "alone": "Roger had been in the corridor outside Crane's open-doored office for five minutes during Sylvia's four PM briefing — he had been in a position to hear the disclosure.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Roger in the corridor during Sylvia's briefing and his movement toward Danny's desk that evening at ten-fifteen confirm the chain — the afternoon disclosure had confirmed what he needed to know, and the evening movement had been the execution."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Sylvia's Knowledge of Roger's Motive",
+        "text": "Sylvia, in her expanded interview, admits she had known about the promotion competition between Danny and Roger. She had not considered that her afternoon briefing to Crane — conducted with the door open — might have been overheard by Roger. She had not considered Roger a threat to Danny. She says: 'I thought Roger was a professional. I was briefing Arthur about the pitch status, not about the people competing for a promotion.'",
+        "alone": "Sylvia had known about the promotion competition but had not considered that her open-door briefing might have given Roger the information he needed to act — she had been thinking about the pitch, not the people.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Sylvia's open-door briefing inadvertently informing Roger and her unawareness of the risk confirm her role had been enabling rather than complicit — she had provided the trigger information without knowing it would be used as such."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Ted Wolfe's Connection",
+        "text": "Ted Wolfe's hiring from Hargrove Agency becomes significant when investigators learn that Hargrove had also been pitching for the Consolidated Motors account — a fact Wolfe had known when he accepted the Crane & Lowe offer. He had been hired away from a competing agency on the same account. He had been in the building the night of the murder. Investigators examine whether Wolfe had come to the building for the items he claimed.",
+        "alone": "Ted Wolfe had known Hargrove was pitching for Consolidated Motors when he accepted the Crane & Lowe offer — he had moved between competing agencies on the same account.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Wolfe's Hargrove connection and the fourth-floor elevator log confirming he had not reached the creative department confirm he is eliminated as the killer — but his presence in the building on the same night, knowing both agencies' pitches, is noted as a secondary thread the investigation finds inconclusive."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎨",
+        "heading": "Roger's State of Mind That Afternoon",
+        "text": "Roger's drafting table shows work from the afternoon — concept sketches for the CM pitch that had been abandoned and restarted multiple times. A note in his handwriting at the edge of a rejected layout reads: 'D has something. What does D have.' The note, undated but in fresh ink, suggests he had been aware before the evening that Danny had made a breakthrough he had not been sharing with his nominal partner.",
+        "alone": "Roger had written 'D has something. What does D have.' on his rejected work — he had been aware that Danny had a breakthrough before the evening's events, and the corridor eavesdrop had confirmed it.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Sylvia's four PM disclosure confirming the tagline existed and Roger's marginal note showing prior awareness confirm he had been tracking Danny's progress and had used the corridor eavesdrop to get specific confirmation — the killing had been the result of accumulated competitive pressure, not a sudden decision."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Sylvia Heard the Next Morning",
+        "text": "Sylvia had not known Danny was dead until she arrived at the office the following morning. She had arrived at seven AM to prepare for the pitch. When she learned of Danny's death, she had gone to Roger immediately — not to console him but, she admits, 'to ask what we were going to do about the pitch.' Roger had told her he had the tagline concept. She had not asked how he had it.",
+        "alone": "Sylvia had gone to Roger the morning after the murder and had asked about the pitch — Roger had told her he had the tagline, and she had not asked how. She had prioritized the account over the question.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Sylvia's unawareness of the risk her briefing had created and her morning-after decision not to ask how Roger had the tagline confirm her role — she had enabled the killing inadvertently and had then chosen not to examine the outcome too closely."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Arthur Crane's Knowledge",
+        "text": "Arthur Crane had known about the tagline from Sylvia's four PM briefing. He had not known about the promotion competition's intensity — he had believed both Danny and Roger were collaborative rather than competing. When investigators ask whether he had any concerns about Roger presenting a tagline concept the morning after Danny's death, he says: 'I assumed Roger had the same idea. They were partners. I didn't think to ask who had it first.'",
+        "alone": "Crane had assumed Danny and Roger had developed the tagline jointly — his lack of knowledge about the competition's intensity had allowed the attribution to pass without challenge.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Wolfe's Hargrove connection being inconclusive and Crane's unawareness of the competition's intensity together confirm the killing had been enabled by multiple people's partial blindness — nobody had been watching the right thing at the right time."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "The Trial's Attribution Finding",
+        "text": "At Roger's trial, the prosecution established the tagline's origin through the partial word on the typewriter and three witnesses who had heard Danny describe the concept earlier that day. The trial's finding on attribution was explicit: 'America Moves with Consolidated' had been created by Daniel Fisk. The tagline ran in Consolidated Motors advertising from 1963 to 1969. Danny Fisk is not credited in any of the advertising.",
+        "alone": "The trial established Danny's authorship — the tagline ran for six years in Consolidated Motors advertising without crediting its creator.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Roger's marginal note showing prior awareness and the tagline running uncredited for six years confirm the full picture — Danny had been killed for an idea that bore his killer's name for six years and his own for none."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roger Hatch",
+      "location": "The Creative Department",
+      "weapon": "Typewriter",
+      "motive": "Win the Promotion"
+    },
+    "epilogue": "Sylvia Kane's four PM briefing to Arthur Crane — conducted with the door open — had been overheard by Roger in the corridor at four-fifteen. Roger had already known Danny was ahead. The corridor had confirmed the tagline was good enough to brief the principal. At ten-fifteen PM he had walked to Danny's desk. At eleven PM the building's security guard had found Danny. The trial in 1963 had established attribution. Roger received eighteen years. 'America Moves with Consolidated' ran until 1969. Sylvia Kane stayed at Crane & Lowe. She had not asked how Roger had the tagline. She said she had not wanted to know. The jury at Roger's trial had found this believable enough not to charge her. The advertising industry had continued."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #090",
+    "title": "The Big Idea",
+    "setting": "Crane & Lowe Advertising · Madison Avenue · New York · 1962",
+    "emoji": "🖊️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Roger killed Danny. Sylvia enabled it inadvertently. But Ted Wolfe — cleared by the elevator log — had come to the building for a reason he had not fully disclosed. Find what Wolfe had actually been there to do.",
+    "emptyState": "Wolfe came for something other than personal items. Find what.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roger Hatch",
+            "icon": "🎨",
+            "detail": "The killer — left-handed push, tagline card, 'AMERI—', eighteen years."
+          },
+          {
+            "name": "Sylvia Kane",
+            "icon": "📋",
+            "detail": "Cleared as killer — conference room. Open-door briefing, morning-after non-inquiry."
+          },
+          {
+            "name": "Ted Wolfe",
+            "icon": "💼",
+            "detail": "Cleared as killer — fourth floor confirmed. But had come to the building for something other than personal items."
+          },
+          {
+            "name": "Hargrove Agency",
+            "icon": "🏢",
+            "detail": "Wolfe's former employer — also pitching Consolidated Motors, also needed intelligence about Crane & Lowe's concept."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Creative Department",
+            "icon": "🖊️",
+            "detail": "Primary crime scene — Roger's killing."
+          },
+          {
+            "name": "The Conference Room",
+            "icon": "📊",
+            "detail": "Sylvia's confirmed location — pitch materials assembled here."
+          },
+          {
+            "name": "The Copy Room",
+            "icon": "📄",
+            "detail": "Adjacent to the creative department — where the duplicating machine was, and where Wolfe had actually gone."
+          },
+          {
+            "name": "The Fourth Floor",
+            "icon": "🏢",
+            "detail": "Wolfe's assigned new office — and his stated destination. The copy room was on seven."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter",
+            "icon": "⌨️",
+            "detail": "Confirmed murder weapon — Roger's."
+          },
+          {
+            "name": "Whiskey Bottle",
+            "icon": "🥃",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Drafting Table Edge",
+            "icon": "📐",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "The Duplicating Machine",
+            "icon": "📄",
+            "detail": "Not a weapon — but what Wolfe had actually used in the copy room on the seventh floor."
+          },
+          {
+            "name": "Wolfe's Fourth-Floor Cover",
+            "icon": "🏢",
+            "detail": "Not a weapon — the stated reason for his building visit that had concealed his actual activity."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Win the Promotion",
+            "icon": "🎨",
+            "detail": "Roger's motive — confirmed, eighteen years."
+          },
+          {
+            "name": "Secure the Account",
+            "icon": "📋",
+            "detail": "Sylvia's interest — enabling, not directing."
+          },
+          {
+            "name": "Obtain Crane & Lowe's Pitch Concept for Hargrove",
+            "icon": "💼",
+            "detail": "Wolfe's actual motive — had come to the building to access pitch materials for his former employer."
+          },
+          {
+            "name": "Dual Employment Conflict",
+            "icon": "🏢",
+            "detail": "Wolfe's structural position — had accepted Crane & Lowe's offer while still on Hargrove's payroll for the CM account."
+          },
+          {
+            "name": "The Copy Room's Contents",
+            "icon": "📄",
+            "detail": "What Wolfe had accessed — the preliminary pitch deck Sylvia had assembled, left in the copy room for duplication."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Danny and Took the Tagline",
+            "icon": "🎨",
+            "detail": "Roger's confirmed role."
+          },
+          {
+            "name": "Disclosed the Tagline's Existence Inadvertently",
+            "icon": "📋",
+            "detail": "Sylvia's enabling role — open-door briefing, morning-after non-inquiry."
+          },
+          {
+            "name": "Accessed the Copy Room and Duplicated the Pitch Deck",
+            "icon": "📄",
+            "detail": "Wolfe's actual activity — had gone to the seventh floor despite claiming the fourth."
+          },
+          {
+            "name": "Delivered the Pitch Deck to Hargrove",
+            "icon": "🏢",
+            "detail": "Wolfe's operational completion — had left the building with a copy of Crane & Lowe's CM pitch materials."
+          },
+          {
+            "name": "Used the Elevator on Seven Without the Log Showing It",
+            "icon": "🏢",
+            "detail": "How Wolfe had accessed the seventh floor — had used the service elevator, which had a separate log."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Service Elevator Log",
+        "text": "The building's service elevator — separate from the main elevator and with its own log maintained by the building superintendent — shows Ted Wolfe's name at ten-forty-five PM, destination: seventh floor. He had taken the service elevator to the seventh floor — the floor containing the creative department and the copy room — while the main elevator log showed only his fourth-floor activity.",
+        "alone": "Wolfe had taken the service elevator to the seventh floor at ten-forty-five PM — his stated reason for being in the building had been the fourth floor, but he had gone to seven through the service route.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Wolfe's service elevator access to the seventh floor and the copy room's duplicating machine log showing activity at eleven PM together confirm he had gone to the seventh floor specifically to use the duplicating machine — not to collect personal items from his fourth-floor office."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Copy Room's Duplicating Log",
+        "text": "The copy room maintained a duplicating machine log for billing purposes — each department was charged for copies. The log shows a duplication job at eleven-three PM, logged under no department name — an anomalous entry. The job had produced twelve copies of a multi-page document. The original document had been returned to the conference room's outbox afterward.",
+        "alone": "An unattributed twelve-copy duplication job had been run at eleven-three PM — the same time Wolfe had been on the seventh floor, and after the murder had already occurred.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The unattributed duplication job at eleven-three PM and Sylvia's pitch deck having been left in the copy room outbox for duplication that evening confirm Wolfe had copied Crane & Lowe's CM pitch materials — the timing and the unattributed log entry confirm he had not wanted the copy to be traceable."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Wolfe's Hargrove Arrangement",
+        "text": "Investigators contact Hargrove Agency. The account director confirms that Ted Wolfe had not formally resigned from Hargrove's CM account team before accepting Crane & Lowe's offer — he had been on a handover period still technically employed by both. Hargrove's account director says, carefully: 'Ted remained in contact with us during his transition. We appreciated his professionalism.' He does not elaborate. He is asked to elaborate. He requests a lawyer.",
+        "alone": "Wolfe had been technically employed by both agencies simultaneously during his transition — Hargrove's account director's careful language and request for a lawyer suggest the contact had been substantive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Wolfe's dual-employment status and Hargrove's account director requesting a lawyer before elaborating confirm the contact had been operational rather than social — Wolfe had been passing intelligence while transitioning between competing agencies on the same account."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "What the Copied Document Was",
+        "text": "The original document returned to the conference room outbox — examined after the investigation reaches the copy room — is identified as Sylvia's preliminary pitch deck for the Consolidated Motors presentation: twenty-two pages of creative strategy, market positioning, and campaign framework. The document does not include the tagline — that had been on Danny's index card. But it included everything else Hargrove would need to understand Crane & Lowe's approach.",
+        "alone": "The copied document had been Crane & Lowe's CM pitch strategy — everything except the tagline, which had already been taken by Roger.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The pitch strategy copied by Wolfe and the tagline taken by Roger confirm two separate thefts had occurred in the same building on the same night — one violent, one technical — each serving a different competitor's interest."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Sylvia's Pitch Deck in the Copy Room",
+        "text": "Sylvia confirms she had left the preliminary pitch deck in the copy room outbox at approximately nine PM, intending to have it duplicated for the morning meeting. She had planned to retrieve the copies in the morning. She had not known anyone had used the duplicating machine that night. She had not noticed the document had been copied when she retrieved it the following morning.",
+        "alone": "Sylvia had left the pitch deck in the copy room outbox at nine PM — accessible to anyone who went to the seventh floor that evening.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Wolfe's service elevator access to the seventh floor at ten-forty-five and the pitch deck left in the copy room at nine confirm he had known the document would be there — or had gone to see what was there and had found it."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏢",
+        "heading": "Hargrove's CM Pitch",
+        "text": "Hargrove Agency's Consolidated Motors pitch — delivered the same morning as Crane & Lowe's — showed significant overlap with Crane & Lowe's strategic framework in its market positioning section. The Consolidated Motors client team noted the overlap in their evaluation notes. They awarded the account to Crane & Lowe on the strength of the tagline. Hargrove's pitch had the strategy without the creative execution.",
+        "alone": "Hargrove's pitch had overlapped significantly with Crane & Lowe's strategic framework — but had lacked the tagline. The account had been won by the idea that Danny had created and Roger had taken.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The copied pitch strategy giving Hargrove Crane & Lowe's framework and the account being won by the tagline Roger had stolen confirm two simultaneous thefts had each partially succeeded and partially failed — Wolfe had gotten the strategy, Roger had gotten the idea, and the client had chosen the idea."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Wolfe's Charge",
+        "text": "Ted Wolfe is charged with commercial espionage and breach of fiduciary duty — charges that had rarely been prosecuted in the advertising industry to that point. His defence argues that the pitch deck had been left accessible and that no security precautions had prevented his access. The court finds: 'Accessibility does not constitute permission. The defendant had entered the building under false pretenses and had used a secondary elevator to conceal his destination.' He receives a suspended sentence and is barred from working on any Consolidated Motors account.",
+        "alone": "Wolfe receives a suspended sentence — the court finds accessibility does not constitute permission, and his service elevator concealment is cited as evidence of knowing wrongdoing.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Wolfe's dual-employment status and the court's finding that concealment demonstrated knowing wrongdoing confirm the operation had been deliberate rather than opportunistic — the service elevator had been chosen specifically to avoid the main log."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "The Night's Full Accounting",
+        "text": "The night of October 14, 1962 at Crane & Lowe Advertising: Danny Fisk had created the tagline that would define a car company's advertising for six years. Roger Hatch had killed him for it and taken the card. Ted Wolfe had copied the pitch strategy and delivered it to Hargrove. Sylvia Kane had assembled the pitch deck and not asked questions. Arthur Crane had not known any of it. The account had been won. The tagline had run uncredited. Two people had stolen from Danny — one had taken his idea, the other his strategy, the third his life.",
+        "alone": "The full night's accounting: one murder, one commercial theft, one inadvertent disclosure, and an account win built on all three.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The two separate thefts of Danny's work and Wolfe's strategy copy together confirm the full scale of what the night had produced — the account had been won by a combination of Danny's stolen idea and Hargrove's defeat by the same idea, completing a circuit that had its origin in one copywriter's index card."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roger Hatch",
+      "location": "The Creative Department",
+      "weapon": "Typewriter",
+      "motive": "Win the Promotion",
+      "accomplice": "Accessed the Copy Room and Duplicated the Pitch Deck"
+    },
+    "epilogue": "Roger Hatch received eighteen years. Ted Wolfe received a suspended sentence and an industry bar from the Consolidated Motors account. Sylvia Kane was not charged. Arthur Crane retired in 1968. 'America Moves with Consolidated' ran until 1969. Danny Fisk's name appeared nowhere in the advertising. The trial record attributes the tagline to him explicitly. The advertising does not. Wolfe's copy of the pitch strategy had given Hargrove everything except the one thing that had mattered. The Consolidated Motors client team's evaluation notes describe the deciding factor as 'creative differentiation.' The typewriter on Danny's desk had been returned to the office supply room after the trial. The paper was still in it. The carriage was still at mid-line. The 'AMERI—' was still there."
+  }
+}

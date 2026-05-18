@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Cairo, 1922. A museum curator found dead the night after Tutankhamun's tomb was opened. An antiquity is missing. And someone in the expedition was not there for the archaeology. 🏺🔍 Case #081 — The King's Chamber. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Cairo 1922, the year of Tutankhamun, a dead museum curator, a stolen antiquity, and the person nobody suspected because they seemed too obvious. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the Egyptian Museum in Cairo in 1922 at night, display cases with canopic jars and gilded objects, a stone sarcophagus lid on a plinth, a broken display case with scattered shabtis on the floor, a curator's lamp overturned. Warm amber lamplight, deep museum shadow, hieroglyphs visible on the wall. Rich and ancient, style of Howard Carter's expedition photographs meets Alma-Tadema.",
+    "animationPrompt": "Slow pan through the Egyptian Museum in Cairo at night, 1922. Display cases. A stone sarcophagus lid. The camera finds a broken case with scattered shabtis on the floor and a curator's lamp overturned. On the wall: hieroglyphs. The lamp's oil pools on the stone floor. Silence. Fade to black.",
+    "hashtags": [
+      "#Cairo1922",
+      "#Tutankhamun",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #081",
+    "title": "The King's Chamber",
+    "setting": "Egyptian Museum · Cairo · 1922",
+    "emoji": "🏺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Museum curator Dr. Hassan Farouk was found dead in the antiquities gallery the night after Howard Carter's team opened Tutankhamun's tomb. A gilded canopic jar — one of four presented to the museum from a prior excavation — was missing from its broken case. Three people had after-hours access that night. One of them had a buyer arranged before the jar was even stolen.",
+    "emptyState": "The jar was gone before the body was cold. Someone had a buyer waiting.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lord Ashby",
+            "icon": "🎩",
+            "detail": "A British collector — had been pressing the museum for private purchase rights for months."
+          },
+          {
+            "name": "Miriam Kazan",
+            "icon": "📸",
+            "detail": "An American photojournalist — had been photographing the museum's collection for a magazine feature."
+          },
+          {
+            "name": "Sergeant Youssef Nabil",
+            "icon": "🔒",
+            "detail": "The museum's night security officer — the only person with keys to the after-hours entrance."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antiquities Gallery",
+            "icon": "🏺",
+            "detail": "Where Dr. Farouk was found — broken case, scattered shabtis, overturned lamp."
+          },
+          {
+            "name": "The Director's Office",
+            "icon": "📋",
+            "detail": "Where Lord Ashby had been that afternoon pressing his purchase case."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Where Miriam had been developing photographs until late — confirmed by the darkroom log."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stone Shabti",
+            "icon": "🗿",
+            "detail": "A heavy carved figurine — blunt force wound consistent with its base profile."
+          },
+          {
+            "name": "Display Case Frame",
+            "icon": "🪟",
+            "detail": "A brass-framed case — wound profile inconsistent with its rounded edge."
+          },
+          {
+            "name": "Curator's Lamp",
+            "icon": "🪔",
+            "detail": "The overturned oil lamp — too light for the wound depth, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Purchase Correspondence",
+        "text": "Dr. Farouk's desk — examined during the investigation — contains a file of correspondence with Lord Ashby spanning six months. Ashby had been pressing for private acquisition rights to the canopic jar set. The most recent letter, received two days before the murder, includes the phrase: 'I have arranged a private buyer in London at a price that will exceed any institutional offer. I would ask you to reconsider before the Carter discovery changes everything.' Farouk had written 'declined' on the letter.",
+        "alone": "Lord Ashby had arranged a private buyer in London and had been pressing Farouk for the canopic jar — Farouk had declined two days before his death.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Ashby arranging a London buyer and pressing Farouk two days before the killing and his confirmed after-hours presence in the museum that night confirm he had the motive and the access — and the buyer had been arranged before the jar was stolen."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗿",
+        "heading": "The Shabti",
+        "text": "A stone shabti from the broken case — one of the scattered figurines — shows blood on its base consistent with the wound on Dr. Farouk's skull. The wound indicates a single heavy blow delivered from above. The shabti had been taken from the broken case and used against the curator — a weapon of opportunity inside the very gallery the killer had come to rob.",
+        "alone": "Farouk was killed with a shabti from the case he was likely guarding — the killer had used the antiquity they were stealing from as a weapon.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The shabti used as an opportunistic weapon from the broken case and Lord Ashby's confirmed presence in the gallery corridor that night together confirm he had been in the gallery when the killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Miriam's Darkroom",
+        "text": "The museum's photography darkroom log shows Miriam Kazan had signed in at eight PM and had signed out at midnight — confirmed by the log and by a museum assistant who had seen her developing plates at ten PM. The antiquities gallery is on the opposite side of the building from the darkroom. She had not been in the gallery section of the museum that night. She is definitively cleared.",
+        "alone": "Miriam was in the photography darkroom from eight PM to midnight — confirmed by the log and a museum assistant. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Miriam cleared in the darkroom and Sergeant Nabil confirmed at the entrance post until ten-thirty PM together eliminate two suspects from the gallery during the critical early-evening window — only Lord Ashby's whereabouts in the gallery section are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Carter Discovery Context",
+        "text": "Lord Ashby's letter had referenced the Carter discovery — the opening of Tutankhamun's tomb — as a deadline: once the press coverage began, the market for Egyptian antiquities would be flooded with attention and scrutiny. A private sale arranged before the Carter discovery became public would have been easier to conceal. The killing had occurred the night after the tomb's opening, when the window Ashby had identified was already closing.",
+        "alone": "Ashby's own letter had identified the Carter discovery as a closing window — the killing had occurred within that window, the night after the tomb opened.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ashby identifying the Carter discovery as his deadline and the killing occurring the night after the tomb opened confirm the timing was not coincidental — he had acted within the exact window his own correspondence had specified."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Ashby in the Museum That Night",
+        "text": "Sergeant Nabil confirms Lord Ashby had been admitted to the museum that evening at seven PM for what he had described as a late review of acquisition documents with Dr. Farouk. The meeting had been scheduled. Nabil had last seen Ashby at nine PM in the main corridor — after which Nabil had returned to the entrance post. Ashby had not signed out before the body was discovered at eleven PM.",
+        "alone": "Lord Ashby had been admitted at seven PM, was last seen at nine PM, and had not signed out by eleven PM when the body was found — he had been in the museum during the entire murder window.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Ashby's arranged London buyer and his presence in the museum from seven PM without signing out before the body was found together confirm he had the motive, the access, and the unaccounted time in the building during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🏺",
+        "heading": "The Missing Jar",
+        "text": "The canopic jar is missing from the broken case — one of four New Kingdom gilded alabaster jars presented to the museum in 1919. The jar's display plinth shows fresh scrape marks consistent with hurried removal. Three remaining jars are undisturbed. The specificity of the theft — one jar from four, chosen selectively — indicates foreknowledge of which jar had been the subject of Ashby's purchase interest.",
+        "alone": "Only the specific jar Ashby had been trying to purchase was taken — the selection required knowing which of the four was the subject of prior acquisition interest.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The theft targeting exactly the jar Ashby had been pursuing and the shabti used as an opportunistic weapon from the same broken case confirm the killer had come specifically for that jar and had killed Farouk when the curator had interrupted or confronted them."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔒",
+        "heading": "Nabil's Post",
+        "text": "Sergeant Nabil confirms he had been at the entrance post continuously from seven PM until ten-thirty PM, when he had made his first internal patrol round. His patrol had taken him through the main hall and the administrative wing but not the antiquities gallery — a section he had not been assigned to patrol that night. He had not been in the gallery section during the murder window.",
+        "alone": "Nabil's patrol route did not include the antiquities gallery that night — he had no presence in the gallery section during the murder window.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Miriam cleared in the darkroom and Nabil's patrol not covering the antiquities gallery together establish that no authorized witness had been in or near the gallery when the killing occurred — only Ashby's untracked movements remain unaccounted for."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "physical",
+        "icon": "🎩",
+        "heading": "The Jar's Journey",
+        "text": "The canopic jar is recovered two days after the murder from a shipping agent's warehouse in Alexandria — packed in diplomatic luggage addressed to a London collector whose name matches the buyer Ashby had referenced in his letter. The shipping had been arranged the day after the murder, using documentation that had been prepared in advance. The buyer had been expecting the jar before Farouk's body had been found.",
+        "alone": "The jar was recovered in diplomatic luggage addressed to the buyer named in Ashby's correspondence — the shipping documentation had been prepared before the murder was discovered.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ashby's self-identified deadline and the pre-prepared shipping documentation confirming advance planning confirm the killing had occurred within a deliberately chosen operational window — the entire arrangement had been prepared before Farouk had been struck."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lord Ashby",
+      "location": "The Antiquities Gallery",
+      "weapon": "Stone Shabti"
+    },
+    "epilogue": "Lord Ashby had arranged a private buyer in London, identified the Carter discovery as his closing window, prepared shipping documentation, and scheduled a late meeting with Farouk as his cover for entering the museum. When Farouk had confronted him at the broken case, Ashby had used the shabti from the display. The jar had been packed and shipped the following morning. It was recovered in Alexandria two days later. Lord Ashby was tried in Cairo and sentenced to fifteen years. The buyer in London denied knowledge of the jar's provenance. The canopic jar was returned to the Egyptian Museum. It remained in a storage case, not on display, for eleven years."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #081",
+    "title": "The King's Chamber",
+    "setting": "Egyptian Museum · Cairo · 1922",
+    "emoji": "🏺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Ashby killed Farouk and stole the jar. But Sergeant Nabil had let Ashby into the museum knowing Farouk had declined the acquisition — and had arranged his patrol route to avoid the antiquities gallery. Find what Nabil had been paid.",
+    "emptyState": "Nabil's patrol avoided the gallery. Find what he was paid to avoid it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lord Ashby",
+            "icon": "🎩",
+            "detail": "The killer — correspondence, advance buyer, pre-prepared shipping, shabti blow."
+          },
+          {
+            "name": "Miriam Kazan",
+            "icon": "📸",
+            "detail": "Cleared as killer — darkroom confirmed. But her photographic access to the collection is significant."
+          },
+          {
+            "name": "Sergeant Youssef Nabil",
+            "icon": "🔒",
+            "detail": "Cleared as killer — entrance post confirmed. But had arranged his patrol to avoid the gallery."
+          },
+          {
+            "name": "The London Buyer",
+            "icon": "💰",
+            "detail": "The collector who had been expecting the jar — denied knowledge of its provenance."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antiquities Gallery",
+            "icon": "🏺",
+            "detail": "Primary crime scene — Ashby's killing of Farouk, jar stolen."
+          },
+          {
+            "name": "The Director's Office",
+            "icon": "📋",
+            "detail": "Where Ashby had met Farouk that afternoon — and where Farouk had declined the acquisition."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Miriam's confirmed location — and where she had photographed the canopic jars three days before."
+          },
+          {
+            "name": "The Entrance Post",
+            "icon": "🔒",
+            "detail": "Nabil's position — and where the exchange between him and Ashby had occurred."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stone Shabti",
+            "icon": "🗿",
+            "detail": "Confirmed murder weapon — Ashby's opportunistic use from the broken case."
+          },
+          {
+            "name": "Display Case Frame",
+            "icon": "🪟",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Curator's Lamp",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Nabil's Patrol Arrangement",
+            "icon": "🔒",
+            "detail": "Not a weapon — the operational facilitation that had created the unobserved window."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Arranged His Patrol to Avoid the Gallery",
+            "icon": "🔒",
+            "detail": "Nabil's confirmed role — the gallery was not on his assigned patrol route that night."
+          },
+          {
+            "name": "Admitted Ashby at Seven PM",
+            "icon": "🎩",
+            "detail": "Nabil's operational facilitation — let Ashby in with a scheduled meeting as cover."
+          },
+          {
+            "name": "Received Payment From Ashby",
+            "icon": "💰",
+            "detail": "Nabil's financial role — the investigation found a payment he could not explain."
+          },
+          {
+            "name": "Photographed the Collection Inventory",
+            "icon": "📸",
+            "detail": "Miriam's inadvertent role — her photographs had provided Ashby with a reference for which jar to take."
+          },
+          {
+            "name": "Provided the Buyer's Contact",
+            "icon": "💰",
+            "detail": "The London buyer's indirect facilitation — the pre-arranged purchase had been the scheme's foundation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Nabil's Bank Account",
+        "text": "An investigation of Sergeant Nabil's personal finances — triggered by his patrol arrangement — reveals a deposit of 50 Egyptian pounds made two days before the murder: the same day Lord Ashby had been in the museum pressing his purchase case and had received Farouk's final refusal. The deposit has no documented source. Nabil's monthly salary is 8 pounds. The deposit represents more than six months of salary.",
+        "alone": "Nabil had received a deposit of 50 pounds — more than six months' salary — two days before the murder, the same day Ashby received Farouk's final refusal.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Nabil's 50-pound deposit on the day Ashby received Farouk's final refusal and Ashby's pre-prepared shipping documentation confirm the payment and the arrangement had been made immediately after Farouk's refusal — the killing had been planned from the moment legitimate acquisition failed."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Patrol Assignment",
+        "text": "The museum's patrol rotation log — maintained by the director's office — shows that on the night of the murder, the antiquities gallery was removed from Nabil's patrol route. The removal had been noted two days before — the same day as the bank deposit. The gallery was reassigned to a morning patrol only. Nabil had made this change himself, citing 'staffing constraints.' There were no staffing constraints that night.",
+        "alone": "Nabil had removed the antiquities gallery from his patrol route two days before the murder — the same day as the bank deposit — citing false staffing constraints.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The patrol change and the bank deposit both occurring two days before the murder and on the same day confirm they were connected — Nabil had been paid to arrange the operational conditions for the theft."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📸",
+        "heading": "Miriam's Photographs",
+        "text": "Miriam Kazan, in a second interview, confirms she had photographed the canopic jar collection three days before the murder as part of her magazine feature. The photographs had been developed and printed — prints were available in the photography studio. Miriam had shown Ashby the prints during a coincidental meeting in the museum's public rooms two days before the murder. She had thought nothing of it — he had expressed academic interest.",
+        "alone": "Ashby had seen Miriam's detailed photographs of the canopic jar collection two days before the murder — on the same day as the bank deposit and the patrol change.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Ashby seeing Miriam's photographs on the same day as the bank deposit and the patrol change confirm the operational planning had proceeded on a single day — the photographs had confirmed which jar, the payment had secured the patrol gap, and the shipping had been pre-arranged."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "What Ashby Told Nabil",
+        "text": "Nabil, confronted with the bank deposit and the patrol change, eventually admits Ashby had approached him two days before the murder and had told him he intended to 'retrieve an item that had been improperly denied to a legitimate buyer.' He had paid Nabil to ensure the gallery was unobserved during a specific window. He had not told Nabil he planned to kill Farouk. Nabil claims he had believed it was a private arrangement between a collector and the museum.",
+        "alone": "Ashby had told Nabil the taking was a 'legitimate retrieval' — Nabil claims he had not known the killing was planned.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Ashby framing the theft as legitimate retrieval and Nabil claiming he had not known about the killing confirm the operational structure had insulated each participant from the full picture — Nabil had been told only what he needed to know to ensure the gallery was unobserved."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Pre-Prepared Shipping",
+        "text": "The shipping documentation recovered with the jar in Alexandria had been prepared using a diplomatic contact's credentials. The documentation is dated the day after the murder — but the contact information, recipient's address, and contents description had been filled in advance, with only the date left blank. The blank date had been filled in the following morning. Ashby had prepared the shipment before the murder.",
+        "alone": "The shipping documentation had been substantially completed before the murder — only the date had been filled in the following morning after the killing.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Nabil's payment two days before and the pre-prepared shipping documentation confirm the entire operation had been planned from the moment Farouk's refusal was received — the murder had been the contingency, not the plan."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🔒",
+        "heading": "Nabil's Awareness",
+        "text": "Nabil is asked: when the body was discovered at eleven PM, did he suspect Ashby? He says: 'I knew Ashby had been in the building. I knew the gallery had been unpatrolled. When I found Dr. Farouk, I understood what had happened. I told the investigators about Ashby's visit because I had no choice — my log showed his entry. I did not tell them about the payment.' He had withheld the payment until confronted.",
+        "alone": "Nabil had understood what had happened when the body was found and had withheld his payment from investigators until confronted — he had cooperated partially while concealing his own role.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The patrol change arranged by Nabil and his admission of withholding the payment confirm his complicity was active and ongoing — he had facilitated the killing and had then managed his disclosure to minimize his exposure."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📸",
+        "heading": "Miriam's Inadvertent Role",
+        "text": "Miriam is informed that her photographs had provided Ashby with the reference he had needed. She is distressed. She says: 'He asked me which of the four jars was the museum's best specimen. I told him — it was the western jackal-headed alabaster. I was talking about photography, about the light on the glaze. I told him which jar.' She had identified the specific jar to Ashby without knowing why he was asking.",
+        "alone": "Miriam had identified the specific jar to Ashby during their meeting — believing she was discussing photographic merit, not acquisition targeting.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Miriam showing Ashby her photographs and identifying the jar and the bank deposit and patrol change occurring the same day confirm the meeting with Miriam had been the final operational confirmation — after which Ashby had paid Nabil, changed the patrol, and prepared the shipping."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "Nabil's Charge",
+        "text": "Sergeant Youssef Nabil was charged with conspiracy to commit theft and concealment of evidence. He received five years. The 50-pound deposit was forfeited. The museum director issued a statement acknowledging the patrol arrangement had created an operational gap and revised the security protocols. Miriam Kazan's magazine article on the Egyptian Museum — published three months after the murder — made no mention of the canopic jars.",
+        "alone": "Nabil received five years for conspiracy — the operational gap he had created had enabled the theft and the killing.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Ashby framing the arrangement as legitimate retrieval and Nabil's five-year conspiracy conviction confirm the insulation had not protected Nabil — participating in an arrangement that enabled a theft was conspiracy regardless of his claimed ignorance of the killing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lord Ashby",
+      "location": "The Antiquities Gallery",
+      "weapon": "Stone Shabti",
+      "accomplice": "Arranged His Patrol to Avoid the Gallery"
+    },
+    "epilogue": "The operation had been assembled in a single day. Miriam's photographs had identified the jar. The bank deposit had secured the patrol gap. The shipping documentation had been prepared. Farouk's scheduled meeting had provided cover for entry. Only the date on the shipping form had been left blank. Lord Ashby received fifteen years. Sergeant Nabil received five. Miriam Kazan's article on the Egyptian Museum was published without the canopic jars and won a photography award in 1923. She did not return to Cairo. The canopic jar was kept in storage for eleven years and was placed on display in 1933. The placard beside it noted its provenance: New Kingdom, Dynasty XVIII, recovered from Lord Ashby's diplomatic luggage, Alexandria, 1922."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #081",
+    "title": "The King's Chamber",
+    "setting": "Egyptian Museum · Cairo · 1922",
+    "emoji": "🏺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Ashby killed Farouk. Nabil was paid to clear the gallery. But the London buyer had known the jar's specific provenance before it was shipped — details only available from the museum's internal records. Find how the buyer had obtained this information.",
+    "emptyState": "The buyer knew the provenance before it arrived. Find how.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lord Ashby",
+            "icon": "🎩",
+            "detail": "The killer — correspondence, pre-planned operation, shabti blow, pre-prepared shipping."
+          },
+          {
+            "name": "Miriam Kazan",
+            "icon": "📸",
+            "detail": "Cleared as killer — darkroom confirmed. Her photographs and inadvertent identification of the jar are now significant in a new way."
+          },
+          {
+            "name": "Sergeant Youssef Nabil",
+            "icon": "🔒",
+            "detail": "Cleared as killer — entrance post. Paid to avoid the gallery. Five years for conspiracy."
+          },
+          {
+            "name": "The Museum Director",
+            "icon": "📋",
+            "detail": "The institution's head — had been corresponding with the London buyer for months about the collection."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Antiquities Gallery",
+            "icon": "🏺",
+            "detail": "Primary crime scene — Ashby and Farouk, shabti, broken case."
+          },
+          {
+            "name": "The Director's Office",
+            "icon": "📋",
+            "detail": "Where the museum's provenance records were kept — and where correspondence with the London buyer had occurred."
+          },
+          {
+            "name": "The Photography Studio",
+            "icon": "📸",
+            "detail": "Where Miriam's prints had been available — and where Ashby had examined them."
+          },
+          {
+            "name": "London",
+            "icon": "🇬🇧",
+            "detail": "Where the buyer had received Ashby's correspondence — and where the provenance detail had been confirmed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stone Shabti",
+            "icon": "🗿",
+            "detail": "Confirmed murder weapon — Ashby's."
+          },
+          {
+            "name": "Display Case Frame",
+            "icon": "🪟",
+            "detail": "Inconsistent wound — eliminated."
+          },
+          {
+            "name": "Curator's Lamp",
+            "icon": "🪔",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "The Provenance Records",
+            "icon": "📋",
+            "detail": "Not a weapon — the documentation the buyer had received that proved the jar's authenticity before it arrived."
+          },
+          {
+            "name": "The Director's Correspondence",
+            "icon": "📬",
+            "detail": "The channel through which provenance details had reached the buyer — with or without the director's knowledge."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Arranged His Patrol to Avoid the Gallery",
+            "icon": "🔒",
+            "detail": "Nabil's confirmed role — paid 50 pounds, removed gallery from patrol route."
+          },
+          {
+            "name": "Provided Provenance Records to the Buyer",
+            "icon": "📋",
+            "detail": "The information channel that gave the buyer authentication before delivery."
+          },
+          {
+            "name": "Corresponded With the Buyer About the Collection",
+            "icon": "📬",
+            "detail": "The museum director's documented correspondence — the question is whether he knew what it was for."
+          },
+          {
+            "name": "Identified the Specific Jar",
+            "icon": "📸",
+            "detail": "Miriam's inadvertent role — told Ashby which jar was finest, not knowing why he asked."
+          },
+          {
+            "name": "Facilitated the Diplomatic Shipping",
+            "icon": "📦",
+            "detail": "The diplomatic contact who had provided credentials for the Alexandria shipment."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Private Acquisition Before the Carter Window Closed",
+            "icon": "🏺",
+            "detail": "Ashby's operational motive — the Carter discovery had created a closing window for unscrutinized acquisition."
+          },
+          {
+            "name": "Financial Payment for the Patrol Gap",
+            "icon": "💰",
+            "detail": "Nabil's motive — 50 pounds, more than six months' salary."
+          },
+          {
+            "name": "Institutional Correspondence Exploited",
+            "icon": "📋",
+            "detail": "How the provenance records reached the buyer — the director's legitimate correspondence was used without his knowledge."
+          },
+          {
+            "name": "Collector's Authentication Requirement",
+            "icon": "🏺",
+            "detail": "The buyer's reason for needing the provenance — high-value antiquities require authentication documentation."
+          },
+          {
+            "name": "Protect the Institutional Relationship",
+            "icon": "📬",
+            "detail": "Why the director had been corresponding with the buyer — he had believed it was a legitimate acquisition inquiry."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Buyer's Authentication Letter",
+        "text": "The London buyer's possession — examined when the jar is recovered — includes a letter of provenance describing the canopic jar's excavation history, dynasty attribution, and condition report in technical detail. The details match the museum's internal records exactly. The letter's format is consistent with official museum correspondence. The buyer had received documentation that could only have come from the museum's own files.",
+        "alone": "The buyer held a letter of provenance with details matching the museum's internal records — the documentation had come from inside the institution.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The provenance letter matching the museum's internal records and the director's correspondence file showing letters to the buyer's address over six months confirm the documentation channel had been the director's institutional correspondence — used by Ashby to authenticate the theft."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📬",
+        "heading": "The Director's Correspondence File",
+        "text": "The museum director's correspondence file — examined as part of the expanded investigation — shows six months of letters to a London address matching the buyer's. The director had believed he was corresponding with a potential institutional donor interested in the collection. The letters include detailed provenance descriptions of several objects, including the canopic jar set. The director had provided authentication details in good faith.",
+        "alone": "The museum director had been corresponding with the buyer for six months, believing them to be a potential institutional donor — and had included detailed provenance descriptions in his letters.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The director corresponding in good faith and the buyer receiving provenance details through legitimate institutional channels confirm the buyer had obtained authentication through a deception operation — presenting as a donor to extract the documentation needed to legitimize the theft."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "The Director's Account",
+        "text": "The museum director, confronted with the correspondence, is devastated. He confirms he had been corresponding with 'a London foundation interested in establishing an Egyptian antiquities study fund.' He had provided detailed descriptions as part of standard donor cultivation. He had not known the foundation was connected to Ashby. He had been providing the buyer's authentication documentation through a deception he had not detected.",
+        "alone": "The director had been deceived into providing authentication documentation through a false donor cultivation approach — he had not known he was documenting a theft target.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The director deceived through false donor cultivation and Ashby's six months of coordinated pressure through multiple channels confirm the operation had been conducted on multiple simultaneous fronts — direct pressure through Ashby, authentication through the false foundation, operational facilitation through Nabil."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📸",
+        "heading": "Miriam's Photographs Revisited",
+        "text": "Miriam's published magazine photographs of the canopic jar collection had appeared in a British publication three weeks before the murder. The London buyer's correspondence with the museum director had begun three weeks before the murder — precisely when the photographs had been published. The photographs had been the initial trigger: the buyer had seen them in the magazine and had initiated the false donor approach.",
+        "alone": "The buyer had initiated the false donor correspondence immediately after seeing Miriam's photographs in a British magazine — her published work had been the operation's starting point.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Miriam's photographs triggering the buyer's false donor approach and her inadvertent identification of the specific jar to Ashby confirm her work had framed both the acquisition target and the authentication sequence — entirely without her knowledge."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Ashby's Coordination",
+        "text": "Ashby's personal correspondence — recovered from his Cairo accommodation — shows letters to the London buyer describing the museum's internal positions: Farouk's resistance, the director's receptiveness to donor approaches, Nabil's financial situation. Ashby had been conducting reconnaissance and had shared it with the buyer to ensure the authentication approach was calibrated to the museum's specific vulnerabilities.",
+        "alone": "Ashby had been sending reconnaissance reports to the buyer about the museum's internal vulnerabilities — including Nabil's financial situation and the director's donor receptiveness.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The director corresponding in good faith with the false foundation and Ashby feeding the buyer reconnaissance about the director's donor receptiveness confirm the false donor approach had been specifically designed using Ashby's inside knowledge — the deception had been precision-engineered."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Foundation's Non-Existence",
+        "text": "British registry records, checked after the investigation identifies the foundation's name from the director's correspondence, show no registered foundation with that name. The address on the foundation's letterhead is a private mailing service in London. The foundation had been created specifically for the correspondence with the museum director. Its only documented activity was the six months of letters requesting provenance information.",
+        "alone": "The London foundation was fictitious — created specifically to extract provenance documentation from the museum under the cover of donor cultivation.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The director deceived by a fictitious foundation and the foundation's only activity being the provenance correspondence confirm the operation had been professionally constructed — the foundation had been created for a single purpose and had served that purpose exactly."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Operation's Full Architecture",
+        "text": "The full investigation reveals a six-month operation: Miriam's photographs published in Britain triggered the buyer's interest; the false foundation was created to extract provenance documentation; Ashby was recruited or engaged to provide reconnaissance and direct pressure; Nabil was paid to create the operational window; the shipping was pre-arranged. Five separate elements had been coordinated across six months.",
+        "alone": "The operation had five coordinated elements across six months — the killing of Farouk had been the only element that had not been planned in advance.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Ashby feeding the buyer reconnaissance about the museum's vulnerabilities and the five-element coordination across six months confirm the killing had been a contingency rather than a design — the operation had been a theft, and Farouk's resistance had converted it into a murder."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Buyer's Prosecution",
+        "text": "The London buyer — identified as a private collector named Hartley — was prosecuted in England under the Theft Act for receiving stolen goods. His defence argued he had not known the jar was stolen. The provenance letter in his possession — identical to the museum's internal records — contradicted his claimed ignorance. He received eighteen months. The fictitious foundation's mailing service address led to a solicitor who received a fine. The solicitor did not name who had instructed him to establish the mailing address.",
+        "alone": "The buyer received eighteen months — the provenance letter's match to the museum's internal records had proved he had known exactly what he was receiving.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The fictitious foundation created specifically for provenance extraction and the buyer's conviction on the basis of matching documentation confirm the operation's sophistication had ultimately provided its own evidence — the buyer had received documentation so specific it could only have come from inside the institution, proving his knowledge of the theft."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lord Ashby",
+      "location": "The Antiquities Gallery",
+      "weapon": "Stone Shabti",
+      "accomplice": "Arranged His Patrol to Avoid the Gallery",
+      "motive": "Private Acquisition Before the Carter Window Closed"
+    },
+    "epilogue": "The operation had taken six months to build. Miriam Kazan's photographs in a British magazine had triggered a buyer's interest. A fictitious foundation had been created to extract provenance documentation from the museum director, who had believed he was cultivating a donor. Ashby had fed reconnaissance to the buyer, identified Nabil as a financial vulnerability, and coordinated the entire operation from inside the museum's social world. The killing of Dr. Farouk had been the one element that had not been planned — it had been the moment a well-constructed theft had met an obstacle it had not anticipated. Lord Ashby received fifteen years. Nabil received five. The buyer received eighteen months. The solicitor received a fine. Miriam Kazan's article won a photography award. She did not know, until the trial, that her photographs had started everything."
+  }
+}

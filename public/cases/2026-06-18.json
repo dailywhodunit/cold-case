@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Miami, 1987. A luxury hotel. A federal witness found dead in his suite the night before he was supposed to testify. Someone knew where he was. 🌴🔍 Case #091 — Suite 1408. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Miami 1987, a witness protection safe house disguised as a luxury hotel, a dead witness, and a leak inside the program. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1987 Miami luxury hotel suite at night, floor-to-ceiling windows with an ocean view, a room service cart with an untouched meal, a overturned phone off the hook, a man's shoe visible behind the sofa. Teal and coral art deco interior, city lights and ocean beyond the glass. Tense and modern, style of Michael Mann meets David Lynch.",
+    "animationPrompt": "Slow pan through a 1987 Miami luxury hotel suite at night. Art deco interior. Floor-to-ceiling windows. Ocean beyond. A room service cart with an untouched meal. The camera finds an overturned phone and a man's shoe behind the sofa. City lights. The ocean. Silence. Fade to black.",
+    "hashtags": [
+      "#Miami1987",
+      "#WitnessProtection",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #091",
+    "title": "Suite 1408",
+    "setting": "The Biscayne Grand Hotel · Miami · Florida · 1987",
+    "emoji": "🌴",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Federal witness Ray Deluca was found dead in Suite 1408 of the Biscayne Grand — a hotel used as an unofficial safe house by the Miami field office. He was scheduled to testify the following morning against the Carbone organization. Three people knew his location: his handler, the hotel's security coordinator, and a prosecutor's assistant who had requested the safe house placement.",
+    "emptyState": "Three people knew the suite number. One of them told the wrong person.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Agent Frank Russo",
+            "icon": "🔫",
+            "detail": "Deluca's FBI handler — had managed the safe house placement and the security detail."
+          },
+          {
+            "name": "Marcus Webb",
+            "icon": "🏨",
+            "detail": "The hotel's security coordinator — had assigned the suite and managed internal access."
+          },
+          {
+            "name": "Diane Cho",
+            "icon": "📁",
+            "detail": "The prosecutor's assistant — had submitted the safe house request with Deluca's name and timeline."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Suite 1408",
+            "icon": "🏨",
+            "detail": "Where Deluca was found — room service untouched, phone off hook, no signs of forced entry."
+          },
+          {
+            "name": "The Hotel Security Office",
+            "icon": "🔐",
+            "detail": "Where Webb managed access logs and suite assignments."
+          },
+          {
+            "name": "The Service Corridor",
+            "icon": "🚪",
+            "detail": "The back-of-house passage connecting the service elevator to the 14th floor suites."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ligature",
+            "icon": "🪢",
+            "detail": "A strangulation wound — narrow ligature mark, professional application from behind."
+          },
+          {
+            "name": "Room Service Cart",
+            "icon": "🍽️",
+            "detail": "No wound profile match — the untouched meal suggests Deluca had not eaten before the killing."
+          },
+          {
+            "name": "Hotel Phone",
+            "icon": "📞",
+            "detail": "The overturned phone — no wound match, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Safe House Request",
+        "text": "The safe house placement request — filed by Diane Cho at the prosecutor's office — had been submitted through the standard federal channel at nine AM the day before the killing. The document listed Deluca's name, the hotel, and the suite number. This document had been filed in a system accessible to twelve people in the federal building. However, the suite number had been added by Webb after the filing — it had not been in the original request.",
+        "alone": "The suite number had been added by Webb after the original filing — only Russo and Webb had known the specific suite. Cho's filing had identified the hotel but not the room.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The suite number known only to Russo and Webb and no forced entry at the suite confirming the killer had used a key or known to gain access together narrow the source of the room-specific intelligence to the two people who had known the suite number."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪢",
+        "heading": "The Ligature",
+        "text": "The strangulation wound shows a narrow, consistent ligature mark — professional application, no struggle marks on the wrists or hands. Deluca had not fought back effectively. The entry point had not been the door — the door chain was still on the inside, requiring the killer to have used a different entry or to have been admitted by Deluca. The service corridor's door to the suite's secondary entrance had been found unlocked.",
+        "alone": "No forced entry at the main door — the service corridor secondary entrance had been unlocked. The killer had known about the secondary entrance and had used a ligature professionally.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The secondary entrance unlocked and Marcus Webb's role as hotel security coordinator giving him knowledge of all suite access points confirm he had both the facility knowledge and the access authority to use the service corridor entry."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "Diane Cho's Access",
+        "text": "Diane Cho had submitted the request and had not been involved in the hotel-side arrangements. She had no hotel access credentials and had not visited the Biscayne Grand. Phone records show no calls from Cho to any number associated with the Carbone organization. She is definitively cleared of being the source of the leak.",
+        "alone": "Cho had not visited the hotel and had no Carbone organization contact — the phone records confirm she had not been the leak. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Cho cleared by phone records and Russo's confirmed movements outside the hotel during the murder window together eliminate both other suspects from the hotel during the killing — only Webb had been inside the hotel with knowledge of the suite number and service entrance."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔫",
+        "heading": "Webb's Carbone Connection",
+        "text": "A financial investigation triggered by the leak probe reveals Marcus Webb had received a wire transfer of 15,000 dollars to an account in his brother's name six days before the killing — routed through a shell company traced to Carbone organization holdings. Webb had been paid before Deluca had even been placed in the hotel.",
+        "alone": "Webb had received 15,000 dollars from a Carbone-linked account six days before the killing — payment arranged before Deluca's placement, suggesting Webb had been recruited in advance.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Webb paid 15,000 dollars by the Carbone organization before the placement and his knowledge of the suite number and service entrance together confirm he had been recruited as an inside man before Deluca arrived — the placement had been walked into a prepared trap."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "document",
+        "icon": "🏨",
+        "heading": "The Suite Number's Distribution",
+        "text": "The suite number — 1408 — had been assigned by Webb after the safe house request arrived. He had communicated it to Russo by phone. The phone call had been logged. No other communication of the suite number is documented in any federal or hotel record. The Carbone organization had sent a man to the 14th floor that evening — confirmed by lobby camera footage showing an unidentified visitor — who had known to go directly to Suite 1408.",
+        "alone": "The Carbone visitor had gone directly to Suite 1408 without asking at the desk — they had known the suite number before arriving, and only Russo and Webb had that number.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The suite number known only to Russo and Webb and the Carbone visitor going directly to 1408 confirm the suite number had been passed to the organization by one of the two men — and Webb's financial payment six days before confirms which one."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🏨",
+        "heading": "Webb's Service Corridor Access",
+        "text": "The service corridor door to Suite 1408's secondary entrance had been unlocked from the inside — a condition that required a hotel master key to set. Webb held a master key as security coordinator. The door's lock mechanism shows it had been set to unlocked from the hotel-side panel — not by Deluca, who had not been given a secondary entrance key.",
+        "alone": "The secondary entrance had been unlocked using a master key from the hotel side — only Webb had master key access, and Deluca had not been given a secondary key.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The secondary entrance unlocked by master key and Webb as the only person with that access confirm he had prepared the entry point for the Carbone operative — the unlocking had been part of the pre-arranged facilitation."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "Russo's Evening",
+        "text": "Agent Russo had been at the federal building until nine PM reviewing testimony preparation materials, then at a diner with two other agents until eleven PM — confirmed by the agents and a receipt. He had not been at the Biscayne Grand that evening. The killing's estimated time is between nine-thirty and ten-thirty PM. Russo is cleared of being the direct killer and of being at the hotel.",
+        "alone": "Russo had been at the federal building and then a diner — confirmed by two agents and a receipt through the murder window. He is cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Cho cleared by phone records and Russo cleared by the federal building and diner receipts together eliminate both other suspects from hotel access during the killing — Webb is the only person with hotel presence, master key access, and documented Carbone payment."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Webb's Plea",
+        "text": "Confronted with the wire transfer, the master key evidence, and the lobby camera footage, Webb enters a plea agreement — he provides testimony against the Carbone organization's Miami operations in exchange for a reduced sentence. His testimony confirms he had been approached four weeks before the Deluca placement, had unlocked the secondary entrance, and had confirmed the suite number to a Carbone contact that afternoon. He receives twelve years.",
+        "alone": "Webb confirms he had been recruited four weeks before the placement, had unlocked the secondary entrance, and had confirmed the suite number — all in advance of the killing. He receives twelve years.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The 15,000-dollar pre-payment and Webb's plea confirming recruitment four weeks before the placement together establish the full timeline — the safe house placement had been compromised before Deluca had even checked in."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Webb",
+      "location": "Suite 1408",
+      "weapon": "Ligature"
+    },
+    "epilogue": "Marcus Webb had been recruited by the Carbone organization four weeks before Ray Deluca was placed at the Biscayne Grand. He had received 15,000 dollars, had assigned Suite 1408, had unlocked the secondary entrance, and had confirmed the suite number that afternoon. The Carbone operative had gone directly to 1408 from the lobby. Deluca had been killed between nine-thirty and ten-thirty PM. The testimony he would have given the following morning had not been delivered. Webb received twelve years and provided the testimony that eventually put three Carbone organization figures in federal prison. Deluca's testimony would have put five."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #091",
+    "title": "Suite 1408",
+    "setting": "The Biscayne Grand Hotel · Miami · Florida · 1987",
+    "emoji": "🌴",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Webb facilitated the killing. But Agent Russo had made an operational error that had made the safe house placement easier to compromise. Find what Russo had done wrong and whether it rose to the level of negligence.",
+    "emptyState": "Russo made an operational error. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Webb",
+            "icon": "🏨",
+            "detail": "The facilitator — 15,000 dollars, master key, secondary entrance, suite number confirmed to Carbone."
+          },
+          {
+            "name": "Agent Frank Russo",
+            "icon": "🔫",
+            "detail": "Cleared as killer — federal building and diner confirmed. Had made a procedural error that enabled the compromise."
+          },
+          {
+            "name": "Diane Cho",
+            "icon": "📁",
+            "detail": "Cleared as killer — no hotel access, no Carbone contact. Her request form's distribution had been the vulnerability."
+          },
+          {
+            "name": "The Carbone Organization",
+            "icon": "🕵️",
+            "detail": "The operational entity — had recruited Webb four weeks before the placement and had sent an operative to 1408."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Suite 1408",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Webb's facilitated killing."
+          },
+          {
+            "name": "The Hotel Security Office",
+            "icon": "🔐",
+            "detail": "Webb's location — and where the suite assignment and master key access had been managed."
+          },
+          {
+            "name": "The Federal Building",
+            "icon": "🏛️",
+            "detail": "Where the safe house request had been filed and where Russo had reviewed testimony materials."
+          },
+          {
+            "name": "The Biscayne Grand's Regular Booking Record",
+            "icon": "📋",
+            "detail": "The hotel's commercial database — where the operational error had been made visible."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ligature",
+            "icon": "🪢",
+            "detail": "Confirmed murder weapon — professional Carbone operative, secondary entrance."
+          },
+          {
+            "name": "Room Service Cart",
+            "icon": "🍽️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Hotel Phone",
+            "icon": "📞",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Russo's Operational Error",
+            "icon": "🔫",
+            "detail": "Not a weapon — but the procedural failure that had made the Biscayne Grand an identifiable safe house location."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "15,000-Dollar Payment",
+            "icon": "🏨",
+            "detail": "Webb's confirmed motive — recruited four weeks before, paid through shell company."
+          },
+          {
+            "name": "Prevent Deluca's Testimony",
+            "icon": "🕵️",
+            "detail": "The Carbone organization's operational objective — five figures potentially imprisoned by the testimony."
+          },
+          {
+            "name": "Russo's Repeated Use of the Same Hotel",
+            "icon": "🔫",
+            "detail": "The operational error — using the Biscayne Grand for the third time as a safe house for the same case."
+          },
+          {
+            "name": "Pattern Recognition by the Carbone Organization",
+            "icon": "🕵️",
+            "detail": "How the error had been exploited — Carbone had identified the hotel as a safe house location from prior use."
+          },
+          {
+            "name": "Cho's Unsecured Filing",
+            "icon": "📁",
+            "detail": "The secondary vulnerability — the request document had been accessible to twelve people in the federal building."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🔫",
+        "heading": "The Third Time at the Biscayne Grand",
+        "text": "A review of the Miami field office's safe house records reveals that the Biscayne Grand had been used twice before in the same Carbone investigation — once in April and once in July, both for different witnesses. Russo had used the same hotel three times for the same case. FBI protocol required rotating safe house locations for each use in a single investigation. The protocol had not been followed.",
+        "alone": "Russo had used the Biscayne Grand three times for the same investigation — violating the rotation protocol that required different locations to prevent pattern identification.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The three-use pattern violating rotation protocol and Carbone's recruitment of Webb four weeks before the third placement confirm the organization had identified the hotel from the prior uses and had been waiting — the Webb recruitment had been a response to the pattern Russo had established."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "How Carbone Identified the Pattern",
+        "text": "Webb's plea testimony includes a detail: the Carbone organization's Miami contact had told him 'we know they use your hotel for these things' when recruiting him. The organization had identified the Biscayne Grand as a safe house location from the April and July placements — both of which had become known to Carbone through other means. Russo's repeated use had confirmed the pattern, making it worth recruiting an inside man.",
+        "alone": "Carbone had known the Biscayne Grand was a safe house location from prior use and had recruited Webb specifically because the pattern had made it worth having an inside man there.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Carbone identifying the hotel from prior placements and recruiting Webb four weeks before the third confirms Russo's repeated use had directly enabled the compromise — the pattern had made the inside recruitment a rational operational investment for the organization."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Cho's Filing Distribution",
+        "text": "The safe house request filed by Cho had been accessible to twelve people in the federal building's secure document system — a distribution broader than necessary for the operation. Standard protocol required limiting safe house request distribution to three people: the case agent, the supervisor, and the safe house coordinator. Cho had filed through the general federal channel rather than the restricted channel, making the document visible to nine additional people.",
+        "alone": "Cho had filed through the general channel rather than the restricted channel — nine additional people had seen the safe house request who should not have.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The request's broad distribution and the post-investigation review finding no leak from the twelve federal building recipients confirm the document distribution had not been the source of the compromise — it had been a vulnerability that had not been exploited in this instance, but the review recommended correction."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🔫",
+        "heading": "The Internal Review's Finding on Russo",
+        "text": "The FBI's internal review of the Deluca operation concludes: 'Agent Russo's use of the Biscayne Grand Hotel for the third consecutive safe house placement in the same investigation constituted a significant operational security failure that materially contributed to the conditions enabling the subject's death. While Agent Russo bears no criminal responsibility for the death, his procedural non-compliance is formally noted and will be reflected in his personnel evaluation.' He received a formal reprimand.",
+        "alone": "The internal review formally found Russo's repeated hotel use had materially contributed to Deluca's death — he received a formal reprimand and a personnel notation.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Russo's formal reprimand for the procedural failure and the Carbone organization's four-week recruitment window enabled by the pattern confirm the internal review's finding was accurate — the pattern had been the enabling condition for the inside recruitment."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏨",
+        "heading": "Webb's Recruitment Timeline",
+        "text": "Webb's recruitment had occurred four weeks before the Deluca placement — but only two weeks after the second Biscayne Grand safe house use in July. The organization had moved quickly after the second use to establish an inside position, anticipating a third. They had been correct. Russo's third use had come five weeks after the July placement — within the window the organization had prepared for.",
+        "alone": "Carbone had recruited Webb two weeks after the second Biscayne Grand use, preparing for a third — and the third had come within their anticipated window.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Carbone identifying the pattern from two prior uses and recruiting Webb within two weeks of the second confirm the operational response had been rapid and professionally executed — the organization had moved faster than the field office had recognized the vulnerability."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "Russo's Explanation",
+        "text": "Russo, asked why he had used the Biscayne Grand a third time, says: 'It's a good hotel. Webb ran a tight security operation. I trusted the setup.' He is asked whether he had been aware of the rotation protocol. He says: 'I was aware of the protocol. I made a judgment call. In retrospect that was wrong.' He does not offer further justification. He receives the formal reprimand and requests a transfer to the Chicago field office.",
+        "alone": "Russo had known the rotation protocol and had made a conscious judgment call to use the same hotel again — his explanation is professional acknowledgment without further justification.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Russo's acknowledgment that he had known the protocol and made a judgment call and the internal review's formal finding confirm the reprimand was based on a genuine procedural failure — not ignorance but a decision that had had lethal consequences."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Twelve Recipients",
+        "text": "The post-investigation review of the twelve people who had accessed Cho's filing finds no evidence of any Carbone contact or unexplained financial activity among any of them. The broad distribution had been a security vulnerability that had not been exploited in this instance. The review recommends restricted channel filing for all safe house requests going forward. Cho receives a formal guidance note but no disciplinary action.",
+        "alone": "None of the twelve document recipients had been compromised — the filing distribution had been a vulnerability that had not been the leak in this instance.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Cho's broad distribution being a vulnerability and the twelve recipients being clean confirm the document had not been the leak source — the compromise had been the hotel pattern, not the federal filing, which made Russo's procedural failure the enabling condition."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌴",
+        "heading": "The Carbone Prosecution",
+        "text": "Webb's testimony — combined with the Deluca materials that had been compiled before his death — enabled the prosecution of three Carbone organization figures. Deluca's testimony would have enabled five prosecutions. The two figures who avoided prosecution because of Deluca's death remained active in the organization's Miami operations until 1991, when a separate investigation reached them. Russo transferred to Chicago. Cho was promoted to assistant prosecutor. Webb served nine of his twelve years.",
+        "alone": "Two Carbone figures avoided prosecution because of Deluca's death — they remained active for four more years until a separate investigation reached them.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Russo's procedural failure materially contributing to Deluca's death and two Carbone figures remaining active for four years as a result confirm the full cost of the operational error — measured not just in Deluca's life but in the four years of additional activity by the figures his testimony would have imprisoned."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Webb",
+      "location": "Suite 1408",
+      "weapon": "Ligature",
+      "motive": "15,000-Dollar Payment"
+    },
+    "epilogue": "Agent Frank Russo had used the Biscayne Grand three times. The Carbone organization had identified the pattern after the second use and had recruited Marcus Webb within two weeks. Webb had received 15,000 dollars, had managed the placement, had unlocked the secondary entrance, and had confirmed Suite 1408 to the organization that afternoon. An operative had gone directly to the door. Ray Deluca had not testified. Two of the five figures his testimony would have imprisoned had remained active until 1991. Russo had transferred to Chicago. Webb had served nine years. The Biscayne Grand had continued to operate as a luxury hotel. It had not been used as a safe house again."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #091",
+    "title": "Suite 1408",
+    "setting": "The Biscayne Grand Hotel · Miami · Florida · 1987",
+    "emoji": "🌴",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Webb facilitated the killing. Russo's pattern enabled the recruitment. But Diane Cho had made a separate error — she had discussed the safe house placement in a phone call that had been intercepted. Find what she said and what it had contributed to the operation's compromise.",
+    "emptyState": "Cho's phone call was intercepted. Find what she said.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marcus Webb",
+            "icon": "🏨",
+            "detail": "The facilitator — 15,000 dollars, master key, secondary entrance, nine years."
+          },
+          {
+            "name": "Agent Frank Russo",
+            "icon": "🔫",
+            "detail": "Cleared as killer — formal reprimand, three-use pattern enabling Webb's recruitment."
+          },
+          {
+            "name": "Diane Cho",
+            "icon": "📁",
+            "detail": "Cleared as killer — broad filing distribution, and a phone call that had been intercepted."
+          },
+          {
+            "name": "The Carbone Wiretap",
+            "icon": "📞",
+            "detail": "The interception capability — the organization had been monitoring Cho's office line as part of a broader surveillance operation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Suite 1408",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Webb's facilitated killing."
+          },
+          {
+            "name": "The Federal Building",
+            "icon": "🏛️",
+            "detail": "Where Cho had filed the request and made the intercepted call."
+          },
+          {
+            "name": "The Hotel Security Office",
+            "icon": "🔐",
+            "detail": "Webb's operational base — master key, suite assignment, secondary entrance management."
+          },
+          {
+            "name": "The Carbone Organization's Miami Office",
+            "icon": "🕵️",
+            "detail": "Where the intercepted call had been received and acted on."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ligature",
+            "icon": "🪢",
+            "detail": "Confirmed murder weapon — Webb's facilitated access, Carbone operative."
+          },
+          {
+            "name": "Room Service Cart",
+            "icon": "🍽️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Hotel Phone",
+            "icon": "📞",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Cho's Intercepted Call",
+            "icon": "📞",
+            "detail": "Not a weapon — but the intelligence it had provided the Carbone organization about the placement's timing."
+          },
+          {
+            "name": "The Carbone Wiretap on Cho's Line",
+            "icon": "📞",
+            "detail": "The interception infrastructure — had been in place for six weeks before the Deluca placement."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "15,000-Dollar Payment",
+            "icon": "🏨",
+            "detail": "Webb's confirmed motive."
+          },
+          {
+            "name": "Prevent Deluca's Testimony",
+            "icon": "🕵️",
+            "detail": "The Carbone organization's objective — five potential prosecutions."
+          },
+          {
+            "name": "Russo's Pattern Enabling Inside Recruitment",
+            "icon": "🔫",
+            "detail": "The structural vulnerability — three uses of the same hotel."
+          },
+          {
+            "name": "Cho's Call Providing Timing Intelligence",
+            "icon": "📁",
+            "detail": "The operational intelligence Carbone had received — the specific testimony date and Deluca's name from a call Cho had not known was intercepted."
+          },
+          {
+            "name": "The Wiretap's Six-Week Operation",
+            "icon": "📞",
+            "detail": "The interception infrastructure — had been placed on Cho's line as part of broader surveillance of the prosecutor's office."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Facilitated the Killing Directly",
+            "icon": "🏨",
+            "detail": "Webb's confirmed role — master key, secondary entrance, suite number, 15,000 dollars."
+          },
+          {
+            "name": "Established the Hotel Pattern",
+            "icon": "🔫",
+            "detail": "Russo's enabling role — three-use pattern that justified Carbone's inside recruitment investment."
+          },
+          {
+            "name": "Made the Intercepted Call Providing Timing Intelligence",
+            "icon": "📁",
+            "detail": "Cho's inadvertent role — her call had given Carbone the specific date and Deluca's identity."
+          },
+          {
+            "name": "Placed the Wiretap on Cho's Line",
+            "icon": "📞",
+            "detail": "The Carbone organization's preparatory action — had been monitoring the prosecutor's office for six weeks."
+          },
+          {
+            "name": "Sent the Operative to 1408",
+            "icon": "🕵️",
+            "detail": "The Carbone organization's operational completion — the convergence of Webb's access, Russo's pattern, and Cho's call."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📞",
+        "heading": "The Wiretap Discovery",
+        "text": "A post-investigation sweep of the federal building's phone lines — conducted after the Deluca killing — discovers an active wiretap on Diane Cho's direct line. The tap had been placed six weeks before the Deluca placement, during a period when the Carbone organization had been anticipating grand jury activity. The tap had been technically sophisticated — the kind placed by an organization with professional resources.",
+        "alone": "Cho's phone line had been wiretapped by the Carbone organization for six weeks before the Deluca placement — everything she had said on that line had been intercepted.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The wiretap on Cho's line for six weeks and the call she had made the afternoon of the placement providing Deluca's name and the testimony date confirm the organization had been harvesting intelligence from her calls well before the specific operation — the wiretap had been a long-term intelligence asset."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Intercepted Call's Content",
+        "text": "A recording of the intercepted call — seized from Carbone organization records in a subsequent raid — shows Cho had called the prosecutor's office to confirm Deluca's testimony date. She had said: 'Deluca is confirmed for tomorrow morning, nine AM. The Biscayne placement is active tonight.' She had used Deluca's name and the hotel's name on an intercepted line. The call had given the organization both the identity and the timeline.",
+        "alone": "Cho's call had provided the Carbone organization with Deluca's name, the hotel name, and the specific testimony date — on a wiretapped line she had not known was monitored.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Cho's call providing Deluca's name and timeline and the wiretap being in place for six weeks confirm this had not been a targeted interception of a single call — it had been a sustained surveillance that had paid off when Cho's call provided the specific intelligence needed to act."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "Cho's Unawareness",
+        "text": "Cho, informed of the wiretap and the intercepted call's content, is visibly shaken. She says: 'I called to confirm the schedule. I didn't know the line was tapped. I used Deluca's name because I was confirming his placement — it was a secure federal line.' The line had not been secure — the tap had been placed on the physical line outside the federal building, before the encrypted segment. Her assumption of security had been incorrect.",
+        "alone": "Cho had assumed the line was secure — the tap had been placed on the physical segment before the encryption, a technique that bypassed the federal building's internal security protocols.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cho's assumption of security being incorrect and the tap placed before the encrypted segment confirm the vulnerability had been external to the federal building's security — a physical interception of the type the building's protocols had not been designed to detect."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Three Converging Intelligence Streams",
+        "text": "Post-investigation analysis identifies three separate intelligence streams that had converged to enable the Deluca killing: the hotel pattern from Russo's repeated use (identifying the location as likely); the wiretap on Cho's line (providing the specific name, hotel, and date); and Webb's inside recruitment (providing the suite number and access). Any one of the three, alone, would not have been sufficient. All three had been necessary.",
+        "alone": "Three separate intelligence failures had converged to enable the killing — each necessary, none sufficient alone. The organization had assembled all three before acting.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three converging streams each being necessary and none sufficient alone confirm the killing had not been enabled by a single failure but by a compound vulnerability — each person's error had been manageable in isolation but catastrophic in combination."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📞",
+        "heading": "How the Wiretap Had Been Placed",
+        "text": "Technical analysis of the wiretap identifies it as placed on the physical telephone line running from the federal building's external connection point to the internal switching system — a segment that had been outside the building's physical security perimeter. The tap had been placed during a routine telephone maintenance visit six weeks before — the maintenance technician had been a Carbone organization associate.",
+        "alone": "The wiretap had been placed by a Carbone associate during a legitimate maintenance visit six weeks before — using access that the federal building's security had not flagged as suspicious.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "The wiretap placed during legitimate maintenance access and the six-week operation before the Deluca placement confirm the organization had been planning for anticipated federal activity well in advance — the tap had been a long-term intelligence investment, not a reactive measure."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📁",
+        "heading": "What the Organization Had Known Before Cho's Call",
+        "text": "Before Cho's call, the Carbone organization had known the Biscayne Grand was a probable safe house location (from Russo's pattern) and had an inside man prepared (from Webb's recruitment). What they had not known before the call: Deluca's name, the specific testimony date, and the confirmation that the Biscayne Grand placement was active for that specific night. Cho's call had been the operational trigger.",
+        "alone": "Cho's call had been the operational trigger — before it, the organization had been prepared but had not known who or when. After it, they had known both.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Cho providing Deluca's name and the specific night's placement and the organization having Webb prepared and the hotel identified confirm the call had converted a prepared capability into an executable operation — the trigger had come from Cho's line."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Cho's Formal Finding",
+        "text": "The internal review's finding on Cho: 'The subject used a witness's name on a telephone line whose security she had assumed but had not verified. This constitutes an operational security failure of lesser severity than the safe house location pattern failure, but one that provided the operational intelligence enabling the killing to proceed on a specific night. A guidance note has been issued. No disciplinary action is taken.' She is not reprimanded but the finding is noted.",
+        "alone": "Cho receives a guidance note but no disciplinary action — the finding acknowledges her error as lesser in severity than Russo's but operationally significant.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The three converging streams and Cho's finding being lesser in severity than Russo's confirm the compound vulnerability's internal weighting — the pattern had been the primary enabling condition, the wiretap interception the operational trigger, and Webb the direct instrument."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌴",
+        "heading": "The Full Picture",
+        "text": "The post-investigation review's summary: Russo's pattern had identified the location. Cho's call had identified the witness and the night. Webb had provided the suite and the access. The Carbone organization had assembled all three through six weeks of patient preparation. The review recommends: mandatory safe house rotation after each use; restricted channel filing for all witness placement requests; physical security sweeps of federal telephone lines at sixty-day intervals. All three recommendations are implemented. Ray Deluca had been killed by the convergence of three manageable failures that had not been managed.",
+        "alone": "Three recommendations address the three failures — rotation protocol enforcement, restricted filing, and physical line sweeps. All implemented after the fact.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Cho's assumption of line security being incorrect and all three recommendations being implemented post-hoc confirm the review's conclusion — each failure had been preventable by existing or proposed protocol, and none had been prevented."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marcus Webb",
+      "location": "Suite 1408",
+      "weapon": "Ligature",
+      "motive": "15,000-Dollar Payment",
+      "accomplice": "Made the Intercepted Call Providing Timing Intelligence"
+    },
+    "epilogue": "Three manageable failures had not been managed. Russo had used the same hotel three times. A Carbone associate had placed a tap on Cho's line during a maintenance visit six weeks before. Cho had confirmed Deluca's name and the placement on a line she had not verified as secure. Webb had received 15,000 dollars, had unlocked the secondary entrance, and had confirmed Suite 1408. The operative had gone directly to the door. Ray Deluca had not testified. The three recommendations had been implemented. The Biscayne Grand had not been used as a safe house again. The two Carbone figures Deluca's testimony would have imprisoned had remained active until 1991. The maintenance technician who had placed the tap had never been identified."
+  }
+}
