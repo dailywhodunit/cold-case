@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Tour de France, 1967. Stage 13. A British cyclist dead in his hotel room the night before the Ventoux climb. And a doping program that someone needed to protect at any cost. 🚴🔍 Case #116 — Stage 13. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Tour de France 1967, a cyclist dead the night before Mont Ventoux, a systematic doping program, and the person who killed to keep it secret. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1967 Tour de France hotel room the night before the Mont Ventoux stage, cycling kit draped over a chair, a race programme on the bed, a small glass vial on the nightstand beside an overturned water glass, a racing bicycle visible through the open window with the Provençal hills beyond. Sports and danger, ambition and era. Style of Eddy Merckx-era cycling photography meets Raymond Depardon.",
+    "animationPrompt": "Slow pan through a 1967 Tour de France hotel room at night. Cycling kit on a chair. A race programme on the bed. The camera finds a small glass vial on the nightstand beside an overturned water glass. Through the open window: a racing bicycle and the Provençal hills. Stage 13 is tomorrow. Fade to black.",
+    "hashtags": [
+      "#TourDeFrance1967",
+      "#Ventoux",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #116",
+    "title": "Stage 13",
+    "setting": "Tour de France Hotel · Carpentras · Provence · 1967",
+    "emoji": "🚴",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "British cyclist David Finch was found dead in his hotel room the night before Stage 13 — the Mont Ventoux climb. He had been threatening to expose a systematic doping program run by one of the Tour's major teams. Three people had access to his room that evening. The vial on his nightstand contained amphetamine sulphate.",
+    "emptyState": "He was going to talk. Three people had access. Find who silenced him.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. René Corbeau",
+            "icon": "💊",
+            "detail": "The team physician — had been administering the doping program and stood to face criminal charges if exposed."
+          },
+          {
+            "name": "Marcel Vidal",
+            "icon": "🚴",
+            "detail": "The team's star rider — had been the program's primary beneficiary and had the most to lose reputationally."
+          },
+          {
+            "name": "Elise Arnaud",
+            "icon": "📰",
+            "detail": "A French cycling journalist — had been investigating the doping program and had been speaking with Finch as a source."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Where Finch was found — kit on chair, programme on bed, vial on nightstand, water glass overturned."
+          },
+          {
+            "name": "The Team Hospitality Area",
+            "icon": "🏃",
+            "detail": "Where the team had been meeting — adjacent to the hotel's wing where Finch's room was located."
+          },
+          {
+            "name": "The Hotel Corridor",
+            "icon": "🚪",
+            "detail": "The passage outside Finch's room — where the hotel's night register tracked late movements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Potassium Chloride Injection",
+            "icon": "💉",
+            "detail": "A fatal cardiac injection — administered to mimic natural cardiac arrest in someone already stressed by a doping regimen."
+          },
+          {
+            "name": "Water Glass",
+            "icon": "🥛",
+            "detail": "No wound or injection trace — eliminated as the delivery mechanism."
+          },
+          {
+            "name": "Amphetamine Vial",
+            "icon": "💊",
+            "detail": "The vial contains amphetamine but is not the killing method — it had been placed to suggest an overdose scenario."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Finch's Expose Plan",
+        "text": "A letter found in Finch's kit bag — addressed to a Times of London sports editor but unsent — outlines a detailed account of the doping program: specific substances, dosing schedules, and the team physician's name. Finch had been compiling the account over three weeks. The letter names Dr. René Corbeau explicitly. It describes substances and methods that only someone with medical knowledge could have administered and that only a medical practitioner could face criminal liability for.",
+        "alone": "Finch's unsent letter names Corbeau explicitly and describes medical-level doping details — Corbeau's criminal liability under French law had been the letter's primary legal exposure.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Finch's letter naming Corbeau with criminal-level detail and Corbeau's confirmed presence in the hotel corridor that evening together establish both the specific threat and the proximity — Corbeau had faced criminal charges specifically, not just reputational damage."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💉",
+        "heading": "The Cardiac Injection",
+        "text": "Post-mortem examination — requested by British cycling officials who had questioned the initial natural causes classification — finds a needle mark on the inner left elbow consistent with a skilled medical injection. Potassium chloride is found in the cardiac tissue at a concentration inconsistent with natural accumulation. The injection had been administered by someone with medical training — the inner elbow site requires knowledge of vein location and injection technique.",
+        "alone": "Potassium chloride had been administered by medical injection to the inner elbow — requiring medical training and knowledge of vein location.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The medical injection requiring specific clinical skill and Dr. Corbeau's documented medical qualifications and regular administration of injections to riders together confirm the method had been within his specific professional capability and routine practice."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🚴",
+        "heading": "Vidal's Evening",
+        "text": "Marcel Vidal had been at the team's massage session and pre-stage briefing from eight PM until ten PM — confirmed by the team's masseur, the directeur sportif, and four other riders. He had gone directly to his room at ten PM and had not been seen in the corridor afterward. The killing had occurred between ten and midnight based on the post-mortem. He is definitively cleared.",
+        "alone": "Vidal had been at the team session until ten PM confirmed by six people and had gone to his room — he had not been in the corridor after ten PM. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Vidal cleared at the team session and Elise Arnaud confirmed in the hotel restaurant until eleven PM together eliminate both other suspects — only Corbeau's movements in the corridor between ten PM and midnight are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💊",
+        "heading": "Corbeau's Criminal Exposure",
+        "text": "French law in 1967 made it a criminal offence for a licensed physician to administer controlled substances to athletes for performance enhancement. Corbeau held a French medical licence. The substances described in Finch's letter — amphetamine sulphate, corticosteroids, and a specific stimulant compound — had been administered by Corbeau, as the letter documented. If Finch's account had been published, Corbeau faced criminal prosecution and loss of his medical licence.",
+        "alone": "Corbeau faced criminal prosecution and licence loss under French law — the exposure was existential to his medical career and liberty, not merely reputational.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Corbeau's criminal exposure and the amphetamine vial placed to suggest an overdose scenario together confirm the killing had been planned to prevent the exposure — the staged scene had been designed to make the death appear consistent with the very activities Finch had been about to expose."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💊",
+        "heading": "Corbeau in the Corridor",
+        "text": "The hotel's night register — a log maintained by the night concierge of corridor movements after ten PM — shows Corbeau had passed Finch's room at ten-twenty PM, according to the concierge who had noted his room number request. Corbeau had asked for Finch's room number, stating he was the team physician checking on a rider who had complained of cramps. The concierge had confirmed the room and had seen Corbeau walk toward it.",
+        "alone": "Corbeau had asked for Finch's room number at ten-twenty PM and had walked toward the room — using the medical pretext of checking on a rider with cramps.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Finch's letter specifically naming Corbeau and Corbeau's ten-twenty PM approach to Finch's room under a medical pretext together confirm the approach had been specifically directed at the person who had been documenting his criminal activities."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💊",
+        "heading": "The Staged Overdose Scene",
+        "text": "The amphetamine vial on the nightstand had been placed deliberately — its cap had been removed and replaced in a way inconsistent with natural use. The vial contained a dose insufficient for fatal overdose. The staging had been designed to suggest Finch had been using amphetamines recreationally or in excessive self-medication, making his death appear consistent with the Tour's known doping culture without triggering a murder investigation. The staging had initially succeeded — the death had been classified as natural causes.",
+        "alone": "The vial had been staged — its cap replacement pattern was inconsistent with natural use, and the dose had been insufficient for a fatal overdose. The staging had initially produced a natural causes classification.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The potassium chloride injection inconsistent with natural death and the staged overdose scene initially producing a natural causes classification together confirm the killing had been designed to look like a Tour doping casualty — the medical knowledge behind both the method and the staging had been the same."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Elise Arnaud's Evening",
+        "text": "Elise Arnaud had been at the hotel restaurant from eight PM until eleven PM — confirmed by the restaurant's reservation, the waiter who had served her, and two other journalists at an adjacent table. She had been working on notes from her interview with Finch that afternoon. She had not been in the corridor before eleven PM. She is definitively cleared.",
+        "alone": "Elise had been at the restaurant until eleven PM — confirmed by the reservation, the waiter, and two journalists. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Vidal cleared at the team session and Elise cleared at the restaurant together eliminate both other suspects from Finch's corridor before eleven PM — Corbeau's ten-twenty PM corridor approach is the only confirmed movement toward Finch's room during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "The Stage 13 Outcome",
+        "text": "Stage 13 — the Mont Ventoux climb — proceeded the following day. Marcel Vidal had finished second on the stage. The Tour had continued. Three weeks after the race, British cycling officials had requested the post-mortem re-examination that had identified the potassium chloride. The French authorities had reopened the case. Corbeau had been arrested in September 1967. He had received eight years. Elise Arnaud had published her investigation in L'Équipe the following year, incorporating Finch's letter. The Tour had introduced systematic anti-doping controls in 1968.",
+        "alone": "The Tour had introduced anti-doping controls in 1968 — the year after Finch's death and Elise's publication. Corbeau had received eight years.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Corbeau's criminal exposure under French law and his eight-year sentence following the re-examination confirm the exposure Finch had been about to create had been legally accurate — the criminal liability he had documented had been real and had been the basis of the conviction."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. René Corbeau",
+      "location": "The Hotel Room",
+      "weapon": "Potassium Chloride Injection"
+    },
+    "epilogue": "Dr. René Corbeau had asked the concierge for Finch's room number at ten-twenty PM. He had gone to the room under the pretext of checking on a rider with cramps. He had administered the potassium chloride injection to the inner elbow. He had placed the amphetamine vial on the nightstand. He had left. The death had been classified as natural causes. Stage 13 had been climbed. Vidal had finished second. Three weeks later the British officials had requested the re-examination. Corbeau had been arrested in September. Elise had published in L'Équipe the following year, incorporating Finch's letter. Anti-doping controls had been introduced in 1968. Corbeau had received eight years. Finch's letter had been the evidence. He had nearly sent it to the Times. Stage 13 had been the last stage he had not ridden."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #116",
+    "title": "Stage 13",
+    "setting": "Tour de France Hotel · Carpentras · Provence · 1967",
+    "emoji": "🚴",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Corbeau killed Finch and staged the scene. But Elise Arnaud had interviewed Finch that afternoon and had known he planned to go public. Find what Elise had done after the interview and whether she had tried to protect Finch.",
+    "emptyState": "Elise interviewed Finch that afternoon. She knew he was in danger. Find what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. René Corbeau",
+            "icon": "💊",
+            "detail": "The killer — concierge log, potassium chloride, staged vial, eight years."
+          },
+          {
+            "name": "Marcel Vidal",
+            "icon": "🚴",
+            "detail": "Cleared as killer — team session confirmed. His Stage 13 performance is the investigation's secondary thread."
+          },
+          {
+            "name": "Elise Arnaud",
+            "icon": "📰",
+            "detail": "Cleared as killer — restaurant confirmed. Had interviewed Finch that afternoon and had known he was planning disclosure."
+          },
+          {
+            "name": "Elise's Editor",
+            "icon": "📰",
+            "detail": "The L'Équipe sports editor — whose response to Elise's afternoon filing had determined whether the story ran before the killing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Corbeau's killing."
+          },
+          {
+            "name": "The Hotel Restaurant",
+            "icon": "🍽️",
+            "detail": "Elise's confirmed location — and where she had been filing her notes after the afternoon interview."
+          },
+          {
+            "name": "The L'Équipe Office in Paris",
+            "icon": "📰",
+            "detail": "Where Elise's afternoon filing had been sent — and where the editorial decision had been made."
+          },
+          {
+            "name": "Finch's Room During the Afternoon",
+            "icon": "🏨",
+            "detail": "Where the interview had taken place — and where Elise had seen the letter."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Potassium Chloride Injection",
+            "icon": "💉",
+            "detail": "Confirmed murder weapon — Corbeau's medical skill, staged scene."
+          },
+          {
+            "name": "Water Glass",
+            "icon": "🥛",
+            "detail": "No injection trace — eliminated."
+          },
+          {
+            "name": "Amphetamine Vial",
+            "icon": "💊",
+            "detail": "Staged, insufficient dose — eliminated as killing method."
+          },
+          {
+            "name": "Elise's Afternoon Filing",
+            "icon": "📰",
+            "detail": "Not a weapon — but the story she had filed that afternoon and what the editorial response had been."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Criminal Exposure",
+            "icon": "💊",
+            "detail": "Corbeau's motive — eight years, medical licence, French law."
+          },
+          {
+            "name": "Break the Doping Story Before Finch Was Silenced",
+            "icon": "📰",
+            "detail": "Elise's journalistic objective — had filed after the interview."
+          },
+          {
+            "name": "Editorial Caution About a Named Physician Accusation",
+            "icon": "📰",
+            "detail": "Why the story had not run before the killing — the editor had held it pending verification."
+          },
+          {
+            "name": "Elise's Warning Attempt",
+            "icon": "📰",
+            "detail": "What Elise had done after the interview to try to protect Finch."
+          },
+          {
+            "name": "The Editor's Response to Elise's Second Call",
+            "icon": "📰",
+            "detail": "What happened when Elise had contacted the editor after the interview — and why the story still had not run."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "The Afternoon Interview",
+        "text": "Elise's notes from the afternoon interview — submitted to L'Équipe that evening — describe Finch as 'visibly frightened but determined.' He had shown her the unsent Times letter and had told her he planned to send it the following morning before Stage 13. He had also told her: 'Corbeau knows I've been talking. He came to my room last week and told me to be careful what I said to journalists.' Finch had already been warned by Corbeau.",
+        "alone": "Finch had told Elise that Corbeau had already visited him and warned him about speaking to journalists — she had known Finch was specifically under threat from the person he was exposing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Finch telling Elise that Corbeau had warned him and Elise filing the story immediately after the interview confirm she had understood the threat's specificity — the story had been filed as a protective measure as well as a journalistic one."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Elise's Filing and the Editor's Response",
+        "text": "Elise had filed her interview notes to L'Équipe at six PM. The editor had called her back at seven PM: 'He told me the story was strong but that naming a team physician criminally required more verification — a second source, or on-record confirmation from a rider. He told me to get confirmation before he would run it. I told him Finch was in danger. He told me that was a reason to work faster, not a reason to lower the standard.'",
+        "alone": "The editor had held the story for a second source or on-record rider confirmation — and had told Elise that danger was a reason to work faster, not to lower the standard.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The editor's standard requiring on-record rider confirmation and Elise's second call to the editor after the interview together frame the sequence — the story had been held for exactly the kind of corroboration that would have required additional time Finch had not had."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Elise's Warning Attempt",
+        "text": "Elise had gone to Finch's room at seven-thirty PM — after the editor's call — to tell him she was working on verification and to warn him not to be alone with Corbeau. The hotel corridor log shows her passing his room at seven-thirty. Finch had been in his room — she had spoken to him through the door. He had told her he was tired and was going to sleep. She had returned to the restaurant. She had not been able to convince him to move rooms or to call a colleague.",
+        "alone": "Elise had gone to Finch's room at seven-thirty PM to warn him specifically about Corbeau — he had said he was tired and had not taken further precautions.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Elise warning Finch at seven-thirty PM about Corbeau specifically and Corbeau approaching the room at ten-twenty PM together confirm the warning had been accurate and had not been sufficient — Finch had been aware of the risk and had not acted to reduce it."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Elise's Publication After the Killing",
+        "text": "Elise published the full investigation in L'Équipe eleven months after Finch's death — incorporating his letter, her interview notes, and the evidence from Corbeau's trial. The story had been nominated for the Prix Albert Londres, France's highest journalism award. The nomination's description: 'An investigation that cost its primary source his life and that the journalist pursued for eleven months after his death to ensure it was fully told.' She had not won the prize. It had been given to a political journalist.",
+        "alone": "Elise had published eleven months after the killing and had been nominated for the Prix Albert Londres — the nomination had described the investigation's human cost.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The nomination describing the investigation as having cost its source his life and Elise's two-call sequence on the day of the killing together confirm the investigation's full weight — she had warned Finch, had tried to have the story run before the killing, and had spent eleven months ensuring it was fully told after."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Elise's Second Call to the Editor",
+        "text": "Elise had called the editor a second time at nine PM — from the restaurant, after her warning to Finch. She had told him: 'Finch has already been warned by Corbeau. He is in that room tonight. If the story runs tomorrow morning, Corbeau will know it's coming from Finch and he won't touch him. If it doesn't run, Finch is alone with this tonight.' The editor had told her the standard had not changed and had ended the call.",
+        "alone": "Elise's nine PM call had described the specific protective value of running the story — the editor had held to the standard regardless.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Elise warning Finch at seven-thirty and calling the editor at nine PM arguing for protective publication together confirm she had been working on two simultaneous protective strategies — neither had prevented the killing."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Editor's Post-Killing Account",
+        "text": "The L'Équipe editor's account, given to a journalism ethics inquiry in 1968: 'Elise told me Finch was in danger. I believed her. I also believed that publishing a criminal accusation against a named physician without a second source would have exposed the newspaper to defamation and would have been wrong. My decision not to run the story that night was the correct journalistic decision. It was also possibly the wrong human decision. I have thought about the difference every day since.'",
+        "alone": "The editor had believed Elise's warning and had held the story for journalistic standards — he had acknowledged the difference between the correct journalistic decision and the wrong human one.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The editor holding to the standard despite Elise's warning and his acknowledgment of the human-journalistic distinction together confirm the same moral tension that had appeared in the Ascot case (#114) and the Nuremberg case (#113) — the professional standard and the human imperative had pointed in different directions."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "Vidal's Stage 13 Performance",
+        "text": "Marcel Vidal had finished second on Stage 13 — the Mont Ventoux climb. His performance had been remarkable given that the team's doping program had been disrupted by Finch's death and the investigation. The investigation's toxicology analysis of Vidal had found amphetamine traces consistent with the program Finch had described. Vidal had been banned from racing for two years in 1968 following the anti-doping controls' introduction. He had returned to racing in 1970 and had never won a major tour.",
+        "alone": "Vidal had finished second on Stage 13 with traces of the program's substances in his system — he had been banned for two years following the 1968 controls.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Vidal's Stage 13 performance confirming the doping program's continued operation the night after Finch's death and his two-year ban following the controls together confirm the program had been real, pervasive, and consequential — the story Finch had died for had been accurate."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "The 1968 Controls",
+        "text": "The Tour de France's 1968 anti-doping controls — introduced in direct response to Finch's death, the Corbeau case, and Elise's investigation — represented the first systematic testing programme in professional cycling. The controls had been advocated by cycling officials who had cited 'the human cost of the absence of regulation' in their formal recommendation. The recommendation had cited David Finch's name in a footnote. The controls had been imperfect and had been strengthened over subsequent decades. The Tour continues.",
+        "alone": "The 1968 controls had cited Finch's name in a footnote — the investigation that had cost him his life had been part of the formal record that had produced the regulatory change.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Elise's eleven-month investigation and the 1968 controls citing Finch's name together confirm the full arc — Finch had died for a story that had been published and had produced the regulatory change it had been meant to trigger, with his name in the official record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. René Corbeau",
+      "location": "The Hotel Room",
+      "weapon": "Potassium Chloride Injection",
+      "motive": "Prevent Criminal Exposure"
+    },
+    "epilogue": "Elise had warned Finch at seven-thirty PM specifically about Corbeau. She had called the editor at nine PM and had told him the story's protective value. The editor had held the standard. Corbeau had approached the room at ten-twenty PM. The injection had been administered. The vial had been placed. The stage had been climbed. Elise had published eleven months later. The editor had thought about the difference every day. The controls had been introduced in 1968. Finch's name had been in the footnote. Vidal had been banned for two years. The Tour continues. Elise's investigation had been nominated for the Prix Albert Londres. It had not won. The prize had gone to a political journalist. Finch's letter had been the evidence that the criminal liability he had described had been real."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #116",
+    "title": "Stage 13",
+    "setting": "Tour de France Hotel · Carpentras · Provence · 1967",
+    "emoji": "🚴",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Corbeau killed Finch. Elise tried to warn him and tried to publish. But Marcel Vidal had known Finch planned to talk — and had gone to Corbeau to tell him. Find when Vidal had warned Corbeau and what that had set in motion.",
+    "emptyState": "Vidal warned Corbeau about Finch. Find when and what it started.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. René Corbeau",
+            "icon": "💊",
+            "detail": "The killer — concierge log, injection, staged vial, eight years, medical licence revoked."
+          },
+          {
+            "name": "Marcel Vidal",
+            "icon": "🚴",
+            "detail": "Cleared as killer — team session confirmed. Had warned Corbeau about Finch. Two-year ban."
+          },
+          {
+            "name": "Elise Arnaud",
+            "icon": "📰",
+            "detail": "Cleared as killer — restaurant confirmed. Warned Finch, tried to publish, published eleven months later."
+          },
+          {
+            "name": "Vidal's Prior Warning to Corbeau",
+            "icon": "🚴",
+            "detail": "The chain's initiating action — the warning Vidal had given Corbeau that had set the killing in motion."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Corbeau's killing."
+          },
+          {
+            "name": "The Team Hospitality Area",
+            "icon": "🏃",
+            "detail": "Where Vidal had warned Corbeau — adjacent to the hotel wing where Finch's room was."
+          },
+          {
+            "name": "The Hotel Restaurant",
+            "icon": "🍽️",
+            "detail": "Where Elise had been — and where Finch had first spoken to Vidal the previous day."
+          },
+          {
+            "name": "The Col de Ventoux Route",
+            "icon": "⛰️",
+            "detail": "The stage's destination — and where Vidal's doping-assisted performance had confirmed the program's continuation."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Potassium Chloride Injection",
+            "icon": "💉",
+            "detail": "Confirmed murder weapon — Corbeau's."
+          },
+          {
+            "name": "Water Glass",
+            "icon": "🥛",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Amphetamine Vial",
+            "icon": "💊",
+            "detail": "Staged — eliminated as killing method."
+          },
+          {
+            "name": "Vidal's Warning to Corbeau",
+            "icon": "🚴",
+            "detail": "Not a weapon — but the disclosure that had sent Corbeau to Finch's room."
+          },
+          {
+            "name": "Finch's Previous Day Conversation With Vidal",
+            "icon": "🚴",
+            "detail": "Not a weapon — the conversation that had given Vidal the information he had passed to Corbeau."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Criminal Exposure",
+            "icon": "💊",
+            "detail": "Corbeau's motive — eight years, medical licence."
+          },
+          {
+            "name": "Protect His Own Racing Career",
+            "icon": "🚴",
+            "detail": "Vidal's motive for warning Corbeau — the doping program's exposure would have ended his career."
+          },
+          {
+            "name": "Finch's Mistake in Approaching Vidal",
+            "icon": "🚴",
+            "detail": "The chain's origin — Finch had approached Vidal hoping he would corroborate, and Vidal had reported the approach to Corbeau."
+          },
+          {
+            "name": "Vidal's Understanding of What Corbeau Would Do",
+            "icon": "🚴",
+            "detail": "Whether Vidal had anticipated the killing — the moral question."
+          },
+          {
+            "name": "Vidal's Two-Year Ban as Partial Accountability",
+            "icon": "🚴",
+            "detail": "The legal consequence — doping-related, not killing-related."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Finch and Staged the Scene",
+            "icon": "💊",
+            "detail": "Corbeau's confirmed role — eight years."
+          },
+          {
+            "name": "Warned Finch and Tried to Publish",
+            "icon": "📰",
+            "detail": "Elise's protective role — published eleven months later."
+          },
+          {
+            "name": "Warned Corbeau About Finch's Exposure Plan",
+            "icon": "🚴",
+            "detail": "Vidal's role — set the killing in motion, banned for doping, no criminal charge."
+          },
+          {
+            "name": "Provided Finch With the Doping Information That Had Made the Letter Possible",
+            "icon": "🚴",
+            "detail": "The ironic element — Vidal had been the source of some of Finch's information before turning against him."
+          },
+          {
+            "name": "Held the Story for Journalistic Standards",
+            "icon": "📰",
+            "detail": "The editor's role — thought about the difference every day."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🚴",
+        "heading": "Finch's Approach to Vidal",
+        "text": "The investigation reconstructs: two days before the killing, Finch had approached Vidal at the hotel restaurant and had asked him to confirm aspects of the doping program on the record. Finch had believed Vidal might cooperate — he had been a British rider's teammate on a previous race and had trusted him. Vidal had listened and had said nothing. He had then gone directly to Corbeau and had described the conversation.",
+        "alone": "Finch had approached Vidal for on-record corroboration and Vidal had reported the approach to Corbeau immediately — the approach Finch had made hoping for support had been what had triggered the killing's preparation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Finch approaching Vidal for corroboration and Vidal reporting the approach to Corbeau together confirm the approach had been the chain's origin — Finch had sought the corroboration his story had needed and had found, instead, the person who had sent Corbeau to his room."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🚴",
+        "heading": "Vidal's Account",
+        "text": "Vidal, in his evidence to the French investigation: 'Finch came to me and told me what he was planning. I told René because René had to know. I told myself I was protecting the team. I did not think about what René would do. I assumed he would talk to Finch, offer him money, deal with it the way these things are dealt with. I was not thinking about — I was not thinking about anything except the race and the program and the exposure. I was not thinking about David Finch as a person.'",
+        "alone": "Vidal had warned Corbeau and had assumed a financial resolution — he had not thought of Finch as a person in the moment of the warning.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Vidal assuming Corbeau would offer money and Corbeau administering a potassium chloride injection together present the gap between Vidal's assumption and Corbeau's action — a gap that had been determinative for Finch."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "Vidal's Prosecution Decision",
+        "text": "The French investigators examine whether Vidal can be charged as an accessory to murder. The finding: 'Vidal's disclosure to Corbeau had enabled Corbeau to identify Finch as an imminent threat and to act against him. Whether Vidal foresaw that Corbeau would respond with lethal means rather than with financial persuasion cannot be established from the evidence. His disclosure had been the necessary condition for the killing but had not been the sufficient condition. No accessory charge is brought.'",
+        "alone": "No accessory charge is brought — Vidal's disclosure had been the necessary but not sufficient condition, and his foresight of lethal means could not be established.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Vidal not charged as accessory and his two-year doping ban being the only legal consequence together confirm the legal gap — the necessary-but-not-sufficient finding had protected him from the killing's consequences while the doping controls had addressed the program."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "Vidal's Ironic Role as Finch's Source",
+        "text": "Elise's investigation reveals an additional dimension: some of the specific details in Finch's letter — the substance names, the dosing schedules — had come from Vidal himself, shared during a pre-Tour conversation when Vidal had trusted Finch and had spoken openly. Vidal had been both the source of Finch's information and the person who had reported Finch's exposure plan to Corbeau. He had given Finch the information to document him and had then destroyed the documentation's author.",
+        "alone": "Vidal had been both the source of some of Finch's information and the person who had reported the exposure plan to Corbeau — he had been simultaneously the information's origin and its termination.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Vidal providing the information and then reporting the exposé to Corbeau together confirm the full irony of Finch's situation — the person whose trust he had sought had been the person whose earlier trust had given him the information that had made the letter possible."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "The Warning's Timing",
+        "text": "Vidal had warned Corbeau two days before the killing — the same day Finch had approached him. Corbeau had then made his preliminary visit to Finch's room (the warning Finch had described to Elise) and had assessed the threat. He had decided that Finch needed to be silenced before Stage 13 — the stage where Finch had planned to send the Times letter and where the doping program's benefits would be most visible and most verifiable. The timing of the killing the night before Stage 13 had been deliberate.",
+        "alone": "Corbeau had chosen the night before Stage 13 specifically — the stage where the doping benefits would be most visible and where Finch had planned to send the letter.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Finch approaching Vidal two days before and Corbeau timing the killing to the night before Stage 13 together confirm the chain's two-day span — from Finch's approach to Vidal to Vidal's warning to Corbeau's preliminary assessment to the killing had been forty-eight hours."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "witness",
+        "icon": "🚴",
+        "heading": "Vidal After the Race",
+        "text": "Marcel Vidal had completed Stage 13 in second place the morning after Finch's death. He had not known at that point that Corbeau had killed Finch — he had known Finch was dead and had assumed, as the hotel had initially classified, that it had been a natural causes event. He had won two more stages in the Tour. He had been banned for two years in 1968. He had returned in 1970. In a 1975 interview he had said: 'I warned René about Finch. Whatever René did with that warning, I carry it.'",
+        "alone": "Vidal's 1975 acknowledgment — 'Whatever René did with that warning, I carry it' — confirms his post-investigation understanding of his role.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Vidal not charged as accessory and his 1975 acknowledgment of carrying the warning's consequence together confirm the legal and personal outcomes had diverged — the law had not reached him, and his own assessment had."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "The Chain's Full Accounting",
+        "text": "Two days before Stage 13: Finch approaches Vidal for corroboration. Vidal warns Corbeau. Corbeau visits Finch as a warning. Elise interviews Finch — he tells her about Corbeau's warning. Elise files to L'Équipe and warns Finch. Editor holds the story. Nine PM: Elise calls the editor again. Ten-twenty PM: Corbeau approaches Finch's room. The injection. The staged vial. Stage 13. The controls in 1968. Eleven months: Elise's publication. Vidal's ban. Corbeau's conviction. The Prix Albert Londres nomination. The political journalist's prize. The Tour continues.",
+        "alone": "The full chain from Finch's approach to Vidal to the Tour's continuing — every element assembled.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Vidal's warning two days before and the killing timed to the night before Stage 13 confirm the chain's span and the deliberateness of its endpoint — forty-eight hours from approach to killing, with the Stage as the frame."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚴",
+        "heading": "What Finch's Letter Had Said About Vidal",
+        "text": "Finch's unsent letter to the Times had named Vidal as the program's primary beneficiary. It had not named him as a corroborating source — Finch had protected that confidence even in his exposé. The letter had described Vidal's performance gains, his substance regimen, and his role as the program's showcase rider. Vidal had been the letter's subject as well as the person who had reported its author. Finch had protected Vidal as a source while documenting him as a subject. The protection had not been reciprocated.",
+        "alone": "Finch had protected Vidal as a source in the letter while documenting him as a subject — the protection had not been reciprocated.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Vidal providing information and then reporting the exposé and Finch protecting Vidal as a source while documenting him as a subject together confirm the moral asymmetry — Finch had extended a protection that Vidal had not extended in return."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. René Corbeau",
+      "location": "The Hotel Room",
+      "weapon": "Potassium Chloride Injection",
+      "motive": "Prevent Criminal Exposure",
+      "accomplice": "Warned Corbeau About Finch's Exposure Plan"
+    },
+    "epilogue": "Finch had approached Vidal for corroboration and had protected him as a source in the letter. Vidal had warned Corbeau and had carried the consequence. Corbeau had visited Finch as a warning and had returned at ten-twenty PM. Elise had warned Finch and had tried to publish. The editor had held the standard. Stage 13 had been climbed. The injection had been administered the night before. The controls had been introduced in 1968. Eleven months: Elise's publication. Vidal had been banned for two years. Corbeau had received eight years. The Prix Albert Londres had gone to a political journalist. Vidal's 1975 interview had said: whatever René did with that warning, I carry it. The Tour continues. Finch's name is in the 1968 controls' footnote. The letter had protected Vidal as a source while documenting him as a subject. The protection had not been reciprocated. Stage 13 was the last stage David Finch did not ride."
+  }
+}

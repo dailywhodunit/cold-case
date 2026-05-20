@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hong Kong, July 1st 1997. The handover to China. A British intelligence officer dead in the harbor district while the ceremony was happening. And documents that had to leave the territory before midnight. 🌃🔍 Case #108 — Handover. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Hong Kong 1997 handover night, a British intelligence officer dead in the harbor district, and intelligence files that someone needed out of the territory before sovereignty transferred. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Hong Kong harbor district on the night of July 1st 1997, neon reflections on wet streets, a British intelligence officer's briefcase open beside a fire door, the harbor lights and fireworks visible through an alley gap, a figure in a grey jacket slumped against a loading dock wall. Wet neon, transition, the last night of something. Style of Wong Kar-wai meets John le Carré.",
+    "animationPrompt": "Slow pan through Hong Kong harbor district streets on the night of July 1st 1997. Neon reflections on wet streets. Fireworks visible through an alley gap. The camera finds an open briefcase beside a fire door and a figure slumped against a loading dock wall. The harbor beyond. The ceremony is somewhere else. Fade to black.",
+    "hashtags": [
+      "#HongKong1997",
+      "#Handover",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #108",
+    "title": "Handover",
+    "setting": "Harbor District · Hong Kong · July 1st, 1997",
+    "emoji": "🌃",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "MI6 officer David Fenn was found dead in the harbor district at eleven PM — one hour before sovereignty transferred to China. His briefcase had contained the final extraction package: names of British intelligence assets who would become compromised under the new administration. The package was gone. Three people had known where Fenn would be that night.",
+    "emptyState": "One hour before midnight. The asset list is gone. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Helen Sze",
+            "icon": "🌃",
+            "detail": "A Hong Kong Special Branch officer — had been coordinating the extraction logistics with Fenn."
+          },
+          {
+            "name": "Martin Webb",
+            "icon": "💼",
+            "detail": "A British diplomat — had been managing the handover's official paperwork and had after-hours access to the district."
+          },
+          {
+            "name": "James Kwan",
+            "icon": "🔑",
+            "detail": "A Hong Kong businessman — had been providing the safe house network for asset extraction."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Loading Dock",
+            "icon": "🏗️",
+            "detail": "Where Fenn was found — briefcase open, fire door ajar, harbor visible through the gap."
+          },
+          {
+            "name": "The Handover Ceremony",
+            "icon": "🎆",
+            "detail": "Where almost everyone with relevant authority had been — providing cover for the harbor district operation."
+          },
+          {
+            "name": "The Safe House",
+            "icon": "🏠",
+            "detail": "Two blocks from the loading dock — where the assets had been waiting for Fenn's arrival."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "A single shot — professional, suppressed, no witnesses despite the fireworks coverage."
+          },
+          {
+            "name": "Loading Dock Chain",
+            "icon": "⛓️",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Briefcase Lock",
+            "icon": "💼",
+            "detail": "No wound consistent with a blunt edge — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Extraction Package",
+        "text": "The briefcase had contained what Fenn's handlers called the Final Night Package — a list of 23 active British intelligence assets in Hong Kong and southern China, their cover identities, and their emergency contact protocols. Under the new administration, these identities would be at risk within weeks. The package's purpose had been to enable emergency extraction before the handover's legal consequences took effect. It was gone.",
+        "alone": "The 23-asset list and extraction protocols were taken — without them, the assets had no coordinated emergency exit from the new jurisdiction.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The 23-asset list taken and Helen Sze's role as Special Branch coordinator giving her complete knowledge of the extraction logistics together establish the access dimension — she had known Fenn's route, the package's contents, and the assets' identities."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Suppressed Shot",
+        "text": "A single suppressed pistol shot to the chest — professional and silent amid the handover fireworks that had been detonating across the harbor throughout the evening. The fireworks had provided acoustic cover for a suppressed weapon. The shot's angle indicates Fenn had been facing the shooter — someone he had approached or expected. No shell casing found. Professional disposal.",
+        "alone": "A professional suppressed shot with no casing — the killer had been expected by Fenn or had approached in a way that had not alarmed him before the shot.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Fenn facing the shooter without alarm and James Kwan's established trusted-contact status with Fenn from six months of safe house coordination together confirm Fenn had not been alarmed by the approach — a trusted collaborator had been the most likely person he would have faced without drawing his own weapon."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌃",
+        "heading": "Helen Sze's Location",
+        "text": "Helen Sze had been at the handover ceremony at the Convention Centre — her presence confirmed by Hong Kong government records, a British consular official, and CCTV footage showing her in the ceremony hall from ten PM until midnight. She had not been in the harbor district. She is definitively cleared.",
+        "alone": "Helen had been at the Convention Centre from ten PM to midnight — confirmed by government records, a British consular official, and CCTV. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Helen cleared at the Convention Centre and Martin Webb confirmed at his diplomatic post from nine PM together eliminate both British-side suspects — only Kwan's movements during the eleven PM window are unconfirmed in the harbor district."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Kwan's Safe House Network",
+        "text": "James Kwan had been providing safe houses for British intelligence asset extraction for six months — his network of properties in the harbor district had been the logistical backbone of the extraction operation. He had known every asset's identity, their cover, and their scheduled extraction time. He had also known the financial arrangements — he had been paid 80,000 Hong Kong dollars for the network's use. The same network would have been worth considerably more to a different buyer.",
+        "alone": "Kwan had known all 23 assets' identities, covers, and extraction times — his network had made him the person with the most complete operational knowledge of the extraction.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Kwan's complete operational knowledge of the extraction and the package's specific value to a buyer who had wanted the assets identified rather than extracted together confirm his unique position — the person who had known the most about the extraction had also been in the position to most profitably betray it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "Kwan's Eleven PM Movements",
+        "text": "Kwan had been managing the safe house network from a coordination point two blocks from the loading dock — his own account. No one confirms his precise location between ten-forty-five and eleven-thirty PM. The loading dock was within two minutes' walk of his coordination point. The fireworks had been continuous from ten-thirty PM onward. Kwan's confirmed presence after eleven-thirty PM is at the safe house itself — he had been absent for the forty-five-minute window.",
+        "alone": "Kwan had a forty-five-minute unconfirmed window that included an easy walk to the loading dock — during the fireworks that had provided acoustic cover for the suppressed shot.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The professional suppressed shot during the fireworks window and Kwan's forty-five-minute unconfirmed presence within two minutes' walk of the loading dock together place him in position during the acoustic cover window the killing had required."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Kwan's Buyer",
+        "text": "A post-handover intelligence review — conducted by MI6 in 1998 — identifies that within three weeks of the handover, six of the 23 assets had been quietly detained by mainland Chinese security services. The speed of the detentions, their specificity, and the absence of any public announcement suggests the detaining authority had possessed precise identification information. The extraction package had been sold to mainland intelligence.",
+        "alone": "Six of the 23 assets had been detained within three weeks — the speed and specificity of the detentions confirm the package had reached mainland intelligence within days of the handover.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Kwan's complete knowledge of all assets and the detentions confirming the package had reached mainland intelligence together confirm the package had been sold — and Kwan had been the only person who had combined complete knowledge with the access to deliver it."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Webb's Diplomatic Post",
+        "text": "Martin Webb had been at his diplomatic post in the consular building from nine PM through the handover — managing official correspondence and the consulate's administrative transition. Three staff members confirm his continuous presence. He had not been in the harbor district. He is definitively cleared.",
+        "alone": "Webb had been at his diplomatic post from nine PM confirmed by three staff members — he had not been in the harbor district. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Helen cleared at the Convention Centre and Webb cleared at the consular building together eliminate both official-side suspects — Kwan's forty-five-minute unconfirmed window is the only unaccounted movement in the harbor district during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Assets' Fates",
+        "text": "Of the 23 assets on the extraction package list: 6 had been detained within three weeks of the handover; 11 had successfully extracted through backup protocols established independently of the Final Night Package; 4 had gone to ground and had not been heard from; and 2 had never been at risk — their covers had been too deep for the package's information to compromise. Fenn had died to prevent the package from being extracted. The package had been used to expose six of the people it had been meant to protect.",
+        "alone": "Six of the 23 assets had been exposed — the package meant to protect them had been used against them. Eleven had survived through independent backup protocols.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The detentions confirming the package had reached mainland intelligence and 11 assets surviving through independent protocols confirm the operation's partial survival — the package's loss had been catastrophic for six people and had not affected eleven others who had had independent extraction arrangements."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "James Kwan",
+      "location": "The Loading Dock",
+      "weapon": "Suppressed Pistol"
+    },
+    "epilogue": "James Kwan had been paid 80,000 Hong Kong dollars to run the safe house network and had sold the extraction package to mainland intelligence for a sum MI6's 1998 review estimated at 400,000 Hong Kong dollars. He had known Fenn's route, the package's location, and the fireworks' acoustic cover window. He had walked two minutes to the loading dock at eleven PM. Fenn had approached him without alarm. Six assets had been detained within three weeks. Eleven had survived through independent backup protocols. Four had gone to ground. Kwan had left Hong Kong on July 2nd. He has not been found. The handover ceremony had been simultaneous with the killing. The fireworks had been visible from the loading dock through the alley gap."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #108",
+    "title": "Handover",
+    "setting": "Harbor District · Hong Kong · July 1997",
+    "emoji": "🌃",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Kwan killed Fenn and sold the package. But Helen Sze had suspected Kwan three weeks before the handover — and had told MI6. Find what Helen had reported and why it hadn't been acted on.",
+    "emptyState": "Helen warned MI6 about Kwan three weeks before. Find why nothing was done.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "James Kwan",
+            "icon": "🔑",
+            "detail": "The killer — 40-minute window, suppressed shot, 400,000 HKD, six assets detained."
+          },
+          {
+            "name": "Helen Sze",
+            "icon": "🌃",
+            "detail": "Cleared as killer — Convention Centre confirmed. Had warned MI6 about Kwan three weeks before."
+          },
+          {
+            "name": "Martin Webb",
+            "icon": "💼",
+            "detail": "Cleared as killer — consular building confirmed. His handling of Helen's warning is significant."
+          },
+          {
+            "name": "The MI6 London Desk",
+            "icon": "🏛️",
+            "detail": "The institutional recipient of Helen's warning — whose response had determined the operation's vulnerability."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Loading Dock",
+            "icon": "🏗️",
+            "detail": "Primary crime scene — Kwan's killing of Fenn."
+          },
+          {
+            "name": "The Convention Centre",
+            "icon": "🎆",
+            "detail": "Helen's confirmed location — and where she had made a second attempt to reach the right person."
+          },
+          {
+            "name": "The Consular Building",
+            "icon": "🏢",
+            "detail": "Webb's location — and where Helen's original warning had been received and processed."
+          },
+          {
+            "name": "London",
+            "icon": "🏛️",
+            "detail": "Where the warning had been assessed — and where the assessment had determined Kwan's continued operational use."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Kwan's, professional, no casing."
+          },
+          {
+            "name": "Loading Dock Chain",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Briefcase Lock",
+            "icon": "💼",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "The Unacted Warning",
+            "icon": "🌃",
+            "detail": "Not a weapon — but the intelligence report that had identified Kwan as a risk and had not been acted upon."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "400,000 HKD for the Asset List",
+            "icon": "🔑",
+            "detail": "Kwan's operational motive — six assets detained, left Hong Kong July 2nd."
+          },
+          {
+            "name": "Protect the Asset Network",
+            "icon": "🌃",
+            "detail": "Helen's professional commitment — her warning had been an attempt to protect the operation."
+          },
+          {
+            "name": "Maintain Operational Continuity",
+            "icon": "🏛️",
+            "detail": "The MI6 London desk's institutional reason for not acting on the warning — Kwan's network was irreplaceable with three weeks to go."
+          },
+          {
+            "name": "The Schedule Pressure Overriding the Warning",
+            "icon": "🏛️",
+            "detail": "What the London desk had prioritized — the handover timeline had made removing Kwan impractical."
+          },
+          {
+            "name": "Helen's Second Attempt the Night of the Killing",
+            "icon": "🌃",
+            "detail": "What Helen had done at the Convention Centre — tried to reach someone who could act."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "Helen's Three-Week Warning",
+        "text": "MI6's 1998 review finds a cable from Helen Sze dated June 10th, 1997 — three weeks before the handover. The cable reads: 'Source Kwan has made inquiries through third parties about the identities of assets in the extraction network beyond his operational need. He asked a contact about the cover identity of an asset he should not have known was in the network. Recommend operational security review before July 1st.' The cable had been received by Webb at the Hong Kong station.",
+        "alone": "Helen had sent a specific, documented warning about Kwan's out-of-bounds intelligence inquiries three weeks before the killing — the warning had been received by Webb.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Helen's specific warning about Kwan's asset identity inquiries and the London desk's response determining Kwan's continued operational use together establish the institutional failure — a specific, documented warning had been received and assessed as insufficient to justify removing the network."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Webb's Forwarding of the Warning",
+        "text": "Webb had received Helen's cable and had forwarded it to London with an accompanying assessment: 'Sze's concern noted. Kwan's inquiry may reflect routine network management curiosity rather than hostile interest. Recommend monitoring rather than immediate removal — his network is irreplaceable with three weeks to the handover. Removal at this stage would compromise extraction logistics.' He had recommended monitoring over removal.",
+        "alone": "Webb had recommended monitoring rather than removal, citing the three-week timeline and Kwan's network's irreplaceability — his assessment had framed the warning as a monitoring matter.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Webb recommending monitoring and the London desk accepting that assessment together confirm the institutional decision had been a calculation of operational risk versus schedule risk — the handover timeline had been treated as the more urgent constraint."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "London's Assessment",
+        "text": "The London desk's response to the forwarded warning: 'Webb assessment accepted. Kwan to be monitored but not removed. His network critical to Final Night extraction logistics. If monitoring identifies active hostile contact, escalate immediately. No further action at this time.' The monitoring had been assigned to Webb's station. No hostile contact had been identified before July 1st — either because there had been none or because the monitoring had been insufficient.",
+        "alone": "London had accepted Webb's assessment and had kept Kwan operational — the monitoring had found nothing before July 1st either because no contact had occurred or because the monitoring had missed it.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "London keeping Kwan operational and the six asset detentions within three weeks confirming the package had been sold confirm the monitoring had been insufficient — Kwan had made his sale contact in a way that the station-level monitoring had not detected."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "witness",
+        "icon": "🌃",
+        "heading": "Helen's Convention Centre Attempt",
+        "text": "Helen confirms she had made a second attempt on the night of the handover: 'At the Convention Centre at ten PM, I found a senior MI6 officer who had flown in from London for the ceremony. I told him about my June 10th warning and asked whether Kwan was still operational. He told me the warning had been assessed and Kwan was being monitored. I told him monitoring was not enough. He told me the operation was proceeding as planned.' Her second warning had also been dismissed.",
+        "alone": "Helen had made a second attempt at the Convention Centre at ten PM — one hour before the killing — and had been told the operation was proceeding as planned.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Helen's second warning at ten PM being dismissed and Kwan killing Fenn at eleven PM confirm the final hour's warning had also been insufficient — the institutional commitment to the plan had overridden the specific concern for the second time."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The 1998 Review's Finding",
+        "text": "The MI6 1998 review's finding on the warning's handling: 'The June 10th cable from Sze represented a specific, operationally grounded concern about an asset handler. Webb's recommendation to monitor rather than remove, accepted by London, was a reasonable assessment under normal circumstances. Under the specific circumstances of a 21-day countdown to a jurisdictional transfer, the operational risk of maintaining a potentially compromised network node should have been weighted more heavily. The review finds the assessment was not unreasonable but was insufficiently cautious given the countdown context.'",
+        "alone": "The review finds the assessment not unreasonable but insufficiently cautious given the countdown — a finding that stops short of assigning individual blame while acknowledging the institutional failure.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "London accepting Webb's monitoring recommendation and the review finding the assessment insufficiently cautious confirm the failure had been systemic — each individual decision had been defensible in isolation and had been inadequate in combination."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "Helen's Post-Handover Position",
+        "text": "Helen Sze had been a Hong Kong Special Branch officer — an institution that had ceased to exist after the handover. She had received an offer to continue in a liaison role under the new administration. She had declined. She had emigrated to Canada in August 1997. The 1998 review had commended her warning as 'operationally sound and appropriately specific.' She had given a statement to the review and had not been publicly identified. She lives in Vancouver.",
+        "alone": "Helen had declined the liaison role, had emigrated to Canada, and had been commended by the review — the officer whose warning had been twice dismissed had been the one the review had credited.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Helen's twice-dismissed warning and her commendation in the review confirm the full accounting — she had identified the risk, had escalated twice, had been overridden twice, and had been right."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Kwan's Sale Contact",
+        "text": "Post-handover intelligence reconstructs Kwan's sale contact: he had met with a mainland Chinese intelligence officer on June 25th — fifteen days before the handover — at a restaurant in the New Territories. The meeting had not been detected by Webb's monitoring. The sale had been negotiated at that meeting, with delivery of the package to be confirmed on the night of the handover. The June 25th contact had been nine days before Helen's two-week monitoring had been ordered.",
+        "alone": "Kwan's sale contact had occurred on June 25th — within the monitoring period but undetected. The monitoring had been assigned to Webb's station and had missed the New Territories meeting.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "London's monitoring order and the June 25th contact being undetected confirm the monitoring had been both too late to prevent the initial agreement and too limited in scope to catch the New Territories meeting — the monitoring had been ordered after the sale had effectively been agreed."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Night's Full Timeline",
+        "text": "July 1st, 1997: Ten PM — Helen warns the senior MI6 officer at the Convention Centre. The ceremony proceeds. Ten-forty-five PM — Kwan moves from his coordination point toward the loading dock. Eleven PM — Fenn arrives at the loading dock meeting point. Kwan approaches. Single suppressed shot. Package taken. Eleven-oh-five PM — Kwan returns to the safe house. The assets arrive and wait. No one comes. Midnight — sovereignty transfers. The fireworks continue over the harbor. The assets leave the safe house individually through backup protocols. Six of them are detained within three weeks.",
+        "alone": "The full timeline: Helen's warning at ten PM, Kwan at the loading dock at eleven PM, the sovereignty transfer at midnight, and six detentions within three weeks. The fireworks were visible from the loading dock through the alley gap.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Helen's ten PM warning and Kwan's eleven PM killing confirm the final hour — one hour between the last warning and the killing, during which the operation had proceeded as planned."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "James Kwan",
+      "location": "The Loading Dock",
+      "weapon": "Suppressed Pistol",
+      "motive": "400,000 HKD for the Asset List"
+    },
+    "epilogue": "Helen Sze had warned MI6 on June 10th. Webb had recommended monitoring. London had accepted. Kwan had met his mainland contact on June 25th, undetected. Helen had warned a senior officer at the Convention Centre at ten PM on July 1st. The operation had proceeded as planned. Kwan had killed Fenn at eleven PM. Sovereignty had transferred at midnight. Six assets had been detained within three weeks. Eleven had survived through backup protocols. Helen had declined the liaison role and had moved to Vancouver. Kwan had left Hong Kong on July 2nd. The 1998 review had commended Helen's warning and had found the institutional assessment insufficiently cautious. The fireworks had been visible from the loading dock through the alley gap. The harbor had been very bright that night."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #108",
+    "title": "Handover",
+    "setting": "Harbor District · Hong Kong · July 1997",
+    "emoji": "🌃",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Kwan killed Fenn. Helen warned twice and was dismissed. But one of the 23 assets on the package list had also suspected Kwan — and had independently warned Fenn three days before the handover. Find what that asset had told Fenn and why Fenn had still kept the meeting.",
+    "emptyState": "An asset warned Fenn about Kwan three days before. Fenn kept the meeting anyway. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "James Kwan",
+            "icon": "🔑",
+            "detail": "The killer — 400,000 HKD, suppressed shot, six assets detained, fled July 2nd."
+          },
+          {
+            "name": "Helen Sze",
+            "icon": "🌃",
+            "detail": "Cleared as killer — twice warned, twice dismissed, commended by review, Vancouver."
+          },
+          {
+            "name": "Martin Webb",
+            "icon": "💼",
+            "detail": "Cleared as killer — recommended monitoring, insufficiently cautious finding."
+          },
+          {
+            "name": "Asset Twenty-Two",
+            "icon": "🔒",
+            "detail": "The asset who had warned Fenn three days before — whose warning Fenn had received and had not acted on."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Loading Dock",
+            "icon": "🏗️",
+            "detail": "Primary crime scene — where Fenn had kept the meeting despite the warning."
+          },
+          {
+            "name": "The Safe House",
+            "icon": "🏠",
+            "detail": "Where the assets had waited — and where Asset Twenty-Two had sent the warning from."
+          },
+          {
+            "name": "The Convention Centre",
+            "icon": "🎆",
+            "detail": "Helen's location — and where the final institutional warning had been dismissed."
+          },
+          {
+            "name": "Fenn's Hotel Room",
+            "icon": "🏨",
+            "detail": "Where Fenn had received the asset's warning — and where his response had been documented."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Suppressed Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Kwan's."
+          },
+          {
+            "name": "Loading Dock Chain",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Briefcase Lock",
+            "icon": "💼",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Fenn's Decision to Keep the Meeting",
+            "icon": "💼",
+            "detail": "Not a weapon — but the choice that had placed him at the loading dock despite knowing the risk."
+          },
+          {
+            "name": "Asset Twenty-Two's Warning",
+            "icon": "🔒",
+            "detail": "Not a weapon — the intelligence Fenn had received and had not fully acted on."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "400,000 HKD and Asset Identification",
+            "icon": "🔑",
+            "detail": "Kwan's operational motive — confirmed by detentions and flight."
+          },
+          {
+            "name": "Protect the Network Through Exposure",
+            "icon": "🔒",
+            "detail": "Asset Twenty-Two's reason for warning — had noticed Kwan's suspicious inquiry and had reported through the asset channel."
+          },
+          {
+            "name": "Fenn's Calculation About the Meeting",
+            "icon": "💼",
+            "detail": "Why Fenn had kept the appointment despite the warning — his assessment of the risk had been incorrect."
+          },
+          {
+            "name": "The Package's Irreplaceability",
+            "icon": "💼",
+            "detail": "What Fenn had been protecting — the package had to leave the territory before midnight."
+          },
+          {
+            "name": "The One-Hour Window",
+            "icon": "🌃",
+            "detail": "The operational constraint — the package had to be at the extraction point by eleven-thirty PM for the midnight transfer."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Fenn and Took the Package",
+            "icon": "🔑",
+            "detail": "Kwan's confirmed role — fled July 2nd."
+          },
+          {
+            "name": "Warned MI6 Twice and Was Dismissed Twice",
+            "icon": "🌃",
+            "detail": "Helen's role — commended by review."
+          },
+          {
+            "name": "Recommended Monitoring Over Removal",
+            "icon": "💼",
+            "detail": "Webb's role — insufficiently cautious finding."
+          },
+          {
+            "name": "Warned Fenn Directly Three Days Before",
+            "icon": "🔒",
+            "detail": "Asset Twenty-Two's role — the individual asset warning that had reached Fenn personally."
+          },
+          {
+            "name": "Kept the Meeting Despite Knowing the Risk",
+            "icon": "💼",
+            "detail": "Fenn's fatal decision — the operational constraint had outweighed the security concern in his assessment."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "Asset Twenty-Two's Warning",
+        "text": "MI6's 1998 review finds a communication from an asset designated Twenty-Two, sent through the emergency asset channel on June 28th — three days before the handover. The communication reads: 'Handler Kwan asked me two weeks ago about another asset's cover identity. I told him I didn't know. He pressed. He mentioned a name he should not have known. I believe he is working for a second principal. Please advise.' The communication had been received by Fenn directly.",
+        "alone": "Asset Twenty-Two had sent an emergency warning to Fenn specifically on June 28th — three days before the handover and three days after Kwan's undetected sale contact in the New Territories.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Asset Twenty-Two's June 28th warning reaching Fenn directly and Kwan's sale having been agreed on June 25th together confirm the warning had come after the deal had been made — Kwan had already been committed to the delivery when the asset identified the suspicious inquiry."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Fenn's Response to the Warning",
+        "text": "Fenn's personal operational log — recovered from his hotel room — records the Asset Twenty-Two warning on June 28th and his assessment: 'Twenty-Two's concern noted. Kwan inquiry into other asset's identity is consistent with Sze's June 10th concern. Probability of Kwan compromise elevated. However: network irreplaceable, no alternative meeting point, package must leave territory by 23:30 July 1st. Assessment: proceed with heightened personal security measures. Do not disclose to Kwan that concern is elevated.'",
+        "alone": "Fenn had assessed the risk as elevated and had decided to proceed anyway — the midnight deadline had been the constraint that had outweighed the security concern.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fenn assessing elevated risk and deciding to proceed and the operational deadline being his stated reason confirm the decision had been deliberate — he had weighed the warning against the package's extraction deadline and had chosen the deadline."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What Heightened Personal Security Had Meant",
+        "text": "Fenn's log's 'heightened personal security measures' entry is followed by a practical note: 'Carrying concealed sidearm to meeting. Maintaining public fireworks event cover. Alternative exit route through marine gate if situation deteriorates. Asset Twenty-Two and another asset to be pre-positioned at safe house with independent evacuation capability.' He had taken what precautions he could within the operational constraint. He had not known Kwan would approach before he could draw.",
+        "alone": "Fenn had taken specific precautions including a concealed sidearm and an alternative exit route — but had not anticipated Kwan approaching in the trusted-contact manner that had prevented him from drawing before the shot.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Fenn carrying a concealed sidearm and Kwan approaching as a trusted contact preventing the draw together confirm the precautions had been real and insufficient — the trusted-contact approach had been specifically designed to bypass exactly the defensive measures Fenn had prepared."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🔒",
+        "heading": "Asset Twenty-Two's Survival",
+        "text": "Asset Twenty-Two had been among the eleven who had survived through backup protocols — not among the six detained. The review notes: 'Asset Twenty-Two's warning had been the most specific individual-level intelligence about Kwan's compromise received before July 1st. The asset had correctly identified the suspicious inquiry and had escalated through the appropriate channel. Their survival through backup protocols was the result of their own prior preparation of an independent evacuation route, not of any institutional response to their warning.'",
+        "alone": "Asset Twenty-Two had survived through their own independent preparation — the warning they had sent had not produced an institutional response that had protected them, but their own backup had.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Asset Twenty-Two warning Fenn and surviving through their own preparation and the six assets who had not warned being among the detained together confirm the warning's protection had been self-applied — the institutional channels had failed, and personal preparation had been the effective protection."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "Why Fenn Had Not Changed the Meeting Point",
+        "text": "Fenn's log explains his decision not to change the loading dock meeting point: 'Alternative meeting points all require Kwan's knowledge to activate — he holds the keys to the safe house network. Changing the point without disclosing the concern means he finds the original point unmanned and the operation collapses. Disclosing the concern means he knows he is suspected and the package's transfer becomes impossible. Either way the package does not leave the territory. Proceeding as planned is the only path to mission success.'",
+        "alone": "Fenn had been trapped by the network's design — Kwan's control of the safe house keys had meant there was no alternative that did not require either disclosing the suspicion or abandoning the mission.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Fenn's trapped logic — no alternative without compromising the mission — and his concealed sidearm preparation confirm he had understood the risk clearly and had had no operational escape from it within the package's midnight deadline constraint."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Review's Finding on Fenn",
+        "text": "The 1998 review's finding on Fenn's decision: 'Fenn's assessment of the operational constraint was correct — there was no alternative path to package extraction given Kwan's control of the network. His decision to proceed with heightened personal security was the only operational option consistent with mission success. His death was the result of Kwan's professional suppressed approach, which had been specifically designed to prevent defensive reaction. Fenn is assessed to have made the only available decision.'",
+        "alone": "The review finds Fenn had made the only available decision — the operational constraint had left him no alternative, and Kwan's approach method had negated the precautions he had taken.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Fenn's trapped operational logic and the review finding he had made the only available decision confirm the full weight of the constraint — three warnings, one unavoidable meeting, one professional approach, and one death that had been the result of the network's single point of failure being the person who had betrayed it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Network's Design Flaw",
+        "text": "The review's systemic finding: 'The extraction network's design had a critical single-point-of-failure: Kwan controlled all safe house access and all meeting point protocols. The network's logistical efficiency had been achieved by concentrating control in a single trusted operator. This concentration had made the network highly efficient and highly vulnerable to exactly the compromise that occurred. Future extraction networks to use distributed control protocols.' The design had been its own vulnerability.",
+        "alone": "The review identifies the single-point-of-failure design as the systemic vulnerability — the efficient concentration of control had made Kwan's betrayal maximally damaging.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Fenn's trapped decision being the result of Kwan's control concentration and the review recommending distributed protocols confirm the design flaw had been the structural cause — the network had been designed for efficiency and had been destroyed by that efficiency's consequence."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Handover's Final Accounting",
+        "text": "July 1st, 1997: Three warnings had been received before the killing — Sze's June 10th cable, Asset Twenty-Two's June 28th emergency communication, and Sze's Convention Centre conversation at ten PM. Each had been received and assessed. None had changed the plan. At eleven PM, Fenn had kept the only available meeting. Kwan had approached as a trusted contact. The shot had been suppressed. The fireworks had continued. Sovereignty had transferred at midnight. Six people had been detained within three weeks. Eleven had survived. Helen Sze had moved to Vancouver. Kwan had not been found. The harbor had been very bright that night.",
+        "alone": "Three warnings, none acted upon, one unavoidable meeting, one death, six detentions, eleven survivals. The harbor had been very bright.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Asset Twenty-Two surviving through their own preparation and the six who had not warned being detained together confirm the night's final moral — the people who had warned had prepared independent routes, and the preparation had mattered more than the institutional response to the warning."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "James Kwan",
+      "location": "The Loading Dock",
+      "weapon": "Suppressed Pistol",
+      "motive": "400,000 HKD for the Asset List",
+      "accomplice": "Warned Fenn Directly Three Days Before"
+    },
+    "epilogue": "Asset Twenty-Two had warned Fenn on June 28th. Fenn had assessed the risk as elevated and the operational constraint as binding. He had carried a concealed sidearm and had prepared alternative routes. Kwan had approached as a trusted contact and had negated every preparation. Three warnings had been received before the killing. None had changed the plan. The network's design had made Fenn's meeting unavoidable. Six assets had been detained. Eleven had survived through their own preparation. Helen had moved to Vancouver. Kwan had not been found. The review had commended Helen, found the assessment insufficiently cautious, found Fenn's decision the only available one, and recommended distributed protocols. The harbor had been very bright on the night sovereignty transferred. It is still there. The brightness is different now."
+  }
+}

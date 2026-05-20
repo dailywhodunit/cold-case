@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Dublin, 1916. Easter Rising. A rebel commander dead in the GPO basement — killed by someone on his own side. And a document that would have changed the terms of surrender. 🇮🇪🔍 Case #102 — The Rising. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Dublin 1916 Easter Rising, a rebel commander dead in the GPO basement, and someone inside the uprising who needed him silent before the surrender. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the GPO basement in Dublin during Easter Week 1916, rough stone walls, makeshift rebel positions with sandbags, a single oil lamp, a man's slouch hat and rifle on the ground, a torn proclamation document on the floor. Smoke and shadow, the feeling of a building under siege. Urgent and historical, style of period Irish republican photography meets Caravaggio chiaroscuro.",
+    "animationPrompt": "Slow pan through a GPO basement in Dublin 1916. Stone walls. Sandbags. A single oil lamp. The camera finds a slouch hat and rifle on the floor and a torn proclamation document. Smoke from above. The lamp flickers. The sounds of shelling are distant. Fade to black.",
+    "hashtags": [
+      "#EasterRising1916",
+      "#Dublin1916",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #102",
+    "title": "The Rising",
+    "setting": "GPO Basement · Dublin · Ireland · Easter 1916",
+    "emoji": "☘️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Rebel commander Seamus Daly was found dead in the GPO basement on Thursday of Easter Week — two days before the surrender. He had been carrying a document: a secret negotiated surrender proposal offering amnesty for the rank and file if the leaders alone were taken. Three people in the basement had known about the document. One of them needed it destroyed.",
+    "emptyState": "He carried the terms. He died for them. Find who needed those terms buried.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Brigid Malone",
+            "icon": "☘️",
+            "detail": "A Cumann na mBan courier — had delivered the document to Daly and knew its contents."
+          },
+          {
+            "name": "Volunteer Conor Fegan",
+            "icon": "🔫",
+            "detail": "A rank-and-file fighter — stood to benefit from the amnesty terms but had sworn to fight to the last man."
+          },
+          {
+            "name": "Captain Liam Burke",
+            "icon": "⚔️",
+            "detail": "A senior commander — had been passed over in favor of Daly and opposed any negotiated surrender."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The GPO Basement",
+            "icon": "🏛️",
+            "detail": "Where Daly was found — oil lamp overturned, document torn, rifle beside him."
+          },
+          {
+            "name": "The Ground Floor",
+            "icon": "🏢",
+            "detail": "Where the main rebel positions were held — accessible from the basement stairs."
+          },
+          {
+            "name": "The Rear Passage",
+            "icon": "🚪",
+            "detail": "The tunnel connecting the GPO basement to the adjacent building — used for supply movement."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bayonet",
+            "icon": "🗡️",
+            "detail": "A single thrust wound to the chest — consistent with a standard Volunteer bayonet blade."
+          },
+          {
+            "name": "Rifle Butt",
+            "icon": "🔫",
+            "detail": "No blunt force wound — the cause of death is the puncture, eliminated."
+          },
+          {
+            "name": "Entrenching Tool",
+            "icon": "⛏️",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Surrender Document",
+        "text": "The torn document on the floor — partially legible — describes terms: 'leaders to face full consequences of rebellion; rank and file to be granted amnesty upon laying down arms; no reprisals against civilian sympathizers.' The document had been torn but not fully destroyed — three quarters of it remained. It had been in Daly's breast pocket. Someone had torn it but had not had time or means to burn it.",
+        "alone": "The surrender document offering amnesty for the rank and file had been torn but not destroyed — whoever had killed Daly had acted in haste and had not fully eliminated the document.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The document torn in haste and Captain Burke's confirmed violent opposition to any negotiated surrender together confirm the killing had been motivated by the document's existence — someone who opposed the terms had acted before Daly could present them."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗡️",
+        "heading": "The Bayonet Wound",
+        "text": "The wound is a single bayonet thrust to the chest — delivered face-to-face, at close range, in the confined basement space. Daly had not drawn his weapon. The wound angle suggests the killer had been of similar height, had approached directly, and had struck without warning. A bayonet in the basement suggested a fighter, not a courier — Brigid Malone had no bayonet. Fegan and Burke both carried bayonets.",
+        "alone": "A bayonet wound from a fighter-level combatant — Brigid Malone carried no bayonet, eliminating her as the direct killer on weapon grounds.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The bayonet wound eliminating Brigid Malone and Burke's confirmed bayonet-equipped presence in the basement during the murder window together establish the weapon and its likely carrier."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "☘️",
+        "heading": "Brigid Malone's Account",
+        "text": "Brigid Malone confirms she had delivered the document to Daly at six PM and had immediately returned to the ground floor to continue her courier duties. Two Volunteers confirm seeing her on the ground floor from six-fifteen PM onward. She had not been in the basement after six-fifteen PM. The killing had occurred between seven and eight PM based on the body's temperature at discovery. She is definitively cleared.",
+        "alone": "Brigid had delivered the document at six PM and had been confirmed on the ground floor from six-fifteen PM — she had not been in the basement during the murder window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Brigid cleared on the ground floor and Fegan confirmed in the rear passage during the murder window together eliminate both non-Burke suspects from the basement — only Burke's movements between seven and eight PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "Burke's Opposition to Surrender",
+        "text": "Two Volunteers confirm Burke had argued loudly against any negotiation that morning — he had said 'we fight until the last man falls or the British offer unconditional terms.' He had specifically opposed the amnesty framework: 'Amnesty for the rank and file means the leaders die alone. I will not send men to their deaths for terms that save the men who follow them.' He had known about the document's nature from the morning's discussion.",
+        "alone": "Burke had explicitly opposed the amnesty framework that morning and had known the document's nature — his opposition to the specific terms was documented and witnessed.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Burke's explicit opposition to the amnesty terms and his knowledge of the document's existence confirm both motive and prior awareness — he had known what Daly was carrying and what it proposed before the killing occurred."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Burke in the Basement",
+        "text": "A wounded Volunteer resting in the basement corner confirms he had seen Burke descend the basement stairs at approximately seven-fifteen PM — he had noted Burke because Burke had been carrying his rifle with the bayonet fixed, which was unusual for the basement. Burke had gone toward the lamp where Daly had been working. The wounded Volunteer had then lost consciousness briefly due to his wound.",
+        "alone": "Burke had descended to the basement at seven-fifteen PM with his bayonet fixed — the wounded Volunteer had seen him go toward Daly before losing consciousness.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The document torn in haste and Burke descending with fixed bayonet at seven-fifteen PM together confirm he had gone to the basement specifically to deal with the document and its carrier — the fixed bayonet indicated preparation, not accident."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "Burke's Claimed Timeline",
+        "text": "Burke claims he had been on the ground floor from six PM until nine PM when the alarm was raised. He cannot produce any witnesses for the seven-to-eight PM window — the heaviest shelling period, during which most Volunteers had been in cover positions and not observing each other. His alibi has a one-hour gap precisely matching the murder window.",
+        "alone": "Burke's claimed ground-floor alibi has a one-hour gap during the murder window — the shelling period that had kept Volunteers in cover positions meant no one had been watching him.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The wounded Volunteer seeing Burke descend at seven-fifteen PM and Burke's one-hour alibi gap during the same period together confirm the claimed alibi was false — the wounded Volunteer's account places Burke in the basement at the time he claimed to be on the ground floor."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "Fegan in the Rear Passage",
+        "text": "Conor Fegan had been moving ammunition through the rear passage from seven PM until eight-thirty PM — confirmed by two other Volunteers who had been working alongside him throughout. He had not been in the basement proper. He is definitively cleared.",
+        "alone": "Fegan had been confirmed in the rear passage from seven to eight-thirty PM — confirmed by two Volunteers throughout. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Brigid cleared on the ground floor and Fegan cleared in the rear passage together eliminate both other suspects — Burke's unconfirmed one-hour window in the basement is the only unaccounted movement during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Document's Fate",
+        "text": "The torn document — three-quarters intact — is retrieved by Brigid Malone after Daly's body is discovered. She carries it to Pearse, who examines the remaining text. The surrender terms are partially legible. Two days later, the Rising's leaders surrender unconditionally — no amnesty terms, no negotiated document. The rank and file receive the same fate as the leaders in the weeks that follow. The document Daly had been killed for had not changed the surrender's outcome.",
+        "alone": "Daly had been killed to suppress the document — and the surrender had been unconditional regardless. The killing had not changed the outcome the killer had been trying to prevent.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Burke explicitly opposing the amnesty framework and the surrender being unconditional anyway confirm the killing's full irony — Daly had been killed to suppress terms that had not been accepted regardless, and the rank and file had faced the consequences Burke had claimed to be protecting them from."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Liam Burke",
+      "location": "The GPO Basement",
+      "weapon": "Bayonet"
+    },
+    "epilogue": "Captain Liam Burke had descended to the basement at seven-fifteen PM with his bayonet fixed. He had killed Seamus Daly and had torn the document. He had not destroyed it. The wounded Volunteer in the corner had seen him go toward Daly and had lost consciousness. Two days later the leaders surrendered unconditionally. Fifteen of them were executed. Burke was executed on May 9th. The rank and file received sentences ranging from internment to execution. The amnesty document Daly had been killed to suppress had not been offered at the surrender. The terms Burke had killed to prevent had never been accepted regardless. Brigid Malone lived until 1974. She kept the partial document."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #102",
+    "title": "The Rising",
+    "setting": "GPO Basement · Dublin · Ireland · Easter 1916",
+    "emoji": "☘️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Burke killed Daly and tore the document. But the document had originated with someone in British command who had been willing to offer amnesty — find who had authorized the terms and why the British had made the offer.",
+    "emptyState": "A British officer authorized the amnesty terms. Find who and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Liam Burke",
+            "icon": "⚔️",
+            "detail": "The killer — fixed bayonet, seven-fifteen PM descent, torn document, executed May 9th."
+          },
+          {
+            "name": "Brigid Malone",
+            "icon": "☘️",
+            "detail": "Cleared as killer — ground floor confirmed. Kept the partial document. Was the document's courier."
+          },
+          {
+            "name": "Volunteer Conor Fegan",
+            "icon": "🔫",
+            "detail": "Cleared as killer — rear passage confirmed. His amnesty eligibility had been the document's primary benefit."
+          },
+          {
+            "name": "Colonel Henry Whitmore",
+            "icon": "🎖️",
+            "detail": "The British officer who had authorized the amnesty terms — his reasons are the investigation's new thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The GPO Basement",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Burke's killing of Daly."
+          },
+          {
+            "name": "The British Command Post",
+            "icon": "🎖️",
+            "detail": "Where the amnesty terms had been drafted — and where Whitmore's motivation had been formed."
+          },
+          {
+            "name": "The Courier Route",
+            "icon": "🚪",
+            "detail": "How the document had reached Daly — through a neutral intermediary, not a direct British approach."
+          },
+          {
+            "name": "Dublin Castle",
+            "icon": "🏰",
+            "detail": "The seat of British administration — where Whitmore's authorization had conflicted with official policy."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bayonet",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Burke's fixed blade, single thrust."
+          },
+          {
+            "name": "Rifle Butt",
+            "icon": "🔫",
+            "detail": "No blunt force — eliminated."
+          },
+          {
+            "name": "Entrenching Tool",
+            "icon": "⛏️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "The Amnesty Document",
+            "icon": "📋",
+            "detail": "Not a weapon — but the instrument whose existence had triggered the killing and whose origin is the investigation's new question."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Oppose the Amnesty Terms",
+            "icon": "⚔️",
+            "detail": "Burke's motive — explicit opposition to amnesty framework, killed Daly to suppress."
+          },
+          {
+            "name": "End the Rising Quickly With Minimal Executions",
+            "icon": "🎖️",
+            "detail": "Whitmore's stated reason — had anticipated that mass executions would generate Irish nationalist sentiment."
+          },
+          {
+            "name": "Protect the Rank and File",
+            "icon": "🔫",
+            "detail": "The document's intended benefit — amnesty for Fegan and others like him."
+          },
+          {
+            "name": "Whitmore's Unauthorized Action",
+            "icon": "🎖️",
+            "detail": "The structural situation — Whitmore had acted without London's approval in drafting the terms."
+          },
+          {
+            "name": "The Longer View",
+            "icon": "🏰",
+            "detail": "What Whitmore had foreseen — that the executions would make martyrs and prolong the conflict."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Whitmore's Authorization",
+        "text": "British military records — declassified in 1966 — show Colonel Henry Whitmore had drafted the amnesty terms without authorization from General Maxwell or London. He had used his own authority as Dublin garrison intelligence officer to communicate the terms through a neutral Irish solicitor. His file shows a notation from April 29th: 'Proposed negotiated terms — unauthorized. Whitmore to be reprimanded.' The reprimand had been issued. The terms had reached Daly anyway.",
+        "alone": "Whitmore had drafted and transmitted the amnesty terms without authorization — he had been reprimanded but the terms had reached the rebels regardless.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Whitmore acting without authorization and the terms reaching Daly anyway confirm the document had existed in an institutional grey zone — authorized by no one in the chain of command, transmitted by a neutral party, and received by a rebel commander who had been killed for having it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Why Whitmore Had Done It",
+        "text": "Whitmore's private diary — also declassified in 1966 — describes his reasoning: 'Maxwell will shoot them all. Every last leader. It will make them saints. The Irish do not forget their saints. I have proposed terms that give us the surrender we need and cost us fifteen lives instead of fifteen martyrs. London will not see the difference until 1920.' He had been thinking in decades, not days.",
+        "alone": "Whitmore had anticipated that mass executions would create martyrs and prolong Irish resistance — his amnesty terms had been an attempt to achieve surrender without producing the nationalist mythology that executions would generate.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Whitmore's foresight about martyrdom and the historical record confirming his prediction had been accurate together establish the full irony — the amnesty document that Burke had killed to suppress had been the one document that might have altered the Rising's political legacy."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "Brigid's Knowledge of the Source",
+        "text": "Brigid Malone had known the document came from a British officer — the neutral solicitor had told her as much when he had passed it to her for delivery. She had delivered it to Daly knowing it was a British offer. She had not told the other Volunteers where it had originated — she had been afraid that knowing it was British would cause it to be rejected without consideration. Her non-disclosure had been strategic.",
+        "alone": "Brigid had known the document's British origin and had not disclosed it — she had believed disclosure would have caused the terms to be rejected before they could be considered.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Brigid's strategic non-disclosure and Burke's opposition to the amnesty framework regardless of its origin confirm her calculation had been partially correct — Burke had opposed the terms on principle, not on grounds of British origin."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Whitmore's Career After the Rising",
+        "text": "Colonel Whitmore's reprimand had been recorded but had not ended his career — he had been transferred to the Western Front in May 1916. His 1966 diary's publication had generated significant Irish historical interest. Historians note his prediction about martyrdom had been accurate to the year — the War of Independence had begun in earnest in 1919. His diary's final entry on the Rising: 'They will shoot fifteen. Ireland will never forgive them. I tried to give them a different ending. Daly was killed for having it. I do not know who killed him.'",
+        "alone": "Whitmore had not known who killed Daly — and had written in 1966 that he still did not know. His prediction about the executions' effect had been accurate.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Whitmore's diary not knowing Daly's killer and the historical confirmation of his martyrdom prediction confirm the full scope of what the document had represented — an unauthorized attempt to alter history that had been suppressed by a bayonet in a basement and had never reached the surrender table."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Neutral Solicitor",
+        "text": "The neutral solicitor — identified in the declassified files as Thomas Crean — had acted as the intermediary between Whitmore and the rebel leadership. Crean had been a Dublin solicitor with both British and Irish nationalist clients. He had transmitted the document believing he was facilitating a humanitarian outcome. He had not known Daly would be killed. He had given his account to the 1966 inquiry: 'I thought I was helping prevent executions. I was handed a document that got a man killed instead.'",
+        "alone": "Crean had believed he was facilitating a humanitarian outcome — his account confirms the document's transmission chain and the neutrality of the intermediary.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Brigid's knowledge of the British origin and Crean's humanitarian intent together confirm the document had been transmitted through a chain of people each acting on what they believed was a constructive purpose — and had been killed for by a man who had been acting on the opposite principle."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What the Executions Produced",
+        "text": "Fifteen leaders were executed between May 3rd and May 12th, 1916. Patrick Pearse, James Connolly, and thirteen others. The public response in Ireland, which had been initially hostile to the Rising, shifted dramatically following the executions. Within two years, Sinn Féin had won 73 of Ireland's 105 seats in the 1918 general election. Whitmore's diary had predicted exactly this. The document Burke had killed Daly to suppress had been the document that might have produced a different political trajectory.",
+        "alone": "The executions had produced exactly the nationalist shift Whitmore had predicted — the fifteen martyrs had transformed the Rising's political legacy within two years.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Whitmore predicting the martyrdom effect and the historical record confirming the prediction confirm the document's potential historical significance — Burke had killed to suppress terms that might have altered the post-Rising political landscape."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "⚔️",
+        "heading": "Burke's Own Words",
+        "text": "Burke's final statement before his execution on May 9th contains no mention of Daly. He says: 'I fought for Ireland's freedom. I do not regret a single action I took in her name.' The statement is recorded by a military chaplain. Whether Burke's killing of Daly had been among the unspecified actions he did not regret is not known — he had not distinguished between the actions he acknowledged and those he did not.",
+        "alone": "Burke's final statement does not mention Daly — his killing of his fellow rebel is neither admitted nor denied in the last words he was recorded as speaking.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Crean not knowing Daly's killer and Burke's final statement not mentioning Daly confirm neither the document's transmitter nor the document's destroyer had publicly acknowledged the full chain — the basement killing had remained unconfirmed until the wounded Volunteer's account."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Partial Document's Archive",
+        "text": "Brigid Malone kept the partial amnesty document until her death in 1974. She donated it to the National Library of Ireland in her will. It is catalogued as 'Proposed surrender terms — Easter 1916, partial document, provenance: Cumann na mBan courier Brigid Malone.' The catalogue entry does not mention Seamus Daly. The document is available for research. Whitmore's diary, in a British archive, references its existence without knowing it survived. The two documents, in two archives in two countries, together tell the full story. Neither catalogue entry mentions the other.",
+        "alone": "The partial document is in the National Library of Ireland. Whitmore's diary is in a British archive. Together they tell the full story. Neither catalogue entry references the other.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Whitmore's diary not knowing the document survived and the document archived without reference to Whitmore confirm the full picture had existed in two separate archives for decades without being assembled — the historical investigation had required both to understand what had happened in the GPO basement on Thursday of Easter Week."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Liam Burke",
+      "location": "The GPO Basement",
+      "weapon": "Bayonet",
+      "motive": "Oppose the Amnesty Terms"
+    },
+    "epilogue": "Colonel Henry Whitmore had drafted the terms without authorization and had been reprimanded. Thomas Crean had delivered them believing he was preventing executions. Brigid Malone had delivered them knowing they were British and not saying so. Seamus Daly had been killed for having them. Captain Liam Burke had been executed on May 9th without mentioning Daly. Fifteen leaders had been executed. The 1918 election had returned 73 Sinn Féin seats. Whitmore had written in 1966 that he did not know who had killed Daly. The partial document had been donated to the National Library in 1974. The two archives had not referenced each other. The basement had been beneath a building that no longer existed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #102",
+    "title": "The Rising",
+    "setting": "GPO Basement · Dublin · Ireland · Easter 1916",
+    "emoji": "☘️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Burke killed Daly. Whitmore drafted the unauthorized terms. But Conor Fegan — cleared by his rear passage alibi — had known about the document before Daly received it. Find how Fegan had known and what he had done with that knowledge.",
+    "emptyState": "Fegan knew about the document before Daly got it. Find how and what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Liam Burke",
+            "icon": "⚔️",
+            "detail": "The killer — bayonet, seven-fifteen PM, torn document, executed May 9th."
+          },
+          {
+            "name": "Brigid Malone",
+            "icon": "☘️",
+            "detail": "Cleared as killer — ground floor confirmed. Strategic non-disclosure of British origin."
+          },
+          {
+            "name": "Volunteer Conor Fegan",
+            "icon": "🔫",
+            "detail": "Cleared as killer — rear passage confirmed. Had known about the document before Daly received it."
+          },
+          {
+            "name": "Thomas Crean",
+            "icon": "⚖️",
+            "detail": "The neutral solicitor intermediary — had transmitted the document and had told Fegan about its existence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The GPO Basement",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Burke's killing."
+          },
+          {
+            "name": "The Rear Passage",
+            "icon": "🚪",
+            "detail": "Fegan's confirmed location — and where Crean had briefly contacted him."
+          },
+          {
+            "name": "The British Command Post",
+            "icon": "🎖️",
+            "detail": "Where Whitmore had drafted the terms — the origin point of the chain."
+          },
+          {
+            "name": "The Neutral Ground",
+            "icon": "⚖️",
+            "detail": "Where Crean had operated — the solicitor who had been the transmission's human link."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bayonet",
+            "icon": "🗡️",
+            "detail": "Confirmed murder weapon — Burke's."
+          },
+          {
+            "name": "Rifle Butt",
+            "icon": "🔫",
+            "detail": "No blunt force — eliminated."
+          },
+          {
+            "name": "Entrenching Tool",
+            "icon": "⛏️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Fegan's Prior Knowledge",
+            "icon": "🔫",
+            "detail": "Not a weapon — but the advance intelligence he had held before the document reached Daly."
+          },
+          {
+            "name": "Fegan's Decision",
+            "icon": "🔫",
+            "detail": "What he had done with the knowledge — and why it matters to the full picture."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Oppose the Amnesty Terms on Principle",
+            "icon": "⚔️",
+            "detail": "Burke's motive — explicit, fatal, executed May 9th."
+          },
+          {
+            "name": "Accept Amnesty and Survive",
+            "icon": "🔫",
+            "detail": "Fegan's personal interest — the terms would have saved his life."
+          },
+          {
+            "name": "Tell Burke About the Document",
+            "icon": "🔫",
+            "detail": "What Fegan had done — had told Burke the document was coming, enabling the killing."
+          },
+          {
+            "name": "Fegan's Guilt",
+            "icon": "🔫",
+            "detail": "The moral weight of his action — he had enabled the killing of the man whose document would have saved him."
+          },
+          {
+            "name": "Fegan's Reason for Telling Burke",
+            "icon": "🔫",
+            "detail": "Why he had told the man he knew would oppose it — the investigation's central unresolved question."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Daly With Fixed Bayonet",
+            "icon": "🗡️",
+            "detail": "Burke's confirmed role — executed May 9th."
+          },
+          {
+            "name": "Delivered the Document Without Disclosing Its Origin",
+            "icon": "☘️",
+            "detail": "Brigid's role — strategic non-disclosure."
+          },
+          {
+            "name": "Transmitted the Document Through Neutral Channels",
+            "icon": "⚖️",
+            "detail": "Crean's role — believed he was preventing executions."
+          },
+          {
+            "name": "Told Burke the Document Was Coming Before It Arrived",
+            "icon": "🔫",
+            "detail": "Fegan's role — advance disclosure to the man who would kill for it."
+          },
+          {
+            "name": "Drafted the Terms Without Authorization",
+            "icon": "🎖️",
+            "detail": "Whitmore's role — reprimanded, transferred, his prediction confirmed."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "How Fegan Had Known",
+        "text": "Thomas Crean, in his 1966 account, reveals a detail he had not previously disclosed: before delivering the document to Brigid Malone, he had briefly encountered Conor Fegan in the rear passage of the GPO — Fegan had been a contact of Crean's from civilian life, a plumber who had worked in Crean's building. He had told Fegan: 'There's a document coming that might save the men who don't need to die.' He had not given Fegan the document's details but had told him terms were coming.",
+        "alone": "Crean had told Fegan that amnesty terms were coming before the document had been delivered to Daly — Fegan had known of the document's imminent existence before it had arrived.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Crean telling Fegan the terms were coming and Fegan subsequently telling Burke confirm the advance intelligence had traveled from Crean through Fegan to the man who had acted on it — Fegan had been the link between the document's transmitter and its destroyer."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🔫",
+        "heading": "What Fegan Did With the Knowledge",
+        "text": "Fegan, in a 1953 interview given to an Irish oral history project under the condition of non-disclosure until 1980, admits: 'I told Burke. I don't know why. Burke was my captain. I told him a document was coming that would offer us amnesty. He looked at me and said: we don't take British amnesty. I thought that was the end of it. It wasn't the end of it.' The interview was released in 1980 as stipulated.",
+        "alone": "Fegan had told Burke the terms were coming — he had not anticipated Burke would kill for the information. He had told his captain as a matter of loyalty and had not foreseen the consequence.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Fegan telling Burke out of loyalty and not foreseeing the killing and Burke descending to the basement with a fixed bayonet confirm the chain — Fegan's disclosure had given Burke the time to prepare and the specific knowledge that Daly would receive the document."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🔫",
+        "heading": "Fegan's Survival",
+        "text": "Conor Fegan survived the Rising, surrendered with the rank and file, was interned at Frongoch prison camp in Wales, and was released in December 1916 under a general amnesty that had been extended without negotiation. He had been saved by an amnesty he had helped prevent from being formally offered — the general release had occurred regardless, though without the protections the document had proposed. He had lived until 1971 and had given the 1953 interview.",
+        "alone": "Fegan had survived and been released under general amnesty regardless — the document he had helped suppress had been unnecessary for his survival, though he had not known this when he had told Burke.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Fegan surviving under general amnesty and not having needed the specific document confirm the deepest irony of his role — he had helped suppress the document whose terms had been unnecessary for him, while the document had been the only chance to prevent the executions of fifteen leaders including Burke."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🔫",
+        "heading": "Fegan's Reckoning",
+        "text": "The 1953 oral history interview's most significant passage: 'Burke was executed on May the ninth. I was in Frongoch. I thought about what I had done. I had told Burke the terms were coming. Burke had gone to the basement. Daly was dead. Burke was dead. If I had said nothing to Burke — Daly might have lived. Burke might have lived. The terms might have been considered. I don't know. I told my captain. I have been thinking about it since 1916.' He had been thinking about it for thirty-seven years.",
+        "alone": "Fegan had been thinking about the consequence of telling Burke since 1916 — thirty-seven years of reckoning with an action he had taken out of loyalty and whose outcome had destroyed the people it had involved.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Fegan's thirty-seven years of reckoning and Burke's execution on May 9th confirm the full weight of the advance disclosure — Fegan had told Burke out of loyalty to a captain who had then been executed for the action the loyalty had enabled."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "Crean's Regret",
+        "text": "Crean's 1966 account continues: 'I told Fegan because I thought — he would be relieved. That men like him would have a way out. I did not know he would tell Burke. I did not know Burke would kill Daly. I told a plumber that terms were coming and a commander was killed for them. I have drawn a line between my action and that outcome for fifty years. The line gets thinner every time I examine it.' He had been drawing the same line as Fegan, from the other direction.",
+        "alone": "Crean had been drawing a line between his disclosure to Fegan and Daly's death for fifty years — the same line Fegan had been drawing from the other direction.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Fegan's thirty-seven years of reckoning and Crean's fifty years of line-drawing confirm the killing's moral aftermath had extended far beyond the basement — two people who had each done something ordinary had been accounting for the consequences of their ordinary actions for the rest of their lives."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "Brigid's Knowledge of Fegan's Role",
+        "text": "Brigid Malone's 1974 will — which donated the partial document to the National Library — includes a short personal note not intended for public release, found among her papers: 'Fegan told Burke. I found this out in 1920. I never told Fegan I knew. He was living with it. Adding my knowledge would not have helped him carry it.' She had known since 1920 and had said nothing for fifty-four years.",
+        "alone": "Brigid had known since 1920 that Fegan had told Burke — and had chosen not to tell Fegan she knew, leaving him to carry it alone for fifty-four years.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Fegan surviving and reckoning with his role since 1916 and Brigid knowing since 1920 and saying nothing confirm a silence had been maintained around the disclosure's chain — each person had known a piece and had carried it privately, none had spoken the full chain until the documents had been opened."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Full Chain's Assembly",
+        "text": "The full chain: Whitmore drafted unauthorized terms. Crean transmitted them. Crean told Fegan terms were coming. Fegan told Burke. Burke descended to the basement with a fixed bayonet. Daly was killed. Brigid retrieved the partial document. Burke was executed. Fegan was interned and released. Crean gave his account in 1966. Fegan's interview was released in 1980. Brigid's note was found in 1974. The chain had seven links. Each link had been held by a different person. None had assembled the full chain until the archives had opened.",
+        "alone": "Seven links in the chain — Whitmore, Crean, Fegan, Burke, Daly, Brigid, and the partial document — each held separately by different people in different archives until the documents had been opened.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Brigid knowing since 1920 and saying nothing and the chain assembled only from opened archives confirm the full picture had required decades and multiple archive openings to assemble — the basement killing had been the chain's central event, and its full context had taken the rest of the century to surface."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Basement's Last Word",
+        "text": "The wounded Volunteer who had seen Burke descend the stairs survived the Rising, survived the War of Independence, survived the Civil War, and died in 1962. He gave a statement to the Garda Síochána in 1958 — the statement that had confirmed Burke's presence in the basement. His statement's final line: 'I saw Burke go toward Daly. I lost consciousness. When I woke, Daly was dead and Burke was gone. I have told this to no one for forty-two years because I did not think it was my place to say who killed who in a war.' He had waited forty-two years to say what he had seen in thirty seconds.",
+        "alone": "The wounded Volunteer had waited forty-two years to give his statement — he had not thought it his place to say who killed who in a war.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Fegan's thirty-seven years of private reckoning and the wounded Volunteer's forty-two years of silence confirm the killing had been surrounded by people who had known pieces of it and had carried those pieces privately for decades — the full picture had emerged only when the last witnesses had finally spoken."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Liam Burke",
+      "location": "The GPO Basement",
+      "weapon": "Bayonet",
+      "motive": "Oppose the Amnesty Terms",
+      "accomplice": "Told Burke the Document Was Coming Before It Arrived"
+    },
+    "epilogue": "Whitmore had drafted the terms. Crean had told Fegan the terms were coming. Fegan had told Burke out of loyalty. Burke had descended with a fixed bayonet. Daly had been killed. Brigid had retrieved the partial document and had learned in 1920 that Fegan had told Burke and had said nothing for fifty-four years. The wounded Volunteer had waited forty-two years to give his statement. Fegan's oral history interview had been sealed until 1980. Crean's account had been given in 1966. The partial document was in the National Library. Whitmore's diary was in a British archive. Burke had been executed on May 9th. Fegan had been released in December. He had been thinking about it since 1916."
+  }
+}

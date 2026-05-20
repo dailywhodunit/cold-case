@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "New Orleans, 1923. A jazz funeral. A man dead before they could bury him. And three heirs who each needed the will to say something different. 🎷🔍 Case #098 — Second Line. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: New Orleans 1923 jazz funeral, a second body before the first is in the ground, and three heirs with three different stories about what the will said. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1923 New Orleans jazz funeral procession on a cobblestone street, brass band musicians in black suits, mourners with white handkerchiefs, a horse-drawn hearse stopped mid-street, someone collapsed on the banquette beside a wrought iron fence. Spanish moss, live oaks, humid afternoon light. Deep South atmosphere, style of E.J. Bellocq meets James Van Der Zee.",
+    "animationPrompt": "Slow pan along a 1923 New Orleans cobblestone street during a jazz funeral. Brass musicians. White handkerchiefs. A horse-drawn hearse stopped mid-procession. The camera finds a figure collapsed on the banquette beside a wrought iron fence. Spanish moss in the live oaks above. Humid afternoon light. The music has stopped. Fade to black.",
+    "hashtags": [
+      "#NewOrleans1923",
+      "#JazzFuneral",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #098",
+    "title": "Second Line",
+    "setting": "Tremé Neighborhood · New Orleans · Louisiana · 1923",
+    "emoji": "🎷",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Cotton merchant Beauregard Tureaud collapsed and died during the second line procession at his own father's jazz funeral. The elder Tureaud had died intestate — no valid will had been found. Three heirs had been arguing for three days. Beauregard had told his sister that morning he had found the will. He hadn't made it to the graveside.",
+    "emptyState": "He found the will. He died before he could show anyone. Find who needed that will to stay lost.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Celestine Tureaud",
+            "icon": "🌹",
+            "detail": "Beauregard's sister — stood to inherit everything under the will, nothing under intestate succession."
+          },
+          {
+            "name": "Marcel Fontenot",
+            "icon": "⚖️",
+            "detail": "The family attorney — had drawn up the original will and knew its contents, stood to lose his fee if contested."
+          },
+          {
+            "name": "Prosper Tureaud",
+            "icon": "🎷",
+            "detail": "Beauregard's half-brother — stood to inherit everything under intestate law, nothing under the will."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Second Line Route",
+            "icon": "🎷",
+            "detail": "The procession street — where Beauregard collapsed beside the wrought iron fence."
+          },
+          {
+            "name": "The Tureaud Family Home",
+            "icon": "🏠",
+            "detail": "Where the heirs had been meeting for three days — and where Beauregard had found the will that morning."
+          },
+          {
+            "name": "The Funeral Home",
+            "icon": "⚰️",
+            "detail": "Where the elder Tureaud's body had been prepared — and where Marcel Fontenot had been managing arrangements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Flask",
+            "icon": "🥃",
+            "detail": "A silver hip flask containing rye whiskey laced with strychnine — Beauregard had been drinking from it during the procession."
+          },
+          {
+            "name": "Funeral Wreath Wire",
+            "icon": "🌸",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Brass Instrument Case",
+            "icon": "🎷",
+            "detail": "No wound consistent with the collapse — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Beauregard's Morning Discovery",
+        "text": "Celestine Tureaud confirms her brother had come to her that morning, three hours before the procession, and had said: 'I found Papa's will in the secretary desk. It's dated 1919. Everything goes to you, Celestine.' He had been holding a folded document. He had told her he would produce it at the family meeting after the burial. The document had not been found on his body when he collapsed.",
+        "alone": "Beauregard had found the 1919 will that morning and had told Celestine — the will left everything to her. The document had not been found on his body.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The will leaving everything to Celestine and Prosper Tureaud's confirmed conversation with Beauregard immediately before the procession together establish that Prosper had known about the will before the procession began — and had known it would destroy his inheritance claim."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Flask",
+        "text": "The silver hip flask found beside Beauregard's collapsed body contains rye whiskey with strychnine. The post-mortem confirms strychnine poisoning — the convulsive collapse during the procession had been the poison's characteristic presentation. The flask bears an engraving: 'To Beau — from P.' The gift inscription points to Prosper Tureaud as the flask's giver. Prosper had given Beauregard the flask as a condolence gift the previous evening.",
+        "alone": "The poisoned flask bears an engraving from Prosper — he had given it to Beauregard the previous evening as a condolence gift, meaning he had provided the murder weapon before knowing about the will.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The flask given by Prosper the previous evening before he knew about the will and the strychnine requiring advance preparation confirm the poison had been in the flask before Beauregard found the will — Prosper had been planning to kill Beauregard regardless of the will's existence."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "Marcel Fontenot's Morning",
+        "text": "Marcel Fontenot had been at the funeral home all morning managing the elder Tureaud's burial arrangements — confirmed by the funeral director and three assistants. He had not been at the family home when Beauregard found the will. He had joined the procession at its starting point. He is cleared of taking the will from Beauregard's body.",
+        "alone": "Marcel had been at the funeral home all morning — confirmed by multiple witnesses. He had not been at the family home when the will was found and is cleared of taking it.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Marcel cleared at the funeral home and Celestine confirmed inside the family home during the procession together eliminate both other suspects from the procession route — only Prosper's movements during the procession are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Will's Contents",
+        "text": "Marcel Fontenot confirms he had drawn up the 1919 will himself. Under its terms, Celestine received the family home, the cotton merchant business, and all liquid assets. Prosper — acknowledged as an illegitimate son — had been left a symbolic 100 dollars. Under intestate succession, which applied without the will, Prosper as a recognized son would share equally. The will's existence or absence was worth approximately 40,000 dollars to Prosper.",
+        "alone": "The will was worth 40,000 dollars to Prosper in its absence — its existence cut him from near-equal sharing to 100 dollars. The stakes for suppressing it were specific and significant.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The 40,000-dollar inheritance difference and Prosper's flask given the previous evening before he knew about the will's discovery confirm the killing had been planned in advance of the specific morning — the motive had pre-existed the will's rediscovery."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎷",
+        "heading": "Prosper's Conversation Before the Procession",
+        "text": "A neighbor who had been at the procession's starting point confirms Prosper had spoken briefly with Beauregard immediately before the march began — she had seen Prosper gesture toward the flask and Beauregard drink from it. She had also seen Beauregard pull a folded document from his jacket and show it to Prosper. Prosper's expression had changed visibly. He had nodded. The procession had begun. Beauregard had not completed the route.",
+        "alone": "Prosper had seen the will — Beauregard had shown it to him before the procession began. Prosper had nodded. The procession had begun.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Beauregard showing Prosper the will before the procession and Beauregard drinking from Prosper's flask immediately before setting out confirm the sequence — Prosper had seen the document that ended his inheritance and had watched Beauregard drink the poison he had provided."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🥃",
+        "heading": "The Strychnine's Timing",
+        "text": "The post-mortem estimates death had occurred approximately forty-five minutes after ingestion of the strychnine dose in the flask. Beauregard had been seen drinking from the flask at the procession's start. He had collapsed forty minutes into the route. The timing is consistent with the flask being the delivery mechanism and the start of the procession being the moment of ingestion.",
+        "alone": "Strychnine death timing confirms the procession's start as the ingestion moment — the poison had taken forty minutes to produce the collapse.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The flask given by Prosper and the strychnine timing confirming ingestion at the procession's start together confirm the delivery mechanism and the timing had both been controlled by Prosper's gift — the flask, the poison, and the moment of drinking had all been arranged by him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Celestine's Location",
+        "text": "Celestine Tureaud had remained at the family home during the procession — she had not felt well enough to march. Three neighbors confirm she had been on the home's front gallery throughout the procession's duration. She had not been on the second line route. She is definitively cleared.",
+        "alone": "Celestine had been on the family home's front gallery throughout the procession — confirmed by three neighbors. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Marcel cleared at the funeral home and Celestine cleared on the front gallery together eliminate both other suspects from the procession route — Prosper is the only person confirmed present at both the flask's gifting and Beauregard's drinking."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "The Missing Will",
+        "text": "The folded document Beauregard had shown Prosper before the procession — the 1919 will — was not on his body when he collapsed. A bystander who had helped attend to Beauregard's collapse had seen Prosper kneeling beside the body in the immediate aftermath. The will had not been found during the subsequent search of the route. Prosper had been the first person beside Beauregard's body.",
+        "alone": "Prosper had knelt beside Beauregard's body immediately after the collapse — the will, which Beauregard had been carrying, was not found. Prosper had been the first beside the body.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Beauregard showing Prosper the will before the procession and Prosper kneeling first beside the body after the collapse confirm the will's disappearance — he had known where it was and had been positioned to take it when the opportunity arose."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Prosper Tureaud",
+      "location": "The Second Line Route",
+      "weapon": "Poisoned Flask"
+    },
+    "epilogue": "Prosper Tureaud had laced the condolence flask the previous evening — before Beauregard had found the will. When Beauregard had shown him the 1919 document at the procession's start, Prosper had watched him drink from the already-poisoned flask and had nodded. He had known the will would be immaterial within forty minutes. He had taken the document from Beauregard's body when he had knelt beside him after the collapse. Prosper received life imprisonment. Celestine inherited under the 1919 will, which Marcel Fontenot reconstructed from his own records. Prosper had taken the original. The estate had been worth 40,000 dollars. The flask had been engraved the week before the funeral."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #098",
+    "title": "Second Line",
+    "setting": "Tremé Neighborhood · New Orleans · Louisiana · 1923",
+    "emoji": "🎷",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Prosper killed Beauregard and took the will. But Marcel Fontenot had known the will existed since 1919 and had never mentioned it during the three days of intestate dispute. Find what Marcel had been doing with his knowledge.",
+    "emptyState": "Marcel drew up the will in 1919. He said nothing for three days. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Prosper Tureaud",
+            "icon": "🎷",
+            "detail": "The killer — engraved flask, strychnine timing, knelt beside body, took the will."
+          },
+          {
+            "name": "Marcel Fontenot",
+            "icon": "⚖️",
+            "detail": "Cleared as killer — funeral home confirmed. Had known about the will for four years and had stayed silent."
+          },
+          {
+            "name": "Celestine Tureaud",
+            "icon": "🌹",
+            "detail": "Cleared as killer — front gallery confirmed. Stood to inherit everything under the will."
+          },
+          {
+            "name": "The Elder Tureaud's Estate",
+            "icon": "🏠",
+            "detail": "The 40,000-dollar estate — the object of the dispute and the motive for Marcel's silence."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Second Line Route",
+            "icon": "🎷",
+            "detail": "Primary crime scene — Prosper's poisoning of Beauregard."
+          },
+          {
+            "name": "The Tureaud Family Home",
+            "icon": "🏠",
+            "detail": "Where the dispute had been held and where the will had been found — and where Marcel had been visiting daily."
+          },
+          {
+            "name": "The Funeral Home",
+            "icon": "⚰️",
+            "detail": "Marcel's confirmed location — and where a second copy of the will had been kept."
+          },
+          {
+            "name": "Marcel's Office",
+            "icon": "⚖️",
+            "detail": "Where the original will draft had been filed — and where a copy had been accessible throughout."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Flask",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Prosper's engraved gift, strychnine, forty-minute timing."
+          },
+          {
+            "name": "Funeral Wreath Wire",
+            "icon": "🌸",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Brass Instrument Case",
+            "icon": "🎷",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Marcel's Silence",
+            "icon": "⚖️",
+            "detail": "Not a weapon — but his three days of non-disclosure had allowed the intestate dispute to proceed toward a resolution that had been incorrect."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Intestate Claim",
+            "icon": "🎷",
+            "detail": "Prosper's motive — 40,000 dollars, poisoned flask, will taken."
+          },
+          {
+            "name": "Collect His Contested Fee",
+            "icon": "⚖️",
+            "detail": "Marcel's financial interest — the will's disappearance had been contested before the elder died, and Marcel's fee was tied to the will's validity."
+          },
+          {
+            "name": "Avoid Disclosing a Professional Failure",
+            "icon": "⚖️",
+            "detail": "Marcel's deeper concern — the will had been challenged by the elder Tureaud two years before his death, and Marcel had not updated it."
+          },
+          {
+            "name": "The 1921 Challenge",
+            "icon": "📋",
+            "detail": "What Marcel had not disclosed — the elder had tried to change the will in 1921 and Marcel had failed to process the change."
+          },
+          {
+            "name": "Celestine's Full Inheritance",
+            "icon": "🌹",
+            "detail": "What the 1919 will produced and what the 1921 intended change would have modified."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "Marcel's Three-Day Silence",
+        "text": "Marcel Fontenot had attended all three days of the family dispute meetings at the Tureaud home. He had known the 1919 will existed — he had drafted it. He had said nothing about its existence during three days of dispute about intestate succession. When investigators confront him, he says: 'The will was in the secretary desk. It was the family's document to find. I am not authorized to disclose a client's confidential testamentary documents without instruction.' He invokes attorney-client privilege.",
+        "alone": "Marcel had known the will was in the secretary desk for four years and had invoked privilege rather than disclose it during three days of dispute — his silence had allowed a factually incorrect intestate proceeding to develop.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marcel knowing the will's location and invoking privilege during three days of dispute and the 1921 challenge he had not processed together confirm his silence had served his own interest — disclosing the will would have also disclosed his failure to update it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1921 Challenge",
+        "text": "A document in Marcel's office files — discovered when investigators examine his records — shows the elder Tureaud had come to Marcel in 1921 and had requested a codicil: a provision leaving Prosper an equal share rather than the symbolic 100 dollars. Marcel had prepared a draft codicil. The elder had signed the draft. Marcel had not filed it — he had lost it in a flood of other documents during an office renovation. The elder had died believing the codicil had been processed.",
+        "alone": "The elder had intended to change the will in 1921 to give Prosper an equal share — Marcel had lost the signed codicil in an office renovation and had never told the elder it had not been filed.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marcel losing the signed 1921 codicil and never telling the elder it had not been processed confirm his silence during the dispute had been protecting a professional error — disclosing the will would have exposed that the elder's final wishes had not been carried out."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What the 1921 Codicil Would Have Done",
+        "text": "If the 1921 codicil had been properly filed, Prosper would have received an equal share of the estate — approximately 20,000 dollars. The 1919 will without the codicil left him 100 dollars. Marcel's failure to file the codicil had accidentally re-created the conditions of the 1919 will — cutting Prosper to nearly nothing. Marcel's error had inadvertently created the inheritance disparity that had led to the killing.",
+        "alone": "Marcel's failure to file the 1921 codicil had accidentally imposed the terms of the 1919 will — cutting Prosper to 100 dollars when the elder had intended him to receive 20,000.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Marcel's error creating the inheritance disparity and Prosper poisoning Beauregard to enforce the disparity in his favor confirm the killing's chain of causation — a lost document in 1921 had created the financial stakes that had led to a murder in 1923."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "Marcel's Professional Exposure",
+        "text": "The Louisiana Bar's investigation of Marcel's conduct finds: he had failed to file a signed client document, had not informed the client of the failure, had allowed the client to die believing the change had been made, and had remained silent during three days of estate proceedings while knowing both documents existed. The investigation recommends disbarment. Marcel's defense — that he had been bound by privilege — is found insufficient given his duty to the deceased client.",
+        "alone": "Marcel faces disbarment for the combined failures — the unfiled codicil, the non-disclosure to the elder, and the three days of silence during the dispute proceedings.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Marcel's disbarment recommended for the combined failures and the chain from his 1921 error to Beauregard's 1923 murder confirm the professional negligence had been the structural cause of the dispute's terms — without Marcel's error, Prosper's motive would have been significantly reduced."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Privilege Question",
+        "text": "Louisiana estate law in 1923 includes a specific provision: an attorney who has knowledge of a valid will has an obligation to disclose its existence to the court upon the opening of an intestate proceeding, regardless of privilege. Marcel had not disclosed the will to any court — the intestate dispute had been a family matter handled privately, without formal court proceedings, which Marcel argues had not triggered the obligation. The Bar investigation finds this argument unpersuasive.",
+        "alone": "Marcel's privilege argument fails — Louisiana law had required disclosure of a known will upon intestate proceedings, which the family dispute had constituted in effect if not in form.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Marcel invoking privilege and the Bar finding the argument unpersuasive together confirm his silence had not been professionally defensible — the privilege had not covered the specific circumstances he had been in."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "⚖️",
+        "heading": "Marcel's Full Account",
+        "text": "Marcel, in his Bar interview, discloses the full picture: 'I knew the will was there. I knew about the 1921 codicil. I said nothing because disclosing the will would have required me to disclose that the codicil had not been filed. If I had done my job in 1921, none of the dispute would have existed in the form it took. Prosper would have had his share. Beauregard might still be alive.' He is the only participant who openly acknowledges the causal chain.",
+        "alone": "Marcel explicitly acknowledges the causal chain from his 1921 failure to Beauregard's death — he is the only participant who states it openly.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Marcel's 1921 codicil failure creating the inheritance disparity and his explicit acknowledgment of the causal chain confirm the full picture — his professional error had been the structural condition that had made the 40,000-dollar dispute possible in the terms in which it had occurred."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "Prosper's Knowledge of the 1921 Codicil",
+        "text": "Prosper Tureaud, at his trial, claims he had known about the 1921 codicil — that his father had told him he had changed the will to give him an equal share. He had believed, for two years before his father's death, that he would inherit equally. When the elder died and no codicil was found, Prosper had believed Celestine had suppressed it. He had poisoned Beauregard to take the estate by force rather than lose what his father had promised him.",
+        "alone": "Prosper had believed the 1921 codicil existed and had been suppressed by Celestine — he had been acting on the belief that he was recovering what was rightfully his.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Marcel losing the 1921 codicil the elder had signed and Prosper believing it had been suppressed by Celestine confirm the killing had been built on a misunderstanding — Prosper had killed for what he believed was his right, against a woman who had not suppressed anything, over a document that a lawyer had lost in a renovation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Celestine's Final Position",
+        "text": "Celestine Tureaud inherits under the 1919 will, reconstructed from Marcel's office records. Marcel's disbarment is upheld. Prosper is imprisoned for life. The Louisiana probate court, upon reviewing the full record, issues an unusual finding: 'Had the 1921 codicil been properly filed, the estate would have been divided equitably. The disparity that motivated the killing was the product of professional negligence rather than testamentary intent.' The court recommends that Celestine voluntarily provide Prosper's family a portion of the estate. She declines.",
+        "alone": "The court acknowledges the killing's cause was professional negligence but has no power to compel redistribution — Celestine declines the recommendation.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Prosper believing he was recovering what his father had promised and the court acknowledging the disparity was from negligence confirm the killing's full tragedy — Prosper had been wrong about who had suppressed the codicil, right about what his father had intended, and wrong about the remedy."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Prosper Tureaud",
+      "location": "The Second Line Route",
+      "weapon": "Poisoned Flask",
+      "motive": "Suppress the Intestate Claim"
+    },
+    "epilogue": "Marcel Fontenot had lost a signed codicil in an office renovation in 1921 and had said nothing. The elder Tureaud had died believing his son Prosper would inherit equally. Prosper had believed the codicil had been suppressed by Celestine. Marcel had known the will and the missing codicil's story for four years and had invoked privilege. Beauregard had found the 1919 will and had been poisoned by the brother who had believed it represented an injustice against him. Every element of the killing had originated from a document lost in a renovation. Marcel was disbarred. Prosper was imprisoned. Celestine inherited. The court recommended equity. She declined. The jazz funeral had buried one Tureaud. The law buried the rest of them differently."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #098",
+    "title": "Second Line",
+    "setting": "Tremé Neighborhood · New Orleans · Louisiana · 1923",
+    "emoji": "🎷",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Prosper killed Beauregard. Marcel's negligence created the conditions. But Celestine had known about the 1921 codicil — her father had told her too. Find what Celestine had done with that knowledge during the three days of dispute.",
+    "emptyState": "Celestine knew about the 1921 codicil. Find what she did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Prosper Tureaud",
+            "icon": "🎷",
+            "detail": "The killer — engraved flask, strychnine, took the will, life imprisonment."
+          },
+          {
+            "name": "Marcel Fontenot",
+            "icon": "⚖️",
+            "detail": "Cleared as killer — funeral home confirmed. Lost the codicil, disbarred."
+          },
+          {
+            "name": "Celestine Tureaud",
+            "icon": "🌹",
+            "detail": "Cleared as killer — front gallery confirmed. Had known about the 1921 codicil and had not disclosed it."
+          },
+          {
+            "name": "The Elder Tureaud's Intentions",
+            "icon": "📋",
+            "detail": "The dead man's wishes — he had told both children about the codicil, and neither had disclosed this knowledge during the dispute."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Second Line Route",
+            "icon": "🎷",
+            "detail": "Primary crime scene — Prosper's killing of Beauregard."
+          },
+          {
+            "name": "The Tureaud Family Home",
+            "icon": "🏠",
+            "detail": "Where the three-day dispute had been held — and where Celestine had known about the codicil throughout."
+          },
+          {
+            "name": "The Secretary Desk",
+            "icon": "📋",
+            "detail": "Where the 1919 will had been found — and where the 1921 codicil had not been, because Marcel had lost it."
+          },
+          {
+            "name": "Marcel's Office",
+            "icon": "⚖️",
+            "detail": "Where the 1921 draft had been filed and lost — and where Celestine had not gone to ask."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Flask",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Prosper's."
+          },
+          {
+            "name": "Funeral Wreath Wire",
+            "icon": "🌸",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Brass Instrument Case",
+            "icon": "🎷",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Celestine's Non-Disclosure",
+            "icon": "🌹",
+            "detail": "Not a weapon — but her silence about the codicil had allowed the dispute to proceed on incorrect terms."
+          },
+          {
+            "name": "Marcel's Lost Document",
+            "icon": "⚖️",
+            "detail": "Not a weapon — the structural cause of all subsequent events."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Intestate Claim",
+            "icon": "🎷",
+            "detail": "Prosper's motive — believed Celestine had suppressed the codicil."
+          },
+          {
+            "name": "Protect the 1919 Will's Terms",
+            "icon": "🌹",
+            "detail": "Celestine's interest — the 1919 will gave her everything; the 1921 codicil would have halved her inheritance."
+          },
+          {
+            "name": "Avoid Disclosing Professional Negligence",
+            "icon": "⚖️",
+            "detail": "Marcel's reason for silence — disclosing would have exposed the unfiled codicil."
+          },
+          {
+            "name": "Celestine's Knowledge of the Codicil",
+            "icon": "📋",
+            "detail": "What the elder had told her — that he had changed the will to include Prosper equally."
+          },
+          {
+            "name": "The Three Days of Strategic Silence",
+            "icon": "🌹",
+            "detail": "Celestine's three days of the dispute knowing the codicil existed but not disclosing it — allowing the intestate confusion to work in her favor."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Beauregard and Took the Will",
+            "icon": "🎷",
+            "detail": "Prosper's confirmed role — life imprisonment."
+          },
+          {
+            "name": "Lost the Signed Codicil and Stayed Silent",
+            "icon": "⚖️",
+            "detail": "Marcel's role — disbarred."
+          },
+          {
+            "name": "Knew About the Codicil and Did Not Disclose It During the Dispute",
+            "icon": "🌹",
+            "detail": "Celestine's role — knew the dispute was proceeding on incorrect terms and allowed it."
+          },
+          {
+            "name": "Told Both Children About the Codicil",
+            "icon": "📋",
+            "detail": "The elder Tureaud's action — had told both Prosper and Celestine about the 1921 change he believed had been made."
+          },
+          {
+            "name": "Allowed the Dispute to Proceed on False Premises",
+            "icon": "📋",
+            "detail": "The collective silence of Marcel and Celestine — each for different reasons, both allowing an incorrect proceeding."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What the Elder Had Told Celestine",
+        "text": "Celestine, confronted in 1924 by the probate court's expanded investigation, admits: 'Papa told me in 1921 that he had changed his will to give Prosper an equal share. He said it was the right thing — that Prosper was his son whatever the circumstances of his birth. I did not know the change had not been filed.' She had known the elder's intention but had not known Marcel's failure.",
+        "alone": "Celestine had known about the 1921 intended change from her father — but claims she had not known it had not been filed. She had known the elder's intention to equalize the inheritance.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Celestine knowing about the 1921 intended change and not disclosing it during three days of intestate dispute confirm her silence had served her financial interest — whether or not she had known the codicil was unfiled, she had known the dispute's terms were not what her father had intended."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Celestine's Three Days",
+        "text": "The three-day dispute had proceeded on the basis that no will existed and that the estate should be divided under intestate succession — which would have given Prosper a meaningful share. Celestine had known throughout that her father had intended to change the will to give Prosper an equal share. She had not disclosed this during the dispute. She had waited for someone to find the 1919 will — which, without the codicil, gave her everything.",
+        "alone": "Celestine had known for three days that the dispute was not reflecting her father's intentions — she had allowed it to proceed, waiting for the 1919 will to emerge without the codicil that would have modified it.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Celestine's three days of knowing the dispute was on incorrect terms and her eventual inheritance of everything under the 1919 will confirm her silence had been financially motivated — she had benefited from not disclosing what she had known."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Celestine's Explanation",
+        "text": "Celestine says: 'I knew Papa wanted Prosper to have a share. I also knew that I was the legitimate heir under the document that existed. I thought — if Papa wanted the change, he would have made sure it was done properly. If it wasn't properly done, perhaps that was a sign that fate had intervened.' She frames her silence as deference to legal process rather than strategic suppression.",
+        "alone": "Celestine frames her silence as deference to the legal document that existed rather than to her father's stated intention — a framing the court finds convenient but not fully convincing.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Celestine's 'fate had intervened' framing and the court's implicit skepticism confirm the moral ambiguity of her position — she had benefited from a failure she had not caused but had not corrected, using a legal framing to avoid the ethical dimension."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Elder's Conversations With Both Children",
+        "text": "The probate court's investigation establishes that the elder Tureaud had told both Celestine and Prosper about the 1921 change — each had known. Neither had disclosed this during the dispute. Prosper had believed Celestine was suppressing the codicil deliberately. Celestine had known the codicil's existence was intended but had not known it was missing. The dispute had been conducted by two people who each knew the other's claim was closer to their father's intent than the legal position they were each taking.",
+        "alone": "Both heirs had known about the 1921 intended change — neither had disclosed it. Each had been taking a legal position they had known was not fully consistent with their father's stated intention.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Both heirs knowing about the codicil and neither disclosing it confirm the dispute's fundamental bad faith — both had been pursuing legal positions they had known were not what their father had wanted, for different reasons and with different levels of awareness of the document's fate."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "What Disclosure Would Have Done",
+        "text": "If Celestine had disclosed the elder's 1921 statement at any point during the three days of dispute, the family would have gone to Marcel to confirm. Marcel would have been required to disclose the lost codicil. Prosper would have known the codicil's absence was Marcel's error, not Celestine's suppression. The motive for killing Beauregard — to gain the estate before the will could be used against him — would not have existed in the same form. Disclosure might not have prevented the killing, but it would have changed its terms.",
+        "alone": "Celestine's disclosure at any point during three days would have changed the dispute's terms — Prosper would have known the codicil was lost, not suppressed, and his belief that Celestine had stolen from him would have been corrected.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Celestine's three days of knowing the dispute was incorrect and the disclosure's potential to change Prosper's belief about Celestine's suppression confirm her silence had not merely been passive — it had allowed a misbelief that had contributed to the killing's specific motive."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Court's Finding on Celestine",
+        "text": "The Louisiana probate court's 1924 finding on Celestine: 'While Celestine Tureaud committed no criminal act, her failure to disclose her knowledge of the testator's 1921 stated intention during three days of estate proceedings, which she knew to be proceeding on incorrect premises, constitutes a moral failure that this court notes in its record. She is awarded the estate under the reconstructed 1919 will. The court recommends voluntary redistribution.' She declines.",
+        "alone": "The court notes Celestine's moral failure in its record but awards her the estate — and recommends redistribution she declines.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Celestine's 'fate had intervened' framing and the court's record noting her moral failure confirm the gap between the legal outcome and the ethical assessment — she had received what the law gave her and had declined what the court had asked."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Celestine's Later Life",
+        "text": "Celestine Tureaud managed the cotton merchant business until 1941, when she sold it. She never married. She gave 5,000 dollars to Prosper's children in 1935 — when Prosper had been in prison for twelve years — without public explanation. She died in 1951. Her will left the residual estate to the Tremé neighborhood's Catholic church. No portion went to Prosper's family. The 5,000-dollar gift had been her only acknowledgment of the dispute's terms.",
+        "alone": "Celestine gave 5,000 dollars to Prosper's children in 1935 — a private acknowledgment that did not match the court's recommendation and that she never explained publicly.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The court recommending redistribution and Celestine's 5,000-dollar private gift in 1935 confirm she had eventually made a partial acknowledgment — not what the court had asked, given twelve years later in private, and never explained. A quarter of what the court had implied was right."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "The Full Accounting's Silence",
+        "text": "The Second Line case's full accounting: Prosper had been told his father had changed his will and had believed his sister had suppressed the change. Celestine had been told the same and had known the document's status was uncertain but had stayed silent. Marcel had lost the signed codicil and had stayed silent. The elder Tureaud had told both his children the same thing and had trusted a lawyer who had lost the document. Four people had held pieces of the same truth. None had spoken it fully during the three days when it might have mattered.",
+        "alone": "Four people had held pieces of the same truth — the elder's intention, the codicil's existence, the codicil's loss, the dispute's incorrect terms. None had spoken the full truth during the three days it might have mattered.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Both heirs knowing about the codicil and neither disclosing it and the full accounting identifying four partial truths confirm the case's moral structure — the killing had emerged not from a single deception but from four separate silences, each held for different reasons, none of which had been complete."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Prosper Tureaud",
+      "location": "The Second Line Route",
+      "weapon": "Poisoned Flask",
+      "motive": "Suppress the Intestate Claim",
+      "accomplice": "Knew About the Codicil and Did Not Disclose It During the Dispute"
+    },
+    "epilogue": "The elder Tureaud had told both his children the same thing in 1921. Marcel had lost the document. Celestine had known the dispute was proceeding on incorrect terms and had waited for the 1919 will to emerge without the codicil that would have modified it. Prosper had believed Celestine had stolen from him. Beauregard had found the 1919 will and had been poisoned. Four people had held pieces of the same truth. The jazz funeral had played the elder Tureaud to his grave. The law had played the rest of them to different destinations over the following years. Celestine had given 5,000 dollars to Prosper's children in 1935 and had never explained it. The church in Tremé had received the rest. The music had stopped when Beauregard collapsed. It had not started again the same way."
+  }
+}

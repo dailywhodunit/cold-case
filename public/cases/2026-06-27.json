@@ -1,0 +1,743 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Chicago, 1893. The World's Fair. A hotel guest found dead in the building they called the Castle. And the man who built it had a key to every room. 🏨🔍 Case #100 — The Castle. Play free at thedailywhodunit.com — Case 100.",
+      "tiktok": "Free daily murder mystery game: Chicago World's Fair 1893, a guest dead in the Castle hotel, and the doctor who built it had designed the rooms to make people disappear. Case #100 — the milestone case. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of an 1893 Chicago World's Fair-era hotel room — ornate Victorian wallpaper, a gas lamp casting amber light, a room with no exterior window, a locked door with no interior handle, a trunk open and rifled. Period darkness and opulence. The feeling of a sealed room. Style of period Chicago photography meets Edward Gorey.",
+    "animationPrompt": "Slow pan through an 1893 Chicago hotel room. Victorian wallpaper. Gas lamp. A door with no interior handle. An open rifled trunk. The camera finds the sealed window — painted shut, no exterior light. The gas lamp flickers. The room is very quiet. The door has no handle on the inside. Fade to black.",
+    "hashtags": [
+      "#Chicago1893",
+      "#WorldsFair",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#Case100"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #100",
+    "title": "The Castle",
+    "setting": "The World's Fair Hotel · Chicago · Illinois · 1893",
+    "emoji": "🏨",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Textile merchant Edmund Clarke was found dead in his room at the World's Fair Hotel — a room with no interior door handle, a sealed window, and a gas line that ran to a valve in the basement. Three people had keys to the room. The hotel's owner, Dr. Henry Howard, had designed the room himself. The Fair outside continued without interruption.",
+    "emptyState": "A room with no inside handle. Three keys. One dead guest. Find who used theirs.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Henry Howard",
+            "icon": "🔑",
+            "detail": "The hotel owner — had designed the room and held the master key."
+          },
+          {
+            "name": "Mrs. Clara Finch",
+            "icon": "💍",
+            "detail": "A widow staying on the same floor — had become friendly with Clarke and had been given a copy of his key at his request."
+          },
+          {
+            "name": "Thomas Grady",
+            "icon": "🧹",
+            "detail": "The hotel's head housekeeper — held a pass key and had access to Clarke's floor."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 207",
+            "icon": "🚪",
+            "detail": "Clarke's room — no interior door handle, sealed window, gas valve line, trunk rifled."
+          },
+          {
+            "name": "The Basement",
+            "icon": "🔧",
+            "detail": "Where the gas valve controls were located — accessible only to Howard and his staff."
+          },
+          {
+            "name": "The Hotel Corridor",
+            "icon": "🏨",
+            "detail": "The second floor passage — where the housekeeper's log recorded movements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gas Asphyxiation",
+            "icon": "💨",
+            "detail": "The sealed room's gas line had been opened — carbon monoxide present at fatal levels at post-mortem."
+          },
+          {
+            "name": "Blunt Object",
+            "icon": "🪵",
+            "detail": "No external wound — the cause of death is the gas, not impact."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Toxicology finds only carbon monoxide — no chemical poison, eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Room's Design",
+        "text": "Chicago police examine Room 207 and find: no interior door handle (guests could not exit without assistance); a window painted permanently shut; a gas line with a valve accessible only from a panel in the basement corridor; and a speaking tube that connected to the front desk but not to any alarm. The room had been designed so that its occupant was entirely dependent on others for exit, ventilation, and communication.",
+        "alone": "Room 207 had been designed to trap its occupant — no exit handle, sealed window, externally controlled gas. The room's design was the weapon's infrastructure.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The room designed by Howard to give external control of all exit and ventilation and Howard's confirmed presence in the basement that evening together establish that the person who had designed the infrastructure had been in the position to operate it."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💨",
+        "heading": "The Gas",
+        "text": "Post-mortem finds fatal carbon monoxide levels — the gas line to Room 207 had been opened during the night. The valve in the basement had been turned. The room's sealed nature had allowed concentration to reach fatal levels within approximately two hours of the valve being opened. The valve showed fresh hand markings on its wheel, consistent with recent use.",
+        "alone": "The gas valve had been turned recently — fresh markings on the wheel. Carbon monoxide had concentrated in the sealed room over two hours to fatal levels.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Fresh markings on the gas valve wheel and Dr. Howard's confirmed basement access as the hotel's owner and sole person with the valve's operational knowledge confirm the valve had been turned by someone who knew where it was and what it controlled."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Mrs. Finch's Evening",
+        "text": "Mrs. Clara Finch had attended the World's Fair's evening illumination exhibition with a group of eight hotel guests — the outing had been organized by the hotel's concierge. She had departed at seven PM and returned at eleven PM, confirmed by the concierge's log and all eight companions. She had not been at the hotel between seven and eleven. The gas had been opened during this window based on the post-mortem timing. She is definitively cleared.",
+        "alone": "Mrs. Finch had been at the Fair's illumination exhibition from seven to eleven PM — confirmed by eight companions. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Mrs. Finch cleared at the Fair exhibition and Thomas Grady's housekeeper log showing his movements above the first floor throughout the evening together eliminate both other suspects from the basement during the gas valve's operational window."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Clarke's Trunk",
+        "text": "Clarke's trunk — found open and rifled — had contained documents relating to a substantial textile contract he had been negotiating at the Fair. The contract, estimated at 80,000 dollars, had been with a manufacturer whose representative had been unable to secure favorable terms. The documents are missing. Clarke had told Mrs. Finch the previous evening that he planned to sign the contract 'by the week's end.' The contract documents had been the trunk's primary contents.",
+        "alone": "Clarke's contract documents — worth 80,000 dollars in deal value — had been taken from the rifled trunk. The room had been searched after the gas had taken effect.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The contract documents taken after Clarke was incapacitated and Howard's hotel hosting a manufacturer's representative whose competing interest in the contract is documented in Fair registration records together establish a financial motive beyond the room's design."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "Howard in the Basement",
+        "text": "A hotel kitchen worker confirms she had seen Dr. Howard in the basement corridor at approximately nine PM — she had been retrieving supplies and had seen him near the valve panel. He had told her he was checking the gas system. She had thought nothing of it — the hotel owner checking the building's systems during a busy Fair period had seemed routine. She had returned upstairs. Howard had remained in the basement.",
+        "alone": "Howard had been in the basement at nine PM near the valve panel — seen by the kitchen worker, who had left him there alone with access to the valve.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Room 207's design giving Howard external control of the gas and Howard confirmed alone at the valve panel at nine PM together establish the method and the operator — the room's designer had been at the valve's location during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔑",
+        "heading": "Howard's Master Key",
+        "text": "The rifled trunk required entry to Room 207 — the room had been locked from the outside. Clarke had been inside. After the gas had taken effect, someone had entered using a key and had searched the trunk. The entry had occurred while Clarke was incapacitated but before death — the door's interior showed Clarke had not reached it, confirming he had been unable to rise. Howard's master key is the only one that could have opened the room from the corridor without leaving marks.",
+        "alone": "Entry to Room 207 for the trunk search had required a key — Howard's master key was the only one that left no marks, as it had been designed for exactly this purpose.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Fresh valve markings confirming the basement visit and the master key's use confirming the trunk entry establish a two-stage operation — open the valve, wait two hours, enter with the master key, search the trunk, leave."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🧹",
+        "heading": "Grady's Log",
+        "text": "The housekeeper's log — maintained by Thomas Grady — shows his movements throughout the evening: linen delivery to the third floor at seven-thirty PM, turn-down service on the second floor from eight to nine PM (Room 207 had been marked 'do not disturb'), and supply inventory in the first-floor closets from nine to eleven PM. His log accounts for his full evening and is corroborated by a second housekeeper who worked alongside him from eight PM onward.",
+        "alone": "Grady's log accounts for his full evening with corroboration from a second housekeeper — his movements from eight PM onward are confirmed away from the basement. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Mrs. Finch cleared at the Fair and Grady cleared by the corroborated housekeeper log together eliminate both other key holders from the basement and from the killing — Howard is the only person confirmed near the valve panel during the nine-to-eleven PM killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Howard's Financial Interest",
+        "text": "Fair registration records show Dr. Henry Howard had registered as a business associate of Harmon Textiles — the manufacturer competing for the same contract Clarke had been negotiating. Howard had a financial stake in Harmon's success equivalent to 12 percent of any contract value. The 80,000-dollar contract Clarke had been about to sign would have generated 9,600 dollars for Howard if it had gone to Harmon instead. The contract documents in Clarke's trunk had been the immediate objective.",
+        "alone": "Howard had a 12-percent financial stake in the competing textile manufacturer — the 80,000-dollar contract Clarke was about to sign had been worth 9,600 dollars to Howard if it went to Harmon.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Clarke's contract documents taken from the rifled trunk and Howard's 9,600-dollar financial stake in the competing manufacturer confirm the killing had a specific financial motive — the room's design had been the method, the contract had been the objective."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Henry Howard",
+      "location": "Room 207",
+      "weapon": "Gas Asphyxiation"
+    },
+    "epilogue": "Dr. Henry Howard had designed Room 207 with no interior handle, a sealed window, and a gas valve accessible only from his basement. He had a 12-percent stake in Harmon Textiles and had known Clarke was about to sign with Harmon's competitor. At nine PM he had opened the valve. At eleven PM, after the kitchen worker had left him alone in the basement, he had entered Room 207 with his master key and had searched the trunk. He had taken the contract documents. He had left Clarke's body and had closed the door. The contract had not been signed. Harmon Textiles had secured the deal the following week. Howard had received 9,600 dollars. The Chicago police had classified the death as accidental gas asphyxiation. The room's design had not been questioned at the time. This is Case #100."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #100",
+    "title": "The Castle",
+    "setting": "The World's Fair Hotel · Chicago · Illinois · 1893",
+    "emoji": "🏨",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Howard killed Clarke and took the contract documents. But Clarke was not the first person to die in Room 207 — a prior guest had died there two months earlier, also classified as an accident. Find what the prior death reveals about Howard's operation.",
+    "emptyState": "Someone died in Room 207 two months before Clarke. Find what that reveals.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Henry Howard",
+            "icon": "🔑",
+            "detail": "The killer — valve opened, master key used, 9,600-dollar financial stake, two-stage operation."
+          },
+          {
+            "name": "Mrs. Clara Finch",
+            "icon": "💍",
+            "detail": "Cleared as killer — Fair exhibition confirmed. Her prior friendship with Clarke becomes significant."
+          },
+          {
+            "name": "Thomas Grady",
+            "icon": "🧹",
+            "detail": "Cleared as killer — housekeeper log corroborated. His prior knowledge of the room's design is examined."
+          },
+          {
+            "name": "The Prior Guest",
+            "icon": "🏨",
+            "detail": "The victim from two months before — whose death had also been classified as accidental."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 207",
+            "icon": "🚪",
+            "detail": "Primary crime scene — and the location of the prior death two months before."
+          },
+          {
+            "name": "The Basement",
+            "icon": "🔧",
+            "detail": "Howard's operational location — valve panel, confirmed presence."
+          },
+          {
+            "name": "The Hotel Register",
+            "icon": "📋",
+            "detail": "Where the prior guest's stay was recorded — and where the pattern of Room 207 occupancies is documented."
+          },
+          {
+            "name": "The Chicago Coroner's Office",
+            "icon": "📜",
+            "detail": "Where both deaths had been classified — the prior death and Clarke's."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gas Asphyxiation",
+            "icon": "💨",
+            "detail": "Confirmed murder weapon — valve, sealed room, two-hour concentration."
+          },
+          {
+            "name": "Blunt Object",
+            "icon": "🪵",
+            "detail": "No external wound — eliminated."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Toxicology: carbon monoxide only — eliminated."
+          },
+          {
+            "name": "The Room's Design",
+            "icon": "🚪",
+            "detail": "Not a weapon per se — but the architectural infrastructure that had made the gas method repeatable and deniable."
+          }
+        ]
+      },
+      {
+        "key": "window",
+        "label": "Time Window",
+        "icon": "⏱️",
+        "items": [
+          {
+            "name": "Two Months Before",
+            "icon": "📅",
+            "detail": "When the prior guest had died in Room 207 — classified as accidental gas failure."
+          },
+          {
+            "name": "Nine PM",
+            "icon": "🌙",
+            "detail": "When Howard had opened the valve — confirmed by the kitchen worker."
+          },
+          {
+            "name": "Eleven PM to Midnight",
+            "icon": "🌙",
+            "detail": "When Howard had entered Room 207 with the master key — between the kitchen worker leaving and Clarke's body cooling."
+          },
+          {
+            "name": "The Fair's Duration",
+            "icon": "🌍",
+            "detail": "May to October 1893 — the operational window during which Room 207 had been occupied by a series of targets."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Prior Guest",
+        "text": "The hotel register shows the prior occupant of Room 207 — two months before Clarke — had been a Philadelphia attorney named Samuel Weston. He had died on a Tuesday night in early August, classified by the coroner as 'accidental gas failure — defective valve.' The coroner's report had not noted the room's specific design features. Weston had been in Chicago for Fair-related business. His personal documents had also been found disturbed.",
+        "alone": "The prior guest had also died in Room 207 with disturbed documents — classified as accidental gas failure, the same classification as Clarke's death.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The prior death with disturbed documents and the same accidental classification and Clarke's death with the same features confirm the pattern — Room 207 had been used as an operational space before Clarke, and both deaths had received the same institutional classification."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Weston's Business at the Fair",
+        "text": "Fair records show Samuel Weston had been representing a Philadelphia investment firm considering a significant real estate acquisition in the Chicago Loop — a deal that would have competed with a development Howard had been part-financing. Howard had a 15-percent stake in the competing development. Weston's firm had been the obstacle to Howard's investment proceeding. Weston had died. The Philadelphia firm had withdrawn from the deal one week later. Howard's development had proceeded.",
+        "alone": "Weston had been an obstacle to Howard's real estate investment — his death had removed the obstacle and the development had proceeded, worth significantly more to Howard than Clarke's textile stake.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Weston's death enabling Howard's real estate investment and Clarke's death enabling the textile contract confirm Room 207 had been used twice for financially motivated killings — Howard had a documented pattern of using the room against people who represented competitive financial obstacles."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Coroner's Pattern",
+        "text": "A detective examining both deaths notes that the Chicago coroner's office had received two 'accidental gas failure' reports from the World's Fair Hotel within two months — both from Room 207. The coroner's office had not flagged the repetition — one accidental death per hotel was within statistical norms; two from the same room had not been noticed as a pattern because the records had been filed by date, not by location. The pattern had been invisible to the filing system.",
+        "alone": "Two accidental gas deaths from the same room within two months had not been noticed as a pattern — the coroner's filing system had been organized by date, not by location.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The filing system's blindness to the room-specific pattern and Howard's two confirmed financial beneficiaries from the two deaths confirm the operational design had included an administrative blind spot — the room had been chosen partly because accidental gas deaths in hotel rooms were individually unremarkable."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏨",
+        "heading": "Room 207's Occupancy Pattern",
+        "text": "A full review of Room 207's occupancy during the Fair reveals a specific pattern: the room had been offered to guests who had business Howard had a competitive interest in. The hotel's booking records, when cross-referenced with Howard's known business interests, show five guests in Room 207 during the Fair's six-month run — two had died (Weston and Clarke); one had become seriously ill but had recovered; two had departed Chicago without completing their business. All five had had competitive connections to Howard's investments.",
+        "alone": "Five guests in Room 207 during the Fair — all with competitive connections to Howard's investments. Two had died. One had recovered from illness. Two had left Chicago without completing business.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Five targeted guests with Howard's competitive connections and two deaths confirming the operational pattern establish Room 207 had been a deliberately deployed tool across the Fair's duration — the two deaths were the most severe outcomes of a sustained operation."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Grady's Knowledge of the Design",
+        "text": "Thomas Grady, the head housekeeper, had worked at the hotel since its construction. He had been present when the rooms had been fitted and had noted the unusual design of Room 207 — the missing interior handle, the sealed window. He had asked Howard about it during construction. Howard had told him: 'It's an experimental design for guests who prefer absolute privacy.' Grady had accepted this and had not questioned it again.",
+        "alone": "Grady had noticed Room 207's unusual design during construction and had accepted Howard's 'absolute privacy' explanation — his eleven-year acceptance of the explanation had left the design unquestioned.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The coroner's administrative blind spot and Grady's accepted explanation for the design confirm the operation had been protected by multiple layers of institutional and individual unawareness — each person with a piece of knowledge had had an explanation that made investigation unnecessary."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Investigation's Scope",
+        "text": "When the detective connects the two deaths to Howard's financial interests and examines the full occupancy record, the investigation expands. The ill-but-recovered third guest — a Boston manufacturer — is contacted. He describes a night in Room 207 during which he had become severely ill from 'bad air' and had been moved to another room by Grady at his request. He had assumed the ventilation had been faulty. He had not connected his illness to the room's design.",
+        "alone": "The third guest had become seriously ill in Room 207 and had been moved — he had attributed it to bad ventilation without knowing the room had been designed to be unventilated on command.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Weston's death enabling the real estate investment and the third guest's illness but survival suggesting an interrupted or partial gas application confirm Howard had been operating the valve selectively — the third guest's illness suggests the valve may have been opened and then closed, or opened less fully."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Howard's Other Rooms",
+        "text": "The investigation examines whether Room 207 was the only specially designed room. An architect who had worked on the hotel's construction confirms that three other rooms had similar features — no interior handle, sealed windows, gas lines with basement valve control. All four rooms had been on the second floor, clustered around a central ventilation shaft. Howard had built a system, not an accident.",
+        "alone": "Three other rooms had the same design as Room 207 — Howard had built four such rooms, a systematic design rather than a single experimental room.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Five targeted guests in Room 207 and three additional identically designed rooms confirming a systematic construction confirm the Castle had been designed from the beginning as an operational environment — the Fair had been the operational period, and two murders had been its documented outcome."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏨",
+        "heading": "The Case's Historical Record",
+        "text": "Dr. Henry Howard was arrested in 1894 — after a separate insurance fraud investigation had uncovered his pattern of insuring hotel guests and collecting on their deaths. The gas asphyxiation method had not been the primary evidence; the insurance fraud had been. Once arrested, the Clarke and Weston deaths had been re-examined. Howard had been convicted of multiple murders and executed in 1896. The World's Fair Hotel had been demolished in 1895. This is the hundredth case in the Daily Whodunit archive.",
+        "alone": "Howard had been convicted through an insurance fraud investigation, not through the gas method — the method had been discovered in retrospect. He was executed in 1896. This is Case #100.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The third guest's illness suggesting selective valve operation and the insurance fraud investigation being the eventual discovery method confirm the gas method had been designed for deniability — and had been deniable until a different investigation had opened the full picture."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Henry Howard",
+      "location": "Room 207",
+      "weapon": "Gas Asphyxiation",
+      "window": "Nine PM"
+    },
+    "epilogue": "Dr. Henry Howard had built four rooms with no interior handles, sealed windows, and basement-controlled gas valves. He had used them during the World's Fair to eliminate financial competitors. Weston had died in August. Clarke had died in September. A third guest had become ill but had survived — Grady had moved him at his request. Two others had left Chicago without completing their business. Howard had been arrested in 1894 for insurance fraud. The gas asphyxiation had been discovered in retrospect. He had been executed in 1896. The hotel had been demolished in 1895. The World's Fair had been called the White City. The hotel had been called the Castle. This is Case #100."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #100",
+    "title": "The Castle",
+    "setting": "The World's Fair Hotel · Chicago · Illinois · 1893",
+    "emoji": "🏨",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Howard killed Clarke and Weston and targeted three others. But the detective who eventually connected the pattern — before the insurance fraud investigation — had been dismissed from the Chicago police for making the connection too early. Find what the detective had found and why he had been dismissed.",
+    "emptyState": "A detective found the pattern before the insurance case. He was dismissed. Find what he found.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Henry Howard",
+            "icon": "🔑",
+            "detail": "The killer — four designed rooms, two confirmed deaths, one illness, two departures, executed 1896."
+          },
+          {
+            "name": "Mrs. Clara Finch",
+            "icon": "💍",
+            "detail": "Cleared as killer — Fair exhibition confirmed. Her friendship with Clarke had been the only person who had noticed Clarke's fear."
+          },
+          {
+            "name": "Thomas Grady",
+            "icon": "🧹",
+            "detail": "Cleared as killer — housekeeper log. Had moved the third guest and had never connected the incidents."
+          },
+          {
+            "name": "Detective Frank Cobb",
+            "icon": "🔍",
+            "detail": "The dismissed detective — had found the pattern in 1893 and had been removed from the investigation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Room 207",
+            "icon": "🚪",
+            "detail": "Primary crime scene — and the room whose pattern Cobb had identified."
+          },
+          {
+            "name": "The Chicago Police Department",
+            "icon": "🏛️",
+            "detail": "Where Cobb had been dismissed — and where the investigation had been closed prematurely."
+          },
+          {
+            "name": "The Hotel Register",
+            "icon": "📋",
+            "detail": "The document Cobb had cross-referenced with Fair business records — producing the occupancy pattern."
+          },
+          {
+            "name": "The Insurance Fraud Investigation",
+            "icon": "📋",
+            "detail": "The 1894 inquiry that had eventually confirmed what Cobb had found in 1893."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gas Asphyxiation",
+            "icon": "💨",
+            "detail": "Confirmed murder weapon — Howard's, two deaths."
+          },
+          {
+            "name": "Blunt Object",
+            "icon": "🪵",
+            "detail": "No external wound — eliminated."
+          },
+          {
+            "name": "Poison",
+            "icon": "☠️",
+            "detail": "Carbon monoxide only — eliminated."
+          },
+          {
+            "name": "Institutional Dismissal",
+            "icon": "🏛️",
+            "detail": "Not a weapon — but the mechanism that had silenced the detective who had found the pattern."
+          },
+          {
+            "name": "Howard's Political Connections",
+            "icon": "🔑",
+            "detail": "What had enabled the dismissal — Howard's Fair-period influence over certain Chicago officials."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Financial Competition Elimination",
+            "icon": "🔑",
+            "detail": "Howard's operational motive — two confirmed deaths, documented financial benefits."
+          },
+          {
+            "name": "Suppress the Pattern Investigation",
+            "icon": "🏛️",
+            "detail": "Howard's reason for using political connections — Cobb's pattern identification had threatened the operation."
+          },
+          {
+            "name": "Cobb's Cross-Reference Discovery",
+            "icon": "🔍",
+            "detail": "What Cobb had found — the hotel register cross-referenced with Fair business records had shown all five targeted guests had competitive connections to Howard."
+          },
+          {
+            "name": "The Dismissal's Mechanism",
+            "icon": "🏛️",
+            "detail": "How Cobb had been removed — Howard had contacted a city official with authority over police appointments."
+          },
+          {
+            "name": "The Pattern's Eventual Confirmation",
+            "icon": "📋",
+            "detail": "The insurance fraud investigation had confirmed Cobb's pattern exactly — he had been right, one year early."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Clarke and Weston With Gas",
+            "icon": "💨",
+            "detail": "Howard's confirmed role — executed 1896."
+          },
+          {
+            "name": "Used Political Connections to Dismiss Cobb",
+            "icon": "🏛️",
+            "detail": "Howard's suppression action — the detective who had found the pattern had been removed."
+          },
+          {
+            "name": "Accepted Howard's 'Absolute Privacy' Explanation",
+            "icon": "🧹",
+            "detail": "Grady's role — eleven years of accepted explanation, third guest moved without connection made."
+          },
+          {
+            "name": "Classified Both Deaths as Accidental",
+            "icon": "📜",
+            "detail": "The coroner's institutional role — filing system organized by date not location."
+          },
+          {
+            "name": "Found the Pattern and Was Dismissed",
+            "icon": "🔍",
+            "detail": "Cobb's role — the detective who had been right, removed for being right at the wrong time."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "Detective Cobb's Discovery",
+        "text": "Frank Cobb, assigned to the Clarke death investigation, had spent four days cross-referencing the hotel's guest register with the World's Fair's commercial registration records. He had identified that all five guests assigned to Room 207 had had documented competitive interests conflicting with Howard's known investments. He had presented this finding to his superior, Captain Harlan, with a request to examine the room's unusual design features. Harlan had refused the request and had reassigned Cobb to another district.",
+        "alone": "Cobb had cross-referenced the hotel register with Fair commercial records and had found the five-guest competitive connection pattern — his superior had refused the examination request and had reassigned him.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cobb's pattern identification and Harlan's refusal to examine the room's design confirm the dismissal had been protective — the examination Cobb had requested would have revealed the room's intentional design, which would have made the accidental classification impossible to maintain."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Howard's Connection to Harlan",
+        "text": "An 1894 internal police investigation — part of a broader Chicago corruption inquiry — finds that Captain Harlan had received 400 dollars from a city official named Alderman Breck in October 1893, three days after Cobb's reassignment. Breck had received 500 dollars from Howard's personal account in the same week. The money's path is documented in the corruption inquiry's records: Howard → Breck → Harlan → Cobb's reassignment.",
+        "alone": "A documented payment chain from Howard through a city alderman to the police captain had preceded Cobb's reassignment by three days — the dismissal had been purchased.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Howard paying through Breck to Harlan and Cobb's reassignment three days later confirm the suppression had been a commercial transaction — the detective who had found the pattern had been removed through the same institutional corruption that had protected Howard's other operations."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🔍",
+        "heading": "Cobb's Account",
+        "text": "Frank Cobb, interviewed during the 1894 corruption inquiry, describes what had happened: 'I had the pattern. Five guests, all competitors of Howard, all assigned the same room. Two dead, one sick, two fled. I went to Harlan. He told me I was seeing connections that weren't there. Three days later I was in the Eighteenth District. I kept my notes. When the insurance case broke in 1894, I sent them to the new captain.' His notes had been the foundation for the 1894 re-examination.",
+        "alone": "Cobb had kept his notes and had sent them to the new captain when the insurance fraud case opened — his 1893 work had been the foundation for the 1894 investigation that had convicted Howard.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cobb keeping his notes and the 1894 investigation using them to convict Howard confirm he had been right and had been removed for being right — his persistence in keeping the notes had been the action that had eventually mattered."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💍",
+        "heading": "What Mrs. Finch Had Noticed",
+        "text": "Mrs. Finch, interviewed during the 1894 investigation, reveals she had noticed something Clarke had said the day before his death: 'Edmund told me the room felt wrong. He said — the window doesn't open and the door has no handle on the inside. He laughed about it. He said it was very fine otherwise and he supposed the design was fashionable. I thought nothing of it. I wish I had asked him to move rooms.' Clarke had noticed the design and had not understood it.",
+        "alone": "Clarke had noticed the room's unusual design and had mentioned it to Mrs. Finch the day before his death — she had not acted on his observation, and he had not understood its implication.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Clarke noticing the design and not understanding it and Mrs. Finch not acting on his observation confirm the room's design had been calibrated to be unusual enough to notice but not unusual enough to alarm — guests had remarked on it and had remained."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "What the Examination Would Have Found",
+        "text": "Cobb's requested examination of Room 207's design — refused by Harlan — would have identified: the missing interior handle (not present on any other room); the sealed window (also unique to Room 207 and the three adjacent rooms); and the basement valve connection (not a standard hotel gas installation). Any competent examination would have established the design was intentional, not standard, and would have made the accidental classification of Weston's death untenable.",
+        "alone": "The refused examination would have established the design's intentionality — making both deaths impossible to classify as accidents and destroying the hotel's legal protection.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Cobb's examination request and Harlan's refusal three days before the purchased reassignment confirm the refusal had been the first protective action — denying the examination had preserved the accidental classification for another year."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Corruption Inquiry's Finding",
+        "text": "The 1894 corruption inquiry's finding on the Cobb-Harlan-Breck-Howard chain: 'A payment of 400 dollars to Captain Harlan, traceable to Howard through Alderman Breck, had preceded Detective Cobb's reassignment by three days. The investigation finds this payment had been made to suppress an active murder investigation. Captain Harlan is dismissed from the force. Alderman Breck is censured. Both are referred for criminal prosecution.' Neither is ultimately prosecuted — the evidence of intent is found insufficient for the criminal standard.",
+        "alone": "The corruption inquiry finds the payment chain and dismisses Harlan and censures Breck — but criminal prosecution fails for insufficient evidence of intent. Neither is prosecuted.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The documented payment chain and the failed prosecution for insufficient intent confirm the suppression's legal outcome — the chain had been real, the payment had been documented, and the standard for criminal liability had not been met."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🔍",
+        "heading": "Cobb's Notes' Legacy",
+        "text": "Frank Cobb's 1893 notes — the cross-reference of the hotel register with Fair commercial records — are entered into evidence at Howard's 1895 trial. The prosecutor calls them 'the first complete account of the defendant's operational pattern.' The trial record notes that Cobb had assembled the full picture within four days of the Clarke death, had been removed before he could act on it, and had preserved the work for fourteen months until the insurance fraud case had reopened the investigation.",
+        "alone": "Cobb's notes are cited at trial as the first complete account of Howard's operational pattern — assembled in four days, preserved for fourteen months, used at trial to convict.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Cobb keeping his notes and sending them to the new captain and the trial using them to convict confirm his persistence had been the decisive action — the notes had been what had made the conviction possible, and their preservation had been the act that had mattered most after the dismissal."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏨",
+        "heading": "The Hundredth Case",
+        "text": "Henry Howard was executed on May 7, 1896, at Moyamensing Prison in Philadelphia. He confessed to multiple murders before his execution — the precise number has never been established. The World's Fair Hotel was demolished in 1895. Detective Frank Cobb retired from the Chicago Police Department in 1901 and received a commendation for his work on the Howard case. Captain Harlan died in 1899 without facing criminal prosecution. Alderman Breck served on the city council until 1902. Mrs. Finch moved to Boston. Thomas Grady continued as head housekeeper at a different Chicago hotel for twenty years. This is Case #100 in the Daily Whodunit archive. The room had no handle on the inside. The window was sealed. The gas was in the wall. The detective kept his notes. Case #100.",
+        "alone": "Howard executed 1896. Cobb commended 1901. Harlan died 1899 without prosecution. Breck on the city council until 1902. This is Case #100.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cobb's notes cited at trial as the first complete account and his commendation in 1901 confirm the hundredth case's final accounting — the detective who had been right and removed had eventually been recognized, and the notes he had kept for fourteen months had been the thing that had mattered."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Henry Howard",
+      "location": "Room 207",
+      "weapon": "Gas Asphyxiation",
+      "window": "Nine PM",
+      "motive": "Financial Competition Elimination"
+    },
+    "epilogue": "Frank Cobb had found the pattern in four days in 1893. He had been reassigned in three more. Howard had paid 500 dollars through an alderman to a captain to move the detective who had seen it. Cobb had kept his notes. The insurance fraud case had opened in 1894. Cobb had sent the notes to the new captain. Howard had been convicted in 1895 and executed in 1896. The hotel had been demolished in 1895. Cobb had been commended in 1901. The room had had no handle on the inside. The window had been sealed. The gas had been in the wall. Detective Frank Cobb had kept his notes for fourteen months and had been right. This is Case #100 in the Daily Whodunit archive. The notes are still in the record."
+  }
+}

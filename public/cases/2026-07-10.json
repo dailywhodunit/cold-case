@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Nuremberg, 1946. The tribunal. A court translator dead in her office with a document that should have been entered into evidence — and wasn't. Find who needed that evidence gone. ⚖️🔍 Case #113 — The Tribunal. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Nuremberg 1946, the war crimes tribunal, a dead court translator, and an evidence document that someone killed to keep out of the record. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1946 Nuremberg tribunal support office at night, stacked legal folders and translation documents on a desk, a German document with official stamps beside an overturned inkwell, a woman's translation notebook open to a half-finished page, a telephone off the hook. Post-war institutional gravity, history being decided. Style of Margaret Bourke-White meets period tribunal photography.",
+    "animationPrompt": "Slow pan through a 1946 Nuremberg tribunal support office at night. Stacked legal folders. Translation documents. The camera finds a German document with official stamps beside an overturned inkwell and a translation notebook open to a half-finished page. A telephone off the hook. The weight of history being decided. Fade to black.",
+    "hashtags": [
+      "#Nuremberg1946",
+      "#WarCrimesTribunal",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #113",
+    "title": "The Tribunal",
+    "setting": "Nuremberg Palace of Justice · Nuremberg · Germany · 1946",
+    "emoji": "⚖️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Court translator Marta Hoffmann was found dead in the tribunal support office late at night. She had been translating a newly discovered document — a directive ordering the deportation of Jewish communities from three occupied territories, bearing a specific defendant's signature. The translation was unfinished. The original document was missing. Three people had known the document existed.",
+    "emptyState": "A directive. A signature. An unfinished translation. Find who took the original.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Klaus Werner",
+            "icon": "📁",
+            "detail": "A German defence liaison — had been assisting the defence teams with document organisation and had access to the evidence room."
+          },
+          {
+            "name": "Captain James Hollis",
+            "icon": "🎖️",
+            "detail": "An Allied evidence officer — had been responsible for logging newly discovered documents and had brought this one to Marta."
+          },
+          {
+            "name": "Dr. Irene Stein",
+            "icon": "📚",
+            "detail": "A senior translator — had been Marta's supervisor and had seen the document before Marta had begun the translation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Translation Office",
+            "icon": "📝",
+            "detail": "Where Marta was found — notebook open, inkwell overturned, document missing."
+          },
+          {
+            "name": "The Evidence Room",
+            "icon": "📁",
+            "detail": "Where the document had been logged before being sent to Marta — the log shows the document's receipt."
+          },
+          {
+            "name": "The Defence Offices",
+            "icon": "⚖️",
+            "detail": "Where Werner had been working — adjacent to the evidence room."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Blunt Inkwell",
+            "icon": "✒️",
+            "detail": "A heavy ceramic inkwell — blunt force wound consistent with its base used against Marta's temple."
+          },
+          {
+            "name": "Legal Folder Spine",
+            "icon": "📁",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "No blood trace — the receiver had been knocked off the hook, not used as a weapon."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Unfinished Translation",
+        "text": "Marta's translation notebook is open to a half-finished page. The German text she had been working from is summarised in her notes: a directive dated March 1943, ordering the 'immediate deportation to resettlement facilities' of Jewish communities from three named territories. The directive bore a signature she had identified in her margin note as belonging to one of the defendants currently on trial. She had written the defendant's name with three underlines. The original document is missing.",
+        "alone": "Marta had identified a defendant's signature on a March 1943 deportation directive — she had underlined the name three times in her margin notes. The original was missing.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The defendant's signature identified on the directive and Klaus Werner's role as defence liaison giving him knowledge of which defendants were most vulnerable to new evidence together establish the specific threat — a defence liaison would have understood exactly how damaging a newly signed deportation order would be to the ongoing trial."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "✒️",
+        "heading": "The Inkwell",
+        "text": "The heavy ceramic inkwell — overturned on the desk — shows blood on its base. The wound on Marta's right temple is consistent with the inkwell's base used as a bludgeon — struck while Marta had been leaning over the translation, from her right side. The approach had been from beside the desk, not from behind — Marta had been struck from a position that had been beside or in front of her work position. She had not been surprised from behind.",
+        "alone": "Marta had been struck from beside the desk — not from behind — suggesting the killer had approached from the side in a position Marta had been aware of but had not perceived as threatening.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The side approach not triggering alarm and Klaus Werner's role as a familiar presence in the translation office — regularly bringing and collecting documents — together confirm the killer had been someone Marta had been used to seeing at her desk side."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Hollis's Evening",
+        "text": "Captain Hollis had logged the document into the evidence room at six PM and had personally walked it to Marta's office at six-thirty PM. He had then attended a briefing with Allied prosecution staff from seven PM until nine-thirty PM — confirmed by eleven Allied officers. He had not returned to the translation office. He is definitively cleared.",
+        "alone": "Hollis had delivered the document at six-thirty PM and had been in a nine-person briefing from seven to nine-thirty PM — confirmed by eleven officers. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Hollis cleared at the briefing and Dr. Stein confirmed in the main translation hall together eliminate both other suspects from the translation office during the killing window — only Werner's movements that evening in the evidence and translation areas are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Werner's Access and Knowledge",
+        "text": "Werner had been in the evidence room at five-thirty PM — before Hollis had logged the document — reviewing defence document requests. The evidence log shows Werner had seen the document's intake slip when Hollis had filed it at six PM. He had seen the document's description: 'March 1943 deportation directive, defendant signature — for urgent translation.' He had known a potentially damaging document was being translated that evening.",
+        "alone": "Werner had seen the intake slip at six PM describing a signed deportation directive going for urgent translation — he had known what was being translated and by whom.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Werner seeing the intake slip describing the defendant's signed directive and the defence's interest in suppressing incriminating new evidence together confirm he had understood the document's specific threat — a defence liaison's professional function included monitoring for evidence that might damage the defendants he was assisting."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "Werner in the Translation Area",
+        "text": "A night security guard confirms Werner had been in the translation office corridor at approximately eight-forty-five PM — he had told the guard he was collecting a completed translation for the defence team. The guard had not checked whether Werner was collecting or delivering. Werner's presence in the corridor placed him adjacent to Marta's office during the estimated killing window of eight-thirty to nine-thirty PM.",
+        "alone": "Werner had been in the translation office corridor at eight-forty-five PM — during the murder window — under the cover of collecting a completed translation.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Werner in the corridor during the killing window and the directive's defendant signature having been specifically identified by Marta together establish the proximity and the specific evidence that had motivated the visit — he had known the translation was in progress and had come during it."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "📁",
+        "heading": "Werner's Routine Access",
+        "text": "Evidence room records show Werner had visited the translation office on fourteen previous occasions during the trial — bringing and collecting documents as part of his liaison role. He had been a regular and expected presence. Marta had worked alongside him many times. His presence at her desk side would not have alarmed her. He had the routine access that would have made a side approach unremarkable.",
+        "alone": "Werner had been a regular presence at the translation office on fourteen prior occasions — Marta had worked with him routinely and would not have been alarmed by his presence at her desk side.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The side approach not triggering alarm and Werner's fourteen prior routine visits to the office confirming his familiar presence together establish why the approach had not alarmed Marta — the familiar liaison officer approaching her desk from the side had been a normal occurrence."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Dr. Stein's Location",
+        "text": "Dr. Irene Stein had been in the main translation hall supervising a team of six translators working on a lengthy interrogation transcript — confirmed by all six translators and the hall's duty officer. She had not left the main hall between seven PM and ten PM. She is definitively cleared.",
+        "alone": "Dr. Stein had been in the main hall from seven to ten PM confirmed by six translators and the duty officer. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Hollis cleared at the prosecution briefing and Stein cleared in the main translation hall together eliminate both other suspects — Werner's corridor presence at eight-forty-five PM during the killing window is the only confirmed suspect movement near the translation office."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Translation's Legal Significance",
+        "text": "Allied prosecution staff, briefed on the missing document the following morning, assess its significance: the March 1943 directive with the defendant's signature would have been direct evidence linking that defendant to deportation orders at a specific date — evidence that would have been difficult to refute. The defendant had testified he had not known about the deportation process until late 1944. The March 1943 date would have directly contradicted this testimony.",
+        "alone": "The directive's March 1943 date would have directly contradicted a defendant's testimony about when he had known about the deportations — the document would have been devastating to the defence.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Werner seeing the intake slip describing a signed deportation directive and the document's specific capacity to contradict a defendant's testimony together confirm the stakes — the directive had been specific, dateable evidence against a specific defendant whose testimony it would have directly refuted."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Klaus Werner",
+      "location": "The Translation Office",
+      "weapon": "Blunt Inkwell"
+    },
+    "epilogue": "Klaus Werner had seen the intake slip at six PM. He had gone to the translation office at eight-forty-five PM. Marta had been leaning over her translation. He had approached from the side — the familiar liaison position — and had struck her with the inkwell. He had taken the original document. He had left the corridor. The translation notebook remained, with three underlines beside the defendant's name. Werner was arrested the following morning when the corridor guard identified him. He was prosecuted separately from the main tribunal proceedings and received eight years for obstruction and manslaughter. The defendant whose signature had been on the missing directive was convicted on other evidence and received a life sentence. The missing document was never recovered. Marta Hoffmann's translation notebook remained in the tribunal's archive. The three underlines are still visible."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #113",
+    "title": "The Tribunal",
+    "setting": "Nuremberg Palace of Justice · Nuremberg · Germany · 1946",
+    "emoji": "⚖️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Werner killed Marta and took the directive. But Dr. Irene Stein had read the document before Marta had begun — find what Stein had done with that knowledge and whether she had also made a record.",
+    "emptyState": "Stein read the document before Marta. Find what she did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Klaus Werner",
+            "icon": "📁",
+            "detail": "The killer — corridor at eight-forty-five, inkwell, document taken, eight years for obstruction and manslaughter."
+          },
+          {
+            "name": "Captain James Hollis",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — briefing confirmed. His evidence logging procedure is newly examined."
+          },
+          {
+            "name": "Dr. Irene Stein",
+            "icon": "📚",
+            "detail": "Cleared as killer — main hall confirmed. Had read the document and had taken a specific action before handing it to Marta."
+          },
+          {
+            "name": "The Tribunal's Evidence Protocols",
+            "icon": "⚖️",
+            "detail": "The institutional context — whose procedures had created the vulnerability the killing had exploited."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Translation Office",
+            "icon": "📝",
+            "detail": "Primary crime scene — Werner's killing."
+          },
+          {
+            "name": "The Main Translation Hall",
+            "icon": "📚",
+            "detail": "Dr. Stein's confirmed location — and where she had taken her action before leaving for the evening."
+          },
+          {
+            "name": "The Evidence Room",
+            "icon": "📁",
+            "detail": "Where the document had been logged — and where the intake procedure had had a specific gap."
+          },
+          {
+            "name": "The Prosecution's Archive",
+            "icon": "⚖️",
+            "detail": "Where Stein had deposited something before going to the main hall."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Blunt Inkwell",
+            "icon": "✒️",
+            "detail": "Confirmed murder weapon — Werner's familiar side approach."
+          },
+          {
+            "name": "Legal Folder Spine",
+            "icon": "📁",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Stein's Preliminary Translation Notes",
+            "icon": "📚",
+            "detail": "Not a weapon — but the record she had made before handing the document to Marta."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress Evidence Contradicting the Defendant's Testimony",
+            "icon": "📁",
+            "detail": "Werner's motive — March 1943 directive, specific defendant, eight years."
+          },
+          {
+            "name": "Ensure the Evidence's Survival",
+            "icon": "📚",
+            "detail": "Stein's action — she had recognised the document's significance and had taken precautionary notes."
+          },
+          {
+            "name": "Professional Protocol Concern",
+            "icon": "⚖️",
+            "detail": "Stein's stated reason — she had known evidence of this type needed redundant documentation."
+          },
+          {
+            "name": "The Intake Procedure's Gap",
+            "icon": "📁",
+            "detail": "What Hollis's procedure had missed — no photographic copy had been made before the document had been sent for translation."
+          },
+          {
+            "name": "The Prosecution's Use of Stein's Notes",
+            "icon": "⚖️",
+            "detail": "What had happened when the missing document had been found — Stein's notes had partially filled the gap."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "What Stein Had Done",
+        "text": "Dr. Irene Stein, in her account to the tribunal investigators, explains: 'When Captain Hollis brought the document to me for initial assessment, I read it immediately. I recognised at once that it was significant — the signature, the March 1943 date, the deportation language. I made preliminary notes covering the document's key provisions, the signatory's name, the three territory names, and the directive's date. I then passed the document to Marta for full translation. I kept my preliminary notes.'",
+        "alone": "Stein had made preliminary notes of the document's key provisions, signatory, territories, and date before passing it to Marta — she had kept the notes.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Stein's preliminary notes covering the key provisions and the prosecution's use of those notes to establish what the missing document had contained together confirm the notes had served as a partial preservation of the evidence Werner had killed to suppress."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Why Stein Had Made the Notes",
+        "text": "Stein's account continues: 'I made notes on every significant document I assessed — it was my practice. Evidence of this type could be misplaced, damaged, or lost. I had seen documents disappear in the chaos of the tribunal's document management. My notes were not official procedure — they were my own professional practice developed because I had learned not to trust that any single copy of a document would survive.' She had been protecting against exactly the loss that had occurred.",
+        "alone": "Stein's preliminary notes had been her personal professional practice developed from experience of document loss — she had anticipated the possibility of the original being lost.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Stein's practice anticipating document loss and Werner's actual theft of the original together confirm her precautionary notes had been exactly the right preparation for exactly the event that had occurred — the practice she had developed from experience had applied to the specific situation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Intake Procedure's Gap",
+        "text": "Allied evidence intake procedures at Nuremberg did not require photographic duplication of documents before they were sent for translation — the assumption had been that documents in the evidence room were secure and that translation was a controlled process. The gap had allowed a single original to be in the translation office without a copy. Werner's theft had exploited exactly this gap. The procedures had been revised the day after Marta's death.",
+        "alone": "The evidence intake procedure had not required photographic duplication before translation — a single original had been in the translation office without a copy, which Werner's theft had exploited.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The intake procedure's single-copy gap and the procedures revised the day after the killing together confirm the institutional vulnerability had been specific and had been addressed immediately — the killing had been both the exploitation of the gap and the event that had closed it."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "How Stein's Notes Had Been Used",
+        "text": "Allied prosecution had used Stein's preliminary notes in two ways: first, to establish what the missing document had contained, allowing the prosecution to argue to the tribunal that a directive bearing the defendant's signature had existed; and second, to demonstrate the document's existence through secondary evidence even without the original. The tribunal had admitted Stein's notes as secondary evidence. The defendant's March 1943 knowledge had been argued through those notes.",
+        "alone": "Stein's notes had been admitted as secondary evidence — the prosecution had argued the directive's existence and the defendant's 1943 knowledge through the notes even without the original.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Stein's notes admitted as secondary evidence and the defendant convicted on other evidence together confirm the notes had served their purpose — the killing had removed the original, and the notes had partially filled the gap, though not fully enough to be the basis of the conviction."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Stein's Deposition",
+        "text": "Stein gave formal deposition testimony describing the document's contents in detail — her preliminary notes had been specific enough to reconstruct the directive's language with high confidence. The deposition had taken three hours. She had described the document's official stamps, the signatory's title and signature style, the three territory names, and the deportation language's specific phrasing. Her preliminary notes had been a professional translator's work, not a casual summary.",
+        "alone": "Stein's three-hour deposition had reconstructed the directive's content from her preliminary notes with the precision of a professional translator — the notes had been detailed enough to provide near-complete content reconstruction.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Stein's preliminary notes covering key provisions and her three-hour deposition reconstructing the directive's content together confirm the notes had been a genuine professional preservation — specific enough to serve as the basis of detailed secondary evidence."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Werner's Defence at His Trial",
+        "text": "Werner's separate trial had argued that he had taken the document to prevent a miscarriage of justice — that the document had been a forgery introduced by the prosecution. The tribunal examining Werner had found this defence implausible given the document's official stamps and the circumstances of Marta's death. The defence had also argued that Stein's preliminary notes had been fabricated after the fact. The tribunal had found this claim contradicted by the notes' physical evidence of having been made on the night.",
+        "alone": "Werner's defence had claimed the document was a forgery and the notes were fabricated — both claims had been rejected by the tribunal examining him.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The intake procedure's gap enabling the theft and Werner's failed forgery defence together confirm the vulnerability he had exploited and the implausibility of his claimed justification — the institutional gap had been real, and the defence constructed around it had not been."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Defendant's Conviction",
+        "text": "The defendant whose signature had been on the missing directive was convicted at the Nuremberg tribunal on charges of crimes against humanity and received a life sentence. The conviction had been based on other evidence — not on Stein's notes, which had been admitted but had not been the central basis. The prosecution had noted in its closing argument that a primary document establishing the defendant's March 1943 knowledge had existed and had been destroyed — and that the destruction itself was evidence of consciousness of guilt.",
+        "alone": "The defendant was convicted on other evidence — the prosecution had argued that the destruction of the directive was itself evidence of consciousness of guilt.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Stein's notes admitted as secondary evidence and the destruction itself argued as consciousness of guilt together confirm the killing had not achieved its purpose — the directive's absence had been turned into evidence of the defendant's guilt rather than a gap in the prosecution's case."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Stein's Later Career",
+        "text": "Dr. Irene Stein had continued as a senior translator at international legal proceedings through 1972. She had introduced, at each institution she had worked with, a personal requirement that all significant documents be photographically duplicated before translation. This practice had become standard at several institutions. She had described her reasoning in a 1968 professional journal: 'At Nuremberg, a document was destroyed because we had only one copy. The woman who was translating it was killed. We cannot undo that. We can prevent it from happening again with the next document.' She had retired in 1972 and died in 1991.",
+        "alone": "Stein had introduced photographic duplication as standard practice at every institution she had worked with after Nuremberg — the practice she had described as preventing the next Marta had been her legacy.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Stein's pre-existing personal practice of protecting against document loss and her introduction of the photographic duplication standard at subsequent institutions confirm the full arc of her response — her practice had partially preserved the directive's content in 1946, and she had spent the next twenty-six years institutionalising the protection that had been absent that night."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Klaus Werner",
+      "location": "The Translation Office",
+      "weapon": "Blunt Inkwell",
+      "motive": "Suppress Evidence Contradicting the Defendant's Testimony"
+    },
+    "epilogue": "Dr. Irene Stein had made preliminary notes covering the directive's key provisions, signatory, territories, and date before passing the document to Marta. She had kept the notes as personal professional practice developed from experience of document loss. Werner had taken the original. Stein's notes had been admitted as secondary evidence. The defendant had been convicted on other grounds. The prosecution had argued the destruction itself was evidence of consciousness of guilt. Werner had received eight years. The photographic duplication standard Stein had introduced at subsequent institutions had become standard practice at several international legal bodies. She had died in 1991. Marta Hoffmann's translation notebook remained in the tribunal archive. The three underlines are still there."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #113",
+    "title": "The Tribunal",
+    "setting": "Nuremberg Palace of Justice · Nuremberg · Germany · 1946",
+    "emoji": "⚖️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Werner killed Marta and took the directive. Stein preserved the content through her notes. But Captain Hollis had failed to follow a specific protocol that would have prevented the theft — find what that protocol had been and why Hollis had not followed it.",
+    "emptyState": "Hollis skipped a specific protocol. Find what it was and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Klaus Werner",
+            "icon": "📁",
+            "detail": "The killer — inkwell, corridor, document taken, eight years. Defence's forgery claim rejected."
+          },
+          {
+            "name": "Dr. Irene Stein",
+            "icon": "📚",
+            "detail": "Cleared as killer — main hall confirmed. Preliminary notes. Duplication standard. Died 1991."
+          },
+          {
+            "name": "Captain James Hollis",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — briefing confirmed. Had failed to follow the Category One protocol for the document's intake."
+          },
+          {
+            "name": "The Tribunal's Evidence Commission",
+            "icon": "⚖️",
+            "detail": "The institutional body — whose post-killing review had found the protocol failure and had drawn its conclusions."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Translation Office",
+            "icon": "📝",
+            "detail": "Primary crime scene — and where the theft had been possible because of the protocol failure."
+          },
+          {
+            "name": "The Evidence Room",
+            "icon": "📁",
+            "detail": "Where Hollis had logged the document without following the Category One protocol."
+          },
+          {
+            "name": "The Prosecution Briefing Room",
+            "icon": "🎖️",
+            "detail": "Where Hollis had been when the killing occurred — and where he had gone without completing the protocol."
+          },
+          {
+            "name": "The Evidence Commission Office",
+            "icon": "⚖️",
+            "detail": "Where the post-killing review had been conducted — and where the protocol failure had been documented."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Blunt Inkwell",
+            "icon": "✒️",
+            "detail": "Confirmed murder weapon — Werner's."
+          },
+          {
+            "name": "Legal Folder Spine",
+            "icon": "📁",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Telephone Receiver",
+            "icon": "📞",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Hollis's Protocol Omission",
+            "icon": "🎖️",
+            "detail": "Not a weapon — but the procedural failure that had created the single-copy vulnerability Werner had exploited."
+          },
+          {
+            "name": "The Briefing That Had Pulled Hollis Away",
+            "icon": "🎖️",
+            "detail": "Not a weapon — the scheduling conflict that had led to the protocol being deferred and not completed."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Defendant's Signed Directive",
+            "icon": "📁",
+            "detail": "Werner's motive — eight years."
+          },
+          {
+            "name": "Ensure Evidence Survival Through Notes",
+            "icon": "📚",
+            "detail": "Stein's action — duplication standard legacy."
+          },
+          {
+            "name": "Complete an Urgent Briefing Before the Protocol",
+            "icon": "🎖️",
+            "detail": "Hollis's reason for the deferral — the briefing had been scheduled urgently and had pulled him away before he had completed the Category One intake."
+          },
+          {
+            "name": "Schedule Pressure at the Tribunal",
+            "icon": "⚖️",
+            "detail": "The systemic context — the briefing had been urgent, the protocol had been time-consuming, and the scheduling had been inadequate."
+          },
+          {
+            "name": "The Protocol's Specific Requirement",
+            "icon": "📁",
+            "detail": "What Category One protocol had required — the specific step Hollis had not taken."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Marta and Took the Original Directive",
+            "icon": "📁",
+            "detail": "Werner's confirmed role — eight years, forgery defence rejected."
+          },
+          {
+            "name": "Made Preliminary Notes Preserving the Content",
+            "icon": "📚",
+            "detail": "Stein's protective role — admitted as secondary evidence, duplication standard introduced."
+          },
+          {
+            "name": "Failed to Follow the Category One Photographic Protocol",
+            "icon": "🎖️",
+            "detail": "Hollis's protocol failure — the specific step that had left only one copy in the translation office."
+          },
+          {
+            "name": "Scheduled the Urgent Briefing That Had Pulled Hollis Away",
+            "icon": "⚖️",
+            "detail": "The prosecution's scheduling role — an urgent briefing that had created the scheduling conflict."
+          },
+          {
+            "name": "Conducted the Post-Killing Evidence Review",
+            "icon": "⚖️",
+            "detail": "The evidence commission's role — found the protocol failure and revised the procedures."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Category One Protocol",
+        "text": "Allied evidence procedures at Nuremberg classified documents into categories based on significance. Category One documents — those bearing defendant signatures relating to the charges — required a specific intake protocol: the document was to be photographically copied in the evidence room before being sent for translation, with the copy retained in the evidence room under secure storage. The directive Hollis had received had been a Category One document. The photographic copy had not been made.",
+        "alone": "Category One protocol required photographic duplication before translation — the directive had been Category One and the copy had not been made. This had been the sole source of the single-copy vulnerability.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The Category One protocol requiring duplication before translation and Hollis not completing it together confirm the specific procedural step whose omission had created the exploitable single-copy situation — the protocol had existed precisely to prevent what had occurred."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Why Hollis Had Not Followed the Protocol",
+        "text": "Hollis, in his account to the evidence commission, explains: 'I received the document at five-forty-five PM. I recognised it as Category One and prepared to initiate the photographic protocol. At six PM, I received an urgent summons to a prosecution briefing scheduled for seven PM — the briefing required preparation I had not yet completed. I logged the document and walked it to Dr. Stein for initial assessment, intending to complete the photographic protocol the following morning. I was called to the briefing before I could return to complete the intake.'",
+        "alone": "Hollis had intended to complete the photographic protocol the following morning — an urgent prosecution briefing had created the scheduling conflict that had led to the deferral.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Hollis's deferral due to the urgent briefing and the evidence commission finding the deferral had created the exploitable single-copy situation together confirm the scheduling pressure had been the proximate cause of the protocol failure — not negligence in isolation but a scheduling conflict that had left an unfinished step."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Evidence Commission's Finding on Hollis",
+        "text": "The evidence commission's post-killing review: 'Captain Hollis's failure to complete the Category One photographic protocol before leaving the evidence room had directly created the single-copy vulnerability exploited by Werner. His decision to defer completion until the following morning, while understandable given the urgent briefing, was an error of judgment under the tribunal's protocols. The commission finds the failure procedural rather than intentional. Hollis is formally cautioned and remains in his position.'",
+        "alone": "The commission finds Hollis's failure procedural rather than intentional — he receives a formal caution and retains his position.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Hollis's procedural failure found non-intentional and the protocols revised the day after the killing together confirm the institutional response — the failure had been identified, categorised as procedural, addressed with a caution, and prevented from recurring through procedural revision."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Hollis's Account of the Briefing",
+        "text": "Hollis explains the briefing: 'It had been called urgently by the prosecution's lead counsel — new witness testimony had been received that afternoon and had needed immediate assessment before the next day's proceedings. I was one of four evidence officers called in. The briefing had been essential. I believed the document was secure in the translation office with Marta and Dr. Stein. I did not know Werner would access the corridor that evening.'",
+        "alone": "The briefing had been genuinely urgent — new witness testimony had required immediate assessment. Hollis had believed the document was secure without the photographic copy.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The briefing being genuinely urgent and Hollis's belief in the document's security together confirm the decision had been a reasonable response to competing urgent demands — the protocol failure had emerged from the collision of two legitimate urgent requirements, not from negligence toward one of them."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Protocol's Revision",
+        "text": "The evidence commission's post-killing procedural revision: 'With immediate effect, all Category One documents are to be photographically duplicated in the evidence room before any transfer to translation or any other location. No Category One document is to leave the evidence room without the photographic protocol being completed, regardless of other scheduling demands. Responsibility for protocol completion may not be deferred.' The revision removed the deferral option entirely.",
+        "alone": "The revised protocol removed the deferral option — no Category One document could leave the evidence room without duplication completed, regardless of competing demands.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Hollis's deferral due to competing urgent demands and the revised protocol removing the deferral option together confirm the specific vulnerability the revision had addressed — the collision of urgent demands that had led to the deferral had been the systemic condition the revision had been designed to prevent."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Hollis's Later Reflection",
+        "text": "Hollis gave a retrospective account in a 1955 memoir: 'I have thought many times about the evening I left the evidence room with the protocol unfinished. I was attending to what seemed the more urgent matter. The document seemed secure. I was wrong about that. Marta Hoffmann died because I had not made a copy. I know that is not the complete picture — Werner killed her, Werner took the document. But I had left a gap, and he had used it. That is also true.'",
+        "alone": "Hollis's 1955 memoir acknowledges his role without erasing Werner's — he holds both truths simultaneously, as the commission had.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The commission finding the failure procedural rather than intentional and Hollis holding both his contribution and Werner's responsibility simultaneously confirm the full moral accounting — the protocol failure had been real and had been a contribution, and it had not been the killing."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📚",
+        "heading": "The Three Actions' Combined Effect",
+        "text": "The full picture: Hollis had not completed the photographic protocol, leaving one copy. Stein had made preliminary notes, preserving the content partially. Marta had been translating, creating a partial record in her notebook. Werner had taken the original. The tribunal had admitted Stein's notes. The defendant had been convicted on other evidence. The prosecution had argued the destruction as consciousness of guilt. The revised protocol had prevented the next theft. Stein's duplication standard had prevented the next Nuremberg. Three people had each contributed something — one a gap, one a preservation, one a partial record — and the combination had determined the outcome.",
+        "alone": "Three contributions — Hollis's gap, Stein's notes, Marta's notebook — had combined to produce the outcome. None had determined it alone.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Hollis acknowledging his contribution without erasing Werner's and the three-contribution structure confirming no single element had determined the outcome together confirm the case's full structure — the institutional failure, the professional preservation, and the partial translation had all mattered, and their combination had been the case's moral architecture."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "⚖️",
+        "heading": "The Tribunal's Legacy",
+        "text": "The Nuremberg tribunal concluded in October 1946. Twelve defendants had been sentenced to death. Seven had received prison terms. Three had been acquitted. The defendant whose signature had been on the missing directive had received life imprisonment. Marta Hoffmann's translation notebook is in the German Federal Archive. The three underlines are still visible. The revised evidence protocol had been in effect since the night after Marta's death. Stein's duplication standard had been adopted by three international legal bodies by 1972. Werner had served six of his eight years. Hollis had written his memoir in 1955. The tribunal had established the precedent of individual accountability for crimes against humanity. The document that had been killed for had never been recovered. The three underlines are still there.",
+        "alone": "The tribunal's precedent, the archive's preservation, and the three underlines confirm the full accounting — the document had been destroyed, the translation had been interrupted, and both the interruption and the document had survived in partial form in different archives.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three contributions' combined effect and the tribunal's legacy confirming the individual accountability precedent together confirm the case's final element — the murder had been an attempt to prevent individual accountability, and the institution dedicated to establishing that principle had survived the attempt."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Klaus Werner",
+      "location": "The Translation Office",
+      "weapon": "Blunt Inkwell",
+      "motive": "Suppress Evidence Contradicting the Defendant's Testimony",
+      "accomplice": "Failed to Follow the Category One Photographic Protocol"
+    },
+    "epilogue": "Hollis had left the evidence room at six PM with the protocol unfinished. Stein had made her notes and had gone to the main hall. Marta had been translating when Werner had arrived. The gap Hollis had left had been the one Werner had used. The notes Stein had made had been the ones the prosecution had presented. The notebook Marta had been filling when she died had been the one the archive had kept. Three contributions, one outcome, one tribunal still in session. Werner had served six years. Hollis had written his memoir in 1955 and had named his contribution without erasing Werner's. Stein had introduced the duplication standard and had died in 1991. The three underlines are in the German Federal Archive. The tribunal had established the precedent of individual accountability for crimes against humanity. The directive that had been killed for had never been recovered. The translation is still half-finished. The three underlines are still there."
+  }
+}

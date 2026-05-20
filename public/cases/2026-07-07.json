@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "London, July 7th 2005. Four bombs. Fifty-two dead. And in the weeks after, an intelligence analyst found dead in her office with a classified file open on her screen. Someone needed the failure buried. 🇬🇧🔍 Case #110 — The Seventh. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: London 2005, after 7/7, an intelligence analyst dead with a classified file open — someone inside the system needed the pre-attack warnings to stay buried. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 2005 London intelligence office at night, a government-issue desk with a glowing monitor showing a redacted document, an overturned coffee cup beside a keyboard, a lanyard badge on the floor, the Thames visible through a rain-streaked window. Institutional and tense, the weight of recent catastrophe. Style of Tomas van Houtryve documentary photography meets le Carré atmosphere.",
+    "animationPrompt": "Slow pan through a 2005 London intelligence office at night. Government desk. Glowing monitor showing a redacted document. An overturned coffee cup. The camera finds a lanyard badge on the floor. Through the rain-streaked window: the Thames. The office is very quiet. Fifty-two people died today. Fade to black.",
+    "hashtags": [
+      "#London2005",
+      "#77Anniversary",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #110",
+    "title": "The Seventh",
+    "setting": "Thames House Intelligence Office · London · July 2005",
+    "emoji": "🇬🇧",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "MI5 analyst Sarah Okafor was found dead in her office six weeks after the July 7th bombings. She had been compiling a classified review of pre-attack intelligence warnings that had not been acted upon. The review file was open on her screen — partially deleted. Three colleagues had accessed her office that evening. The findings, if published, would have triggered a formal inquiry that could have ended careers.",
+    "emptyState": "The file is partially deleted. Three colleagues were in the building. Find who needed those findings gone.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deputy Director Alan Morse",
+            "icon": "🏛️",
+            "detail": "Sarah's departmental superior — had been responsible for the pre-attack assessment process that Sarah's review had found deficient."
+          },
+          {
+            "name": "Colin Pryce",
+            "icon": "💻",
+            "detail": "A senior analyst — had been named in the review as having failed to escalate a specific warning."
+          },
+          {
+            "name": "Rachel Hume",
+            "icon": "📁",
+            "detail": "The department's records officer — had physical access to all files and had been working late that evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sarah's Office",
+            "icon": "💻",
+            "detail": "Where Sarah was found — monitor on, file partially deleted, coffee overturned, badge on the floor."
+          },
+          {
+            "name": "The Server Room",
+            "icon": "🖥️",
+            "detail": "The building's secure data facility — where the file's deletion logs were stored."
+          },
+          {
+            "name": "The Third Floor Corridor",
+            "icon": "🚪",
+            "detail": "The passage outside Sarah's office — where the building's internal CCTV was positioned."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ketamine Injection",
+            "icon": "💉",
+            "detail": "A sedative injection administered to the neck — consistent with a rapid incapacitation method leaving minimal visible trauma."
+          },
+          {
+            "name": "Keyboard Cable",
+            "icon": "💻",
+            "detail": "No wound profile consistent with strangulation — eliminated."
+          },
+          {
+            "name": "Filing Cabinet Edge",
+            "icon": "🗄️",
+            "detail": "No impact wound — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Partially Deleted File",
+        "text": "The deletion log shows the review file had been accessed at nine-forty-seven PM and a partial deletion had been initiated — approximately thirty percent of the document had been removed before the process was interrupted. The remaining seventy percent contains findings that two specific intelligence warnings received in May and June 2005 had been assessed and de-prioritised without adequate justification. The names of the responsible analysts are in the remaining text. Colin Pryce's name appears twice.",
+        "alone": "The partial deletion had removed thirty percent of the file before being interrupted — Pryce's name appears twice in the remaining seventy percent, which suggests the deleted thirty percent had contained additional naming.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Pryce's name appearing twice in the surviving text and the deletion being interrupted before completion together confirm the deletion had been targeting specific naming — the killer had been removing references to themselves or others when interrupted."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💉",
+        "heading": "The Ketamine Injection",
+        "text": "Post-mortem finds ketamine in Sarah's system at an incapacitating dose — administered by injection to the neck, consistent with a rapid approach from behind while Sarah was at her desk. The injection site shows a clean needle mark. Ketamine in this concentration and administration method is consistent with intelligence community training for rapid non-lethal incapacitation — though the dose had been fatal, likely intentionally. The death had been made to look like a medical event.",
+        "alone": "A deliberate ketamine injection administered from behind while Sarah was at her desk — the method matched intelligence community rapid-incapacitation training, suggesting a trained operator.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The ketamine injection method consistent with intelligence training and Alan Morse's documented background as a former field officer with incapacitation training together confirm the method had required specific capability that Morse had possessed and Pryce and Rachel had not been confirmed to hold."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "Rachel Hume's Evening",
+        "text": "Rachel Hume had been in the records room on the ground floor from seven PM until ten PM — confirmed by the building's internal access log showing her badge used at the records room door at seven-oh-three PM and ten-oh-eight PM. Sarah's office was on the third floor. Rachel had not badged through any third-floor access point that evening. She is definitively cleared.",
+        "alone": "Rachel's badge log places her in the ground-floor records room from seven to ten PM — she had not accessed any third-floor door. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Rachel cleared by the badge log on the ground floor and Colin Pryce confirmed in the server room from nine PM together eliminate both other suspects from Sarah's third-floor office during the murder window — only Morse's third-floor movements that evening are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Morse's Named Role in the Review",
+        "text": "The remaining seventy percent of the review file names Morse as the departmental authority who had signed off on the de-prioritisation of the May 2005 warning. His signature appears on an assessment memo that had downgraded the warning from Category A to Category C. The July 7th attack had used methods consistent with the May warning's specific intelligence. If published, the review would have placed Morse's career-defining decision at the centre of a public inquiry.",
+        "alone": "Morse's signature on the May warning de-prioritisation memo is in the surviving file — his career-defining decision had been the review's central finding.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Morse's signature in the surviving file and his career-ending exposure if published together confirm the review's specific threat to him — not merely reputational damage but potential criminal negligence liability under the intelligence oversight framework."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Morse's Third-Floor Access",
+        "text": "The building's badge log shows Morse had accessed the third-floor corridor at nine-thirty PM — seventeen minutes before the deletion began at nine-forty-seven PM. He had badged out of the building at ten-fifteen PM. His stated reason for the late visit: reviewing documents ahead of the following morning's briefing. He had been on Sarah's floor during the deletion window and had departed after the estimated time of death.",
+        "alone": "Morse had badged onto the third floor at nine-thirty PM — seventeen minutes before the deletion began — and had left the building at ten-fifteen PM, after the estimated time of death.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The deletion beginning seventeen minutes after Morse badged onto the floor and the deletion targeting the naming he would have most wanted removed together confirm his access window had been the deletion and killing window — his seventeen-minute head start before the deletion aligns with a period of confrontation before the decision to act."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Morse's Field Officer Background",
+        "text": "Morse's personnel file shows he had been a field officer for fourteen years before moving to the analytical directorate. His field training included rapid-incapacitation techniques. His medical clearance, renewed annually, documents familiarity with controlled substances used in field operations. He had the training, the substance knowledge, and the analytical directorate access that the killing's method had required.",
+        "alone": "Morse had the specific field training for the ketamine incapacitation method — fourteen years as a field officer had given him the capability that the killing's method had required.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The ketamine method consistent with intelligence training and Morse's fourteen years of field officer training giving him exactly that capability confirm the method and the person were matched — neither Pryce nor Rachel had confirmed field officer backgrounds."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Pryce in the Server Room",
+        "text": "Colin Pryce had been in the server room from nine PM, running a routine data integrity check — confirmed by the server room's internal log and a colleague who had been working alongside him until nine-forty-five PM. After nine-forty-five PM his colleague had left and Pryce had continued alone. The server room is on the second floor — access to the third floor from the server room requires a specific badge transition. Pryce's badge shows no third-floor access that evening.",
+        "alone": "Pryce had been in the server room from nine PM — confirmed by colleague until nine-forty-five PM — with no badge record of third-floor access. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Rachel cleared on the ground floor and Pryce cleared in the server room together eliminate both other suspects from the third-floor corridor — Morse's nine-thirty PM third-floor badge access is the only confirmed third-floor presence during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Inquiry's Outcome",
+        "text": "The internal inquiry into Sarah's death — classified Secret — finds the ketamine injection had been deliberate. The deletion log is recovered. The full review file is reconstructed from backup servers. The inquiry's findings are: the review file's conclusions were correct; the pre-attack warnings had been inadequately handled; Morse's de-prioritisation decision had been the central procedural failure; and Sarah Okafor's death had been connected to the review's suppression. Morse is removed from his position and referred to the Crown Prosecution Service. The inquiry itself remains classified.",
+        "alone": "The inquiry finds the review's conclusions correct and refers Morse to the CPS — the file's suppression and its connection to Sarah's death are formally established.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Morse's signature in the surviving file and the inquiry confirming the review's conclusions and his central procedural failure together confirm the review's findings had been accurate — Sarah had been killed to suppress a correct assessment of a genuine intelligence failure."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deputy Director Alan Morse",
+      "location": "Sarah's Office",
+      "weapon": "Ketamine Injection"
+    },
+    "epilogue": "Alan Morse had badged onto the third floor at nine-thirty PM. He had confronted Sarah about the review. The confrontation had not resolved in his favour. He had administered the ketamine injection from behind while Sarah was at her desk. He had begun deleting the file. The deletion had been interrupted — by what is not recorded. He had left the building at ten-fifteen PM. The backup servers had preserved what he had deleted. The inquiry had reconstructed the full file. Morse had been referred to the Crown Prosecution Service. The inquiry had remained classified. Sarah Okafor's review had been correct. The fifty-two people who had died on July 7th had deserved better than what the system had given them in May. Sarah had tried to say so. She is named in the inquiry's classified findings."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #110",
+    "title": "The Seventh",
+    "setting": "Thames House Intelligence Office · London · July 2005",
+    "emoji": "🇬🇧",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Morse killed Sarah and attempted to delete the file. But Colin Pryce had also seen the review's findings — and had made a copy before Sarah was killed. Find what Pryce did with the copy and why he hadn't reported it through official channels.",
+    "emptyState": "Pryce made a copy of the review before the killing. Find what he did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deputy Director Alan Morse",
+            "icon": "🏛️",
+            "detail": "The killer — field training, ketamine, third-floor badge, deletion interrupted, referred to CPS."
+          },
+          {
+            "name": "Colin Pryce",
+            "icon": "💻",
+            "detail": "Cleared as killer — server room confirmed. Had made a copy of the review and had not reported it officially."
+          },
+          {
+            "name": "Rachel Hume",
+            "icon": "📁",
+            "detail": "Cleared as killer — ground floor confirmed. Her records role becomes relevant to how Pryce had accessed the review."
+          },
+          {
+            "name": "The Guardian Journalist",
+            "icon": "📰",
+            "detail": "The external recipient of Pryce's copy — who had published the review's findings six months after the killing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sarah's Office",
+            "icon": "💻",
+            "detail": "Primary crime scene — Morse's killing, partial deletion."
+          },
+          {
+            "name": "The Server Room",
+            "icon": "🖥️",
+            "detail": "Pryce's confirmed location — and where he had made the unauthorised copy."
+          },
+          {
+            "name": "A Secure Drop Location",
+            "icon": "📬",
+            "detail": "Where Pryce had transmitted the copy to the journalist — outside official channels."
+          },
+          {
+            "name": "The Guardian Offices",
+            "icon": "📰",
+            "detail": "Where the review's findings had been published — six months after Sarah's death."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ketamine Injection",
+            "icon": "💉",
+            "detail": "Confirmed murder weapon — Morse's field training, deliberate dose."
+          },
+          {
+            "name": "Keyboard Cable",
+            "icon": "💻",
+            "detail": "No strangulation — eliminated."
+          },
+          {
+            "name": "Filing Cabinet Edge",
+            "icon": "🗄️",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "Pryce's Unauthorised Copy",
+            "icon": "💻",
+            "detail": "Not a weapon — but the document whose existence had determined the review's eventual publication."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Intelligence Failure Finding",
+            "icon": "🏛️",
+            "detail": "Morse's motive — his signature, career-ending exposure, referred to CPS."
+          },
+          {
+            "name": "Ensure the Review Reached the Public",
+            "icon": "💻",
+            "detail": "Pryce's actual motive — had believed official channels would bury the findings."
+          },
+          {
+            "name": "Protect His Own Named Role",
+            "icon": "💻",
+            "detail": "Pryce's secondary concern — his name in the file, but the leak had been motivated by the victims, not self-protection."
+          },
+          {
+            "name": "The Official Channel's Likely Outcome",
+            "icon": "🏛️",
+            "detail": "Why Pryce had not reported officially — his assessment of what official reporting would produce."
+          },
+          {
+            "name": "The Publication's Consequence",
+            "icon": "📰",
+            "detail": "What the Guardian's publication had triggered — the public inquiry that the official channels had not initiated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Pryce's Unauthorised Copy",
+        "text": "The server room's data log — examined after the internal inquiry — shows an unauthorised data transfer at nine-fifty-two PM on the night of the killing: five minutes after the deletion had begun. Pryce had copied the review file to an encrypted portable drive. The transfer had occurred while he had been alone in the server room after his colleague had left at nine-forty-five PM. He had the full file — including the thirty percent that Morse had deleted — on a portable drive.",
+        "alone": "Pryce had copied the full review file at nine-fifty-two PM — after the deletion had begun but while the full file was still in the backup system. He had the deleted thirty percent.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Pryce copying the file five minutes after the deletion began and his awareness that the deletion was occurring together suggest he had known — or suspected — that the file was under threat and had acted to preserve it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "💻",
+        "heading": "Why Pryce Had Not Reported Officially",
+        "text": "Pryce, when identified as the leaker through the data transfer log in 2006, explains: 'I had seen Sarah's draft three weeks before. I knew what it showed. I also knew Morse had seen it — he had reviewed it as departmental authority. I knew that if I reported through official channels, the report would go to Morse or someone connected to him. I believed the file would be suppressed. I was right about that — I just didn't know how far suppression would go.'",
+        "alone": "Pryce had believed official channels would lead back to Morse and had bypassed them — his assessment of the suppression risk had been correct, though he had not anticipated the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Pryce's assessment of official channel suppression risk and his subsequent confirmation that the suppression had extended to murder together confirm his assessment had been accurate — official channels had not protected Sarah, and they would not have protected the review."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Publication",
+        "text": "The Guardian published the review's findings in January 2006 — six months after Sarah's death. The publication described the May and June 2005 warnings, the de-prioritisation decisions, and Morse's signature on the critical memo. The publication triggered a parliamentary demand for a public inquiry. The government had initially resisted. The classified internal inquiry's existence had not been publicly known until Pryce's leak.",
+        "alone": "The Guardian's publication had triggered the parliamentary demand for a public inquiry that official channels had not produced — the leak had achieved what official reporting had not.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Pryce's assessment that official channels would suppress and the publication triggering the inquiry that official channels had not produced confirm the leak's necessity — the public consequence had been the one that had produced accountability."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💻",
+        "heading": "Pryce's Legal Exposure",
+        "text": "Pryce was prosecuted under the Official Secrets Act for the unauthorised disclosure. The prosecution argued he had breached classified information obligations regardless of the disclosure's content or purpose. Pryce's defence argued public interest — that the review's findings constituted information the public had a right to know. He was convicted and received eighteen months, suspended. The judge's sentencing remarks noted the disclosure had served the public interest while constituting a legal breach.",
+        "alone": "Pryce was convicted but received a suspended sentence — the judge acknowledged the public interest served while finding the legal breach established.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Pryce convicted with a suspended sentence for a disclosure that had triggered public accountability and Morse referred to the CPS for the killing that had tried to prevent it together confirm the legal system's divergent treatment of the two men whose actions had determined the review's fate."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💻",
+        "heading": "How Pryce Had Known to Copy the File",
+        "text": "Pryce's account of the evening: 'At nine-forty-five, after my colleague left, I saw on the server room's system monitor that a deletion process had been initiated on Sarah's office terminal. I recognised the file name. I copied it immediately from the backup system before the deletion completed. I didn't know what had happened to Sarah — I thought she had initiated the deletion herself, perhaps under pressure. I found out the next morning.'",
+        "alone": "Pryce had seen the deletion process on the server monitor and had copied the file before it completed — he had acted to preserve the file without knowing Sarah was already dead.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Pryce copying the file five minutes after the deletion began and his account of seeing the deletion process on the server monitor confirm the sequence — he had acted to preserve evidence of what he had recognised as suppression, without knowing its full extent."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Public Inquiry's Findings",
+        "text": "The public inquiry, established following the Guardian publication, found: the pre-attack warnings had been inadequately handled; Morse's de-prioritisation decision had been the central procedural failure; Sarah Okafor's review had been accurate in its conclusions; and her death had been connected to the review's suppression. The inquiry recommended systematic reforms to the escalation process for Category A intelligence. The reforms were implemented in 2007.",
+        "alone": "The public inquiry confirmed Sarah's findings and recommended reforms — the review that had been killed to suppress had ultimately produced the systemic changes it had recommended.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The Guardian publication triggering the inquiry and the inquiry confirming Sarah's findings and producing reforms together confirm the chain — Pryce's illegal disclosure had produced the legal accountability and systemic reform that the official process had suppressed."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Rachel Hume's Role",
+        "text": "Rachel Hume's records role becomes significant in a secondary finding: she had been the one who had given Sarah access to the restricted pre-attack assessment files in the first place — files that Morse had not formally authorised for the review. Rachel had used her records authority to provide Sarah with materials that had been essential to the review's completeness. She had not known it would lead to Sarah's death.",
+        "alone": "Rachel had provided Sarah with restricted files that Morse had not authorised — her records authority had enabled the review's completeness without her knowing the consequence.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Rachel's enabling of the review without knowing the consequence and Pryce's preservation of the file without knowing the full extent of the suppression together confirm two people had acted to protect the review's integrity, each without knowing what the other had done or what the suppression had extended to."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "Sarah Okafor's Memorial",
+        "text": "Sarah Okafor is named in the public inquiry's report as 'an analyst who demonstrated exceptional professional integrity in pursuing findings that carried personal and professional risk.' Her name appears in the report's acknowledgments. A memorial fund in her name was established by her family — it supports training for junior intelligence analysts in ethical escalation procedures. The fund's founding statement cites the inquiry's reforms as her legacy. She had been thirty-one years old.",
+        "alone": "Sarah is named in the inquiry report and memorialised through a fund supporting ethical escalation training — the reforms she had been killed to prevent had become the structure of her legacy.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The inquiry confirming Sarah's findings and her memorial fund supporting ethical escalation training confirm the final irony of the whole chain — the review that had been suppressed by murder had ultimately produced both the accountability and the systemic change it had recommended, with her name attached to both."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deputy Director Alan Morse",
+      "location": "Sarah's Office",
+      "weapon": "Ketamine Injection",
+      "motive": "Suppress the Intelligence Failure Finding"
+    },
+    "epilogue": "Colin Pryce had seen the deletion process on the server monitor at nine-forty-five PM and had copied the full file before it completed. He had not known Sarah was already dead. He had held the file for six months. He had transmitted it to the Guardian through a secure drop. The publication had triggered the inquiry. The inquiry had confirmed Sarah's findings. Morse had been referred to the CPS. Pryce had received a suspended sentence. The reforms had been implemented in 2007. Sarah Okafor's memorial fund supports ethical escalation training. She had been thirty-one. The inquiry report names her. The classified internal inquiry also names her. Both documents exist. Neither references the other."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #110",
+    "title": "The Seventh",
+    "setting": "Thames House Intelligence Office · London · July 2005",
+    "emoji": "🇬🇧",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Morse killed Sarah. Pryce preserved the file. But Rachel Hume had given Sarah the restricted files that had made the review complete — and had done so knowing it exceeded her authority. Find what Rachel had known about the risk she was taking and why she had taken it.",
+    "emptyState": "Rachel exceeded her authority to help Sarah. Find what she knew and why she did it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deputy Director Alan Morse",
+            "icon": "🏛️",
+            "detail": "The killer — ketamine, field training, deletion, referred to CPS."
+          },
+          {
+            "name": "Colin Pryce",
+            "icon": "💻",
+            "detail": "Cleared as killer — server room, file preserved, Guardian leak, suspended sentence."
+          },
+          {
+            "name": "Rachel Hume",
+            "icon": "📁",
+            "detail": "Cleared as killer — ground floor confirmed. Had given Sarah restricted files knowing it exceeded her authority."
+          },
+          {
+            "name": "Sarah's Prior Escalation Attempt",
+            "icon": "📋",
+            "detail": "What Rachel had known about — Sarah had tried official channels before coming to Rachel, and had been blocked."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Sarah's Office",
+            "icon": "💻",
+            "detail": "Primary crime scene."
+          },
+          {
+            "name": "The Records Room",
+            "icon": "📁",
+            "detail": "Rachel's confirmed location — and where she had pulled the restricted files for Sarah."
+          },
+          {
+            "name": "The Departmental Registry",
+            "icon": "📋",
+            "detail": "Where Sarah's official access request had been denied — before she had gone to Rachel."
+          },
+          {
+            "name": "The Memorial Fund Office",
+            "icon": "🇬🇧",
+            "detail": "Where Rachel had become a trustee after Sarah's death — the connection that reveals her full understanding."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ketamine Injection",
+            "icon": "💉",
+            "detail": "Confirmed murder weapon — Morse's."
+          },
+          {
+            "name": "Keyboard Cable",
+            "icon": "💻",
+            "detail": "No strangulation — eliminated."
+          },
+          {
+            "name": "Filing Cabinet Edge",
+            "icon": "🗄️",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "Rachel's Restricted File Access",
+            "icon": "📁",
+            "detail": "Not a weapon — but the enabling action whose risk Rachel had consciously accepted."
+          },
+          {
+            "name": "Sarah's Denied Official Request",
+            "icon": "📋",
+            "detail": "Not a weapon — the prior official-channel failure that had sent Sarah to Rachel."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Intelligence Failure Finding",
+            "icon": "🏛️",
+            "detail": "Morse's motive — ketamine, deletion, CPS referral."
+          },
+          {
+            "name": "Ensure the Review's Completeness",
+            "icon": "📁",
+            "detail": "Rachel's stated reason — had believed the review needed the restricted files to be accurate."
+          },
+          {
+            "name": "Personal Connection to 7/7",
+            "icon": "📁",
+            "detail": "Rachel's deeper motive — her brother had been on the Piccadilly line on July 7th."
+          },
+          {
+            "name": "Understanding the Official Channel's Prior Failure",
+            "icon": "📋",
+            "detail": "What Rachel had known — Sarah had already been blocked through official channels before coming to her."
+          },
+          {
+            "name": "Rachel's Conscious Risk Assessment",
+            "icon": "📁",
+            "detail": "What Rachel had accepted when she had provided the files — the professional risk she had knowingly taken."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Sarah and Attempted to Delete the Review",
+            "icon": "🏛️",
+            "detail": "Morse's confirmed role — referred to CPS."
+          },
+          {
+            "name": "Copied the File and Transmitted It to the Guardian",
+            "icon": "💻",
+            "detail": "Pryce's role — suspended sentence, public inquiry triggered."
+          },
+          {
+            "name": "Provided Restricted Files Enabling the Review's Completeness",
+            "icon": "📁",
+            "detail": "Rachel's role — consciously exceeded her authority."
+          },
+          {
+            "name": "Blocked Sarah's Official Access Request",
+            "icon": "📋",
+            "detail": "The departmental registry's role — the institutional barrier that had sent Sarah to Rachel."
+          },
+          {
+            "name": "Became a Memorial Fund Trustee",
+            "icon": "🇬🇧",
+            "detail": "Rachel's post-death action — the choice that reveals her full understanding of what she had enabled."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📁",
+        "heading": "Rachel's Account of Why She Had Done It",
+        "text": "Rachel Hume, interviewed by the internal inquiry, says: 'Sarah came to me in July — three weeks before she died. She told me she had requested access to the pre-attack assessment files through the registry. The request had been denied — classified as not relevant to her current assignment. She told me she believed the review could not be accurate without those files. I agreed with her. I pulled the files using my records authority. I knew it exceeded what I was permitted to do.'",
+        "alone": "Sarah had been officially denied the files before coming to Rachel — the official channel had blocked the review's completeness before Rachel had circumvented it.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Sarah's official request being denied before she had come to Rachel and Rachel knowing her provision exceeded her authority together confirm Rachel had been the second attempt after the first had been blocked — her action had been a conscious circumvention of a deliberate institutional barrier."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Rachel's Personal Connection",
+        "text": "Rachel's personnel file includes a note from her welfare officer dated July 8th, 2005 — the day after the bombings: 'Hume's brother was on the Piccadilly line. He survived. She is shaken but insists on returning to work immediately.' Rachel's brother had been on the train. He had survived. She had been in the building, reviewing records, the day after the attack that had nearly killed him.",
+        "alone": "Rachel's brother had been on the Piccadilly line on July 7th — she had a personal connection to the attack that the review had been examining.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Rachel's brother surviving the Piccadilly line bombing and her provision of the restricted files that had completed the review of why the bombing had not been prevented together confirm the full weight of her action — she had given Sarah the files that had allowed the review to name the failure that had almost killed her brother."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Denied Official Request",
+        "text": "The departmental registry's access log shows Sarah's formal request for the pre-attack assessment files had been submitted on July 15th, 2005 and had been denied on July 17th — the denial reason listed as 'outside current assignment scope.' The denial had been signed by the registry's deputy director — Morse. He had denied Sarah access to the files that would have shown his own procedural failure.",
+        "alone": "Morse had personally denied Sarah's request for the files that would have named him — his signature is on the denial as well as on the de-prioritisation memo.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Morse signing both the original de-prioritisation and the denial of Sarah's access request confirm the suppression had been active from the beginning — before the review had been completed, before the killing, he had been managing what Sarah could see."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Rachel's Knowledge of the Risk",
+        "text": "Rachel's inquiry testimony continues: 'I knew that pulling those files without authorisation was a disciplinary matter. I knew I could be dismissed. I also knew that Sarah's review, without those files, would be incomplete. And I knew — because my brother was on that train — what an incomplete review would mean for the fifty-two families who didn't have a brother who walked away. I pulled the files. I would do it again.'",
+        "alone": "Rachel had fully understood the professional risk and had accepted it — her brother's survival and the fifty-two deaths had been the weight that had made the risk worth taking.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Rachel's brother surviving the bombing and her explicit acknowledgment that the fifty-two who had not survived had been the reason she had accepted the professional risk together confirm the full moral weight of her action — it had been a conscious choice made from a specific personal position."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Inquiry's Finding on Rachel",
+        "text": "The inquiry's finding on Rachel Hume: 'Hume exceeded her records authority in providing Okafor with files she had not been formally authorised to access. This breach was irregular and procedurally improper. However, the inquiry notes that the denial of Okafor's formal access request had itself been improper — Morse had denied access to files directly relevant to the review he had been supervising, using his authority to prevent scrutiny of his own decisions. Hume's breach corrected an improper denial. No disciplinary action is recommended.'",
+        "alone": "The inquiry finds Rachel's breach had corrected an improper denial — Morse's improper use of authority to deny the access had been the precedent act that had made Rachel's circumvention a correction rather than a violation.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Morse signing the improper denial and the inquiry finding Rachel's circumvention had corrected it together confirm the inquiry's moral allocation — the institutional breach had originated with Morse's misuse of authority, and Rachel's response had been the correction."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📁",
+        "heading": "Rachel as Memorial Fund Trustee",
+        "text": "Rachel Hume became a trustee of the Sarah Okafor Memorial Fund in 2007, when it was established. The fund's founding documents list her as a trustee 'in recognition of her contribution to the integrity of the review that bears Sarah's name.' The fund's public documents do not describe the nature of her contribution. She has served as a trustee since the fund's establishment. Her brother is also a trustee. He has never spoken publicly about July 7th.",
+        "alone": "Rachel and her brother are both trustees of the memorial fund — the person who had provided the files and the person whose survival had motivated her are both named in the fund's governance.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Rachel accepting the professional risk because of her brother and both of them serving as memorial fund trustees confirm the personal and institutional dimensions of the case had converged in the fund — the brother who had survived and the analyst who had helped expose the failure that had not prevented the attack are connected in the structure meant to prevent the next one."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "The Full Chain's Three Enablers",
+        "text": "The inquiry identifies three people who had enabled the review's eventual impact: Sarah Okafor had written it. Rachel Hume had given her the files that had made it complete. Colin Pryce had preserved it when it was being deleted. Each had acted outside the boundaries of what they had been authorised to do. Each had done so because the authorised channels had been used to suppress rather than enable accountability. The inquiry notes: 'Three individuals, each acting improperly by the letter of their authorisation, collectively produced the outcome that the proper process had been structured to prevent.'",
+        "alone": "Three people acting outside their authorisation had produced the accountability that the authorised process had been structured to prevent — the inquiry explicitly notes this.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The inquiry finding Rachel's breach had corrected an improper denial and the three-enabler structure together confirm the case's moral architecture — the institutional process had been corrupted at the top, and three people acting improperly by the letter of their authority had been the correction mechanism."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "What the Reforms Changed",
+        "text": "The 2007 reforms implemented following the inquiry included: a new escalation protocol for Category A intelligence that bypassed departmental authority in cases of potential conflict of interest; an anonymous reporting channel for analysts who believed findings were being suppressed; and a requirement for independent review of all access denials to ongoing investigations. The reforms were named the Okafor Protocols. Rachel Hume had been a consultant to the reform working group. She had never been publicly identified in that role.",
+        "alone": "The Okafor Protocols include an anonymous reporting channel and conflict-of-interest bypass — mechanisms that would have changed the outcome had they existed in 2005.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three enablers acting outside authorisation and the reforms creating authorised channels for exactly what they had done confirm the final element — the reforms had institutionalised the corrections that three people had made illegally, so that the next Sarah Okafor would not need a Rachel Hume or a Colin Pryce to circumvent a system that had been used against her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Deputy Director Alan Morse",
+      "location": "Sarah's Office",
+      "weapon": "Ketamine Injection",
+      "motive": "Suppress the Intelligence Failure Finding",
+      "accomplice": "Provided Restricted Files Enabling the Review's Completeness"
+    },
+    "epilogue": "Three people had acted outside their authorisation. Rachel had provided the files because her brother had been on the Piccadilly line and fifty-two people had not walked away. Sarah had written the review because the findings were correct. Pryce had copied the file because he had seen the deletion process on the server monitor and had not wanted the findings to disappear. Morse had killed Sarah because his signature was on the memo that had de-prioritised the warning. The Okafor Protocols had been implemented in 2007. Rachel had helped design them. Her role had not been publicly identified. She and her brother are both trustees of the memorial fund. She would do it again. She said so in the inquiry. It is in the record."
+  }
+}

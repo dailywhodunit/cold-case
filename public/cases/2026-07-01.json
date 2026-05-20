@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "New York, 1979. A penthouse on Central Park West. A music producer dead on the terrace. And a cocaine deal that someone needed to disappear before the morning. 🌃🔍 Case #104 — Manhattan Nocturne. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: New York 1979, a music producer dead on a Manhattan penthouse terrace, a disco-era drug deal gone wrong, and the person who needed the money before dawn. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1979 Manhattan penthouse terrace at night, the Central Park skyline beyond a glass railing, a champagne bottle on its side beside a glass-topped table, a man's white linen jacket draped over a chair, a small mirror with residue on the table surface. City lights, warm New York night, the feel of excess at its limit. Style of Helmut Newton meets Gordon Matta-Clark.",
+    "animationPrompt": "Slow pan across a 1979 Manhattan penthouse terrace at night. The Central Park skyline beyond a glass railing. A champagne bottle on its side. The camera finds a small mirror with residue on the glass-topped table and a white linen jacket on a chair. City lights below. Warm night. Something has ended here. Fade to black.",
+    "hashtags": [
+      "#Manhattan1979",
+      "#DiscoEra",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #104",
+    "title": "Manhattan Nocturne",
+    "setting": "Central Park West Penthouse · Manhattan · New York · 1979",
+    "emoji": "🌃",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Music producer Sal Marchetti was found dead on his penthouse terrace at three AM. He had arranged a 200,000-dollar cocaine purchase that evening — the money had been in a briefcase in the penthouse living room. The briefcase was empty. Three people had been at the penthouse that night.",
+    "emptyState": "200,000 dollars. One dead producer. Three people who were there. Find who left with the money.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Donna Ray",
+            "icon": "🎤",
+            "detail": "Sal's lead recording artist — had been at the penthouse for a record contract signing that evening."
+          },
+          {
+            "name": "Victor Lasso",
+            "icon": "💼",
+            "detail": "The cocaine supplier's intermediary — had been present to facilitate the exchange."
+          },
+          {
+            "name": "Tommy Fitch",
+            "icon": "🎸",
+            "detail": "Sal's business partner — had known about the deal and had arrived uninvited at eleven PM."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Penthouse Terrace",
+            "icon": "🌃",
+            "detail": "Where Sal was found — champagne overturned, jacket on the chair, mirror on the table."
+          },
+          {
+            "name": "The Living Room",
+            "icon": "💼",
+            "detail": "Where the empty briefcase was found — and where the contract signing had taken place."
+          },
+          {
+            "name": "The Service Elevator",
+            "icon": "🛗",
+            "detail": "The building's rear exit — used to bring the cocaine into the building, per the doorman's account."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Terrace Railing Impact",
+            "icon": "🪟",
+            "detail": "Blunt force to the back of the skull — consistent with being struck against the glass railing's metal frame."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "No blood or impact trace on the bottle — eliminated."
+          },
+          {
+            "name": "Briefcase Edge",
+            "icon": "💼",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Empty Briefcase",
+        "text": "The briefcase in the living room had contained 200,000 dollars in cash — confirmed by Sal's accountant who had prepared the funds that afternoon. The briefcase is empty. The cocaine, which should have been exchanged for the money, is also not present. The exchange had not been completed — either the deal had collapsed or someone had taken the money without completing the transaction. The person who had left with the cash had left without the cocaine.",
+        "alone": "The money was gone and the cocaine was not present — someone had taken the 200,000 dollars without completing the exchange, either because the deal had collapsed or because they had planned to take the cash rather than complete the trade.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The money taken without completing the exchange and Victor Lasso's confirmed role as the cocaine supplier's intermediary whose supply would not have been present without his facilitation together establish that the exchange's failure had specific implications for who had the leverage to take the money unilaterally."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪟",
+        "heading": "The Railing Impact",
+        "text": "The wound on Sal's skull — at the back of his head — is consistent with being struck against the metal frame of the terrace's glass railing. The railing shows blood and hair at the impact point. The wound angle indicates Sal had been pushed or struck from the front, falling backward into the railing. He had been face-to-face with his killer when pushed. The terrace had one entrance from the living room.",
+        "alone": "Sal had been pushed face-to-face into the railing from someone he had been confronting — the push had been hard enough to produce a fatal impact with the railing frame.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The face-to-face push and Tommy Fitch's established history of physical confrontations with Sal over their business partnership disputes together confirm the killing had the characteristics of an escalated argument — someone Sal had been facing had pushed him."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎤",
+        "heading": "Donna Ray's Evening",
+        "text": "Donna Ray had arrived for the contract signing at nine PM, had signed the contract at nine-thirty, and had left at ten-fifteen PM — confirmed by the building's doorman log. She had not been present for the cocaine deal, which had been arranged for midnight. She had not returned. She is definitively cleared.",
+        "alone": "Donna had left at ten-fifteen PM — confirmed by the doorman log — before the cocaine deal was arranged for midnight. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Donna cleared by the doorman log before midnight and Victor Lasso confirmed departed with the cocaine supply vehicle at two AM together narrow the penthouse presence after two AM to Tommy Fitch, whose departure time is unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "Tommy's Business Dispute",
+        "text": "Business records show Sal and Tommy had been in dispute over the distribution of the label's royalty income for eight months — Tommy claimed Sal had been diverting 30 percent of Tommy's share into Sal's personal accounts. The dispute had been escalating toward litigation. Tommy had arrived at the penthouse uninvited at eleven PM and had argued with Sal about the royalties. The doorman confirms Tommy had been 'very agitated' when he arrived.",
+        "alone": "Tommy and Sal had been in a heated financial dispute — Tommy had arrived uninvited and agitated, having learned Sal had been diverting his royalty income.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Tommy's royalty dispute providing a second financial motive beyond the cocaine money and his uninvited arrival in an agitated state establishing the emotional conditions for an escalated confrontation together confirm the killing had more than one financial dimension for Tommy."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Victor Lasso's Account",
+        "text": "Victor Lasso confirms he had arrived at midnight with the cocaine supply, had been waiting for Sal to complete the exchange, and had left at two AM when Sal had gone to the terrace and had not returned. He had waited for forty-five minutes and had then taken his supply and departed. He had left without the money — he had been unable to complete the exchange because Sal had not come back from the terrace. He had not gone to the terrace himself.",
+        "alone": "Victor had waited forty-five minutes for Sal to return from the terrace and had left at two AM without completing the exchange — he had left without the money and without having gone to the terrace.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Victor leaving without the money and without going to the terrace and the briefcase found empty confirm someone had taken the money after Victor had left — the money had been in the briefcase when Victor had departed, meaning the cash had been taken between two AM and three AM when the body was found."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎸",
+        "heading": "Tommy's Departure Time",
+        "text": "The building's doorman confirms Tommy had been in the building until at least two-thirty AM — he had seen Tommy in the lobby at that time looking 'unsettled.' Tommy's claimed departure time of one AM is inconsistent with the doorman's two-thirty AM observation. Tommy had been in the building until at least two-thirty AM — after Victor had left at two AM.",
+        "alone": "Tommy had been in the building until at least two-thirty AM — confirmed by the doorman, contradicting his claimed one AM departure. He had been in the penthouse after Victor left and before the body was found.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The face-to-face push confirming a confrontation between Sal and someone he was facing and Tommy confirmed in the building after Victor left at two AM establish Tommy as the only person in the penthouse during the window when both the killing and the money's taking could have occurred."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Victor's Observation",
+        "text": "Victor Lasso, asked whether he had seen anyone else in the penthouse before he left at two AM, says: 'Tommy Fitch was there. He and Sal had been arguing in the other room while I waited. The argument had quieted by one-thirty AM. I assumed they had settled whatever it was. Then Sal didn't come back from the terrace and I left.' Victor had confirmed Tommy's presence and the argument's timeline.",
+        "alone": "Victor had heard Tommy and Sal arguing until one-thirty AM and had then heard silence before Sal had gone to the terrace — the sequence places the confrontation between one-thirty and two AM.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Victor confirming Tommy and Sal arguing until one-thirty AM and Tommy confirmed in the building until two-thirty AM together establish the killing window — after the argument had ended and before Victor left, Sal had gone to the terrace and had not returned."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "The Money and the Motive",
+        "text": "A search of Tommy Fitch's vehicle — parked in the building's garage — finds 200,000 dollars in cash in the trunk. Tommy is arrested at three-forty AM still in the building. His fingerprints are on the briefcase. The royalty dispute had given him a second motive for the money beyond the deal — he had been calculating that 200,000 dollars from the briefcase approximated what he believed Sal had stolen from him in diverted royalties.",
+        "alone": "The 200,000 dollars found in Tommy's vehicle trunk — he had taken what he believed approximated the diverted royalties he was owed. His fingerprints confirmed he had opened the briefcase.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Tommy's royalty dispute claiming Sal had stolen approximately that amount and the 200,000 dollars found in his vehicle confirm his calculation — he had taken the cocaine money as restitution for what he believed Sal had stolen from him, and the argument had ended with Sal on the terrace."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Fitch",
+      "location": "The Penthouse Terrace",
+      "weapon": "Terrace Railing Impact"
+    },
+    "epilogue": "Tommy Fitch had arrived uninvited and agitated. He and Sal had argued until one-thirty AM. Victor had waited in the other room. At some point after one-thirty, Sal had gone to the terrace with Tommy. The argument had continued. Tommy had pushed Sal into the railing frame. He had taken the briefcase from the living room — 200,000 dollars, approximately what he believed Sal had stolen in royalties. He had been in the lobby at two-thirty AM looking unsettled. The money had been in his trunk. He was convicted of second-degree murder in 1981 and received twenty-five years. The cocaine deal had never been completed. Victor Lasso had returned his supply to its source. Donna Ray had released her album without Sal's production credits."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #104",
+    "title": "Manhattan Nocturne",
+    "setting": "Central Park West Penthouse · Manhattan · New York · 1979",
+    "emoji": "🌃",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Tommy killed Sal and took the money. But Victor Lasso had not been simply an intermediary — find what Victor's actual role in the deal had been and what he had been planning to do if the exchange had gone differently.",
+    "emptyState": "Victor wasn't just a middleman. Find what he was really doing there.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tommy Fitch",
+            "icon": "🎸",
+            "detail": "The killer — railing impact, 200,000 in trunk, royalty dispute, twenty-five years."
+          },
+          {
+            "name": "Victor Lasso",
+            "icon": "💼",
+            "detail": "Cleared as killer — left at two AM without going to terrace. Not just an intermediary."
+          },
+          {
+            "name": "Donna Ray",
+            "icon": "🎤",
+            "detail": "Cleared as killer — doorman log, left at ten-fifteen. Her contract is significant in retrospect."
+          },
+          {
+            "name": "The Cocaine Supply Network",
+            "icon": "🕵️",
+            "detail": "The organization behind Victor — whose interest in the deal went beyond the exchange price."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Penthouse Terrace",
+            "icon": "🌃",
+            "detail": "Primary crime scene — Tommy's killing of Sal."
+          },
+          {
+            "name": "The Living Room",
+            "icon": "💼",
+            "detail": "Where Victor had waited and where the contract had been signed."
+          },
+          {
+            "name": "The Service Elevator",
+            "icon": "🛗",
+            "detail": "How the cocaine supply had entered — and how Victor had also brought something else."
+          },
+          {
+            "name": "The DEA Surveillance Post",
+            "icon": "🏢",
+            "detail": "Across the street — where agents had been watching the building all evening."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Terrace Railing Impact",
+            "icon": "🪟",
+            "detail": "Confirmed murder weapon — Tommy's push, face-to-face."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Briefcase Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Victor's Recording Device",
+            "icon": "💼",
+            "detail": "Not a weapon — but what Victor had been carrying that night and what he had been doing with the conversation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Take the 200,000 as Restitution",
+            "icon": "🎸",
+            "detail": "Tommy's motive — royalty dispute, briefcase, trunk, twenty-five years."
+          },
+          {
+            "name": "Deliver Sal to the DEA",
+            "icon": "💼",
+            "detail": "Victor's actual purpose — he had been a DEA informant recording the transaction."
+          },
+          {
+            "name": "Record the Exchange for Prosecution",
+            "icon": "🕵️",
+            "detail": "Victor's operational objective — the recording device had been meant to capture Sal and Tommy's conversation."
+          },
+          {
+            "name": "Tommy's Killing Disrupting the DEA Operation",
+            "icon": "💼",
+            "detail": "What the killing had done to Victor's plan — the target had died before the prosecution could happen."
+          },
+          {
+            "name": "Donna's Contract as Cover",
+            "icon": "🎤",
+            "detail": "The contract signing's secondary purpose — Victor had arranged for Donna's signing to give Sal a reason to be at the penthouse all evening."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Victor's DEA Cooperation",
+        "text": "DEA files released in 1995 confirm Victor Lasso had been a registered DEA informant since 1977. His specific assignment had been to infiltrate and document Sal Marchetti's cocaine purchasing operation — Sal had been a mid-level distributor the DEA had been building a case against for fourteen months. Victor had arranged the Marchetti deal specifically to record it and had been wired for sound on the night of the killing.",
+        "alone": "Victor had been a DEA informant wired for sound — his entire purpose at the penthouse had been to record the cocaine transaction for prosecution.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Victor wired for sound and the DEA surveillance post across the street confirming agents had been watching the building all evening establish the full operational context — the penthouse had been a DEA operation's recording site, and Tommy's killing had detonated it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Recording's Content",
+        "text": "The recording Victor had been making — recovered from the device after his departure — contains audio of Sal discussing the deal, Tommy's arrival and argument about royalties, and the argument's escalation. The recording ends at one-fifty-two AM with sounds of movement and then silence. The DEA had audio of everything except the moment on the terrace — the wireless device's range had not reached the terrace.",
+        "alone": "The recording had captured everything in the living room including the argument but had not reached the terrace — the killing itself had occurred beyond the device's range.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The recording capturing the argument's escalation and stopping at one-fifty-two AM just before the killing confirm the DEA had near-complete audio of the evening without the killing itself — the terrace had been the one blind spot."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What Victor Had Planned",
+        "text": "The DEA operation plan — also released in 1995 — describes the intended outcome: Sal would complete the exchange, the recording would document the transaction, and Sal would be arrested at a follow-up meeting the following week with the documentation in hand. The penthouse evening had been the recording operation, not the arrest operation. Tommy's killing had eliminated the primary target before the planned arrest.",
+        "alone": "The DEA had planned to arrest Sal the following week using Victor's recording — Tommy had killed Sal before the arrest operation could occur.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The DEA planned arrest the following week and Tommy killing Sal the same night confirm the killing had destroyed a fourteen-month DEA operation in the same moment it had ended Sal's life — two different operations had been running simultaneously in the penthouse, and one had terminated the other."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "Donna's Contract as Operational Cover",
+        "text": "Victor's DEA handler confirms that Victor had arranged for Donna Ray's contract signing to be held at the penthouse that evening — ensuring Sal would be there all night and would be relaxed and in a familiar environment. Donna had not known she was providing cover for a DEA operation. Her contract was genuine — Sal had been willing to sign it. But the timing and location had been Victor's arrangement.",
+        "alone": "Victor had arranged Donna's contract signing as operational cover — ensuring Sal was at the penthouse all evening. Donna had been an unwitting participant in a DEA sting.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Victor arranging Donna's signing as cover and the DEA surveillance post confirming agents had been watching the building confirm the operation's full scope — Donna's genuine contract had been the mechanism that had placed Sal in the recording location."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Surveillance Post",
+        "text": "DEA agents had been in a surveillance position across Central Park West all evening — in a rented apartment with line of sight to the penthouse terrace. Their logs confirm they had seen activity on the terrace at approximately two AM but had been unable to observe the specifics. They had seen Tommy leave the building at two-thirty AM. They had not intervened — their operation had been a recording operation, not an arrest operation, and intervention would have compromised the case they were building.",
+        "alone": "DEA agents had watched the building all evening and had seen activity on the terrace without intervening — their operational mandate had been recording, not arrest.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The DEA's recording-not-arrest mandate preventing intervention and Tommy killing Sal during the window the agents had been watching confirm the killing had been visible to federal agents who had been unable to intervene without compromising an operation that the killing had then destroyed anyway."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Victor's Testimony at Tommy's Trial",
+        "text": "Victor Lasso testified at Tommy Fitch's trial — as a DEA informant, his identity had been partially protected. His recording had been the prosecution's primary evidence of the evening's events up to one-fifty-two AM. The recording of Sal and Tommy's argument — captured in full — had been played for the jury. Victor had testified to everything he had observed without disclosing his specific informant role, which had been protected. Tommy had been convicted on the combination of the recording and the physical evidence.",
+        "alone": "Victor's recording had been the prosecution's primary evidence — Tommy's conviction had been built substantially on the DEA informant's audio.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The recording capturing the argument's escalation and Victor's testimony using it as primary prosecution evidence confirm the DEA operation's recording had achieved its evidentiary purpose despite the operation itself failing — Sal's death had prevented the planned prosecution but had produced evidence for Tommy's."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "Tommy's Knowledge of Victor's Role",
+        "text": "Tommy Fitch, in a 1995 interview given after the DEA files were released, says: 'I didn't know Victor was DEA. If I had known, I wouldn't have argued with Sal in front of him. I would have left. I might have come back another time. Sal would still have been alive. I'm not sure what that means about what happened. I know that Victor knowing and me not knowing changed what occurred.' He does not claim this as mitigation — simply as a fact about information.",
+        "alone": "Tommy acknowledges that not knowing about Victor's DEA role had changed what occurred — had he known, he would have left and returned later.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The DEA watching the building without intervening and Tommy saying not knowing Victor's role had changed what occurred together confirm the information asymmetry had been decisive — every person in the penthouse had known something the others had not, and the combination of asymmetries had produced the night's outcome."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Operation's Aftermath",
+        "text": "The fourteen-month DEA operation against Sal Marchetti had ended with Sal dead and Tommy Fitch convicted of his murder. The cocaine network Sal had been part of had remained intact — Sal's death had not disrupted the supply chain, which had continued operating through other distributors. The DEA had rebuilt the operation targeting a different distributor in 1981. Victor Lasso had continued working as an informant until 1983. Donna Ray had released three albums. The penthouse had been sold in 1980.",
+        "alone": "The fourteen-month operation had ended with the target dead and the network intact — the DEA had rebuilt and targeted someone else. Tommy had received twenty-five years. Donna had released three albums.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Victor arranging Donna's signing as unwitting cover and the operation's aftermath confirming the network had continued confirm the full picture — the most elaborate element of the evening had been Victor's operational arrangement, and it had produced Tommy's conviction rather than Sal's, which had been its intended outcome."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Fitch",
+      "location": "The Penthouse Terrace",
+      "weapon": "Terrace Railing Impact",
+      "motive": "Take the 200,000 as Restitution"
+    },
+    "epilogue": "Victor Lasso had been wired for sound. DEA agents had been across the street. Donna Ray had been unwitting cover. Tommy had not known any of it. He had arrived agitated, had argued, had pushed Sal into the railing, and had taken the briefcase. The recording had captured everything except the terrace. The agents had watched the building without intervening. The fourteen-month operation had produced Tommy's conviction rather than Sal's. The network had continued. Victor had worked as an informant until 1983. Donna had released three albums. Tommy had served twenty-two of his twenty-five years. The penthouse had been sold in 1980. The mirror with residue on the terrace table had been photographed as evidence. The city lights of 1979 Manhattan had been in the background of the photograph."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #104",
+    "title": "Manhattan Nocturne",
+    "setting": "Central Park West Penthouse · Manhattan · New York · 1979",
+    "emoji": "🌃",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Tommy killed Sal. Victor was DEA. But Donna Ray had returned to the penthouse after her ten-fifteen departure — the doorman log shows a second entry at midnight. Find what Donna came back for and what she had witnessed.",
+    "emptyState": "Donna came back at midnight. Find why and what she saw.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Tommy Fitch",
+            "icon": "🎸",
+            "detail": "The killer — railing, briefcase, twenty-five years. Not knowing Victor's role had changed what occurred."
+          },
+          {
+            "name": "Victor Lasso",
+            "icon": "💼",
+            "detail": "Cleared as killer — DEA informant, wired, recording, left at two AM."
+          },
+          {
+            "name": "Donna Ray",
+            "icon": "🎤",
+            "detail": "Cleared as killer — but had returned at midnight. Her second visit is the investigation's final thread."
+          },
+          {
+            "name": "Donna's Manager",
+            "icon": "🎵",
+            "detail": "The person who had told Donna to return — whose role in the evening's arrangements is newly significant."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Penthouse Terrace",
+            "icon": "🌃",
+            "detail": "Primary crime scene — Tommy's killing."
+          },
+          {
+            "name": "The Living Room",
+            "icon": "💼",
+            "detail": "Where Donna had returned at midnight — and what she had found there."
+          },
+          {
+            "name": "The Building Lobby",
+            "icon": "🏢",
+            "detail": "Where the doorman had logged Donna's midnight return and her subsequent departure."
+          },
+          {
+            "name": "The DEA Surveillance Post",
+            "icon": "🕵️",
+            "detail": "Where agents had logged Donna's midnight return in their surveillance notes."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Terrace Railing Impact",
+            "icon": "🪟",
+            "detail": "Confirmed murder weapon — Tommy's."
+          },
+          {
+            "name": "Champagne Bottle",
+            "icon": "🍾",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Briefcase Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Donna's Midnight Return Observation",
+            "icon": "🎤",
+            "detail": "Not a weapon — but what she had seen when she returned at midnight and what she had done with it."
+          },
+          {
+            "name": "The Unsigned Addendum",
+            "icon": "📋",
+            "detail": "Not a weapon — why Donna had returned, and what it had placed her in the middle of."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Take the Restitution Money",
+            "icon": "🎸",
+            "detail": "Tommy's motive — twenty-five years."
+          },
+          {
+            "name": "Record the Transaction",
+            "icon": "💼",
+            "detail": "Victor's operational purpose — DEA informant, fourteen months."
+          },
+          {
+            "name": "Retrieve an Unsigned Contract Addendum",
+            "icon": "🎤",
+            "detail": "Donna's reason for returning — her manager had noticed a missing addendum after she had left."
+          },
+          {
+            "name": "Donna's Observation of the Ongoing Situation",
+            "icon": "🎤",
+            "detail": "What she had found at midnight — Tommy and Sal arguing, Victor waiting, cocaine on the table."
+          },
+          {
+            "name": "Donna's Choice About What to Do With What She Saw",
+            "icon": "🎤",
+            "detail": "The investigation's final question — what Donna had done after seeing the situation."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Sal and Took the Briefcase",
+            "icon": "🎸",
+            "detail": "Tommy's confirmed role — twenty-five years."
+          },
+          {
+            "name": "Recorded the Evening as DEA Informant",
+            "icon": "💼",
+            "detail": "Victor's role — recording primary prosecution evidence."
+          },
+          {
+            "name": "Returned at Midnight and Left Without Reporting",
+            "icon": "🎤",
+            "detail": "Donna's role — saw the situation, retrieved the addendum, left."
+          },
+          {
+            "name": "Told Donna to Return for the Addendum",
+            "icon": "🎵",
+            "detail": "Donna's manager's indirect role — created the conditions for Donna's midnight observation."
+          },
+          {
+            "name": "Logged the Midnight Return Without Comment",
+            "icon": "🏢",
+            "detail": "The doorman's role — documented Donna's return in the standard log without knowing its significance."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "The Doorman's Second Log Entry",
+        "text": "The building doorman's log shows a second entry for Donna Ray at midnight — she had returned to the building and had gone up in the elevator. A third entry shows her departure at twelve-twenty AM. She had been in the building for twenty minutes between midnight and twelve-twenty AM. Her first departure had been at ten-fifteen. The twenty minutes of midnight presence had not been noted in the initial investigation — the doorman had been asked only about arrivals before eleven PM.",
+        "alone": "Donna had returned at midnight and had stayed twenty minutes — this had not been found in the initial investigation because investigators had asked only about pre-eleven PM arrivals.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Donna's twenty-minute midnight return and the DEA surveillance log confirming her arrival at midnight as a logged observation together establish her second visit had been known to federal agents who had not intervened or noted it in the case file."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎤",
+        "heading": "Why Donna Had Returned",
+        "text": "Donna Ray, confronted with the doorman log's second entry in a 1995 interview, confirms she had returned: 'My manager called me at eleven-thirty. He said the contract addendum covering international rights had not been signed — it had been left on the living room table. He told me to go back and get Sal to sign it. I went back. When I arrived, the situation in the living room was — not what I expected.' She had returned for a contract addendum and had found a cocaine deal in progress.",
+        "alone": "Donna had returned to retrieve and sign an unsigned contract addendum — and had found a cocaine deal in progress in the living room.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Donna returning for a contract addendum and finding the cocaine deal confirm her midnight observation had been accidental — she had not expected to see what she had seen, and what she had done about it had been a choice made under surprise."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎤",
+        "heading": "What Donna Had Seen",
+        "text": "Donna's 1995 account continues: 'Sal was there. Tommy was there, arguing. A man I didn't know — Victor — was sitting in a chair. There was cocaine on the table. I saw all of it in about five seconds. Sal saw me. He looked embarrassed. He came over and signed the addendum quickly, told me everything was fine, and said I should leave. I left. I did not ask what was happening. I thought — this is Sal's business. I went home.' She had seen the full scene and had left.",
+        "alone": "Donna had seen Sal, Tommy arguing, Victor, and cocaine on the table — Sal had signed the addendum quickly and had sent her away. She had left without asking questions.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Donna seeing the full scene and leaving without asking questions and the DEA recording capturing her arrival and Sal's quick management of her departure confirm the recording had captured Donna's midnight arrival — it was on the tape."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What the Recording Captured",
+        "text": "The DEA recording — which had continued throughout the evening — captures Donna's midnight arrival, the brief exchange with Sal, the sound of a document being signed, and her departure. The recording captures Sal telling Tommy after Donna left: 'That was nothing. A contract thing. She saw nothing that matters.' The recording then captures the argument's resumption. Donna's arrival and departure are in the audio record.",
+        "alone": "The DEA recording had captured Donna's arrival, the signing, Sal's dismissal, and the argument's resumption — everything Donna had seen was also on the tape.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Donna's visit captured on the DEA recording and her 1995 account matching the tape confirm her account of the midnight visit had been accurate — the tape had documented both what she had seen and her departure, providing independent corroboration of her account."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The DEA Surveillance Log's Note on Donna",
+        "text": "The DEA surveillance log from across the street — released in 1995 with the other files — includes an entry at midnight: 'Subject Donna Ray returns to building. Unknown reason. Does not affect operation.' The agents had logged her return as irrelevant to their operation and had not pursued it. The log's next entry at two AM notes her absence for the remainder of the evening — she had left before the killing.",
+        "alone": "DEA surveillance had logged Donna's midnight return as irrelevant to their operation and had not pursued it — she had been seen and categorized and the observation had gone nowhere.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Donna's twenty-minute return unnoticed by the initial investigation and logged as irrelevant by the DEA confirm her midnight visit had been simultaneously documented by two separate authorities and pursued by neither — both had known and neither had connected it to the killing."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "Why Donna Had Not Reported What She Saw",
+        "text": "Donna is asked in the 1995 interview why she had not reported what she had seen to the police after Sal was found dead. She says: 'I didn't know Sal was going to be killed. I saw cocaine and an argument. In 1979, in the music industry, cocaine and arguments were not remarkable. I saw nothing that I thought would help anyone. And I thought — if I say I was there at midnight, with cocaine on the table, I become part of a story I don't want to be part of.' She had made a self-protective calculation.",
+        "alone": "Donna had not reported because she had not connected what she had seen to the killing and had not wanted to be associated with the cocaine situation she had witnessed.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Donna seeing the full scene and leaving without asking questions and her calculation that reporting would involve her in a story she didn't want confirm both the observation and the calculation had been simultaneous — she had known what she was looking at and had chosen not to be seen looking at it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "The Addendum's Fate",
+        "text": "The signed contract addendum — covering Donna Ray's international rights — was filed with her record label and had governed her international releases for fifteen years. It had been a genuine commercial document. It had been signed in a room with cocaine on the table while a DEA informant sat in a chair and a future murderer argued in the corner. It had been worth approximately 400,000 dollars in international royalties over its term. Donna had been in the room for five seconds and had left with a document worth 400,000 dollars.",
+        "alone": "The addendum had been worth 400,000 dollars in international royalties — signed in five seconds while a cocaine deal was in progress. Donna had left with it and had not looked back.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Donna returning for the addendum and leaving with a document worth 400,000 dollars after five seconds in a room with a cocaine deal confirm the evening's full accounting — every person had been pursuing something, and the addendum had been the thing that had been worth the most to anyone who had left the penthouse alive."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌃",
+        "heading": "The Evening's Full Accounting",
+        "text": "Central Park West penthouse, 1979: Sal had been running a cocaine purchase. Victor had been recording it for the DEA. Donna had returned for a 400,000-dollar contract addendum. Tommy had arrived to confront Sal about diverted royalties. DEA agents had watched from across the street. The recording had captured everything except the terrace. Donna had seen everything and had left. Tommy had killed Sal and taken 200,000 dollars. Victor had left without completing the exchange. The agents had watched without intervening. Donna had released three albums on an addendum signed in five seconds. The recording had convicted Tommy. The network had continued. The penthouse had been sold.",
+        "alone": "Five people, five separate purposes, one penthouse, one night. The recording had documented most of it. The terrace had been the one blind spot.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The recording capturing Donna's arrival and the full evening's accounting confirming five separate purposes converging on one location confirm the case's final structure — the most thoroughly documented crime in the archive had been the one where a DEA informant had been recording in the next room."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Tommy Fitch",
+      "location": "The Penthouse Terrace",
+      "weapon": "Terrace Railing Impact",
+      "motive": "Take the 200,000 as Restitution",
+      "accomplice": "Returned at Midnight and Left Without Reporting"
+    },
+    "epilogue": "Five people had been in or monitoring the penthouse that night. Victor had been wired. The DEA had been watching. Donna had returned for a 400,000-dollar addendum, had spent five seconds in the room, and had left. Tommy had argued, had killed, and had been in the lobby at two-thirty looking unsettled. The recording had captured everything except the terrace. Tommy had received twenty-five years. The addendum had governed Donna's international releases for fifteen years. Victor had continued working until 1983. The network had rebuilt. The agents across the street had logged Donna's return as irrelevant. The archivist who had catalogued the DEA files in 1995 had been the one to connect the doorman log, the surveillance log, and Donna's account. The penthouse had been sold in 1980. The mirror with residue had been in the evidence photograph. The city lights of 1979 had been in the background. They are still there."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Philadelphia, July 4th 1876. America's centennial. A senator dead in his hotel room during the parade. And a scandal that would have ended two careers if it had reached the papers. 🎆🔍 Case #107 — The Centennial. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Philadelphia 1876 centennial parade, a senator dead in his hotel room, and a political scandal that someone killed to keep buried. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "An 1876 Philadelphia hotel room on the Fourth of July, heavy Victorian furnishings and red-white-blue bunting visible through the window, a senator's frock coat draped over a chair, a leather document case open on the writing desk with papers spilling out, a commemorative centennial glass overturned on the carpet. Parade sounds from the street below, afternoon light through lace curtains. Style of Winslow Homer meets period daguerreotype.",
+    "animationPrompt": "Slow pan through an 1876 Philadelphia hotel room on the Fourth of July. Victorian furnishings. Bunting through the window. A senator's frock coat on a chair. The camera finds an open document case on the writing desk with papers spilling out and a commemorative glass overturned on the carpet. Parade music from the street below. Afternoon light through lace curtains. Fade to black.",
+    "hashtags": [
+      "#Philadelphia1876",
+      "#Centennial",
+      "#July4th",
+      "#MysteryGame",
+      "#BrainTeaser"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #107",
+    "title": "The Centennial",
+    "setting": "Continental Hotel · Philadelphia · Pennsylvania · July 4th, 1876",
+    "emoji": "🎆",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Senator Hiram Dodd was found dead in his Continental Hotel room during the centennial parade. He had been carrying documentation of a bribery scheme involving a cabinet official and two railroad companies. Three people had keys to his room. The documents were scattered but present — the killer had been interrupted before they could take everything.",
+    "emptyState": "The documents are still there. The killer was interrupted. Find who came for them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Congressman Alistair Vance",
+            "icon": "🎩",
+            "detail": "A political ally turned rival — named in the documents as a co-conspirator in the bribery scheme."
+          },
+          {
+            "name": "Mrs. Patience Dodd",
+            "icon": "🌹",
+            "detail": "The senator's wife — had traveled to Philadelphia with her husband and held a room key."
+          },
+          {
+            "name": "Edward Quill",
+            "icon": "🖊️",
+            "detail": "A newspaper reporter — had been investigating the bribery scandal for three months."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Where Dodd was found — document case open, glass overturned, window open to the parade noise."
+          },
+          {
+            "name": "The Hotel Corridor",
+            "icon": "🚪",
+            "detail": "The second-floor passage — where the room keys were managed."
+          },
+          {
+            "name": "The Parade Route",
+            "icon": "🎆",
+            "detail": "Chestnut Street below — where the centennial procession had drawn most of the hotel's guests."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Centennial Commemorative Glass",
+            "icon": "🥃",
+            "detail": "A heavy pressed-glass souvenir — blunt force wound consistent with its thick base used as a bludgeon."
+          },
+          {
+            "name": "Document Case Edge",
+            "icon": "💼",
+            "detail": "No wound profile match — the leather edge is too flexible."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound consistent with the frame's profile — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "The Scattered Documents",
+        "text": "The document case had been opened and its contents partially examined — papers were scattered across the writing desk and some had fallen to the floor. The documents describe a scheme in which Congressman Vance had arranged government land grants to two railroad companies in exchange for payments routed through a charitable foundation. Senator Dodd had been documenting the scheme as a political weapon against Vance, his former ally. The documents were present but disordered — the killer had been searching through them when interrupted.",
+        "alone": "The documents described Vance's bribery scheme and had been partially searched — the killer had been interrupted before they could decide what to take.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The documents specifically naming Vance and the killer being interrupted before completing the search together establish the most pressured party — Vance's naming in the documents gave him the most urgent motive to retrieve or destroy them entirely."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Commemorative Glass",
+        "text": "The overturned centennial commemorative glass — a heavy pressed-glass souvenir sold throughout the city — shows blood on its thick circular base. The wound on Dodd's skull is consistent with the base used as a bludgeon, struck from above while Dodd was seated at the writing desk. The glass had been picked up from the desk surface and used as the nearest available weapon — an opportunistic choice suggesting the killing had not been planned in advance.",
+        "alone": "The commemorative glass used as an opportunistic weapon — picked up from the desk surface — indicates the killing had not been premeditated but had occurred during a confrontation that had escalated.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The opportunistic weapon indicating an unplanned killing and Congressman Vance's confirmed presence in the hotel during the parade window together establish a confrontation that had escalated rather than a planned assassination."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Mrs. Dodd's Afternoon",
+        "text": "Mrs. Patience Dodd had been watching the parade from the hotel's front balcony with a group of six other guests from two PM until four PM — confirmed by all six and the hotel manager. She had not been in the corridor during this window. The killing had occurred between two and three PM based on the body's temperature at discovery. She is definitively cleared.",
+        "alone": "Mrs. Dodd had been on the front balcony watching the parade from two to four PM — confirmed by six witnesses and the hotel manager. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Mrs. Dodd cleared on the balcony and Edward Quill confirmed at the Exposition grounds three miles away together eliminate both other suspects — only Congressman Vance's whereabouts between two and three PM are unconfirmed within the hotel."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Vance's Exposure",
+        "text": "The bribery documents name Vance explicitly — letters in his handwriting arranging the land grant timing, receipts showing foundation payments, and a ledger connecting the railroad payments to his personal account. If published, the documents would have ended his congressional career and potentially resulted in criminal prosecution. Dodd had been using the documents as leverage to force Vance out of the upcoming party convention nomination.",
+        "alone": "Vance's exposure under the documents was total — handwritten letters, receipts, and a traced payment ledger. The documents would have ended his career.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Vance's complete exposure in the documents and the killing being unplanned from the opportunistic weapon together confirm the confrontation's nature — Vance had come to negotiate or retrieve the documents, had found Dodd resistant, and the confrontation had escalated."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Vance in the Hotel",
+        "text": "The hotel's desk clerk confirms Congressman Vance had arrived at the Continental at approximately one-forty-five PM — he had asked for Senator Dodd's room number and had gone up without being announced. A chamber maid saw Vance in the second-floor corridor at approximately two-fifteen PM. He had told her he was visiting the Senator on business. The parade noise from the street had been continuous and loud throughout the afternoon.",
+        "alone": "Vance had arrived at one-forty-five, had gone to Dodd's floor, and had been in the corridor at two-fifteen — within the murder window, in the hotel, on the relevant floor.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The documents specifically naming Vance and his confirmed presence in the hotel corridor during the murder window establish both motive and opportunity — he had gone to Dodd's room during the window when the parade noise would have masked any confrontation."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎩",
+        "heading": "The Interrupted Search",
+        "text": "The documents' state — partially searched, some on the floor — and the glass used as an opportunistic weapon suggest the sequence: Vance had entered the room, had confronted Dodd about the documents, the confrontation had escalated, Vance had killed Dodd with the nearest object, and had then begun searching the documents before being interrupted and leaving. The interruption had been the chamber maid, who had knocked at two-thirty PM with fresh towels and had heard movement inside.",
+        "alone": "The chamber maid had knocked at two-thirty PM and had heard movement inside — the interruption had caused Vance to abandon the document search before completing it.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The opportunistic weapon indicating an escalated confrontation and the chamber maid's knock interrupting the search together confirm the timeline — killing, partial search, interruption, departure — all within the fifteen-minute window between two-fifteen and two-thirty PM."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🖊️",
+        "heading": "Quill at the Exposition",
+        "text": "Edward Quill had been at the Centennial Exposition grounds in Fairmount Park — three miles from the hotel — covering the exhibition's July 4th events. Three exposition workers confirm his presence at two PM and at three PM at specific locations. He had not been at the Continental Hotel. He is definitively cleared.",
+        "alone": "Quill had been at the Exposition grounds three miles away — confirmed at two PM and three PM by three exhibition workers. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Mrs. Dodd cleared on the balcony and Quill cleared at the Exposition together leave Vance as the only person with confirmed hotel presence during the murder window — his corridor sighting at two-fifteen and the maid's two-thirty interruption bracket the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "Quill's Story",
+        "text": "Edward Quill published his investigation of the bribery scheme in the Philadelphia Inquirer on July 12th — eight days after the killing. He had not needed Dodd's documents — he had his own investigation's materials. His story named Vance explicitly and included details from sources independent of Dodd. Vance resigned from Congress on July 15th. He was not prosecuted — the evidence against him, while compelling, had not met the criminal threshold. The documents in Dodd's room were admitted as corroborating evidence in the subsequent congressional investigation.",
+        "alone": "Quill had published the story without needing Dodd's documents — the story had run regardless, and Vance had resigned. Dodd had been killed to suppress documents that had been published in a different form eight days later.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Vance's total exposure in the documents and Quill publishing an independent investigation eight days later confirm the killing's futility — Vance had killed to suppress documents whose underlying story had been published anyway from independent sources."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Congressman Alistair Vance",
+      "location": "The Hotel Room",
+      "weapon": "Centennial Commemorative Glass"
+    },
+    "epilogue": "Congressman Alistair Vance had arrived at the Continental Hotel at one-forty-five PM during the centennial parade. He had gone to Dodd's room to negotiate the return of the documents. The negotiation had failed. He had used the commemorative glass. He had begun searching the documents. The chamber maid had knocked at two-thirty PM and had heard movement. Vance had left. The documents had been found when Mrs. Dodd returned at four PM. Quill's story had run on July 12th without needing Dodd's materials. Vance had resigned on July 15th. He had killed a senator to suppress a story that had been published eight days later from different sources. He was convicted of manslaughter in 1877 and received seven years. The centennial parade had continued below while all of this had occurred above it."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #107",
+    "title": "The Centennial",
+    "setting": "Continental Hotel · Philadelphia · Pennsylvania · July 4th, 1876",
+    "emoji": "🎆",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Vance killed Dodd and was interrupted before completing the search. But Edward Quill had known about Dodd's documents before the killing — find how Quill had known and whether he had told anyone.",
+    "emptyState": "Quill knew about Dodd's documents before the killing. Find how — and who he told.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Congressman Alistair Vance",
+            "icon": "🎩",
+            "detail": "The killer — corridor at two-fifteen, commemorative glass, interrupted search, resigned July 15th."
+          },
+          {
+            "name": "Mrs. Patience Dodd",
+            "icon": "🌹",
+            "detail": "Cleared as killer — balcony confirmed. Her knowledge of the documents is examined."
+          },
+          {
+            "name": "Edward Quill",
+            "icon": "🖊️",
+            "detail": "Cleared as killer — Exposition confirmed. Had known about Dodd's documents before the killing."
+          },
+          {
+            "name": "Quill's Source Inside the Hotel",
+            "icon": "🚪",
+            "detail": "The person who had told Quill about the documents — and who had inadvertently enabled Vance to know where they were."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Vance's killing of Dodd."
+          },
+          {
+            "name": "The Hotel Corridor",
+            "icon": "🚪",
+            "detail": "Where the chamber maid had seen Vance and where Quill's source had operated."
+          },
+          {
+            "name": "The Parade Route",
+            "icon": "🎆",
+            "detail": "Where the centennial parade had drawn everyone's attention — providing the noise cover for the killing."
+          },
+          {
+            "name": "The Inquirer Office",
+            "icon": "🖨️",
+            "detail": "Where Quill had been preparing his story — and where the source communication had originated."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Centennial Commemorative Glass",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — opportunistic, escalated confrontation."
+          },
+          {
+            "name": "Document Case Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Quill's Source Communication",
+            "icon": "🖊️",
+            "detail": "Not a weapon — but the disclosure that had told Vance where the documents were and had motivated his hotel visit."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retrieve the Bribery Documents",
+            "icon": "🎩",
+            "detail": "Vance's motive — complete career destruction if published, escalated to killing."
+          },
+          {
+            "name": "Break the Bribery Story",
+            "icon": "🖊️",
+            "detail": "Quill's journalistic objective — published July 12th from independent sources regardless."
+          },
+          {
+            "name": "Earn a Story Tip Fee",
+            "icon": "🚪",
+            "detail": "The source's motive — had told Quill about the documents for payment."
+          },
+          {
+            "name": "The Source's Identity",
+            "icon": "🚪",
+            "detail": "Who had told Quill — and whether they had also told Vance."
+          },
+          {
+            "name": "Whether Vance Had Learned From Quill's Source or Independently",
+            "icon": "🎩",
+            "detail": "The chain's key question — how Vance had known the documents were in Dodd's hotel room."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "How Quill Had Known",
+        "text": "Quill, interviewed after Vance's arrest, explains his prior knowledge: 'A hotel employee contacted me three days before the Fourth. He said Senator Dodd was staying at the Continental and had brought a document case with materials about Congressman Vance. He offered to tell me more for five dollars. I paid the five dollars. He told me the documents described a bribery scheme.' He had been told by a hotel employee who had seen the document case.",
+        "alone": "A hotel employee had sold Quill information about Dodd's document case three days before the killing — the employee had known about the documents and had told a reporter.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The hotel employee telling Quill three days before and Vance arriving at the hotel on the day of the killing having somehow also learned about the documents confirm the employee had likely sold the same information to more than one buyer."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🚪",
+        "heading": "The Hotel Employee",
+        "text": "Investigation identifies the hotel employee as Thomas Slade, a corridor porter on the second floor — Dodd's floor. Slade had seen Dodd with the document case at check-in and had recognized Dodd's name from newspaper accounts. He confirms he had sold the tip to Quill. He also confirms, under pressure, that he had sold the same information to a second buyer on the same day — a man who had paid him ten dollars, twice Quill's fee. He had not known the second buyer's name.",
+        "alone": "Slade had sold the same tip to two buyers — Quill for five dollars and an unknown man for ten dollars. The unknown buyer had known enough to pay twice as much.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Slade selling to an unknown ten-dollar buyer and Vance arriving at the hotel three days later having known the documents were in Dodd's room together confirm the unknown buyer had been connected to Vance — the higher payment suggesting someone with more urgent interest in the information."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "The Ten-Dollar Buyer's Identity",
+        "text": "Investigation of Vance's known associates identifies the likely ten-dollar buyer as James Holt, Vance's personal secretary. Holt had been in Philadelphia three days before the Fourth — confirmed by a hotel registration in his name at a different establishment. Holt had been the one who had learned about the documents from Slade and had reported to Vance. Vance had then had three days to decide what to do.",
+        "alone": "Vance's secretary Holt had been the ten-dollar buyer — he had bought the tip, had reported to Vance, and Vance had had three days to plan his approach to Dodd.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Holt buying the tip three days before and Vance arriving on the day of the killing confirm Vance had known about the documents for three days and had come to the hotel on July 4th with a specific purpose — the killing had followed from three days of knowledge, not a sudden discovery."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "What Vance Had Done With Three Days",
+        "text": "In the three days between Holt's report and the killing, Vance had made no official move — no legal action, no contact with Dodd through official channels. He had also made no approach to the railroad companies named in the documents. He had waited. His decision to go to the hotel on July 4th — parade day, when most guests would be at the parade — had been the result of three days of consideration. The timing had been chosen for the crowd cover.",
+        "alone": "Vance had chosen July 4th specifically because the parade would draw guests away from the hotel — the day and its noise cover had been deliberate choices after three days of consideration.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Vance choosing the parade day deliberately and the opportunistic glass suggesting the killing itself had not been premeditated confirm the planning had been the timing, not the act — he had planned when and where, but not that he would kill."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🚪",
+        "heading": "Slade's Legal Exposure",
+        "text": "Thomas Slade is examined as a potential accomplice — his tip to Holt had enabled the killing by informing Vance of the documents' location. The court finds: 'Slade's disclosure to Holt was motivated by financial gain and constituted a moral failure, but did not constitute criminal facilitation of the murder as it lacked the intent element. Slade could not have foreseen that his information would result in the death of the senator.' He is not charged but is dismissed from the hotel.",
+        "alone": "Slade is not charged — his tip had enabled the killing's circumstances without meeting the criminal facilitation standard. He is dismissed from the hotel.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Holt buying the tip and Slade's finding of moral failure without criminal liability confirm the chain's legal allocation — the tip had been the enabling action, Holt had been the transmission, Vance had been the actor, and only Vance had faced criminal liability."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "Quill's Publication and Its Consequence",
+        "text": "Quill's July 12th story had used his own investigation's materials — correspondence from railroad officials, bank records, and a whistleblower inside one of the railroad companies. He had not needed Dodd's documents. His story had been more comprehensively sourced than Dodd's document collection. Vance had killed to suppress documents that had been secondary to the story that had ended his career. The primary source had been inside the railroad.",
+        "alone": "Quill's story had been based on independent railroad sources — the documents Vance had killed to suppress had been supplementary to a story that had already been fully sourced elsewhere.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Vance choosing July 4th deliberately for the crowd cover and the documents being secondary to Quill's independent sourcing confirm the killing had been both premeditated in timing and futile in purpose — the three days of planning had produced an act that had changed nothing about the story's publication."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Holt's Testimony",
+        "text": "James Holt, Vance's secretary, testifies at Vance's trial against his former employer in exchange for immunity. He confirms: he had bought the tip from Slade for ten dollars; had reported the documents' existence to Vance; and had discussed the July 4th timing with Vance as an opportunity to approach Dodd when the hotel would be relatively unoccupied. He had not known Vance would kill anyone. He had believed Vance intended to negotiate or threaten.",
+        "alone": "Holt had helped plan the July 4th approach timing but had not anticipated the killing — he received immunity for his testimony and confirmed the three-day deliberate timing.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Holt buying the tip and planning the July 4th timing and his genuine unawareness of the killing's likelihood confirming the planning had been logistical — the timing had been chosen by calculation, and the killing had been the unplanned escalation of a planned negotiation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎆",
+        "heading": "The Centennial's Irony",
+        "text": "The centennial parade on July 4th, 1876 had been one of the largest public celebrations in American history — marking the nation's hundredth year. Approximately one hundred thousand people had watched the parade on Chestnut Street below the Continental Hotel. The parade's noise had masked the killing. The commemorative glass used as the murder weapon had been sold at the parade as a souvenir of the nation's centennial. The nation had been celebrating its founding principles on the street below while a congressman killed a senator with a souvenir of the occasion above it.",
+        "alone": "The centennial souvenir had been the murder weapon — a glass commemorating the nation's hundredth birthday used to kill a senator during the birthday parade.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The killing's futility — the documents secondary to Quill's independent sources — and the commemorative glass as the weapon together confirm the case's irony — a deliberate plan, a futile act, an opportunistic weapon, and a story published regardless from sources the killer had never known existed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Congressman Alistair Vance",
+      "location": "The Hotel Room",
+      "weapon": "Centennial Commemorative Glass",
+      "motive": "Retrieve the Bribery Documents"
+    },
+    "epilogue": "Thomas Slade had sold the same tip twice. Quill had paid five dollars. Holt had paid ten. Vance had known for three days. He had chosen July 4th for the crowd cover. He had gone to negotiate. The negotiation had failed. He had used the commemorative glass. The chamber maid had knocked. He had left with nothing. Quill had published eight days later from sources inside the railroad that Vance had never known about. The documents in Dodd's room had been supplementary corroboration. Vance had resigned on July 15th. He had received seven years for manslaughter. The centennial parade had been watched by one hundred thousand people on the street below. The souvenir glass used to commit the murder had been purchased at one of the parade's vendor stalls that morning."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #107",
+    "title": "The Centennial",
+    "setting": "Continental Hotel · Philadelphia · Pennsylvania · July 4th, 1876",
+    "emoji": "🎆",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Vance killed Dodd. Slade sold the tip to two buyers. But Mrs. Dodd had known the documents were in the room — and had known Quill was investigating. Find what role she had played in the documents' creation and whether she had intended them to reach Quill.",
+    "emptyState": "Mrs. Dodd knew about the documents and knew about Quill. Find her role.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Congressman Alistair Vance",
+            "icon": "🎩",
+            "detail": "The killer — Holt, three days, July 4th timing, commemorative glass, seven years."
+          },
+          {
+            "name": "Edward Quill",
+            "icon": "🖊️",
+            "detail": "Cleared as killer — Exposition confirmed. Published July 12th from railroad sources."
+          },
+          {
+            "name": "Mrs. Patience Dodd",
+            "icon": "🌹",
+            "detail": "Cleared as killer — balcony confirmed. Had known about both the documents and Quill's investigation."
+          },
+          {
+            "name": "The Railroad Whistleblower",
+            "icon": "🚂",
+            "detail": "Quill's primary source — whose identity and connection to Mrs. Dodd is the investigation's final thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — and where the documents had been that Mrs. Dodd had helped assemble."
+          },
+          {
+            "name": "The Balcony",
+            "icon": "🎆",
+            "detail": "Mrs. Dodd's confirmed location — watching the parade while Vance was in the room."
+          },
+          {
+            "name": "The Railroad's Eastern Office",
+            "icon": "🚂",
+            "detail": "Where the whistleblower had worked — and where Mrs. Dodd's brother had been employed."
+          },
+          {
+            "name": "Senator Dodd's Washington Office",
+            "icon": "🏛️",
+            "detail": "Where the documents had been assembled — and where Mrs. Dodd had been involved."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Centennial Commemorative Glass",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Vance's opportunistic escalation."
+          },
+          {
+            "name": "Document Case Edge",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Mrs. Dodd's Document Assembly",
+            "icon": "🌹",
+            "detail": "Not a weapon — but her active role in creating the documents that had been the killing's occasion."
+          },
+          {
+            "name": "The Whistleblower Connection",
+            "icon": "🚂",
+            "detail": "Not a weapon — but the link between Mrs. Dodd's family and Quill's primary railroad source."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retrieve the Bribery Documents",
+            "icon": "🎩",
+            "detail": "Vance's motive — futile, story published regardless."
+          },
+          {
+            "name": "Expose Vance Through the Press",
+            "icon": "🌹",
+            "detail": "Mrs. Dodd's actual goal — she had been the architect of the documents' exposure plan."
+          },
+          {
+            "name": "Avenge Her Brother",
+            "icon": "🌹",
+            "detail": "Mrs. Dodd's personal motive — her brother had lost his railroad position in the bribery scheme's fallout."
+          },
+          {
+            "name": "Connect Quill to the Whistleblower",
+            "icon": "🖊️",
+            "detail": "What Mrs. Dodd had done — had introduced Quill to her brother, the whistleblower."
+          },
+          {
+            "name": "The Documents as a Political Weapon and as Press Bait",
+            "icon": "📋",
+            "detail": "The dual purpose of Dodd's document collection — political leverage for the senator and press confirmation for Quill."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Dodd With the Commemorative Glass",
+            "icon": "🎩",
+            "detail": "Vance's confirmed role — seven years."
+          },
+          {
+            "name": "Sold the Tip to Two Buyers",
+            "icon": "🚪",
+            "detail": "Slade's role — dismissed, not charged."
+          },
+          {
+            "name": "Assembled the Documents and Introduced Quill to the Whistleblower",
+            "icon": "🌹",
+            "detail": "Mrs. Dodd's active role — the architect of the exposure, cleared as killer, not charged."
+          },
+          {
+            "name": "Provided Testimony at Vance's Trial",
+            "icon": "🎩",
+            "detail": "Holt's immunity deal — confirmed the three-day timeline and July 4th planning."
+          },
+          {
+            "name": "Was the Railroad Whistleblower and Mrs. Dodd's Brother",
+            "icon": "🚂",
+            "detail": "The primary source's identity — connecting Mrs. Dodd to Quill's independent railroad sourcing."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "Mrs. Dodd's Role in the Documents",
+        "text": "Mrs. Patience Dodd, in an 1877 interview given after Vance's conviction, confirms she had been involved in her husband's document collection: 'I helped Hiram organize the materials. I knew what they showed. I also knew that Hiram's use of them — as political leverage for the convention — would not ensure they were made public. I wanted them published. I wanted the public to know what Vance had done.' She had had a different purpose for the documents than her husband.",
+        "alone": "Mrs. Dodd had wanted the documents published — her purpose had been public exposure, not political leverage. She had been working toward a different outcome than her husband.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Mrs. Dodd wanting public exposure and her introduction of Quill to the whistleblower railroad source confirm her parallel press strategy had been the action that had ensured Vance's exposure regardless of the documents' fate — she had built the independent route to publication that her husband's documents had been supplementary to."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Mrs. Dodd's Brother",
+        "text": "Mrs. Dodd's brother, Arthur Pennington, had been employed as an accountant at the Eastern Atlantic Railroad — one of the two railroads in Vance's bribery scheme. When the scheme had been arranged, Pennington had refused to process certain fraudulent entries and had been dismissed in 1874. He had been the one who had understood the scheme's financial mechanics from the inside. He had been the one who had told his sister.",
+        "alone": "Mrs. Dodd's brother had been dismissed from the railroad for refusing to participate in the fraud — he had been the whistleblower's origin and Mrs. Dodd's initial source.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Pennington dismissed for refusing the fraud and Mrs. Dodd subsequently introducing him to Quill as the railroad source confirm the chain — personal injustice had become the motive, the dismissed brother had become the whistleblower, and Mrs. Dodd had connected the pieces."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🖊️",
+        "heading": "Mrs. Dodd's Introduction of Quill to Pennington",
+        "text": "Quill's editor confirms that Quill's railroad source had been introduced through Mrs. Dodd in March 1876 — four months before the killing. Quill had been investigating the bribery scheme from his own leads when Mrs. Dodd had contacted him through an intermediary and had offered to connect him with a direct witness. The introduction had been Mrs. Dodd's action, conducted without her husband's knowledge.",
+        "alone": "Mrs. Dodd had introduced Quill to her brother as his railroad source four months before the killing — without her husband's knowledge, she had been building the press exposure route independently.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Mrs. Dodd introducing Quill to Pennington four months before and Senator Dodd not knowing about the introduction confirming she had been pursuing a parallel strategy establish the full picture — the senator had been using the documents for political leverage, and his wife had been ensuring the story would be published regardless of the political outcome."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Why Mrs. Dodd Had Not Told Her Husband",
+        "text": "Mrs. Dodd explains: 'Hiram wanted the documents as a weapon for the convention. He would have traded them for political concessions — Vance's withdrawal from the nomination — and the public would never have known. I loved my husband but I did not trust his political judgment about what Vance deserved. Arthur had lost his position. Three families employed by the railroad had been affected by the fraud's financial manipulation. I wanted consequences, not concessions.'",
+        "alone": "Mrs. Dodd had not told her husband about the Quill introduction because he would have used the documents for political trade rather than public exposure — she had disagreed with his strategy and had acted around it.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Mrs. Dodd pursuing public exposure while her husband pursued political leverage and Quill publishing from her brother's sources regardless of the documents' fate confirm the two parallel strategies had existed simultaneously — and only one had achieved its goal."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "Pennington's Testimony",
+        "text": "Arthur Pennington testifies at Vance's trial as Quill's primary source. His testimony details the fraudulent land grant entries, the payment routing, and his own dismissal for refusing to process the entries. The testimony is the most technically specific account of the scheme's mechanics. Pennington had been dismissed in 1874 and had been the indispensable source of the financial specifics that no document collection could have fully captured.",
+        "alone": "Pennington's trial testimony had been the most technically specific account of the scheme — his inside knowledge from 1874 had been the foundation that the documents had corroborated rather than supplied.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Mrs. Dodd introducing Quill to Pennington four months before the killing and Pennington's trial testimony being the most specific account confirm the introduction had been the decisive action — the independent railroad source had been the story's backbone, and Mrs. Dodd had assembled it."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Mrs. Dodd's Full Assessment",
+        "text": "Mrs. Dodd's 1877 interview continues: 'Hiram died because he had documents that Vance wanted. The documents were useful — they confirmed what Arthur knew from the inside. But Arthur's account was the story. I had made sure the story would be told regardless of what happened to the documents. I did not know Hiram would be killed. I believed Vance would negotiate. I was wrong about that.' She had expected a negotiation and had gotten a killing.",
+        "alone": "Mrs. Dodd had expected Vance to negotiate, not to kill — her parallel strategy had anticipated the negotiation scenario, not the murder scenario.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Mrs. Dodd expecting a negotiation and Vance killing instead confirm her strategy had been built on a correct analysis of the documents' supplementary role and an incorrect prediction of Vance's response — she had been right about the story's outcome and wrong about the confrontation's nature."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎆",
+        "heading": "The Centennial's Political Aftermath",
+        "text": "Vance's resignation on July 15th and conviction in 1877 had removed him from American political life entirely. The bribery scheme's exposure had prompted a broader congressional investigation into railroad land grants. Three other congressmen had been implicated. Two had resigned. One had been censured. Arthur Pennington had been offered his railroad position back — he had declined and had become a freelance accountant. Quill's story had been reprinted in fourteen newspapers.",
+        "alone": "Vance's removal had been followed by a broader investigation implicating three other congressmen — the story had had consequences beyond its immediate subject.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Pennington's insider testimony being the story's foundation and the broader congressional investigation confirming the story's impact establish the full reach of Mrs. Dodd's strategy — the whistleblower connection she had built had produced consequences that extended well beyond the killing that had been meant to suppress a smaller portion of it."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Mrs. Dodd's Final Position",
+        "text": "Mrs. Patience Dodd is not charged with any offense — her actions had been lawful throughout. She is recognized in Quill's published account as having provided the introduction to the railroad source. Her name appears in the story's acknowledgment as a source. She returned to Washington after the trial. She lived until 1901. Her brother Arthur lived until 1903. Quill's story won the Philadelphia Inquirer's reporter of the year citation for 1876. The citation does not mention Mrs. Dodd. Quill's private notebook, donated to the Historical Society of Pennsylvania in 1910, does.",
+        "alone": "Quill's private notebook names Mrs. Dodd as the person who had made the story possible — the public citation does not, but the private record does.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Mrs. Dodd introducing Quill to Pennington and Quill's private notebook naming her as the story's enabler confirm the full accounting — the public record had not credited her, and the private record had. The centennial parade had continued. The documents had been found. The story had been published. The senator's wife had built the route to publication four months before her husband was killed for the documents she had helped him carry."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Congressman Alistair Vance",
+      "location": "The Hotel Room",
+      "weapon": "Centennial Commemorative Glass",
+      "motive": "Retrieve the Bribery Documents",
+      "accomplice": "Assembled the Documents and Introduced Quill to the Whistleblower"
+    },
+    "epilogue": "Mrs. Patience Dodd had introduced Quill to her brother Arthur in March 1876. She had helped her husband assemble the documents without telling him about the introduction. She had believed Vance would negotiate. She had been on the balcony watching the centennial parade when Vance was in the room above. The story had been published on July 12th from Arthur's account. Vance had resigned on July 15th. Quill's citation had not named her. His private notebook had. Arthur had declined the railroad position offered back to him. Three other congressmen had been implicated in the investigation. Mrs. Dodd had lived until 1901. The commemorative glass had been purchased at a vendor stall on the parade route that morning. The nation had been one hundred years old. The centennial parade had played on."
+  }
+}

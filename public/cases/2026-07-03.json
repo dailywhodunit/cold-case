@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Cape Canaveral, 1969. Three days before Apollo 11 launches. A NASA technician dead on the launch pad. And a sabotage attempt that nearly grounded the moon shot. 🚀🔍 Case #106 — T Minus. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Cape Canaveral 1969, Apollo 11 three days from launch, a dead technician on the pad, and someone who needed the moon mission to fail. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Cape Canaveral launch pad at night in 1969, the Saturn V rocket illuminated by floodlights against the dark Florida sky, a gantry catwalk with safety railings, a technician's clipboard and hardhat on the steel walkway, a figure slumped against the railing. Industrial awe and tension, style of NASA archival photography meets Stanley Kubrick.",
+    "animationPrompt": "Slow pan along a 1969 Cape Canaveral launch pad gantry catwalk at night. The Saturn V rocket illuminated by floodlights. Steel walkways. The camera finds a technician's clipboard and hardhat on the catwalk and a figure against the railing. The Florida night beyond. The rocket is very still. Fade to black.",
+    "hashtags": [
+      "#Apollo11",
+      "#CapeCanaveral1969",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #106",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Propulsion technician Ray Kowalski was found dead on the Saturn V gantry catwalk at two AM — three days before Apollo 11's launch. His body was found beside a guidance system access panel that had been tampered with. Three people had after-hours pad access that night. If the sabotage had not been detected, the mission would have failed.",
+    "emptyState": "Three days to the moon. Someone tried to stop it. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Frank Osei",
+            "icon": "🔬",
+            "detail": "A guidance systems engineer — had raised concerns about the mission timeline and had been overruled."
+          },
+          {
+            "name": "Pete Garland",
+            "icon": "🔧",
+            "detail": "A senior pad technician — had worked with Kowalski for six years and had access to all system panels."
+          },
+          {
+            "name": "Linda Marsh",
+            "icon": "📋",
+            "detail": "A mission safety officer — had been on the pad conducting a late inspection when Kowalski's body was found."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Gantry Catwalk",
+            "icon": "🚀",
+            "detail": "Where Kowalski was found — guidance panel tampered, hardhat beside him, single wound."
+          },
+          {
+            "name": "The Flame Trench",
+            "icon": "🔥",
+            "detail": "Below the launch pad — accessed by a separate elevator, not connected to the catwalk route."
+          },
+          {
+            "name": "The Blockhouse",
+            "icon": "🏢",
+            "detail": "The control facility 1,000 feet from the pad — where launch controllers had been running night simulations."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Torque Wrench",
+            "icon": "🔧",
+            "detail": "A heavy calibrated tool — blunt force wound consistent with its weighted head used as a bludgeon."
+          },
+          {
+            "name": "Gantry Railing",
+            "icon": "🪜",
+            "detail": "No wound profile match — the railing's tubular shape inconsistent with the wound."
+          },
+          {
+            "name": "Fire Suppression Nozzle",
+            "icon": "💧",
+            "detail": "Too fixed and light for the wound depth — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Tampered Panel",
+        "text": "The guidance system access panel beside Kowalski's body shows evidence of tampering — three mounting screws had been removed and the panel partially opened. Inside, a wiring harness connector had been loosened. If left undetected, the guidance system would have received corrupted attitude data during the trans-lunar injection burn, sending the spacecraft off-course. Kowalski had either discovered the tampering or had been in the process of performing it.",
+        "alone": "The guidance panel had been tampered with in a way that would have sent Apollo 11 off-course during the critical trans-lunar burn — the tampering required specific technical knowledge of the guidance system.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The guidance system tampering requiring specialist knowledge and Dr. Osei's documented expertise as the mission's guidance systems engineer together establish the technical capability — only someone with deep knowledge of that specific subsystem would have known which connector to loosen."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔧",
+        "heading": "The Torque Wrench",
+        "text": "A calibrated torque wrench — standard pad equipment, found wedged behind a conduit housing twenty feet from the body — shows blood on its weighted calibration head. The wound on Kowalski's skull matches the head's profile: a single heavy blow from behind while Kowalski had been crouching at the panel. The wrench had been used, then hidden rather than discarded — someone had planned to retrieve it.",
+        "alone": "The torque wrench had been hidden rather than discarded — the killer had intended to retrieve it, suggesting either familiarity with the pad's layout or a plan to return.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The wrench hidden for retrieval indicating pad familiarity and Pete Garland's six years of daily pad work giving him encyclopedic knowledge of every conduit and storage space together confirm the hiding location had been chosen by someone who knew exactly where that conduit housing was."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Linda Marsh's Inspection",
+        "text": "Linda Marsh had been conducting a scheduled safety inspection of the pad's upper levels from midnight until one-thirty AM — her inspection log records twelve items checked. She had been at Level 320 when she had found Kowalski's body at two AM. She had not been at the guidance panel level — Level 300 — during her inspection. Her log is countersigned by the blockhouse duty officer. She is definitively cleared.",
+        "alone": "Linda's inspection log placed her at Level 320 throughout, confirmed by the blockhouse duty officer — she had not been at Level 300 where the panel and body were found. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Linda cleared by her countersigned inspection log at Level 320 and Dr. Osei confirmed in the blockhouse running simulations together eliminate both other suspects from Level 300 during the murder window — only Pete Garland's movements between midnight and two AM are unconfirmed on the pad."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Osei's Overruled Concern",
+        "text": "Mission records show Dr. Osei had formally flagged a concern about the guidance system's attitude sensor calibration six weeks before launch — he had believed a specific connector interface was prone to vibration-induced loosening under the Saturn V's acoustic load. His concern had been reviewed and overruled by the mission director, who had cited schedule pressure. The tampered connector was the exact one Osei had flagged.",
+        "alone": "Osei had flagged the exact connector that had been tampered with six weeks before launch — either the tampering had confirmed his concern, or he had used his specific knowledge of the vulnerability to sabotage it.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Osei flagging the specific connector that was tampered with and the tampering requiring specialist guidance system knowledge confirm the connection — only Osei had combined the specific knowledge of that connector's vulnerability with the technical expertise to exploit it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "Osei in the Blockhouse",
+        "text": "Dr. Osei had been in the blockhouse running night simulation sequences from ten PM until three AM — confirmed by twelve blockhouse personnel including the shift supervisor. The blockhouse is 1,000 feet from the pad and requires a separate vehicle to reach. He had not been on the pad. He is definitively cleared as the killer.",
+        "alone": "Osei had been in the blockhouse for five hours confirmed by twelve people — he could not have been on the pad during the murder window. He is definitively cleared as the killer.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Osei's specific knowledge of the tampered connector and his confirmed blockhouse alibi confirm two things simultaneously — he had the knowledge to perform the sabotage and had not been the one who had killed Kowalski."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "Garland's Pad Familiarity",
+        "text": "Pete Garland's personnel file documents six years of continuous pad work on the Saturn program — he had been on this specific launch complex since its construction. His technical clearance covers all 22 levels of the gantry including the guidance system panels. A pad colleague confirms Garland had worked late on the previous two nights and had been seen checking the Level 300 panel area on both occasions.",
+        "alone": "Garland had been seen checking the Level 300 panel area on both preceding nights — establishing a pattern of presence at the specific location where the sabotage had occurred.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The wrench hidden behind a conduit housing only a six-year pad veteran would know and Garland's documented presence at Level 300 on the two preceding nights together confirm his familiarity with the exact hiding location and the specific panel."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Garland's Missing Hours",
+        "text": "Garland's after-hours log — signed in at eleven PM — shows him entering the pad facility. His sign-out is at three AM. The two-hour window from one AM to three AM has no confirmed witness. He had been on the pad during the murder window with no one to account for his movements. A pad elevator operator confirms Garland had taken the Level 300 elevator at approximately one-fifteen AM.",
+        "alone": "Garland had taken the Level 300 elevator at one-fifteen AM — placing him on the same level as the guidance panel and Kowalski's body during the murder window.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Garland seen at Level 300 on the two preceding nights and confirmed taking the Level 300 elevator at one-fifteen AM on the night of the killing establish a consistent pattern of presence at the exact location on each relevant night."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "The Sabotage's Origin",
+        "text": "Post-incident analysis by NASA's safety board finds the tampering had been performed using the specific technique Osei had described in his six-week-prior concern report — the same report that had been reviewed and dismissed. The sabotage had been technically sophisticated and had matched Osei's documented assessment of the connector's vulnerability almost exactly. Someone had read Osei's concern report and had used it as a technical blueprint for the sabotage.",
+        "alone": "The sabotage technique matched Osei's dismissed concern report almost exactly — the killer had used the report as a blueprint, meaning they had read it and had understood it well enough to replicate its technical specifics.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Osei's report describing the exact connector's vulnerability and the sabotage technique matching the report confirm the killer had used the concern report as a guide — requiring both access to the classified report and sufficient technical understanding to execute its implied method."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pete Garland",
+      "location": "The Gantry Catwalk",
+      "weapon": "Torque Wrench"
+    },
+    "epilogue": "Pete Garland had been on the pad on the two preceding nights familiarizing himself with the panel. He had read Osei's dismissed concern report — classified documents to which pad technicians with full clearance had access — and had used it as his technical guide. He had taken the Level 300 elevator at one-fifteen AM, had found Kowalski already at the panel, had struck him with the torque wrench, had hidden the wrench, and had completed the sabotage. Linda Marsh had found the body at two AM. The sabotage had been detected and repaired. Apollo 11 launched on July 16th, 1969. Neil Armstrong stepped onto the moon on July 20th. Pete Garland was convicted in 1970. He has never publicly stated his reason."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #106",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Garland killed Kowalski and performed the sabotage. But he had read Osei's dismissed concern report — find why Garland had wanted the mission to fail and whether anyone had recruited him or paid him to act.",
+    "emptyState": "Garland had a reason to want Apollo 11 to fail. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Pete Garland",
+            "icon": "🔧",
+            "detail": "The killer — Level 300 elevator, torque wrench, six-year familiarity, Osei's report as blueprint."
+          },
+          {
+            "name": "Dr. Frank Osei",
+            "icon": "🔬",
+            "detail": "Cleared as killer — blockhouse confirmed by twelve people. His report had been the blueprint."
+          },
+          {
+            "name": "Linda Marsh",
+            "icon": "📋",
+            "detail": "Cleared as killer — Level 320 inspection log. Her discovery of the body is the investigation's starting point."
+          },
+          {
+            "name": "The Soviet Intelligence Contact",
+            "icon": "🕵️",
+            "detail": "The external actor the FBI investigates — whether Garland had been recruited or had acted alone."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Gantry Catwalk",
+            "icon": "🚀",
+            "detail": "Primary crime scene — Garland's killing and sabotage."
+          },
+          {
+            "name": "The Blockhouse",
+            "icon": "🏢",
+            "detail": "Osei's confirmed location — and where the concern report had been filed."
+          },
+          {
+            "name": "A Miami Hotel",
+            "icon": "🏨",
+            "detail": "Where FBI counterintelligence finds a contact meeting logged in Garland's movements six weeks before."
+          },
+          {
+            "name": "The Classified Document Archive",
+            "icon": "📋",
+            "detail": "Where the concern report had been held — and where the access log shows Garland had read it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Torque Wrench",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — hidden behind conduit housing, blood on calibration head."
+          },
+          {
+            "name": "Gantry Railing",
+            "icon": "🪜",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Fire Suppression Nozzle",
+            "icon": "💧",
+            "detail": "Too fixed — eliminated."
+          },
+          {
+            "name": "Osei's Concern Report",
+            "icon": "🔬",
+            "detail": "Not a weapon — but the technical blueprint Garland had used, and the document whose access log placed him at the archive."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Soviet Intelligence Payment",
+            "icon": "🕵️",
+            "detail": "The FBI's primary hypothesis — Garland had been paid to sabotage the mission."
+          },
+          {
+            "name": "Ideological Motivation",
+            "icon": "🔧",
+            "detail": "The alternative hypothesis — Garland had acted from personal conviction rather than payment."
+          },
+          {
+            "name": "The Miami Contact Meeting",
+            "icon": "🏨",
+            "detail": "The FBI's specific finding — a meeting six weeks before with a known Soviet intelligence contact."
+          },
+          {
+            "name": "Garland's Financial Records",
+            "icon": "💰",
+            "detail": "What the FBI examines — whether money had changed hands."
+          },
+          {
+            "name": "The Document Archive Access",
+            "icon": "📋",
+            "detail": "When Garland had read Osei's report — the access log's date relative to the Miami meeting."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The FBI Counterintelligence Investigation",
+        "text": "The FBI opens a counterintelligence investigation immediately after Garland's arrest. The investigation examines whether the sabotage had been externally directed. Within two weeks, agents identify a meeting in a Miami hotel six weeks before the launch — Garland had been seen with a man identified as Anatoli Petrov, a Soviet trade official believed to be a KGB officer under diplomatic cover. The meeting had lasted forty minutes.",
+        "alone": "Garland had met with a suspected KGB officer in Miami six weeks before the launch — the meeting's timing coincides with his reading of Osei's concern report in the classified archive.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Miami meeting six weeks before the launch and the classified archive access log showing Garland had read Osei's report within a week of the Miami meeting together establish a sequence — contact, then technical blueprint acquisition, then preparation over six weeks."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💰",
+        "heading": "Garland's Financial Records",
+        "text": "FBI examination of Garland's bank accounts finds a 12,000-dollar cash deposit made five weeks before the launch — two weeks after the Miami meeting. The deposit is inconsistent with his salary and has no documented source. Garland's explanation: he had won the money gambling in Las Vegas. The Las Vegas records are examined. No casino has a record of winnings in that amount for Garland during the relevant period.",
+        "alone": "A 12,000-dollar unexplained cash deposit two weeks after the Miami meeting and one month before the launch — inconsistent with his salary and unverifiable as gambling winnings.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The 12,000-dollar cash deposit after the Miami meeting and Petrov's confirmed KGB affiliation established in the 1995 Soviet archive releases together confirm the payment had most likely been the recruitment payment — the sequence of meeting, payment, archive access, and sabotage forms a complete operational picture."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Osei's Report Access Date",
+        "text": "The classified document archive's access log shows Garland had signed out Osei's concern report on a specific date — four days after the Miami meeting. He had held it for two hours and had returned it. The report had been classified Sensitive but Unclassified — accessible to anyone with pad clearance, but requiring a signature log. Garland had read it specifically, not as part of a routine review.",
+        "alone": "Garland had specifically signed out Osei's concern report four days after the Miami meeting — a targeted access, not routine, to the specific document that had described the exploitable vulnerability.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Garland reading the report four days after the Miami meeting and the sabotage technique matching the report's technical content confirm the sequence was operationally coherent — recruited, paid, technical intelligence acquired, method prepared, operation executed."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Petrov's Status",
+        "text": "Anatoli Petrov is confirmed as a KGB intelligence officer in 1995 when Soviet archives are partially released. His file shows active recruitment operations in the United States between 1967 and 1971 targeting aerospace and defense personnel. His file contains no specific reference to Garland — either the operation had been kept off the main file or Garland had been a low-level asset not warranting detailed documentation.",
+        "alone": "Petrov's 1995-confirmed KGB status and his known aerospace recruitment operations during the period confirm the Miami meeting's context — Garland had met a KGB officer who had been specifically targeting aerospace personnel.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Petrov's confirmed KGB status and his file containing no specific Garland reference confirm the FBI's finding had been circumstantial but strongly supported — the meeting, the money, and the subsequent actions had formed a pattern the 1995 archive had confirmed but not documented directly."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Garland's Stated Reason",
+        "text": "Garland, at his 1970 trial, declines to testify in his own defense. Through his attorney, he issues a statement: 'Peter Garland acted alone and on his own initiative. No external party directed or paid for his actions.' The statement is universally interpreted as protecting a handler rather than as truthful. He never elaborates. He never changes his position. He serves twenty-two years and is released in 1992. He dies in 1998 without further statement.",
+        "alone": "Garland's statement claiming to have acted alone is interpreted as protecting a handler — he never elaborates and never changes his position in twenty-two years of imprisonment.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Garland reading Osei's report four days after the Miami meeting and his thirty-year silence protecting whoever had directed him confirm the operational security had been maintained — the handler had never been formally identified and Garland had served the sentence rather than disclose."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "The Mission's Success",
+        "text": "Apollo 11 launched on July 16th, 1969. The sabotage had been detected and the connector repaired before launch. Neil Armstrong walked on the moon on July 20th, 1969. The mission had succeeded despite the attempt. NASA's post-incident safety review implemented new requirements for independent verification of all guidance system connectors before launch. The review credited Linda Marsh's discovery and Osei's original concern report as the basis for the new protocol.",
+        "alone": "Apollo 11 succeeded. The new safety protocol credited Osei's concern report — the report that had been dismissed and had then been used as a sabotage blueprint was now the basis of a protection standard.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The KGB targeting aerospace personnel and the mission succeeding despite the attempt confirm the full irony — the dismissed concern report that had been used to attempt sabotage had also become the basis for the safety protocol that had helped detect it and prevent future attempts."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Osei's Vindication",
+        "text": "Dr. Frank Osei's concern report — initially dismissed — was posthumously recognized in NASA's 1995 historical review of the Apollo program's safety record. The review notes: 'Osei's June 1969 concern about attitude connector interface vulnerability was technically correct. Its dismissal, while procedurally within the mission director's authority, represented a lapse in safety culture. The subsequent incident confirmed the concern's validity.' Osei had died in 1987. The recognition came eight years after his death.",
+        "alone": "Osei's dismissed report had been posthumously recognized as technically correct — the sabotage that had used it as a blueprint had also confirmed the validity of its concern.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Osei's report vindicated posthumously and the new safety protocol crediting it confirm the full arc — a dismissed concern had been used by a killer, had been the basis of a discovery, and had ultimately become the foundation of a standard that protected future missions."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Investigation's Conclusion",
+        "text": "The FBI's counterintelligence investigation is closed in 1972 with a finding of 'probable external direction without sufficient evidence for prosecution of any directing party.' Petrov had been expelled from the US in 1971 on unrelated grounds. The investigation's classified summary notes: 'Garland's operational security was maintained throughout. The directing party, if any, was not identified.' The case remains officially unsolved as to external direction.",
+        "alone": "The FBI finding of probable external direction without prosecutable evidence — Petrov expelled, Garland silent, the directing party never formally identified.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Garland's thirty-year silence and the FBI closing without prosecuting any directing party confirm the operational security had succeeded in protecting whoever had recruited Garland — the mission had failed, the assassin had been convicted, and the handler had never been identified."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pete Garland",
+      "location": "The Gantry Catwalk",
+      "weapon": "Torque Wrench",
+      "motive": "Soviet Intelligence Payment"
+    },
+    "epilogue": "Pete Garland had met Anatoli Petrov in Miami six weeks before the launch. Two weeks later, 12,000 dollars had appeared in his account. Four days after the Miami meeting, he had signed out Osei's concern report and had studied it for two hours. He had spent six weeks preparing. He had taken the Level 300 elevator at one-fifteen AM, had found Kowalski at the panel, had killed him, and had completed the sabotage. Linda Marsh had found the body. The sabotage had been repaired. The rocket had launched. The moon had been reached. Garland had served twenty-two years and had never named anyone. Petrov had been expelled in 1971. The FBI's file had been closed in 1972. Osei's report had been vindicated in 1995. Garland had died in 1998. The Saturn V rocket that launched on July 16th, 1969 is on display at the Kennedy Space Center. The guidance system connector is not labeled."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #106",
+    "title": "T Minus",
+    "setting": "Launch Complex 39A · Cape Canaveral · Florida · July 1969",
+    "emoji": "🚀",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Garland killed Kowalski, performed the sabotage, and was probably paid by a KGB contact. But Ray Kowalski had not been at the panel by accident — find what Kowalski had known and why he had been at Level 300 at one AM.",
+    "emptyState": "Kowalski wasn't there by accident. Find why he was at that panel at one AM.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Pete Garland",
+            "icon": "🔧",
+            "detail": "The killer — Miami meeting, 12,000 dollars, Osei's report, Level 300, twenty-two years."
+          },
+          {
+            "name": "Dr. Frank Osei",
+            "icon": "🔬",
+            "detail": "Cleared as killer — blockhouse confirmed. His report used as blueprint. Vindicated posthumously 1995."
+          },
+          {
+            "name": "Linda Marsh",
+            "icon": "📋",
+            "detail": "Cleared as killer — Level 320 inspection. Discoverer of the body."
+          },
+          {
+            "name": "Ray Kowalski",
+            "icon": "⚙️",
+            "detail": "The victim — had not been at Level 300 by accident. His reason for being there changes the picture."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Gantry Catwalk",
+            "icon": "🚀",
+            "detail": "Primary crime scene — where Kowalski had gone deliberately and where Garland had found him."
+          },
+          {
+            "name": "The Blockhouse",
+            "icon": "🏢",
+            "detail": "Where Osei had been — and where Kowalski had been before going to Level 300."
+          },
+          {
+            "name": "Level 300 Panel",
+            "icon": "🔬",
+            "detail": "The specific location — Kowalski had known to go there, which means he had known something about the panel."
+          },
+          {
+            "name": "Kowalski's Locker",
+            "icon": "📋",
+            "detail": "Where investigators find a note that explains his one AM presence at Level 300."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Torque Wrench",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Garland's hidden weapon."
+          },
+          {
+            "name": "Gantry Railing",
+            "icon": "🪜",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Fire Suppression Nozzle",
+            "icon": "💧",
+            "detail": "Too fixed — eliminated."
+          },
+          {
+            "name": "Kowalski's Knowledge",
+            "icon": "⚙️",
+            "detail": "Not a weapon — but what he had known about the panel that had sent him there at one AM."
+          },
+          {
+            "name": "The Locker Note",
+            "icon": "📋",
+            "detail": "Not a weapon — the document that explains why Kowalski had been where he had been."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Soviet Intelligence Payment",
+            "icon": "🕵️",
+            "detail": "Garland's motive — Miami meeting, 12,000 dollars, silence for twenty-two years."
+          },
+          {
+            "name": "Protect the Mission",
+            "icon": "⚙️",
+            "detail": "Kowalski's reason for being at Level 300 — he had suspected something was wrong with the panel."
+          },
+          {
+            "name": "Kowalski Had Seen Garland at the Panel on a Prior Night",
+            "icon": "🔧",
+            "detail": "The specific knowledge Kowalski had held — he had noticed Garland's prior presence and had been checking."
+          },
+          {
+            "name": "Kowalski's Note Describing His Suspicion",
+            "icon": "📋",
+            "detail": "The document found after the killing — written before he went to the panel."
+          },
+          {
+            "name": "Whether Kowalski Had Reported His Suspicion",
+            "icon": "⚙️",
+            "detail": "The key question — if he had reported before going to Level 300, the killing had served no purpose."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Kowalski and Performed the Sabotage",
+            "icon": "🔧",
+            "detail": "Garland's confirmed role — twenty-two years."
+          },
+          {
+            "name": "Provided the Technical Blueprint Through the Concern Report",
+            "icon": "🔬",
+            "detail": "Osei's inadvertent role — dismissed report used as guide, vindicated 1995."
+          },
+          {
+            "name": "Discovered the Body and Triggered the Investigation",
+            "icon": "📋",
+            "detail": "Linda Marsh's role — countersigned log, Level 320, found body at two AM."
+          },
+          {
+            "name": "Noticed Garland's Prior Panel Presence and Went to Investigate",
+            "icon": "⚙️",
+            "detail": "Kowalski's role — his own protective action had sent him to Level 300."
+          },
+          {
+            "name": "Left a Note Describing His Suspicion Before Going to the Panel",
+            "icon": "📋",
+            "detail": "Kowalski's final protective action — written before he went to Level 300 at one AM."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Note in Kowalski's Locker",
+        "text": "Investigators searching Kowalski's locker find a handwritten note, undated but in fresh ink: 'Garland at Level 300 panel last two nights, 1-2 AM. Not his area. Going to check tonight. If anything looks wrong I'll call it in.' The note had been written before Kowalski had gone to Level 300. He had noticed Garland's out-of-area presence on the two preceding nights and had gone to investigate.",
+        "alone": "Kowalski had noticed Garland's unusual presence at the Level 300 panel on both preceding nights and had gone to investigate — he had written the note before going, documenting his suspicion.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Kowalski's note documenting Garland's prior presence and his plan to check the panel confirm he had known something was wrong before going to Level 300 — his presence there at one AM had been a deliberate protective action, not a coincidence."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "⚙️",
+        "heading": "Whether Kowalski Had Reported Before Going",
+        "text": "The note says 'if anything looks wrong I'll call it in' — suggesting he had not yet reported. Investigators check the blockhouse communication log for the period before one AM. No call from Kowalski is recorded. He had written the note, had gone to the panel, and had been killed before he could report what he found. If he had called before going, Garland would have been intercepted before reaching the panel.",
+        "alone": "Kowalski had not called before going to the panel — the killing had occurred before he could report, making Garland's interception of him operationally decisive.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Kowalski going without calling first and the killing occurring before any report was made confirm Garland's interception had been effective — had Kowalski called the blockhouse before going to the panel, the investigation would have arrived to find Garland in the act."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "How Kowalski Had Noticed",
+        "text": "A colleague of Kowalski's confirms: 'Ray was meticulous. He tracked who was where on the pad — not officially, just personally. He had this habit of noticing when someone was in an area they didn't belong. He mentioned to me two days before that Garland had been at the Level 300 panel both previous nights. He said it struck him as odd. I told him to report it. He said he'd check it himself first.' The colleague had heard the suspicion and had not reported it themselves.",
+        "alone": "Kowalski's colleague had known about the suspicion two days before and had not reported it independently — the information had stayed with Kowalski until his death.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Kowalski's colleague hearing the suspicion and not reporting it and Kowalski going to investigate without calling first together confirm the chain of non-reporting that had left Kowalski alone at Level 300 with a killer — both the colleague's and Kowalski's decisions to investigate before reporting had contributed to the outcome."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Note Would Have Prevented",
+        "text": "NASA's post-incident review notes: 'Had Kowalski reported his observation of Garland's Level 300 presence through official channels before conducting his personal investigation, security personnel would have been dispatched and the sabotage attempt would have been intercepted. The decision to investigate independently rather than report first was consistent with pad culture — informal investigation before formal escalation — but had fatal consequences in this instance.'",
+        "alone": "NASA's review identifies Kowalski's decision to investigate before reporting as a pad culture norm that had, in this instance, been fatal — the informal investigation habit had sent him to Level 300 alone.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The pad culture of investigating before escalating and the colleague not reporting independently together confirm the institutional context — the same habits that had made the pad crew effective had left one of them without backup at the moment he had needed it most."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "⚙️",
+        "heading": "Kowalski's Six Years With Garland",
+        "text": "Kowalski and Garland had worked together for six years — the same six years Garland had been on the pad. They had been part of the same crew. Kowalski had trusted Garland enough to investigate personally rather than report him. His note's phrasing — 'if anything looks wrong I'll call it in' — reflects a presumption of innocence toward a trusted colleague. He had been checking on a friend before reporting, not investigating a stranger.",
+        "alone": "Kowalski had been going to check on a colleague he had trusted for six years — the note's phrasing reflects the presumption of innocence toward a known person, not the caution appropriate for a saboteur.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Kowalski's six-year relationship with Garland and his personal investigation before reporting together confirm the killing's cruelty — he had been killed by someone he had trusted, precisely because his trust had led him to investigate personally rather than report immediately."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Garland's Knowledge of Kowalski's Habits",
+        "text": "The pad crew's supervisor confirms Garland had known Kowalski's habits well — including the habit of investigating before escalating. 'Pete and Ray had worked together since '63. Pete would have known exactly how Ray operated. If Pete was doing something at Level 300 and Ray noticed, Pete would have known Ray would come to check personally before calling anyone.' Garland had known Kowalski's approach well enough to predict it.",
+        "alone": "Garland had known Kowalski's investigation-before-reporting habit well enough to predict that Kowalski would come to Level 300 personally before calling the blockhouse.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Kowalski's trust in Garland as a six-year colleague and Garland's knowledge of Kowalski's approach confirming he had predicted the personal investigation together establish the killing's most disturbing element — Garland had used six years of shared trust and habit knowledge against the person who had been trying to protect the mission."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Colleague's Reckoning",
+        "text": "Kowalski's colleague — who had heard the suspicion two days before and had not reported it — gives a statement to NASA investigators: 'Ray told me about Garland being at that panel. I told him to report it. He said he'd check first. I should have reported it myself. I knew what Ray was going to do and I knew he wouldn't call first. I should have called for him.' He had known Kowalski's approach and had not compensated for it.",
+        "alone": "The colleague had known Kowalski would investigate before reporting and had not reported independently — his statement acknowledges the specific gap his inaction had created.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "NASA identifying the investigate-before-report pad culture as the fatal norm and the colleague acknowledging he should have reported independently together confirm the systemic element — the individual choices had been consistent with the culture, and the culture had created the vulnerability Garland had exploited."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚀",
+        "heading": "The Full Picture's Final Element",
+        "text": "The full picture: Garland had been recruited and paid. He had read Osei's report as a blueprint. He had spent two nights at Level 300 preparing. He had known Kowalski had noticed and had known Kowalski would come to check. He had taken the elevator at one-fifteen AM. He had found Kowalski at the panel — checking on a friend — and had killed him. He had completed the sabotage. The mission had launched. The moon had been reached. Kowalski's note had been found in his locker. It matched the timeline exactly. The note is in the NASA historical archive. It has not been published.",
+        "alone": "Kowalski's note is in the NASA archive and has not been published — the document that explains his one AM presence is held and not released.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Kowalski not calling before going and his note remaining unpublished in the archive together confirm the full accounting — the note had explained everything and had been held privately, consistent with the way the full story had been assembled from pieces held separately in different places."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Pete Garland",
+      "location": "The Gantry Catwalk",
+      "weapon": "Torque Wrench",
+      "motive": "Soviet Intelligence Payment",
+      "accomplice": "Noticed Garland's Prior Panel Presence and Went to Investigate"
+    },
+    "epilogue": "Ray Kowalski had noticed Garland at Level 300 on two consecutive nights. He had told a colleague, who had not reported independently. He had written a note and had gone to check on a man he had worked beside for six years. Garland had known Kowalski would come personally rather than call. He had been waiting at the panel. The note had been found in the locker. The sabotage had been detected and repaired. The mission had launched sixteen hours later. Armstrong had stepped onto the moon four days after that. Garland had served twenty-two years. The colleague had given his statement and had lived with it. The note was in the archive. Kowalski had been at Level 300 because he had trusted a man who had planned to use that trust. The rocket is on display. The connector is not labeled."
+  }
+}

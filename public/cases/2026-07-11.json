@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Ascot, 1955. Royal Ascot. A jockey dead in the stables before the Gold Cup. And a race that someone had already decided the outcome of. 🐎🔍 Case #114 — Dead Heat. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Royal Ascot 1955, a jockey dead before the Gold Cup, a fixed race worth a fortune, and the person who needed the result to stay fixed. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Royal Ascot racecourse stables in 1955, wooden stalls and hay bales, a jockey's silk racing colours draped over a stable door, a racing programme on the straw floor beside an overturned bucket, a saddled thoroughbred visible in the adjacent stall. Morning stable light, the distant sound of a crowd assembling. Style of Cecil Beaton meets L.S. Lowry.",
+    "animationPrompt": "Slow pan through Royal Ascot stables in 1955. Wooden stalls. Hay bales. A jockey's racing silk on a stable door. The camera finds a racing programme on the straw floor and an overturned bucket. In the adjacent stall: a saddled thoroughbred, waiting. The crowd assembles in the distance. Fade to black.",
+    "hashtags": [
+      "#RoyalAscot1955",
+      "#HorseRacing",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #114",
+    "title": "Dead Heat",
+    "setting": "Royal Ascot Racecourse · Berkshire · England · June 1955",
+    "emoji": "🐎",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Jockey Tommy Crane was found dead in the Ascot stables two hours before the Gold Cup. He had discovered a race-fixing scheme involving the favourite — Midnight Arrow — and had been threatening to report it to the Jockey Club. Three people connected to the fix had been at the stables that morning. The race was worth £40,000 in bets to the scheme's organiser.",
+    "emptyState": "The Gold Cup in two hours. A fixed race worth forty thousand. One dead jockey. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Bernard Holt",
+            "icon": "💷",
+            "detail": "A bookmaker — had taken £40,000 in bets on a specific outcome and stood to lose everything if the race ran honestly."
+          },
+          {
+            "name": "Dickie Marsh",
+            "icon": "🐎",
+            "detail": "Midnight Arrow's trainer — had been paid to ensure the horse ran below its capability."
+          },
+          {
+            "name": "Vera Crane",
+            "icon": "💍",
+            "detail": "Tommy's wife — had known about the fix from Tommy and had financial debts of her own."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stables",
+            "icon": "🐎",
+            "detail": "Where Tommy was found — racing silk on the door, programme on the floor, bucket overturned."
+          },
+          {
+            "name": "The Weighing Room",
+            "icon": "⚖️",
+            "detail": "Where jockeys checked in before races — Tommy had not appeared for his morning weigh-in."
+          },
+          {
+            "name": "The Owners' Enclosure",
+            "icon": "🎩",
+            "detail": "Where Holt had been meeting with connections — adjacent to the stable block."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stable Pitchfork Handle",
+            "icon": "🌾",
+            "detail": "A wooden handle detached from its head — blunt force wound consistent with its diameter and weight."
+          },
+          {
+            "name": "Saddle Iron",
+            "icon": "🐎",
+            "detail": "No wound profile match — the stirrup's curved edge inconsistent with the wound."
+          },
+          {
+            "name": "Water Bucket",
+            "icon": "🪣",
+            "detail": "Too light for the wound depth — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Racing Programme",
+        "text": "The racing programme found on the stable floor is open to the Gold Cup page. In the margin, in Tommy Crane's handwriting: 'M.A. pulled — Holt, Marsh, 40k — Jockey Club 9AM.' Tommy had been planning to report to the Jockey Club at nine AM — two hours before the race. He had written the names of the scheme's principals and the betting amount. The report had not been made. The programme had been on the floor when Tommy's body had been found at eight-thirty AM.",
+        "alone": "Tommy had been planning to report the fix to the Jockey Club at nine AM — he had written the principals' names in his programme. The report had not been made.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Tommy's planned nine AM Jockey Club report and Bernard Holt's confirmed stable block presence from seven-thirty AM together establish the window — Holt had been at the stables before Tommy's planned report, during the window in which the report's prevention had mattered most."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🌾",
+        "heading": "The Pitchfork Handle",
+        "text": "A wooden pitchfork handle — the head detached and missing — is found behind a hay bale six stalls from Tommy's body. Blood on the handle's end matches Tommy's wound: a single blow to the back of the skull delivered from behind while Tommy had been crouching, likely examining Midnight Arrow in the adjacent stall. The handle's grip end shows a partial palm print in stable soil — a large hand, consistent with a man's grip.",
+        "alone": "Tommy had been struck from behind while crouching at Midnight Arrow's stall — the palm print on the handle is a large adult male hand.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The large male palm print and Bernard Holt's confirmed physical build — documented in racing authority records as a heavy-set man — together narrow the grip to someone of his physical type rather than Dickie Marsh's known slight build."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🐎",
+        "heading": "Dickie Marsh's Morning",
+        "text": "Dickie Marsh had been with Midnight Arrow's owner in the owners' enclosure from seven AM until eight-forty-five AM — confirmed by the owner, the owner's wife, and the enclosure's steward. He had not been in the stable block during the killing window. He is definitively cleared.",
+        "alone": "Marsh had been in the owners' enclosure from seven to eight-forty-five AM — confirmed by three witnesses. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Marsh cleared in the owners' enclosure and Vera Crane confirmed at the racecourse hotel until nine AM together eliminate both other suspects — only Holt's movements in the stable block area from seven-thirty AM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💷",
+        "heading": "Holt's Forty Thousand",
+        "text": "Bookmaking records — obtained by the Jockey Club investigation — show Holt had accepted £40,000 in layered bets across multiple clients, all structured to pay out if Midnight Arrow failed to place. The bets had been placed over three weeks. If Midnight Arrow ran honestly and won — as its form strongly suggested it would — Holt would have faced ruin. If the fix held and the horse underperformed, Holt stood to retain the full £40,000.",
+        "alone": "Holt had structured £40,000 in bets on Midnight Arrow failing to place — if the fix held, he retained everything; if it didn't, he faced ruin.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Holt's £40,000 exposure and Tommy's nine AM Jockey Club report preventing the fix from holding together establish the financial stakes — the report would have triggered an investigation that would have disrupted the race's outcome and exposed Holt's structured bets."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💷",
+        "heading": "Holt at the Stables",
+        "text": "A stable lad confirms he had seen Bernard Holt entering the stable block at seven-thirty AM — he had noted the bookmaker because civilian visitors were unusual at that hour. Holt had said he was looking for Tommy Crane. The stable lad had pointed him toward Midnight Arrow's stall area and had returned to his duties. He had not seen Holt leave the stable block.",
+        "alone": "Holt had entered the stable block at seven-thirty AM specifically looking for Tommy — the stable lad had pointed him toward Midnight Arrow's stall and had not seen him leave.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Tommy's planned nine AM report and Holt arriving at the stables at seven-thirty AM specifically looking for Tommy together establish the confrontation's purpose — Holt had come to find Tommy before the report could be made."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💷",
+        "heading": "Holt's Physical Description",
+        "text": "Racing authority records documenting Holt as a licensed bookmaker include a physical description: 'Heavy-set, approximately fifteen stone, large hands.' The palm print on the pitchfork handle — assessed by Scotland Yard's examiner — is consistent with a large-handed individual of significant body mass. Dickie Marsh's known racing records describe him as 'slight build, nine stone.' The grip profile eliminates Marsh on physical grounds.",
+        "alone": "Holt's documented large hands match the palm print's profile — Marsh's slight build eliminates him on physical grounds.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The large male palm print on the handle and Holt's documented large hands together confirm the grip profile points specifically to Holt — the physical evidence and the documented description are consistent."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Vera Crane's Morning",
+        "text": "Vera Crane had been at the racecourse hotel from the previous evening and had not left the hotel until nine AM — confirmed by the hotel manager and the morning's breakfast register, which showed her signature at eight-fifty AM. She had not been at the stable block during the killing window. She is definitively cleared.",
+        "alone": "Vera had been at the racecourse hotel with a signed breakfast register at eight-fifty AM — she had not left until nine AM. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Marsh cleared in the owners' enclosure and Vera cleared at the hotel together eliminate both other suspects from the stable block during the killing window — Holt's seven-thirty AM stable entry is the only confirmed approach to the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🐎",
+        "heading": "The Race's Outcome",
+        "text": "The Gold Cup proceeded as scheduled — the racing authorities had not been informed of Tommy's concerns before the race, and the killing had not been discovered until eight-thirty AM, after the Jockey Club office had opened but before the nine AM appointment had arrived. Midnight Arrow ran and finished fourth — the fix had held. Holt had retained his £40,000. The Jockey Club investigation, triggered by the racing programme's margin notes, had begun the following day. Holt had already left Ascot.",
+        "alone": "Midnight Arrow had finished fourth — the fix had held and Holt had retained £40,000. He had left Ascot before the investigation had begun.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Holt's £40,000 exposure requiring the fix to hold and Midnight Arrow finishing fourth confirming it had held together establish the killing's financial outcome — the £40,000 had been retained, the fix had been preserved, and the investigation had begun too late to affect the race."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Bernard Holt",
+      "location": "The Stables",
+      "weapon": "Stable Pitchfork Handle"
+    },
+    "epilogue": "Bernard Holt had arrived at the stables at seven-thirty AM looking for Tommy Crane. He had found him crouching at Midnight Arrow's stall. He had picked up the pitchfork handle. He had struck Tommy from behind. He had left the stable block. Midnight Arrow had run fourth. The fix had held. Holt had retained £40,000 and had left Ascot before sunset. The Jockey Club investigation had begun the following morning from Tommy's programme notes. Scotland Yard had arrested Holt in London three days later. He had received twelve years. Dickie Marsh had received a lifetime ban from racing. Midnight Arrow had won its next three races under honest conditions. Tommy Crane's racing programme is in the Jockey Club's archive. The nine AM appointment had never been kept."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #114",
+    "title": "Dead Heat",
+    "setting": "Royal Ascot Racecourse · Berkshire · England · June 1955",
+    "emoji": "🐎",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Holt killed Tommy and the fix held. But Dickie Marsh had known Tommy was going to report — find how Marsh had known, and whether he had warned Holt.",
+    "emptyState": "Marsh knew Tommy was going to report. Find how he knew — and what he did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Bernard Holt",
+            "icon": "💷",
+            "detail": "The killer — stable entry, pitchfork handle, forty thousand retained, twelve years."
+          },
+          {
+            "name": "Dickie Marsh",
+            "icon": "🐎",
+            "detail": "Cleared as killer — owners' enclosure confirmed. Had known Tommy planned to report."
+          },
+          {
+            "name": "Vera Crane",
+            "icon": "💍",
+            "detail": "Cleared as killer — hotel breakfast register confirmed. Her knowledge of the fix is examined."
+          },
+          {
+            "name": "The Source of Marsh's Information",
+            "icon": "📞",
+            "detail": "Who had told Marsh that Tommy planned to report — the chain that had enabled Holt to arrive at the stables with sufficient warning."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stables",
+            "icon": "🐎",
+            "detail": "Primary crime scene — Holt's killing."
+          },
+          {
+            "name": "The Owners' Enclosure",
+            "icon": "🎩",
+            "detail": "Marsh's confirmed location — and where the phone call to Holt had been made."
+          },
+          {
+            "name": "The Racecourse Hotel",
+            "icon": "🏨",
+            "detail": "Where Vera had been — and where Tommy had told her the previous evening about his plan."
+          },
+          {
+            "name": "The Public Telephone at the Enclosure Gate",
+            "icon": "📞",
+            "detail": "Where the call from the enclosure to Holt's London office had been logged."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stable Pitchfork Handle",
+            "icon": "🌾",
+            "detail": "Confirmed murder weapon — Holt's palm print, single blow."
+          },
+          {
+            "name": "Saddle Iron",
+            "icon": "🐎",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Water Bucket",
+            "icon": "🪣",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Marsh's Phone Call to Holt",
+            "icon": "📞",
+            "detail": "Not a weapon — but the communication that had sent Holt to the stables."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retain the Forty Thousand Pounds",
+            "icon": "💷",
+            "detail": "Holt's financial motive — twelve years."
+          },
+          {
+            "name": "Protect His Racing Licence",
+            "icon": "🐎",
+            "detail": "Marsh's interest in the fix not being reported — lifetime ban received regardless."
+          },
+          {
+            "name": "Vera's Disclosure to Marsh",
+            "icon": "💍",
+            "detail": "The chain's origin — Vera had told Marsh the previous evening."
+          },
+          {
+            "name": "Marsh's Call to Holt",
+            "icon": "📞",
+            "detail": "The chain's transmission — Marsh had called Holt after learning from Vera."
+          },
+          {
+            "name": "Whether Marsh Had Known What Holt Would Do",
+            "icon": "🐎",
+            "detail": "The moral question — whether Marsh had anticipated the killing when he had made the call."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📞",
+        "heading": "The Phone Call Log",
+        "text": "Ascot racecourse's telephone exchange log — produced for the Jockey Club investigation — shows a call placed from the public telephone at the enclosure gate at six-fifty AM: three minutes to a London exchange traced to Holt's office. The call had been placed before Holt had arrived at the stables at seven-thirty AM. Someone at the enclosure had called Holt early that morning.",
+        "alone": "A three-minute call to Holt's London office had been placed from the enclosure gate at six-fifty AM — forty minutes before Holt had arrived at the stables.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The six-fifty AM call to Holt and Marsh's confirmed presence at the enclosure from seven AM together suggest the call had been placed from the enclosure gate by someone there before seven AM — the timing is consistent with Marsh's arrival establishing his presence in the vicinity of the gate telephone."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "💍",
+        "heading": "Vera's Disclosure",
+        "text": "Vera Crane, interviewed by Scotland Yard, confirms: 'Tommy told me the previous evening at the hotel that he had written up what he knew and was going to the Jockey Club in the morning. He was frightened — he said Holt was dangerous. I was frightened too. I told Dickie Marsh at dinner that night because Dickie was a friend and I thought he might know what to do.' She had told Marsh at the hotel dinner the previous evening.",
+        "alone": "Vera had told Marsh the previous evening at dinner that Tommy planned to report — she had gone to him as a friend, not knowing he would pass the information to Holt.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Vera telling Marsh at dinner and Marsh's six-fifty AM call to Holt together confirm the chain — the information had traveled from Tommy to Vera to Marsh to Holt between the previous evening's dinner and the following morning's call."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🐎",
+        "heading": "Marsh's Account of the Call",
+        "text": "Marsh, confronted with the phone log, admits he had called Holt: 'Vera told me Tommy was going to report us. I called Bernard to tell him. I thought — I hoped — he would find a way to talk Tommy out of it. Pay him off. Something. I did not tell him to hurt Tommy. I did not know he would go to the stables.' He claims he had not anticipated the killing.",
+        "alone": "Marsh admits the call but claims he had expected Holt to negotiate rather than kill — he had not anticipated the killing.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Marsh calling Holt and claiming he had expected negotiation rather than violence and Holt's known financial desperation from the £40,000 exposure together frame the question of Marsh's foreknowledge — whether a man with £40,000 at stake could have been expected to negotiate rather than act more drastically."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🐎",
+        "heading": "The Jockey Club's Finding on Marsh",
+        "text": "The Jockey Club's inquiry into Marsh's role: 'Marsh transmitted information about Crane's reporting intention to Holt, enabling Holt to arrive at the stables before Crane could reach the Jockey Club. Whether Marsh anticipated that Holt would use violence is not determinable from the evidence. His transmission of the information was, however, the necessary condition for Holt's presence at the stables at the critical time. Marsh receives a lifetime ban from all licensed racing activities.'",
+        "alone": "The Jockey Club finds Marsh's transmission of the information was the necessary condition for Holt's stable presence — whether he had anticipated violence is found undeterminable.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The Jockey Club finding Marsh's transmission the necessary condition and Scotland Yard finding insufficient evidence for a criminal charge together confirm the legal and regulatory outcomes had diverged — the racing ban had applied where the criminal standard had not been met."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Who Had Made the Six-Fifty Call",
+        "text": "The exchange log records the call's duration but not the caller's identity. The enclosure gate telephone was accessible to anyone in the stable and enclosure area before seven AM. Marsh had arrived at the enclosure at approximately six-forty-five AM — confirmed by the owner's wife who had seen him arriving as she had been leaving breakfast. The timing places him at the enclosure gate area at six-fifty AM.",
+        "alone": "Marsh had arrived at the enclosure at six-forty-five AM — five minutes before the call to Holt's office. He had been at the gate telephone's location at the call's time.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Marsh admitting he had called Holt and his confirmed arrival at the enclosure five minutes before the call together confirm he had been the caller — the admission and the location corroborate each other."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💍",
+        "heading": "Vera's Understanding of What She Had Done",
+        "text": "Vera's Scotland Yard interview continues: 'When I found out Tommy was dead, I knew immediately it was because I had told Dickie. I had told him to help and he had told Bernard and Bernard had — I have thought about what I did every day since.' She does not claim ignorance of the chain's consequence — she had understood it immediately upon hearing of Tommy's death.",
+        "alone": "Vera had understood immediately that her disclosure to Marsh had been the chain's origin — she acknowledged this without being told.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Vera going to Marsh as a friend seeking help and her immediate understanding of her role in the chain when Tommy died together confirm the disclosure had been well-intentioned and had produced the consequence she had immediately recognised when the outcome became known."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💷",
+        "heading": "Holt's Response to the Call",
+        "text": "Holt's account of the call, given at trial: 'Dickie told me Tommy Crane was going to the Jockey Club at nine AM. I went to the stables to talk to him. To reason with him. To offer him money. The conversation did not go the way I had hoped.' He describes the killing as an escalation of a conversation he had intended as a negotiation — consistent with Marsh's account of his expectations.",
+        "alone": "Holt describes going to the stables intending negotiation — his account aligns with Marsh's stated expectation, though both had resulted in a killing.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Marsh expecting negotiation and Holt describing a failed negotiation together present the accounts as consistent — whether the consistency is genuine or constructed to minimise Marsh's culpability is the question the Jockey Club had found undeterminable."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🐎",
+        "heading": "Scotland Yard's Decision on Marsh",
+        "text": "Scotland Yard's decision on Marsh: 'Marsh's transmission of the information to Holt, while morally significant, does not meet the criminal threshold for accessory to murder under English law as it existed in 1955. There is insufficient evidence that Marsh foresaw or intended violent consequences. No criminal charge is brought.' He received the Jockey Club's lifetime ban but no criminal prosecution.",
+        "alone": "Scotland Yard finds insufficient evidence of Marsh's foresight of violence — no criminal charge is brought. The lifetime racing ban applies.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The Jockey Club finding Marsh's transmission the necessary condition and Scotland Yard finding insufficient evidence for a criminal charge together confirm the dual outcome — the causal finding and the criminal standard had reached different conclusions about the same set of facts."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Bernard Holt",
+      "location": "The Stables",
+      "weapon": "Stable Pitchfork Handle",
+      "motive": "Retain the Forty Thousand Pounds"
+    },
+    "epilogue": "Vera had told Marsh at dinner. Marsh had called Holt at six-fifty AM. Holt had arrived at the stables at seven-thirty. Tommy had been crouching at Midnight Arrow's stall. The conversation had not gone the way Holt had hoped. Holt had left the stables. Midnight Arrow had finished fourth. The fix had held. Holt had retained £40,000 and had left Ascot. Scotland Yard had arrested him in London three days later. He had received twelve years. Marsh had received a lifetime ban. Vera had not been charged. She had understood what she had done from the moment she had heard Tommy was dead. Midnight Arrow had won its next three races. Tommy Crane's programme is in the Jockey Club archive. The nine AM appointment had never been kept."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #114",
+    "title": "Dead Heat",
+    "setting": "Royal Ascot Racecourse · Berkshire · England · June 1955",
+    "emoji": "🐎",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Holt killed Tommy. Marsh warned Holt. Vera told Marsh. But Tommy had also told one other person the previous day — a racing journalist who had been investigating the fix independently. Find what the journalist had done and why he hadn't published in time.",
+    "emptyState": "A racing journalist knew the day before. He didn't publish in time. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Bernard Holt",
+            "icon": "💷",
+            "detail": "The killer — six-fifty call, seven-thirty entry, pitchfork handle, twelve years."
+          },
+          {
+            "name": "Dickie Marsh",
+            "icon": "🐎",
+            "detail": "Cleared as killer — owners' enclosure. Called Holt. Lifetime ban. No criminal charge."
+          },
+          {
+            "name": "Vera Crane",
+            "icon": "💍",
+            "detail": "Cleared as killer — hotel confirmed. Told Marsh. Understood the chain immediately."
+          },
+          {
+            "name": "Gerald Cross",
+            "icon": "📰",
+            "detail": "The racing correspondent for the Sporting Life — had been investigating the fix and had spoken to Tommy the day before."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stables",
+            "icon": "🐎",
+            "detail": "Primary crime scene — Holt's killing."
+          },
+          {
+            "name": "The Press Box",
+            "icon": "📰",
+            "detail": "Where Cross had been during the race — and where his editor had killed the story."
+          },
+          {
+            "name": "The Sporting Life Office",
+            "icon": "📰",
+            "detail": "Where the story had been submitted the evening before and where it had been held."
+          },
+          {
+            "name": "The Jockey Club",
+            "icon": "⚖️",
+            "detail": "Where Tommy had been going at nine AM — and where Cross had also been planning to go."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stable Pitchfork Handle",
+            "icon": "🌾",
+            "detail": "Confirmed murder weapon — Holt's."
+          },
+          {
+            "name": "Saddle Iron",
+            "icon": "🐎",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Water Bucket",
+            "icon": "🪣",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Cross's Spiked Story",
+            "icon": "📰",
+            "detail": "Not a weapon — but the story his editor had held that might have prevented the killing."
+          },
+          {
+            "name": "The Editor's Legal Caution",
+            "icon": "📰",
+            "detail": "Not a weapon — the reason the story had been held rather than published before the race."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retain the Forty Thousand Pounds",
+            "icon": "💷",
+            "detail": "Holt's motive — twelve years."
+          },
+          {
+            "name": "Break the Racing Fix Story",
+            "icon": "📰",
+            "detail": "Cross's journalistic objective — the story had been ready, the editor had held it."
+          },
+          {
+            "name": "Legal Caution About Publication",
+            "icon": "📰",
+            "detail": "The editor's reason for holding — insufficient corroboration for a defamation-proof story."
+          },
+          {
+            "name": "Tommy's Offer to Be Named as Source",
+            "icon": "📰",
+            "detail": "What Cross had been waiting for — Tommy had offered to go on record the following morning after the Jockey Club report."
+          },
+          {
+            "name": "The Timing That Had Failed",
+            "icon": "📰",
+            "detail": "Why the story hadn't run before the killing — Tommy's on-record interview had been scheduled for after nine AM."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Tommy and Retained the Forty Thousand",
+            "icon": "💷",
+            "detail": "Holt's confirmed role — twelve years."
+          },
+          {
+            "name": "Called Holt After Learning From Vera",
+            "icon": "📞",
+            "detail": "Marsh's role — lifetime ban, no criminal charge."
+          },
+          {
+            "name": "Told Marsh at Dinner the Previous Evening",
+            "icon": "💍",
+            "detail": "Vera's role — understood the chain from the moment of discovery."
+          },
+          {
+            "name": "Investigated the Fix and Had the Story Ready",
+            "icon": "📰",
+            "detail": "Cross's role — story held by editor awaiting Tommy's on-record interview."
+          },
+          {
+            "name": "Held the Story for Legal Caution",
+            "icon": "📰",
+            "detail": "The editor's role — insufficient corroboration without an on-record source."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Gerald Cross's Investigation",
+        "text": "Gerald Cross had been investigating the Midnight Arrow fix for three weeks before the Gold Cup. He had identified the bet pattern through bookmaking records, had spoken to two stable hands about Midnight Arrow's training irregularities, and had approached Tommy Crane the day before the race. Tommy had confirmed the fix and had offered to go on record — after he had been to the Jockey Club the following morning. Cross had filed the story that evening contingent on Tommy's on-record interview.",
+        "alone": "Cross had filed the story contingent on Tommy's morning interview — the story had been ready, but the on-record source had not been confirmed before publication.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cross's story contingent on Tommy's post-Jockey-Club interview and the editor holding the story for legal caution together confirm the timing gap — the story had been one interview away from publication at the moment the killing had occurred."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Why the Editor Had Held the Story",
+        "text": "The Sporting Life's editor explains in a 1956 account: 'Cross brought me the story on the evening before the race. It was solid background — bet patterns, training irregularities, one stable hand willing to speak anonymously. But to publish a specific accusation of race fixing against a named bookmaker and trainer, I needed an on-record source. Cross told me Tommy Crane had agreed to go on record after his Jockey Club report. I held the story to wait for that confirmation. Tommy was dead before I got it.'",
+        "alone": "The editor had held the story because he had lacked an on-record source — Tommy had been that source, and he had died before the interview had been conducted.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The editor holding the story for an on-record source and Tommy being the named source who had been killed together confirm the killing had simultaneously removed the source and prevented the publication — two consequences from one act."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Cross's Account of the Timing",
+        "text": "Cross: 'If I had published the night before — without Tommy on record — Holt's lawyers would have had grounds for defamation. The editor was right to hold it. But if we had published, even the unconfirmed version, it might have been enough to trigger an inquiry before the race. Tommy might still be alive. I have thought about that calculation for the rest of my career.' He had weighed legal caution against the risk to Tommy and had made the cautious choice.",
+        "alone": "Cross acknowledges the counterfactual — publication without corroboration might have triggered an inquiry and saved Tommy, but would have exposed the paper to defamation. He had made the cautious choice.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cross's acknowledgment of the counterfactual and the editor's legally sound decision together confirm the legal caution had been professionally correct and had been — possibly — the condition that had allowed the killing to occur."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Cross's Publication After the Killing",
+        "text": "Gerald Cross published the full racing fix story in the Sporting Life four days after the killing — with Tommy Crane's programme notes, the bet pattern analysis, Marsh's racing ban, and Holt's arrest providing the on-record corroboration the original story had lacked. The story ran across three pages. It had been the most significant racing corruption story published in England since the war. Cross received the Sports Journalists' Association award for 1955 for the investigation.",
+        "alone": "Cross published four days after the killing with the on-record corroboration the original story had lacked — the award had been for the investigation that had ended with its subject's death.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Cross receiving the award for the investigation and his acknowledgment of the timing's counterfactual together confirm the full weight of the story's outcome — the award had recognised the investigation, and the man whose confirmation had been needed had been killed waiting to give it."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Whether Earlier Publication Would Have Prevented the Killing",
+        "text": "The Jockey Club's inquiry examined whether Cross's story, published the evening before, would have triggered a pre-race investigation sufficient to protect Tommy. The inquiry's assessment: 'Publication of allegations without an on-record source would have prompted a denial from Holt and a potential defamation claim against the Sporting Life. Whether it would have triggered a Jockey Club investigation before the race is uncertain. The killing had occurred before the Jockey Club's offices had opened. An earlier investigation cannot be confirmed as the preventive measure.'",
+        "alone": "The Jockey Club's assessment finds it uncertain whether earlier publication would have prevented the killing — the offices had opened after the killing, and the chain's speed had been decisive.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Cross's acknowledgment of the counterfactual and the Jockey Club finding the preventive effect uncertain together confirm the timing question remains unresolvable — the killing had occurred before any institutional response could have arrived."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🐎",
+        "heading": "Tommy's Decision to Go to the Jockey Club First",
+        "text": "Tommy had chosen to go to the Jockey Club before going on record with Cross. His reasoning, described to Vera the previous evening: 'If I talk to the papers first, Holt will say I was lying to make money on the story. If I go to the Jockey Club first and they open an investigation, then what I tell the papers is already official. It has to be in the right order.' The order Tommy had chosen had required him to survive until nine AM. He had not.",
+        "alone": "Tommy's sequencing — Jockey Club first, then Cross — had been strategically sound and had required him to survive until nine AM. The killing had occurred at eight-thirty AM.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Tommy's strategic sequencing and Cross's story ultimately published with the corroboration Tommy's sequencing had anticipated together confirm the strategy had been correct — it had simply required more time than Tommy had had."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Cross's Career After Ascot",
+        "text": "Gerald Cross continued as racing correspondent for the Sporting Life until 1971. He never again held a story waiting for an on-record source when the subject was in danger. He introduced a personal practice of filing two versions: a legally cautious version for publication, and a full version sealed with an editor's note describing why it had been held. He described this practice in a 1968 journalism lecture: 'After Ascot I decided the choice between legal caution and source safety would never again be only my editor's call. The full record would always exist, even if it could not always be printed.'",
+        "alone": "Cross had introduced a dual-version filing practice after Ascot — a legally cautious version and a full sealed version — so the full record would exist even when it could not be printed.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Cross acknowledging the counterfactual and his dual-version practice introduced after Ascot together confirm the professional response to the timing's lesson — the practice ensured the full story would exist even when legal caution prevented publication, addressing the gap the editor's hold had created."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🐎",
+        "heading": "The Full Chain's Final Accounting",
+        "text": "Tommy Crane had told Vera. Vera had told Marsh at dinner. Marsh had called Holt at six-fifty AM. Holt had gone to the stables at seven-thirty. Tommy had been dead at eight-thirty. The Jockey Club had opened at nine. The nine AM appointment had never been kept. Cross had published four days later. The award had been given. The programme notes had been archived. Midnight Arrow had won three times under honest conditions. Tommy's strategy had been right. He had needed thirty more minutes. He had not had them.",
+        "alone": "Tommy had needed thirty more minutes between his death at eight-thirty and the Jockey Club's opening at nine. He had not had them. The strategy had been right.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Tommy's strategic sequencing requiring survival until nine AM and his death at eight-thirty confirming the thirty-minute gap together confirm the case's final element — the strategy had been correct, the timing had been the margin, and thirty minutes had been the difference between the outcome and its alternative."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Bernard Holt",
+      "location": "The Stables",
+      "weapon": "Stable Pitchfork Handle",
+      "motive": "Retain the Forty Thousand Pounds",
+      "accomplice": "Investigated the Fix and Had the Story Ready"
+    },
+    "epilogue": "Tommy had needed thirty minutes. The Jockey Club had opened at nine. He had died at eight-thirty. Cross had filed the story the evening before, contingent on the interview. The editor had held it for legal caution. Tommy's strategy had been right — Jockey Club first, then Cross. The sequencing had required thirty minutes he had not had. Cross had published four days later with the corroboration Tommy's sequencing had anticipated. The award had recognised the investigation. The programme notes had been archived. Midnight Arrow had won three more races under honest conditions. Tommy Crane's racing programme is in the Jockey Club archive. The nine AM appointment is in the margin notes. The appointment had never been kept. Thirty minutes."
+  }
+}

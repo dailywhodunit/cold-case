@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Glasgow, 1941. A wartime shipyard. A foreman dead in the dry dock. And a sabotage that would have sunk a convoy escort before it left the Clyde. 🚢🔍 Case #115 — The Clyde. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Glasgow shipyard 1941, a wartime foreman dead in the dry dock, and a sabotage attempt that would have sent a destroyer to the bottom before it reached the North Atlantic. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1941 Glasgow shipyard dry dock at night, the hull of a destroyer under construction with welding sparks visible from a crane platform above, a foreman's helmet and clipboard on the dock floor, a spanner beside an access panel left open on the hull. Industrial wartime atmosphere, dark and purposeful. Style of Humphrey Spender industrial photography meets Graham Sutherland wartime art.",
+    "animationPrompt": "Slow pan through a 1941 Glasgow shipyard dry dock at night. A destroyer hull under construction. Welding sparks from a crane platform above. The camera finds a foreman's helmet and clipboard on the dock floor and an open access panel on the hull. The Clyde beyond. The war is everywhere. Fade to black.",
+    "hashtags": [
+      "#Glasgow1941",
+      "#WartimeShipyard",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #115",
+    "title": "The Clyde",
+    "setting": "Fairfield Shipyard · Govan · Glasgow · 1941",
+    "emoji": "🚢",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Foreman Archie McAllister was found dead in the dry dock at the end of the night shift. He had discovered that a hull access panel had been improperly sealed — a sabotage that would have caused flooding in the engine compartment when the destroyer hit open water. Three workers had been on the dock that night. The destroyer was due to sail in forty-eight hours.",
+    "emptyState": "Forty-eight hours to sailing. A sabotaged hull. A dead foreman. Find who did it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ian Voss",
+            "icon": "🔧",
+            "detail": "A German-born welder — had been in Scotland since 1935 and had a brother still in Hamburg."
+          },
+          {
+            "name": "Danny Healy",
+            "icon": "⚙️",
+            "detail": "An Irish-born riveter — had Republican sympathies and had been in contact with known IRA-linked figures."
+          },
+          {
+            "name": "Agnes Tait",
+            "icon": "📋",
+            "detail": "The dock's female records clerk — had recently been refused a transfer to better-paid work at another yard."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dry Dock",
+            "icon": "🚢",
+            "detail": "Where Archie was found — helmet and clipboard on the floor, access panel open."
+          },
+          {
+            "name": "The Hull Access Panel",
+            "icon": "🔩",
+            "detail": "The improperly sealed panel on the destroyer's port engine compartment — the sabotage's location."
+          },
+          {
+            "name": "The Tool Store",
+            "icon": "🔧",
+            "detail": "Where the sealing materials were kept — and where the tampered tools would have originated."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Spanner",
+            "icon": "🔧",
+            "detail": "A heavy adjustable spanner — blunt force wound consistent with its weighted jaw used as a bludgeon."
+          },
+          {
+            "name": "Rivet Gun",
+            "icon": "⚙️",
+            "detail": "No wound profile — the tool's pneumatic head inconsistent with the wound's pattern."
+          },
+          {
+            "name": "Clipboard Edge",
+            "icon": "📋",
+            "detail": "Too light and flexible — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🔩",
+        "heading": "The Improperly Sealed Panel",
+        "text": "The hull access panel on the port engine compartment shows deliberate improper sealing — the gasket had been installed incorrectly and the sealing compound had been applied in a way that would have held under dock conditions but would have failed under the pressure of open-water operation within twelve hours of sailing. This was not an accident or an error — the sealing had been done by someone who had understood exactly how to make it fail at sea rather than in the yard.",
+        "alone": "The panel had been deliberately sabotaged to fail at sea rather than in the yard — the technique required specific knowledge of marine sealing procedures.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The sabotage requiring specific marine sealing knowledge and Ian Voss's documented professional qualification as a marine engineer before his welding role together establish the technical capability — the sabotage had required exactly the expertise his background had provided."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔧",
+        "heading": "The Spanner",
+        "text": "The adjustable spanner found beside Archie's body shows blood on its weighted jaw. The wound on the back of Archie's skull is consistent with a downward blow from behind while he had been crouching at the access panel — examining the improper seal he had discovered. The spanner is a standard yard tool without distinguishing marks. Its size is consistent with use by a large-handed individual.",
+        "alone": "Archie had been struck from behind while crouching at the access panel — examining the sabotage he had discovered. The spanner is a standard yard tool.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Archie crouching at the access panel when struck and Ian Voss's confirmed presence at the port engine compartment area earlier in the shift together establish the location's relevance — the saboteur and the murder had both converged on the same access panel."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "Danny Healy's Shift",
+        "text": "Danny Healy had been riveting on the starboard bow section all night — confirmed by his rivet counter tally (the yards used a mechanical counter per shift) and by three other riveters who had been working alongside him. The starboard bow was on the opposite side of the dock from the port engine compartment. He had not been near the sabotaged panel. He is definitively cleared.",
+        "alone": "Healy had been riveting on the starboard bow all shift — confirmed by his rivet counter tally and three colleagues. He had not been near the port engine compartment. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Healy cleared by the rivet counter and three colleagues and Agnes Tait confirmed in the records office until the shift's end together eliminate both other suspects from the port engine compartment area — only Voss's movements near the panel during the shift are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Voss's Pre-War Background",
+        "text": "MI5's security file on Ian Voss — accessed by the wartime security review triggered by the sabotage — documents his background: qualified marine engineer in Hamburg, 1929-1935; emigrated to Scotland 1935 claiming political opposition to the Nazi regime; employed as a welder at Fairfield since 1937. The file notes: 'Voss's marine engineering qualification gives him specific knowledge of hull sealing procedures that most welders would not possess.'",
+        "alone": "Voss had been a qualified marine engineer before becoming a welder — his specific knowledge of hull sealing procedures was documented in his MI5 file.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The sabotage requiring specific marine sealing knowledge and Voss's documented marine engineering qualification confirming he had possessed exactly that knowledge establish the technical capability dimension of the case."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Voss at the Port Engine Compartment",
+        "text": "A crane operator working overhead confirms he had seen Voss at the port engine compartment access panel area twice during the shift — once at ten PM and once at approximately one AM, approximately thirty minutes before Archie had been found. The crane operator had not thought this unusual — welders moved around the hull regularly. He had not seen the interaction between Voss and Archie.",
+        "alone": "Voss had been at the port engine compartment access panel area twice during the shift — once at ten PM and once at one AM, thirty minutes before the body was found.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Archie struck from behind at the access panel and Voss confirmed at the same panel area thirty minutes before the body was found together establish his presence at the killing location in the window immediately before the discovery."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Voss's Hamburg Contact",
+        "text": "MI5's file on Voss documents a letter received in November 1940 — intercepted by postal censorship — from his brother in Hamburg. The letter, while personal in tone, contains a phrase that MI5's German-language analysts flag as potentially coded: 'The family business continues, though differently than before.' The analysts' note: 'Consistent with a code phrase but not conclusive. File for ongoing monitoring.' The monitoring had not produced further intelligence before the sabotage.",
+        "alone": "A November 1940 letter from Voss's Hamburg brother contains a phrase MI5 had flagged as potentially coded — the monitoring had not produced further intelligence before the sabotage.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Voss's marine engineering background giving him the technical capability and the potentially coded Hamburg contact providing a possible operational connection together form the MI5 case against him — each element alone had been inconclusive, together they had been sufficient for arrest."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Agnes Tait's Night",
+        "text": "Agnes Tait had been in the records office throughout the night shift — the records office maintained a shift log that required her signature at each hour. Her signatures are present at ten PM, eleven PM, midnight, and one AM. The records office was on the dock's administrative building, separated from the dry dock by two hundred metres. She had not been in the dry dock area. She is definitively cleared.",
+        "alone": "Agnes's hourly signatures in the records office confirm her continuous presence there — she had not been in the dry dock area. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Healy cleared by rivet counter and colleagues and Agnes cleared by hourly records signatures together eliminate both other suspects — Voss's twice-confirmed presence at the sabotaged panel area is the only suspect movement at the relevant location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🚢",
+        "heading": "The Destroyer's Fate",
+        "text": "The sabotage was discovered before the destroyer sailed — Archie's death had triggered an immediate security review that had found the improperly sealed panel. The panel had been properly resealed. The destroyer had sailed forty-eight hours later as scheduled and had served in North Atlantic convoy escort duty until 1944. Voss had been arrested, tried under wartime emergency provisions, and had received life imprisonment. He had died in prison in 1959 without confirming or denying the Hamburg connection.",
+        "alone": "The sabotage had been discovered in time — the destroyer had sailed as scheduled and had served until 1944. Voss had received life imprisonment and had died without confirming the Hamburg connection.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The Hamburg contact flagged as potentially coded and Voss dying without confirming the connection together confirm the case's unresolved intelligence dimension — the technical capability and the operational connection had both been present in the evidence, and the confirmation had never come."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ian Voss",
+      "location": "The Dry Dock",
+      "weapon": "Spanner"
+    },
+    "epilogue": "Ian Voss had been at the port engine compartment access panel at ten PM and again at one AM. He had the marine engineering knowledge to perform the sabotage precisely. Archie had found the improperly sealed panel and had been struck from behind while examining it. The sabotage had been discovered. The panel had been resealed. The destroyer had sailed on schedule and had served in North Atlantic convoy escort duty until 1944. Voss had received life imprisonment and had died in 1959. The Hamburg connection had never been confirmed. The destroyer's crew had not known how close the ship had come to sinking in the North Atlantic. Archie McAllister's name is on the Fairfield Shipyard memorial."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #115",
+    "title": "The Clyde",
+    "setting": "Fairfield Shipyard · Govan · Glasgow · 1941",
+    "emoji": "🚢",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Voss sabotaged the hull and killed Archie. But Danny Healy had seen Voss at the access panel at ten PM and had not reported it. Find what Healy had seen and why he had said nothing.",
+    "emptyState": "Healy saw Voss at the panel at ten PM. He didn't report it. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ian Voss",
+            "icon": "🔧",
+            "detail": "The killer and saboteur — marine engineering knowledge, Hamburg contact, life imprisonment."
+          },
+          {
+            "name": "Danny Healy",
+            "icon": "⚙️",
+            "detail": "Cleared as killer — rivet counter confirmed. Had seen Voss at the panel at ten PM and had not reported it."
+          },
+          {
+            "name": "Agnes Tait",
+            "icon": "📋",
+            "detail": "Cleared as killer — hourly records confirmed. Her refused transfer becomes significant."
+          },
+          {
+            "name": "The IRA-Linked Contact",
+            "icon": "🕵️",
+            "detail": "The person Healy had been in contact with — whose interest in the sabotage is the investigation's new thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dry Dock",
+            "icon": "🚢",
+            "detail": "Primary crime scene — Voss's killing of Archie."
+          },
+          {
+            "name": "The Starboard Bow Section",
+            "icon": "⚙️",
+            "detail": "Healy's confirmed working location — and where he had had line of sight to the port engine area."
+          },
+          {
+            "name": "The Port Engine Compartment",
+            "icon": "🔩",
+            "detail": "Where Voss had been at ten PM — visible from the starboard bow scaffolding at certain angles."
+          },
+          {
+            "name": "A Glasgow Public House",
+            "icon": "🍺",
+            "detail": "Where Healy had met his contact before the shift — the meeting documented by Special Branch."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Spanner",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Voss's, downward blow, standard yard tool."
+          },
+          {
+            "name": "Rivet Gun",
+            "icon": "⚙️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Clipboard Edge",
+            "icon": "📋",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Healy's Silence",
+            "icon": "⚙️",
+            "detail": "Not a weapon — but his non-report of the ten PM observation and why it had been withheld."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "German Wartime Sabotage",
+            "icon": "🔧",
+            "detail": "Voss's motive — Hamburg contact, marine engineering, life imprisonment."
+          },
+          {
+            "name": "Republican Sympathy Without Active Involvement",
+            "icon": "⚙️",
+            "detail": "Healy's position — had known something and had stayed silent from loyalty to a network rather than operational involvement."
+          },
+          {
+            "name": "The Contact's Instruction",
+            "icon": "🕵️",
+            "detail": "What Healy had been told before the shift — his contact had told him to say nothing if he saw something unusual."
+          },
+          {
+            "name": "Healy's Understanding of What He Was Seeing",
+            "icon": "⚙️",
+            "detail": "Whether Healy had known at ten PM what Voss was doing — or had only suspected."
+          },
+          {
+            "name": "The Contact's Connection to Voss",
+            "icon": "🕵️",
+            "detail": "Whether the IRA-linked contact had known about Voss's operation — the investigation's central question."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "What Healy Had Seen at Ten PM",
+        "text": "Healy, in his Special Branch interview, initially denies seeing Voss at the access panel. When the crane operator's account is presented, he changes his account: 'I saw Voss at the panel at ten. I could see him from the scaffolding — there's a sight line from the starboard bow platform to the port engine area. He had the panel open and was working on the seal. I thought — I didn't know what I thought. I knew it wasn't right. I said nothing.'",
+        "alone": "Healy had seen Voss with the panel open at ten PM and had known it was not right — and had said nothing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Healy knowing it was not right and saying nothing and his pre-shift contact telling him to say nothing if he saw something unusual together confirm the silence had been instructed rather than purely individual — he had received prior direction to maintain silence."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Healy's Pre-Shift Contact",
+        "text": "Special Branch surveillance records show Healy had met a known IRA-linked contact, Seamus Brady, at a Govan public house two hours before the shift began. The meeting had lasted twenty minutes. Special Branch had been watching Brady and had documented the meeting but had not intervened — Brady was under long-term surveillance and disruption was not the current instruction. The meeting's content had not been recorded.",
+        "alone": "Healy had met Brady, an IRA-linked contact, for twenty minutes before the shift — the meeting had been documented but not disrupted.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Healy's pre-shift meeting with Brady and his instruction to say nothing if he saw something unusual together confirm the meeting had been operationally preparatory — Brady had told him what to expect and how to behave."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "What Brady Had Told Healy",
+        "text": "Healy's account, after further questioning: 'Seamus told me there was going to be something happening at the yard tonight. He told me to do my work and not to notice anything I wasn't supposed to. He didn't tell me what or who. I thought — I assumed it was something the boys were involved in. I didn't know a man was going to be killed. I didn't know a German was involved. I thought it was our business.'",
+        "alone": "Healy had been told by Brady that something would happen at the yard — he had assumed it was IRA-connected and had followed the instruction not to notice.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Healy assuming the operation was IRA-connected and the investigation finding no IRA-Voss connection together confirm Healy had been told enough to maintain silence without being told enough to understand what he was enabling — a compartmentalised instruction."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Brady's Connection to Voss",
+        "text": "MI5's investigation examines whether Brady had been directing or had known about Voss's German-connected sabotage. The investigation's finding: 'No evidence of coordination between Brady's IRA network and Voss's German intelligence connection has been established. Brady's instruction to Healy to say nothing may have been coincidental — Brady routinely prepared contacts before any yard operation, regardless of the operation's specific nature. Alternatively, Brady may have known about Voss's operation without being part of it, and had seen an opportunity for parallel disruption of British war production.' The connection remains ambiguous.",
+        "alone": "MI5 finds no established coordination between Brady and Voss — the connection remains ambiguous between coincidence and knowing parallel disruption.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The Brady-Voss connection being ambiguous and Voss dying without confirming the Hamburg link together confirm the investigation's two unresolved dimensions — both the German connection and the IRA connection had remained officially open."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "⚙️",
+        "heading": "Healy's Prosecution",
+        "text": "Healy was charged with failing to report sabotage under the Emergency Powers (Defence) Act 1939 — a wartime offence. He was convicted and received two years. His defence had argued he had not known the operation was a German-linked sabotage. The court had found that his knowledge that something was 'not right' at the access panel had been sufficient to establish the failure to report charge, regardless of the operation's ultimate foreign connection.",
+        "alone": "Healy received two years for failing to report — his knowledge that something was not right had been sufficient for conviction, regardless of whether he had known the German connection.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Healy knowing it was not right and the court finding that sufficient for conviction together confirm the legal standard — the specific nature of the operation had not been the test, the knowledge of abnormality had been."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Brady's Fate",
+        "text": "Seamus Brady was arrested following Healy's account and charged with soliciting failure to report. The charge required establishing that Brady had known about the sabotage rather than merely preparing Healy for some unspecified yard operation. The prosecution found insufficient evidence that Brady had known the specific nature of the operation. Brady was released. He continued under Special Branch surveillance until 1945. He was never charged with any offence related to the Voss sabotage.",
+        "alone": "Brady was released for insufficient evidence of specific knowledge — the ambiguity of his awareness had protected him from the charge.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "MI5's ambiguous finding on the Brady-Voss connection and Brady's release for insufficient specific knowledge together confirm the investigation's limit — the connection had been suggestive and legally insufficient."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🚢",
+        "heading": "The Destroyer's Crew",
+        "text": "The destroyer had sailed with a crew of 186. It had served in North Atlantic convoy escort duty, participating in fourteen convoy operations between 1941 and 1944. The crew had not been informed of the sabotage attempt or of the panel's improper sealing. The ship's log from its first voyage shows no incidents. The engine compartment had performed normally throughout its service. The crew of 186 had not known that Ian Voss had tried to send them to the bottom of the North Atlantic.",
+        "alone": "186 crew members had served on the ship without knowing about the sabotage attempt — the ship had performed normally throughout its service life.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The crew not knowing about the sabotage and the investigation's two unresolved connections together confirm the full picture's scope — 186 people had been the sabotage's intended victims, and the full chain of who had known and enabled the attempt had never been publicly established."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Fairfield Memorial",
+        "text": "Archie McAllister's name is among the twelve Fairfield Shipyard workers commemorated on the yard's wartime memorial. The memorial's inscription reads: 'In memory of those who gave their lives in the service of this yard and this country, 1939-1945.' The memorial does not specify the circumstances of each death. Archie's name is between two men killed in a crane accident and a man killed in a bombing raid. The memorial does not mention Ian Voss or the sabotage. It is on the wall of what is now a residential development on the former yard site.",
+        "alone": "Archie's name is on the memorial between men killed in accidents and bombing — the sabotage is not described. The memorial is on a residential development wall.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The crew of 186 not knowing the sabotage's extent and the memorial not describing the sabotage together confirm the full erasure — the attempt had been prevented, the destroyer had sailed, the crew had not known, and the memorial had commemorated the consequence without its cause."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ian Voss",
+      "location": "The Dry Dock",
+      "weapon": "Spanner",
+      "motive": "German Wartime Sabotage"
+    },
+    "epilogue": "Healy had been told by Brady to say nothing. He had seen Voss at the panel at ten PM and had said nothing. Archie had found the panel at approximately one-thirty AM and had been struck from behind. The sabotage had been discovered. The panel had been resealed. The destroyer had sailed with 186 crew who had not known. Voss had received life imprisonment and had died in 1959. Healy had received two years. Brady had been released for insufficient evidence. The German connection had remained unconfirmed. The IRA connection had remained ambiguous. The destroyer had served until 1944. Archie's name is on the memorial between two men killed in accidents. The memorial does not mention Voss. It is on a residential development wall. The Clyde is still there."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #115",
+    "title": "The Clyde",
+    "setting": "Fairfield Shipyard · Govan · Glasgow · 1941",
+    "emoji": "🚢",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Voss killed Archie and sabotaged the hull. Healy saw it and stayed silent on Brady's instruction. But Agnes Tait had also known something was wrong — she had noticed a discrepancy in the tool store records three days before. Find what she found and what she did with it.",
+    "emptyState": "Agnes found a tool store discrepancy three days before. Find what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Ian Voss",
+            "icon": "🔧",
+            "detail": "The killer and saboteur — marine engineering, Hamburg, life imprisonment, died 1959."
+          },
+          {
+            "name": "Danny Healy",
+            "icon": "⚙️",
+            "detail": "Cleared as killer — rivet counter. Saw Voss at ten PM. Said nothing. Two years."
+          },
+          {
+            "name": "Agnes Tait",
+            "icon": "📋",
+            "detail": "Cleared as killer — hourly records. Had found a tool store discrepancy three days before."
+          },
+          {
+            "name": "The Yard's Security Officer",
+            "icon": "🏭",
+            "detail": "The person Agnes had reported the discrepancy to — whose response had determined whether the sabotage could have been prevented earlier."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dry Dock",
+            "icon": "🚢",
+            "detail": "Primary crime scene — Voss's killing of Archie."
+          },
+          {
+            "name": "The Tool Store",
+            "icon": "🔧",
+            "detail": "Where Agnes had found the discrepancy — sealing compound drawn in excess of the shift's allocation."
+          },
+          {
+            "name": "The Records Office",
+            "icon": "📋",
+            "detail": "Agnes's confirmed location — and where she had documented the discrepancy."
+          },
+          {
+            "name": "The Yard Security Office",
+            "icon": "🏭",
+            "detail": "Where Agnes had reported the discrepancy — and where the report had been received and not escalated."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Spanner",
+            "icon": "🔧",
+            "detail": "Confirmed murder weapon — Voss's."
+          },
+          {
+            "name": "Rivet Gun",
+            "icon": "⚙️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Clipboard Edge",
+            "icon": "📋",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Agnes's Discrepancy Report",
+            "icon": "📋",
+            "detail": "Not a weapon — but the record she had made and submitted three days before."
+          },
+          {
+            "name": "The Security Officer's Non-Escalation",
+            "icon": "🏭",
+            "detail": "Not a weapon — the institutional failure that had left the discrepancy unacted upon."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "German Wartime Sabotage",
+            "icon": "🔧",
+            "detail": "Voss's motive — life imprisonment, died 1959."
+          },
+          {
+            "name": "Republican Solidarity and Instructed Silence",
+            "icon": "⚙️",
+            "detail": "Healy's position — Brady's instruction, two years."
+          },
+          {
+            "name": "Professional Duty and Proper Reporting",
+            "icon": "📋",
+            "detail": "Agnes's action — found the discrepancy, reported it correctly, the report was not escalated."
+          },
+          {
+            "name": "The Security Officer's Assessment of the Discrepancy",
+            "icon": "🏭",
+            "detail": "Why the report had not been escalated — the security officer's institutional assessment."
+          },
+          {
+            "name": "Whether Earlier Action Would Have Prevented the Killing",
+            "icon": "📋",
+            "detail": "The counterfactual — had the discrepancy report been acted upon, the sabotage might have been intercepted."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Archie and Sabotaged the Hull",
+            "icon": "🔧",
+            "detail": "Voss's confirmed role — life imprisonment."
+          },
+          {
+            "name": "Saw the Sabotage and Maintained Instructed Silence",
+            "icon": "⚙️",
+            "detail": "Healy's role — Brady's instruction, two years."
+          },
+          {
+            "name": "Reported the Tool Store Discrepancy Through Proper Channels",
+            "icon": "📋",
+            "detail": "Agnes's role — her report was received but not escalated."
+          },
+          {
+            "name": "Received the Report and Did Not Escalate It",
+            "icon": "🏭",
+            "detail": "The security officer's role — the institutional non-escalation."
+          },
+          {
+            "name": "Monitored Brady Without Disrupting the Pre-Shift Meeting",
+            "icon": "🕵️",
+            "detail": "Special Branch's role — long-term surveillance priority over immediate intervention."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Tool Store Discrepancy",
+        "text": "Agnes Tait's records show that three days before the killing she had identified an excess drawdown of marine hull sealing compound — 2.3 kilograms more than the shift's allocation had required. The excess was consistent with the amount needed for a deliberate improper sealing of an access panel. She had noted it in the shift records and had submitted a discrepancy report to the yard's security officer, as the records procedure required.",
+        "alone": "Agnes had identified and reported an excess sealing compound drawdown three days before — consistent with the amount used in the sabotage.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Agnes's discrepancy report three days before the killing and the security officer's non-escalation leaving the issue unaddressed together confirm the report had been the early warning that the institutional response had not acted on."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏭",
+        "heading": "The Security Officer's Response",
+        "text": "The yard security officer's response to Agnes's report — documented in his own records — shows he had assessed the discrepancy as 'within tolerance for shift allocation variance' and had logged it without further investigation. His assessment: 'Sealing compound drawdown varies by up to 15 percent per shift based on application technique. The reported excess of 2.3kg falls within this variance. No further action required.' The 2.3kg excess had been within the officer's informal tolerance range.",
+        "alone": "The security officer had assessed the discrepancy as within normal variance and had not investigated — the informal tolerance range had covered the specific excess Agnes had flagged.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The security officer's within-tolerance assessment and the subsequent investigation finding the discrepancy had been the exact amount used in the sabotage together confirm the tolerance range had been exploited — Voss had drawn the compound in an amount calibrated to fall within the officer's informal assessment threshold."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Agnes's Account of the Report",
+        "text": "Agnes, interviewed by the MI5 security review, says: 'I followed procedure. I found the discrepancy, I logged it, I submitted the report. The security officer told me it was within tolerance. I accepted his assessment — he was the security authority, not me. If I had known what the compound was being used for, I would have gone further. I didn't know. I did what the procedure said to do.'",
+        "alone": "Agnes had followed procedure correctly — the security officer's within-tolerance assessment had closed the report. She had done what the procedure had required.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Agnes following procedure correctly and the security officer closing the report within tolerance together confirm the institutional failure had been in the tolerance range's design rather than in Agnes's reporting — she had done exactly what the procedure had required."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏭",
+        "heading": "The Security Review's Finding on the Officer",
+        "text": "The MI5 security review's finding on the security officer: 'The tolerance assessment applied to Tait's discrepancy report was consistent with standard yard security practice. However, in a wartime operational security environment, any discrepancy in materials with specific hull sealing applications should have been investigated rather than assessed against general tolerance ranges. The officer's application of peacetime tolerance standards to a wartime security context is found to be a procedural error. He is formally cautioned.'",
+        "alone": "The security officer receives a formal caution — his peacetime tolerance standards had been inappropriate for a wartime security context.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The security officer's peacetime standards applied in a wartime context and Voss calibrating the excess to fall within those standards together confirm the sabotage had been designed to evade exactly the assessment that had been applied — the calibration had been professional."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Whether Earlier Action Would Have Prevented the Killing",
+        "text": "The MI5 security review examines the counterfactual: 'Had the discrepancy report been investigated rather than assessed as within tolerance, an examination of the tool store records would likely have identified Voss's repeated excess drawdowns over the preceding two weeks. This would have triggered a security review of Voss's activities and access. Whether this would have prevented the sabotage and the killing with certainty is not determinable, but the probability is assessed as high.'",
+        "alone": "The review assesses that investigating the discrepancy would likely have identified Voss earlier — the prevention probability is assessed as high.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Agnes following procedure correctly and the review assessing high prevention probability from an investigation together confirm the gap — the procedure had been followed, the investigation had not been triggered, and the prevention had been assessed as probable rather than certain."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Voss's Calibration of the Excess",
+        "text": "MI5's technical analysis of the tool store records finds that Voss had drawn sealing compound in excess for three shifts over two weeks — always in amounts falling within the security officer's informal tolerance range. The excess amounts had been 2.1kg, 2.3kg, and 1.9kg respectively. The consistency suggested Voss had been aware of the tolerance range and had calibrated his drawdowns accordingly. The sabotage had been planned around the yard's own security assessment threshold.",
+        "alone": "Voss had calibrated three excess drawdowns to fall within the security officer's informal tolerance range — the sabotage had been designed around the yard's assessment threshold.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "The security officer applying within-tolerance assessment and Voss calibrating the excess to fall within that tolerance together confirm the exploitation had been deliberate — the sabotage's preparation had incorporated the yard's own security threshold as a design parameter."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Agnes's Post-War Career",
+        "text": "Agnes Tait had continued working at Fairfield until 1960. Her personnel file from the post-war years shows she had been promoted to Senior Records Officer in 1945 — a promotion the yard's management had attributed in part to her 'diligent discrepancy reporting during the wartime period.' The promotion had acknowledged the report she had made, three years after the report had not been acted upon. She had been recognised for doing the right thing at the time she had done it.",
+        "alone": "Agnes had been promoted in 1945 partly for her wartime discrepancy reporting — the same report that had not been acted upon had been recognised in her career assessment.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Agnes following procedure correctly and her promotion recognising that procedure-following three years later together confirm the institutional treatment — the correct action had been taken and had not prevented the killing, and the correct action had been recognised in retrospect."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚢",
+        "heading": "The Three Non-Actions and One Action",
+        "text": "The full picture: Agnes had reported a discrepancy and it had not been investigated. Healy had seen the sabotage and had not reported it. Special Branch had monitored Brady and had not disrupted the pre-shift meeting. Archie had found the sabotage and had been killed before he could report it. One person had acted — Archie — and had paid with his life. Three institutions and one individual had each had an opportunity and had not taken it. The destroyer had sailed. 186 crew had not known. The memorial does not mention any of this.",
+        "alone": "Three non-actions and one fatal action — the destroyer had sailed, the crew had not known, and the memorial records the consequence without its context.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The review assessing high prevention probability from investigation and the three non-actions each offering a different intervention point together confirm the full structure — the prevention had been probable, the interventions had been available, and none had occurred in the right form at the right time."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Ian Voss",
+      "location": "The Dry Dock",
+      "weapon": "Spanner",
+      "motive": "German Wartime Sabotage",
+      "accomplice": "Reported the Tool Store Discrepancy Through Proper Channels"
+    },
+    "epilogue": "Agnes had reported the excess sealing compound three days before. The security officer had assessed it within tolerance. Voss had calibrated the excess to fall within that threshold. Healy had seen the panel open at ten PM and had said nothing. Brady had not been disrupted before the shift. Archie had found the panel at one-thirty AM and had been struck from behind. Three non-actions and one fatal action had determined the night. The destroyer had sailed with 186 crew who had not known. Agnes had been promoted in 1945 for her diligent discrepancy reporting. The security officer had received a formal caution. Healy had received two years. Voss had died in prison in 1959. The memorial records twelve names. It does not mention the sabotage. It is on a residential development wall. Archie's name is the fourth from the left."
+  }
+}

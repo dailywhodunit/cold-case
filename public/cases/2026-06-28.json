@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Siberia, 1910. The Trans-Siberian Railway. Eight days to Vladivostok. A diplomat dead in his locked compartment. And the train can't stop. 🚂🔍 Case #101 — The Long Way East. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Trans-Siberian Railway 1910, a sealed train, a dead diplomat, and eight days before anyone can leave. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of a 1910 Trans-Siberian Railway first-class compartment, dark wood paneling and a frosted window showing the Siberian steppe beyond, a silver diplomatic briefcase chained to the luggage rack, a vodka glass overturned on the fold-down table, a man's fur-lined coat draped over the seat. Amber lamp, deep cold beyond the glass. Opulent and isolated, style of period Russian railway photography meets Agatha Christie.",
+    "animationPrompt": "Slow pan through a 1910 Trans-Siberian Railway first-class compartment. Dark wood paneling. Frosted window — the Siberian steppe beyond. A silver diplomatic briefcase chained to the luggage rack. The camera finds a vodka glass overturned on the fold-down table and a fur-lined coat on the seat. The lamp sways slightly with the train's motion. Snow beyond the glass. Fade to black.",
+    "hashtags": [
+      "#TransSiberian1910",
+      "#SealedTrain",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #101",
+    "title": "The Long Way East",
+    "setting": "Trans-Siberian Railway · Siberia · Russia · 1910",
+    "emoji": "🚂",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Russian diplomat Nikolai Volkov was found dead in his locked first-class compartment on day three of the eight-day journey to Vladivostok. His diplomatic briefcase — chained to the luggage rack — had been opened with its key. The briefcase had contained a secret treaty draft. The train cannot stop. The killer is still aboard. Three passengers had access to the first-class corridor.",
+    "emptyState": "Eight days to Vladivostok. The killer has nowhere to go. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Vera Shuvalova",
+            "icon": "👑",
+            "detail": "A Russian aristocrat — traveling to join her husband in Vladivostok, had dined with Volkov the previous evening."
+          },
+          {
+            "name": "Heinrich Bauer",
+            "icon": "🎩",
+            "detail": "A German trade representative — had been in the same carriage and had been seen near Volkov's compartment."
+          },
+          {
+            "name": "Father Dmitri Orlov",
+            "icon": "✝️",
+            "detail": "A Russian Orthodox priest — traveling to a posting in the Far East, had known Volkov in St. Petersburg."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Compartment 6",
+            "icon": "🚂",
+            "detail": "Volkov's locked compartment — vodka glass overturned, briefcase opened, window sealed shut."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where all three suspects had been during dinner the previous evening — and where Volkov had spoken freely."
+          },
+          {
+            "name": "The First-Class Corridor",
+            "icon": "🚪",
+            "detail": "The passage connecting the compartments — accessible to all first-class passengers."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison in the Vodka",
+            "icon": "🥃",
+            "detail": "Arsenic traces found in the overturned glass — cause of death confirmed as arsenic poisoning."
+          },
+          {
+            "name": "Diplomatic Briefcase Chain",
+            "icon": "⛓️",
+            "detail": "No wound — Volkov had not been struck, eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound profile — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Treaty Draft",
+        "text": "The diplomatic briefcase — opened with its own key — is found to contain only an empty treaty folder. The draft had been removed. The train's conductor confirms the briefcase had been chained to the rack since Moscow. Volkov had told the conductor at boarding that the contents were 'of the highest sensitivity.' The folder's label reads: 'Proposed Sino-Russian Boundary Convention — Draft 3.' A German trade representative on a train carrying a Sino-Russian boundary treaty is not a coincidence.",
+        "alone": "The Sino-Russian boundary treaty draft had been taken from the briefcase — a German trade representative traveling in the same carriage had both the means and the national interest to obtain it.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The boundary treaty taken and Heinrich Bauer's confirmed presence near Compartment 6 on the night of the killing together establish both his motive as a German national and his physical access during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Arsenic",
+        "text": "The overturned vodka glass contains arsenic traces at lethal concentration. Volkov had been drinking from his personal flask — a silver personal flask found empty beside him — before switching to the carriage's decanter, which shows no contamination. The arsenic had been in the personal flask, not the decanter. Someone had introduced arsenic into Volkov's personal flask. The flask had been in his coat pocket throughout the journey.",
+        "alone": "The arsenic had been in Volkov's personal flask — introduced at some point during the journey. The flask had been in his coat pocket, accessible to anyone who had been close enough to reach it.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The arsenic introduced into the personal coat-pocket flask and Father Orlov's confirmed close physical proximity to Volkov during the previous evening's dinner — sitting beside him — establish physical access to the flask that Bauer, seated across the table, had not had."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "👑",
+        "heading": "The Countess's Evening",
+        "text": "Countess Shuvalova had retired to her compartment at nine PM — confirmed by her personal maid who had been with her until midnight. She had not been in the corridor after nine PM. The maid had been in the compartment throughout. The Countess is definitively cleared.",
+        "alone": "Countess Shuvalova had been in her compartment from nine PM with her maid — confirmed throughout the murder window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The Countess cleared by her maid and Heinrich Bauer's confirmed location in the smoking car after ten PM together narrow the corridor presence during the murder window to Father Orlov, whose movements after ten PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Orlov's St. Petersburg Connection",
+        "text": "Father Orlov had known Volkov in St. Petersburg — both had moved in diplomatic circles, Orlov as a church official with foreign affairs connections. A letter found in Orlov's traveling bag — addressed to a monastery superior — mentions Volkov by name: 'The treaty Volkov carries would be disastrous for Russian interests in Manchuria. God willing, it will not reach its destination.' The letter had been written before the journey began.",
+        "alone": "Orlov had written before the journey that the treaty Volkov carried would be disastrous and had hoped it would not reach its destination — a documented prior intention regarding the treaty.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Orlov's pre-journey letter expressing hope the treaty would not reach its destination and the treaty's disappearance from the briefcase after Volkov's death confirm the letter's sentiment had become the journey's outcome."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Bauer Near Compartment 6",
+        "text": "The train's porter confirms he had seen Heinrich Bauer in the corridor near Compartment 6 at approximately eleven PM — Bauer had told him he was going to the toilet. The toilet was in the opposite direction. However, Bauer had returned to the smoking car by eleven-fifteen PM — the porter had seen him there — and had remained in the smoking car until midnight, confirmed by two other passengers.",
+        "alone": "Bauer had been near Compartment 6 at eleven PM but had been in the smoking car from eleven-fifteen to midnight — his eleven PM corridor presence is suspicious but his eleven-fifteen-onward alibi is confirmed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The treaty taken and Bauer's eleven PM corridor presence near the compartment together make him a suspect — but the briefcase key had been used to open the lock, and Bauer's timeline places him in the smoking car from eleven-fifteen, before which the entry would need to have occurred."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "✝️",
+        "heading": "The Briefcase Key",
+        "text": "The diplomatic briefcase had been opened with its own key — found inside the opened briefcase, as though left behind deliberately. Volkov had kept the key on a chain around his neck. The chain had not been broken — it had been unclasped. Someone had removed the key from around Volkov's neck while he was either sleeping or incapacitated, had opened the briefcase, had taken the treaty, and had replaced the key inside. The arsenic would have begun incapacitating Volkov within two hours of ingestion.",
+        "alone": "The key had been unclasped from around Volkov's neck while he was incapacitated by the arsenic — the killer had entered the compartment after the poison had taken effect, had taken the treaty, and had left the key inside.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The arsenic in the personal flask incapacitating Volkov before the compartment entry and the briefcase key unclasped from around his neck confirming the killer had entered while he was incapacitated together establish the two-stage operation — poison first, briefcase entry second."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Bauer in the Smoking Car",
+        "text": "Two passengers confirm Bauer had been in the smoking car from eleven-fifteen PM until midnight. The conductor confirms the same. Bauer is cleared of entering Compartment 6 after eleven-fifteen PM. However, the arsenic's incapacitation timeline — two hours from ingestion — suggests the poison had been introduced during or after dinner, which had ended at nine PM. If ingested at nine PM, incapacitation would have occurred at approximately eleven PM. The briefcase entry would have followed shortly after.",
+        "alone": "Bauer is cleared after eleven-fifteen — but the briefcase entry would have occurred between eleven and eleven-thirty based on the arsenic timeline. Bauer's eleven PM corridor presence coincides with the beginning of the entry window.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The Countess cleared from nine PM and Bauer cleared after eleven-fifteen together leave the briefcase entry window — eleven to eleven-fifteen PM — with only Bauer confirmed in the corridor and Orlov unaccounted for."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Orlov's Compartment Key",
+        "text": "Father Orlov's compartment is adjacent to Volkov's — they share a connecting wall. A steward confirms that the connecting door between compartments 5 and 6 — a feature of first-class paired compartments — can be opened from either side with a standard pass key. Orlov had requested a pass key from the steward on the first day, stating he had locked himself out. The pass key would open the connecting door without requiring entry through the corridor.",
+        "alone": "Orlov had obtained a pass key on day one and his compartment shared a connecting door with Volkov's — he had access to Compartment 6 without using the corridor.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Orlov's pre-journey letter expressing hope the treaty would not reach its destination and his connecting-door access to Volkov's compartment without corridor entry confirm both his motive and a method of access that had avoided the corridor entirely — and that Bauer had not had."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Father Dmitri Orlov",
+      "location": "Compartment 6",
+      "weapon": "Poison in the Vodka"
+    },
+    "epilogue": "Father Dmitri Orlov had written before the journey that the treaty Volkov carried would be disastrous and had hoped it would not reach its destination. He had been seated beside Volkov at dinner. He had introduced arsenic into the personal flask during the meal. He had waited in Compartment 5 as the arsenic took effect. At approximately eleven PM he had used the pass key to open the connecting door, had unclasped the briefcase key from around Volkov's neck, had opened the briefcase, and had taken the treaty. He had returned to his compartment through the connecting door. Bauer had been in the corridor at eleven PM for reasons that remained unexplained but had not entered the compartment. Orlov was confined to his compartment for the remaining five days. The train arrived in Vladivostok on schedule. The treaty had not arrived with it."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #101",
+    "title": "The Long Way East",
+    "setting": "Trans-Siberian Railway · Siberia · Russia · 1910",
+    "emoji": "🚂",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Orlov killed Volkov and took the treaty. But Heinrich Bauer had been in the corridor at eleven PM for a reason — find what Bauer had actually been doing near Compartment 6 that night.",
+    "emptyState": "Bauer was in the corridor at eleven PM for a real reason. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Father Dmitri Orlov",
+            "icon": "✝️",
+            "detail": "The killer — pre-journey letter, dinner flask access, connecting door, treaty taken."
+          },
+          {
+            "name": "Heinrich Bauer",
+            "icon": "🎩",
+            "detail": "Cleared as killer — smoking car from eleven-fifteen. His eleven PM corridor presence had a real purpose."
+          },
+          {
+            "name": "Countess Vera Shuvalova",
+            "icon": "👑",
+            "detail": "Cleared as killer — maid confirmed throughout. Her dinner conversation with Volkov is significant."
+          },
+          {
+            "name": "The German Intelligence Service",
+            "icon": "🕵️",
+            "detail": "Bauer's actual employer — the trade representative cover had concealed a different purpose."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Compartment 6",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Orlov's entry via connecting door."
+          },
+          {
+            "name": "The First-Class Corridor",
+            "icon": "🚪",
+            "detail": "Where Bauer had been at eleven PM — and what he had been doing there."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where the dinner had occurred — and where Volkov had spoken too freely."
+          },
+          {
+            "name": "Bauer's Compartment",
+            "icon": "🎩",
+            "detail": "Where the investigation finds a second copy of the treaty draft — or something more interesting."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison in the Vodka",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Orlov's arsenic, flask access at dinner."
+          },
+          {
+            "name": "Diplomatic Briefcase Chain",
+            "icon": "⛓️",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Bauer's Camera",
+            "icon": "📸",
+            "detail": "Not a weapon — but what Bauer had been doing in the corridor at eleven PM."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Treaty From Reaching Vladivostok",
+            "icon": "✝️",
+            "detail": "Orlov's ideological motive — treaty disastrous for Russian interests, pre-journey letter."
+          },
+          {
+            "name": "Obtain the Treaty's Contents for Germany",
+            "icon": "🎩",
+            "detail": "Bauer's actual operational purpose — had been on the train to photograph the treaty draft."
+          },
+          {
+            "name": "Social Access to Volkov",
+            "icon": "👑",
+            "detail": "The Countess's inadvertent role — her dinner conversation had drawn Volkov into discussing the treaty's existence."
+          },
+          {
+            "name": "Two Independent Operations Converging",
+            "icon": "🚂",
+            "detail": "The structural situation — Orlov and Bauer had independently targeted the same treaty on the same train."
+          },
+          {
+            "name": "Orlov's Pre-Emption of Bauer",
+            "icon": "✝️",
+            "detail": "The timing's irony — Orlov had killed Volkov before Bauer could photograph the treaty, leaving Bauer with a dead diplomat and no document to photograph."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📸",
+        "heading": "The Camera in Bauer's Luggage",
+        "text": "A search of Bauer's compartment — conducted after his corridor presence is questioned — finds a miniature camera of the type used by European intelligence services, concealed inside a hollowed-out book. The camera contains unexposed film. It had not been used. Bauer had come to the train with a camera designed for document photography and had not used it.",
+        "alone": "Bauer had been carrying a miniature intelligence camera — designed for document photography — that had not been used. He had come to photograph something and had not done so.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Bauer carrying an unused intelligence camera and his corridor presence near Compartment 6 at eleven PM — the time the arsenic would have been taking effect — confirm he had gone to photograph the treaty that night and had found the situation different from what he had expected."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "What Bauer Had Found in the Corridor",
+        "text": "Bauer, confronted with the camera and asked directly what he had been doing near Compartment 6 at eleven PM, says: 'I had been informed — I will not say by whom — that Volkov would be incapacitated by eleven PM. I had gone to photograph the treaty. When I reached the corridor, I could hear someone already in the compartment — sounds through the door. I returned to the smoking car immediately.' He had arrived to find Orlov already inside.",
+        "alone": "Bauer had been informed that Volkov would be incapacitated at eleven PM — he had gone to photograph the treaty and had found someone already in the compartment.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Bauer informed that Volkov would be incapacitated and arriving to find someone already there confirm two independent operations had targeted the same treaty — and that someone had given Bauer intelligence about the incapacitation timing, suggesting a third actor had known about Orlov's plan."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Bauer's Actual Role",
+        "text": "Bauer admits he is a German diplomatic intelligence officer, not a trade representative. His mission had been to photograph the Sino-Russian boundary treaty and deliver the images to Berlin before the treaty could be signed in Vladivostok. He had been on the train with the same operational objective as Orlov — obtain the treaty's contents — but through photography rather than theft. The two operations had been independent and had not known about each other.",
+        "alone": "Bauer had been a German intelligence officer whose mission had been to photograph the treaty — the same treaty Orlov had stolen. The two operations had been independent.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Bauer's independent photography mission and Orlov's physical theft of the treaty confirm two separate foreign operations had targeted the same document on the same train — and Orlov's more violent approach had pre-empted Bauer's, leaving Bauer with nothing to photograph."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "👑",
+        "heading": "Who Had Informed Bauer About the Incapacitation",
+        "text": "Bauer is pressed on who had told him Volkov would be incapacitated at eleven PM. After a long pause, he says: 'Countess Shuvalova sent me a note at nine PM. It said only: eleven o'clock.' He produces the note from his jacket. The Countess's handwriting is confirmed by comparison. The Countess had known about the incapacitation plan — she had informed Bauer of its timing.",
+        "alone": "Countess Shuvalova had sent Bauer a note at nine PM telling him eleven o'clock — she had known about the incapacitation plan and had directed Bauer to act on its window.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The Countess informing Bauer of the incapacitation timing and her confirmed compartment presence with her maid throughout confirm she had not been the killer but had known about the plan — she had provided Bauer with the operational window while maintaining her own alibi."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "👑",
+        "heading": "The Countess's Role",
+        "text": "Investigators confront Countess Shuvalova with the note. She says: 'I knew Orlov was going to act. He had told me in St. Petersburg that the treaty could not reach Vladivostok. When I saw him at dinner, I understood what he was planning. I told Bauer the window because I thought — if Bauer photographed the treaty first, Orlov would have no reason to kill Volkov. The document would already be compromised. I was trying to prevent a murder.'",
+        "alone": "The Countess had known Orlov's plan and had tried to use Bauer's photography mission to pre-empt the killing — if Bauer photographed first, Orlov's violent approach would be unnecessary.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "The Countess directing Bauer to the eleven PM window hoping to prevent the killing and Bauer arriving to find Orlov already inside confirm her plan had failed — Orlov had acted before Bauer had reached the corridor."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "witness",
+        "icon": "👑",
+        "heading": "Why the Countess Had Not Gone to the Authorities",
+        "text": "The Countess is asked why she had not reported Orlov's plan rather than directing Bauer to photograph the treaty. She says: 'I had no proof. Only a conversation in St. Petersburg where Orlov had said the treaty must not reach its destination. And I — I had my own reasons not to want this treaty signed. I thought Bauer's photography was a solution that served everyone. I was wrong about when Orlov would act.'",
+        "alone": "The Countess had not reported Orlov because she had lacked proof and had had her own interest in the treaty not being signed — her intervention had been calculated to serve multiple interests simultaneously.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The Countess directing Bauer with the nine PM note and her admission of her own interest in the treaty failing confirm her intervention had not been purely altruistic — she had tried to prevent a murder while also serving an outcome she wanted."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "The Remaining Five Days",
+        "text": "The train has five days remaining to Vladivostok. Orlov is confined to his compartment under informal detention by the conductor and a railroad security officer who had been aboard. Bauer's camera had not been used — he had nothing to report to Berlin. The Countess had sent a note that had not prevented the killing. The treaty is somewhere on the train. The remaining five days would determine whether it could be recovered before Vladivostok.",
+        "alone": "Five days remaining, Orlov confined, Bauer with an empty camera, and the treaty somewhere on the train — the investigation continues for the remainder of the journey.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Bauer's photography mission having failed and the treaty physically taken by Orlov confirm the five remaining days present a recovery opportunity — the stolen document is somewhere in Orlov's compartment, and the train has not arrived."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "The Treaty's Fate",
+        "text": "On day six, a search of Orlov's compartment — conducted by the railroad security officer with Orlov's involuntary cooperation — finds the treaty draft folded inside Orlov's Bible, between the books of Daniel and Revelation. It is recovered intact. The treaty arrives in Vladivostok on day eight. It is signed three weeks later. Bauer's empty camera reaches Berlin. Orlov is prosecuted in Vladivostok. The Countess is interviewed. Bauer is expelled from Russia. The train had taken eight days. The treaty had arrived.",
+        "alone": "The treaty is found in Orlov's Bible on day six and arrives in Vladivostok on day eight — it is eventually signed despite the killing. The train had taken eight days and had delivered what it was carrying.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Countess's plan to prevent the killing by pre-empting Orlov with Bauer's photography and the treaty eventually arriving confirm the outcome she had been trying to prevent had occurred regardless — her intervention had been too late, and the treaty had arrived anyway."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Father Dmitri Orlov",
+      "location": "Compartment 6",
+      "weapon": "Poison in the Vodka",
+      "motive": "Prevent the Treaty From Reaching Vladivostok"
+    },
+    "epilogue": "Three operations had converged on the same train. Orlov had planned to steal the treaty. Bauer had planned to photograph it. The Countess had tried to use Bauer to pre-empt Orlov. Orlov had acted first. Bauer had arrived in the corridor at eleven PM to find the connecting door in use. The treaty had been inside Orlov's Bible for three days before the search had found it. It had arrived in Vladivostok on day eight. It had been signed three weeks later. Orlov had been prosecuted. Bauer had been expelled. The Countess had been interviewed and released — her note to Bauer had been ambiguous enough and her stated intention protective enough that no charge had been filed. The train had taken eight days. The Siberian steppe had been outside the window for all of them."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #101",
+    "title": "The Long Way East",
+    "setting": "Trans-Siberian Railway · Siberia · Russia · 1910",
+    "emoji": "🚂",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Orlov killed Volkov and hid the treaty in his Bible. The Countess had known about Orlov's plan and had tried to use Bauer to pre-empt him. But the Countess had her own reason to want the treaty stopped — find what her interest in the treaty was and whether her intervention had been as protective as she claimed.",
+    "emptyState": "The Countess had her own reason to stop the treaty. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Father Dmitri Orlov",
+            "icon": "✝️",
+            "detail": "The killer — pre-journey letter, flask arsenic, connecting door, treaty in Bible, prosecuted."
+          },
+          {
+            "name": "Heinrich Bauer",
+            "icon": "🎩",
+            "detail": "Cleared as killer — intelligence camera unused, expelled from Russia."
+          },
+          {
+            "name": "Countess Vera Shuvalova",
+            "icon": "👑",
+            "detail": "Cleared as killer — maid confirmed. Sent Bauer the nine PM note, had her own interest in the treaty failing."
+          },
+          {
+            "name": "Count Shuvalov",
+            "icon": "🏛️",
+            "detail": "The Countess's husband — in Vladivostok for reasons connected to the treaty she had been trying to stop."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Compartment 6",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Orlov's operation."
+          },
+          {
+            "name": "The Dining Car",
+            "icon": "🍽️",
+            "detail": "Where the Countess had gathered intelligence from Volkov's conversation."
+          },
+          {
+            "name": "Vladivostok",
+            "icon": "🌊",
+            "detail": "The treaty's destination — and where Count Shuvalov had been waiting."
+          },
+          {
+            "name": "The Countess's Compartment",
+            "icon": "👑",
+            "detail": "Where the maid had been with her — and where her personal correspondence is examined."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poison in the Vodka",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Orlov's."
+          },
+          {
+            "name": "Diplomatic Briefcase Chain",
+            "icon": "⛓️",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "The Nine PM Note",
+            "icon": "📝",
+            "detail": "Not a weapon — but the note the Countess had sent Bauer, whose purpose is examined more closely."
+          },
+          {
+            "name": "The Countess's Intelligence",
+            "icon": "👑",
+            "detail": "Not a weapon — but the information she had obtained from Volkov at dinner, which had been more than she had disclosed."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Treaty From Reaching Vladivostok",
+            "icon": "✝️",
+            "detail": "Orlov's motive — disastrous for Russian Manchurian interests, pre-journey letter."
+          },
+          {
+            "name": "Photograph the Treaty for Germany",
+            "icon": "🎩",
+            "detail": "Bauer's mission — intelligence camera, expelled."
+          },
+          {
+            "name": "Protect Her Husband's Business Interests",
+            "icon": "👑",
+            "detail": "The Countess's actual motive — Count Shuvalov had significant trade interests in Manchuria that the boundary treaty would have adversely affected."
+          },
+          {
+            "name": "Use Bauer to Pre-Empt Violence",
+            "icon": "📝",
+            "detail": "The Countess's stated motive — protective intervention using Bauer's photography."
+          },
+          {
+            "name": "The Motive's Dual Nature",
+            "icon": "👑",
+            "detail": "Whether the Countess had been protecting Volkov or serving her husband's interests — or both simultaneously."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Volkov and Hid the Treaty in His Bible",
+            "icon": "✝️",
+            "detail": "Orlov's confirmed role — prosecuted."
+          },
+          {
+            "name": "Arrived in the Corridor Too Late",
+            "icon": "🎩",
+            "detail": "Bauer's role — empty camera, expelled."
+          },
+          {
+            "name": "Sent the Nine PM Note and Had Parallel Interests",
+            "icon": "👑",
+            "detail": "The Countess's role — protective intervention, personal interest, released without charge."
+          },
+          {
+            "name": "Gathered Intelligence From Volkov at Dinner",
+            "icon": "🍽️",
+            "detail": "The Countess's operational action — her dinner conversation had produced information she had acted on."
+          },
+          {
+            "name": "Was Waiting in Vladivostok With the Treaty's Opponents",
+            "icon": "🌊",
+            "detail": "Count Shuvalov's passive role — his business interests had been the structural motive behind the Countess's intervention."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "👑",
+        "heading": "Count Shuvalov's Business in Vladivostok",
+        "text": "Investigation of Count Shuvalov's affairs — triggered by the Countess's noted interest in the treaty — reveals he had been in Vladivostok for three months managing a joint Russo-Japanese timber and mining concession in Manchuria. The concession had been granted under existing boundary understandings. The Sino-Russian boundary convention draft — the treaty Volkov had been carrying — would have redrawn the relevant boundaries, voiding the concession. Count Shuvalov stood to lose an investment worth approximately 200,000 rubles.",
+        "alone": "Count Shuvalov's Manchurian concession was worth 200,000 rubles — the treaty Volkov was carrying would have voided it entirely. The Countess's husband had a specific and enormous financial stake in the treaty not reaching Vladivostok.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Count Shuvalov's 200,000-ruble concession at stake and the Countess's nine PM note directing Bauer to the treaty's access window confirm her intervention had served her husband's financial interest as much as any protective intent — the two motivations had been inseparable."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "👑",
+        "heading": "What the Countess Had Learned at Dinner",
+        "text": "The Countess's account of the dinner conversation is more detailed upon further questioning: she had not merely observed Volkov speaking — she had asked him specific questions about the treaty's provisions and their timeline for signing. She had obtained the signing date, the parties' names, and a description of the boundary changes. She had known more about the treaty's contents from dinner conversation than she had disclosed in her initial account.",
+        "alone": "The Countess had actively extracted specific information from Volkov at dinner — signing date, parties, boundary changes — providing herself with intelligence she had not initially disclosed.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The Countess actively gathering intelligence from Volkov and her husband's 200,000-ruble stake in the treaty failing confirm her dinner role had been operational rather than social — she had been collecting information she had needed for the intervention she had been planning."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📝",
+        "heading": "The Note's Interpretation",
+        "text": "The nine PM note to Bauer — 'eleven o'clock' — is examined more carefully. The Countess had known Bauer was a German intelligence officer — she had recognized him from a St. Petersburg diplomatic reception two years before. She had known he was on the train to photograph the treaty. By directing him to the eleven PM window, she had not merely been preventing Orlov's violence — she had been enabling Germany to obtain the treaty's contents, which would have also served her husband's interest in complicating the treaty's signing.",
+        "alone": "The Countess had known Bauer was a German intelligence officer — her note had not merely been a protective intervention but had been actively enabling Germany to photograph the treaty that threatened her husband's concession.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The Countess knowing Bauer's intelligence identity and enabling his photography mission confirm her nine PM note had been a sophisticated dual-purpose action — protective of Volkov's life in theory and destructive of the treaty's integrity in practice."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "👑",
+        "heading": "The Countess's Full Account",
+        "text": "When confronted with Count Shuvalov's concession, her active dinner intelligence gathering, and her recognition of Bauer's intelligence identity, the Countess says: 'My husband's concession would have been destroyed. Yes. I knew Bauer could use the photography to complicate the treaty. I also genuinely believed it would prevent Orlov from killing anyone. Both things can be true simultaneously.' She is not charged — the dual motivation does not constitute a criminal act under Russian law as it applied to her actions.",
+        "alone": "The Countess acknowledges both motivations simultaneously — protective of Volkov's life and destructive of the treaty — and is not charged. Both things are found to be true simultaneously.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The Countess's dual motivation acknowledged and not charged and the treaty arriving anyway despite all three operations confirm the full picture of the journey — three operations, one death, one empty camera, one recovered treaty, one husband's concession ultimately protected by the treaty's eventual arrival despite everyone's best efforts."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌊",
+        "heading": "Count Shuvalov's Response",
+        "text": "Count Shuvalov, informed in Vladivostok that the treaty had been recovered and would be signed, sends a telegram to his wife still aboard the train: 'The concession is voided. Come home.' The telegram is intercepted as part of the investigation. It confirms he had known the treaty's specific consequences for his Manchurian interests. The telegram does not mention Volkov. It does not mention Orlov. It does not mention Bauer. It mentions only the concession.",
+        "alone": "Count Shuvalov's telegram mentions only the concession — not the death or the operations. His reference frame had been purely financial throughout.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Count Shuvalov's 200,000-ruble stake and his telegram mentioning only the concession confirm his perspective had been financial from the beginning — the events on the train had been, to him, the story of a concession voided."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Orlov's Trial",
+        "text": "Orlov is prosecuted in Vladivostok for the murder of Nikolai Volkov. The pre-journey letter is admitted into evidence. The arsenic in the flask is documented. The connecting-door pass key is confirmed. He is convicted and sentenced to hard labor in Siberia — a sentence whose irony, a priest convicted for a murder committed while crossing Siberia now spending his sentence in Siberia, is noted in the Russian press without elaboration. He serves twelve years.",
+        "alone": "Orlov is convicted and sentenced to hard labor in Siberia — twelve years. The Russian press notes the irony without elaboration.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The Countess not charged for her dual-purpose intervention and Orlov sentenced to twelve years in Siberia confirm the trial's moral allocation — the person who had killed received the sentence, and the person who had tried to prevent the killing while serving her own interest had received neither credit nor charge."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "The Treaty's Signing",
+        "text": "The Sino-Russian Boundary Convention is signed in Vladivostok three weeks after the train's arrival. Count Shuvalov's Manchurian concession is voided as he had anticipated. He files a claim for compensation that is rejected. The German government receives Bauer's report — which contains no photographs, only his account of the journey. Berlin notes the treaty's signing with formal concern. The treaty stands. Everyone's operations had failed to prevent it.",
+        "alone": "The treaty is signed and all three operations have failed to prevent it — Orlov's theft had been recovered, Bauer's photography had produced nothing, and the Countess's intervention had been too late.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Count Shuvalov's concession voided and the treaty signed despite three operations confirm the journey's full outcome — one murder, one failed photography mission, one protective intervention that had enabled a foreign intelligence operation, and a treaty that had arrived and been signed regardless."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "The Eighth Day",
+        "text": "The Trans-Siberian Railway reaches Vladivostok on the eighth day. The treaty is in the hands of Russian authorities. Orlov is in custody. Bauer is under escort to the border. The Countess receives her husband's telegram and replies: 'Coming home.' The Siberian steppe has been outside the window for eight days. The snow has continued throughout. The train has delivered what it was carrying and everyone who remained on it. The journey was eight days. The treaty had been in a Bible for three of them. Case #101.",
+        "alone": "The train arrives on day eight. The treaty is delivered. The journey is eight days. Case #101.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The Countess enabling Bauer's photography while claiming protective intent and the treaty arriving anyway confirm the journey's final irony — the most sophisticated operation on the train had been the Countess's, and it had achieved nothing for anyone. The least sophisticated had been Orlov's letter, written before departure, which had done exactly what it had said it would do and had still failed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Father Dmitri Orlov",
+      "location": "Compartment 6",
+      "weapon": "Poison in the Vodka",
+      "motive": "Prevent the Treaty From Reaching Vladivostok",
+      "accomplice": "Sent the Nine PM Note and Had Parallel Interests"
+    },
+    "epilogue": "The train had taken eight days. Three operations had been aboard. Orlov had killed Volkov and hidden the treaty in his Bible. Bauer had arrived in the corridor to find it occupied and had returned with an empty camera. The Countess had sent a note at nine PM, had known Bauer's identity, had served her husband's financial interest while claiming protective intent, and had been released without charge. Count Shuvalov's concession had been voided. Orlov had received twelve years in Siberia. Bauer had been expelled from Russia. The treaty had been signed. The steppe had been outside the window for all eight days. The snow had continued. The train had delivered what it was carrying. Case #101."
+  }
+}

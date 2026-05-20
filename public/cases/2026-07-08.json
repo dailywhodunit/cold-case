@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "South Georgia, 1923. A whaling station at the edge of the world. Seven men. One dead in the rendering shed. And five months until the next ship. 🐋🔍 Case #111 — The Station. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Antarctic whaling station 1923, a dead crew member in the rendering shed, seven men isolated at the edge of the world, and five months before anyone can leave. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "An Antarctic whaling station on South Georgia in 1923, corrugated iron buildings against a grey sky, a whale-oil rendering shed with copper vats and industrial chains, a man's oilskin coat on the shed floor, a wooden mallet beside an overturned bucket. Cold grey light, the Southern Ocean beyond, the smell of industry and isolation. Style of Frank Hurley expedition photography meets Edward Hopper.",
+    "animationPrompt": "Slow pan through a 1923 Antarctic whaling station rendering shed. Corrugated iron. Copper vats. Industrial chains. The camera finds an oilskin coat on the shed floor and a wooden mallet beside an overturned bucket. Cold grey light through the shed doors. The Southern Ocean beyond. No other sound. Fade to black.",
+    "hashtags": [
+      "#SouthGeorgia1923",
+      "#WhalingStation",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #111",
+    "title": "The Station",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Flenser Angus McRae was found dead in the rendering shed at Grytviken station. Seven men overwintered at the station — five months until the next supply ship. McRae had been keeping a private log documenting what he believed was theft from the station's oil reserves. Three men had known about the log.",
+    "emptyState": "Seven men. Five months. One dead. The log accused someone. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Station Manager Einar Bjørnstad",
+            "icon": "🗺️",
+            "detail": "The Norwegian manager — responsible for the oil reserves and accountable for any shortfall to the company."
+          },
+          {
+            "name": "Engineer Seamus Doyle",
+            "icon": "🔧",
+            "detail": "The station's mechanic — had access to the reserve vats and had been observed near them at irregular hours."
+          },
+          {
+            "name": "Cook Thomas Vere",
+            "icon": "🍲",
+            "detail": "The station cook — had been McRae's closest companion and had read the log at McRae's invitation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Rendering Shed",
+            "icon": "🏭",
+            "detail": "Where McRae was found — oil vats, chains, oilskin coat on the floor, mallet nearby."
+          },
+          {
+            "name": "The Reserve Tank Room",
+            "icon": "⚙️",
+            "detail": "The adjacent storage area — where the alleged theft had been occurring."
+          },
+          {
+            "name": "The Station Manager's Office",
+            "icon": "📋",
+            "detail": "Where the oil measurement records were kept — and where Bjørnstad had been that morning."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rendering Mallet",
+            "icon": "🪵",
+            "detail": "A heavy wooden mallet used for breaking whale bone — blunt force wound consistent with its head."
+          },
+          {
+            "name": "Chain Hook",
+            "icon": "⛓️",
+            "detail": "No wound profile match — the hook's point is inconsistent with the wound's flat impact."
+          },
+          {
+            "name": "Vat Ladle",
+            "icon": "🥄",
+            "detail": "No blood trace on any ladle — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📖",
+        "heading": "McRae's Log",
+        "text": "The private log — found beneath McRae's bunk — documents six weeks of observations: oil reserve measurements taken secretly each evening, cross-referenced with the official ledger kept in Bjørnstad's office. The discrepancy grows each week. The log's final entry: 'Reserve tank 4 short by eleven barrels since November. Impossible to be evaporation. Someone is siphoning. Going to confront Doyle tonight — he has been near tank 4 every second day.' The entry is dated the morning of the killing.",
+        "alone": "McRae had documented a growing discrepancy in tank 4 and had planned to confront Doyle that night — the final entry had been written the morning he was killed.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "McRae's log entry stating he planned to confront Doyle and Doyle's confirmed presence in the rendering shed during the killing window together establish the confrontation's context — the planned confrontation had become the killing's occasion."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪵",
+        "heading": "The Rendering Mallet",
+        "text": "The heavy rendering mallet — used for breaking whale skull bone — is found six feet from McRae's body, its head showing blood and hair. The wound on McRae's skull is consistent with a single powerful strike from behind while McRae had been examining the tank 4 valve. The blow had come from someone standing above and behind while McRae had been crouching at the tank's base.",
+        "alone": "McRae had been struck from behind while crouching at tank 4's base — the killer had approached from behind while McRae had been examining the valve he had been documenting.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "McRae crouching at tank 4's valve when struck and Doyle's documented pattern of visits to tank 4 every second day confirming his familiarity with the tank's layout and access confirm both the location and the person who had known exactly why McRae would be crouching there."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Bjørnstad's Morning",
+        "text": "Bjørnstad had been in his office from seven AM until eleven AM completing the monthly oil production report — confirmed by the report itself, dated and timed, and by Thomas Vere who had brought him coffee at eight-thirty. The killing had occurred between nine and ten AM based on the body's temperature in the cold shed. Bjørnstad had not left the office during this window. He is definitively cleared.",
+        "alone": "Bjørnstad had been in his office from seven to eleven AM — confirmed by the timed production report and Thomas Vere's coffee delivery. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Bjørnstad cleared in his office and Thomas Vere confirmed in the kitchen during the nine-to-ten AM window together eliminate both other suspects — only Doyle's movements between nine and ten AM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Doyle's Tank 4 Pattern",
+        "text": "The station log — maintained by Bjørnstad for maintenance records — shows Doyle had performed maintenance checks on tank 4 on alternate days for six weeks, always between eight and ten AM. This pattern is inconsistent with the actual maintenance schedule, which required tank 4 checks only fortnightly. Doyle had been visiting tank 4 far more frequently than any maintenance rationale required.",
+        "alone": "Doyle had been visiting tank 4 every second day for six weeks — far exceeding the maintenance schedule and precisely when McRae had documented oil disappearing.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Doyle's twice-weekly tank 4 visits coinciding exactly with McRae's documented oil disappearance timeline confirm the visits had been operational rather than maintenance — the frequency had matched the theft's documented rate."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Doyle in the Rendering Shed",
+        "text": "Thomas Vere confirms he had seen Doyle walking toward the rendering shed at approximately nine AM — he had been on the way to the kitchen and had noted it because it was a tank 4 day. He had not seen McRae at that point. When Vere had gone to call men for lunch at eleven AM, he had found McRae's body. Doyle had been walking toward the shed at nine AM with McRae's confrontation planned for that evening — but McRae had apparently gone earlier.",
+        "alone": "Doyle had been seen walking toward the rendering shed at nine AM — the beginning of the murder window — on one of his established tank 4 visiting days.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "McRae's log stating he planned to confront Doyle that evening and Doyle seen walking to the rendering shed at nine AM — the beginning of the murder window — together suggest McRae had gone early to check the tank before the planned confrontation, and Doyle had found him there."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🔧",
+        "heading": "The Tank 4 Valve",
+        "text": "Examination of tank 4's valve shows it had been modified — a secondary outlet had been installed on the valve's lower fitting, allowing controlled drainage into a separate container. The modification was professional and had been performed with an engineer's tools. McRae had been crouching at this specific valve when struck — he had been examining the modification that had been the mechanism of the theft.",
+        "alone": "Tank 4's valve had been professionally modified for controlled drainage — an engineer's work. McRae had been crouching at this valve when killed.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Doyle's twice-weekly tank 4 visits and the valve modification being professional engineer's work together confirm the theft's method and its operator — the engineer with the tools and the established tank access pattern had performed both the modification and the visits."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🍲",
+        "heading": "Vere's Kitchen",
+        "text": "Thomas Vere had been in the kitchen from six AM until he had gone to call lunch at eleven AM — confirmed by the bread he had been baking, which requires continuous attention from mixing through proving. The bread's timing is consistent with his stated kitchen presence. He had not been in the rendering shed between six and eleven AM. He is definitively cleared.",
+        "alone": "Vere's bread-baking requiring continuous kitchen presence from six to eleven AM confirms he had not left the kitchen. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Bjørnstad cleared in his office and Vere cleared in his kitchen together eliminate both other suspects — Doyle seen walking to the rendering shed at nine AM is the only confirmed movement toward the killing location during the murder window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Stolen Oil's Destination",
+        "text": "The modified valve allowed oil to be drained into portable containers. The station's outbuilding inventory, checked after the investigation, shows four empty twenty-liter drums that had not been on the original inventory. The drums had been acquired mid-season. Doyle had arranged a sale — confirmed by a letter found in his bunk, addressed to a Norwegian intermediary — for the oil to be loaded onto the first supply ship under the manifest of legitimate station waste.",
+        "alone": "Four modified drums and a letter confirming a sale to a Norwegian intermediary confirm the theft had been commercially planned — the oil had been destined for unauthorised sale on the first supply ship.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The valve modified for controlled drainage and the four drums confirming the theft's commercial destination together establish the complete operation — Doyle had modified the valve, drained the oil into drums, and arranged their sale. McRae's log had documented the evidence of all three steps."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Seamus Doyle",
+      "location": "The Rendering Shed",
+      "weapon": "Rendering Mallet"
+    },
+    "epilogue": "Seamus Doyle had been at tank 4 every second day for six weeks. He had modified the valve himself. He had arranged the sale. McRae had been at the tank that morning — earlier than his planned confrontation, perhaps checking the valve one more time before approaching Doyle that evening. Doyle had found him crouching at the modification. He had struck him from behind with the rendering mallet. He had been confined to his quarters for the remaining four months until the supply ship arrived. The Norwegian authorities had prosecuted in Oslo. Doyle had received three years. The supply ship had not carried the drums — they had been confiscated. The oil had been restored to the company's account. McRae's log had been submitted to the company. It had been accurate to the barrel."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #111",
+    "title": "The Station",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Doyle killed McRae and had been running the oil theft for six weeks. But Thomas Vere had read McRae's log — find what Vere had done with that knowledge and why he had not warned McRae about the risk of confronting Doyle.",
+    "emptyState": "Vere read the log. He knew McRae planned to confront Doyle. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Seamus Doyle",
+            "icon": "🔧",
+            "detail": "The killer — valve modification, twice-weekly visits, rendering mallet, three years."
+          },
+          {
+            "name": "Einar Bjørnstad",
+            "icon": "🗺️",
+            "detail": "Cleared as killer — office confirmed. His official ledger had not shown the discrepancy McRae had found."
+          },
+          {
+            "name": "Thomas Vere",
+            "icon": "🍲",
+            "detail": "Cleared as killer — kitchen confirmed. Had read McRae's log and had known about the planned confrontation."
+          },
+          {
+            "name": "The Norwegian Company",
+            "icon": "🐋",
+            "detail": "The employer — whose response to the theft's discovery reveals the institutional context."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Rendering Shed",
+            "icon": "🏭",
+            "detail": "Primary crime scene — Doyle's killing."
+          },
+          {
+            "name": "The Cook's Quarters",
+            "icon": "🍲",
+            "detail": "Where Vere and McRae had shared the log — and where Vere had made his decision."
+          },
+          {
+            "name": "The Reserve Tank Room",
+            "icon": "⚙️",
+            "detail": "Where Doyle had been draining the oil — and where the modification had been installed."
+          },
+          {
+            "name": "Bjørnstad's Office",
+            "icon": "📋",
+            "detail": "Where the official ledger had not shown the discrepancy — and what that means about Bjørnstad."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rendering Mallet",
+            "icon": "🪵",
+            "detail": "Confirmed murder weapon — Doyle's strike from behind."
+          },
+          {
+            "name": "Chain Hook",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Vat Ladle",
+            "icon": "🥄",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Vere's Non-Warning",
+            "icon": "🍲",
+            "detail": "Not a weapon — but his failure to warn McRae about the risk of the confrontation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Eliminate the Witness to the Theft",
+            "icon": "🔧",
+            "detail": "Doyle's motive — log documented the theft, confrontation planned, McRae at the valve."
+          },
+          {
+            "name": "Avoid Conflict in the Isolation",
+            "icon": "🍲",
+            "detail": "Vere's reason for not warning McRae — five months of isolation with a violent man if the confrontation had gone wrong."
+          },
+          {
+            "name": "Protect His Own Comfort",
+            "icon": "🍲",
+            "detail": "Vere's calculation — not wanting to be involved in a dispute that would make the remaining months intolerable."
+          },
+          {
+            "name": "What Vere Had Said to McRae",
+            "icon": "🍲",
+            "detail": "The actual conversation — Vere had said something, but not a warning."
+          },
+          {
+            "name": "Bjørnstad's Official Ledger's Accuracy",
+            "icon": "📋",
+            "detail": "The secondary question — whether Bjørnstad's ledger had been manipulated or simply inadequate."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🍲",
+        "heading": "What Vere Had Said to McRae",
+        "text": "Thomas Vere, in his account to the station's inquiry conducted by Bjørnstad before the supply ship's arrival, says: 'Angus showed me the log two days before. He said he was going to confront Doyle that evening. I told him to be careful — Doyle was a large man with a temper. I didn't tell him not to. I told him to be careful. He said he would be. I thought that was enough.'",
+        "alone": "Vere had told McRae to be careful, not to avoid the confrontation — his warning had been about manner, not about the confrontation itself.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Vere's 'be careful' warning and his acknowledged concern about Doyle's size and temper together confirm he had assessed the physical risk and had not fully communicated it — the warning had been insufficient relative to what he had understood."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🍲",
+        "heading": "Vere's Full Account",
+        "text": "Vere's account continues: 'I didn't warn Angus more strongly because — I was afraid of what it would mean if Doyle knew Angus had found him out and couldn't be confronted directly. Five months in that station with Doyle knowing Angus knew. What would that have been? I told him to be careful and I hoped it would be enough. It wasn't enough.'",
+        "alone": "Vere had calculated that a stronger warning would have created a different problem — five months of volatile tension between McRae and Doyle — and had offered a minimal warning instead.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Vere's isolation calculation and his acknowledgment that the minimal warning had been insufficient together confirm the decision had been motivated by self-preservation in the isolation context — he had prioritised the station's social stability over McRae's physical safety."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Bjørnstad's Official Ledger",
+        "text": "The official oil ledger in Bjørnstad's office is examined against McRae's private measurements. The discrepancy McRae had documented is not apparent in the official ledger. Investigation finds that the official ledger's measurements had been recorded monthly — not the daily measurements McRae had been taking. The monthly measurements had been taken on a day when no drainage had occurred. The ledger was not manipulated — it was simply inadequate as a detection mechanism.",
+        "alone": "Bjørnstad's ledger had not been manipulated — the monthly measurement schedule had been too infrequent to detect the twice-weekly drainage. The theft had been designed around the measurement schedule's gaps.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The ledger's monthly measurements being too infrequent and Doyle visiting tank 4 on alternate days confirm the theft had been calibrated to the detection system's limitations — the twice-weekly drainage had avoided detection by the monthly measurement schedule."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "The Company's Response",
+        "text": "The Norwegian whaling company's response to the theft's discovery had been primarily financial — they had calculated the stolen oil's value (approximately 180 Norwegian kroner) and had deducted it from Doyle's wages. The murder prosecution had been a Norwegian government matter, not a company matter. The company's internal report had described the incident as 'theft discovered through employee initiative and resolved through the legal process.' McRae's name appears in the report as 'the employee whose private records enabled detection.'",
+        "alone": "The company's report had described McRae as 'the employee whose private records enabled detection' — a bureaucratic acknowledgment that had not mentioned that the detection had cost him his life.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The company's financial-focused response and the bureaucratic description of McRae as the detection mechanism together confirm the institutional context — the theft had been a line item and McRae had been its resolution mechanism, without the report acknowledging the chain between them."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "🍲",
+        "heading": "Vere After the Discovery",
+        "text": "Vere had found McRae's body at eleven AM. He had then spent four months confined to the station with Doyle. Bjørnstad had confined Doyle to his quarters under a form of station arrest, but the physical reality of seven men in a small station meant proximity had been unavoidable. Vere's account of those four months: 'I thought about what I had said. What I hadn't said. I made Doyle's meals. I set them outside his door. I didn't speak to him. I counted the days.'",
+        "alone": "Vere had spent four months making Doyle's meals and counting days — the isolation context he had been managing had become the reality he had been trying to avoid.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Vere's calculation that a stronger warning would have created four months of volatile tension and the actual four months of making Doyle's meals in silence together confirm the irony — the situation he had been trying to avoid had been the situation he had ended up in regardless, but without McRae."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🍲",
+        "heading": "Vere's Formal Statement",
+        "text": "The Oslo court had asked Vere whether he bore any responsibility for McRae's death. The court transcript records: 'Witness Vere stated he had warned the deceased to exercise caution but had not counseled the deceased to avoid the confrontation or to report through official channels. The court finds Vere's warning insufficient in retrospect but insufficient warnings do not constitute criminal culpability under Norwegian law as applicable. No action is taken against Vere.'",
+        "alone": "The Oslo court had found Vere's warning insufficient but not criminally culpable — he had not been charged.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Vere's four months of counting days and the court's finding of insufficient warning without criminal culpability together confirm the legal and moral outcomes had diverged — the law had found no charge, and Vere had spent four months with the weight of his insufficient warning."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Doyle's Defense",
+        "text": "Doyle's defense in Oslo had argued that McRae had been discovered at the tank valve interfering with station equipment and that the killing had been a reaction to a perceived threat. The court had rejected the defense — McRae had been crouching at the valve examining it, unarmed, and the single strike from behind had been inconsistent with a reactive defense. Doyle had received three years for manslaughter rather than murder — the deliberation issue had been debated and resolved in his partial favor.",
+        "alone": "Doyle received three years for manslaughter — the court had found insufficient evidence of premeditation for a murder conviction, despite the single strike from behind.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Doyle's theft calibrated to the ledger's monthly measurement gaps and the court finding insufficient premeditation for murder together present the irony — the theft had been carefully planned around detection systems, but the killing had been assessed as insufficiently planned for the higher charge."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "Grytviken Today",
+        "text": "Grytviken whaling station ceased operations in 1965. The station's ruins remain on South Georgia, maintained as a heritage site. The oil vats are still there. Tank 4's modified valve was documented in the station's historical records as 'site of a 1923 industrial incident.' Ernest Shackleton is buried in the Grytviken cemetery, having died there in 1922 — the year before McRae. The heritage site's visitor information does not mention either man. The rendering shed still stands.",
+        "alone": "The rendering shed still stands. Tank 4's modified valve is documented as 'a 1923 industrial incident.' Shackleton is buried nearby. The visitor information mentions neither.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The company describing McRae as 'the employee whose private records enabled detection' and the heritage site describing the killing as 'an industrial incident' together confirm the full historical erasure — the murder, the theft, and the man had all been absorbed into categories that made them administratively manageable and historically invisible."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Seamus Doyle",
+      "location": "The Rendering Shed",
+      "weapon": "Rendering Mallet",
+      "motive": "Eliminate the Witness to the Theft"
+    },
+    "epilogue": "Thomas Vere had told McRae to be careful and had hoped it would be enough. It had not been enough. He had spent four months setting meals outside Doyle's door and counting days. The court had found no criminal culpability. He had returned to Scotland on the supply ship and had not spoken about it publicly. The rendering shed had stood for another forty years. The heritage site had described the killing as an industrial incident. McRae's log had been accurate to the barrel. The company report had described him as the detection mechanism. Vere had been eighty-one when he had died in 1962. Whether he had still been counting is not recorded."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #111",
+    "title": "The Station",
+    "setting": "Grytviken Whaling Station · South Georgia · 1923",
+    "emoji": "🐋",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Doyle killed McRae. Vere gave an insufficient warning. But Bjørnstad had noticed the tank 4 discrepancy himself two weeks before — find what he had done with that observation and why he had not investigated.",
+    "emptyState": "Bjørnstad noticed the discrepancy two weeks before McRae was killed. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Seamus Doyle",
+            "icon": "🔧",
+            "detail": "The killer — modified valve, twice-weekly visits, rendering mallet, three years."
+          },
+          {
+            "name": "Thomas Vere",
+            "icon": "🍲",
+            "detail": "Cleared as killer — kitchen confirmed. 'Be careful.' Four months of meals. Not charged."
+          },
+          {
+            "name": "Einar Bjørnstad",
+            "icon": "🗺️",
+            "detail": "Cleared as killer — office confirmed. Had noticed the discrepancy two weeks before and had not investigated."
+          },
+          {
+            "name": "The Company's Measurement System",
+            "icon": "📋",
+            "detail": "The institutional vulnerability — whose monthly-measurement design had enabled the theft and Bjørnstad's non-investigation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Rendering Shed",
+            "icon": "🏭",
+            "detail": "Primary crime scene."
+          },
+          {
+            "name": "Bjørnstad's Office",
+            "icon": "📋",
+            "detail": "Where the official ledger had not shown the full discrepancy — and where Bjørnstad had made his private note."
+          },
+          {
+            "name": "The Reserve Tank Room",
+            "icon": "⚙️",
+            "detail": "Where the theft had been occurring — and which Bjørnstad had not inspected after his observation."
+          },
+          {
+            "name": "The Company Archive in Oslo",
+            "icon": "🐋",
+            "detail": "Where Bjørnstad's private observation note was found — decades later, in the company's records."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rendering Mallet",
+            "icon": "🪵",
+            "detail": "Confirmed murder weapon — Doyle's."
+          },
+          {
+            "name": "Chain Hook",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Vat Ladle",
+            "icon": "🥄",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Bjørnstad's Private Note",
+            "icon": "📋",
+            "detail": "Not a weapon — but the record of his observation two weeks before that he had chosen not to investigate."
+          },
+          {
+            "name": "The Monthly Measurement System",
+            "icon": "📋",
+            "detail": "Not a weapon — the institutional design that had enabled both the theft and the non-investigation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Eliminate the Witness to the Theft",
+            "icon": "🔧",
+            "detail": "Doyle's motive — three years."
+          },
+          {
+            "name": "Avoid Disrupting the Station's Function",
+            "icon": "🗺️",
+            "detail": "Bjørnstad's reason for not investigating — Doyle was the only engineer, five months from rescue."
+          },
+          {
+            "name": "Bjørnstad's Private Note",
+            "icon": "📋",
+            "detail": "What Bjørnstad had done with his observation — written it down and not acted on it."
+          },
+          {
+            "name": "The Engineer's Irreplaceability in Isolation",
+            "icon": "🔧",
+            "detail": "The constraint that had driven Bjørnstad's calculation — confronting Doyle without being able to remove him."
+          },
+          {
+            "name": "The Company's Response to Bjørnstad's Non-Investigation",
+            "icon": "🐋",
+            "detail": "What the company had done when the private note was found — the institutional accountability question."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed McRae and Modified the Valve",
+            "icon": "🔧",
+            "detail": "Doyle's confirmed role — three years."
+          },
+          {
+            "name": "Gave an Insufficient Warning",
+            "icon": "🍲",
+            "detail": "Vere's role — 'be careful,' four months, not charged."
+          },
+          {
+            "name": "Noticed the Discrepancy and Did Not Investigate",
+            "icon": "📋",
+            "detail": "Bjørnstad's role — private note, non-investigation, the institutional constraint."
+          },
+          {
+            "name": "Designed the Monthly Measurement System",
+            "icon": "🐋",
+            "detail": "The company's systemic role — the measurement frequency that had enabled the theft's concealment."
+          },
+          {
+            "name": "Found the Private Note Decades Later",
+            "icon": "📋",
+            "detail": "The company archivist's role — the discovery that had assembled the full picture."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Bjørnstad's Private Note",
+        "text": "A company archive examination in 1947 — when the company had been reviewing historical station records for a corporate history project — finds a handwritten note in Bjørnstad's personal station log, dated two weeks before McRae's death: 'Informal tank 4 estimate suggests possible shortfall versus last month's measurement. Too early to determine cause — evaporation, measurement error, or other. Doyle responsible for maintenance of all vats. Will monitor before raising.' The note had not been shared with the company or with any other station member.",
+        "alone": "Bjørnstad had noticed a possible tank 4 shortfall two weeks before McRae's death and had written 'will monitor before raising' — he had chosen observation over investigation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Bjørnstad noting a potential shortfall and choosing to monitor before raising it and the full theft being in progress for six weeks by that point together confirm he had been observing a situation that had been ongoing — the monitoring decision had allowed two more weeks of theft before McRae had independently found the same discrepancy."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Bjørnstad Had Not Investigated",
+        "text": "Bjørnstad's station journal — also found in the company archive — contains a longer entry from the same week as the private note: 'If Doyle is responsible for a shortfall and I raise it formally, what then? He is the only engineer. Five months until the ship. Without him, the boilers risk failure. In winter. I cannot confront a man I cannot remove. I will watch and document. When the ship comes, I will report.'",
+        "alone": "Bjørnstad had explicitly reasoned through the isolation constraint — Doyle's irreplaceability as the only engineer had made formal confrontation too risky in the isolation context.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Bjørnstad's explicit reasoning about Doyle's irreplaceability and Vere's parallel calculation about five months of isolation both driving non-action together confirm the isolation context had shaped two separate people's decisions not to confront Doyle — both had assessed the same constraint and had made the same type of calculation."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Company's Response to the Private Note",
+        "text": "When the 1947 archive examination found Bjørnstad's private note, the company conducted an internal review. The review's finding: 'Bjørnstad's 1923 observation had been operationally justified given the isolation constraints. His decision to monitor rather than confront reflected sound judgment given the station's five-month isolation from external authority. No retrospective action recommended.' Bjørnstad had died in 1939. The finding had been made eight years after his death.",
+        "alone": "The company had found Bjørnstad's non-investigation operationally justified eight years after his death — the isolation constraint had been accepted as sufficient justification.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The company finding Bjørnstad's non-investigation justified and the Oslo court finding Vere's insufficient warning non-culpable together confirm both the legal and institutional systems had absorbed the non-actions without accountability — only Doyle had faced legal consequence."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "The Measurement System's Design",
+        "text": "The company archive's 1947 review also examined the measurement system that had enabled the theft. Its finding: 'The monthly measurement schedule had been designed for administrative efficiency rather than theft detection. The eleven-barrel discrepancy McRae had documented would not have been detectable under the monthly system without the private daily measurements he had taken. Recommendation: daily measurements for reserve tanks at all stations.' The recommendation had been implemented in 1948.",
+        "alone": "The monthly measurement schedule had been designed for administrative efficiency and had enabled six weeks of undetected theft — the daily measurement recommendation had been implemented twenty-five years after McRae had documented the same solution privately.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "McRae taking daily measurements privately that had detected what the official monthly system had missed and the company implementing daily measurements in 1948 confirm the solution McRae had developed independently had become the institutional standard — implemented twenty-five years after his death, without crediting him."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📖",
+        "heading": "McRae's Log and Bjørnstad's Note",
+        "text": "McRae's private log and Bjørnstad's private note represent two independent observers reaching the same conclusion about tank 4 within two weeks of each other. McRae had found the discrepancy through daily measurement. Bjørnstad had found it through informal estimation. Both had documented it privately. Neither had told the other. Both had made independent decisions about what to do with the observation — McRae to confront, Bjørnstad to monitor. Only one of them had survived the summer.",
+        "alone": "Two people had independently noticed the same discrepancy and had documented it privately without telling each other — one had confronted, one had monitored, and the one who had confronted had been killed.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Bjørnstad choosing to monitor and McRae choosing to confront with the same underlying observation and the confrontation being the fatal choice together confirm the divergence in their decisions had determined who had lived — the isolation calculation had protected Bjørnstad, and the confrontation decision had killed McRae."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Full Non-Investigation Chain",
+        "text": "The investigation identifies three separate non-investigations of tank 4: Bjørnstad had noticed a discrepancy and had chosen to monitor. Vere had read McRae's log and had given a minimal warning. The company's monthly measurement system had been structurally incapable of detecting the discrepancy. All three had failed to prevent the outcome. The Oslo court had found only Doyle culpable. The company review had found all three non-investigations justified within their respective constraints.",
+        "alone": "Three non-investigations — one managerial, one interpersonal, one systemic — had each been found justified within its context while collectively producing the conditions for a killing.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The company finding Bjørnstad's non-investigation justified and the court finding Vere's warning insufficient but not culpable together confirm the full accountability gap — the three non-investigations had been individually defensible and collectively fatal, and no individual had been held responsible for the combination."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "What the 1947 Review Had Not Done",
+        "text": "The 1947 corporate history review had found Bjørnstad's private note, had assessed the non-investigation as justified, had recommended the daily measurement schedule, and had closed the review. It had not connected Bjørnstad's two-week-earlier observation to the specific chain of events that had led to McRae's death — whether an investigation by Bjørnstad two weeks earlier would have prevented the confrontation, and whether the confrontation had been what had led to the killing. The review had not asked the counterfactual.",
+        "alone": "The 1947 review had not asked whether Bjørnstad's two-week-earlier investigation could have prevented the killing — the counterfactual had not been examined.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Bjørnstad and McRae reaching the same conclusion independently within two weeks and the 1947 review not asking the counterfactual together confirm the historical examination's limit — the full picture had been assembled without asking the question that mattered most."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🐋",
+        "heading": "The Rendering Shed Today",
+        "text": "The Grytviken rendering shed is one of the few surviving structures from the station's operational period. Conservation work in 2008 documented the equipment still present in the shed, including copper vats and the chain system. Tank 4's valve was documented as 'modified for secondary drainage — purpose unclear.' The conservation report does not mention the 1923 incident. The shed is described as 'a significant example of early twentieth century Antarctic industrial heritage.' McRae's name is not in the report. The daily measurement recommendation was implemented in 1948 and remains standard practice. It has his method without his name.",
+        "alone": "The conservation report describes tank 4's modified valve without noting its history. The daily measurement standard has McRae's method without his name. The rendering shed stands.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "McRae's daily measurement method becoming the standard in 1948 and the conservation report not connecting the valve modification to the killing together confirm the historical absences — the solution had survived without the man, and the location had been preserved without the story."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Seamus Doyle",
+      "location": "The Rendering Shed",
+      "weapon": "Rendering Mallet",
+      "motive": "Eliminate the Witness to the Theft",
+      "accomplice": "Noticed the Discrepancy and Did Not Investigate"
+    },
+    "epilogue": "Bjørnstad had written 'will monitor before raising' and had watched for two weeks while the theft continued. McRae had been taking daily measurements and had found the same discrepancy independently. Neither had told the other. Bjørnstad had been in his office on the morning of the killing, writing the monthly report. Vere had been in the kitchen, baking bread. Doyle had been walking to the rendering shed at nine AM. McRae had been crouching at the modified valve. The rendering shed still stands. Tank 4's valve is documented as 'purpose unclear.' The daily measurement recommendation had been implemented in 1948. It has McRae's method without his name. Bjørnstad died in 1939. Vere died in 1962. Doyle served three years and is not in the historical record after 1926. The rendering shed is described as significant industrial heritage. The conservation report does not mention the morning of the killing. It was a cold morning. It is always cold there."
+  }
+}

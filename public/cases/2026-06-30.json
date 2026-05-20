@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Kenya, 1962. A safari lodge on the eve of independence. A British colonial officer dead in the bush. And a handover that someone needed to delay. 🦁🔍 Case #103 — The Crossing. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Kenya 1962, the last weeks of colonial rule, a dead British officer at a safari lodge, and someone who needed independence delayed by any means. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1962 Kenya safari lodge at dusk, thatched roof and stone walls, a wicker chair overturned on the veranda, a gin and tonic glass shattered on the stone floor, the African savannah stretching beyond the veranda rail with a lone acacia tree silhouetted against the orange sky. Colonial twilight, the end of something. Style of Karen Blixen meets Ernest Hemingway.",
+    "animationPrompt": "Slow pan across a 1962 Kenya safari lodge veranda at dusk. Thatched roof. Stone walls. A wicker chair overturned. The camera finds a shattered gin glass on the stone floor. Beyond the veranda rail: the savannah. An acacia tree silhouetted against orange sky. The end of the day. The end of something else. Fade to black.",
+    "hashtags": [
+      "#Kenya1962",
+      "#AfricanMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #103",
+    "title": "Dusk Safari",
+    "setting": "Thornwood Safari Lodge · Rift Valley · Kenya · 1962",
+    "emoji": "🦁",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "District Commissioner Arthur Pembridge was found dead on the lodge veranda at dusk — three weeks before Kenya's independence date. He had been carrying transfer documents for the final handover of administrative authority. Three people at the lodge had reasons to want the handover delayed or derailed. The documents were missing.",
+    "emptyState": "Three weeks to independence. The handover documents are gone. Find who took them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Edward Harlow",
+            "icon": "🌿",
+            "detail": "A white settler farmer — stood to lose his land under the new government's redistribution policy."
+          },
+          {
+            "name": "Grace Kimani",
+            "icon": "📋",
+            "detail": "A Kenyan civil servant — had been working with Pembridge on the handover and knew the documents' contents."
+          },
+          {
+            "name": "Colonel Ian Strete",
+            "icon": "🎖️",
+            "detail": "A British Army officer stationed at the lodge — had been opposing the handover timeline in official communications."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Lodge Veranda",
+            "icon": "🌿",
+            "detail": "Where Pembridge was found — overturned chair, shattered glass, documents missing."
+          },
+          {
+            "name": "The Bush Track",
+            "icon": "🦁",
+            "detail": "The path behind the lodge — where footprints led from the veranda toward the vehicle track."
+          },
+          {
+            "name": "The Lodge Office",
+            "icon": "📋",
+            "detail": "Where Pembridge had been working that afternoon — and where the document copies were kept."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "A single shot — the revolver found in the bush twenty metres from the veranda, consistent with Pembridge's wound."
+          },
+          {
+            "name": "Veranda Rail",
+            "icon": "🪵",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Gin Bottle",
+            "icon": "🍶",
+            "detail": "No blood trace on the intact bottle — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Documents",
+        "text": "Pembridge had been carrying a leather document case containing the final administrative transfer schedule — land registry confirmations, civil service appointment ratifications, and constitutional handover certificates. All were missing. The document case's lock had been forced. A lodge staff member confirms the case had been on the veranda table when Pembridge had been sitting with his sundowner drink. The documents represented an irreplaceable original set.",
+        "alone": "The original handover documents had been forcibly taken from the document case on the veranda — without them, the handover process would face significant administrative delay.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The handover documents taken and Edward Harlow's confirmed desperate financial position facing land redistribution together establish a motive specifically connected to the documents' content — the land registry confirmations had been among the documents taken."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Service Revolver",
+        "text": "The revolver found twenty metres from the veranda in the bush is a standard British Army issue — its serial number traces to Colonel Strete's regiment's stores. The weapon had been signed out and not returned. The wound on Pembridge is consistent with its calibre. Strete had a missing service revolver that he had reported stolen two days before the killing.",
+        "alone": "The murder weapon traced to Strete's regimental stores — he had reported it stolen two days before, but the timing of the report raises the question of whether the theft report had been a pre-emptive cover.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The revolver tracing to Strete's regimental stores and his pre-killing theft report creating a prepared cover together place the weapon in his sphere and the cover story in his timeline — two days before the killing had been enough time to report a theft that had not yet been committed."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Grace Kimani's Evening",
+        "text": "Grace Kimani had been in the lodge office from five PM until seven PM, finalizing the handover schedule with two junior staff members who remained with her throughout. The veranda killing had occurred at approximately six-thirty PM. She had not been on the veranda. She is definitively cleared.",
+        "alone": "Grace had been in the lodge office from five to seven PM with two junior staff members — confirmed throughout the murder window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Grace cleared in the lodge office and Edward Harlow confirmed at the lodge bar until six PM together establish the last confirmed movements before the killing window — only Strete's whereabouts between six and seven PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Strete's Official Opposition",
+        "text": "Strete's communications with London — obtained from the district office files — show a pattern of formal objections to the handover timeline: three memos in six weeks arguing the administrative transfer was proceeding 'without adequate security guarantees for remaining British personnel and property interests.' His final memo, sent four days before the killing: 'I cannot in good conscience certify the handover schedule as currently constituted without significant modification.'",
+        "alone": "Strete had formally and repeatedly opposed the handover timeline — his final memo four days before the killing had refused to certify the schedule he had then been present when its administrator was killed.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Strete's formal refusal to certify the handover schedule four days before and Pembridge's handover documents going missing at the killing confirm his official opposition had a specific administrative dimension — the documents' disappearance would have achieved exactly the delay his memos had been demanding."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Harlow's Financial Desperation",
+        "text": "Lodge staff confirm Harlow had been drinking heavily that afternoon and had argued with Pembridge at lunch about the land redistribution policy — he had told Pembridge the land confirmations in the documents would 'steal his family's farm.' Pembridge had told him the policy was settled. Harlow had gone to the bar at six PM and had been there until six-forty-five PM — confirmed by the barman. His movements after six-forty-five are unconfirmed until seven PM when he had returned to the bar.",
+        "alone": "Harlow had a fifteen-minute unconfirmed window from six-forty-five to seven PM — and had argued with Pembridge specifically about the land documents that had been taken.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The land registry confirmations taken among the documents and Harlow's argument specifically about the land documents at lunch together establish his targeted interest in that specific document's disappearance — but his confirmed bar presence from six PM limits his window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎖️",
+        "heading": "The Revolver's Theft Report",
+        "text": "Strete's theft report for the missing revolver — filed two days before the killing — describes it as taken from his unlocked vehicle while he had been at a Nairobi meeting. The vehicle log shows he had been at the Nairobi meeting — but a lodge staff member confirms Strete had returned to the lodge that same evening with his vehicle and had gone directly to his room. He had had access to the vehicle throughout the reported theft window.",
+        "alone": "Strete had returned to the lodge after the Nairobi meeting on the day he had reported the revolver stolen — the theft report's timeline was inconsistent with his actual movements.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The revolver tracing to Strete's stores and his theft report's timeline being inconsistent with his confirmed movements confirm the theft report had been prepared to cover the weapon's use — filed two days before as a pre-emptive alibi for a killing that had been planned."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Strete's Missing Hour",
+        "text": "Strete claims he had been in his room from five-thirty PM until he heard the alarm at seven PM. No one confirms his presence in his room during this window — his batman had been off duty. The lodge's night watchman confirms he had seen a figure in British military dress on the bush track behind the veranda at approximately six-twenty PM — walking toward the veranda from the direction of the bush.",
+        "alone": "The night watchman had seen a figure in British military dress on the bush track at six-twenty PM — approaching the veranda from the direction of the bush during the murder window.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Strete's unconfirmed room alibi and the night watchman seeing a military-dressed figure on the bush track approaching the veranda at six-twenty PM together place a military officer at the scene during the murder window — and Strete is the only British military officer at the lodge."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Documents' Consequence",
+        "text": "With the original handover documents missing, the administrative handover process required six weeks of document reconstruction — copies existed in Nairobi, but authentication of the originals took precedence under the constitutional framework. The independence date was delayed by three weeks. Strete's final memo had demanded significant modification to the handover schedule. The documents' disappearance had achieved a three-week delay — less than he had demanded, but a delay nonetheless.",
+        "alone": "The missing documents had caused a three-week delay in the handover — exactly the kind of administrative disruption Strete's memos had been demanding.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The revolver's pre-emptive theft report and the documents' disappearance achieving the delay Strete's memos had demanded confirm the killing had been planned to produce a specific administrative outcome — the pre-filed theft report had been the preparation, the delay had been the result."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Ian Strete",
+      "location": "The Lodge Veranda",
+      "weapon": "Service Revolver"
+    },
+    "epilogue": "Colonel Ian Strete had filed the theft report two days before, had taken the bush track to the veranda at six-twenty PM, had shot Pembridge, had taken the document case, and had returned through the bush. The three-week delay in the handover had followed. Kenya became independent on December 12th, 1963. Strete had been investigated but not charged — the night watchman's identification of a military figure had been found insufficient for prosecution without the weapon's fingerprints, which had been wiped. Edward Harlow had lost his farm under the redistribution policy regardless. Grace Kimani had served in the independent Kenyan civil service until 1991. The documents had been reconstructed. The acacia tree on the savannah had not moved."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #103",
+    "title": "Dusk Safari",
+    "setting": "Thornwood Safari Lodge · Rift Valley · Kenya · 1962",
+    "emoji": "🦁",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Strete killed Pembridge and took the documents. But Grace Kimani had seen Strete return through the bush from her office window — and had not reported it. Find what Grace had seen and why she had stayed silent.",
+    "emptyState": "Grace saw Strete return through the bush. She said nothing. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Ian Strete",
+            "icon": "🎖️",
+            "detail": "The killer — pre-filed theft report, bush track approach, document case taken, three-week delay."
+          },
+          {
+            "name": "Grace Kimani",
+            "icon": "📋",
+            "detail": "Cleared as killer — lodge office confirmed. Had seen Strete return through the bush and had not reported it."
+          },
+          {
+            "name": "Edward Harlow",
+            "icon": "🌿",
+            "detail": "Cleared as killer — bar confirmed until six-forty-five. Lost his farm regardless."
+          },
+          {
+            "name": "The Nairobi Administration",
+            "icon": "🏛️",
+            "detail": "The institutional context — whose response to the killing and the delay reveals the political stakes."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Lodge Veranda",
+            "icon": "🌿",
+            "detail": "Primary crime scene — Strete's killing of Pembridge."
+          },
+          {
+            "name": "The Lodge Office",
+            "icon": "📋",
+            "detail": "Grace's confirmed location — with a window view of the bush track."
+          },
+          {
+            "name": "The Bush Track",
+            "icon": "🦁",
+            "detail": "Where the night watchman had seen the military figure and where Grace's office window overlooked."
+          },
+          {
+            "name": "The Nairobi Administration",
+            "icon": "🏛️",
+            "detail": "Where the documents' reconstruction had been managed and where Grace's career continued."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Strete's, pre-filed theft report, wiped fingerprints."
+          },
+          {
+            "name": "Veranda Rail",
+            "icon": "🪵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Gin Bottle",
+            "icon": "🍶",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Grace's Silence",
+            "icon": "📋",
+            "detail": "Not a weapon — but her non-disclosure had allowed Strete to escape investigation without a second witness account."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Delay the Handover",
+            "icon": "🎖️",
+            "detail": "Strete's operational motive — three memos, pre-filed report, documents taken."
+          },
+          {
+            "name": "Protect the Handover's Integrity",
+            "icon": "📋",
+            "detail": "Grace's professional commitment — she had worked on the handover for two years."
+          },
+          {
+            "name": "Protect Herself From Strete",
+            "icon": "📋",
+            "detail": "Grace's reason for silence — Strete had seen her in the window and had made a specific gesture."
+          },
+          {
+            "name": "The Window Observation",
+            "icon": "📋",
+            "detail": "What Grace had witnessed — Strete returning through the bush at six-thirty PM."
+          },
+          {
+            "name": "Strete's Awareness of Being Observed",
+            "icon": "🎖️",
+            "detail": "The crucial element — Strete had looked up at the office window as he passed."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Grace Saw From Her Window",
+        "text": "Grace Kimani, in a private account given to a Kenyan historical commission in 1990, reveals: 'At approximately six-thirty PM I looked up from my work and saw Colonel Strete walking quickly along the bush track toward the lodge. He was carrying Pembridge's document case. He looked up at my window as he passed. He stopped walking. He looked at me for perhaps three seconds. Then he continued walking.' She had seen Strete with the document case and he had seen her see him.",
+        "alone": "Grace had seen Strete carrying the document case on the bush track at six-thirty PM — and Strete had seen her seeing him. Three seconds of eye contact.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Grace seeing Strete with the documents and Strete seeing her in the window and stopping confirm he had been aware of her witness status from the moment of the killing — the three-second pause had been a communication."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What the Three Seconds Had Meant",
+        "text": "Grace's 1990 account continues: 'I understood what the look meant. Colonel Strete was a man who had opposed everything we had worked for. He had resources I did not. He was British military. I was a Kenyan civil servant three weeks before independence. I understood that if I spoke, I would need to be believed. And I was not certain I would be believed over a British colonel in 1962.' She had calculated the institutional power differential and had stayed silent.",
+        "alone": "Grace had understood Strete's look as an implicit threat and had assessed the institutional power differential — a Kenyan civil servant's word against a British colonel's in colonial Kenya three weeks before independence.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Grace's power differential calculation and the investigation's actual outcome — Strete not charged despite the night watchman's account — confirm her assessment had been accurate. A second witness had not guaranteed a conviction."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Grace's Career After Independence",
+        "text": "Grace Kimani served in the independent Kenyan civil service from independence in 1963 until her retirement in 1991. She rose to Permanent Secretary of Administration — the position Pembridge had been preparing to transfer to Kenyan hands. She had carried out the work Pembridge had died doing. She had not spoken publicly about the killing until the 1990 historical commission, which had sought her account specifically.",
+        "alone": "Grace had risen to the position the handover had been designed to create — she had carried out the work, had not spoken about the killing for twenty-eight years, and had given her account only when specifically sought.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Grace serving twenty-eight years in the role the handover had created and giving her account only in 1990 confirm her silence had been a professional as well as a personal calculation — she had chosen to do the work rather than fight the institutional battle her witness account would have required."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Strete's Post-Kenya Career",
+        "text": "Colonel Ian Strete had been transferred to Cyprus in January 1963 — one month after Kenya's independence. His personnel file shows no disciplinary action related to the Pembridge killing. He had retired from the Army in 1967 and had died in 1981. Grace's 1990 historical commission account had been published in 1992 — eleven years after Strete's death. He had never faced the account she had given.",
+        "alone": "Strete had been transferred, retired, and died before Grace's account was published — he had never faced a public record of her witness account.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Strete dying in 1981 and Grace's account published in 1992 confirm the timing's final irony — she had waited long enough that the man she had feared would not be believed over could no longer respond."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1990 Commission's Finding",
+        "text": "The Kenyan Historical Commission's 1992 report includes a section on the Pembridge killing. It describes the investigation's failure to charge Strete as 'consistent with the institutional power dynamics of the final colonial period, in which local witness accounts were routinely assessed as less credible than British military denials.' The commission does not formally name Strete as the killer — it describes the evidence as 'strongly indicative but not conclusively established in the historical record.'",
+        "alone": "The 1992 report finds the evidence strongly indicative but not conclusive — the commission stops short of a formal historical finding against Strete.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Grace's 1962 calculation that she would not be believed over a British colonel and the 1992 commission finding the evidence strongly indicative but not conclusive confirm her assessment had been prophetically accurate even thirty years later."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Night Watchman's Account's Fate",
+        "text": "The night watchman's account of the military figure on the bush track — given to Kenyan police in 1962 — had been included in the investigation file but had been assessed by the British investigating officer as 'insufficient for identification purposes — military dress observed at dusk from a distance of forty metres.' The account had been in the file and had not been acted upon. Grace's window observation, had it been given, would have added specific identification at closer range — but she had not given it.",
+        "alone": "The night watchman's account had been assessed as insufficient and not acted upon — Grace's closer window observation had been the specific identification the investigation had lacked.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Grace calculating she would not be believed and the night watchman's account being assessed as insufficient confirm the investigation's actual evidentiary gap — her window observation had been exactly what the investigation had needed and had not received."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Grace's Statement to the Commission",
+        "text": "Grace's 1990 statement to the commission ends: 'I saw Colonel Strete. He saw me. I made my calculation. I went back to work. I finished the handover schedule that Pembridge had been working on. The handover happened — three weeks late, but it happened. I became the Permanent Secretary. I did the work. I do not know if that was the right choice. I know it was the choice I made.' She does not ask for absolution. She describes what she did.",
+        "alone": "Grace describes her choice without asking for absolution — she had made a calculation, had done the work, and had described both without claiming either was the only possible response.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Grace serving twenty-eight years in the role the handover created and her 1990 statement not asking for absolution confirm the moral weight she had carried — not forgiveness sought, but work done and a choice described."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🦁",
+        "heading": "The Lodge Today",
+        "text": "Thornwood Safari Lodge continued operating until 1978, when it was converted to a national parks administration office. The veranda where Pembridge had been found was incorporated into the office building. The acacia tree on the savannah was still visible from the office window in 1992 when the commission investigators visited the site. The bush track had become overgrown. The office window from which Grace had watched Strete pass still faced the track's direction. The three seconds of eye contact had occurred sixty metres from where the commission investigators stood.",
+        "alone": "The lodge's veranda is now part of an office building. The acacia tree is still there. The window still faces the bush track's direction. The commission had stood sixty metres from the three seconds of eye contact.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The 1992 commission finding evidence strongly indicative but not conclusive and the investigators standing sixty metres from the site confirm the full historical distance — the evidence had been assembled, the site had been visited, and the formal finding had still stopped short of naming Strete as the killer in the record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Ian Strete",
+      "location": "The Lodge Veranda",
+      "weapon": "Service Revolver",
+      "motive": "Delay the Handover"
+    },
+    "epilogue": "Grace Kimani had seen Strete at six-thirty PM carrying the document case. He had seen her. She had made her calculation and had gone back to work. The investigation had found the night watchman's account insufficient. Strete had been transferred to Cyprus. The handover had been delayed three weeks and had then happened. Grace had become Permanent Secretary. She had done the work for twenty-eight years. In 1990 she had given her account to the commission. It had been published in 1992, eleven years after Strete's death. The commission's finding had been strongly indicative but not conclusive. The acacia tree had been there for all of it. The bush track had grown over. The window still faced the right direction."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #103",
+    "title": "Dusk Safari",
+    "setting": "Thornwood Safari Lodge · Rift Valley · Kenya · 1962",
+    "emoji": "🦁",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Strete killed Pembridge. Grace saw and stayed silent. But Edward Harlow had also seen something during his fifteen-minute unconfirmed window — and had made a different calculation about what to do with it.",
+    "emptyState": "Harlow's fifteen minutes are unconfirmed. Find what he saw and what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Ian Strete",
+            "icon": "🎖️",
+            "detail": "The killer — bush track, revolver, documents, three-week delay, died 1981."
+          },
+          {
+            "name": "Grace Kimani",
+            "icon": "📋",
+            "detail": "Cleared as killer — three-second eye contact, twenty-eight years of work, 1990 account."
+          },
+          {
+            "name": "Edward Harlow",
+            "icon": "🌿",
+            "detail": "Cleared as killer — bar confirmed until six-forty-five. His fifteen unconfirmed minutes had a specific content."
+          },
+          {
+            "name": "The Nairobi Administration",
+            "icon": "🏛️",
+            "detail": "The institutional context — whose response to Harlow's account reveals how it had been handled."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Lodge Veranda",
+            "icon": "🌿",
+            "detail": "Primary crime scene — Strete's killing."
+          },
+          {
+            "name": "The Bar",
+            "icon": "🍶",
+            "detail": "Harlow's confirmed location until six-forty-five — and where he had returned at seven PM."
+          },
+          {
+            "name": "The East Side Path",
+            "icon": "🌿",
+            "detail": "Where Harlow had gone during his fifteen minutes — and what he had seen from there."
+          },
+          {
+            "name": "The District Office",
+            "icon": "📋",
+            "detail": "Where Harlow had gone the following morning — and what he had reported there."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Revolver",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Strete's."
+          },
+          {
+            "name": "Veranda Rail",
+            "icon": "🪵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Gin Bottle",
+            "icon": "🍶",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Harlow's Report",
+            "icon": "🌿",
+            "detail": "Not a weapon — but what he had done with his fifteen minutes' observation, and what had happened to his report."
+          },
+          {
+            "name": "The District Office's Response",
+            "icon": "📋",
+            "detail": "Not a weapon — but the institutional handling of Harlow's account that had determined its impact."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Delay the Handover",
+            "icon": "🎖️",
+            "detail": "Strete's motive — three memos, revolver, documents, three weeks."
+          },
+          {
+            "name": "Power Differential Calculation",
+            "icon": "📋",
+            "detail": "Grace's reason for silence — Strete saw her, she calculated, she worked."
+          },
+          {
+            "name": "Report What He Saw",
+            "icon": "🌿",
+            "detail": "Harlow's decision — unlike Grace, he had reported his observation to the district office."
+          },
+          {
+            "name": "The Report's Institutional Fate",
+            "icon": "📋",
+            "detail": "What happened to Harlow's account — the district office's handling of a white settler's report against a British colonel."
+          },
+          {
+            "name": "Harlow's Own Interest Complicating the Report",
+            "icon": "🌿",
+            "detail": "Why the report had been dismissed — Harlow's known opposition to the handover had made his witness account politically ambiguous."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Pembridge and Took the Documents",
+            "icon": "🎖️",
+            "detail": "Strete's confirmed role."
+          },
+          {
+            "name": "Saw Strete and Made a Calculation",
+            "icon": "📋",
+            "detail": "Grace's role — silent for twenty-eight years, 1990 account."
+          },
+          {
+            "name": "Saw Something During His Fifteen Minutes and Reported It",
+            "icon": "🌿",
+            "detail": "Harlow's role — reported to the district office the following morning."
+          },
+          {
+            "name": "Filed the Report and Did Not Follow It Up",
+            "icon": "📋",
+            "detail": "The district office's role — received Harlow's account and assessed it as politically compromised."
+          },
+          {
+            "name": "Had His Account Dismissed Due to His Own Opposition to the Handover",
+            "icon": "🌿",
+            "detail": "Harlow's ironic position — his anti-handover politics had undermined the credibility of a genuine witness account."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "What Harlow Saw",
+        "text": "Harlow, in an account given to the 1990 historical commission, reveals he had left the bar at six-forty-five PM and had walked to the east side path — a garden path on the lodge's eastern side — for air, having drunk heavily. From the path he had seen Strete emerge from the bush track carrying a document case at approximately six-fifty PM and enter the lodge through the side door. He had recognized Pembridge's document case by its distinctive brass fittings.",
+        "alone": "Harlow had seen Strete emerge from the bush track with Pembridge's document case at six-fifty PM — he had recognized the case by its brass fittings.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Harlow seeing Strete with the document case at six-fifty and reporting it the following morning confirm he had done what Grace had not — but the institutional response had treated the two accounts differently based on the witnesses' political positions."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "What Harlow Did With What He Saw",
+        "text": "Harlow had gone to the district office in Nakuru the following morning and had given a written statement: 'I saw Colonel Strete emerge from the bush track at approximately six-fifty PM carrying what I recognized as Mr. Pembridge's document case.' The statement was received by the district administrator, a British official named Graves. Graves had filed it under 'witness accounts — to be assessed.' It had not been forwarded to the investigating officer.",
+        "alone": "Harlow had given a written statement and it had been filed without being forwarded to the investigating officer — it had been received and administratively buried.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Harlow's statement filed without being forwarded and Graves's assessment rationale confirming the political compromise confirm the institutional handling — a British official had received a report implicating a British colonel from a settler known to oppose the handover and had decided the account's political context undermined its evidentiary value."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why the District Office Had Not Forwarded It",
+        "text": "Graves's file note on Harlow's statement, found in the district office archive in 1989: 'Harlow account received. Harlow known opponent of handover policy. Account accuses British military officer. Political motivation cannot be excluded. Account not forwarded pending further assessment.' The further assessment had never been conducted. The statement had sat in the file for twenty-seven years.",
+        "alone": "Graves had assessed Harlow's account as politically compromised by his anti-handover stance and had not forwarded it — the assessment had never been followed up.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Graves finding Harlow's political opposition a reason to withhold the account and the historical commission later finding the evidence strongly indicative confirm the institutional calculation — two witness accounts had existed, both had been either suppressed or ungiving, and neither had been combined to form the complete picture."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Harlow's Farm",
+        "text": "Edward Harlow lost his farm under the land redistribution policy in 1965 — three years after independence. He had received compensation below what he had estimated the farm's value to be. He had appealed and lost. He had left Kenya in 1967 and had settled in Rhodesia. He had died in 1978. His account to the 1990 commission had been given posthumously from his written 1962 statement — he had not lived to see the commission's report.",
+        "alone": "Harlow had lost his farm, left Kenya, and died before the commission's report — he had not lived to see his statement's eventual use as historical evidence.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Harlow dying before the commission's report and his statement eventually being used as historical evidence confirm the full accounting of both witnesses — Grace had given her account in 1990 having lived to see it matter, Harlow's had been found in an archive after he had died."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "The Two Witness Accounts' Different Fates",
+        "text": "The 1990 commission had two witness accounts of Strete's movements: Grace's, given in person and in detail, describing the three-second eye contact at six-thirty PM; and Harlow's, found in the district archive and describing the document case emergence at six-fifty PM. Together the two accounts bracketed Strete's complete timeline — into the veranda at six-twenty (night watchman), on the bush track at six-thirty (Grace), emerging at six-fifty (Harlow). Three witnesses. None had been combined in 1962.",
+        "alone": "Three witnesses had bracketed Strete's complete timeline — night watchman, Grace, Harlow — and none had been combined in the 1962 investigation. The commission had assembled them twenty-seven years later.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Graves withholding Harlow's account and the three accounts only assembled in 1990 confirm the 1962 investigation's fundamental failure — the evidence had existed, in three separate forms, and had not been combined because each piece had been separately assessed as insufficient or compromised."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Irony of Harlow's Position",
+        "text": "The commission's 1992 report notes: 'Harlow's account, had it been forwarded and combined with the night watchman's account, would have provided two independent placements of a British military figure at the scene. The failure to forward Harlow's account was based on an assessment of his political opposition to the handover — an ironic outcome, in that a man who had opposed the handover had been the one to provide evidence against the man who had tried to delay it.' The irony is noted without elaboration.",
+        "alone": "A man who had opposed the handover had provided evidence against the man who had killed to delay it — and had been dismissed on the grounds of the opposition that had made his observation possible.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Harlow losing his farm and leaving Kenya and his evidence being the clearest account of Strete's movements confirm the full irony — the man with the most to lose from the handover had done more to document its killer than the system designed to investigate the killing."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Harlow's 1962 Statement's Significance",
+        "text": "The district archive's 1962 Harlow statement had been filed under 'witness accounts — to be assessed' and had remained there until the archive was catalogued in 1989 by a Kenyan archivist preparing materials for the historical commission. The archivist had noticed the statement, had recognized its relevance, and had flagged it. The commission had then sought Grace's account specifically because they had Harlow's and had needed corroboration. The archivist's cataloguing had been the event that had assembled the full picture.",
+        "alone": "A Kenyan archivist cataloguing the district office files in 1989 had found Harlow's statement and had flagged it — triggering the commission's search for Grace's account and the eventual assembly of the full picture.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The archivist assembling the full picture in 1989 and the three witness accounts only combined in 1990 confirm the final element — the full picture had required an archivist doing routine catalogue work to find a statement that had been filed and forgotten for twenty-seven years."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🦁",
+        "heading": "The Commission's Final Assembly",
+        "text": "The 1992 commission report's conclusion: 'Three witnesses placed Colonel Strete at or near the scene between six-twenty and six-fifty PM. One was the night watchman, whose account was assessed as insufficient in 1962. One was Grace Kimani, who chose not to give her account in 1962. One was Edward Harlow, whose account was received and not forwarded in 1962. All three have now been assembled. The commission finds the evidence strongly indicative of Strete's responsibility. The finding is historical, not judicial.' The acacia tree is in the photograph that accompanies the report's cover page.",
+        "alone": "The commission assembled all three accounts and found the evidence strongly indicative — a historical finding, not judicial. The acacia tree is on the report's cover.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Harlow's account dismissed for political reasons and the commission's final historical finding confirm the accounting — the evidence had been there, in three pieces, for twenty-seven years. The archivist had been the one to put it together. The acacia tree had been there for all of it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Ian Strete",
+      "location": "The Lodge Veranda",
+      "weapon": "Service Revolver",
+      "motive": "Delay the Handover",
+      "accomplice": "Saw Something During His Fifteen Minutes and Reported It"
+    },
+    "epilogue": "Three witnesses had bracketed Strete's movements. None had been combined in 1962. A Kenyan archivist had found Harlow's statement in 1989 during routine cataloguing. The commission had sought Grace's account. The report had been published in 1992. Strete had died in 1981. Harlow had died in 1978. Grace had died in 2003, eleven years after the report. The night watchman's name is recorded in the commission's evidence appendix. The archivist's name is not. The acacia tree is on the cover of a commission report that concludes strongly indicative but not conclusive. The handover had happened three weeks late and had then happened. The bush track had grown over. The three-second eye contact had occurred in 1962. The full picture had required 1989."
+  }
+}

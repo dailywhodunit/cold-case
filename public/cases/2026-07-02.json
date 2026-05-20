@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Pompeii, 1961. An archaeological dig. A scholar dead in Trench Seven. And a Roman artifact worth more than anyone admitted. 🏺🔍 Case #105 — The Dig. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Pompeii 1961, a dead archaeologist in a dig trench, a Roman artifact that should have been reported, and the person who needed it to stay buried. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1961 Pompeii archaeological dig site at dusk, terracotta excavation trenches with gridded string lines, a trestle table with cataloguing notebooks and brushes, a lamp overturned in a trench, a broken amphora beside a wrapped bundle. Warm Italian evening light, ancient stone beneath the dust, the feel of something uncovered. Style of Henri Cartier-Bresson meets Italian neo-realist photography.",
+    "animationPrompt": "Slow pan through a 1961 Pompeii archaeological dig site at dusk. Excavation trenches. Gridded string lines. A trestle table with cataloguing notebooks. The camera finds an overturned lamp in a trench and a broken amphora beside a wrapped bundle. Warm evening light. Ancient stone beneath the dust. Something has been uncovered. Fade to black.",
+    "hashtags": [
+      "#Pompeii1961",
+      "#ArchaeologyMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #105",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · 1961",
+    "emoji": "🏺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Dr. Enzo Caruso was found dead in Trench Seven at dusk. He had uncovered a first-century bronze equestrian statue that afternoon — a find of exceptional value. The statue had been wrapped and moved before his body was discovered. Three people had known about the find before sundown. The statue had not been reported to the Italian antiquities authority.",
+    "emptyState": "An unreported statue. A dead archaeologist. Three people who knew. Find who moved the find.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Professor Giles Ashby",
+            "icon": "📚",
+            "detail": "The dig's British academic director — had been funding the excavation and stood to claim co-discovery credit."
+          },
+          {
+            "name": "Lucia Ferraro",
+            "icon": "🏛️",
+            "detail": "The Italian site supervisor — was responsible for reporting finds to the antiquities authority."
+          },
+          {
+            "name": "Marco Testa",
+            "icon": "🚛",
+            "detail": "The site's logistics manager — handled transport of materials and had a van at the site."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Trench Seven",
+            "icon": "⛏️",
+            "detail": "Where Caruso was found — lamp overturned, soil displaced, the statue's impression in the earth."
+          },
+          {
+            "name": "The Site Office",
+            "icon": "📋",
+            "detail": "Where the cataloguing notebooks were kept — and where the statue's discovery had not been logged."
+          },
+          {
+            "name": "The Access Road",
+            "icon": "🚛",
+            "detail": "The route from the site to the main road — where tyre tracks from Marco's van were documented."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Entrenching Spade",
+            "icon": "⛏️",
+            "detail": "A dig spade — blunt force wound consistent with its flat blade edge used as a club."
+          },
+          {
+            "name": "Amphora Fragment",
+            "icon": "🏺",
+            "detail": "No wound profile match — the fragment's curved edge is inconsistent with the wound."
+          },
+          {
+            "name": "Trestle Table Leg",
+            "icon": "🪵",
+            "detail": "No blood trace on any table — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Unreported Discovery",
+        "text": "The site office's cataloguing notebook shows no entry for Trench Seven on the date of the killing — despite excavation having been active there all day. Caruso's personal field notebook, found in his jacket pocket, records the bronze statue discovery at two-fifteen PM with a sketch and measurements. The discovery had been made and recorded privately — Caruso had not yet entered it in the official log. Italian law required same-day notification to the antiquities authority for significant finds.",
+        "alone": "Caruso had documented the statue in his private notebook but had not entered it in the official log — the discovery had been unreported when he died, creating a window during which the statue could be moved without official knowledge.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The statue unreported and Lucia Ferraro's responsibility as the Italian site supervisor for same-day reporting together establish her specific professional exposure — if the statue had been reported, her failure to ensure same-day notification would have been documented. If it was not reported and then disappeared, her exposure was different."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⛏️",
+        "heading": "The Spade Wound",
+        "text": "The wound on Caruso's skull is consistent with the flat blade of a standard dig spade used as a bludgeon — a downward strike from behind while Caruso had been in the trench. A spade with soil residue and blood on its blade is found twenty metres from the trench, behind a storage tent. The strike had been from above and behind — Caruso had been working in the trench when struck from the trench's edge.",
+        "alone": "Caruso had been struck from the trench's edge while working — the killer had been standing above him at the trench rim, striking downward from a position of height advantage.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The downward strike from the trench edge requiring the killer to be above Caruso and Marco Testa's documented presence near Trench Seven at the relevant time together establish physical access to the trench edge during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Professor Ashby's Afternoon",
+        "text": "Professor Ashby had been in the site office from three PM until six PM, reviewing the season's progress reports with two graduate students — confirmed by both students. He had not been at Trench Seven that afternoon. He had been informed of the statue's discovery by Caruso at three PM, had expressed excitement, and had returned to the office. He is definitively cleared as the killer.",
+        "alone": "Ashby had been in the site office from three PM to six PM confirmed by two graduate students — he had not been at Trench Seven during the murder window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Ashby cleared in the site office and Lucia Ferraro confirmed at the regional authority's office in Naples until five PM together eliminate both other suspects from Trench Seven during the murder window — only Marco Testa's afternoon movements at the site are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🚛",
+        "heading": "Marco's Van Tracks",
+        "text": "The access road shows fresh tyre tracks from a vehicle matching Marco's van's specifications — the tracks lead from the site to the main road and back, made after the morning's standard supply run. Marco had made an additional unscheduled trip. The tracks are timed by their position relative to the afternoon's rain shower — made before the shower at four PM and returning after. Marco had left the site between three PM and four PM and had returned.",
+        "alone": "Marco had made an unscheduled trip between three and four PM — before the rain shower — and had returned. The trip's purpose is unaccounted for.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Marco's unscheduled three-to-four PM trip and the statue having been moved before discovery of the body confirm the unscheduled trip had been when the statue had been removed — the van had provided the means of transport."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Lucia's Naples Alibi",
+        "text": "Lucia Ferraro had been at the Soprintendenza office in Naples from one PM until five-thirty PM — confirmed by two officials she had met with. She could not have been at the Pompeii site during the murder window. However, she had spoken to Marco by telephone from the Naples office at two-thirty PM — thirty minutes after the statue's discovery. Marco's account of the call is vague. Lucia is definitively cleared as the killer.",
+        "alone": "Lucia was in Naples confirmed by two officials — she is cleared as the killer. But she had called Marco at two-thirty PM, thirty minutes after the discovery.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Lucia's responsibility for reporting discoveries and her call to Marco thirty minutes after the statue was found together raise the question of what had been discussed — the call's timing is not a coincidence."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🚛",
+        "heading": "Marco's Trench Seven Presence",
+        "text": "A dig worker confirms she had seen Marco near Trench Seven at approximately three-thirty PM — after Ashby had returned to the office and before the rain shower. She had thought nothing of it — Marco regularly moved around the site checking equipment. He had been at the trench edge at the time of the estimated killing window. His presence at the trench edge provides the physical position for the downward strike.",
+        "alone": "Marco had been at the trench edge at three-thirty PM — the estimated killing window — confirmed by a dig worker who had seen him there.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The downward strike from the trench edge requiring a position above Caruso and Marco confirmed at the trench edge at three-thirty PM establish both the physical requirement and the confirmed presence — he had been at the exact position from which the killing had been executed."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Statue's Absence",
+        "text": "The impression in the trench floor where the statue had rested — a clear negative mould in the soil — confirms the statue had been removed after excavation. Caruso's sketch in his notebook matches the impression's dimensions precisely. The statue had been real, had been uncovered, and had been removed. Marco's van's cargo area, when examined, shows traces of ancient soil consistent with Pompeii's stratigraphy and bronze oxide residue consistent with aged bronze.",
+        "alone": "Bronze oxide residue in Marco's van confirms the statue had been transported in it — the vehicle evidence confirms the removal's means.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Marco's unscheduled trip and the bronze oxide residue in his van together confirm the trip's purpose had been the statue's removal — he had driven it off-site before the body had been discovered."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🚛",
+        "heading": "Marco's Call Record",
+        "text": "The telephone records from the site office show an outgoing call from Marco to Lucia at two-thirty PM — matching Lucia's account of receiving a call. The call had lasted eight minutes. Marco's account of the call had been that he had called to ask about supply delivery schedules. The supply delivery had been scheduled for Friday, two days away — an implausible reason for an eight-minute call on Wednesday afternoon.",
+        "alone": "Marco had called Lucia at two-thirty PM for eight minutes — his stated reason is inconsistent with the supply schedule context. The call's actual content had not been disclosed.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Lucia receiving the call thirty minutes after the statue was found and Marco's stated reason being implausible together establish the call's actual subject had been the statue's discovery — the eight-minute call at two-thirty PM had been when the decision about the statue had been made."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Testa",
+      "location": "Trench Seven",
+      "weapon": "Entrenching Spade"
+    },
+    "epilogue": "Marco Testa had received word of the statue's discovery from Caruso at some point after two PM. He had called Lucia at two-thirty PM — an eight-minute call that had not been about supply schedules. He had gone to Trench Seven at three-thirty PM. He had struck Caruso from the trench edge with a dig spade. He had taken the wrapped statue in his van on the unscheduled three-to-four PM trip. He had returned and had been present when the body was discovered. The bronze oxide residue in his van had been the evidence that had convicted him. Lucia Ferraro had been charged with conspiracy but had been acquitted — the call's content had never been conclusively established. The statue was recovered in 1963 from a private collection in Zurich. It is now in the Naples National Archaeological Museum."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #105",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · 1961",
+    "emoji": "🏺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Marco killed Caruso and moved the statue. But the eight-minute call between Marco and Lucia had been the decision point — find what Lucia had told Marco on that call and whether she had directed the killing.",
+    "emptyState": "Lucia's call to Marco lasted eight minutes. Find what she told him.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marco Testa",
+            "icon": "🚛",
+            "detail": "The killer — trench edge, spade, unscheduled trip, bronze residue in van."
+          },
+          {
+            "name": "Lucia Ferraro",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — Naples confirmed by two officials. Eight-minute call. Acquitted of conspiracy."
+          },
+          {
+            "name": "Professor Ashby",
+            "icon": "📚",
+            "detail": "Cleared as killer — site office confirmed. His funding arrangement with Marco is newly significant."
+          },
+          {
+            "name": "The Zurich Collector",
+            "icon": "💰",
+            "detail": "The private collector who had received the statue — whose connection to the site's principals is the investigation's new thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Trench Seven",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Marco's killing."
+          },
+          {
+            "name": "The Naples Soprintendenza Office",
+            "icon": "🏛️",
+            "detail": "Where Lucia had been — and where she had taken the call from Marco."
+          },
+          {
+            "name": "The Site Telephone",
+            "icon": "📞",
+            "detail": "Where the outgoing call had originated — and where the call's content had not been recorded."
+          },
+          {
+            "name": "Zurich",
+            "icon": "🌐",
+            "detail": "Where the statue had been recovered in 1963 — and whose collector had received it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Entrenching Spade",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Marco's downward strike from the trench edge."
+          },
+          {
+            "name": "Amphora Fragment",
+            "icon": "🏺",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Trestle Table Leg",
+            "icon": "🪵",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "The Eight-Minute Call",
+            "icon": "📞",
+            "detail": "Not a weapon — but the conversation whose content determined whether Lucia had directed the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove and Sell the Statue",
+            "icon": "🚛",
+            "detail": "Marco's operational motive — van, unscheduled trip, bronze residue, convicted."
+          },
+          {
+            "name": "Avoid Reporting Failure and Preserve Career",
+            "icon": "🏛️",
+            "detail": "Lucia's potential interest — as site supervisor, failure to report a major find would have been a career-ending violation."
+          },
+          {
+            "name": "Profit From the Sale",
+            "icon": "💰",
+            "detail": "The financial motive shared by multiple parties — the Zurich collector's payment had been distributed."
+          },
+          {
+            "name": "Ashby's Funding Arrangement With Marco",
+            "icon": "📚",
+            "detail": "The newly significant connection — Ashby had been paying Marco separately from the academic funding."
+          },
+          {
+            "name": "The Call's Direction",
+            "icon": "📞",
+            "detail": "Whether Lucia had told Marco to kill Caruso or only to move the statue — the distinction that had determined the acquittal."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📞",
+        "heading": "What Lucia Said She Told Marco",
+        "text": "Lucia's account of the call, given at trial: 'Marco told me Dr. Caruso had found something significant. I told him to document its location and ensure it was secure until I returned. I said: make sure it doesn't leave the site. I did not tell him to harm anyone.' Her instruction had been to secure the find — not to remove it, and certainly not to harm Caruso. She claimed Marco had exceeded her instruction.",
+        "alone": "Lucia claims she had told Marco to secure the find in place — not to remove it or harm Caruso. Her stated instruction had been preservation, not removal.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Lucia's stated instruction to secure the find and Marco's actual action of removing it and killing Caruso confirm either Marco had exceeded the instruction or the instruction had been different from what Lucia claimed — the acquittal had turned on this distinction."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🚛",
+        "heading": "Marco's Account of the Call",
+        "text": "Marco's account of the call, given at trial: 'Lucia told me the statue had to be moved before Caruso reported it. She said he would report it to Ashby and Ashby would claim co-discovery. She said: move it before he can log it. She did not tell me to kill anyone. I decided that myself.' He attributed the removal instruction to Lucia but claimed the killing had been his own decision.",
+        "alone": "Marco claimed Lucia had told him to move the statue before Caruso could log it — but had not directed the killing. The two accounts contradicted each other on the instruction's content.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Marco attributing the removal instruction to Lucia and Lucia claiming she had only said to secure it in place confirm the trial's central contradiction — the acquittal had been based on the jury finding Marco's account of the call insufficiently corroborated."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Zurich Collector's Payment",
+        "text": "Italian police recover the Zurich collector's payment records in 1963. The statue had been sold for 180,000 Swiss francs — approximately 40,000 US dollars. The payment had been split: 60 percent to an account held by Marco Testa; 40 percent to an account held by a company whose beneficial owner had taken investigators two years to identify. The beneficial owner had been Lucia Ferraro.",
+        "alone": "The sale proceeds had been split 60/40 between Marco and Lucia — Lucia had received 40 percent of a 40,000-dollar sale through a company she had controlled.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Lucia receiving 40 percent of the sale proceeds and her claim that she had only told Marco to secure the find in place confirm the financial benefit had not been consistent with her stated instruction — someone who had only ordered preservation had not typically received 16,000 dollars from the theft."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Acquittal's Basis",
+        "text": "Lucia Ferraro's acquittal on the conspiracy charge had been based on two findings: Marco's account of the call contradicted hers and neither was corroborated by independent evidence; and the payment arrangement, while suspicious, had been explained by Lucia as a pre-existing business arrangement with Marco for site logistics services. The court had found reasonable doubt. The payment had been insufficient alone to establish criminal direction of the killing.",
+        "alone": "The acquittal had been based on the uncorroborated call contradiction and the payment explained as legitimate logistics fees — reasonable doubt had been established on both counts.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The acquittal based on reasonable doubt and the statue recovered in 1963 from a Zurich collector connected to Lucia's payment account confirm the acquittal had not been a finding of innocence — it had been a finding of insufficient evidence."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Ashby's Separate Arrangement With Marco",
+        "text": "The investigation finds that Professor Ashby had been paying Marco a monthly supplement — 500 lire — outside the official site budget. Ashby's account: 'I paid Marco to ensure the site's finds were properly handled and to alert me to significant discoveries before they were officially processed. I wanted to be the first to study major finds. This was standard academic practice.' He had been paying Marco for advance notice of discoveries — a practice that had made Marco an intermediary between finds and their reporting.",
+        "alone": "Ashby had been paying Marco to alert him to significant discoveries before official processing — making Marco structurally positioned to delay or divert reporting of major finds.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Ashby paying Marco for advance notice creating a structural position as a reporting intermediary and Lucia's removal instruction giving Marco the specific directive confirm Marco had been receiving conflicting instructions from multiple principals — Ashby wanted advance notice, Lucia wanted the statue moved, and Marco had decided independently to kill Caruso."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🚛",
+        "heading": "The Instruction's Ambiguity",
+        "text": "The Italian court's 1962 assessment of the call: 'The instruction Testa claims to have received — move it before he can log it — is ambiguous as to whether it required the elimination of the person who might log it. The instruction to move a find before reporting is itself illegal under Italian antiquities law, but does not necessarily encompass violence against the discoverer. The court finds Ferraro's instruction, if given as Testa claims, was illegal but not necessarily homicidal in its intent.'",
+        "alone": "The court had found that even if Lucia had given the removal instruction Marco claimed, the instruction had not necessarily encompassed the killing — criminal direction of the illegal removal had not been established as direction of the murder.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The court's ambiguity finding on the instruction and the acquittal based on reasonable doubt together confirm the legal outcome — the distinction between directing a theft and directing a murder had been where the acquittal had been found."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Statue's Recovery",
+        "text": "The bronze equestrian statue was recovered by Italian authorities in 1963 from a private collection in Zurich — the collector had purchased it from an intermediary in 1961. The intermediary's records traced to Marco's van's delivery route. The statute had been assessed as late first century, depicting a Roman consul, and of exceptional historical value. It had been in a Swiss private collection for two years. It is now in the Naples National Archaeological Museum under the catalogue designation: 'Found Pompeii site, Trench Seven, date of formal recovery 1963.'",
+        "alone": "The statue is in Naples. Its catalogue notes its recovery in 1963 — not its discovery in 1961 by Caruso and the manner of its first removal. The catalogue is accurate and incomplete.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Lucia receiving 40 percent of the sale and the catalogue recording the 1963 recovery without reference to the 1961 discovery confirm the statue's full history is in two separate records — the museum catalogue and the criminal file — neither of which references the other."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📚",
+        "heading": "The Academic Record",
+        "text": "Professor Ashby published a monograph in 1964 on first-century Pompeian bronze casting, drawing on material from the 1961 excavation season. The monograph does not mention the equestrian statue or Dr. Caruso's discovery. Ashby's 1961 supplementary payments to Marco had been found by the Italian court to be inappropriate but not criminal. He had retired from academic life in 1970. The statue's publication had been written by the Naples museum's staff in 1963. The monograph credits the museum's researchers, not Caruso.",
+        "alone": "Ashby's monograph does not mention the statue or Caruso. The museum's 1963 publication credits the museum's researchers. Caruso's name appears in neither the museum catalogue nor the academic record.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Ashby paying Marco for advance discovery access and the academic record crediting neither Caruso nor the 1961 discovery confirm the erasure of the original discovery had been complete — the man who had found the statue had been killed, and neither the academic record nor the museum catalogue had preserved his name in connection with the find."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Testa",
+      "location": "Trench Seven",
+      "weapon": "Entrenching Spade",
+      "motive": "Remove and Sell the Statue"
+    },
+    "epilogue": "The eight-minute call had contained an instruction. Its precise content had been disputed by the two people who had been on it. Lucia had received 40 percent of 40,000 dollars. The court had found reasonable doubt. Marco had received sixty percent and a conviction. Ashby had published a monograph and had not mentioned Caruso or the statue. The statue was in Naples. Its catalogue entry read 'recovered 1963.' Enzo Caruso's name appeared in his own field notebook — found in his jacket pocket, entered into evidence, returned to his family in 1963. The notebook's final entry was a sketch of a bronze equestrian statue with measurements. It is accurate. The statue matches the dimensions exactly. Neither record references the other."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #105",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · 1961",
+    "emoji": "🏺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Marco killed Caruso and moved the statue. Lucia received 40 percent. Ashby paid Marco for advance notice. But a fourth person had known about the statue before the call — a graduate student who had overheard Caruso's discovery. Find what the student had done with that knowledge.",
+    "emptyState": "A graduate student heard the discovery before anyone else. Find what they did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marco Testa",
+            "icon": "🚛",
+            "detail": "The killer — spade, van, bronze residue, convicted, 60 percent of 40,000 dollars."
+          },
+          {
+            "name": "Lucia Ferraro",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — Naples confirmed. 40 percent of 40,000 dollars. Acquitted."
+          },
+          {
+            "name": "Professor Ashby",
+            "icon": "📚",
+            "detail": "Cleared as killer — site office confirmed. Paying Marco for advance notice."
+          },
+          {
+            "name": "Elena Conti",
+            "icon": "🎓",
+            "detail": "A graduate student working on site — had overheard Caruso's discovery before any call had been made."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Trench Seven",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — and where Elena had been working in the adjacent trench when Caruso found the statue."
+          },
+          {
+            "name": "The Site Office",
+            "icon": "📋",
+            "detail": "Where Ashby had been confirmed — and where Elena had reported to at three PM."
+          },
+          {
+            "name": "The Naples Soprintendenza",
+            "icon": "🏛️",
+            "detail": "Where Lucia had been — and where Elena's report had eventually reached."
+          },
+          {
+            "name": "The Site Telephone",
+            "icon": "📞",
+            "detail": "Which Elena had used at two PM — before Lucia called Marco at two-thirty."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Entrenching Spade",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Marco's."
+          },
+          {
+            "name": "Amphora Fragment",
+            "icon": "🏺",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Trestle Table Leg",
+            "icon": "🪵",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Elena's Call at Two PM",
+            "icon": "📞",
+            "detail": "Not a weapon — but the call she had made thirty minutes before Lucia called Marco, and to whom."
+          },
+          {
+            "name": "Elena's Information",
+            "icon": "🎓",
+            "detail": "Not a weapon — but the knowledge she had been the first to hold and what she had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove and Sell the Statue",
+            "icon": "🚛",
+            "detail": "Marco's motive — convicted."
+          },
+          {
+            "name": "Preserve Career and Receive Proceeds",
+            "icon": "🏛️",
+            "detail": "Lucia's interest — acquitted, 40 percent."
+          },
+          {
+            "name": "Obtain Advance Discovery Notice",
+            "icon": "📚",
+            "detail": "Ashby's interest — paying Marco, monograph published."
+          },
+          {
+            "name": "Report the Discovery Through a Separate Channel",
+            "icon": "🎓",
+            "detail": "What Elena had done — had called someone at two PM before any of the other calls."
+          },
+          {
+            "name": "Elena's Dual Loyalty",
+            "icon": "🎓",
+            "detail": "The tension Elena had been in — working under Ashby but knowing reporting obligations ran through Lucia."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Caruso and Transported the Statue",
+            "icon": "🚛",
+            "detail": "Marco's confirmed role — convicted, 60 percent."
+          },
+          {
+            "name": "Made the Two-Thirty PM Call and Received 40 Percent",
+            "icon": "🏛️",
+            "detail": "Lucia's role — acquitted, call disputed."
+          },
+          {
+            "name": "Paid Marco for Advance Notice",
+            "icon": "📚",
+            "detail": "Ashby's role — inappropriate, not criminal, monograph published."
+          },
+          {
+            "name": "Called Someone at Two PM and Triggered the Chain",
+            "icon": "🎓",
+            "detail": "Elena's role — the first call, thirty minutes before Lucia's, whose recipient is the investigation's final element."
+          },
+          {
+            "name": "Caruso's Discovery Note in His Field Notebook",
+            "icon": "📋",
+            "detail": "The evidence that had survived everything — accurate, unreferenced in the official record."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎓",
+        "heading": "Elena Conti's Position at Two PM",
+        "text": "Elena Conti had been working in Trench Six — immediately adjacent to Trench Seven — when Caruso had made the discovery at two-fifteen PM. She had heard Caruso's exclamation and had looked over the trench divider. She had seen the statue. Caruso had told her: 'Don't say anything yet — I need to log it properly.' She had agreed. She had then finished her section at two PM — before the discovery — and had gone to the site telephone.",
+        "alone": "Elena had seen the statue before Caruso had asked her to stay silent — and had gone to the site telephone at two PM, fifteen minutes before the discovery's official time but apparently after seeing the find's extent becoming clear.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Elena seeing the statue and going to the site telephone before Lucia's two-thirty call confirm her call had preceded the primary information chain — whoever she had called had received the news before anyone else except Caruso himself."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📞",
+        "heading": "Elena's Two PM Call",
+        "text": "The site telephone log shows an outgoing call at two PM — thirty minutes before Lucia's call to Marco. The call had lasted four minutes. The recipient number had been a Rome exchange. The 1962 investigation had noted the call in the log but had not traced the recipient — the Rome exchange had been shared by multiple offices. A 1995 cold-case review traces the number to the office of a private antiquities consultant named Silvio Mantegna.",
+        "alone": "Elena had called a private antiquities consultant in Rome at two PM — the call had been the first in the chain that had ended with the statue in Zurich.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Elena calling a private antiquities consultant before any other call in the chain and the consultant's subsequent connection to the Zurich sale confirming his role confirm Elena's two PM call had been the initiating action of the entire removal operation."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎓",
+        "heading": "Who Mantegna Was",
+        "text": "Silvio Mantegna had been an antiquities consultant with connections to both legitimate museums and private collectors in Switzerland and Germany. His client list — obtained in the 1995 review — includes the Zurich collector who had purchased the statue. Mantegna had died in 1988. His office records, held by his estate, show a note dated the afternoon of Caruso's death: 'Bronze equestrian — first century — Pompeii Trench Seven. Exceptional. Arrange transport immediately. E.C. confirmed.'",
+        "alone": "Mantegna's records show a note on the day of the killing confirming the statue's details with 'E.C. confirmed' — the initials matching Elena Conti. She had been his source for the statue's existence.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Mantegna's note citing E.C. as his confirmation source and his direct connection to the Zurich collector confirm Elena's two PM call had been to the person who had arranged the Zurich sale — she had been the connection between the discovery and the black market."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🎓",
+        "heading": "Elena's Account",
+        "text": "Elena Conti, located by the 1995 review and now a senior archaeologist at the University of Bologna, says: 'I called Mantegna because I had worked with him on a prior site and he had asked me to alert him to significant finds. He had told me he could arrange for finds to be properly assessed and placed with institutions that could care for them. I believed him. I did not know he was connected to private collectors. I did not know what would happen. When Caruso was killed I was — I have carried this since 1961.'",
+        "alone": "Elena had called Mantegna believing he arranged institutional placements for significant finds — she had not known he was connected to private collectors or that her call would precipitate the killing.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Elena believing Mantegna arranged institutional placements and his actual connection to private collectors including the Zurich buyer confirm she had been deceived about his role — her call had been the initiating action of a chain she had not understood she was starting."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📞",
+        "heading": "The Call Chain's Reconstruction",
+        "text": "The 1995 review reconstructs the full call chain: Elena calls Mantegna at two PM (four minutes). Mantegna calls Lucia at two-twenty PM — Lucia had been Mantegna's contact at the site, his inside connection for years. Lucia calls Marco at two-thirty PM. Marco goes to Trench Seven at three-thirty PM. The murder and removal occur between three-thirty and four PM. The chain had been initiated by Elena's call and had run through Mantegna to Lucia to Marco in thirty minutes.",
+        "alone": "The full chain runs from Elena's two PM call through Mantegna to Lucia to Marco — thirty minutes from initiation to the operative instruction.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Elena calling Mantegna at two PM and the chain reaching Marco's operative instruction at two-thirty confirm the full timeline — the initiation had preceded the killing by ninety minutes and had involved four people."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Lucia's Connection to Mantegna",
+        "text": "The 1995 review finds that Lucia Ferraro had been working with Mantegna as an inside contact at Italian archaeological sites since 1958 — three years before the Pompeii incident. Her 40 percent of the proceeds had been her standard arrangement with Mantegna for site contacts. The 1962 acquittal had been based on the court's not knowing about Mantegna's role — the call Lucia had received from Mantegna at two-twenty PM had not been in the investigation's telephone records because Mantegna had called from a public telephone.",
+        "alone": "Lucia had been Mantegna's inside contact since 1958 — her 40 percent had been a standing arrangement. The 1962 investigation had not known about Mantegna's call to her because he had used a public telephone.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Lucia's three-year arrangement with Mantegna and the 1962 acquittal based on not knowing his role confirm the acquittal had been based on an incomplete investigation — the full picture had required finding Mantegna's records thirty-four years later."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎓",
+        "heading": "Elena's Role in the Full Picture",
+        "text": "The 1995 review's assessment of Elena: 'Elena Conti's two PM call initiated the chain that led to Caruso's death. Her belief that Mantegna arranged institutional placements had been genuine — she had no knowledge of his private market connections or Lucia's standing arrangement. She was not criminally responsible for the killing. She was the first link in a chain she did not understand she was starting, initiated through a contact she had trusted based on a false representation of his activities.' She is not charged in the 1995 review.",
+        "alone": "Elena is not charged — the 1995 review finds her initiation of the chain had been based on a genuine but incorrect belief about Mantegna's role. She had been the first link and had not known what she was linking.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Elena believing Mantegna arranged institutional placements and the 1995 review finding her role genuine but based on false representation confirm the full moral weight of her position — she had carried the knowledge of her call since 1961 without knowing the full extent of what it had set in motion."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Statue's Full Record",
+        "text": "The bronze equestrian statue of a first-century Roman consul is in the Naples National Archaeological Museum, Gallery IV, Case 7. Its catalogue entry: 'Bronze equestrian figure, first century CE, recovered Pompeii site 1963.' In the museum's research archive, a 1995 report cross-references the 1961 killing, the full call chain, and Enzo Caruso's field notebook entry. The report is by Elena Conti, now Professor of Classical Archaeology at the University of Bologna. She wrote it herself. It is the only document that names Caruso as the discoverer. The catalogue has not been updated.",
+        "alone": "Elena Conti wrote the 1995 research report that named Caruso as the discoverer — it is the only document in the official record that does so. The museum catalogue has not been updated.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Elena carrying the knowledge since 1961 and writing the 1995 report that finally named Caruso confirm her final action in the chain — thirty-four years after her two PM call had started it, she had written the document that gave Caruso's discovery its official name in the record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Testa",
+      "location": "Trench Seven",
+      "weapon": "Entrenching Spade",
+      "motive": "Remove and Sell the Statue",
+      "accomplice": "Called Someone at Two PM and Triggered the Chain"
+    },
+    "epilogue": "Elena Conti had called Silvio Mantegna at two PM because she had believed he arranged institutional placements for significant finds. Mantegna had called Lucia at two-twenty from a public telephone. Lucia had called Marco at two-thirty. Marco had gone to the trench at three-thirty. Caruso had been killed between three-thirty and four PM. The statue had been in Zurich by 1963. The 1962 acquittal had not known about Mantegna. The 1995 review had found his records. Elena had written the research report that named Caruso as the discoverer. The museum catalogue had not been updated. In Gallery IV, Case 7, the statue stands without Caruso's name. In the research archive, Elena's 1995 report has his name at the top of the first page. She had carried it since 1961 and had written it down in 1995. The statue matches his notebook's measurements exactly."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Sarajevo, June 27th 1914. The day before. A Serbian nationalist dead in a hotel room. And someone who was trying to stop the assassination that would start the First World War. 🕊️🔍 Case #109 — The Day Before. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Sarajevo June 27 1914, one day before the assassination, a man dead who was trying to prevent it, and the person inside the plot who killed him to keep it moving. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1914 Sarajevo hotel room the day before the assassination, heavy European furnishings, a hand-drawn map of the Appel Quay on a writing desk, an unfinished letter beside an overturned inkwell, a man's watch stopped at a specific time on the floor. Habsburg-era atmosphere, history about to happen. Style of period Austro-Hungarian photography meets Giorgio de Chirico.",
+    "animationPrompt": "Slow pan through a 1914 Sarajevo hotel room the day before history. Heavy European furnishings. A hand-drawn map of the Appel Quay on the writing desk. The camera finds an unfinished letter beside an overturned inkwell and a man's watch stopped on the floor. Habsburg-era afternoon light. The city is very quiet. Tomorrow will not be. Fade to black.",
+    "hashtags": [
+      "#Sarajevo1914",
+      "#TheDayBefore",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #109",
+    "title": "The Day Before",
+    "setting": "Hotel Europa · Sarajevo · Bosnia · June 27th, 1914",
+    "emoji": "🕊️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Mirko Lazar was found dead in his Hotel Europa room on the evening of June 27th, 1914 — one day before Archduke Franz Ferdinand's visit to Sarajevo. Lazar had been a member of the Black Hand conspiracy but had developed cold feet. He had been writing a warning letter to the Austro-Hungarian authorities. The letter was unfinished. Three people had known he was wavering.",
+    "emptyState": "He was going to warn the Archduke. Three conspirators knew. Find who stopped him.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dragan Vasić",
+            "icon": "🗡️",
+            "detail": "The conspiracy's operational leader in Sarajevo — had been the one who had assigned positions along the Appel Quay."
+          },
+          {
+            "name": "Ana Petrović",
+            "icon": "✉️",
+            "detail": "A courier for the conspiracy — had been the one who had noticed Lazar's hesitation and had reported it to Vasić."
+          },
+          {
+            "name": "Stefan Hodža",
+            "icon": "📖",
+            "detail": "A fellow conspirator and Lazar's closest friend within the group — had tried to talk Lazar out of his doubts."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Where Lazar was found — map on the desk, unfinished letter, inkwell overturned, watch on the floor."
+          },
+          {
+            "name": "The Appel Quay",
+            "icon": "🌊",
+            "detail": "The route planned for the Archduke's motorcade — the map showed the conspirators' assigned positions."
+          },
+          {
+            "name": "The Hotel Lobby",
+            "icon": "🚪",
+            "detail": "Where the hotel register and the evening's visitor log were maintained."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Garrote",
+            "icon": "🪢",
+            "detail": "Strangulation — ligature mark consistent with a cord or wire, no other wound."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "✒️",
+            "detail": "No wound profile — the inkwell had been overturned, not used as a weapon."
+          },
+          {
+            "name": "Watch Chain",
+            "icon": "⌚",
+            "detail": "The stopped watch's chain — too thin and short for the ligature mark's width."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "The Unfinished Letter",
+        "text": "The letter on the desk is addressed to the Imperial Governor's office in Sarajevo. In Lazar's handwriting: 'I write to warn that a conspiracy exists against the life of His Imperial Highness during tomorrow's visit. The conspirators are positioned along the Appel Quay at intervals of approximately—' The letter ends mid-sentence. The inkwell had been overturned, suggesting a struggle had interrupted the writing. The letter had not been sent.",
+        "alone": "Lazar had been writing a specific warning to the Imperial authorities — the letter had been interrupted mid-sentence, precisely at the point where he would have described the conspirators' positions.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The letter interrupted mid-sentence and Dragan Vasić's confirmed visit to the hotel that evening together establish both the motive — the letter would have identified positions Vasić had assigned — and the presence of the person with most to lose from its completion."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪢",
+        "heading": "The Garrote Mark",
+        "text": "The ligature mark on Lazar's neck is consistent with a thin cord or wire — the standard Black Hand assassination tool carried by operatives. The mark's pattern indicates the garrote had been applied from behind, with Lazar seated at the writing desk. He had been writing when the killer had approached from behind and had applied the garrote. The approach had been silent — the hotel's other guests had reported nothing.",
+        "alone": "Lazar had been garroted from behind while writing — the Black Hand's standard method, applied silently in a hotel where no sound had been reported.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The Black Hand garrote method and Vasić's role as the operational leader who had distributed the assassination tools to the Sarajevo conspirators together confirm both the method's origin and the person most familiar with its use as a conspiracy enforcement tool."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "✉️",
+        "heading": "Ana Petrović's Evening",
+        "text": "Ana Petrović had delivered messages between the conspirators throughout the afternoon and had been seen at the central market at six PM by a market vendor. She had returned to her lodgings at seven PM — confirmed by her landlady, who had spoken to her at the door. The killing had occurred between eight and nine PM based on the body's temperature at discovery. She is definitively cleared.",
+        "alone": "Ana had been at her lodgings from seven PM confirmed by her landlady — she had not been at the hotel during the eight-to-nine PM killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Ana cleared at her lodgings and Stefan Hodža confirmed at a coffeehouse from seven-thirty PM together eliminate both other conspirators — only Vasić's evening movements after eight PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🗡️",
+        "heading": "Vasić's Authority Over the Conspiracy",
+        "text": "Post-war historical accounts of the Black Hand's Sarajevo operation confirm Vasić had been the operational commander — he had assigned each conspirator's position along the Appel Quay, had distributed the weapons and cyanide capsules, and had held the authority to enforce the conspiracy's secrecy by any means necessary. The enforcement of internal secrecy had been explicitly part of his role.",
+        "alone": "Vasić had explicit authority to enforce internal secrecy by any means — killing a wavering conspirator had been within his operational mandate.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Vasić's authority to enforce secrecy and the assassination proceeding the following day exactly as the map had shown confirm the killing had achieved its operational purpose — Lazar's letter had not been sent, the positions had not been disclosed, and the motorcade had followed the planned route."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🗡️",
+        "heading": "Vasić at the Hotel",
+        "text": "The Hotel Europa's visitor log shows Dragan Vasić had signed in as a visitor at seven-forty-five PM — he had asked for Lazar's room number. The desk clerk confirms he had gone up and had not signed out until nine-fifteen PM. He had been in the hotel for one and a half hours, leaving after the estimated killing window. His stated purpose in the log: 'Personal visit to friend.'",
+        "alone": "Vasić had been in the hotel from seven-forty-five to nine-fifteen PM — arriving before the murder window and leaving after it, having spent ninety minutes in the building.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The unfinished letter that would have named the conspirators' positions and Vasić's ninety-minute hotel presence spanning the murder window confirm he had been in the building when the letter had been interrupted and had been the person whose positions it would have exposed."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🗡️",
+        "heading": "The Garrote Wire",
+        "text": "Post-war accounts describe the Black Hand's standard assassination kit distributed to the Sarajevo conspirators: a Browning pistol, a hand grenade, and a thin brass wire for use in close-quarters silent elimination. The wire's diameter matches the ligature mark's width precisely. Vasić had distributed the kits personally — he had been the only conspirator guaranteed to have a wire of that specific type in his possession on that evening.",
+        "alone": "The garrote wire's diameter matches the Black Hand kit wire Vasić had distributed — he was the only conspirator guaranteed to have it that evening.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The Black Hand garrote method and the wire diameter matching the distributed kit confirm both the method and the equipment — Vasić had distributed the wire and had been in the hotel with it during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📖",
+        "heading": "Stefan Hodža's Coffeehouse",
+        "text": "Stefan Hodža had been at Café Moritz from seven-thirty PM — he had been seen by three regulars and the coffeehouse owner. He had stayed until ten PM. He had been Lazar's friend and had known Lazar was wavering, but had not been in the hotel that evening. He is definitively cleared.",
+        "alone": "Stefan had been at Café Moritz from seven-thirty to ten PM — confirmed by four witnesses including the owner. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Ana cleared at her lodgings and Stefan cleared at Café Moritz together leave Vasić's hotel presence as the only unconfirmed movement consistent with the killing — his ninety minutes in the hotel span the eight-to-nine PM window exactly."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Following Day",
+        "text": "On June 28th, 1914, Archduke Franz Ferdinand and his wife Sophie were assassinated on the Appel Quay in Sarajevo. The motorcade followed the route shown on the map in Lazar's room. The conspirators were positioned as Vasić had assigned. The unfinished letter remained on the desk in the Hotel Europa. The Austro-Hungarian authorities found it when they searched the hotel in the aftermath. The letter's interrupted sentence had described positions that would have been enough to prevent the assassination — and had ended precisely where it had.",
+        "alone": "The assassination had followed the plan exactly — the unfinished letter's interrupted sentence had ended at the point where the positions would have been disclosed. The letter was found the following day.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Vasić's authority to enforce secrecy and the assassination proceeding as planned confirm the killing had served its purpose — the letter had not been completed, the positions had not been disclosed, and history had followed the plan."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dragan Vasić",
+      "location": "The Hotel Room",
+      "weapon": "Garrote"
+    },
+    "epilogue": "Dragan Vasić had arrived at the Hotel Europa at seven-forty-five PM. He had gone to Lazar's room. Lazar had been at his desk writing the warning letter, mid-sentence. Vasić had applied the garrote from behind. The letter had ended where it had ended. Vasić had left at nine-fifteen PM. The following morning, Franz Ferdinand and Sophie had been driven along the Appel Quay. The conspirators had been at their assigned positions. Gavril Princip had fired two shots on Franz Joseph Street. The Archduke and his wife had died. The letter had been found in the hotel room. The interrupted sentence remained mid-word. The First World War had begun five weeks later. Lazar's letter had been one sentence away from changing the course of the twentieth century."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #109",
+    "title": "The Day Before",
+    "setting": "Hotel Europa · Sarajevo · Bosnia · June 27th, 1914",
+    "emoji": "🕊️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Vasić killed Lazar to prevent the warning letter. But Ana Petrović had reported Lazar's wavering to Vasić — find what she had told him and whether she had known what the report would lead to.",
+    "emptyState": "Ana reported Lazar's wavering to Vasić. Find what she said — and what she knew it would mean.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dragan Vasić",
+            "icon": "🗡️",
+            "detail": "The killer — hotel log, ninety minutes, garrote wire, operational mandate."
+          },
+          {
+            "name": "Ana Petrović",
+            "icon": "✉️",
+            "detail": "Cleared as killer — lodgings confirmed. Had reported Lazar's wavering to Vasić."
+          },
+          {
+            "name": "Stefan Hodža",
+            "icon": "📖",
+            "detail": "Cleared as killer — Café Moritz confirmed. Lazar's friend who had tried to prevent the doubts from reaching Vasić."
+          },
+          {
+            "name": "The Black Hand's Internal Discipline",
+            "icon": "🗡️",
+            "detail": "The institutional context — whose norms had determined what reporting Lazar's wavering would produce."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Vasić's killing, letter interrupted."
+          },
+          {
+            "name": "Ana's Lodgings",
+            "icon": "🏠",
+            "detail": "Her confirmed location from seven PM — and where she had made the decision to report."
+          },
+          {
+            "name": "The Central Market",
+            "icon": "🏪",
+            "detail": "Where Ana had been at six PM — and where she had made the report to Vasić."
+          },
+          {
+            "name": "Café Moritz",
+            "icon": "☕",
+            "detail": "Stefan's location — and where he had earlier tried to counsel Lazar."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Garrote",
+            "icon": "🪢",
+            "detail": "Confirmed murder weapon — Black Hand kit wire, Vasić's distribution."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "✒️",
+            "detail": "Not a weapon — overturned in the struggle."
+          },
+          {
+            "name": "Watch Chain",
+            "icon": "⌚",
+            "detail": "Too thin — eliminated."
+          },
+          {
+            "name": "Ana's Report",
+            "icon": "✉️",
+            "detail": "Not a weapon — but the communication that had triggered Vasić's hotel visit."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Enforce the Conspiracy's Secrecy",
+            "icon": "🗡️",
+            "detail": "Vasić's operational motive — explicit mandate, garrote wire, hotel log."
+          },
+          {
+            "name": "Loyalty to the Conspiracy's Purpose",
+            "icon": "✉️",
+            "detail": "Ana's stated reason for reporting — she had believed in the nationalist cause."
+          },
+          {
+            "name": "Fear of Collective Punishment",
+            "icon": "✉️",
+            "detail": "Ana's additional motive — if Lazar had betrayed the plot, all conspirators would have faced arrest."
+          },
+          {
+            "name": "Stefan's Failed Intervention",
+            "icon": "📖",
+            "detail": "The prior attempt — Stefan had tried to prevent the doubts from escalating and had failed."
+          },
+          {
+            "name": "Ana's Knowledge of Consequences",
+            "icon": "✉️",
+            "detail": "Whether Ana had understood what reporting would lead to — the investigation's central question."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "What Ana Had Told Vasić",
+        "text": "Ana's post-war testimony — given in 1919 to a Yugoslav commission examining the conspiracy — describes her report to Vasić: 'I told him Mirko had told me he could not go through with it. That he was thinking of warning the authorities. I told him because I was afraid — if Mirko warned them, we would all be arrested. I reported because I was afraid for myself as much as for the cause.' She had reported out of combined loyalty and self-preservation.",
+        "alone": "Ana had reported Lazar's wavering from combined nationalist loyalty and fear of personal arrest — she had understood that Lazar's betrayal would expose all conspirators.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Ana reporting from combined loyalty and self-preservation fear and the Black Hand's known enforcement policy of killing wavering members together present the question of her foreknowledge — she had known the organization's norms, and the norms had been specific."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "Whether Ana Had Known What the Report Would Lead To",
+        "text": "Ana's 1919 testimony continues: 'Did I know what Dragan would do? I knew the organization's rules. Anyone who threatened to betray the mission would be eliminated. I knew this when I joined. When I reported Mirko, I knew — I knew it was possible he would be killed. I told myself I was doing my duty. I have thought about what I told myself ever since.' She does not claim ignorance of the likely consequence.",
+        "alone": "Ana acknowledges she had known the organization's elimination policy when she reported — she had known killing was a possible consequence and had told herself it was her duty.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Ana knowing the elimination policy and reporting anyway and her 1919 acknowledgment that she had known the consequence was possible confirm her report had not been innocent of its likely outcome — she had known and had chosen duty over the friend whose death the choice had enabled."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📖",
+        "heading": "Stefan's Intervention Before Ana's Report",
+        "text": "Stefan Hodža's post-war testimony reveals: 'Mirko told me two days before that he was having doubts. I told him to say nothing to anyone — especially not to Ana, who I knew would report to Dragan. I tried to talk Mirko through his doubts. He seemed convinced. Then Ana found out somehow — I don't know how — and reported to Dragan before I could prevent it.' Stefan had known Ana would report and had tried to prevent it.",
+        "alone": "Stefan had known Ana would report and had specifically warned Lazar not to tell her — Lazar had told her anyway, and Stefan's intervention had been too late.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Stefan knowing Ana would report and warning Lazar not to tell her and Lazar telling her anyway confirm the chain had been set in motion by Lazar's own disclosure to the person Stefan had warned him about — the killing had been enabled by Lazar telling the wrong person."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📖",
+        "heading": "How Ana Had Found Out",
+        "text": "Ana's testimony explains how she had learned of Lazar's doubts: 'Mirko told me himself. He came to me because he trusted me. He said he couldn't do it, that he was going to write to the authorities. He asked me what he should do. I told him to stay with the cause. Then I reported what he had said to Dragan.' Lazar had gone to Ana for counsel and she had reported the conversation immediately after.",
+        "alone": "Lazar had told Ana himself, asking for her counsel — she had told him to stay with the cause and had immediately reported the conversation to Vasić.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Stefan warning Lazar not to tell Ana and Lazar telling her anyway seeking counsel together confirm the tragedy's specific shape — Lazar had sought help from the person most likely to destroy him, and she had reported while telling him she supported him."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "✉️",
+        "heading": "Ana's Post-War Position",
+        "text": "Ana Petrović's 1919 commission testimony had been given under a new Yugoslav state that had celebrated the assassination as the spark of Serbian liberation. Her testimony had been complex — she had been simultaneously a patriot who had served the cause and a person who had reported a friend to his death. The commission had not charged her — her report had been consistent with the conspiracy's internal norms. She had lived until 1951.",
+        "alone": "Ana had lived until 1951 and had not been charged — her report had been consistent with the conspiracy's norms, and the new Yugoslav state had not treated the internal enforcement of the Black Hand's secrecy as criminal.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Ana not charged and her acknowledgment of knowing the consequence confirm the historical and legal treatment had diverged from the moral weight — the commission had found her report internally legitimate, and she had lived with the knowledge of what it had produced."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Commission's Broader Context",
+        "text": "The 1919 Yugoslav commission's examination of the Sarajevo conspiracy had been largely celebratory — the assassination had been treated as the founding act of a new nation. The commission had interviewed survivors including Ana and Stefan not to assign blame but to document the event's history. Its treatment of Lazar's killing had been brief: 'Internal discipline was maintained by the operational commander. Lazar Mirko, a wavering member, was eliminated before he could compromise the mission.' The commission had recorded the killing without moral assessment.",
+        "alone": "The commission had recorded the killing without moral assessment — the new state had treated the conspiracy's internal enforcement as part of the historical narrative rather than a crime.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Ana not charged and the commission's non-assessment of the killing together confirm the historical context's treatment — the killing had been absorbed into the founding myth without moral accounting, consistent with how many consequential acts of the period had been treated."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Stefan's Assessment",
+        "text": "Stefan Hodža's 1919 testimony ends: 'Mirko was afraid. He went to Ana for help. She reported him. Dragan killed him. The next day Franz Ferdinand died and the war began. I have thought about what would have happened if Mirko had not told Ana. If his letter had been finished. If Dragan had not arrived at the hotel. The war might not have begun. I don't know if that's true. I know that Mirko trusted the wrong person and was killed for it.'",
+        "alone": "Stefan had been thinking about the chain of causation since 1914 — Lazar's trust in Ana, Ana's report, Vasić's killing, and history's subsequent direction.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Stefan's thirty-year chain of causation and the letter's interrupted sentence both pointing to the same moment confirm the investigation's full weight — one man's unfinished sentence had been the point where history had been closest to a different direction."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Letter's Interrupted Sentence",
+        "text": "The unfinished letter's text: 'The conspirators are positioned along the Appel Quay at intervals of approximately—' The sentence ends. The next word would have been 'two hundred metres' — placing one assassin near the Latin Bridge, one near the Cumurija Bridge, and others at measured intervals. If the letter had been completed and delivered, the motorcade's route would have been changed. The Archduke would have traveled a different road. Gavril Princip would not have been where he was. The world of 1914 would have continued a little longer before its end.",
+        "alone": "The unfinished sentence would have placed the conspirators on the map. The motorcade would have been rerouted. History's direction would have been different. The sentence ends mid-word.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Stefan thinking about the chain of causation and the letter's interrupted sentence together confirm the case's full scope — the investigation has found the killer and has traced the chain back to Lazar's trust in the wrong person. The sentence ends where it ends. The twentieth century began where it began."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dragan Vasić",
+      "location": "The Hotel Room",
+      "weapon": "Garrote",
+      "motive": "Enforce the Conspiracy's Secrecy"
+    },
+    "epilogue": "Lazar had gone to Ana for counsel. Ana had told him to stay with the cause and had reported the conversation to Vasić. Stefan had warned Lazar not to tell Ana — the warning had come too late. Vasić had arrived at the hotel at seven-forty-five PM. The letter had ended mid-sentence. The following morning the Archduke's motorcade had followed the Appel Quay. The conspirators had been at their assigned positions. Two shots had been fired on Franz Joseph Street. The First World War had begun five weeks later. Ana had given testimony in 1919 and had not been charged. Stefan had thought about the chain of causation for the rest of his life. The letter was found in the Hotel Europa room on the morning of June 28th, 1914. It is in an archive in Sarajevo. The interrupted sentence is legible. The next word is not there."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #109",
+    "title": "The Day Before",
+    "setting": "Hotel Europa · Sarajevo · Bosnia · June 27th, 1914",
+    "emoji": "🕊️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Vasić killed Lazar. Ana reported him knowing the consequence. But Stefan Hodža had known about Lazar's doubts two days before Ana — find what Stefan had tried to do and whether his intervention could have changed the outcome.",
+    "emptyState": "Stefan knew two days before Ana. He tried to help. Find whether it could have worked.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dragan Vasić",
+            "icon": "🗡️",
+            "detail": "The killer — hotel log, garrote wire, operational mandate, letter interrupted."
+          },
+          {
+            "name": "Ana Petrović",
+            "icon": "✉️",
+            "detail": "Cleared as killer — lodgings confirmed. Reported Lazar knowing the consequence."
+          },
+          {
+            "name": "Stefan Hodža",
+            "icon": "📖",
+            "detail": "Cleared as killer — Café Moritz confirmed. Known about Lazar's doubts for two days and had tried to help."
+          },
+          {
+            "name": "Lazar's Doubts as the Chain's Origin",
+            "icon": "🕊️",
+            "detail": "The structural starting point — whose nature and trajectory are the investigation's final examination."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — where the letter had ended mid-sentence."
+          },
+          {
+            "name": "Café Moritz",
+            "icon": "☕",
+            "detail": "Stefan's confirmed location — and where he had spent two days trying to counsel Lazar."
+          },
+          {
+            "name": "The Appel Quay",
+            "icon": "🌊",
+            "detail": "The route on the map — what the letter would have changed."
+          },
+          {
+            "name": "The Hotel Europa Lobby",
+            "icon": "🚪",
+            "detail": "Where Vasić had signed in — and where the visitor log had documented the evening's movements."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Garrote",
+            "icon": "🪢",
+            "detail": "Confirmed murder weapon — Black Hand kit, Vasić's distribution."
+          },
+          {
+            "name": "Inkwell",
+            "icon": "✒️",
+            "detail": "Not a weapon — overturned in struggle."
+          },
+          {
+            "name": "Watch Chain",
+            "icon": "⌚",
+            "detail": "Too thin — eliminated."
+          },
+          {
+            "name": "Stefan's Intervention",
+            "icon": "📖",
+            "detail": "Not a weapon — but the action that had preceded Ana's report and had failed to prevent it."
+          },
+          {
+            "name": "Lazar's Decision to Tell Ana",
+            "icon": "🕊️",
+            "detail": "Not a weapon — but the choice that had made everything else inevitable."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Enforce the Conspiracy's Secrecy",
+            "icon": "🗡️",
+            "detail": "Vasić's motive — operational mandate, garrote wire, hotel log."
+          },
+          {
+            "name": "Combined Loyalty and Self-Preservation",
+            "icon": "✉️",
+            "detail": "Ana's reason for reporting — acknowledged in 1919 testimony."
+          },
+          {
+            "name": "Protect Lazar From the Conspiracy's Consequences",
+            "icon": "📖",
+            "detail": "Stefan's motive for intervening — he had tried to manage Lazar's doubts without them escalating."
+          },
+          {
+            "name": "Stefan's Strategy for Helping Lazar",
+            "icon": "📖",
+            "detail": "What Stefan had tried — convincing Lazar to stay or to quietly absent himself without betraying the plot."
+          },
+          {
+            "name": "Whether Stefan's Approach Could Have Worked",
+            "icon": "🕊️",
+            "detail": "The investigation's final question — the counterfactual the case cannot resolve."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Lazar and Interrupted the Letter",
+            "icon": "🗡️",
+            "detail": "Vasić's confirmed role."
+          },
+          {
+            "name": "Reported Lazar's Wavering Knowing the Consequence",
+            "icon": "✉️",
+            "detail": "Ana's role — acknowledged, not charged."
+          },
+          {
+            "name": "Tried to Prevent the Doubts From Reaching Vasić",
+            "icon": "📖",
+            "detail": "Stefan's role — had known two days before, had tried to manage the situation."
+          },
+          {
+            "name": "Told Ana Despite Stefan's Warning",
+            "icon": "🕊️",
+            "detail": "Lazar's fatal decision — had sought counsel from the person most likely to report him."
+          },
+          {
+            "name": "Maintained the Conspiracy's Position Assignment",
+            "icon": "🗡️",
+            "detail": "Vasić's parallel role — while killing Lazar, had also ensured the assassination positions remained intact."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📖",
+        "heading": "Stefan's Two-Day Effort",
+        "text": "Stefan's 1919 testimony describes what he had done in the two days between learning of Lazar's doubts and the killing: 'I spent two days with Mirko. I listened to his concerns. I told him there were two paths: stay with the cause, or absent himself quietly — claim illness, avoid the route on June 28th, let the others act without him. I told him the one path he could not take was warning the authorities. I thought I had convinced him.'",
+        "alone": "Stefan had offered Lazar a middle path — quiet absence rather than either full participation or betrayal — and had believed his counsel had been successful.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Stefan's middle-path counsel and Lazar's subsequent decision to seek Ana's advice anyway together confirm Stefan's intervention had not resolved Lazar's doubts — the two days of counsel had been insufficient, and Lazar had gone to Ana despite Stefan's warning."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "📖",
+        "heading": "Whether Stefan's Approach Had Been Working",
+        "text": "Stefan continues: 'On June 26th, Mirko seemed at peace. He told me he would stay home that day — June 28th — and let the others handle it. I believed him. The next day, June 27th, he went to Ana. He told me later — before she reported him — that he had changed his mind again overnight. He had woken up thinking about the Archduke's wife and children. He could not let it happen and say nothing.'",
+        "alone": "Stefan's intervention had appeared to succeed on June 26th and had failed overnight — Lazar's doubts had returned and had driven him to Ana's counsel rather than back to Stefan.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Stefan's intervention appearing to succeed and failing overnight and Lazar going to Ana despite Stefan's specific warning confirm the doubts had been beyond Stefan's ability to resolve — the overnight return of Lazar's conscience had overridden two days of counsel."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📖",
+        "heading": "The Alternative Stefan Had Proposed",
+        "text": "Stefan's middle-path proposal — quiet absence — had been operationally feasible. The assassination had required the conspirators to be at their assigned positions along the Appel Quay, but one fewer conspirator would not have prevented it. Princip had been the one who had fired the fatal shots. Lazar had been assigned to a position farther along the route. His absence would have left a gap in the interception line but would not have prevented the assassination at Princip's position.",
+        "alone": "Stefan's proposal of quiet absence would have been operationally feasible — Lazar's absence would not have prevented the assassination, only reduced the interception coverage.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Stefan's feasible middle path and Lazar's overnight decision to warn the authorities instead of quietly absenting himself together confirm the path that could have saved Lazar's life had been available — he had rejected it in the night and had chosen the warning instead."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Letter's Last Hour",
+        "text": "The letter's physical evidence allows a reconstruction: the inkwell had been positioned at the desk's right side, indicating Lazar had been writing for some time when the garrote had been applied from behind. The watch on the floor had stopped at eight-forty-two PM — likely knocked during the struggle. Lazar had been writing for at least forty minutes when Vasić had arrived. He had been mid-sentence, mid-word, when the garrote had been applied.",
+        "alone": "Lazar had been writing for forty minutes before Vasić arrived — he had been committed to the warning when killed, not hesitating. The letter had been in progress.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Lazar writing for forty minutes before the killing and the letter ending mid-word confirm his commitment had been complete in his final hour — whatever doubts had characterized the preceding days had been resolved, in the last forty minutes of his life, into the act of writing."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Whether Stefan's Approach Could Have Worked",
+        "text": "Stefan's testimony poses the question he has lived with: 'If Mirko had taken the quiet absence path — if he had simply stayed home on June 28th and said nothing — he would have lived. The assassination would have proceeded without him. He would have been arrested afterward, but might have survived. He chose to warn instead, because he could not be silent about the Archduke's wife and children. I understood his conscience. I could not resolve it for him.'",
+        "alone": "Stefan acknowledges the quiet absence path would have saved Lazar's life — and that Lazar's conscience had made it impossible for him to take it.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Stefan's intervention appearing to succeed and his acknowledgment that Lazar's conscience had made the middle path impossible together confirm the intervention's fundamental limit — Stefan could manage the doubts' external expression but could not resolve the conscience that had produced them."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Conscience That Couldn't Be Resolved",
+        "text": "Lazar's final decision — to write the warning rather than quietly absent himself — had been the product of thinking about the Archduke's wife and children. The Archduke's wife Sophie had been with him in the motorcade. Both had been killed. Lazar had anticipated this and had not been able to be silent about it. Stefan had counseled him for two days and had been unable to address the specific moral weight of Sophie's presence in the car.",
+        "alone": "Sophie's presence in the motorcade had been the specific moral weight that had driven Lazar to write the warning — Stefan's counsel had not addressed this dimension and had been unable to.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Stefan acknowledging he could not resolve Lazar's conscience and Sophie's presence being the specific unresolvable element together confirm the two-day intervention's limit — the counsel had addressed the conspiracy's logic but not the specific person Lazar had been unable to leave unwarned."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📖",
+        "heading": "Stefan After the War",
+        "text": "Stefan Hodža had survived both the war and the subsequent Yugoslav conflicts. He had given his 1919 testimony, had returned to Sarajevo, and had lived there until his death in 1952. He had not publicly described his two-day effort to counsel Lazar until 1949, when he had told the story to a local historian who had been documenting the conspiracy's human dimensions. The historian's account had been published in 1952, the year of Stefan's death. He had waited thirty-five years to tell the full story.",
+        "alone": "Stefan had waited thirty-five years to tell the full story of his intervention — publishing it the year he died, after the commission's 1919 testimony had recorded only the outline.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Stefan waiting thirty-five years to tell the full story and Lazar writing for forty minutes before being killed together confirm the two silences at the case's heart — Stefan's thirty-five-year silence about his failed intervention, and Lazar's letter that had never been finished."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Sentence That Was Not Finished",
+        "text": "The letter's interrupted sentence has been reproduced in several historical accounts of the Sarajevo assassination. It appears in each account at the same point: '—at intervals of approximately—'. The next word would have been 'two hundred metres.' The sentence that was not finished is one of the most studied unfinished sentences in the history of the twentieth century. Stefan knew what the next word would have been. He told the historian in 1949. The letter in the archive ends where it ends. The century went the way it went.",
+        "alone": "The unfinished sentence is studied. Stefan knew the next word. The century went the way it went.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Stefan waiting thirty-five years to speak and the letter ending where it ends together confirm the investigation's final element — everything that could be known has been assembled. The sentence ends mid-word. The next word was 'two hundred metres.' The world of 1914 ended the way it ended, and the investigation is complete."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dragan Vasić",
+      "location": "The Hotel Room",
+      "weapon": "Garrote",
+      "motive": "Enforce the Conspiracy's Secrecy",
+      "accomplice": "Reported Lazar's Wavering Knowing the Consequence"
+    },
+    "epilogue": "Stefan Hodža had spent two days trying to give Lazar a path that would not require betrayal or death. Lazar had taken the path anyway. He had gone to Ana and had asked for counsel, despite Stefan's warning. Ana had told him to stay with the cause and had reported him to Vasić. Vasić had arrived at seven-forty-five PM. Lazar had been writing for forty minutes about Sophie and the children. The garrote had been applied from behind. The letter had ended mid-sentence. The following morning the motorcade had followed the Appel Quay. The century had begun its long violence. Stefan had told the full story in 1949. The letter was in an archive in Sarajevo. The interrupted sentence was legible. The next word was not there. It had been 'two hundred metres.' The investigation is complete."
+  }
+}

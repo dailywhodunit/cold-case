@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Mumbai, 1995. A Bollywood film studio. A director dead on set between takes. And a career rivalry that had been burning for a decade. 🎬🔍 Case #099 — Playback. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Mumbai 1995 Bollywood, a director dead between takes, a decade of rivalry, and the one person who needed him gone before the film was finished. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1995 Mumbai Bollywood film set between takes, elaborate costume racks and a painted palatial backdrop, a director's monitor showing a frozen frame, a film camera on its dolly with a crew member's scarf draped over the lens, an overturned chai cup on the director's chair arm. Warm Mumbai light through the studio doors, deep shadow behind the set. Style of Satyajit Ray meets Sanjay Leela Bhansali's production design.",
+    "animationPrompt": "Slow pan through a 1995 Mumbai Bollywood set between takes. Costume racks. A painted palatial backdrop. A director's monitor with a frozen frame. The camera finds an overturned chai cup on the director's chair arm and a scarf draped over the camera lens. Warm light through the studio doors. The set is very still. Fade to black.",
+    "hashtags": [
+      "#Mumbai1995",
+      "#BollywoodMystery",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #099",
+    "title": "Playback",
+    "setting": "FilmCity Studios · Mumbai · India · 1995",
+    "emoji": "🎬",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Director Rajiv Malhotra was found dead in his chair between takes on the set of Kismet Ka Sitara — the most expensive production in FilmCity's history. He had been in a decade-long rivalry with director Suresh Kapoor over the studio's resources. The film's producer had just told Rajiv that Kapoor's competing project would receive more funding. Three people had been on set during the lunch break when Rajiv died.",
+    "emptyState": "He died between takes. The set was empty — except for three people. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Suresh Kapoor",
+            "icon": "🎥",
+            "detail": "The rival director — had just received the funding that had been taken from Rajiv's production."
+          },
+          {
+            "name": "Priya Sharma",
+            "icon": "🎭",
+            "detail": "The film's lead actress — had been promised the lead in Kapoor's film if Rajiv's production failed."
+          },
+          {
+            "name": "Dev Anand Mehta",
+            "icon": "📽️",
+            "detail": "The film's cinematographer — had been Rajiv's collaborator for twelve years but had secretly signed with Kapoor's next project."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Stage",
+            "icon": "🎬",
+            "detail": "Where Rajiv was found in his director's chair — monitor frozen, chai overturned, scarf on the camera."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Where the funding meeting had taken place that morning — adjacent to the main stage."
+          },
+          {
+            "name": "The Costume Department",
+            "icon": "👘",
+            "detail": "Where Priya had been between takes — confirmed by the costume assistant."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Chai",
+            "icon": "☕",
+            "detail": "The overturned chai cup — traces of potassium chloride found in the residue, causing cardiac arrest."
+          },
+          {
+            "name": "Camera Dolly",
+            "icon": "📽️",
+            "detail": "No wound — Rajiv had died in his chair, not from impact."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "No wound consistent with the cause of death — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Funding Decision",
+        "text": "The production office records show that at ten AM that morning — two hours before the lunch break during which Rajiv died — producer Arvind Choksi had informed Rajiv that 40 percent of Kismet Ka Sitara's remaining budget had been redirected to Suresh Kapoor's new production Andha Pyaar. Rajiv had been told the decision was final. Choksi's notes from the meeting describe Rajiv as 'visibly devastated and angry.' He had returned to set for the morning's takes.",
+        "alone": "Rajiv had been told two hours before his death that his film's budget had been cut 40 percent in favor of Kapoor's project — he had been devastated and had returned to set.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Rajiv's 40-percent budget cut in favor of Kapoor's project and Kapoor's confirmed presence on the FilmCity lot during the lunch break together establish Kapoor's presence and motive at the time of the killing."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "☕",
+        "heading": "The Chai",
+        "text": "The overturned chai cup — Rajiv's personal cup brought to him by the set's chai wallah — contains residue with potassium chloride in a concentration sufficient to induce cardiac arrest in a man with Rajiv's documented mild heart condition. The chai wallah confirms he had prepared the chai and had left it on the chair arm before the lunch break. Someone had added the potassium chloride to the cup after it had been set down.",
+        "alone": "Potassium chloride had been added to Rajiv's chai after the chai wallah had set it down — someone on the set during the lunch break had poisoned the cup.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The potassium chloride added during the lunch break and Dev Anand Mehta's confirmed medical background from his film school training giving him knowledge of cardiac medications together confirm the killer had specific pharmacological knowledge."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Priya in the Costume Department",
+        "text": "The costume assistant confirms Priya Sharma had been in the costume department from twelve-fifteen PM until one PM — the full lunch break window during which the chai had been poisoned. Priya had been fitted for the next scene's costume. She had not been on the main stage. She is definitively cleared.",
+        "alone": "Priya had been in the costume department throughout the lunch break — confirmed by the costume assistant for the full window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Priya cleared in the costume department and Suresh Kapoor confirmed in the production office until twelve-forty-five PM together narrow the main stage presence to Dev Anand Mehta during the critical window after twelve-forty-five PM."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📽️",
+        "heading": "Dev's Secret Contract",
+        "text": "A document found in Dev Anand Mehta's bag — discovered during the investigation — is a signed contract between Dev and Suresh Kapoor's production company for cinematography on Andha Pyaar. The contract had been signed three days before Rajiv's death. Dev had been under contract with Kismet Ka Sitara and had secretly signed with the rival production. If Rajiv's film was abandoned, Dev's Kapoor contract would become his primary commitment.",
+        "alone": "Dev had secretly signed a contract with Kapoor's production three days before Rajiv's death — his financial future was tied to Kismet Ka Sitara's failure.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Dev's secret Kapoor contract and the chai poisoning requiring specific pharmacological knowledge confirm both his motive and his capability — the person whose career depended on the film's failure had the knowledge to administer an undetectable cardiac poison."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎥",
+        "heading": "Kapoor on the Lot",
+        "text": "Suresh Kapoor had been on the FilmCity lot that day — his own production had been shooting on Stage 3. He had attended the morning funding meeting with Choksi. He had been in the production office from twelve PM until twelve-forty-five PM, confirmed by Choksi and his own assistant. After twelve-forty-five PM, his movements are unconfirmed until one-thirty PM when he returned to his own set.",
+        "alone": "Kapoor had been in the production office until twelve-forty-five PM — his movements between twelve-forty-five and one-thirty PM are unconfirmed, a forty-five-minute window.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Rajiv's funding cut in favor of Kapoor and Kapoor's unconfirmed movements during the lunch break establish a motive and a window — but the chai's pharmacological specificity points away from a man who had just won the funding battle toward someone whose career still depended on the film's destruction."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📽️",
+        "heading": "Dev's Film School Background",
+        "text": "Dev Anand Mehta had attended the Film and Television Institute of India in Pune, where he had taken an elective in film medicine — a course covering on-set medical emergencies. Course records show he had studied cardiac medications and their interactions, including the use of potassium chloride in cardiac procedures. He was one of the few people on set with documented knowledge of the compound's cardiac effects.",
+        "alone": "Dev had studied potassium chloride's cardiac effects at film school — he had the specific pharmacological knowledge the poisoning had required.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The chai poisoning requiring potassium chloride knowledge and Dev's documented film school study of cardiac medications confirm his unique capability among the suspects — the knowledge had been specific and his course had been documented."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎥",
+        "heading": "Dev's Lunch Break",
+        "text": "Dev Anand Mehta claims he had been in the camera room cleaning equipment during the lunch break. The camera room is adjacent to the main stage. A camera assistant confirms Dev had been in the camera room until approximately twelve-fifty PM and had then gone to the main stage to check the camera setup for the afternoon's shots. The chai cup had been on the chair arm. Dev had been alone on the main stage from twelve-fifty PM until one PM.",
+        "alone": "Dev had been alone on the main stage with Rajiv's chai cup from twelve-fifty to one PM — the window during which the potassium chloride had been added.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Dev's secret Kapoor contract requiring Rajiv's film to fail and his confirmed solitary presence on the main stage with the chai cup from twelve-fifty to one PM confirm both motive and opportunity — the twelve-fifty to one PM window was the poisoning window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "☕",
+        "heading": "The Potassium Chloride Source",
+        "text": "Potassium chloride in the concentration found in the chai cup could have come from a standard film set medical kit — every Bollywood set was required to carry one for cardiac emergency use. The Kismet Ka Sitara set's medical kit, when examined, shows the potassium chloride vial had been opened and partially used. The kit's last inventory check had been three days before the killing — the vial had been full at that time.",
+        "alone": "The potassium chloride had come from the set's medical kit — used between the inventory check three days before and Rajiv's death. Only regular set members had access to the kit.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The potassium chloride from the set's medical kit and Dev's film school knowledge of its cardiac effects confirm the source and the knowledge had both been accessible to him — and to no other suspect with equivalent documented pharmacological awareness."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dev Anand Mehta",
+      "location": "The Main Stage",
+      "weapon": "Poisoned Chai"
+    },
+    "epilogue": "Dev Anand Mehta had signed Suresh Kapoor's contract three days before the killing. He had opened the set's medical kit at some point between the inventory check and the lunch break. At twelve-fifty PM he had gone to the main stage to check the camera setup and had added potassium chloride to Rajiv's chai. He had returned to the camera room. Rajiv had returned from the production office and had drunk from his cup. The cardiac arrest had occurred at one-twenty PM. Dev was convicted in 1997. Kismet Ka Sitara was completed by a replacement director in 1996 and released to mixed reviews. Andha Pyaar, Suresh Kapoor's film, won the Filmfare Award for Best Film. Dev did not shoot it — his contract had been voided by the arrest. The chai wallah made Rajiv's personal blend for twenty years. He did not make it again."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #099",
+    "title": "Playback",
+    "setting": "FilmCity Studios · Mumbai · India · 1995",
+    "emoji": "🎬",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Dev killed Rajiv. But Suresh Kapoor had known about Dev's secret contract — he had signed it. Find whether Kapoor had anticipated that Dev would act against Rajiv, and what he had done during his unconfirmed forty-five-minute window.",
+    "emptyState": "Kapoor signed Dev's contract. Find what he knew Dev might do with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dev Anand Mehta",
+            "icon": "📽️",
+            "detail": "The killer — secret contract, potassium chloride knowledge, twelve-fifty to one PM alone on stage."
+          },
+          {
+            "name": "Suresh Kapoor",
+            "icon": "🎥",
+            "detail": "Cleared as killer — production office until twelve-forty-five. Had signed Dev's contract and known his situation."
+          },
+          {
+            "name": "Priya Sharma",
+            "icon": "🎭",
+            "detail": "Cleared as killer — costume department throughout. Had been promised Kapoor's lead role."
+          },
+          {
+            "name": "Producer Arvind Choksi",
+            "icon": "📋",
+            "detail": "The funding decision maker — had redirected Rajiv's budget to Kapoor's project that morning."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Stage",
+            "icon": "🎬",
+            "detail": "Primary crime scene — Dev's poisoning of Rajiv's chai."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Kapoor's confirmed location until twelve-forty-five — and his unconfirmed location afterward."
+          },
+          {
+            "name": "Stage 3",
+            "icon": "🎥",
+            "detail": "Kapoor's own production — where he returned at one-thirty PM."
+          },
+          {
+            "name": "The Camera Room",
+            "icon": "📽️",
+            "detail": "Where Dev had been from twelve PM to twelve-fifty PM — adjacent to the main stage."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Chai",
+            "icon": "☕",
+            "detail": "Confirmed murder weapon — Dev's, potassium chloride, set medical kit."
+          },
+          {
+            "name": "Camera Dolly",
+            "icon": "📽️",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Dev's Contract",
+            "icon": "📋",
+            "detail": "Not a weapon — but the document Kapoor had signed that had created Dev's specific motive and desperation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Enable Career Transition to Kapoor's Production",
+            "icon": "📽️",
+            "detail": "Dev's motive — secret contract, Kismet Ka Sitara's failure needed for Andha Pyaar to become his primary work."
+          },
+          {
+            "name": "Eliminate the Rival Director",
+            "icon": "🎥",
+            "detail": "The direct benefit to Kapoor — Rajiv's death would remove his decade-long rival from the industry."
+          },
+          {
+            "name": "Anticipatory Knowledge",
+            "icon": "📋",
+            "detail": "Kapoor's possible foreknowledge — he had signed Dev's contract knowing Dev's desperate position."
+          },
+          {
+            "name": "Kapoor's Unconfirmed Window",
+            "icon": "🎥",
+            "detail": "The forty-five minutes — what Kapoor had done between twelve-forty-five and one-thirty PM."
+          },
+          {
+            "name": "Choksi's Funding Decision",
+            "icon": "📋",
+            "detail": "The structural trigger — the morning's budget redirection had made Rajiv's position untenable and Dev's desperation acute."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🎥",
+        "heading": "Kapoor's Forty-Five Minutes",
+        "text": "Investigation of Kapoor's movements between twelve-forty-five and one-thirty PM establishes: a FilmCity security guard saw him walking toward the main stages — not Stage 3 — at approximately twelve-fifty-five PM. Kapoor's stated account is that he had taken a walk around the lot. He had not visited the main stage — he is not placed inside it. He had been in the external corridor between the production office building and the stage complex.",
+        "alone": "Kapoor had been in the corridor near the main stage between twelve-fifty-five and one-thirty — walking, not entering. He had not been inside the main stage but had been in its vicinity during the poisoning window.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Kapoor near the main stage corridor during the poisoning window and his signed contract with Dev creating Dev's specific desperation confirm he had been physically proximate to the scene during the killing — though not inside."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Kapoor Knew About Dev",
+        "text": "Kapoor, interviewed by investigators, is asked whether he had known Dev was under contract with Kismet Ka Sitara when he signed the Andha Pyaar contract. He says: 'Yes. Dev came to me. He said he needed a way out of the Malhotra project. I offered him a contract. What he did with his existing obligations was his affair.' He had known Dev was under conflicting contract when he signed him.",
+        "alone": "Kapoor had known Dev was in a conflicting contract when he signed him — he had understood Dev's desperate position and had offered the contract anyway.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Kapoor knowing Dev's conflicting contract situation and Dev's pharmacological knowledge and access to the medical kit confirm Kapoor had signed a man with both the motive and the means to remove the obstacle to his new contract — whether Kapoor had anticipated what Dev would do is the investigation's central question."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📽️",
+        "heading": "Dev's Conversation With Kapoor",
+        "text": "Dev, after his arrest, describes his interaction with Kapoor: 'Suresh called me three days before. He said he had heard Rajiv's film was in trouble. He asked if I was interested in Andha Pyaar. He said — and I remember this exactly — he said: if Malhotra's picture collapses, you should be with me, not him. I took the contract. He never said do anything. He said if it collapses.' Dev draws a sharp line between the contract and any instruction.",
+        "alone": "Dev describes Kapoor's words as 'if it collapses' — conditional rather than directive. Kapoor had offered the contract contingent on the film's failure, without specifying how the failure should occur.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Kapoor's conditional 'if it collapses' framing and his corridor proximity during the killing window confirm the investigation's finding cannot establish direction — but the conditional framing had created a specific incentive structure that Dev had acted within."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎥",
+        "heading": "Kapoor's Benefit From the Killing",
+        "text": "Rajiv Malhotra's death benefits Suresh Kapoor in three specific ways: his decade-long creative rival is removed from the industry; the funding that had been redirected to Andha Pyaar cannot be redirected back to a cancelled Kismet Ka Sitara; and Dev Anand Mehta — his new cinematographer — is now unambiguously available for Andha Pyaar. All three benefits materialize within weeks of the killing. Kapoor does not attend Rajiv's memorial.",
+        "alone": "Three specific benefits to Kapoor materialize from the killing — all within weeks. He does not attend Rajiv's memorial.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Kapoor's three materializing benefits and his corridor proximity during the killing confirm his position — he had signed the contract that had created Dev's motive, had been near the scene during the killing, and had benefited from the outcome in specific and measurable ways."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Choksi's Account of Kapoor",
+        "text": "Producer Arvind Choksi, interviewed about the morning's funding meeting, says: 'Suresh was at the meeting. After I told him about the budget redirection, he said to me: Malhotra won't accept this lying down. He'll fight it. I told him: Malhotra has no leverage. Suresh said: he might not need leverage. He has his people.' Choksi had not understood the comment at the time. In retrospect, he wonders whether it had referred to Dev.",
+        "alone": "Kapoor had said to Choksi after the funding meeting: 'Malhotra has his people' — a comment Choksi had not understood but which, in retrospect, might have referred to Dev's position on the set.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Kapoor's 'he has his people' comment after the funding meeting and his knowledge of Dev's conflicting contract confirm he had been thinking about Rajiv's set situation immediately after the funding decision — Dev had been the 'people' he had been referencing."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎥",
+        "heading": "The Investigation's Finding on Kapoor",
+        "text": "The Mumbai police investigation's finding on Kapoor: 'While Suresh Kapoor cannot be excluded as having anticipated the possibility that Dev Anand Mehta might act against Rajiv Malhotra, no direct evidence of instruction or direction has been established. His contract with Mehta created an incentive structure that Mehta acted within. His proximity to the main stage during the killing window is noted. No charge is filed against Kapoor.' He is released.",
+        "alone": "No charge is filed against Kapoor — the investigation finds an incentive structure without a directive, proximity without entry, and benefit without established direction.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Dev's account of Kapoor's conditional framing and the investigation finding an incentive structure without a directive confirm the legal outcome — Kapoor had created the conditions and had been near the scene and had benefited, without the investigation finding the element that would have made him criminally liable."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📽️",
+        "heading": "Dev's Account of His Own Decision",
+        "text": "Dev, in his full statement, says: 'Suresh did not tell me to do anything. But when he said if the picture collapses, I knew what it meant for me. I had the contract. I had the knowledge from film school. I had the access to the kit. I decided myself. Suresh didn't ask me to and I didn't tell him I would. But I knew that if I did it, everything worked out for me.' He explicitly removes Kapoor from the decision while describing exactly how the incentive had operated.",
+        "alone": "Dev explicitly clears Kapoor of directing him while describing precisely how the incentive structure had operated — the decision had been his own, but the contract had created its specific logic.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Kapoor's three materializing benefits and Dev's account of how the incentive had operated confirm the structure of the arrangement — benefit without direction, incentive without instruction, result without responsibility as legally established."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Andha Pyaar's Success",
+        "text": "Andha Pyaar was released in 1996 and won six Filmfare Awards including Best Film and Best Director for Suresh Kapoor. It was shot by a replacement cinematographer — Dev's arrest had voided the contract. Suresh Kapoor directed three more films between 1996 and 2005. In a 2005 interview, asked about Rajiv Malhotra, he says: 'Rajiv was the best of us. He would have made something extraordinary. Cinema lost something when he died.' He does not mention Dev Anand Mehta in the interview.",
+        "alone": "Kapoor won Best Director for Andha Pyaar in 1996 and called Rajiv 'the best of us' in 2005 — without mentioning Dev Anand Mehta.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The investigation finding no charge against Kapoor and his 2005 tribute to Rajiv while omitting Dev confirm his public position — he had received all the benefits, had faced no charge, and had publicly mourned the man whose death had produced those benefits, without acknowledging the man who had produced them."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dev Anand Mehta",
+      "location": "The Main Stage",
+      "weapon": "Poisoned Chai",
+      "motive": "Enable Career Transition to Kapoor's Production"
+    },
+    "epilogue": "Suresh Kapoor had said 'if it collapses, you should be with me.' He had said 'Malhotra has his people.' He had walked in the corridor near the main stage between twelve-fifty-five and one-thirty PM. He had received all three benefits. He had not been charged. Dev Anand Mehta had decided himself. He had said so explicitly and had been believed. He had received fourteen years. Andha Pyaar had won six Filmfare Awards without his camera. Rajiv Malhotra's replacement director had finished Kismet Ka Sitara. It had been released in 1996 to mixed reviews. Suresh Kapoor had called Rajiv the best of them in 2005. He had not mentioned Dev."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #099",
+    "title": "Playback",
+    "setting": "FilmCity Studios · Mumbai · India · 1995",
+    "emoji": "🎬",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Dev killed Rajiv. Kapoor's incentive structure enabled it. But Priya Sharma had been promised the lead in Andha Pyaar — and had known about Dev's contract before the killing. Find what she knew and what she had done with that knowledge.",
+    "emptyState": "Priya knew about Dev's contract. Find what she did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dev Anand Mehta",
+            "icon": "📽️",
+            "detail": "The killer — potassium chloride, medical kit, twelve-fifty to one PM, fourteen years."
+          },
+          {
+            "name": "Suresh Kapoor",
+            "icon": "🎥",
+            "detail": "Cleared as killer — incentive structure without directive, no charge filed."
+          },
+          {
+            "name": "Priya Sharma",
+            "icon": "🎭",
+            "detail": "Cleared as killer — costume department throughout. Had known about Dev's contract before the killing."
+          },
+          {
+            "name": "Producer Arvind Choksi",
+            "icon": "📋",
+            "detail": "The funding decision maker — whose morning decision had created the acute desperation Dev had acted within."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Stage",
+            "icon": "🎬",
+            "detail": "Primary crime scene — Dev's poisoning."
+          },
+          {
+            "name": "The Costume Department",
+            "icon": "👘",
+            "detail": "Priya's confirmed location — and where she had told the costume assistant something the previous day."
+          },
+          {
+            "name": "Stage 3",
+            "icon": "🎥",
+            "detail": "Kapoor's set — where Priya had visited the previous week and had spoken to Kapoor directly."
+          },
+          {
+            "name": "The Production Office",
+            "icon": "📋",
+            "detail": "Where Choksi had made the funding decision — and where the morning's meeting had established the day's fatal conditions."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Poisoned Chai",
+            "icon": "☕",
+            "detail": "Confirmed murder weapon — Dev's."
+          },
+          {
+            "name": "Camera Dolly",
+            "icon": "📽️",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Lighting Rig",
+            "icon": "💡",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Priya's Prior Knowledge",
+            "icon": "🎭",
+            "detail": "Not a weapon — but what she had known about Dev's contract and what she had done with it before the killing."
+          },
+          {
+            "name": "Choksi's Morning Decision",
+            "icon": "📋",
+            "detail": "Not a weapon — but the trigger condition that had made the killing's day its specific day."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Enable Career Transition",
+            "icon": "📽️",
+            "detail": "Dev's motive — fourteen years."
+          },
+          {
+            "name": "Eliminate the Rival Director",
+            "icon": "🎥",
+            "detail": "Kapoor's unchrged benefit — six Filmfare Awards."
+          },
+          {
+            "name": "Secure the Lead Role in Andha Pyaar",
+            "icon": "🎭",
+            "detail": "Priya's interest — she had been promised the lead if Rajiv's production failed."
+          },
+          {
+            "name": "Priya's Knowledge of Dev's Contract",
+            "icon": "🎭",
+            "detail": "What she had known — she had visited Kapoor's set the previous week and had been told about Dev."
+          },
+          {
+            "name": "Her Non-Disclosure Before the Killing",
+            "icon": "🎭",
+            "detail": "What Priya had done with her knowledge — had not warned Rajiv, had not told the studio, had waited."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Rajiv With Potassium Chloride",
+            "icon": "📽️",
+            "detail": "Dev's confirmed role — fourteen years."
+          },
+          {
+            "name": "Created the Incentive Structure Through the Contract",
+            "icon": "🎥",
+            "detail": "Kapoor's role — no charge filed."
+          },
+          {
+            "name": "Knew About Dev's Contract and Did Not Warn Rajiv",
+            "icon": "🎭",
+            "detail": "Priya's role — had known for days before the killing, had stayed silent."
+          },
+          {
+            "name": "Made the Funding Decision That Created the Day's Conditions",
+            "icon": "📋",
+            "detail": "Choksi's administrative role — not criminal, but structurally enabling."
+          },
+          {
+            "name": "Told Priya About Dev as Part of Securing Her Commitment",
+            "icon": "🎥",
+            "detail": "Kapoor's disclosure to Priya — had told her about Dev's contract to explain why the transition would work."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Priya's Visit to Stage 3",
+        "text": "Priya Sharma had visited Suresh Kapoor on Stage 3 the previous week — five days before the killing. She confirms the visit: 'Suresh showed me the script for Andha Pyaar. He told me the lead was mine if I wanted it. He also told me Dev would be shooting the picture — that he had already signed Dev.' She had been told about Dev's contract five days before the killing.",
+        "alone": "Priya had known about Dev's contract with Kapoor for five days before the killing — Kapoor had told her as part of securing her commitment to the project.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Priya knowing about Dev's contract for five days and her costume department alibi confirming she had not been the killer together establish her position — she had known someone on the set had a reason to want Rajiv's film to fail, and had not acted on that knowledge."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "What Priya Had Known About Dev's Position",
+        "text": "Priya is asked whether she had understood what Dev's dual contract meant for his position. She says: 'I knew Dev was under contract with Rajiv. I knew he had also signed with Suresh. I understood that was a conflict. I thought — Dev would find a way out. He's done things like this before, leaving one project for another. I didn't think about what else he might do.' She claims she had not anticipated the killing.",
+        "alone": "Priya had understood Dev's conflicting contract situation but claims she had not anticipated that he might resolve it through violence.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Priya understanding Dev's conflict and her promise of the lead role in Kapoor's film creating a parallel interest in Rajiv's film failing confirm she had been aware of the conditions that had produced the killing — her non-disclosure had served her own interest."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Priya's Promise From Kapoor",
+        "text": "The promised lead role in Andha Pyaar had been contingent, Kapoor had told Priya, on 'the project proceeding.' If Kismet Ka Sitara continued and Dev remained under contract, Kapoor's production timeline was uncertain. Priya had understood that her lead role depended on Rajiv's project not continuing — whether through budget failure, cancellation, or any other reason. She had the same conditional interest in the film's failure as Dev.",
+        "alone": "Priya's lead role had been contingent on Kapoor's project proceeding — which required Kismet Ka Sitara not to continue in a form that retained Dev. She had a financial interest in the same outcome Dev had acted to produce.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Priya's conditional lead role and her five days of knowing about Dev's conflicting contract confirm she had been aware of the conditions and had had parallel incentives — her non-disclosure had not merely been ignorance but had been consistent with her own financial interest."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "The Costume Assistant's Account",
+        "text": "The costume assistant who had confirmed Priya's alibi reveals, in a second interview, that Priya had said something the previous day during a fitting: 'I think Rajiv's picture might not finish.' The assistant had thought nothing of it — production uncertainty was common. In retrospect, the comment had been made before the morning's funding decision, which had not yet occurred. Priya had anticipated the picture's failure before the public trigger.",
+        "alone": "Priya had told the costume assistant the day before the killing — before the funding decision — that she thought Rajiv's picture might not finish. She had anticipated the outcome before the morning's events.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Priya anticipating the picture's failure before the funding decision and her five days of knowing about Dev's contract confirm her anticipation had been based on what she had known — she had had enough information to foresee the outcome."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "What Priya Could Have Done",
+        "text": "If Priya had told Rajiv about Dev's contract with Kapoor at any point in the five days before the killing, Rajiv could have confronted Dev, terminated his contract, and removed the conflict. The killing would not have had the same operative context. Priya had the information, the access to Rajiv, and five days in which to act. She had not acted. Her non-disclosure had served her own interests in a specific and measurable way.",
+        "alone": "Five days, access to Rajiv, and the information that would have changed the outcome — Priya had all three and had not acted. Her non-disclosure had served her lead-role interest.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Priya claiming she had not anticipated what Dev would do and the five days during which disclosure would have changed the outcome confirm the gap between her stated unawareness and the information she had held — a gap that had consistently served her financial interest."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Investigation's Finding on Priya",
+        "text": "The Mumbai police investigation's finding on Priya Sharma: 'The subject had knowledge of a conflicting contract held by the principal suspect for five days prior to the killing. She did not disclose this information to the victim, the studio, or the authorities before the killing. Her non-disclosure served her own financial interest in the victim's production failing. No direct criminal liability is established. The investigation notes a moral failure of disclosure.' No charge is filed.",
+        "alone": "Priya receives the same finding as Kapoor — moral failure of disclosure, financial interest served, no charge filed.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Priya's anticipatory comment before the funding decision and the investigation's moral failure finding confirm the full weight of her position — she had foreseen the outcome, had not prevented it, and had benefited from it, without criminal liability being established."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Priya's Lead Role",
+        "text": "Priya Sharma was cast as the lead in Andha Pyaar. The film was shot by a replacement cinematographer — Dev's arrest had voided his contract. Andha Pyaar was released in 1996 and won the Filmfare Award for Best Actress for Priya Sharma. She attended the awards ceremony and accepted the award. In her acceptance speech she thanked Suresh Kapoor. She did not mention Rajiv Malhotra. She did not mention Dev Anand Mehta.",
+        "alone": "Priya won Best Actress for Andha Pyaar in 1996, thanking Kapoor and mentioning neither Rajiv nor Dev in her acceptance speech.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Priya's conditional lead role in Kapoor's film and her Best Actress win for that film confirm the outcome she had held information about for five days had materialized exactly as she had been told it would — contingent on the picture not continuing."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Three Beneficiaries",
+        "text": "Three people benefited from Rajiv Malhotra's death: Suresh Kapoor received the decade's rival's elimination and a Best Director award. Priya Sharma received a Best Actress award for the lead role she had been promised. Dev Anand Mehta received fourteen years in prison and a voided contract. The only person who had acted directly had received the worst outcome. The two people who had created and held the incentive conditions had received the awards. None of the acceptance speeches mentioned Rajiv Malhotra.",
+        "alone": "The three beneficiaries' outcomes confirm the structure — the actor received the awards, the contract-creator received the awards, the killer received prison. The acceptance speeches mentioned none of the people who had made the awards possible.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Five days of non-disclosure serving Priya's interest and her Best Actress win for the film that had required Rajiv's failure confirm the full accounting — she had held the information that would have prevented the killing and had received the award that required the killing's outcome."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dev Anand Mehta",
+      "location": "The Main Stage",
+      "weapon": "Poisoned Chai",
+      "motive": "Enable Career Transition to Kapoor's Production",
+      "accomplice": "Knew About Dev's Contract and Did Not Warn Rajiv"
+    },
+    "epilogue": "Priya Sharma had known about Dev's contract for five days. She had told the costume assistant the picture might not finish — the day before the funding decision that had made the day acute. She had been in the costume department when Dev had added the potassium chloride to the chai. She had won Best Actress for the film that had required the outcome she had not prevented. Dev had received fourteen years and a voided contract. Kapoor had received Best Director. Priya had received Best Actress. The acceptance speeches had thanked agents and producers and directors. None had mentioned Rajiv Malhotra, who had died between takes at one-twenty PM on a Tuesday in Mumbai in 1995, in a director's chair, from a cup of chai that had been his personal blend for twelve years."
+  }
+}

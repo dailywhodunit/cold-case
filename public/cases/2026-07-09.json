@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Buenos Aires, 1952. A tango hall. Eva Perón is dying. And a journalist found dead in the back room with a dossier that could have changed Argentine history. 💃🔍 Case #112 — Milonga Oscura. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Buenos Aires 1952 Perón era, a journalist dead in a tango hall, a dossier on government disappearances, and someone inside the regime who needed it buried. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1952 Buenos Aires tango hall back room, red velvet and dark wood, a journalist's leather satchel open on a table with documents spilling out, a tango bandoneón on a chair, a man slumped against the wall beside the stage door. Late-night Buenos Aires atmosphere, the Peronist era's glamour and menace. Style of Horacio Coppola meets Alberto Korda.",
+    "animationPrompt": "Slow pan through a 1952 Buenos Aires tango hall back room. Red velvet. Dark wood. A leather satchel open on a table with documents. The camera finds a bandoneón on a chair and a figure slumped against the stage door. Late-night light. The tango music has stopped. The Perón era is ending. Fade to black.",
+    "hashtags": [
+      "#BuenosAires1952",
+      "#PeronEra",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #112",
+    "title": "Milonga Oscura",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1952",
+    "emoji": "💃",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Journalist Héctor Vargas was found dead in the back room of the Salón Porteño tango hall in Buenos Aires. He had been carrying a dossier documenting twenty-three cases of political disappearances ordered by the Perón government. Three people had known he would be at the Salón that night. The dossier was gone.",
+    "emptyState": "The dossier is gone. Three people knew he'd be there. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Rafael Suárez",
+            "icon": "🎖️",
+            "detail": "A government security official — two of the twenty-three disappeared individuals had been detained on his orders."
+          },
+          {
+            "name": "Inés Molina",
+            "icon": "💃",
+            "detail": "The Salón's owner — had arranged the meeting and had known Vargas would be in the back room."
+          },
+          {
+            "name": "Tomás Echeverría",
+            "icon": "📰",
+            "detail": "A fellow journalist — had been Vargas's source contact and had brought him to the Salón."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎭",
+            "detail": "Where Vargas was found — satchel open, documents taken, stage door ajar."
+          },
+          {
+            "name": "The Dance Floor",
+            "icon": "💃",
+            "detail": "Where the evening's milonga had been taking place — providing cover noise for the back room."
+          },
+          {
+            "name": "The Stage Door",
+            "icon": "🚪",
+            "detail": "The alley exit from the back room — through which the killer had departed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "A single shot — the pistol fired through an improvised silencer of the type used by Argentine security services."
+          },
+          {
+            "name": "Bandoneón Case",
+            "icon": "🎵",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Stage Door Bolt",
+            "icon": "🚪",
+            "detail": "No impact wound consistent — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Dossier",
+        "text": "The open satchel shows the impression of a thick document folder — the shape of what had been there. The dossier had contained names, dates, detention orders, and witness statements documenting twenty-three political disappearances from 1948 to 1952. Two of the twenty-three had been detained on orders signed by Colonel Suárez. The dossier had been the only complete documentation of those orders — held nowhere else.",
+        "alone": "The dossier documenting twenty-three disappearances — including two with Suárez's signature — was taken. The orders signed by Suárez had existed only in this document.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The dossier containing Suárez's signature on two detention orders and Suárez's confirmed presence at the Salón that evening together establish both motive and opportunity — his name on the orders had been the specific evidence the dossier had contained."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Silenced Shot",
+        "text": "A single shot through an improvised silencer — the type fabricated from automotive parts common to Argentine security services operations in the period. The tango music from the dance floor had provided ambient cover. Vargas had been shot at close range from behind while sitting at the back room table. The shot had been delivered professionally, with no unnecessary approach — the killer had acted quickly and had left through the stage door.",
+        "alone": "A professional silenced shot from behind — the improvised silencer method associated with Argentine security services operations and the quick departure through the stage door confirm a trained operative.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The security services-style silenced shot and Suárez's role as a government security official with trained operatives under his command together confirm the method had been within his operational repertoire — security officials of his rank had directed exactly this type of operation."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "Inés Molina's Evening",
+        "text": "Inés Molina had been on the dance floor all evening — confirmed by eight patrons and the bandleader who had been watching her dance. She had not left the dance floor during the milonga. The back room was accessible from the dance floor through a curtained doorway — she had not passed through the curtain during the evening. She is definitively cleared.",
+        "alone": "Inés had been on the dance floor confirmed by eight witnesses — she had not accessed the back room during the evening. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Inés cleared on the dance floor and Tomás Echeverría confirmed at the bar from nine PM together eliminate both other suspects — only Suárez's movements in the back room area are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Suárez's Exposure",
+        "text": "The dossier had documented, among its twenty-three cases, two individuals whose detention orders bore Suárez's signature. In 1952, the Perón government had absolute authority and no accountability. But political winds were shifting — Eva Perón was dying, opposition was growing. If the dossier had reached a foreign newspaper or diplomatic channel, Suárez's signed orders would have become an international record of state violence. His exposure was specific and documentable.",
+        "alone": "Suárez's signed detention orders for two disappeared individuals were in the dossier — international publication would have documented his specific role in state violence at a moment of political vulnerability.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Suárez's specific signed orders and the political context of 1952 being a moment of vulnerability for the Perón government together confirm the killing's timing — the dossier's value as evidence had been highest precisely at the moment when the government was under greatest pressure."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Suárez at the Salón",
+        "text": "A back-room waiter confirms Colonel Suárez had been in the back room area from ten PM — he had come in through the stage door, had not taken a table, and had remained standing near the curtain for approximately twenty minutes. The waiter had noticed him because military men in civilian clothes did not typically use the stage door entrance. The waiter had then been called to the dance floor and had not seen Suárez after ten-twenty PM.",
+        "alone": "Suárez had entered the back room through the stage door at ten PM and had been standing near the curtain — positioned between the back room and the stage door exit — for twenty minutes before the waiter had been called away.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The dossier containing Suárez's specific signed orders and his confirmed stage-door back-room presence at ten PM together place the person with the most specific motive in the specific room at the time the killing had occurred."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Suárez's Operational Background",
+        "text": "Argentine security records from the period — declassified in 1983 after the end of military rule — confirm Suárez had commanded a unit that had conducted targeted elimination operations during the early Perón years. The improvised silencer method found at the Salón was documented in the unit's operational training materials. He had commanded the operatives trained in exactly the method used to kill Vargas.",
+        "alone": "Suárez had commanded the unit trained in the improvised silencer method — the declassified records confirm both the method's origin and his command authority over it.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The security services-style silenced shot and Suárez's command of the unit trained in that method confirm the operational connection — he had not merely had motive but had commanded the operational capability used in the killing."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Tomás Echeverría's Account",
+        "text": "Tomás Echeverría had arranged the Salón meeting as a secure location for Vargas to show him the dossier. He had arrived at nine PM and had gone directly to the bar — he had not gone to the back room. He had been at the bar when the killing had occurred. He had heard nothing unusual — the tango music had been continuous. He had gone to the back room at eleven PM to find Vargas and had discovered the body. He is definitively cleared.",
+        "alone": "Echeverría had been at the bar from nine PM and had found the body at eleven PM — he had not been in the back room during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Inés cleared on the dance floor and Echeverría cleared at the bar together eliminate both other suspects from the back room — Suárez's stage-door presence at ten PM is the only unaccounted presence in the back room area during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Dossier's Fate",
+        "text": "The dossier was never recovered. In 1983, when Argentina returned to democratic governance, a truth commission documented many of the same cases through survivor testimony and government records. The dossier's contents were substantially confirmed — twenty of the twenty-three disappearances were corroborated by the commission. Suárez had died in 1971, never having faced legal proceedings. Tomás Echeverría had submitted testimony to the commission in 1984. Vargas's name appears in the commission's report as 'journalist killed in 1952 while documenting state violence.'",
+        "alone": "The dossier's contents had been confirmed by the 1983 commission — twenty of twenty-three cases corroborated. Suárez had died in 1971. Vargas appears in the commission's report.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Suárez's specific signed orders confirmed by the commission and his death in 1971 without legal proceedings confirm the full accounting — the evidence had been destroyed, the perpetrator had died without consequence, and thirty years later the truth had been established through other means."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Rafael Suárez",
+      "location": "The Back Room",
+      "weapon": "Service Pistol"
+    },
+    "epilogue": "Colonel Rafael Suárez had entered the Salón Porteño through the stage door at ten PM. He had been in the back room area for twenty minutes before the waiter had been called to the dance floor. He had killed Vargas with a silenced shot from behind, had taken the dossier, and had left through the stage door. The tango music had continued. Suárez had died in 1971 without legal proceedings. The truth commission in 1983 had confirmed twenty of the dossier's twenty-three cases through other means. Vargas appears in the commission's report as a journalist killed while documenting state violence. Echeverría had given testimony in 1984. Inés Molina had continued running the Salón Porteño until 1967. The bandoneón is still in the back room. The music still plays on Friday nights."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #112",
+    "title": "Milonga Oscura",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1952",
+    "emoji": "💃",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Suárez killed Vargas and took the dossier. But Inés Molina had known the meeting was happening — and she had also known Suárez. Find what Inés had done that evening and whether she had warned anyone.",
+    "emptyState": "Inés knew both Vargas and Suárez. Find what she did that evening.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Rafael Suárez",
+            "icon": "🎖️",
+            "detail": "The killer — stage door, twenty minutes, silenced shot, dossier taken, died 1971 without proceedings."
+          },
+          {
+            "name": "Inés Molina",
+            "icon": "💃",
+            "detail": "Cleared as killer — dance floor confirmed. Had known both Vargas and Suárez and had taken an action that evening."
+          },
+          {
+            "name": "Tomás Echeverría",
+            "icon": "📰",
+            "detail": "Cleared as killer — bar confirmed. Found the body at eleven PM. Testified to the 1983 commission."
+          },
+          {
+            "name": "The Missing Dossier Copy",
+            "icon": "📋",
+            "detail": "Whether a copy existed — and what Inés had done about it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Suárez's killing."
+          },
+          {
+            "name": "The Dance Floor",
+            "icon": "💃",
+            "detail": "Inés's confirmed location — and where she had made a phone call during the milonga."
+          },
+          {
+            "name": "The Stage Door Alley",
+            "icon": "🚪",
+            "detail": "Where Suárez had entered and departed — and where Inés had gone briefly at nine-forty-five PM."
+          },
+          {
+            "name": "The British Embassy",
+            "icon": "🏛️",
+            "detail": "Where the phone call from the Salón had been made — the call Inés had placed that evening."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Suárez's unit's silencer method."
+          },
+          {
+            "name": "Bandoneón Case",
+            "icon": "🎵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Stage Door Bolt",
+            "icon": "🚪",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "Inés's Phone Call",
+            "icon": "📞",
+            "detail": "Not a weapon — but the action she had taken that evening and its consequence."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Destroy the Documentation of His Orders",
+            "icon": "🎖️",
+            "detail": "Suárez's motive — signed detention orders, international exposure risk."
+          },
+          {
+            "name": "Protect the Journalist and the Document",
+            "icon": "💃",
+            "detail": "Inés's actual action — she had tried to warn someone before the killing."
+          },
+          {
+            "name": "Inés's Connection to Suárez",
+            "icon": "💃",
+            "detail": "How she had known him — and how she had known he was coming."
+          },
+          {
+            "name": "The British Embassy Call's Purpose",
+            "icon": "🏛️",
+            "detail": "What Inés had called the British Embassy about — and what had happened with the call."
+          },
+          {
+            "name": "Whether the Copy Had Survived",
+            "icon": "📋",
+            "detail": "The investigation's key question — whether Inés's action had produced a lasting copy of the dossier."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "💃",
+        "heading": "Inés's Phone Call",
+        "text": "The Salón's telephone log — recovered in the 1983 commission's investigation — shows a call placed from the Salón's backstage telephone at nine-forty-five PM, lasting three minutes. The call had been placed to the British Embassy's after-hours line. Inés had left the dance floor briefly at nine-forty-five PM — noted by one of the eight witnesses who had confirmed her dance floor presence. She had returned within five minutes.",
+        "alone": "Inés had placed a three-minute call to the British Embassy at nine-forty-five PM — leaving the dance floor briefly and returning. The call had occurred forty-five minutes before Suárez had entered through the stage door.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Inés calling the British Embassy forty-five minutes before Suárez arrived and the embassy's eventual receipt of the dossier content together confirm the call had been a warning and a transmission — she had acted to preserve the document's content before the killing had occurred."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💃",
+        "heading": "How Inés Had Known Suárez Was Coming",
+        "text": "Inés Molina had known Colonel Suárez from a personal connection — her brother had been detained and released through Suárez's unit in 1950. The detention and release had been the mechanism through which Suárez had acquired leverage over families. Inés had learned through a mutual contact that Suárez had been informed of the Salón meeting — the security services had been surveilling Vargas for six weeks. She had known, by nine PM, that Suárez would be coming.",
+        "alone": "Inés had known Suárez through her brother's detention and had learned Suárez had been informed of the meeting — she had known he would come before he arrived.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Inés knowing Suárez was coming and placing the British Embassy call forty-five minutes before his arrival confirm she had acted with specific foreknowledge — the call had been a warning enabled by intelligence she had received through the leverage network that connected her to Suárez."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The British Embassy's Response",
+        "text": "British Foreign Office records — declassified in 1982 — include a note from the duty officer on the night of the killing: 'Received a call at 9:47 PM from a woman identifying herself as the proprietor of an establishment on Avenida Corrientes. She stated a journalist named Vargas was in her premises with documentation of political disappearances. She stated government security services had been informed of his location. She asked whether we could assist. We were unable to act in Argentine internal security matters. The call was logged.'",
+        "alone": "The British Embassy had received Inés's warning, had been unable to act in Argentine internal matters, and had logged the call — the warning had been received and had not produced assistance.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The embassy receiving Inés's warning and being unable to act and the killing occurring forty-five minutes later together confirm the warning had been insufficient to prevent the killing — the international channel Inés had used had not had the capacity to intervene in Argentine domestic security."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Whether a Copy Had Survived",
+        "text": "The 1983 truth commission investigation finds a Foreign Office document from 1952 that had been attached to the duty officer's call log: a handwritten summary, in Spanish, of twenty-three disappearance cases with names, dates, and references to orders signed by specific officials. The duty officer had asked Inés to read the document over the phone while he had transcribed it. The three-minute call had produced a partial transcription. The transcription had been in the Foreign Office archive since 1952.",
+        "alone": "Inés had read the dossier over the phone to the British duty officer, who had transcribed it — a partial copy had been in the Foreign Office archive for thirty years before the commission found it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The partial transcription in the Foreign Office archive and the commission using it as evidence confirm Inés's three-minute call had produced a lasting partial record — the dossier's content had survived the killing through the action she had taken forty-five minutes before it."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💃",
+        "heading": "Inés's Role in the 1983 Commission",
+        "text": "Inés Molina testified to the 1983 truth commission. She described the evening at the Salón, the call to the British Embassy, and her foreknowledge that Suárez would come. The commission's report credits her testimony as 'providing essential context for the documented cases and confirming the circumstances of Héctor Vargas's death.' The partial transcription in the Foreign Office archive had been identified through her testimony's reference to the call. She had been eighty-one when she had testified.",
+        "alone": "Inés had testified at eighty-one and had led the commission to the Foreign Office transcription — the partial copy she had created with a three-minute phone call in 1952 had been found through her 1983 account.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The partial transcription found through Inés's testimony and the commission using it as corroboration confirm the full arc of the three-minute call — made in 1952 to prevent a killing it had not prevented, the partial record had survived for thirty years and had been found through the action of the woman who had placed it."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "💃",
+        "heading": "Inés's Salón After 1952",
+        "text": "Inés Molina had continued running the Salón Porteño until 1967. During the intervening years, the Salón had become known as a location where opposition figures had met — a reputation that had made it a target for surveillance and occasional raids. Inés had never been arrested. Her brother had remained under informal surveillance until 1955 when Perón had been deposed. She had kept the Salón open. She had kept the back room available. She had kept the stage door accessible from the alley.",
+        "alone": "Inés had kept the Salón open for fifteen years as a meeting place for opposition figures — the same space where Vargas had been killed had continued to function as a location for dissent.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The British Embassy unable to act in 1952 and the Salón continuing as an opposition meeting place for fifteen years together confirm the different forms of resistance that had operated simultaneously — international channels had been unable to act, and local informal channels had continued."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Suárez's Later Career",
+        "text": "Suárez had continued in Argentine security services until 1958, when a change in government had prompted a reorganisation. He had retired from service and had died in 1971. The 1983 commission had documented his role in fourteen disappearances — including the two whose orders had been in Vargas's dossier. The partial Foreign Office transcription had named his signature. He had died eight years before the commission had assembled the evidence against him.",
+        "alone": "Suárez had died in 1971 — eight years before the commission had documented his fourteen cases and twelve years before the Foreign Office transcription had been found and used as evidence.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Inés's testimony leading to the Foreign Office transcription and Suárez dying before the evidence was assembled together confirm the investigation's temporal gap — the evidence had been created in 1952, found in 1983, and the person it had documented had died in 1971."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💃",
+        "heading": "The Salón Today",
+        "text": "The Salón Porteño closed in 1967 and reopened under new management in 1985 — the year after Argentina's first democratic election following the military government. It operates as a tango venue. The back room is used for private events. A small plaque on the stage door reads: 'In memory of Héctor Vargas, journalist, 1952. And of those whose names are in the record.' The plaque was placed by Tomás Echeverría in 1985. Inés Molina died in 1989. The plaque does not mention her. The stage door is still in the alley.",
+        "alone": "The Salón has a plaque for Vargas placed by Echeverría in 1985. Inés died in 1989. The plaque does not mention her. The stage door is still in the alley.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Inés's testimony leading to the commission's corroboration and the plaque not mentioning her together confirm the pattern of the case — the woman whose three-minute call had preserved the partial record, whose testimony had found it, and who had kept the Salón open for fifteen years as an opposition space had not been named in the memorial."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Rafael Suárez",
+      "location": "The Back Room",
+      "weapon": "Service Pistol",
+      "motive": "Destroy the Documentation of His Orders"
+    },
+    "epilogue": "Inés Molina had placed the call at nine-forty-five PM. She had read the dossier over the phone while the duty officer had transcribed. She had returned to the dance floor. Suárez had entered through the stage door at ten PM. The killing had occurred between ten and ten-thirty. The tango music had continued. The transcription had been in the Foreign Office archive since 1952. The commission had found it in 1983 through Inés's testimony. She had been eighty-one. Suárez had died in 1971. The plaque says Vargas's name and 'those whose names are in the record.' The stage door is still in the alley. The music still plays on Friday nights. Inés is not on the plaque. She is in the record."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #112",
+    "title": "Milonga Oscura",
+    "setting": "Salón Porteño · Buenos Aires · Argentina · 1952",
+    "emoji": "💃",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Suárez killed Vargas. Inés preserved the partial record. But Tomás Echeverría had a complete copy of the dossier that he had not disclosed to anyone — find when he had made it and why he had waited until 1983 to use it.",
+    "emptyState": "Echeverría had a complete copy. He waited thirty years. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Rafael Suárez",
+            "icon": "🎖️",
+            "detail": "The killer — stage door, silenced shot, dossier taken, died 1971."
+          },
+          {
+            "name": "Inés Molina",
+            "icon": "💃",
+            "detail": "Cleared as killer — three-minute call, partial transcription, testimony 1983, died 1989."
+          },
+          {
+            "name": "Tomás Echeverría",
+            "icon": "📰",
+            "detail": "Cleared as killer — bar confirmed. Had a complete copy. Waited thirty years."
+          },
+          {
+            "name": "The Plaque on the Stage Door",
+            "icon": "🚪",
+            "detail": "Echeverría had placed it in 1985 — the same year he had published the complete dossier."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎭",
+            "detail": "Primary crime scene — and where Echeverría had placed his copy before Vargas had arrived."
+          },
+          {
+            "name": "The Bar",
+            "icon": "🍹",
+            "detail": "Echeverría's confirmed location — and where he had been holding the knowledge of his complete copy."
+          },
+          {
+            "name": "Echeverría's Safe",
+            "icon": "📋",
+            "detail": "Where the complete copy had been stored for thirty years."
+          },
+          {
+            "name": "The 1985 Publication",
+            "icon": "📰",
+            "detail": "Where the complete dossier had finally been published — the outcome of thirty years of waiting."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Service Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Suárez's."
+          },
+          {
+            "name": "Bandoneón Case",
+            "icon": "🎵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Stage Door Bolt",
+            "icon": "🚪",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "Echeverría's Complete Copy",
+            "icon": "📋",
+            "detail": "Not a weapon — but the document that had existed for thirty years before it had been used."
+          },
+          {
+            "name": "Echeverría's Thirty-Year Decision",
+            "icon": "📰",
+            "detail": "Not a weapon — the choice to wait and the reason for waiting."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Destroy the Documentation",
+            "icon": "🎖️",
+            "detail": "Suárez's motive — confirmed, died without proceedings."
+          },
+          {
+            "name": "Preserve the Record Through a Phone Call",
+            "icon": "💃",
+            "detail": "Inés's action — partial transcription, thirty years in archive."
+          },
+          {
+            "name": "Survive to Publish",
+            "icon": "📰",
+            "detail": "Echeverría's reason for waiting — the Perón era, the subsequent military government, the risk of publication."
+          },
+          {
+            "name": "When It Was Safe to Publish",
+            "icon": "📰",
+            "detail": "The specific condition Echeverría had waited for — democratic governance restored."
+          },
+          {
+            "name": "What the Thirty-Year Wait Had Cost",
+            "icon": "📋",
+            "detail": "The victims whose cases had been documented — and what the delay in publication had meant for them."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Vargas and Took the Original Dossier",
+            "icon": "🎖️",
+            "detail": "Suárez's confirmed role — died 1971."
+          },
+          {
+            "name": "Called the British Embassy and Created the Partial Transcription",
+            "icon": "💃",
+            "detail": "Inés's role — testimony 1983, died 1989, not on the plaque."
+          },
+          {
+            "name": "Made a Complete Copy Before the Meeting and Waited Thirty Years",
+            "icon": "📰",
+            "detail": "Echeverría's role — published 1985, placed the plaque, not naming Inés."
+          },
+          {
+            "name": "Received the Warning Call and Logged It",
+            "icon": "🏛️",
+            "detail": "The British duty officer's role — transcription in archive since 1952."
+          },
+          {
+            "name": "Confirmed the Cases Through Survivor Testimony",
+            "icon": "📋",
+            "detail": "The 1983 commission's role — twenty of twenty-three cases corroborated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "When Echeverría Had Made the Copy",
+        "text": "Echeverría's 1985 published account of the evening explains: 'I had arrived at the Salón at nine PM. Before going to the bar, I had gone to the back room where Vargas had already set up his materials. I had taken a full photographic reproduction of the dossier with a miniature camera I carried routinely. I had not told Vargas I had done this. I had then gone to the bar. When I found his body at eleven PM, I knew the original was gone. I knew I had the copy.'",
+        "alone": "Echeverría had photographically reproduced the complete dossier before going to the bar — before the killing — without telling Vargas. He had known he held the complete record when he had found the body.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Echeverría making the complete copy at nine PM before the killing and not disclosing it until 1985 together confirm the thirty-year gap had been a deliberate decision rather than ignorance — he had held the complete record from the moment the original had been taken."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Why Echeverría Had Waited",
+        "text": "Echeverría's 1985 account continues: 'I had the photographs from October 1952. What would I have done with them in 1952? The Perón government would have killed me. In 1955, after Perón fell, I tried — I showed the photographs to an editor. He told me the military had taken power and the photographs would get both of us killed. In 1966, when the next military government came, I put them back in the safe. In 1976, when the worst one came, I left Argentina for six months. I waited for democracy. Democracy came in 1983. I published in 1985.'",
+        "alone": "Echeverría had been unable to publish safely through three successive periods of authoritarian government — he had waited specifically for democratic governance to be restored before publishing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Echeverría waiting through three authoritarian periods and publishing in 1985 after democratic restoration confirm the timing had been driven by survival — the thirty-year delay had been the cost of having been the holder of dangerous information in a country that had punished disclosure."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Thirty-Year Wait Had Cost",
+        "text": "The 1983 commission had documented that several of the twenty-three individuals in the dossier had died in detention or had remained disappeared. Some of the families had not known the fate of their relatives until the commission's work. If Echeverría had published in 1952 or 1955, the families would have had documentation thirty years earlier. The commission's report does not calculate this cost — it describes the commission's findings without reference to what had been known and when.",
+        "alone": "Several families had not known their relatives' fates until 1983 — documentation that had existed in Echeverría's safe since 1952 had not reached them for thirty years.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Echeverría's inability to publish without fatal risk and the families waiting thirty years for information he had held together confirm the moral weight of the thirty-year delay — the survival calculus had been real, and its cost to the families had been equally real."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Echeverría's 1985 Publication",
+        "text": "Echeverría had published the complete dossier in a major Argentine newspaper in April 1985 — one year after the commission's report. The publication included the photographic reproductions. The names, dates, and signed orders were all present — including Suárez's signature on two cases. The publication had credited Vargas as the dossier's compiler. It had credited Inés Molina as 'the person who had tried to warn.' It had not described her call or the Foreign Office transcription. The publication had been the complete picture, incompletely credited.",
+        "alone": "Echeverría's publication had credited Vargas and had mentioned Inés but had not described the call or the Foreign Office transcription — incomplete crediting of the preservation chain.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Echeverría crediting Inés incompletely and placing the plaque without her name together confirm a pattern — the people who had preserved the record's different parts had received different degrees of acknowledgment, with the most active preservation action receiving the least specific credit."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Echeverría's Reasoning for Not Telling Vargas",
+        "text": "Echeverría is asked in a 1986 interview why he had not told Vargas he had photographed the dossier. He says: 'If Héctor had known I had the copy, he might have told someone. If someone else had known the copy existed, the people who killed Héctor would have come for me too. I photographed the dossier to protect the record, not to protect Héctor. I have thought about that distinction ever since.' He had made the copy for the record's survival, not for Vargas's safety.",
+        "alone": "Echeverría acknowledges he had photographed for the record's survival, not for Vargas's protection — and that the distinction had occupied him since.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Echeverría's self-acknowledged record-preservation motivation and the thirty-year cost to the families together present the full moral complexity — each decision in the chain had been individually defensible and had been part of a combination whose total cost had been borne by people who had not made any of the decisions."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💃",
+        "heading": "The Two Preservation Actions",
+        "text": "Two people had acted to preserve the dossier's content on the night of the killing: Inés had called the British Embassy and had read the dossier over the phone, producing a partial three-minute transcription. Echeverría had photographed the complete dossier at nine PM and had said nothing. Both had produced surviving records. Neither had known what the other had done. The commission had found both through separate testimony in 1983.",
+        "alone": "Two independent preservation actions had been taken on the same night — one partial and partial disclosed, one complete and undisclosed for thirty years. Neither had known about the other.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Echeverría's complete undisclosed copy and Inés's partial disclosed transcription each surviving through different paths and being found through separate testimony confirm the dossier's content had been preserved twice, independently, on the same night — and neither preserver had known the other had acted."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Plaque's Omission",
+        "text": "Echeverría had placed the plaque on the stage door in 1985 — the same year he had published the complete dossier. The plaque reads: 'In memory of Héctor Vargas, journalist, 1952. And of those whose names are in the record.' He had not named Inés. He had been asked about this in 1986: 'Inés is in the record. The record is what matters. Her name is in the commission's report. I put the names of the victims on the plaque. Inés was not a victim. She was a survivor. She didn't need a plaque.'",
+        "alone": "Echeverría's explanation for not naming Inés — that she had been a survivor, not a victim — and his distinction between the plaque and the record frame the acknowledgment differently from how Inés had been treated by the investigation's history.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Echeverría distinguishing survivors from victims in the plaque's logic and the full investigation confirming that both Inés and Echeverría had preserved the record in different ways on the same night together confirm the case's final element — the dossier had been preserved twice, published thirty years later, confirmed by a commission, and the people who had preserved it had been credited differently in different documents."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "💃",
+        "heading": "The Record's Full Accounting",
+        "text": "The dossier documenting twenty-three political disappearances in Argentina between 1948 and 1952: compiled by Héctor Vargas, killed for it in October 1952; partial transcription created by Inés Molina through a three-minute phone call to the British Embassy the same night; complete photographic reproduction made by Tomás Echeverría before the killing; partial transcription in Foreign Office archive 1952-1983; complete reproduction in Echeverría's safe 1952-1985; found by the commission in 1983; published in 1985; cases confirmed in the commission's report. The plaque says Vargas's name. The report says Inés's name. The publication says Echeverría's name. All three documents say the names of the twenty-three.",
+        "alone": "Three documents, three names credited differently, twenty-three names in all three. The record is complete. The stage door is still in the alley.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Echeverría making the copy for the record's survival and the record surviving through three documents in three different archives together confirm the case's final structure — the record had been preserved by two people acting independently on the same night, and it had survived because of both."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Rafael Suárez",
+      "location": "The Back Room",
+      "weapon": "Service Pistol",
+      "motive": "Destroy the Documentation of His Orders",
+      "accomplice": "Made a Complete Copy Before the Meeting and Waited Thirty Years"
+    },
+    "epilogue": "At nine PM, Echeverría had photographed the complete dossier and had gone to the bar without telling Vargas. At nine-forty-five PM, Inés had called the British Embassy and had read the dossier over the phone to a transcribing duty officer. At ten PM, Suárez had entered through the stage door. Between ten and ten-thirty, Vargas had been killed and the original dossier had been taken. At eleven PM, Echeverría had found the body. He had known he held the complete record. He had put the photographs in a safe. The transcription had been in the Foreign Office archive. Neither had known about the other. In 1983, the commission had found both. In 1985, Echeverría had published the complete dossier and had placed the plaque. Inés had testified in 1983 and had died in 1989. The plaque says Vargas. The report says Inés. The publication says Echeverría. All three say the twenty-three. The stage door is still in the alley. The music still plays on Friday nights."
+  }
+}

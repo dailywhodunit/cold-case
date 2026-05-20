@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Paris, July 14th 1889. The centennial Bastille Day. The Eiffel Tower is new. And a diplomat found dead in his hotel room during the fireworks. Someone used the celebration as cover. 🗼🔍 Case #117 — La Tour. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Paris 1889 centennial Bastille Day, the Eiffel Tower just opened, a diplomat dead during the fireworks, and a secret treaty that someone needed to destroy before the celebrations ended. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A Paris hotel room during the 1889 centennial Bastille Day celebrations, Belle Époque furnishings with red-white-blue bunting visible through the open window, fireworks reflecting in the Seine beyond, a diplomat's attaché case open on the writing desk with papers scattered, a champagne coupe overturned on the carpet. Festive and dangerous, history and celebration intersecting. Style of Henri de Toulouse-Lautrec meets Édouard Vuillard.",
+    "animationPrompt": "Slow pan through a Paris hotel room during the 1889 centennial Bastille Day celebrations. Belle Époque furnishings. Bunting through the open window. Fireworks reflecting in the Seine. The camera finds an open attaché case on the writing desk and scattered papers. A champagne coupe overturned on the carpet. The fireworks are very bright. The room is very still. Fade to black.",
+    "hashtags": [
+      "#Paris1889",
+      "#BastilleDay",
+      "#EiffelTower",
+      "#MysteryGame",
+      "#BrainTeaser"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #117",
+    "title": "La Tour",
+    "setting": "Hôtel du Louvre · Paris · France · July 14th, 1889",
+    "emoji": "🗼",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Austro-Hungarian diplomat Baron Ernst Kellner was found dead in his room at the Hôtel du Louvre during the centennial Bastille Day fireworks. He had been carrying a draft treaty between France and Russia — a document whose existence would have alarmed Germany significantly. Three people had known about the treaty draft. The attaché case was open and the treaty pages were scattered.",
+    "emptyState": "The treaty is scattered across the room. The fireworks provided cover. Find who came for it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Vera Wolkonsky",
+            "icon": "💎",
+            "detail": "A Russian noblewoman — had been acting as an unofficial Russian diplomatic courier and had met with Kellner that afternoon."
+          },
+          {
+            "name": "Friedrich Haas",
+            "icon": "🕵️",
+            "detail": "A German trade representative — had been identified by French intelligence as a German agent operating in Paris."
+          },
+          {
+            "name": "Henri Leblanc",
+            "icon": "🍾",
+            "detail": "The hotel's maître d'hôtel — had served both Kellner and the Countess throughout their stay and had access to all rooms."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Where Kellner was found — attaché case open, pages scattered, champagne coupe overturned, fireworks through the window."
+          },
+          {
+            "name": "The Hotel Salon",
+            "icon": "🛋️",
+            "detail": "Where the afternoon meeting between Kellner and the Countess had taken place."
+          },
+          {
+            "name": "The Rue de Rivoli",
+            "icon": "🗼",
+            "detail": "The street below — where the centennial procession had been drawing all of Paris during the fireworks."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Champagne Coupe",
+            "icon": "🥂",
+            "detail": "A heavy crystal coupe — blunt force wound consistent with its thick base used as a bludgeon."
+          },
+          {
+            "name": "Attaché Case Clasp",
+            "icon": "💼",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No impact wound — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Scattered Treaty Pages",
+        "text": "The treaty pages scattered across the desk and floor represent a preliminary draft of a Franco-Russian understanding — specific commitments on military consultation and economic cooperation that had been under negotiation for months. The pages are present but disordered and partially read — someone had been examining them rather than simply taking them. The attaché case's secondary compartment, where Kellner had kept a master copy, is empty.",
+        "alone": "The visible treaty pages are present but disordered — the master copy from the case's secondary compartment has been taken. Someone had been examining the visible pages but had found and taken the hidden copy.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The master copy specifically taken from the hidden compartment and Friedrich Haas's documented knowledge of diplomatic case designs and hidden compartments — a skill documented in his German intelligence file — together establish the technical knowledge the theft had required."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥂",
+        "heading": "The Crystal Coupe",
+        "text": "The overturned champagne coupe — a heavy cut-crystal piece from the hotel's best service — shows blood on its thick circular base. The wound on Kellner's right temple is consistent with the coupe's base used as a bludgeon, struck from the right side while Kellner had been seated at the desk examining the scattered pages. The coupe had been on the desk within reach. The fireworks had been loud enough to mask any sound from the room.",
+        "alone": "Kellner had been struck from the right while seated at the desk — the fireworks had been loud enough to mask any sound. The coupe had been the nearest heavy object.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The opportunistic coupe weapon and Haas's confirmed entry to the hotel during the fireworks display through a servant's entrance together confirm the killing had not been premeditated in its specific method — the coupe had been used because it had been there."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💎",
+        "heading": "Countess Wolkonsky's Evening",
+        "text": "Countess Wolkonsky had attended the centennial celebration dinner at the Russian Embassy from eight PM until midnight — confirmed by the Embassy's guest register, the Ambassador himself, and seven other guests. She had not left the Embassy during this period. The fireworks had been visible from the Embassy terrace where she had been standing. She is definitively cleared.",
+        "alone": "The Countess had been at the Russian Embassy from eight PM to midnight — confirmed by the Ambassador and seven guests. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The Countess cleared at the Russian Embassy and Henri Leblanc confirmed in the hotel's main salon during the fireworks together eliminate both other suspects — only Haas's movements during the fireworks display are unconfirmed at the hotel."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Haas's Intelligence File",
+        "text": "French Deuxième Bureau files on Friedrich Haas — later found in captured German diplomatic records — identify him as an agent of the German Imperial Intelligence Service, assigned to Paris since 1887. His specific brief: to monitor Franco-Russian diplomatic contacts and to acquire any documentation of military or political understanding between the two powers. The Franco-Russian treaty draft had been exactly the document his brief had described.",
+        "alone": "Haas had been specifically assigned to acquire Franco-Russian diplomatic documentation — the treaty draft had been precisely his operational target.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Haas's specific brief to acquire Franco-Russian documentation and his confirmed entry to the hotel during the fireworks together confirm both the operational purpose and the timing — the fireworks had been the cover the operation had been waiting for."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🕵️",
+        "heading": "Haas at the Hotel",
+        "text": "A hotel footman confirms he had seen a man matching Haas's description entering the hotel through the servant's entrance on the Rue de Rivoli side during the fireworks display — at approximately ten PM. The man had told him he was a guest who had lost his room key. The footman had directed him to the front desk but had not escorted him. The man had not gone to the front desk. He had gone toward the upper floors.",
+        "alone": "A man matching Haas's description had entered through the servant's entrance at ten PM during the fireworks — stating he was a lost guest but going to the upper floors rather than the front desk.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The master copy taken from the hidden compartment requiring knowledge of diplomatic case design and Haas's German intelligence file documenting his training in diplomatic material acquisition together confirm the knowledge and the presence had both been Haas's."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Fireworks as Cover",
+        "text": "The centennial Bastille Day fireworks display had been the largest in Paris's history — launched from the Champ de Mars near the newly completed Eiffel Tower, visible across the city. The display had lasted forty minutes from nine-thirty to ten-ten PM. The noise had been continuous and loud enough to mask activity in hotel rooms facing the street. Haas had entered at ten PM — during the display's final ten minutes of maximum coverage.",
+        "alone": "Haas had entered during the display's final ten minutes of maximum noise coverage — the timing had been chosen for the acoustic cover the fireworks had provided.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The fireworks providing acoustic cover for the killing and Haas's entry timed to the display's maximum noise period together confirm the timing had been operationally chosen — the celebration had been the cover, not the coincidence."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🍾",
+        "heading": "Leblanc in the Salon",
+        "text": "Henri Leblanc had been managing the hotel's centennial celebration dinner service in the main salon from seven PM until after midnight — confirmed by twelve guests and the hotel manager. He had not left the salon area during the evening. He had not been near the upper guest floors. He is definitively cleared.",
+        "alone": "Leblanc had been managing the salon dinner service from seven PM — confirmed by twelve guests and the hotel manager. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The Countess cleared at the Russian Embassy and Leblanc cleared in the hotel salon together eliminate both other suspects — Haas's servant-entrance entry and upper-floor direction during the fireworks is the only confirmed approach to Kellner's floor during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Treaty's Consequence",
+        "text": "The Franco-Russian treaty draft — in the form of the master copy taken from Kellner's attaché case — reached Berlin within five days. German diplomatic records from August 1889 show Chancellor Bismarck had been briefed on its contents. The Franco-Russian Alliance that the draft had been working toward was formally concluded in 1894. Haas's acquisition had informed Germany of the alliance's progress five years before it had been signed. Kellner's death had been recorded by the Austro-Hungarian Foreign Ministry as 'died of a cardiac event during the Paris celebrations.' No diplomatic incident had been raised.",
+        "alone": "The treaty draft had reached Berlin within five days — Germany had been informed of the alliance's progress five years before its formal conclusion. Kellner's death had been officially classified as cardiac.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Haas's specific brief to acquire Franco-Russian documentation and the draft reaching Berlin within five days of the killing confirm the operation had achieved its intelligence objective — and had been absorbed into diplomatic history as a cardiac event during a celebration."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Friedrich Haas",
+      "location": "The Hotel Room",
+      "weapon": "Champagne Coupe"
+    },
+    "epilogue": "Friedrich Haas had entered the Hôtel du Louvre through the servant's entrance at ten PM during the centennial fireworks. He had gone to Kellner's floor. He had entered the room — whether by a duplicate key, a lockpick, or a ruse is not recorded. He had found Kellner at the desk examining the scattered treaty pages. He had used the nearest heavy object. He had located the hidden compartment and had taken the master copy. He had left during the fireworks' final minutes. The draft had reached Berlin in five days. Bismarck had been briefed. The Austro-Hungarian Foreign Ministry had recorded a cardiac event. The Franco-Russian Alliance had been concluded in 1894. The Eiffel Tower had been new. The fireworks had been the largest in Paris's history. The centennial had continued."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #117",
+    "title": "La Tour",
+    "setting": "Hôtel du Louvre · Paris · France · July 14th, 1889",
+    "emoji": "🗼",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Haas killed Kellner and took the treaty draft. But Countess Wolkonsky had seen Haas at the hotel before the fireworks — find what she had observed and whether she had reported it.",
+    "emptyState": "The Countess saw Haas at the hotel before the fireworks. Find what she did with that.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Friedrich Haas",
+            "icon": "🕵️",
+            "detail": "The killer — servant entrance, fireworks cover, crystal coupe, master copy taken, Bismarck briefed."
+          },
+          {
+            "name": "Countess Vera Wolkonsky",
+            "icon": "💎",
+            "detail": "Cleared as killer — Russian Embassy confirmed. Had seen Haas at the hotel before the fireworks."
+          },
+          {
+            "name": "Henri Leblanc",
+            "icon": "🍾",
+            "detail": "Cleared as killer — salon confirmed. His observation of the Countess's reaction to seeing Haas is newly significant."
+          },
+          {
+            "name": "The French Deuxième Bureau",
+            "icon": "🇫🇷",
+            "detail": "French intelligence — whose file on Haas had been classified and whose response to the Countess's report had determined the outcome."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Haas's killing."
+          },
+          {
+            "name": "The Hotel Salon",
+            "icon": "🛋️",
+            "detail": "Where the Countess had seen Haas before the fireworks — and where Leblanc had observed her reaction."
+          },
+          {
+            "name": "The Russian Embassy",
+            "icon": "🏛️",
+            "detail": "Where the Countess had been during the fireworks — and where she had made her report."
+          },
+          {
+            "name": "The Deuxième Bureau Office",
+            "icon": "🇫🇷",
+            "detail": "Where the Countess's report had arrived — and where the classified Haas file had determined the response."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Champagne Coupe",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — Haas's opportunistic strike."
+          },
+          {
+            "name": "Attaché Case Clasp",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "The Countess's Report",
+            "icon": "💎",
+            "detail": "Not a weapon — but what she had done with the sighting and whether the Deuxième Bureau's response had been adequate."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Acquire the Franco-Russian Treaty Draft for Germany",
+            "icon": "🕵️",
+            "detail": "Haas's operational motive — Bismarck briefed, five days, Berlin."
+          },
+          {
+            "name": "Protect the Treaty and Warn Kellner",
+            "icon": "💎",
+            "detail": "The Countess's possible action — had she recognised Haas and acted?"
+          },
+          {
+            "name": "Russian Diplomatic Interest in the Treaty's Security",
+            "icon": "💎",
+            "detail": "The Countess's professional investment — she had been an unofficial courier for the treaty's Russian side."
+          },
+          {
+            "name": "The Deuxième Bureau's Classification of Haas",
+            "icon": "🇫🇷",
+            "detail": "Why the response to the Countess's report had been slow — Haas had been classified as under surveillance, not as an immediate threat."
+          },
+          {
+            "name": "The Report That Had Arrived Too Late",
+            "icon": "🇫🇷",
+            "detail": "What the Deuxième Bureau's response had been — and why it had not protected Kellner."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "💎",
+        "heading": "The Countess's Sighting",
+        "text": "Henri Leblanc, interviewed by French investigators, describes the salon scene at seven PM: 'The Countess had been in the salon when a man had entered — a heavy-set German gentleman, I had seen him once before in the hotel. The Countess saw him and her expression changed entirely. She set down her glass and watched him cross the salon. She then excused herself and went to the writing room.' The Countess had recognised Haas and had reacted visibly.",
+        "alone": "The Countess had recognised Haas at seven PM in the hotel salon — her visible reaction had been noted by Leblanc. She had immediately gone to the writing room.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Countess recognising Haas at seven PM and going to the writing room and her report reaching the Deuxième Bureau that evening together confirm she had acted on the sighting — the question is whether the response had been adequate."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "💎",
+        "heading": "The Countess's Report",
+        "text": "The Countess had used the hotel's writing room to compose a note at seven-fifteen PM — a note delivered by hotel messenger to the Deuxième Bureau's Paris office. Her note, found in the Bureau's records: 'Friedrich Haas, known German agent, has entered the Hôtel du Louvre. I believe he is targeting the Kellner papers. Please advise immediately. W.' She had reported accurately and specifically — naming Haas, his likely target, and requesting immediate advice.",
+        "alone": "The Countess had sent a specific, accurate report to the Deuxième Bureau at seven-fifteen PM — naming Haas, identifying his likely target, and requesting immediate advice.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The Countess's seven-fifteen PM report and the killing occurring at approximately ten PM together establish a two-hour-forty-five-minute window during which the Bureau's response had determined whether Kellner would be protected."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🇫🇷",
+        "heading": "The Deuxième Bureau's Response",
+        "text": "The Bureau's response to the Countess's note had been delayed — the duty officer had assessed Haas as 'under existing surveillance' and had not treated the report as requiring immediate protective action. A surveillance officer had been dispatched to the hotel at nine PM — ninety minutes after the report. The officer had arrived during the fireworks and had been unable to locate Haas in the crowd. He had checked Kellner's floor at ten-thirty PM and had found the body.",
+        "alone": "The Bureau had dispatched a surveillance officer ninety minutes after the report — arriving during the fireworks, unable to locate Haas, finding Kellner's body at ten-thirty PM.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The Bureau's ninety-minute delayed response and Haas entering the hotel at ten PM together confirm the response had been insufficient — the officer had arrived at the hotel during the killing window but had been unable to locate Haas in the centennial crowd."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🇫🇷",
+        "heading": "Why the Response Had Been Delayed",
+        "text": "The Bureau's internal review of the delay finds: 'Haas had been classified as a monitored asset whose activities were under observation for intelligence collection rather than disruption. The duty officer's assessment that Haas was under existing surveillance had led him to treat the Countess's report as a surveillance matter rather than an immediate threat requiring protective action. This classification had been incorrect for the specific circumstances described.'",
+        "alone": "The Bureau had classified Haas as a monitored asset to be observed rather than disrupted — the duty officer's application of the surveillance classification to a protective scenario had been the procedural error.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The surveillance-over-disruption classification causing the delay and the killing occurring during the delay together confirm the institutional failure — the classification had been designed for intelligence collection and had been applied to a situation requiring protective action."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💎",
+        "heading": "The Countess's Account",
+        "text": "The Countess, interviewed by the Bureau after the killing: 'I sent the note at a quarter past seven. I expected they would act immediately. I went to the Embassy because Kellner had told me not to remain at the hotel once the papers were in his possession — for my own protection. I believed the Bureau would protect him. I believed I had done everything I should have done.' She had followed the appropriate channels and had trusted them to respond adequately.",
+        "alone": "The Countess had reported correctly and had trusted the Bureau to respond — she had done what the procedure had required and the procedure had not protected Kellner.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The Countess reporting at seven-fifteen and trusting the Bureau's response and the Bureau's ninety-minute delay allowing the killing together confirm the pattern from #110, #115, and #116 — correct reporting through proper channels, inadequate institutional response, fatal consequence."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Haas's Operations After Paris",
+        "text": "Friedrich Haas had continued working for German intelligence until 1898. He had been implicated in three further diplomatic intelligence operations between 1889 and 1898. He had retired from intelligence work and had died in Frankfurt in 1912. The French government had never formally accused him of Kellner's killing — the death had been classified as cardiac, and any formal accusation would have required disclosing the Bureau's intelligence files on the treaty negotiations, which had remained classified.",
+        "alone": "Haas had died in Frankfurt in 1912 without facing any formal accusation — the cardiac classification and the diplomatic sensitivity of the treaty files had protected him.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The Bureau's surveillance classification causing the delay and the diplomatic sensitivity preventing formal accusation together confirm the institutional interests had protected Haas from accountability in two separate ways — first through procedural error, then through political calculation."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💎",
+        "heading": "The Countess's Later Career",
+        "text": "Vera Wolkonsky had continued as an unofficial Russian diplomatic courier until 1905. She had been decorated by the Tsar in 1895 for services to Russian diplomacy — the specific services had not been described in the decoration's public record. She had died in St. Petersburg in 1917. In a memoir written in the final year of the Tsarist period but never published: 'I sent the note at seven-fifteen. The Bureau delayed. Ernst died. I have wondered ever since whether my note had triggered Haas to act sooner or whether it had made no difference at all.' The memoir remained unpublished.",
+        "alone": "The Countess had wondered whether her note had triggered the earlier — whether the seven-fifteen report had prompted Haas to act before the surveillance officer could arrive. The memoir had remained unpublished.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The Bureau's ninety-minute delay and the Countess's unpublished question about whether her report had accelerated rather than prevented the killing together present the case's deepest irony — the report that had been meant to protect Kellner might have prompted the killer to act before the protection could arrive."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🗼",
+        "heading": "The Eiffel Tower's First Year",
+        "text": "The Eiffel Tower had been completed for the 1889 World Exhibition — opened May 6th, 1889. The centennial Bastille Day had been the tower's first major celebration. From its first platform, the fireworks over Paris had been visible across the entire city. The tower was meant to be temporary — a twenty-year structure, to be dismantled in 1909. It was not dismantled. It stands. The Hôtel du Louvre continues to operate. The centennial celebrations had been the largest Paris had known. Ernst Kellner's name does not appear in the hotel's guest register — the cardiac event had been handled discreetly. The Eiffel Tower had watched the fireworks from above all of it.",
+        "alone": "The Eiffel Tower had been new, the fireworks had been the largest in Paris's history, and the hotel's guest register had been adjusted to omit Kellner's name. The tower was meant to be temporary. It stands.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Haas dying without accusation and Kellner's name removed from the hotel register together confirm the full erasure — the killing had been absorbed into a celebration night without a trace, and the structure built to be temporary had outlasted everything connected to the events beneath it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Friedrich Haas",
+      "location": "The Hotel Room",
+      "weapon": "Champagne Coupe",
+      "motive": "Acquire the Franco-Russian Treaty Draft for Germany"
+    },
+    "epilogue": "The Countess had sent the note at seven-fifteen PM. She had trusted the Bureau to respond. The Bureau had dispatched an officer ninety minutes later. Haas had entered at ten PM during the fireworks. The officer had arrived at ten-thirty and had found the body. The treaty draft had reached Berlin in five days. Bismarck had been briefed. The Countess had written in her unpublished memoir that she had wondered whether her note had triggered Haas to act sooner. The memoir had not been published. Haas had died in Frankfurt in 1912 without accusation. The Franco-Russian Alliance had been concluded in 1894. The Eiffel Tower had watched the centennial fireworks from its new height. It had been meant to be temporary. It stands. The centennial had continued."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #117",
+    "title": "La Tour",
+    "setting": "Hôtel du Louvre · Paris · France · July 14th, 1889",
+    "emoji": "🗼",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Haas killed Kellner. The Countess reported it but the Bureau was too slow. But Henri Leblanc had seen more than he admitted — find what the maître d'hôtel had observed and what he had done with it.",
+    "emptyState": "Leblanc saw more than he admitted. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Friedrich Haas",
+            "icon": "🕵️",
+            "detail": "The killer — servant entrance, fireworks, champagne coupe, Bismarck briefed, died Frankfurt 1912."
+          },
+          {
+            "name": "Countess Vera Wolkonsky",
+            "icon": "💎",
+            "detail": "Cleared as killer — Russian Embassy confirmed. Sent the seven-fifteen report. Unpublished memoir. Died 1917."
+          },
+          {
+            "name": "Henri Leblanc",
+            "icon": "🍾",
+            "detail": "Cleared as killer — salon confirmed. Had observed more than his account had disclosed."
+          },
+          {
+            "name": "The Austro-Hungarian Embassy",
+            "icon": "🏛️",
+            "detail": "Kellner's institutional principal — whose own intelligence operation around the treaty is the investigation's final thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Hotel Room",
+            "icon": "🏨",
+            "detail": "Primary crime scene — Haas's killing."
+          },
+          {
+            "name": "The Hotel Salon",
+            "icon": "🛋️",
+            "detail": "Where Leblanc had observed both Haas and the Countess — and where his fuller observation had occurred."
+          },
+          {
+            "name": "The Writing Room",
+            "icon": "✍️",
+            "detail": "Where the Countess had written her note — and where Leblanc had delivered something."
+          },
+          {
+            "name": "The Servant's Entrance",
+            "icon": "🚪",
+            "detail": "Where Haas had entered — and where Leblanc had been positioned at ten PM."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Champagne Coupe",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — Haas's opportunistic choice."
+          },
+          {
+            "name": "Attaché Case Clasp",
+            "icon": "💼",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Window Frame",
+            "icon": "🪟",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "Leblanc's Withheld Observation",
+            "icon": "🍾",
+            "detail": "Not a weapon — but what he had seen at the servant's entrance that he had not disclosed in his initial account."
+          },
+          {
+            "name": "The Hotel's Note to the Austro-Hungarian Embassy",
+            "icon": "📝",
+            "detail": "Not a weapon — what Leblanc had sent after recognising Haas, without disclosing it to the investigators."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Acquire the Treaty Draft for Germany",
+            "icon": "🕵️",
+            "detail": "Haas's operational motive — Bismarck briefed."
+          },
+          {
+            "name": "Report the Threat to the Right Authority",
+            "icon": "💎",
+            "detail": "The Countess's action — Deuxième Bureau, seven-fifteen, ninety-minute delay."
+          },
+          {
+            "name": "Protect the Hotel and Its Guests Through Private Channels",
+            "icon": "🍾",
+            "detail": "Leblanc's actual motivation — he had recognised Haas and had acted through the hotel's own network."
+          },
+          {
+            "name": "Leblanc's Austro-Hungarian Connection",
+            "icon": "🍾",
+            "detail": "Why he had sent the note to the Austro-Hungarian Embassy rather than French authorities — his institutional loyalty."
+          },
+          {
+            "name": "The Embassy's Response That Had Also Been Too Late",
+            "icon": "🏛️",
+            "detail": "What had happened when Leblanc's note had arrived — a second response that had also failed to prevent the killing."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Kellner and Took the Treaty Draft",
+            "icon": "🕵️",
+            "detail": "Haas's confirmed role — Bismarck briefed, Frankfurt 1912."
+          },
+          {
+            "name": "Reported to the Deuxième Bureau at Seven-Fifteen PM",
+            "icon": "💎",
+            "detail": "The Countess's role — ninety-minute delay, unpublished memoir, died 1917."
+          },
+          {
+            "name": "Observed Haas at the Servant's Entrance and Sent a Note to the Austro-Hungarian Embassy",
+            "icon": "🍾",
+            "detail": "Leblanc's undisclosed role — private channel, also too late."
+          },
+          {
+            "name": "Responded to Leblanc's Note But Arrived After the Killing",
+            "icon": "🏛️",
+            "detail": "The Embassy's role — a second protective response, also insufficient."
+          },
+          {
+            "name": "Classified the Haas File as Surveillance Rather Than Protective",
+            "icon": "🇫🇷",
+            "detail": "The Deuxième Bureau's role — surveillance-over-disruption classification, procedural error."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🍾",
+        "heading": "What Leblanc Had Seen at the Servant's Entrance",
+        "text": "Leblanc, in his fuller account given to the Austro-Hungarian Embassy's private inquiry: 'I had seen Haas in the hotel twice before — once in 1887, once in 1888. I knew he was not a guest. When he entered through the servant's entrance at ten PM, I was in the corridor near the kitchen. I recognised him immediately. I went to the writing room and sent a note to the Austro-Hungarian Embassy by hotel messenger. I then returned to the salon. I did not report this to the French investigators because I did not wish to disclose that I had been working with the Embassy.'",
+        "alone": "Leblanc had recognised Haas at ten PM at the servant's entrance and had sent a note to the Austro-Hungarian Embassy — he had not disclosed this to French investigators because he had been working privately for the Embassy.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Leblanc sending the note to the Embassy at ten PM and the Embassy's response arriving after the killing together confirm a second protective action had been initiated at the moment of Haas's entry — also too late."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🍾",
+        "heading": "Leblanc's Austro-Hungarian Connection",
+        "text": "The Austro-Hungarian Embassy's private inquiry reveals Leblanc had been employed as an informal intelligence source by the Embassy since 1885 — providing information about guests and activities at the Hôtel du Louvre for a monthly retainer. His role had been known to the Embassy's Vienna-connected intelligence section and had not been known to the French Deuxième Bureau. He had been, in effect, a hotel-based intelligence asset for a foreign power.",
+        "alone": "Leblanc had been an informal Austro-Hungarian intelligence source since 1885 — his Embassy connection had been the reason for his parallel private report.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Leblanc's Austro-Hungarian connection and his sending the note to the Embassy rather than the French Bureau together confirm the intelligence asset's institutional loyalty — he had reported to his principal rather than to the national authority."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Embassy's Response",
+        "text": "The Austro-Hungarian Embassy had received Leblanc's note at ten-twenty PM — the same time Haas had been approaching Kellner's floor. An Embassy security officer had been dispatched immediately and had arrived at the hotel at ten-fifty PM. He had been directed to Kellner's floor by the concierge and had found the room door ajar. He had found Kellner's body. He had reported to the Embassy, which had formally requested the cardiac classification from the French authorities. The Embassy had known from the first hour that the classification had been inaccurate.",
+        "alone": "The Embassy's officer had arrived at ten-fifty PM — too late — and had found the body. The Embassy had then requested the cardiac classification, knowing it was inaccurate.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The Embassy requesting the cardiac classification despite knowing it was inaccurate and Haas dying without accusation thirty years later together confirm the diplomatic calculation — the accurate classification would have required acknowledging the treaty's existence and the intelligence operation around it."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🍾",
+        "heading": "Why Leblanc Had Not Gone Directly to Kellner's Room",
+        "text": "Leblanc's account explains why he had sent a note rather than going directly to warn Kellner: 'I was a hotel servant. I could not approach a guest's room at night without a reason. If I had knocked on the Baron's door and told him I had seen a German spy in the hotel, he would have asked how I knew — and I could not have explained without disclosing my role. I sent the note to those who had the authority to act. They arrived too late.'",
+        "alone": "Leblanc had sent the note rather than warning Kellner directly because a direct warning would have required explaining his intelligence role — a disclosure he had avoided by routing through institutional channels that had arrived too late.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Leblanc routing through institutional channels to avoid personal disclosure and the Embassy arriving too late together confirm the institutional routing had been the protective strategy and had been the fatal delay — a direct warning would have been more effective and more personally costly."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Two Parallel Responses",
+        "text": "The investigation reconstructs two parallel protective responses to Haas's presence: The Countess's seven-fifteen PM note to the Deuxième Bureau, which had produced a ninety-minute delay and an officer who had found the body. Leblanc's ten PM note to the Austro-Hungarian Embassy, which had produced a thirty-minute response and an officer who had also found the body. Both responses had been made. Both had been too late. Both had been routed through institutional channels that had been slower than the killing.",
+        "alone": "Two parallel protective responses had each been made and each had arrived after the killing — the Countess through French channels, Leblanc through Austro-Hungarian channels.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Both protective responses being routed through institutional channels and both arriving too late together confirm the case's full structure — the killing had been faster than the institutional responses it had triggered, and the direct action neither observer had taken would have been the effective protection."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🍾",
+        "heading": "Leblanc's Life After 1889",
+        "text": "Henri Leblanc had continued as maître d'hôtel at the Hôtel du Louvre until 1902. He had continued receiving the Austro-Hungarian Embassy's retainer until the war. He had given his fuller account to the Embassy's private inquiry in 1890 and had never disclosed his role publicly. He had died in Paris in 1921. His personnel file at the hotel describes him as 'of exceptional discretion and professional integrity.' The Embassy's private inquiry records had been sealed until 1948 when they had been opened as part of the successor states' archival division.",
+        "alone": "Leblanc had died in 1921 described as 'of exceptional discretion' — his fuller account had been sealed in the Austro-Hungarian private inquiry until 1948.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Leblanc's Austro-Hungarian connection and his description as 'of exceptional discretion' together confirm the discretion had been the quality the Embassy had valued and the quality that had prevented the direct warning that might have saved Kellner."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🗼",
+        "heading": "The Three Observers' Three Actions",
+        "text": "Three people had seen or known about Haas that evening: The Countess had recognised him at seven PM and had sent the accurate, specific report to the Deuxième Bureau. Leblanc had recognised him at ten PM and had sent the accurate, specific note to the Austro-Hungarian Embassy. Haas himself had entered at ten PM and had gone to Kellner's room. Two observers had each acted correctly within their respective institutional frameworks. Neither had acted directly. The killing had been faster than either institutional framework.",
+        "alone": "Two observers, two institutional channels, two accurate reports, two late responses. The killing had been faster than both.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The two parallel responses both arriving after the killing and both having been routed through institutional channels together confirm the case's final element — the institutions had received the information they had needed and had not acted quickly enough, and the individuals had routed through institutions rather than acting directly."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🗼",
+        "heading": "The Eiffel Tower's View",
+        "text": "The Eiffel Tower had opened on May 31st, 1889 — six weeks before the killing. From its second platform, in the right conditions, a person could see the Hôtel du Louvre's upper floors. The tower had been built as a temporary structure for the World Exhibition — the engineering marvel of 1889, the year of the centennial. It had been meant to come down in 1909. Gustave Eiffel himself had saved it by lobbying for its use as a radio transmission tower. It stands. The Hôtel du Louvre continues to operate. The centennial fireworks are in the historical record as the finest in Paris's history. Ernst Kellner's name is not in the hotel's register. The Eiffel Tower has watched every Bastille Day since.",
+        "alone": "The Eiffel Tower had been six weeks old on the night of the killing. It had been meant to be temporary. It stands. Kellner's name is not in the register. The tower has watched every Bastille Day since 1889.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Two observers acting through institutional channels and the Eiffel Tower watching every Bastille Day since together confirm the case's final image — the temporary structure had outlasted everyone involved, and the centennial night had been absorbed into the history of a city that had continued."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Friedrich Haas",
+      "location": "The Hotel Room",
+      "weapon": "Champagne Coupe",
+      "motive": "Acquire the Franco-Russian Treaty Draft for Germany",
+      "accomplice": "Observed Haas at the Servant's Entrance and Sent a Note to the Austro-Hungarian Embassy"
+    },
+    "epilogue": "Henri Leblanc had recognised Haas at ten PM at the servant's entrance. He had sent the note to the Austro-Hungarian Embassy and had returned to the salon. The Embassy's officer had arrived at ten-fifty PM and had found the body. The Embassy had requested the cardiac classification, knowing it was inaccurate. Leblanc had died in 1921 described as 'of exceptional discretion.' His fuller account had been sealed until 1948. The Countess had died in 1917 with the unpublished memoir. Haas had died in Frankfurt in 1912. The treaty draft had reached Berlin in five days. The Franco-Russian Alliance had been concluded in 1894. The Eiffel Tower had been six weeks old on the night of the killing. It had been meant to be temporary. It stands. Every Bastille Day since. The centennial fireworks had been the largest in Paris's history. The hotel's register does not include Kellner's name. The tower has no record of any of this."
+  }
+}
