@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Antarctica, 1983. A research station. Six scientists. Four months of polar night. One dead. And no way out until October. 🧊🔍 Case #128 — Winter-Over. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Antarctic research station 1983, six scientists locked in polar night for four months, one dead, no rescue possible until October. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "An Antarctic research station interior in 1983 polar night, a cramped common room with scientific instruments and personal effects crowded onto shelves, a researcher's notebook open on the table beside a spilled mug of coffee, ice-frosted windows with darkness absolute beyond them, the hum of the station's heating system. Claustrophobic, cold, isolated. Style of early polar expedition photography meets John Carpenter's The Thing poster atmosphere.",
+    "animationPrompt": "Slow pan through an Antarctic research station common room in 1983 polar winter. Scientific instruments. Personal effects on shelves. A researcher's notebook open on the table. Spilled coffee. The camera finds the ice-frosted windows — absolute darkness beyond. The heating hums. There is no way out until October. Fade to black.",
+    "hashtags": [
+      "#Antarctica1983",
+      "#WinterOver",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #128",
+    "title": "Winter-Over",
+    "setting": "Halley Station · Antarctic Ice Shelf · British Antarctic Survey · 1983",
+    "emoji": "🧊",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Glaciologist Dr. Peter Sollis was found dead in the station's data room during week eleven of the winter-over period. Five colleagues had been in the station. No evacuation was possible — it was July, polar night, minus fifty outside, and the nearest aircraft was four months away. Sollis had discovered that someone had been falsifying atmospheric data. The falsified data would have supported a grant renewal worth £200,000.",
+    "emptyState": "Five scientists. No way out. One of them falsified the data and killed to protect it. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Fiona Marsh",
+            "icon": "❄️",
+            "detail": "The station's meteorologist — had been producing the atmospheric data that Sollis had found to be falsified."
+          },
+          {
+            "name": "Dr. James Okafor",
+            "icon": "📡",
+            "detail": "The communications officer and physicist — had been managing the data transmission systems and had known the data's official record."
+          },
+          {
+            "name": "Dr. Ruth Chen",
+            "icon": "🔬",
+            "detail": "The station's biologist — had been working on independent research unrelated to the atmospheric data but had been sharing equipment with Marsh."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💻",
+            "detail": "Where Sollis was found — notebook open, coffee spilled, terminal showing a comparison analysis."
+          },
+          {
+            "name": "The Weather Station Module",
+            "icon": "❄️",
+            "detail": "Where the atmospheric measurements were taken — and where the falsification had originated."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🍵",
+            "detail": "Where the station team had been during the evening — and where the alibi claims converged."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Core Sample Tube",
+            "icon": "🧊",
+            "detail": "A heavy aluminium core sample tube — blunt force wound consistent with its capped end."
+          },
+          {
+            "name": "Equipment Case Edge",
+            "icon": "📦",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Terminal Monitor Edge",
+            "icon": "💻",
+            "detail": "No blood trace — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "💻",
+        "heading": "The Comparison Analysis",
+        "text": "The terminal in the data room shows an analysis Sollis had been running: a comparison of the official atmospheric ozone readings transmitted to Cambridge over the past six weeks against the raw sensor data stored locally. The official readings had been systematically higher than the raw data by a consistent margin — an average of 12 parts per billion — in a pattern too regular to be instrument error. Someone had been adjusting the numbers before transmission.",
+        "alone": "The official readings had been systematically elevated above the raw data by a consistent 12ppb — a pattern too regular for instrument error, indicating deliberate adjustment before transmission.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The systematic 12ppb elevation and Dr. Marsh's role as the meteorologist responsible for both raw measurement and transmission preparation together establish her as the person whose workflow had included both the raw data and the transmitted figures."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🧊",
+        "heading": "The Ice Core Tube",
+        "text": "A heavy aluminium ice core sample tube — found in the data room's equipment corner, not its usual storage location — shows blood on its capped end. The wound on Sollis's skull is consistent with the tube used as a bludgeon. The tube had been brought into the data room from the sample storage area, which was adjacent. The approach had been from behind while Sollis had been at the terminal.",
+        "alone": "The tube had been brought from the adjacent sample storage into the data room before use — a deliberate choice of a heavy object from an adjoining space, not an opportunistic grab.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate bringing of the tube from the sample storage and Dr. Marsh's confirmed access to and familiarity with the sample storage area from her regular equipment sharing with Dr. Chen together establish the specific access knowledge the weapon choice had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📡",
+        "heading": "Okafor's Evening",
+        "text": "Dr. Okafor had been in the communications room running the nightly data transmission from seven PM until nine-thirty PM — confirmed by the transmission log timestamps and by Dr. Chen who had looked in at eight-thirty PM and seen him at the equipment. He had not been in the data room. He is definitively cleared.",
+        "alone": "Okafor had been running the nightly transmission confirmed by system logs and Dr. Chen's observation — he had not been in the data room during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Okafor cleared by transmission logs and Dr. Chen's observation and Dr. Chen confirmed in her lab until ten PM together eliminate both other suspects from the data room — only Marsh's evening movements after nine PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "❄️",
+        "heading": "Marsh's Grant and the Data",
+        "text": "The grant renewal at stake — £200,000 from the Natural Environment Research Council — had been for a three-year program studying ozone layer recovery over Antarctica. The grant's renewal had been contingent on the previous season's data showing the specific recovery trend the program had been tracking. The raw data had not shown the trend clearly. The elevated official readings had shown it unambiguously. Without the elevation, the grant renewal had been uncertain.",
+        "alone": "Without the falsified elevation, the grant renewal showing ozone recovery had been uncertain — with it, the trend had been unambiguous. The grant was worth £200,000 and three years of funded research.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The grant contingent on the ozone recovery trend and the elevation making the trend unambiguous together establish the specific financial and career motive — the falsification had been designed to secure the specific outcome the grant had required."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "❄️",
+        "heading": "Marsh's Data Workflow",
+        "text": "The station's data management protocol — documented in the operations manual — showed that Marsh had been responsible for the full atmospheric data workflow: raw measurement, quality control, and preparation for transmission. The transmission preparation step had been the point where the elevation had been applied. Okafor had transmitted what Marsh had prepared — he had not checked the figures against the raw data because that had been Marsh's quality control responsibility.",
+        "alone": "Marsh had been responsible for the quality control step between raw measurement and transmission — the elevation had been applied at the one point in the workflow that had been her sole responsibility.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The systematic elevation applied at the transmission preparation step and Marsh's sole responsibility for that step together confirm the falsification had occurred within her exclusive workflow — no other station member had had access to that specific step."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "❄️",
+        "heading": "Marsh's Access to the Sample Storage",
+        "text": "Dr. Chen confirms Marsh had been regularly using the sample storage area to access shared spectroscopy equipment. The aluminium core tubes were stored in the same room. Marsh had been in the sample storage area that afternoon — confirmed by the shared equipment log showing her sign-in at two PM. She had known the tubes were there and had known their weight from regular handling.",
+        "alone": "Marsh had been in the sample storage area that afternoon — she had known the tubes' location and weight from regular equipment sharing visits.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The tube deliberately brought from the sample storage and Marsh's confirmed afternoon presence there knowing the tubes' weight and location together confirm the specific situational knowledge the weapon choice had demonstrated."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "Dr. Chen's Evening",
+        "text": "Dr. Chen had been in her biology lab from seven PM until ten PM — confirmed by her lab notebook entries timed at seven-fifteen, eight-forty-five, and ten PM, and by Okafor who had seen her lab light on at eight-thirty. She had not been in the data room. She is definitively cleared.",
+        "alone": "Dr. Chen had been in her biology lab confirmed by timed notebook entries and Okafor's observation — she had not been in the data room. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Okafor cleared by transmission logs and Chen cleared by notebook entries and observation together eliminate both other suspects — Marsh's movements after nine PM are the only unconfirmed station-wide movements during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Winter-Over Constraint",
+        "text": "The nearest aircraft capable of reaching Halley Station in winter conditions had been at Rothera — approximately 1,500 miles away. In July polar night at minus fifty, no aircraft could safely reach the station. British Antarctic Survey protocol required notification of a serious incident by radio but did not require or enable evacuation until weather and daylight permitted — typically October. The five surviving scientists had been confined to the station with Sollis's body and each other for three months after the killing.",
+        "alone": "Five scientists had been confined with each other and the body for three months — no evacuation possible until October. The investigation had proceeded by radio contact with Cambridge.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The three-month winter-over confinement after the killing and the grant being the motive together confirm the specific Antarctic pressure of the case — the person responsible had known from the moment of the killing that they would be confined with their colleagues for three months before any external authority could reach them."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Fiona Marsh",
+      "location": "The Data Room",
+      "weapon": "Ice Core Sample Tube"
+    },
+    "epilogue": "Dr. Fiona Marsh had been elevating the ozone readings by 12ppb at the transmission preparation step — the one point in the workflow that had been her sole responsibility. Sollis had been running the comparison analysis when she had come to the data room. She had taken the aluminium tube from the adjacent storage. She had struck him from behind. The five surviving scientists had been confined together for three months. British Antarctic Survey investigators had arrived in October 1983. Marsh had been returned to the UK and had been prosecuted. The grant renewal had been withdrawn pending investigation. The raw data, once examined by independent scientists, had shown genuine early signs of the ozone recovery trend — less clearly than the falsified data, but real. The falsification had been unnecessary. The trend had been there."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #128",
+    "title": "Winter-Over",
+    "setting": "Halley Station · Antarctic Ice Shelf · British Antarctic Survey · 1983",
+    "emoji": "🧊",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Marsh killed Sollis and the grant was withdrawn. But the three months of confinement produced something unexpected — find what happened among the five surviving scientists during those three months.",
+    "emptyState": "Three months confined with a killer and a body. Find what happened during that time.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Fiona Marsh",
+            "icon": "❄️",
+            "detail": "The killer — 12ppb elevation, sole workflow responsibility, tube from storage, prosecution UK."
+          },
+          {
+            "name": "Dr. James Okafor",
+            "icon": "📡",
+            "detail": "Cleared as killer — transmission logs. The three months had produced a specific outcome for him."
+          },
+          {
+            "name": "Dr. Ruth Chen",
+            "icon": "🔬",
+            "detail": "Cleared as killer — biology lab confirmed. Her role during the three months is the investigation's thread."
+          },
+          {
+            "name": "The Three-Month Confinement's Human Dimension",
+            "icon": "🧊",
+            "detail": "What the period had produced — scientifically, personally, and institutionally."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💻",
+            "detail": "Primary crime scene — and where the remaining scientists had continued working."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🍵",
+            "detail": "Where the five survivors had lived together for three months — the social space of the confinement."
+          },
+          {
+            "name": "The Radio Room",
+            "icon": "📡",
+            "detail": "Where Okafor had maintained contact with Cambridge — and where the three months' documentation had been transmitted."
+          },
+          {
+            "name": "Cambridge",
+            "icon": "🏛️",
+            "detail": "Where the British Antarctic Survey had received the documentation — and what they had done with it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Core Sample Tube",
+            "icon": "🧊",
+            "detail": "Confirmed murder weapon — Marsh's deliberate choice."
+          },
+          {
+            "name": "Equipment Case Edge",
+            "icon": "📦",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Terminal Monitor Edge",
+            "icon": "💻",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Three Months' Scientific Output",
+            "icon": "🔬",
+            "detail": "Not a weapon — but what the remaining scientists had produced during the confinement and its significance."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Secure the Grant Through Falsified Data",
+            "icon": "❄️",
+            "detail": "Marsh's motive — grant withdrawn, prosecuted."
+          },
+          {
+            "name": "Continue the Scientific Mission Despite the Circumstances",
+            "icon": "🔬",
+            "detail": "The remaining scientists' response — what they had done during the three months."
+          },
+          {
+            "name": "Okafor's Documentation of the Three Months",
+            "icon": "📡",
+            "detail": "What Okafor had been transmitting — and why it had been significant beyond the investigation."
+          },
+          {
+            "name": "Dr. Chen's Three-Month Research Outcome",
+            "icon": "🔬",
+            "detail": "What Chen had produced during the confinement — the unexpected scientific product."
+          },
+          {
+            "name": "The Ozone Data's True Trend",
+            "icon": "❄️",
+            "detail": "What the raw data had actually showed — and what the three months' clean data had confirmed."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Okafor's Documentation",
+        "text": "James Okafor had transmitted daily reports to Cambridge throughout the three months — not just the investigation updates but a complete scientific and personal record of the confinement period. His transmissions had included: the continuing atmospheric measurements (now taken by Okafor himself without the falsification step), personal observations on the station's psychological state, and a formal incident log. Cambridge had received the most detailed account of an Antarctic winter-over confinement following a serious incident ever produced.",
+        "alone": "Okafor had documented everything — the clean atmospheric data, the psychological observations, and the incident log — transmitted daily to Cambridge throughout the three months.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Okafor's clean atmospheric data transmitted without the falsification step and the data showing the genuine ozone recovery trend together confirm the falsification had been unnecessary — the real data had been telling the story Marsh had been trying to guarantee."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Dr. Chen's Three-Month Discovery",
+        "text": "Ruth Chen had been conducting biology research on Antarctic microbial communities — work entirely separate from the atmospheric program. During the three months of confinement, she had been unable to conduct fieldwork but had been analysing existing samples. She had made an unexpected discovery: a correlation between the atmospheric ozone readings and microbial activity patterns in the ice cores that had not been previously documented. The discovery had required the clean atmospheric data Okafor had been producing.",
+        "alone": "Chen had discovered a previously undocumented correlation between ozone levels and ice-core microbial activity — using the clean atmospheric data Okafor had been collecting during the confinement.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Chen's discovery requiring the clean atmospheric data and the clean data being produced because Marsh's falsification had been removed together confirm the three months had produced better science than the preceding six weeks had — the confinement had been more productive than the period it had followed."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Clean Data's Revelation",
+        "text": "Cambridge scientists examining Okafor's three months of clean atmospheric data in October 1983 had found something Marsh's falsification had obscured: the genuine ozone recovery trend had been present in the raw data, but subtly — a 4ppb improvement rather than the 12ppb elevation Marsh had been adding. The genuine trend had been scientifically significant. The falsification had been unnecessary — the trend had been there, just less dramatically than Marsh had been representing it.",
+        "alone": "The genuine trend had been present at 4ppb — real and significant but less dramatic than Marsh's 12ppb elevation. The falsification had been unnecessary.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The falsification being unnecessary and Marsh's prosecution for killing Sollis to protect the falsification together confirm the full tragedy of the case — she had falsified data that had not needed falsifying, had killed to protect the falsification, and had been prosecuted for a death that had been caused by an act that had been pointless."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Psychological Record",
+        "text": "Okafor's personal observations transmitted to Cambridge — subsequently published as a psychological study of Antarctic confinement stress — described the three months: 'We worked. That was the answer to the question of how we survived it. We all worked harder in those three months than we had in the preceding eleven weeks. Ruth made a discovery. James kept the instruments running. Alan and David maintained the station. We gave ourselves tasks and we did them. Marsh helped with the instruments in the last six weeks. She did not apologise. None of us asked her to.'",
+        "alone": "The five scientists had survived through work — Chen had made a discovery, Marsh had eventually contributed to the instruments, and no one had apologised or asked for apology.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The five scientists working through the three months and Marsh eventually contributing to the instrument maintenance together confirm the human dimension of the confinement — the work had been both the coping mechanism and the scientific outcome."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "❄️",
+        "heading": "The Grant Outcome",
+        "text": "The Natural Environment Research Council had withdrawn the £200,000 grant renewal following the falsification finding. However, Chen's ozone-microbe correlation discovery — made using the three months' clean data — had attracted new grant interest from three separate funding bodies. The total new funding attracted had been £340,000 across two programs. The atmospheric program had eventually been refunded at £180,000. The science had produced more funding through honest work than the falsification had been intended to secure.",
+        "alone": "The three months' clean science had attracted £340,000 in new funding — more than the £200,000 the falsification had been designed to secure. The honest work had been more valuable.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The falsification being unnecessary scientifically and the honest three months producing more funding than the falsification had been designed to secure together confirm the full accounting — every dimension of the falsification and the killing had been counterproductive."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Ruth Chen's Career",
+        "text": "Ruth Chen's ozone-microbe correlation paper — co-authored with Okafor, who had produced the clean atmospheric data — had been published in Nature in 1984. It had been cited over two hundred times in the following decade and had opened a new research area in polar environmental science. Chen had received a Royal Society fellowship in 1987. Okafor had received a British Antarctic Survey distinguished service award in 1985. Both had returned to Antarctica on subsequent expeditions.",
+        "alone": "Chen and Okafor had both received significant recognition for work produced during the three-month confinement — the period had been the foundation of significant careers.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The five scientists surviving through work and Chen and Okafor receiving recognition for work done during the confinement together confirm the three months had been professionally generative despite — or because of — the circumstances."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "❄️",
+        "heading": "Marsh's Prosecution and Its Outcome",
+        "text": "Dr. Fiona Marsh had been prosecuted for manslaughter and for scientific fraud. She had received four years for manslaughter and a concurrent two years for the fraud charges. She had served three years and had been released in 1987. She had not returned to scientific research. Her prosecution had been the first criminal case arising from Antarctic research station conduct in British legal history.",
+        "alone": "Marsh had served three years and had not returned to science — the first criminal case arising from Antarctic research conduct.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marsh's prosecution and the three months' clean work producing more funding than the falsification had been designed to secure together confirm the full accounting — the act meant to secure the grant had resulted in the grant's withdrawal and the work done in its aftermath had secured more."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "Halley Station Today",
+        "text": "Halley Station has been rebuilt and redesigned several times since 1983 — the current station, Halley VI, is a modular facility on ski legs that can be relocated as the ice shelf moves. It continues to produce some of the world's most significant atmospheric data, including the observations that had confirmed the ozone hole in 1985 — two years after the winter-over killing. The ozone hole data had been produced at Halley by clean instruments and honest workflows. Peter Sollis's name is not on the station. The ozone hole discovery is commemorated in the station's history. The data he had been comparing when he was killed had been the data that had pointed toward the discovery.",
+        "alone": "The ozone hole had been discovered at Halley in 1985 using clean data. Sollis's comparison analysis had been pointing toward the discovery when he had been killed. His name is not on the station.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The genuine ozone trend being present in the raw data and the ozone hole being discovered at Halley two years later using clean data together confirm the full significance of Sollis's comparison analysis — he had been looking at the precursor data to one of the twentieth century's most significant environmental discoveries when he had been killed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Fiona Marsh",
+      "location": "The Data Room",
+      "weapon": "Ice Core Sample Tube",
+      "motive": "Secure the Grant Through Falsified Data"
+    },
+    "epilogue": "The three months had produced more science than the preceding eleven weeks. Okafor had transmitted clean data daily. Chen had found the ozone-microbe correlation. The genuine trend had been in the raw data at 4ppb — less dramatic than the falsification but real and sufficient. The clean work had attracted £340,000 against the £200,000 the falsification had been designed to secure. The ozone hole had been discovered at Halley in 1985 using clean instruments and honest workflows. Sollis had been looking at the precursor data to that discovery when he had been killed. Marsh had served three years and had not returned to science. Chen and Okafor had returned to Antarctica on subsequent expeditions. The falsification had been unnecessary. The killing had been pointless. The discovery had been made with clean data two years later. Sollis's name is not on the station."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #128",
+    "title": "Winter-Over",
+    "setting": "Halley Station · Antarctic Ice Shelf · British Antarctic Survey · 1983",
+    "emoji": "🧊",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Marsh killed Sollis. The three months produced more science than the falsification had been designed to secure. But Sollis had told someone what he had found before he had been killed — find who he had told and what they had done with the information.",
+    "emptyState": "Sollis told someone about the falsification before he was killed. Find who — and what they did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Fiona Marsh",
+            "icon": "❄️",
+            "detail": "The killer — grant falsification, four years prosecution, three served, no return to science."
+          },
+          {
+            "name": "Dr. James Okafor",
+            "icon": "📡",
+            "detail": "Cleared as killer — clean data, daily transmission, Nature paper, distinguished service award."
+          },
+          {
+            "name": "Dr. Ruth Chen",
+            "icon": "🔬",
+            "detail": "Cleared as killer — ozone-microbe correlation, Nature paper, Royal Society fellowship 1987."
+          },
+          {
+            "name": "The Person Sollis Had Told",
+            "icon": "💻",
+            "detail": "Who Sollis had spoken to before the killing — and what that person had done with the information."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Data Room",
+            "icon": "💻",
+            "detail": "Primary crime scene — and where Sollis had been when the killing had occurred."
+          },
+          {
+            "name": "The Common Room",
+            "icon": "🍵",
+            "detail": "Where Sollis had spoken to someone that evening before going to the data room."
+          },
+          {
+            "name": "The Radio Room",
+            "icon": "📡",
+            "detail": "Where the person Sollis had told had gone — and what they had transmitted."
+          },
+          {
+            "name": "Cambridge",
+            "icon": "🏛️",
+            "detail": "Where the transmission had been received — and how it had intersected with the investigation."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Core Sample Tube",
+            "icon": "🧊",
+            "detail": "Confirmed murder weapon — Marsh's deliberate choice from the adjacent storage."
+          },
+          {
+            "name": "Equipment Case Edge",
+            "icon": "📦",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Terminal Monitor Edge",
+            "icon": "💻",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Okafor's Pre-Killing Transmission",
+            "icon": "📡",
+            "detail": "Not a weapon — the transmission Okafor had sent after Sollis had told him, before the killing."
+          },
+          {
+            "name": "Sollis's Prior Warning",
+            "icon": "💻",
+            "detail": "Not a weapon — what Sollis had said to Okafor in the common room before going to the data room."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect the Falsified Data and the Grant",
+            "icon": "❄️",
+            "detail": "Marsh's motive — the killing had been too late."
+          },
+          {
+            "name": "Alert Cambridge to the Finding Before Anything Happened",
+            "icon": "📡",
+            "detail": "What Okafor had done after Sollis had told him — a precautionary transmission before Sollis had gone to the data room."
+          },
+          {
+            "name": "Sollis's Prior Warning to Okafor",
+            "icon": "💻",
+            "detail": "What Sollis had said in the common room — he had been going to the data room to confirm the analysis and had wanted someone to know."
+          },
+          {
+            "name": "The Transmission's Reception at Cambridge",
+            "icon": "🏛️",
+            "detail": "What Cambridge had received before the killing report — and how it had changed the investigation."
+          },
+          {
+            "name": "Whether the Pre-Killing Transmission Had Been the Factor That Had Ended Marsh's Career",
+            "icon": "📡",
+            "detail": "The timing's significance — the transmission had preceded the killing, making the falsification a matter of Cambridge record before the death."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Sollis to Protect the Falsification",
+            "icon": "❄️",
+            "detail": "Marsh's confirmed role — the killing had already been too late."
+          },
+          {
+            "name": "Received Sollis's Pre-Killing Warning and Transmitted to Cambridge",
+            "icon": "📡",
+            "detail": "Okafor's protective role — the transmission had preceded the killing."
+          },
+          {
+            "name": "Produced the Discovery That Had Made the Honest Data More Valuable",
+            "icon": "🔬",
+            "detail": "Chen's scientific role — ozone-microbe correlation, Nature paper."
+          },
+          {
+            "name": "Received the Pre-Killing Transmission and Had Begun the Scientific Review",
+            "icon": "🏛️",
+            "detail": "Cambridge's institutional role — the review had been underway before the killing report had arrived."
+          },
+          {
+            "name": "Continued Producing Clean Data Through the Three-Month Confinement",
+            "icon": "❄️",
+            "detail": "The remaining scientists' collective role — the work had continued."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📡",
+        "heading": "What Sollis Had Told Okafor",
+        "text": "Okafor's account to the British Antarctic Survey investigators in October 1983: 'Peter came to me in the common room at about nine PM. He said he had been running a comparison and had found a systematic elevation in Fiona's transmitted readings. He said he was going to the data room to finish the analysis and print the comparison. He said: I wanted you to know before I went in there. He didn't say why he wanted me to know. I understood why he wanted me to know. I went to the radio room.'",
+        "alone": "Sollis had told Okafor he was going to the data room to confirm the analysis — and had told him before going, without explaining why. Okafor had understood the implicit meaning and had gone to the radio room.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Sollis telling Okafor before going to the data room and Okafor immediately going to the radio room together confirm both had understood the implicit risk — Sollis had wanted a witness to know his destination, and Okafor had acted on that understanding."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Okafor's Pre-Killing Transmission",
+        "text": "The Cambridge radio log shows a transmission from Halley at nine-twenty PM on the night of the killing: 'Possible data integrity issue identified by Dr. Sollis — systematic elevation in atmospheric ozone readings prior to transmission. Dr. Sollis is currently in the data room completing analysis. Will report fully tomorrow. —Okafor.' The transmission had been received at Cambridge at nine-twenty PM. Sollis had been killed between nine-thirty and ten PM. The transmission had preceded the killing by ten to forty minutes.",
+        "alone": "Okafor's transmission had been received at Cambridge before the killing had occurred — the falsification had been a matter of official record in Cambridge before Marsh had used the tube.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The transmission preceding the killing and the falsification being in Cambridge's official record before the death together confirm Marsh's killing had been futile from the moment Okafor had sent the transmission — the information Sollis had found had already left the station before she had acted."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Cambridge's Receipt and Response",
+        "text": "The British Antarctic Survey's operations centre had received Okafor's transmission at nine-twenty PM and had flagged it for review the following morning. When the killing had been reported the next day, the operations centre had immediately connected the two events. The scientific review of Marsh's data had been initiated before the investigation into the killing had formally begun — the data review and the criminal investigation had been parallel processes from the start.",
+        "alone": "Cambridge had received the data integrity flag before the killing had been reported — the scientific review had been initiated before the criminal investigation, meaning the two had been parallel from the beginning.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cambridge initiating the scientific review before the criminal investigation and the scientific review confirming the falsification independently together confirm the killing had not protected the falsification — it had been confirmed through a process that had begun before the death."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Why Sollis Had Told Okafor",
+        "text": "Okafor's reflection, in the published psychological account: 'I think Peter knew, on some level, that going to the data room to confront what he had found was not safe. He had been working with Fiona for eleven weeks in a very small space. He knew her. He knew she would have understood what the comparison meant for her grant. I think he told me because he wanted someone to know where he was going. He had wanted someone to know. I went and sent the message. That was the right thing to do with what he had given me. I have thought about whether I should have gone with him instead. I should have gone with him instead.'",
+        "alone": "Okafor believed Sollis had understood the risk and had told him as a precaution — and Okafor acknowledged in retrospect that he should have gone with Sollis rather than to the radio room.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Okafor's retrospective acknowledgment that he should have gone with Sollis and the killing occurring ten to forty minutes after the transmission together confirm the timing gap — the transmission had been sent but the physical presence that might have prevented the killing had not been there."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Killing's Full Futility",
+        "text": "The full accounting of the killing's futility: Sollis had told Okafor before going to the data room. Okafor had transmitted the finding to Cambridge before the killing. The falsification had been in Cambridge's official record before Marsh had used the tube. The killing had come too late to suppress the finding. The scientific review had confirmed the falsification independently. The grant had been withdrawn. The prosecution had followed. Every objective the killing had been designed to achieve had already been made impossible by the transmission that had preceded it by ten to forty minutes.",
+        "alone": "The killing had been futile from the moment of the transmission — every objective it had been designed to achieve had already been made impossible.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Okafor's transmission preceding the killing and every objective of the killing already made impossible together confirm the most precise statement of the case's moral structure — a killing that had achieved nothing because its target had already taken the precaution that had made it pointless."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "❄️",
+        "heading": "Marsh's Knowledge of the Transmission",
+        "text": "Marsh had not known about Okafor's transmission. She had gone to the data room believing that suppressing the comparison analysis and eliminating Sollis would protect the falsification. She had not known that Sollis had told Okafor, that Okafor had transmitted to Cambridge, and that Cambridge already had the finding. She had been acting on the assumption that the finding was still containable when it had already been transmitted beyond the station. Her entire premise had been wrong.",
+        "alone": "Marsh had not known about the transmission — she had killed on the assumption that the finding was still containable, which it had not been since nine-twenty PM.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Sollis telling Okafor as a precaution and Marsh not knowing about the transmission together confirm the information's protective function had worked exactly as Sollis had intended — he had not gone to the data room without leaving a record, and Marsh had not known the record existed."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "The Ozone Hole and Sollis's Work",
+        "text": "The ozone hole over Antarctica had been confirmed and published by Halley Station scientists in 1985. The confirmation had used two years of clean data — including the three months of post-killing clean data Okafor had produced during the confinement. The comparison analysis Sollis had been completing when he had been killed had been an early precursor to the data patterns that had confirmed the hole. The scientists who had published the 1985 discovery had cited Sollis's comparison methodology in the paper's supplementary materials — as an early example of the data integrity checking that their own work had required.",
+        "alone": "Sollis's comparison methodology had been cited in the 1985 ozone hole paper — his work had contributed to the discovery's foundations.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Sollis's methodology cited in the 1985 ozone hole paper and his name not being on the station together confirm the final accounting — his work had contributed to one of the most significant environmental discoveries of the twentieth century, his name had been in a supplementary citation, and the station that had made the discovery had not commemorated him."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Station at Minus Fifty",
+        "text": "The current Halley VI station is a modular facility that has been relocated as the ice shelf has moved. It produces continuous atmospheric data. Its most significant historical achievement is the 1985 ozone hole confirmation. The scientists who had confirmed the hole had been using clean instruments and honest workflows — the same commitment to data integrity that Peter Sollis had died trying to enforce. He had been looking at the precursor data when he had been killed. He had told James Okafor before he had gone. Okafor had sent the transmission. The transmission had been the act that had made the killing futile. The station continues. The instruments keep running. The data is clean.",
+        "alone": "Sollis had told Okafor. Okafor had sent the transmission. The transmission had made the killing futile. The instruments keep running. The data is clean.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Sollis's methodology cited in the 1985 ozone hole paper and the instruments keeping running with clean data together confirm the case's final image — the commitment to data integrity that Sollis had died enforcing had been the foundation of the discovery that had followed, and the station's continuing work had been built on the principle he had paid for with his life."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Fiona Marsh",
+      "location": "The Data Room",
+      "weapon": "Ice Core Sample Tube",
+      "motive": "Secure the Grant Through Falsified Data",
+      "accomplice": "Received Sollis's Pre-Killing Warning and Transmitted to Cambridge"
+    },
+    "epilogue": "Sollis had told Okafor before going to the data room. Okafor had gone to the radio room and had transmitted the finding to Cambridge at nine-twenty PM. The killing had occurred between nine-thirty and ten PM. Marsh had not known about the transmission. She had killed on the assumption that the finding was still containable. It had already been in Cambridge. The scientific review had confirmed the falsification before the criminal investigation had formally begun. The grant had been withdrawn. Marsh had served three years. The three months had produced Chen and Okafor's Nature paper. The ozone hole had been confirmed at Halley in 1985 using clean data. Sollis's comparison methodology had been cited in the supplementary materials. His name is not on the station. The instruments keep running. The data is clean."
+  }
+}

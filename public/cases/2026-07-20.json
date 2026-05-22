@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Houston, July 20th 1969. The press corps watching the moon landing. One journalist dead in the pressroom. And a reel of classified film that someone needed before Armstrong stepped outside. 🌙🔍 Case #123 — One Giant Leap. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: July 20 1969 the actual moon landing, a journalist dead in the NASA press corps room, and classified footage that had to disappear before history happened. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The NASA Johnson Space Center press corps room on July 20th 1969, rows of teletype machines and monitor screens showing lunar surface footage, a journalist's press credentials on the floor beside an overturned coffee cup, a film reel canister open and empty on a desk, the main screen showing the lunar module Aquarius above the moon's surface. History happening and something darker happening alongside it. Style of NASA archival photography meets Weegee.",
+    "animationPrompt": "Slow pan through the NASA press corps room on July 20th 1969. Teletype machines. Monitors showing lunar footage. The camera finds a press credential on the floor and an empty film reel canister on a desk. The main screen: the lunar module above the moon's surface. History is happening. Something else is also happening. Fade to black.",
+    "hashtags": [
+      "#Apollo11",
+      "#MoonLanding",
+      "#July201969",
+      "#MysteryGame",
+      "#BrainTeaser"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #123",
+    "title": "One Giant Leap",
+    "setting": "Johnson Space Center Press Corps · Houston · Texas · July 20th, 1969",
+    "emoji": "🌙",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Wire service journalist Dan Novak was found dead in the press corps annex at Johnson Space Center during the period between the lunar module's landing and Armstrong's moonwalk. He had obtained a reel of classified film footage showing a pre-mission anomaly that NASA had suppressed. Three people had access to the annex during the two-hour window. The film reel was empty.",
+    "emptyState": "History is happening on the screens. In the annex, someone is dead. Find who came for the film.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Sutter",
+            "icon": "📡",
+            "detail": "A NASA public affairs officer — had known about the suppressed anomaly and had been tasked with managing media access during the landing."
+          },
+          {
+            "name": "Carla Jensen",
+            "icon": "📰",
+            "detail": "A rival wire service journalist — had known Novak had obtained something significant and had been trying to find out what."
+          },
+          {
+            "name": "Roy Marsh",
+            "icon": "🎬",
+            "detail": "A documentary filmmaker embedded with the press corps — had a film camera and had been the one who had noticed the empty canister."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Annex",
+            "icon": "📰",
+            "detail": "Where Novak was found — credentials on floor, coffee overturned, film canister empty."
+          },
+          {
+            "name": "The Main Press Room",
+            "icon": "📡",
+            "detail": "Where most journalists had been watching the moon landing — separated from the annex by a corridor."
+          },
+          {
+            "name": "The NASA Film Storage Room",
+            "icon": "🎬",
+            "detail": "Adjacent to the annex — where the suppressed footage had been stored before Novak had obtained it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Teletype Machine Casing",
+            "icon": "📠",
+            "detail": "A heavy metal casing panel — blunt force wound consistent with its edge used as a bludgeon."
+          },
+          {
+            "name": "Film Reel Canister",
+            "icon": "🎬",
+            "detail": "Too light for the wound depth — eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "No blood trace — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📡",
+        "heading": "The Suppressed Anomaly",
+        "text": "The classified film reel contained footage of a pre-launch systems test in which an oxygen pressure valve on the lunar module had shown irregular readings over a six-minute period. The anomaly had been assessed by NASA engineers, had been resolved, and had been classified as non-mission-threatening. NASA had suppressed the footage to prevent media speculation about mission safety. Novak had obtained the reel from a NASA technician contact and had been planning to transmit a story before the landing.",
+        "alone": "The suppressed footage showed a valve anomaly assessed as non-mission-threatening — NASA had suppressed it to prevent safety speculation. Novak had been planning to transmit before the landing.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The suppressed anomaly footage and Frank Sutter's tasking to manage media access during the landing together establish his operational role — a NASA public affairs officer managing media during the landing would have had specific authority and motive to prevent the footage's transmission."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📠",
+        "heading": "The Teletype Casing",
+        "text": "The heavy metal panel from a teletype machine — its mounting screws loose, suggesting it had been removed from the machine — shows blood on its edge. The wound on Novak's skull is consistent with the panel used as a bludgeon from behind while Novak had been at his desk. The panel had been removed from the teletype and used as a weapon — someone had taken the time to detach it from the machine before using it.",
+        "alone": "The teletype panel had been deliberately removed from the machine before use — the killing had required a degree of preparation, not purely impulsive.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate removal of the teletype panel before use suggesting preparation and Frank Sutter's confirmed familiarity with the press annex equipment from his daily access management role together confirm the specific knowledge of the equipment that the removal had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Carla Jensen's Evening",
+        "text": "Carla Jensen had been in the main press room throughout the two-hour window — confirmed by eleven journalists and the NASA press room monitor, who had recorded attendance. She had been watching the landing on the main monitors and had been filing dispatches on the teletype. She had not been in the annex. She is definitively cleared.",
+        "alone": "Jensen had been in the main press room for the full two-hour window confirmed by eleven journalists and the NASA monitor — she had not been in the annex. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Jensen cleared in the main press room and Roy Marsh confirmed in the corridor from nine PM together eliminate both other suspects from the annex — only Sutter's movements during the window are unconfirmed in the annex."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Sutter's Media Access Authority",
+        "text": "Sutter's NASA role during the landing had given him authority to restrict and manage press corps access throughout the Johnson Space Center complex — including the annex. He had been the only non-journalist with legitimate access to all areas of the press complex. His access badge had been logged at the annex corridor at eight-forty-five PM — forty-five minutes before Armstrong's moonwalk, during the window when the annex had been relatively unoccupied.",
+        "alone": "Sutter's badge had been logged at the annex corridor at eight-forty-five PM — legitimate access authority throughout the press complex had been part of his media management role.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Sutter's annex corridor badge log and his specific knowledge of the suppressed anomaly from his NASA role together confirm both the access and the operational motivation — he had been in the position to know what Novak had, to access the annex, and to act before the moonwalk."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📡",
+        "heading": "Sutter's Knowledge of Novak's Footage",
+        "text": "A NASA technician confirms he had told Sutter two hours before the annex incident that a wire journalist named Novak had been asking questions about the valve anomaly. Sutter had immediately left the technician's location and had not been seen in the main press room for forty-five minutes. His movements during those forty-five minutes are the annex window.",
+        "alone": "Sutter had been told about Novak's specific enquiries two hours before the killing and had left immediately — his forty-five-minute absence coincides with the annex window.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Sutter's badge logged at the annex corridor and his departure after hearing about Novak's specific footage enquiries together confirm the sequence — the information had arrived, he had acted on it, and his badge had logged the approach."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "📠",
+        "heading": "The Teletype Panel's Mounting",
+        "text": "The teletype panel's screws showed fresh tool marks — the panel had been recently removed, not fallen off. The annex's toolbox — standard equipment in any press facility — had been opened: the screwdriver was not in its slot. The preparation had required approximately two minutes and specific knowledge of where the toolbox was kept. Sutter's daily access management had taken him through the annex regularly.",
+        "alone": "The panel had been deliberately removed with a tool from the annex toolbox — two minutes of preparation requiring knowledge of the toolbox's location.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The deliberate preparation requiring toolbox knowledge and Sutter's regular annex access through his media management role together confirm both the preparation time and the specific facility knowledge the removal had required."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Roy Marsh's Corridor",
+        "text": "Roy Marsh had been in the corridor outside the main press room from nine PM — he had been filming the journalists watching the moon landing for his documentary. He had not been in the annex. His film footage from the evening is his alibi — continuous footage from nine PM shows the corridor and the press room door, not the annex. He is definitively cleared.",
+        "alone": "Marsh's own documentary film footage shows him continuously in the corridor from nine PM — not in the annex. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Jensen cleared in the main press room and Marsh cleared by his own film footage in the corridor together eliminate both other suspects — Sutter's badge at the annex corridor and his forty-five-minute absence are the only confirmed movements consistent with the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "Armstrong's Moonwalk",
+        "text": "Neil Armstrong stepped onto the moon at 10:56 PM Houston time on July 20th, 1969. The press corps had been watching the main monitors. In the annex, Dan Novak had been found dead by a janitor at 10:15 PM — forty-one minutes before Armstrong stepped outside. Sutter had been in the main press room from 9:30 PM, confirmed by the press monitor. The film reel was empty. The story Novak had been preparing had never been filed. The anomaly had never been publicly reported. The mission had succeeded.",
+        "alone": "Novak had been found at 10:15 PM — forty-one minutes before Armstrong stepped outside. Sutter had been confirmed in the main press room from 9:30 PM. The story had never been filed. The mission had succeeded.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Sutter's forty-five-minute absence coinciding with the annex window and his confirmed return to the main press room before 9:30 PM together bracket the killing precisely — he had been in the annex during the window and had returned before Armstrong's moonwalk."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Sutter",
+      "location": "The Press Annex",
+      "weapon": "Teletype Machine Casing"
+    },
+    "epilogue": "Frank Sutter had been told about Novak's footage enquiries at approximately seven PM. He had accessed the annex at eight-forty-five PM. He had removed the teletype panel with the annex toolbox screwdriver. He had killed Novak and had taken the film reel. The reel's film had been destroyed — it was found empty. He had been back in the main press room by nine-thirty PM. Armstrong had stepped onto the moon at ten-fifty-six PM. Novak had been found at ten-fifteen PM. The anomaly story had never been filed. The valve anomaly had been non-mission-threatening — NASA's engineers had been correct. The mission had succeeded. Sutter had been investigated by the FBI and had denied involvement. No charge had been brought — the film's destruction had removed the physical evidence. The press corps had watched history happen on the monitors. In the annex, a different story had ended."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #123",
+    "title": "One Giant Leap",
+    "setting": "Johnson Space Center Press Corps · Houston · Texas · July 20th, 1969",
+    "emoji": "🌙",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Sutter killed Novak and destroyed the film. But Carla Jensen had known Novak had something significant — find what she had done to find out what it was, and whether her actions had inadvertently contributed to the chain.",
+    "emptyState": "Jensen was trying to find out what Novak had. Find what she did — and whether it backfired.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Sutter",
+            "icon": "📡",
+            "detail": "The killer — badge log, forty-five minute absence, teletype panel, film destroyed, FBI investigation, no charge."
+          },
+          {
+            "name": "Carla Jensen",
+            "icon": "📰",
+            "detail": "Cleared as killer — main press room confirmed. Had been investigating what Novak had obtained."
+          },
+          {
+            "name": "Roy Marsh",
+            "icon": "🎬",
+            "detail": "Cleared as killer — corridor film footage confirmed. His documentary footage becomes evidence."
+          },
+          {
+            "name": "The NASA Technician",
+            "icon": "🔧",
+            "detail": "The person who had given Novak the film — and who had also told Sutter about Novak's enquiries."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Annex",
+            "icon": "📰",
+            "detail": "Primary crime scene — Sutter's killing."
+          },
+          {
+            "name": "The Main Press Room",
+            "icon": "📡",
+            "detail": "Jensen's confirmed location — and where she had been working to discover Novak's source."
+          },
+          {
+            "name": "The NASA Film Storage Room",
+            "icon": "🎬",
+            "detail": "Where the footage had originated — and where Jensen had made an approach."
+          },
+          {
+            "name": "The Technician's Station",
+            "icon": "🔧",
+            "detail": "Where Jensen had also gone before the killing — and where she had encountered Sutter."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Teletype Machine Casing",
+            "icon": "📠",
+            "detail": "Confirmed murder weapon — Sutter's deliberate preparation."
+          },
+          {
+            "name": "Film Reel Canister",
+            "icon": "🎬",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Jensen's Enquiries",
+            "icon": "📰",
+            "detail": "Not a weapon — but her investigation of Novak's source had contributed to the chain of events."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Anomaly Story Before the Moonwalk",
+            "icon": "📡",
+            "detail": "Sutter's operational motive — film destroyed, no charge, mission succeeded."
+          },
+          {
+            "name": "Break the Story Before Novak Did",
+            "icon": "📰",
+            "detail": "Jensen's competitive journalistic motive — had been trying to identify Novak's source."
+          },
+          {
+            "name": "Jensen's Approach to the NASA Technician",
+            "icon": "📰",
+            "detail": "What Jensen had done — had gone to the same technician Novak had used, and the technician had then told Sutter."
+          },
+          {
+            "name": "The Technician's Double Disclosure",
+            "icon": "🔧",
+            "detail": "The chain's pivot — the technician had told Jensen something, had panicked, and had told Sutter about both Jensen and Novak."
+          },
+          {
+            "name": "Jensen's Inadvertent Acceleration of the Chain",
+            "icon": "📰",
+            "detail": "The moral dimension — Jensen's competitive investigation had triggered the technician's panic that had set Sutter in motion."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "What Jensen Had Been Doing",
+        "text": "Jensen's account: 'I knew Dan had something. He had been cagey all afternoon — not filing, not talking, checking his desk frequently. I went to the NASA film storage area at around six PM and asked a technician if anything significant had been released for press use. The technician was evasive. I pressed. He eventually told me there was nothing new for press use. I went back to the press room. I found out later that the technician had then gone to his supervisor and had reported that two journalists were asking about classified materials.'",
+        "alone": "Jensen's approach to the same technician had triggered the technician's report to his supervisor — her competitive investigation had been the catalyst for the panic that had reached Sutter.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Jensen approaching the technician and the technician reporting both her and Novak's enquiries to his supervisor together confirm Jensen's investigation had been the second pressure point that had elevated the technician's alarm from a single journalist's enquiry to a perceived coordinated media effort."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Technician's Double Report",
+        "text": "The NASA technician — identified in the FBI investigation as Raymond Cole — had given Novak the film reel as an act of conscience about the suppressed anomaly. When Jensen had then approached him independently with questions about classified materials, he had panicked: 'I thought — two of them are asking. If two journalists are asking, it will come out. If it comes out that I gave the reel, my career is over. I went to my supervisor and told him two journalists were enquiring about classified footage.' His supervisor had been Frank Sutter.",
+        "alone": "Raymond Cole had given the reel to Novak from conscience and had then reported both Jensen's and Novak's enquiries to Sutter — his panic at the double pressure had been the trigger for Sutter's action.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Cole's conscience driving the original disclosure and his panic at the double enquiry triggering the report to Sutter together confirm the chain's two pivots — the act of conscience and the act of fear had both contributed to the night's outcome."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Jensen's Reckoning",
+        "text": "Jensen's FBI statement includes: 'I did not know that by asking questions I had caused Cole to panic and go to Sutter. I was doing my job — trying to identify a story a competitor had. If I had not asked questions, Cole might not have panicked, Sutter might not have known the urgency, and Dan might still be alive. I know that is not how culpability works. I also know it is what happened.' She had understood the causal contribution without claiming it as culpability.",
+        "alone": "Jensen had understood her role in the causal chain — the same moral position as prior chain-contributors in the catalog: accurate about the causation, clear about the legal distinction.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Jensen's reckoning with her causal role and the FBI finding no criminal liability in her enquiries together confirm the consistent pattern — the causal contribution and the criminal liability had been assessed as separate, as they had been in Vienna, Venice, and Johannesburg."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Roy Marsh's Documentary Footage",
+        "text": "Roy Marsh's documentary film — which had been his alibi — had also captured something significant: his corridor footage from eight-forty-five PM shows Frank Sutter walking toward the annex corridor at the time of his badge log. The footage had been submitted to the FBI as alibi evidence for Marsh and had become the primary visual evidence placing Sutter at the annex entrance. Marsh had not known what his camera had captured until the FBI had examined the footage.",
+        "alone": "Marsh's alibi footage had inadvertently captured Sutter approaching the annex at eight-forty-five PM — the primary visual evidence had been accidental.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Marsh's accidental capture of Sutter's approach and the FBI finding insufficient evidence for a charge together confirm the visual evidence had been there and had been insufficient — the film's destruction had removed the physical evidence and the visual corroboration had not closed the gap."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📡",
+        "heading": "The FBI Investigation",
+        "text": "The FBI investigation had found: Sutter's badge log at the annex corridor; Marsh's documentary footage showing Sutter approaching the annex; Cole's account of having told Sutter about both journalists' enquiries; and the empty film canister. The FBI had found insufficient evidence for a criminal charge — the film's destruction had removed the primary physical evidence, and Sutter had denied entering the annex beyond the corridor. The investigation had been closed in 1970.",
+        "alone": "The FBI had found badge log, documentary footage, Cole's testimony, and the empty canister — and insufficient evidence for a charge. The investigation had been closed in 1970.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Jensen's reckoning with her causal role and the FBI closing the investigation in 1970 together confirm the case's legal outcome — the causal chain had been assembled, the evidence had been identified, and the criminal threshold had not been met."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Raymond Cole's Fate",
+        "text": "Raymond Cole had been dismissed from NASA in August 1969 for unauthorised disclosure of classified materials to a journalist. He had not been criminally charged — the FBI had determined that his act of conscience had not met the classified information disclosure threshold given the anomaly's assessed non-threat status. He had worked in private engineering for thirty years. In 1999 he had given an interview describing the events of July 20th: 'I gave the reel because I thought people had a right to know. I told Sutter because I was afraid. Dan Novak died because of both of those decisions. I have thought about the order of them.'",
+        "alone": "Cole had been dismissed and had given a 1999 interview describing his two decisions — the act of conscience and the act of fear — and their consequence.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Cole's double disclosure — conscience to Novak, fear to Sutter — and his 1999 reckoning with the order of the decisions together confirm the chain's central pivot had been his alone — both acts, both consequences, both thought about for thirty years."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Sutter's Later Career",
+        "text": "Frank Sutter had left NASA in 1972 — three years after the killing. He had worked in corporate communications until his retirement in 1995. He had died in 2003. He had never publicly discussed the events of July 20th, 1969. The FBI investigation file had been released under FOIA in 1995 — two years before his retirement. The file's release had been noted by several space history journalists. Sutter had not responded to enquiries. He had died without public comment.",
+        "alone": "Sutter had died in 2003 without public comment. The FBI file had been released in 1995. He had not responded to enquiries.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The FBI investigation closed in 1970 and Sutter dying in 2003 without public comment together confirm the full arc — the investigation had ended, the file had been released, and the subject had carried it without speaking until his death."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "July 20th, 1969",
+        "text": "Neil Armstrong stepped onto the moon at 10:56 PM Houston time on July 20th, 1969. He said: 'That's one small step for man, one giant leap for mankind.' The press corps had watched it happen. In the annex, Dan Novak had been found dead forty-one minutes before. The valve anomaly had been non-mission-threatening. The mission had succeeded. The footage had been destroyed. The story had never been filed. Raymond Cole had thought about the order of his decisions for thirty years. Carla Jensen had understood her causal contribution. Frank Sutter had died without public comment. The moon is still there. The footprints are still there — there is no wind to erase them.",
+        "alone": "The footprints are still on the moon — there is no wind to erase them. Everything else from that night has been through what time does to things. The footprints remain.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Cole thinking about the order of his decisions for thirty years and the footprints still on the moon together confirm the case's final image — the permanent and the impermanent from the same night, the footprints unchanged and the human chain from the annex still being thought about."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Sutter",
+      "location": "The Press Annex",
+      "weapon": "Teletype Machine Casing",
+      "motive": "Suppress the Anomaly Story Before the Moonwalk"
+    },
+    "epilogue": "Raymond Cole had given Novak the reel from conscience. Jensen had approached Cole from competition. Cole had panicked at the double pressure and had told Sutter. Sutter had been at the annex at eight-forty-five PM. The teletype panel had been removed from the machine. Novak had been found at ten-fifteen PM. Armstrong had stepped outside at ten-fifty-six. The film had been destroyed. The story had never been filed. The FBI had found insufficient evidence and had closed the investigation in 1970. Cole had been dismissed. Jensen had understood her causal contribution without claiming culpability. Sutter had died in 2003 without public comment. Cole had given a 1999 interview and had thought about the order of his decisions. The footprints are on the moon. There is no wind to erase them. Armstrong's words are in the record. Novak's story is not."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #123",
+    "title": "One Giant Leap",
+    "setting": "Johnson Space Center Press Corps · Houston · Texas · July 20th, 1969",
+    "emoji": "🌙",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Sutter killed Novak. Jensen's enquiries triggered Cole's panic. But Roy Marsh's documentary had captured more than Sutter's approach — find what else Marsh's camera had recorded that night, and what he did with it.",
+    "emptyState": "Marsh's camera captured more than just Sutter. Find what else — and what he did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Frank Sutter",
+            "icon": "📡",
+            "detail": "The killer — badge log, teletype panel, film destroyed, FBI investigation closed 1970, died 2003."
+          },
+          {
+            "name": "Carla Jensen",
+            "icon": "📰",
+            "detail": "Cleared as killer — main press room. Causal contribution understood. Jensen's 1999 interview."
+          },
+          {
+            "name": "Roy Marsh",
+            "icon": "🎬",
+            "detail": "Cleared as killer — corridor footage. His camera had captured additional material from the evening."
+          },
+          {
+            "name": "The Documentary's Full Archive",
+            "icon": "🎬",
+            "detail": "What Marsh's camera had recorded across the entire evening — and what he had done with the full footage."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Annex",
+            "icon": "📰",
+            "detail": "Primary crime scene — and the location Marsh's camera had documented approaching."
+          },
+          {
+            "name": "The Corridor",
+            "icon": "🚶",
+            "detail": "Marsh's filming position — and the full scope of what his camera had covered."
+          },
+          {
+            "name": "The Main Press Room",
+            "icon": "📡",
+            "detail": "Also in Marsh's footage — and where a second significant piece of footage had been captured."
+          },
+          {
+            "name": "The Documentary Archive",
+            "icon": "🎬",
+            "detail": "Where the full footage had been held — and what had been done with the material over the following decades."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Teletype Machine Casing",
+            "icon": "📠",
+            "detail": "Confirmed murder weapon — Sutter's deliberate preparation."
+          },
+          {
+            "name": "Film Reel Canister",
+            "icon": "🎬",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Coffee Mug",
+            "icon": "☕",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Marsh's Additional Footage",
+            "icon": "🎬",
+            "detail": "Not a weapon — but the material his camera had captured beyond the Sutter approach, and what he had chosen to do with it."
+          },
+          {
+            "name": "Marsh's Editorial Decision",
+            "icon": "🎬",
+            "detail": "Not a weapon — the choice about what to include in the documentary and what to withhold."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Anomaly Story",
+            "icon": "📡",
+            "detail": "Sutter's motive — closed investigation, died 2003."
+          },
+          {
+            "name": "Competitive Story Identification",
+            "icon": "📰",
+            "detail": "Jensen's motivation — causal contribution, 1999 interview."
+          },
+          {
+            "name": "Document the Moon Landing for History",
+            "icon": "🎬",
+            "detail": "Marsh's stated purpose — and the documentary's eventual content."
+          },
+          {
+            "name": "Marsh's Second Significant Footage",
+            "icon": "🎬",
+            "detail": "What his camera had also captured — Raymond Cole's distressed state in the corridor before the killing."
+          },
+          {
+            "name": "Marsh's Decision About What to Include",
+            "icon": "🎬",
+            "detail": "Whether Marsh had included the Cole footage, the Sutter footage, or both — and the reasoning behind the choice."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Novak and Destroyed the Film",
+            "icon": "📡",
+            "detail": "Sutter's confirmed role — died 2003 without public comment."
+          },
+          {
+            "name": "Triggered Cole's Panic Through Competitive Enquiries",
+            "icon": "📰",
+            "detail": "Jensen's inadvertent role — understood the causal contribution."
+          },
+          {
+            "name": "Provided the Reel From Conscience and Reported From Fear",
+            "icon": "🔧",
+            "detail": "Cole's double-decision role — dismissed, 1999 interview, thought about the order."
+          },
+          {
+            "name": "Captured Sutter's Approach and Cole's Distress on Film",
+            "icon": "🎬",
+            "detail": "Marsh's inadvertent and deliberate recording — and his editorial choice about what to use."
+          },
+          {
+            "name": "Filmed the Moon Landing While History Also Happened in the Annex",
+            "icon": "🌙",
+            "detail": "The press corps' collective role — watching the screens while the annex was a crime scene."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "What Else Marsh's Camera Had Captured",
+        "text": "The full review of Marsh's documentary footage — submitted to the FBI and then returned — reveals a second significant sequence: at approximately seven-thirty PM, the camera had captured Raymond Cole in the corridor outside the film storage area, visibly distressed, moving quickly toward the technicians' area. The footage had shown Cole's agitated state thirty minutes after Jensen's approach and ninety minutes before Novak had been found dead. Cole's distress had been on film before any of the subsequent events.",
+        "alone": "Marsh's camera had captured Cole's distressed corridor movements at seven-thirty PM — ninety minutes before Novak's death, thirty minutes after Jensen's approach.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cole's distressed state captured at seven-thirty PM and the killing occurring at approximately nine PM together confirm the footage had documented the panic's visible manifestation before the consequence — Marsh's camera had been at the right place at the right time twice."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Marsh's Editorial Decision",
+        "text": "Marsh's documentary — 'July 20th: The Press Corps and the Moon' — was released in 1971. It included the Sutter approach footage (submitted to the FBI and included with FBI permission after the investigation's closure). It did not include the Cole corridor footage. Marsh's explanation in a 1971 interview: 'The Cole footage showed a man in distress. I did not know at the time what had caused his distress. By the time I knew, including it would have been used to damage a man who had already lost his job and whose act of conscience had been his initial motivation. I left it out.'",
+        "alone": "Marsh had included the Sutter footage and had excluded the Cole footage — protecting Cole from additional scrutiny by withholding the distress sequence.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Marsh excluding the Cole footage to protect him and Cole's 1999 interview describing his decisions together confirm the protection had been accepted in silence — Cole had not publicly acknowledged Marsh's editorial choice for twenty-eight years."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "witness",
+        "icon": "🎬",
+        "heading": "Marsh's Account of the Night",
+        "text": "Marsh: 'I was filming the journalists watching the moon landing. I was in the corridor because that was where the energy was — people going back and forth between the press room and the facilities, the NASA staff managing the crowd. I saw Sutter walking toward the annex at eight-forty-five. I did not know at the time what he was doing. I did not connect it to anything until after Novak had been found. When I reviewed the footage with the FBI, I saw what I had been recording without knowing I was recording it.'",
+        "alone": "Marsh had not understood the significance of what he was filming until after Novak had been found — the camera had recorded without the camera operator knowing what it was capturing.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Marsh filming without knowing what he was recording and the footage becoming the primary visual evidence for the FBI investigation together confirm the documentary record had been created accidentally and had served purposes its creator had not intended."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "The Documentary's Historical Status",
+        "text": "Marsh's documentary had been screened at film festivals in 1971-1972 and had been acquired by the Smithsonian Institution's film archive in 1975. It is now available through the archive's digital collection. The Sutter approach footage is included. The Cole corridor footage is not. The documentary is catalogued as 'primary source material for the Apollo 11 press coverage period.' The Novak case is not described in the catalogue entry. The catalogue describes the documentary as 'a record of the journalists who watched humanity's greatest achievement.'",
+        "alone": "The documentary is in the Smithsonian archive as primary source material. The Novak case is not mentioned in the catalogue. The Cole footage is not in the film.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The Smithsonian catalogue describing the documentary as a record of journalists watching humanity's greatest achievement and the Novak case not being mentioned together confirm the documentary's public identity — what the archive holds and what happened that night have been catalogued differently."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "Cole's 1999 Interview and Marsh's Footage",
+        "text": "Raymond Cole's 1999 interview had been given to a space history journalist writing about the Apollo program's human dimensions. Cole had described his decisions and their consequences. He had not mentioned Marsh's documentary or the Cole corridor footage. When the journalist had subsequently reviewed Marsh's documentary, he had found the Sutter approach footage but had not known about the excluded Cole sequence. The Cole sequence had remained in Marsh's private archive.",
+        "alone": "The Cole corridor footage had remained in Marsh's private archive — Cole's 1999 interview had not mentioned it, and the journalist had not known it existed.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Marsh excluding the Cole footage from the 1971 documentary and the footage remaining in his private archive in 1999 together confirm the protection had been maintained across thirty years — the editorial decision made in 1971 had held through Cole's own public account in 1999."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎬",
+        "heading": "What Marsh's Archive Contains",
+        "text": "Roy Marsh died in 2008. His personal film archive was donated to the Academy Film Archive in 2010. The donation included all unedited footage from the July 20th, 1969 shooting day — including the Cole corridor sequence. An archivist cataloguing the collection in 2012 had identified the Cole sequence and had flagged it for historical review. The sequence is now in the archive's catalogue as 'unedited footage, July 20 1969, person of interest in NASA press corps incident — not included in final documentary.' Cole had died in 2007, one year before Marsh.",
+        "alone": "The Cole corridor footage is now in the Academy Film Archive, catalogued as unedited footage from the incident. Cole had died in 2007, one year before Marsh. Neither had known the footage would be publicly catalogued.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cole's 1999 interview not mentioning the footage and the footage now in a public archive together confirm neither had anticipated the archive's eventual cataloguing — the editorial protection Marsh had extended in 1971 had outlasted both men before being made publicly accessible."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Two Records of July 20th, 1969",
+        "text": "Two film records exist from the Johnson Space Center press corps on July 20th, 1969: The broadcast footage of the moon landing — Armstrong and Aldrin on the surface, Aquarius above — watched by the press corps on the monitors. Roy Marsh's documentary footage — the journalists watching the broadcast, Sutter walking toward the annex, and in the unedited archive, Cole distressed in the corridor. The broadcast is in every archive in the world. Marsh's footage is in two: the Smithsonian and the Academy Film Archive. Armstrong's words are everywhere. Novak's name is in the FBI file, publicly available since 1995.",
+        "alone": "Two film records, two archives, two sets of words — Armstrong's everywhere, Novak's in the FBI file available since 1995.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Armstrong's words in every archive and Novak's name in the FBI file together confirm the case's final image — the permanent record of July 20th 1969 holds both what was said on the moon and what happened in the annex, in different proportions of accessibility."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Footprints",
+        "text": "The Apollo 11 mission left six sets of footprints on the lunar surface — Armstrong's and Aldrin's. In the moon's environment, without wind or weather, the footprints do not erode. They will remain for millions of years unless disturbed by meteorite impact. Armstrong's words from 10:56 PM Houston time on July 20th, 1969 are in every archive. Dan Novak's name is in the FBI file, available since 1995. Raymond Cole's distressed corridor walk is in the Academy Film Archive, catalogued since 2012. Roy Marsh made an editorial decision in 1971 that held until 2010. Frank Sutter died in 2003 without public comment. The footprints remain.",
+        "alone": "The footprints remain. Armstrong's words are everywhere. The rest is in different archives at different levels of accessibility. The footprints remain.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The two film records and the footprints remaining together confirm the case's final element — the permanent and the distributed, the moon surface unchanged and the press corps annex fully documented across multiple archives accessed by different investigators at different times over fifty years."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Frank Sutter",
+      "location": "The Press Annex",
+      "weapon": "Teletype Machine Casing",
+      "motive": "Suppress the Anomaly Story Before the Moonwalk",
+      "accomplice": "Triggered Cole's Panic Through Competitive Enquiries"
+    },
+    "epilogue": "Roy Marsh had filmed Cole's distressed corridor walk at seven-thirty PM without knowing what he was recording. He had filmed Sutter's approach at eight-forty-five PM without knowing what it meant. He had understood after Novak had been found. He had submitted the Sutter footage to the FBI. He had kept the Cole footage out of the 1971 documentary. He had left it in his private archive. He had died in 2008. His archive had been donated in 2010. The Cole footage had been catalogued in 2012. Cole had died in 2007. Sutter had died in 2003. Armstrong's words are in every archive. The footprints on the moon's surface will remain for millions of years unless disturbed by meteorite impact. Dan Novak's name is in the FBI file, available since 1995. Marsh made an editorial decision in 1971 that protected a man who never knew it had been made. The footprints remain."
+  }
+}

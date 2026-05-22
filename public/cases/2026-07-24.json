@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Havana, 1958. Batista's last year. A casino manager dead in the back of the Tropicana. The revolution is four months away. And the money from the floor went somewhere it shouldn't. 🎺🔍 Case #127 — La Noche. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Havana 1958 before the revolution, a casino manager dead in the Tropicana back room, skimmed money, and the person who knew too much about where it went. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The back office of a 1958 Havana nightclub, the sound of the Tropicana orchestra bleeding through the walls, a casino manager's ledger open on a desk beside an overturned rum glass, stacks of pesos and a pistol on the desk, neon light from the show floor reflecting through a frosted glass door. Pre-revolutionary Havana atmosphere, glamour and menace. Style of René Burri's Cuba photography meets film noir.",
+    "animationPrompt": "Slow pan through the back office of a 1958 Havana nightclub. Orchestra music through the walls. A casino manager's ledger open on a desk. Stacks of pesos. The camera finds an overturned rum glass and a pistol on the desk. Neon through the frosted glass door. The revolution is four months away. Fade to black.",
+    "hashtags": [
+      "#Havana1958",
+      "#PreRevolution",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #127",
+    "title": "La Noche",
+    "setting": "Club Tropicana · Havana · Cuba · 1958",
+    "emoji": "🎺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Casino manager Roberto Céspedes was found dead in the Tropicana's back office during the Friday night show. His ledger showed a systematic skim of casino floor receipts — money that had been going to someone who was not on the official payroll. Three people had access to the back office that night. The skim was documented. The recipient was not named.",
+    "emptyState": "The skim is documented. The recipient isn't named. One of three people is the connection. Find who.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Luis Montoya",
+            "icon": "🎰",
+            "detail": "The floor supervisor — had been running the table operations and had known the receipts' real versus reported figures."
+          },
+          {
+            "name": "Carmen Reyes",
+            "icon": "🎺",
+            "detail": "The club's entertainment director — had been coordinating between the show floor and the back office and had access to both."
+          },
+          {
+            "name": "Colonel Arturo Méndez",
+            "icon": "🎖️",
+            "detail": "A Batista military official — had been at the Tropicana for the evening as a regular guest with a private back office arrangement."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "💼",
+            "detail": "Where Céspedes was found — ledger open, rum glass overturned, pesos on the desk."
+          },
+          {
+            "name": "The Casino Floor",
+            "icon": "🎰",
+            "detail": "Where the skim had been operating — and where Montoya had been running the tables."
+          },
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🎺",
+            "detail": "The passage connecting the performance area to the back office — used by Carmen Reyes regularly."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Desk Pistol",
+            "icon": "🔫",
+            "detail": "Céspedes's own desk pistol — a single shot to the chest, fired at close range."
+          },
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "No wound consistent with impact — the glass had been overturned, not the bottle used."
+          },
+          {
+            "name": "Ledger Edge",
+            "icon": "📒",
+            "detail": "No wound profile — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Ledger",
+        "text": "The ledger documents eighteen months of systematic under-reporting of casino floor receipts — an average of 800 pesos per week diverted from the official count. The diverted funds had been recorded in a second column under the initials 'A.M.' — initialled, not named. The total over eighteen months: approximately 57,600 pesos. The initials matched Colonel Arturo Méndez, the Batista military official with a private back office arrangement.",
+        "alone": "The skim had been running for eighteen months — 57,600 pesos diverted to someone initialled 'A.M.' The initials matched Colonel Méndez.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The skim running to 'A.M.' and Colonel Méndez's private back office arrangement and known initials together establish the payment's likely recipient — a military official with the matching initials and a known arrangement with the club had been receiving the diverted funds."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🔫",
+        "heading": "The Desk Pistol",
+        "text": "Céspedes had kept a desk pistol in the right drawer — a standard precaution for casino managers in Havana. The pistol had been removed from the drawer and fired once at close range. The shot had been fired from the front — Céspedes had seen his killer. The pistol had been placed back on the desk after firing. The killer had known the pistol was there and had taken it from the drawer in the course of a close confrontation.",
+        "alone": "The pistol had been taken from the desk drawer and used — Céspedes had seen his killer and the killer had known the pistol was in the drawer.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The killer knowing the pistol was in the desk drawer and Colonel Méndez's eighteen-month private back office arrangement giving him specific knowledge of the office's layout and contents together establish the familiarity that the drawer knowledge had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "Carmen Reyes's Evening",
+        "text": "Carmen Reyes had been in the performance area from nine PM managing the Friday show — confirmed by the orchestra conductor, the choreographer, and six performers. She had not been in the backstage corridor after nine PM. The killing had occurred between ten and eleven PM. She is definitively cleared.",
+        "alone": "Carmen had been in the performance area confirmed by eight witnesses from nine PM onward — she had not been in the backstage corridor during the killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Carmen cleared in the performance area and Luis Montoya confirmed on the casino floor together eliminate both other suspects from the back office — only Colonel Méndez's movements between ten and eleven PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Méndez's Back Office Access",
+        "text": "The Tropicana's arrangement with Méndez — documented in a separate management file — gave him after-hours access to the back office for private meetings with the casino management. He had been a regular visitor for two years, predating the skim by six months. His access had been official and had been part of a protection arrangement typical of Batista-era business relationships with military officials.",
+        "alone": "Méndez had official after-hours back office access as part of a protection arrangement — he had been using the office privately for two years.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Méndez's two-year private back office access and the skim running for eighteen months with his initials together confirm his access had preceded and encompassed the skim's duration — the protection arrangement and the skimming arrangement had been concurrent."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Méndez at the Club",
+        "text": "The front desk confirms Méndez had arrived at ten PM — his regular Friday visit. The maitre d' had seen him enter and had noted his table. At ten-twenty PM, Méndez had not been at his table — the waiter had gone to take his order and had found the table empty. He had returned to the table at approximately ten-fifty PM. His thirty-minute absence coincided with the killing window.",
+        "alone": "Méndez had a thirty-minute unconfirmed absence from his table between ten-twenty and ten-fifty PM — coinciding exactly with the killing window.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The skim paying to initials matching Méndez and his thirty-minute table absence during the killing window together establish both the financial connection and the time of access to the back office where the evidence had been found."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🎖️",
+        "heading": "The Drawer Knowledge",
+        "text": "The waiter who had attended Méndez on previous visits confirms: 'The Colonel always sat where he could see the back office door. On one occasion I had seen him go to the desk when Céspedes had stepped out — he had opened the right drawer, looked inside, and closed it again. He was checking what was there.' Méndez had specifically examined the desk drawer on a prior visit — he had known the pistol was there.",
+        "alone": "Méndez had been seen checking the right desk drawer on a prior visit — he had known the pistol was there.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The killer knowing the pistol was in the desk drawer and Méndez confirmed having examined that specific drawer on a prior visit together confirm the specific prior knowledge that the killing's method had required."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎰",
+        "heading": "Montoya on the Floor",
+        "text": "Luis Montoya had been on the casino floor from eight PM — confirmed by six dealers, three pit bosses, and two floor attendants. He had not left the floor during the killing window. He is definitively cleared.",
+        "alone": "Montoya had been confirmed on the casino floor throughout the killing window by eleven witnesses — he had not been in the back office. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Carmen cleared in the performance area and Montoya cleared on the casino floor together eliminate both other suspects — Méndez's thirty-minute table absence during the killing window is the only confirmed approach to the back office."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Why Céspedes Had Been Killed",
+        "text": "A note found in Céspedes's jacket pocket — in his own handwriting: 'Told Méndez tonight that I am ending the arrangement. He is taking too much. The ledger is the insurance.' Céspedes had told Méndez he was ending the skim arrangement and had kept the ledger as protection. The ledger as insurance had been the trigger — Méndez had come to the back office not to continue the arrangement but to eliminate the evidence and its keeper.",
+        "alone": "Céspedes had told Méndez he was ending the arrangement and had kept the ledger as insurance — Méndez had come to eliminate both the evidence and the person holding it.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Méndez's thirty-minute absence during the killing window and Céspedes's note describing the confrontation he had initiated together confirm the sequence — the confrontation had occurred, Méndez had used the desk pistol, and the ledger had remained as the evidence of both the skim and the motive."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Arturo Méndez",
+      "location": "The Back Office",
+      "weapon": "Desk Pistol"
+    },
+    "epilogue": "Roberto Céspedes had told Méndez that evening that the arrangement was over. He had kept the ledger as his protection — it had named the initials and the amounts. Méndez had left his table at ten-twenty PM and had gone to the back office. He had taken the desk pistol from the right drawer he had checked on a prior visit. He had shot Céspedes. He had looked for the ledger — it had been open on the desk. He had left it. He had returned to his table at ten-fifty PM. The revolution came four months later. Méndez had fled Cuba in January 1959. The ledger had been found by Cuban authorities when they had taken over the Tropicana. It had been used in the post-revolutionary accounting of Batista-era financial arrangements. Colonel Méndez had died in Miami in 1973."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #127",
+    "title": "La Noche",
+    "setting": "Club Tropicana · Havana · Cuba · 1958",
+    "emoji": "🎺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Méndez killed Céspedes and the ledger survived. But Luis Montoya had known the skim was ending — find what he had done to protect himself before the killing.",
+    "emptyState": "Montoya knew the skim was ending. Find what he did to protect himself.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Arturo Méndez",
+            "icon": "🎖️",
+            "detail": "The killer — drawer knowledge, thirty-minute absence, desk pistol, fled January 1959, died Miami 1973."
+          },
+          {
+            "name": "Luis Montoya",
+            "icon": "🎰",
+            "detail": "Cleared as killer — casino floor confirmed. Had known the skim was ending and had taken a specific protective action."
+          },
+          {
+            "name": "Carmen Reyes",
+            "icon": "🎺",
+            "detail": "Cleared as killer — performance area confirmed. Her knowledge of the club's financial arrangements is examined."
+          },
+          {
+            "name": "The Revolutionary Government",
+            "icon": "🇨🇺",
+            "detail": "The institutional recipient of the post-revolution accounting — and what the ledger had revealed."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "💼",
+            "detail": "Primary crime scene — Méndez's killing."
+          },
+          {
+            "name": "The Casino Floor",
+            "icon": "🎰",
+            "detail": "Montoya's confirmed location — and where his protective action had been taken."
+          },
+          {
+            "name": "The US Embassy",
+            "icon": "🏛️",
+            "detail": "Where Montoya had gone the following week — his specific protective action."
+          },
+          {
+            "name": "Miami",
+            "icon": "🌴",
+            "detail": "Where both Montoya and Méndez had eventually ended up — and what Montoya had done there."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Desk Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Méndez's prior drawer knowledge."
+          },
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Ledger Edge",
+            "icon": "📒",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Montoya's Copy of the Ledger",
+            "icon": "📒",
+            "detail": "Not a weapon — but what Montoya had made before the killing and what he had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Eliminate the Ledger and Its Keeper",
+            "icon": "🎖️",
+            "detail": "Méndez's motive — fled January 1959, died Miami 1973."
+          },
+          {
+            "name": "Protect Himself From Both Méndez and the Revolution",
+            "icon": "🎰",
+            "detail": "Montoya's dual concern — he had been running the skim on the floor and had needed protection from both directions."
+          },
+          {
+            "name": "Montoya's Copy and What He Did With It",
+            "icon": "📒",
+            "detail": "The specific protective action — a copy submitted to the US Embassy as insurance."
+          },
+          {
+            "name": "The Embassy's Use of the Copy",
+            "icon": "🏛️",
+            "detail": "What the US had done with Montoya's information — and how it had served Montoya's protection."
+          },
+          {
+            "name": "Montoya's Post-Revolution Position",
+            "icon": "🌴",
+            "detail": "What had happened to Montoya after the revolution — and how his insurance had functioned."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Montoya's Copy",
+        "text": "Montoya's account — given to CIA debriefers in Miami in February 1959 — describes what he had done: 'Three weeks before Céspedes was killed, I made a copy of the relevant ledger pages. I knew Roberto was going to confront Méndez. I knew how Méndez operated. I needed something in American hands before anything happened. I went to the Embassy and told them I had information about Batista military figures and their financial arrangements with the Havana clubs. They were very interested. I gave them the copy. They gave me a visa.'",
+        "alone": "Montoya had made a copy of the ledger three weeks before the killing and had given it to the US Embassy in exchange for a visa — his insurance had been his exit.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Montoya's copy given to the Embassy three weeks before the killing and the killing occurring after Céspedes had told Méndez the arrangement was ending together confirm Montoya had anticipated the confrontation — his protective action had preceded the event he had been protecting against."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Embassy's Interest",
+        "text": "CIA Havana station records — declassified in 1998 — confirm Montoya had contacted the station in October 1958. His information had been assessed as 'significant — documents financial arrangements between Batista military figures and Havana casino operations. Confirms prior intelligence on skim operations. Visa approved — source to be maintained in place until January.' He had been kept in Havana as an active source for three months before being extracted in January 1959.",
+        "alone": "The CIA had received Montoya's copy in October 1958, had assessed it as significant, and had kept him in Havana as an active source for three months before extracting him in January 1959.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The CIA maintaining Montoya in place for three months and Méndez also fleeing in January 1959 together confirm both had left Cuba in the same month — Montoya through CIA extraction and Méndez through independent flight."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎰",
+        "heading": "What Montoya Had Known Before Submitting the Copy",
+        "text": "Montoya: 'I had been running the floor for two years. I knew the skim existed, I knew Méndez's initials were in the ledger, and I knew that when Roberto decided to end it, something would happen to Roberto. I was on the floor — I was not named in the ledger, my name didn't appear anywhere — but I was the one who had actually been making the numbers work. If Méndez or the revolution came asking, I needed to be somewhere else and I needed to be valuable to someone.'",
+        "alone": "Montoya had been executing the skim on the floor without being named in the ledger — his anonymous operational role had been his vulnerability, and the copy had been his protection.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Montoya not named in the ledger and his copy having been given to the CIA together confirm his position — he had been the operational link who had been invisible in the written record and had used what he knew to buy his exit."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🇨🇺",
+        "heading": "The Revolutionary Government's Accounting",
+        "text": "The revolutionary government had found the original ledger at the Tropicana in January 1959. The CIA copy — which Montoya had provided — had been unknown to the Cubans. The ledger had been used in the post-revolutionary accounting of Batista-era arrangements. Méndez's initials had been identified. The accounting had contributed to the international picture of Batista's financial networks. Montoya had not been named in the original ledger and had not been identified in the revolutionary accounting.",
+        "alone": "Montoya had remained invisible in the revolutionary accounting — his anonymous floor role and his prior CIA extraction had both protected him from post-revolutionary consequences.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Montoya not named in the original ledger and having been extracted before the revolution together confirm his dual protection had worked exactly as he had designed — invisible in the Cuban record and safe in Miami before the accounting had begun."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Carmen Reyes and the Club's Future",
+        "text": "Carmen Reyes had remained in Cuba after the revolution. The Tropicana had continued operating — it had been nationalised but had been maintained as a cultural institution. Carmen had become its artistic director under the revolutionary government. She had been interviewed by Cuban cultural historians in the 1970s about the Tropicana's pre-revolutionary period. She had described the club's entertainment history without mentioning the skim or Céspedes's death — either she had not known or she had chosen not to say.",
+        "alone": "Carmen had continued at the Tropicana under the revolutionary government — her knowledge of the killing's background, if any, had not been disclosed in the 1970s interviews.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Carmen's floor-to-backstage corridor role and Montoya's description of the skim being invisible in the formal records together confirm Carmen may genuinely not have known the financial arrangements' details — the skim had been documented in the back office, not the performance area."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🌴",
+        "heading": "Méndez and Montoya in Miami",
+        "text": "Both Méndez and Montoya had ended up in Miami after the revolution. Méndez had arrived independently in January 1959 with funds. Montoya had arrived through CIA extraction in January 1959 with his visa. They had both been part of the Cuban exile community in Miami. Whether they had known each other in Miami is not recorded. Méndez had died in Miami in 1973. Montoya had died in Miami in 1981. Neither had returned to Cuba.",
+        "alone": "Both had died in Miami — Méndez in 1973, Montoya in 1981. Neither had returned to Cuba. Whether they had known each other in exile is not recorded.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Both ending up in Miami and neither returning confirm the parallel exile trajectories — the killer and the operational accomplice had followed the same path from the Tropicana to the same city, separated by eight years in death."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Two Ledgers' Legacy",
+        "text": "The original ledger had been in the Cuban national archive since 1959. The CIA copy had been in the CIA's Cuba files since 1958 and had been partially declassified in 1998. The two copies had documented the same skim from different perspectives — the original in Céspedes's handwriting with the 'A.M.' initials, the copy in the same handwriting but submitted through Montoya. Scholars examining Cuban financial history in the 2000s had found both and had connected them, confirming Méndez's full name and identifying Montoya as the CIA source for the first time in public record.",
+        "alone": "The two ledgers had been connected by scholars in the 2000s — Méndez's full name confirmed and Montoya identified as the CIA source for the first time publicly.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Scholars connecting the two ledgers in the 2000s and Montoya having been dead since 1981 together confirm the full public accounting had arrived twenty years after his death — he had been publicly identified as the CIA source from a record he had submitted forty-five years earlier."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Tropicana Today",
+        "text": "The Club Tropicana in Havana has operated continuously since 1939. It survived the revolution, nationalisation, the US embargo, and the Special Period. It remains one of Havana's most famous entertainment venues. Its show continues nightly under the open sky. The back office where Roberto Céspedes was killed is now a storage room. The ledger is in the Cuban national archive. The CIA copy is in the declassified files. The Tropicana's show still runs. The orchestra still plays. The Havana night is the same Havana night.",
+        "alone": "The Tropicana still runs. The back office is a storage room. The two ledgers are in two archives. The orchestra still plays.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The two ledgers connected in the 2000s and the Tropicana still running together confirm the full temporal span — the skim had run for eighteen months, the revolution had come four months after the killing, and the club had continued for more than sixty years after both."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Arturo Méndez",
+      "location": "The Back Office",
+      "weapon": "Desk Pistol",
+      "motive": "Eliminate the Ledger and Its Keeper"
+    },
+    "epilogue": "Luis Montoya had made a copy of the ledger three weeks before the killing and had given it to the CIA in October 1958 in exchange for a visa. He had been maintained in Havana as an active source for three months. Méndez had killed Céspedes in the back office and had fled Cuba in January 1959. Montoya had been extracted by the CIA in January 1959. Both had ended up in Miami. Carmen Reyes had remained at the Tropicana as artistic director. The original ledger had been found by the revolutionary government. The CIA copy had been partially declassified in 1998. Scholars had connected both in the 2000s and had publicly identified Montoya as the CIA source for the first time. He had been dead since 1981. The Tropicana still runs. The orchestra still plays."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #127",
+    "title": "La Noche",
+    "setting": "Club Tropicana · Havana · Cuba · 1958",
+    "emoji": "🎺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Méndez killed Céspedes. Montoya gave the ledger copy to the CIA and escaped. But Carmen Reyes had known something was wrong weeks before the killing — find what she had noticed and what she had done with it.",
+    "emptyState": "Carmen knew something was wrong weeks before the killing. Find what she noticed.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Arturo Méndez",
+            "icon": "🎖️",
+            "detail": "The killer — drawer knowledge, desk pistol, January 1959 flight, Miami 1973."
+          },
+          {
+            "name": "Luis Montoya",
+            "icon": "🎰",
+            "detail": "Cleared as killer — casino floor. CIA copy, October 1958, Miami 1981, publicly identified 2000s."
+          },
+          {
+            "name": "Carmen Reyes",
+            "icon": "🎺",
+            "detail": "Cleared as killer — performance area. Had noticed something weeks before and had taken a specific action."
+          },
+          {
+            "name": "The Revolutionary Organization",
+            "icon": "🇨🇺",
+            "detail": "The people Carmen had told — whose use of what she had noticed is the investigation's final thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Office",
+            "icon": "💼",
+            "detail": "Primary crime scene — and what Carmen had noticed about it from the backstage corridor."
+          },
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🎺",
+            "detail": "Where Carmen had regularly passed — and where her observation had occurred."
+          },
+          {
+            "name": "A Havana Safe House",
+            "icon": "🏠",
+            "detail": "Where Carmen had made contact — the revolutionary network she had been in touch with."
+          },
+          {
+            "name": "The Tropicana Under the Revolution",
+            "icon": "🇨🇺",
+            "detail": "Where Carmen had remained — and what her revolutionary connections had meant for her position."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Desk Pistol",
+            "icon": "🔫",
+            "detail": "Confirmed murder weapon — Méndez's."
+          },
+          {
+            "name": "Rum Bottle",
+            "icon": "🥃",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Ledger Edge",
+            "icon": "📒",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Carmen's Information to the Revolutionary Network",
+            "icon": "🎺",
+            "detail": "Not a weapon — what she had told them and what they had done with it."
+          },
+          {
+            "name": "Carmen's Position After the Revolution",
+            "icon": "🇨🇴",
+            "detail": "Not a weapon — the outcome of her revolutionary connections and her continued role at the Tropicana."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Eliminate the Evidence and Its Keeper",
+            "icon": "🎖️",
+            "detail": "Méndez's motive — fled, Miami, dead 1973."
+          },
+          {
+            "name": "Exit With CIA Insurance",
+            "icon": "🎰",
+            "detail": "Montoya's strategy — copy, Embassy, visa, Miami, dead 1981."
+          },
+          {
+            "name": "Support the Revolutionary Movement",
+            "icon": "🎺",
+            "detail": "Carmen's commitment — had been providing information to revolutionary contacts for months."
+          },
+          {
+            "name": "What Carmen Had Observed About the Back Office",
+            "icon": "🎺",
+            "detail": "The specific observation — financial patterns she had noticed from the corridor."
+          },
+          {
+            "name": "The Revolutionary Network's Use of Carmen's Information",
+            "icon": "🇨🇺",
+            "detail": "What had been done with what she had provided — and how it had served the revolution's intelligence about Batista's financial networks."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Céspedes and Fled Cuba",
+            "icon": "🎖️",
+            "detail": "Méndez's confirmed role."
+          },
+          {
+            "name": "Copied the Ledger and Gave It to the CIA",
+            "icon": "🎰",
+            "detail": "Montoya's role — publicly identified 2000s."
+          },
+          {
+            "name": "Reported Financial Irregularities to Revolutionary Contacts",
+            "icon": "🎺",
+            "detail": "Carmen's role — her observation, her revolutionary connection, her continued Tropicana position."
+          },
+          {
+            "name": "Used Carmen's Information in the Financial Intelligence Picture",
+            "icon": "🇨🇺",
+            "detail": "The revolutionary network's role — the intelligence that had informed the post-revolution accounting."
+          },
+          {
+            "name": "Nationalised and Maintained the Tropicana",
+            "icon": "🎺",
+            "detail": "The revolutionary government's institutional role — Carmen's position as artistic director."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "What Carmen Had Noticed",
+        "text": "Carmen's 1970s cultural interviews include a passage — apparently not understood as significant by the interviewer — in which she describes walking past the back office one evening: 'I noticed that the amounts of cash being carried from the floor to the office seemed inconsistent with the table activity I had seen. I had been working in entertainment long enough to understand what the floor should be generating on a Friday night. What I was seeing carried out was less.' She had noticed the skim from observable cash flows.",
+        "alone": "Carmen had noticed the skim from observable discrepancies between floor activity and cash carried to the office — her entertainment experience had given her the frame of reference to identify the inconsistency.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Carmen noticing the skim from observable cash flows and her revolutionary contacts' use of financial intelligence about Batista's networks together confirm her observation had been operationally useful — she had provided a ground-level observation of exactly the kind of arrangement the revolutionary movement had been documenting."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Carmen's Revolutionary Connection",
+        "text": "Cuban revolutionary archive records — declassified in stages from the 1990s — show Carmen Reyes had been a contact of the 26th of July Movement from early 1958. Her role: 'Cultural informant — provides observation on Batista military and business figures frequenting Havana entertainment venues. Information on financial arrangements, social connections, and schedules. High reliability, appropriate cover.' She had been an intelligence asset of the revolutionary movement for most of the year before the revolution.",
+        "alone": "Carmen had been a 26th of July Movement informant since early 1958 — her entertainment director role had provided perfect cover for observing Batista military and business figures.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Carmen as a revolutionary informant and her continued Tropicana position after the revolution together confirm her revolutionary connections had been both genuine and practically useful — she had served the movement and had been recognized for it."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "What Carmen Had Reported About the Tropicana",
+        "text": "The 26th of July Movement's financial intelligence files — partially declassified — include a report attributed to Carmen's contact: 'Tropicana, October 1958: Colonel Méndez (Batista military, 3rd regiment) maintains private arrangement with casino management. Weekly cash payments from floor skim estimated at 800 pesos. Duration approximately 18 months. Nature: protection payment.' The report is dated three weeks before the killing — the same period Montoya had been making his CIA approach.",
+        "alone": "Carmen had reported the skim to the revolutionary movement three weeks before the killing — the same period Montoya had been approaching the CIA. Two parallel intelligence operations had been running simultaneously.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Carmen's revolutionary report and Montoya's CIA approach both occurring three weeks before the killing together confirm two separate intelligence services had received the same information about the same operation at the same time — neither had known about the other."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🇨🇺",
+        "heading": "The Revolutionary Government's Use of Carmen's Intelligence",
+        "text": "The revolutionary government's post-1959 financial accounting had benefited from Carmen's prior intelligence — the reports she had made in 1958 had provided the intelligence picture that had made the ledger's discovery in January 1959 immediately comprehensible. The accounting team had known what to look for because the revolutionary movement had already been told. Carmen had been appointed artistic director of the Tropicana in February 1959 — one month after the revolution. The timing had not been coincidental.",
+        "alone": "Carmen's prior intelligence had informed the post-revolution accounting team — they had known what to look for. Her artistic director appointment in February 1959 had been one month after the revolution.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Carmen's intelligence informing the post-revolution accounting and her appointment as artistic director one month after the revolution together confirm the revolutionary government had recognised her contribution — the appointment had been the institutional acknowledgment."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Three Parallel Operations",
+        "text": "Three parallel intelligence operations had been running in the Tropicana in October-November 1958: Méndez's skim arrangement with Céspedes (eighteen months, ongoing). Montoya's CIA approach with a copy of the ledger (October 1958, US intelligence). Carmen's revolutionary network report on Méndez's arrangement (October 1958, Cuban intelligence). All three had been operating simultaneously without knowledge of each other. The killing had been the fourth action — Méndez's response to Céspedes ending the arrangement — which had intersected all three.",
+        "alone": "Three parallel intelligence operations had converged in October-November 1958, all focused on the same arrangement, none knowing about the others.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The three parallel operations converging and Carmen's post-revolution appointment confirming the revolutionary movement's recognition together confirm the Tropicana in 1958 had been an intelligence nexus — the skim, the US, and the revolution had all been in the same back-office orbit simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Carmen's 1970s Interview Revisited",
+        "text": "When the 1970s cultural interview transcripts had been re-examined by historians in 2005, the cash flow observation passage had been recognised as Carmen's description of her intelligence work without explicitly naming it as such. The interviewer had been asking about entertainment history, not intelligence history. Carmen had described the observation in the context of her professional judgment rather than her political commitment. She had spoken of it naturally — it had been both things simultaneously.",
+        "alone": "Carmen's 1970s interview description of noticing the skim had been both a professional observation and an intelligence report described in professional terms — she had not distinguished between them.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Carmen as a revolutionary informant and her 1970s description of the cash flow observation in professional rather than political terms together confirm the integration — her entertainment expertise and her political commitment had been inseparable in the observation she had made and the report she had filed."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Carmen's Full Career",
+        "text": "Carmen Reyes had served as artistic director of the Tropicana from 1959 until her retirement in 1987. She had been awarded Cuba's National Culture Prize in 1979. She had died in Havana in 1994. Her revolutionary intelligence work had been confirmed in the declassified records but had not been publicly discussed during her lifetime — the intelligence dimension had remained separate from the cultural recognition. She had been celebrated as an artistic director. The intelligence records had told a different story that had only been available after her death.",
+        "alone": "Carmen had died in Havana in 1994 and had been celebrated as an artistic director — the intelligence records confirming her revolutionary work had been available after her death.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Carmen's intelligence informing the post-revolution accounting and her cultural recognition during her lifetime together confirm the two dimensions of her contribution had been publicly acknowledged in different proportions — the cultural dimension had been public and the intelligence dimension had been posthumous."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Tropicana's Continuity",
+        "text": "The Tropicana has operated continuously since 1939 — through Batista, the revolution, the embargo, the Special Period, and the gradual opening of the Cuban economy. Carmen Reyes had been its artistic director for twenty-eight years. Roberto Céspedes is not commemorated anywhere in the club. Colonel Méndez's initials are in an archive in Havana. Montoya's name is in a declassified CIA file. Carmen's name is on Cuba's National Culture Prize. The ledger is in two archives in two countries. The orchestra still plays under the open sky. The Havana night is the same Havana night.",
+        "alone": "The Tropicana still runs. Carmen's name is on the National Culture Prize. The ledger is in two archives. The orchestra still plays under the open sky.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Carmen celebrated as an artistic director during her lifetime and the intelligence records available after her death together confirm the final accounting — all three parallel operations had served their respective purposes, and the only person who had stayed in Cuba and been recognised had been the one who had served the revolution."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Arturo Méndez",
+      "location": "The Back Office",
+      "weapon": "Desk Pistol",
+      "motive": "Eliminate the Ledger and Its Keeper",
+      "accomplice": "Reported Financial Irregularities to Revolutionary Contacts"
+    },
+    "epilogue": "Three parallel intelligence operations had converged in the Tropicana in October 1958. Carmen had reported to the 26th of July Movement. Montoya had reported to the CIA. Méndez had killed Céspedes when the arrangement had ended and had fled in January 1959. The revolution had come in January 1959. Carmen had been appointed artistic director in February 1959. She had served for twenty-eight years and had received the National Culture Prize in 1979. She had died in Havana in 1994. The intelligence records confirming her revolutionary work had been declassified after her death. Montoya had been publicly identified as the CIA source in the 2000s, twenty years after his death. Méndez had died in Miami in 1973. The Tropicana still runs. The orchestra still plays under the open sky. The Havana night is the same Havana night."
+  }
+}

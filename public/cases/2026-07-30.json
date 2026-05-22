@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hiroshima, 1955. Ten years after the bomb. A Japanese journalist dead at the Peace Memorial Exhibition. And a photograph that the American occupation authorities needed to not exist. 📷🔍 Case #133 — Hiroshima Exhibition. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Hiroshima 1955 tenth anniversary, a journalist dead at the Peace Exhibition, and a photograph taken in the immediate aftermath of the bombing that had never been officially acknowledged. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The Hiroshima Peace Memorial Exhibition in 1955, display cases with artifacts from the bombing, a Japanese journalist's press credentials and notebook on the floor beside an exhibition display, a photograph in an evidence bag showing the Genbaku Dome immediately after the bombing, visitors in formal dress at the tenth anniversary ceremony. Memorial gravity and political weight. Style of Ken Domon's Hiroshima photography meets formal documentary photography of the era.",
+    "animationPrompt": "Slow pan through the 1955 Hiroshima Peace Memorial Exhibition. Display cases with artifacts. Exhibition visitors in formal dress. The camera finds a journalist's press credentials and notebook on the floor beside a display case. A photograph in an evidence bag. The tenth anniversary. Outside: the Peace Memorial Park. The Genbaku Dome. Fade to black.",
+    "hashtags": [
+      "#Hiroshima1955",
+      "#PeaceMemorial",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #133",
+    "title": "Hiroshima Exhibition",
+    "setting": "Hiroshima Peace Memorial Exhibition · Hiroshima · Japan · August 1955",
+    "emoji": "📷",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Journalist Kenji Yamamoto was found dead at the Hiroshima Peace Memorial Exhibition during the tenth anniversary ceremonies. He had obtained a photograph taken by an American military photographer in the immediate aftermath of the bombing — showing civilian casualties in a way that contradicted the official American account of the weapon's effects. Three people had been at the exhibition that morning. The photograph was missing.",
+    "emptyState": "Ten years after. A photograph that contradicts the official account. Find who needed it buried.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Robert Crane",
+            "icon": "🇺🇸",
+            "detail": "An American press liaison officer at the US-Japan cultural exchange program — had known about the photograph's existence and had been tasked with managing sensitive media around the anniversary."
+          },
+          {
+            "name": "Dr. Yoko Tanaka",
+            "icon": "📋",
+            "detail": "The exhibition's chief curator — had been responsible for what was displayed and had made decisions about the exhibition's content with political sensitivity."
+          },
+          {
+            "name": "Hiroshi Watanabe",
+            "icon": "📷",
+            "detail": "A senior photographer at the Mainichi Shimbun — had known Yamamoto professionally and had been at the exhibition documenting the anniversary."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Exhibition Hall",
+            "icon": "📷",
+            "detail": "Where Yamamoto was found — credentials on floor, notebook beside him, photograph missing."
+          },
+          {
+            "name": "The Archive Room",
+            "icon": "📋",
+            "detail": "Adjacent to the main hall — where the exhibition's sensitive materials were stored."
+          },
+          {
+            "name": "The Genbaku Dome Entrance",
+            "icon": "🏛️",
+            "detail": "The exterior approach — where the anniversary ceremony had drawn most attention."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Case Corner",
+            "icon": "📷",
+            "detail": "A heavy exhibition display case — blunt force wound consistent with Yamamoto's head struck against its reinforced corner."
+          },
+          {
+            "name": "Archive Box",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "No blood trace on any tripod in the hall — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photograph",
+        "text": "Yamamoto's notes — found with his body — describe the photograph: taken by a US Army Signal Corps photographer on August 7th, 1945, the morning after the bombing, within the blast radius. The photograph showed a group of civilian survivors whose injuries contradicted the official American statement that the bomb had been a 'military target' weapon with limited civilian effect. The photograph had been suppressed by occupation censorship and had been assumed destroyed. Yamamoto had obtained a print from a former Signal Corps veteran.",
+        "alone": "The photograph showed civilian casualties contradicting the official account — suppressed by occupation censorship, assumed destroyed, obtained by Yamamoto from a former Signal Corps veteran.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The photograph contradicting the official American account and Robert Crane's specific tasking to manage sensitive media around the anniversary together establish his operational interest — the photograph was exactly what his role had been designed to prevent from emerging."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📷",
+        "heading": "The Display Case Corner",
+        "text": "The exhibition's reinforced display case — containing artifacts from the bombing — shows blood on its lower right corner. Yamamoto's wound is consistent with his head being struck against the corner with force from above and behind. The attack had been from behind while Yamamoto had been examining something in his notebook. The display case's corner had been the nearest hard surface.",
+        "alone": "Yamamoto had been struck against the display case corner from behind while looking at his notebook — the corner had been the weapon by proximity rather than by deliberate selection.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The attack using the nearest hard surface rather than a deliberately selected weapon and Robert Crane's confirmed position in the hall at the relevant time — in the area adjacent to the display case where Yamamoto had been — together establish the specific proximity the opportunistic attack had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Dr. Tanaka's Morning",
+        "text": "Dr. Tanaka had been at the ceremony podium for the tenth anniversary address from nine AM until eleven AM — confirmed by the ceremony programme, the mayor of Hiroshima who had been beside her, and television footage of the address. She had not been in the exhibition hall interior during the killing window. She is definitively cleared.",
+        "alone": "Dr. Tanaka had been at the ceremony podium confirmed by the mayor and television footage — she had not been in the exhibition hall interior during the killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Dr. Tanaka cleared at the ceremony podium and Hiroshi Watanabe confirmed at the Genbaku Dome exterior together eliminate both other suspects from the exhibition hall interior — only Crane's movements in the hall during the relevant window are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Crane's Media Management Role",
+        "text": "US Information Service records show Crane had been specifically assigned to the Hiroshima tenth anniversary events with a brief that included: 'monitoring media coverage for content inconsistent with official characterizations of the 1945 event; coordinating with Japanese press authorities on sensitive content; preventing dissemination of unauthorized materials relating to the bombing.' His brief had described exactly what Yamamoto's photograph had represented.",
+        "alone": "Crane's official brief had described monitoring for content inconsistent with official characterizations and preventing unauthorized materials — the photograph had been precisely what his brief covered.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Crane's specific media management brief and the photograph's content contradicting the official characterization together confirm the photograph had been within the exact scope of what he had been assigned to prevent from emerging."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🇺🇸",
+        "heading": "Crane in the Exhibition Hall",
+        "text": "An exhibition security guard confirms he had seen Crane in the exhibition hall interior at approximately ten AM — the killing window. Crane had shown his US Information Service credentials and had said he was conducting a routine review of the exhibition's content for the cultural exchange program. He had been in the area adjacent to the display case where Yamamoto had been found. The guard had not seen them interact.",
+        "alone": "Crane had been in the exhibition hall at ten AM in the area adjacent to the display case — with official credentials allowing his presence and the guard not witnessing an interaction.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The attack using the display case corner from behind and Crane confirmed in the adjacent area at the relevant time together establish the specific proximity — he had been in position for the opportunistic attack the wound's profile had described."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Crane's Knowledge of the Photograph",
+        "text": "USIS internal records — partially declassified in 1995 — show Crane had filed a report two days before the anniversary identifying Yamamoto as 'in possession of unauthorized photographic material of potential political sensitivity.' He had known about the photograph, had identified its possessor, and had been in the exhibition hall at the time of the killing. The photograph had been within his brief to prevent.",
+        "alone": "Crane had filed a report identifying Yamamoto and the photograph two days before the anniversary — he had known what Yamamoto had and had been assigned to prevent its emergence.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Crane's specific brief and his prior knowledge of the photograph together confirm the killing had been operationally motivated — he had known, had been assigned to act, and had been in position."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📷",
+        "heading": "Watanabe at the Dome",
+        "text": "Hiroshi Watanabe had been photographing the ceremony exterior — the Genbaku Dome area — from eight AM until eleven AM, confirmed by his developed photographs showing the ceremony's exterior sequence and by two other photographers who had been working alongside him. He had not been in the exhibition hall interior. He is definitively cleared.",
+        "alone": "Watanabe had been at the Dome exterior confirmed by his photographs and two colleagues — he had not been in the exhibition hall interior. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Dr. Tanaka cleared at the ceremony podium and Watanabe cleared at the Dome exterior together eliminate both other suspects — Crane's confirmed hall presence is the only suspect movement at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photograph's Fate",
+        "text": "The photograph had not been found at the scene or in Crane's possession at the time of the Japanese police investigation. It had been assumed destroyed. In 1994 — thirty-nine years later — the former Signal Corps veteran who had given Yamamoto the print had died and his estate had included a second print of the same photograph. The estate's executor had donated it to the Hiroshima Peace Memorial Museum. The photograph is in the museum's permanent collection. It has been publicly displayed since 1995.",
+        "alone": "A second print had been in the Signal Corps veteran's estate — donated to the Peace Memorial Museum in 1994, displayed publicly since 1995. The photograph exists. It is in the museum.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The photograph showing what Yamamoto had described and the second print publicly displayed since 1995 together confirm the killing had been futile on the same terms as the Weimar file, the Antarctic transmission, and the other suppressions in the catalog — the truth had survived through a different copy."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Robert Crane",
+      "location": "The Exhibition Hall",
+      "weapon": "Display Case Corner"
+    },
+    "epilogue": "Robert Crane had been in the exhibition hall at ten AM with official credentials. He had found Yamamoto examining his notebook near the display case. He had struck him against the display case corner from behind. He had taken the photograph. The Japanese police had investigated and had not concluded the case against Crane — diplomatic considerations had applied. He had returned to the United States in 1956. A second print had been in the Signal Corps veteran's estate. The veteran had died in 1994. The estate had donated the print to the Hiroshima Peace Memorial Museum. The photograph has been publicly displayed since 1995. It shows what Yamamoto's notes had described. It is in the museum. It is available to see."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #133",
+    "title": "Hiroshima Exhibition",
+    "setting": "Hiroshima Peace Memorial Exhibition · Hiroshima · Japan · August 1955",
+    "emoji": "📷",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Crane killed Yamamoto and took the photograph. But Dr. Tanaka had seen Yamamoto's notes before the killing and had made a decision about the exhibition's content that had its own significance. Find what she had decided and why.",
+    "emptyState": "Dr. Tanaka had seen Yamamoto's notes. She made a decision about the exhibition. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Robert Crane",
+            "icon": "🇺🇸",
+            "detail": "The killer — USIS brief, prior report, hall presence, photograph taken, returned to US 1956."
+          },
+          {
+            "name": "Dr. Yoko Tanaka",
+            "icon": "📋",
+            "detail": "Cleared as killer — ceremony podium confirmed. Had seen Yamamoto's notes and had made an exhibition decision."
+          },
+          {
+            "name": "Hiroshi Watanabe",
+            "icon": "📷",
+            "detail": "Cleared as killer — Dome exterior confirmed. His photographs became significant in the investigation."
+          },
+          {
+            "name": "The Exhibition Decision",
+            "icon": "📋",
+            "detail": "What Dr. Tanaka had decided to include or exclude — and its relationship to the political pressures around the anniversary."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Exhibition Hall",
+            "icon": "📷",
+            "detail": "Primary crime scene — Crane's killing."
+          },
+          {
+            "name": "The Archive Room",
+            "icon": "📋",
+            "detail": "Where Dr. Tanaka had been working before the ceremony — and where her decision had been made."
+          },
+          {
+            "name": "The Exhibition's Controversial Section",
+            "icon": "📋",
+            "detail": "The part of the exhibition that Dr. Tanaka had fought to include — and what it had shown."
+          },
+          {
+            "name": "The Japanese Foreign Ministry",
+            "icon": "🏛️",
+            "detail": "Where the political pressure had come from — and what Dr. Tanaka had resisted."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Case Corner",
+            "icon": "📷",
+            "detail": "Confirmed murder weapon — Crane's opportunistic attack."
+          },
+          {
+            "name": "Archive Box",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Dr. Tanaka's Exhibition Decision",
+            "icon": "📋",
+            "detail": "Not a weapon — but her choice about the exhibition's content and the political pressures she had resisted."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Photograph and Its Implications",
+            "icon": "🇺🇸",
+            "detail": "Crane's operational motive — photograph taken, returned to US 1956."
+          },
+          {
+            "name": "Document the Full Reality of the Bombing in the Exhibition",
+            "icon": "📋",
+            "detail": "Dr. Tanaka's curatorial commitment — her decision about the exhibition's content."
+          },
+          {
+            "name": "What Yamamoto Had Shown Dr. Tanaka",
+            "icon": "📋",
+            "detail": "Her prior knowledge of the photograph — and what she had done with that knowledge."
+          },
+          {
+            "name": "The Japanese Foreign Ministry's Pressure on the Exhibition",
+            "icon": "🏛️",
+            "detail": "The political context — Japan-US relations in 1955 and the pressure to present the anniversary in specific ways."
+          },
+          {
+            "name": "Whether Dr. Tanaka's Exhibition Decision Had Been a Form of Preservation",
+            "icon": "📋",
+            "detail": "The curatorial decision's relationship to what Yamamoto had been trying to do."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Yamamoto Had Shown Dr. Tanaka",
+        "text": "Dr. Tanaka's account to the Japanese police and later to the 1994 Peace Memorial Museum committee: 'Yamamoto came to the archive room two days before the anniversary. He showed me his notes and described the photograph. He asked whether the exhibition could include a display about suppressed documentation — not the photograph itself, but an acknowledgment that photographic documentation had been suppressed. I told him I would consider it. I did consider it. I decided to include a small display panel.'",
+        "alone": "Dr. Tanaka had known about the photograph two days before the killing — Yamamoto had asked her to acknowledge suppressed documentation in the exhibition and she had agreed to include a display panel.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dr. Tanaka's decision to include a display panel about suppressed documentation and Crane's USIS brief to prevent content inconsistent with official characterizations together establish the parallel tracks — the exhibition had been a site of the same contest as the photograph itself."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Foreign Ministry's Pressure",
+        "text": "Japanese Foreign Ministry documents from 1955 — released in 1992 — show pressure had been applied to the Hiroshima Peace Memorial Exhibition committee to present the anniversary in terms emphasizing reconciliation rather than documentation of harm. The pressure had been consistent with Japan-US treaty negotiations then underway. Dr. Tanaka had received a specific request to remove 'materials that might complicate diplomatic relations' from the exhibition. She had not complied with the full request.",
+        "alone": "The Foreign Ministry had pressured the exhibition to remove diplomatically sensitive materials — Dr. Tanaka had not fully complied.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The Foreign Ministry's pressure to remove sensitive materials and Dr. Tanaka's partial non-compliance together confirm the exhibition had been the site of a political contest that had paralleled the contest over the photograph itself."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Display Panel Dr. Tanaka Included",
+        "text": "The exhibition's 1955 display had included, in its final section, a small panel reading: 'The Hiroshima Peace Memorial acknowledges that photographic and documentary records from the immediate aftermath of August 6th, 1945 remain incomplete. Some documentation was subject to restriction during the occupation period. The full visual record of that day has not yet been assembled.' The panel had been three sentences. It had been the first official acknowledgment in Japan of occupation-era documentary suppression.",
+        "alone": "Dr. Tanaka had included a three-sentence panel acknowledging occupation-era documentary suppression — the first official acknowledgment of this in Japan.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The three-sentence panel as the first official acknowledgment and the second photograph eventually donated to the museum in 1994 together confirm the panel had been prescient — it had acknowledged the gap that the second photograph had eventually partially filled."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Panel's Reception",
+        "text": "The panel had attracted significant attention at the anniversary ceremony. American diplomatic staff had requested its removal following the ceremony. Dr. Tanaka had refused. The panel had remained in the exhibition for the remainder of its run. Crane's USIS report filed after the anniversary — partially declassified 1995 — had specifically noted the panel and had described it as 'an area of concern for future anniversary events.' The panel had been a small victory in the same contest Yamamoto had been fighting.",
+        "alone": "The panel had attracted American diplomatic requests for removal that Dr. Tanaka had refused — a small victory noted specifically in Crane's post-anniversary USIS report.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Crane's USIS report noting the panel as an area of concern and the second photograph eventually entering the museum's permanent collection together confirm the same contest had produced a small victory and an eventual fuller one — the panel in 1955 and the photograph in 1995."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Dr. Tanaka's Later Career",
+        "text": "Dr. Yoko Tanaka had continued as the Hiroshima Peace Memorial Museum's chief curator until 1978. She had expanded the museum's documentation of the bombing's effects significantly throughout her tenure. She had been a central figure in the Japanese peace movement. She had given testimony to the 1994 Peace Memorial Museum committee that had accepted the second photograph's donation. She had died in Hiroshima in 1998. Her three-sentence panel had been recreated in the museum's permanent exhibition in 2005 — the sixtieth anniversary.",
+        "alone": "Dr. Tanaka had continued expanding the museum's documentation until 1978 and had died in 1998 — her three-sentence panel had been recreated in the sixtieth anniversary exhibition in 2005.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The original three-sentence panel in 1955 and its recreation in 2005 together confirm the fifty-year span of the acknowledgment — written in the first year it had been possible to include it, recreated in the year that had followed the photograph's public display by a decade."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Crane's Later Career and the Investigation",
+        "text": "Robert Crane had returned to the United States in 1956. The Japanese police investigation had been inconclusive — diplomatic considerations had prevented a formal conclusion against an American official. Crane had continued working in US government communications roles until 1970. The 1995 partial declassification of USIS records had named him in connection with the Yamamoto case for the first time publicly. He had died in Virginia in 1997 — two years before the full significance of the 1994 photograph donation had been recognized in scholarly literature.",
+        "alone": "Crane had died in 1997 — two years before the scholarship connecting the 1994 photograph donation to his 1955 role had fully developed. The declassification had named him; the scholarship had connected the threads.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Crane dying in 1997 and the scholarship connecting the threads developing after his death together confirm the accountability pattern — the identification had come posthumously, as in multiple prior cases."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photograph in the Museum",
+        "text": "The second print — donated to the Hiroshima Peace Memorial Museum in 1994 from the Signal Corps veteran's estate — had been authenticated by the museum's archivists and had been placed in the permanent collection. It had been publicly displayed since August 6th, 1995 — the fiftieth anniversary of the bombing. The photograph shows what Yamamoto's notes had described. It is in the museum's photography gallery alongside other documentation of August 6th, 1945. The museum receives approximately 1.7 million visitors annually.",
+        "alone": "The photograph has been publicly displayed at the Hiroshima Peace Memorial Museum since August 6th, 1995. The museum receives 1.7 million visitors annually.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The photograph publicly displayed since 1995 and Dr. Tanaka's three-sentence panel recreated in 2005 together confirm the full arc — the acknowledgment and the documentation had both eventually been public, separated by forty and fifty years respectively from the killing."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Peace Memorial Park",
+        "text": "The Hiroshima Peace Memorial Park and Museum are among the most visited sites in Japan. The Genbaku Dome — the only structure left standing near the hypocenter — is a UNESCO World Heritage Site. The museum's permanent collection includes the 1994 photograph donation. Dr. Tanaka's three-sentence panel from 1955 has been recreated in the sixtieth anniversary exhibition space. Kenji Yamamoto's name is not on any memorial in the park. His press credentials are in the museum's archive, catalogued as 'materials associated with the 1955 anniversary events.' His notes are with them. The Genbaku Dome is still standing. The photograph is in the museum. The museum receives 1.7 million visitors annually.",
+        "alone": "The Genbaku Dome is still standing. The photograph is in the museum. Yamamoto's credentials and notes are in the archive. 1.7 million visitors annually.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The photograph publicly displayed since 1995 and Yamamoto's credentials in the archive together confirm the final accounting — what he had been trying to show is now available to 1.7 million people a year, and his credentials are in the archive of the institution that holds what he died carrying."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Robert Crane",
+      "location": "The Exhibition Hall",
+      "weapon": "Display Case Corner",
+      "motive": "Suppress the Photograph and Its Implications"
+    },
+    "epilogue": "Yamamoto had shown Dr. Tanaka his notes two days before the killing. She had included a three-sentence panel about suppressed documentation — the first official acknowledgment of its kind in Japan. Crane had killed Yamamoto at ten AM, had taken the photograph, and had returned to the United States in 1956. The Japanese investigation had been inconclusive. The three-sentence panel had remained in the exhibition despite American diplomatic requests for its removal. The second print had been in the Signal Corps veteran's estate. The veteran had died in 1994. The photograph had entered the museum's permanent collection and had been publicly displayed since August 6th, 1995. Dr. Tanaka's panel had been recreated in the sixtieth anniversary exhibition. The museum receives 1.7 million visitors annually. The Genbaku Dome is still standing. Yamamoto's credentials are in the archive. The photograph is available to see."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #133",
+    "title": "Hiroshima Exhibition",
+    "setting": "Hiroshima Peace Memorial Exhibition · Hiroshima · Japan · August 1955",
+    "emoji": "📷",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Crane killed Yamamoto. Dr. Tanaka included the acknowledgment panel. But Hiroshi Watanabe — photographing at the Dome exterior — had also captured something at the exhibition entrance. Find what his photographs showed and what he did with them over the following decades.",
+    "emptyState": "Watanabe's photographs captured something at the exhibition entrance. Find what — and what he did with them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Robert Crane",
+            "icon": "🇺🇸",
+            "detail": "The killer — USIS brief, prior report, display case corner, photograph taken, returned US 1956, named 1995, died 1997."
+          },
+          {
+            "name": "Dr. Yoko Tanaka",
+            "icon": "📋",
+            "detail": "Cleared as killer — ceremony podium. Three-sentence panel, Foreign Ministry pressure refused, died 1998, panel recreated 2005."
+          },
+          {
+            "name": "Hiroshi Watanabe",
+            "icon": "📷",
+            "detail": "Cleared as killer — Dome exterior confirmed. His photographs had captured Crane at the exhibition entrance."
+          },
+          {
+            "name": "The Mainichi Shimbun's Editorial Decision",
+            "icon": "📰",
+            "detail": "What Watanabe had done with the photographs — and the newspaper's editorial choices over the following decades."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Exhibition Hall",
+            "icon": "📷",
+            "detail": "Primary crime scene — and where the photographs' subject had been entering."
+          },
+          {
+            "name": "The Genbaku Dome Entrance",
+            "icon": "🏛️",
+            "detail": "Watanabe's filming position — and where the exhibition entrance had been visible from."
+          },
+          {
+            "name": "The Mainichi Shimbun Archive",
+            "icon": "📰",
+            "detail": "Where Watanabe's photographs had been held — and their eventual public significance."
+          },
+          {
+            "name": "The Hiroshima Peace Memorial Museum Photography Gallery",
+            "icon": "📷",
+            "detail": "Where one of Watanabe's photographs had been displayed — and when."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Display Case Corner",
+            "icon": "📷",
+            "detail": "Confirmed murder weapon — Crane's opportunistic attack."
+          },
+          {
+            "name": "Archive Box",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Camera Tripod",
+            "icon": "📷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Watanabe's Exhibition Entrance Photograph",
+            "icon": "📷",
+            "detail": "Not a weapon — the photograph showing Crane entering the exhibition that had become the visual evidence connecting him to the scene."
+          },
+          {
+            "name": "The Mainichi Archive's Declassification",
+            "icon": "📰",
+            "detail": "Not a weapon — the newspaper's editorial decision and the archive's role in the case's eventual public record."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Photograph and Its Implications",
+            "icon": "🇺🇸",
+            "detail": "Crane's motive — killing, named 1995, died 1997."
+          },
+          {
+            "name": "Document the Full Tenth Anniversary Record",
+            "icon": "📷",
+            "detail": "Watanabe's journalistic purpose — his photographs had been comprehensive."
+          },
+          {
+            "name": "What Watanabe's Photographs Had Captured at the Entrance",
+            "icon": "📷",
+            "detail": "The specific photograph — Crane entering the exhibition at ten AM."
+          },
+          {
+            "name": "Watanabe's Editorial Decision About the Photographs",
+            "icon": "📰",
+            "detail": "What he had done with the entrance photograph — and over what timeframe."
+          },
+          {
+            "name": "The Photograph's Role in the Post-1995 Scholarship",
+            "icon": "📷",
+            "detail": "When and how the entrance photograph had become significant to the historical record."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Yamamoto and Took the Suppressed Photograph",
+            "icon": "🇺🇸",
+            "detail": "Crane's confirmed role — named 1995, died 1997."
+          },
+          {
+            "name": "Included the Three-Sentence Acknowledgment Panel",
+            "icon": "📋",
+            "detail": "Dr. Tanaka's role — panel refused removal, recreated 2005, died 1998."
+          },
+          {
+            "name": "Photographed Crane Entering the Exhibition at Ten AM",
+            "icon": "📷",
+            "detail": "Watanabe's inadvertent evidentiary role — and his decades-long editorial decision."
+          },
+          {
+            "name": "Kept the Photographs in the Mainichi Archive",
+            "icon": "📰",
+            "detail": "The newspaper's institutional role — the archive and its eventual opening."
+          },
+          {
+            "name": "Donated the Second Print to the Museum in 1994",
+            "icon": "📷",
+            "detail": "The Signal Corps veteran's estate's role — the photograph's survival and eventual public display."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📷",
+        "heading": "What Watanabe's Photographs Had Captured",
+        "text": "Hiroshi Watanabe's contact sheet from the 1955 anniversary — examined by Mainichi archivists in 1995 — shows a sequence of photographs taken at the exhibition entrance from his position near the Genbaku Dome. Three photographs in the sequence show Robert Crane entering the exhibition building at what the contact sheet's timing indicates was approximately ten AM — the killing window. Crane is recognizable from his US Information Service identification badge visible in one photograph.",
+        "alone": "Three photographs in Watanabe's sequence showed Crane entering the exhibition at approximately ten AM — his USIS badge visible in one image.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Watanabe's photographs showing Crane's ten AM entrance and Crane confirmed by the security guard as being in the hall at that time together provide visual and witness corroboration of his presence at the killing location during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📷",
+        "heading": "Watanabe's Editorial Decision",
+        "text": "Watanabe's account — given to the Hiroshima Peace Memorial Museum in 1995 when the second photograph had been accepted: 'I had known from the investigation that an American official had been suspected. When I developed my contact sheets after the anniversary, I saw the photographs of the man entering the exhibition. I knew what they showed. I submitted my published photographs to the Mainichi. I kept the contact sheets. I did not publish the entrance photographs at the time. Japan-US relations were too sensitive. I kept them for forty years.'",
+        "alone": "Watanabe had recognised the photographs' significance and had kept the contact sheets for forty years — not publishing during the Japan-US diplomatic sensitivity of the period.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Watanabe keeping the photographs for forty years and submitting them to the museum in 1995 together confirm the same pattern as the catalog's other long-preserved evidentiary records — held until the moment when their use had become possible."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The 1995 Submission",
+        "text": "When the Signal Corps veteran's estate had donated the second photograph in 1994 and the museum had announced its acceptance, Watanabe had contacted the museum. He had submitted his contact sheets containing the three entrance photographs. He had been eighty-one years old. The museum had accepted both the contact sheets and his account of his editorial decision. One of the three entrance photographs had been included in the museum's documentation of the Yamamoto case — displayed in the museum's archive section alongside Yamamoto's press credentials and notes.",
+        "alone": "Watanabe had submitted the photographs at eighty-one in 1995 — one of the three is displayed in the museum alongside Yamamoto's credentials and notes.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Watanabe submitting at eighty-one and one of the photographs displayed alongside Yamamoto's credentials together confirm the museum had become the convergence point — the photograph's second print, Watanabe's entrance photographs, and Yamamoto's credentials had all arrived at the same institution through different paths across forty years."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📷",
+        "heading": "What the Photographs Had Added to the Record",
+        "text": "The 1999 scholarly analysis connecting the Crane identification — established by the 1995 USIS partial declassification — to the physical evidence of his presence: 'The Watanabe contact sheet photographs provide visual corroboration of Crane's presence at the exhibition entrance at the time established by the security guard's witness account. The photographs do not show the killing — they show the approach. Together with the guard's account and the USIS records, they constitute a coherent circumstantial case that was not available to the Japanese police in 1955.'",
+        "alone": "The 1999 scholarship had found the contact sheet photographs constituted coherent circumstantial evidence — unavailable to the 1955 police, assembled forty years later.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The coherent circumstantial case assembled in 1999 and neither Crane nor Watanabe being alive to see it together confirm the final scholarly accounting — the full picture had required forty-four years and the deaths of both the subject and the witness to assemble."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📷",
+        "heading": "Watanabe's Career",
+        "text": "Hiroshi Watanabe had been a senior photographer at the Mainichi Shimbun for thirty years. He had covered significant events in post-war Japan including the 1964 Tokyo Olympics. He had been known for comprehensive documentation — his contact sheets had been exemplary records of events he had covered. He had died in Hiroshima in 1998 — the same year as Dr. Tanaka, who had also died in Hiroshima in 1998. Both had submitted their records to the museum before they had died. Both had died in the city where the bombing had occurred.",
+        "alone": "Watanabe and Dr. Tanaka had both died in Hiroshima in 1998 — both having submitted their records to the museum before dying in the city where the bombing had occurred.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Both dying in Hiroshima in 1998 having submitted their records together confirm the final human element — the two people who had each preserved a different dimension of the historical record had died in the same city, in the same year, after completing their documentary contributions."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Museum's Convergent Archive",
+        "text": "By 1999, the Hiroshima Peace Memorial Museum's archive relating to the 1955 Yamamoto case had assembled: Kenji Yamamoto's press credentials and notes (1955, from the scene). The second print of the Signal Corps photograph (1994 donation). Watanabe's contact sheet with the three entrance photographs (1995 submission). Dr. Tanaka's curatorial records including her account of the three-sentence panel (1994 donation to the museum's historical collection). Four documents, four paths, one archive, forty years.",
+        "alone": "Four documents, four paths, one archive, forty years — the museum's convergent archive assembled from 1955 to 1995.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The four documents converging in the museum and the museum receiving 1.7 million annual visitors together confirm the final state — the archive is in the most-visited memorial in Japan and is accessible to anyone who visits."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Full Chain's Accounting",
+        "text": "August 1945: the photograph taken, censored. 1955: Yamamoto killed, Crane takes the print, Dr. Tanaka includes the panel, Watanabe keeps the contact sheets. 1985-1995: the Mainichi contact sheets kept. 1994: the second print donated. 1995: the photograph displayed, USIS records partially declassified, Watanabe submits the contact sheets, the museum's archive assembled. 1997: Crane dies. 1998: Watanabe and Dr. Tanaka die in Hiroshima. 1999: the scholarly analysis connects the full picture. 2005: Dr. Tanaka's panel recreated. The photograph is available to see. 1.7 million visitors annually.",
+        "alone": "Fifty years from photograph to public display. The photograph is available to see. 1.7 million visitors annually.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The fifty-year timeline from photograph to public display and the 1.7 million annual visitors together confirm the final element — the photograph that had been taken, censored, suppressed, killed over, kept, donated, and displayed is now seen by more people in a year than most photographs are seen in a lifetime."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Genbaku Dome",
+        "text": "The Genbaku Dome — the Industrial Promotion Hall, destroyed in the bombing but left standing as a memorial — is visible from the Hiroshima Peace Memorial Museum's windows. It became a UNESCO World Heritage Site in 1996. The Peace Memorial Park surrounds it. The museum is beside the park. The museum's permanent collection includes the 1994 Signal Corps photograph, Watanabe's entrance contact sheets, Yamamoto's press credentials and notes, and Dr. Tanaka's curatorial records. The Genbaku Dome is still standing. The photograph that was taken the morning after, censored, assumed destroyed, killed over, kept in an estate, donated, authenticated, and displayed — is in the museum. The Dome is visible from the windows. 1.7 million visitors a year can see both.",
+        "alone": "The Genbaku Dome is still standing. The photograph is in the museum. The Dome is visible from the windows. 1.7 million visitors a year can see both.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The fifty-year timeline and the Dome visible from the museum windows together confirm the case's final image — the structure that had survived the blast and the photograph that had survived suppression are both visible from the same location, to 1.7 million people a year."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Robert Crane",
+      "location": "The Exhibition Hall",
+      "weapon": "Display Case Corner",
+      "motive": "Suppress the Photograph and Its Implications",
+      "accomplice": "Included the Three-Sentence Acknowledgment Panel"
+    },
+    "epilogue": "Watanabe had seen Crane in his contact sheets after the anniversary and had kept them for forty years. He had submitted them to the museum at eighty-one in 1995 when the second photograph had been accepted. He had died in Hiroshima in 1998 — the same year as Dr. Tanaka, who had also died in Hiroshima after submitting her curatorial records. The museum's archive had assembled four documents across forty years through four separate paths. The 1999 scholarship had connected the full picture. Crane had died in 1997 without seeing it. The photograph had been displayed publicly since August 6th, 1995. Dr. Tanaka's three-sentence panel had been recreated in 2005. The Genbaku Dome is still standing. The photograph is in the museum. The Dome is visible from the windows. 1.7 million visitors a year can see both."
+  }
+}

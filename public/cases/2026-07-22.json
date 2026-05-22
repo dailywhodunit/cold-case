@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Scottish Highlands, 1888. A locked room. A dead laird. The door bolted from the inside. The window locked. And six guests who all claim they never left the drawing room. One of them is lying. 🏴󠁧󠁢󠁳󠁣󠁴󠁿🔍 Case #125 — The Locked Room. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Scottish Highland estate 1888, a locked room mystery — door bolted from inside, window locked, no secret passages, one impossible death and six guests who all swear they were elsewhere. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1888 Scottish Highland estate study, dark wood panelling and a stone fireplace, a heavy oak door with a visible bolt drawn from the inside, a writing desk with a whisky glass and scattered papers, the body of a laird in his armchair, rain against the single locked window with moor beyond. Gothic Highland atmosphere. Style of John Lavery meets Arthur Conan Doyle's atmospheric descriptions.",
+    "animationPrompt": "Slow pan through a 1888 Scottish Highland estate study. Dark wood panelling. Stone fireplace. The camera finds the bolt drawn on the inside of the heavy oak door. A writing desk with a whisky glass. A laird in his armchair. Rain against the locked window. The moor beyond. The door is bolted from the inside. Fade to black.",
+    "hashtags": [
+      "#ScottishHighlands1888",
+      "#LockedRoom",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #125",
+    "title": "The Locked Room",
+    "setting": "Dunmore Estate · Sutherland · Scotland · 1888",
+    "emoji": "🔒",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Laird Alistair Dunmore was found dead in his locked study — door bolted from the inside, window latched from the inside, no hidden passages. Six guests claimed to have been in the drawing room throughout the evening. Dunmore had been about to change his will, cutting out his nephew in favour of a charitable endowment. The whisky glass showed signs of poisoning. The impossible had happened. Find how.",
+    "emptyState": "Door bolted inside. Window locked inside. No passages. Find how it was done.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roderick Dunmore",
+            "icon": "💰",
+            "detail": "The nephew — stood to lose his inheritance and had the most to gain from the laird's death before the will change."
+          },
+          {
+            "name": "Dr. Agnes Payne",
+            "icon": "🩺",
+            "detail": "The family physician — had been treating the laird and had access to the medicines kept in the study's cabinet."
+          },
+          {
+            "name": "Mrs. Flora Mackenzie",
+            "icon": "🔑",
+            "detail": "The estate's housekeeper — had a key to every room and had managed the study's cleaning schedule."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Locked Study",
+            "icon": "🔒",
+            "detail": "Where the laird was found — door bolted inside, window latched inside, whisky glass on the desk."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Where all six guests claimed to have been — their collective alibi."
+          },
+          {
+            "name": "The Study Fireplace",
+            "icon": "🔥",
+            "detail": "The only other potential entry point — the chimney flue."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Digitalis in the Whisky",
+            "icon": "🥃",
+            "detail": "Foxglove extract in the whisky glass — fatal cardiac effect, consistent with the post-mortem findings."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound — the cause of death is cardiac, not impact."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Will Change",
+        "text": "The laird's solicitor confirms a meeting had been scheduled for the following morning to execute a revised will. The revision had been drafted: the estate would pass to a Highland charitable endowment rather than to Roderick Dunmore. The solicitor had sent a letter confirming the appointment — a letter found on the desk beside the poisoned whisky glass. Roderick had known about the change: he had been present when his uncle had announced it at dinner three days before.",
+        "alone": "Roderick had known about the will change three days before and had known the appointment was the following morning — the night of the killing had been the last opportunity to prevent the revision's execution.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Roderick's last-opportunity timing and the digitalis method being consistent with Dr. Payne's medical knowledge together establish the killing's timing logic and the technical capability dimension — the night before the will signing had been the window, and the poison had required specific pharmacological knowledge."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Digitalis",
+        "text": "The post-mortem finds fatal digitalis concentration in the laird's system — foxglove extract, which at sufficient concentration causes cardiac arrest. The whisky glass shows residue consistent with the compound. The compound had been in the whisky before the laird had drunk it. The study's medicine cabinet — used for the laird's legitimate heart tonic prescription — had contained a digitalis preparation. The cabinet's key had been on the laird's watch chain. The cabinet was locked when found — but the digitalis vial was empty.",
+        "alone": "The digitalis had been in the whisky before the laird had drunk it, and the cabinet's digitalis vial was empty — but the cabinet had been locked when found, with the key on the laird's watch chain.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The digitalis vial empty but the cabinet locked on the laird's own key and Dr. Payne's documented familiarity with the study's medicine cabinet from her regular medical visits together confirm the cabinet's contents had been accessed before the lock-up — someone who had known the cabinet and the compound had acted before the door had been bolted."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "The Drawing Room's Six",
+        "text": "All six guests present — Roderick Dunmore, Dr. Payne, Mrs. Mackenzie, and three others — had been in the drawing room from eight PM when the laird had retired to his study. The butler confirms he had served coffee in the drawing room throughout the evening and had seen all six present at nine PM, ten PM, and ten-thirty PM when he had collected the cups. None had left the drawing room during the butler's three observations. The laird had been found at eleven PM.",
+        "alone": "All six had been confirmed in the drawing room at nine, ten, and ten-thirty PM — but the butler had observed only at those intervals, not continuously throughout.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The butler's three observation points leaving gaps between nine and ten PM and between ten and ten-thirty PM and Roderick's confirmed presence at all three observations but not between them together frame the question — who had not been in the drawing room between the butler's visits."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Locked Room's Mechanism",
+        "text": "The study door has a heavy bolt drawn from inside. The window has an interior latch. Police examination finds no hidden passages, no removable panels, no chimney access wide enough for a person. The room is genuinely sealed from inside. The bolt cannot be operated from outside with any tool that could have been extracted afterward. The latch cannot be reached from outside through the window frame. The room is a true locked room — someone inside had locked it.",
+        "alone": "The room is a true locked room — the bolt and latch had been set from inside by someone who had been inside when they were set. The laird had been inside. Someone else had also been inside when the locking had occurred.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "The bolt set from inside by someone present and the laird already dead from digitalis before the bolt had been set together reframe the sequence — the killer had been in the room before the bolt, had administered the poison earlier, and the bolt had been set by the laird himself in the interval before the poison had taken effect."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💰",
+        "heading": "Roderick's Gap",
+        "text": "The drawing room's third guest — a visiting clergyman — recalls that Roderick had left the drawing room 'briefly, around nine-fifteen, saying he needed a handkerchief from his room.' He had returned approximately ten minutes later. His room was on the first floor. The study was also on the first floor, at the corridor's other end. Ten minutes was sufficient to reach the study, administer the poison to the whisky decanter, and return.",
+        "alone": "Roderick had a ten-minute gap at nine-fifteen PM — long enough to reach the study, add digitalis to the whisky decanter, and return to the drawing room before the butler's ten PM observation.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Roderick's last-opportunity timing and his ten-minute nine-fifteen gap together establish the window — he had been in the drawing room at all three butler observations but had a gap before the ten PM observation consistent with a visit to the study."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "How the Poison Had Reached the Decanter",
+        "text": "The whisky decanter — not the medicine cabinet — had contained the digitalis. The medicine cabinet's vial had been emptied earlier and its contents had been added to the decanter. The decanter had been on the desk, not locked away. Anyone who had entered the study that day could have transferred the digitalis from the cabinet to the decanter — if they had known the cabinet's key was on the laird's watch chain and had had access to it. Or if they had known the medicine cabinet was left unlocked during the laird's afternoon rest, when the key had been set aside.",
+        "alone": "The digitalis had been transferred from the cabinet to the decanter — possible during the laird's afternoon rest when the key had been set aside. The transfer had occurred earlier in the day.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The cabinet locked with the laird's key at death and Dr. Payne's documented afternoon medical visit during the laird's rest period together suggest the transfer had occurred during the afternoon visit — after which the cabinet had been relocked and the key returned to the watch chain."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "Mrs. Mackenzie's Observation",
+        "text": "Mrs. Mackenzie confirms she had seen the laird enter his study at eight PM and had heard the bolt drawn shortly after — 'within two or three minutes of his entering, I heard the bolt slide.' The laird had bolted the door himself after entering. He had been alive and mobile at eight PM when he had set the bolt. The digitalis had taken effect later — the post-mortem estimates death between nine-thirty and ten-thirty PM. The bolt had been set by the laird, alive, at eight PM. He had died inside the room he had locked himself.",
+        "alone": "The laird had bolted the door himself at eight PM — the locked room had been created by the victim, not the killer. The poison had taken effect between nine-thirty and ten-thirty PM.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The bolt set by the laird himself at eight PM and the digitalis administered to the decanter earlier in the day together confirm the locked room's mechanism — the killer had never needed to be in the room at eight PM because the poison had been prepared during the afternoon visit and the laird had sealed his own fate by locking himself inside."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Locked Room Solved",
+        "text": "The locked room had not required the killer to lock the door — the laird had locked it himself. The killer had needed only to introduce the digitalis to the whisky decanter earlier in the day, before the laird had entered the study for the evening. Roderick's nine-fifteen gap had not been for introducing the poison — the poison had been in the decanter since the afternoon. His gap had been to confirm the decanter was in position and that the evening's setup was proceeding as arranged. Dr. Payne's afternoon medical visit had been the opportunity for the transfer.",
+        "alone": "The locked room had been a laird who had locked himself into a room that had already been prepared for his death — the killer had not needed to lock anything because the victim had done it for them.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Roderick's nine-fifteen gap being for confirmation rather than poison introduction and Dr. Payne's afternoon visit being the transfer opportunity together confirm the collaboration — the doctor had prepared the method and Roderick had confirmed the setup, each acting within their legitimate access to the study."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roderick Dunmore",
+      "location": "The Locked Study",
+      "weapon": "Digitalis in the Whisky"
+    },
+    "epilogue": "Dr. Agnes Payne had visited the laird during his afternoon rest, when the medicine cabinet's key had been set aside. She had transferred the digitalis from the vial to the whisky decanter. She had relocked the cabinet. She had returned the key to the watch chain before the laird had woken. At eight PM the laird had entered his study and had bolted the door. At nine-fifteen PM Roderick had left the drawing room for ten minutes — not to administer the poison, which had already been in the decanter, but to confirm the setup. At some point between nine-thirty and ten-thirty PM, the laird had drunk from the decanter. He had died in his bolted study. The will had not been signed. The estate had passed to Roderick. Dr. Payne had been implicated through the empty medicine cabinet and had been charged alongside Roderick. Both had been convicted at the Edinburgh Assizes. The charitable endowment had not been established. The moor beyond the window was unchanged."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #125",
+    "title": "The Locked Room",
+    "setting": "Dunmore Estate · Sutherland · Scotland · 1888",
+    "emoji": "🔒",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Roderick and Dr. Payne conspired — she prepared the poison, he confirmed the setup. But Mrs. Mackenzie had noticed something about the medicine cabinet during the afternoon. Find what she observed and why she said nothing.",
+    "emptyState": "Mrs. Mackenzie noticed something about the medicine cabinet. She said nothing. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roderick Dunmore",
+            "icon": "💰",
+            "detail": "Convicted — confirmed the setup, will not signed, estate passed to him, Edinburgh Assizes."
+          },
+          {
+            "name": "Dr. Agnes Payne",
+            "icon": "🩺",
+            "detail": "Convicted — transferred digitalis during afternoon visit, relocked cabinet, both charged."
+          },
+          {
+            "name": "Mrs. Flora Mackenzie",
+            "icon": "🔑",
+            "detail": "Cleared as killer — drawing room confirmed. Had observed something about the medicine cabinet and had not reported it."
+          },
+          {
+            "name": "The Will's Charitable Endowment",
+            "icon": "📋",
+            "detail": "What the will had been intended to establish — whose trustees had been named in the draft."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Locked Study",
+            "icon": "🔒",
+            "detail": "Primary crime scene — laird self-bolted, digitalis in decanter, afternoon preparation."
+          },
+          {
+            "name": "The Study During the Afternoon",
+            "icon": "🩺",
+            "detail": "When Dr. Payne had visited — and when Mrs. Mackenzie had also been in the study."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Where Mrs. Mackenzie had been confirmed — and where she had kept her observation to herself."
+          },
+          {
+            "name": "The Medicine Cabinet",
+            "icon": "💊",
+            "detail": "What Mrs. Mackenzie had noticed — and the specific observation she had not disclosed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Digitalis in the Whisky",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Dr. Payne's afternoon transfer."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound — cardiac cause of death."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📋",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Mrs. Mackenzie's Silence",
+            "icon": "🔑",
+            "detail": "Not a weapon — but her non-disclosure of what she had observed and the reason for her silence."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Will Change and Inherit the Estate",
+            "icon": "💰",
+            "detail": "Roderick's motive — convicted, estate passed to him."
+          },
+          {
+            "name": "Financial Arrangement With Roderick",
+            "icon": "🩺",
+            "detail": "Dr. Payne's incentive — her specific arrangement with Roderick is the investigation's new thread."
+          },
+          {
+            "name": "Mrs. Mackenzie's Loyalty to the Family",
+            "icon": "🔑",
+            "detail": "Her reason for silence — having served the Dunmore family for thirty years."
+          },
+          {
+            "name": "What Mrs. Mackenzie Had Observed",
+            "icon": "🔑",
+            "detail": "The specific cabinet observation — and what it had told her about the afternoon's events."
+          },
+          {
+            "name": "The Will's Endowment and Mrs. Mackenzie's Interest in It",
+            "icon": "📋",
+            "detail": "Whether the charitable endowment had included provision for estate staff — and Mrs. Mackenzie's position."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "What Mrs. Mackenzie Had Observed",
+        "text": "Mrs. Mackenzie's account, given to the Edinburgh Assizes: 'During the afternoon, I had entered the study to tend the fire. Dr. Payne had been there attending to the laird's afternoon medicines. I had noticed — when I had looked toward the medicine cabinet — that the cabinet door had been ajar for several minutes while the doctor was at the desk. The laird had been asleep in his chair. I had thought nothing of it at the time. Physicians leave cabinets open. That is what I told myself.'",
+        "alone": "Mrs. Mackenzie had seen the medicine cabinet ajar during Dr. Payne's afternoon visit while the laird was asleep — she had rationalised it and had not disclosed it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Mrs. Mackenzie observing the cabinet ajar and not disclosing it and the cabinet being found locked at death together confirm she had been the only person who had seen the intermediate state — the open cabinet during the transfer opportunity."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "witness",
+        "icon": "🔑",
+        "heading": "Why Mrs. Mackenzie Had Said Nothing",
+        "text": "Mrs. Mackenzie: 'I had served the Dunmore family for thirty years. When the laird died and the question arose about the study being locked from inside, I understood that what I had seen that afternoon might be significant. I told myself that Dr. Payne was a physician and that an open medicine cabinet was a medical matter. I told myself I might have been mistaken about the duration it had been open. I told myself that raising it would bring trouble to the household I had served my whole career. I did not raise it until the Assizes compelled me.'",
+        "alone": "Mrs. Mackenzie had understood the significance and had rationalised non-disclosure for reasons of family loyalty and self-protection — she had disclosed under compulsion at the Assizes.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Mrs. Mackenzie understanding the significance and rationalising silence and the Assizes finding her observation the critical evidence linking Dr. Payne to the afternoon transfer together confirm her disclosure had been the prosecution's key link — her compelled testimony had connected the cabinet observation to the conviction."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "Dr. Payne's Financial Arrangement",
+        "text": "Investigation of Dr. Payne's financial records — produced at the Assizes — shows she had received a payment of £300 from Roderick Dunmore three weeks before the killing, described in her accounts as 'medical consulting fee.' Her annual fee from the estate had been £40. The £300 payment — seven times her annual fee — had no legitimate medical basis. It had been made at the time when the laird had announced the will change.",
+        "alone": "Dr. Payne had received £300 from Roderick — seven times her annual fee — three weeks before the killing, timed to the will change announcement. The payment had established the arrangement.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Dr. Payne's £300 payment and Roderick's inheritance of the estate together confirm the financial arrangement had been a fee for the specific service — the payment before and the estate after had been the contract's two ends."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Will's Endowment Provision",
+        "text": "The solicitor confirms the draft will had included a specific provision: all estate staff who had served for more than twenty years were to receive annuities from the charitable endowment. Mrs. Mackenzie, with thirty years of service, would have received £60 per year for life — considerably more than her current position's security offered. The will that had not been signed had included a provision that would have benefited her significantly.",
+        "alone": "The unsigned will had included a life annuity for Mrs. Mackenzie — the will she had not helped protect through timely disclosure would have secured her retirement.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Mrs. Mackenzie's would-have-been annuity and her silence that had prevented the will from being signed together confirm the deepest irony of her position — her loyalty to the family had protected the people who had prevented her from receiving the provision the laird had intended for her."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "The Assizes' Finding on Mrs. Mackenzie",
+        "text": "The Edinburgh Assizes' finding on Mrs. Mackenzie: 'Mackenzie's testimony has been the prosecution's critical link between Dr. Payne and the afternoon transfer opportunity. Her prior silence, while morally significant, does not constitute criminal complicity — she had not known what she was failing to disclose. Her observation had been ambiguous in isolation, and the rationalisation she had applied had been available to any person in her position. No charge is brought against Mackenzie. The court commends her eventual testimony.'",
+        "alone": "Mrs. Mackenzie had been commended for her eventual testimony while acknowledged as having withheld the critical link through rationalised silence — her observation had been the prosecution's decisive connection.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Mrs. Mackenzie's compelled disclosure at the Assizes being the critical prosecution link and her silence before that having been the gap that had allowed the conspiracy to seem like a locked room mystery together confirm the full structure — the locked room had been possible because the one person who had the connecting observation had kept it to herself."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🩺",
+        "heading": "The Convictions",
+        "text": "Roderick Dunmore had been convicted of murder and had received life imprisonment. Dr. Agnes Payne had been convicted as principal in the first degree — a finding that the Assizes had considered unusual for a woman in the period — and had also received life imprisonment. The estate had not passed to Roderick — conviction had voided the inheritance. The estate had been administered by the Crown, and a portion had eventually been directed to the charitable endowment the laird had intended. The endowment had been established, reduced but present.",
+        "alone": "Both convicted, neither had inherited. The estate had been Crown-administered and a reduced endowment had been established. The laird's intention had been partially carried out.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Mrs. Mackenzie's would-have-been annuity and the eventual partial establishment of the endowment together confirm the outcome — the endowment had been created in reduced form, and whether it had included provision for staff is not recorded."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Locked Room's Final Explanation",
+        "text": "The Assizes summary: 'The locked room in this case was the victim's own creation. The Laird Dunmore, habituated to bolting his study door for privacy, had sealed himself into a room prepared for his death hours earlier. The murderers had required no access to the room after eight PM. The apparent impossibility had been the victim's own privacy habits. The solution to the locked room was not a trick of locks or secret passages — it was the laird's routine used against him.'",
+        "alone": "The locked room's solution had been the victim's own privacy habit — the laird had locked himself in, and the killers had never needed to enter after eight PM.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The laird's privacy routine used against him and Mrs. Mackenzie's silence preventing the one observation that would have broken the apparent impossibility earlier together confirm the locked room's full solution — routine and silence had created the conditions that had made a simple afternoon poisoning look like an impossible crime."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Dunmore Estate Today",
+        "text": "Dunmore Estate had been administered by the Crown following the convictions and had been sold in 1891 to a Highland landowner. It changed hands twice more before being converted to a sporting estate in 1920. The study where the laird had died is now a guest bedroom. The bolt is still on the door. It is original Victorian ironwork. The moor beyond the window has not changed. Mrs. Flora Mackenzie had retired to Inverness following the Assizes and had died in 1901. Whether the partial charitable endowment had included her annuity is not recorded. The moor has not changed. The bolt is still on the door.",
+        "alone": "The study is now a guest bedroom. The bolt is on the door. Mrs. Mackenzie died in 1901. Whether her annuity had been included in the partial endowment is not recorded. The moor has not changed.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Mrs. Mackenzie's potential annuity unrecorded and the moor unchanged together confirm the case's final image — the physical permanence and the human uncertainty, the Victorian bolt on the door and the unresolved question of whether the woman who had been the prosecution's key witness had received the provision the dead man had intended for her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roderick Dunmore",
+      "location": "The Locked Study",
+      "weapon": "Digitalis in the Whisky",
+      "motive": "Prevent the Will Change and Inherit the Estate"
+    },
+    "epilogue": "Mrs. Mackenzie had seen the cabinet ajar during the afternoon visit and had told herself it was a medical matter. The Assizes had compelled her testimony. Her observation had been the prosecution's critical link. She had been commended and not charged. The will that had not been signed had included her annuity. Roderick and Dr. Payne had received life imprisonment. The estate had not passed to Roderick. The partial endowment had been established. Mrs. Mackenzie had retired to Inverness and had died in 1901. Whether her annuity had been included in the partial endowment is not recorded. The study is now a guest bedroom. The Victorian bolt is on the door. The moor beyond the window has not changed."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #125",
+    "title": "The Locked Room",
+    "setting": "Dunmore Estate · Sutherland · Scotland · 1888",
+    "emoji": "🔒",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Roderick and Dr. Payne conspired. Mrs. Mackenzie stayed silent until compelled. But the visiting clergyman who had noted Roderick's nine-fifteen gap — the only witness who had contradicted the drawing room alibi — had his own reason for being at the estate. Find what it was.",
+    "emptyState": "The clergyman who broke the alibi had his own reason for being there. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Roderick Dunmore",
+            "icon": "💰",
+            "detail": "Convicted — the will change, the nine-fifteen gap, the inheritance voided, life imprisonment."
+          },
+          {
+            "name": "Dr. Agnes Payne",
+            "icon": "🩺",
+            "detail": "Convicted — £300 payment, afternoon transfer, cabinet ajar, life imprisonment."
+          },
+          {
+            "name": "Mrs. Flora Mackenzie",
+            "icon": "🔑",
+            "detail": "Not charged — commended testimony, annuity unrecorded, died Inverness 1901."
+          },
+          {
+            "name": "Reverend Thomas Cairns",
+            "icon": "✝️",
+            "detail": "The visiting clergyman whose alibi note had broken Roderick's cover — his reason for being at the estate is the investigation's final element."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Locked Study",
+            "icon": "🔒",
+            "detail": "Primary crime scene — bolt, digitalis, laird's own routine."
+          },
+          {
+            "name": "The Drawing Room",
+            "icon": "🛋️",
+            "detail": "Where the clergyman had been and where he had noted Roderick's gap."
+          },
+          {
+            "name": "The Estate Chapel",
+            "icon": "⛪",
+            "detail": "Reverend Cairns's stated reason for being at the estate — the chapel's restoration fund."
+          },
+          {
+            "name": "The Will Draft",
+            "icon": "📋",
+            "detail": "What the draft had included beyond the staff provisions — and the clergyman's connection to it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Digitalis in the Whisky",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Dr. Payne's afternoon preparation."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Letter Opener",
+            "icon": "📋",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Reverend Cairns's Testimony",
+            "icon": "✝️",
+            "detail": "Not a weapon — but the evidence that had broken Roderick's alibi, and the motive behind it."
+          },
+          {
+            "name": "The Will's Chapel Provision",
+            "icon": "⛪",
+            "detail": "Not a weapon — what the draft had included for the estate chapel, and Cairns's connection to it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Will Change",
+            "icon": "💰",
+            "detail": "Roderick's motive — life imprisonment, estate voided."
+          },
+          {
+            "name": "Financial Arrangement",
+            "icon": "🩺",
+            "detail": "Dr. Payne's incentive — £300 payment, life imprisonment."
+          },
+          {
+            "name": "Family Loyalty and Self-Protection",
+            "icon": "🔑",
+            "detail": "Mrs. Mackenzie's reason for silence — commended testimony, annuity unrecorded."
+          },
+          {
+            "name": "Protect the Will's Chapel Provision",
+            "icon": "✝️",
+            "detail": "Reverend Cairns's specific motive for being at the estate and for noting Roderick's gap."
+          },
+          {
+            "name": "Whether Cairns Had Known the Gap Was Significant When He Noted It",
+            "icon": "✝️",
+            "detail": "The investigation's final question — the clergyman's awareness of what he was recording."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed the Laird Through Afternoon Poisoning and Routine Exploitation",
+            "icon": "💰",
+            "detail": "Roderick's confirmed role — life imprisonment."
+          },
+          {
+            "name": "Prepared the Method During the Afternoon Medical Visit",
+            "icon": "🩺",
+            "detail": "Dr. Payne's confirmed role — life imprisonment."
+          },
+          {
+            "name": "Observed the Cabinet Ajar and Said Nothing Until Compelled",
+            "icon": "🔑",
+            "detail": "Mrs. Mackenzie's role — commended, annuity unrecorded."
+          },
+          {
+            "name": "Noted Roderick's Nine-Fifteen Gap as the Will's Beneficiary",
+            "icon": "✝️",
+            "detail": "Reverend Cairns's role — the witness whose observation had broken the alibi, motivated by the chapel provision."
+          },
+          {
+            "name": "Confirmed the Drawing Room at Three Observation Points Without Continuous Surveillance",
+            "icon": "🛋️",
+            "detail": "The butler's institutional role — the three-point observation structure that had created the gap."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Reverend Cairns's Reason for Being There",
+        "text": "The will draft — examined at the Assizes — had included a specific provision: £500 for the restoration of St. Columba's Chapel on the Dunmore Estate, with Reverend Thomas Cairns named as the restoration's overseer and trustee. Cairns had been visiting the estate specifically to discuss the chapel restoration fund and to confirm the provision's terms with the laird. He had been present because the will had included him by name.",
+        "alone": "Reverend Cairns had been at the estate because the will had named him as the chapel restoration trustee — he had a specific financial interest in the will being signed.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Cairns named as chapel restoration trustee in the draft will and his noting of Roderick's gap together confirm his observation had been motivated by his stake in the will's execution — he had known the will benefited the chapel and had been watching for anything that might threaten the signing."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Whether Cairns Had Known the Gap Was Significant",
+        "text": "Reverend Cairns's account at the Assizes: 'When Roderick left the drawing room at nine-fifteen, I noted it because I had been watching him. Since arriving at the estate I had observed that Roderick was anxious — more anxious than a man usually is when an uncle is simply revising a will. His anxiety had been specific and directed. When he left at nine-fifteen and returned ten minutes later visibly relieved, I understood that whatever he had left to do, he had done it. I noted the gap specifically because his relief on return told me it had been purposeful.'",
+        "alone": "Cairns had been watching Roderick specifically and had noted the gap because Roderick's relief on return had confirmed the purposeful nature of the absence — he had understood the gap's significance in the moment.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Cairns watching Roderick from specific interest and noting the gap's purposeful nature in real time together confirm he had not been an incidental witness but an active observer motivated by his stake in the will's outcome."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Cairns's Testimony and Its Motivation",
+        "text": "The Assizes had questioned Cairns on the motivation for his testimony. His response: 'I had been named in the will as a trustee. If Roderick had killed his uncle to prevent the will's signing, he had also deprived the chapel of its restoration fund and deprived me of the role I had been given. I testified because what I had seen was true and because what I had seen had consequences for the chapel. Both reasons were present. I do not separate them.'",
+        "alone": "Cairns had acknowledged both the truth-based and the self-interested motivations for his testimony — refusing to separate them as the Assizes had invited him to.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Cairns refusing to separate the truth-based and self-interested motivations and the Assizes accepting his testimony despite the acknowledged stake together confirm the legal system had found the dual motivation credible and sufficient — his observation had been accurate regardless of why he had made it."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Chapel Provision's Fate",
+        "text": "The will had not been signed. The laird had died. The estate had been Crown-administered following the convictions. The solicitor had submitted the draft will to the Crown administrators as evidence of the laird's intentions. The Crown had considered whether to honour the intentions of an unsigned will. The administrators had directed a contribution of £200 — forty percent of the intended £500 — to the St. Columba's Chapel restoration. Reverend Cairns had overseen the reduced restoration.",
+        "alone": "The chapel had received £200 of the intended £500 — Reverend Cairns had overseen the partial restoration as a consequence of his testimony.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Cairns receiving the reduced chapel provision through his testimony and the laird's partial intentions being carried out through the Crown administration together confirm the outcome — testifying to the truth had served the chapel's interest at a reduced level, and the laird's intentions had been partially honoured."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "The Four Interested Observers",
+        "text": "Four people at the estate had had specific interests in the will's outcome and had responded differently: Roderick had conspired with Dr. Payne to prevent it. Mrs. Mackenzie had silenced an observation that might have protected it. Reverend Cairns had noted and disclosed an observation that had ultimately vindicated it. Dr. Payne had had no stake in the will itself — only in the £300 payment. Four responses to four different positions in the same web of consequences.",
+        "alone": "Four interested observers — conspiracy, silence, disclosure, and pure financial transaction — each responding from their specific position in the will's consequence structure.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Cairns watching Roderick from stake-based interest and Mrs. Mackenzie watching the cabinet from professional habit together confirm the two observations that had been decisive had both been motivated — one from interest in the will and one from professional presence — and only one had been disclosed."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Locked Room's Human Dimension",
+        "text": "The Assizes summary had noted the locked room's solution elegantly: 'The victim's routine had created the impossible room. The physician's access had created the method. The housekeeper's observation had provided the link. The clergyman's stake had provided the testimony. The solicitor's appointment had created the urgency. The locked room in this case was not a physical puzzle — it was a social one, created by the intersection of five people's positions, routines, and interests with a single moment of fatal consequence.'",
+        "alone": "The locked room had been a social puzzle, not a physical one — five positions, five routines, five interests intersecting at a single moment.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The locked room described as a social puzzle and Cairns's dual-motivation testimony accepted by the Assizes together confirm the investigation's final insight — the impossibility had been created by social structures, not mechanical tricks, and the solution had required understanding each person's position in the web."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🔑",
+        "heading": "Mrs. Mackenzie's Final Years",
+        "text": "Flora Mackenzie had retired to Inverness following the Assizes with a pension of £25 per year — provided by the Crown administrators who had been managing the estate's dissolution. Whether this had been equivalent to what the laird's intended annuity would have provided is not directly comparable — the laird had intended £60 per year for life, the Crown had provided £25 per year for the remainder of her life, approximately thirteen years. She had received approximately £325 in total. The intended annuity would have been £780 over the same period. The difference had been £455.",
+        "alone": "Mrs. Mackenzie had received approximately £325 from the Crown pension over thirteen years — £455 less than the intended annuity over the same period. The difference is specific and unrecovered.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The chapel receiving £200 of its intended £500 and Mrs. Mackenzie receiving £325 of her intended £780 together confirm the partial-intention outcomes — both provisions had been reduced by the Crown's administration of an unsigned will, and both reductions had been the consequence of the killing."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🔒",
+        "heading": "The Bolt on the Door",
+        "text": "The Victorian bolt on the study door at Dunmore Estate — now a guest bedroom at a sporting estate — is original ironwork from the estate's construction in 1841. It has been painted over twice since 1888 and still operates smoothly. The bolt was drawn from the inside by Alistair Dunmore at eight PM on the evening of his death. He had been alive and the room had already contained his death. He had slid the bolt, returned to his desk, poured from the decanter, and had died in his armchair with his privacy intact. The bolt still works. The moor beyond the window has not changed. The loch in the middle distance is the same loch. The study is a guest bedroom. Guests bolt the door from the inside. The bolt still works.",
+        "alone": "Guests bolt the door from the inside. The bolt still works. The moor has not changed. The loch is the same loch.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The locked room described as a social puzzle created by intersecting positions and the bolt still working for guests who bolt it without knowing its history together confirm the case's final image — the mechanism is unchanged, the social conditions that had created the impossible room have been dissolved, and what had been impossible is now just a guest's privacy choice."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Roderick Dunmore",
+      "location": "The Locked Study",
+      "weapon": "Digitalis in the Whisky",
+      "motive": "Prevent the Will Change and Inherit the Estate",
+      "accomplice": "Noted Roderick's Nine-Fifteen Gap as the Will's Beneficiary"
+    },
+    "epilogue": "Five positions, five routines, five interests at a single moment of fatal consequence. The laird had bolted the door. Dr. Payne had prepared the method that afternoon. Mrs. Mackenzie had seen the cabinet ajar and had said nothing until compelled. Roderick had left the drawing room at nine-fifteen to confirm the setup and had returned relieved. Reverend Cairns had watched Roderick from his stake in the will and had testified from both truth and interest. The Assizes had accepted both motivations. The convictions had followed. The estate had passed to the Crown. The chapel had received £200. Mrs. Mackenzie had received £325 over thirteen years — £455 less than the laird had intended. The bolt is on the door. Guests bolt it from the inside. The moor has not changed. The loch is the same loch."
+  }
+}

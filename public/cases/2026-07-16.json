@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Los Alamos, 1944. The Manhattan Project. A physicist dead in his laboratory. And classified calculations missing that would have set the bomb back by months. 💥🔍 Case #119 — Trinity. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Los Alamos 1944, the Manhattan Project, a physicist dead in his lab, and missing calculations that someone was going to pass to the Soviets. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1944 Los Alamos laboratory at night, a chalkboard covered in equations with one section erased, a physicist's notebook open on a desk beside an overturned coffee mug, technical blueprints pinned to a board and partially torn away, a barbed wire fence visible through the window under New Mexico stars. Wartime secrecy and science. Style of J. Robert Oppenheimer-era photography meets Edward Hopper.",
+    "animationPrompt": "Slow pan through a 1944 Los Alamos laboratory at night. Chalkboard equations with one section erased. An open physicist's notebook beside an overturned coffee mug. Blueprints partially torn from the board. Through the window: barbed wire and New Mexico stars. The science here is changing everything. Fade to black.",
+    "hashtags": [
+      "#LosAlamos1944",
+      "#ManhattanProject",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #119",
+    "title": "Trinity",
+    "setting": "Los Alamos National Laboratory · New Mexico · 1944",
+    "emoji": "💥",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Physicist Dr. Walter Crane was found dead in Laboratory C at Los Alamos. A section of chalkboard equations had been erased and specific pages torn from his open notebook. The missing material covered critical implosion lens calculations. Three colleagues had after-hours access to Laboratory C that evening. Army security was investigating two separate possible Soviet contacts within the project.",
+    "emptyState": "The calculations are gone. Three people had access. Find who took them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Helen Marsh",
+            "icon": "🔬",
+            "detail": "A theoretical physicist — had been working on the same implosion lens problem from a different approach and had expressed moral objections to the bomb's use."
+          },
+          {
+            "name": "Lt. Frank Doyle",
+            "icon": "🎖️",
+            "detail": "An Army liaison officer — had after-hours access and had been under observation by Army Counterintelligence for unexplained trips to Santa Fe."
+          },
+          {
+            "name": "Dr. Sergei Volkov",
+            "icon": "📐",
+            "detail": "A Soviet-born mathematician working under special clearance — had been specifically recruited for his expertise in the implosion calculations Crane had been developing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Laboratory C",
+            "icon": "💥",
+            "detail": "Where Crane was found — chalkboard erased, notebook torn, blueprints partially removed."
+          },
+          {
+            "name": "The Security Office",
+            "icon": "🔒",
+            "detail": "Where after-hours access logs were maintained — and where the evening's movements had been recorded."
+          },
+          {
+            "name": "The Perimeter Fence",
+            "icon": "🪖",
+            "detail": "The security boundary — where a sentry had reported an unusual vehicle near the gate that evening."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Paperweight",
+            "icon": "🪨",
+            "detail": "A heavy cylindrical paperweight on Crane's desk — blunt force wound consistent with its end used as a bludgeon."
+          },
+          {
+            "name": "Chalkboard Eraser",
+            "icon": "📐",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Blueprint Tube",
+            "icon": "📋",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Calculations",
+        "text": "The Army's scientific liaison identifies the missing material: three pages from Crane's notebook covering the implosion lens geometry calculations and a chalkboard section showing the detonation synchronisation sequence. The material was at a stage where it would have significantly accelerated any parallel program — specifically, it resolved a problem that Soviet physicists had been known from intelligence intercepts to be struggling with. The information had been specifically targeted, not randomly taken.",
+        "alone": "The missing material had specifically resolved a problem Soviet physicists were known to be struggling with — the selection had been informed by knowledge of Soviet program gaps.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The targeted theft matching known Soviet program gaps and Lt. Doyle's unexplained Santa Fe trips — a known Soviet contact location — together establish the operational context of the theft."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪨",
+        "heading": "The Brass Paperweight",
+        "text": "The cylindrical brass paperweight — a standard desk item — shows blood on its flat end. The wound on Crane's skull is consistent with a downward blow from behind while Crane had been at the chalkboard. The blow had been single and decisive — someone had approached from behind while Crane had been working at the board and had struck before he could react. The approach from behind while at the board required knowledge of Crane's working habits.",
+        "alone": "Crane had been struck from behind at the chalkboard — the approach had required knowledge of his working habits, specifically that he stood facing the board and did not look behind him while calculating.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The approach requiring knowledge of Crane's working habits and Dr. Volkov's documented daily collaboration with Crane in Laboratory C giving him intimate familiarity with those habits together confirm the specific foreknowledge the killing had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "Dr. Marsh's Evening",
+        "text": "Dr. Marsh had attended a security-required group dinner from six PM until ten PM — a regular gathering for project members, confirmed by fourteen colleagues and the security officer who had taken attendance. She had not been in Laboratory C that evening. She is definitively cleared.",
+        "alone": "Marsh had been at the mandatory security dinner from six to ten PM — confirmed by fourteen colleagues and the security officer. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Marsh cleared at the security dinner and Lt. Doyle confirmed at the perimeter security post from nine PM together eliminate both other suspects during the killing window — only Volkov's movements between eight and nine PM are unconfirmed in Laboratory C."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📐",
+        "heading": "Volkov's Collaboration With Crane",
+        "text": "Laboratory records show Volkov and Crane had been working in daily collaboration on the implosion lens problem for six weeks. Volkov had been present for every stage of the calculation's development. He had been the only other person who had understood the work well enough to know which pages to tear and which chalkboard section to erase — the selection had required comprehension of the material's significance, not merely its physical location.",
+        "alone": "Volkov had been present for every stage of the calculation's development — the targeted selection had required comprehension of the material's significance that only someone who had understood the physics could have performed.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The targeted theft matching Soviet program gaps and Volkov's six weeks of collaboration giving him comprehension of the material's significance together confirm both the intelligence basis of the targeting and the scientific understanding required to execute it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Doyle's Santa Fe Trips",
+        "text": "Army Counterintelligence records show Lt. Doyle had made six unexplained trips to Santa Fe between June and November 1944. Santa Fe had been identified as a Soviet contact location for the project. However, Doyle had been at the perimeter security post from nine PM that evening — confirmed by the duty sergeant and the sentry log. He had not been in Laboratory C. He is definitively cleared of the killing.",
+        "alone": "Doyle had been at the perimeter security post from nine PM — confirmed by the duty sergeant and the sentry log. He is cleared of the killing, though his Santa Fe trips remain under investigation.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Doyle cleared of the killing despite the Santa Fe trips and Volkov's unconfirmed eight-to-nine PM window together separate the two suspected Soviet contacts — the killing had been Volkov's, the Santa Fe contacts had been Doyle's separate investigation."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📐",
+        "heading": "Volkov's Security File",
+        "text": "Army Counterintelligence's file on Volkov — compiled since his arrival — documents: his Soviet birth and family remaining in Moscow; an intercepted letter in September 1944 containing a phrase flagged as a possible signal; and two meetings with a Soviet-linked individual in Albuquerque that had been observed but not disrupted. The file had been assessed as 'elevated risk — continue monitoring.' The monitoring had not prevented the killing.",
+        "alone": "Volkov's security file had documented elevated risk including intercepted signals and observed Albuquerque meetings — the monitoring had not prevented the theft and killing.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Volkov's six weeks of collaboration giving him knowledge of the material and his security file documenting Soviet connections and observed meetings together confirm both the operational capability and the organisational connection — the combination had been the basis of the intelligence operation."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📐",
+        "heading": "Volkov's Unconfirmed Window",
+        "text": "The Laboratory C access log shows Volkov had signed in at seven-thirty PM and had signed out at ten PM. Crane had signed in at seven PM and had not signed out — he had been found at ten-fifteen PM when the night security check had occurred. Between eight PM and nine PM, no other Laboratory C access is logged. Volkov and Crane had been alone in the laboratory for at least part of this window.",
+        "alone": "Volkov and Crane had been alone in Laboratory C between eight and nine PM — the access log shows no other entries during this window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The approach requiring knowledge of Crane's working habits and Volkov being alone with Crane in the laboratory during the killing window together establish both the specific foreknowledge and the opportunity — he had been in the room with the person whose habits he had known for six weeks."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💥",
+        "heading": "The Calculations' Consequence",
+        "text": "Army Counterintelligence's assessment of the missing material's likely impact: the calculations, if transmitted to the Soviet program, would have accelerated their implosion design work by an estimated six to twelve months. The Trinity test — the first atomic detonation — had occurred on July 16th, 1945. Volkov was arrested three days after the killing and did not transmit the material. The Soviet atomic test occurred on August 29th, 1949 — four years after Trinity. Whether the missing material would have closed that gap is not known.",
+        "alone": "Volkov was arrested before transmitting the material — the calculations were recovered. The Soviet test occurred four years after Trinity. Whether the material would have closed the gap is unknown.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The targeted theft matching Soviet program gaps and Volkov's arrest before transmission together confirm the operation had been real, the material had been significant, and the arrest had prevented its transmission — the counterfactual remains open."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Sergei Volkov",
+      "location": "Laboratory C",
+      "weapon": "Brass Paperweight"
+    },
+    "epilogue": "Dr. Sergei Volkov had been in Laboratory C alone with Crane between eight and nine PM. He had known Crane's working habits from six weeks of collaboration. He had struck Crane from behind at the chalkboard. He had torn the specific pages. He had erased the specific section. He had signed out at ten PM. He had been arrested three days later before transmitting the material. The calculations had been recovered. The Trinity test had occurred on July 16th, 1945 — one year after the killing. The Soviet atomic test had occurred in 1949, four years later. Whether the missing material would have closed that gap is not known. Volkov was convicted and executed in 1946. Lt. Doyle's Santa Fe trips had been a separate Soviet contact operation; he had been court-martialled in 1945 for passing different material. The chalkboard had been re-chalked the following morning. Laboratory C had continued its work."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #119",
+    "title": "Trinity",
+    "setting": "Los Alamos National Laboratory · New Mexico · 1944",
+    "emoji": "💥",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Volkov killed Crane and was arrested before transmitting. But Dr. Marsh had known Volkov was a security risk — find what she had known and whether she had reported it.",
+    "emptyState": "Marsh knew Volkov was a risk. Find what she knew and what she did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Sergei Volkov",
+            "icon": "📐",
+            "detail": "The killer — six weeks of collaboration, alone with Crane, brass paperweight, arrested before transmission, executed 1946."
+          },
+          {
+            "name": "Dr. Helen Marsh",
+            "icon": "🔬",
+            "detail": "Cleared as killer — security dinner confirmed. Had known Volkov was a risk and had taken a specific action."
+          },
+          {
+            "name": "Lt. Frank Doyle",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — perimeter post confirmed. His separate Santa Fe contacts court-martialled 1945."
+          },
+          {
+            "name": "Army Counterintelligence",
+            "icon": "🪖",
+            "detail": "The institutional monitor — whose 'continue monitoring' assessment had allowed Volkov to remain in Laboratory C."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Laboratory C",
+            "icon": "💥",
+            "detail": "Primary crime scene — Volkov's killing."
+          },
+          {
+            "name": "The Security Office",
+            "icon": "🔒",
+            "detail": "Where Marsh had submitted her concern — and where the assessment had determined Volkov's status."
+          },
+          {
+            "name": "The Group Dinner Location",
+            "icon": "🍽️",
+            "detail": "Where Marsh had been confirmed — and where she had spoken to a colleague about Volkov."
+          },
+          {
+            "name": "Oppenheimer's Office",
+            "icon": "📋",
+            "detail": "Where Marsh had gone before the dinner — the secondary channel she had also used."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Paperweight",
+            "icon": "🪨",
+            "detail": "Confirmed murder weapon — Volkov's approach from behind."
+          },
+          {
+            "name": "Chalkboard Eraser",
+            "icon": "📐",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Blueprint Tube",
+            "icon": "📋",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Marsh's Security Report",
+            "icon": "🔬",
+            "detail": "Not a weapon — but the report she had submitted and what Counterintelligence had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Transmit Implosion Calculations to the Soviet Program",
+            "icon": "📐",
+            "detail": "Volkov's operational motive — executed 1946, material recovered."
+          },
+          {
+            "name": "Protect the Project's Security Integrity",
+            "icon": "🔬",
+            "detail": "Marsh's professional concern — she had reported a specific observation about Volkov."
+          },
+          {
+            "name": "Moral Objection to the Bomb Versus Security Duty",
+            "icon": "🔬",
+            "detail": "The tension in Marsh's position — she had objected to the bomb's use but had reported a security threat."
+          },
+          {
+            "name": "The 'Continue Monitoring' Assessment",
+            "icon": "🪖",
+            "detail": "What Counterintelligence had decided — keeping Volkov in place rather than removing him."
+          },
+          {
+            "name": "Marsh's Assessment of the Monitoring Decision",
+            "icon": "🔬",
+            "detail": "What Marsh had thought of the response to her report — and what she had done next."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "What Marsh Had Observed",
+        "text": "Marsh's security report — filed two weeks before the killing — describes a specific observation: 'On the evening of November 12th, I observed Dr. Volkov in his quarters making notes in a personal notebook that he immediately concealed when I entered. The notebook was not a laboratory notebook — it was smaller, with a dark cover, not issued by the project. He had appeared startled. I report this as potentially significant.' She had observed a concealed personal notebook.",
+        "alone": "Marsh had observed Volkov concealing a non-project notebook and had reported it specifically to the security office two weeks before the killing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marsh's specific observation of a concealed notebook and Counterintelligence's subsequent search finding no such notebook in Volkov's quarters together raise the question of what had happened to the notebook — whether it had been hidden, destroyed, or used for the transmission preparation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "Counterintelligence's Response to the Report",
+        "text": "Counterintelligence's response to Marsh's report: 'Agent's quarters searched — no non-project notebook found. Report assessed as possibly reflecting legitimate personal note-taking behaviour observed out of context. Combined with existing elevated file, assessment remains: continue monitoring. Agent's Laboratory C access to be maintained — removal would compromise ongoing work at a critical stage.' The notebook had not been found and access had been maintained.",
+        "alone": "The search had found no notebook — Counterintelligence had maintained Volkov's access on the grounds that his removal would compromise the ongoing work.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The notebook not found and Counterintelligence maintaining access based on the work's critical stage together confirm the institutional trade-off — the security risk had been weighed against the project's operational needs and the operational needs had won."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🔬",
+        "heading": "Marsh's Reaction to the Response",
+        "text": "Marsh's account: 'They searched his room and found nothing and told me they were maintaining him because of the work. I understood the reasoning. I also thought — the notebook existed. I had seen it. Either he had hidden it before the search or he had destroyed it, and in either case that was significant. I went to Oppenheimer directly. I told him what I had seen and what the response had been. He told me it was a Counterintelligence matter and he trusted their assessment.' She had escalated to Oppenheimer after the response.",
+        "alone": "Marsh had escalated to Oppenheimer after the Counterintelligence response — Oppenheimer had deferred to Counterintelligence's assessment.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Marsh escalating to Oppenheimer and Oppenheimer deferring to Counterintelligence together confirm the full escalation chain had been exhausted — she had reported to the security channel and to the scientific leadership, and both had determined that continued monitoring was the appropriate response."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "What the Notebook Had Been",
+        "text": "After Volkov's arrest, investigators found the notebook — concealed in the lining of a winter coat in his quarters, precisely where the original search had not looked. The notebook contained encoded notes covering the implosion lens calculations' key parameters. The encoding was consistent with a method used by Soviet intelligence operatives. The notebook had been prepared over several weeks — it had been the transmission preparation document. Marsh had seen it being prepared.",
+        "alone": "The notebook was found in a coat lining after the arrest — encoded implosion parameters, Soviet intelligence encoding method, prepared over weeks. Marsh had observed it being written.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marsh's observation of the notebook being concealed and the notebook found in the coat lining after the arrest confirm she had seen the transmission document being prepared — her report had been accurate and the search had missed it."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🔬",
+        "heading": "Marsh's Moral Position on the Report",
+        "text": "Marsh's post-war account: 'I objected to the bomb. I thought using it on civilian populations would be a crime. I had said so privately. But Volkov was passing information to Stalin's program — a program that would be used for the same purpose. I reported him because the information being passed was the information I was working with, and I had taken an oath, and whatever my views on the bomb's use, I had not agreed to have my work stolen for a program I knew nothing about. I have never regretted the report. I have often wondered about the rest.'",
+        "alone": "Marsh had reported Volkov despite her moral objections to the bomb — she had separated her oath to the project from her political views on its use.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Marsh reporting despite her moral objections and escalating when the response had been insufficient together confirm the consistency of her position — the moral complexity had not prevented the professional action, and the professional action had been taken through every available channel."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📐",
+        "heading": "The Operational Dilemma",
+        "text": "Army Counterintelligence's post-case assessment of the Volkov monitoring decision: 'The decision to maintain Volkov's Laboratory C access rather than remove him had been based on two factors: the implosion lens work was at a critical stage and his removal would have caused significant delay; and his continued presence enabled ongoing monitoring that might have revealed his contacts and transmission method. The decision had been defensible at the time. In retrospect, the notebook's evasion of the search was the decisive failure.' The decision to keep him in place had been assessed as defensible in retrospect.",
+        "alone": "Counterintelligence had assessed the monitoring decision as defensible in retrospect — the decisive failure had been the search missing the notebook.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "The monitoring decision weighed against removing Volkov and the search missing the notebook as the decisive failure together confirm the retrospective analysis — the institutional trade-off had been made correctly on available information and had been undermined by the inadequate search."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💥",
+        "heading": "Marsh's Later Career",
+        "text": "Dr. Helen Marsh had left Los Alamos in August 1945, following the Trinity test and before the bombs were dropped on Japan. She had refused to contribute to the weaponisation phase. She had returned to academic physics and had been a prominent voice in the post-war scientists' movement against nuclear weapons. She had testified to the Oppenheimer security hearings in 1954 — in his defence. She had died in 1987. Her security report about Volkov, which had been accurate and timely, was declassified in 1995. The report's first line: 'I report this as potentially significant.'",
+        "alone": "Marsh had left Los Alamos after Trinity, had testified in Oppenheimer's defence in 1954, and had died in 1987. Her report had been declassified in 1995.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Marsh separating her moral objections from her reporting obligation and leaving after Trinity rather than contributing to the weaponisation phase together confirm the consistency of her position — she had done what her oath had required and had drawn her own line after Trinity."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💥",
+        "heading": "The Trinity Test",
+        "text": "The Trinity test had been conducted on July 16th, 1945 — on the date commemorated by this case. The first atomic detonation. The device used was an implosion-type plutonium bomb — the same design Crane had been calculating when he had been killed. The calculations Volkov had tried to steal, and that Marsh had tried to protect, had been completed by Crane's colleagues after his death. The test had succeeded. Volkov had been executed nine months before it. He had never seen what his attempted theft had been aimed at. The light from Trinity had been visible for 160 miles.",
+        "alone": "Trinity had been conducted on July 16th, 1945. The implosion calculations had been completed by Crane's colleagues. Volkov had been executed nine months before the test. The light had been visible for 160 miles.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Marsh leaving after Trinity and Volkov executed before it together confirm the case's temporal bracket — the killing had occurred eleven months before the test it had been aimed at influencing, and the people who had been part of its aftermath had each reached different endings before the light over New Mexico."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Sergei Volkov",
+      "location": "Laboratory C",
+      "weapon": "Brass Paperweight",
+      "motive": "Transmit Implosion Calculations to the Soviet Program"
+    },
+    "epilogue": "Helen Marsh had filed the report two weeks before. The search had missed the notebook in the coat lining. Counterintelligence had maintained Volkov's access. Marsh had gone to Oppenheimer. Oppenheimer had deferred. Volkov had killed Crane and taken the pages. He had been arrested three days later. The notebook had been found in the coat lining. He had been convicted and executed in 1946. Marsh had left Los Alamos after Trinity. She had testified in Oppenheimer's defence in 1954. Her report had been declassified in 1995. Trinity had been on July 16th, 1945. The light had been visible for 160 miles. Volkov had never seen it. The calculations he had tried to steal had been completed by Crane's colleagues. The implosion device had worked. The report's first line: 'I report this as potentially significant.'"
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #119",
+    "title": "Trinity",
+    "setting": "Los Alamos National Laboratory · New Mexico · 1944",
+    "emoji": "💥",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Volkov killed Crane. Marsh had reported the notebook. But Lt. Doyle's Santa Fe contacts had been a separate Soviet operation — find what Doyle had been passing and whether his operation and Volkov's had been coordinated.",
+    "emptyState": "Doyle's Santa Fe contacts were separate. Find what he was passing and whether it connected to Volkov.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Dr. Sergei Volkov",
+            "icon": "📐",
+            "detail": "The killer — Laboratory C, brass paperweight, notebook in coat lining, executed 1946."
+          },
+          {
+            "name": "Dr. Helen Marsh",
+            "icon": "🔬",
+            "detail": "Cleared as killer — security dinner. Report filed, notebook missed, Oppenheimer deferred, left after Trinity."
+          },
+          {
+            "name": "Lt. Frank Doyle",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — perimeter post confirmed. Santa Fe contacts, court-martialled 1945, separate material."
+          },
+          {
+            "name": "The Soviet Intelligence Handler",
+            "icon": "🕵️",
+            "detail": "The person coordinating both Volkov and Doyle from outside the perimeter — whose operational picture is the investigation's final thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Laboratory C",
+            "icon": "💥",
+            "detail": "Primary crime scene — Volkov's killing."
+          },
+          {
+            "name": "Santa Fe",
+            "icon": "🌵",
+            "detail": "Where Doyle had been making his six contacts — and where the Soviet handler had been operating."
+          },
+          {
+            "name": "Albuquerque",
+            "icon": "🌵",
+            "detail": "Where Volkov's two observed meetings had occurred — and where the same handler had also been active."
+          },
+          {
+            "name": "The Soviet Consulate Network",
+            "icon": "🕵️",
+            "detail": "The operational infrastructure — whose New Mexico presence had coordinated both operations."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Brass Paperweight",
+            "icon": "🪨",
+            "detail": "Confirmed murder weapon — Volkov's."
+          },
+          {
+            "name": "Chalkboard Eraser",
+            "icon": "📐",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Blueprint Tube",
+            "icon": "📋",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Doyle's Passing of Separate Material",
+            "icon": "🎖️",
+            "detail": "Not a weapon — what Doyle had been providing and whether it had been coordinated with Volkov's operation."
+          },
+          {
+            "name": "The Handler's Operational Coordination",
+            "icon": "🕵️",
+            "detail": "Not a weapon — whether the two operations had been separate or part of a single coordinated program."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Transmit Implosion Calculations",
+            "icon": "📐",
+            "detail": "Volkov's operational objective — arrested before transmission."
+          },
+          {
+            "name": "Pass Personnel and Security Information",
+            "icon": "🎖️",
+            "detail": "Doyle's separate operation — Santa Fe contacts, different material."
+          },
+          {
+            "name": "Coordinate Both Assets Toward a Comprehensive Intelligence Picture",
+            "icon": "🕵️",
+            "detail": "The handler's strategic objective — whether both operations had been part of a single comprehensive effort."
+          },
+          {
+            "name": "Whether Doyle Had Known About Volkov",
+            "icon": "🎖️",
+            "detail": "The coordination question — had the two operations been compartmentalised or connected?"
+          },
+          {
+            "name": "The Handler's Identity and Fate",
+            "icon": "🕵️",
+            "detail": "The investigation's final unresolved element."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Crane and Prepared the Transmission Notebook",
+            "icon": "📐",
+            "detail": "Volkov's confirmed role — executed 1946."
+          },
+          {
+            "name": "Reported the Notebook Observation and Escalated to Oppenheimer",
+            "icon": "🔬",
+            "detail": "Marsh's protective role — left after Trinity, testified 1954."
+          },
+          {
+            "name": "Passed Personnel and Security Information Through Santa Fe Contacts",
+            "icon": "🎖️",
+            "detail": "Doyle's separate operation — court-martialled 1945."
+          },
+          {
+            "name": "Coordinated Both Assets From Outside the Perimeter",
+            "icon": "🕵️",
+            "detail": "The handler's role — never identified, never charged."
+          },
+          {
+            "name": "Maintained Volkov's Access Based on the Work's Critical Stage",
+            "icon": "🪖",
+            "detail": "Counterintelligence's role — monitoring decision assessed as defensible."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What Doyle Had Been Passing",
+        "text": "Doyle's court-martial proceedings reveal what he had been transmitting through the Santa Fe contacts: personnel security clearance levels and access schedules for key Los Alamos scientists — specifically which scientists had access to which laboratories on which days and at what hours. He had been passing the project's security architecture, not its scientific content. The information had told the Soviets who could access what and when.",
+        "alone": "Doyle had been passing security architecture — who had access to which laboratories when. He had been providing the operational map of the project's access structure.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Doyle passing Laboratory C access schedules and Volkov's operation targeting Laboratory C's specific contents together confirm the two operations had been complementary — Doyle had provided the map, Volkov had been the scientist positioned to use it."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "The Handler Connection",
+        "text": "FBI analysis of Doyle's Santa Fe contacts and Volkov's Albuquerque meetings finds they had both met with intermediaries traceable to the same individual — a woman identified as 'Miriam' in both contact records, whose full identity the FBI had not established at the time. Post-war analysis of Soviet intelligence archives partially released in the 1990s identifies 'Miriam' as a Soviet intelligence officer named Anna Sorokina, operating under diplomatic cover at a US-based Soviet institution. She had coordinated both operations.",
+        "alone": "Both operations had been coordinated by the same Soviet handler — Anna Sorokina, identified from post-war archive releases as 'Miriam' in both contact records.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Sorokina coordinating both Doyle's access information and Volkov's scientific theft together confirm the operations had been complementary parts of a single intelligence program — the access map and the scientific content had been separate assignments toward a combined objective."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Whether Doyle Had Known About Volkov",
+        "text": "The court-martial proceedings and FBI investigation establish: Doyle had not known Volkov's identity or role. He had known he was passing access information to a Soviet handler and had understood it would be used for intelligence purposes. He had not known a specific Soviet asset inside the project had been using his access information to plan a scientific theft. The operations had been compartmentalised — each asset had known their own role and not the other's.",
+        "alone": "Doyle had not known about Volkov — the operations had been compartmentalised. He had known his access information would be used for intelligence but had not known how.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The compartmentalised design and Sorokina coordinating both without either knowing the other together confirm professional Soviet intelligence tradecraft — the compartmentalisation had protected the program even after both assets had been identified."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "What the Combined Operation Had Been Designed to Achieve",
+        "text": "FBI's post-war assessment: 'The Doyle-Volkov operation, as coordinated by Sorokina, had been designed to achieve two complementary objectives: Doyle's access schedule information would identify optimal windows for Volkov to access Laboratory C without observation, while Volkov's scientific training would enable him to identify and extract the most significant material. The combination of an insider access map and an insider scientific expert had been specifically engineered for this type of operation.'",
+        "alone": "The two operations had been specifically engineered to complement each other — Doyle's access map had enabled Volkov's scientific theft to be timed and targeted.",
+        "links": [
+          {
+            "with": "I1",
+            "insight": "Doyle providing the Laboratory C access schedule and Volkov using the unmonitored evening window to kill Crane together confirm the engineering had worked — the killing had occurred during a window that Doyle's schedule information had identified as relatively unobserved."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🕵️",
+        "heading": "Sorokina's Fate",
+        "text": "Anna Sorokina had left the United States in January 1945 — two months after Volkov's arrest. The FBI had not identified her at the time and had not been aware of her departure. Post-war Soviet archive releases had identified her role in 1993. She had returned to Moscow and had continued working in Soviet intelligence until 1961. She had died in Moscow in 1978. She had never been charged with any offence. The FBI's file on 'Miriam' had been closed as unresolved in 1947.",
+        "alone": "Sorokina had left the US before being identified, had continued her career in Soviet intelligence, and had died in Moscow in 1978. The Miriam file had been closed as unresolved.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Sorokina identified from post-war archives and dying without charge together confirm the handler's fate — the architect of the combined operation had escaped accountability through compartmentalisation and timely departure."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "Whether Earlier Action Would Have Unravelled the Network",
+        "text": "The FBI post-war assessment examines whether earlier action on either Doyle or Volkov would have led to Sorokina: 'Had either Doyle or Volkov been confronted rather than monitored, it is possible that the network could have been partially unwound through interrogation. However, neither had known the full network — Doyle had not known Volkov's identity, Volkov had not known Doyle's role, and neither had known Sorokina's identity beyond 'Miriam.' The compartmentalisation had been effective against exactly this scenario.'",
+        "alone": "The compartmentalisation had been specifically effective against the scenario where one asset was arrested and questioned — neither had known enough to identify the other or the handler.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "The compartmentalised design protecting the network and Sorokina escaping before identification together confirm the tradecraft had worked as designed — the intelligence architecture had been more resilient than the individual assets who had been caught."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "💥",
+        "heading": "The Soviet Test and the Gap",
+        "text": "The Soviet atomic test on August 29th, 1949 had occurred four years after Trinity. Intelligence estimates had suggested the Soviets would need until 1952-1955 without Western espionage assistance. The actual 1949 date had suggested significant intelligence assistance. Klaus Fuchs — a separate Los Alamos physicist who had passed implosion design information through a different channel — had been identified as a primary source. Whether the Doyle-Volkov operation, had it succeeded, would have further compressed the timeline is assessed as likely but unquantifiable.",
+        "alone": "The Soviet 1949 test had been four years ahead of uninformed estimates — Fuchs's separate operation had been identified as a primary source. The Doyle-Volkov operation's potential impact had been likely but unquantifiable.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The engineered complementarity of the Doyle-Volkov operation and the Soviet program's accelerated timeline through other channels together confirm the program had been part of a broader Soviet effort — the two arrested assets had been one operation among several, and the combined effect of all of them had produced the 1949 test."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "💥",
+        "heading": "Laboratory C Today",
+        "text": "Los Alamos National Laboratory continues to operate as a national security research institution. Laboratory C's designation had been changed in 1946 as part of a post-war reorganisation. The chalkboard where Walter Crane had been working when he had been killed no longer exists. The laboratory building had been demolished in 1962. The Trinity test site — the Jornada del Muerto desert in New Mexico — is a National Historic Landmark. It is open to the public twice a year. The light from Trinity had been visible for 160 miles. The crater had been fifty-one metres across. The glass formed from the desert sand by the blast is called trinitite. It is mildly radioactive. It is still there.",
+        "alone": "The Trinity site is a National Historic Landmark open twice a year. The crater had been fifty-one metres across. Trinitite is still there. It is mildly radioactive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The Soviet 1949 test suggesting intelligence assistance and trinitite still existing at the Trinity site together confirm the case's full temporal span — the killing in 1944, the test in 1945, the Soviet test in 1949, and the glass in the desert still mildly radioactive, still there."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Dr. Sergei Volkov",
+      "location": "Laboratory C",
+      "weapon": "Brass Paperweight",
+      "motive": "Transmit Implosion Calculations to the Soviet Program",
+      "accomplice": "Passed Personnel and Security Information Through Santa Fe Contacts"
+    },
+    "epilogue": "Doyle had been passing Laboratory C's access schedule — who could be there and when. Volkov had been the scientist who had used those windows. Sorokina had designed both operations as complements. Doyle had not known Volkov. Volkov had not known Doyle. Neither had known Sorokina beyond Miriam. Marsh had reported the notebook and escalated to Oppenheimer. The search had missed the notebook in the coat lining. Volkov had killed Crane during a window Doyle's schedule had identified. He had been arrested three days later. Doyle had been court-martialled in 1945. Sorokina had left in January 1945 before being identified. She had died in Moscow in 1978. The Miriam file had been closed as unresolved in 1947. Trinity had been on July 16th, 1945. Trinitite is still there. It is mildly radioactive."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Constantinople, May 28th 1453. The city falls tomorrow. A Greek scholar dead in the Hagia Sophia with a manuscript that was the last copy of something irreplaceable. Someone needed it before the walls came down. 📜🔍 Case #126 — The Last Day. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Constantinople 1453 the day before the fall, a scholar dead in the Hagia Sophia, a manuscript that will not survive tomorrow, and someone who came for it tonight. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Interior of the Hagia Sophia on the night of May 28th 1453, candlelight on gold mosaics and marble columns, a Greek scholar's robes on the floor beside a writing table scattered with manuscript pages, a bronze lamp overturned, the great dome above and the sound of distant siege engines outside. History ending and something irreplaceable with it. Style of Byzantine icon painting meets Rembrandt chiaroscuro.",
+    "animationPrompt": "Slow pan through the Hagia Sophia interior on the last night of Byzantine Constantinople. Candlelight on gold mosaics. Marble columns. The great dome above. The camera finds a scholar's robes on the floor and manuscript pages scattered beside an overturned bronze lamp. Distant siege engines outside. The city has one night left. Fade to black.",
+    "hashtags": [
+      "#Constantinople1453",
+      "#ByzantineEmpire",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #126",
+    "title": "The Last Day",
+    "setting": "Hagia Sophia · Constantinople · Byzantine Empire · May 28th, 1453",
+    "emoji": "📜",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Scholar Nikephoros Palaiologos was found dead in the Hagia Sophia on the night before Constantinople fell to the Ottoman forces. He had been guarding the last known manuscript of a lost Aristotelian treatise on natural philosophy. Three people had been sheltering in the Hagia Sophia that night. The manuscript pages were scattered but present — the killer had been interrupted.",
+    "emptyState": "The last night of Byzantium. A manuscript that will not survive tomorrow. Find who came for it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Father Konstantinos",
+            "icon": "✝️",
+            "detail": "A Greek Orthodox priest — had been sheltering in the Hagia Sophia and had known about the manuscript's significance for months."
+          },
+          {
+            "name": "Marco Barbaro",
+            "icon": "⚓",
+            "detail": "A Venetian merchant sailor — had been sheltering in the city and had connections to European collectors who would have paid enormously for the manuscript."
+          },
+          {
+            "name": "Theodora Kantakouzene",
+            "icon": "📚",
+            "detail": "A noblewoman and scholar — had been working alongside Nikephoros on the manuscript's transcription for weeks."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Nave of the Hagia Sophia",
+            "icon": "📜",
+            "detail": "Where Nikephoros was found — lamp overturned, pages scattered, robes pooled on the marble."
+          },
+          {
+            "name": "The Gallery Level",
+            "icon": "🏛️",
+            "detail": "The upper level accessible by interior stairs — where someone had been when the lamp had fallen."
+          },
+          {
+            "name": "The South Vestibule",
+            "icon": "🚪",
+            "detail": "The entrance used by those sheltering that night — where arrivals had been noted by the church deacon."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bronze Lamp Stand",
+            "icon": "🕯️",
+            "detail": "A heavy processional lamp stand — blunt force wound consistent with its weighted base."
+          },
+          {
+            "name": "Manuscript Binding Board",
+            "icon": "📜",
+            "detail": "No blood trace on the boards — eliminated."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Manuscript",
+        "text": "The scattered pages represent a text Nikephoros had identified as Aristotle's lost treatise On the Nature of Living Things — a work known only from references in other ancient texts, believed destroyed centuries before. Nikephoros had been transcribing it for three weeks, working from the sole surviving copy. The transcription was sixty percent complete. The original and the partial transcription were both present among the scattered pages — the killer had been searching, not simply stealing. Three pages were missing from the original.",
+        "alone": "The original and the partial transcription were both present but three pages from the original were missing — the killer had been searching for something specific within the manuscript rather than taking the whole.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Three specific pages missing from the manuscript and Marco Barbaro's commercial connections to European collectors together establish a targeted theft — someone who had known the manuscript's specific contents and commercial value had come for the most valuable section."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🕯️",
+        "heading": "The Lamp Stand",
+        "text": "A heavy bronze processional lamp stand — used in liturgical processions — shows blood on its weighted base. Nikephoros had been struck from behind while leaning over the manuscript pages on the writing table. The blow had come from above and behind — consistent with someone approaching from the gallery stairs, which opened directly behind the writing table's position. The gallery had been accessible from the nave.",
+        "alone": "Nikephoros had been struck from behind by someone descending from the gallery stairs — the gallery position above and behind the writing table had provided the approach.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The approach from the gallery stairs and Marco Barbaro's confirmed gallery presence earlier that evening — noted by the deacon when Barbaro had gone up to see the dome — together establish the specific access that the killing's angle had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Father Konstantinos's Night",
+        "text": "Father Konstantinos had been leading prayers in the nave with a group of fifty refugees from the early evening until midnight — confirmed by the church deacon and twenty of the refugees. He had been visible to the entire group throughout. He had not left the prayer group. The killing had occurred between ten PM and midnight based on the lamp's cooling oil. He is definitively cleared.",
+        "alone": "Father Konstantinos had been leading prayers confirmed by twenty witnesses throughout the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Father Konstantinos cleared by twenty witnesses and Theodora Kantakouzene confirmed in the vestibule antechamber together eliminate both other suspects from the gallery approach — only Barbaro's movements after ascending to the gallery are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "⚓",
+        "heading": "Barbaro's Commercial Knowledge",
+        "text": "Marco Barbaro had been a merchant sailor with connections to the Medici banking network and to Florentine collectors. He had been in Constantinople for three months and had visited the Hagia Sophia four times. On his second visit, Nikephoros had shown him the manuscript — attempting to arrange its shipment to Florence for safekeeping. Barbaro had declined to help with shipment but had seen the manuscript's opening sections. He had known it existed and had known its commercial value.",
+        "alone": "Barbaro had seen the manuscript and had known its commercial value — his Medici connections had given him specific knowledge of what the manuscript would be worth to Florentine collectors.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Barbaro's knowledge of the manuscript's commercial value and the three missing pages being from the treatise's most significant section — the cosmological argument — together confirm the targeted theft had required prior knowledge of the specific section's importance."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "⚓",
+        "heading": "Barbaro at the Gallery",
+        "text": "The church deacon confirms Barbaro had ascended to the gallery at approximately nine PM — he had said he wanted to see the dome's mosaics by candlelight before the city fell. He had not been seen descending. The deacon had been at the south vestibule throughout and had not seen Barbaro leave the building. The gallery's staircase descended directly behind the writing table where Nikephoros had been working.",
+        "alone": "Barbaro had ascended to the gallery at nine PM and had not been seen descending — the gallery staircase descended directly behind Nikephoros's working position.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The killing's approach from the gallery stairs and Barbaro confirmed ascending to the gallery without a confirmed descent together establish the physical position — he had been in the gallery above and behind the writing table at the time of the killing."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "⚓",
+        "heading": "The Three Missing Pages",
+        "text": "Nikephoros's own index of the manuscript — found among the scattered pages — identifies the missing three pages as covering the treatise's central cosmological argument: Aristotle's reasoning on the relationship between celestial motion and terrestrial life. This section had been the most philosophically significant and had been the section Barbaro had specifically asked about during his second visit, asking Nikephoros to explain its content in detail.",
+        "alone": "The three missing pages were the cosmological argument section — the specific section Barbaro had asked Nikephoros to explain during his second visit.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Barbaro's commercial Medici connections and his specific interest in the cosmological argument section together confirm the targeted theft had been commercially motivated and had been directed at the pages most likely to attract Florentine philosophical collectors."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Theodora's Evening",
+        "text": "Theodora Kantakouzene had been in the vestibule antechamber from eight PM, writing letters — she had been documenting what she knew of the manuscript's contents from memory, anticipating its loss in the fall. The antechamber was separated from the nave by a heavy curtain. She had heard nothing unusual until she had heard the lamp fall. She had entered the nave and had found Nikephoros. She had not been in the gallery. She is definitively cleared.",
+        "alone": "Theodora had been in the vestibule antechamber writing letters — she had heard the lamp fall and had found Nikephoros. She had not been in the gallery. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Father Konstantinos cleared by twenty witnesses and Theodora cleared in the antechamber together eliminate both other suspects from the gallery — Barbaro's confirmed gallery ascent and unconfirmed descent is the only suspect movement consistent with the approach position."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Manuscript's Fate",
+        "text": "Constantinople fell on May 29th, 1453. The Ottoman forces entered the Hagia Sophia. The scattered manuscript pages — including the original minus three pages and Nikephoros's sixty-percent transcription — were found by Ottoman scholars and taken to the palace library. The original and the partial transcription survive in the Topkapi Palace library, where they were identified by European scholars in 1924. The three missing pages have never been found. Marco Barbaro had escaped Constantinople on a Genoese ship before dawn on May 29th.",
+        "alone": "The manuscript had survived the fall in the Hagia Sophia. Barbaro had escaped before dawn. The three missing pages have never been found.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The three missing pages being the section Barbaro had specifically asked about and his escape before dawn together confirm the three pages had left Constantinople with him — their absence from the Topkapi collection and his dawn escape confirm the targeted theft had succeeded in its specific objective."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Barbaro",
+      "location": "The Nave of the Hagia Sophia",
+      "weapon": "Bronze Lamp Stand"
+    },
+    "epilogue": "Marco Barbaro had ascended to the gallery at nine PM. He had waited. At some point between ten PM and midnight he had descended the gallery stairs behind Nikephoros. He had struck him with the processional lamp stand. He had searched the manuscript for the three pages covering the cosmological argument. He had taken them. He had left the building before the deacon had noticed. He had reached a Genoese ship before dawn on May 29th. Constantinople had fallen that morning. The remaining manuscript pages had been taken to the Topkapi library and had been identified in 1924. The three missing pages have never been found. The Hagia Sophia still stands. It has been a mosque, a museum, and a mosque again. The gold mosaics are still on the dome. The marble columns are still standing. The lamp stand is gone. The three pages have not been found."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #126",
+    "title": "The Last Day",
+    "setting": "Hagia Sophia · Constantinople · Byzantine Empire · May 28th, 1453",
+    "emoji": "📜",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Barbaro killed Nikephoros and took the three pages. But Theodora had been documenting the manuscript from memory — find what she had preserved and what happened to her account.",
+    "emptyState": "Theodora was writing the manuscript from memory in the antechamber. Find what she preserved.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marco Barbaro",
+            "icon": "⚓",
+            "detail": "The killer — gallery approach, three pages taken, dawn escape, pages never found."
+          },
+          {
+            "name": "Father Konstantinos",
+            "icon": "✝️",
+            "detail": "Cleared as killer — prayer group confirmed. His role in the manuscript's survival is newly significant."
+          },
+          {
+            "name": "Theodora Kantakouzene",
+            "icon": "📚",
+            "detail": "Cleared as killer — antechamber confirmed. Had been documenting the manuscript from memory throughout the evening."
+          },
+          {
+            "name": "The Ottoman Scholars",
+            "icon": "📜",
+            "detail": "The institutional recipients of the manuscript's remnant — and what they had done with it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Nave of the Hagia Sophia",
+            "icon": "📜",
+            "detail": "Primary crime scene — Barbaro's killing."
+          },
+          {
+            "name": "The Vestibule Antechamber",
+            "icon": "📚",
+            "detail": "Where Theodora had been — and where her memory documentation had been produced."
+          },
+          {
+            "name": "The Topkapi Palace Library",
+            "icon": "🏛️",
+            "detail": "Where the surviving manuscript had gone — and where Theodora's memory account had also arrived."
+          },
+          {
+            "name": "Venice",
+            "icon": "⚓",
+            "detail": "Where Barbaro had eventually taken the three pages — and where their trail ends."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bronze Lamp Stand",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Barbaro's gallery approach."
+          },
+          {
+            "name": "Manuscript Binding Board",
+            "icon": "📜",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Theodora's Memory Letters",
+            "icon": "📚",
+            "detail": "Not a weapon — but the documentation she had been producing that had partially preserved what the three missing pages contained."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Commercial Value of the Cosmological Argument Pages",
+            "icon": "⚓",
+            "detail": "Barbaro's motive — Medici connections, Florentine collectors, three pages, dawn escape."
+          },
+          {
+            "name": "Preserve the Manuscript Before the Fall",
+            "icon": "📚",
+            "detail": "Theodora's purpose in the antechamber — memory documentation as preservation."
+          },
+          {
+            "name": "The Cosmological Argument's Content From Memory",
+            "icon": "📚",
+            "detail": "What Theodora had written — and how complete her memory of the three missing section had been."
+          },
+          {
+            "name": "The Topkapi Account's Relationship to Theodora's Letters",
+            "icon": "🏛️",
+            "detail": "How the two records had related — and which had been more complete."
+          },
+          {
+            "name": "The Three Pages' Current Location",
+            "icon": "⚓",
+            "detail": "What had happened to the pages Barbaro had taken — and where their trail had gone cold."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📚",
+        "heading": "What Theodora Had Written",
+        "text": "Theodora's letters — eleven pages written in the antechamber that night — describe the manuscript's contents from memory. She had been working on the transcription alongside Nikephoros and had memorised significant portions. Her eleven pages cover approximately forty percent of the complete manuscript's content, including a partial account of the cosmological argument from the three missing pages — she had read those pages many times during the transcription work and had retained substantial portions.",
+        "alone": "Theodora's memory had preserved approximately forty percent of the manuscript's content — including a partial account of the cosmological argument section that Barbaro had stolen.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Theodora's partial memory account of the cosmological argument and the Topkapi manuscript lacking those three pages together confirm her letters had become the primary source for the stolen section's content — her memory had partially filled the gap the theft had created."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Theodora's Fate After the Fall",
+        "text": "Theodora Kantakouzene had been captured during the fall and had been taken to the Ottoman palace as a member of the Byzantine nobility. She had been treated respectfully — Sultan Mehmed II had been known for his interest in Greek scholarship. She had eventually been given her freedom and had settled in Trebizond. She had carried her eleven pages of memory notes with her throughout. They had arrived at the Topkapi library in 1458, five years after the fall, donated by Theodora herself.",
+        "alone": "Theodora had survived, had been respected for her scholarship, had carried her notes throughout, and had donated them to the Topkapi library in 1458.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Theodora donating her memory notes to the Topkapi library and the Ottoman scholars having already catalogued the main manuscript together confirm the two records had been united in the same collection — the partial memory account had supplemented the incomplete original."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "⚓",
+        "heading": "The Three Pages in Venice",
+        "text": "Barbaro had arrived in Venice in June 1453 with the three manuscript pages. Medici banking records — accessed by scholars in the 1960s — show a transaction in July 1453 between a Venetian named Barbaro and a Florentine agent acting for Cosimo de' Medici: 'three pages of Greek philosophical text, Aristotelian attribution, cosmological content — purchased for 80 florins.' The pages had been in the Medici collection.",
+        "alone": "The three pages had been sold to the Medici for 80 florins in July 1453 — one month after the fall.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The Medici purchase of the three pages and the Medici library's dispersal following the 1494 expulsion of the Medici from Florence together establish the pages' entry into European circulation and the subsequent loss of their precise location."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The 1924 Identification",
+        "text": "European scholars who had identified the Topkapi manuscript in 1924 had also found Theodora's eleven pages in the library's Greek collection. The two documents had been catalogued together. The scholarly assessment: 'The Kantakouzene memory account supplements the Palaiologos manuscript in the section corresponding to pages 47-49 of the original, which are missing from the extant text. The memory account's content is consistent with the surrounding manuscript text and appears to derive from direct knowledge of the original.'",
+        "alone": "Theodora's memory account had been found alongside the manuscript in 1924 and had been identified as the supplement for the three missing pages.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The 1924 identification of both records and the memory account supplementing the stolen section together confirm the full scholarly outcome — the theft had created a gap that Theodora's memory had partially filled, and both had arrived at the same library through different paths over five years."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Manuscript's Current Status",
+        "text": "The Aristotelian manuscript — the Palaiologos text combined with the Kantakouzene supplement — is in the Topkapi Palace Museum library, available to scholars by appointment. The combined text represents approximately ninety percent of the original manuscript. The ten percent gap corresponds to the three stolen pages' most technically complex arguments. Theodora's memory had been approximately forty percent complete for those pages — sufficient for context but not for the technical detail the three stolen pages had contained.",
+        "alone": "The combined text is ninety percent complete — Theodora's memory had filled the contextual gap but not the technical detail. Ten percent of the most complex argument is missing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The ten percent technical gap and the Medici pages' unknown current location together confirm the full scholarly accounting — the manuscript is substantially recoverable but the most precise philosophical arguments remain incomplete without the three pages that have not been found."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "⚓",
+        "heading": "The Pages After the Medici",
+        "text": "The Medici library had been dispersed when the Medici had been expelled from Florence in 1494 — forty-one years after the purchase. Many of its Greek manuscripts had been sold, donated, or lost. The three pages' subsequent history is uncertain. A possible match had appeared in a 1612 Venetian auction catalogue — 'three leaves of Greek text, Aristotelian, philosophical content' — but the lot's buyer had not been recorded. The pages' current location is unknown.",
+        "alone": "The pages' trail ends at the 1612 Venetian auction — the buyer had not been recorded. Their current location is unknown.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The Medici purchase in 1453 and the possible 1612 Venetian auction appearance together confirm the pages had been in European circulation for at least 159 years before their trail had gone cold — they may be in a private collection or institutional library, unidentified."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Theodora's Scholarly Legacy",
+        "text": "Theodora Kantakouzene had continued her scholarly work in Trebizond and had died in 1478. She had trained students in Greek philosophy and had written two original works on Aristotelian method. She had been identified by scholars in the 1920s as a significant figure in the transmission of Byzantine scholarship to the post-1453 Greek diaspora. Her eleven pages of memory notes had been the only surviving evidence of what the three stolen pages had contained until a 2003 digital comparison of her account with the surrounding manuscript text.",
+        "alone": "Theodora had continued as a scholar until her death in 1478 — her memory notes had been the only evidence of the three stolen pages' content for five centuries.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Theodora donating her notes in 1458 and scholars not fully connecting them to the missing pages until 1924 together confirm the notes had been in the library for 466 years before their significance had been fully understood."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Hagia Sophia Tonight",
+        "text": "The Hagia Sophia was converted to a mosque after the fall of Constantinople, served as a museum from 1934, and was reconverted to a mosque in 2020. The gold mosaics are still on the dome — some covered, some visible. The marble floor is the same marble. The columns are the same columns. The gallery stairs descend behind what is now an open area of the nave. Nikephoros Palaiologos is not commemorated anywhere in the building. Theodora Kantakouzene is in the Topkapi Museum library's catalogue. The three pages have not been found. They may be in a private collection somewhere. Someone who bought a lot of three Greek manuscript leaves at a Venetian auction in 1612 may have descendants who have them and do not know what they are.",
+        "alone": "The three pages may be in a private collection, unidentified, with descendants of a 1612 Venetian auction buyer who do not know what they have. The Hagia Sophia still stands.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The 1612 Venetian auction as the trail's cold point and the pages potentially unidentified in a private collection together confirm the final status — they are findable in principle, unknown in practice, and the technical gap they represent in the surviving Aristotelian text remains open."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Barbaro",
+      "location": "The Nave of the Hagia Sophia",
+      "weapon": "Bronze Lamp Stand",
+      "motive": "Commercial Value of the Cosmological Argument Pages"
+    },
+    "epilogue": "Theodora had been writing in the antechamber. She had survived the fall, had been respected by the Sultan, had carried her eleven pages to Trebizond, and had donated them to the Topkapi library in 1458. The main manuscript had been taken there in 1453. The two records had been in the same library since 1458 and had been connected by scholars in 1924. Barbaro had sold the three pages to the Medici for 80 florins. The Medici had been expelled in 1494. The pages had appeared possibly in a 1612 Venetian auction without a recorded buyer. The combined text is ninety percent complete. The ten percent gap is the most precise philosophical argument. The Hagia Sophia still stands. The three pages have not been found. Someone may have them and not know what they are."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #126",
+    "title": "The Last Day",
+    "setting": "Hagia Sophia · Constantinople · Byzantine Empire · May 28th, 1453",
+    "emoji": "📜",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Barbaro killed Nikephoros and took the pages. Theodora preserved what she could from memory. But Father Konstantinos had known about the theft before anyone else — find what he had seen from the prayer group and what he had done about it.",
+    "emptyState": "Father Konstantinos saw something from the prayer group. Find what — and what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Marco Barbaro",
+            "icon": "⚓",
+            "detail": "The killer — gallery, lamp stand, three pages, dawn escape, Medici sale, 1612 auction, unknown."
+          },
+          {
+            "name": "Theodora Kantakouzene",
+            "icon": "📚",
+            "detail": "Cleared as killer — antechamber, eleven pages, Trebizond, Topkapi donation 1458, died 1478."
+          },
+          {
+            "name": "Father Konstantinos",
+            "icon": "✝️",
+            "detail": "Cleared as killer — prayer group confirmed. Had seen something from the nave and had taken a specific action."
+          },
+          {
+            "name": "The Deacon's Records",
+            "icon": "📋",
+            "detail": "The church administrative records — where Father Konstantinos's action had been documented."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Nave of the Hagia Sophia",
+            "icon": "📜",
+            "detail": "Primary crime scene — and where the prayer group had given Father Konstantinos his observation position."
+          },
+          {
+            "name": "The Gallery",
+            "icon": "🏛️",
+            "detail": "Where Barbaro had been — and what Father Konstantinos had observed from below."
+          },
+          {
+            "name": "The Vestibule",
+            "icon": "🚪",
+            "detail": "Where the deacon had been — and where Father Konstantinos had gone after the killing."
+          },
+          {
+            "name": "The Patriarchate",
+            "icon": "✝️",
+            "detail": "Where Father Konstantinos's account had eventually been sent — and what had happened to it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Bronze Lamp Stand",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Barbaro's gallery descent."
+          },
+          {
+            "name": "Manuscript Binding Board",
+            "icon": "📜",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Marble Column Base",
+            "icon": "🏛️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Father Konstantinos's Observation",
+            "icon": "✝️",
+            "detail": "Not a weapon — but what he had seen from the nave and what he had done with it in the last night of the city."
+          },
+          {
+            "name": "The Deacon's Written Record",
+            "icon": "📋",
+            "detail": "Not a weapon — the document Father Konstantinos had asked the deacon to create after the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Commercial Acquisition of the Cosmological Argument",
+            "icon": "⚓",
+            "detail": "Barbaro's motive — 80 florins, 1612 auction, unknown."
+          },
+          {
+            "name": "Memory Preservation Before the Fall",
+            "icon": "📚",
+            "detail": "Theodora's purpose — eleven pages, Topkapi 1458, scholars 1924."
+          },
+          {
+            "name": "Create a Record of What Had Happened",
+            "icon": "✝️",
+            "detail": "Father Konstantinos's action — asking the deacon to write down what they had both witnessed."
+          },
+          {
+            "name": "The Deacon's Record's Fate",
+            "icon": "📋",
+            "detail": "What had happened to the written account — and where it had gone after the fall."
+          },
+          {
+            "name": "Father Konstantinos's Understanding of the Night's Significance",
+            "icon": "✝️",
+            "detail": "Why he had created the record — his awareness that what had happened mattered beyond the immediate crisis."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Nikephoros and Took the Three Pages",
+            "icon": "⚓",
+            "detail": "Barbaro's confirmed role — dawn escape, Medici sale."
+          },
+          {
+            "name": "Documented the Manuscript From Memory in the Antechamber",
+            "icon": "📚",
+            "detail": "Theodora's role — eleven pages, Topkapi 1458, ninety percent survival."
+          },
+          {
+            "name": "Observed the Gallery and Created a Record of the Killing",
+            "icon": "✝️",
+            "detail": "Father Konstantinos's role — prayer group gave him nave position, deacon's record created after."
+          },
+          {
+            "name": "Wrote the Record at Father Konstantinos's Direction",
+            "icon": "📋",
+            "detail": "The deacon's role — the written account of the evening."
+          },
+          {
+            "name": "Identified the Combined Records in 1924",
+            "icon": "📜",
+            "detail": "The European scholars' role — Topkapi identification, Kantakouzene supplement connection."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "What Father Konstantinos Had Seen",
+        "text": "Father Konstantinos's account — preserved in the deacon's written record, found in the Patriarchal archive in 1891 — describes what he had observed from the nave during the prayer: 'At some point past the second hour of the evening, I observed the Venetian who had gone to the gallery descend the gallery stairs. He moved quickly. He was carrying papers held against his body under his arm. He went toward the south vestibule. Shortly after, I heard the lamp fall. I knew then what had occurred and what the papers had been.'",
+        "alone": "Father Konstantinos had seen Barbaro descend from the gallery with papers and had understood what had happened when the lamp had fallen — his nave position during the prayer had given him the observation point.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Father Konstantinos seeing Barbaro descend with papers and connecting it to the lamp sound together confirm he had understood the killing in real time — his observation had been the most direct witness account of the theft's execution."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "What Father Konstantinos Had Done",
+        "text": "After the killing had been discovered, Father Konstantinos had found the deacon and had asked him to write down what they had both witnessed. The deacon's account: 'The priest told me to write what had happened and to include what he had seen from the nave. He said: tomorrow this city ends. Someone must know what happened here tonight. Write it. Seal it. Get it to the Patriarchate if you can.' The deacon had written the account and had sealed it before dawn.",
+        "alone": "Father Konstantinos had understood the night's documentary significance and had directed the deacon to create a written record before the city fell — 'tomorrow this city ends, someone must know what happened here tonight.'",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Father Konstantinos's directive to create a record and the deacon managing to get the sealed account to the Patriarchate before dawn together confirm the record had been created and had survived independently of the manuscript and Theodora's notes."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Deacon's Record's Journey",
+        "text": "The deacon had sealed the account and had given it to a Genoese sailor departing on the same pre-dawn ships that Barbaro had used. The sailor had carried it to Genoa, where it had been delivered to the Greek community there. The Greek community had forwarded it to the Constantinople Patriarchate in exile in Rome. It had been in the Roman Patriarchal archive until the Patriarchate's return to Constantinople in 1454, when it had been transferred to the Constantinople archive. It had been there since 1454, unexamined, until 1891.",
+        "alone": "The deacon's record had traveled from Constantinople to Genoa to Rome to Constantinople in one year — arriving in the same city it had originated from, via exile.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The record traveling the full exile circuit and returning to Constantinople in 1454 and remaining unexamined until 1891 together confirm the document had followed the Patriarchate's own exile journey — arriving home the same year the Patriarchate had and then sitting unexamined for 437 years."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "The 1891 Discovery",
+        "text": "A Greek archivist cataloguing the Constantinople Patriarchal archive in 1891 had found the sealed deacon's record. The account had named Barbaro, had described the gallery observation, and had described the papers taken under his arm. The archivist had not connected it to the Topkapi manuscript — the two archives had not been in communication. The record had been catalogued as 'eyewitness account of events in the Hagia Sophia, May 28-29 1453' and had been made available to scholars. Scholars connecting it to the Topkapi manuscript had occurred in 1924, when the same team had examined both.",
+        "alone": "The deacon's record had been found in 1891 and catalogued but not connected to the Topkapi manuscript until 1924 — thirty-three years of parallel existence before the connection had been made.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The deacon's record found in 1891 and connected to the Topkapi manuscript in 1924 and Theodora's notes also connected in 1924 together confirm 1924 had been the year when all three records — the original manuscript, Theodora's supplement, and the deacon's eyewitness account — had been assembled into a single scholarly understanding."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Father Konstantinos's Final Night",
+        "text": "Father Konstantinos had remained in the Hagia Sophia after directing the deacon. He had continued leading prayers until dawn. He had been in the Hagia Sophia when the Ottoman forces had entered. He had been taken prisoner and had died in custody six weeks after the fall — the record does not specify the cause. He had not known whether the deacon's account had survived. He had created the record on the last night of the city and had not lived to know it had reached its destination.",
+        "alone": "Father Konstantinos had died in Ottoman custody six weeks after the fall without knowing the record had survived — he had created it on the last night and had not lived to know it had arrived.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Father Konstantinos directing the creation of the record and dying without knowing it had survived together confirm the full weight of his action — he had understood the night's documentary significance, had acted on it, and had not lived to see the result."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three Records Combined",
+        "text": "In 1924, the three records had been identified and combined by a team of European scholars working in Istanbul: the Palaiologos manuscript (Topkapi, 1453), the Kantakouzene supplement (Topkapi, 1458), and the deacon's eyewitness account (Constantinople Patriarchal archive, 1454). The deacon's account had been the first record to name Barbaro as the killer and to describe the three pages being taken. It had been written five hours after the killing, sealed before dawn, and had arrived in the same archive that would receive the Kantakouzene supplement four years later.",
+        "alone": "Three records, three paths, one archive system — the deacon's account naming Barbaro had been written five hours after the killing and had arrived at the archive four years before Theodora's supplement.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The deacon's account arriving in 1454 and the Kantakouzene supplement arriving in 1458 and both being connected to the main manuscript in 1924 together confirm the full assembly timeline — the three records had been in proximity for 466 years before the connection had been understood."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📜",
+        "heading": "What the Three Records Together Establish",
+        "text": "The three combined records establish: what the manuscript contained (the Palaiologos text and the Kantakouzene supplement); who had killed Nikephoros and why (the deacon's account naming Barbaro and describing the commercial theft); and what had been taken (the deacon's account combined with the index gap confirming the three cosmological pages). The only thing not established is where the three pages are now. The records are in the Topkapi Museum and the Constantinople Patriarchal archive respectively. Both are accessible to scholars.",
+        "alone": "The three combined records establish everything except the pages' current location. Both archives are accessible to scholars.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The combined records establishing everything except the pages' location and the 1612 auction being the trail's cold point together confirm the final state — the scholarly picture is complete except for one gap that requires finding three manuscript leaves that may be unidentified in a private collection."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Last Night's Full Accounting",
+        "text": "May 28th, 1453: Nikephoros had been guarding the last Aristotelian text. Barbaro had come for the cosmological section. Theodora had been writing from memory in the antechamber. Father Konstantinos had been leading prayers and had watched the gallery. The deacon had written what he had been told and had sealed it before dawn. Constantinople had fallen at dawn. The manuscript had been taken to the Topkapi. The record had traveled to Genoa and Rome and home. Theodora had arrived in Trebizond and had lived twenty-five more years. Barbaro had sold three pages for 80 florins. The three pages are somewhere. The Hagia Sophia still stands. Father Konstantinos died without knowing the record had survived. It survived.",
+        "alone": "Father Konstantinos died without knowing. The record survived. The Hagia Sophia still stands. The three pages are somewhere.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Father Konstantinos dying without knowing the record had survived and the record having survived and being found in 1891 together confirm the final element — the act of documentation on the last night of the city had been preserved, had traveled the exile circuit, had returned home, and had been found 437 years later by an archivist doing routine catalogue work."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Marco Barbaro",
+      "location": "The Nave of the Hagia Sophia",
+      "weapon": "Bronze Lamp Stand",
+      "motive": "Commercial Value of the Cosmological Argument Pages",
+      "accomplice": "Documented the Manuscript From Memory in the Antechamber"
+    },
+    "epilogue": "Father Konstantinos had seen Barbaro descend from the gallery with papers under his arm. He had heard the lamp fall. He had understood. He had found the deacon and had said: tomorrow this city ends, someone must know what happened here tonight. The deacon had written it and had sealed it before dawn. Father Konstantinos had continued leading prayers until the Ottoman forces had entered. He had died in custody six weeks later without knowing the record had survived. The record had traveled to Genoa, Rome, and back to Constantinople in one year. It had been in the archive since 1454. It had been found in 1891. It had been connected to the Topkapi manuscript and Theodora's notes in 1924. The three pages are somewhere. The Hagia Sophia still stands. The record survived. Father Konstantinos died without knowing. It survived."
+  }
+}

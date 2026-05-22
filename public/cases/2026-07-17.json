@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Venice, 1743. Carnival. Everyone is masked. A senator dead in his palace during the ridotto. And three suspects — none of whom will remove their mask. 🎭🔍 Case #120 — The Ridotto. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Venice 1743 Carnival, a dead senator, three suspects all in masks, and the one clue that tells you which mask was real. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1743 Venice Carnival palace interior during the ridotto, gilded mirrors and candlelight, three masked figures in bauta and moretta disguise, a senator's black robe on the floor beside an overturned candelabra, playing cards scattered from an interrupted game. Baroque opulence and masked menace. Style of Pietro Longhi meets Tiepolo.",
+    "animationPrompt": "Slow pan through a 1743 Venice Carnival palace interior during the ridotto. Gilded mirrors. Candlelight. Masked figures. Playing cards scattered from an interrupted game. The camera finds a senator's black robe on the floor and an overturned candelabra. The masks watch. The candles still burn. Fade to black.",
+    "hashtags": [
+      "#Venice1743",
+      "#VeniceCarnival",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #120",
+    "title": "The Ridotto",
+    "setting": "Ca' Morosini · Venice · Republic of Venice · 1743",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Senator Marco Morosini was found dead during the ridotto — the masked gambling party — in the card room of his own palace. Three guests had been in the card room when the candelabra had been overturned. All three were masked and refused to unmask at the time of discovery. The senator had been about to cast a deciding vote on a trade concession that would have benefited one party and ruined another.",
+    "emptyState": "Three masked guests. One dead senator. Find which mask hid the killer.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "The Bauta Mask",
+            "icon": "🎭",
+            "detail": "A figure in the full white bauta mask and black tabarro cloak — who had been seated across from the senator at cards."
+          },
+          {
+            "name": "The Moretta Mask",
+            "icon": "🌹",
+            "detail": "A figure in the black moretta oval mask — who had been standing at the window when the candelabra fell."
+          },
+          {
+            "name": "The Volto Mask",
+            "icon": "✨",
+            "detail": "A figure in the plain white volto mask — who had been at the refreshment table when the commotion occurred."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Where the senator was found — cards scattered, candelabra overturned, masks present."
+          },
+          {
+            "name": "The Grand Salon",
+            "icon": "🎭",
+            "detail": "The main ridotto gathering — where most guests had been during the incident."
+          },
+          {
+            "name": "The Mezzanine Passage",
+            "icon": "🚪",
+            "detail": "The corridor connecting the card room to the palazzo's service entrance — used for a discrete exit."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Candelabra Spike",
+            "icon": "🕯️",
+            "detail": "The iron spike of an overturned floor candelabra — penetrating wound to the senator's side consistent with the spike's profile."
+          },
+          {
+            "name": "Card Table Edge",
+            "icon": "🃏",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Decanter Base",
+            "icon": "🍶",
+            "detail": "No blood trace on any decanter — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🃏",
+        "heading": "The Trade Concession Vote",
+        "text": "The senator had been scheduled to cast the deciding vote on a Levantine trade concession the following morning — a vote that would have given the concession to the Morosini family's rivals, the Contarini, at the expense of the Grimani trading house. Three families had interests: Contarini stood to gain significantly; Grimani stood to lose significantly; and the Barozzi family had a smaller but real interest in the concession's terms. All three families had members present at the ridotto.",
+        "alone": "Three families had interests in the vote — Contarini to gain, Grimani to lose, Barozzi with a smaller stake. All three had members present.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The vote's specific stakes — Grimani losing significantly — and the Bauta mask's identity as a Grimani family member together establish the most acute motive among the three masked suspects."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🕯️",
+        "heading": "The Candelabra Spike",
+        "text": "The floor candelabra — iron, ornate, approximately five feet tall — had been overturned. Its upper decorative spike had pierced the senator's side as he had fallen against it or been pushed into it. The wound is consistent with the spike's profile and the candelabra's height. The senator had been pushed or had fallen against the candelabra from his left side — the force had come from his right.",
+        "alone": "The senator had been pushed or had fallen against the candelabra from his right side — the force had come from his right, consistent with someone seated to his right at the card table.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The force coming from the senator's right and the Bauta mask having been seated to the senator's right at the card table together establish the specific seating position that had produced the wound's angle."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "The Moretta's Position",
+        "text": "Three guests in the grand salon confirm they had seen the moretta-masked figure at the window overlooking the Grand Canal from approximately nine PM until the commotion at ten PM — nearly an hour. The moretta mask requires the wearer to hold it in place with a button clenched between the teeth, preventing speech. The moretta had been standing in silence at the window for the full hour before the incident. She — the moretta was visibly female — is definitively cleared.",
+        "alone": "The moretta-masked woman had been at the window for an hour before the incident — confirmed by three grand salon guests. The moretta mask prevents speech. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The moretta cleared at the window and the volto mask confirmed at the refreshment table from nine-thirty PM together eliminate both other suspects from the card table — only the bauta had been seated at the card table with the senator."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Unmasking the Bauta",
+        "text": "The Serenissima's officers — the Signori di Notte — had authority to require unmasking during a criminal investigation even during Carnival. When ordered to unmask, the bauta-masked figure had revealed Alvise Grimani, second son of the Grimani trading house. He had been the person seated to the senator's right during the card game. He had the specific seating position consistent with the wound's angle.",
+        "alone": "Alvise Grimani had been under the bauta mask — seated to the senator's right, in the position consistent with the wound's direction.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The Grimani family standing to lose significantly from the vote and Alvise Grimani confirmed as the bauta figure seated to the senator's right at the card table together establish both motive and position — the person most financially threatened had been in the exact position from which the fatal force had come."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "The Card Game's Sequence",
+        "text": "A fourth guest — who had briefly entered the card room during the game to retrieve a dropped item — confirms the seating arrangement: the senator at the table's head, the bauta to his right, the volto to his left, an empty chair across. The senator had been losing heavily at cards that evening. He had made a comment about the following morning's vote in relation to the game's stakes. The bauta had said nothing in response. The guest had left the card room. The commotion had occurred shortly after.",
+        "alone": "The senator had mentioned the following morning's vote in the context of the card game — the bauta had responded with silence. The commotion had followed shortly after.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Alvise Grimani confirmed as the bauta and the senator's card-game comment about the vote provoking silence from the bauta together confirm the specific trigger — the vote had been mentioned in the bauta's presence and the escalation had followed immediately after the fourth guest had left."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🕯️",
+        "heading": "The Candelabra's Position",
+        "text": "The candelabra had been positioned to the senator's left at the table's head — the side away from the bauta's seating position. For the senator to have fallen against the candelabra from the right, the force had come from his right side. This is consistent with the bauta pushing the senator from his seated right-side position. The angle eliminates the volto, who had been to the senator's left and who was confirmed at the refreshment table at the relevant time.",
+        "alone": "The candelabra's position and the wound's angle together require the force to have come from the senator's right — the bauta's position, not the volto's.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The wound's angle requiring force from the right and Alvise Grimani confirmed as the bauta to the senator's right together confirm the spatial geometry — the position and the wound had been consistent."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "✨",
+        "heading": "The Volto's Evening",
+        "text": "The volto-masked figure had been at the refreshment table from nine-thirty PM — confirmed by the palace steward who had served him twice. He had been there when the commotion had occurred. He had been the first to enter the card room after the senator had fallen. He had been unmasked as Giovanni Contarini, who had stood to gain from the vote. He had not been in the card room during the incident. He is definitively cleared.",
+        "alone": "Giovanni Contarini, the volto, had been at the refreshment table confirmed by the palace steward — he had not been in the card room during the incident. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The moretta cleared at the window and Giovanni Contarini cleared at the refreshment table together eliminate both other suspects from the senator's right side at the card table — Alvise Grimani's bauta had been the only figure in the position from which the fatal force had come."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🃏",
+        "heading": "The Vote's Outcome",
+        "text": "With the senator dead, the trade concession vote had been postponed. A replacement senator had been appointed two weeks later. The concession had been awarded to the Contarini — the vote had gone as the dead senator had intended, despite his death. Alvise Grimani had received ten years in the prison beneath the Doge's Palace — accessible via the Bridge of Sighs. The Grimani trading house had lost the concession regardless. The killing had not changed the vote's outcome.",
+        "alone": "The concession had gone to the Contarini anyway — the killing had not changed the outcome Alvise had been trying to prevent. He had received ten years.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The Grimani family losing the concession regardless of the killing and Alvise receiving ten years confirm the killing's futility — the outcome he had murdered to prevent had occurred anyway through a replacement senator, and he had faced the Bridge of Sighs for a result he had not changed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "The Bauta Mask",
+      "location": "The Card Room",
+      "weapon": "Candelabra Spike"
+    },
+    "epilogue": "Alvise Grimani had been under the bauta mask, seated to the senator's right. The senator had mentioned the following morning's vote during the card game. The fourth guest had left the card room. Alvise had pushed the senator from the right. The senator had fallen against the candelabra. The spike had been the instrument. Alvise had been ordered to unmask by the Signori di Notte and had complied. He had received ten years in the prison beneath the Doge's Palace. The concession had been awarded to the Contarini regardless. The vote had gone as the senator had intended. The Grimani trading house had lost the concession. The Bridge of Sighs had been the view from the prison. The killing had changed nothing."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #120",
+    "title": "The Ridotto",
+    "setting": "Ca' Morosini · Venice · Republic of Venice · 1743",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Alvise Grimani killed the senator and the vote went against him anyway. But Giovanni Contarini — who stood to gain — had arranged the ridotto invitation list. Find what Contarini had arranged and whether he had anticipated the killing.",
+    "emptyState": "Contarini arranged the invitation list. Find what he arranged — and what he expected.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "The Bauta Mask — Alvise Grimani",
+            "icon": "🎭",
+            "detail": "The killer — senator's right, pushed into candelabra, ten years, concession lost anyway."
+          },
+          {
+            "name": "The Moretta Mask",
+            "icon": "🌹",
+            "detail": "Cleared as killer — window confirmed, moretta prevents speech. Her identity and Contarini's use of her is newly examined."
+          },
+          {
+            "name": "The Volto Mask — Giovanni Contarini",
+            "icon": "✨",
+            "detail": "Cleared as killer — refreshment table confirmed. Had arranged the invitation list."
+          },
+          {
+            "name": "The Invitation List's Design",
+            "icon": "📋",
+            "detail": "What Contarini had done in composing the ridotto's guest list — and what outcome he had been engineering."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Primary crime scene — Alvise's killing."
+          },
+          {
+            "name": "The Grand Salon",
+            "icon": "🎭",
+            "detail": "The main ridotto — and where the invitation list had determined who had been present."
+          },
+          {
+            "name": "Contarini's Palazzo",
+            "icon": "🏛️",
+            "detail": "Where the invitation list had been composed — and where Contarini's correspondence reveals his prior arrangements."
+          },
+          {
+            "name": "The Mezzanine Passage",
+            "icon": "🚪",
+            "detail": "The corridor that the moretta had used — and whose use reveals something about her role."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Candelabra Spike",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Alvise's push, senator's right."
+          },
+          {
+            "name": "Card Table Edge",
+            "icon": "🃏",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Decanter Base",
+            "icon": "🍶",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Contarini's Invitation Design",
+            "icon": "📋",
+            "detail": "Not a weapon — but the arrangement that had placed Alvise Grimani in the card room next to the senator."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Trade Concession Vote",
+            "icon": "🎭",
+            "detail": "Alvise Grimani's motive — ten years, concession lost anyway."
+          },
+          {
+            "name": "Engineer a Situation Where Alvise Would Lose Control",
+            "icon": "✨",
+            "detail": "Contarini's possible strategy — placing Alvise next to the senator in an emotionally charged environment."
+          },
+          {
+            "name": "Contarini's Invitation List Design",
+            "icon": "📋",
+            "detail": "What the invitation list had specifically arranged — who had been placed where and with whom."
+          },
+          {
+            "name": "The Moretta's Identity and Role",
+            "icon": "🌹",
+            "detail": "Who the moretta had been and why she had been at the window all evening."
+          },
+          {
+            "name": "Whether Contarini Had Anticipated the Killing",
+            "icon": "✨",
+            "detail": "The investigation's central question — had he engineered a situation or merely a confrontation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Invitation List's Composition",
+        "text": "Contarini's correspondence — examined by the Signori di Notte — shows he had specifically requested that Alvise Grimani receive a ridotto invitation to Ca' Morosini that evening. The invitation had been unusual: the Grimani and Morosini families had been in a long commercial dispute, and Grimani family members were rarely welcome at Morosini events. Contarini had specifically arranged Alvise's presence through an intermediary, without the senator's knowledge.",
+        "alone": "Contarini had specifically arranged Alvise Grimani's invitation to the senator's own ridotto — without the senator's knowledge — placing his family's chief rival at the same event.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Contarini specifically placing Alvise at the senator's ridotto and the senator's card-game comment about the vote provoking the confrontation together confirm Contarini had arranged the conditions — whether he had anticipated the specific outcome is the question."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "✨",
+        "heading": "Contarini's Assessment of Alvise",
+        "text": "Among Contarini's correspondence, a letter to a trusted associate written a week before the ridotto: 'Alvise Grimani is a volatile man with much to lose from tomorrow's vote. If he is placed in the senator's company on the eve of the vote, in an environment where masks permit freedom of action, the situation may develop in ways that serve our interest. I do not direct any specific action. I arrange the conditions.'",
+        "alone": "Contarini had explicitly described his strategy in writing: placing Alvise in the senator's company in a masked environment and waiting for the situation to develop — 'I arrange the conditions.'",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Contarini's letter stating 'I arrange the conditions' and the Signori di Notte finding him legally clear together confirm the same legal ambiguity as prior cases — the arrangement had been deliberate and his foresight of a violent outcome had been plausible, but the criminal threshold had not been met."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "The Moretta's Identity and Role",
+        "text": "When the moretta-masked woman was required to unmask — she had released the button and removed the mask — she had been identified as Lucia Barozzi, of the Barozzi family whose smaller stake in the concession had been noted. She had been placed at the window by explicit arrangement with Contarini — she had been there to observe the card room's activity through the room's interior window and to signal to Contarini at the refreshment table if the situation had developed in a way that required his attention.",
+        "alone": "Lucia Barozzi had been Contarini's observer — placed at the interior window to watch the card room and signal him. She had been part of the arrangement.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Lucia Barozzi as Contarini's observer and Contarini's letter describing 'I arrange the conditions' together confirm the ridotto had been a carefully engineered environment — the moretta's window position had been the observation post, not a casual social choice."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "✨",
+        "heading": "The Signori di Notte's Finding on Contarini",
+        "text": "The Signori di Notte's investigation of Contarini's role: 'Contarini's arrangement of Grimani's invitation and his use of a Barozzi observer demonstrate a deliberate engineering of the evening's conditions. His letter — 'I arrange the conditions' — explicitly anticipates a development that would serve his interest. Whether he had anticipated specifically that Grimani would commit murder is not established. No legal charge in the Republic of Venice at this time covers the creation of conditions conducive to another's crime. Contarini is released.'",
+        "alone": "Contarini is released — no law in 1743 Venice covers the creation of conditions conducive to another's crime. His deliberate engineering had been documented and insufficient for charge.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Contarini released and the concession subsequently awarded to his family despite the killing together confirm his strategy had achieved its objective through the engineered conditions — the outcome had been what he had arranged for, through means that had left him legally untouched."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🃏",
+        "heading": "The Card Game's Design",
+        "text": "Palace records show the card room's seating arrangement for the ridotto had been specified by the palazzo's major-domo — and the major-domo had received instructions for the seating from Contarini, who had co-organised the event. The bauta seat to the senator's right had been specifically designated for Grimani. The volto seat at the refreshment table had been designated for Contarini. The seating had been engineered, not coincidental.",
+        "alone": "The card room seating had been specifically arranged — Alvise to the senator's right, Contarini at the refreshment table — by instructions from Contarini to the major-domo.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Lucia Barozzi at the observation window and Alvise placed at the senator's right by Contarini's seating instructions together confirm the full architecture — the observer, the seat, and the conditions had all been arranged by the same person."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Lucia Barozzi's Account",
+        "text": "Lucia Barozzi's account: 'Contarini told me he expected a conversation between Grimani and the senator that would be worth observing. He asked me to stand at the window and to tap my fan three times if anything significant occurred. I had done so when I had seen the candelabra fall. By the time Contarini had reached the card room, the senator was dead and Grimani was standing with the overturned candelabra beside him. Contarini had looked at me and had said nothing.'",
+        "alone": "Lucia had signaled Contarini with the fan tap — he had arrived to find the senator already dead. His response had been silence.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Contarini's letter anticipating a development that would serve his interest and his silence upon finding the senator dead together confirm the outcome had been consistent with his arranged conditions — whether the silence had been surprise or satisfaction is unrecorded."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "✨",
+        "heading": "Contarini's Subsequent Career",
+        "text": "Giovanni Contarini had received the Levantine trade concession six weeks after the senator's death — awarded by the replacement vote. He had expanded the Contarini trading house significantly over the following decade. In 1751 he had been elected to the Senate himself. He had served until 1768. He had died in 1779. His letter — 'I arrange the conditions' — had been sealed in the Signori di Notte's records and had not been publicly known during his lifetime. It had been opened as part of a broader archive review in 1840.",
+        "alone": "Contarini had received the concession, expanded the trading house, served in the Senate, and died in 1779. His letter had been sealed during his lifetime.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Contarini released and subsequently receiving the concession and reaching the Senate together confirm the full arc of the engineered conditions' outcome — the strategy had worked in every dimension, and the letter had not been known during his lifetime."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Ridotto's Abolition",
+        "text": "The Republic of Venice had abolished the ridotto — the public gambling house — in 1774. Private ridotti in noble palaces had continued but had come under increased regulation. The abolition had been partly motivated by concerns about the masked environment's facilitation of crimes of opportunity. The Ca' Morosini ridotto of 1743 had been cited in the abolition debate's historical record as an example of the masked context enabling violence. The candelabra had been removed from Ca' Morosini in 1744. Venice is still there. The masks are still made.",
+        "alone": "The ridotto's abolition in 1774 had partly cited the masked environment facilitating crimes of opportunity — the Ca' Morosini incident had been in the abolition debate's record. Venice is still there. The masks are still made.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The engineered seating using the masked environment and the abolition debate citing the masked context as facilitating violence together confirm the ridotto's specific vulnerability had been documented — the conditions Contarini had arranged had eventually contributed to the abolition of the institution that had made those conditions possible."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "The Bauta Mask",
+      "location": "The Card Room",
+      "weapon": "Candelabra Spike",
+      "motive": "Prevent the Trade Concession Vote"
+    },
+    "epilogue": "Giovanni Contarini had arranged Alvise Grimani's invitation without the senator's knowledge. He had specified the seating through the major-domo. He had placed Lucia Barozzi at the observation window. He had written 'I arrange the conditions.' Alvise had been placed to the senator's right. The senator had mentioned the vote during the card game. Alvise had pushed him. The candelabra had been to the left. The spike had been the instrument. Lucia had tapped her fan. Contarini had arrived to find the senator dead and had said nothing. He had been released — no law in 1743 Venice covered the creation of conditions conducive to another's crime. The concession had gone to the Contarini. Alvise had received ten years. Contarini had reached the Senate. His letter had been sealed during his lifetime and opened in 1840. Venice had abolished the ridotto in 1774. The masks are still made."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #120",
+    "title": "The Ridotto",
+    "setting": "Ca' Morosini · Venice · Republic of Venice · 1743",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Alvise killed the senator. Contarini arranged the conditions. But Lucia Barozzi had known what Contarini expected to happen — and had agreed to be the observer. Find what Lucia had understood about her role and whether she had tried to prevent the killing.",
+    "emptyState": "Lucia knew what Contarini expected. Find what she understood — and whether she tried to stop it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "The Bauta Mask — Alvise Grimani",
+            "icon": "🎭",
+            "detail": "The killer — senator's right, candelabra spike, ten years, concession lost anyway."
+          },
+          {
+            "name": "The Moretta — Lucia Barozzi",
+            "icon": "🌹",
+            "detail": "Cleared as killer — window confirmed. Had understood Contarini's expectation and had agreed to observe."
+          },
+          {
+            "name": "The Volto — Giovanni Contarini",
+            "icon": "✨",
+            "detail": "Cleared as killer — refreshment table. Arranged conditions, released, concession awarded, Senate 1751."
+          },
+          {
+            "name": "The Barozzi Family's Interest",
+            "icon": "🌹",
+            "detail": "Lucia's family — whose smaller stake in the concession had been her incentive for participating in the arrangement."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Card Room",
+            "icon": "🃏",
+            "detail": "Primary crime scene — and what Lucia had been watching from the window."
+          },
+          {
+            "name": "The Window Position",
+            "icon": "🌹",
+            "detail": "Where Lucia had stood — and what she had seen before tapping the fan."
+          },
+          {
+            "name": "The Mezzanine Passage",
+            "icon": "🚪",
+            "detail": "The exit route — and whether Lucia had considered using it before the candelabra fell."
+          },
+          {
+            "name": "Ca' Barozzi",
+            "icon": "🏛️",
+            "detail": "The Barozzi family palace — where Lucia's correspondence about the arrangement had been written."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Candelabra Spike",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Alvise's."
+          },
+          {
+            "name": "Card Table Edge",
+            "icon": "🃏",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Decanter Base",
+            "icon": "🍶",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Lucia's Fan Signal",
+            "icon": "🌹",
+            "detail": "Not a weapon — but the action she had taken after seeing the candelabra fall, and whether it had been fast enough to matter."
+          },
+          {
+            "name": "Lucia's Prior Knowledge of the Arrangement",
+            "icon": "🌹",
+            "detail": "Not a weapon — what she had understood Contarini expected and what she had chosen to do with that understanding."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Trade Concession Vote",
+            "icon": "🎭",
+            "detail": "Alvise's motive — ten years, concession lost anyway."
+          },
+          {
+            "name": "Engineer the Conditions and Receive the Concession",
+            "icon": "✨",
+            "detail": "Contarini's strategy — 'I arrange the conditions,' concession awarded."
+          },
+          {
+            "name": "Protect the Barozzi Family's Smaller Stake",
+            "icon": "🌹",
+            "detail": "Lucia's incentive — her family's concession interest had been protected by Contarini's promise."
+          },
+          {
+            "name": "Lucia's Understanding of What Contarini Expected",
+            "icon": "🌹",
+            "detail": "How specific her foreknowledge had been — whether she had known violence was the anticipated outcome."
+          },
+          {
+            "name": "Whether Lucia Had Tried to Prevent What She Had Seen",
+            "icon": "🌹",
+            "detail": "The investigation's central question — what she had done between seeing the senator pushed and tapping the fan."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed the Senator Using the Candelabra Spike",
+            "icon": "🎭",
+            "detail": "Alvise's confirmed role — ten years."
+          },
+          {
+            "name": "Arranged the Conditions Through the Invitation and Seating",
+            "icon": "✨",
+            "detail": "Contarini's role — released, concession awarded, Senate."
+          },
+          {
+            "name": "Served as the Observer and Signaled After the Killing",
+            "icon": "🌹",
+            "detail": "Lucia's confirmed role — fan signal, Barozzi stake protected."
+          },
+          {
+            "name": "Designed the Arrangement and Specified Lucia's Position",
+            "icon": "📋",
+            "detail": "The major-domo's role in transmitting Contarini's seating instructions."
+          },
+          {
+            "name": "Replaced the Dead Senator and Cast the Vote Contarini Wanted",
+            "icon": "⚖️",
+            "detail": "The replacement senator's institutional role — the mechanism that had made the killing futile for Alvise and effective for Contarini."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What Lucia Had Understood About Her Role",
+        "text": "Lucia Barozzi's fuller account to the Signori di Notte: 'Contarini told me he expected a conversation between Grimani and the senator that would become heated. He said Grimani was volatile and that the environment — the masks, the night, the eve of the vote — might lead him to do something rash. He said I should observe and signal him if anything significant occurred. I understood that 'something rash' might mean violence. I did not ask him to be more specific. I accepted the position at the window.'",
+        "alone": "Lucia had understood that 'something rash' might mean violence — she had accepted the observer position with that understanding.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Lucia understanding the potential for violence and accepting the observer role together confirm she had been a knowing participant in the arrangement's conditions — not merely a social observer but someone who had understood the stakes."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "witness",
+        "icon": "🌹",
+        "heading": "What Lucia Had Seen Before the Candelabra Fell",
+        "text": "Lucia's account continues: 'Through the interior window I had seen the senator make his comment about the vote. I had seen Grimani's posture change — he had become very still in the way a man does before he does something. I had seen him rise from his chair. I had a moment where I thought — I could tap the fan now, before anything happened. I had Contarini's attention. A tap then might have brought him to the room before the act. I did not tap. I watched. The candelabra fell. I tapped.'",
+        "alone": "Lucia had seen the moment before the killing and had chosen not to tap the fan — she had watched and had tapped after the candelabra had fallen.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Lucia seeing the moment before the killing and choosing not to signal and then signaling after together confirm the decision had been deliberate — she had had the capability to intervene and had not used it before the killing."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Why Lucia Had Not Tapped Earlier",
+        "text": "Lucia: 'If I had tapped when Grimani had risen, Contarini would have entered and the situation would have been defused. The senator would have lived. The vote would have proceeded. My family's stake would have been protected only if the vote went our way. If the senator had voted as intended, we would have received a smaller concession — better than nothing, but not what Contarini had promised us if his family received the full concession. I did not tap because a tap at that moment would have led to a different outcome for my family than silence.'",
+        "alone": "Lucia had not tapped because an early tap would have defused the situation and led to a smaller outcome for the Barozzi than the silence that had allowed the killing to occur.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Lucia's financial calculation determining her non-intervention and the Barozzi family receiving the protected stake through Contarini's concession together confirm the intervention decision had been financially motivated — she had chosen the outcome that had served the Barozzi rather than the outcome that had saved the senator."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "The Signori's Finding on Lucia",
+        "text": "The Signori di Notte's finding on Lucia Barozzi: 'The observer had been present at the interior window during the killing and had possessed the capability to summon assistance that might have prevented the act, by signaling Contarini before the force had been applied. Her decision to withhold the signal until after the killing is consistent with a calculation that the killing's outcome served the Barozzi family's financial interest better than an intervention would have. The moral weight of this non-intervention is significant. No criminal charge covers the wilful non-prevention of murder under the laws of the Republic as currently constituted.' Released.",
+        "alone": "Lucia is released — the wilful non-prevention of murder had not been a criminal offence under 1743 Venetian law. The Signori acknowledged the significant moral weight.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Lucia released and the Signori acknowledging the moral weight together confirm the full pattern across the catalog — the legal system finding the moral failure and being unable to charge it, with the death the mechanism of accountability's absence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "The Barozzi Family's Outcome",
+        "text": "The Barozzi family had received a protected smaller stake in the Levantine concession through Contarini's arrangement — as he had promised in exchange for Lucia's participation. The stake had been formalised in the concession's terms, awarded six weeks after the killing. Lucia had married in 1745 and had moved to the Barozzi's mainland estates. She had not returned to Venice for thirteen years. Her account of the evening had been given to the Signori and had been sealed. It had been opened in 1840 with Contarini's letter.",
+        "alone": "The Barozzi had received the promised stake — Lucia's participation in the arrangement had achieved the family's financial objective. Her account had been sealed until 1840.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Lucia's financial calculation determining her non-intervention and the Barozzi receiving the protected stake through the arrangement together confirm the calculation had been accurate — the non-intervention had produced the financial outcome she had been calculating for."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🌹",
+        "heading": "Lucia's Own Account of Her Moral Position",
+        "text": "From Lucia's sealed account: 'I knew what I was doing when I did not tap. I told myself that Contarini had arranged the conditions and that whatever occurred was his responsibility, not mine. I know now that is not a complete accounting of the matter. I watched a man die when I might have prevented it. I chose not to prevent it because of money. That is the complete accounting. I have written this account because I believe there should be a record of it even if no court will ever see it. The record should exist.'",
+        "alone": "Lucia had written her own moral accounting for the sealed record — she had acknowledged watching a man die when she might have prevented it, for money, and had wanted the record to exist even without a court to receive it.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The Signori finding no criminal charge and Lucia writing her own accounting for the record together confirm the moral architecture — the law had been insufficient and she had supplemented it with a private record that had survived to be opened in 1840."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Three Participants' Outcomes",
+        "text": "Alvise Grimani: ten years beneath the Doge's Palace. The concession went to Contarini regardless. Giovanni Contarini: the concession, the Senate, died 1779, letter opened 1840. Lucia Barozzi: the Barozzi stake, marriage, mainland estates, account sealed 1743, opened 1840. The senator: dead. The killing had been committed by one, arranged by another, enabled by a third. Each had faced different consequences. Only the senator had faced a consequence he had not chosen.",
+        "alone": "Three participants — one in prison, one in the Senate, one on the mainland — and the senator dead. Only the senator had faced a consequence he had not chosen.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Lucia's self-written moral accounting and the three participants' divergent outcomes together confirm the case's final moral structure — the only accounting that had fully named the actions had been written by one of the participants herself, in a sealed record, opened ninety-seven years later."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Venice and the Masks",
+        "text": "The Republic of Venice ended in 1797 — when Napoleon had abolished it. The ridotto had been abolished in 1774, twenty-three years before the Republic's end. The Carnival masks had continued under subsequent administrations. The Ca' Morosini is now a hotel. The Doge's Palace and the Bridge of Sighs are tourist destinations. The masks — the bauta, the moretta, the volto — are still made and sold in Venice. Lucia's sealed account is in the Venetian State Archives. It has been publicly accessible since 1840. Alvise's prison is under the tourists' feet. The canal is still there. The masks are still made.",
+        "alone": "Ca' Morosini is a hotel. The prison is under tourists' feet. Lucia's account is in the Venetian State Archives. The masks are still made.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three participants' divergent outcomes and Venice's physical continuation with the masks still made together confirm the case's closing image — the masks that had made the murder possible are still being made in the city where it occurred, and the account that had named the moral failure is in the archives, publicly accessible since 1840."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "The Bauta Mask",
+      "location": "The Card Room",
+      "weapon": "Candelabra Spike",
+      "motive": "Prevent the Trade Concession Vote",
+      "accomplice": "Served as the Observer and Signaled After the Killing"
+    },
+    "epilogue": "Lucia had seen Alvise rise from his chair and had chosen not to tap the fan. She had watched. The candelabra had fallen. She had tapped. Contarini had arrived to find the senator dead and had said nothing. All three had been released — Alvise the killer had received ten years, Contarini the arranger had received the concession and the Senate, Lucia the observer had received the Barozzi stake and the mainland estates. Lucia had written her own accounting for the sealed record: 'I chose not to prevent it because of money. That is the complete accounting. The record should exist.' The record had been sealed in 1743 and opened in 1840. It is in the Venetian State Archives. Ca' Morosini is a hotel. The prison is under tourists' feet. The masks are still made."
+  }
+}

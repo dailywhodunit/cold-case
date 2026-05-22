@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Berlin, 1932. Weimar's last winter. A political satirist dead in a cabaret dressing room. And a file of names that someone needed before the elections. 🎭🔍 Case #130 — The Last Curtain. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Berlin 1932 Weimar Republic last months, a satirist dead backstage, and a list of names that would have mattered very much in 1933. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1932 Berlin cabaret dressing room, makeup mirror with bulbs and a performer's costume on a chair, a political satirist's manuscript pages scattered on the floor, a file folder of typewritten names and dates beside an overturned schnapps glass, the sound of the orchestra filtering through the thin walls. Weimar's last atmosphere, glamour and menace. Style of Otto Dix meets Marlene Dietrich-era photography.",
+    "animationPrompt": "Slow pan through a 1932 Berlin cabaret dressing room. Makeup mirror with bulbs. A performer's costume. The camera finds political manuscript pages scattered on the floor and a file folder of typewritten names beside an overturned schnapps glass. Orchestra music through the walls. The Weimar Republic has a few months left. Fade to black.",
+    "hashtags": [
+      "#Berlin1932",
+      "#WeimarRepublic",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #130",
+    "title": "The Last Curtain",
+    "setting": "Kabarett der Komiker · Berlin · Germany · November 1932",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Political satirist Ernst Kessler was found dead in his dressing room at the Kabarett der Komiker on the night of his final performance. He had been compiling a file of documented connections between Berlin businessmen and the rising National Socialist movement — names, dates, financial records. Three people had been backstage that evening. The file was missing.",
+    "emptyState": "The file is gone. Berlin is about to change. Find who needed those names buried.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Brandt",
+            "icon": "💼",
+            "detail": "A Berlin industrialist — his name and financial contributions had been documented in Kessler's file."
+          },
+          {
+            "name": "Lotte Voss",
+            "icon": "🎶",
+            "detail": "The cabaret's lead singer and Kessler's collaborator — had seen the file and had known its contents."
+          },
+          {
+            "name": "Hans Richter",
+            "icon": "📰",
+            "detail": "A journalist colleague — had been working with Kessler on the file's publication and had been in the building that evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🎭",
+            "detail": "Where Kessler was found — costume on chair, pages scattered, file missing, schnapps overturned."
+          },
+          {
+            "name": "The Stage",
+            "icon": "🎶",
+            "detail": "Where the performance had been — and where the audience had been seated during the killing window."
+          },
+          {
+            "name": "The Stage Door Alley",
+            "icon": "🚪",
+            "detail": "The rear exit — where the killer had departed and where a witness had seen a figure leaving."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Counterweight",
+            "icon": "⚙️",
+            "detail": "A heavy iron stage rigging counterweight — blunt force wound consistent with its mass used as a bludgeon."
+          },
+          {
+            "name": "Costume Rail",
+            "icon": "🎭",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Schnapps Bottle",
+            "icon": "🥃",
+            "detail": "No blood trace on the intact bottle — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The File's Contents",
+        "text": "Kessler's research notes — recovered from a separate location — describe what the file had contained: documented financial transfers from seventeen Berlin business figures to National Socialist party accounts, meeting records, and two signed statements from insiders. Otto Brandt had been the largest contributor documented — three separate transfers totalling 45,000 Reichsmarks. If published, the file would have named Brandt and sixteen others in a network of business support for a movement most still publicly denied affiliating with.",
+        "alone": "Brandt had been documented as the largest contributor — 45,000 RM in three transfers. The file would have publicly named him and sixteen others in a network they were publicly denying.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Brandt's documented 45,000 RM contribution and his confirmed backstage presence that evening together establish both the specific financial exposure and the physical access — the person most specifically named had been in the building."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⚙️",
+        "heading": "The Stage Counterweight",
+        "text": "A heavy iron counterweight from the stage rigging — used to balance scenery — shows blood on its flat underside. The wound on Kessler's skull is consistent with its mass used as a bludgeon from above while Kessler had been at his dressing table. The counterweight had been taken from the stage rigging mechanism backstage — a location accessible from the dressing room corridor but not from the main stage during a performance.",
+        "alone": "The counterweight had been taken from the backstage rigging mechanism — accessible from the dressing room corridor during the performance, when the stage crew had been focused on the show.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The counterweight taken from the backstage rigging and Otto Brandt's confirmed knowledge of the backstage layout from a prior private tour he had been given together establish the specific spatial knowledge the weapon choice had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎶",
+        "heading": "Lotte Voss's Performance",
+        "text": "Lotte Voss had been on stage performing from nine PM until ten-thirty PM — confirmed by the stage manager, the orchestra conductor, and the audience. She had not been backstage during this period. The killing had occurred between nine-thirty and ten PM based on the body temperature. She is definitively cleared.",
+        "alone": "Lotte had been on stage continuously confirmed by multiple witnesses from nine to ten-thirty PM — she had not been backstage during the killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Lotte cleared on stage and Hans Richter confirmed in the press box together eliminate both other suspects from the backstage dressing room corridor — only Brandt's movements between nine-thirty and ten PM are unconfirmed backstage."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Brandt's Backstage Visit",
+        "text": "The stage doorman confirms Otto Brandt had arrived at the stage door at nine PM — he had been expected, as Brandt was a regular patron who had been given standing backstage access. The doorman had seen him go toward the dressing room corridor. He had not seen Brandt leave through the stage door. A stagehand confirms seeing a well-dressed man matching Brandt's description near the rigging mechanism at approximately nine-twenty.",
+        "alone": "Brandt had been seen at the stage door at nine PM with standing backstage access, had been seen near the rigging mechanism at nine-twenty, and had not been seen leaving through the stage door.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Brandt's 45,000 RM documented in the file and his confirmed backstage presence approaching the rigging mechanism at nine-twenty together establish both the motive and the specific weapon-access location during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "The Stage Door Alley Witness",
+        "text": "A kitchen worker from the adjacent restaurant confirms she had seen a man in a heavy overcoat leaving through the stage door alley at approximately ten PM. She had noted him because he had been moving quickly and had been carrying what appeared to be a folder under his coat. The description matched Brandt's known physical appearance — a large man in his fifties with a characteristic walking manner.",
+        "alone": "A kitchen worker had seen a man matching Brandt's description leaving through the alley at ten PM carrying a folder under his coat — consistent with the timing and the missing file.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Brandt seen entering at nine PM and a matching description leaving at ten PM with a folder under his coat together bracket the killing window — forty minutes from entrance to departure with the file."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Brandt's Prior Backstage Knowledge",
+        "text": "The cabaret's managing director confirms Brandt had been given a backstage tour six weeks earlier — a courtesy extended to major patrons. During the tour, Brandt had specifically asked about the rigging mechanism and had been shown how the counterweights functioned. He had been in the backstage area on at least two prior occasions since then.",
+        "alone": "Brandt had been shown the rigging mechanism's counterweights during a tour six weeks earlier — he had specifically asked about them and had known their location and weight.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The counterweight taken from the backstage rigging and Brandt's confirmed prior knowledge of the mechanism's location and weight from the tour together confirm the specific prior knowledge the weapon choice had demonstrated."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Richter's Press Box",
+        "text": "Hans Richter had been in the press box — the raised journalists' area at the rear of the main hall — from eight-thirty PM until ten-thirty PM, reviewing his notes for the publication he had been planning with Kessler. He had not been backstage. He is definitively cleared.",
+        "alone": "Richter had been in the press box from eight-thirty to ten-thirty PM — he had not been backstage during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Lotte cleared on stage and Richter cleared in the press box together eliminate both other suspects from the dressing room corridor — Brandt's confirmed backstage presence and the alley departure with a folder are the only suspect movements at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The File's Fate and 1933",
+        "text": "The file was never found. On January 30th, 1933, Adolf Hitler was appointed Chancellor of Germany. Otto Brandt had continued his business career under the new government and had received several significant contracts. Hans Richter had published what he could reconstruct from memory of Kessler's research in a Swiss newspaper in December 1932 — a partial account without the documentary evidence the file had contained. The account had been dismissed as unsubstantiated. Richter had emigrated to Switzerland in February 1933.",
+        "alone": "The file had never been found. Brandt had continued under the new government. Richter's partial account without documentation had been dismissed. Hitler had become Chancellor six weeks after the killing.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Brandt's documented network connection and the file's suppression allowing him to continue under the new government together confirm the killing's specific historical consequence — the documentation had been suppressed at the moment when its publication might have mattered most."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Brandt",
+      "location": "The Dressing Room",
+      "weapon": "Stage Counterweight"
+    },
+    "epilogue": "Otto Brandt had arrived at the stage door at nine PM. He had taken the counterweight from the rigging mechanism he had been shown six weeks earlier. He had gone to the dressing room. He had taken the file. He had left through the alley at ten PM. The file had never been found. Hans Richter had published a partial account in Switzerland in December 1932 that had been dismissed for lack of documentation. Hitler had become Chancellor on January 30th, 1933. Brandt had received government contracts. Richter had emigrated in February. Lotte Voss had continued performing in Berlin until 1935, when she had emigrated to Paris. The Kabarett der Komiker had continued until 1935. The last curtain had been Kessler's. The file had been the one that had documented what was coming."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #130",
+    "title": "The Last Curtain",
+    "setting": "Kabarett der Komiker · Berlin · Germany · November 1932",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Brandt killed Kessler and took the file. But Lotte Voss had read the file before the killing and had memorised specific names. Find what she did with what she remembered.",
+    "emptyState": "Lotte had memorised names from the file. Find what she did with them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Brandt",
+            "icon": "💼",
+            "detail": "The killer — rigging knowledge, alley exit, file taken, government contracts 1933."
+          },
+          {
+            "name": "Lotte Voss",
+            "icon": "🎶",
+            "detail": "Cleared as killer — stage confirmed. Had read the file and had memorised specific names."
+          },
+          {
+            "name": "Hans Richter",
+            "icon": "📰",
+            "detail": "Cleared as killer — press box confirmed. Had published a partial reconstruction and had emigrated."
+          },
+          {
+            "name": "The Names Lotte Had Memorised",
+            "icon": "📁",
+            "detail": "What she had retained and what she had done with it — the file's partial survival through memory."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Brandt's killing."
+          },
+          {
+            "name": "The Stage",
+            "icon": "🎶",
+            "detail": "Lotte's confirmed location — and where she had been performing while the killing occurred."
+          },
+          {
+            "name": "Paris",
+            "icon": "🗼",
+            "detail": "Where Lotte had emigrated — and where she had eventually used what she had remembered."
+          },
+          {
+            "name": "A Post-War Archive",
+            "icon": "📁",
+            "detail": "Where Lotte's testimony had eventually been held — and its significance."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Counterweight",
+            "icon": "⚙️",
+            "detail": "Confirmed murder weapon — Brandt's rigging knowledge, prior tour."
+          },
+          {
+            "name": "Costume Rail",
+            "icon": "🎭",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Schnapps Bottle",
+            "icon": "🥃",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Lotte's Memory",
+            "icon": "🎶",
+            "detail": "Not a weapon — but the partial preservation of the file's content through what she had retained."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documentation of His NS Contributions",
+            "icon": "💼",
+            "detail": "Brandt's motive — government contracts, file never found."
+          },
+          {
+            "name": "Preserve What She Had Known Before the File Was Lost",
+            "icon": "🎶",
+            "detail": "Lotte's purpose — the names she had carried out of Germany."
+          },
+          {
+            "name": "Richter's Partial Reconstruction",
+            "icon": "📰",
+            "detail": "The partial published account — dismissed without documentation."
+          },
+          {
+            "name": "The Post-War Context for Lotte's Testimony",
+            "icon": "📁",
+            "detail": "When and where Lotte's memory had become formally relevant."
+          },
+          {
+            "name": "Brandt's Post-War Fate",
+            "icon": "💼",
+            "detail": "What had happened to Brandt after 1945 — and whether Lotte's testimony had affected it."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🎶",
+        "heading": "What Lotte Had Memorised",
+        "text": "Lotte's account given to the Nuremberg follow-up tribunal in 1947: 'Ernst showed me the file three days before he died. He had been excited — he said it was the documentation of something that people needed to see. I read it carefully. I tried to remember as many names as I could. When I heard he had been killed and the file had been taken, I wrote down everything I could remember — seventeen names, approximate amounts, two of the meeting dates. I have carried that list since 1932.'",
+        "alone": "Lotte had read the file three days before the killing and had written down seventeen names, approximate amounts, and two dates from memory after learning of the killing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Lotte's seventeen-name memory list and her testimony to the Nuremberg follow-up tribunal together confirm the file's partial content had survived through her memory and had reached a formal legal setting fifteen years later."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎶",
+        "heading": "Lotte's Emigration and the List",
+        "text": "Lotte Voss had emigrated to Paris in 1935. She had carried the memory list with her. In Paris she had been in contact with German exile networks and had shared the names with several anti-Nazi organisations. The organisations had used the names in their documentation of German business support for the regime. The names had circulated in exile intelligence networks from 1936 onward — including through the British intelligence services, which had received them in 1938.",
+        "alone": "Lotte's list had entered exile intelligence networks from 1936 and had reached British intelligence in 1938 — the names had been in circulation for six years before the war's end.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Lotte's list in British intelligence from 1938 and the post-war denazification proceedings using it together confirm the file's memory had been both preserved and operationally used across the twelve years between the killing and the post-war accountability process."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Brandt's Post-War Position",
+        "text": "Otto Brandt had survived the war as a businessman who had received significant wartime contracts. In 1946 denazification proceedings had assessed him as a 'fellow traveler' — a lesser category than full party member — and had imposed a fine. Lotte's 1947 testimony to the follow-up tribunal had included her memory of his specific documented contribution: 45,000 Reichsmarks in three transfers. The tribunal had reclassified Brandt as a 'major offender.' He had received a more significant penalty and had been barred from business management for ten years.",
+        "alone": "Lotte's testimony had caused Brandt's reclassification from 'fellow traveler' to 'major offender' — her fifteen-year-old memory had changed his legal category.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Lotte's testimony causing Brandt's reclassification and the file that would have documented it never being found together confirm the memory had achieved a partial version of what the documentary evidence would have produced — incomplete but consequential."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Richter's Full Account in 1945",
+        "text": "Hans Richter had returned to Germany in 1945 following the war. He had published a full account of Kessler's research and the file's suppression in a Frankfurt newspaper in October 1945 — the first time the complete story had been told in Germany. The account had named Brandt and had referenced Lotte's surviving memory list. The publication had contributed to the denazification inquiry. Richter had died in Frankfurt in 1952.",
+        "alone": "Richter had published the complete account in Germany in October 1945 — the first time the full story of the file and its suppression had been publicly told in Germany.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Richter's 1945 publication naming Brandt and Lotte's 1947 testimony causing his reclassification together confirm the two survivors had both contributed to the post-war accountability — the journalist's publication and the singer's memory had together produced the consequence the file's destruction had been designed to prevent."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎶",
+        "heading": "The Nuremberg Follow-Up Tribunal",
+        "text": "The Nuremberg follow-up tribunals — twelve separate proceedings following the main Nuremberg trial — had examined industrialists and business figures who had supported the Nazi regime. Lotte had testified to the tribunal examining industrial collaboration in 1947. Her testimony had been the primary evidence connecting Brandt to the documented financial network Kessler had been assembling. The documentary evidence — the file — had never been produced. Her memory had been the only surviving record of what the file had contained.",
+        "alone": "Lotte's memory had been the only surviving record of the file's contents at the tribunal — the primary evidence in the absence of the destroyed documentation.",
+        "links": [
+          {
+            "with": "D1",
+            "insight": "Lotte memorising seventeen names from the file three days before the killing and her testimony being the only surviving record at the 1947 tribunal together confirm the fifteen-year chain from memory to legal testimony — the file's destruction had not destroyed its content."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎶",
+        "heading": "Lotte's Later Life",
+        "text": "Lotte Voss had returned to Germany in 1946 and had resumed performing. She had testified to the tribunal in 1947. She had continued her career until 1961 and had retired to Munich. She had been interviewed by historians studying Weimar-era culture in 1968 and had described the full history of the file and what she had carried out of Germany. She had died in Munich in 1974. Her 1947 tribunal testimony had been in the public record. Her 1968 historical interview had been published in an academic collection in 1975.",
+        "alone": "Lotte had returned, testified, continued performing, and given the 1968 historical interview — the full account had been in multiple public records before her death in 1974.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Richter publishing the complete account in 1945 and Lotte's testimony in 1947 and interview in 1968 together confirm the story had been progressively assembled in public records across the post-war decades — each element arriving at a different time."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The File's Legacy",
+        "text": "The file itself had never been recovered. Kessler's research notes — which had been stored separately from the file and had survived — had confirmed the file's existence and general contents but had not reproduced the specific documentary evidence it had contained. The names Lotte had memorised had been the only direct evidence of the file's specific content. Her memory had been, in the end, the file's surviving form.",
+        "alone": "Lotte's memory had been the file's surviving form — the only direct evidence of its specific content that the killing had failed to destroy.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Lotte's memory as the file's surviving form and the Kabarett der Komiker's closure in 1935 together confirm the full span — the cabaret that had been the last stage had closed three years after the killing, and the file had survived only through the memory of the woman who had been performing when the killing had occurred."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Kabarett der Komiker",
+        "text": "The Kabarett der Komiker had continued performing until 1935, when it had been forced to close under National Socialist cultural restrictions. Its last performance had been in March 1935. Ernst Kessler's name had appeared in a commemorative programme produced by a German cabaret history project in 1985 — listed as 'performer and satirist, died November 1932.' The Kabarett's address on the Kurfürstendamm is now a different building. The Weimar Republic had ended on January 30th, 1933 — six weeks after the killing. The last curtain Kessler had performed before had been his. The file had survived as a memory for forty-two years.",
+        "alone": "The Kabarett had closed in 1935. The Weimar Republic had ended six weeks after the killing. The file had survived as Lotte's memory for forty-two years until her death in 1974.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The file surviving as Lotte's memory and the Weimar Republic ending six weeks after the killing together confirm the case's full historical frame — the killing at the end of one era and the memory carrying the evidence across the next era until accountability had been possible."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Brandt",
+      "location": "The Dressing Room",
+      "weapon": "Stage Counterweight",
+      "motive": "Suppress the Documentation of His NS Contributions"
+    },
+    "epilogue": "Lotte had memorised seventeen names, approximate amounts, and two dates three days before the killing. She had written them down after learning Kessler was dead. She had carried the list to Paris in 1935. The names had entered exile intelligence networks and had reached British intelligence in 1938. Richter had published the complete account in Germany in October 1945. Lotte had testified to the Nuremberg follow-up tribunal in 1947 — her memory had been the only surviving evidence of the file's specific contents. Brandt had been reclassified from 'fellow traveler' to 'major offender' and had been barred from business management for ten years. The file had never been found. Lotte had died in Munich in 1974. Her testimony had been in the public record. The Weimar Republic had ended six weeks after the killing. The file had survived as a memory for forty-two years."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #130",
+    "title": "The Last Curtain",
+    "setting": "Kabarett der Komiker · Berlin · Germany · November 1932",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Brandt killed Kessler. Lotte carried the memory out. But Hans Richter had not only published — he had also hidden a copy of two pages from the file that he had made before the killing. Find where he hid them and when they surfaced.",
+    "emptyState": "Richter had a copy of two pages from the file. Find where he hid them — and when they came to light.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Brandt",
+            "icon": "💼",
+            "detail": "The killer — counterweight, file taken, government contracts, reclassified 1947, barred ten years."
+          },
+          {
+            "name": "Lotte Voss",
+            "icon": "🎶",
+            "detail": "Cleared as killer — stage confirmed. Seventeen names memorised, Paris, exile networks, tribunal 1947."
+          },
+          {
+            "name": "Hans Richter",
+            "icon": "📰",
+            "detail": "Cleared as killer — press box confirmed. Had published, had emigrated, had died Frankfurt 1952 — and had hidden a copy of two pages."
+          },
+          {
+            "name": "The Two Hidden Pages",
+            "icon": "📁",
+            "detail": "What Richter had preserved — and what their eventual discovery had added to the record."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dressing Room",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Brandt's killing."
+          },
+          {
+            "name": "The Press Box",
+            "icon": "📰",
+            "detail": "Where Richter had been — and where his copy had been made before the evening."
+          },
+          {
+            "name": "Richter's Frankfurt Apartment",
+            "icon": "🏠",
+            "detail": "Where the hidden pages had been stored — and where they had been found."
+          },
+          {
+            "name": "The German Federal Archive",
+            "icon": "📁",
+            "detail": "Where the pages had eventually been deposited — and their scholarly significance."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Stage Counterweight",
+            "icon": "⚙️",
+            "detail": "Confirmed murder weapon — Brandt's."
+          },
+          {
+            "name": "Costume Rail",
+            "icon": "🎭",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Schnapps Bottle",
+            "icon": "🥃",
+            "detail": "No trace — eliminated."
+          },
+          {
+            "name": "Richter's Hidden Pages",
+            "icon": "📰",
+            "detail": "Not a weapon — the two documentary pages he had preserved and where they had been."
+          },
+          {
+            "name": "The Pages' Discovery After Richter's Death",
+            "icon": "📁",
+            "detail": "Not a weapon — when and how they had been found and what they had contained."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documentary Network",
+            "icon": "💼",
+            "detail": "Brandt's motive — reclassified 1947, barred ten years."
+          },
+          {
+            "name": "Carry the Memory Out of Germany",
+            "icon": "🎶",
+            "detail": "Lotte's action — seventeen names, exile networks, tribunal testimony."
+          },
+          {
+            "name": "Preserve Documentary Evidence Before the File Could Be Lost",
+            "icon": "📰",
+            "detail": "Richter's precautionary action — two pages copied before the killing."
+          },
+          {
+            "name": "Why Richter Had Made the Copy Before the Killing",
+            "icon": "📰",
+            "detail": "His anticipation of the risk — and the timing of the copy."
+          },
+          {
+            "name": "The Pages' Content and Their 1952 Discovery",
+            "icon": "📁",
+            "detail": "What the two pages had contained — and what their discovery had added."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Kessler and Took the File",
+            "icon": "💼",
+            "detail": "Brandt's confirmed role — reclassified, barred."
+          },
+          {
+            "name": "Memorised Seventeen Names and Carried Them to Paris",
+            "icon": "🎶",
+            "detail": "Lotte's role — exile networks, British intelligence 1938, tribunal 1947."
+          },
+          {
+            "name": "Copied Two Pages Beforehand and Hid Them in Frankfurt",
+            "icon": "📰",
+            "detail": "Richter's precautionary role — found 1952 after his death."
+          },
+          {
+            "name": "Published the Complete Account in Germany in October 1945",
+            "icon": "📰",
+            "detail": "Richter's publication role — the first full public account in Germany."
+          },
+          {
+            "name": "Deposited the Pages in the German Federal Archive",
+            "icon": "📁",
+            "detail": "The post-Richter institutional role — scholarly accessibility."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Why Richter Had Made the Copy Before the Killing",
+        "text": "Richter's 1945 account: 'Three days before Ernst died, I had been in his apartment reviewing the file with him. I had a sense — not certainty, but a sense — that the file was in danger. Ernst was planning to perform material from it at the Komiker. I photographed two pages with my press camera while Ernst was in the next room. I photographed the two pages that named Brandt most specifically, with the transfer amounts. I did not tell Ernst. I was not certain enough to alarm him. I was certain enough to make a copy.'",
+        "alone": "Richter had photographed two pages three days before the killing without telling Kessler — anticipating the risk and preserving the most specific documentary evidence.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Richter anticipating the risk three days before the killing and Brandt acting on the night of the performance together confirm Richter's instinct had been correct — the risk had been real and the anticipation had been just barely early enough."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Where Richter Had Hidden the Pages",
+        "text": "Richter's 1945 account continues: 'When Ernst was killed and I understood what had happened, I left Germany in February 1933. I took the photographs with me to Switzerland. When I returned to Germany in 1945, I brought them back. I had them mounted inside the back cover of a large format art book — a Käthe Kollwitz collection I had owned since 1928. I kept the book on my shelf. When I died, the book would go to whoever cleared my apartment. I hoped someone would find them.'",
+        "alone": "Richter had hidden the photographic copies inside a Kollwitz art book — carried through Switzerland and back to Germany, kept on his shelf, intended to be found after his death.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The pages hidden in the art book with the intention that someone would find them and their actual discovery in 1952 together confirm Richter's method had worked exactly as he had designed — the book had been found and the pages had been identified."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The 1952 Discovery",
+        "text": "Richter died in Frankfurt in March 1952. His apartment had been cleared by a former colleague from the exile press network. The colleague had been familiar with Richter's work and had examined the books carefully. He had found the photographic copies inside the Kollwitz collection — two pages showing Brandt's transfers in full documentary form, with dates, amounts, and signatures. He had delivered them to the German Federal Archive in June 1952.",
+        "alone": "The pages had been found by a colleague who had known to look carefully — delivered to the German Federal Archive three months after Richter's death.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The pages found by a colleague familiar with Richter's work and delivered to the Federal Archive in 1952 together confirm the network of trust had functioned as Richter had relied on it — the right person had been the one to clear the apartment."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Pages' Content",
+        "text": "The two photographed pages had contained: Brandt's name with three specific transfer dates and amounts (15,000 RM, 18,000 RM, and 12,000 RM); a reference to a meeting at Brandt's home office on September 14th, 1932; and Brandt's signature on a letter endorsing the use of his factory's facilities for party events. The pages were documentary evidence of exactly the kind the tribunal had lacked in 1947 when Lotte had testified from memory.",
+        "alone": "The two pages had contained Brandt's signature on documentary evidence — the specific proof the 1947 tribunal had not had when Lotte had testified from memory.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The documentary pages found in 1952 and the 1947 tribunal having proceeded on Lotte's memory alone together confirm the temporal gap — the documentary evidence had surfaced five years after the tribunal where it would have been most useful."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📁",
+        "heading": "The Archive's Use of the Pages",
+        "text": "The German Federal Archive had received the pages in 1952 and had catalogued them as: 'Photographic copies of documents relating to business support for NSDAP, November 1932, provenance: H. Richter archive.' The pages had been available to researchers from 1953. Historians studying the denazification process had found them in 1961 and had published an analysis noting that they confirmed Lotte Voss's 1947 testimony in full documentary form. The analysis had been published nine years after the pages had been deposited.",
+        "alone": "The pages had been in the archive from 1953 and had been found and published by historians in 1961 — confirming Lotte's 1947 testimony nine years after the pages had surfaced.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The pages containing Brandt's signature and the 1961 analysis confirming Lotte's testimony together confirm the documentary confirmation had arrived fourteen years after the testimony — memory first, then documentation."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Brandt and the 1952 Pages",
+        "text": "Brandt had been barred from business management following his 1947 reclassification. By 1952 the bar had been in effect for five years. When the pages had been deposited in the Federal Archive in June 1952, Brandt had been seventy-one years old and had been living in reduced circumstances. The pages had confirmed everything the tribunal had found on Lotte's testimony. No new proceedings had been initiated — the existing penalty had been assessed as sufficient. Brandt had died in 1955.",
+        "alone": "No new proceedings had been initiated despite the documentary confirmation — the existing penalty had been sufficient and Brandt had died in 1955 at seventy-four.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The documentary confirmation arriving in 1952 and no new proceedings following together confirm the pages had confirmed the historical record without changing the legal outcome — the memory and the documentation had both pointed to the same conclusion, and the institutional response had treated the first as sufficient."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Three Records' Combined Legacy",
+        "text": "Three records had preserved what the stolen file had contained: Lotte's memory of seventeen names and approximate amounts (carried from 1932, testified 1947). Richter's photographic copies of two documentary pages (hidden 1932, found 1952, archived, published 1961). Richter's 1945 newspaper account (published Germany, referenced the file's history). Together they had reconstructed enough of the file to support a legal reclassification and to provide scholarly confirmation. The full file had never been recovered. The reconstruction had been partial and sufficient.",
+        "alone": "Three records — memory, photographs, account — had partially reconstructed what the killing had been designed to destroy. Partial and sufficient.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three records' partial reconstruction and Kessler's name in a 1985 commemorative programme together confirm the full span — the file had been suppressed in 1932 and had been partially reconstructed through three survivors' actions over the following twenty years, with the historical recognition arriving fifty years after the killing."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Kabarett and Kessler",
+        "text": "Ernst Kessler's name appeared in a German cabaret history commemorative programme in 1985 — 'performer and satirist, died November 1932.' The programme did not describe how he had died or what he had been working on. The German Federal Archive holds Richter's two photographic pages. The archive's digital catalogue describes them as 'documents relating to NSDAP financing, 1932.' Lotte's tribunal testimony is in the Nuremberg trial records, publicly available. Richter's 1945 account is in the Frankfurt newspaper archive. Three records in three archives. The file was never found. Kessler died at the last curtain of the Weimar Republic.",
+        "alone": "Three records in three archives. The file never found. Kessler died at the last curtain. The Weimar Republic ended six weeks later.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three records in three archives and the file never found together confirm the final accounting — the reconstruction had been partial, distributed, and sufficient for accountability, built by three people who had each preserved one piece of what the killing had been designed to destroy."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Brandt",
+      "location": "The Dressing Room",
+      "weapon": "Stage Counterweight",
+      "motive": "Suppress the Documentation of His NS Contributions",
+      "accomplice": "Memorised Seventeen Names and Carried Them to Paris"
+    },
+    "epilogue": "Richter had photographed two pages three days before the killing without telling Kessler. He had carried the copies through Switzerland and back to Frankfurt. He had mounted them inside a Kollwitz art book on his shelf. He had died in March 1952. A colleague from the exile network had found them in June 1952 and had delivered them to the German Federal Archive. The pages had confirmed Lotte's 1947 testimony in full documentary form. No new proceedings had been initiated. Brandt had died in 1955. The pages had been found by historians in 1961 and published. Three records in three archives — memory, photographs, account. The file had never been found. Kessler's name is in a 1985 programme. The Weimar Republic had ended six weeks after the killing. The last curtain had been his."
+  }
+}

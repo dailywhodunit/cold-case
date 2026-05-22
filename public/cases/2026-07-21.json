@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Marrakech, 1956. Morocco has just won independence from France. A French official dead in the medina. And a document that would have reversed everything. 🕌🔍 Case #124 — The Medina. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Marrakech 1956, Morocco's independence, a French official dead in the medina, and a document that would have returned colonial authority. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1956 Marrakech medina courtyard, a riad with intricate tilework and a central fountain, a French official's briefcase open beside a carved wooden door, scattered documents with official French stamps, a mint tea glass overturned on the mosaic floor. Post-independence tension, North African light, the smell of cedar and transition. Style of Henri Cartier-Bresson's Moroccan work meets Yousuf Karsh.",
+    "animationPrompt": "Slow pan through a 1956 Marrakech medina riad courtyard. Intricate tilework. A central fountain. A French official's briefcase open beside a carved wooden door. Documents with official French stamps scattered on the mosaic floor. A mint tea glass overturned. The light is very Moroccan. Something has changed here and something else has just changed. Fade to black.",
+    "hashtags": [
+      "#Marrakech1956",
+      "#MoroccanIndependence",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #124",
+    "title": "The Medina",
+    "setting": "Jemaa el-Fna District · Marrakech · Morocco · 1956",
+    "emoji": "🕌",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "French Resident-General's aide Philippe Moreau was found dead in a riad courtyard in the Marrakech medina three weeks after Morocco's independence. He had been carrying a document outlining a plan to reverse key independence provisions through economic pressure on the new Moroccan government. Three people had known about the document. The briefcase was open and the document was scattered.",
+    "emptyState": "Morocco is three weeks free. The reversal document is scattered. Find who came for it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Youssef Benali",
+            "icon": "🕌",
+            "detail": "A Moroccan nationalist and new government liaison — had been working to secure the independence provisions and had known about the reversal plan."
+          },
+          {
+            "name": "Colette Dumas",
+            "icon": "📋",
+            "detail": "A French journalist — had been investigating the reversal plan for a Paris newspaper and had made contact with Moreau."
+          },
+          {
+            "name": "Hassan Tazi",
+            "icon": "🌿",
+            "detail": "A Marrakech merchant — had connections to both the old colonial administration and the new nationalist government."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Riad Courtyard",
+            "icon": "🕌",
+            "detail": "Where Moreau was found — briefcase open, documents scattered, tea glass overturned."
+          },
+          {
+            "name": "The Souk Passage",
+            "icon": "🛒",
+            "detail": "The medina lane outside the riad — where witnesses had seen visitors arrive."
+          },
+          {
+            "name": "The French Consulate",
+            "icon": "🇫🇷",
+            "detail": "Where the document had originated — and where Moreau had been stationed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Riad Door Bolt",
+            "icon": "🚪",
+            "detail": "A heavy iron bolt removed from the riad's interior door — blunt force wound consistent with its mass."
+          },
+          {
+            "name": "Tea Glass",
+            "icon": "🍵",
+            "detail": "No wound profile match — the glass had been overturned, not used as a weapon."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace on the clasp — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Reversal Document",
+        "text": "The scattered documents describe a French plan — coordinated with sympathetic Moroccan business interests — to create an economic crisis within six months of independence that would force the new government to request French administrative assistance, effectively reinstating key Protectorate functions under a new name. The plan named specific Moroccan officials who had been identified as susceptible to financial pressure. The document bore the Resident-General's office seal.",
+        "alone": "The reversal plan had named specific Moroccan officials susceptible to pressure and bore the Resident-General's seal — its exposure would have been diplomatically catastrophic for France and politically dangerous for the named Moroccan officials.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The document naming specific Moroccan officials and Youssef Benali's role as a new government liaison whose work protected those officials together establish his specific professional stake in the document's suppression or exposure."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🚪",
+        "heading": "The Iron Bolt",
+        "text": "A heavy iron bolt — the type used on traditional riad interior doors — shows blood on its flat striking end. The wound on Moreau's skull is consistent with the bolt used as a bludgeon. The bolt had been removed from its door mounting — the screws had been taken out, not forced. Someone had deliberately unbolted it before using it. The riad's interior architecture had provided the weapon through deliberate preparation.",
+        "alone": "The bolt had been deliberately unbolted from the door before use — the killing had involved preparation specific to the riad's architecture.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate unbolting requiring knowledge of the riad's specific door hardware and Hassan Tazi's confirmed familiarity with the riad — his family had owned it before selling it during the Protectorate period — together establish the specific architectural knowledge the preparation had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Colette Dumas's Afternoon",
+        "text": "Colette Dumas had been at the French Consulate conducting an interview from two PM until four-thirty PM — confirmed by the consulate's appointment register and the press attaché who had received her. She had not been in the medina during the killing window. She is definitively cleared.",
+        "alone": "Dumas had been at the French Consulate from two to four-thirty PM confirmed by the press attaché and the appointment register — she had not been in the medina. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Dumas cleared at the French Consulate and Youssef Benali confirmed at the new government's Marrakech office together eliminate both other suspects from the riad — only Tazi's movements in the medina during the afternoon are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Tazi's Dual Connections",
+        "text": "Hassan Tazi had been a commercial intermediary between the French colonial administration and Moroccan merchants throughout the Protectorate. With independence, he had been developing connections to the new nationalist government. The reversal plan's document had included a list of Moroccan intermediaries whose cooperation the plan had intended to use — Tazi's name was on the list. If the plan had proceeded, he would have been a participant; if it had been exposed, he would have been named as a collaborator.",
+        "alone": "Tazi's name was on the reversal plan's list of intended Moroccan intermediaries — if the plan proceeded, he participated; if it was exposed, he was named. He had been positioned to lose either way.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Tazi's name on the intermediaries list and the document's exposure being catastrophic for named individuals together confirm his personal stake in the document's disappearance specifically — exposure would have named him as a colonial collaborator to the new government he was simultaneously cultivating."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Tazi at the Riad",
+        "text": "A medina vendor confirms he had seen Hassan Tazi entering the riad used as the meeting location at approximately three PM — he had recognised Tazi from their years as neighbours in the souk. Tazi had entered alone. The vendor had not seen him leave. The killing had occurred between three and four PM based on the body's temperature at discovery at four-thirty PM.",
+        "alone": "Tazi had entered the riad at three PM during the killing window — recognised by a longtime medina neighbour who had not seen him leave.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Tazi's name on the intermediaries list and his confirmed three PM entry to the riad during the killing window together establish both the specific motive — his name's exposure — and the confirmed presence at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Tazi's Riad Knowledge",
+        "text": "Land registry records show the riad had belonged to the Tazi family from 1920 to 1943, when it had been sold under pressure during the Protectorate's most restrictive property period. Hassan Tazi had grown up in the riad. He had known its interior architecture — including its door hardware — since childhood. The iron bolt he had used to kill Moreau had been on the same door it had been on when the Tazi family had lived there.",
+        "alone": "Tazi had grown up in the riad — the iron bolt had been on the same door it had been on during his childhood. He had known where it was and how to remove it.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The deliberate unbolting requiring specific architectural knowledge and Tazi having grown up in the riad before its sale under colonial pressure together confirm the specific knowledge the preparation had required — and a biographical connection to the riad that had given it to him."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🕌",
+        "heading": "Benali's Office",
+        "text": "Youssef Benali had been at the new Moroccan government's Marrakech liaison office from one PM until six PM — confirmed by the office manager and three government staff members. He had been coordinating transition administration matters. He had not been in the medina. He is definitively cleared.",
+        "alone": "Benali had been at the government liaison office from one to six PM confirmed by the office manager and three staff — he had not been in the medina. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Dumas cleared at the French Consulate and Benali cleared at the government office together eliminate both other suspects — Tazi's confirmed three PM riad entry is the only suspect movement at the killing location during the window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "The Document's Consequence",
+        "text": "The scattered documents — partially intact despite the briefcase having been searched — were recovered by Moroccan police and submitted to the new government. The reversal plan's exposure had been diplomatically significant: France had officially denied the plan's existence, Morocco had retained its independence provisions, and the named Moroccan officials had been publicly cleared of any collaboration. The plan had been defeated by the document's recovery, not its destruction. Tazi's name had been redacted from the public release at the Moroccan government's request — he had been cooperating with the transition and the redaction had been his reward.",
+        "alone": "The document had been recovered and had defeated the reversal plan. Tazi's name had been redacted from the public release at the government's request — his cooperation with the transition had been his protection.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Tazi positioned to lose either way if the plan proceeded or was exposed and his name redacted from the public release through government cooperation together confirm the irony — the document he had killed to suppress had been recovered and had been used against the plan, and his name had been protected by the government he had been cultivating rather than by the killing."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Hassan Tazi",
+      "location": "The Riad Courtyard",
+      "weapon": "Riad Door Bolt"
+    },
+    "epilogue": "Hassan Tazi had entered the riad at three PM. He had grown up there — the iron bolt had been on the same door it had been on during his childhood, before the Protectorate had made his family sell it. He had removed the bolt. He had killed Moreau. He had searched the briefcase. He had left. The scattered documents had been found with the body. The Moroccan police had submitted them to the new government. The reversal plan had been exposed. France had denied it. Morocco had retained its independence provisions. Tazi's name had been redacted from the public release. He had been cooperating with the transition and the redaction had been his reward. The killing had not protected him. The government's cooperation had. The riad is still in the medina."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #124",
+    "title": "The Medina",
+    "setting": "Jemaa el-Fna District · Marrakech · Morocco · 1956",
+    "emoji": "🕌",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Tazi killed Moreau. The document was recovered and the plan defeated. But Colette Dumas had been investigating the reversal plan — find what she had already discovered before the killing and what she published.",
+    "emptyState": "Dumas had been investigating the reversal plan for weeks. Find what she had — and what she did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Hassan Tazi",
+            "icon": "🌿",
+            "detail": "The killer — childhood riad, iron bolt, document scattered, name redacted, government cooperation."
+          },
+          {
+            "name": "Colette Dumas",
+            "icon": "📋",
+            "detail": "Cleared as killer — French Consulate confirmed. Had been investigating the reversal plan for weeks."
+          },
+          {
+            "name": "Youssef Benali",
+            "icon": "🕌",
+            "detail": "Cleared as killer — government office confirmed. His role in the document's recovery is newly examined."
+          },
+          {
+            "name": "The Moroccan Government's Handling of the Document",
+            "icon": "🇲🇦",
+            "detail": "The institutional response — what the new government had done with the recovered document."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Riad Courtyard",
+            "icon": "🕌",
+            "detail": "Primary crime scene — Tazi's killing."
+          },
+          {
+            "name": "The French Consulate",
+            "icon": "🇫🇷",
+            "detail": "Where Dumas had been — and what she had learned from the press attaché interview."
+          },
+          {
+            "name": "Paris",
+            "icon": "🗼",
+            "detail": "Where Dumas had filed her story — and what had been published."
+          },
+          {
+            "name": "Rabat",
+            "icon": "🇲🇦",
+            "detail": "The new Moroccan capital — where the document had been submitted and what had been done with it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Riad Door Bolt",
+            "icon": "🚪",
+            "detail": "Confirmed murder weapon — Tazi's childhood knowledge."
+          },
+          {
+            "name": "Tea Glass",
+            "icon": "🍵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Dumas's Investigation",
+            "icon": "📋",
+            "detail": "Not a weapon — but what she had discovered before the killing and what she had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress His Name on the Intermediaries List",
+            "icon": "🌿",
+            "detail": "Tazi's motive — name redacted anyway, government cooperation."
+          },
+          {
+            "name": "Break the Reversal Plan Story",
+            "icon": "📋",
+            "detail": "Dumas's journalistic objective — had been investigating for weeks before the killing."
+          },
+          {
+            "name": "What Dumas Had Obtained From the Consulate Interview",
+            "icon": "📋",
+            "detail": "What the consulate press attaché had told her — and whether it had included information about the reversal plan."
+          },
+          {
+            "name": "The Story Dumas Had Filed",
+            "icon": "📋",
+            "detail": "What had been published in Paris — and its relationship to the document's recovery."
+          },
+          {
+            "name": "The Moroccan Government's Use of the Recovered Document",
+            "icon": "🇲🇦",
+            "detail": "How the government had used the document diplomatically — and Benali's role in that use."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Dumas Had Obtained",
+        "text": "Dumas's investigation — documented in her notes found in her hotel room — had been running for three weeks. She had spoken with six sources: two French officials who had denied the plan, a Moroccan nationalist who had confirmed its existence without specifics, two French business figures who had refused to comment, and the press attaché at the consulate on the day of the killing. The press attaché had told her the plan existed but had claimed it had been abandoned. She had not believed the abandonment claim.",
+        "alone": "Dumas had six sources and had not believed the plan had been abandoned — her investigation had been substantially confirmed before the killing had given the story its final element.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Dumas's three-week investigation with six sources and the document's recovery through Tazi's killing together confirm the story had been substantially assembled before the killing — the killing had added the confirmation she had needed."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Dumas Had Published",
+        "text": "Dumas's story had been published in Le Monde four days after the killing. The story had described the reversal plan in detail — naming the Resident-General's office as the source, describing the economic pressure mechanism, and naming the plan's architects. The story had not named the Moroccan officials on the intermediaries list — she had withheld those names to protect her sources and to avoid damaging Morocco's fragile new government. The story had caused significant diplomatic tension between France and Morocco.",
+        "alone": "Dumas had published the reversal plan story in Le Monde four days after the killing — withholding the Moroccan intermediaries' names to protect the new government.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Dumas withholding the Moroccan intermediaries' names and the Moroccan government redacting Tazi's name from the document's public release together confirm parallel name-protection decisions had been made on both sides — each protecting a different set of individuals for different reasons."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🕌",
+        "heading": "Benali's Role in the Document's Use",
+        "text": "Youssef Benali had received the recovered document from Moroccan police and had submitted it to the Foreign Ministry in Rabat. He had also been the government official who had requested Tazi's name be redacted from the public release. His account: 'Tazi was cooperating with our transition work. Naming him publicly as someone who had been on a French collaboration list would have damaged that cooperation without serving any useful purpose. The plan was defeated. That was what mattered.'",
+        "alone": "Benali had requested Tazi's name be redacted because Tazi was cooperating with the transition — the redaction had been transactional.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Benali's transactional redaction of Tazi's name and Tazi having killed to protect that same name together confirm the irony's full structure — the name had been protected by the government through cooperation, and the killing had been unnecessary for that protection."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🇲🇦",
+        "heading": "France's Response",
+        "text": "France had officially denied the reversal plan following Dumas's Le Monde story and the Moroccan government's diplomatic submission of the recovered document. The denial had been implausible given the document's Resident-General seal. The plan had not been implemented. Key independence provisions had been retained. The French Resident-General's aide who had died had been described by the French government as having died 'in circumstances under investigation.' No French official had been prosecuted.",
+        "alone": "France had denied the plan despite the document's seal — the plan had not been implemented, and no French official had been prosecuted.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "France denying the plan without prosecution and Tazi's name protected by Moroccan government cooperation together confirm the full accountability outcome — no French official had faced consequence and the Moroccan intermediary had been protected by the government he had been cultivating."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Story's Role in the Reversal Plan's Defeat",
+        "text": "The reversal plan had been defeated by a combination: Dumas's Le Monde story — based on her three weeks of investigation — had created public pressure before the document's diplomatic submission; the document's recovery and submission to Rabat had provided official evidence; and Morocco's retention of key independence provisions had made the plan's implementation politically impossible after public exposure. All three elements had been necessary. The killing had provided the document — inadvertently, since Tazi had been trying to destroy it.",
+        "alone": "The reversal plan's defeat had required three elements — Dumas's story, the document's recovery, and Morocco's political solidarity. Tazi's killing had inadvertently provided the document by leaving it accessible to discovery.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Benali submitting the recovered document to Rabat and Tazi's killing having left the document discoverable together confirm the killing's ironic consequence — the act meant to suppress the document had been the mechanism of its recovery."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Dumas's Source Protection",
+        "text": "Dumas had withheld the names of her Moroccan sources throughout the story's publication. Her editor at Le Monde had pushed for the names; she had refused. Her stated position: 'These are people who are building a new country. Publishing their names as people who spoke to a French journalist about a French plot would have made them vulnerable to accusations of collaboration with both sides. I withheld the names because journalism that destroys its sources destroys itself.' The names had remained protected.",
+        "alone": "Dumas had withheld her Moroccan sources' names despite editorial pressure — her source protection had been principled and had been maintained.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Dumas withholding the Moroccan officials' names from the published story and the Moroccan government redacting Tazi's name from the official release together confirm the parallel protective decisions had each served a different but compatible purpose — journalism protecting sources, government protecting a cooperating intermediary."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Tazi After the Investigation",
+        "text": "Hassan Tazi had been questioned by Moroccan police as a witness — his medina presence near the riad had been noted. He had denied entering the riad. The vendor who had seen him enter had given a statement; Tazi had denied it. The Moroccan government's cooperation with Tazi had extended to the police investigation — no charge had been brought. He had continued his merchant career and his transition-era connections. He had died in Marrakech in 1978. The riad had been purchased by a French restoration investor in 1965.",
+        "alone": "Tazi had been questioned, had denied the entry, and had not been charged — the government's cooperation had extended to the police investigation. He had died in 1978.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Benali's transactional redaction and the police investigation also finding no charge through government cooperation together confirm the full scope of the protection — the name redaction and the investigation's outcome had both been products of the same transactional cooperation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "The Riad Today",
+        "text": "The riad where Philippe Moreau had been killed was purchased by a French restoration investor in 1965 and is now a boutique hotel. Its TripAdvisor listing describes it as 'a beautifully restored traditional riad in the heart of the historic medina.' The iron door bolt is still on the interior door — restored as part of the property's traditional features. The door hardware is described in the hotel's design notes as 'original nineteenth-century ironwork, carefully preserved.' The Tazi family had lived there until 1943. The bolt is still there.",
+        "alone": "The riad is a boutique hotel. The iron bolt is on the door, described as original nineteenth-century ironwork carefully preserved. The Tazi family had lived there until 1943.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Tazi dying in 1978 having grown up in the riad and the bolt still on the door described as carefully preserved together confirm the final image — the weapon that had killed Moreau is still in the place where Tazi had grown up, described as a design feature by new owners who do not know its history."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Hassan Tazi",
+      "location": "The Riad Courtyard",
+      "weapon": "Riad Door Bolt",
+      "motive": "Suppress His Name on the Intermediaries List"
+    },
+    "epilogue": "Colette Dumas had published in Le Monde four days after the killing — three weeks of investigation, six sources, the consulate press attaché's confirmation. She had withheld the Moroccan officials' names. Benali had submitted the recovered document to Rabat and had requested Tazi's name be redacted. The government's cooperation with Tazi had extended to the police investigation. He had not been charged. He had died in Marrakech in 1978. The riad had been purchased by a French investor in 1965 and is now a boutique hotel. The iron bolt is on the door. It is described as original nineteenth-century ironwork carefully preserved. The Tazi family had lived there until 1943. The bolt is still there."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #124",
+    "title": "The Medina",
+    "setting": "Jemaa el-Fna District · Marrakech · Morocco · 1956",
+    "emoji": "🕌",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Tazi killed Moreau. Dumas published. The plan was defeated. But Youssef Benali had known about the reversal plan for two weeks before the killing — and had chosen not to act through official channels. Find why, and what he had been doing instead.",
+    "emptyState": "Benali knew about the reversal plan for two weeks before the killing. He didn't act officially. Find why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Hassan Tazi",
+            "icon": "🌿",
+            "detail": "The killer — childhood riad, iron bolt, name redacted, died 1978, bolt still on the door."
+          },
+          {
+            "name": "Colette Dumas",
+            "icon": "📋",
+            "detail": "Cleared as killer — French Consulate. Le Monde story, source protection, parallel name withholding."
+          },
+          {
+            "name": "Youssef Benali",
+            "icon": "🕌",
+            "detail": "Cleared as killer — government office confirmed. Had known for two weeks and had not acted officially."
+          },
+          {
+            "name": "Benali's Parallel Strategy",
+            "icon": "🕌",
+            "detail": "What Benali had been doing instead of official channels — and why the killing had changed his plan."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Riad Courtyard",
+            "icon": "🕌",
+            "detail": "Primary crime scene — Tazi's killing."
+          },
+          {
+            "name": "The Government Liaison Office",
+            "icon": "🏛️",
+            "detail": "Benali's confirmed location — and where he had been building his parallel strategy."
+          },
+          {
+            "name": "The French Consulate",
+            "icon": "🇫🇷",
+            "detail": "Where Benali had been making contact — his parallel approach to defeat the plan."
+          },
+          {
+            "name": "Rabat",
+            "icon": "🇲🇦",
+            "detail": "Where the document had gone — and where Benali's strategy had shifted after the killing."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Riad Door Bolt",
+            "icon": "🚪",
+            "detail": "Confirmed murder weapon — Tazi's."
+          },
+          {
+            "name": "Tea Glass",
+            "icon": "🍵",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Benali's Parallel Diplomatic Strategy",
+            "icon": "🕌",
+            "detail": "Not a weapon — but what he had been building before the killing and why the killing had changed it."
+          },
+          {
+            "name": "Benali's Contact Inside the French Consulate",
+            "icon": "🇫🇷",
+            "detail": "Not a weapon — the French official Benali had been working with to defeat the plan from inside."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress His Name and the Document",
+            "icon": "🌿",
+            "detail": "Tazi's motive — name redacted, plan defeated regardless, died 1978."
+          },
+          {
+            "name": "Publish the Reversal Plan Story",
+            "icon": "📋",
+            "detail": "Dumas's journalistic motive — Le Monde, source protection, diplomatic tension."
+          },
+          {
+            "name": "Defeat the Plan Through Diplomatic Isolation Rather Than Exposure",
+            "icon": "🕌",
+            "detail": "Benali's parallel strategy — working inside French consulate contacts to make the plan unworkable."
+          },
+          {
+            "name": "Why Benali Had Not Acted Officially",
+            "icon": "🕌",
+            "detail": "His stated reasoning — official exposure would have hardened French positions, quiet isolation would have killed the plan."
+          },
+          {
+            "name": "How the Killing Had Changed Benali's Strategy",
+            "icon": "🕌",
+            "detail": "The pivoting effect — the document's recovery had shifted from quiet isolation to public exposure."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Moreau and Left the Document Accessible",
+            "icon": "🌿",
+            "detail": "Tazi's confirmed role — inadvertent document exposure, died 1978."
+          },
+          {
+            "name": "Published the Reversal Plan Story With Source Protection",
+            "icon": "📋",
+            "detail": "Dumas's role — Le Monde, parallel name withholding."
+          },
+          {
+            "name": "Worked a Parallel Diplomatic Strategy Before and Submitted the Document After",
+            "icon": "🕌",
+            "detail": "Benali's dual role — quiet isolation before, formal submission after."
+          },
+          {
+            "name": "Protected Tazi Through the Redaction and the Police Investigation",
+            "icon": "🕌",
+            "detail": "Benali's transactional protection — consistent with his pragmatic approach throughout."
+          },
+          {
+            "name": "Provided Dumas With Consulate Access Through His French Contact",
+            "icon": "🇫🇷",
+            "detail": "Benali's indirect role — the press attaché Dumas had interviewed had been Benali's contact."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "Benali's Two-Week Knowledge",
+        "text": "Benali's account to the Moroccan Foreign Ministry in 1957: 'I had learned about the reversal plan from a contact inside the French Consulate two weeks before Moreau was killed. I did not go through official channels because I calculated — and I believe I calculated correctly — that official exposure would have unified French diplomatic opposition against Morocco at a moment when we needed France's economic cooperation. I was working to make the plan unworkable from inside, not to expose it publicly.'",
+        "alone": "Benali had known for two weeks and had been pursuing a parallel strategy of quiet internal undermining — official exposure would have been diplomatically counterproductive.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Benali's quiet isolation strategy and the killing shifting the situation to public exposure together confirm the killing had forced a change in approach — what had been a managed diplomatic operation had become a public confrontation."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "Benali's Parallel Strategy",
+        "text": "Benali had been working with a French Consulate official named Jacques Aumont — a Gaullist who had personally opposed the Algiers-sympathetic reversal plan — to build a coalition of French officials who would refuse to implement the plan when it was activated. Aumont had confirmed five senior French officials' private opposition. The strategy had been progressing. The killing had ended it by forcing public exposure before the coalition had been complete.",
+        "alone": "Benali had been building an internal French opposition coalition through Aumont — the strategy had been progressing and had been made obsolete by the killing's forced public exposure.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Benali's coalition strategy and Dumas's interview with the consulate press attaché having been arranged through Aumont together confirm the full picture — Benali had been working through the consulate, and Dumas had accessed the consulate through the same network."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Dumas's Consulate Access",
+        "text": "The press attaché who had spoken to Dumas on the day of the killing had been Jacques Aumont — Benali's French Consulate contact. Aumont had arranged Dumas's interview and had told her the plan existed but had claimed abandonment — a deliberate partial disclosure designed to give Dumas enough information to investigate further while not triggering immediate public exposure that would have ended Benali's coalition strategy. The day of the killing had been Aumont's calculated partial disclosure, not an accidental interview.",
+        "alone": "Aumont had been Dumas's press attaché — the interview had been a calculated partial disclosure arranged to support Benali's strategy without triggering premature full exposure.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Aumont's calculated partial disclosure and Dumas not believing the abandonment claim together confirm the disclosure had worked as designed — Dumas had been given enough to investigate but not enough to publish immediately, extending the investigation window Benali needed."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "How the Killing Changed Everything",
+        "text": "Benali's 1957 account continues: 'When Moreau was killed and the document was recovered, I had two choices: continue the quiet strategy, which was now impossible because the document was in police hands and would reach the press; or pivot to formal submission and use the document diplomatically. I chose the formal submission. The coalition strategy had worked to build opposition inside the French system. The document's exposure confirmed the opposition's justification. Both strategies had contributed to the plan's defeat — mine before the killing, the document after.'",
+        "alone": "Benali had pivoted from the quiet coalition strategy to formal submission when the killing had made continued quiet impossible — he had assessed both strategies as having contributed to the plan's defeat.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Benali's assessment that both strategies had contributed and the full accounting of the defeat's multiple elements together confirm the investigation's final structure — the plan had been defeated by Benali's quiet coalition, Dumas's publication, and the document's recovery, each operating in sequence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "Benali's Assessment of Tazi",
+        "text": "Benali's account addresses Tazi: 'Tazi killed Moreau for reasons I understand — his name was on the list, he was afraid. He did not know I had already arranged for that list to be made irrelevant through other means. The redaction I arranged was not a reward for killing. It was a reward for the cooperation he had been providing before the killing — cooperation that had been genuinely useful and that the killing had not changed. I separated the redaction from the act. Whether that separation was correct is a question I have thought about.'",
+        "alone": "Benali had separated the redaction from the act, rewarding Tazi's pre-killing cooperation — and acknowledged having thought about whether that separation was correct.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Benali's coalition strategy making Tazi's name on the list already manageable before the killing and the redaction rewarding pre-killing cooperation together confirm the killing had been unnecessary on its own terms — the coalition had been making the list irrelevant before Tazi had acted on it."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Aumont's Fate",
+        "text": "Jacques Aumont had continued working at the French Consulate in Marrakech until 1961, when he had been posted to Dakar. His cooperation with Benali had not been officially acknowledged during his career. In a 1975 memoir, Aumont had described his Moroccan posting as 'the period in which I was most useful to France by working against the policies of those who claimed to represent her.' He had not named Benali. Benali had not named Aumont publicly. The collaboration had remained private until the 1975 memoir.",
+        "alone": "Aumont had described his cooperation without naming Benali in the 1975 memoir. Neither had publicly named the other during the active period.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Aumont's calculated partial disclosure to Dumas and his 1975 memoir describing the cooperation without naming Benali together confirm the collaboration's consistent discretion — both the active strategy and its subsequent accounting had been managed without direct mutual identification."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "The Three Strategies' Combined Outcome",
+        "text": "The reversal plan's defeat had required: Benali's quiet coalition building — which had created internal French opposition; Aumont's calculated partial disclosure to Dumas — which had extended the investigation window; Dumas's three-week investigation and publication — which had created public pressure; and the document's recovery and formal submission — which had provided official evidence. Tazi's killing had provided the document as an unintended consequence. Five actors, five contributions, one outcome. The plan had not been implemented. Morocco had retained its independence provisions.",
+        "alone": "Five actors, five contributions, one outcome — the plan had been defeated by a combination none of its individual contributors had fully controlled or foreseen.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The five-actor defeat structure and Benali's assessment that both strategies had contributed together confirm the full picture — no single element had been sufficient, and the killing that had been meant to suppress the document had been the element that had provided the final piece."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🕌",
+        "heading": "Morocco Today",
+        "text": "Morocco retained its independence. The French Protectorate was formally ended in March 1956. The independence provisions Moreau's document had been designed to reverse are the foundations of the Moroccan state. The riad in the Jemaa el-Fna district is a boutique hotel. The iron bolt is on the door. It is described in the hotel's design notes as original nineteenth-century ironwork carefully preserved. Hassan Tazi is buried in the Marrakech medina. Youssef Benali became a senior figure in Moroccan diplomacy and died in 1991. Colette Dumas received the Prix Albert Londres in 1957 for the reversal plan story. Jacques Aumont died in Paris in 1983. The riad has excellent reviews. The bolt is still there.",
+        "alone": "Morocco is independent. The riad has excellent reviews. Benali died in 1991. Dumas won the Prix Albert Londres in 1957. The bolt is still there.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Benali thinking about whether the separation of redaction from act was correct and Dumas winning the Prix Albert Londres for the story Aumont had helped her access together confirm the full careers that had followed the 1956 events — each participant had continued, and the Morocco they had each contributed to defending had continued with them."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Hassan Tazi",
+      "location": "The Riad Courtyard",
+      "weapon": "Riad Door Bolt",
+      "motive": "Suppress His Name on the Intermediaries List",
+      "accomplice": "Worked a Parallel Diplomatic Strategy Before and Submitted the Document After"
+    },
+    "epilogue": "Youssef Benali had known for two weeks. He had been building an internal French coalition through Aumont. Aumont had arranged Dumas's partial consulate interview. Tazi had killed Moreau for a name that Benali's coalition had already been making irrelevant. The document had been recovered. Benali had pivoted to formal submission. Tazi's name had been redacted for pre-killing cooperation. The coalition and the document together had defeated the plan. Dumas had won the Prix Albert Londres in 1957. Aumont had written his memoir in 1975. Benali had died in 1991 having thought about the separation of redaction from act. Tazi had died in 1978. The riad has excellent reviews. The bolt is still there."
+  }
+}

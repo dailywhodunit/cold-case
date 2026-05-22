@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Gallipoli, 1915. A dispatch rider dead on the peninsula. The message he was carrying would have changed the timing of the Anzac landing. And someone on our side needed that message not to arrive. 🪖🔍 Case #131 — The Peninsula. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Gallipoli 1915, a dead dispatch rider, and a message that would have changed the Anzac landing — killed by someone in the Allied command who needed the intelligence failure to stay hidden. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1915 Gallipoli peninsula command post interior, canvas walls and wooden trestle tables with maps spread out, a dispatch rider's leather messenger bag on the floor with documents spilling out, a kerosene lamp overturned on the map table, the sound of artillery in the distance. War's administrative machinery and its human cost. Style of official WWI photography meets Wilfred Owen's atmosphere.",
+    "animationPrompt": "Slow pan through a 1915 Gallipoli peninsula Allied command post. Canvas walls. Maps on trestle tables. The camera finds a dispatch rider's leather bag on the floor with documents spilling out and a kerosene lamp overturned on the map table. Artillery in the distance. The peninsula is failing. Fade to black.",
+    "hashtags": [
+      "#Gallipoli1915",
+      "#ANZAC",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #131",
+    "title": "The Peninsula",
+    "setting": "Anzac Cove Command Post · Gallipoli Peninsula · Ottoman Empire · 1915",
+    "emoji": "🪖",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Dispatch rider Private Tom Meredith was found dead in the Anzac Cove command post in August 1915. He had been carrying a message from a forward observation post — intelligence about a prepared Ottoman defensive position that would have changed the timing and direction of the planned offensive. Three officers had been at the command post when Meredith arrived. The message had been opened and the intelligence section removed.",
+    "emptyState": "The intelligence was removed. Three officers. The offensive failed. Find who needed the message not to arrive intact.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major Charles Ashby",
+            "icon": "🗺️",
+            "detail": "The operations planning officer — had been responsible for the offensive's timeline and had made commitments to the general staff that the intelligence would have forced him to revise."
+          },
+          {
+            "name": "Captain James Roe",
+            "icon": "📡",
+            "detail": "The signals intelligence officer — had been coordinating the intelligence network and had known the forward post had been reporting."
+          },
+          {
+            "name": "Lieutenant Robert Finch",
+            "icon": "🪖",
+            "detail": "The command post duty officer — had been the first to receive Meredith and had processed arrivals."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Command Post",
+            "icon": "🗺️",
+            "detail": "Where Meredith was found — bag on floor, documents spilled, lamp overturned, intelligence section missing."
+          },
+          {
+            "name": "The Map Table",
+            "icon": "📋",
+            "detail": "Where the offensive planning had been laid out — and where the removed intelligence would have been applied."
+          },
+          {
+            "name": "The Forward Observation Post",
+            "icon": "👁️",
+            "detail": "Where the intelligence had originated — and where the observer had been waiting for acknowledgment of receipt."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "A heavy metal kerosene lamp — blunt force wound consistent with its base used as a bludgeon."
+          },
+          {
+            "name": "Field Pack Frame",
+            "icon": "🪖",
+            "detail": "No wound profile match — eliminated."
+          },
+          {
+            "name": "Map Weight",
+            "icon": "🗺️",
+            "detail": "No blood trace — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Removed Intelligence",
+        "text": "The message bag's remaining contents show a standard dispatch structure — but the intelligence addendum, which should have followed the operational orders, had been removed. The forward observation post's log — examined three days later — confirmed the full message had included specific coordinates of a prepared Ottoman trench system covering the planned assault route, with estimated manning levels and artillery positions. The assault had proceeded along the same route without this information.",
+        "alone": "The intelligence addendum had described specific Ottoman defensive positions on the exact assault route — its removal had meant the offensive proceeded without knowledge of the prepared defences.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The intelligence describing the precise assault route defences and Major Ashby's documented commitment to the general staff that the route was viable together establish his specific exposure — the intelligence would have forced him to revise commitments he had already made."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🕯️",
+        "heading": "The Kerosene Lamp",
+        "text": "The overturned kerosene lamp shows blood on its metal base. The wound on Meredith's skull is consistent with the base used as a bludgeon while Meredith had been at the processing table handing over the dispatch bag. The approach had been from the side — Meredith had been facing the table, the blow from his left. The lamp had been on the left side of the table in its normal position.",
+        "alone": "Meredith had been struck from the left while facing the processing table — the lamp had been in its normal position on the left, accessible to someone approaching from that side.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The lamp struck from Meredith's left and Major Ashby's confirmed position at the map table — on the left side of the processing table when Meredith had been processing his dispatch — together establish the specific spatial position the blow's angle had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📡",
+        "heading": "Captain Roe's Position",
+        "text": "Captain Roe had been at the signals station — a separate tent thirty metres from the command post — from the relevant period, coordinating incoming telegraph traffic. The duty signaller confirms Roe had been present throughout. He had not been in the command post during the killing window. He is definitively cleared.",
+        "alone": "Roe had been at the signals station thirty metres away confirmed by the duty signaller — he had not been in the command post during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Roe cleared at the signals station and Lieutenant Finch confirmed outside the command post together eliminate both other suspects from the command post interior — only Ashby's position at the map table during Meredith's arrival is unconfirmed as a separate confirmed alibi."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🗺️",
+        "heading": "Ashby's Committed Timeline",
+        "text": "Corps-level records show Major Ashby had submitted the offensive's detailed timeline to the general staff forty-eight hours before the killing. The timeline had specified the assault route and had committed to its viability based on Ashby's assessment of the terrain. The forward observation post's intelligence — had it arrived intact — would have directly contradicted Ashby's assessment and would have required him to revise the timeline he had already submitted and committed to.",
+        "alone": "Ashby had submitted a committed timeline forty-eight hours before the killing — the intelligence would have required him to revise a commitment he had already made to the general staff.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ashby's committed timeline to the general staff and the assault failing along the route the intelligence had described as prepared together confirm the full consequence — the route had been defended as the intelligence had reported, and the timeline Ashby had committed to had not been revised."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🗺️",
+        "heading": "Ashby at the Map Table",
+        "text": "Lieutenant Finch confirms Ashby had been at the map table when Meredith had arrived — he had been reviewing the offensive's timing. Finch had greeted Meredith at the command post entrance and had directed him to the processing table. Finch had then been called outside by an orderly with a routine supply question — a two-minute absence. During those two minutes, Ashby had been alone in the command post with Meredith.",
+        "alone": "Finch had been called outside for two minutes — leaving Ashby alone in the command post with Meredith during the processing window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The two-minute window with Ashby alone in the command post and the lamp's blow coming from the left — Ashby's position at the map table — together establish the opportunity and the spatial consistency."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🗺️",
+        "heading": "Ashby's Map Table Position",
+        "text": "The command post layout — documented in the unit's operational diary — showed the map table had been on the left side of the processing table. Ashby's position at the map table had placed him to Meredith's left when Meredith had been facing the processing table. The lamp had been between them on the table's left edge. Ashby's position had given him direct access to the lamp without moving significantly from where he had been working.",
+        "alone": "Ashby's map table position had placed him directly to Meredith's left with the lamp between them — the blow's spatial requirements had been satisfied by his working position.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The two-minute window with Ashby alone and his map table position giving him direct lamp access together confirm both the opportunity and the specific spatial access that the lamp's position and the blow's angle had required."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🪖",
+        "heading": "Finch's Two-Minute Absence",
+        "text": "The orderly who had called Finch outside confirms the call had been routine — a question about ration supplies for the following day. The orderly had not known anyone was being killed inside. Finch had returned within two minutes and had found Meredith collapsed. He had immediately raised the alarm. He is definitively cleared — his absence had been genuine and his return immediate.",
+        "alone": "Finch's two-minute absence had been genuine — called by an orderly on a routine matter and returning immediately upon finding Meredith collapsed. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Roe cleared at the signals station and Finch cleared by the routine orderly call together eliminate both other suspects from the command post interior during the two-minute window — Ashby alone during that window is the only suspect position consistent with the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "The Offensive's Outcome",
+        "text": "The assault had proceeded along the route the intelligence had described as defended. The casualties had been severe. The corps-level after-action report had noted the Ottoman defensive positions had been 'unexpectedly well-prepared' — precisely as the forward observation post had reported. Major Ashby had been relieved of his planning duties following the offensive's failure. He had been transferred to an administrative role at the base. He had not faced a criminal investigation. He had died of natural causes in Cairo in 1916.",
+        "alone": "The assault had proceeded, the positions had been as the intelligence had described, the casualties had been severe, and Ashby had been relieved but not criminally investigated. He had died in Cairo in 1916.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ashby's committed timeline and his relief from planning duties after the offensive's failure together confirm the career consequence — the killing had not saved his reputation, only delayed the reckoning by a few weeks."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Charles Ashby",
+      "location": "The Command Post",
+      "weapon": "Kerosene Lamp Base"
+    },
+    "epilogue": "Major Charles Ashby had been at the map table when Private Meredith had arrived. Lieutenant Finch had been called outside for two minutes by a routine orderly question. Ashby had struck Meredith with the kerosene lamp from his left — the map table position had given him direct access. He had removed the intelligence addendum from the dispatch bag. The assault had proceeded along the route the intelligence had described as prepared. The casualties had been severe. Ashby had been relieved from planning duties. He had died in Cairo in 1916. He had not been criminally investigated. The forward observation post's log had been found three days after the killing and had confirmed what the message had contained. The route had been defended as reported. The intelligence had been accurate. It had arrived too late — because it had been made to arrive too late."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #131",
+    "title": "The Peninsula",
+    "setting": "Anzac Cove Command Post · Gallipoli Peninsula · Ottoman Empire · 1915",
+    "emoji": "🪖",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Ashby killed Meredith and removed the intelligence. But Captain Roe had known the forward post was reporting — find what Roe had done when the intelligence didn't arrive and what his actions had produced.",
+    "emptyState": "Roe knew the forward post had sent intelligence. When it didn't arrive intact, find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major Charles Ashby",
+            "icon": "🗺️",
+            "detail": "The killer — map table position, two-minute window, intelligence removed, relieved, died Cairo 1916."
+          },
+          {
+            "name": "Captain James Roe",
+            "icon": "📡",
+            "detail": "Cleared as killer — signals station confirmed. Had known the forward post was reporting and had acted when the intelligence failed to be applied."
+          },
+          {
+            "name": "Lieutenant Robert Finch",
+            "icon": "🪖",
+            "detail": "Cleared as killer — orderly call confirmed. His role as duty officer and the processing record is newly significant."
+          },
+          {
+            "name": "The Forward Observation Post",
+            "icon": "👁️",
+            "detail": "The intelligence source — whose log had confirmed the message and whose observer's subsequent actions are the thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Command Post",
+            "icon": "🗺️",
+            "detail": "Primary crime scene — Ashby's killing of Meredith."
+          },
+          {
+            "name": "The Signals Station",
+            "icon": "📡",
+            "detail": "Roe's confirmed location — and where he had been when the intelligence had failed to be applied."
+          },
+          {
+            "name": "Corps Headquarters",
+            "icon": "🏛️",
+            "detail": "Where Roe had escalated — and what had happened when he had."
+          },
+          {
+            "name": "The War Office Archive",
+            "icon": "📋",
+            "detail": "Where the signals record had been held — and its post-war significance."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Ashby's map table access."
+          },
+          {
+            "name": "Field Pack Frame",
+            "icon": "🪖",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Map Weight",
+            "icon": "🗺️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Roe's Escalation to Corps Headquarters",
+            "icon": "📡",
+            "detail": "Not a weapon — but his post-killing action when the intelligence was not applied and what it had produced."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Intelligence to Protect the Committed Timeline",
+            "icon": "🗺️",
+            "detail": "Ashby's motive — relieved, died Cairo 1916."
+          },
+          {
+            "name": "Ensure the Intelligence Was Applied",
+            "icon": "📡",
+            "detail": "Roe's professional commitment — he had known what had been sent and had acted when it had not been used."
+          },
+          {
+            "name": "Roe's Escalation Mechanism",
+            "icon": "📡",
+            "detail": "What Roe had done — bypassed Ashby and gone directly to corps headquarters with his signals record of the forward post's report."
+          },
+          {
+            "name": "The Corps-Level Response to Roe's Escalation",
+            "icon": "🏛️",
+            "detail": "What had happened when corps headquarters had received Roe's escalation."
+          },
+          {
+            "name": "Whether the Escalation Had Affected the Offensive",
+            "icon": "📡",
+            "detail": "The timing question — had Roe's escalation been in time to change anything."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📡",
+        "heading": "What Roe Had Known and Done",
+        "text": "Roe's account to the post-war Gallipoli inquiry: 'I had been tracking the forward post's traffic. I knew they had sent a substantive intelligence report. When the assault proceeded without any adjustment to the route, I knew the report had not been applied. I did not know at that point that Meredith had been killed. I went to corps headquarters the following morning — before the assault — with my signals log showing the forward post had transmitted intelligence of the type that should have modified the plan. I told them the plan needed review.'",
+        "alone": "Roe had gone to corps headquarters the morning before the assault with his signals log — before the assault had begun, before Meredith's death had been confirmed as a killing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Roe escalating to corps headquarters the morning before the assault and the assault proceeding anyway together confirm the escalation had been received and had not been acted upon — the timing had been close but insufficient."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Corps Headquarters' Response",
+        "text": "Corps headquarters' records show Roe's escalation had been received and had been referred to the operations staff — which had been Ashby's unit. The operations staff had assessed Roe's signals log as 'insufficient grounds for revision without the primary intelligence report.' The primary report — the missing addendum — had been with Ashby, who had destroyed it. The escalation had been referred to the person who had destroyed the evidence and had been assessed as insufficient by that person's unit.",
+        "alone": "The escalation had been referred to Ashby's operations staff — who had assessed it as insufficient without the primary report that Ashby had destroyed.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The escalation referred to Ashby's unit and assessed as insufficient by that unit together confirm the institutional circularity — the person who had destroyed the evidence had been in the position to assess the adequacy of the evidence that pointed to its destruction."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📡",
+        "heading": "The Timing of the Assault",
+        "text": "The assault had begun six hours after Roe's escalation had been received at corps headquarters. The assessment of insufficiency had been made within four hours. There had been two hours remaining between the insufficiency assessment and the assault's start — potentially enough time for a route adjustment if the assessment had been different. The window had existed and had not been used.",
+        "alone": "Two hours had remained between the corps insufficiency assessment and the assault's start — a window that had existed and had not been used.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The two-hour window that had existed and the assessment finding insufficiency without the destroyed primary report together confirm the counterfactual's specific shape — the intelligence had been partially preserved in Roe's signals log and the primary confirmation had been the destroyed addendum."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📡",
+        "heading": "Roe's Post-War Testimony",
+        "text": "Roe had survived the war and had testified to the Dardanelles Commission — the official inquiry into the Gallipoli campaign — in 1917. He had described the full sequence: the forward post's transmission, the failure of the intelligence to be applied, his escalation, and the circular assessment. He had specifically named Ashby as the operations officer who had received his escalation and whose unit had assessed it as insufficient. Ashby had died in Cairo before testifying. The Commission's report had noted the intelligence gap without specifically attributing the suppression.",
+        "alone": "Roe had testified naming Ashby to the Dardanelles Commission — Ashby had died before testifying. The Commission had noted the intelligence gap without specific attribution.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Roe naming Ashby to the Commission and Ashby dying before testifying together confirm the full legal and institutional outcome — the Commission had identified the failure without the person responsible to answer for it."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "The Assault's Casualties",
+        "text": "The assault had incurred casualties consistent with the forward observation post's assessment of the defensive positions — high losses on the specific terrain features the intelligence had described. The Corps after-action report had described the defensive positions as 'unexpectedly strong.' The forward post's log had described them as expected. The gap between 'unexpectedly strong' in the official record and 'as reported' in the forward post's log had been the space created by the missing addendum.",
+        "alone": "The official record said 'unexpectedly strong.' The forward post's log said 'as reported.' The gap between them was the missing addendum.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The two-hour window that had been missed and the gap between 'unexpectedly strong' and 'as reported' together confirm the specific space the killing had created — a two-hour window and a single document had been the difference between the official record's surprise and the forward post's expectation."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🗺️",
+        "heading": "The Dardanelles Commission's Finding",
+        "text": "The Dardanelles Commission's report, published in 1917, had identified multiple failures in the Gallipoli campaign including intelligence processing failures. The specific August 1915 incident had been described as: 'Intelligence from forward observation was not applied to operational planning in the relevant timeframe. The reasons for this failure were not fully established.' The finding had been accurate and incomplete — the reason had not been established because Ashby had died before he could testify and because no criminal investigation had been initiated.",
+        "alone": "The Commission had found the intelligence failure without establishing the reason — accurate and incomplete because Ashby had died and no criminal investigation had followed.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Roe naming Ashby to the Commission and the Commission finding failure without establishing the reason together confirm the inquiry's limit — the naming had been in the testimony and the finding had been in the report, and the connection had not been formally made."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The War Office Signals Record",
+        "text": "The War Office archive had held Roe's signals log — documenting his knowledge of the forward post's transmission and his escalation — since the war's end. The log had been declassified in 1958 and had been examined by military historians in the 1960s. The historians had connected the log to the Dardanelles Commission's intelligence gap finding and had published an analysis in 1967 concluding that the intelligence failure had been 'most likely the result of deliberate suppression within the command structure.' The analysis had named Ashby's unit as the probable point of suppression.",
+        "alone": "The 1967 historical analysis had connected the signals log to the Commission's finding and had named Ashby's unit as the probable suppression point — fifty years after the events.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 1967 analysis naming Ashby's unit and Private Meredith's name not being in the Commission's report together confirm the full span of the historical record — the suppression had been identified fifty years later, and the dispatch rider who had carried the intelligence had not been named in the official investigation."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "Gallipoli and Meredith",
+        "text": "The Gallipoli campaign had ended in January 1916 with the Allied evacuation. The peninsula had been in Ottoman hands throughout and had returned to Turkish sovereignty after the war. The Anzac Cove area is now a memorial site — one of the most significant in the Australian and New Zealand national memory. Captain James Roe had survived the war and had returned to Australia. He had died in Sydney in 1951. Private Tom Meredith's name is on the Lone Pine Memorial — the Gallipoli memorial for those with no known grave. His name is among 4,934 names. He is not separately identified as having been killed by a friendly hand. The peninsula is a memorial. The memorial has his name.",
+        "alone": "Meredith's name is on the Lone Pine Memorial among 4,934 names — not separately identified as killed by a friendly hand. The peninsula is a memorial.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 1967 historical analysis identifying the probable suppression and Meredith's name on the Lone Pine Memorial without identification as a friendly-fire killing together confirm the full accounting — the historical record had eventually named the unit responsible and the memorial had recorded the name without the full story."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Charles Ashby",
+      "location": "The Command Post",
+      "weapon": "Kerosene Lamp Base",
+      "motive": "Suppress the Intelligence to Protect the Committed Timeline"
+    },
+    "epilogue": "Captain Roe had gone to corps headquarters the morning before the assault with his signals log. The escalation had been referred to Ashby's operations staff. The assessment of insufficiency had been made within four hours. Two hours had remained before the assault. The assault had proceeded. The casualties had been as the forward post had reported — unexpectedly strong in the official record, as reported in the forward post's log. Ashby had been relieved and had died in Cairo in 1916. Roe had testified to the Dardanelles Commission and had named Ashby's unit. The Commission had found failure without establishing the reason. The 1967 analysis had connected the records. Meredith's name is on the Lone Pine Memorial among 4,934 names. The peninsula is a memorial. The memorial has his name."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #131",
+    "title": "The Peninsula",
+    "setting": "Anzac Cove Command Post · Gallipoli Peninsula · Ottoman Empire · 1915",
+    "emoji": "🪖",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Ashby killed Meredith. Roe escalated and was sent back to Ashby's unit. But the forward observation post observer — who had sent the intelligence — had also escalated separately when he received no acknowledgment. Find what he did and what happened to him.",
+    "emptyState": "The forward observer sent the intelligence and got no acknowledgment. Find what he did next.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major Charles Ashby",
+            "icon": "🗺️",
+            "detail": "The killer — lamp, two minutes, intelligence removed, relieved, died Cairo 1916."
+          },
+          {
+            "name": "Captain James Roe",
+            "icon": "📡",
+            "detail": "Cleared as killer — signals station. Escalated, referred to Ashby's unit, testified Commission, died Sydney 1951."
+          },
+          {
+            "name": "Lieutenant Robert Finch",
+            "icon": "🪖",
+            "detail": "Cleared as killer — orderly call. Duty officer, found Meredith, raised alarm."
+          },
+          {
+            "name": "Corporal William Haines",
+            "icon": "👁️",
+            "detail": "The forward observation post observer — who had sent the intelligence and had escalated separately when no acknowledgment had come."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Command Post",
+            "icon": "🗺️",
+            "detail": "Primary crime scene — and the location Haines had been trying to reach."
+          },
+          {
+            "name": "The Forward Observation Post",
+            "icon": "👁️",
+            "detail": "Where Haines had been — and where his escalation had originated."
+          },
+          {
+            "name": "The Assault Position",
+            "icon": "🪖",
+            "detail": "Where Haines had gone — his physical escalation when the signals escalation had failed."
+          },
+          {
+            "name": "The Lone Pine Memorial",
+            "icon": "📋",
+            "detail": "Where Haines's name may or may not be — and what his fate had been."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "Confirmed murder weapon — Ashby's."
+          },
+          {
+            "name": "Field Pack Frame",
+            "icon": "🪖",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Map Weight",
+            "icon": "🗺️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Haines's Physical Escalation",
+            "icon": "👁️",
+            "detail": "Not a weapon — his decision to leave the forward post and attempt to reach the command post himself."
+          },
+          {
+            "name": "The Forward Post's Log",
+            "icon": "📋",
+            "detail": "Not a weapon — the record that had confirmed the intelligence's existence and had been the key evidence after the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect the Committed Offensive Timeline",
+            "icon": "🗺️",
+            "detail": "Ashby's motive — killing and intelligence removal."
+          },
+          {
+            "name": "Ensure the Intelligence Was Acknowledged and Applied",
+            "icon": "📡",
+            "detail": "Roe's professional commitment — signals escalation."
+          },
+          {
+            "name": "Get the Intelligence to the Command Post Physically",
+            "icon": "👁️",
+            "detail": "Haines's third escalation — leaving the forward post when signals had not produced acknowledgment."
+          },
+          {
+            "name": "What Had Happened to Haines on His Way to the Command Post",
+            "icon": "👁️",
+            "detail": "The investigation's final question — his fate and the timing."
+          },
+          {
+            "name": "The Three Escalations' Combined Failure",
+            "icon": "📋",
+            "detail": "The structural assessment — three people had tried through three different routes, and none had changed the outcome."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Meredith and Removed the Intelligence Addendum",
+            "icon": "🗺️",
+            "detail": "Ashby's confirmed role — the killing."
+          },
+          {
+            "name": "Escalated to Corps Headquarters With the Signals Log",
+            "icon": "📡",
+            "detail": "Roe's role — referred to Ashby's unit, assessed insufficient, assault proceeded."
+          },
+          {
+            "name": "Left the Forward Post to Physically Deliver the Intelligence",
+            "icon": "👁️",
+            "detail": "Haines's role — the third escalation, his fate."
+          },
+          {
+            "name": "Found Meredith and Raised the Alarm",
+            "icon": "🪖",
+            "detail": "Finch's role — duty officer, two-minute absence, immediate alarm."
+          },
+          {
+            "name": "Confirmed the Message's Content in the Log Three Days Later",
+            "icon": "📋",
+            "detail": "The forward post log's evidential role — confirming what the message had contained."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "👁️",
+        "heading": "Haines's Decision",
+        "text": "The forward observation post's log — examined three days after the killing — includes a final entry by Haines: 'No acknowledgment of intelligence report received. Dispatch rider Meredith departed this post at 14:00. It is now 17:00 and no acknowledgment. I am going to the command post myself. W. Haines, Cpl.' The entry is dated the afternoon of the killing. Haines had decided to carry the intelligence physically to the command post when signals had produced no acknowledgment.",
+        "alone": "Haines had written his intention to go to the command post in the log at 17:00 and had departed — leaving the forward post to physically escalate when signals acknowledgment had not come.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Haines departing at 17:00 to go to the command post and the assault beginning the following morning together establish the timing — Haines had been en route to the command post during the hours before the assault."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "👁️",
+        "heading": "What Had Happened to Haines",
+        "text": "The Gallipoli terrain between the forward observation post and Anzac Cove had been under constant Ottoman fire in August 1915. Haines had been killed by shellfire approximately halfway between the forward post and the command post — at approximately 18:30 on the day of the killing. His body had been recovered the following day. He had died carrying the same intelligence he had sent by dispatch rider — in his personal notebook, he had written out the key coordinates and defensive position descriptions.",
+        "alone": "Haines had been killed by shellfire halfway to the command post at 18:30 — three hours after Meredith had been killed at the command post. He had been carrying the intelligence in his notebook.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Haines killed by shellfire at 18:30 and the intelligence in his notebook recovered the following day together confirm the intelligence had been in three places simultaneously — with Meredith (destroyed by Ashby), with Roe's signals log (assessed insufficient), and in Haines's notebook (recovered after his death)."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "👁️",
+        "heading": "The Notebook's Recovery",
+        "text": "Haines's notebook had been recovered with his body on the morning of the assault. The recovery party had submitted the notebook to the corps administrative section as personal effects. The intelligence coordinates and defensive position descriptions in the notebook had not been identified as operationally significant by the administrative section. The assault had already been underway when the notebook had been processed. The intelligence had been in the corps administration the morning of the assault and had not been acted upon.",
+        "alone": "Haines's notebook with the intelligence had been in corps administration the morning of the assault — identified as personal effects, not as operational intelligence, while the assault was underway.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The intelligence in three places simultaneously — Meredith's destroyed addendum, Roe's insufficient signals log, and Haines's unrecognised notebook — and none having changed the outcome confirm the structural failure had been complete."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "👁️",
+        "heading": "The Three Escalations' Structure",
+        "text": "Three people had tried to get the intelligence applied: Meredith had carried it by dispatch — killed, intelligence removed. Roe had escalated it through signals — referred to the unit that had suppressed it. Haines had attempted to carry it physically — killed by shellfire, intelligence recovered as personal effects and not acted upon. Each escalation had been appropriate given what each person had known. None had succeeded. The intelligence had been in the system three times and had not changed the plan.",
+        "alone": "Three appropriate escalations, three failures — the intelligence had been in the system three times through three different routes and had not changed the outcome.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three escalations each appropriate and none successful and the assault proceeding as planned together confirm the structural assessment — the system had been designed in a way that had allowed a single committed officer's decision to absorb three independent attempts to provide contrary intelligence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Post-War Assessment",
+        "text": "The 1967 historical analysis that had connected the signals log to the Dardanelles Commission's finding had also examined Haines's notebook — which had been in the War Office archive since 1915, catalogued as 'personal effects, recovery, Gallipoli, 1915.' The analysis had identified the notebook's content as the third independent intelligence record and had noted: 'Three independent attempts to communicate the same intelligence through three separate channels had all failed to produce operational adjustment. This constitutes a systemic failure that the killing of Private Meredith had initiated and that the system's institutional design had completed.'",
+        "alone": "The 1967 analysis had identified all three attempts and had described the systemic failure — initiated by the killing and completed by institutional design.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "The three escalations each failing and the 1967 assessment describing the systemic failure together confirm the historical evaluation — the killing had been the initiation, and the system had been the completion."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "👁️",
+        "heading": "Haines on the Memorial",
+        "text": "Corporal William Haines's name is on the Lone Pine Memorial — listed among the 4,934 names of those with no known grave on the Gallipoli peninsula. His death is recorded as 'killed in action.' His notebook is in the War Office archive. The notebook's content identifying the forward post's intelligence had been noted by the 1967 analysis and referenced in the catalogue description as 'field notes, operational intelligence, Gallipoli, 1915.' His name is among 4,934. His notebook is in an archive. The two facts are in different places.",
+        "alone": "Haines's name is on the Lone Pine Memorial among 4,934. His notebook is in the War Office archive. The two facts are in different places.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Haines and Meredith both on the Lone Pine Memorial among 4,934 names and neither separately identified as connected to the intelligence suppression together confirm the memorial's final image — the names are there, the story is not."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "Meredith and Haines Together",
+        "text": "Private Tom Meredith and Corporal William Haines had both died on the same afternoon in August 1915 — Meredith killed at the command post at approximately 15:30, Haines killed by shellfire at approximately 18:30. Both had died in the course of trying to deliver the same intelligence. Both are on the Lone Pine Memorial. Neither is identified as connected to the other. Neither is identified as connected to the intelligence. They are both among 4,934 names.",
+        "alone": "Meredith and Haines had both died trying to deliver the same intelligence — three hours apart, on the same afternoon, both on the memorial, neither identified as connected.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Both names on the memorial without identification as connected and the 1967 analysis connecting them in the historical record together confirm the two-archive structure — the memorial and the archive, the names and the story, neither referencing the other."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🪖",
+        "heading": "The Peninsula and Its Memory",
+        "text": "The Gallipoli peninsula is now a national park and memorial site in Turkey — visited by hundreds of thousands of Australians, New Zealanders, and Turks every year, particularly on Anzac Day. The Lone Pine Memorial stands at what had been a fierce battlefield. The names on the memorial include Tom Meredith and William Haines — among 4,934 names of those with no known grave. The memorial's function is to name. It names. The story of how they died is in the War Office archive and in a 1967 historical analysis in a university library. The memorial names. The archive explains. Neither references the other. The peninsula remains.",
+        "alone": "The memorial names. The archive explains. Neither references the other. The peninsula remains. Both names are there. Both are among 4,934.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Both names on the memorial and both connected in the archive together confirm the final element — the memorial's function had been fulfilled and the archive's function had been fulfilled, and the connection between them had required a historian in 1967 to establish. The peninsula is a memorial. It has their names."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Charles Ashby",
+      "location": "The Command Post",
+      "weapon": "Kerosene Lamp Base",
+      "motive": "Suppress the Intelligence to Protect the Committed Timeline",
+      "accomplice": "Left the Forward Post to Physically Deliver the Intelligence"
+    },
+    "epilogue": "Three escalations, three failures. Meredith had carried the intelligence and had been killed by Ashby at 15:30. Roe had escalated by signals and had been referred to Ashby's unit and found insufficient. Haines had left the forward post at 17:00 and had been killed by shellfire at 18:30 carrying the intelligence in his notebook. His notebook had been recovered the following morning, identified as personal effects, and not acted upon while the assault was underway. The intelligence had been in the system three times. The assault had proceeded. The 1967 analysis had connected all three. Both Meredith's and Haines's names are on the Lone Pine Memorial among 4,934. The memorial names. The archive explains. Neither references the other. The peninsula remains."
+  }
+}

@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Cairo, 1922. Tutankhamun's tomb has just been found. And in the antiquities market, a dealer dead with a stolen canopic jar from the excavation. Someone moved fast. 🏺🔍 Case #118 — The Cairo Find. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Cairo 1922, Tutankhamun's tomb just discovered, a dealer dead in the antiquities market with a stolen artifact, and someone who needed the provenance buried. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1922 Cairo antiquities dealer's shop, shelves of artifacts and papyrus fragments, a canopic jar in alabaster on a velvet display cloth, an overturned tea glass beside scattered dealer's notes, dust motes in afternoon light through a latticed window. The smell of old stone and commerce. Style of early Orientalist photography meets Howard Carter's field documentation.",
+    "animationPrompt": "Slow pan through a 1922 Cairo antiquities dealer's shop. Shelves of artifacts. A canopic jar in alabaster on velvet. The camera finds an overturned tea glass and scattered dealer's notes. Afternoon light through a latticed window. Dust motes. The street outside is very busy. The dealer is very still. Fade to black.",
+    "hashtags": [
+      "#Cairo1922",
+      "#Tutankhamun",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #118",
+    "title": "The Cairo Find",
+    "setting": "Khan el-Khalili Market · Cairo · Egypt · November 1922",
+    "emoji": "🏺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Antiquities dealer Yusuf Mansour was found dead in his Khan el-Khalili shop three days after Howard Carter's team had opened Tutankhamun's tomb. A canopic jar in alabaster — matching descriptions of items from the antechamber — was on his display cloth. Three people had visited the shop that afternoon. The Egyptian Antiquities Service was already investigating missing items from the site.",
+    "emptyState": "Three days after the tomb opened. A stolen artifact. A dead dealer. Find who brought it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Arthur Pembridge",
+            "icon": "🎩",
+            "detail": "A British antiques collector — had been in Cairo for the season and had a known appetite for acquisition outside official channels."
+          },
+          {
+            "name": "Fatima al-Rashid",
+            "icon": "🌿",
+            "detail": "A local antiquities broker — had connections both to the excavation's Egyptian workforce and to the dealer network."
+          },
+          {
+            "name": "Dr. Emile Renard",
+            "icon": "📚",
+            "detail": "A French Egyptologist — had been working adjacent to the Carter excavation as part of a separate academic survey."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dealer's Shop",
+            "icon": "🏺",
+            "detail": "Where Mansour was found — canopic jar on display, tea glass overturned, dealer's notes scattered."
+          },
+          {
+            "name": "The Valley of the Kings",
+            "icon": "⛏️",
+            "detail": "The excavation site — where the canopic jar had originated and where access had been tightly controlled."
+          },
+          {
+            "name": "The Khan el-Khalili Alley",
+            "icon": "🛒",
+            "detail": "The market passage outside — where witnesses had seen visitors arrive and depart."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dealer's Brass Scales",
+            "icon": "⚖️",
+            "detail": "A heavy balance used for weighing gold — blunt force wound consistent with the weighted pan used as a bludgeon."
+          },
+          {
+            "name": "Canopic Jar Base",
+            "icon": "🏺",
+            "detail": "No blood trace on the alabaster — the jar had been placed after the killing, not used as a weapon."
+          },
+          {
+            "name": "Display Case Edge",
+            "icon": "🪟",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Canopic Jar",
+        "text": "The alabaster canopic jar on Mansour's display cloth matches descriptions in Carter's preliminary site notes — a jar bearing the head of the god Imsety, associated with the liver, from the antechamber's storage area. The Egyptian Antiquities Service's inspector who had examined it confirmed: 'This is consistent with New Kingdom alabaster of the 18th dynasty. The provenance markings on the base match site reference numbers in Carter's log.' The jar was genuine and had been removed from the site within the past seventy-two hours.",
+        "alone": "The jar was genuine, matched Carter's log markings, and had been removed from the site within seventy-two hours of the tomb's opening — it had been taken almost immediately.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The jar removed within seventy-two hours of the opening and Fatima al-Rashid's confirmed connections to the excavation's Egyptian workforce together establish the access chain — the removal had required inside knowledge of the antechamber's contents within hours of their documentation."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⚖️",
+        "heading": "The Brass Scales",
+        "text": "The dealer's heavy brass balance scales — used for weighing gold in transactions — show blood on the larger weighing pan. The wound on Mansour's right temple is consistent with the pan's flat surface used as a bludgeon while Mansour had been seated at his desk examining the jar. The scales had been within reach on the desk. The killing had been opportunistic — the nearest heavy object had been used.",
+        "alone": "The scales had been used opportunistically — the nearest heavy object at hand when the confrontation had escalated. The killing had not been premeditated in its specific method.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The opportunistic scales and Fatima al-Rashid's documented history of negotiation-turned-confrontation with dealers over provenance disputes together suggest the killing had occurred during a price or provenance argument that had escalated."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎩",
+        "heading": "Pembridge's Afternoon",
+        "text": "Arthur Pembridge had been at the Shepheard's Hotel from two PM, attending a collectors' gathering — confirmed by the hotel manager, the gathering's host, and six other collectors. He had not been in the Khan el-Khalili that afternoon. The killing had occurred between three and five PM. He is definitively cleared.",
+        "alone": "Pembridge had been at Shepheard's Hotel from two PM confirmed by six collectors and the host — he had not been in the market during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Pembridge cleared at Shepheard's Hotel and Dr. Renard confirmed at the Cairo Museum library together eliminate both other suspects from the market during the killing window — only Fatima al-Rashid's market movements that afternoon are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Fatima's Excavation Connections",
+        "text": "Egyptian Antiquities Service records show Fatima al-Rashid had brokered transactions involving excavation workers from three previous Valley of the Kings sites between 1919 and 1922. Two of those transactions had involved items of disputed provenance — one had been prosecuted, one had been settled. She had known workers from the Carter excavation's Egyptian labour team. Two of those workers had been seen near the tomb entrance on the day after the opening.",
+        "alone": "Fatima had a documented history of brokering disputed-provenance items from excavation workers — and had known workers from the Carter team specifically.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Fatima's connections to the Carter team's workers and the jar having been removed within seventy-two hours of the opening confirm the access chain — the removal had been through the excavation's workforce and had been brokered by the one person with documented connections to that specific network."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🌿",
+        "heading": "Fatima in the Market",
+        "text": "Two market vendors confirm they had seen Fatima al-Rashid entering Mansour's shop at approximately three-fifteen PM, carrying a wrapped parcel of the size consistent with the canopic jar. One vendor had noted the time because Fatima had waved to him as she had passed. Neither vendor had seen her leave. A third vendor had seen a woman matching her description leaving through the shop's rear alley exit at approximately four-thirty PM.",
+        "alone": "Fatima had entered the shop at three-fifteen PM with a parcel consistent with the jar's size — and had left through the rear alley at four-thirty PM. She had been in the shop during the killing window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The opportunistic scales weapon and Fatima's presence in the shop from three-fifteen to four-thirty PM together establish her presence during the escalation — the killing had occurred during the transaction window she had been in the shop for."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "The Provenance Dispute",
+        "text": "Mansour's scattered desk notes — partially reconstructed — show he had been assessing the jar's provenance and had written: 'Markings consistent with KV62 — cannot sell without chain of acquisition documented. Price offered too low for risk. Dispute over documentation.' The notes indicate a negotiation that had broken down over Mansour's demand for provenance documentation and Fatima's unwillingness or inability to provide it.",
+        "alone": "Mansour's notes show the negotiation had broken down over provenance documentation — he had refused to buy without documentation she had not been able to provide.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Fatima's presence in the shop during the killing window and Mansour's notes showing the negotiation had broken down over documentation together confirm the escalation's trigger — the refusal to buy without provenance she could not provide had been the confrontation's precipitating issue."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Dr. Renard's Afternoon",
+        "text": "Dr. Emile Renard had been at the Cairo Museum's library from one PM until six PM, reviewing excavation records from the 1912 season for his academic survey — confirmed by the library's duty archivist and his signed register entries at one PM, three PM, and five PM. He had not been in the Khan el-Khalili. He is definitively cleared.",
+        "alone": "Renard had been at the Cairo Museum library from one to six PM with signed register entries — he had not been in the market. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Pembridge cleared at Shepheard's and Renard cleared at the Cairo Museum together eliminate both other suspects from the market — Fatima's three-fifteen entry and four-thirty departure are the only confirmed suspect movements at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Jar's Subsequent History",
+        "text": "The canopic jar was seized by the Egyptian Antiquities Service on Mansour's premises and returned to the Carter excavation's custody. It is now in the Cairo Museum — Catalogue Number JE 60688. The jar had been out of official custody for approximately five days. Fatima al-Rashid was arrested three days after the killing based on the market vendors' accounts and the provenance note. She received seven years under Egyptian law. The Carter excavation had proceeded without further reported thefts.",
+        "alone": "The jar is now in the Cairo Museum as JE 60688 — it had been out of official custody for five days. Fatima received seven years.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Fatima's documented connections to the Carter workers and her conviction for the theft and killing confirm the chain — the connections had been the access, the dispute over provenance had been the trigger, the scales had been the method."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima al-Rashid",
+      "location": "The Dealer's Shop",
+      "weapon": "Dealer's Brass Scales"
+    },
+    "epilogue": "Fatima al-Rashid had brought the canopic jar from a member of the Carter excavation's Egyptian labour team to Mansour's shop at three-fifteen PM. Mansour had examined the jar, had confirmed it was genuine, had written his provenance concerns in his notes, and had refused to buy without documentation. The negotiation had broken down. Fatima had used the dealer's brass scales. She had left through the rear alley at four-thirty PM. She had been arrested three days later. The jar had been returned to the Carter excavation. It is in the Cairo Museum as JE 60688. Howard Carter had continued the excavation. The antechamber had yielded five thousand objects. The canopic jar had been out of official custody for five days. It has been in the Cairo Museum since 1923."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #118",
+    "title": "The Cairo Find",
+    "setting": "Khan el-Khalili Market · Cairo · Egypt · November 1922",
+    "emoji": "🏺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Fatima killed Mansour and the jar was recovered. But Dr. Renard had known the jar existed before it appeared in Mansour's shop — find how he had known and what he had done with that knowledge.",
+    "emptyState": "Renard knew about the jar before it reached the market. Find how — and what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Fatima al-Rashid",
+            "icon": "🌿",
+            "detail": "The killer — three-fifteen entry, rear alley exit, brass scales, seven years."
+          },
+          {
+            "name": "Arthur Pembridge",
+            "icon": "🎩",
+            "detail": "Cleared as killer — Shepheard's Hotel confirmed. His prior knowledge of the jar is newly examined."
+          },
+          {
+            "name": "Dr. Emile Renard",
+            "icon": "📚",
+            "detail": "Cleared as killer — Cairo Museum confirmed. Had known about the jar's existence before the market killing."
+          },
+          {
+            "name": "The Carter Excavation Worker",
+            "icon": "⛏️",
+            "detail": "The person who had removed the jar — whose identity Renard had known."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dealer's Shop",
+            "icon": "🏺",
+            "detail": "Primary crime scene — Fatima's killing."
+          },
+          {
+            "name": "The Valley of the Kings Site",
+            "icon": "⛏️",
+            "detail": "Where Renard had been working on his academic survey — adjacent to Carter's excavation."
+          },
+          {
+            "name": "The Cairo Museum Library",
+            "icon": "📚",
+            "detail": "Renard's confirmed location during the killing — and where he had filed a report before going there."
+          },
+          {
+            "name": "The Egyptian Antiquities Service Office",
+            "icon": "🏛️",
+            "detail": "Where Renard had submitted his prior knowledge — and what the Service had done with it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dealer's Brass Scales",
+            "icon": "⚖️",
+            "detail": "Confirmed murder weapon — Fatima's opportunistic escalation."
+          },
+          {
+            "name": "Canopic Jar Base",
+            "icon": "🏺",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Display Case Edge",
+            "icon": "🪟",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Renard's Prior Knowledge Report",
+            "icon": "📚",
+            "detail": "Not a weapon — but the report he had filed before the killing and what the Service had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Sell the Stolen Jar at Profit",
+            "icon": "🌿",
+            "detail": "Fatima's motive — negotiation breakdown, brass scales, seven years."
+          },
+          {
+            "name": "Protect Academic Interests in the Excavation",
+            "icon": "📚",
+            "detail": "Renard's professional concern — his survey had been adjacent to Carter's, giving him observation access."
+          },
+          {
+            "name": "Report the Theft to Protect the Excavation's Integrity",
+            "icon": "📚",
+            "detail": "What Renard had done with his knowledge — filed a report with the Antiquities Service."
+          },
+          {
+            "name": "The Service's Delayed Response to the Report",
+            "icon": "🏛️",
+            "detail": "What had happened when the report had arrived — the response that had been too slow to prevent the killing."
+          },
+          {
+            "name": "Renard's Moral Position",
+            "icon": "📚",
+            "detail": "Whether Renard had done enough — the investigation's assessment of his report's timing and specificity."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📚",
+        "heading": "How Renard Had Known",
+        "text": "Renard's account to the Antiquities Service inquiry: 'My survey work placed me adjacent to Carter's excavation. On the second day after the opening, I observed a member of the Egyptian labour team leaving the site perimeter carrying what appeared to be a wrapped object of significant size — inconsistent with a lunch bundle or personal effects. I noted the worker's identifying features. The following morning I reported what I had seen to the Antiquities Service office in Luxor.' He had observed the removal and had reported it.",
+        "alone": "Renard had seen the theft in progress and had reported it to the Luxor Antiquities Service the following morning — before the jar had reached Cairo.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Renard's morning-after Luxor report and the killing occurring three days later in Cairo together establish the response window — the report had been submitted with days to spare before the market transaction, and the response had not been fast enough."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Service's Response to the Report",
+        "text": "The Antiquities Service inquiry finds: Renard's report had been received in Luxor on November 5th. It had been forwarded to Cairo headquarters on November 6th. The Cairo office had assigned it to an inspector on November 7th — the day of the killing. The inspector had been preparing to visit the Khan el-Khalili market dealers when the killing had been reported. The report had been in the system for two days before it had been acted upon.",
+        "alone": "The report had been in the system for two days before action had been taken — the inspector had been preparing to visit the market dealers on the day of the killing.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The two-day institutional delay and the inspector preparing to act on the day of the killing together confirm the response had been one day short of preventing the confrontation — the report had been accurate and the response had been too slow."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Renard's Account of His Decision",
+        "text": "Renard: 'I reported to the Service because it was the correct channel. I had considered going to Carter directly but decided that the official channel was more appropriate — Carter's team was under significant pressure and I did not want to create a diplomatic incident between the British expedition and the French academic presence. The Service was the right authority. I reported to them. I did not know it would take two days for them to act.'",
+        "alone": "Renard had chosen the official channel over a direct approach to Carter — partly to avoid diplomatic friction between British and French academic presences.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Renard choosing official channels to avoid diplomatic friction and the two-day delay allowing the market killing together present the same institutional-channel tension as #114, #115, #116, and #117 — the correct official action and the faster effective action had not been the same."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Service's Internal Review",
+        "text": "The Antiquities Service's internal review finds: 'Dr. Renard's report had been specific, timely, and had identified the likely theft with sufficient detail for immediate action. The two-day delay between receipt and assignment had been the result of standard bureaucratic processing applied to a non-standard urgent situation. The Service's procedures had not included an expedited channel for active theft reports from excavation sites. A new protocol for urgent site theft reports was established following this incident.'",
+        "alone": "The Service acknowledges the two-day delay had been standard processing applied to an urgent situation — a new urgent-report protocol had been established after the incident.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The new protocol established after the incident and Renard's report having been specific and timely together confirm the pattern — the correct reporting had been done, the institutional processing had been inadequate for the urgency, and the protocol had been revised after the fact."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📚",
+        "heading": "What Direct Action Would Have Required",
+        "text": "The inquiry examines whether Renard going directly to Carter would have prevented the killing. Its assessment: 'Had Dr. Renard reported directly to Carter's expedition on the day of the observation, the missing item could likely have been identified within hours, the worker could have been questioned, and the jar's movement toward Cairo could have been intercepted. The direct route would have been faster but would have created a jurisdictional conflict between the British expedition and the Egyptian Antiquities Service.' The faster action had carried a diplomatic cost.",
+        "alone": "The direct route to Carter would have been faster and would have created a jurisdictional conflict — the institutional route had been correct and had been too slow.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Renard choosing official channels to avoid diplomatic friction and the inquiry finding the direct route faster but diplomatically costly together confirm the genuine dilemma had been real — neither option had been clearly superior in all dimensions simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Renard's Vindication",
+        "text": "The Antiquities Service inquiry concludes: 'Dr. Renard acted correctly in reporting the suspected theft to the appropriate authority. His report was specific, timely, and accurate. The failure to prevent the subsequent events rests with the Service's processing delay, not with Dr. Renard's conduct. He is commended for his prompt reporting in a situation where many observers in his position might have chosen to remain uninvolved.' He had been commended and the protocol had been changed.",
+        "alone": "Renard had been commended and the protocol revised — the inquiry had placed the failure with the Service's delay, not with his reporting.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Renard commended for correct reporting and the new protocol established together confirm the institutional response to the event — the reporting had been recognised as correct and the system had been updated, with Mansour's death as the event that had produced the update."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "The Carter Worker's Fate",
+        "text": "The excavation worker whom Renard had observed was identified from his description and was questioned. He admitted to having removed the canopic jar in exchange for a payment from Fatima that he had not yet received — the negotiation had collapsed with Mansour's death. He was dismissed from the excavation and prosecuted under Egyptian law, receiving eighteen months. He had been one of two hundred workers on Carter's team. He had not known Mansour had been killed.",
+        "alone": "The worker had removed the jar for a payment from Fatima that he had not received — the negotiation's collapse had deprived him of his payment and had resulted in his prosecution.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The worker not having received payment and Fatima having killed Mansour before completing the transaction confirm the chain's economic collapse — the theft had been for payment, the negotiation had failed, the killing had been from desperation, and none of the principals had achieved their financial objective."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Excavation's Legacy",
+        "text": "Howard Carter had completed the excavation of Tutankhamun's tomb between 1922 and 1932. Five thousand three hundred and ninety-eight objects had been catalogued. The canopic jar — JE 60688 — was among them. The Egyptian Antiquities Service's new urgent-report protocol had been used seventeen times between 1923 and 1935 in connection with Valley of the Kings excavations. In 1923 alone, three additional attempted thefts had been intercepted using the faster-response channel. The protocol had worked. It had been established because of a killing it had arrived too late to prevent.",
+        "alone": "The new protocol had intercepted three additional theft attempts in 1923 alone — it had worked, and it had been established because of a killing it had arrived too late to prevent.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The new protocol established after the incident and its subsequent effectiveness preventing three 1923 thefts together confirm the full accounting — the institutional reform had been real, effective, and had cost a dealer's life to produce."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima al-Rashid",
+      "location": "The Dealer's Shop",
+      "weapon": "Dealer's Brass Scales",
+      "motive": "Sell the Stolen Jar at Profit"
+    },
+    "epilogue": "Renard had observed the removal and had reported it to the Luxor Service the following morning. The report had been forwarded and processed over two days. The inspector had been preparing to visit the market on the day of the killing. Fatima had killed Mansour before the inspector had arrived. Renard had been commended. The protocol had been changed. The worker had received eighteen months without the payment he had been promised. Fatima had received seven years. The jar is JE 60688 in the Cairo Museum. The new protocol had intercepted three thefts in 1923. The protocol had been established because of a killing it had arrived one day too late to prevent."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #118",
+    "title": "The Cairo Find",
+    "setting": "Khan el-Khalili Market · Cairo · Egypt · November 1922",
+    "emoji": "🏺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Fatima killed Mansour. Renard reported the theft through proper channels too slowly. But Arthur Pembridge had also known about the jar — and had been in contact with Fatima before the market visit. Find what Pembridge had arranged and whether he had anticipated the killing.",
+    "emptyState": "Pembridge was in contact with Fatima before the killing. Find what he arranged.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Fatima al-Rashid",
+            "icon": "🌿",
+            "detail": "The killer — brass scales, seven years, payment never received."
+          },
+          {
+            "name": "Dr. Emile Renard",
+            "icon": "📚",
+            "detail": "Cleared as killer — Cairo Museum confirmed. Commended report, protocol changed."
+          },
+          {
+            "name": "Arthur Pembridge",
+            "icon": "🎩",
+            "detail": "Cleared as killer — Shepheard's Hotel confirmed. Had been in contact with Fatima before the market visit."
+          },
+          {
+            "name": "Pembridge's Acquisition Network",
+            "icon": "🎩",
+            "detail": "The collectors' network Pembridge operated through — whose interest in the jar predated the market killing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Dealer's Shop",
+            "icon": "🏺",
+            "detail": "Primary crime scene — Fatima's killing."
+          },
+          {
+            "name": "Shepheard's Hotel",
+            "icon": "🏨",
+            "detail": "Pembridge's confirmed location — and where his correspondence with Fatima had been arranged."
+          },
+          {
+            "name": "Pembridge's London Address",
+            "icon": "🏛️",
+            "detail": "Where the jar had been intended to travel — the final destination in Pembridge's acquisition plan."
+          },
+          {
+            "name": "The British Customs Record",
+            "icon": "📋",
+            "detail": "Where Pembridge's prior acquisitions from Egypt had been documented — and where the pattern had been established."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Dealer's Brass Scales",
+            "icon": "⚖️",
+            "detail": "Confirmed murder weapon — Fatima's."
+          },
+          {
+            "name": "Canopic Jar Base",
+            "icon": "🏺",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Display Case Edge",
+            "icon": "🪟",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Pembridge's Commission to Fatima",
+            "icon": "🎩",
+            "detail": "Not a weapon — but the financial arrangement that had set Fatima's market visit in motion."
+          },
+          {
+            "name": "Pembridge's Knowledge of the Likely Method",
+            "icon": "🎩",
+            "detail": "Not a weapon — whether Pembridge had known Fatima would deal with a provenance dispute through violence."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Sell the Jar at Profit",
+            "icon": "🌿",
+            "detail": "Fatima's immediate motive — negotiation, scales, seven years."
+          },
+          {
+            "name": "Acquire the Jar for a Private Collection",
+            "icon": "🎩",
+            "detail": "Pembridge's ultimate objective — he had commissioned Fatima to acquire a Tutankhamun item on his behalf."
+          },
+          {
+            "name": "Fatima's Commission From Pembridge",
+            "icon": "🌿",
+            "detail": "The financial arrangement — Pembridge had offered to pay for an item from the excavation."
+          },
+          {
+            "name": "Pembridge's Knowledge of Fatima's Methods",
+            "icon": "🎩",
+            "detail": "Whether he had known how she operated — prior acquisitions, disputed provenance, confrontational negotiations."
+          },
+          {
+            "name": "Whether Pembridge's Commission Had Made Him Complicit",
+            "icon": "🎩",
+            "detail": "The investigation's central question — the legal and moral dimensions of having commissioned the theft."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Mansour and Attempted to Sell the Jar",
+            "icon": "🌿",
+            "detail": "Fatima's confirmed role — seven years."
+          },
+          {
+            "name": "Reported the Theft Through Official Channels",
+            "icon": "📚",
+            "detail": "Renard's role — commended, protocol changed."
+          },
+          {
+            "name": "Commissioned Fatima to Acquire a Tutankhamun Item",
+            "icon": "🎩",
+            "detail": "Pembridge's role — the financial arrangement that had set the chain in motion."
+          },
+          {
+            "name": "Removed the Jar From the Excavation Site",
+            "icon": "⛏️",
+            "detail": "The Carter worker's role — eighteen months, payment never received."
+          },
+          {
+            "name": "Processed the Theft Report Over Two Days",
+            "icon": "🏛️",
+            "detail": "The Service's institutional role — new protocol established."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Pembridge's Commission to Fatima",
+        "text": "A letter found among Pembridge's Shepheard's Hotel correspondence — produced for the inquiry — shows he had written to Fatima al-Rashid two days before the tomb's opening: 'I understand the Valley excavation is approaching a significant moment. If items of exceptional quality become available through your usual channels, I am prepared to pay substantially for a genuine piece of the period. Discretion as always. P.' He had commissioned an acquisition before the tomb had even been opened.",
+        "alone": "Pembridge had commissioned an acquisition from Fatima before the tomb had been opened — using deliberately vague language about 'usual channels' and 'discretion.'",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Pembridge's pre-opening commission and Fatima's acquisition of the jar within seventy-two hours of the opening together confirm the commission had been fulfilled with extraordinary speed — the 'usual channels' had been activated immediately."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Pembridge's Prior Acquisition History",
+        "text": "British customs records show Pembridge had imported six Egyptian artifacts since 1918, all with documentation gaps that customs had not challenged due to the period's relaxed oversight. The Antiquities Service inquiry finds: 'Three of the six items have been identified as likely site removals from excavations in the Valley of the Kings between 1918 and 1922. Mr. Pembridge's documentation for these items does not establish legitimate provenance.' He had done this before.",
+        "alone": "Pembridge had imported six Egyptian artifacts with documentation gaps — three had been identified as likely excavation removals. The commission to Fatima had been consistent with an established pattern.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Pembridge's three prior likely excavation removals and his commission to Fatima using the same 'usual channels' language together confirm the arrangement had been a repetition of a prior pattern — not a one-time commission but an established acquisition method."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Pembridge's Knowledge of Fatima's Methods",
+        "text": "The inquiry examines whether Pembridge had known Fatima's methods. It finds: 'Mr. Pembridge had been involved in two prior transactions with Fatima al-Rashid, both involving items of disputed provenance. In one of those transactions, a dealer had reported that Fatima had threatened him during a negotiation that had gone poorly. Mr. Pembridge had been aware of this incident — it had been discussed in the collectors' community. Whether he had anticipated that a provenance dispute in the current transaction could result in violence is a question of degree rather than kind.'",
+        "alone": "Pembridge had known about a prior Fatima negotiation threat — he had been aware of her confrontational approach to provenance disputes.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Pembridge knowing about Fatima's prior negotiation threat and commissioning her again for an acquisition that would inherently involve provenance challenges together confirm the commission had been placed with knowledge of her methods — the degree of anticipation had been the legal question."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "Pembridge's Legal Position",
+        "text": "The inquiry's finding on Pembridge: 'Mr. Pembridge's commission to Fatima al-Rashid, while deliberately vague, had created a financial incentive for the acquisition of an item that could only have been obtained through theft from a protected archaeological site. His knowledge of her methods, including her confrontational approach to provenance disputes, makes him a knowing participant in a chain that produced a killing. However, under Egyptian and British law as applicable in 1922, the specific criminal liability for the killing rests with Fatima al-Rashid. Mr. Pembridge is ordered to surrender the six previously imported items and is banned from excavation site visits in Egypt. No criminal charge is brought.'",
+        "alone": "Pembridge is ordered to surrender the six items and banned from site visits — no criminal charge is brought, despite the inquiry's finding of knowing participation.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Pembridge being found a knowing participant without criminal charge and Fatima receiving seven years together confirm the legal system's divergent treatment — the commissioner and the killer had received very different accountability for their respective roles in the same chain."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🌿",
+        "heading": "Fatima's Account of Pembridge",
+        "text": "Fatima, in her account to the inquiry: 'Pembridge wrote to me. He always wrote like that — carefully, so that nothing could be proven. He knew what 'usual channels' meant. He had paid me before. He knew where items came from. He paid well and he asked no questions and he wrote careful letters. When I brought the jar to Mansour and Mansour would not buy without documentation I could not provide, Pembridge was not in the room. But his money was the reason I was there.'",
+        "alone": "Fatima explicitly identifies Pembridge as the financial cause of her being in Mansour's shop — 'his money was the reason I was there.'",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Pembridge knowing Fatima's confrontational methods and Fatima identifying his money as the reason she had been in Mansour's shop together confirm the causal chain — the commission had placed Fatima in the room where the killing had occurred."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎩",
+        "heading": "The Six Surrendered Items",
+        "text": "The six items Pembridge had been ordered to surrender included pieces from excavations in Luxor, Saqqara, and the Valley of the Kings. All six were returned to Egyptian custody and are now in the Cairo Museum. Three are on display. The Cairo Museum's catalogue does not identify their prior private provenance. Pembridge returned to London in December 1922. He died in 1941. His estate's contents included no further Egyptian antiquities — he had apparently not continued the acquisitions after Egypt.",
+        "alone": "The six surrendered items are in the Cairo Museum. Pembridge died in 1941 having apparently discontinued Egyptian acquisitions after 1922.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Pembridge found a knowing participant without criminal charge and apparently stopping Egyptian acquisitions after the ban together confirm the ban's practical effectiveness — the legal system had not prosecuted him and the administrative consequence had apparently been sufficient to change his behaviour."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Full Chain's Economic Structure",
+        "text": "The economic chain: Carter's worker had expected payment from Fatima. Fatima had expected payment from Mansour. Mansour had required provenance documentation Fatima could not supply. Mansour had been killed. The jar had been seized. The worker had received nothing. Fatima had received nothing — her payment from Pembridge had been contingent on successful acquisition. Pembridge had received nothing — the jar had been seized before delivery. Every participant in the theft chain had received nothing from the transaction. The killing had produced no financial benefit for anyone.",
+        "alone": "Every participant in the chain had received nothing — the theft, negotiation, and killing had produced zero financial benefit for any party involved.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Fatima identifying Pembridge's money as the reason she had been in the shop and the chain producing zero financial benefit for anyone together confirm the full economic futility — the commission that had set the chain in motion had not been completed, and the killing had been the chain's only definitive outcome."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "JE 60688 in the Museum Today",
+        "text": "The canopic jar — Catalogue Number JE 60688 — is in the Cairo Museum's Tutankhamun Gallery. Its label reads: 'Canopic jar with lid in the form of Imsety. New Kingdom, 18th Dynasty, reign of Tutankhamun. Calcite (alabaster). Valley of the Kings, KV62.' The label does not mention the five days it had spent outside official custody, the killing that had surrounded its recovery, Yusuf Mansour, Fatima al-Rashid, Arthur Pembridge, Dr. Emile Renard, or the new protocol established in its aftermath. The jar has been in the museum for over a hundred years. It was made for a king who died at nineteen. It had been in a sealed tomb for three thousand years. It had been out of the tomb for five days. It is back.",
+        "alone": "JE 60688 is in the Tutankhamun Gallery. The label says nothing about the five days or the killing. It was made for a king. It is back.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The chain producing zero financial benefit and the jar now in the museum with a label that records none of it together confirm the case's final element — the entire chain had produced one outcome, the jar's return to official custody, which would have occurred without the theft if Renard's report had been processed in one day rather than two."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Fatima al-Rashid",
+      "location": "The Dealer's Shop",
+      "weapon": "Dealer's Brass Scales",
+      "motive": "Sell the Stolen Jar at Profit",
+      "accomplice": "Commissioned Fatima to Acquire a Tutankhamun Item"
+    },
+    "epilogue": "Pembridge had written before the tomb had opened. Fatima had moved within seventy-two hours. The worker had removed the jar. Renard had reported the removal. The Service had processed the report over two days. Fatima had brought the jar to Mansour. Mansour had refused without provenance documentation. Fatima had used the brass scales. Every participant had received nothing. The jar had been seized. The worker had received eighteen months and no payment. Fatima had received seven years and no payment. Pembridge had surrendered six items and his Egypt access. Renard had been commended. The protocol had been changed. JE 60688 is in the Tutankhamun Gallery. Its label records none of this. It was made for a king. It had been in a sealed tomb for three thousand years. It had been outside for five days. It is back."
+  }
+}

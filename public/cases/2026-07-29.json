@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "São Paulo, 1963. Carnival backstage. A Brazilian exile dead in the dressing corridor. And documents that would have mattered enormously in 1964. 🎺🔍 Case #132 — The Platform. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: São Paulo 1963 Carnival backstage, a political exile dead, and documents about the coup that was coming in eleven months. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Backstage corridor of a 1963 São Paulo Carnival venue, samba costumes on hanging rails and sequined headdresses on stands, a man in exile clothes dead on the concrete floor beside spilled caipirinha, a briefcase open with Portuguese-language documents scattered, feathers and sequins around him. Brazilian colour and political weight. Style of Sebastião Salgado meets Carnival photography of the era.",
+    "animationPrompt": "Slow pan through a 1963 São Paulo Carnival backstage corridor. Samba costumes on rails. Sequined headdresses. The camera finds a man dead on the concrete floor beside a spilled caipirinha, a briefcase open with documents scattered around him. Feathers and sequins. The music from the floor is very loud. The corridor is very still. Fade to black.",
+    "hashtags": [
+      "#SaoPaulo1963",
+      "#BrazilCarnival",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #132",
+    "title": "São Paulo Carnival",
+    "setting": "Anhembi Sambadrome · São Paulo · Brazil · February 1963",
+    "emoji": "🎺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Argentine exile Roberto Vilar was found dead backstage at the São Paulo Carnival. He had been carrying documents — communications between Brazilian military officers and American diplomatic contacts — that detailed planning for a regime change. The coup came eleven months later. Three people had been in the backstage corridor. The documents were scattered but present — the killer had been interrupted.",
+    "emptyState": "The coup is eleven months away. The documents are scattered. Find who came to stop them reaching the press.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Hélio Fonseca",
+            "icon": "🎖️",
+            "detail": "A Brazilian Army officer attending the Carnival gala — his name appeared in the documents as a key coordinator of the regime change planning."
+          },
+          {
+            "name": "Lucia Drummond",
+            "icon": "🎺",
+            "detail": "A samba school director — had known Vilar and had arranged his backstage access, and had connections to political networks on both sides."
+          },
+          {
+            "name": "James Hartwell",
+            "icon": "🇺🇸",
+            "detail": "An American cultural attaché at the US Consulate — attending the Carnival officially, with diplomatic credentials."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🎭",
+            "detail": "Where Vilar was found — briefcase open, documents scattered, caipirinha spilled."
+          },
+          {
+            "name": "The Main Carnival Floor",
+            "icon": "🎺",
+            "detail": "Where the performance had been — covering the sound of the killing."
+          },
+          {
+            "name": "The VIP Entrance",
+            "icon": "🚪",
+            "detail": "Where official guests had arrived — and where access had been logged."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Costume Rail Bracket",
+            "icon": "🎭",
+            "detail": "A heavy steel bracket from a hanging costume rail — blunt force wound consistent with its edge."
+          },
+          {
+            "name": "Headdress Stand Base",
+            "icon": "🎺",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace on the clasp — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Documents",
+        "text": "The scattered Portuguese-language documents include: three letters between named Brazilian military officers discussing a timetable for 'restoring order'; two cables referencing American diplomatic interest in 'stability'; and a list of civilian politicians to be detained in the first seventy-two hours. Vilar had obtained them through his network of Latin American exile contacts and had been planning to deliver them to a São Paulo journalist the following morning. The documents were dated November and December 1962.",
+        "alone": "The documents detailed coup planning including detention lists and American diplomatic contact — Vilar had been planning to deliver them to a journalist the following morning.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The documents naming Colonel Fonseca as a key coordinator and his confirmed backstage presence together establish the specific personal exposure — the documents had named him, and he had been in the building."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🎭",
+        "heading": "The Costume Rail Bracket",
+        "text": "A steel mounting bracket from a costume hanging rail — detached from its wall fitting — shows blood on its edge. The wound on Vilar's skull is consistent with the bracket used as a bludgeon from behind while Vilar had been examining the documents from his briefcase. The bracket's wall fitting showed fresh tool marks — it had been deliberately removed before use.",
+        "alone": "The bracket had been deliberately removed before use — the killing had required preparation specific to the backstage corridor's fittings.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate bracket removal requiring knowledge of the corridor's fittings and Colonel Fonseca's confirmed earlier backstage walkthrough — part of the official venue security assessment — together establish his specific familiarity with the corridor's physical layout."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "Lucia Drummond's Evening",
+        "text": "Lucia had been leading her samba school's performance on the main floor from nine PM until midnight — confirmed by forty-three performers, the parade director, and television broadcast footage showing her at the front of the procession. She had not been backstage during the killing window. She is definitively cleared.",
+        "alone": "Lucia had been leading the procession on the main floor confirmed by forty-three performers and broadcast footage — she had not been backstage. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Lucia cleared on the main floor and James Hartwell confirmed at the VIP reception together eliminate both other suspects from the backstage corridor — only Fonseca's movements after the official reception are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Fonseca's Name in the Documents",
+        "text": "Two of the three letters between military officers included Colonel Fonseca's name in the text and his initials on one routing notation. The documents had placed him as a coordinator of the logistics planning — not the political leadership but the operational coordination. His name's appearance would have been career-ending and potentially criminal under the Goulart government then in power. The documents had been the most dangerous thing to him personally of anything in that corridor.",
+        "alone": "Fonseca's name appeared twice in the documents — as operational coordinator of the coup planning. Under the current government, the exposure would have been career-ending.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Fonseca's name in the documents and the coup succeeding eleven months later together confirm the suppression's historical consequence — the documents would have named a man who had continued his role in the coup that had followed."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Fonseca Backstage",
+        "text": "A backstage technician confirms he had seen a man in military dress uniform in the backstage corridor at approximately ten-thirty PM — unusual, as the corridor was for performers. The man had been moving purposefully toward the rear section where Vilar had been found. The technician had not stopped him — military officers in uniform had informal authority at official events. He had seen the man come from the VIP entrance direction.",
+        "alone": "A military officer in dress uniform had been seen in the backstage corridor at ten-thirty PM moving purposefully toward the rear — coming from the VIP entrance direction.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The officer seen moving purposefully in the corridor and the bracket deliberately removed before use together confirm the presence had been purposeful and the preparation had preceded Vilar's location being reached."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Fonseca's Security Walkthrough",
+        "text": "The event's official security log shows Colonel Fonseca had conducted a security assessment walkthrough of the entire venue — including the backstage corridor — at six PM, four hours before the killing. The walkthrough had been part of his role coordinating military security for the official gala. He had specifically noted the backstage corridor's layout in the security log. He had known the corridor's physical arrangement, including its rail fittings.",
+        "alone": "Fonseca had walked the backstage corridor at six PM in his security role — specifically noting its layout and fittings four hours before the killing.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Fonseca's six PM corridor walkthrough giving him knowledge of the rail fittings and his ten-thirty PM corridor presence moving purposefully together confirm the preparation and the approach had both been his."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🇺🇸",
+        "heading": "Hartwell at the VIP Reception",
+        "text": "James Hartwell had been at the official VIP reception from eight PM until eleven PM — confirmed by the US Consul General, the Brazilian Foreign Ministry protocol officer, and eleven other diplomatic guests. He had not left the reception area. He is definitively cleared.",
+        "alone": "Hartwell had been at the VIP reception from eight to eleven PM confirmed by multiple diplomatic witnesses — he had not left the reception. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Lucia cleared on the main floor and Hartwell cleared at the VIP reception together eliminate both other suspects — Fonseca's ten-thirty PM corridor presence is the only confirmed suspect movement at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Coup and the Documents",
+        "text": "The Brazilian military coup had occurred on March 31st, 1964 — eleven months after the killing. Colonel Fonseca had played a significant operational role. The documents Vilar had been carrying had been collected by the São Paulo police as evidence in the killing investigation and had been classified. The classification had been lifted in 1985 during Brazil's democratic transition. Historians examining the documents in 1986 had confirmed they had detailed the actual planning of the coup that had occurred. The journalist Vilar had been going to meet had never received them.",
+        "alone": "The documents had detailed the actual coup planning — confirmed by historians in 1986 after declassification. The journalist had never received them. The coup had proceeded as documented.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Fonseca's name in the documents and his operational role in the coup that had followed together confirm the documents' accuracy — they had described what had actually happened, and their suppression had removed them from public knowledge until 1986."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Hélio Fonseca",
+      "location": "The Backstage Corridor",
+      "weapon": "Costume Rail Bracket"
+    },
+    "epilogue": "Colonel Hélio Fonseca had walked the backstage corridor at six PM as part of his security role. He had noted the rail fittings. At ten-thirty PM he had returned, had removed a bracket, had found Vilar examining his documents, and had struck him from behind. He had left the corridor. The documents had been scattered — an interruption had prevented him from taking them. The São Paulo police had classified the documents. The coup had come eleven months later. Fonseca had played an operational role. The documents had been declassified in 1985. Historians had confirmed their accuracy in 1986. The journalist Vilar had been going to meet had spent decades not knowing what had nearly reached him the night before."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #132",
+    "title": "São Paulo Carnival",
+    "setting": "Anhembi Sambadrome · São Paulo · Brazil · February 1963",
+    "emoji": "🎺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Fonseca killed Vilar and was interrupted before taking the documents. But Lucia Drummond had known Vilar was coming and had arranged his backstage access — find what she knew about the documents and what she did after the killing.",
+    "emptyState": "Lucia arranged Vilar's access. She knew what he was carrying. Find what she did after he was killed.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Hélio Fonseca",
+            "icon": "🎖️",
+            "detail": "The killer — corridor walkthrough, bracket, interrupted, coup role 1964, documents declassified 1985."
+          },
+          {
+            "name": "Lucia Drummond",
+            "icon": "🎺",
+            "detail": "Cleared as killer — main floor confirmed. Had arranged Vilar's access and had known about the documents."
+          },
+          {
+            "name": "James Hartwell",
+            "icon": "🇺🇸",
+            "detail": "Cleared as killer — VIP reception confirmed. His government's role in the documents' content is examined."
+          },
+          {
+            "name": "The Journalist Vilar Had Been Going to Meet",
+            "icon": "📰",
+            "detail": "The intended recipient — and what Lucia had done to reach him after the killing."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Fonseca's killing, documents scattered."
+          },
+          {
+            "name": "The Main Carnival Floor",
+            "icon": "🎺",
+            "detail": "Lucia's confirmed location — and where she had been when the killing had occurred."
+          },
+          {
+            "name": "The Journalist's Office",
+            "icon": "📰",
+            "detail": "Where Lucia had gone after the performance — and what she had done there."
+          },
+          {
+            "name": "The São Paulo Police",
+            "icon": "📋",
+            "detail": "Where the documents had gone — and what Lucia's interaction with the police had produced."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Costume Rail Bracket",
+            "icon": "🎭",
+            "detail": "Confirmed murder weapon — Fonseca's deliberate removal."
+          },
+          {
+            "name": "Headdress Stand Base",
+            "icon": "🎺",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Lucia's Post-Killing Action",
+            "icon": "🎺",
+            "detail": "Not a weapon — what she had done with her knowledge after finding Vilar dead."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documents Before They Reached the Press",
+            "icon": "🎖️",
+            "detail": "Fonseca's motive — interrupted, documents classified, coup proceeded."
+          },
+          {
+            "name": "Ensure the Documents Reached Their Intended Recipient",
+            "icon": "🎺",
+            "detail": "Lucia's post-killing purpose — completing what Vilar had been trying to do."
+          },
+          {
+            "name": "What Lucia Had Known About the Documents",
+            "icon": "🎺",
+            "detail": "Her prior knowledge — and how it had shaped her action after the killing."
+          },
+          {
+            "name": "Whether Lucia Had Reached the Journalist",
+            "icon": "📰",
+            "detail": "The outcome — had the documents reached their intended recipient despite the killing."
+          },
+          {
+            "name": "The Police Classification and Its Effect",
+            "icon": "📋",
+            "detail": "How the police had intervened — and what had happened to the documents Lucia had tried to redirect."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🎺",
+        "heading": "What Lucia Had Known",
+        "text": "Lucia's account to the 1985 Truth Commission: 'Roberto had told me three days before what he was carrying. He had described the documents — the letters, the cables, the detention lists. I had arranged his backstage access because I believed what he was doing was important. When I came offstage after midnight and found Roberto dead in the corridor, I understood immediately what had happened and why. I picked up the documents. I put them in my costume bag. I went to the journalist's office at two AM.'",
+        "alone": "Lucia had known about the documents for three days before the killing — she had picked them up after finding Vilar and had taken them to the journalist at two AM.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Lucia picking up the documents after the killing and going to the journalist at two AM and the police classifying them the following morning together establish the timing — Lucia had reached the journalist before the police had arrived to collect the documents."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Journalist's Receipt",
+        "text": "The journalist — Paulo Salave, of the Folha de São Paulo — confirms in his 1985 testimony: 'Lucia came to my office at two AM. She was in her Carnival costume. She had a bundle of documents. She explained what they were and where they had come from. I spent the remainder of the night reading them. In the morning I went to my editor. My editor went to the newspaper's lawyer. The lawyer told us the documents were likely to be classified by the government before we could publish. He was right.'",
+        "alone": "Lucia had reached the journalist with the documents at two AM — Salave had read them and had gone to his editor, but the lawyer had anticipated classification before publication.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Salave receiving the documents and the lawyer anticipating classification together confirm the publication had been attempted and had been blocked — the documents had reached their intended recipient and had still not been published."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Police Classification",
+        "text": "The São Paulo police had arrived at the Carnival venue at six AM following the killing report. They had found the scattered briefcase and the empty space where the documents had been. When Salave had presented himself to the police with the documents at nine AM — following legal advice to cooperate — the documents had been seized immediately. By noon they had been classified under national security provisions. The Folha had not published. Salave had kept his notes from the overnight reading.",
+        "alone": "Salave had cooperated with the police and the documents had been seized and classified by noon — the Folha had not published. Salave had kept his own notes from reading them overnight.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The documents classified by noon and Salave keeping his notes from the overnight reading together confirm the partial survival — the documents had been suppressed and Salave's notes had been the only record of their content outside the classified file."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Lucia's Fate",
+        "text": "Lucia Drummond had been questioned by the police following the killing and had been released. Following the 1964 coup, she had been placed under surveillance by the military government — she had been identified as a person of political interest. She had continued leading her samba school under the military government, which had used the Carnival as a cultural showcase. She had quietly used that position to maintain connections with the political opposition throughout the military period. She had testified to the 1985 Truth Commission. She had died in São Paulo in 1991.",
+        "alone": "Lucia had been surveilled by the military government but had continued at the samba school, using that position for opposition connections. She had testified in 1985 and had died in 1991.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Lucia using the samba school position under surveillance to maintain opposition connections and the Carnival continuing as cultural showcase under the military government together confirm the specific tension of her post-coup position — visible enough to be useful to the regime's cultural programme, connected enough to be useful to the opposition."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Salave's Notes and 1985",
+        "text": "Paulo Salave had kept his handwritten notes from the overnight reading of the documents. He had not published them during the military government. When the documents had been declassified in 1985 as part of the democratic transition, Salave had published the full story — combining the declassified documents with his twenty-two-year-old notes. The publication had been in the Folha de São Paulo on the same front page as the 1985 Truth Commission's announcement. He had been seventy-one years old at publication.",
+        "alone": "Salave had published the full account in 1985 — declassified documents plus his twenty-two-year-old notes — on the same front page as the Truth Commission's announcement. He had kept the notes for twenty-two years.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Salave keeping his notes for twenty-two years and publishing in 1985 together confirm the documents had reached their intended use — delayed by twenty-two years, published on the most significant political day available."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Fonseca's Post-Coup Career",
+        "text": "Colonel Hélio Fonseca had risen to General following the 1964 coup. He had held significant positions in the military government until 1974, when he had retired. He had died in Rio de Janeiro in 1989. He had not been identified as a suspect in Vilar's killing during the military government period. The 1985 Truth Commission had examined the killing and had identified Fonseca as the probable perpetrator based on the declassified documents' naming of him and circumstantial evidence. He had died four years before the Commission's final report had been published.",
+        "alone": "Fonseca had risen to General, retired in 1974, died in 1989 — four years before the Truth Commission's final report had identified him as the probable perpetrator.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Fonseca dying in 1989 and the Commission's identification arriving four years after his death together confirm the full accountability pattern — the historical identification had come after the subject had died, as in several prior cases in the catalog."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The Documents' 1986 Historical Confirmation",
+        "text": "Historians examining the 1985 declassified documents had confirmed in 1986 that they had detailed the actual planning of the 1964 coup — consistent with what subsequently occurred. The documents had been accurate. The detention list had named people who had actually been detained. The timetable had matched the actual coup's sequence. The documents that Vilar had died carrying, that Lucia had taken to a journalist at two AM, that the police had classified, and that Salave had kept notes about for twenty-two years had been accurate descriptions of what had happened eleven months later.",
+        "alone": "The documents had been accurate — the detention list, the timetable, the coordination all matched the actual coup. What Vilar had been carrying had been the truth about what was coming.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The documents being accurate and the Carnival continuing to operate through the military period together confirm the full span — the truth had been in the backstage corridor, had been suppressed, had been kept in a journalist's notes, and had been confirmed twenty-three years later."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Carnival Today",
+        "text": "The São Paulo Carnival continues annually. The Anhembi Sambadrome remains one of the primary venues. Lucia Drummond's samba school — Império da Mogiana — still participates in the annual parade. The school had been founded in 1947 and had continued through Carnival, military government, and democratic transition. Roberto Vilar's name is not on any memorial in São Paulo. Paulo Salave's 1985 Folha publication is in the newspaper's archive. Lucia's 1985 Truth Commission testimony is in the National Archive in Brasília. The Carnival continues. The music is very loud.",
+        "alone": "The Carnival continues. Vilar's name is on no memorial. Salave's publication and Lucia's testimony are in archives. The music is very loud.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Salave publishing in 1985 and the Carnival continuing together confirm the final image — the cultural institution that had been the cover for the killing had outlasted the military government that had benefited from it, and the documentation had arrived in public form twenty-two years after the night it had nearly been delivered on time."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Hélio Fonseca",
+      "location": "The Backstage Corridor",
+      "weapon": "Costume Rail Bracket",
+      "motive": "Suppress the Documents Before They Reached the Press"
+    },
+    "epilogue": "Lucia had found Vilar dead, had picked up the documents, and had gone to Salave's office at two AM in her Carnival costume. Salave had read them overnight. The lawyer had anticipated classification. The police had seized and classified the documents by noon. Salave had kept his handwritten notes for twenty-two years. The coup had come in March 1964. Fonseca had risen to General. He had retired in 1974 and had died in 1989. The documents had been declassified in 1985. Salave had published the full account on the same front page as the Truth Commission's announcement. He had been seventy-one. Lucia had died in 1991. The 1986 historians had confirmed the documents' accuracy. The Carnival continues. The music is very loud."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #132",
+    "title": "São Paulo Carnival",
+    "setting": "Anhembi Sambadrome · São Paulo · Brazil · February 1963",
+    "emoji": "🎺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Fonseca killed Vilar. Lucia took the documents to Salave. But James Hartwell — the American cultural attaché — had known Vilar was in São Paulo and had been watching him. Find what the Americans had known and what Hartwell had done with it.",
+    "emptyState": "Hartwell had been watching Vilar. Find what the Americans knew — and what Hartwell did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Hélio Fonseca",
+            "icon": "🎖️",
+            "detail": "The killer — bracket, documents interrupted, General post-coup, died 1989, Truth Commission identification."
+          },
+          {
+            "name": "Lucia Drummond",
+            "icon": "🎺",
+            "detail": "Cleared as killer — main floor confirmed. Two AM delivery, surveilled, opposition connections, Truth Commission 1985."
+          },
+          {
+            "name": "James Hartwell",
+            "icon": "🇺🇸",
+            "detail": "Cleared as killer — VIP reception confirmed. Had been watching Vilar and had known about his presence."
+          },
+          {
+            "name": "The CIA's Role in the Brazilian Coup Planning",
+            "icon": "🇺🇸",
+            "detail": "What the American cables in the documents had represented — and what Hartwell's position had been within that."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Backstage Corridor",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Fonseca's killing."
+          },
+          {
+            "name": "The VIP Reception",
+            "icon": "🚪",
+            "detail": "Hartwell's confirmed location — and where his watching of Vilar had been conducted."
+          },
+          {
+            "name": "The US Consulate",
+            "icon": "🇺🇸",
+            "detail": "Where Hartwell had filed his report — and what it had contained."
+          },
+          {
+            "name": "The CIA Archive",
+            "icon": "📋",
+            "detail": "Where the American records had eventually been held — and what their declassification had confirmed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Costume Rail Bracket",
+            "icon": "🎭",
+            "detail": "Confirmed murder weapon — Fonseca's."
+          },
+          {
+            "name": "Headdress Stand Base",
+            "icon": "🎺",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Hartwell's Consulate Report",
+            "icon": "🇺🇸",
+            "detail": "Not a weapon — but the report he had filed after the killing and what it had contained."
+          },
+          {
+            "name": "The American Cables in the Documents",
+            "icon": "📄",
+            "detail": "Not a weapon — but what the cables had represented and what Hartwell's knowledge of them meant."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documents to Protect the Coup Planning",
+            "icon": "🎖️",
+            "detail": "Fonseca's motive — the killing."
+          },
+          {
+            "name": "Ensure the Documents Reached the Press",
+            "icon": "🎺",
+            "detail": "Lucia's post-killing action — two AM delivery, twenty-two year delay."
+          },
+          {
+            "name": "Monitor Vilar and Report His Activities",
+            "icon": "🇺🇸",
+            "detail": "Hartwell's surveillance role — what he had known and reported."
+          },
+          {
+            "name": "The American Interest in the Documents Not Being Published",
+            "icon": "🇺🇸",
+            "detail": "What the cables in the documents had represented for American policy."
+          },
+          {
+            "name": "Hartwell's Report's Relationship to the Classification",
+            "icon": "📋",
+            "detail": "Whether Hartwell's consulate report had contributed to the documents' classification."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Vilar and Was Interrupted Before Taking the Documents",
+            "icon": "🎖️",
+            "detail": "Fonseca's confirmed role."
+          },
+          {
+            "name": "Took the Documents to the Journalist at Two AM",
+            "icon": "🎺",
+            "detail": "Lucia's role — surveilled, opposition connections, testified 1985."
+          },
+          {
+            "name": "Monitored Vilar and Filed a Report After the Killing",
+            "icon": "🇺🇸",
+            "detail": "Hartwell's role — and what his report had contributed to the classification."
+          },
+          {
+            "name": "Kept Notes for Twenty-Two Years and Published in 1985",
+            "icon": "📰",
+            "detail": "Salave's role — Folha, Truth Commission front page."
+          },
+          {
+            "name": "Classified the Documents Within Hours of Their Submission",
+            "icon": "📋",
+            "detail": "The São Paulo police and national security apparatus's institutional role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "What Hartwell Had Known",
+        "text": "CIA records declassified in 1998 show Hartwell had filed a report identifying Vilar as 'an Argentine political exile known to be in possession of sensitive communications relating to internal Brazilian political planning.' The report had been filed three days before the Carnival — the same three days during which Vilar had told Lucia about the documents. Hartwell had been tracking Vilar's movements in São Paulo and had known he was planning to contact a Brazilian journalist.",
+        "alone": "Hartwell had filed a CIA report on Vilar three days before the killing — identifying him, his possession of the documents, and his planned journalist contact.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Hartwell's three-day-prior CIA report identifying Vilar's journalist contact plan and Fonseca's presence at the Carnival as part of his security role together raise the question of whether Hartwell's report had reached Fonseca — whether the American surveillance had been the operational trigger."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Whether Hartwell Had Told Fonseca",
+        "text": "The CIA declassified records are incomplete on this point. Hartwell's report had been filed to Langley. A separate communication — partially redacted in the 1998 declassification — shows a cable from the São Paulo Consulate to a Brazilian military contact three days before the Carnival. The cable's content is redacted. The recipient's name is redacted. The timing is consistent with Fonseca having been informed of Vilar's planned journalist contact through the American channel.",
+        "alone": "A partially redacted cable from the Consulate to a Brazilian military contact three days before the Carnival is consistent with Fonseca having been informed through the American channel — but the content and recipient remain redacted.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The partially redacted cable consistent with informing Fonseca and Fonseca's presence at the Carnival in a security role together suggest the American surveillance had been the operational trigger — but the redaction prevents confirmation."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Hartwell's Post-Killing Report",
+        "text": "Hartwell had filed a second report the morning after the killing: 'Subject [Vilar] deceased. Documents seized by Brazilian authorities under national security provisions. Journalist contact did not proceed as planned. Matter resolved through Brazilian channels.' The report's language — 'matter resolved through Brazilian channels' — had been CIA cable shorthand for an outcome achieved through local assets without direct American involvement. The classification had been supported by the American consulate's communication to the Brazilian authorities.",
+        "alone": "Hartwell's morning-after report described the killing as 'matter resolved through Brazilian channels' — and the classification had been supported by American consulate communication to Brazilian authorities.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Hartwell's 'matter resolved' report and the American cables in the documents being part of what was classified together confirm the American interest in the classification had been real — the cables had named American diplomatic contacts and the classification had removed them from public view."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📄",
+        "heading": "The American Cables' Content",
+        "text": "The American cables in Vilar's documents — two of the five documents Salave had read overnight — had referenced 'American diplomatic interest in stability' and had included specific language suggesting the State Department had been informed of the Brazilian military planning and had not objected. The 1998 CIA declassification had confirmed: American diplomatic channels had been aware of the coup planning and had communicated a posture of non-interference. The cables in Vilar's briefcase had been consistent with this posture.",
+        "alone": "The American cables had confirmed State Department awareness of the coup planning and a non-interference posture — consistent with what subsequent declassification had established about American policy toward the Brazilian coup.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The American cables confirming non-interference awareness and Hartwell's 'matter resolved' report together confirm the American role had been surveillance, facilitation through information-sharing, and support for classification — stopping short of direct involvement in the killing."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Hartwell's Later Career",
+        "text": "James Hartwell had continued as a CIA officer until 1979. He had served in several Latin American postings following Brazil. He had been examined by the Church Committee — the US Senate intelligence committee that had investigated CIA activities — in 1975. His Brazil testimony had been classified. It had been partially declassified in 1998 along with the Vilar report. Hartwell had died in Washington DC in 2003. The 1998 declassification had been the first public acknowledgment of American surveillance of Vilar.",
+        "alone": "Hartwell's Church Committee testimony had been partially declassified in 1998 — the first public acknowledgment of American surveillance of Vilar. He had died in 2003.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Hartwell's 1975 Church Committee testimony and the 1998 partial declassification together confirm the American record had been examined twice — once by the Senate and once through public declassification — with the full picture remaining partially redacted."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Four Actors' Outcomes",
+        "text": "Four people had been in the orbit of the documents that night: Fonseca had killed to suppress them — risen to General, died 1989, identified posthumously by the Truth Commission. Lucia had taken them to Salave — surveilled, continued her samba school, testified 1985, died 1991. Hartwell had watched and reported — CIA career until 1979, Church Committee 1975, partial declassification 1998, died 2003. Salave had received and kept notes — published 1985, the most public and lasting contribution.",
+        "alone": "Four actors, four outcomes — the killer identified posthumously, the rescuer surveilled and recognised, the watcher's record partially declassified, the journalist's notes published twenty-two years later.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The four outcomes and Salave's twenty-two-year notes being the most lasting contribution together confirm the full human accounting — the documentation had survived through the journalist's personal record and had been published at the most historically significant moment available."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "📄",
+        "heading": "What the Documents Had Predicted",
+        "text": "The 1986 historical confirmation had established: every element of the documents had been accurate. The detention list had named the actual people detained. The timetable had matched the actual coup sequence within forty-eight hours. The American non-interference posture had been consistent with subsequent declassified American records. The documents Roberto Vilar had been carrying on the night he had been killed had described the next eleven months of Brazilian history with documentary precision. They had been the truth. They had arrived twenty-two years late.",
+        "alone": "The documents had been accurate in every element — the truth about what was coming, arrived twenty-two years late through Salave's preserved notes.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The documents being documentarily accurate and the Carnival continuing as the music is very loud together confirm the case's final image — the truth had been in the backstage corridor, had survived through a journalist's handwritten notes, and had been confirmed against history. The Carnival continues."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Music Is Very Loud",
+        "text": "The São Paulo Carnival continues annually. The Anhembi Sambadrome hosts samba schools whose histories run through the military period, the democratic transition, and the present. Lucia Drummond's Império da Mogiana is still in the parade. Roberto Vilar is not commemorated anywhere. Paulo Salave's 1985 Folha publication is in the newspaper archive. Lucia's Truth Commission testimony is in the National Archive. The CIA's partially declassified records are in the US National Archives. James Hartwell's full testimony remains partially redacted. The music from the Carnival floor in 1963 had been loud enough to cover the killing. The music from the Carnival floor tonight will be very loud. It always is.",
+        "alone": "The music from the 1963 Carnival floor had covered the killing. The music tonight will be very loud. It always is. Vilar is not commemorated. The records are in three archives.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The documents being accurate and the music always being very loud together confirm the final element — the Carnival that had been the context for the killing had been the context for the suppression and had been the context for everything that followed. It continues. The music is very loud."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Hélio Fonseca",
+      "location": "The Backstage Corridor",
+      "weapon": "Costume Rail Bracket",
+      "motive": "Suppress the Documents Before They Reached the Press",
+      "accomplice": "Took the Documents to the Journalist at Two AM"
+    },
+    "epilogue": "James Hartwell had filed a CIA report on Vilar three days before the killing. A partially redacted cable from the Consulate to a Brazilian military contact had been sent the same day. Fonseca had been at the Carnival in his security role and had known Vilar was there. He had killed Vilar, had been interrupted, and had not taken the documents. Lucia had taken them to Salave at two AM. Salave had kept his notes for twenty-two years. The coup had come in March 1964. Fonseca had risen to General. Hartwell's Church Committee testimony had been partially declassified in 1998. Salave had published in 1985 on the same front page as the Truth Commission. The documents had been accurate in every element. The music from the Carnival floor in 1963 had covered the killing. The music tonight will be very loud. It always is."
+  }
+}

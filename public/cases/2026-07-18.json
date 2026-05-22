@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Johannesburg, 1899. Six weeks before the Boer War. A gold mine foreman dead in the shaft. And a labour scheme that had been making men disappear — quietly — for years. 🏴🔍 Case #121 — The Rand. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Johannesburg 1899 before the Boer War, a gold mine foreman dead in the shaft, and a labour conspiracy that had been running for years on the backs of men who couldn't report it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1899 Johannesburg gold mine surface complex, corrugated iron headgear over the shaft, a foreman's helmet and incident book on the ground, a chain-operated cage mechanism with a jammed lever, the Highveld sky in the dry season above. Colonial industrial weight and African light. Style of David Goldblatt meets Dorothea Lange.",
+    "animationPrompt": "Slow pan across a 1899 Johannesburg gold mine surface complex. Corrugated iron headgear. A shaft cage mechanism. The camera finds a foreman's helmet and incident book on the ground and a jammed cage lever. The Highveld sky above. The mine is very still. The war is six weeks away. Fade to black.",
+    "hashtags": [
+      "#Johannesburg1899",
+      "#BoerWar",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #121",
+    "title": "The Rand",
+    "setting": "Simmer and Jack Gold Mine · Johannesburg · South Africa · 1899",
+    "emoji": "🏴",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Foreman James Doig was found dead at the base of Number Three shaft at the Simmer and Jack gold mine — six weeks before the Boer War would begin. He had been documenting a labour scheme in which Black mine workers were systematically denied their contracted wages through falsified productivity records. His incident book had been the documentation. The incident book was missing. Three men had been at the shaft that morning.",
+    "emptyState": "The incident book is gone. Three men were at the shaft. Find who threw it — and him — in.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Mine Manager Cecil Brant",
+            "icon": "⛏️",
+            "detail": "The mine's British manager — had been running the wage falsification scheme and stood to face criminal charges if the incident book reached the mining authorities."
+          },
+          {
+            "name": "Shift Supervisor Willem Kruger",
+            "icon": "📋",
+            "detail": "An Afrikaner supervisor — had been implementing the falsified records on a daily basis and had known the specific workers affected."
+          },
+          {
+            "name": "Company Clerk Arthur Peel",
+            "icon": "📒",
+            "detail": "The mine's administrative clerk — had been responsible for the payroll records and had known the scheme's financial scale."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Number Three Shaft",
+            "icon": "⛏️",
+            "detail": "Where Doig was found — at the shaft's base, cage mechanism jammed, incident book gone."
+          },
+          {
+            "name": "The Surface Compound",
+            "icon": "🏭",
+            "detail": "The surface-level operations area — where the cage mechanism was operated from."
+          },
+          {
+            "name": "The Company Office",
+            "icon": "📒",
+            "detail": "Where the payroll records were kept — and where the falsification had been administered."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Shaft Cage Mechanism",
+            "icon": "⛏️",
+            "detail": "The cage had been deliberately lowered while Doig was on the maintenance platform — dropping him to the shaft base."
+          },
+          {
+            "name": "Incident Book Corner",
+            "icon": "📒",
+            "detail": "No wound — the book had been taken, not used as a weapon."
+          },
+          {
+            "name": "Chain Handle",
+            "icon": "⛓️",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Incident Book",
+        "text": "Doig had been keeping the incident book for three months — documenting sixty-seven specific instances of wage falsification affecting forty-two named workers. The book included productivity figures, the falsified records, and the discrepancies. If the book had reached the Witwatersrand Chamber of Mines or the colonial administration, the scheme's administrators would have faced criminal prosecution. The book's documentation was specific enough to name individuals at each level of the scheme.",
+        "alone": "The incident book named individuals at each level — sixty-seven instances, forty-two workers, specific enough for criminal prosecution. Anyone named in it had a strong motive to destroy it.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The incident book naming individuals at each level and Cecil Brant's confirmed role as the scheme's administrator — the person at the top of the structure the book had described — together establish his specific exposure under the book's documentation."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⛏️",
+        "heading": "The Cage Mechanism",
+        "text": "The shaft cage had been used as the killing method — Doig had been on the maintenance platform inspecting the shaft wall when the cage had been lowered from the surface controls. The cage mechanism showed the brake lever had been deliberately held in the release position rather than accidentally released. The mechanism required a specific physical action: holding the brake lever against its spring tension for approximately ten seconds while the cage descended. This was not an accident.",
+        "alone": "The cage had been deliberately lowered — the brake lever had been held against spring tension for ten seconds while Doig was on the maintenance platform. This was a deliberate act requiring sustained physical engagement.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate cage lowering requiring knowledge of the brake mechanism's spring tension operation and Cecil Brant's documented familiarity with the Number Three shaft's mechanical systems from his site inspection records together establish the specific mechanical knowledge the killing had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Kruger's Morning",
+        "text": "Willem Kruger had been underground on the Number Seven level from six AM until nine AM — confirmed by three miners who had been working on the level under his supervision. The cage mechanism at Number Three shaft was on the surface. Kruger had not been on the surface during the killing window. He is definitively cleared.",
+        "alone": "Kruger had been underground on Number Seven from six to nine AM — confirmed by three miners. He had not been at the Number Three shaft surface controls. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Kruger cleared underground and Arthur Peel confirmed in the company office together eliminate both other suspects from the Number Three shaft surface — only Brant's surface movements that morning are unconfirmed at the shaft controls."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "Brant's Financial Stake",
+        "text": "The scheme's financial records — reconstructed from the company's books after the investigation — show the wage falsification had been generating approximately £400 per month in underpaid wages redirected through a set of false accounts. Over eighteen months, the scheme had accumulated £7,200 in diverted funds. The funds had been distributed: sixty percent to Brant, thirty percent to Peel, ten percent to Kruger. Brant's personal exposure had been the largest — both in financial gain and in managerial responsibility.",
+        "alone": "Brant had received sixty percent of £7,200 over eighteen months — the largest financial gain and the greatest managerial responsibility for the scheme.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Brant's sixty percent financial gain and his role as the scheme's administrator together confirm his exposure had been the most acute — both criminal liability and financial stake had been concentrated at his level."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "⛏️",
+        "heading": "Brant at Number Three Shaft",
+        "text": "A surface worker confirms he had seen Cecil Brant at the Number Three shaft surface controls at approximately seven-thirty AM — he had noted it because Brant rarely visited the shaft head during early morning operations. Brant had told him he was checking the cage mechanism following a reported inspection. The surface worker had been called to a different part of the compound. He had not seen Brant leave the shaft head area.",
+        "alone": "Brant had been at the Number Three shaft surface controls at seven-thirty AM — a rare early morning visit he had explained as a cage inspection. The surface worker had been sent away.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The cage deliberately lowered requiring sustained physical engagement at the surface controls and Brant confirmed at those controls at seven-thirty AM together place the person with the financial motive at the mechanism during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "Brant's Mechanical Knowledge",
+        "text": "Brant's site inspection records — maintained as required by the Chamber of Mines — show he had conducted a detailed mechanical inspection of the Number Three shaft cage system six weeks prior. His inspection notes demonstrate specific knowledge of the brake mechanism's spring tension and operational sequence. He had the documented knowledge of exactly how to hold the brake lever to lower the cage while a person was on the maintenance platform.",
+        "alone": "Brant's own inspection notes demonstrated specific knowledge of the brake mechanism's operation — including the spring tension detail that the deliberate lowering had required.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Brant at the shaft controls at seven-thirty AM and his documented specific knowledge of the brake mechanism's operation together confirm both the presence and the capability — the person who had been at the controls had known exactly how to operate them for the specific purpose."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📒",
+        "heading": "Peel's Morning",
+        "text": "Arthur Peel had been in the company office from seven AM, processing the weekly payroll — confirmed by the mine's assistant accountant who had been working with him throughout. The company office was four hundred metres from Number Three shaft. Peel had not been at the shaft. He is definitively cleared.",
+        "alone": "Peel had been in the company office processing payroll from seven AM — confirmed by the assistant accountant. He had not been at Number Three shaft. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Kruger cleared underground and Peel cleared in the company office together eliminate both other suspects from the shaft surface — Brant's confirmed seven-thirty AM presence at the shaft controls is the only suspect movement at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The War and the Investigation",
+        "text": "The Boer War began on October 11th, 1899 — six weeks after Doig's death. The colonial administration's investigation into the wage falsification scheme and Doig's death was suspended when the war began. Brant had been captured by Boer forces and held until the war's end. The investigation had not been resumed after 1902. The Chamber of Mines' post-war reconstruction priorities had not included reopening the 1899 incident. Brant had returned to mine management after the war. The forty-two workers named in Doig's book had never received their wages.",
+        "alone": "The investigation had been suspended by the war and not resumed — Brant had returned to mine management. The forty-two workers had never received their wages.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Brant's sixty percent stake in the scheme and the investigation suspended by the war without resumption together confirm the full outcome — the killing had prevented the immediate exposure, and the war had prevented the deferred one."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Cecil Brant",
+      "location": "Number Three Shaft",
+      "weapon": "Shaft Cage Mechanism"
+    },
+    "epilogue": "Cecil Brant had been at Number Three shaft surface controls at seven-thirty AM. He had held the brake lever against its spring tension for ten seconds. Doig had been on the maintenance platform. The cage had descended. Brant had taken the incident book. The Boer War had begun six weeks later. The investigation had been suspended. Brant had been captured and held. After 1902 the investigation had not been resumed. He had returned to mine management. The forty-two workers named in Doig's incident book had never received their wages. Doig had been documenting the scheme for three months. The book he had kept is not in any archive. The forty-two names are not recorded anywhere else."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #121",
+    "title": "The Rand",
+    "setting": "Simmer and Jack Gold Mine · Johannesburg · South Africa · 1899",
+    "emoji": "🏴",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Brant killed Doig and the investigation was suspended by the war. But Arthur Peel had a copy of the incident book's key findings — find what Peel had done with his copy and why he had made it.",
+    "emptyState": "Peel had a copy of the incident book's key findings. Find what he did with it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Cecil Brant",
+            "icon": "⛏️",
+            "detail": "The killer — brake lever, seven-thirty AM, incident book taken, war suspended investigation, returned to management."
+          },
+          {
+            "name": "Willem Kruger",
+            "icon": "📋",
+            "detail": "Cleared as killer — underground confirmed. Received ten percent of the scheme. His post-war fate is examined."
+          },
+          {
+            "name": "Arthur Peel",
+            "icon": "📒",
+            "detail": "Cleared as killer — company office confirmed. Had made a copy of the incident book's key findings."
+          },
+          {
+            "name": "The Chamber of Mines",
+            "icon": "🏛️",
+            "detail": "The regulatory body — whose post-war priorities had determined whether the investigation had been resumed."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Number Three Shaft",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Brant's killing."
+          },
+          {
+            "name": "The Company Office",
+            "icon": "📒",
+            "detail": "Peel's confirmed location — and where he had made his copy of the key findings."
+          },
+          {
+            "name": "The Colonial Administration Office",
+            "icon": "🏛️",
+            "detail": "Where Peel had submitted his copy — and what the administration had done with it before the war."
+          },
+          {
+            "name": "The Post-War Chamber of Mines",
+            "icon": "🏛️",
+            "detail": "Where the copy had eventually been found — and what had been done with it after 1902."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Shaft Cage Mechanism",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Brant's deliberate brake lever hold."
+          },
+          {
+            "name": "Incident Book Corner",
+            "icon": "📒",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Chain Handle",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Peel's Copy",
+            "icon": "📒",
+            "detail": "Not a weapon — but the document whose existence had been Peel's protection and whose fate had determined the scheme's legacy."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Incident Book Reaching the Authorities",
+            "icon": "⛏️",
+            "detail": "Brant's motive — war suspended investigation, returned to management."
+          },
+          {
+            "name": "Protect Himself From Exposure",
+            "icon": "📒",
+            "detail": "Peel's motive for making the copy — his name was also in the incident book."
+          },
+          {
+            "name": "Bargain With the Copy for Immunity",
+            "icon": "📒",
+            "detail": "What Peel had done with the copy — submitted it to the administration in exchange for a guarantee."
+          },
+          {
+            "name": "The Administration's Response Before the War",
+            "icon": "🏛️",
+            "detail": "What had happened when Peel's copy had arrived — and how the war had interrupted the response."
+          },
+          {
+            "name": "The Post-War Outcome for the Workers",
+            "icon": "📒",
+            "detail": "What the copy's eventual discovery had produced — and whether the workers had received any remedy."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Why Peel Had Made the Copy",
+        "text": "Peel's account, given to the post-war Chamber of Mines review in 1903: 'I had been helping Doig with the documentation for six weeks before his death. I was named in the scheme — I had processed the falsified records. I had made a copy of the key findings because I knew that if Doig's documentation reached the authorities, my name would be on it. I wanted something to bargain with — evidence of others' conduct in exchange for my own immunity. I submitted it to the colonial administration's offices on the day Doig died.'",
+        "alone": "Peel had made the copy to bargain with — his name in the incident book had made a bargaining chip necessary. He had submitted it on the day of the killing.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Peel submitting the copy on the day of the killing and the administration receiving it before the war began together confirm the copy had been in official hands before the investigation had been suspended — the question is what the administration had done with it."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Administration's Response Before the War",
+        "text": "Colonial administration records show Peel's copy had been received by the administration's office on the day of the killing. An inspector had been assigned to examine it the following week. The Boer War had begun before the inspector had produced his report. The inspector had been called up for military service. The file had been classified as 'pending resolution of military situation' and had been placed in storage. It had remained in storage for four years.",
+        "alone": "Peel's copy had been received, assigned to an inspector, and then frozen by the war's outbreak — stored for four years as 'pending resolution.'",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The copy stored for four years and the Chamber of Mines' post-war reconstruction priorities determining whether it had been retrieved together confirm the institutional fate of the evidence — the war had not destroyed it but had buried it."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Peel's Immunity Agreement",
+        "text": "Peel had received an informal immunity agreement from the administration's inspector before the war — a verbal assurance that his cooperation through the copy submission would be considered in any prosecution. The inspector had been killed in the war. The immunity agreement had died with him. When the file had been reopened in 1903, Peel had had no documentation of the immunity. He had been prosecuted along with Brant and Kruger, receiving three years.",
+        "alone": "Peel's immunity agreement had died with the inspector — he had been prosecuted despite the agreement and had received three years.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Peel's immunity agreement dying with the inspector and his prosecution confirm the irony of his position — the copy he had made to protect himself had been the evidence that had convicted him alongside the men it had been meant to distinguish him from."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Post-War Investigation",
+        "text": "The Chamber of Mines' 1903 review had reopened the file, found Peel's copy, and had conducted a limited prosecution. Brant had received five years. Kruger had received two years. Peel had received three years, despite his cooperation. The forty-two workers named in the copy had been identified and a compensation claim had been submitted on their behalf. The claim had been rejected on the grounds that the scheme had predated the current legal framework for mine labour protections. The forty-two workers had received nothing.",
+        "alone": "Brant had received five years, Kruger two, Peel three. The forty-two workers' compensation claim had been rejected on legal grounds. They had received nothing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The prosecutions producing sentences for the administrators and the workers' compensation claim rejected together confirm the post-war investigation's incomplete justice — the perpetrators had faced consequences and the victims had not received remedy."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📒",
+        "heading": "What Peel's Copy Had Preserved",
+        "text": "Peel's copy had been less complete than Doig's original incident book — it had covered the scheme's financial structure and the key falsification examples but had not included the individual worker productivity records that would have enabled the most specific compensation calculations. The copy had been sufficient for prosecution but insufficient for detailed compensation claims. The workers' names had been in the copy. The evidence of exactly how much each had been owed had not been.",
+        "alone": "Peel's copy had named the workers but had not preserved the productivity records needed for specific compensation calculations — sufficient for prosecution, insufficient for full remedy.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The copy enabling prosecution and the compensation claim being rejected together confirm the legal gap — the evidence had been enough to convict the administrators but not enough to establish the specific amounts owed to each worker."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📒",
+        "heading": "Peel's Account of Making the Copy",
+        "text": "Peel: 'I copied the financial structure and the falsification examples. I did not copy the individual worker productivity records — those were in Doig's handwriting and I did not have time to reproduce them fully. I thought the financial structure would be sufficient for my purpose. I did not know the workers would need the specific records for their claim. I did not know there would be a claim. I was thinking about myself, not about them. That is the honest account of what I copied and why.'",
+        "alone": "Peel had copied what had served his bargaining purpose — not the worker productivity records that would have served the workers' compensation. He had been thinking about himself.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Peel's copy covering the financial structure but not the productivity records and the workers' compensation claim needing the specific records together confirm the document's gap had been a direct consequence of Peel's self-interested motivation in making the copy."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📒",
+        "heading": "The Forty-Two Workers",
+        "text": "Of the forty-two workers named in Peel's copy: the Chamber of Mines' 1903 review had attempted to contact them for the compensation claim. Seventeen had been located. The remaining twenty-five could not be found — some had moved between the 1899 incident and the 1903 review, some had left South Africa, and some had died during the intervening years including the war. Of the seventeen located, none had received compensation. The claim had been submitted collectively and had been rejected collectively.",
+        "alone": "Of forty-two workers, seventeen had been located in 1903. None had received compensation. The claim had been rejected collectively.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Seventeen of forty-two workers located and none receiving compensation together confirm the human accounting — four years between the killing and the review had dispersed the people the documentation had been meant to protect."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🏴",
+        "heading": "The Mine After the War",
+        "text": "The Simmer and Jack mine had continued operating after the war. It had been one of the Rand's major producers through the first decades of the twentieth century. The mine had closed in 1983. The headgear over Number Three shaft was demolished in 1985. A residential development now occupies part of the site. The Chamber of Mines' 1903 review file — including Peel's copy — is in the South African National Archives. It is publicly accessible. The forty-two workers' names are in it. The amounts they were owed are not.",
+        "alone": "The mine closed in 1983. The headgear over Number Three shaft was demolished in 1985. The file is in the South African National Archives with the forty-two names but not the amounts owed.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Seventeen of forty-two located and none compensated and the file in the archive with the names but not the amounts together confirm the documentation's final state — the names exist in the record without the specific remedy that would have required the productivity records Peel had not copied."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Cecil Brant",
+      "location": "Number Three Shaft",
+      "weapon": "Shaft Cage Mechanism",
+      "motive": "Prevent the Incident Book Reaching the Authorities"
+    },
+    "epilogue": "Arthur Peel had submitted his copy to the administration on the day of the killing. The inspector had received it and had been killed in the war. The immunity agreement had died with him. The file had been stored for four years. The 1903 review had found it. Brant had received five years. Kruger had received two. Peel had received three years and no immunity. The forty-two workers' compensation claim had been rejected on legal grounds. Seventeen of the forty-two had been located. None had received anything. The mine had continued operating until 1983. Number Three shaft's headgear had been demolished in 1985. The file is in the South African National Archives. The forty-two names are in it. The amounts they were owed are not. James Doig's incident book is not in any archive. Peel had been thinking about himself when he had decided what to copy."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #121",
+    "title": "The Rand",
+    "setting": "Simmer and Jack Gold Mine · Johannesburg · South Africa · 1899",
+    "emoji": "🏴",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Brant killed Doig. Peel made a self-serving copy. But Willem Kruger had known about Doig's documentation for weeks — and had been helping the workers understand what was being done to them. Find what Kruger had been doing and why.",
+    "emptyState": "Kruger was helping the workers understand the scheme. Find what he was doing and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Cecil Brant",
+            "icon": "⛏️",
+            "detail": "The killer — brake lever, incident book taken, five years, returned to management after war."
+          },
+          {
+            "name": "Arthur Peel",
+            "icon": "📒",
+            "detail": "Cleared as killer — company office. Self-serving copy, immunity died with inspector, three years."
+          },
+          {
+            "name": "Willem Kruger",
+            "icon": "📋",
+            "detail": "Cleared as killer — underground confirmed. Two years. Had been helping the workers understand the scheme."
+          },
+          {
+            "name": "The Workers Themselves",
+            "icon": "⛏️",
+            "detail": "The forty-two — whose knowledge of what was being done to them, through Kruger, had been the scheme's human dimension."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Number Three Shaft",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Brant's killing."
+          },
+          {
+            "name": "The Underground Levels",
+            "icon": "⛏️",
+            "detail": "Where Kruger had been working alongside the affected workers — and where the conversations had occurred."
+          },
+          {
+            "name": "The Workers' Compound",
+            "icon": "🏠",
+            "detail": "Where the workers had lived — and where Kruger had spent time outside shift hours."
+          },
+          {
+            "name": "The Post-War Records",
+            "icon": "📋",
+            "detail": "Where Kruger's assistance to the workers had been documented — from the workers' own accounts in 1903."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Shaft Cage Mechanism",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Brant's."
+          },
+          {
+            "name": "Incident Book Corner",
+            "icon": "📒",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Chain Handle",
+            "icon": "⛓️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Kruger's Knowledge of the Scheme",
+            "icon": "📋",
+            "detail": "Not a weapon — but what he had done with his insider knowledge, separately from Doig's documentation."
+          },
+          {
+            "name": "The Workers' Own Records",
+            "icon": "⛏️",
+            "detail": "Not a weapon — what Kruger had helped the workers create for themselves."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Criminal Exposure",
+            "icon": "⛏️",
+            "detail": "Brant's motive — five years."
+          },
+          {
+            "name": "Self-Protective Cooperation",
+            "icon": "📒",
+            "detail": "Peel's motive — three years without immunity."
+          },
+          {
+            "name": "Moral Conflict Between His Role and His Conscience",
+            "icon": "📋",
+            "detail": "Kruger's position — had been implementing the scheme while helping the workers understand it."
+          },
+          {
+            "name": "Kruger's Afrikaner Background and the Pre-War Context",
+            "icon": "📋",
+            "detail": "The specific context — an Afrikaner supervisor helping Black workers in a British mine six weeks before the Boer War."
+          },
+          {
+            "name": "What Kruger Had Helped the Workers Create",
+            "icon": "📋",
+            "detail": "The workers' own records — kept separately from Doig's incident book."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Doig and Took the Incident Book",
+            "icon": "⛏️",
+            "detail": "Brant's confirmed role — five years."
+          },
+          {
+            "name": "Made a Self-Serving Copy for Immunity That Was Not Granted",
+            "icon": "📒",
+            "detail": "Peel's role — three years, forty-two workers uncompensated."
+          },
+          {
+            "name": "Helped the Workers Understand the Scheme and Create Their Own Records",
+            "icon": "📋",
+            "detail": "Kruger's parallel role — two years, workers' records eventually found."
+          },
+          {
+            "name": "Stored the Administration File for Four Years",
+            "icon": "🏛️",
+            "detail": "The colonial administration's role — war, storage, 1903 review."
+          },
+          {
+            "name": "Rejected the Workers' Compensation Claim on Legal Grounds",
+            "icon": "⚖️",
+            "detail": "The Chamber of Mines' institutional role — names but not amounts, no remedy."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Kruger Had Been Doing",
+        "text": "Workers interviewed in the 1903 review describe Kruger's parallel activity: 'Kruger told us what the records showed. He told us the numbers we were producing and the numbers that were being written down. He showed us the difference. He helped us make our own notes — in Zulu and Sotho, not in English — of what we had produced each week and what we had been paid. He told us to keep the notes somewhere that was ours, not the company's.' He had been helping the workers build their own parallel record.",
+        "alone": "Kruger had explained the falsification to the workers and had helped them build their own parallel productivity records in their own languages — a counter-archive separate from Doig's English-language documentation.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Kruger helping the workers create their own records and those records surviving through the war and the 1903 review together confirm the parallel archive had outlasted both Doig's incident book and the initial investigation's suspension."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Kruger Had Done It",
+        "text": "Kruger's account to the 1903 review: 'I was implementing the scheme because Brant had told me to. I was an employee. But I knew it was wrong. These men were being cheated of wages they had earned. I told them because they had a right to know what was being done to them. I helped them keep records because I knew they might need them. I knew Doig was documenting it in English. I thought their own records, in their own languages, would be something they could keep for themselves without depending on us.'",
+        "alone": "Kruger had helped the workers because he had believed they had a right to know and to have their own records — independent of the English-language documentation that might be taken from them.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Kruger's belief that the workers should have their own records not dependent on English-language documentation and Doig's incident book being taken together confirm the prescience of Kruger's parallel approach — the English-language record had been destroyed, and the workers' own records had survived."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Workers' Records in 1903",
+        "text": "The 1903 review had been able to locate seventeen of the forty-two workers. Of those seventeen, nine had retained their own productivity records from Kruger's parallel documentation effort. The records were in Zulu and Southern Sotho. The review's investigators had been unable to process them without translation assistance that had not been available. The records had been noted as 'potentially relevant materials in indigenous languages — translation pending.' They had been filed and not returned to.",
+        "alone": "Nine of the seventeen located workers had retained their own records — noted as 'potentially relevant materials in indigenous languages — translation pending' and filed without follow-up.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The workers' records filed without translation and the compensation claim rejected for insufficient specific evidence together confirm the gap — the specific evidence had existed in the workers' own languages and had not been translated or used in the claim."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Kruger's Position in the Pre-War Context",
+        "text": "Kruger's assistance to the workers had occurred six weeks before the Boer War — a moment of extreme tension between the British mining establishment and the Afrikaner community. An Afrikaner supervisor helping Black workers against a British mine manager had carried specific political significance in the context of 1899. Kruger had been implementing the scheme as a British employee while privately undermining it in solidarity with the workers. The 1903 review had noted his assistance as 'anomalous given the broader political context of the period.'",
+        "alone": "Kruger's assistance had been politically anomalous — an Afrikaner supervisor helping Black workers against a British mine manager six weeks before the Boer War.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Kruger's politically anomalous assistance and the 1903 review noting it as such together confirm the historical specificity of his role — the act had been simultaneously personal, professional, and politically complex in the specific moment of 1899 South Africa."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Whether the Workers' Records Were Ever Used",
+        "text": "The 1903 review had filed the workers' records as 'translation pending' and had not returned to them. The compensation claim had proceeded on the basis of Peel's copy — which had not included the specific productivity figures — and had been rejected. The workers' own records, which had included the specific productivity figures in their original languages, had remained in the archive unfiled. A historian examining the Chamber of Mines archive in 1987 had found the nine workers' records still in their original folder, still marked 'translation pending.'",
+        "alone": "The workers' own records had been in the archive since 1903, still marked 'translation pending' in 1987 — the specific evidence that could have supported the compensation claim had never been used.",
+        "links": [
+          {
+            "with": "I3",
+            "insight": "Nine workers retaining their records and those records remaining in the archive since 1903 without being translated or used together confirm the fate of the most specific evidence — it had existed, had been found, had been filed, and had been forgotten."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 1987 Discovery",
+        "text": "The historian who had found the workers' records in 1987 had published a paper in the South African Historical Journal identifying the records and their content. The paper had named the nine workers whose records had survived and had translated the key productivity figures. The paper had noted: 'These records represent the workers' own documentation of their exploitation, preserved in their own languages, and filed by the institution responsible for their exploitation as a translation problem rather than as evidence.'",
+        "alone": "The 1987 paper had translated the records and had named the nine workers — the first time their specific productivity figures had been in an accessible public record.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The workers' records finally translated in 1987 and the compensation claim having been rejected in 1903 for lack of specific evidence together confirm the eighty-four-year gap — the evidence had been filed in 1903 and had not been usable until 1987."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "The Full Chain of Records",
+        "text": "James Doig's incident book: taken by Brant, not recovered, not in any archive. Arthur Peel's copy: submitted 1899, stored 1899-1903, used in prosecution, workers' claim rejected for insufficient specific figures, in South African National Archives. The nine workers' own records: retained 1899, filed 1903 as translation pending, found by historian 1987, translated and published 1987, in Chamber of Mines archive. Three records, three paths, three outcomes. Doig's: destroyed. Peel's: insufficient. The workers': filed and forgotten for eighty-four years.",
+        "alone": "Three records, three outcomes — Doig's destroyed, Peel's insufficient, the workers' filed and forgotten for eighty-four years before being found and translated.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The workers' records translated in 1987 and the three-record accounting together confirm the case's final structure — the most specific evidence had been the workers' own documentation, and it had taken eighty-eight years from the killing to reach public accessibility."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏴",
+        "heading": "What Remained",
+        "text": "The Simmer and Jack mine had closed in 1983. Number Three shaft's headgear had been demolished in 1985. The residential development on the site has no marker for the shaft. The South African National Archives holds Peel's copy. The Chamber of Mines archive holds the nine workers' records. The 1987 paper is in the South African Historical Journal. Doig's incident book is not in any archive. Forty-two workers had been named. Nine had kept their own records. The nine records had been found after eighty-four years. The Highveld sky above the Rand is the same. The shaft is not there. The records are.",
+        "alone": "The shaft is not there. The records are. Forty-two names, nine records, eighty-four years. The Highveld sky is the same.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The workers' records in the archive since 1903 and the shaft demolished in 1985 together confirm the final accounting — the physical site had been erased and the documentary record had survived, found after eighty-four years by a historian who had known to look."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Cecil Brant",
+      "location": "Number Three Shaft",
+      "weapon": "Shaft Cage Mechanism",
+      "motive": "Prevent the Incident Book Reaching the Authorities",
+      "accomplice": "Helped the Workers Understand the Scheme and Create Their Own Records"
+    },
+    "epilogue": "Willem Kruger had explained the falsification to the workers and had helped them keep records in Zulu and Sotho. He had believed they had a right to know and to have records that were theirs. Nine of the forty-two had kept those records. The 1903 review had found them, marked them translation pending, and filed them. They had remained in the archive for eighty-four years. A historian had found them in 1987 and had published the translation. Doig's incident book was not in any archive. Peel's copy was insufficient for the compensation claim. The workers' own records had been the most specific evidence and had been the last to be used. The shaft was not there. The records were. The Highveld sky above the Rand was the same."
+  }
+}

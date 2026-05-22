@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Saigon, April 29th 1975. The day before the fall. A South Vietnamese official dead at the railway station. And evacuation documents that would have gotten hundreds of people out before the helicopters stopped coming. 🚂🔍 Case #134 — The Last Train. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Saigon April 29 1975 the day before the fall, a dead official, evacuation documents for hundreds of people, and someone who needed those documents not to exist. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Saigon railway station on April 29th 1975, a crowd of civilians with belongings pressing toward the platforms, a South Vietnamese official's uniform jacket and identity documents on the station floor, an evacuation manifest scattered across the tiles, a clock on the wall showing ten AM, the station's French colonial architecture above the chaos. The last day before the fall. Style of Nick Ut's war photography meets Henri Huet.",
+    "animationPrompt": "Slow pan through Saigon railway station on April 29th 1975. Crowds pressing toward the platforms. A South Vietnamese official's jacket on the floor. Evacuation documents scattered across the tiles. The station clock shows ten AM. The French colonial architecture above. The city has one day left. Fade to black.",
+    "hashtags": [
+      "#Saigon1975",
+      "#FallOfSaigon",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #134",
+    "title": "The Last Train",
+    "setting": "Saigon Railway Station · Saigon · South Vietnam · April 29th, 1975",
+    "emoji": "🚂",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "South Vietnamese Transport Ministry official Nguyen Van Minh was found dead in the stationmaster's office at Saigon railway station on the morning of April 29th, 1975 — the day before the fall. He had been compiling an evacuation manifest for 340 civilians: government workers' families, journalists' local staff, and embassy-connected Vietnamese who had not yet been processed for helicopter evacuation. Three people had been in the office. The manifest was gone.",
+    "emptyState": "April 29th. The helicopters stop tomorrow. Three hundred and forty names on a manifest that's gone. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Pham Duc Thin",
+            "icon": "🎖️",
+            "detail": "A South Vietnamese Army officer — had been coordinating military evacuation priorities and had access to the manifest. His own family was on a separate military list. Several of his rivals' families were on Minh's civilian manifest."
+          },
+          {
+            "name": "Thomas Avery",
+            "icon": "🇺🇸",
+            "detail": "A US Embassy logistics officer — had been managing the American evacuation operation and had been under orders to consolidate all evacuation lists through official embassy channels."
+          },
+          {
+            "name": "Linh Phuong",
+            "icon": "📋",
+            "detail": "Minh's assistant — had been helping compile the manifest for three days and had known every name on it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stationmaster's Office",
+            "icon": "🚂",
+            "detail": "Where Minh was found — uniform jacket on the floor, manifest scattered but incomplete, several pages missing."
+          },
+          {
+            "name": "The Station Concourse",
+            "icon": "👥",
+            "detail": "The main hall — packed with civilians pressing toward any available transport."
+          },
+          {
+            "name": "The Platform Three Gate",
+            "icon": "🚪",
+            "detail": "The last operational exit point — where a witness had seen the killer leave."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Station Telephone Handset",
+            "icon": "📞",
+            "detail": "A heavy Bakelite telephone handset — blunt force wound consistent with its weighted base used as a bludgeon."
+          },
+          {
+            "name": "Manifest Binder",
+            "icon": "📋",
+            "detail": "No blood trace on the binder found at the scene — eliminated."
+          },
+          {
+            "name": "Office Chair Arm",
+            "icon": "🪑",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Manifest",
+        "text": "The manifest's surviving pages — recovered at the scene — show 340 names organized by category: 127 government ministry employees' immediate family members; 89 local staff of Western news organizations; 74 Vietnamese employees of the US Embassy who had not been processed through official embassy channels; and 50 others with documented connections to American institutions. Minh had been working with the US Embassy to have the list recognized as an authorized evacuation document. The missing pages covered names 201 through 340.",
+        "alone": "The missing pages covered names 201 through 340 — the embassy local staff and others with American institutional connections who had not yet been processed through official channels.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The missing pages covering the embassy local staff and Thomas Avery's role managing American evacuation consolidation together establish his specific operational interest — the unofficial list had represented exactly the category his orders had told him to consolidate through official channels."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📞",
+        "heading": "The Telephone Handset",
+        "text": "The heavy Bakelite telephone handset — detached from its cradle — shows blood on its weighted earpiece end. Minh's wound is consistent with a single blow to the right temple while he had been seated at the desk with the manifest in front of him. The blow had come from the left side — from the direction of the office door, which had opened to the left of the desk. Someone had entered the office and had struck from the doorway side before Minh could react.",
+        "alone": "The blow had come from the door side — someone had entered the office and had struck immediately, before Minh could react. The killing had been sudden and decisive.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The immediate blow from the door side suggesting the killer had known Minh's position at the desk and Thomas Avery's confirmed prior visit to the office — establishing his knowledge of the desk's orientation relative to the door — together confirm the spatial knowledge the immediate blow had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Colonel Thin's Morning",
+        "text": "Colonel Thin had been at the Tan Son Nhat airbase coordination point from seven AM — confirmed by three military officers and the base's movement log. He had not been at the railway station. The killing had occurred between nine and ten AM. He is definitively cleared.",
+        "alone": "Colonel Thin had been at Tan Son Nhat airbase from seven AM confirmed by three officers and the movement log — he had not been at the railway station. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Colonel Thin cleared at Tan Son Nhat and Linh Phuong confirmed on the station concourse together eliminate both other suspects from the stationmaster's office — only Avery's movements between nine and ten AM are unconfirmed at the office."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Avery's Consolidation Orders",
+        "text": "US Embassy evacuation records show Avery had received explicit orders the previous day: 'All Vietnamese evacuation lists to be consolidated through Embassy channels. Unauthorized lists will not be recognized for evacuation transport access. Logistics officer to identify and consolidate all such lists.' The orders had specifically addressed the type of list Minh had been compiling. Avery had been directly tasked with eliminating unofficial lists and redirecting their holders through official channels — a process that, given the timeline, would have meant most of them did not make it.",
+        "alone": "Avery's orders had explicitly addressed Minh's type of list — consolidate through official channels, which given April 29th's timeline would have meant most of the 340 were left behind.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Avery's consolidation orders and the timeline's reality — April 29th, helicopters stopping the following day — together confirm the orders had been a death sentence for the list's effectiveness regardless of their intent. Taking the list had served the same operational purpose as complying with the orders."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🇺🇸",
+        "heading": "Avery at the Station",
+        "text": "A railway station guard confirms he had seen an American in civilian clothes with an embassy identification badge entering the stationmaster's office area at approximately nine-fifteen AM. The man had shown his badge at the platform gate and had been directed to the office. The guard had not seen him leave through the main concourse — he had exited through Platform Three's side gate.",
+        "alone": "An American with an embassy badge had been directed to the stationmaster's office at nine-fifteen AM and had exited through Platform Three's side gate rather than the main concourse.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Avery's explicit orders to consolidate unofficial evacuation lists and his confirmed embassy badge entry to the stationmaster's office at nine-fifteen AM together place the person with the specific operational directive at the office where the manifest had been compiled."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Avery's Prior Office Visit",
+        "text": "Minh's assistant Linh Phuong confirms Avery had visited the stationmaster's office the previous day — April 28th — to discuss the manifest's status. He had seen the desk layout, the manifest's position, and the telephone. Minh had been at the desk during that visit. Avery had known exactly where Minh would be seated and from which direction the door would open relative to the desk.",
+        "alone": "Avery had visited the office on April 28th and had seen the exact desk layout — he had known Minh's seated position and the door's approach angle before returning on April 29th.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The immediate blow from the door side requiring prior knowledge of the desk's orientation and Avery's confirmed April 28th visit establishing that knowledge together confirm the spatial foreknowledge the decisive first blow had demonstrated."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Linh Phuong on the Concourse",
+        "text": "Linh Phuong had been on the main station concourse from eight AM managing the crowd of civilians connected to the manifest — confirming their presence, reassuring them, coordinating with station staff. She had not been in the stationmaster's office during the killing window. She is definitively cleared.",
+        "alone": "Linh had been on the main concourse from eight AM managing the manifest's associated civilians — she had not been in the office during the killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Colonel Thin cleared at Tan Son Nhat and Linh cleared on the concourse together eliminate both other suspects — Avery's embassy badge entry at nine-fifteen and Platform Three exit are the only confirmed suspect movements at the office."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "April 29th and the Manifest's People",
+        "text": "Saigon fell on April 30th, 1975. The last American helicopter departed the US Embassy roof at approximately seven-fifty-two AM. Of the 340 people on Minh's manifest: Linh Phuong had memorised the first 200 names and had spent the remainder of April 29th and the early hours of April 30th finding those people and directing them to alternative evacuation points. Approximately 80 of the first 200 had reached safety. The 140 people on the missing pages — names 201 through 340 — had no separate advocate. Their outcomes varied. The manifest had not been recovered.",
+        "alone": "Linh had memorised the first 200 names and had spent the last day finding them — approximately 80 of the first 200 had reached safety. The 140 on the missing pages had no advocate. The manifest had not been recovered.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The missing pages covering names 201-340 and Linh's memorised first 200 together confirm the killing's specific human consequence — the pages Avery had taken had covered exactly the people Linh had not been able to reach without the list."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Avery",
+      "location": "The Stationmaster's Office",
+      "weapon": "Station Telephone Handset"
+    },
+    "epilogue": "Thomas Avery had visited the office on April 28th and had seen the desk layout. He had returned on April 29th at nine-fifteen AM, had struck Minh from the door side with the telephone handset, had taken the pages covering names 201 through 340, and had exited through Platform Three. Linh Phuong had memorised the first 200 names and had spent the last day finding them. Approximately 80 of those 200 had reached safety. The 140 people on the missing pages had no separate advocate. Saigon had fallen on April 30th. The last helicopter had departed the embassy roof at seven-fifty-two AM. Thomas Avery had been evacuated on an official flight. He had filed an incident report describing the station visit as a routine consolidation attempt. The incident report is in the National Archives. Linh Phuong had remained in Saigon. She had been re-educated. She had been released in 1979. She had emigrated to the United States in 1982. She had spent the remainder of her life attempting to account for each of the 200 names she had memorised. Nguyen Van Minh's name is not on any memorial."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #134",
+    "title": "The Last Train",
+    "setting": "Saigon Railway Station · Saigon · South Vietnam · April 29th, 1975",
+    "emoji": "🚂",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Avery killed Minh and took the pages. But Linh Phuong had memorised the first 200 names and spent the last day finding people. Find what she did — and what she found.",
+    "emptyState": "Linh memorised 200 names and spent April 29th finding people. Find what she found.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Thomas Avery",
+            "icon": "🇺🇸",
+            "detail": "The killer — April 28th office visit, April 29th nine-fifteen entry, telephone handset, pages taken, Platform Three exit, official evacuation, incident report filed."
+          },
+          {
+            "name": "Colonel Pham Duc Thin",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — Tan Son Nhat confirmed. His knowledge of the manifest's existence is newly examined."
+          },
+          {
+            "name": "Linh Phuong",
+            "icon": "📋",
+            "detail": "Cleared as killer — concourse confirmed. Had memorised 200 names and had spent April 29th finding them."
+          },
+          {
+            "name": "The 200 Names Linh Had Memorised",
+            "icon": "📋",
+            "detail": "The people she had been trying to reach — and the outcomes of her search."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stationmaster's Office",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Avery's killing."
+          },
+          {
+            "name": "The Station Concourse",
+            "icon": "👥",
+            "detail": "Linh's starting position — and where her search had begun."
+          },
+          {
+            "name": "The City of Saigon",
+            "icon": "🏙️",
+            "detail": "Where Linh had spent April 29th — finding the 200 people she had memorised."
+          },
+          {
+            "name": "The US Embassy Compound",
+            "icon": "🏛️",
+            "detail": "Where some of the manifest's people had tried to reach — and what Linh had found there."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Station Telephone Handset",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Avery's decisive first blow."
+          },
+          {
+            "name": "Manifest Binder",
+            "icon": "📋",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Office Chair Arm",
+            "icon": "🪑",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Linh's Memory",
+            "icon": "📋",
+            "detail": "Not a weapon — but the 200 names she had carried and what the search had produced."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Consolidate Unofficial Lists Through Official Channels",
+            "icon": "🇺🇸",
+            "detail": "Avery's operational motive — which on April 29th had meant the list's effective elimination."
+          },
+          {
+            "name": "Find the 200 People Before the Helicopters Stopped",
+            "icon": "📋",
+            "detail": "Linh's purpose on April 29th — her search through a collapsing city."
+          },
+          {
+            "name": "What Linh Had Found When She Had Reached the Embassy",
+            "icon": "🏛️",
+            "detail": "The specific discovery — and what the embassy's situation had meant for the people she had been directing there."
+          },
+          {
+            "name": "The Approximately 80 Who Had Reached Safety",
+            "icon": "📋",
+            "detail": "Who they had been and how — the partial accounting."
+          },
+          {
+            "name": "The 120 Who Had Not",
+            "icon": "📋",
+            "detail": "What had happened to the remainder of the first 200 — the outcomes Linh had spent her life accounting for."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Linh's Search",
+        "text": "Linh Phuong's account — given to a Vietnamese-American oral history project in 1995: 'When I found Mr. Minh I understood what had happened and I understood I had only the names in my head. I had 200. I had memorised them in order, in groups of ten, over three days. I left the station at approximately eleven AM. I spent the rest of April 29th going to the addresses I had for those people. I found 147 of them. I directed all 147 toward the embassy compound or toward the river. I lost track of them after that. I do not know which ones reached safety.'",
+        "alone": "Linh had found 147 of the 200 and had directed them toward the embassy or the river — she had lost track after that and had not known their outcomes.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Linh finding 147 and directing them to the embassy or river and the embassy situation on April 29th together establish the specific conditions those 147 had faced — the crowd at the embassy wall, the helicopters departing, the river as the alternative."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Linh Had Found at the Embassy",
+        "text": "Linh had gone to the embassy compound at approximately three PM on April 29th: 'There were thousands of people outside the wall. I could see helicopters on the roof. There were marines at the gate. I could see some of my 147 in the crowd. I could not reach them. I could not help them from where I was. I stood at the edge of the crowd for an hour. Then I went back into the city. I knew I was staying. I had always known I was staying. I had been trying to get others out, not myself.'",
+        "alone": "Linh had stood at the embassy crowd's edge for an hour watching her 147 she could not reach — then had returned to the city, knowing she was staying.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Linh watching her people in the embassy crowd she could not reach and her choice to stay together confirm the full weight of her day — she had spent April 29th as an advocate for others with no intention of leaving herself."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Approximately 80",
+        "text": "The Vietnamese-American community's post-war accounting — compiled by refugee organizations over decades — eventually identified approximately 80 people from Linh's first 200 who had reached safety through the April 29th-30th evacuation. The accounting was inexact — it had depended on people self-reporting their connection to Minh's manifest, and many had not known their names had been on it. The 80 had reached the United States, France, and other countries. The remaining 120 of the first 200 had stayed in Vietnam.",
+        "alone": "Approximately 80 of the first 200 had reached safety — 120 had remained in Vietnam. The accounting had taken decades and had been inexact.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 80 who had reached safety and the 140 on the missing pages without an advocate together confirm the full human accounting — the killing had directly determined which 140 had no one to find them in the last hours."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Linh's Re-Education and Emigration",
+        "text": "Linh Phuong had been identified as a former government ministry employee following the fall and had been sent to a re-education camp. She had been released in 1979. She had remained in Vietnam until 1982, when she had emigrated to the United States through the Orderly Departure Program. She had settled in San Jose, California. She had spent the remainder of her life — she had died in San Jose in 2011 — attempting to account for every name she had memorised. She had found confirmed outcomes for 163 of the 200 by the time of her death.",
+        "alone": "Linh had found confirmed outcomes for 163 of her 200 names by her death in 2011 — thirty-six years of accounting after the day she had memorised them.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Linh finding confirmed outcomes for 163 of 200 over thirty-six years and dying in San Jose in 2011 together confirm the life the day had produced — thirty-six years of following 200 names she had memorised in a collapsing city."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Avery's Incident Report",
+        "text": "Thomas Avery's incident report — filed April 30th, 1975, now in the National Archives: 'On April 29th I visited Saigon railway station to coordinate consolidation of an unofficial evacuation manifest held by Transport Ministry official Nguyen Van Minh. The official was found deceased upon my arrival. I recovered documents for official processing and departed the station. The documents have been submitted to Embassy channels.' The report had described the killing as a prior event he had discovered rather than an event he had caused. The documents had not been traceable in embassy records.",
+        "alone": "Avery's incident report had described the killing as something he had discovered rather than caused — and the documents he had claimed to submit for official processing had not been found in embassy records.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Avery's report describing arrival after the killing and the documents not found in embassy records together confirm the report's two falsehoods — he had been the cause, not the discoverer, and the documents had been destroyed rather than submitted."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "Avery's Post-War Life",
+        "text": "Thomas Avery had been evacuated from Saigon on April 29th on an official flight. He had continued working in the State Department until 1985. He had retired to Connecticut. In 1995 — the twentieth anniversary of the fall — he had given an interview to a newspaper describing his evacuation work as 'trying to bring order to a chaotic situation in the interest of the most people.' He had not mentioned Minh. He had not mentioned the manifest. He had died in Connecticut in 2008.",
+        "alone": "Avery had described his evacuation work in a 1995 interview without mentioning Minh or the manifest — he had died in Connecticut in 2008.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Avery's incident report describing the killing as pre-existing and his 1995 interview not mentioning Minh together confirm the sustained non-acknowledgment — the two falsehoods, thirty years apart, had been consistent."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The 140 on the Missing Pages",
+        "text": "The 140 people whose names had been on the missing pages — numbers 201 through 340 — had no separate advocate after the killing. Some had reached safety through other means: the river, fishing boats, contacts within the military evacuation. Some had remained in Vietnam and had faced re-education. Some had died in the years of conflict that had followed. The Vietnamese-American community's accounting had never produced a complete picture of the 140. The missing pages had never been recovered. The 140 had been the people the killing had specifically affected.",
+        "alone": "The 140 on the missing pages had no advocate — some had reached safety by other means, some had remained, some had died. The accounting had never been complete.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 140 without an advocate and Linh spending thirty-six years accounting for the 200 she had memorised together confirm the killing's specific human shape — the people she had been able to reach and the people she had not been able to reach had been determined by which pages had been taken."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "The Last Day",
+        "text": "Saigon fell on April 30th, 1975. The last American helicopter departed the embassy roof at seven-fifty-two AM. The city was renamed Ho Chi Minh City. The railway station continued operating. Nguyen Van Minh is not commemorated anywhere. Linh Phuong's oral history testimony is in the Vietnamese-American Oral History Project at the University of California Irvine, catalogued since 1996. Thomas Avery's incident report is in the National Archives. The manifest's surviving pages — the first 200 names, recovered at the scene — are in the National Archives of Vietnam in Hanoi. The missing pages have not been found. April 29th was the last day a train could have left.",
+        "alone": "The surviving pages are in Hanoi. The missing pages have not been found. April 29th was the last day a train could have left. The station continues operating.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 140 without an advocate and the missing pages not found together confirm the final accounting — the pages Avery took determined the people who had no one to find them, and the pages themselves have never been recovered, as with Kessler's file and the Aristotelian manuscript and the others across the catalog."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Avery",
+      "location": "The Stationmaster's Office",
+      "weapon": "Station Telephone Handset",
+      "motive": "Consolidate Unofficial Lists Through Official Channels"
+    },
+    "epilogue": "Linh had found 147 of her 200 on April 29th and had directed them toward the embassy or the river. She had stood at the embassy crowd's edge for an hour watching people she could not reach. She had returned to the city. She had stayed. She had been re-educated and released in 1979. She had emigrated in 1982 and had settled in San Jose. She had spent thirty-six years finding confirmed outcomes for 163 of the 200 names. She had died in San Jose in 2011. Avery had filed his incident report on April 30th, describing a killing he had caused as one he had discovered. He had retired to Connecticut and had given a twentieth-anniversary interview without mentioning Minh. He had died in Connecticut in 2008. The surviving pages are in Hanoi. The missing pages have not been found. April 29th was the last day a train could have left. Minh's name is not on any memorial. The station continues operating."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #134",
+    "title": "The Last Train",
+    "setting": "Saigon Railway Station · Saigon · South Vietnam · April 29th, 1975",
+    "emoji": "🚂",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Avery killed Minh. Linh spent the last day finding 147 people. But Colonel Thin had known about the manifest for two days — and had been doing something with that knowledge. Find what Thin had been doing and whether it had helped or harmed the manifest's people.",
+    "emptyState": "Thin knew about the manifest for two days. Find what he did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Thomas Avery",
+            "icon": "🇺🇸",
+            "detail": "The killer — prior visit, telephone handset, pages taken, incident report, Connecticut 2008."
+          },
+          {
+            "name": "Linh Phuong",
+            "icon": "📋",
+            "detail": "Cleared as killer — concourse confirmed. 147 found, embassy crowd, stayed, San Jose 2011, 163 of 200 accounted."
+          },
+          {
+            "name": "Colonel Pham Duc Thin",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — Tan Son Nhat confirmed. Had known about the manifest and had taken a specific action."
+          },
+          {
+            "name": "What Thin Had Done With His Knowledge",
+            "icon": "🎖️",
+            "detail": "The parallel action — how it had intersected with the manifest's people and with Avery's operation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Stationmaster's Office",
+            "icon": "🚂",
+            "detail": "Primary crime scene — Avery's killing."
+          },
+          {
+            "name": "Tan Son Nhat Airbase",
+            "icon": "✈️",
+            "detail": "Thin's confirmed location — and from where his parallel action had been coordinated."
+          },
+          {
+            "name": "The Railway Station Concourse",
+            "icon": "👥",
+            "detail": "Where the manifest's people had been waiting — and where Thin's action had reached."
+          },
+          {
+            "name": "The Military Evacuation Lists",
+            "icon": "🎖️",
+            "detail": "Where Thin had added names — his specific use of his knowledge of the manifest."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Station Telephone Handset",
+            "icon": "📞",
+            "detail": "Confirmed murder weapon — Avery's."
+          },
+          {
+            "name": "Manifest Binder",
+            "icon": "📋",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Office Chair Arm",
+            "icon": "🪑",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Thin's Military List Addition",
+            "icon": "🎖️",
+            "detail": "Not a weapon — the names he had added to military evacuation lists from his knowledge of the manifest."
+          },
+          {
+            "name": "Thin's Relationship to Avery's Operation",
+            "icon": "🎖️",
+            "detail": "Not a weapon — whether Thin had known about Avery's plan and what he had done about it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Consolidate Unofficial Lists Through Official Channels",
+            "icon": "🇺🇸",
+            "detail": "Avery's motive — the killing's operational purpose."
+          },
+          {
+            "name": "Find the 200 Names and Direct Them to Safety",
+            "icon": "📋",
+            "detail": "Linh's purpose — 147 found, embassy crowd, stayed."
+          },
+          {
+            "name": "Use Military Authority to Add Civilians to Military Evacuation Lists",
+            "icon": "🎖️",
+            "detail": "Thin's action — his specific use of his knowledge of the manifest."
+          },
+          {
+            "name": "Thin's Personal Reason for Helping",
+            "icon": "🎖️",
+            "detail": "Why he had added civilian names — his specific motivation."
+          },
+          {
+            "name": "Whether Thin Had Known About Avery",
+            "icon": "🎖️",
+            "detail": "The operational question — and what it meant for the names he had added."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Minh and Took the Missing Pages",
+            "icon": "🇺🇸",
+            "detail": "Avery's confirmed role — incident report, Connecticut 2008."
+          },
+          {
+            "name": "Memorised 200 Names and Spent April 29th Finding Them",
+            "icon": "📋",
+            "detail": "Linh's role — 163 of 200 accounted, San Jose 2011."
+          },
+          {
+            "name": "Added Civilian Names From the Manifest to Military Evacuation Lists",
+            "icon": "🎖️",
+            "detail": "Thin's role — his parallel protective action."
+          },
+          {
+            "name": "Compiled the Manifest and Was Killed for It",
+            "icon": "🚂",
+            "detail": "Minh's role — name on no memorial, surviving pages in Hanoi."
+          },
+          {
+            "name": "Filed a False Incident Report and Gave a Misleading 1995 Interview",
+            "icon": "🇺🇸",
+            "detail": "Avery's sustained non-acknowledgment role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What Thin Had Known and Done",
+        "text": "Thin's account — given to a Vietnamese refugee community oral history project in 1990, fifteen years after the fall: 'I had seen Mr. Minh's manifest list two days before. He had shown it to me hoping I could help. I had 47 spaces on military evacuation flights going out on the morning of April 29th — spaces that had not yet been allocated. I used the manifest as my guide. I went through the first 100 names and found 47 people I could add to the military list. I added them by nine AM — before I knew Mr. Minh had been killed.'",
+        "alone": "Thin had used the manifest to add 47 civilians to military evacuation flights departing April 29th morning — he had done this before knowing Minh had been killed.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Thin adding 47 civilians from the manifest before nine AM and Avery killing Minh at nine-fifteen AM together confirm Thin's action had preceded the killing — 47 people had been on military flights before the manifest had been taken."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Why Thin Had Helped",
+        "text": "Thin's account continues: 'Why did I help? Because I was a soldier and the war was ending and I could see what was happening. Because Mr. Minh had come to me honestly asking for help. Because among the first 100 names I recognized three families whose fathers had died under my command — men who had served and died for the Republic. Their families were on a civilian list being compiled by a ministry official. I could put 47 people on a flight. I put 47 people on a flight. That is what I did with my last authority.'",
+        "alone": "Thin had helped because soldiers' families were on the civilian list — men who had died under his command. He had used his last authority to add 47 people to military flights.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Thin adding the 47 as his last authority and Colonel Thin himself not making it out together confirm the full weight of his action — he had used his last available capacity for others and had not used it for himself."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Whether Thin Had Known About Avery",
+        "text": "Thin's account: 'I knew the Americans were trying to consolidate the unofficial lists. I knew what that meant on April 29th — it meant the lists would not be used. I did not know there was a specific American at the railway station. I did not know Mr. Minh would be killed. If I had known, I would have — I do not know what I would have done. I was at Tan Son Nhat. I was adding names to a list. That was what I could do from where I was.'",
+        "alone": "Thin had known about the consolidation pressure but had not known about the specific operation at the station — he had been doing what he could from where he had been.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Thin not knowing about Avery's specific operation and adding 47 names before the killing together confirm the parallel actions had been independent — Thin's protective action and Avery's destructive action had been occurring simultaneously without knowledge of each other."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Thin's Fate",
+        "text": "Colonel Pham Duc Thin had not been evacuated. He had been captured by North Vietnamese forces on April 30th. He had spent eleven years in re-education camps. He had been released in 1986. He had remained in Vietnam until 1991, when he had emigrated through the Humanitarian Operations program for former political prisoners. He had settled in Houston, Texas. He had given his oral history account in 1990 — while still in Vietnam — through an intermediary. He had died in Houston in 2003.",
+        "alone": "Thin had spent eleven years in re-education camps, had emigrated in 1991, and had died in Houston in 2003 — having given his oral history account while still in Vietnam in 1990.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Thin using his last authority to add 47 people to military flights and not making it out himself together confirm the final human accounting of his role — he had used what he had had for others and had faced the consequences himself."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The 47 Who Had Left on Military Flights",
+        "text": "The 47 people Thin had added to military evacuation flights on April 29th morning had been on flights that had departed Tan Son Nhat before ten AM — before the airbase had come under rocket attack at approximately eleven AM. All 47 had reached safety. They had been among the last successful military evacuations from Tan Son Nhat before the airbase evacuation had become impossible. Thin had placed them on the right flights at the right time without knowing the window was about to close.",
+        "alone": "All 47 had reached safety on flights that had departed before ten AM — before the airbase had come under attack at eleven AM. Thin had placed them in the window without knowing the window was closing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "All 47 reaching safety and Thin not knowing the window was about to close together confirm the timing's specific grace — he had acted from knowledge of the manifest and had inadvertently placed 47 people in the last viable window."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Three Parallel Actions",
+        "text": "On the morning of April 29th, 1975, three parallel actions had been taken in relation to Nguyen Van Minh's manifest: Thin had added 47 names to military flights at Tan Son Nhat before nine AM — all 47 had reached safety. Avery had killed Minh and taken the pages covering names 201-340 at nine-fifteen AM — 140 people without an advocate. Linh had memorised names 1-200 and spent the day finding 147 of them — approximately 80 of the first 200 had reached safety. Three actions, three outcomes, one manifest, one morning.",
+        "alone": "Three parallel actions, one manifest, one morning — 47 through military flights, 80 through Linh's search, 140 without an advocate.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three parallel actions and their specific outcomes together confirm the full human accounting of the morning — the manifest had been the center of three independent responses, and the specific outcome for each person had depended on which action had reached them."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "The Full Accounting",
+        "text": "Of the 340 people on Minh's manifest: 47 had been added to military flights by Thin before nine AM — all reached safety. Approximately 80 of the remaining first 200 had reached safety through Linh's search and direction. 73 of the first 200 had not reached safety despite Linh's search — some had remained in Vietnam, some had found other routes, some outcomes were unknown. 140 of names 201-340 had no advocate — some had reached safety through other means, many had remained, the accounting remained incomplete. Total confirmed to have reached safety: approximately 127 of 340. The manifest had been Minh's last act. It had been compiled at the cost of his life. It had partially worked.",
+        "alone": "Approximately 127 of the 340 had reached safety. The manifest had been compiled at the cost of Minh's life. It had partially worked.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "127 of 340 reaching safety and Minh's name on no memorial together confirm the final accounting — the manifest had worked for more than a third of the people it had been compiled for, and the person who had compiled it is not commemorated."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🚂",
+        "heading": "April 29th and What Came After",
+        "text": "April 30th, 1975: Saigon fell. The city became Ho Chi Minh City. The railway station continued operating. It operates today. Nguyen Van Minh is not commemorated anywhere. Linh Phuong's oral history is at UC Irvine, catalogued 1996. Thin's oral history is in the Vietnamese-American Heritage Foundation archive, submitted through an intermediary in 1990, catalogued 1993. Avery's incident report is in the US National Archives. The manifest's surviving pages are in the National Archives of Vietnam in Hanoi. The missing pages have not been found. Approximately 127 of 340 people reached safety. Minh compiled the list. Thin added 47 from it. Linh memorised it. Avery took the pages that covered the 140 who had no one. The station continues operating. The last train could have left on April 29th. It did not. But 127 people got out some other way. Because three people tried.",
+        "alone": "127 of 340 reached safety because three people tried. The station continues operating. The last train could have left on April 29th. It did not. But 127 people got out.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "127 reaching safety and three people trying together confirm the case's final element — the manifest had not been a failure. It had been partial, costly, imperfect, and real. Three people had tried. 127 people had gotten out."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Thomas Avery",
+      "location": "The Stationmaster's Office",
+      "weapon": "Station Telephone Handset",
+      "motive": "Consolidate Unofficial Lists Through Official Channels",
+      "accomplice": "Added Civilian Names From the Manifest to Military Evacuation Lists"
+    },
+    "epilogue": "Three people had tried on the morning of April 29th. Thin had added 47 names to military flights before nine AM — all 47 had reached safety in the window before the airbase had come under attack. Avery had killed Minh at nine-fifteen and had taken the pages covering 140 people who had had no advocate. Linh had memorised 200 names and had spent the day finding 147 of them — approximately 80 had reached safety. Approximately 127 of the 340 had gotten out. Minh had compiled the list. Thin had added 47 from it and had spent eleven years in re-education before emigrating to Houston. Linh had stayed, had been re-educated, had emigrated to San Jose, and had spent thirty-six years accounting for the names she had memorised. Avery had filed a false incident report and had given a misleading interview in 1995 and had died in Connecticut in 2008. The surviving pages are in Hanoi. The missing pages have not been found. Minh's name is not on any memorial. The station continues operating. The last train could have left on April 29th. 127 people got out because three people tried."
+  }
+}

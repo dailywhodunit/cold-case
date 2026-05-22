@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Vienna, 1913. The Imperial Opera. A count dead in his private box during the second act. And a letter in his pocket that would have destroyed three reputations — including one that wore a crown. 🎭🔍 Case #122 — The Second Act. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Vienna 1913 Imperial Opera, a count dead in his private box, and a compromising letter that someone needed before the curtain came down. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1913 Vienna Opera House private box at night, red velvet and gilded railings, an opera programme on the floor beside an overturned champagne coupe, a man slumped in the box chair with his opera glasses still raised, the stage visible below with singers and candlelight. Habsburg imperial splendour and danger. Style of Gustav Klimt meets Egon Schiele, Vienna Secession atmosphere.",
+    "animationPrompt": "Slow pan through a 1913 Vienna Opera House private box during a performance. Red velvet. Gilded railings. The stage below with singers. The camera finds an opera programme on the floor and an overturned champagne coupe. A man slumped in the chair with opera glasses raised. The music continues below. The box is very still. Fade to black.",
+    "hashtags": [
+      "#Vienna1913",
+      "#ImperialOpera",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #122",
+    "title": "The Second Act",
+    "setting": "Vienna State Opera · Vienna · Austria-Hungary · 1913",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Count Friedrich Halberstein was found dead in his private opera box during the second act of Don Giovanni. He had been carrying a letter documenting an intimate relationship between a senior Habsburg official and a woman of inappropriate social standing — the kind of letter that could end careers and embarrass the court. Three people had visited the box during the interval. The letter was gone.",
+    "emptyState": "The letter is gone. Three visitors during the interval. Find who came for it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Countess Elsa Vordenberg",
+            "icon": "💐",
+            "detail": "A Viennese socialite — had been the subject of one of the letter's three named relationships and stood to lose her social position."
+          },
+          {
+            "name": "Major Karl Dietrich",
+            "icon": "🎖️",
+            "detail": "An Imperial Army intelligence officer — had been tasked with retrieving compromising materials relating to Habsburg officials."
+          },
+          {
+            "name": "Viktor Stein",
+            "icon": "🎪",
+            "detail": "The opera house's assistant director — had a master key to all boxes and had known the Count personally."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Box 14",
+            "icon": "🎭",
+            "detail": "The Count's private box — programme on floor, champagne overturned, letter missing."
+          },
+          {
+            "name": "The Grand Corridor",
+            "icon": "🚶",
+            "detail": "The passage serving the private boxes — where interval visitors had been seen."
+          },
+          {
+            "name": "The Foyer",
+            "icon": "🍾",
+            "detail": "Where the interval champagne service had been — and where alibis had been established."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid in the Champagne",
+            "icon": "🥂",
+            "detail": "Potassium cyanide in the Count's champagne coupe — rapid cardiac arrest, consistent with the post-mortem findings."
+          },
+          {
+            "name": "Opera Programme Edge",
+            "icon": "📋",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Box Railing",
+            "icon": "🎭",
+            "detail": "No impact wound — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Letter's Contents",
+        "text": "The Count's secretary confirms the letter had been in the Count's breast pocket when he had left for the opera. The letter documented an intimate relationship between Field Marshal Graf von Strauch — a senior Habsburg military figure — and a Hungarian actress named Katalin Vásárhelyi. The relationship had been conducted over two years. The letter had included dates, locations, and the Field Marshal's own written words. Its publication would have been catastrophic for the Field Marshal and for the actress.",
+        "alone": "The letter documented Field Marshal von Strauch's two-year relationship with a Hungarian actress — catastrophic if published. The Field Marshal's career and the actress's reputation had both been at stake.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The letter threatening Field Marshal von Strauch's career and Major Dietrich's documented assignment to retrieve compromising materials relating to Habsburg officials together establish that the Army intelligence operation had been specifically directed at this type of material."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥂",
+        "heading": "The Prussic Acid",
+        "text": "The post-mortem finds potassium cyanide in the Count's system — administered in his champagne. The overturned coupe shows residue consistent with the compound. Prussic acid in this concentration would have caused rapid cardiac arrest within minutes of ingestion — during the second act, while the music had provided cover for any sound. The champagne had been poured during the interval and had been waiting on the box's small table when the Count had returned to his seat.",
+        "alone": "The cyanide had been in the champagne poured during the interval — added while the Count had been away from the box. Whoever had added it had been in the box during the interval.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The cyanide added to the champagne during the interval and Major Dietrich's confirmed interval box visit — under the pretext of returning a dropped programme — together place a trained intelligence officer with access to operational chemicals in the box during the only window when the champagne had been unattended."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "💐",
+        "heading": "Countess Vordenberg's Interval",
+        "text": "Countess Vordenberg had been in the foyer throughout the interval — confirmed by seven witnesses including two members of the court who had spoken with her for the interval's duration. She had not been in the grand corridor or near Box 14. She is definitively cleared.",
+        "alone": "The Countess had been in the foyer for the full interval confirmed by seven witnesses — she had not been near Box 14. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "The Countess cleared in the foyer and Viktor Stein confirmed at the opera director's table throughout the interval together eliminate both other suspects from Box 14 — only Dietrich's interval corridor movements are unconfirmed at the box."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Dietrich's Assignment",
+        "text": "Imperial Army Counterintelligence records — accessed after the investigation — confirm Major Dietrich had been assigned two weeks earlier to 'locate and retrieve documents compromising to senior Habsburg military figures.' The assignment had been issued following a report that Count Halberstein had obtained a letter from Field Marshal von Strauch's household through an informant. Dietrich had been specifically tasked with the letter that had been in the Count's pocket.",
+        "alone": "Dietrich had been specifically assigned to retrieve the letter two weeks before the opera — his presence at the opera had been operational, not social.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Dietrich's specific assignment to retrieve the letter and his confirmed box visit during the interval together confirm the operational purpose of the visit — the assignment and the opportunity had converged at Box 14 during Don Giovanni's interval."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Dietrich at Box 14",
+        "text": "A box attendant confirms Major Dietrich had visited Box 14 during the interval — he had told the attendant he was returning a programme the Count had dropped in the corridor. The attendant had seen Dietrich enter the box, remain for approximately three minutes, and depart. The Count had not been in the box — he had been in the foyer. Dietrich had been alone in the box with the unattended champagne for three minutes.",
+        "alone": "Dietrich had been alone in Box 14 for three minutes during the interval — the Count in the foyer, the champagne unattended on the table.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The cyanide added during the interval window and Dietrich alone in the box for three minutes with the unattended champagne together confirm the opportunity — three minutes, an empty box, and a champagne coupe had been the operational window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Dietrich's Chemical Access",
+        "text": "Army Counterintelligence records confirm Dietrich had operational access to prussic acid preparations as part of his intelligence assignment toolkit — standard equipment for operations involving the elimination of security risks to senior Habsburg figures. The specific compound used in the champagne matched the preparation in his operational kit. The match had been confirmed by the police chemist.",
+        "alone": "The compound used matched Dietrich's operational kit preparation — a chemist's confirmation linking the specific prussic acid formula to the Army intelligence supply.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Dietrich's assignment to retrieve the letter and his operational prussic acid access together confirm the operation had included elimination as a sanctioned option — retrieve the letter, and if retrieval required it, eliminate the security risk."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎪",
+        "heading": "Viktor Stein's Interval",
+        "text": "Viktor Stein had been at the opera director's table in the foyer throughout the interval — confirmed by the director, two conductors, and a soprano. He had been discussing the following week's production schedule. He had not been in the grand corridor. He is definitively cleared.",
+        "alone": "Stein had been at the director's table confirmed by four witnesses — he had not been near Box 14 during the interval. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "The Countess cleared in the foyer and Stein cleared at the director's table together eliminate both other suspects — Dietrich's three-minute box 14 presence during the interval is the only confirmed access to the unattended champagne."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Letter's Fate",
+        "text": "Field Marshal von Strauch had been informed of the letter's destruction the following morning by Dietrich. The Field Marshal had continued his military career and had risen to Chief of the Imperial General Staff in 1916. Katalin Vásárhelyi had continued her theatrical career in Budapest. The letter had never been published. Dietrich had been transferred to a posting in Bosnia within the week. The Count's death had been classified as natural causes — cardiac arrest. The police investigation had been closed following Army Counterintelligence's intervention.",
+        "alone": "The Field Marshal had risen to Chief of the Imperial General Staff. The letter had never been published. Dietrich had been transferred. The death had been classified as cardiac arrest.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Dietrich's specific retrieval assignment and the death classified as cardiac arrest following Army Counterintelligence intervention together confirm the full institutional cover — the operation had achieved its objective and the investigation had been closed by the same authority that had commissioned it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Karl Dietrich",
+      "location": "Box 14",
+      "weapon": "Prussic Acid in the Champagne"
+    },
+    "epilogue": "Major Karl Dietrich had been assigned to retrieve the letter. He had attended the opera with operational preparation. During the interval he had entered Box 14 while the Count was in the foyer. He had added the prussic acid to the champagne. He had taken the letter. He had departed before the second act began. The Count had returned to his seat, had drunk from his coupe during Don Giovanni's second act, and had been found slumped with his opera glasses still raised. The death had been classified as cardiac arrest. Dietrich had been transferred to Bosnia within the week. Field Marshal von Strauch had become Chief of the Imperial General Staff in 1916. The letter had never been published. Don Giovanni had continued to the end of its run."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #122",
+    "title": "The Second Act",
+    "setting": "Vienna State Opera · Vienna · Austria-Hungary · 1913",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Dietrich killed the Count and retrieved the letter. But Countess Vordenberg had known the letter existed and had told someone about it — find who she had told and what that person had done.",
+    "emptyState": "The Countess knew about the letter and told someone. Find who — and what they did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major Karl Dietrich",
+            "icon": "🎖️",
+            "detail": "The killer — three-minute box access, prussic acid kit, letter retrieved, transferred to Bosnia."
+          },
+          {
+            "name": "Countess Elsa Vordenberg",
+            "icon": "💐",
+            "detail": "Cleared as killer — foyer confirmed. Had known about the letter and had disclosed it to a specific person."
+          },
+          {
+            "name": "Viktor Stein",
+            "icon": "🎪",
+            "detail": "Cleared as killer — director's table confirmed. His role in the information chain is newly examined."
+          },
+          {
+            "name": "Field Marshal von Strauch",
+            "icon": "⚔️",
+            "detail": "The letter's subject — whose household had been the letter's source and who had commissioned the retrieval operation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Box 14",
+            "icon": "🎭",
+            "detail": "Primary crime scene — Dietrich's operation."
+          },
+          {
+            "name": "Countess Vordenberg's Salon",
+            "icon": "💐",
+            "detail": "Where the Countess had disclosed the letter's existence — and to whom."
+          },
+          {
+            "name": "The Army Counterintelligence Office",
+            "icon": "🎖️",
+            "detail": "Where the assignment had originated — and who had informed the Field Marshal."
+          },
+          {
+            "name": "Viktor Stein's Apartment",
+            "icon": "🎪",
+            "detail": "Where the disclosure chain had passed through — and what Stein's role had been."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid in the Champagne",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — Dietrich's operational kit."
+          },
+          {
+            "name": "Opera Programme Edge",
+            "icon": "📋",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Box Railing",
+            "icon": "🎭",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "The Countess's Disclosure",
+            "icon": "💐",
+            "detail": "Not a weapon — but the information transmission that had set the retrieval operation in motion."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retrieve the Letter and Eliminate the Security Risk",
+            "icon": "🎖️",
+            "detail": "Dietrich's operational motive — Field Marshal protected, transferred to Bosnia."
+          },
+          {
+            "name": "Protect Her Own Reputation",
+            "icon": "💐",
+            "detail": "The Countess's concern — she had been named in one of the letter's documented relationships."
+          },
+          {
+            "name": "The Disclosure Chain From Countess to Field Marshal",
+            "icon": "💐",
+            "detail": "The information path — how the Field Marshal had learned the letter existed."
+          },
+          {
+            "name": "Viktor Stein as the Chain's Link",
+            "icon": "🎪",
+            "detail": "The Countess's confessor in the chain — and his connection to the Field Marshal's household."
+          },
+          {
+            "name": "Whether the Countess Had Anticipated the Killing",
+            "icon": "💐",
+            "detail": "The investigation's central question about her role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "💐",
+        "heading": "The Countess's Disclosure",
+        "text": "The Countess, interviewed by the police investigator before Army Counterintelligence had closed the case, admits: 'I had seen the letter. The Count had shown it to me three weeks before — he had wanted me to understand the risk to my reputation. One of the documented relationships involved my name. I told Viktor Stein because he was my confidant and I did not know what to do.' She had told Stein about the letter's existence and her own naming in it.",
+        "alone": "The Countess had told Viktor Stein about the letter three weeks before the killing — her confidant in a matter she had not known how to handle.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The Countess telling Stein and Stein's connection to the Field Marshal's household confirming he had been the chain's transmission link together establish the disclosure path from the Countess's salon to the Army intelligence operation."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎪",
+        "heading": "Stein's Connection to Von Strauch",
+        "text": "Viktor Stein's personnel record — examined by the investigator — shows he had been the music director at a private concert series hosted by Field Marshal von Strauch between 1909 and 1912. He had had regular access to the Field Marshal's household and had maintained social contact. When the Countess had told him about the letter, he had been in a position to transmit the information to the Field Marshal directly.",
+        "alone": "Stein had regular household access to the Field Marshal through the concert series — he had been the natural transmission link between the Countess's disclosure and the Field Marshal's household.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Stein's Field Marshal household connection and the retrieval operation being commissioned within a week of his receiving the Countess's disclosure together confirm the timing — the disclosure had traveled from the Countess through Stein to the Field Marshal within days."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "witness",
+        "icon": "🎪",
+        "heading": "Stein's Account",
+        "text": "Stein, in his account: 'The Countess told me in confidence. I went to the Field Marshal because I believed he had a right to know the letter existed and was in the Count's possession. I did not know — I had no way of knowing — that knowing would lead to what it led to. I went to him as an act of loyalty to a man who had been my patron. I told him what I knew. Whatever he did with that information was his decision, not mine.' He claims no foreknowledge of the outcome.",
+        "alone": "Stein had told the Field Marshal as an act of loyalty to his patron — he claims no foreknowledge that the information would lead to a killing.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Stein claiming loyalty rather than calculated foresight and the Field Marshal commissioning the retrieval operation through official channels together confirm Stein had been a transmission link rather than an operational planner — the decision to commission Dietrich had been the Field Marshal's."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "⚔️",
+        "heading": "The Field Marshal's Commission",
+        "text": "The Army Counterintelligence assignment to Dietrich — 'locate and retrieve documents compromising to senior Habsburg military figures' — had been formally issued by the Field Marshal's office. The Field Marshal had used his official authority to commission an intelligence operation against a private citizen who held a private document. The assignment's language had been deliberately broad, allowing for elimination as an implied option within 'retrieval.'",
+        "alone": "The Field Marshal had used his official authority to commission the operation — the broad assignment language had encompassed elimination as an implied option.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The Field Marshal commissioning the operation through official channels and rising to Chief of the Imperial General Staff in 1916 together confirm he had faced no consequence — the institutional authority he had used to commission the killing had been the same authority that had subsequently advanced his career."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💐",
+        "heading": "The Countess's Position on the Outcome",
+        "text": "The Countess: 'When I heard the Count had died at the opera, I understood immediately. I told Viktor in confidence and Viktor told the Field Marshal and the Field Marshal acted. I had not wanted — I had not asked for this. I had wanted the letter to be returned to me or destroyed. I had not considered that the Count might be destroyed alongside it. I have thought about what I put in motion every day since.' She had understood the chain and had not anticipated its conclusion.",
+        "alone": "The Countess had understood the chain immediately upon hearing of the Count's death — she had not anticipated the killing but had recognised her disclosure as its origin.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Stein claiming no foreknowledge and the Countess acknowledging the chain's origin in her disclosure together confirm both had contributed to the conditions without fully anticipating the outcome — neither had commissioned a killing, and the commissioning had been the Field Marshal's decision."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Timeline of the Commission",
+        "text": "The retrieval assignment had been issued nine days after the Countess had told Stein — three weeks before the opera. Stein had told the Field Marshal within four days of the Countess's disclosure. The Field Marshal had issued the assignment five days later. The chain from disclosure to commission had taken nine days. The operation's planning and execution had taken a further three weeks.",
+        "alone": "Nine days from the Countess's disclosure to the Field Marshal's commission — four days to Stein, five days to the assignment. The chain's speed had been specific.",
+        "links": [
+          {
+            "with": "D2",
+            "insight": "Stein's Field Marshal household access enabling rapid transmission and the nine-day timeline from disclosure to commission together confirm the chain had moved quickly through Stein's established access — the social proximity had been the operational speed."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "💐",
+        "heading": "The Legal Review",
+        "text": "The police investigator's review — suppressed by Army Counterintelligence — had identified the full chain: Countess Vordenberg to Stein to Field Marshal to Dietrich. The review had found: 'Neither the Countess nor Stein had directed or commissioned the killing. The disclosure chain had produced the conditions in which the Field Marshal's commission had become possible. No criminal charge covers the uninstructed transmission of information that is subsequently used by a third party to commission a crime.' The suppressed review had reached the same legal conclusion as prior cases in the catalog.",
+        "alone": "The suppressed review had found neither the Countess nor Stein criminally liable — the same uninstructed transmission finding as prior cases.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The review finding no criminal liability for the disclosure chain and the Field Marshal rising to Chief of the Imperial General Staff without consequence together confirm the full accountability gap — the only person charged had been no one, and the most powerful person in the chain had advanced his career."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "1913 Vienna",
+        "text": "Vienna in 1913 had been one year from the assassination in Sarajevo and five years from the end of the Habsburg Empire. Field Marshal von Strauch had become Chief of the Imperial General Staff in 1916 — two years before the Empire's collapse. He had died in 1921, in the reduced Austria, without facing any consequence for the Count's death. Don Giovanni had continued its run. The Vienna State Opera had survived two world wars. It still performs. Don Giovanni is in its permanent repertoire. The second act still plays.",
+        "alone": "Von Strauch had died in 1921 without consequence. Don Giovanni is in the Vienna State Opera's permanent repertoire. The second act still plays.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The Field Marshal using official authority to commission the killing and dying in 1921 without consequence together confirm the case's temporal frame — the Habsburg Empire that had protected him had ended three years before his death, and neither had produced accountability."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Karl Dietrich",
+      "location": "Box 14",
+      "weapon": "Prussic Acid in the Champagne",
+      "motive": "Retrieve the Letter and Eliminate the Security Risk"
+    },
+    "epilogue": "The Countess had told Stein. Stein had told the Field Marshal. The Field Marshal had issued the commission nine days later. Dietrich had attended the opera with prussic acid in his operational kit. The interval had been three minutes alone with the champagne. The letter had been retrieved. The death had been classified as cardiac arrest. Army Counterintelligence had closed the investigation. Dietrich had been transferred to Bosnia. The Field Marshal had become Chief of the Imperial General Staff in 1916. He had died in 1921. The Empire had ended in 1918. Don Giovanni had continued its run. The suppressed review had found no criminal charge covered the disclosure chain that had produced the killing. The second act still plays."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #122",
+    "title": "The Second Act",
+    "setting": "Vienna State Opera · Vienna · Austria-Hungary · 1913",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Dietrich killed the Count. The disclosure chain ran from the Countess through Stein to the Field Marshal. But the Count had obtained the letter from an informant inside the Field Marshal's household — find who the informant was and what happened to them.",
+    "emptyState": "Someone inside the Field Marshal's household gave the Count the letter. Find who — and their fate.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major Karl Dietrich",
+            "icon": "🎖️",
+            "detail": "The killer — prussic acid, letter retrieved, Bosnia, Field Marshal protected."
+          },
+          {
+            "name": "Countess Elsa Vordenberg",
+            "icon": "💐",
+            "detail": "Cleared as killer — foyer. Disclosure chain origin. Thought about it every day since."
+          },
+          {
+            "name": "Viktor Stein",
+            "icon": "🎪",
+            "detail": "Cleared as killer — director's table. Patron loyalty, no foreknowledge claimed."
+          },
+          {
+            "name": "The Household Informant",
+            "icon": "🏠",
+            "detail": "The person inside the Field Marshal's household who had given the Count the letter — whose identity and fate is the investigation's final thread."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "Box 14",
+            "icon": "🎭",
+            "detail": "Primary crime scene."
+          },
+          {
+            "name": "The Field Marshal's Household",
+            "icon": "🏠",
+            "detail": "Where the letter had originated — and where the informant had been employed."
+          },
+          {
+            "name": "The Count's Residence",
+            "icon": "🏛️",
+            "detail": "Where the letter had been held — and where the informant had delivered it."
+          },
+          {
+            "name": "Vienna General Hospital",
+            "icon": "🏥",
+            "detail": "Where the informant had been found — the investigation's final location."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Prussic Acid in the Champagne",
+            "icon": "🥂",
+            "detail": "Confirmed murder weapon — Dietrich's, used against the Count."
+          },
+          {
+            "name": "Opera Programme Edge",
+            "icon": "📋",
+            "detail": "No wound — eliminated."
+          },
+          {
+            "name": "Box Railing",
+            "icon": "🎭",
+            "detail": "No impact wound — eliminated."
+          },
+          {
+            "name": "The Informant's Fate",
+            "icon": "🏠",
+            "detail": "Not a weapon — what had happened to the person who had given the Count the letter."
+          },
+          {
+            "name": "A Second Prussic Acid Application",
+            "icon": "💊",
+            "detail": "Whether the same method had been used against the informant — the investigation's darkest finding."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Retrieve the Letter and Protect the Field Marshal",
+            "icon": "🎖️",
+            "detail": "Dietrich's operational motive — extended to eliminating the source."
+          },
+          {
+            "name": "The Informant's Reason for Giving the Letter to the Count",
+            "icon": "🏠",
+            "detail": "Why the household member had betrayed the Field Marshal — the source's own motive."
+          },
+          {
+            "name": "Protect the Operation's Security by Eliminating the Source",
+            "icon": "🎖️",
+            "detail": "The operational logic — the letter's retrieval was insufficient if the source remained."
+          },
+          {
+            "name": "The Field Marshal's Awareness of the Informant's Identity",
+            "icon": "⚔️",
+            "detail": "Whether the Field Marshal had known who had betrayed him — and what he had directed."
+          },
+          {
+            "name": "The Informant's Fate Before or After the Opera",
+            "icon": "🏠",
+            "detail": "The timeline of the second elimination — whether it had preceded or followed the Count's death."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed the Count and Retrieved the Letter",
+            "icon": "🎖️",
+            "detail": "Dietrich's confirmed role — Bosnia transfer."
+          },
+          {
+            "name": "Disclosed the Letter's Existence to Stein",
+            "icon": "💐",
+            "detail": "The Countess's role — thought about it every day since."
+          },
+          {
+            "name": "Transmitted the Disclosure to the Field Marshal",
+            "icon": "🎪",
+            "detail": "Stein's role — patron loyalty, no foreknowledge claimed."
+          },
+          {
+            "name": "Provided the Letter to the Count From Inside the Household",
+            "icon": "🏠",
+            "detail": "The informant's role — found in Vienna General Hospital three days after the opera."
+          },
+          {
+            "name": "Commissioned Both Eliminations",
+            "icon": "⚔️",
+            "detail": "The Field Marshal's full role — the Count and the informant, both through Dietrich."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🏠",
+        "heading": "The Informant's Identity",
+        "text": "The Count's secretary confirms the letter had been delivered to the Count's residence six weeks before the opera by a woman named Maria Kögler — a lady's maid employed in the Field Marshal's household. She had brought the letter in person, had received a payment, and had returned to the household. The Count's secretary had recorded the name and the transaction in his own private notes.",
+        "alone": "Maria Kögler, a lady's maid in the Field Marshal's household, had delivered the letter to the Count for payment six weeks before the opera.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Maria Kögler delivering the letter for payment and the Field Marshal's household being the source of Stein's access to him together confirm the Field Marshal's household had been both the letter's origin and the chain's transmission medium — Stein's concert connections had given the Field Marshal the information he had needed to identify the source."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏥",
+        "heading": "Maria Kögler's Fate",
+        "text": "Vienna General Hospital records show Maria Kögler had been admitted three days after the opera — two days after the Count's death had been classified as cardiac arrest. She had been found unconscious in her lodgings by her landlady. The hospital's admission record describes: 'Apparent cardiac event, young woman, no prior history.' She had died in the hospital the following morning. The police had recorded her death as natural causes.",
+        "alone": "Maria Kögler had been found unconscious two days after the Count's death and had died in hospital — her death recorded as natural causes, a young woman with no cardiac history.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Maria Kögler's death two days after the Count's classified as natural causes and Dietrich's operational prussic acid access together confirm the same method had been used twice — the operation had extended from the letter-holder to the letter's source."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "How the Field Marshal Had Identified Maria",
+        "text": "The suppressed police review identifies how the Field Marshal had known it was Maria Kögler: Stein's disclosure to the Field Marshal had included the Countess's account of how the letter had been described to her — including a detail about the letter's physical appearance that had matched correspondence kept in a specific location in the household. The Field Marshal had deduced the source from the letter's description. Stein had unknowingly provided the detail that had identified Maria.",
+        "alone": "Stein's disclosure had included a physical description of the letter that had been specific enough for the Field Marshal to identify the household source — Stein had identified Maria Kögler without knowing he was doing so.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Stein claiming no foreknowledge and his disclosure inadvertently identifying the informant together confirm the deepest irony of his role — his transmission of the Countess's description had been the detail that had cost Maria Kögler her life, without him knowing it would."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🏠",
+        "heading": "Why Maria Had Given the Letter to the Count",
+        "text": "The Count's secretary's private notes include Maria Kögler's stated reason for providing the letter: 'She told the Count that the Field Marshal had dismissed her sister from household service without reference, leaving her unable to find new employment. She believed the Field Marshal had treated her family unjustly and wanted him to face consequences.' She had acted from a grievance, not from political motivation or financial calculation alone.",
+        "alone": "Maria had acted from a family grievance — the Field Marshal had dismissed her sister without reference. The financial payment had been supplementary to a motivation rooted in the sense of injustice.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Maria's grievance motivation and her death from the same operational source that had protected the Field Marshal together confirm the full power asymmetry — her family had suffered an injustice, she had tried to create a consequence, and the consequence had been hers."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🏠",
+        "heading": "The Suppressed Review's Full Chain",
+        "text": "The suppressed review's chain: Maria Kögler had given the letter to the Count from a family grievance. The Count had shown the letter to the Countess. The Countess had told Stein. Stein's description had identified Maria to the Field Marshal. The Field Marshal had commissioned Dietrich. Dietrich had killed the Count and retrieved the letter. Dietrich had killed Maria Kögler. The review had identified seven people in the chain. One had commissioned two killings. Two had died. Five had faced no consequence.",
+        "alone": "Seven people in the chain, two deaths, five without consequence — the review had assembled the full picture.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The two deaths using the same method and five people without consequence together confirm the review's full accountability assessment — the operational continuity of the prussic acid and the institutional impunity of the Field Marshal had been the chain's defining elements."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💊",
+        "heading": "The Same Compound",
+        "text": "The police chemist who had examined the Count's champagne residue had also been called to examine Maria Kögler's apartment — the landlady had found a small glass by her bed. The glass had shown residue consistent with the same prussic acid preparation as the champagne. The chemist had noted the consistency in his report. The report had been seized by Army Counterintelligence along with the police investigation file. The chemist had been instructed not to discuss the finding.",
+        "alone": "The same prussic acid preparation had been used in both deaths — the chemist had noted the consistency before being silenced by Army Counterintelligence.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Maria Kögler's death classified as natural causes and the same prussic acid preparation confirmed by the chemist and then suppressed together confirm the second killing had been as carefully covered as the first — the same operational chemistry, the same institutional suppression."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Two Deaths and the Empire",
+        "text": "Friedrich Halberstein, Count, died October 1913 in his opera box during Don Giovanni's second act. Maria Kögler, lady's maid, died October 1913 in Vienna General Hospital. Neither death was formally investigated. Both were classified as natural causes. The Field Marshal became Chief of the Imperial General Staff in 1916. The Empire ended in 1918. He died in 1921. The opera continued. Maria Kögler's sister never received a reference. Her employment difficulties had not been resolved by her sister's action. The action had resolved nothing for anyone except the Field Marshal.",
+        "alone": "Two deaths, both classified natural causes, both uninvestigated. The Field Marshal died in 1921. Maria's sister's situation had not been resolved. The action had resolved nothing for anyone except the Field Marshal.",
+        "links": [
+          {
+            "with": "I4",
+            "insight": "Maria's family grievance motivating her action and the action resolving nothing for her sister together confirm the full futility — she had acted to create a consequence for the Field Marshal's injustice, and the consequence had been only hers and the Count's."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "What the Suppressed Review Preserved",
+        "text": "The suppressed review — sealed in the police archive in 1913 — had been declassified in 1955 as part of a post-war Habsburg-era records review. It had been noted by an archivist as 'historically significant — two uninvestigated deaths connected to senior Habsburg military figure.' No further action had been taken. The review had named everyone in the chain. It had been publicly accessible since 1955. Maria Kögler's name appears in it. Her sister's name appears in a footnote. The letter's contents are described. Don Giovanni was playing at the Vienna State Opera in 1955 when the review was declassified. It still plays.",
+        "alone": "The review was declassified in 1955, publicly accessible, naming everyone in the chain. Don Giovanni was playing at the opera when it was declassified. It still plays.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The review declassified in 1955 naming everyone and no further action being taken together confirm the accounting's final form — the names are in the public record, the deaths are documented, the field marshal is named, and nothing followed from the public availability. The opera still plays."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major Karl Dietrich",
+      "location": "Box 14",
+      "weapon": "Prussic Acid in the Champagne",
+      "motive": "Retrieve the Letter and Eliminate the Security Risk",
+      "accomplice": "Provided the Letter to the Count From Inside the Household"
+    },
+    "epilogue": "Maria Kögler had given the letter to the Count because the Field Marshal had dismissed her sister without reference. Stein's description of the letter had identified her without knowing it would. Dietrich had killed the Count during the interval. Two days later he had administered the same prussic acid preparation to Maria Kögler. Both deaths had been classified as natural causes. The same chemist had confirmed the same compound and had been silenced. The suppressed review had assembled the full chain in 1913 and had been declassified in 1955. Maria Kögler's name is in it. Her sister's name is in a footnote. The Field Marshal became Chief of the Imperial General Staff and died in 1921. The review has been publicly accessible since 1955. No further action was taken. Don Giovanni was playing at the Vienna State Opera in 1955 when the review was declassified. It still plays. The second act still plays."
+  }
+}
