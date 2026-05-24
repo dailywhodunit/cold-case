@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Montevideo, 1969. The Tupamaros urban guerrilla movement at its height. A body found in a safehouse. And the question that poisons every underground movement: was it betrayal from inside? 🇺🇾🔍 Case #144 — The Safehouse. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Montevideo 1969 Tupamaros urban guerrillas, a body in a safehouse, and the worst question any underground movement can face — did someone talk? Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1969 Montevideo apartment used as a Tupamaro safehouse, sparse furniture and covered windows, a young man dead on the floor beside a communications codebook, a radio transmitter on a kitchen table, wanted posters on the inside of the covered windows, Montevideo's River Plate light filtering through the edges of the curtains. Political intensity and human cost. Style of Latin American documentary photography of the era.",
+    "animationPrompt": "Slow pan through a 1969 Montevideo Tupamaro safehouse. Sparse furniture. Covered windows. A young man dead on the floor beside a communications codebook. A radio transmitter on the kitchen table. Wanted posters on the windows' insides. River Plate light at the curtain edges. The movement is being hunted. Someone in this room may have helped. Fade to black.",
+    "hashtags": [
+      "#Montevideo1969",
+      "#Tupamaros",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #144",
+    "title": "The Safehouse",
+    "setting": "Tupamaro Safehouse · Montevideo · Uruguay · October 1969",
+    "emoji": "🇺🇾",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Communications courier Rodrigo Vega was found dead in a Montevideo Tupamaro safehouse. He had been carrying a codebook used for safe house communications between cells — information that would enable the Uruguayan security services to intercept the entire network. Three cell members had access to the safehouse. The codebook was missing. The movement's security council needed to know: was it betrayal from inside, or had Rodrigo been followed?",
+    "emptyState": "A dead courier. A missing codebook. Three people had access. Find who took it — and whether someone talked.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "📻",
+            "detail": "The safehouse's communications officer — had been monitoring police radio frequencies and had known Rodrigo's route to the safehouse."
+          },
+          {
+            "name": "Miguel Santos",
+            "icon": "🔧",
+            "detail": "A logistics coordinator — had been responsible for the safehouse's security protocols and had been the person who had let Rodrigo in."
+          },
+          {
+            "name": "Beatriz Cortez",
+            "icon": "📋",
+            "detail": "A legal aid lawyer serving as the cell's external contact — had been at the safehouse for a planning meeting and had legitimate outside connections that could have been compromised."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Safehouse Main Room",
+            "icon": "🏠",
+            "detail": "Where Rodrigo was found — codebook missing, radio transmitter on the table, curtains drawn."
+          },
+          {
+            "name": "The Kitchen",
+            "icon": "🍽️",
+            "detail": "Adjacent to the main room — where the cell had been meeting before the killing."
+          },
+          {
+            "name": "The Building's Rear Stairwell",
+            "icon": "🚪",
+            "detail": "The exit route — where someone had been seen leaving before the body was discovered."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Radio Transmitter Power Cable",
+            "icon": "📻",
+            "detail": "A heavy rubber-coated power cable — strangulation consistent with its diameter and flexibility."
+          },
+          {
+            "name": "Codebook Cover Board",
+            "icon": "📋",
+            "detail": "No wound profile for strangulation — eliminated."
+          },
+          {
+            "name": "Kitchen Chair Leg",
+            "icon": "🪑",
+            "detail": "No wound profile — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📻",
+        "heading": "The Missing Codebook",
+        "text": "The codebook had contained communication protocols for fourteen Montevideo cells — location codes, schedule ciphers, and emergency contact sequences. Its exposure to the security services would have enabled the disruption of the entire urban network within weeks. Rodrigo had been carrying it as a courier between cell leaders. The movement's security review, conducted after the killing, found no evidence that Rodrigo had been followed to the safehouse — no surveillance had been detected on his route.",
+        "alone": "No evidence of surveillance on Rodrigo's route to the safehouse — the security review had found the safehouse's location had not been compromised from outside. The codebook had been taken from inside.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "No external surveillance on Rodrigo's route and Elena Vargas's police radio monitoring access together establish the paradox — if the safehouse had not been found from outside, the codebook had been taken by someone already inside."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📻",
+        "heading": "The Power Cable",
+        "text": "The radio transmitter's power cable — removed from the back of the unit — shows compression marks consistent with use as a ligature. Rodrigo's wounds are consistent with strangulation from behind while he had been seated examining the codebook. The cable had been replaced on the transmitter after use — the transmitter appeared functional when found. The killing had been concealed as well as the killer could manage in the time available.",
+        "alone": "The power cable had been removed from the transmitter, used as a ligature, and replaced — the attempt to conceal the killing method had been deliberate and had required specific knowledge of the equipment.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The power cable removed and replaced requiring knowledge of the transmitter and Elena Vargas's role as the communications officer — who operated the transmitter — together establish the specific equipment familiarity the method had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Miguel Santos's Position",
+        "text": "Miguel Santos had been in the kitchen throughout the meeting — confirmed by Beatriz Cortez who had been with him reviewing logistics documents from seven PM until nine PM when the killing had been discovered. He had not been in the main room during the window when Rodrigo had been killed. He is definitively cleared.",
+        "alone": "Miguel had been in the kitchen confirmed by Beatriz throughout the killing window — he had not been in the main room. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Miguel cleared in the kitchen and Beatriz Cortez confirmed at the kitchen table together eliminate both other suspects from the main room during the killing window — only Elena's movements between the main room and the kitchen are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📻",
+        "heading": "Elena's Security Services Contact",
+        "text": "The movement's post-killing security investigation — conducted in 1970 following the security services' successful disruption of three cells using information consistent with the codebook — found that Elena Vargas had been identified as having had contact with a security services intermediary in the months before the killing. The contact had been through a family member who had been under investigation. The security council's finding: Elena had been compromised through family pressure, not ideological defection.",
+        "alone": "The security council had found Elena had been compromised through family pressure — a security services contact through a family member under investigation, not ideological defection.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Elena compromised through family pressure and three cells disrupted using codebook-consistent information together confirm the specific human mechanism of the compromise — the pressure had been on a family member, not on Elena's commitment directly."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📻",
+        "heading": "Elena's Movements",
+        "text": "Beatriz Cortez confirms Elena had left the kitchen at approximately eight-thirty PM — 'to check the radio monitoring equipment.' She had not returned to the kitchen. The killing had occurred between eight-thirty and nine PM. The main room's radio monitoring equipment had been operational — Elena's stated reason for the visit had been consistent with her role but had not been verifiable as the only purpose of the absence.",
+        "alone": "Elena had left the kitchen at eight-thirty PM to check the radio equipment and had not returned before the body was discovered — the killing window was eight-thirty to nine PM.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Elena's eight-thirty PM main room visit coinciding with the killing window and the power cable requiring her specific transmitter knowledge together place the person with the specific equipment knowledge at the killing location during the killing window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📻",
+        "heading": "The Transmitter Knowledge",
+        "text": "The radio transmitter's specific cable arrangement — the way the power cable connected to the unit's rear and could be removed without disrupting the unit's appearance — was known to the communications officer. Elena had been the safehouse's communications officer for eight months. She had set up and maintained the transmitter. She was the only cell member with detailed knowledge of the unit's specific cable configuration.",
+        "alone": "Elena had set up and maintained the transmitter for eight months — she was the only cell member with knowledge of the specific cable configuration the killing had exploited.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Elena's eight-thirty visit to the main room and her exclusive knowledge of the transmitter's cable configuration together establish both the opportunity and the specific technical knowledge the killing had required."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Beatriz Cortez's Account",
+        "text": "Beatriz Cortez had been in the kitchen with Miguel from seven PM — she had arrived for the planning meeting and had not entered the main room during the evening. She had confirmed Miguel's presence throughout. She had noted Elena's absence from eight-thirty PM. When the body had been discovered at nine PM she had been the one to raise the alarm. She is definitively cleared.",
+        "alone": "Beatriz had been in the kitchen confirmed throughout — she had raised the alarm when the body had been found. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Miguel cleared in the kitchen and Beatriz cleared at the kitchen table together eliminate both other suspects — Elena's eight-thirty departure and transmitter knowledge are the only indicators consistent with the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Movement's Response",
+        "text": "Elena Vargas had been detained by the movement's security council following the 1970 investigation's findings. The council's deliberations — reconstructed from survivor accounts given to oral history projects in the 1990s — had resulted in Elena's release from detention and expulsion from the movement. The council had determined that her compromise had been through family coercion rather than voluntary defection and had treated it accordingly. She had not been harmed. She had left Uruguay in 1971.",
+        "alone": "Elena had been detained, investigated, found to have been coerced rather than defected voluntarily, and expelled rather than harmed. She had left Uruguay in 1971.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Elena compromised through family pressure rather than ideological defection and the movement's decision to expel rather than harm together confirm the security council's moral distinction — coerced cooperation and voluntary betrayal had been treated differently."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Safehouse Main Room",
+      "weapon": "Radio Transmitter Power Cable"
+    },
+    "epilogue": "Elena Vargas had left the kitchen at eight-thirty PM. She had removed the power cable from the transmitter she had installed and maintained. She had killed Rodrigo while he had been examining the codebook. She had replaced the cable. She had taken the codebook. She had left through the rear stairwell. The movement's security investigation had found she had been compromised through family pressure — a family member under security services investigation had been the lever. The codebook had been used to disrupt three cells. Elena had been detained, found to have been coerced, expelled from the movement. She had left Uruguay in 1971. The Tupamaro movement had continued. The Uruguayan military coup had come in 1973. The oral history projects of the 1990s had reconstructed the security council's deliberations. Elena's story is in them."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #144",
+    "title": "The Safehouse",
+    "setting": "Tupamaro Safehouse · Montevideo · Uruguay · October 1969",
+    "emoji": "🇺🇾",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Elena killed Rodrigo under family coercion and was expelled. But Beatriz Cortez had suspected Elena before the killing — find what Beatriz had noticed and what she had done about it.",
+    "emptyState": "Beatriz suspected Elena before the killing. Find what she noticed and what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "📻",
+            "detail": "The killer — family coercion, transmitter cable, codebook taken, detained, expelled, left Uruguay 1971."
+          },
+          {
+            "name": "Miguel Santos",
+            "icon": "🔧",
+            "detail": "Cleared as killer — kitchen confirmed. His role in the post-killing security investigation is the thread."
+          },
+          {
+            "name": "Beatriz Cortez",
+            "icon": "📋",
+            "detail": "Cleared as killer — kitchen confirmed. Had suspected Elena before the killing and had taken a specific action."
+          },
+          {
+            "name": "The Security Council's Deliberations",
+            "icon": "🇺🇾",
+            "detail": "What had happened when Beatriz's concern had been submitted — and the council's response."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Safehouse Main Room",
+            "icon": "🏠",
+            "detail": "Primary crime scene — Elena's killing."
+          },
+          {
+            "name": "The Kitchen",
+            "icon": "🍽️",
+            "detail": "Beatriz's confirmed location — and where her observation of Elena had occurred over previous weeks."
+          },
+          {
+            "name": "The Security Council Meeting Point",
+            "icon": "🇺🇾",
+            "detail": "Where Beatriz had submitted her concern — and what had happened to it."
+          },
+          {
+            "name": "The Post-1985 Oral History Record",
+            "icon": "📋",
+            "detail": "Where Beatriz's account had eventually been given — and its relationship to the movement's history."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Radio Transmitter Power Cable",
+            "icon": "📻",
+            "detail": "Confirmed murder weapon — Elena's transmitter knowledge."
+          },
+          {
+            "name": "Codebook Cover Board",
+            "icon": "📋",
+            "detail": "No strangulation profile — eliminated."
+          },
+          {
+            "name": "Kitchen Chair Leg",
+            "icon": "🪑",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Beatriz's Prior Concern Submission",
+            "icon": "📋",
+            "detail": "Not a weapon — the specific concern she had submitted to the security council before the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect Her Family From Security Services Pressure",
+            "icon": "📻",
+            "detail": "Elena's coerced motive — expelled, left Uruguay 1971."
+          },
+          {
+            "name": "Flag the Security Concern Before It Became a Catastrophe",
+            "icon": "📋",
+            "detail": "Beatriz's professional concern — the specific observation and what she had done with it."
+          },
+          {
+            "name": "What Beatriz Had Noticed About Elena's Behavior",
+            "icon": "📋",
+            "detail": "The specific behavioral observation — and what it had suggested."
+          },
+          {
+            "name": "The Security Council's Response to Beatriz's Concern",
+            "icon": "🇺🇾",
+            "detail": "What had happened when the concern had been submitted — and why the killing had still occurred."
+          },
+          {
+            "name": "Beatriz's Assessment of Her Own Role in the Outcome",
+            "icon": "📋",
+            "detail": "Her understanding of what the security council's response had meant for the killing's prevention."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Beatriz Had Noticed",
+        "text": "Beatriz Cortez's oral history account — given to a Uruguayan human rights documentation project in 1988: 'Three weeks before Rodrigo was killed, I had noticed Elena being twice as careful with the radio monitoring than she had been before. Not careless — more careful. In our work, someone who becomes suddenly more careful is either worried about being caught or worried about someone finding out something. I told myself it was operational stress. But I noticed it and I wrote it in my personal security notes.'",
+        "alone": "Beatriz had noticed Elena's sudden increase in monitoring carefulness and had interpreted it as a possible security indicator — and had written it in her personal security notes.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Beatriz noticing the behavioral change and writing it in her personal security notes three weeks before the killing together confirm the observation had been recorded before the event — and had not been acted upon in time."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Beatriz Had Done",
+        "text": "Beatriz's 1988 account: 'I submitted my security notes — including the observation about Elena — to the cell's security contact two weeks before the killing. I said: I am not accusing anyone. I am noting a behavioral change that may be significant. The security contact had acknowledged receipt. I had heard nothing further. When Rodrigo was killed and the codebook was taken, I understood that the concern had either not been escalated or had been escalated too slowly.'",
+        "alone": "Beatriz had submitted the security concern two weeks before the killing — she had not accused Elena but had noted the behavioral change. The concern had either not been escalated or had been too slow.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The concern submitted two weeks before and the killing occurring two weeks later together confirm the specific timeline — the report had been within the window when action might have been possible."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Security Council's Response",
+        "text": "The movement's security council's post-1985 reconstruction — based on survivor accounts — found that Beatriz's concern had been received by the security contact and had been passed upward. The council had assessed it as insufficiently specific for immediate action — a behavioral change without specific intelligence value had not met the threshold for questioning a cell member. The council's threshold at that time had required 'specific intelligence indicators' not 'behavioral observations.' Beatriz's concern had been within the behavioral category.",
+        "alone": "The council had received the concern and had found it below the threshold for action — behavioral observation had not met the 'specific intelligence indicators' standard.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The concern below the action threshold and the killing occurring within the threshold's gap together confirm the specific institutional failure — the behavioral observation had been accurate and had not met the standard that would have triggered protection."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Beatriz's Assessment of the Outcome",
+        "text": "Beatriz's 1988 account: 'I have thought about the threshold every year since 1969. My observation had been correct. Elena had been compromised. My concern had been submitted and received and assessed and found insufficient. Rodrigo died two weeks after I submitted it. The codebook disrupted three cells. The threshold was wrong. The threshold was also what made it possible to operate without paranoia. I have thought about this contradiction every year since 1969 and I have not resolved it.'",
+        "alone": "Beatriz had identified the contradiction between the threshold that had enabled operational trust and the threshold that had not prevented the killing — and had not resolved it by 1988.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Beatriz's unresolved contradiction and the movement's survival into the military period and beyond together confirm the institutional tension had not been resolved by the movement's history — it had continued as an unresolved structural question."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Movement's Subsequent History",
+        "text": "The Tupamaro movement had continued following the 1969 safehouse killing and the codebook's compromise. The Uruguayan military coup had come in June 1973. The movement had been severely repressed. Many members had been imprisoned, some for years. The movement had re-emerged as a legal political party following Uruguay's return to democracy in 1985. Several Tupamaros had become significant figures in Uruguayan democratic politics. The oral history projects of the 1980s and 1990s had documented the movement's history.",
+        "alone": "The movement had survived the repression, had re-emerged as a legal party after 1985, and had produced significant democratic political figures. The oral history projects had documented its history.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The movement's survival into democracy and the oral history documentation together confirm the history had been recorded — the killing, the codebook, the threshold question, and Beatriz's concern had all been documented by the survivors."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Elena Vargas After Uruguay",
+        "text": "Elena Vargas had left Uruguay in 1971 following her expulsion from the movement. She had settled in Argentina and had lived there through the Argentine political instability of the 1970s. She had survived. She had given an account to a Latin American human rights documentation project in 1995: 'My family was threatened. I was coerced. I killed a comrade and gave the codebook to people I despised. I have lived with this for twenty-five years. The movement's security council treated me as coerced, not defected. They were right. It does not change what I did.'",
+        "alone": "Elena's 1995 account: 'I killed a comrade and gave the codebook to people I despised. It does not change what I did.' — her own moral accounting, twenty-five years later.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Elena's 'it does not change what I did' and Beatriz's unresolved threshold contradiction together confirm the two moral accountings from opposite sides of the killing — one accepting the personal weight, one carrying the institutional question."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Three Cell Members' Outcomes",
+        "text": "Elena Vargas had been expelled, had left Uruguay in 1971, had survived the Argentine 1970s, had given her account in 1995. Beatriz Cortez had continued in the movement, had been imprisoned during the military period, had survived, had become a human rights lawyer in democratic Uruguay. Miguel Santos had continued in the movement, had survived the military period, had become a local politician in Montevideo. Three people who had been in the safehouse kitchen and main room on the night of the killing, three different subsequent paths, all surviving to speak about it.",
+        "alone": "All three had survived to speak about it — Elena in Argentina, Beatriz as a human rights lawyer, Miguel as a local politician. Three different paths from the same night.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "All three surviving to speak about the killing and the movement continuing into democracy together confirm the specific historical moment the safehouse killing had been part of — a night in 1969 embedded in a longer arc that had ended in democratic politics."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "Montevideo and the Movement",
+        "text": "Montevideo continues as the capital of Uruguay. Uruguay returned to democracy in 1985 following twelve years of military rule. The Tupamaro movement, as the Movimiento de Liberación Nacional-Tupamaros, has participated in Uruguayan democratic politics. José Mujica — a former Tupamaro who had spent fourteen years in solitary confinement during the military period — served as Uruguay's president from 2010 to 2015. Rodrigo Vega is not named in the movement's political history. The safehouse on whose floor he died is a residential apartment. Beatriz Cortez's unresolved contradiction is in the oral history archive.",
+        "alone": "A former Tupamaro became Uruguay's president. Rodrigo Vega is not named in the political history. The safehouse is a residential apartment. Beatriz's unresolved contradiction is in the archive.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The movement producing a president and Rodrigo Vega not named in its history together confirm the full arc — the movement had traveled from a safehouse killing in 1969 to the presidency in 2010, and the courier who had died on the floor had not been named in the story of that journey."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Safehouse Main Room",
+      "weapon": "Radio Transmitter Power Cable",
+      "motive": "Protect Her Family From Security Services Pressure"
+    },
+    "epilogue": "Beatriz had submitted her security concern two weeks before the killing. The security council had assessed it below the threshold for action — behavioral observation, not specific intelligence. Elena had killed Rodrigo and had taken the codebook. The codebook had disrupted three cells. Elena had been expelled from the movement. She had left Uruguay in 1971. She had given her account in 1995: 'It does not change what I did.' Beatriz had been imprisoned during the military period, had survived, had become a human rights lawyer. Her unresolved contradiction — the threshold that had enabled trust and had not prevented the killing — is in the oral history archive. The movement had produced a president. Rodrigo Vega is not named in its political history."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #144",
+    "title": "The Safehouse",
+    "setting": "Tupamaro Safehouse · Montevideo · Uruguay · October 1969",
+    "emoji": "🇺🇾",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Elena killed Rodrigo under family coercion. Beatriz submitted a concern that was below the action threshold. But Miguel Santos had also known something was wrong — and had told no one. Find what Miguel knew and why he had stayed silent.",
+    "emptyState": "Miguel knew something was wrong and said nothing. Find what he knew and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Elena Vargas",
+            "icon": "📻",
+            "detail": "The killer — family coercion, transmitter cable, expelled, Argentina, 1995 account: 'It does not change what I did.'"
+          },
+          {
+            "name": "Beatriz Cortez",
+            "icon": "📋",
+            "detail": "Cleared as killer — kitchen confirmed. Behavioral concern submitted, below threshold, unresolved contradiction."
+          },
+          {
+            "name": "Miguel Santos",
+            "icon": "🔧",
+            "detail": "Cleared as killer — kitchen confirmed. Had known something was wrong and had said nothing."
+          },
+          {
+            "name": "Miguel's Silence and Its Reason",
+            "icon": "🔧",
+            "detail": "What Miguel had known and why he had not reported it — and what he had eventually done with it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Safehouse Main Room",
+            "icon": "🏠",
+            "detail": "Primary crime scene — Elena's killing."
+          },
+          {
+            "name": "The Kitchen",
+            "icon": "🍽️",
+            "detail": "Miguel's confirmed location — and where his observation of Elena had been made."
+          },
+          {
+            "name": "Miguel's Post-Release Position",
+            "icon": "🇺🇾",
+            "detail": "His political career in democratic Uruguay — and where his account had eventually been given."
+          },
+          {
+            "name": "The Tupamaro Oral History Archive",
+            "icon": "📋",
+            "detail": "Where the three surviving accounts had been held — and their combined significance."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Radio Transmitter Power Cable",
+            "icon": "📻",
+            "detail": "Confirmed murder weapon — Elena's."
+          },
+          {
+            "name": "Codebook Cover Board",
+            "icon": "📋",
+            "detail": "No strangulation profile — eliminated."
+          },
+          {
+            "name": "Kitchen Chair Leg",
+            "icon": "🪑",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Miguel's Silence",
+            "icon": "🔧",
+            "detail": "Not a weapon — but the specific thing he had known and chosen not to report, and his reason."
+          },
+          {
+            "name": "Miguel's 2005 Account",
+            "icon": "📋",
+            "detail": "Not a weapon — the eventual account he had given of his silence and its reason."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Protect Her Family",
+            "icon": "📻",
+            "detail": "Elena's coerced motive."
+          },
+          {
+            "name": "Submit the Behavioral Concern Through Proper Channels",
+            "icon": "📋",
+            "detail": "Beatriz's action — below threshold, unresolved."
+          },
+          {
+            "name": "Know Something Was Wrong and Stay Silent",
+            "icon": "🔧",
+            "detail": "Miguel's specific non-action — and the reason he had given in 2005."
+          },
+          {
+            "name": "What Miguel Had Known",
+            "icon": "🔧",
+            "detail": "The specific piece of information he had had — and why it had been different from Beatriz's behavioral observation."
+          },
+          {
+            "name": "Why Miguel Had Not Reported It",
+            "icon": "🔧",
+            "detail": "The specific reason — and whether it had been institutional, personal, or something else."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Rodrigo Under Family Coercion",
+            "icon": "📻",
+            "detail": "Elena's confirmed role — expelled, Argentina, 1995 account."
+          },
+          {
+            "name": "Submitted the Behavioral Concern Below the Action Threshold",
+            "icon": "📋",
+            "detail": "Beatriz's role — imprisoned during military period, human rights lawyer, unresolved contradiction."
+          },
+          {
+            "name": "Known Something Specific and Stayed Silent",
+            "icon": "🔧",
+            "detail": "Miguel's role — local politician in democratic Montevideo, 2005 account."
+          },
+          {
+            "name": "Provided the Coercive Pressure Through Elena's Family",
+            "icon": "📻",
+            "detail": "The Uruguayan security services' institutional role — the lever that had produced the killing."
+          },
+          {
+            "name": "Set the Action Threshold That Had Found Beatriz's Concern Insufficient",
+            "icon": "🇺🇾",
+            "detail": "The security council's structural role — the standard that had not been met."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "What Miguel Had Known",
+        "text": "Miguel Santos's account — given to a Tupamaro oral history project in 2005, at age seventy: 'I knew Elena's brother had been detained by the security services in September 1969 — one month before Rodrigo was killed. I knew this because I had been responsible for maintaining contact with families of detained movement members. Elena's brother was not a Tupamaro but his detention had been used as leverage. I knew the detention existed. I did not know it had been used as leverage against Elena. I assumed she would tell the security council herself if it was relevant.'",
+        "alone": "Miguel had known Elena's brother had been detained one month before the killing — and had assumed Elena would self-report if the detention was being used as leverage against her.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Miguel knowing about the brother's detention and assuming Elena would self-report together confirm the specific gap — his knowledge had been more concrete than Beatriz's behavioral observation and had also not been reported."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Why Miguel Had Stayed Silent",
+        "text": "Miguel's 2005 account: 'I did not report the detention to the security council because I believed it was Elena's information to report. The detention of a family member was a personal matter that touched on her security status. It was not my place to report something about her family without her knowledge. I was wrong. The information about the detention was operational security information and I should have reported it regardless of whose family member it was. I knew this in 1970. I have known it ever since.'",
+        "alone": "Miguel had stayed silent because he had believed the family detention was Elena's information to report — a personal privacy judgment that had been operationally incorrect. He had known it was wrong since 1970.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Miguel's privacy judgment and his acknowledgment since 1970 that it had been wrong together confirm the specific moral weight he had been carrying — like Brannagh's forty-nine years, like Karpov's notebook, a known mistake held for decades."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Three Non-Reports",
+        "text": "Three pieces of information had been available before the killing: Beatriz had observed a behavioral change and had submitted it through channels — below the action threshold. Miguel had known about the family detention and had not reported it — a privacy judgment that had been operationally incorrect. Elena had known about the coercive pressure and had not reported it — because she had been the one being coerced. Three non-reports, three different reasons, none preventing the killing.",
+        "alone": "Three non-reports with three different reasons — behavioral concern below threshold, privacy judgment, coerced silence. None preventing the killing.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Three non-reports and none preventing the killing together confirm the full structural picture — the killing had been in the gaps between three separate pieces of information that had each been handled through different reasoning."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Miguel's Assessment in 2005",
+        "text": "From Miguel's 2005 account: 'Beatriz had submitted her concern. I had not submitted mine. The security council had found Beatriz's insufficient. If I had submitted the detention information alongside Beatriz's behavioral concern, the combined picture might have met the threshold. I do not know. I know that Beatriz did what she should have done and I did not. I know that a man died. I have been a politician in democratic Uruguay for twenty years. I have voted on laws that affect how the state uses family members as leverage. I vote thinking about that September.'",
+        "alone": "Miguel's 2005 assessment: Beatriz had done what she should have done, he had not. He voted on relevant laws thinking about September 1969.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Miguel's political career informed by what he had not done in 1969 and the movement producing a president together confirm the full transformation — the safehouse killing's participants had carried their specific moral weights into democratic governance."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Three Accounts in the Archive",
+        "text": "The Tupamaro oral history archive holds three accounts of the October 1969 safehouse killing: Beatriz Cortez's 1988 account describing the behavioral observation, the security concern submission, and the unresolved threshold contradiction. Elena Vargas's 1995 account describing the family coercion, the killing, and the moral weight she carried. Miguel Santos's 2005 account describing the detention knowledge, the privacy judgment, the operational error, and the political career informed by the September he had not reported.",
+        "alone": "Three accounts in the archive — 1988, 1995, 2005 — Beatriz, Elena, Miguel. The full picture assembled across seventeen years of separate accounts.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The three accounts arriving across seventeen years from three separate participants together confirm the archive's function — holding the accounts until each person had been ready to give them."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Three Accounts Together Establish",
+        "text": "The three accounts together establish: Elena had been coerced and had killed Rodrigo. Beatriz had observed a behavioral change and had submitted it through channels that had found it insufficient. Miguel had known about the detention and had not submitted it, treating it as personal information. The combined picture — behavioral concern plus detention knowledge — would have presented a more complete security alert than either alone. The picture had not been combined before the killing. It had been assembled in the archive across seventeen years after it.",
+        "alone": "The combined picture that might have met the threshold had not been assembled before the killing — it had been assembled in the archive seventeen years after, from three separate accounts given at different times.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The combined picture assembled post-killing and the three accounts given across seventeen years together confirm the archive's retrospective function — it had held the separate pieces and had made the combination visible after the fact."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Movement and Democracy",
+        "text": "The Tupamaro movement — as the Movimiento de Liberación Nacional-Tupamaros — has participated in Uruguayan democratic politics since 1985. Members who had been imprisoned during the military period had been released under the 1985 amnesty. José Mujica had served as president from 2010 to 2015. Tabaré Vázquez, another figure from the broader Frente Amplio coalition that included former Tupamaros, had also served as president. The movement that had operated from safehouses in 1969 had become part of Uruguay's democratic government.",
+        "alone": "Former Tupamaros had served as Uruguay's president. The movement that had operated from safehouses in 1969 had become part of democratic government.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The movement becoming part of democratic government and Rodrigo Vega not named in its political history together confirm the full arc — the movement had traveled an enormous distance and the courier who had died at the start of that journey had not been named in it."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🇺🇾",
+        "heading": "The Safehouse Apartment",
+        "text": "The Montevideo apartment that had been the Tupamaro safehouse in October 1969 is now a private residential apartment. It has no marker. The building is in the Ciudad Vieja district. Rodrigo Vega is not named in the Tupamaro political movement's public history. The three accounts of the night are in the oral history archive at the Universidad de la República in Montevideo. The archive is publicly accessible to researchers. José Mujica served as Uruguay's president from 2010 to 2015 and gave numerous interviews about his Tupamaro past. He has not spoken specifically about the October 1969 safehouse killing. The River Plate is visible from the Ciudad Vieja. The apartment is there. The archive is there. Rodrigo Vega is in the archive.",
+        "alone": "The apartment is there. The archive is there. Rodrigo Vega is in the archive, not in the movement's public history. The River Plate is visible from the Ciudad Vieja.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Rodrigo Vega in the archive but not the public history and the River Plate visible from where the apartment stands together confirm the final image — the geography unchanged, the movement transformed, the courier who had died at the movement's beginning named only in the archive that holds what was too costly to say at the time."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Elena Vargas",
+      "location": "The Safehouse Main Room",
+      "weapon": "Radio Transmitter Power Cable",
+      "motive": "Protect Her Family From Security Services Pressure",
+      "accomplice": "Known Something Specific and Stayed Silent"
+    },
+    "epilogue": "Miguel had known about the brother's detention and had not reported it, treating it as Elena's personal information to disclose. He had known since 1970 that this had been wrong. He had given his account in 2005 at age seventy — Beatriz had done what she should have done, he had not. He had voted on laws about state coercion of family members thinking about September 1969. The three accounts are in the archive at the Universidad de la República — 1988, 1995, 2005 — assembled across seventeen years from three separate people. The combined picture that might have met the threshold is visible in retrospect. Rodrigo Vega is in the archive. The apartment is in the Ciudad Vieja. The River Plate is visible from there. The movement became a government. The courier is not in its political history."
+  }
+}

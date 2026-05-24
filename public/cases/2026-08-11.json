@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Versailles, 1919. The peace conference that shaped the century. A French diplomat dead with draft treaty language that would have changed the reparations terms — and potentially the next twenty years of European history. 🕊️🔍 Case #145 — The Treaty. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Versailles 1919 the peace conference, a diplomat dead with draft treaty language that could have changed the reparations — and whether that language would have changed what came after. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1919 Versailles conference room after hours, dark wood panelling and gilt mirrors, a French diplomat's portfolio open on a writing table with draft treaty pages scattered, an overturned wine glass beside a diplomatic dispatch case, the Palace of Versailles gardens visible through tall windows at dusk. History being written and history being interrupted. Style of formal diplomatic photography of the era meets Edward Hopper's institutional interiors.",
+    "animationPrompt": "Slow pan through a 1919 Versailles conference room after hours. Dark wood panelling. Gilt mirrors. A French diplomat's portfolio open on the writing table. Draft treaty pages scattered. An overturned wine glass. Through the tall windows: the Palace gardens at dusk. The peace conference is reshaping the world. Someone has interrupted it. Fade to black.",
+    "hashtags": [
+      "#Versailles1919",
+      "#PeaceConference",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #145",
+    "title": "The Treaty",
+    "setting": "Versailles Peace Conference · Versailles · France · June 1919",
+    "emoji": "🕊️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "French diplomatic aide Henri Moreau was found dead in a conference room at Versailles with draft treaty language proposing a modification to the German reparations structure — a modification that would have reduced the total figure and replaced the open-ended liability with a fixed sum payable over thirty years. The draft had been a compromise position that Moreau had been preparing for a back-channel discussion with British and American delegations. Three people had been in the conference area that evening. The draft was gone.",
+    "emptyState": "Draft treaty language that might have changed European history. Gone. Three people. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Auguste Ferrière",
+            "icon": "🎖️",
+            "detail": "A French Army liaison officer — had been coordinating between the military and diplomatic delegations and had been opposed to any reduction in the reparations figure on behalf of the veterans' interests he represented."
+          },
+          {
+            "name": "Lord Frederick Ashton",
+            "icon": "🇬🇧",
+            "detail": "A British delegation advisor — had been the intended recipient of the back-channel draft and had known about the meeting."
+          },
+          {
+            "name": "Dr. Klaus Reimer",
+            "icon": "🇩🇪",
+            "detail": "A German economic expert — had been attending as an observer to the conference's economic committee and had known about Moreau's compromise work."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Conference Room",
+            "icon": "🕊️",
+            "detail": "Where Moreau was found — portfolio open, draft pages scattered, wine glass overturned."
+          },
+          {
+            "name": "The Corridor Outside",
+            "icon": "🚪",
+            "detail": "Where a conference attendant had seen a figure carrying papers leaving quickly."
+          },
+          {
+            "name": "The Gardens Terrace",
+            "icon": "🌿",
+            "detail": "Where the back-channel meeting had been scheduled — and where Moreau had been going when he had been killed."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diplomatic Dispatch Case Clasp",
+            "icon": "💼",
+            "detail": "A heavy brass clasp from a leather dispatch case — blunt force wound consistent with its edge."
+          },
+          {
+            "name": "Treaty Portfolio Board",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Wine Bottle Base",
+            "icon": "🍷",
+            "detail": "No blood trace on the intact bottle — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Draft Treaty Language",
+        "text": "Moreau's surviving notes — found in his personal file rather than the missing portfolio — describe what the draft had contained: a fixed German reparations sum of 50 billion gold marks payable over thirty years, replacing the open-ended liability structure that had been incorporated in the final treaty. Moreau had calculated that the fixed sum would have been recoverable by Germany within the thirty years without the economic destabilization that the open-ended liability risked. The draft had been based on analysis by John Maynard Keynes, who had been attached to the British delegation.",
+        "alone": "The draft had proposed a fixed 50 billion mark sum over thirty years, based on Keynes's analysis — designed to be recoverable without economic destabilization. Keynes had been publicly warning that the open-ended liability risked exactly the destabilization Moreau's draft had sought to prevent.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The draft based on Keynes's economic analysis and Colonel Ferrière's opposition to any reparations reduction on veterans' behalf together establish the specific clash — an economic compromise position versus a moral-political demand for maximum German liability."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "💼",
+        "heading": "The Dispatch Case Clasp",
+        "text": "A brass clasp from a diplomatic dispatch case — found near Moreau's body, separated from its case — shows blood on its edge. Moreau's wound is consistent with the clasp's edge used as a bludgeon while he had been at the writing table examining the draft. The approach had been from behind through the conference room's side door. The dispatch case itself had not been found — the killer had taken both the draft and the case.",
+        "alone": "The dispatch case had been taken along with the draft — the killer had needed to remove the case as well as the draft. The clasp had been left as the weapon.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The entire dispatch case taken along with the draft and Colonel Ferrière's confirmed dispatch case carried throughout the conference together establish his specific means — he had been carrying a dispatch case that day and would have had reason to take Moreau's."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🇬🇧",
+        "heading": "Lord Ashton's Evening",
+        "text": "Lord Frederick Ashton had been at the British delegation's evening reception from seven PM until ten PM — confirmed by the reception's guest register, the British delegation secretary, and five other attendees. He had not been in the conference room area. He is definitively cleared.",
+        "alone": "Lord Ashton had been at the British delegation reception confirmed by the register and five attendees — he had not been in the conference room. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Lord Ashton cleared at the British reception and Dr. Reimer confirmed at the economic committee dinner together eliminate both other suspects from the conference room — only Colonel Ferrière's movements between eight and nine PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Ferrière's Opposition to the Draft",
+        "text": "French military liaison records show Colonel Ferrière had been formally opposed to any modification of the reparations structure — he had represented the veterans' associations' position that Germany bore unlimited moral liability for the war's costs and that any fixed sum represented a capitulation to German interests. He had been aware of Moreau's back-channel work through a staff member who had seen the draft's outline. He had filed a formal objection with the French delegation head the previous day.",
+        "alone": "Ferrière had filed a formal objection to Moreau's draft the day before the killing — he had been aware of the back-channel work and had taken official steps to oppose it.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Ferrière's formal objection the day before and the draft's disappearance the following evening together confirm the connection — the official objection had not prevented the draft's preparation, and an unofficial method had been used."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Ferrière in the Corridor",
+        "text": "A conference attendant confirms he had seen Colonel Ferrière in the corridor adjacent to the conference room at approximately eight-thirty PM — carrying a dispatch case and moving quickly. He had not seemed to notice the attendant. The conference room had been found at nine PM when a cleaning staff member had entered. Ferrière had not attended the evening's official events.",
+        "alone": "Ferrière had been seen in the corridor adjacent to the conference room at eight-thirty PM carrying a dispatch case and moving quickly — and had not attended the official evening events.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Ferrière carrying a dispatch case in the corridor and the killer taking Moreau's dispatch case along with the draft together confirm the specific means — he had been in the right location at the right time with the specific equipment the cover had required."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Ferrière's Dispatch Case",
+        "text": "Colonel Ferrière had been carrying a French military liaison dispatch case throughout the conference — documented in the daily liaison logs that recorded his movements and equipment. When questioned following the discovery of Moreau's body, he had presented his dispatch case for inspection. The case had been empty. He had explained this as normal end-of-day clearing of documents. The inspection had not found Moreau's draft. The draft had not been found at any point.",
+        "alone": "Ferrière's dispatch case had been empty when inspected — the draft had not been in it. The draft has never been found.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Ferrière's quick corridor movement at eight-thirty carrying a dispatch case and his case being empty when inspected that evening together suggest the draft had been transferred or destroyed before the inspection — the specific time between eight-thirty and nine PM."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🇩🇪",
+        "heading": "Dr. Reimer's Evening",
+        "text": "Dr. Klaus Reimer had been at the economic committee's formal dinner from seven-thirty PM until ten PM — confirmed by the committee chairman, three other economists, and the dinner's service staff. He had not been in the conference building during the killing window. He is definitively cleared.",
+        "alone": "Dr. Reimer had been at the economic committee dinner confirmed by the chairman and three economists — he had not been in the conference building. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Lord Ashton cleared at the British reception and Dr. Reimer cleared at the economic dinner together eliminate both other suspects — Ferrière's eight-thirty PM corridor presence is the only confirmed suspect movement near the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Treaty and What Followed",
+        "text": "The Treaty of Versailles had been signed on June 28th, 1919 with the open-ended reparations liability. John Maynard Keynes had resigned from the British delegation in protest and had published 'The Economic Consequences of the Peace' in December 1919, arguing that the reparations terms would destabilize Germany and produce a second European war. The German economy had destabilized. The hyperinflation of 1923 had followed. The Great Depression had intersected with the reparations debt. Adolf Hitler had risen to power partly on the resentment the reparations had generated. Colonel Ferrière had never been charged. He had died in 1937.",
+        "alone": "The open-ended reparations had been signed. Keynes's prediction had been confirmed. Ferrière had died in 1937 uncharged. The draft that might have changed the terms has never been found.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Ferrière's formal opposition to any modification and the historical consequences of the reparations terms together confirm the specific weight of the killing — the draft had been destroyed before a back-channel discussion that might have changed the terms that Keynes had publicly warned would produce another war."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Auguste Ferrière",
+      "location": "The Conference Room",
+      "weapon": "Diplomatic Dispatch Case Clasp"
+    },
+    "epilogue": "Colonel Auguste Ferrière had been in the corridor adjacent to the conference room at eight-thirty PM, carrying a dispatch case. He had entered through the side door. He had used the clasp. He had taken Moreau's draft and his dispatch case. He had transferred or destroyed the draft before the nine PM inspection. His own case had been empty when examined. The Treaty of Versailles had been signed on June 28th with the open-ended reparations liability. Keynes had resigned in protest and had published his warning. The destabilization had followed. Ferrière had died in 1937 without being charged. The draft has never been found. What it might have changed is not known. What it did not change is."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #145",
+    "title": "The Treaty",
+    "setting": "Versailles Peace Conference · Versailles · France · June 1919",
+    "emoji": "🕊️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Ferrière killed Moreau and destroyed the draft. But Lord Ashton had known about the back-channel meeting and had taken his own position on it — find what Ashton had been planning and how Moreau's death had changed it.",
+    "emptyState": "Lord Ashton was the intended recipient of the draft. Find what he was planning and what changed.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Auguste Ferrière",
+            "icon": "🎖️",
+            "detail": "The killer — corridor presence, dispatch case clasp, draft destroyed, uncharged, died 1937."
+          },
+          {
+            "name": "Lord Frederick Ashton",
+            "icon": "🇬🇧",
+            "detail": "Cleared as killer — British reception confirmed. Had been the intended recipient and had his own plans."
+          },
+          {
+            "name": "Dr. Klaus Reimer",
+            "icon": "🇩🇪",
+            "detail": "Cleared as killer — economic dinner confirmed. His knowledge of the draft's Keynes connection is newly significant."
+          },
+          {
+            "name": "Ashton's Post-Killing Response",
+            "icon": "🇬🇧",
+            "detail": "What Ashton had done when the meeting had not occurred — and whether the draft's substance had survived through him."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Conference Room",
+            "icon": "🕊️",
+            "detail": "Primary crime scene — Ferrière's killing."
+          },
+          {
+            "name": "The Gardens Terrace",
+            "icon": "🌿",
+            "detail": "Where the meeting had been scheduled — and where Ashton had waited before hearing Moreau would not come."
+          },
+          {
+            "name": "The British Delegation Offices",
+            "icon": "🇬🇧",
+            "detail": "Where Ashton had gone after the meeting had failed — and what he had done there."
+          },
+          {
+            "name": "The Keynes Archive",
+            "icon": "📋",
+            "detail": "Where the connection between the draft and Keynes's published work had eventually been documented."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diplomatic Dispatch Case Clasp",
+            "icon": "💼",
+            "detail": "Confirmed murder weapon — Ferrière's corridor approach."
+          },
+          {
+            "name": "Treaty Portfolio Board",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Wine Bottle Base",
+            "icon": "🍷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Ashton's Subsequent Memo",
+            "icon": "🇬🇧",
+            "detail": "Not a weapon — the document Ashton had produced after the killing and its relationship to the draft's substance."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Any Modification of the Open-Ended Reparations Liability",
+            "icon": "🎖️",
+            "detail": "Ferrière's motive — treaty signed with open-ended terms, died 1937 uncharged."
+          },
+          {
+            "name": "Advance the Fixed-Sum Compromise Through the British Delegation",
+            "icon": "🇬🇧",
+            "detail": "Ashton's planned purpose — and what Moreau's death had changed about that plan."
+          },
+          {
+            "name": "What Ashton Had Planned for the Back-Channel Meeting",
+            "icon": "🇬🇧",
+            "detail": "His specific strategic intent — and whether the killing had been the end or a pause."
+          },
+          {
+            "name": "The Memo Ashton Had Produced After the Meeting Failed",
+            "icon": "🇬🇧",
+            "detail": "What he had done with the substance of what he had expected to discuss — and where that memo had gone."
+          },
+          {
+            "name": "The Memo's Relationship to Keynes's Published Work",
+            "icon": "📋",
+            "detail": "Whether Ashton's memo and Keynes's published analysis had been connected."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🇬🇧",
+        "heading": "What Ashton Had Been Planning",
+        "text": "Lord Ashton's account — given to a diplomatic history interview in 1935: 'Moreau had proposed a back-channel discussion about a fixed-sum reparations structure. I had been prepared to receive the draft and to bring it to Lloyd George's private office as a basis for discussion. I had not committed to supporting it — I had committed to ensuring it received a hearing. When the meeting did not occur and I learned why, I understood that something had been deliberately prevented. I went back to my office and wrote down what I had expected Moreau to propose.'",
+        "alone": "Ashton had planned to receive the draft and bring it to Lloyd George's private office — not to commit to it but to ensure it received a hearing. After the killing he had written down what he had expected.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Ashton's plan to bring the draft to Lloyd George's private office and his subsequent memo together confirm the substance had not entirely died with Moreau — Ashton had attempted to reconstruct it from what he had been told to expect."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "Ashton's Memo",
+        "text": "Lord Ashton's 1919 memo — found in the British National Archive in 1962 — described what Moreau had told him the draft would contain before the meeting: a fixed sum, a thirty-year payment schedule, a Keynes-based calculation of German payment capacity. Ashton had submitted the memo to Lloyd George's private office. The private office had acknowledged receipt and had filed it. No discussion had followed. The memo had been filed under 'alternative reparations proposals, June 1919.' It had not been acted upon.",
+        "alone": "Ashton's memo describing the draft's substance had been submitted to Lloyd George's private office and had been filed without action — acknowledged and set aside.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The memo filed without action and the treaty signed with the open-ended terms together confirm the substance had survived the killing in Ashton's memo and had not changed the outcome — the filing had been the end of the path."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Keynes Connection",
+        "text": "Historians examining the Keynes archive at King's College Cambridge in the 1980s had found correspondence between Keynes and Moreau in May 1919 discussing the fixed-sum calculation. The correspondence had confirmed Keynes had provided the analytical basis for Moreau's draft. When Keynes had published 'The Economic Consequences of the Peace' in December 1919, the published analysis had been consistent with what Moreau's draft had proposed. The published book had been Keynes's public version of the argument the back-channel had not been able to advance.",
+        "alone": "Keynes's December 1919 publication had been the public version of the analysis underlying Moreau's suppressed draft — the back-channel argument that had not reached Lloyd George's office had become the most influential economic book of the post-war period.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Keynes's published book being the public version of the analysis underlying the suppressed draft together confirm the substance had survived through two paths — Ashton's filed memo and Keynes's published argument. Both had not changed the treaty. One had changed the historical understanding of what the treaty had done."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🇬🇧",
+        "heading": "The Memo's Discovery",
+        "text": "Lord Ashton's 1919 memo had been found in the British National Archive in 1962 by a historian researching the Versailles Peace Conference's internal deliberations. The historian had published an analysis connecting the memo to Moreau's back-channel work, Ferrière's formal objection, and Keynes's published argument. The analysis had been published in the English Historical Review in 1965. It had been the first public identification of the specific alternative reparations proposal that had circulated in the conference's final week.",
+        "alone": "The 1965 scholarly analysis had been the first public identification of Moreau's specific proposal — found in Ashton's archived memo forty-six years after the conference.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The memo found in 1962 and the analysis published in 1965 together confirm the specific timeline of the draft's partial survival — the substance had been in Ashton's memo in the archive for forty-three years before being identified as significant."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "What the Counterfactual Asks",
+        "text": "Historians examining the alternative reparations proposals have asked: if Moreau's draft had reached Lloyd George's private office as a formal proposal rather than as Ashton's reconstructed memo, would it have changed the final treaty? The scholarly assessment has been divided. Some historians have argued the open-ended terms had been politically necessary for domestic French and British audiences and that no alternative had been politically viable in June 1919. Others have argued that a back-channel discussion at the level Moreau had been planning might have shifted the terms. The question has not been resolved.",
+        "alone": "The counterfactual — whether the draft would have changed the treaty — has not been resolved. Historians are divided between political necessity and back-channel possibility.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The unresolved counterfactual and Keynes's accurate prediction of what the actual terms had produced together confirm the question's specific weight — the prediction had been confirmed by history and the draft's alternative has remained unresolved."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "Keynes's Prediction",
+        "text": "John Maynard Keynes had published 'The Economic Consequences of the Peace' in December 1919. He had predicted: German economic destabilization from the open-ended reparations liability; the political consequences of that destabilization; and the risk of a second European war arising from German resentment of the terms. All three predictions had been confirmed by subsequent history. Keynes had been the British delegation's economic analyst. His analysis had been the basis for Moreau's draft. Both had been set aside.",
+        "alone": "Keynes's three predictions had all been confirmed by subsequent history. His analysis had been the basis for the suppressed draft. Both the analysis and the draft had been set aside in June 1919.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Keynes's confirmed predictions and the draft based on his analysis having been suppressed together confirm the full weight of what had been set aside — the analysis had been correct and the draft based on it had been destroyed before it could be discussed."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Three Documents Together Show",
+        "text": "Three documents together address the alternative: Moreau's surviving notes describing the draft's content. Ashton's 1919 memo reconstructing what Moreau had told him. The Moreau-Keynes May 1919 correspondence in the King's College archive. Together they establish what the draft had proposed, that it had been based on Keynes's analysis, and that it had been deliberately suppressed before it could be discussed. They do not establish whether it would have changed the treaty. That question remains open.",
+        "alone": "Three documents establish what the draft had proposed and that it had been suppressed. Whether it would have changed the treaty remains open.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Three documents establishing the suppression and the counterfactual remaining open together confirm the historical record's limits — the evidence of what had been attempted had survived in fragments across three archives, and what it would have produced had not survived at all."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "Versailles and Its Legacy",
+        "text": "The Palace of Versailles is now a museum. The Hall of Mirrors where the treaty had been signed is one of the most visited rooms in the world. The treaty's reparations terms had contributed to a sequence of European crises that had ended with the Second World War and the deaths of approximately seventy to eighty-five million people. Henri Moreau is not named in the treaty's official history. His draft is reconstructed from three archival fragments. Colonel Ferrière died in 1937. His file shows a formal objection to an alternative reparations proposal and no investigation into Moreau's death. The Hall of Mirrors is visited by millions annually.",
+        "alone": "The Hall of Mirrors is visited by millions annually. Moreau is not in the treaty's official history. The draft is in three archival fragments. What it might have changed is open. What the treaty produced is not.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Three archival fragments reconstructing the suppressed draft and the Hall of Mirrors visited by millions together confirm the final image — the physical space where the treaty had been signed receives millions of visitors, and the paper that might have changed what was signed there exists only in fragments in three separate archives."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Auguste Ferrière",
+      "location": "The Conference Room",
+      "weapon": "Diplomatic Dispatch Case Clasp",
+      "motive": "Prevent Any Modification of the Open-Ended Reparations Liability"
+    },
+    "epilogue": "Ashton had waited at the gardens terrace. The meeting had not occurred. He had returned to his office and had written down what he had expected Moreau to propose. He had submitted it to Lloyd George's private office. It had been filed without action. Keynes had published 'The Economic Consequences of the Peace' in December 1919 — the public version of the analysis the back-channel had not been able to advance. All three of Keynes's predictions had been confirmed by subsequent history. The three archival fragments — Moreau's notes, Ashton's memo, the Keynes-Moreau correspondence — together reconstruct what had been proposed and suppressed. Whether it would have changed the treaty remains open. The Hall of Mirrors is visited by millions annually. Moreau is not in the official history."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #145",
+    "title": "The Treaty",
+    "setting": "Versailles Peace Conference · Versailles · France · June 1919",
+    "emoji": "🕊️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Ferrière killed Moreau. Ashton's memo preserved the draft's substance. But Dr. Reimer had also known about the proposal — and had been trying to advance it through the German delegation. Find what Reimer had been doing and what happened to his effort.",
+    "emptyState": "Reimer was trying to advance the same compromise from the German side. Find what he did and what happened.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Colonel Auguste Ferrière",
+            "icon": "🎖️",
+            "detail": "The killer — dispatch case clasp, draft destroyed, uncharged, died 1937, Hall of Mirrors."
+          },
+          {
+            "name": "Lord Frederick Ashton",
+            "icon": "🇬🇧",
+            "detail": "Cleared as killer — British reception confirmed. Memo to Lloyd George's office, filed without action."
+          },
+          {
+            "name": "Dr. Klaus Reimer",
+            "icon": "🇩🇪",
+            "detail": "Cleared as killer — economic dinner confirmed. Had been working to advance the same compromise from the German side."
+          },
+          {
+            "name": "Reimer's German Delegation Effort",
+            "icon": "🇩🇪",
+            "detail": "What Reimer had been doing in parallel with Moreau — and what had happened to his effort."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Conference Room",
+            "icon": "🕊️",
+            "detail": "Primary crime scene — and where the French side of the compromise had been suppressed."
+          },
+          {
+            "name": "The Economic Committee Sessions",
+            "icon": "🇩🇪",
+            "detail": "Where Reimer had been working to advance the German position on fixed reparations."
+          },
+          {
+            "name": "The German Delegation's Offices",
+            "icon": "🇩🇪",
+            "detail": "Where Reimer's analysis had been prepared — and where it had gone after Moreau's death."
+          },
+          {
+            "name": "The German Federal Archive",
+            "icon": "📋",
+            "detail": "Where Reimer's 1919 materials had eventually been held — and their relationship to the other archival fragments."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Diplomatic Dispatch Case Clasp",
+            "icon": "💼",
+            "detail": "Confirmed murder weapon — Ferrière's."
+          },
+          {
+            "name": "Treaty Portfolio Board",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Wine Bottle Base",
+            "icon": "🍷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Reimer's Economic Analysis",
+            "icon": "🇩🇪",
+            "detail": "Not a weapon — the parallel analysis he had been preparing and what had happened to it."
+          },
+          {
+            "name": "Reimer's 1932 Published Work",
+            "icon": "📋",
+            "detail": "Not a weapon — his eventual publication of the analysis thirteen years after the conference."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent Any Modification of the Open-Ended Reparations",
+            "icon": "🎖️",
+            "detail": "Ferrière's motive — the treaty signed as proposed."
+          },
+          {
+            "name": "Receive the Draft and Advance It Through British Channels",
+            "icon": "🇬🇧",
+            "detail": "Ashton's planned purpose — memo filed without action."
+          },
+          {
+            "name": "Advance the Fixed-Sum Compromise From the German Side",
+            "icon": "🇩🇪",
+            "detail": "Reimer's parallel effort — and its outcome at the conference."
+          },
+          {
+            "name": "What Reimer Had Been Doing in the Economic Committee",
+            "icon": "🇩🇪",
+            "detail": "The specific work he had been doing — and how it had related to Moreau's draft."
+          },
+          {
+            "name": "What Reimer Had Eventually Published and When",
+            "icon": "📋",
+            "detail": "The thirteen-year gap between 1919 and his publication — and what had changed in 1932."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Moreau and Destroyed the Draft",
+            "icon": "🎖️",
+            "detail": "Ferrière's confirmed role — died 1937 uncharged."
+          },
+          {
+            "name": "Preserved the Draft's Substance in a Memo to Lloyd George's Office",
+            "icon": "🇬🇧",
+            "detail": "Ashton's role — memo found 1962, analysis published 1965."
+          },
+          {
+            "name": "Worked the Parallel German Position and Published Thirteen Years Later",
+            "icon": "🇩🇪",
+            "detail": "Reimer's role — 1932 publication, German Federal Archive, fourth archival fragment."
+          },
+          {
+            "name": "Published the Economic Analysis Publicly After Resigning",
+            "icon": "📋",
+            "detail": "Keynes's role — December 1919, three confirmed predictions."
+          },
+          {
+            "name": "Prepared the Analysis That Had Been the Draft's Basis",
+            "icon": "📋",
+            "detail": "Keynes's foundational analytical role — the basis for both Moreau's draft and Reimer's work."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🇩🇪",
+        "heading": "What Reimer Had Been Doing",
+        "text": "Dr. Reimer's 1932 published work — 'Reparations: The Economic Consequences of the Versailles Structure, 1919-1932' — describes his 1919 conference work: 'In June 1919 I prepared an analysis for the German delegation proposing that Germany could meet a fixed reparations sum of 50 billion gold marks over thirty years without the economic destabilization that the open-ended liability risked. I was aware that a French diplomat had been advancing a similar position through back-channel discussions. After his death, I understood the back-channel had been permanently closed. I submitted my analysis to the German delegation head. It was not advanced.'",
+        "alone": "Reimer had been working the same fixed-sum analysis from the German side — aware of Moreau's parallel work. After Moreau's death he had submitted his analysis to the German delegation head. It had not been advanced.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Reimer's parallel analysis not advanced and the treaty signed with the open-ended terms together confirm both sides of the potential compromise had been suppressed simultaneously — the French side through violence, the German side through the delegation's decision not to advance it without French support."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🇩🇪",
+        "heading": "Why Reimer Had Not Published Immediately",
+        "text": "From Reimer's 1932 publication: 'I did not publish this analysis in 1919 because the treaty had been signed and the analysis had become retrospective rather than prospective. I waited for the economic consequences to become visible before publishing. I published in 1932 because the German economy had destabilized as the analysis had predicted, the Great Depression had intersected with the reparations debt, and the political consequences were becoming visible. I published so that the record would show the alternative had been available.'",
+        "alone": "Reimer had waited until 1932 — when the predicted consequences had materialized — to publish, so the record would show the alternative had been available. The year of Hitler's rise to the chancellorship.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Reimer publishing in 1932 when Hitler had risen to become Germany's dominant political figure and the analysis showing the alternative that had not been taken together confirm the publication's specific timing — the year when the prediction's consequences had become most visible."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🇩🇪",
+        "heading": "The German Federal Archive's Holdings",
+        "text": "The German Federal Archive holds Reimer's 1919 conference analysis — the original document he had submitted to the German delegation head. It has been in the archive since 1945 following the Allied review of German government records. A historian examining it in 1968 had identified it as the German parallel to Moreau's French back-channel work. The 1968 analysis had been the first to document that both French and German delegations had had representatives working toward a fixed-sum compromise in June 1919 — simultaneously, without coordination, each unaware of how far the other had progressed.",
+        "alone": "Both delegations had had representatives working toward the same fixed-sum compromise in June 1919 — simultaneously, without coordination, each unaware of the other's progress.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Both delegations working toward the same compromise without coordination and the 1968 identification of their parallel work together confirm the specific historical irony — the compromise had been being worked from both sides simultaneously, and neither had known the other's position."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Four Archival Fragments",
+        "text": "The full alternative reparations proposal that circulated at Versailles in June 1919 is now reconstructed from four archival fragments: Moreau's surviving notes (French diplomatic archive, Paris). Ashton's 1919 memo (British National Archive, London). The Moreau-Keynes May 1919 correspondence (King's College Cambridge). Reimer's 1919 conference analysis (German Federal Archive, Berlin). Four fragments in four archives in three countries. Together they reconstruct both sides of a compromise that had been worked simultaneously and had not been discussed.",
+        "alone": "Four fragments in four archives in three countries reconstruct both sides of a compromise worked simultaneously from French and German delegations and never discussed.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four fragments in four archives reconstructing the parallel uncoordinated compromise and the Hall of Mirrors visited by millions together confirm the final image — the evidence of what had been attempted on both sides exists in fragments across Europe, and the room where the alternative had not been signed is visited by millions who do not know about the four documents."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🇩🇪",
+        "heading": "Reimer's 1932 Publication and Its Reception",
+        "text": "Reimer's 1932 publication had been received as a significant economic analysis by German and international economists. It had been read alongside Keynes's 1919 publication as a complementary document — Keynes's British perspective and Reimer's German perspective on the same fundamental economic argument. Both had argued the open-ended liability had been economically untenable. Both had been published after the treaty had been signed. Both had been correct. Neither had changed the treaty.",
+        "alone": "Keynes's British perspective and Reimer's German perspective on the same economic argument, published thirteen years apart, both correct, neither having changed the treaty.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Both analyses published after the fact and both correct together confirm the specific form of the historical record — the argument that had been suppressed in June 1919 had been published in December 1919 and in 1932, confirmed by history, and had not changed what had already been decided."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Six People Who Had Known",
+        "text": "Six people had known in June 1919 that an alternative reparations structure was being developed: Moreau had been preparing it — killed. Ferrière had been opposing it — killed Moreau, died 1937 uncharged. Ashton had been the intended recipient — filed the memo, died in 1941. Keynes had provided the analysis — published December 1919, died 1946. Reimer had been working the parallel German position — published 1932, died 1945. The staff member who had seen Moreau's outline — identity not recorded. One killed, five who had outlived the treaty and had lived to see its consequences.",
+        "alone": "Five of the six had outlived the treaty and had lived to see its predicted consequences. One had been killed before the back-channel discussion could occur.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Five of six outliving the treaty to see its consequences and Moreau killed before the discussion could occur together confirm the specific human dimension — the one person who had died had been the one who had been trying to open the discussion."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Treaty's Consequences",
+        "text": "The Treaty of Versailles's reparations terms had contributed to: German hyperinflation in 1923; economic instability through the 1920s; the intersection of the Great Depression with the reparations debt from 1929; the political destabilization that had enabled the rise of Nazism; and the Second World War. Approximately seventy to eighty-five million people had died in the Second World War. Henri Moreau is not in the treaty's official history. The four archival fragments that reconstruct the alternative he had been proposing are publicly available to researchers.",
+        "alone": "Approximately seventy to eighty-five million deaths in the Second World War. Moreau not in the official history. The four fragments publicly available. The connection between the one and the other is what the historians have been trying to assess.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The scale of what had followed the treaty and Moreau not in its official history together confirm the final element — the case makes no claim that the alternative would have prevented what followed. It establishes only that an alternative existed and was suppressed before it could be discussed, and that the analysis underlying it was confirmed by what the treaty produced."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🕊️",
+        "heading": "The Hall of Mirrors",
+        "text": "The Hall of Mirrors at the Palace of Versailles is one of the most visited rooms in the world. The Treaty of Versailles was signed there on June 28th, 1919. The room is 73 metres long and contains 357 mirrors. Millions of visitors walk through it annually. The four archival fragments that reconstruct the alternative reparations proposal that had been destroyed there in the week before signing are in Paris, London, Cambridge, and Berlin. Henri Moreau's name is not on any wall of the Hall of Mirrors. The mirrors reflect everyone who walks through. The room does not distinguish between those who know what was decided there and those who do not.",
+        "alone": "The Hall of Mirrors reflects everyone who walks through. It does not distinguish between those who know what was decided there and those who do not. The four fragments are in four cities.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The Hall of Mirrors reflecting everyone equally and the four archival fragments in four cities together confirm the final image — the physical space is indifferent to the knowledge of what happened there, and the knowledge is distributed in fragments across Europe for those who look for it."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Colonel Auguste Ferrière",
+      "location": "The Conference Room",
+      "weapon": "Diplomatic Dispatch Case Clasp",
+      "motive": "Prevent Any Modification of the Open-Ended Reparations Liability",
+      "accomplice": "Preserved the Draft's Substance in a Memo to Lloyd George's Office"
+    },
+    "epilogue": "Both French and German delegations had had representatives working toward the same fixed-sum compromise in June 1919 — simultaneously, without coordination. Moreau had been killed before the back-channel discussion could occur. Reimer had submitted his parallel analysis to the German delegation head and it had not been advanced without French support. Both sides had been suppressed, one by violence and one by diplomatic impossibility. Four archival fragments in four archives in three countries reconstruct what had been attempted from both sides. Reimer had published in 1932 when the predicted consequences had materialized. The Hall of Mirrors reflects everyone who walks through. The four fragments are in Paris, London, Cambridge, and Berlin. Moreau is not on any wall."
+  }
+}

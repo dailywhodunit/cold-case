@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Berlin, August 1936. The Jesse Owens Olympics. An American journalist dead in the press corps hotel with photographs that showed what the newsreels hadn't captured. 📷🔍 Case #142 — The Games. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Berlin 1936 Jesse Owens Olympics, an American journalist dead in the press hotel, and photographs showing what the official footage had carefully not shown. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1936 Berlin press corps hotel room during the Olympics, a journalist's press credentials and notepad on the floor, a camera with its film canister beside it on the writing desk, contact sheets showing crowd scenes at the Olympic stadium scattered on the bed, a Nazi rally banner visible through the window, the tension of a world choosing to look away from what it was seeing. Style of Henri Cartier-Bresson's 1930s Europe work meets Leni Riefenstahl's shadow.",
+    "animationPrompt": "Slow pan through a 1936 Berlin press corps hotel room during the Olympics. Press credentials on the floor. A camera with film canister on the desk. Contact sheets of crowd scenes scattered on the bed. Through the window: a Nazi rally banner. The Olympics are a spectacle. The photographs on the bed show something the spectacle was designed to obscure. Fade to black.",
+    "hashtags": [
+      "#Berlin1936",
+      "#JesseOwens",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #142",
+    "title": "The Games",
+    "setting": "Press Corps Hotel · Berlin · Germany · August 1936",
+    "emoji": "🏅",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "American journalist and photographer Margaret Holt was found dead in the press corps hotel during the 1936 Berlin Olympics. She had been developing contact sheets showing photographs she had taken outside the official Olympic venues — images of Jewish business closures, SA presence in civilian areas, and civilian reactions to the games that contradicted the carefully managed international presentation. Three people had been in the press hotel that evening. Her film was missing.",
+    "emptyState": "The photographs show what the world isn't seeing. The film is gone. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Krebs",
+            "icon": "🎖️",
+            "detail": "A German press liaison officer — had been accompanying foreign journalists and had authority to review materials under the press accreditation agreement."
+          },
+          {
+            "name": "Frank Donahue",
+            "icon": "📰",
+            "detail": "An American wire service journalist — had been Holt's colleague and had known about the photographs she had been developing."
+          },
+          {
+            "name": "Elena Marchetti",
+            "icon": "📷",
+            "detail": "An Italian journalist — had been developing her own film in the adjacent darkroom and had been the last person to see Holt before her death."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Hotel Room",
+            "icon": "📷",
+            "detail": "Where Holt was found — credentials on floor, contact sheets on bed, film canister missing."
+          },
+          {
+            "name": "The Darkroom",
+            "icon": "🎞️",
+            "detail": "The hotel's press darkroom — adjacent to the room, where the developing had occurred."
+          },
+          {
+            "name": "The Hotel Corridor",
+            "icon": "🚪",
+            "detail": "Where a hotel staff member had seen a figure with a film canister leaving."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Developing Tray Edge",
+            "icon": "🎞️",
+            "detail": "A heavy porcelain developing tray — blunt force wound consistent with its edge."
+          },
+          {
+            "name": "Camera Body",
+            "icon": "📷",
+            "detail": "No blood trace on the camera found at the scene — eliminated."
+          },
+          {
+            "name": "Tripod Leg",
+            "icon": "📷",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photographs",
+        "text": "The contact sheets on the bed — developed before the film had been taken — show images Holt had taken outside the Olympic venues: Jewish-owned businesses with closure notices; SA personnel in civilian clothing in residential neighborhoods; a crowd watching the games on a public screen while a uniformed officer stood conspicuously nearby; and the specific expressions of Berliners who appeared to be performing enthusiasm rather than feeling it. The contact sheets had survived because they had been in the room, not in the darkroom. The film negatives had been taken.",
+        "alone": "The contact sheets survived — showing businesses closed, SA in civilian clothes, performed enthusiasm. The negatives had been taken. What remained was proof of what had been photographed but not proof of the negatives themselves.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The contact sheets showing material that contradicted the Olympic presentation and Otto Krebs's press liaison role giving him authority to review foreign journalist materials together establish his institutional interest — the photographs had been exactly what his role had been designed to prevent from being transmitted."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🎞️",
+        "heading": "The Developing Tray",
+        "text": "A heavy porcelain developing tray — found in the darkroom with blood on its edge — had been used as the weapon. Holt's wound is consistent with the tray's edge while she had been bent over the developing setup in the darkroom. She had been killed in the darkroom and her body had been moved to the room — the darkroom had been cleaned, but not thoroughly enough, as the tray had remained. The movement of the body indicated deliberate staging.",
+        "alone": "Holt had been killed in the darkroom and moved to the room — the staging had been deliberate. The body's position in the room had been arranged to suggest she had died there.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate staging of the body and Krebs's documented familiarity with press hotel procedures — he had been the press liaison for three weeks — together confirm the staging had required knowledge of how press hotel deaths would be processed and what would be examined."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Frank Donahue's Evening",
+        "text": "Frank Donahue had been at the Olympic stadium for the evening session — confirmed by his wire service's filing records showing dispatches filed from the stadium press box at nine PM and ten-thirty PM, by two other journalists who had been in the press box, and by his own accreditation stamp at the stadium gate. He had not been at the hotel. He is definitively cleared.",
+        "alone": "Donahue had been at the stadium press box confirmed by filing records, two journalists, and the gate stamp — he had not been at the hotel during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Donahue cleared at the stadium and Elena Marchetti confirmed leaving the darkroom before the killing together eliminate both other suspects — only Krebs's movements at the press hotel after eight PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Krebs's Press Liaison Authority",
+        "text": "German press accreditation records show Krebs had been specifically assigned to the foreign press corps with authority including: 'Review of photographic materials submitted for transmission; confiscation of materials deemed contrary to the terms of press accreditation; reporting of journalists in violation of accreditation terms.' His authority had been real and official. The photographs Holt had taken had been outside the accreditation's permitted zones. He had had legal authority to confiscate the film — but not to kill for it.",
+        "alone": "Krebs had legal authority to confiscate the film through the accreditation review process — the killing had been outside his legal authority, though the confiscation's goal had been within it.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Krebs's official confiscation authority and the film having been taken together confirm the taking had been within his mandate and the killing had been the method chosen over the official process — the official process would have produced publicity, the killing had aimed to prevent it."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Krebs at the Hotel",
+        "text": "The hotel's front desk confirms Krebs had signed in at eight PM — his regular evening check-in for liaison purposes. A hotel porter had seen him in the press darkroom corridor at approximately nine PM. The hotel porter had seen him leaving the darkroom area at nine-thirty PM carrying a film canister. Krebs had told the porter he was conducting an accreditation review. The porter had not questioned it — Krebs had done this before with other journalists' materials.",
+        "alone": "Krebs had been seen in the darkroom corridor at nine PM and leaving at nine-thirty with a film canister — described as an accreditation review, which he had conducted before with other journalists.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Krebs's official authority to conduct accreditation reviews and his documented prior use of that authority with other journalists' materials together confirm the pattern — the porter had not questioned it because Krebs had done it legitimately before. This time the review had extended to killing the journalist."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Official Review vs. The Killing",
+        "text": "The German press accreditation records show Krebs had confiscated materials from six other foreign journalists during the Olympics — always through the official review process with documentation. Holt's confiscation had not been documented. The undocumented nature of Holt's confiscation — and the killing — had been noted by the investigating officer as inconsistent with Krebs's prior practice. The inconsistency had been the investigating officer's key finding.",
+        "alone": "Six prior documented confiscations through official process — Holt's undocumented and accompanied by a killing. The inconsistency had been the investigating officer's key finding.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The staged body and the undocumented confiscation together confirm the killing had been outside Krebs's official authority — the staging and the lack of documentation had been the attempts to conceal that the official process had not been used."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📷",
+        "heading": "Elena Marchetti's Account",
+        "text": "Elena Marchetti had been in the darkroom until approximately eight-forty-five PM developing her own film. She had left before Holt had been killed. She had passed Holt in the darkroom corridor — Holt had been carrying materials toward the darkroom. She had seen Krebs in the corridor at the same time and had noted it but had not been concerned — he was a familiar figure. She had not been in the darkroom during the killing. She is definitively cleared.",
+        "alone": "Elena had left at eight-forty-five and had seen Krebs in the corridor with Holt at that time — both approaching the darkroom. Elena had not been in the darkroom during the killing. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Elena seeing Krebs in the corridor with Holt at eight-forty-five and Krebs leaving the darkroom area at nine-thirty with the film canister together bracket the killing window — forty-five minutes from the corridor observation to the departure with the film."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photographs' Fate and the 1936 Olympics",
+        "text": "The 1936 Berlin Olympics had been a significant propaganda achievement for the Nazi government — carefully managed international presentation, Jesse Owens's four gold medals complicating the racial ideology narrative, and extensive international press coverage that had largely focused on the athletic competition. Margaret Holt's contact sheets — which had survived — were submitted by the wire service to the German press authority following her death. They had been confiscated. The contact sheets had eventually been declassified from German records in 1948. They are in the German Federal Archive. Krebs had been arrested in October 1936 following an investigation that had found the inconsistency between his documented and undocumented confiscations. He had received seven years.",
+        "alone": "Krebs had received seven years. The contact sheets are in the German Federal Archive, declassified 1948. The film negatives have not been found.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The contact sheets surviving to the German Federal Archive and the film negatives not found together confirm what had been preserved and what had been destroyed — the proof of what had been photographed had survived, and the negatives themselves had not."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Krebs",
+      "location": "The Press Hotel Room",
+      "weapon": "Developing Tray Edge"
+    },
+    "epilogue": "Otto Krebs had been in the darkroom corridor with Holt at eight-forty-five PM. He had used the developing tray in the darkroom. He had moved the body to the room. He had taken the film canister. He had told the porter it was an accreditation review. He had been arrested in October 1936 when the investigating officer had found the inconsistency between his documented and undocumented confiscations. He had received seven years. The contact sheets had been confiscated and had been declassified in 1948. They are in the German Federal Archive. The film negatives have not been found. Jesse Owens had won four gold medals. The photographs on the contact sheets show what the Olympic coverage had carefully not shown."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #142",
+    "title": "The Games",
+    "setting": "Press Corps Hotel · Berlin · Germany · August 1936",
+    "emoji": "🏅",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Krebs killed Holt and took the film. But Frank Donahue had known what Holt was photographing and had been planning to publish her work. Find what Donahue did after learning of her death.",
+    "emptyState": "Donahue knew what Holt was doing and was going to publish her work. Find what he did after.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Krebs",
+            "icon": "🎖️",
+            "detail": "The killer — darkroom, developing tray, body staged, film taken, seven years, contact sheets in archive."
+          },
+          {
+            "name": "Frank Donahue",
+            "icon": "📰",
+            "detail": "Cleared as killer — stadium confirmed. Had known what Holt was doing and had taken a specific action after her death."
+          },
+          {
+            "name": "Elena Marchetti",
+            "icon": "📷",
+            "detail": "Cleared as killer — darkroom confirmed. Her knowledge of the 1936 Olympics' reality is newly examined."
+          },
+          {
+            "name": "Donahue's Post-Death Publication Attempt",
+            "icon": "📰",
+            "detail": "What Donahue had done with his knowledge of Holt's work — and its outcome."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Hotel Room",
+            "icon": "📷",
+            "detail": "Primary crime scene — Krebs's killing."
+          },
+          {
+            "name": "The Olympic Stadium Press Box",
+            "icon": "🏅",
+            "detail": "Donahue's confirmed location — and where he had been when the killing had occurred."
+          },
+          {
+            "name": "New York",
+            "icon": "📰",
+            "detail": "Where Donahue had filed his story after the Olympics — and what had happened to it."
+          },
+          {
+            "name": "The American Press Archives",
+            "icon": "📰",
+            "detail": "Where Donahue's filed story had eventually been held — and its relationship to the 1936 coverage."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Developing Tray Edge",
+            "icon": "🎞️",
+            "detail": "Confirmed murder weapon — Krebs's darkroom killing."
+          },
+          {
+            "name": "Camera Body",
+            "icon": "📷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Tripod Leg",
+            "icon": "📷",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Donahue's Filed Story",
+            "icon": "📰",
+            "detail": "Not a weapon — his attempt to publish Holt's work and the outcome of that attempt."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Photographs From Reaching the International Press",
+            "icon": "🎖️",
+            "detail": "Krebs's operational motive — seven years, contact sheets archived 1948."
+          },
+          {
+            "name": "Publish Holt's Work as a Memorial to Her and a Service to the Record",
+            "icon": "📰",
+            "detail": "Donahue's post-death purpose — what he had attempted and what had happened."
+          },
+          {
+            "name": "What Donahue Had Known About Holt's Photographs",
+            "icon": "📰",
+            "detail": "His prior knowledge — and what it had allowed him to do after the killing."
+          },
+          {
+            "name": "The Editorial Decision at the Wire Service",
+            "icon": "📰",
+            "detail": "What the New York editors had decided — and why."
+          },
+          {
+            "name": "The 1936 American Press Coverage's Relationship to What Holt Had Been Photographing",
+            "icon": "📰",
+            "detail": "The broader context — American coverage of the Berlin Olympics and its limitations."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "📰",
+        "heading": "What Donahue Had Known",
+        "text": "Frank Donahue's account — given to a journalism history project at Columbia University in 1962: 'Margaret had been photographing things the official program wasn't showing. I had seen some of her prints. She had images of storefronts with Juden notices, SA men in plain clothes watching civilian crowds, the careful performance of everything. She had told me: the story everyone is covering is the track. The story no one is covering is the city. I told her I'd help get the photographs published if she got them out. When she was found dead and the film was gone, I had the contact sheets. I tried to use them.'",
+        "alone": "Donahue had seen Holt's prints and had promised to help publish them — after her death he had the contact sheets and had attempted to use them.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Donahue having seen the prints and promising publication and attempting to use the contact sheets after the killing together confirm he had been the intended publication partner — the killing had not eliminated the plan, only the negatives."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "What Donahue Had Done",
+        "text": "Donahue had filed a story from Berlin in August 1936 using the contact sheets as the basis for a written description of what Holt's photographs had shown. He had described specific images from the contact sheets in detail. The story had been filed to his wire service's New York office. The New York editors had held the story. They had published a brief obituary for Holt — 'American journalist dies in Berlin' — and had not published the story about her photographs.",
+        "alone": "Donahue's story had been held by the New York editors — replaced with a brief obituary. The editors had not published the account of the photographs.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The New York editors holding the story about the photographs and publishing only the obituary together confirm the editorial decision had been made at the institutional level — the 1936 American press's relationship to the Nazi government's Olympic presentation had shaped what had been published."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Why the Editors Had Held the Story",
+        "text": "Donahue's 1962 account: 'The editors told me the story wasn't publishable without the photographs themselves — a description of photographs that couldn't be shown wasn't a story. They also told me, less directly, that the Olympics coverage had been managed at a delicate moment and they didn't want to be the wire service that accused Germany of staging it. They were right that I didn't have the photographs. They were also choosing not to publish what I had written about what Margaret had seen and died for.'",
+        "alone": "The editors had cited the lack of publishable photographs and had also been choosing not to challenge the Olympic coverage's managed presentation — Donahue had understood both reasons.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The editors' dual reason — no photographs and editorial caution — and Donahue's understanding of both together confirm the editorial decision had been institutional and commercial, not purely journalistic."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The 1936 Olympics Coverage",
+        "text": "The 1936 Berlin Olympics had received extensive American press coverage. The coverage had focused primarily on the athletics — particularly Jesse Owens's four gold medals, which had been celebrated in America as a rebuttal to Nazi racial ideology. The German government's presentation of the Olympics as a showcase of civilized order had largely been accepted as the frame. Few American journalists had published significant accounts of what was visible in Berlin outside the venues. Holt had been one of the few trying to do so.",
+        "alone": "Few American journalists had published accounts of Berlin outside the venues in 1936 — Holt had been among the few trying. The official Olympic presentation had been the dominant frame.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The dominant official frame and Holt being one of the few trying to document outside it together confirm the killing had been aimed at a specific type of journalism that the press corps had largely not been attempting — her work had been exceptional and had cost her life."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Donahue's Later Work",
+        "text": "Frank Donahue had continued working as a journalist until 1960. He had covered World War Two from 1940 to 1945. In his 1962 Columbia account he had described the 1936 experience as formative: 'I learned in Berlin that a journalist can file a story that doesn't get published. I learned that what the editors decide to print and what reporters see are different categories. Margaret saw Berlin in 1936. I saw it too. We filed what we saw. The editors published the Olympics.'",
+        "alone": "'Margaret saw Berlin in 1936. I saw it too. We filed what we saw. The editors published the Olympics.' Donahue's summation of the gap between what had been seen and what had been published.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Donahue's summation of the gap and his continued career covering World War Two together confirm the specific formation the 1936 experience had represented — he had learned the lesson in Berlin and had carried it through the coverage of what had followed."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Contact Sheets in the German Federal Archive",
+        "text": "The contact sheets that had been on Holt's bed had been confiscated by the German press authority following her death. They had been held in German records through the war. They had been declassified in 1948 as part of the Allied review of Nazi propaganda and press control records. A researcher at the German Federal Archive had identified them in 1981 and had published an analysis of what Holt had been photographing. The analysis had been published in a German historical journal. Holt is identified in the analysis as 'an American journalist who attempted to document the civilian reality of the 1936 Berlin Olympics and was killed before her documentation could be published.'",
+        "alone": "Holt identified in a 1981 German historical journal as having attempted to document the civilian reality of the 1936 Olympics — the documentation of what she had done had arrived forty-five years after her death.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 1981 scholarly identification and Donahue's 1962 account together confirm the two surviving accounts of Holt's work had arrived at different times from different sources — the journalist's memory in 1962 and the archive's discovery in 1981."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🏅",
+        "heading": "Jesse Owens and the Games",
+        "text": "Jesse Owens had won four gold medals at the 1936 Berlin Olympics — the 100 metres, 200 metres, long jump, and 4x100 relay. His performance had been one of the most celebrated in Olympic history. The official American narrative of the 1936 Olympics had foregrounded Owens's victories as a rebuttal to Nazi racial theory. The photographs on Holt's contact sheets had shown a different Berlin — the city around the spectacle, not the spectacle itself. Both were true. Both are in the record. The archive holds the contact sheets. The record holds Owens's four golds.",
+        "alone": "Both true. Both in the record. The contact sheets in the archive showing the city. The golds in the record showing the track. Both 1936 Berlin, seen from different places.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Both truths in the record and the film negatives not found together confirm what has been preserved and what has been lost — the victories and the photographs of what surrounded them, with the photographic negatives themselves gone."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Photographs and the Archive",
+        "text": "The German Federal Archive holds Holt's contact sheets — declassified 1948, identified by researchers 1981, cited in journalism history scholarship from the 1990s onward. The film negatives have not been found. Donahue's 1962 Columbia University oral history is in the Columbia Journalism Review archive. Krebs's seven-year conviction is in the German court records, declassified 1948. Jesse Owens's gold medals are in the historical record of one of the most celebrated Olympic performances in history. Margaret Holt's name is in the 1981 German historical journal analysis and in the journalism history scholarship. She is not named in the official history of the 1936 Olympic press corps.",
+        "alone": "Holt's name in the 1981 analysis and the journalism history scholarship. Not in the official Olympic press corps history. The film not found. The contact sheets in the archive.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Both truths in the record and Holt not in the official Olympic press history together confirm the final element — the photographs had documented what the official coverage had not shown, and the record of the documentation had arrived in the archive without the documentarian being in the official record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Krebs",
+      "location": "The Press Hotel Room",
+      "weapon": "Developing Tray Edge",
+      "motive": "Prevent the Photographs From Reaching the International Press"
+    },
+    "epilogue": "Donahue had filed the story from Berlin. The New York editors had held it and had published the obituary. He had understood both reasons. He had covered World War Two and had told Columbia in 1962: 'Margaret saw Berlin in 1936. I saw it too. We filed what we saw. The editors published the Olympics.' The contact sheets had been declassified in 1948. A researcher had identified them in 1981. Holt is in the 1981 analysis and in the journalism history scholarship. She is not in the official Olympic press corps history. The film negatives have not been found. Jesse Owens won four gold medals. Both are in the record. Both were true. Both were 1936 Berlin, seen from different places."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #142",
+    "title": "The Games",
+    "setting": "Press Corps Hotel · Berlin · Germany · August 1936",
+    "emoji": "🏅",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Krebs killed Holt. Donahue tried to publish and was held by his editors. But Elena Marchetti had also been photographing things the official program wasn't showing — and she had a different publication outcome. Find what Elena had captured and what happened to her photographs.",
+    "emptyState": "Elena was also photographing outside the official venues. Find what she captured and what happened to her work.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Otto Krebs",
+            "icon": "🎖️",
+            "detail": "The killer — developing tray, body staged, film taken, seven years, contact sheets in archive."
+          },
+          {
+            "name": "Frank Donahue",
+            "icon": "📰",
+            "detail": "Cleared as killer — stadium confirmed. Story held, obituary published, 1962 Columbia account."
+          },
+          {
+            "name": "Elena Marchetti",
+            "icon": "📷",
+            "detail": "Cleared as killer — darkroom confirmed. Had also been photographing outside the official venues."
+          },
+          {
+            "name": "Elena's Photographs and Their Fate",
+            "icon": "📷",
+            "detail": "What Elena had captured and what had happened to her work — a different path from Holt's."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Press Hotel Room",
+            "icon": "📷",
+            "detail": "Primary crime scene — and where Elena had been one of the last to see Holt."
+          },
+          {
+            "name": "The Darkroom",
+            "icon": "🎞️",
+            "detail": "Where Elena had been developing her own film — adjacent to the killing."
+          },
+          {
+            "name": "Rome",
+            "icon": "🇮🇹",
+            "detail": "Where Elena's photographs had gone — and what had happened to them there."
+          },
+          {
+            "name": "The Italian Fascist Press Authority",
+            "icon": "📋",
+            "detail": "The institution that had received Elena's film in Rome — and what it had done with it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Developing Tray Edge",
+            "icon": "🎞️",
+            "detail": "Confirmed murder weapon — Krebs's."
+          },
+          {
+            "name": "Camera Body",
+            "icon": "📷",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Tripod Leg",
+            "icon": "📷",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Elena's Published Photographs",
+            "icon": "📷",
+            "detail": "Not a weapon — but what she had captured and what the Italian press had published from her work."
+          },
+          {
+            "name": "Elena's Private Archive",
+            "icon": "📷",
+            "detail": "Not a weapon — what Elena had kept that the Italian press authority had not received."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Photographs From International Publication",
+            "icon": "🎖️",
+            "detail": "Krebs's motive — killed Holt, took film."
+          },
+          {
+            "name": "Publish the Account of What He Had Seen",
+            "icon": "📰",
+            "detail": "Donahue's purpose — held by editors."
+          },
+          {
+            "name": "Document the Reality of 1936 Berlin for Italian and International Audiences",
+            "icon": "📷",
+            "detail": "Elena's journalistic purpose — and what the Italian press authority had done with her work."
+          },
+          {
+            "name": "What Elena Had Kept Back From the Official Submission",
+            "icon": "📷",
+            "detail": "The photographs she had not submitted — and why."
+          },
+          {
+            "name": "Elena's Private Archive's Post-War Significance",
+            "icon": "📷",
+            "detail": "What had happened to the photographs she had kept — and when they had become publicly available."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Holt and Suppressed Her Film",
+            "icon": "🎖️",
+            "detail": "Krebs's confirmed role — seven years."
+          },
+          {
+            "name": "Filed the Story and Was Held by the Editors",
+            "icon": "📰",
+            "detail": "Donahue's role — 1962 Columbia account."
+          },
+          {
+            "name": "Photographed the Reality and Submitted Selectively to the Italian Authority",
+            "icon": "📷",
+            "detail": "Elena's dual role — official submission and private archive."
+          },
+          {
+            "name": "Published the Olympic Coverage While Holding Holt's Story",
+            "icon": "📰",
+            "detail": "The American wire service editors' institutional role."
+          },
+          {
+            "name": "Declassified the Contact Sheets in 1948",
+            "icon": "📋",
+            "detail": "The post-war German archival process's role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📷",
+        "heading": "What Elena Had Been Photographing",
+        "text": "Elena Marchetti's account — given to a photography history project in Rome in 1975: 'I had been photographing the same things as Margaret Holt. We had spoken about it in the darkroom. We had been covering the same city, separately, with different assignments. I photographed the storefronts. I photographed the SA in civilian clothes. I photographed Berliners watching the games on public screens. I photographed what the Olympic presentation was designed to obscure. When I learned Margaret was dead and her film was gone, I understood why she had been killed. I understood that I had the same photographs.'",
+        "alone": "Elena had been photographing the same subjects as Holt — they had spoken about it in the darkroom. When Holt was killed Elena had understood she had taken the same photographs.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Elena photographing the same subjects as Holt and understanding the implication of Holt's killing together confirm Elena had understood the specific danger of what she had on her own film — and had made a decision about what to do with it."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📷",
+        "heading": "What Elena Had Submitted and What She Had Kept",
+        "text": "Elena's 1975 account: 'I submitted my film to the Italian press authority when I returned to Rome. I submitted all of it. But before I submitted it, I had made prints of the photographs I believed were most significant — the storefronts, the SA men, the watching crowds. I kept those prints at my apartment in Rome. The Italian press authority published the athletic photographs. They did not publish the others. They may have destroyed the negatives of the others — I never received the film back.'",
+        "alone": "Elena had kept prints of the significant photographs before submitting the film to the Italian press authority — the prints had survived in her apartment while the negatives may have been destroyed.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Elena keeping prints before submission and the Italian press authority likely destroying the negatives together confirm Elena's strategic duplication — she had understood the risk of the submission and had created a parallel record before it."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📷",
+        "heading": "Elena's Private Archive",
+        "text": "Elena Marchetti had kept the prints at her Roman apartment throughout the Fascist period and World War Two. She had not published them or shown them publicly during that time. In 1945, following the liberation of Rome, she had donated the prints to the newly established Italian photographic press archive. The archive had catalogued them as 'Documentary photographs of the 1936 Berlin Olympics, civilian context, by Elena Marchetti.' They had been publicly available from 1946.",
+        "alone": "Elena had donated the prints to the Italian photographic press archive in 1945 — publicly available from 1946. The prints had been kept through the Fascist period and the war.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Elena keeping the prints through the Fascist period and donating them in 1945 together confirm the preservation had required specific courage — keeping photographs of what fascist governments had concealed through a period when their revelation would have been dangerous."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Italian Archive's Holdings",
+        "text": "The Italian photographic press archive's 1946 catalogue entry for Elena's prints describes them as 'photographs documenting the civilian environment of the 1936 Berlin Olympics including commercial and social conditions in the host city during the Games period.' The catalogue had noted: 'These photographs were not published during the 1936 Games period. They are presented here as documentary evidence of the conditions observed by Italian photojournalists during the Berlin Games.' Elena had been named as the photographer.",
+        "alone": "Elena named in the 1946 Italian archive catalogue — the first public attribution of photographs documenting the civilian reality of the 1936 Olympics by a credentialed journalist present.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Elena's 1946 archive attribution and Holt's 1981 German archive identification together confirm the two parallel documentations had been recognized through different archives in different countries at different times — Elena publicly attributed in 1946, Holt identified in 1981."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📷",
+        "heading": "The Two Women's Parallel Documentation",
+        "text": "Elena Marchetti and Margaret Holt had been photographing the same subjects in 1936 Berlin independently. Both had understood what they were doing and the risk it carried. Holt had been killed and her negatives had been taken. Elena had survived and had preserved prints that she had donated to the archive in 1945. Both sets of documentation — the prints Elena had kept and the contact sheets in the German Federal Archive — show comparable subjects photographed from similar positions during the same days of the 1936 Olympics.",
+        "alone": "Both women's documentation shows comparable subjects from similar positions during the same days — parallel records of the same reality, preserved through different paths.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Both documentations showing comparable subjects and Holt killed while Elena survived together confirm the specific different outcomes from the same act — one had been killed and one had survived through strategic duplication and different institutional submission."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📷",
+        "heading": "Elena's Later Career",
+        "text": "Elena Marchetti had continued working as a photojournalist after the war. She had covered the Italian post-war reconstruction, the 1948 elections, and significant Italian political events through the 1950s. She had returned to photojournalism history in her later years and had given the 1975 account that had described the 1936 Berlin experience. She had died in Rome in 1988. Her work is in the Italian photographic press archive. Her 1975 oral history account is in the archive's oral testimony collection.",
+        "alone": "Elena had continued working through the post-war period and had died in Rome in 1988. Her work and her oral history are both in the Italian archive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Elena dying in Rome in 1988 having kept the prints through the Fascist period together confirm the full span of the preservation — fifty-two years from the 1936 photographs to her death, with the prints safe in the archive from 1945."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🏅",
+        "heading": "What Both Women Photographed",
+        "text": "The photographs in the German Federal Archive (Holt's contact sheets) and the Italian photographic press archive (Elena's prints) together constitute the most comprehensive photojournalistic record of the 1936 Berlin Olympics' civilian context produced by credentialed journalists who had been present. Both had been produced simultaneously, independently, by two women journalists who had spoken about what they were doing in a hotel darkroom in Berlin. One had been killed. One had survived. Both sets of photographs are in archives. Both are available to researchers.",
+        "alone": "Both sets are in archives. Both available to researchers. Both produced by two women who had spoken about what they were doing in the same darkroom. One killed, one survived. Both documented.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Both documentations available to researchers and the two women having spoken in the darkroom together confirm the final image — the conversation in the darkroom had been the connection between two parallel acts of documentation, one of which had cost a life and both of which had been preserved."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🏅",
+        "heading": "The Games and What Was Photographed",
+        "text": "The 1936 Berlin Olympics are remembered as one of the most politically fraught sporting events in history — the Nazi propaganda showcase, Jesse Owens's four gold medals, the beginning of what would become the most destructive war in human history three years later. The photojournalistic record of the Games' civilian context — what Holt and Marchetti had been photographing — is in two archives in two countries, produced by two credentialed journalists who had spoken about it in a hotel darkroom while another journalist was developing film in the adjacent darkroom. The Games continued. Jesse Owens ran. Margaret Holt died. Elena Marchetti kept her prints. The archives hold what was seen by people who were there and tried to show it.",
+        "alone": "The archives hold what was seen by people who were there and tried to show it. Jesse Owens ran. Margaret Holt died. Elena Marchetti kept her prints. The Games continued.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Both documentations in archives and the Games continuing while the killing and the survival had both occurred together confirm the final element — the spectacle had continued and the documentation of what surrounded it had been preserved through two different paths, at two different costs."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Otto Krebs",
+      "location": "The Press Hotel Room",
+      "weapon": "Developing Tray Edge",
+      "motive": "Prevent the Photographs From Reaching the International Press",
+      "accomplice": "Photographed the Reality and Submitted Selectively to the Italian Authority"
+    },
+    "epilogue": "Elena had kept prints before submitting the film to the Italian press authority. She had kept them through the Fascist period and the war. She had donated them to the Italian archive in 1945. The archive had catalogued them publicly from 1946. Both Holt's contact sheets and Elena's prints are in archives, available to researchers. Both show comparable subjects photographed during the same days of the 1936 Olympics. One set had been preserved through a killing's aftermath and a post-war declassification. One had been preserved through strategic duplication and wartime discretion. The two women had spoken about what they were doing in the same darkroom on the night of the killing. The Games continued. Jesse Owens ran four times to gold. The archives hold what was seen by people who were there and tried to show it."
+  }
+}

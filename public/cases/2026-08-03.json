@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Harlem, 1926. The Renaissance at its peak. A jazz musician dead at an after-hours party. And a recording made that night that captured the whole thing. 🎷🔍 Case #137 — Second Line. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Harlem 1926 Jazz Age, a trumpet player dead at an after-hours rent party, and a hot wax recording made that night that has the answer if anyone can hear it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1926 Harlem rent party apartment interior late at night, pressed tin ceiling and bare bulbs, a jazz trumpet on the floor beside a spilled gin glass, a hot wax recording cylinder on a side table beside a portable recording device, the party crowd visible through a beaded curtain doorway, Harlem brownstone atmosphere. Jazz Age energy and noir shadow. Style of James VanDerZee's Harlem portrait photography meets Edward Hopper's nocturnal mood.",
+    "animationPrompt": "Slow pan through a 1926 Harlem rent party apartment late at night. Pressed tin ceiling. Bare bulbs. A jazz trumpet on the floor beside a spilled gin glass. The camera finds a hot wax recording cylinder on a side table beside a portable recording device. The party crowd through a beaded curtain. Harlem in 1926. Someone is dead. The recording is still there. Fade to black.",
+    "hashtags": [
+      "#Harlem1926",
+      "#JazzAge",
+      "#HarlemRenaissance",
+      "#MysteryGame",
+      "#BrainTeaser"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #137",
+    "title": "Second Line",
+    "setting": "Rent Party · West 133rd Street · Harlem · New York · 1926",
+    "emoji": "🎷",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Trumpet player Calvin Reese was found dead in the back room of a Harlem rent party on West 133rd Street. A portable recording device had been capturing the night's music — and the argument that had preceded the killing. Three people had been in the back room when the argument had occurred. The wax cylinder was still in the device.",
+    "emptyState": "The recording captured the argument. Three people in the back room. Find who the recording points to.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Duke Harmon",
+            "icon": "🎹",
+            "detail": "A pianist and the party's host — had been in a financial dispute with Calvin over unpaid work on Duke's compositions."
+          },
+          {
+            "name": "Viola Mae",
+            "icon": "🎤",
+            "detail": "A blues singer — had been romantically involved with Calvin and had confronted him about his involvement with another woman."
+          },
+          {
+            "name": "Chester Nance",
+            "icon": "🥃",
+            "detail": "A bootlegger supplying the party's liquor — had been in a dispute with Calvin over a debt and had threatened him earlier in the evening."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎷",
+            "detail": "Where Calvin was found — trumpet on floor, gin glass spilled, recording device with cylinder."
+          },
+          {
+            "name": "The Main Party Room",
+            "icon": "🎹",
+            "detail": "Where the music and the crowd had been — where the piano had been playing when the argument had started."
+          },
+          {
+            "name": "The Building Stairwell",
+            "icon": "🚪",
+            "detail": "Where a neighbor had heard raised voices and had noted the time."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gin Bottle",
+            "icon": "🥃",
+            "detail": "A heavy glass gin bottle — blunt force wound consistent with its base used as a bludgeon."
+          },
+          {
+            "name": "Trumpet Bell",
+            "icon": "🎷",
+            "detail": "No wound profile match — the trumpet's bell too light and thin for the wound depth."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "No blood trace on any recovered chair — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The Recording",
+        "text": "The hot wax cylinder from the portable recording device captures approximately forty minutes of music and ambient sound. A musicologist examining the cylinder in 1974 — when it had been donated to the Institute for Jazz Studies — produced a transcript of the audible non-musical content. At minute thirty-one, a male voice says: 'You owe me and you know it.' A second male voice replies: 'I don't owe you a damn thing, Chester.' A door is heard. Then a female voice, distant. Then silence. Then a sound consistent with breaking glass.",
+        "alone": "The recording captures: 'You owe me and you know it' — 'I don't owe you a damn thing, Chester' — a door — a distant female voice — silence — breaking glass. Chester is addressed by name.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Calvin addressing Chester by name in the recording's argument and Chester's confirmed debt dispute with Calvin together establish the recording has captured the specific confrontation that had preceded the killing."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Gin Bottle",
+        "text": "A heavy glass gin bottle — found beside Calvin's body with its base bloodied — had been used as the weapon. The wound is consistent with the bottle's base used as a bludgeon from behind and above while Calvin had been seated. The bottle had been full when it had been used — the gin had spilled from the broken seal when it had been used as a weapon. The gin on the floor was from the bottle, not from the overturned glass, which had been empty.",
+        "alone": "The bottle had been full when used as a weapon — the gin was from the bottle's broken seal, not the empty glass. The killing had been with a full bottle.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The full gin bottle used as a weapon and Chester's role as the party's liquor supplier together establish the specific weapon's origin — a bootlegger's supply bottle used in a debt dispute."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎤",
+        "heading": "Viola Mae's Position",
+        "text": "Viola Mae had been in the main party room singing from approximately one AM — the time of the argument — until the body had been discovered at two AM. She had been in front of the party's crowd the entire time. The argument had been in the back room. The recording captures her voice as 'distant' — consistent with her being in the main room while the back room argument had occurred. She is definitively cleared.",
+        "alone": "Viola Mae had been singing in the main room during the argument — the recording captures her voice as distant, consistent with the main room's separation from the back. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Viola cleared singing in the main room and Duke Harmon confirmed at the piano during the argument window together eliminate both other suspects from the back room — Chester's confrontation with Calvin is on the recording with Calvin addressing him by name."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🥃",
+        "heading": "Chester's Debt Dispute",
+        "text": "Two party guests confirm Chester had confronted Calvin earlier in the evening — before the recording had started — about a debt of forty dollars. Calvin had told Chester the money would come when it came. Chester had said: 'It better come tonight.' The confrontation had been public. Several guests had heard it. The forty-dollar debt had been for bootleg liquor Calvin had purchased on credit.",
+        "alone": "Chester had publicly confronted Calvin over a forty-dollar liquor debt earlier in the evening and had said 'it better come tonight' — a threat with a specific resolution timeframe.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Chester's earlier 'it better come tonight' threat and the recording's 'you owe me and you know it' confrontation at minute thirty-one together confirm the recording had captured the debt dispute's second and fatal confrontation."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🥃",
+        "heading": "Chester in the Back Room",
+        "text": "A neighbor in the building confirms she had heard two male voices arguing in the back room through the thin wall at approximately one AM — she had noted the time because she had been trying to sleep. She had heard 'Chester' said clearly and had heard breaking glass. She had heard one set of footsteps leaving the back room and one door closing. Then nothing further from the back room until the alarm had been raised.",
+        "alone": "The neighbor had heard Chester's name, breaking glass, and one person leaving the back room — consistent with the recording's sequence and Chester's departure after the confrontation.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The breaking glass heard by the neighbor and the full gin bottle used as a weapon together confirm the glass the neighbor heard was the bottle rather than the empty glass found beside Calvin — the bottle had been Chester's supply, brought to collect the debt."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🥃",
+        "heading": "The Bottle's Origin",
+        "text": "The gin bottle's label — a specific bootleg brand known to be supplied by Chester's operation — was identified by two party guests as part of Chester's supply. Chester had been carrying bottles from a crate in the building's stairwell. He had brought the specific bottle that had been used as the weapon into the back room when he had confronted Calvin — either as payment pressure or as the confrontation's prop. It had been his bottle.",
+        "alone": "The murder weapon was Chester's own supply bottle — brought into the back room during his debt confrontation, which had been the only way it had been in the back room at all.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Chester's 'it better come tonight' threat and his own supply bottle being the weapon together confirm the confrontation had been about the money and had escalated with the object Chester had used to collect it."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎹",
+        "heading": "Duke Harmon at the Piano",
+        "text": "Duke Harmon had been at the piano in the main room from midnight until after two AM — confirmed by the recording itself (his piano is audible throughout), by six party guests, and by Viola Mae who had been performing alongside him. He had not been in the back room. He is definitively cleared.",
+        "alone": "Duke had been at the piano — audible on the recording throughout — confirmed by six guests and Viola Mae. He had not been in the back room. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Viola cleared singing in the main room and Duke cleared at the piano — audible on the recording itself — together eliminate both other suspects and confirm the recording had captured the main room's innocence while the back room's confrontation had occurred simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The Recording's Legacy",
+        "text": "Chester Nance had been arrested and had received fifteen years for Calvin Reese's killing. The wax cylinder recording had been used as evidence — the 1974 transcript had confirmed what the 1926 police had assessed from the cylinder at the time. The recording had been donated to the Institute for Jazz Studies at Rutgers University in 1974 by Calvin Reese's daughter. The cylinder also contained thirty-one minutes of Calvin Reese's trumpet playing — the only known recording of his work. It is in the archive. Both the music and the argument are on the same cylinder.",
+        "alone": "The cylinder contains both the argument and thirty-one minutes of Calvin Reese's only known recordings. Chester received fifteen years. The cylinder is at the Institute for Jazz Studies.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The recording capturing the argument that had identified the killer and also containing the only known recordings of the victim's trumpet playing together confirm the cylinder's dual nature — evidence of the killing and the only surviving music of the man killed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chester Nance",
+      "location": "The Back Room",
+      "weapon": "Gin Bottle"
+    },
+    "epilogue": "Chester Nance had confronted Calvin Reese in the back room at approximately one AM over the forty-dollar debt. Calvin had told Chester he didn't owe him a damn thing. Chester had used his own supply bottle. The neighbor had heard Chester's name, the breaking glass, and Chester leaving. The recording had captured the argument and Calvin's address of Chester by name. Chester had received fifteen years. The cylinder had been donated to the Institute for Jazz Studies in 1974. It contains both the argument and thirty-one minutes of Calvin Reese's trumpet — the only surviving recording of his playing. Both are on the same cylinder."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #137",
+    "title": "Second Line",
+    "setting": "Rent Party · West 133rd Street · Harlem · New York · 1926",
+    "emoji": "🎷",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Chester killed Calvin and the recording identified him. But Duke Harmon had been using Calvin's compositions without credit — find what that dispute had been about and what happened to it after Calvin's death.",
+    "emptyState": "Duke had been using Calvin's compositions without credit. Find what the dispute was and what happened after.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Chester Nance",
+            "icon": "🥃",
+            "detail": "The killer — debt dispute, recording, gin bottle, fifteen years."
+          },
+          {
+            "name": "Duke Harmon",
+            "icon": "🎹",
+            "detail": "Cleared as killer — piano recording confirmed. Had been using Calvin's compositions without credit."
+          },
+          {
+            "name": "Viola Mae",
+            "icon": "🎤",
+            "detail": "Cleared as killer — main room confirmed. Her knowledge of the composition dispute is the thread."
+          },
+          {
+            "name": "Calvin Reese's Musical Legacy",
+            "icon": "🎷",
+            "detail": "What happened to Calvin's compositions after his death — and what Duke had done with them."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎷",
+            "detail": "Primary crime scene — Chester's killing."
+          },
+          {
+            "name": "The Main Party Room",
+            "icon": "🎹",
+            "detail": "Where Duke had been — and where his piano playing had included Calvin's compositions."
+          },
+          {
+            "name": "The Publishing Office",
+            "icon": "📋",
+            "detail": "Where Duke had registered the compositions — and where the credit dispute had been documented."
+          },
+          {
+            "name": "The Institute for Jazz Studies",
+            "icon": "🎵",
+            "detail": "Where the cylinder and the dispute's resolution had eventually been held."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gin Bottle",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Chester's supply bottle."
+          },
+          {
+            "name": "Trumpet Bell",
+            "icon": "🎷",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Duke's Composition Registration",
+            "icon": "🎹",
+            "detail": "Not a weapon — but the credit dispute and what happened to Calvin's compositions after his death."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Collect the Forty-Dollar Debt",
+            "icon": "🥃",
+            "detail": "Chester's motive — fifteen years."
+          },
+          {
+            "name": "Claim Credit for Compositions He Had Incorporated From Calvin",
+            "icon": "🎹",
+            "detail": "Duke's prior conduct — the financial dispute that had been separate from the killing."
+          },
+          {
+            "name": "Calvin's Compositions and Their Post-Death History",
+            "icon": "🎷",
+            "detail": "What happened to the compositions after Calvin's death — and Duke's position."
+          },
+          {
+            "name": "Viola Mae's Role in the Composition Dispute's Resolution",
+            "icon": "🎤",
+            "detail": "What Viola had known and done — her specific contribution to Calvin's posthumous credit."
+          },
+          {
+            "name": "The Compositions' Current Attribution",
+            "icon": "🎵",
+            "detail": "Whether the credit had been corrected — and what the historical record shows."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🎹",
+        "heading": "The Composition Dispute",
+        "text": "Calvin Reese had been contributing melodic ideas and harmonic structures to Duke Harmon's compositions for two years — an informal arrangement in which Duke had been paying Calvin small amounts as a session contributor but had registered all compositions under his own name. Calvin had been pressing Duke for formal credit on three specific pieces that Calvin argued had been substantially his work. The forty dollars Chester had been owed had been separate from this dispute, but the composition dispute had been the reason Calvin had needed the money urgently — he had been trying to hire a music attorney.",
+        "alone": "Calvin had needed the forty dollars urgently to hire a music attorney for the composition dispute — the debt dispute and the composition dispute had been connected through Calvin's financial urgency.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Calvin needing money for a music attorney and Duke's composition registrations together confirm the financial pressure Calvin had been under from both directions — the debt he could not pay and the credit he could not afford to pursue."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "Viola Mae's Knowledge of the Dispute",
+        "text": "Viola Mae had known about the composition dispute — Calvin had told her. After Calvin's death, she had approached Duke directly. She had told him: 'Calvin died without that credit and without that attorney. You know what he contributed to those three pieces. I know what he contributed. The people who were at those sessions know. You can register them correctly or I will spend the rest of my career making sure everyone who asks me about those songs knows the truth.' Duke had re-registered two of the three pieces with Calvin's name as co-composer within three months.",
+        "alone": "Viola had confronted Duke after the killing and had threatened to publicly name Calvin's contributions — Duke had re-registered two of the three pieces with Calvin as co-composer within three months.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Viola's confrontation producing two re-registrations and the third piece's attribution remaining disputed together confirm the partial resolution — Viola's leverage had worked for two pieces and had not been sufficient for the third."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎹",
+        "heading": "The Third Piece",
+        "text": "The third composition — 'West Side Stomp,' registered by Duke Harmon in 1925 — had been the most commercially successful of the three. Duke had declined to re-register it with Calvin's credit, claiming Calvin's contribution had been 'minor arrangement work' rather than compositional. Viola had maintained publicly that Calvin had written the piece's main melodic theme. The dispute over 'West Side Stomp' had remained unresolved. Duke Harmon had died in 1951. The piece had continued to be performed under his sole name.",
+        "alone": "The most commercially successful piece — 'West Side Stomp' — had remained solely attributed to Duke. Viola had maintained publicly that Calvin had written its main theme. Duke died in 1951.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "West Side Stomp remaining under Duke's sole name and the cylinder containing Calvin's trumpet playing together confirm the dual historical record — the commercial success had been Duke's, and the only evidence of Calvin's voice had been the cylinder."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The 1974 Musicological Analysis",
+        "text": "When Calvin Reese's daughter had donated the cylinder to the Institute for Jazz Studies in 1974, the musicologist examining it had discovered that the thirty-one minutes of Calvin's trumpet playing on the cylinder included an improvisation on the melody of 'West Side Stomp' — played by Calvin in 1926, the year after Duke had registered it and the year of the party. The improvisation had shown Calvin's intimate familiarity with the theme — the musicologist's analysis had noted: 'The improvisation suggests the player's relationship to this melody goes beyond familiarity. It is consistent with authorship.'",
+        "alone": "The cylinder contained Calvin improvising on West Side Stomp's melody in 1926 — the musicologist's 1974 analysis had noted the improvisation was consistent with authorship.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The musicologist's authorship-consistent analysis and the piece still attributed solely to Duke at the time together confirm the cylinder had provided the most specific evidence of Calvin's claim — and had provided it forty-eight years after the killing."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "Calvin's Only Recordings",
+        "text": "The thirty-one minutes on the cylinder had been the only known recordings of Calvin Reese's playing until 1974. Calvin had died before the commercial recording industry had engaged significantly with Harlem's rent party musicians. His playing had been known to the people who had been at those parties and had then been lost. The cylinder had preserved it — accidentally, because the recording device had been running when the argument and the killing had occurred. The music had survived because of the killing's circumstances.",
+        "alone": "Calvin's music had survived because the recording device had been running during the killing — accidentally preserved by the circumstances of his death.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The music accidentally preserved by the killing's circumstances and Viola's partial success in restoring the composition credit together confirm the legacy's dual nature — the playing had survived accidentally and the credit had been partially restored through Viola's deliberate effort."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎤",
+        "heading": "Viola Mae's Legacy",
+        "text": "Viola Mae had continued her blues career until 1945. She had never stopped publicly maintaining Calvin's contribution to 'West Side Stomp.' In a 1939 Down Beat interview she had been asked about the piece and had said: 'Duke Harmon can put his name on it. Calvin Reese wrote that melody. Everybody who was in those sessions knows it. The truth takes its time.' She had died in Chicago in 1953. The two re-registered pieces acknowledged Calvin as co-composer. The third had not been corrected during her lifetime.",
+        "alone": "Viola had maintained Calvin's claim publicly until her death in 1953 — 'The truth takes its time.' The third piece had not been corrected during her lifetime.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Viola's 1939 statement 'the truth takes its time' and the 1974 cylinder analysis being consistent with Calvin's authorship together confirm the truth had taken forty-eight years — and had arrived through the cylinder rather than through any living advocate."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The Post-1974 Attribution Discussion",
+        "text": "Following the 1974 musicological analysis of the cylinder, jazz historians had begun examining the 'West Side Stomp' attribution question. A 1981 article in the Journal of the American Musicological Society had argued that the evidence — the cylinder's improvisation, session records, and Viola Mae's consistent public statements — was collectively sufficient to establish Calvin Reese's co-authorship of the melody. The piece's publishing rights had been held by Duke Harmon's estate. The estate had not conceded the attribution. The piece remained under Duke's name. Calvin Reese's name appeared in the article's footnotes.",
+        "alone": "A 1981 scholarly article had argued for Calvin's co-authorship — the estate had not conceded. Calvin's name is in the footnotes. West Side Stomp remains attributed to Duke.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Calvin's name in the footnotes of a 1981 article and the piece remaining attributed to Duke together confirm the same pattern as the catalog's other posthumous recognitions — the scholarly record had moved toward acknowledgment and the official record had not followed."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "The Cylinder Today",
+        "text": "The cylinder is at the Institute for Jazz Studies at Rutgers University. It is catalogued as: 'Reese, Calvin — hot wax cylinder recording, West 133rd Street, Harlem, New York, 1926. Contains musical performance and ambient sound including forensic audio of significance.' It is available for research by appointment. Calvin Reese's entry in the Grove Dictionary of Jazz — added in the 1988 edition — describes him as 'a Harlem trumpet player of the 1920s whose only known recordings were preserved on a single cylinder in circumstances connected to his death.' The entry notes the contested West Side Stomp attribution. Duke Harmon's entry does not mention Calvin Reese.",
+        "alone": "Calvin's Grove Dictionary entry notes the contested West Side Stomp attribution. Duke's entry does not mention Calvin. The cylinder is at Rutgers, available by appointment.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The 1981 scholarly case for Calvin's co-authorship and his Grove Dictionary entry noting the contest while Duke's doesn't mention him together confirm the asymmetric record — the scholarship had named the contest and the official attribution had not moved."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chester Nance",
+      "location": "The Back Room",
+      "weapon": "Gin Bottle",
+      "motive": "Collect the Forty-Dollar Debt"
+    },
+    "epilogue": "Viola Mae had confronted Duke within weeks of the killing and had secured two of three re-registrations through the threat of public naming. The third piece — 'West Side Stomp' — had remained under Duke's name. Viola had maintained publicly until her death in 1953 that Calvin had written the melody. The cylinder had preserved thirty-one minutes of Calvin's trumpet including an improvisation on that melody — consistent with authorship, according to the 1974 analysis. The 1981 scholarly article had made the case for co-authorship. The estate had not conceded. Calvin's name is in the footnotes. West Side Stomp remains attributed to Duke. The cylinder is at Rutgers. Both the argument and the music are on it. The truth takes its time."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #137",
+    "title": "Second Line",
+    "setting": "Rent Party · West 133rd Street · Harlem · New York · 1926",
+    "emoji": "🎷",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Chester killed Calvin. Duke had the composition dispute. But the person who had been running the recording device that night — and had kept the cylinder for forty-eight years before donating it — had their own story. Find who had been recording and why they had kept it.",
+    "emptyState": "Someone kept the cylinder for forty-eight years before donating it. Find who they were and why.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Chester Nance",
+            "icon": "🥃",
+            "detail": "The killer — debt, recording, gin bottle, fifteen years."
+          },
+          {
+            "name": "Duke Harmon",
+            "icon": "🎹",
+            "detail": "Cleared as killer — piano recording confirmed. Two compositions re-registered, third contested, died 1951."
+          },
+          {
+            "name": "Viola Mae",
+            "icon": "🎤",
+            "detail": "Cleared as killer — main room confirmed. Confronted Duke, two re-registrations, died Chicago 1953."
+          },
+          {
+            "name": "The Recording Device's Owner",
+            "icon": "🎵",
+            "detail": "Who had brought the device to the party — and why they had kept the cylinder for forty-eight years."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Back Room",
+            "icon": "🎷",
+            "detail": "Primary crime scene — where the recording device had been."
+          },
+          {
+            "name": "The Main Party Room",
+            "icon": "🎹",
+            "detail": "Where the music had been — and where the device's owner had been most of the evening."
+          },
+          {
+            "name": "The Daughter's Home",
+            "icon": "🏠",
+            "detail": "Where the cylinder had been kept for forty-eight years — and the story of that keeping."
+          },
+          {
+            "name": "The Institute for Jazz Studies",
+            "icon": "🎵",
+            "detail": "Where the cylinder had been donated — and what the daughter had understood when she donated it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gin Bottle",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Chester's."
+          },
+          {
+            "name": "Trumpet Bell",
+            "icon": "🎷",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Chair Leg",
+            "icon": "🪑",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Cylinder Itself",
+            "icon": "🎵",
+            "detail": "Not a weapon — but the object kept for forty-eight years and donated in 1974, and the story of its keeping."
+          },
+          {
+            "name": "The Daughter's Decision to Donate",
+            "icon": "🏠",
+            "detail": "Not a weapon — the choice that had made the cylinder's evidence and music publicly available."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Collect the Forty-Dollar Debt",
+            "icon": "🥃",
+            "detail": "Chester's motive — fifteen years."
+          },
+          {
+            "name": "Document the Music of the Harlem Renaissance",
+            "icon": "🎵",
+            "detail": "The recording device owner's purpose — and why they had been at the party with it."
+          },
+          {
+            "name": "Preserve the Cylinder as the Only Record of Her Father's Playing",
+            "icon": "🏠",
+            "detail": "The daughter's reason for keeping it for forty-eight years."
+          },
+          {
+            "name": "The Daughter's Understanding of the Cylinder's Dual Nature",
+            "icon": "🏠",
+            "detail": "Whether she had known both what it proved about the killing and what it preserved of the music."
+          },
+          {
+            "name": "Why She Had Waited Until 1974 to Donate",
+            "icon": "🎵",
+            "detail": "The timing of the donation — and what had changed in 1974 that had made the donation the right moment."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Calvin and Left the Back Room",
+            "icon": "🥃",
+            "detail": "Chester's confirmed role — fifteen years."
+          },
+          {
+            "name": "Was Playing Piano on the Recording While the Killing Occurred",
+            "icon": "🎹",
+            "detail": "Duke's inadvertent alibi role — audible throughout."
+          },
+          {
+            "name": "Confronted Duke and Secured Two Re-Registrations",
+            "icon": "🎤",
+            "detail": "Viola Mae's role — died Chicago 1953."
+          },
+          {
+            "name": "Brought the Recording Device to the Party and Captured the Evidence",
+            "icon": "🎵",
+            "detail": "The device owner's role — and their subsequent custody of the cylinder."
+          },
+          {
+            "name": "Kept the Cylinder for Forty-Eight Years and Donated It in 1974",
+            "icon": "🏠",
+            "detail": "The daughter's custody and donation role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Who Had Been Recording",
+        "text": "The Institute for Jazz Studies' acquisition records show the cylinder had been donated by 'Miss Dorothy Reese, daughter of Calvin Reese, who had been given custody of the device and cylinder by its owner, Mr. Clarence Webb, following the events of the evening in question.' Clarence Webb had been at the party with a portable recording device — he had been an amateur recording enthusiast documenting Harlem's rent party music scene. He had left the device in Calvin's care in the back room when he had gone to the main room to listen. The device had been running when Chester had arrived.",
+        "alone": "Clarence Webb had left his recording device in Calvin's care when he went to the main room — the device had been running when Chester had arrived. Calvin's daughter had been given custody after the killing.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Webb leaving the device in Calvin's care and the device capturing the killing's argument together confirm the recording had been accidental — Webb had not intended to document a killing, and the device's placement had been Calvin's own choice."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🏠",
+        "heading": "The Daughter's Custody",
+        "text": "Dorothy Reese's account — given to the Institute at the time of the donation in 1974: 'My mother was given the cylinder by Mr. Webb after my father died. He felt it belonged with the family — it was the only recording of my father's playing. I was three years old in 1926. My mother kept the cylinder for thirty years. When she died in 1956, I kept it. I knew it also contained the argument that identified who had killed my father. I kept it for both reasons. I donated it in 1974 because I wanted my father's music to be heard.'",
+        "alone": "Dorothy had known the cylinder contained both her father's music and the argument identifying the killer — she had kept it for both reasons and had donated it in 1974 so the music could be heard.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Dorothy keeping the cylinder for both the music and the forensic content and donating it so the music could be heard together confirm the primary motivation for the eventual donation had been the music rather than the forensic significance."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Why Dorothy Had Waited Until 1974",
+        "text": "Dorothy's 1974 account continues: 'Why did I wait? Because for a long time I did not know what to do with it. My father was identified on the recording by name — that had been enough for the police in 1926 and Chester Nance had gone to prison. The argument was old evidence. The music was the reason to share it. I waited until there was somewhere right to give it — somewhere that would understand what my father's playing meant and would keep it properly. The Institute was the right place. I was fifty-one. I decided it was time.'",
+        "alone": "Dorothy had waited for the right institutional home — 'somewhere that would understand what my father's playing meant.' She had donated at fifty-one in 1974, forty-eight years after the night.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Dorothy waiting for the right institution and the Institute's 1974 musicological analysis finding the improvisation consistent with authorship together confirm the donation had arrived at the right moment — the institutional context had been ready to understand what the cylinder contained."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Clarence Webb's Documentation Project",
+        "text": "Clarence Webb had been documenting Harlem rent party music from 1924 to 1929 — he had produced approximately forty cylinders of rent party sessions, all of which had been donated to the Library of Congress in 1963. The Calvin Reese cylinder had been the only one he had given directly to a family member rather than retaining. He had given it to Dorothy's mother in 1926 specifically because it contained Calvin's playing. He had said, according to Dorothy's account: 'This belongs with his family. Whatever else is on it, this is his music first.'",
+        "alone": "Webb had given the cylinder to Dorothy's mother because of the music — 'This is his music first.' His forty other cylinders are at the Library of Congress.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Webb's forty other cylinders at the Library of Congress and the Calvin Reese cylinder at the Institute for Jazz Studies together confirm the single cylinder's specific journey — the only one given directly to a family had been the one that had contained both the most personal music and the forensic evidence."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "What the Cylinder Has Meant",
+        "text": "The Calvin Reese cylinder at the Institute for Jazz Studies has been studied by jazz historians, musicologists, and forensic audio specialists. The 1974 analysis had documented the music and the argument. The 1981 article had used it to argue for Calvin's West Side Stomp co-authorship. A 2006 digital restoration of the cylinder had improved the audio quality of both the music and the argument — Calvin's trumpet playing had been described by the restoration's notes as 'of exceptional quality for the period.' His playing is available online through the Institute's digital archive.",
+        "alone": "Calvin's trumpet playing is available online through the Institute's digital archive. The 2006 restoration had described it as of exceptional quality. Both the music and the argument are accessible.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Calvin's music available online and Dorothy donating so the music could be heard together confirm the donation's purpose had been achieved — the music Dorothy had kept for forty-eight years is now accessible to anyone."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "The Cylinder's Two Contents",
+        "text": "The cylinder contains two things: thirty-one minutes of Calvin Reese's trumpet playing — the only known recordings of his work, described as exceptional, now available online; and the argument that had identified Chester Nance as the killer, which had been used in his prosecution in 1926 and which the 1974 transcript had confirmed. The first had been why Webb had given it to the family. The second had been why the police had been interested. The first had been why Dorothy had kept it. The second had been why the musicologist had been surprised to find it in a jazz archive.",
+        "alone": "The cylinder's two contents — exceptional music and forensic argument — had each been the primary reason for someone's interest. Both are still on the cylinder.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The music and the forensic argument each being primary to a different person's relationship with the cylinder together confirm the object's dual nature had been understood differently by everyone who had encountered it."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "The Full Chain of Custody",
+        "text": "Clarence Webb had placed the recording device in Calvin's back room care in 1926. The device had captured the argument and the music. Webb had given the cylinder to Dorothy's mother because of the music. Dorothy's mother had kept it for thirty years. Dorothy had kept it for eighteen more years. Dorothy had donated it in 1974 because of the music. The Institute had analysed it because of both. The forensic audio had confirmed Chester's conviction. The musicological analysis had raised the West Side Stomp question. The digital restoration had made the music publicly accessible. Forty-eight years from back room to archive.",
+        "alone": "Forty-eight years from back room to archive — each custodian had kept it for a different reason, and the archive had understood it for both.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The forty-eight-year chain of custody and the cylinder available online today together confirm the full journey — the accidental recording had traveled from a 1926 Harlem back room to a digital archive through a chain of custodians each of whom had seen it differently."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎷",
+        "heading": "Harlem and the Music",
+        "text": "The 1926 Harlem rent party scene has been extensively documented by historians and archivists. The rent party — a social gathering where guests paid admission to help the host cover rent — had been a central feature of Harlem life during the Renaissance and had been the performance context for many musicians who had not yet reached commercial recording. Most of their music had not been preserved. Calvin Reese's thirty-one minutes exist because a recording enthusiast had left his device running in a back room when he went to listen to the music in the main room, and because a daughter had kept a cylinder for forty-eight years because it was the only record of her father's voice. The music is available online. West Side Stomp is still attributed to Duke Harmon. The truth takes its time.",
+        "alone": "Calvin's music is available online because a daughter kept a cylinder for forty-eight years. West Side Stomp is still attributed to Duke Harmon. The truth takes its time.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The forty-eight-year chain of custody and West Side Stomp still attributed to Duke together confirm the final element — the music had been preserved through the chain's care, and the attribution had not been corrected through the same effort that had preserved the evidence of Calvin's relationship to the melody."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Chester Nance",
+      "location": "The Back Room",
+      "weapon": "Gin Bottle",
+      "motive": "Collect the Forty-Dollar Debt",
+      "accomplice": "Kept the Cylinder for Forty-Eight Years and Donated It in 1974"
+    },
+    "epilogue": "Clarence Webb had left his device in Calvin's care and gone to the main room to listen. The device had been running when Chester had arrived. Webb had given the cylinder to Dorothy's mother because of the music. Dorothy's mother had kept it for thirty years. Dorothy had kept it for eighteen more and had donated it in 1974 so her father's music could be heard. The Institute had found both the music and the argument. The 1974 analysis had found the improvisation consistent with authorship of West Side Stomp's melody. The 1981 article had made the case. The estate had not conceded. Calvin's name is in the footnotes. The music is available online. West Side Stomp is still attributed to Duke Harmon. The truth takes its time. Calvin Reese's trumpet is in the digital archive. Anyone can listen."
+  }
+}

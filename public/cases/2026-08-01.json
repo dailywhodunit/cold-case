@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Geneva, 1944. The war is almost over. A German accountant dead in a Swiss bank with ledgers that document where the gold went. Someone needed the trail buried before the Allies arrived. 💰🔍 Case #135 — The Vault. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Geneva 1944 near the end of the war, a German accountant dead in a Swiss bank, and ledgers that track Nazi gold to accounts that powerful people needed to stay hidden. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1944 Geneva private bank interior, dark wood panelling and frosted glass partitions, a German accountant's leather briefcase open on the floor beside a mahogany desk, ledger pages scattered with Swiss franc figures and coded account numbers, an overturned ink bottle staining the papers, the neutral Swiss light through high windows. Wartime financial machinery and its human cost. Style of wartime OSS photography meets Swiss banking discretion.",
+    "animationPrompt": "Slow pan through a 1944 Geneva private bank interior. Dark wood panelling. Frosted glass. A German accountant's briefcase open on the floor. Ledger pages scattered with figures and coded account numbers. An overturned ink bottle staining the papers. High windows. Neutral Switzerland. The war is almost over. The trail needs to be buried. Fade to black.",
+    "hashtags": [
+      "#Geneva1944",
+      "#SwissBank",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #135",
+    "title": "The Vault",
+    "setting": "Banque Privée Helvetica · Geneva · Switzerland · October 1944",
+    "emoji": "💰",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "German accountant Werner Falk was found dead in the private bank's document room in October 1944 — six months before Germany's surrender. He had been preparing a transfer of documentation that traced Nazi gold deposits to seventeen specific numbered accounts. The documentation would have enabled post-war investigators to recover funds. Three people had been in the bank that afternoon. The ledger pages covering twelve of the seventeen accounts were missing.",
+    "emptyState": "Six months before Germany's fall. Twelve account trails gone. Find who needed them buried.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Heinrich Mauer",
+            "icon": "💼",
+            "detail": "A German diplomatic attaché stationed in Switzerland — had been coordinating the movement of assets through Swiss channels and whose own name appeared in two of the missing accounts."
+          },
+          {
+            "name": "Édouard Pictet",
+            "icon": "🏦",
+            "detail": "The bank's senior partner — had managed the accounts for three years and whose bank's wartime cooperation with German depositors was documented in Falk's ledgers."
+          },
+          {
+            "name": "Clara Voss",
+            "icon": "📋",
+            "detail": "A Swiss Red Cross liaison officer — had been at the bank to verify humanitarian fund transfers and had known Falk personally from prior legitimate transactions."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Document Room",
+            "icon": "📋",
+            "detail": "Where Falk was found — briefcase open, ledger pages scattered, ink overturned, twelve account pages missing."
+          },
+          {
+            "name": "The Vault Anteroom",
+            "icon": "🔒",
+            "detail": "Adjacent to the document room — where the original account ledgers were held and where the missing pages had originated."
+          },
+          {
+            "name": "The Bank's Rear Exit",
+            "icon": "🚪",
+            "detail": "The private entrance used by clients — where the killer had departed without being seen by the front desk."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Paperweight",
+            "icon": "🪨",
+            "detail": "A heavy cylindrical marble paperweight from the desk — blunt force wound consistent with its end used as a bludgeon."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Ink Bottle Base",
+            "icon": "🖊️",
+            "detail": "Too light for the wound depth — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Account Pages",
+        "text": "The five remaining ledger pages document accounts connected to cultural institution deposits and smaller individual holdings. The twelve missing pages — identified by Falk's own index, which survived — covered accounts with the highest balances and the most direct connections to German state institutions. Two of the missing accounts were in names identifiable as diplomatic cover identities. One of those names matched the diplomatic cover identity used by Heinrich Mauer in his Geneva posting.",
+        "alone": "Two of the missing accounts used diplomatic cover identities — one matched Mauer's known cover name. The missing pages had specifically covered the highest-value and most directly traceable accounts.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The missing pages covering Mauer's diplomatic cover account and his confirmed bank visit that afternoon together establish the specific personal exposure that the missing pages had addressed."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🪨",
+        "heading": "The Marble Paperweight",
+        "text": "The cylindrical marble paperweight — a standard fixture on Swiss banking desks — shows blood on its flat end. Falk's wound is consistent with a blow from behind while he had been seated at the document table examining the ledger pages. The paperweight had been on the desk within reach. The approach had been from behind through the document room's single door.",
+        "alone": "Falk had been struck from behind while at the document table — the paperweight had been on the desk, the approach through the single door from behind his working position.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The blow from behind through the single door and Mauer's confirmed presence in the bank that afternoon — documented as entering the vault anteroom, which connected to the document room's rear — together establish the specific approach path."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Clara Voss's Afternoon",
+        "text": "Clara Voss had been in the bank's front client room from two PM until four PM meeting with the bank's junior partner about Red Cross fund transfers — confirmed by the junior partner, his secretary, and the meeting's agenda documents. She had not been in the document room or the vault anteroom. She is definitively cleared.",
+        "alone": "Clara had been in the front client room from two to four PM confirmed by the junior partner and his secretary — she had not been in the document room. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Clara cleared in the front client room and Édouard Pictet confirmed in the vault anteroom briefly but not during the killing window together eliminate both other suspects from behind the document room door — only Mauer's movements in the vault anteroom area at three PM are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Mauer's Account Exposure",
+        "text": "The Allied intelligence assessment of Swiss banking accounts — reconstructed post-war from surviving documentation — identified the account in Mauer's cover name as holding 340,000 Swiss francs of German state origin, deposited in three tranches between 1942 and 1944. The account had been designed to survive Germany's defeat as a personal financial reserve. Falk's documentation of the account's paper trail would have enabled its post-war recovery by Allied investigators.",
+        "alone": "Mauer's cover account held 340,000 Swiss francs of German state origin — designed to survive Germany's defeat. Falk's documentation would have enabled its recovery.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Mauer's 340,000-franc account designed to survive defeat and the documentation enabling its recovery together confirm the financial stakes — the missing pages had protected a post-war personal financial reserve at the cost of Falk's life."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Mauer at the Bank",
+        "text": "The bank's front desk register confirms Mauer had signed in at two-forty-five PM — listed as a client visit to the vault anteroom. The vault anteroom's connecting door to the document room had been noted as unlocked that afternoon by the bank's records. Mauer had signed out at three-forty PM. Falk had been found at four PM. The killing window was consistent with Mauer's presence in the connected anteroom.",
+        "alone": "Mauer had been in the vault anteroom from two-forty-five to three-forty PM — the anteroom connected to the document room through an unlocked door during the killing window.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The approach from behind through the document room's door and Mauer's presence in the connected anteroom during the killing window together place him in the specific access position the blow's approach had required."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Rear Exit",
+        "text": "The bank's rear exit — used for private client departures — was accessible from both the vault anteroom and the document room's side passage. A bank porter confirms he had seen a man in a dark overcoat using the rear exit at approximately three-thirty PM — consistent with Mauer's departure time and his known dress. The porter had not thought to note it — the rear exit was used by clients who preferred discretion, which most did.",
+        "alone": "A man in a dark overcoat had used the rear exit at three-thirty — consistent with Mauer's departure time and known dress. The rear exit had been the route from the anteroom to the street.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Mauer signed into the anteroom at two-forty-five and departing through the rear exit at three-thirty together bracket the killing window — the anteroom access, the document room connection, and the rear exit departure were all consistent with his signed movements."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🏦",
+        "heading": "Pictet's Afternoon",
+        "text": "Édouard Pictet had been in the vault anteroom briefly at two PM — before Mauer's arrival — reviewing account statements with his chief clerk. He had returned to his office at two-thirty and had been confirmed there by his personal secretary throughout the relevant period. He had not been in the document room. He is definitively cleared.",
+        "alone": "Pictet had been in his office from two-thirty PM confirmed by his personal secretary — he had not been in the document room during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Clara cleared in the front client room and Pictet cleared in his office together eliminate both other suspects — Mauer's anteroom access and rear exit departure are the only confirmed movements consistent with the document room approach."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Accounts' Post-War Fate",
+        "text": "Of the seventeen accounts documented by Falk: the five accounts with surviving page documentation were identified by Allied investigators and recovered — approximately 2.1 million Swiss francs returned to post-war restitution funds. The twelve accounts whose pages had been removed were identified by Falk's surviving index as existing but their specific trails had been destroyed. They were never recovered through the Swiss banking system. Heinrich Mauer had been evacuated to Argentina in 1945. He had died in Buenos Aires in 1971. His 340,000-franc account had not been recovered.",
+        "alone": "Five accounts recovered, twelve never traced. Mauer had evacuated to Argentina and died in 1971. His account had not been recovered.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Mauer's account designed to survive defeat and his evacuation to Argentina in 1945 together confirm the killing had achieved its purpose — the account had survived and had been used. Falk's documentation of it had not."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Heinrich Mauer",
+      "location": "The Document Room",
+      "weapon": "Marble Paperweight"
+    },
+    "epilogue": "Heinrich Mauer had signed into the vault anteroom at two-forty-five PM. The connecting door to the document room had been unlocked. He had entered, had found Falk at the document table with the ledger pages spread before him, and had used the marble paperweight. He had taken the twelve pages covering the highest-value accounts including his own. He had left through the rear exit at three-thirty. The five surviving accounts had been recovered. The twelve had not. Mauer had evacuated to Argentina in 1945. His 340,000-franc account had not been recovered. He had died in Buenos Aires in 1971. The Swiss banking commission investigating wartime accounts in 1997 had found Falk's index and had noted the twelve missing account trails. The commission's report had named the gap without being able to fill it. The accounts remain unrecovered."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #135",
+    "title": "The Vault",
+    "setting": "Banque Privée Helvetica · Geneva · Switzerland · October 1944",
+    "emoji": "💰",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Mauer killed Falk and took the pages. But Édouard Pictet had known what Falk was doing and had made a decision about it. Find what Pictet had decided and why.",
+    "emptyState": "Pictet knew what Falk was doing. He made a decision. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Heinrich Mauer",
+            "icon": "💼",
+            "detail": "The killer — anteroom access, paperweight, twelve pages taken, Argentina 1945, Buenos Aires 1971."
+          },
+          {
+            "name": "Édouard Pictet",
+            "icon": "🏦",
+            "detail": "Cleared as killer — office confirmed. Had known what Falk was doing and had made a specific decision."
+          },
+          {
+            "name": "Clara Voss",
+            "icon": "📋",
+            "detail": "Cleared as killer — client room confirmed. Her Red Cross work intersects with the post-war restitution thread."
+          },
+          {
+            "name": "The Bank's Wartime Cooperation",
+            "icon": "🏦",
+            "detail": "The institutional dimension — what Pictet had known and what he had decided to do about Falk's documentation work."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Document Room",
+            "icon": "📋",
+            "detail": "Primary crime scene — Mauer's killing."
+          },
+          {
+            "name": "Pictet's Office",
+            "icon": "🏦",
+            "detail": "Pictet's confirmed location — and where his decision had been made."
+          },
+          {
+            "name": "The Swiss Federal Banking Commission",
+            "icon": "🏛️",
+            "detail": "Where Pictet had filed a disclosure — his specific decision and its institutional destination."
+          },
+          {
+            "name": "The Post-War Restitution Process",
+            "icon": "💰",
+            "detail": "Where Pictet's disclosure had eventually mattered — and what it had produced."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Paperweight",
+            "icon": "🪨",
+            "detail": "Confirmed murder weapon — Mauer's anteroom approach."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Ink Bottle Base",
+            "icon": "🖊️",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Pictet's Disclosure Filing",
+            "icon": "🏦",
+            "detail": "Not a weapon — but the decision he had made about Falk's work and its institutional destination."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Destroy the Account Trail and Protect His Personal Reserve",
+            "icon": "💼",
+            "detail": "Mauer's motive — Argentina 1945, account unrecovered."
+          },
+          {
+            "name": "Protect the Bank's Wartime Cooperation from Post-War Scrutiny",
+            "icon": "🏦",
+            "detail": "What Pictet's decision had been about — his calculation of the bank's institutional interests."
+          },
+          {
+            "name": "Pictet's Moral Calculation",
+            "icon": "🏦",
+            "detail": "Why Pictet had made the decision he had — the wartime cooperation's institutional and personal dimensions."
+          },
+          {
+            "name": "What Pictet Had Filed and When",
+            "icon": "🏛️",
+            "detail": "The specific disclosure — before or after the killing, and what it had contained."
+          },
+          {
+            "name": "Whether Pictet's Disclosure Had Been Protective of the Bank or of the Accounts' Victims",
+            "icon": "🏦",
+            "detail": "The moral dimension of the filing's motivation."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "What Pictet Had Known",
+        "text": "Pictet's account — given to the Swiss Banking Commission's 1997 inquiry: 'I had known what Werner Falk was doing. He had told me three weeks before. He said he was preparing documentation of the accounts' origins for transfer to Allied investigators after the war. I had a decision to make. My bank had accepted deposits for three years that I had known were of problematic origin. I chose to cooperate with Falk's work. I gave him full access to the document room and the vault anteroom. I also filed a disclosure with the Federal Banking Commission the day before he was killed.'",
+        "alone": "Pictet had given Falk full access and had filed a disclosure with the Federal Banking Commission the day before the killing — he had decided to cooperate rather than protect the bank's wartime position.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Pictet's disclosure filed the day before the killing and Mauer's presence at the bank the day of the killing together raise the question of whether the disclosure had been the trigger — whether Mauer had been informed of the disclosure and had acted before it could be acted upon."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "The Disclosure's Content",
+        "text": "The Federal Banking Commission's files — accessed by the 1997 inquiry — contain Pictet's disclosure: a voluntary statement identifying seventeen numbered accounts of probable German state origin, the amounts held, and the names of the bank's German contacts for each account. The disclosure named Mauer's cover account. It had been filed on October 14th, 1944 — the day before Falk's killing. The Federal Banking Commission had not acted on it before Falk's death.",
+        "alone": "Pictet's disclosure had named Mauer's cover account, had been filed the day before the killing, and had not been acted upon before Falk's death.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The disclosure naming Mauer's account filed the day before the killing and the killing occurring the following day together confirm the timing — whether the disclosure had reached Mauer is the operational question."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "How Mauer Had Learned of the Disclosure",
+        "text": "The 1997 inquiry's investigation found a banking commission clerk had been on the German diplomatic service's payroll — documented in post-war German intelligence records. The clerk had processed Pictet's disclosure on October 14th and had informed the German consulate the same day. The consulate had informed Mauer. Mauer had been at the bank the following morning. The disclosure had been the trigger — Mauer had learned of it within hours of its filing and had acted the following day.",
+        "alone": "A compromised banking commission clerk had passed Pictet's disclosure to the German consulate within hours — Mauer had been at the bank the following day. The disclosure had been the trigger.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The compromised clerk transmitting the disclosure and Mauer acting the following day together confirm the operational chain — Pictet's protective disclosure had inadvertently informed the person it had been designed to expose."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "Pictet's Post-War Position",
+        "text": "The Swiss Banking Commission's inquiry found Pictet's voluntary disclosure had been the only proactive disclosure by any Swiss bank during the wartime period. His cooperation with Falk's documentation work had been documented. The inquiry had found his conduct to have been 'exceptional relative to the broader pattern of Swiss banking practice during the relevant period.' The bank had received a formal recognition from the post-war restitution commission in 1948. Pictet had died in Geneva in 1952.",
+        "alone": "Pictet's disclosure had been the only proactive wartime disclosure by a Swiss bank — recognized by the restitution commission in 1948. He had died in Geneva in 1952.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Pictet's exceptional disclosure and his death in 1952 before the full post-war accounting together confirm the recognition had been genuine and had preceded the broader Swiss banking reckoning by decades."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Five Recovered Accounts",
+        "text": "The five accounts with surviving documentation — recovered through Pictet's disclosure and Falk's surviving five pages — had returned 2.1 million Swiss francs to post-war restitution funds. The funds had been distributed to Jewish communities and Holocaust survivors through the Jewish Restitution Successor Organization. The recovery had been directly attributable to the combination of Pictet's disclosure and the five surviving ledger pages. Without Pictet's disclosure, even the five would not have been traceable.",
+        "alone": "The five recoveries had required both Pictet's disclosure and the five surviving pages — Pictet's disclosure alone had enabled the tracing. The 2.1 million francs had reached survivors.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Pictet's disclosure enabling the five recoveries and his recognition in 1948 together confirm the disclosure's practical impact — it had produced the only Swiss banking restitution of the immediate post-war period."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "Clara Voss's Post-War Work",
+        "text": "Clara Voss had continued her Red Cross liaison work after the war and had been part of the Swiss humanitarian response to the displacement crisis. In 1946 she had learned of Pictet's wartime disclosure through the restitution commission's work. She had written to Pictet acknowledging his decision. His response — found in her correspondence archive: 'I made the decision I could live with. I could not live with the other one. Falk understood this. He did not live to know it had been made in time to matter.' He had not known at the time of the filing whether it would matter.",
+        "alone": "Pictet's letter to Clara: 'I made the decision I could live with. I could not live with the other one.' He had not known at the time whether it would matter.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "Pictet not knowing if the disclosure would matter and the disclosure inadvertently informing Mauer through the compromised clerk together confirm the full irony — the disclosure had mattered by enabling the five recoveries and had also enabled the killing by reaching Mauer."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🏦",
+        "heading": "The 1997 Inquiry's Full Finding",
+        "text": "The Swiss Banking Commission's 1997 inquiry — part of the broader Swiss examination of wartime banking cooperation — had found: the Banque Privée Helvetica had been the sole Swiss bank to make a proactive wartime disclosure; the disclosure had been undermined by a compromised clerk whose cooperation with German intelligence had enabled the killing of the accountant whose work the disclosure was meant to support; and the twelve missing account trails had never been reconstructed. The inquiry had recommended further investigation of the compromised clerk network.",
+        "alone": "The 1997 inquiry had found: sole proactive disclosure, undermined by a compromised clerk, twelve trails never reconstructed, further investigation recommended.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The 1997 inquiry's findings and the twelve accounts unrecovered together confirm the full accounting — the one proactive disclosure had been partially effective, had been undermined by the same system it had been submitted to, and had been fully assessed fifty-three years later."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Broader Swiss Banking Reckoning",
+        "text": "The Swiss banking industry's broader reckoning with wartime accounts had occurred in 1996-1998 — fifty years after the war. The Volcker Committee had examined 4.1 million accounts and had identified approximately 54,000 with probable Holocaust victim connections. The restitution settlement had been 1.25 billion US dollars. Werner Falk's documentation work — five pages surviving, twelve destroyed, his index preserved — had been cited in the Volcker Committee's historical section as an early example of the documentation effort that the post-war period had required and had largely not produced. His name is in the committee's footnotes. The accounts remain unrecovered.",
+        "alone": "Falk's documentation work had been cited in the Volcker Committee's footnotes fifty years later. The twelve accounts remain unrecovered.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "Pictet's exceptional disclosure and Falk's footnote recognition together confirm the two people who had tried earliest had been recognized latest — the broader reckoning had arrived fifty years after their actions."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Heinrich Mauer",
+      "location": "The Document Room",
+      "weapon": "Marble Paperweight",
+      "motive": "Destroy the Account Trail and Protect His Personal Reserve"
+    },
+    "epilogue": "Pictet had filed the disclosure the day before the killing. A compromised banking commission clerk had passed it to the German consulate the same day. Mauer had been at the bank the following morning. Pictet had not known the clerk was compromised. He had made the decision he could live with. It had been undermined by the system he had submitted it to. Five accounts had been recovered. Twelve had not. Mauer had evacuated to Argentina and had died in Buenos Aires in 1971. Pictet had died in Geneva in 1952, recognized by the restitution commission in 1948. Falk's name is in the Volcker Committee's footnotes. The twelve accounts remain unrecovered. The Swiss banking industry's broader reckoning had arrived fifty years after Pictet's disclosure. He had not lived to see it."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #135",
+    "title": "The Vault",
+    "setting": "Banque Privée Helvetica · Geneva · Switzerland · October 1944",
+    "emoji": "💰",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Mauer killed Falk. Pictet's disclosure was undermined by a compromised clerk. But Clara Voss had also been doing something during her Red Cross visit that went beyond fund transfers. Find what Clara had known and what she had preserved.",
+    "emptyState": "Clara's visit was about more than Red Cross transfers. Find what she preserved.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Heinrich Mauer",
+            "icon": "💼",
+            "detail": "The killer — twelve pages taken, Argentina 1945, unrecovered account, died Buenos Aires 1971."
+          },
+          {
+            "name": "Édouard Pictet",
+            "icon": "🏦",
+            "detail": "Cleared as killer — office confirmed. Disclosure filed, undermined by compromised clerk, recognized 1948, died 1952."
+          },
+          {
+            "name": "Clara Voss",
+            "icon": "📋",
+            "detail": "Cleared as killer — client room confirmed. Her visit had included something beyond the Red Cross fund transfers."
+          },
+          {
+            "name": "Clara's Preserved Documentation",
+            "icon": "📋",
+            "detail": "What she had been given during the visit and what she had done with it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Document Room",
+            "icon": "📋",
+            "detail": "Primary crime scene — Mauer's killing."
+          },
+          {
+            "name": "The Front Client Room",
+            "icon": "🏦",
+            "detail": "Clara's confirmed location — and where Falk had passed her something before the killing."
+          },
+          {
+            "name": "The Red Cross Archive",
+            "icon": "📋",
+            "detail": "Where Clara had deposited what she had received — and when it had become significant."
+          },
+          {
+            "name": "The Volcker Committee",
+            "icon": "💰",
+            "detail": "Where Clara's preserved documentation had eventually been submitted — and its relationship to the broader accounting."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Paperweight",
+            "icon": "🪨",
+            "detail": "Confirmed murder weapon — Mauer's."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📒",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Ink Bottle Base",
+            "icon": "🖊️",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Clara's Preserved Copy",
+            "icon": "📋",
+            "detail": "Not a weapon — but the document Falk had given her before the killing and what it had preserved."
+          },
+          {
+            "name": "The Red Cross Archive's Role",
+            "icon": "📋",
+            "detail": "Not a weapon — the institutional home of Clara's preserved copy and its eventual significance."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Destroy the Account Trail",
+            "icon": "💼",
+            "detail": "Mauer's motive — twelve pages, unrecovered accounts."
+          },
+          {
+            "name": "Preserve the Documentation Through a Neutral Institution",
+            "icon": "📋",
+            "detail": "Falk's precaution — he had given Clara a copy before the killing."
+          },
+          {
+            "name": "Clara's Understanding of What Falk Had Given Her",
+            "icon": "📋",
+            "detail": "Whether she had known what the documents were — and what she had done with them."
+          },
+          {
+            "name": "The Red Cross Archive as the Safe Deposit",
+            "icon": "📋",
+            "detail": "Why Falk had chosen Clara and the Red Cross — the institutional neutrality argument."
+          },
+          {
+            "name": "The Preserved Copy's Relationship to the Twelve Missing Accounts",
+            "icon": "💰",
+            "detail": "Whether Clara's copy had covered the twelve missing accounts — and what the Volcker Committee had found."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Falk and Took the Twelve Account Pages",
+            "icon": "💼",
+            "detail": "Mauer's confirmed role."
+          },
+          {
+            "name": "Filed the Proactive Disclosure Undermined by the Compromised Clerk",
+            "icon": "🏦",
+            "detail": "Pictet's role — five accounts recovered, recognized 1948, died 1952."
+          },
+          {
+            "name": "Received a Copy of Falk's Index From Him Before the Killing and Preserved It",
+            "icon": "📋",
+            "detail": "Clara's role — Red Cross archive, Volcker Committee submission."
+          },
+          {
+            "name": "Passed the Disclosure to the German Consulate Within Hours",
+            "icon": "🏛️",
+            "detail": "The compromised clerk's role — the operational trigger."
+          },
+          {
+            "name": "Cited Falk's Work in the Post-War Footnotes",
+            "icon": "💰",
+            "detail": "The Volcker Committee's institutional role — the fifty-year delayed recognition."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Falk Had Given Clara",
+        "text": "Clara's account in her 1946 letter to Pictet: 'Before I left the bank that afternoon, Werner came briefly to the client room. He handed me an envelope and said: this is the index of what I have been preparing. Keep it with your Red Cross files. If something happens to me, the index will tell investigators what to look for even if the ledger pages are gone. He seemed frightened. I took the envelope. I went back to my Red Cross office. Three hours later I heard he had been found dead.' Falk had given her his index as a precautionary copy before the killing.",
+        "alone": "Falk had given Clara his index — the document identifying all seventeen accounts by number and amount — as a precaution, an hour before he had been killed.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Falk giving Clara the index as a precaution and his being killed three hours later together confirm his premonition had been accurate — he had created a surviving record before the killing had made it the only surviving record of the twelve missing accounts."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Index Had Contained",
+        "text": "Falk's index — preserved in the International Committee of the Red Cross archive in Geneva — identifies all seventeen accounts: account numbers, approximate balances, category of depositor (diplomatic, institutional, individual), and in six cases, the real names behind the cover identities. Mauer's cover account is identified in the index with his cover name and the amount: 340,000 Swiss francs. The index does not contain the paper trail linking the accounts to their German state origins — that had been in the missing ledger pages — but it confirms the accounts' existence and approximate contents.",
+        "alone": "The index confirms all seventeen accounts including Mauer's — without the paper trail but with the account numbers, amounts, and in six cases the real names behind cover identities.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The index confirming Mauer's account by cover name and amount and the twelve missing pages destroying the paper trail together confirm what had been preserved and what had been lost — the existence had been proven by the index, the traceability had been destroyed by the missing pages."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Clara's Preservation Decision",
+        "text": "Clara's 1946 letter continues: 'I did not open the envelope for two days. When I did, I understood what it was. I filed it in my Red Cross correspondence under the heading financial institutions — humanitarian coordination. I did not tell anyone what it was specifically. I believed the envelope was safest where it was least obviously significant. I filed it with mundane documents. It sat in the Red Cross archive as routine correspondence for fifty years.' She had deliberately obscured its significance to protect it.",
+        "alone": "Clara had deliberately filed the index as routine correspondence to obscure its significance — it had sat in the Red Cross archive for fifty years as 'financial institutions — humanitarian coordination.'",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Clara filing the index as routine correspondence and it sitting in the archive for fifty years together confirm the preservation strategy had worked exactly as she had designed — it had been safe because it had appeared unimportant."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Volcker Committee's Receipt",
+        "text": "Clara had died in Geneva in 1989 — seven years before the Volcker Committee had been formed. Her niece, sorting the Red Cross correspondence archive in 1996, had found the envelope, had recognized its significance, and had submitted it to the Volcker Committee. The committee had received it in March 1997 — fifty-two years after Falk had handed it to Clara in the bank's client room. The committee had used the index to confirm the existence of the twelve missing accounts and to add them to its historical record of unrecovered assets.",
+        "alone": "Clara's niece had found and submitted the index to the Volcker Committee in 1997 — fifty-two years after Falk had given it to Clara. The committee had used it to confirm the twelve missing accounts.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The index submitted in 1997 confirming the twelve accounts and the accounts remaining unrecovered together confirm what the index had achieved — confirmation without recovery, historical record without restitution."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What the Index Had Added to the Record",
+        "text": "The Volcker Committee's use of the index: it had confirmed the existence of twelve accounts whose paper trails had been destroyed in 1944; it had established approximate balances and depositor categories; and in two cases, it had identified cover names that had been cross-referenced with other post-war intelligence records to establish probable real identities. The committee's report had noted: 'The preservation of the Falk index through the Red Cross archive represents the only surviving documentation of the twelve accounts whose ledger pages were destroyed in October 1944.'",
+        "alone": "The Falk index had been the only surviving documentation of the twelve missing accounts — the committee had noted it as such in its report.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The index being the only surviving documentation and the accounts remaining unrecovered together confirm the index's specific value — it had established existence without enabling recovery, which had been all it had been able to do without the missing paper trails."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Clara's Full Role",
+        "text": "The 1997 Volcker Committee's historical section had recognized three people's contributions to the wartime Swiss banking documentation effort: Falk for the documentation work itself; Pictet for the proactive disclosure; and, upon the index's submission, Voss for its preservation. The recognition had been posthumous for all three — Falk killed in 1944, Pictet died 1952, Clara died 1989. The committee's report had described their combined effort as 'a wartime attempt to create a recoverable record that was partially successful and that has been fully understood only in retrospect.'",
+        "alone": "All three recognized posthumously — Falk, Pictet, Clara. 'A wartime attempt to create a recoverable record that was partially successful and fully understood only in retrospect.'",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "All three recognized posthumously and the effort described as partially successful together confirm the full assessment — the attempt had worked for five accounts, had been undermined for twelve, and had been understood fifty years later."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Three Precautions and Their Outcomes",
+        "text": "Three precautions had been taken against the destruction of Falk's work: Falk's documentation itself, which Mauer had partially destroyed. Pictet's disclosure, which had been undermined by a compromised clerk but had enabled five recoveries. Clara's index preservation, which had confirmed the twelve missing accounts fifty years later without enabling their recovery. Each precaution had been taken by a different person, through a different institution, producing a different partial outcome. Together they had produced the most complete record of the loss that the circumstances had allowed.",
+        "alone": "Three precautions, three institutions, three partial outcomes — together the most complete record the circumstances had allowed.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three precautions producing the most complete record possible and the twelve accounts remaining unrecovered together confirm the final accounting — the effort had been as effective as it could have been, and the gap it had documented had been real and permanent."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "💰",
+        "heading": "The Accounts and the Archive",
+        "text": "The twelve accounts identified in Falk's index remain unrecovered. The Volcker Committee's 1.25 billion dollar settlement had addressed broader Swiss banking Holocaust-era accounts. The twelve specific accounts from Falk's index had been added to the historical record of documented but unrecovered assets. The Falk index is in the International Committee of the Red Cross archive in Geneva. It was filed under 'financial institutions — humanitarian coordination' by Clara Voss in October 1944 and was reclassified as historically significant documentation in 1997. Werner Falk's name is in the Volcker Committee's footnotes. Pictet's bank continued operating after the war under new management. The vault anteroom connecting door has been sealed. The document room is now a meeting room.",
+        "alone": "The twelve accounts remain unrecovered. The Falk index is in the Red Cross archive, reclassified in 1997. The connecting door has been sealed. The document room is a meeting room.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The three precautions and the twelve accounts remaining unrecovered together confirm the final element — the record had been as complete as three people's efforts had been able to make it, and the gap it documented had persisted regardless."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Heinrich Mauer",
+      "location": "The Document Room",
+      "weapon": "Marble Paperweight",
+      "motive": "Destroy the Account Trail and Protect His Personal Reserve",
+      "accomplice": "Received a Copy of Falk's Index From Him Before the Killing and Preserved It"
+    },
+    "epilogue": "Falk had given Clara the index an hour before he had been killed. She had filed it as routine correspondence in the Red Cross archive. It had sat there for fifty years. Clara had died in 1989. Her niece had found it in 1996 and had submitted it to the Volcker Committee in 1997. The committee had used it to confirm the twelve missing accounts. All three — Falk, Pictet, Clara — had been recognized posthumously in the committee's report. The twelve accounts remain unrecovered. The Falk index is in the Red Cross archive, reclassified as historically significant documentation in 1997. The vault anteroom connecting door has been sealed. The document room is a meeting room. The accounts are in the historical record. They are not in any bank."
+  }
+}

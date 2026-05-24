@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "New Orleans, November 12th 1917. The US Navy orders Storyville closed tonight. A madam found dead in her establishment. And a ledger that names every client who's visited — including several who can't afford to be named. 🎺🔍 Case #141 — Last Night. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: New Orleans Storyville 1917 the night the district closes, a madam dead in her parlour, and a client ledger that names people who would do anything to keep their name out of it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1917 New Orleans Storyville parlour on the final night of the district's operation, red velvet furniture and crystal decanters, a madam's account ledger open on a writing table beside an overturned bourbon glass, the street outside visible through lace curtains with Navy shore patrol passing, jazz music from a neighbor's establishment. Gilded and closing. Style of E.J. Bellocq's Storyville photographs meets Edward Hopper's nocturnal interiors.",
+    "animationPrompt": "Slow pan through a 1917 New Orleans Storyville parlour on the last night. Red velvet. Crystal decanters. A madam's account ledger open on a writing table. An overturned bourbon glass. Through the lace curtains: Navy shore patrol outside. Jazz from next door. This world ends tonight. Fade to black.",
+    "hashtags": [
+      "#Storyville1917",
+      "#NewOrleans",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #141",
+    "title": "Last Night",
+    "setting": "Basin Street Establishment · Storyville · New Orleans · November 12th, 1917",
+    "emoji": "🎺",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Madam Celeste Beaumont was found dead in her parlour on the last night of Storyville — the evening before the US Navy's closure order took effect. She had been maintaining a client ledger for twelve years: names, dates, and amounts, including several prominent New Orleans citizens who could not afford their names becoming public in the moral climate of 1917. Three people had been in the parlour that night. The ledger was gone.",
+    "emptyState": "Storyville closes tomorrow. The ledger is gone. Find who couldn't wait until morning.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Alderman James Pruitt",
+            "icon": "🏛️",
+            "detail": "A New Orleans city alderman — had been a client for eight years and had been particularly vociferous in supporting the Navy's closure order publicly."
+          },
+          {
+            "name": "Clarence Tureaud",
+            "icon": "🎸",
+            "detail": "A jazz musician and Celeste's longtime companion — had known where the ledger was kept and had been present most evenings."
+          },
+          {
+            "name": "Dolores Vance",
+            "icon": "💼",
+            "detail": "A rival madam from a neighboring establishment — had been closing her own house that night and had come to Celeste's to discuss the transition arrangements."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "🎺",
+            "detail": "Where Celeste was found — ledger open on the table, bourbon glass overturned, lace curtains drawn."
+          },
+          {
+            "name": "The Writing Room",
+            "icon": "📋",
+            "detail": "Adjacent to the parlour — where the ledger had been kept in a locked drawer when not in use."
+          },
+          {
+            "name": "Basin Street",
+            "icon": "🚪",
+            "detail": "The street outside — where the Navy shore patrol had been and where a witness had seen a figure leaving."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🥃",
+            "detail": "A heavy cut-crystal bourbon decanter — blunt force wound consistent with its base used as a bludgeon."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📋",
+            "detail": "No blood trace on any remaining ledger — the ledger taken, not used as a weapon."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound profile match — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Ledger",
+        "text": "Celeste had maintained the ledger since 1905 — twelve years of client records. The ledger's entries, according to testimony from two of her employees given to the New Orleans police, had included names of city officials, businessmen, clergy, and military officers. Alderman Pruitt had been listed, according to the employees, 'on many pages.' His public advocacy for the closure order — citing moral reform — had made his ledger presence particularly consequential. He had told a newspaper the day before: 'Storyville is a stain on the moral character of this city.'",
+        "alone": "Pruitt had been listed on many pages of the ledger he had publicly called a stain on the city's moral character. His public position and private history had directly contradicted each other.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Pruitt's documented extensive presence in the ledger and his inflammatory public statement the day before together confirm the specific personal urgency — the statement had made his ledger presence dramatically more consequential than it would otherwise have been."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🥃",
+        "heading": "The Crystal Decanter",
+        "text": "The heavy cut-crystal bourbon decanter — one of Celeste's prize possessions, kept on the parlour's side table — shows blood on its base. The wound is consistent with the base used as a bludgeon while Celeste had been seated at the writing table with the ledger open. The approach had been from behind. The decanter had been returned to the side table after use — not left with the body. The killer had been calm enough to replace it.",
+        "alone": "The decanter had been replaced on the side table after use — the killer had been composed enough to do this. The killing had not been purely impulsive.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The decanter replaced after use suggesting composed deliberateness and Alderman Pruitt's documented prior visits giving him knowledge of the parlour's layout and the decanter's position together establish the specific familiarity the composed killing had demonstrated."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎸",
+        "heading": "Clarence Tureaud's Evening",
+        "text": "Clarence Tureaud had been playing at the Mahogany Hall three doors down from seven PM until midnight — confirmed by the Hall's proprietor, four musicians, and approximately thirty patrons who had been at what was understood to be Storyville's last music night. He had not been at Celeste's establishment during the killing window. He is definitively cleared.",
+        "alone": "Clarence had been performing at the Mahogany Hall confirmed by the proprietor, musicians, and patrons — he had not been at the establishment during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Clarence cleared at the Mahogany Hall and Dolores Vance confirmed at her own establishment together eliminate both other suspects — only Pruitt's movements in the Storyville area that evening are unconfirmed at Celeste's parlour."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Pruitt's Public Statement",
+        "text": "The New Orleans Times-Picayune had published Pruitt's statement on November 11th — the day before the closure: 'Storyville is a stain on the moral character of this city and on the character of any man who has had commerce with it. The Navy's order is a cleansing long overdue.' The statement had been widely circulated. Two of Celeste's employees had read it and had laughed. Celeste had reportedly said: 'Let's see how clean he feels tomorrow.'",
+        "alone": "Celeste's response to Pruitt's statement — 'let's see how clean he feels tomorrow' — confirmed she had known his ledger presence and had considered his hypocrisy notable. The statement had elevated the stakes.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Celeste's 'let's see how clean he feels tomorrow' response and the ledger's disappearance that night together confirm the killing had been triggered by Pruitt's public statement — the hypocrisy had been the specific threat that had made the ledger's survival intolerable for him."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Pruitt on Basin Street",
+        "text": "A Navy shore patrol officer confirms he had seen a man in civilian dress matching Pruitt's description and known physical characteristics leaving from the direction of Celeste's establishment at approximately ten-thirty PM. The officer had not stopped him — civilians leaving Storyville establishments on the last night had been expected. He had noted the man because he had seemed hurried and had been carrying something flat under his coat, approximately the size of a ledger.",
+        "alone": "A shore patrol officer had seen a man matching Pruitt's description leaving hurriedly at ten-thirty PM carrying something flat under his coat — approximately ledger-sized.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The composed decanter replacement suggesting Pruitt had been deliberate and the shore patrol's account of him leaving hurriedly together confirm a killing that had been planned but had been followed by anxiety — deliberate in the act, hurried in the departure."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "physical",
+        "icon": "🏛️",
+        "heading": "Pruitt's Knowledge of the Parlour",
+        "text": "The two employees confirmed Pruitt had been a regular visitor for eight years. He had known the parlour's layout including the side table's position and the decanter's usual placement. He had known the writing room's location and the ledger's storage. His familiarity with the establishment's interior had been extensive — sufficient to move through it confidently in the dark or by candlelight.",
+        "alone": "Pruitt had been a regular for eight years — he had known the parlour's layout, the decanter's position, and the writing room where the ledger was kept.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Pruitt's eight-year familiarity with the parlour's layout and the shore patrol's account of him leaving with something ledger-sized together confirm both the knowledge and the departure — he had known where everything was and had left with what he had come for."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Dolores Vance's Evening",
+        "text": "Dolores Vance had been at her own establishment managing the closure process — removing items of value, settling accounts with her employees, and meeting with her lawyer — confirmed by her lawyer who had been present from eight PM until after midnight and by three employees. She had not been at Celeste's. She is definitively cleared.",
+        "alone": "Dolores had been at her own establishment managing the closure confirmed by her lawyer and three employees — she had not been at Celeste's during the window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Clarence cleared at the Mahogany Hall and Dolores cleared at her own establishment together eliminate both other suspects — Pruitt's Basin Street departure with a ledger-sized object is the only confirmed movement consistent with the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Storyville's End and the Ledger",
+        "text": "Storyville had been formally closed on November 12th, 1917. The district had never reopened. Alderman James Pruitt had been arrested in December 1917 based on the shore patrol officer's account and the employees' testimony about the ledger's contents. He had received three years for manslaughter. The ledger had not been recovered. His political career had ended with the arrest. The employees he had targeted had relocated throughout Louisiana and had never been publicly named. The jazz musicians who had played in Storyville had dispersed — many to Chicago, beginning what would become known as the Great Migration of jazz northward.",
+        "alone": "Pruitt had received three years. The ledger had not been recovered. The jazz musicians had dispersed — many to Chicago, beginning jazz's northward migration.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Celeste's 'let's see how clean he feels tomorrow' and Pruitt's three years for manslaughter together confirm the specific irony — the man who had declared Storyville a stain had killed to remove his own name from its record and had been convicted anyway."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Alderman James Pruitt",
+      "location": "The Parlour",
+      "weapon": "Crystal Decanter"
+    },
+    "epilogue": "Alderman James Pruitt had known the parlour for eight years. He had known where the decanter was. He had been deliberate enough to replace it after use. He had been hurried enough that a shore patrol officer had noted his departure. He had carried the ledger under his coat. He had received three years for manslaughter. The ledger had not been recovered. The jazz musicians had gone north. Storyville had closed. The district had never reopened. Pruitt's statement — 'a stain on the moral character of any man who has had commerce with it' — is in the November 11th Times-Picayune. His conviction is in the December 1917 court record. His name is in both."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #141",
+    "title": "Last Night",
+    "setting": "Basin Street Establishment · Storyville · New Orleans · November 12th, 1917",
+    "emoji": "🎺",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Pruitt killed Celeste and took the ledger. But Clarence Tureaud had known about the ledger for years and had taken his own precaution. Find what he had done.",
+    "emptyState": "Clarence knew about the ledger and had taken a precaution. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Alderman James Pruitt",
+            "icon": "🏛️",
+            "detail": "The killer — eight years familiarity, decanter replaced, shore patrol sighting, three years, ledger unrecovered."
+          },
+          {
+            "name": "Clarence Tureaud",
+            "icon": "🎸",
+            "detail": "Cleared as killer — Mahogany Hall confirmed. Had known about the ledger for years and had taken a specific precaution."
+          },
+          {
+            "name": "Dolores Vance",
+            "icon": "💼",
+            "detail": "Cleared as killer — own establishment confirmed. Her knowledge of Storyville's closure is the thread."
+          },
+          {
+            "name": "Clarence's Precaution",
+            "icon": "🎸",
+            "detail": "What he had done with his knowledge of the ledger — and its eventual significance."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "🎺",
+            "detail": "Primary crime scene — Pruitt's killing."
+          },
+          {
+            "name": "The Mahogany Hall",
+            "icon": "🎸",
+            "detail": "Clarence's confirmed location — and where his precaution had been initiated."
+          },
+          {
+            "name": "A New Orleans Law Office",
+            "icon": "📋",
+            "detail": "Where Clarence had deposited his precaution — and what it had contained."
+          },
+          {
+            "name": "The New Orleans Jazz Archive",
+            "icon": "🎺",
+            "detail": "Where Clarence's account had eventually been held — and its relationship to the ledger's absence."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Pruitt's composed replacement."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📋",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Clarence's Written Precaution",
+            "icon": "🎸",
+            "detail": "Not a weapon — the document he had deposited and what it had contained."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove His Name From the Ledger Before Storyville Closed",
+            "icon": "🏛️",
+            "detail": "Pruitt's motive — three years, ledger unrecovered."
+          },
+          {
+            "name": "Protect Celeste's Legacy and His Own Witness Account",
+            "icon": "🎸",
+            "detail": "Clarence's purpose — what he had deposited and why."
+          },
+          {
+            "name": "What Clarence Had Known About the Ledger",
+            "icon": "🎸",
+            "detail": "His specific knowledge — and what had made him take the precaution."
+          },
+          {
+            "name": "When Clarence Had Deposited His Precaution",
+            "icon": "📋",
+            "detail": "The timing — before or after the killing, and what it had contained."
+          },
+          {
+            "name": "The Precaution's Eventual Use",
+            "icon": "🎺",
+            "detail": "What had been done with Clarence's deposited account — and when."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🎸",
+        "heading": "What Clarence Had Known",
+        "text": "Clarence Tureaud's account — given to Alan Lomax during a 1938 Library of Congress field recording session in New Orleans: 'Celeste kept that ledger like it was the deed to the city. Which in a way it was. I knew what was in it. She'd told me some of the names when she'd had bourbon and was feeling philosophical. I knew Pruitt was in it, page after page, going back years. When he made that statement about the stain I knew what was going to happen. I went to my lawyer the morning of November 12th. I told him what I knew and I gave him a written account of what Celeste had told me. I said: hold this.'",
+        "alone": "Clarence had gone to his lawyer on the morning of November 12th — the day of the closure — and had deposited a written account of what Celeste had told him about the ledger's contents.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Clarence depositing the account on the morning of the closure and the killing occurring that evening together confirm the precaution had been taken the same day as the killing — Clarence had anticipated what might happen before it had."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "What the Deposited Account Had Contained",
+        "text": "The deposited account — provided by Clarence's lawyer to the New Orleans police following Pruitt's arrest in December 1917 — had contained: a description of Celeste's ledger system, a list of approximately forty names that Celeste had mentioned to Clarence over the years, and Pruitt's name with an account of what Celeste had specifically said about him. The account had been used as corroborating evidence in the prosecution — it had provided the context for the employees' testimony about the ledger's contents.",
+        "alone": "Clarence's account had corroborated the employees' testimony in the prosecution — approximately forty names and specific detail about Pruitt from Celeste's own conversations.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Clarence's account corroborating the employees' testimony and Pruitt receiving three years together confirm the precaution had been operationally useful — the prosecution had been supported by the document Clarence had deposited hours before the killing."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Clarence's Account in the Lomax Recording",
+        "text": "Alan Lomax had recorded Clarence Tureaud in 1938 as part of the Library of Congress's American folk music and oral history project. The recording had captured Clarence's account of the Storyville period, the closure night, Celeste's death, and his own precaution. The recording had been archived at the Library of Congress. In 1985 the New Orleans Jazz Archive had identified it as significant oral history and had obtained a copy. The recording is in both archives.",
+        "alone": "Clarence's 1938 Lomax recording is in the Library of Congress and the New Orleans Jazz Archive — his account of Storyville's last night captured on the same recording as his musical performance.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Clarence's account recorded in 1938 and held in two archives together confirm the oral history had survived in the same way his music had — recorded and preserved for a future audience."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Jazz Diaspora and Storyville's Legacy",
+        "text": "The musicians who had played in Storyville had left New Orleans following the 1917 closure — many heading north to Chicago and New York, bringing jazz with them. The Great Migration of Black Americans northward had carried jazz to audiences who had transformed it and been transformed by it. Clarence Tureaud had been among those who had eventually left — he had gone to Chicago in 1921, where he had played until his death in 1951. His music is in the Library of Congress. His account of Storyville's last night is with it.",
+        "alone": "Clarence had gone to Chicago in 1921 and had played until his death in 1951. His music and his Storyville account are in the Library of Congress — the jazz diaspora's human and documentary record.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Clarence's music in the Library of Congress and the jazz diaspora's northward movement together confirm the closing of Storyville had produced both a crime and a cultural migration — both were in the archive."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "Why Clarence Had Taken the Precaution",
+        "text": "From the 1938 Lomax recording: 'I took the precaution because I'd seen what happened to women like Celeste when men like Pruitt got scared. Scared men do things. I couldn't stop what was going to happen because I was at the Hall playing. So I did what I could do that morning. I put the account with the lawyer. I told myself: if something happens to Celeste tonight, at least Pruitt doesn't just walk away. That was all I could do from where I was.'",
+        "alone": "Clarence had understood the risk and had done what he could do from where he was going to be — the precaution had been taken in the morning, the killing had occurred in the evening, and the precaution had worked.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Clarence doing what he could from where he was and the precaution working in the prosecution together confirm the specific geometry of his action — he had anticipated the risk, had taken the available precaution, and had been playing music when the risk had materialized."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Storyville's Absence From Official History",
+        "text": "Storyville has been studied extensively by historians of American music, urban history, and social history. The district's closure in 1917 is understood as a significant moment in American cultural history — the beginning of jazz's northward diaspora. Celeste Beaumont is not named in most accounts of Storyville — the district's madams have generally been underrepresented in the official historical record. The New Orleans Jazz Archive's oral history collection includes accounts from musicians who had played in Storyville. Clarence Tureaud's 1938 recording is among them.",
+        "alone": "Celeste is largely absent from the historical record. The musicians are better documented. Clarence's recording preserves both his music and his account of the last night.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Celeste absent from most historical accounts and Clarence's recording preserving his account of the last night together confirm the oral history's specific value — it had preserved what the official record had not."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎸",
+        "heading": "Clarence's Legacy",
+        "text": "Clarence Tureaud's music — recorded during the Lomax sessions and on later Chicago recordings — is in the Library of Congress American Folklife Center and the New Orleans Jazz Archive. His 1938 oral account of Storyville is in both institutions. His account of Celeste Beaumont is the most detailed personal account of the last night of Storyville by someone who had been there. He had died in Chicago in 1951. He had been eighty-three years old. He had played jazz for sixty years.",
+        "alone": "Clarence's account of Celeste is the most detailed personal account of Storyville's last night by someone present. He played jazz for sixty years and died in Chicago in 1951.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Clarence's sixty years of jazz and his account of Celeste's last night together confirm the full human record — a musician who had documented his world through music and through words, both in the same archive."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Basin Street and After",
+        "text": "Basin Street in New Orleans no longer exists as Storyville — the district was demolished in the 1930s to build a public housing project. The Mahogany Hall no longer stands. The street has been reconfigured. The jazz that began in Storyville's parlours and establishments has traveled the world. Celeste Beaumont's ledger has not been found. Pruitt's name is in the December 1917 court record. Celeste's name is not in any memorial. The New Orleans Jazz Archive holds Clarence Tureaud's account of her and of the night she died. Basin Street is there in its modern form. The jazz is everywhere.",
+        "alone": "The district is gone. The ledger is not found. Pruitt is in the court record. Celeste is not in any memorial. The jazz is everywhere. Clarence's account of her last night is in the archive.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Celeste absent from the historical record and Clarence's account in the archive together confirm the oral history's preservation role — without the 1938 recording, Celeste's specific story would have been entirely absent from the record. With it, she is present in the archive, in Clarence's voice."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Alderman James Pruitt",
+      "location": "The Parlour",
+      "weapon": "Crystal Decanter",
+      "motive": "Remove His Name From the Ledger Before Storyville Closed"
+    },
+    "epilogue": "Clarence had gone to his lawyer on the morning of November 12th and had deposited the account of what Celeste had told him. He had gone to the Mahogany Hall to play. The killing had occurred. His account had been used in the prosecution. Pruitt had received three years. The ledger had not been found. Clarence had gone to Chicago in 1921. He had played jazz until his death in 1951 at eighty-three. In 1938 he had told Alan Lomax: 'I did what I could do from where I was.' The recording is in the Library of Congress. The New Orleans Jazz Archive has a copy. Celeste is in it, in Clarence's voice. The jazz is everywhere. The ledger is not found."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #141",
+    "title": "Last Night",
+    "setting": "Basin Street Establishment · Storyville · New Orleans · November 12th, 1917",
+    "emoji": "🎺",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Pruitt killed Celeste. Clarence had deposited his precaution. But Dolores Vance had known Celeste for twenty years and had been the last person to see her alive before the killing. Find what Dolores knew and what she did with it.",
+    "emptyState": "Dolores was the last person to see Celeste alive. Find what she knew and what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Alderman James Pruitt",
+            "icon": "🏛️",
+            "detail": "The killer — eight years, decanter, shore patrol, three years, ledger gone."
+          },
+          {
+            "name": "Clarence Tureaud",
+            "icon": "🎸",
+            "detail": "Cleared as killer — Mahogany Hall confirmed. Lawyer precaution, Lomax recording 1938, Chicago 1921, died 1951."
+          },
+          {
+            "name": "Dolores Vance",
+            "icon": "💼",
+            "detail": "Cleared as killer — own establishment confirmed. Had visited Celeste that evening and had been the last to see her alive."
+          },
+          {
+            "name": "Dolores's Knowledge of Pruitt",
+            "icon": "💼",
+            "detail": "What Dolores had known about Pruitt and what she had done with that knowledge after Celeste's death."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Parlour",
+            "icon": "🎺",
+            "detail": "Primary crime scene — and where Dolores had been with Celeste before the killing."
+          },
+          {
+            "name": "Celeste's Establishment",
+            "icon": "🏠",
+            "detail": "Where Dolores had visited — and what the two women had discussed."
+          },
+          {
+            "name": "Dolores's Post-Closure Life",
+            "icon": "💼",
+            "detail": "Where Dolores had gone after Storyville — and how her knowledge of Pruitt had eventually been used."
+          },
+          {
+            "name": "The Louisiana State Courts",
+            "icon": "🏛️",
+            "detail": "Where Dolores had given testimony — and what she had said about Pruitt's visits to Celeste's establishment."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Crystal Decanter",
+            "icon": "🥃",
+            "detail": "Confirmed murder weapon — Pruitt's."
+          },
+          {
+            "name": "Ledger Spine",
+            "icon": "📋",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Fireplace Poker",
+            "icon": "🔥",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Dolores's Testimony",
+            "icon": "💼",
+            "detail": "Not a weapon — her witness account and what it had contributed to the prosecution."
+          },
+          {
+            "name": "Dolores's Knowledge of Pruitt's December Visit",
+            "icon": "💼",
+            "detail": "Not a weapon — the specific evidence she had provided that the shore patrol and employees had not."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove His Name From the Ledger",
+            "icon": "🏛️",
+            "detail": "Pruitt's motive — three years."
+          },
+          {
+            "name": "Deposit the Protective Precaution",
+            "icon": "🎸",
+            "detail": "Clarence's morning action — Lomax 1938, Chicago, died 1951."
+          },
+          {
+            "name": "Bear Witness to What She Had Seen and Known",
+            "icon": "💼",
+            "detail": "Dolores's post-killing role — her testimony and what she had provided."
+          },
+          {
+            "name": "What Dolores Had Seen During Her Visit to Celeste",
+            "icon": "💼",
+            "detail": "The specific observation — who had been there or who had been expected."
+          },
+          {
+            "name": "Dolores's Life After Storyville",
+            "icon": "💼",
+            "detail": "What had happened to her — and how her testimony had affected her position."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Celeste and Took the Ledger",
+            "icon": "🏛️",
+            "detail": "Pruitt's confirmed role — three years."
+          },
+          {
+            "name": "Deposited the Protective Account With His Lawyer",
+            "icon": "🎸",
+            "detail": "Clarence's morning precaution — corroborating evidence in prosecution."
+          },
+          {
+            "name": "Visited Celeste That Evening and Testified About What She Had Seen",
+            "icon": "💼",
+            "detail": "Dolores's role — the last person to see Celeste alive, key trial witness."
+          },
+          {
+            "name": "Maintained the Client Records That Had Made the Ledger Dangerous",
+            "icon": "📋",
+            "detail": "Celeste's foundational role — twelve years of records, gone."
+          },
+          {
+            "name": "Noted the Hurried Departure With the Ledger-Sized Object",
+            "icon": "🏛️",
+            "detail": "The shore patrol officer's evidentiary role."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "💼",
+        "heading": "Dolores's Visit to Celeste",
+        "text": "Dolores Vance's trial testimony, December 1917: 'I went to Celeste's at seven PM to say goodbye. We had been in this business together for twenty years. I wanted to see her before it ended. We had bourbon. We talked about where we were going. She said she had one more thing to handle and then she was done. I asked what that was. She said: Pruitt's coming at nine. He thinks he can buy the ledger from me. She smiled when she said it. I left at eight-thirty. I did not know I was the last to see her alive.'",
+        "alone": "Celeste had told Dolores that Pruitt was coming at nine to buy the ledger — she had smiled when she had said it. Dolores had left at eight-thirty, the last to see Celeste alive.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Celeste knowing Pruitt was coming at nine to buy the ledger and smiling about it together confirm she had not anticipated violence — she had expected a negotiation, and the smile had suggested she had not intended to sell."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What Celeste Had Intended",
+        "text": "Dolores's testimony continues: 'Celeste wasn't going to sell the ledger to Pruitt. That was the joke. She was going to let him make an offer and then tell him the price was too high. She'd told me years before that the ledger was her insurance — not for money, but because of what it represented. She wasn't going to let Pruitt buy his way clean on the last night. That wasn't the kind of woman she was. She was going to make him sit with it.'",
+        "alone": "Celeste had not intended to sell the ledger — she had intended to refuse Pruitt's offer and let him sit with what he had done. The killing had been his response to the refusal.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Celeste intending to refuse and Pruitt killing her when she had confirmed the refusal together confirm the killing had been the response to a negotiation that had not gone as Pruitt had planned — not a pre-planned murder but a negotiation that had escalated."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "💼",
+        "heading": "Dolores's Post-Storyville Life",
+        "text": "Dolores Vance had closed her establishment on November 12th, 1917, and had left the sex trade. She had opened a boarding house in the Garden District and had lived there until her death in 1943. She had been a key prosecution witness in Pruitt's trial and had given the most specific account of his planned visit — information that had been essential to establishing premeditation. Her testimony had been decisive in securing the three-year conviction rather than a lesser charge.",
+        "alone": "Dolores's testimony about Pruitt's nine PM planned visit had been decisive in establishing premeditation — the difference between the three-year conviction and a lesser charge.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Dolores's testimony establishing premeditation and Clarence's account corroborating the ledger's contents together confirm the two pieces of evidence had been complementary — Clarence had established the motive's existence and Dolores had established the planned visit that had constituted premeditation."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "💼",
+        "heading": "The Three Witnesses' Combined Evidence",
+        "text": "Three people had provided evidence that had together made the prosecution: The shore patrol officer had placed Pruitt leaving with a ledger-sized object. Celeste's employees had described the ledger's contents including Pruitt's name. Clarence's deposited account had corroborated the ledger's existence and Pruitt's presence in it. Dolores's testimony had established the planned nine PM meeting and had provided evidence of premeditation. Without all four, the case would have been more difficult. With all four, Pruitt had been convicted.",
+        "alone": "Four witnesses, each providing a different element — departure, contents, corroboration, premeditation. All four had been necessary for the conviction.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four witnesses together producing the conviction and the ledger still unrecovered together confirm the full picture — the prosecution had been built from the testimonies of people who had known Celeste, not from the document that had been taken."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Celeste's Smile",
+        "text": "The detail that had stayed with Dolores: 'She smiled when she said it. I've thought about that smile every year since. She knew Pruitt was coming. She knew he was going to offer money. She wasn't afraid of him. She wasn't afraid. The smile was because she had the power and she knew it. She had twelve years of his visits in that book. She was going to let him offer and then show him the door. She wasn't afraid. She should have been. I should have warned her. I didn't know.'",
+        "alone": "Dolores had thought about Celeste's smile every year since — the confidence that had not anticipated violence from a man who had not expected refusal.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Celeste's unafraid smile and the killing that had followed together confirm the tragedy's specific shape — the confidence had been real and had been her undoing, and the violence had been the response of a man who had expected to buy his way clear and had not been able to."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "💼",
+        "heading": "What Dolores Had Done After",
+        "text": "Dolores had gone to the police on the morning of November 13th — hours after the body had been found — and had given her account of the seven PM visit and the nine PM planned meeting. She had not been asked to testify; she had volunteered. She had told the police: 'I know who killed her and I know why. Write it down.' The police had written it down. The account had become the prosecution's premeditation evidence.",
+        "alone": "Dolores had volunteered her account on the morning after — 'I know who killed her and I know why. Write it down.' Her proactive testimony had been the premeditation evidence.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Dolores volunteering the account immediately and Celeste's smile that Dolores had thought about every year together confirm the full weight of the morning testimony — she had given it knowing it would be the difference in the prosecution, carrying the image of the smile that had not anticipated what had come."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "The Last Night's Human Record",
+        "text": "The last night of Storyville has been documented by historians, musicians, and oral history collectors. The dominant account is of the jazz — the final performances at the Mahogany Hall and other establishments, the musicians who had dispersed northward and changed American music. The human account of Celeste Beaumont's death is less prominent. It is in the December 1917 court record. It is in Clarence Tureaud's 1938 Library of Congress recording. It is in Dolores Vance's trial testimony. It is in the shore patrol officer's report. Four records of the same night, each preserving a different element.",
+        "alone": "Four records of the same night — court record, oral history, trial testimony, patrol report. Each preserving a different element of what had happened.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four records of the night and the jazz dispersal northward together confirm the full historical picture — the music's migration and the human story of its origin's last night, both in the record, both preserved by different means."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎺",
+        "heading": "Basin Street and the Music",
+        "text": "Storyville no longer exists. The Mahogany Hall no longer stands. The Basin Street establishments were demolished in the 1930s. The jazz that began in Storyville's parlours has traveled the world. It is in concert halls in Tokyo and São Paulo and Vienna. It is in the Library of Congress and the New Orleans Jazz Archive and the Institute for Jazz Studies at Rutgers. It is on recordings made by Alan Lomax and others. Celeste Beaumont's name is in the December 1917 court record and in Clarence Tureaud's 1938 recording and in Dolores Vance's trial testimony. The ledger is not found. The jazz is everywhere. Dolores thought about the smile every year until she died in 1943. Clarence played until 1951. The music went on.",
+        "alone": "The ledger is not found. The jazz is everywhere. Celeste is in three records. Dolores thought about the smile until she died. The music went on.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Four records of the last night and the jazz everywhere together confirm the final element — what had been lost and what had survived from the night Storyville ended. The ledger gone, the music gone northward and everywhere, Celeste in the record through the people who had known her."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Alderman James Pruitt",
+      "location": "The Parlour",
+      "weapon": "Crystal Decanter",
+      "motive": "Remove His Name From the Ledger Before Storyville Closed",
+      "accomplice": "Deposited the Protective Account With His Lawyer"
+    },
+    "epilogue": "Celeste had smiled when she had told Dolores that Pruitt was coming at nine. She had intended to refuse his offer. She had not been afraid. Dolores had left at eight-thirty and had thought about the smile every year until her death in 1943. She had volunteered her account to the police on the morning of the thirteenth. 'I know who killed her and I know why. Write it down.' Four witnesses had built the prosecution. Pruitt had received three years. The ledger had not been found. Clarence had played at the Mahogany Hall, had gone to his lawyer that morning, had gone to Chicago in 1921, had talked to Alan Lomax in 1938, and had died in 1951. The jazz is everywhere. The smile is in the record. The music went on."
+  }
+}

@@ -1,0 +1,779 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Hiroshima, August 6th 1945. 8:15 AM. The bomb falls. In the chaos that follows, a Japanese civil servant is dead at the relief coordination office. And a survivor's account that changes what the world will know about that morning. ☮️🔍 Case #140 — Eight-Fifteen. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Hiroshima August 6 1945 the day of the bomb, a civil servant dead in the chaos, and a survivor's testimony that someone needed not to reach the outside world. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The interior of an emergency relief coordination point in Hiroshima on August 6th 1945, several hours after the bomb, a damaged civic building with broken windows and fallen plaster, a Japanese civil servant's documents on the floor beside a survivor's written testimony in Japanese characters, a Red Cross armband on the floor, dust and ash through the windows with the destroyed city beyond. Historical gravity and human cost. Style of Yōsuke Yamahata's Hiroshima photography, handled with extreme care and restraint.",
+    "animationPrompt": "Slow pan through a damaged Hiroshima civic building several hours after the August 6th 1945 bombing. Broken windows. Fallen plaster. A civil servant's documents on the floor. A survivor's written testimony in Japanese. A Red Cross armband. Dust and ash through the windows. The city beyond. History at its most consequential moment. Fade to black.",
+    "hashtags": [
+      "#Hiroshima",
+      "#August61945",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #140",
+    "title": "Eight-Fifteen",
+    "setting": "Relief Coordination Office · Hiroshima · Japan · August 6th, 1945",
+    "emoji": "☮️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Civil servant Taro Yamada was found dead at the emergency relief coordination office established in the hours after the bombing of Hiroshima. He had been collecting and organizing survivor testimonies — written accounts of where people had been when the bomb had fallen and what they had experienced. One testimony, from a survivor who had been present at a specific military installation, contained information that would have been significant for understanding the bomb's targeting. Three people had been at the coordination office. The testimony was missing.",
+    "emptyState": "August 6th 1945. The city is destroyed. One testimony is gone. Find who took it in the chaos.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Kenji Sato",
+            "icon": "🎖️",
+            "detail": "A Japanese Army officer — had been assigned to the relief coordination as a military liaison and had known the military installation mentioned in the missing testimony."
+          },
+          {
+            "name": "Dr. Hana Mori",
+            "icon": "🏥",
+            "detail": "A Japanese Red Cross physician — had been treating survivors at the coordination point and had been the person who had collected the specific testimony before Yamada had catalogued it."
+          },
+          {
+            "name": "Nurse Yuki Tanaka",
+            "icon": "📋",
+            "detail": "A relief nurse — had been assisting with survivor registration and had been present when the testimony had been collected."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Coordination Office",
+            "icon": "☮️",
+            "detail": "Where Yamada was found — documents on floor, testimony missing, Red Cross armband nearby."
+          },
+          {
+            "name": "The Survivor Registration Area",
+            "icon": "📋",
+            "detail": "Where testimonies had been collected from those arriving at the coordination point."
+          },
+          {
+            "name": "The Office's Side Room",
+            "icon": "🚪",
+            "detail": "An adjacent space used for confidential interviews — where the specific testimony had been taken."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Document Binder Spine",
+            "icon": "📋",
+            "detail": "A heavy metal spine from an official binder — blunt force wound consistent with its edge."
+          },
+          {
+            "name": "Medical Kit Case",
+            "icon": "🏥",
+            "detail": "No wound profile — the kit too broad for the wound's specific edge."
+          },
+          {
+            "name": "Fallen Ceiling Beam Fragment",
+            "icon": "🏛️",
+            "detail": "No blood trace on any recovered fragments — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Testimony",
+        "text": "Yamada's registration log — partially surviving — shows he had received and numbered seventeen testimonies that day. Testimony number eleven, logged at approximately two PM, had been from a survivor identified only by registration number and age. The log's brief description noted: 'witness present at [facility designation] at time of detonation — specific observations regarding impact characteristics from that location.' The facility designation had been partially obscured in the surviving log but was consistent with a specific military installation outside the city's civilian center.",
+        "alone": "The missing testimony had been from a survivor at a specific military installation — their observations of the bomb's impact from that location had been the testimony's significant content.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The testimony from a military installation survivor and Lieutenant Sato's specific assignment to monitor relief activities near military-adjacent sites together establish his institutional interest in any testimony describing military installation damage."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "📋",
+        "heading": "The Binder Spine",
+        "text": "A heavy metal binder spine — separated from its covers — shows blood on its edge. Yamada's wound is consistent with the spine's edge used against his right temple while he had been seated cataloguing documents. The spine had been from an official civil administration binder. The approach had been from the side, from the direction of the office's side room door, which opened to the right of the cataloguing desk.",
+        "alone": "Yamada had been struck from the right — from the direction of the side room door where the specific testimony had been collected. The killer had come from that direction.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The blow from the side room door direction and Lieutenant Sato's confirmed presence in the side room during the specific testimony's collection together establish the specific spatial position the blow's angle had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏥",
+        "heading": "Dr. Mori's Position",
+        "text": "Dr. Hana Mori had been treating a critically injured survivor in the coordination office's main treatment area from approximately one PM — confirmed by two nurses and by the survivor's treatment record, which showed continuous medical attention until three PM when the patient had been transferred. She had not been in the cataloguing area or the side room during the relevant window. She is definitively cleared.",
+        "alone": "Dr. Mori had been treating a critical patient confirmed by two nurses and the treatment record — she had not been in the cataloguing area during the window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Dr. Mori cleared at the treatment area and Nurse Tanaka confirmed at the survivor registration desk together eliminate both other suspects from the side room direction — only Sato's movements between the side room and the cataloguing area are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Sato's Military Monitoring Role",
+        "text": "Japanese Army records — captured by Allied forces after the surrender and subsequently analyzed — show Lieutenant Sato had been assigned to the relief coordination with a secondary intelligence function: 'Monitor all civilian testimony collection for references to military installations, defensive positions, or technical observations that may be of intelligence or military sensitivity.' His brief had explicitly included intervention authority: 'Remove from civilian record any testimony of military sensitivity and transmit to military intelligence.'",
+        "alone": "Sato had official authority to remove militarily sensitive testimonies from the civilian record — the missing testimony had been precisely within the scope of his intervention authority.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Sato's official removal authority and the testimony's description of military installation observations together confirm the removal had been within his operational mandate — the killing had been the enforcement of a sanctioned function through an unsanctioned method."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Sato in the Side Room",
+        "text": "Nurse Tanaka confirms she had seen Lieutenant Sato enter the side room while the specific testimony had been being collected — he had said he was providing military liaison support for the interview. He had remained in the side room when Dr. Mori had emerged. He had still been in the side room when Yamada had gone to the cataloguing area with the testimony. He had emerged approximately twenty minutes later. Yamada had been found shortly after.",
+        "alone": "Sato had been in the side room during the testimony's collection and had emerged approximately twenty minutes after Yamada had gone to catalogue it — the timing consistent with a confrontation over the document.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The blow from the side room door direction and Sato confirmed as the last person to emerge from that room before the body's discovery together confirm the specific movement pattern — from the side room, across to the cataloguing desk, from the right."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Testimony's Subject Matter",
+        "text": "Post-war analysis of the missing testimony's registration log entry — conducted by historians examining the Hiroshima documentation record in the 1990s — had identified the likely facility designation as consistent with the Hiroshima Army Ordnance Supply Depot, which had been within the bomb's significant damage radius. A survivor at that location would have been able to describe the weapon's effects on a military-industrial target — information relevant to the American bomb assessment and to Japan's understanding of the weapon's precision.",
+        "alone": "The testimony had likely described the weapon's effects on a military-industrial target — relevant to both Allied bomb assessment and Japanese military understanding of what had been used.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Sato's authority to remove militarily sensitive testimonies and the testimony describing military-industrial target effects together confirm the testimony's removal had been operationally justified by his mandate — the killing had been the additional step his mandate had not authorized."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Nurse Tanaka's Account",
+        "text": "Nurse Yuki Tanaka had been at the survivor registration desk from noon until the body's discovery — confirmed by the registration log's entries in her handwriting throughout the period and by Dr. Mori's confirmation that Tanaka had been visible from the treatment area. She had not been in the cataloguing area or the side room. She is definitively cleared.",
+        "alone": "Tanaka had been at the registration desk confirmed by her handwriting entries and Dr. Mori's observation — she had not been in the relevant areas. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Dr. Mori cleared at treatment and Tanaka cleared at registration together eliminate both other suspects — Sato's side room presence and emergence timing are the only confirmed suspect movements at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Testimony and Hiroshima's Record",
+        "text": "The Hiroshima survivor testimony collection — begun on August 6th and continued for decades — has produced one of the most extensive records of atomic bombing effects on human experience in history. Testimony eleven from August 6th is absent from the collection. Its absence has been noted in the scholarly literature since 1978 when the collection was first comprehensively catalogued. The registration log entry confirming its collection and Yamada's death on the same afternoon are the only evidence of its existence. Lieutenant Kenji Sato had been captured by Allied forces in September 1945. His military records noted the Hiroshima liaison assignment. He had died in American custody in October 1945 from injuries sustained in the war.",
+        "alone": "Testimony eleven is absent from the Hiroshima collection — its gap noted since 1978. Sato had died in American custody in October 1945. The testimony's content is unknown.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The testimony's absence from the collection and Sato's death before any post-war accounting together confirm the permanent gap — the testimony's content is unknown, the person who had taken it died before it could be recovered, and the registration log entry is the only trace of what had existed."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Kenji Sato",
+      "location": "The Coordination Office",
+      "weapon": "Document Binder Spine"
+    },
+    "epilogue": "Lieutenant Kenji Sato had been in the side room during the testimony's collection. He had emerged and had crossed to the cataloguing area where Yamada had been working. He had used the binder spine. He had taken testimony eleven. He had been captured by Allied forces in September 1945 and had died in American custody in October 1945. The testimony is absent from the Hiroshima collection. Its absence has been noted in the scholarly literature since 1978. The registration log entry is the only evidence of its existence. The Hiroshima survivor testimony collection is one of the most significant historical records of the twentieth century. Testimony eleven is a gap in it. The gap is also part of the record."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #140",
+    "title": "Eight-Fifteen",
+    "setting": "Relief Coordination Office · Hiroshima · Japan · August 6th, 1945",
+    "emoji": "☮️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Sato killed Yamada and took the testimony. But Nurse Tanaka had heard part of the testimony being given — find what she had heard and what she eventually did with it.",
+    "emptyState": "Tanaka heard part of the testimony through the side room wall. Find what she heard and what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Kenji Sato",
+            "icon": "🎖️",
+            "detail": "The killer — side room presence, binder spine, testimony taken, died American custody October 1945."
+          },
+          {
+            "name": "Dr. Hana Mori",
+            "icon": "🏥",
+            "detail": "Cleared as killer — treatment area confirmed. Her post-war documentation work is the new thread."
+          },
+          {
+            "name": "Nurse Yuki Tanaka",
+            "icon": "📋",
+            "detail": "Cleared as killer — registration desk confirmed. Had heard part of the testimony through the side room wall."
+          },
+          {
+            "name": "Tanaka's Partial Memory of the Testimony",
+            "icon": "📋",
+            "detail": "What she had heard and what she had done with it across the following decades."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Coordination Office",
+            "icon": "☮️",
+            "detail": "Primary crime scene — Sato's killing."
+          },
+          {
+            "name": "The Survivor Registration Desk",
+            "icon": "📋",
+            "detail": "Tanaka's confirmed position — from which she had been able to hear the side room."
+          },
+          {
+            "name": "Tanaka's Home in Hiroshima",
+            "icon": "🏠",
+            "detail": "Where she had lived after the war — and where she had kept her account."
+          },
+          {
+            "name": "The Hiroshima Peace Memorial Museum",
+            "icon": "☮️",
+            "detail": "Where Tanaka's account had eventually been given — and its relationship to testimony eleven's absence."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Document Binder Spine",
+            "icon": "📋",
+            "detail": "Confirmed murder weapon — Sato's side room approach."
+          },
+          {
+            "name": "Medical Kit Case",
+            "icon": "🏥",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Fallen Ceiling Beam Fragment",
+            "icon": "🏛️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Tanaka's Partial Memory Account",
+            "icon": "📋",
+            "detail": "Not a weapon — what she had heard through the wall and what she had preserved."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove Militarily Sensitive Testimony",
+            "icon": "🎖️",
+            "detail": "Sato's operational motive — testimony taken, died October 1945."
+          },
+          {
+            "name": "Preserve the Survivor's Account Through Memory",
+            "icon": "📋",
+            "detail": "Tanaka's post-war purpose — what she had heard and what she had eventually done."
+          },
+          {
+            "name": "What Tanaka Had Heard Through the Wall",
+            "icon": "📋",
+            "detail": "The specific audible content — and how complete her partial account had been."
+          },
+          {
+            "name": "Tanaka's Decision About When to Give the Account",
+            "icon": "📋",
+            "detail": "When and why she had eventually donated her memory account to the museum."
+          },
+          {
+            "name": "The Museum's Use of the Account in Relation to the Missing Testimony",
+            "insight": "Not a motive — but the institutional connection."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove Militarily Sensitive Testimony",
+            "icon": "🎖️",
+            "detail": "Sato's operational motive — testimony taken, died October 1945."
+          },
+          {
+            "name": "Preserve What She Had Heard Through Partial Memory",
+            "icon": "📋",
+            "detail": "Tanaka's post-war purpose — giving account when ready."
+          },
+          {
+            "name": "What Tanaka Had Heard Through the Side Room Wall",
+            "icon": "📋",
+            "detail": "The audible content and its completeness."
+          },
+          {
+            "name": "Tanaka's Timing of the Account's Donation",
+            "icon": "📋",
+            "detail": "When she had given the account and why that year specifically."
+          },
+          {
+            "name": "The Absence of Testimony Eleven and Tanaka's Account's Relationship to It",
+            "icon": "☮️",
+            "detail": "Whether her account had partially filled the gap."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "What Tanaka Had Heard",
+        "text": "Yuki Tanaka's account — given to the Hiroshima Peace Memorial Museum in 1995, fifty years after the bombing: 'The side room wall was thin. I was at the registration desk and I could hear the survivor speaking. I heard: the light had come from above and to the east. I heard: the building's structure had collapsed inward. I heard: many people in the yard had fallen immediately. I did not hear the facility's name — the voice dropped there. I heard the word 'depot' and then the voice was too quiet. I kept what I had heard.'",
+        "alone": "Tanaka had heard: light from above and to the east, inward collapse, people falling immediately, and the word 'depot' — partial but directionally significant content from testimony eleven.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Tanaka's partial memory including 'depot' and the scholarly identification of the likely facility as the Hiroshima Army Ordnance Supply Depot together confirm her partial account had been consistent with the testimony's identified subject."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Why Tanaka Had Waited Until 1995",
+        "text": "Tanaka's account explains: 'I kept what I heard for fifty years. For a long time I did not know if it was useful. I knew a man had died and a document had been taken. I was a nurse in the aftermath of the worst day in the history of my city. I had many things to hold. In 1995 the museum was expanding its testimony collection for the fiftieth anniversary. I understood then that the partial account I had carried was better given to an institution than kept privately. I was seventy-three. I went to the museum.'",
+        "alone": "Tanaka had waited until the fiftieth anniversary — seventy-three years old, understanding the partial account was better in an institution than kept privately.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Tanaka waiting until the fiftieth anniversary and the museum expanding its collection at that time together confirm the institutional readiness and the personal timing had converged — 1995 had been the moment when both had been ready."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Museum's Use of Tanaka's Account",
+        "text": "The Hiroshima Peace Memorial Museum had received Tanaka's account and had catalogued it as: 'Partial auditory account of missing testimony eleven, August 6th 1945, provided by relief nurse present at collection. Account addresses: directional observations of detonation effects, structural collapse pattern, and partial facility identification.' The museum had linked it explicitly to testimony eleven's absence in the collection — it had become the closest existing record of what testimony eleven had contained.",
+        "alone": "The museum had catalogued Tanaka's account as the closest existing record of testimony eleven — explicitly linked to the missing testimony in the catalogue.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Tanaka's account catalogued as the closest record of testimony eleven and the testimony still absent from the collection together confirm the partial preservation had been formally acknowledged — the gap and its nearest substitute were both in the catalogue."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "Dr. Mori's Post-War Work",
+        "text": "Dr. Hana Mori had remained in Hiroshima after the war and had been a founding member of the Hiroshima medical community's long-term survivor health study. She had treated hibakusha — atomic bomb survivors — throughout her career. In 1952 she had published a medical account of the August 6th relief coordination day that had included a brief reference to 'a civil servant killed in the confusion' — the only contemporaneous published reference to Yamada's death. She had died in Hiroshima in 1978.",
+        "alone": "Dr. Mori had been the only person to publish a contemporaneous reference to Yamada's death — in a 1952 medical account describing the August 6th relief coordination. She had died in 1978.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Dr. Mori's 1952 reference being the only contemporaneous published account and Tanaka's 1995 oral testimony being the most specific account of the testimony's content together confirm the two women had each preserved a different dimension of the August 6th killing."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Scholarly Assessment of Tanaka's Account",
+        "text": "Historians examining the Hiroshima testimony collection in the late 1990s had assessed Tanaka's partial account alongside the registration log entry. Their assessment: 'The auditory fragments preserved by Tanaka — directional detonation observation from an eastern facility, inward structural collapse, and the word depot — are consistent with an observation point at the Hiroshima Army Ordnance Supply Depot. The account is partial and cannot substitute for the missing testimony but provides directional confirmation of the testimony's probable subject matter.'",
+        "alone": "The scholarly assessment had found Tanaka's account consistent with the depot location — directional confirmation without substitution for the missing testimony.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The museum cataloguing Tanaka's account as the closest record and the scholarly assessment finding it directionally consistent together confirm the account had been given its appropriate standing — partial, honest, and useful without overclaiming."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Hiroshima Testimony Collection's Significance",
+        "text": "The Hiroshima survivor testimony collection held at the Peace Memorial Museum is among the most significant historical archives in the world. It documents the effects of the atomic bombing from the perspectives of those who had survived it. The collection has grown continuously since 1945 and contains tens of thousands of testimonies. Testimony eleven is the only confirmed gap created by human intervention rather than by death, injury, or the chaos of the bombing itself. The gap has been formally documented since 1978.",
+        "alone": "Testimony eleven is the only gap in the Hiroshima collection created by human intervention rather than by the bombing's chaos — formally documented since 1978.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The gap created by human intervention and formally documented since 1978 together confirm the specific nature of this absence — it had been noted as different from the other gaps, which had been created by the bomb. This one had been created by a person."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Tanaka's Life and Testimony",
+        "text": "Yuki Tanaka had worked as a nurse in Hiroshima for forty years after the war. She had been one of the relief workers present on August 6th. She had given her account to the museum in 1995 and had died in Hiroshima in 2001. Her account is in the museum's oral testimony archive. The registration log entry for testimony eleven, Tanaka's partial auditory account, and Dr. Mori's 1952 published reference are the three surviving records of what had existed and been taken on August 6th, 1945.",
+        "alone": "Three surviving records of testimony eleven: Yamada's registration log entry, Tanaka's partial auditory account, and Dr. Mori's 1952 published reference. Tanaka died in Hiroshima in 2001.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The three records of testimony eleven and Tanaka dying in Hiroshima where the testimony had been collected together confirm the full human dimension — she had been present on August 6th, had kept the partial account for fifty years, and had died in the city where it had happened."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "August 6th and Its Memory",
+        "text": "August 6th is commemorated in Hiroshima annually. The Peace Bell rings at 8:15 AM — the moment of the bomb's detonation. The Peace Memorial Museum receives over 1.7 million visitors annually. The survivor testimony collection is one of its core holdings. Taro Yamada is not named in any memorial. Testimony eleven is not in the collection. The gap is formally documented. The three records that confirm its existence are in the museum's archive. The Peace Bell rings at 8:15. Every year. The city rebuilt. The testimony is gone. What remains is the record of what was taken, kept by the people who were there.",
+        "alone": "The Peace Bell rings at 8:15 every year. Testimony eleven is gone. What remains is the record of what was taken, kept by the people who were there. 1.7 million visitors annually.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The three surviving records kept by the people who had been there and the Peace Bell ringing at 8:15 every year together confirm the final image — the commemoration of the moment and the record of what had been taken in the hours that had followed, both present in the same city."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Kenji Sato",
+      "location": "The Coordination Office",
+      "weapon": "Document Binder Spine",
+      "motive": "Remove Militarily Sensitive Testimony"
+    },
+    "epilogue": "Tanaka had heard: light from above and to the east, inward collapse, people falling immediately, and the word depot. She had kept the partial account for fifty years. She had given it to the museum in 1995 at seventy-three. She had died in Hiroshima in 2001. Dr. Mori's 1952 reference had been the only contemporaneous published record of Yamada's death. Three records confirm testimony eleven's existence. Sato had died in American custody in October 1945. Testimony eleven is the only gap in the collection created by human intervention. The Peace Bell rings at 8:15 every year. The testimony is gone. The record of its taking is in the museum's archive."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #140",
+    "title": "Eight-Fifteen",
+    "setting": "Relief Coordination Office · Hiroshima · Japan · August 6th, 1945",
+    "emoji": "☮️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Sato killed Yamada. Tanaka preserved a partial account. But the survivor who had given testimony eleven had also given their name in the registration — and had survived. Find what happened to the survivor.",
+    "emptyState": "The survivor who gave testimony eleven survived the war. Find what happened to them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Lieutenant Kenji Sato",
+            "icon": "🎖️",
+            "detail": "The killer — testimony taken, died October 1945."
+          },
+          {
+            "name": "Nurse Yuki Tanaka",
+            "icon": "📋",
+            "detail": "Cleared as killer — registration desk confirmed. Partial account, 1995 donation, died 2001."
+          },
+          {
+            "name": "Dr. Hana Mori",
+            "icon": "🏥",
+            "detail": "Cleared as killer — treatment area confirmed. 1952 published reference, died 1978."
+          },
+          {
+            "name": "The Survivor of Testimony Eleven",
+            "icon": "☮️",
+            "detail": "The person who had given the testimony — their fate and their own eventual account."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Coordination Office",
+            "icon": "☮️",
+            "detail": "Primary crime scene — and where the survivor had given their testimony."
+          },
+          {
+            "name": "The Side Room",
+            "icon": "🚪",
+            "detail": "Where the testimony had been collected — and where the survivor had spoken."
+          },
+          {
+            "name": "The Survivor's Post-War Home",
+            "icon": "🏠",
+            "detail": "Where they had lived after the war — and where their own testimony eventually came from."
+          },
+          {
+            "name": "The Hiroshima Peace Memorial Museum",
+            "icon": "☮️",
+            "detail": "Where the survivor had eventually given a second account — and its relationship to the missing first."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Document Binder Spine",
+            "icon": "📋",
+            "detail": "Confirmed murder weapon — Sato's."
+          },
+          {
+            "name": "Medical Kit Case",
+            "icon": "🏥",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Fallen Ceiling Beam Fragment",
+            "icon": "🏛️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Survivor's Second Account",
+            "icon": "☮️",
+            "detail": "Not a weapon — the testimony they had given decades later and its relationship to the missing first."
+          },
+          {
+            "name": "The Registration Record",
+            "icon": "📋",
+            "detail": "Not a weapon — what the registration had preserved about the survivor's identity and how they had been found."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Remove Militarily Sensitive Testimony",
+            "icon": "🎖️",
+            "detail": "Sato's motive — died October 1945."
+          },
+          {
+            "name": "Preserve the Partial Auditory Account",
+            "icon": "📋",
+            "detail": "Tanaka's post-war role — 1995 donation."
+          },
+          {
+            "name": "Give a Second Account of August 6th",
+            "icon": "☮️",
+            "detail": "The survivor's eventual action — decades after the first had been taken."
+          },
+          {
+            "name": "Whether the Survivor Had Known Their First Testimony Had Been Taken",
+            "icon": "☮️",
+            "detail": "The survivor's awareness of what had happened on August 6th — and its effect on their second account."
+          },
+          {
+            "name": "The Relationship Between the First and Second Accounts",
+            "icon": "☮️",
+            "detail": "What the second account had added — and how it had related to testimony eleven's gap."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Yamada and Took Testimony Eleven",
+            "icon": "🎖️",
+            "detail": "Sato's confirmed role — died October 1945."
+          },
+          {
+            "name": "Preserved the Partial Auditory Account for Fifty Years",
+            "icon": "📋",
+            "detail": "Tanaka's role — 1995 donation, died 2001."
+          },
+          {
+            "name": "Published the Contemporaneous Reference to the Killing",
+            "icon": "🏥",
+            "detail": "Dr. Mori's role — 1952, died 1978."
+          },
+          {
+            "name": "Gave a Second Account of August 6th Decades Later",
+            "icon": "☮️",
+            "detail": "The survivor's eventual role — the second testimony and its institutional destination."
+          },
+          {
+            "name": "Collected and Catalogued the Testimonies Including Testimony Eleven",
+            "icon": "📋",
+            "detail": "Yamada's role — killed for his work, registration log the only surviving trace."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Survivor's Registration Entry",
+        "text": "The registration log had captured the survivor's details: a registration number, an age (47), and a home address in a Hiroshima district. Historians examining the full registration log in 1978 had identified the address as corresponding to a neighborhood on the eastern side of the city. Cross-referencing with the Hiroshima city survivor registry compiled in the 1950s, researchers had identified a possible match: a man of the right age living at an address consistent with the registration log entry.",
+        "alone": "The registration log's address and age had allowed a possible match to a survivor in the 1950s city registry — a man of 47 in an eastern Hiroshima district.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "The registration log enabling a possible survivor identification and the survivor eventually giving a second account to the museum together confirm the identification had been made and contact had been possible — the first testimony had been taken, and the survivor had been able to give a second."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Survivor's Identity",
+        "text": "The possible match had been confirmed in 1982 when museum researchers had contacted the man — Ichiro Nakamura — and had shown him the registration log entry. He had confirmed he had been at the relief coordination office on August 6th and had given a testimony. He had said: 'I gave the account and then I was told to wait. I waited a long time. When I left, the civil servant who had been cataloguing had been found dead. I had not known what had happened to what I had said. I had not known it had been taken.'",
+        "alone": "Ichiro Nakamura had confirmed the registration and had not known his testimony had been taken — he had left before knowing what had happened to Yamada.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Nakamura not knowing his testimony had been taken and the museum researchers informing him in 1982 together confirm the specific moment of his understanding — thirty-seven years after August 6th, he had learned what had happened to what he had said."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "Nakamura's Second Account",
+        "text": "Ichiro Nakamura had given a second testimony to the Hiroshima Peace Memorial Museum in 1982, following the researchers' contact. His second account described what he had been doing at the time of the bombing, what he had observed from his location, and what he had said in testimony eleven. He had prefaced it: 'I am giving this account because I was told my first account was taken before it could be preserved. I have carried what I said that day for thirty-seven years. Here it is again.'",
+        "alone": "Nakamura had given the second testimony in 1982 prefaced with 'I have carried what I said that day for thirty-seven years. Here it is again.'",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Nakamura giving the second account in 1982 and Tanaka giving her partial auditory account in 1995 together confirm the two accounts had been given thirteen years apart and had been consistent with each other — the survivor's own words and the nurse's partial memory had matched."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "What Nakamura's Second Account Had Said",
+        "text": "Nakamura's 1982 second account described: his location at the supply depot's eastern perimeter; the direction and intensity of the light at detonation; the sequence of pressure wave and heat; the collapse of structures around him; the immediate casualties in the yard; and his assessment of the weapon as 'something entirely unlike what had been described to us.' His account had been substantially consistent with Tanaka's partial auditory record — the depot, the eastern light, the inward collapse, the falling of people in the yard.",
+        "alone": "Nakamura's second account had matched Tanaka's partial auditory record — the depot, eastern light, inward collapse, people falling. The two accounts had corroborated each other across thirty-seven years.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The second account corroborating the partial auditory memory and both now in the museum archive together confirm the full recovery — the testimony taken in 1945 had been reconstructed from two independent sources across fifty years."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Museum's Assessment of Nakamura's Account",
+        "text": "The museum's 1982 catalogue entry for Nakamura's second testimony: 'This account was given by the survivor who had originally provided testimony eleven on August 6th 1945. The original testimony was removed from the relief coordination office records on the day of its collection. This second account, given thirty-seven years later, represents the survivor's own reconstruction of what had been taken. It has been cross-referenced with the partial auditory account given by Nurse Tanaka in 1995 and found consistent. The two accounts together constitute the closest available reconstruction of testimony eleven.'",
+        "alone": "The museum had cross-referenced Nakamura's 1982 account with Tanaka's 1995 account and found them consistent — the two together constituted the closest reconstruction of testimony eleven.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The museum cross-referencing the two accounts and finding them consistent together confirm the reconstruction had been validated by the institution — the survivor's memory and the nurse's partial auditory record had both been faithful to what had been said on August 6th."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "Nakamura's Life and the Second Account",
+        "text": "Ichiro Nakamura had survived the bombing with injuries that had affected his health throughout his life. He had worked in Hiroshima's post-war reconstruction and had been a member of the hibakusha survivor community. He had given his second account in 1982 at age eighty-four. He had died in Hiroshima in 1985. His 1982 account is in the museum archive. He had lived for forty years knowing he had been at the depot on August 6th and that what he had said had been taken.",
+        "alone": "Nakamura had lived forty years knowing his testimony had been taken — he had given the second account at eighty-four and died in 1985. The account is in the museum archive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Nakamura giving the second account at eighty-four and dying three years later together confirm the account had been given at the end of his life — 'I have carried what I said that day for thirty-seven years. Here it is again.'"
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "The Four Records of Testimony Eleven",
+        "text": "What exists of testimony eleven: Yamada's registration log entry (1945, archived). Nakamura's 1982 second account (his own reconstruction, given at eighty-four). Tanaka's 1995 partial auditory account (what she had heard through the wall). Dr. Mori's 1952 published reference to the killing of the civil servant who had been cataloguing. Four records in the museum archive. The testimony itself does not exist. What exists is the record of its taking and the reconstruction of its content from two independent witnesses thirty-seven and fifty years later.",
+        "alone": "Four records of testimony eleven in one archive. The testimony does not exist. What exists is the record of its taking and its reconstruction from two independent witnesses.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four records of one testimony and the Peace Bell ringing at 8:15 every year together confirm the final element — the commemoration of the moment and the archive's reconstruction of what had been taken in the hours that had followed."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "☮️",
+        "heading": "August 6th and What Remains",
+        "text": "The Peace Bell rings in Hiroshima at 8:15 AM on August 6th every year. The Hiroshima Peace Memorial Museum receives 1.7 million visitors annually. The survivor testimony collection is among its most significant holdings. Testimony eleven is absent. Four records document its existence and partial content. Taro Yamada is not named in any memorial. Ichiro Nakamura's name is in the archive's testimony catalogue. Yuki Tanaka's name is in the oral history catalogue. Dr. Hana Mori's 1952 publication is in the medical literature. Lieutenant Kenji Sato's name appears in captured Japanese Army records held by the US National Archives. All related. All preserved. None of them the testimony itself. The Peace Bell rings at 8:15. August 6th. Every year.",
+        "alone": "All related. All preserved. None of them the testimony itself. The Peace Bell rings at 8:15. August 6th. Every year.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Four records reconstructing what was taken and the Peace Bell ringing every year together confirm the final image — the testimony is gone and the record of its absence, carefully assembled from five people across fifty years, is in the archive where it belongs."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Lieutenant Kenji Sato",
+      "location": "The Coordination Office",
+      "weapon": "Document Binder Spine",
+      "motive": "Remove Militarily Sensitive Testimony",
+      "accomplice": "Preserved the Partial Auditory Account for Fifty Years"
+    },
+    "epilogue": "Ichiro Nakamura had not known his testimony had been taken when he had left the coordination office. He had been contacted by museum researchers in 1982. He had said: 'I have carried what I said that day for thirty-seven years. Here it is again.' He had given the second account at eighty-four and had died in 1985. His account and Tanaka's had been cross-referenced and found consistent. Four records in the museum archive. The testimony does not exist. What exists is its reconstruction from two independent witnesses — the survivor and the nurse — across thirty-seven and fifty years. The Peace Bell rings at 8:15. August 6th. Every year. All related. All preserved. None of them the testimony itself."
+  }
+}

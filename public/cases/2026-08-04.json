@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Leningrad, 1942. The 900-day siege. A Soviet journalist dead at the press corps billet. And dispatches that would have told the truth about how many civilians were dying in the city. ✍️🔍 Case #138 — The Siege. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Leningrad 1942 during the 900-day siege, a journalist dead at the press billet, and dispatches about civilian deaths that the Soviet propaganda apparatus needed suppressed. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1942 Leningrad press corps billet interior during the siege, a cramped room with camp beds and a shared writing table covered in dispatch papers, a Soviet journalist's press credentials on the floor, a kerosene lamp on the table beside scattered handwritten pages, frost on the single window showing the siege city outside, the sound of distant artillery. Wartime deprivation and journalistic duty. Style of Roman Karmen's Leningrad siege photography meets Yevgeny Khaldei.",
+    "animationPrompt": "Slow pan through a 1942 Leningrad press corps billet. Camp beds. A writing table covered in dispatch papers. A journalist's press credentials on the floor. A kerosene lamp. Frost on the window showing the siege city outside. Distant artillery. The 900 days are not over. Fade to black.",
+    "hashtags": [
+      "#Leningrad1942",
+      "#SiegeOfLeningrad",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #138",
+    "title": "The Siege",
+    "setting": "Press Corps Billet · Leningrad · Soviet Union · January 1942",
+    "emoji": "✍️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Soviet journalist Aleksei Volkov was found dead at the Leningrad press corps billet during the 900-day siege. He had been writing dispatches documenting civilian deaths from starvation — figures significantly higher than the official Soviet account. His dispatches had been ready to send through a diplomatic channel that bypassed standard NKVD censorship. Three people had been at the billet. The dispatches were missing.",
+    "emptyState": "Dispatches documenting the true death toll. Gone. Three people in the billet. Find who took them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Political Officer Dmitri Baranov",
+            "icon": "⭐",
+            "detail": "The press corps' NKVD political officer — had been tasked with ensuring dispatches from Leningrad conformed to approved messaging on civilian morale and losses."
+          },
+          {
+            "name": "Natasha Orlova",
+            "icon": "✍️",
+            "detail": "A fellow journalist — had been Volkov's colleague and had known about the diplomatic channel he had been planning to use."
+          },
+          {
+            "name": "Lieutenant Fyodor Karpov",
+            "icon": "🎖️",
+            "detail": "A liaison officer providing the billet's military security — had access to all rooms and had been briefed on the diplomatic channel."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Billet Common Room",
+            "icon": "✍️",
+            "detail": "Where Volkov was found — credentials on floor, dispatch papers scattered, lamp still burning."
+          },
+          {
+            "name": "The Dispatch Table",
+            "icon": "📋",
+            "detail": "Where Volkov had been writing — and where the missing dispatches had been kept before the killing."
+          },
+          {
+            "name": "The Billet's Rear Corridor",
+            "icon": "🚪",
+            "detail": "The passage to the building's service exit — where a footprint in the frost had been found."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter Platen",
+            "icon": "⌨️",
+            "detail": "The heavy rubber platen roller from the shared typewriter — removed from the machine and used as a bludgeon."
+          },
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "No wound profile match — the lamp's base too cylindrical for the wound's flat impact."
+          },
+          {
+            "name": "Camp Bed Frame",
+            "icon": "🛏️",
+            "detail": "No blood trace on any frame — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Missing Dispatches",
+        "text": "Volkov's surviving notes — a separate notebook that had been in his coat pocket — describe what his dispatches had contained: documented civilian death rates from starvation in specific Leningrad districts, cross-referenced against official ration allocation records and hospital admission data. His figures had shown civilian deaths at three to four times the officially acknowledged rate. The diplomatic channel he had planned to use had been a Swedish Red Cross liaison operating with Soviet permission — a channel Political Officer Baranov had known about and had been tasked with monitoring.",
+        "alone": "Volkov's dispatches had documented civilian deaths at three to four times the official rate — and Baranov had been specifically tasked with monitoring the diplomatic channel Volkov had planned to use.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The dispatches contradicting the official death toll at three to four times and Baranov's specific tasking to monitor the diplomatic channel together establish his institutional mandate — the dispatches had been exactly what his role had been designed to prevent."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⌨️",
+        "heading": "The Typewriter Platen",
+        "text": "The shared typewriter's rubber platen had been removed from the machine — the platen bar was found on the floor beside the typewriter, the rubber roller missing. The rubber roller was found near Volkov's body with blood on its flat surface. The wound is consistent with the flat rubber surface used as a bludgeon while Volkov had been seated at the dispatch table. The platen had been deliberately removed from the typewriter before use — requiring knowledge of the machine's mechanism.",
+        "alone": "The typewriter platen had been deliberately removed before use — requiring specific knowledge of the machine's disassembly. Volkov had been struck while seated at the dispatch table.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The deliberate platen removal requiring mechanical knowledge and Baranov's confirmed familiarity with the billet's typewriter — documented as having used it regularly for his own reports — together establish the specific mechanical knowledge the removal had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "✍️",
+        "heading": "Natasha Orlova's Evening",
+        "text": "Natasha Orlova had been at the district hospital documenting a different story — civilian medical conditions — from five PM until well after midnight, confirmed by the hospital's duty surgeon and the building's military entry log showing her departure at twelve-forty AM. The killing had occurred between nine PM and midnight based on the body's temperature in the unheated room. She had not been at the billet. She is definitively cleared.",
+        "alone": "Natasha had been at the hospital from five PM until after midnight confirmed by the duty surgeon and entry log — she had not been at the billet during the killing window. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Natasha cleared at the hospital and Lieutenant Karpov confirmed at his military duty post together eliminate both other suspects from the billet common room — only Baranow's movements at the billet that evening are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "⭐",
+        "heading": "Baranow's Monitoring Assignment",
+        "text": "NKVD operational records — declassified in 1991 — show Baranov had received a specific directive on January 3rd, 1942, twelve days before Volkov's death: 'Monitor all press corps use of diplomatic channels. Reports through non-NKVD censorship routes are prohibited. Dispatches inconsistent with approved messaging on civilian conditions to be intercepted and correspondents reported.' The directive had been issued in response to intelligence that a Leningrad journalist had been planning unauthorized dispatch transmission.",
+        "alone": "Baranov had received a specific directive to intercept unauthorized dispatches twelve days before the killing — issued in response to intelligence about Volkov's plan.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Baranow's interception directive and the dispatches' figures at three to four times the official death toll together confirm the dispatches had been precisely what the directive had been issued to prevent — the operational mandate had anticipated and targeted Volkov's specific work."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "⭐",
+        "heading": "Baranow at the Billet",
+        "text": "The billet's entry log — a handwritten record kept by the building's doorkeeper — shows Baranow had signed in at eight-thirty PM and had not signed out. The doorkeeper had been asleep by ten PM — the log had no departure entry for Baranow that evening. The rear corridor's frost footprint — single boot, left foot, measured by the investigating officer — matched Baranow's boot size from his military records.",
+        "alone": "Baranow had signed into the billet at eight-thirty PM and had not signed out — departing through the rear corridor, where a footprint matched his boot size.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The platen removed requiring billet-typewriter knowledge and Baranow's confirmed billet entry and rear exit together place the person with both the mechanical knowledge and the institutional directive at the killing location during the window."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "⭐",
+        "heading": "Baranaw's Typewriter Use",
+        "text": "The billet's shared typewriter log — a practical record of usage showing wear on specific keys — confirmed Baranow had been the typewriter's most frequent non-journalist user. He had used it for his own NKVD reports. The billet's typewriter repairman — interviewed in 1991 as part of the archival reconstruction — confirmed Baranow had asked about the platen mechanism during a repair visit in December 1941, a month before the killing: 'He had asked how you would remove the platen if it got stuck. I had shown him.'",
+        "alone": "Baranow had specifically asked the typewriter repairman how to remove the platen one month before the killing — and had been shown the mechanism.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Baranow learning the platen removal mechanism one month before the killing and the platen having been deliberately removed as the weapon together confirm the prior knowledge had been specifically acquired — the question to the repairman had been preparation."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Karpov's Duty Post",
+        "text": "Lieutenant Karpov had been at his military duty post — the building's main entrance security position — from six PM until two AM, confirmed by the duty log and by the doorkeeper who had been awake for the first part of the shift. Karpov had not left the entrance post. He had not been in the common room. He is definitively cleared.",
+        "alone": "Karpov had been at the building's entrance security post confirmed by the duty log and the doorkeeper — he had not been in the common room. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Natasha cleared at the hospital and Karpov cleared at the entrance post together eliminate both other suspects — Baranow's entry log, rear exit footprint, and prior platen knowledge are the only confirmed suspect indicators at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Siege's Civilian Deaths",
+        "text": "Post-Soviet historical research has established that approximately 800,000 civilians died during the Leningrad siege, primarily from starvation — the largest civilian death toll of any city in the history of warfare. The official Soviet figure had been significantly lower during the siege. Volkov's figures — reconstructed from his surviving notebook — had been closer to the eventual historical consensus than to the official wartime account. His dispatches had been accurate. They had been suppressed. He had been killed. The siege had continued for another two years.",
+        "alone": "Volkov's figures had been accurate — approximately matching the eventual historical consensus of 800,000. His dispatches had been suppressed. The siege had continued two more years.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Volkov's figures at three to four times the official rate and the eventual historical consensus confirming approximately 800,000 deaths together confirm the dispatches had been telling the truth that the official account had not — they had been worth killing to suppress."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Political Officer Dmitri Baranov",
+      "location": "The Billet Common Room",
+      "weapon": "Typewriter Platen"
+    },
+    "epilogue": "Political Officer Dmitri Baranow had signed into the billet at eight-thirty PM. He had removed the typewriter platen — a mechanism he had asked the repairman to show him one month before. He had struck Volkov at the dispatch table. He had taken the dispatches. He had left through the rear corridor, leaving a footprint in the frost. His operational directive had been to intercept unauthorized dispatches. The dispatches had been accurate. Approximately 800,000 civilians had died during the Leningrad siege. Baranow's interception directive had been classified. The 1991 declassification had revealed it. Volkov's surviving notebook had been held in the NKVD archive since 1942. It had been transferred to the Russian State Archive in 1991. His figures had been closer to the historical consensus than to the official wartime account. He had been killed for being right."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #138",
+    "title": "The Siege",
+    "setting": "Press Corps Billet · Leningrad · Soviet Union · January 1942",
+    "emoji": "✍️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Baranow killed Volkov and suppressed the dispatches. But Natasha Orlova had known what Volkov was writing — find what she had done after learning of his death.",
+    "emptyState": "Natasha knew what Volkov was writing. Find what she did after he was killed.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Political Officer Dmitri Baranov",
+            "icon": "⭐",
+            "detail": "The killer — interception directive, platen removal, rear exit footprint, dispatches taken."
+          },
+          {
+            "name": "Natasha Orlova",
+            "icon": "✍️",
+            "detail": "Cleared as killer — hospital confirmed. Had known what Volkov was writing and had taken a specific action after his death."
+          },
+          {
+            "name": "Lieutenant Fyodor Karpov",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — entrance post confirmed. His knowledge of the killing is newly examined."
+          },
+          {
+            "name": "The Swedish Red Cross Channel",
+            "icon": "📋",
+            "detail": "The diplomatic channel Volkov had planned to use — and whether Natasha had been able to use it after his death."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Billet Common Room",
+            "icon": "✍️",
+            "detail": "Primary crime scene — Baranow's killing."
+          },
+          {
+            "name": "The District Hospital",
+            "icon": "🏥",
+            "detail": "Natasha's confirmed location — and where she had been gathering her own documentation."
+          },
+          {
+            "name": "The Swedish Red Cross Liaison Office",
+            "icon": "📋",
+            "detail": "Where Natasha had gone after learning of the killing — and what she had done there."
+          },
+          {
+            "name": "Stockholm",
+            "icon": "🇸🇪",
+            "detail": "Where Natasha's material had eventually reached — and what had happened with it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter Platen",
+            "icon": "⌨️",
+            "detail": "Confirmed murder weapon — Baranow's prepared removal."
+          },
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Camp Bed Frame",
+            "icon": "🛏️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Natasha's Hospital Documentation",
+            "icon": "✍️",
+            "detail": "Not a weapon — but the material she had been gathering at the hospital and what she had done with it after the killing."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Intercept the Unauthorized Dispatches",
+            "icon": "⭐",
+            "detail": "Baranow's operational motive — dispatches taken, directive fulfilled."
+          },
+          {
+            "name": "Continue Volkov's Documentation Through Her Own Material",
+            "icon": "✍️",
+            "detail": "Natasha's response — using her hospital documentation to partially continue what Volkov had been doing."
+          },
+          {
+            "name": "What Natasha Had Gathered at the Hospital",
+            "icon": "🏥",
+            "detail": "The specific documentation — and how it had related to Volkov's figures."
+          },
+          {
+            "name": "Whether Natasha Had Used the Swedish Red Cross Channel",
+            "icon": "📋",
+            "detail": "The key question — had she been able to use the diplomatic channel Volkov had planned to use."
+          },
+          {
+            "name": "What Stockholm Had Received and Done With It",
+            "icon": "🇸🇪",
+            "detail": "The international dimension — and the material's eventual use."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "✍️",
+        "heading": "What Natasha Had Known and Gathered",
+        "text": "Natasha Orlova's account — given to a Soviet glasnost-era oral history project in 1988: 'Aleksei had told me what he was documenting. I had been doing the same thing at the hospital — gathering specific admission numbers, death registrations, diagnosis codes. My material was less complete than his but it confirmed his direction. When I returned from the hospital that night and found he was dead, I understood what had happened. I had his approach and I had my own material. I decided to use the channel he had been planning to use.'",
+        "alone": "Natasha had been gathering parallel documentation at the hospital — she had understood the killing, had her own material and knowledge of Volkov's planned channel, and had decided to use it.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Natasha's parallel hospital documentation and her decision to use the Swedish Red Cross channel after the killing together confirm the documentation had been continued through a different source — her material had survived because she had not been at the billet."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Natasha's Use of the Channel",
+        "text": "The Swedish Red Cross liaison office's records — accessed by historians in 1993 — show a contact from Natasha Orlova on January 17th, 1942, two days after Volkov's death. She had delivered a packet of handwritten documentation. The liaison officer had accepted it under the humanitarian information protocols that had permitted the channel's operation. The packet had been transmitted to Stockholm on January 20th. Its contents had included Natasha's hospital figures and a summary of Volkov's approach drawn from her knowledge of his work.",
+        "alone": "Natasha had delivered her documentation to the Swedish Red Cross two days after the killing — transmitted to Stockholm on January 20th.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Natasha's transmission to Stockholm and the Swedish Foreign Ministry's receipt of the material together confirm the documentation had reached an international audience despite the killing — the channel Volkov had planned to use had been used by the person who had known about it."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🇸🇪",
+        "heading": "What Stockholm Had Received",
+        "text": "The Swedish Foreign Ministry's archives — consulted by historians in the 1990s — show Natasha's material had been received and assessed. The assessment had noted: 'Soviet civilian mortality in Leningrad significantly higher than official Soviet communications. Source is a Soviet journalist providing hospital-level documentation. Assessment: credible, consistent with other intelligence. Distribution: restricted diplomatic circulation.' The material had not been publicly released — it had been in restricted diplomatic circulation for the remainder of the war.",
+        "alone": "Stockholm had received the material, assessed it as credible, and circulated it in restricted diplomatic channels — not released publicly during the war.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The restricted diplomatic circulation rather than public release and the material's eventual contribution to post-war historiography together confirm the channel had worked at a diplomatic level even though the immediate public impact had been limited."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "Natasha's Fate",
+        "text": "Natasha Orlova had been questioned by the NKVD following Volkov's death — she had been suspected of knowing about the unauthorized channel. She had denied using it. The NKVD had not found evidence of her transmission. She had continued working as a journalist in Leningrad throughout the siege. She had survived. She had written a memoir in 1976 describing the siege period — including, obliquely, her experience of Volkov's death and the documentation work. The memoir had been published in a censored form. The full account had been given to the 1988 oral history project.",
+        "alone": "Natasha had survived, had denied NKVD questioning successfully, had written a censored 1976 memoir, and had given the full account to the 1988 glasnost oral history project.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Natasha surviving the siege and giving the full account in 1988 together confirm the documentation's human survival alongside its institutional survival in Stockholm — both the person and the record had outlasted the conditions that had killed Volkov."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "⭐",
+        "heading": "Baranow's Later Career",
+        "text": "Dmitri Baranow had continued as an NKVD officer until 1953 — the year of Stalin's death. He had been reassigned from Leningrad in 1943. The 1991 declassification of NKVD operational records had named him in connection with the Volkov case. He had died in 1968. The post-Soviet historical commission examining NKVD operations had examined his case in 1993 and had found 'operational action resulting in journalist's death in execution of illegal censorship directive.' No legal process had followed — he had died before the commission had examined his case.",
+        "alone": "Baranow had died in 1968, the historical commission's examination in 1993 had found illegal censorship resulting in death — no legal process had followed his prior death.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Baranow dying before the commission examined his case and the commission finding the action illegal together confirm the pattern — the posthumous identification without legal consequence that the catalog had documented across multiple cases."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Documentation's Post-War Significance",
+        "text": "The Swedish Foreign Ministry's Leningrad documentation — including Natasha's January 1942 material — had been consulted by historians researching the siege's civilian death toll in the 1990s. The material had been one of several sources that had contributed to the eventual scholarly consensus of approximately 800,000 civilian deaths. Natasha's hospital figures had been among the earliest contemporary documentation of the death rate at a level consistent with what the historical consensus had established.",
+        "alone": "Natasha's hospital figures had been among the earliest contemporary documentation of the death rate consistent with the eventual 800,000 consensus — her material had contributed to the post-war historical record.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Natasha's early documentation contributing to the eventual consensus and Volkov's figures in his surviving notebook also matching the consensus together confirm both had been documenting accurately — the killing had suppressed the dispatches but had not suppressed the documentation's eventual use."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "The Survivors' Account",
+        "text": "The 900-day siege of Leningrad had ended on January 27th, 1944. Approximately 800,000 civilians had died, primarily from starvation. Natasha Orlova had survived. She had written about what she had witnessed. Her 1976 memoir had been published in censored form. Her 1988 oral history account had been published in full in 1991 as part of the glasnost documentation project. Aleksei Volkov's name appears in the 1988 account. His surviving notebook is in the Russian State Archive. His figures had been correct. He had been killed for being right.",
+        "alone": "Natasha had survived to write the full account. Volkov's name appears in it. His notebook is in the Russian State Archive. His figures had been correct. He had been killed for being right.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Volkov killed for being right and Natasha surviving to write the account together confirm the full human dimension of the documentation — the accuracy had cost one person their life and had been preserved by the person who had survived to carry it forward."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "The Siege and Its Record",
+        "text": "The Siege of Leningrad is commemorated throughout the city now known as St. Petersburg. The 900-day siege from 1941 to 1944 remains one of the most devastating events in the history of warfare. Aleksei Volkov is not named in any memorial. His surviving notebook is in the Russian State Archive — Fond 3 (NKVD), Opis 7, Delo 1491. Natasha Orlova's 1988 oral history account is in the Memorial Society archive in Moscow. The Swedish Foreign Ministry's 1942 documentation is in the Riksarkivet in Stockholm. Three archives in three countries hold the record of what he had been trying to document. He had been killed for being right. The truth about Leningrad took decades. It is now established. It is in the history books. It is in the memorials. It is not attributed to him.",
+        "alone": "Three archives in three countries. He had been killed for being right. The truth about Leningrad is established. It is not attributed to him.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Volkov killed for being right and the truth established without his name in the attribution together confirm the final element — the accuracy that had cost him his life had been confirmed by history and had not been connected to him in the historical record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Political Officer Dmitri Baranov",
+      "location": "The Billet Common Room",
+      "weapon": "Typewriter Platen",
+      "motive": "Intercept the Unauthorized Dispatches"
+    },
+    "epilogue": "Natasha had returned from the hospital, had found Volkov dead, had understood what had happened, and had gone to the Swedish Red Cross two days later with her own hospital documentation and a summary of Volkov's approach. The material had reached Stockholm on January 20th. The Swedish Foreign Ministry had assessed it as credible and had circulated it in restricted diplomatic channels. The NKVD had questioned Natasha and had not found evidence of the transmission. She had survived the siege. She had written a censored memoir in 1976. She had given the full account in 1988. Baranow had died in 1968. The 1993 commission had found the action illegal. Three archives in three countries hold the record. Volkov's figures had been correct. He had been killed for being right. The truth about Leningrad is in the history books. It is not attributed to him."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #138",
+    "title": "The Siege",
+    "setting": "Press Corps Billet · Leningrad · Soviet Union · January 1942",
+    "emoji": "✍️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Baranow killed Volkov. Natasha got the documentation to Stockholm. But Lieutenant Karpov had seen Baranow leaving through the rear corridor and had made a decision about what to do with that observation. Find what Karpov decided.",
+    "emptyState": "Karpov saw Baranow leaving through the rear. He made a decision. Find what it was.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Political Officer Dmitri Baranov",
+            "icon": "⭐",
+            "detail": "The killer — interception directive, platen, rear exit, dispatches taken, died 1968, commission finding 1993."
+          },
+          {
+            "name": "Natasha Orlova",
+            "icon": "✍️",
+            "detail": "Cleared as killer — hospital confirmed. Swedish Red Cross channel, Stockholm, survived, 1988 oral history."
+          },
+          {
+            "name": "Lieutenant Fyodor Karpov",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — entrance post confirmed. Had seen Baranow use the rear corridor and had made a specific decision."
+          },
+          {
+            "name": "Karpov's Moral Decision",
+            "icon": "🎖️",
+            "detail": "What he had seen and what he had chosen to do — and what the consequences had been."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Billet Common Room",
+            "icon": "✍️",
+            "detail": "Primary crime scene — and what Karpov had known about."
+          },
+          {
+            "name": "The Building's Entrance Post",
+            "icon": "🎖️",
+            "detail": "Karpov's confirmed position — and from where he had seen Baranow."
+          },
+          {
+            "name": "The Rear Corridor",
+            "icon": "🚪",
+            "detail": "Where Baranow had exited — and what Karpov had observed about his use of it."
+          },
+          {
+            "name": "The Military Investigation Office",
+            "icon": "🏛️",
+            "detail": "Where Karpov had eventually made his report — and when."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Typewriter Platen",
+            "icon": "⌨️",
+            "detail": "Confirmed murder weapon — Baranow's."
+          },
+          {
+            "name": "Kerosene Lamp Base",
+            "icon": "🕯️",
+            "detail": "No wound match — eliminated."
+          },
+          {
+            "name": "Camp Bed Frame",
+            "icon": "🛏️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Karpov's Observation",
+            "icon": "🎖️",
+            "detail": "Not a weapon — what he had seen and the decision he had made about reporting it."
+          },
+          {
+            "name": "The Timing of Karpov's Report",
+            "icon": "🏛️",
+            "detail": "Not a weapon — whether he had reported immediately or had waited, and why."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Intercept the Unauthorized Dispatches",
+            "icon": "⭐",
+            "detail": "Baranow's motive — the killing."
+          },
+          {
+            "name": "Continue the Documentation Through the Diplomatic Channel",
+            "icon": "✍️",
+            "detail": "Natasha's response — Stockholm, diplomatic circulation, post-war contribution."
+          },
+          {
+            "name": "Report or Not Report What He Had Seen",
+            "icon": "🎖️",
+            "detail": "Karpov's decision — and the specific calculation he had made."
+          },
+          {
+            "name": "The Institutional Risk of Reporting an NKVD Officer",
+            "icon": "🎖️",
+            "detail": "What Karpov had weighed — and the specific danger of making a report."
+          },
+          {
+            "name": "What Karpov Had Done and When",
+            "icon": "🏛️",
+            "detail": "The timing and nature of his eventual action — and its consequence."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Volkov and Suppressed the Dispatches",
+            "icon": "⭐",
+            "detail": "Baranow's confirmed role — died 1968, commission finding 1993."
+          },
+          {
+            "name": "Used the Diplomatic Channel and Transmitted to Stockholm",
+            "icon": "✍️",
+            "detail": "Natasha's role — survived, 1988 oral history."
+          },
+          {
+            "name": "Observed Baranow's Rear Exit and Made a Delayed Report",
+            "icon": "🎖️",
+            "detail": "Karpov's role — the delay, the reason, and the eventual action."
+          },
+          {
+            "name": "Carried the Survival of the Observation Into the Post-War Period",
+            "icon": "🎖️",
+            "detail": "What Karpov's eventual account had contributed."
+          },
+          {
+            "name": "Preserved the Parallel Documentation in the Hospital",
+            "icon": "🏥",
+            "detail": "Natasha's institutional role as the documentation's surviving source."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "What Karpov Had Seen",
+        "text": "Karpov's account — given to the 1993 post-Soviet commission: 'From my entrance post I could see the building's rear corridor through a small window. At approximately ten-thirty PM I saw Baranow come through the rear door from the direction of the common room. He was carrying papers under his coat. He did not use the front entrance. A man who uses the rear corridor is a man who does not want to be in the entry log. I understood what had probably happened. I said nothing that night. I was a lieutenant and he was an NKVD political officer. I waited.'",
+        "alone": "Karpov had seen Baranow using the rear corridor at ten-thirty PM carrying papers — he had understood what it probably meant and had waited rather than reporting immediately.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Karpov understanding the rear exit's significance and choosing to wait rather than report together confirm the specific calculation — the institutional power difference between a lieutenant and an NKVD political officer had been the factor."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Why Karpov Had Waited",
+        "text": "Karpov's 1993 account continues: 'I waited because Baranow was NKVD. Reporting an NKVD officer in January 1942 in Leningrad during the siege — I was twenty-three years old. I had a mother in the city. I did not know what would happen to me or to her if I reported a political officer and I was wrong, or even if I was right. I wrote down what I had seen in a personal notebook. I kept the notebook. I waited for a time when reporting would not be fatal.'",
+        "alone": "Karpov had written the observation in a personal notebook and had waited for a time when reporting would not be fatal — he had been twenty-three with a mother in the besieged city.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Karpov writing the observation and waiting for safety and his eventual 1993 report together confirm the observation had been preserved in his personal record for fifty-one years before he had been able to report it safely."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "When Karpov Had Finally Reported",
+        "text": "Karpov had survived the war. He had kept the notebook. He had made no report during the Soviet period. In 1991, following the dissolution of the Soviet Union, he had contacted the Memorial Society — the Russian human rights organization documenting Soviet-era repression. He had submitted his notebook as evidence. The Memorial Society had forwarded it to the post-Soviet historical commission. The commission had incorporated Karpov's observation into its 1993 findings — the boot print evidence and the exit log gap had been corroborated by Karpov's eyewitness account.",
+        "alone": "Karpov had waited until 1991 — the Soviet Union's dissolution — to contact the Memorial Society with his notebook. His account had corroborated the 1993 commission's findings.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Karpov waiting until 1991 for the Soviet dissolution and his notebook corroborating the commission together confirm the observation had required the end of the system that had made reporting dangerous to become reportable — forty-nine years from observation to official submission."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Karpov's Notebook's Content",
+        "text": "Karpov's personal notebook entry for January 15th, 1942: 'Ten-thirty PM. Baranow through rear corridor. Papers under coat. Did not use front. Volkov found dead — Baranow killed him. I have written this here because I cannot write it anywhere else. I am keeping this. One day it will be possible to say it.' He had written the accusation on the night of the killing and had waited forty-nine years to say it through an institution that could receive it.",
+        "alone": "Karpov had written the accusation on the night of the killing: 'I am keeping this. One day it will be possible to say it.' He had waited forty-nine years.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Karpov writing the accusation on the killing's night and waiting forty-nine years to say it together confirm the full span of the observation's journey — written in a besieged city in 1942, submitted to a post-Soviet commission in 1993, fifty-one years from event to official record."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "The Three Observations' Parallel Paths",
+        "text": "Three people had observed or documented something on the night of Volkov's killing: Volkov had documented the siege's civilian death toll — killed, dispatches taken. Natasha had been gathering parallel documentation at the hospital — transmitted to Stockholm two days later. Karpov had observed Baranow's rear exit and had written the accusation in his personal notebook — submitted to the Memorial Society in 1991. Three observations, three paths, three different lengths of time to reach an institution that could receive them.",
+        "alone": "Three observations, three institutional paths, three different lengths of time — Natasha's in two days, Volkov's notebook in the NKVD archive indefinitely, Karpov's in forty-nine years.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The three observations' different paths and timelines together confirm the full picture of what the night had produced — documentation, diplomatic transmission, and personal witness, each preserved differently and each arriving at its institutional destination at a different time."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Karpov's Later Life",
+        "text": "Fyodor Karpov had survived the siege, had served in the Red Army until 1946, and had lived in Leningrad — later St. Petersburg — until his death in 1998. He had never spoken publicly about the 1942 killing during the Soviet period. He had submitted his notebook in 1991 and had given testimony to the historical commission in 1993. He had died in St. Petersburg in 1998 — five years after having been able to say what he had written in 1942. His notebook is in the Memorial Society archive in Moscow.",
+        "alone": "Karpov had died in St. Petersburg in 1998 — five years after being able to say what he had written in 1942. His notebook is in the Memorial Society archive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Karpov dying in 1998 after five years of being able to speak and his notebook in the archive together confirm the full span of the observation — forty-nine years of waiting, five years of official record, and then the death that had been waiting since the front-entrance log had shown no departure."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "The Four Records' Final State",
+        "text": "Aleksei Volkov's surviving notebook: Russian State Archive, Fond 3, Opis 7, Delo 1491. Natasha Orlova's 1988 oral history: Memorial Society archive, Moscow. Karpov's 1942 personal notebook: Memorial Society archive, Moscow. Swedish Foreign Ministry's 1942 Leningrad documentation: Riksarkivet, Stockholm. Four records in four repositories. Each produced by a different person. Each preserved through a different path. Each telling part of the same story.",
+        "alone": "Four records, four repositories, four paths. Each telling part of the same story. The siege's civilian death toll is established. Volkov is not named in the attribution.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four records in four repositories and the truth established without Volkov's name together confirm the final element — the truth that had been worth killing to suppress had been established, distributed across four archives in three countries, and had not been attributed to the person who had been killed for documenting it first."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "✍️",
+        "heading": "The Siege and Its Memory",
+        "text": "The Siege of Leningrad is commemorated throughout St. Petersburg. The Piskaryovskoye Memorial Cemetery holds the remains of approximately 500,000 of the siege's victims. The memorial's inscription reads: 'No one is forgotten. Nothing is forgotten.' Aleksei Volkov is not among the named dead. His figures had been correct. Natasha Orlova survived and wrote the account. Fyodor Karpov waited forty-nine years to say what he had seen. The truth about the siege is in the history books. It is established. It took decades. It came from four archives in three countries, compiled by historians working fifty years after the fact. Volkov had been trying to send it in January 1942. He had been killed for being right. No one is forgotten. Nothing is forgotten. Except sometimes the person who first tried to say it.",
+        "alone": "No one is forgotten. Nothing is forgotten. Except sometimes the person who first tried to say it. Volkov is not among the named dead. His figures had been correct.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Four records in four repositories establishing the truth and the memorial saying 'nothing is forgotten' while Volkov is not named together confirm the case's final image — the institution's memorial and the historical record had diverged from the specific human act of documentation that had cost its author his life."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Political Officer Dmitri Baranov",
+      "location": "The Billet Common Room",
+      "weapon": "Typewriter Platen",
+      "motive": "Intercept the Unauthorized Dispatches",
+      "accomplice": "Observed Baranow's Rear Exit and Made a Delayed Report"
+    },
+    "epilogue": "Karpov had written the accusation on the night of the killing: 'I am keeping this. One day it will be possible to say it.' He had waited forty-nine years. He had submitted his notebook to the Memorial Society in 1991. He had given testimony to the commission in 1993. He had died in St. Petersburg in 1998. Four records in four repositories tell the story of what Volkov had been documenting when he had been killed. The truth about the siege is established. It took decades. Volkov is not among the named dead at Piskaryovskoye. His figures had been correct. The memorial says: no one is forgotten. Nothing is forgotten. Except sometimes the person who first tried to say it."
+  }
+}

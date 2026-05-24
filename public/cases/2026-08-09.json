@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Edinburgh, August 1947. The very first Edinburgh International Festival. A dead administrator in the Assembly Rooms during opening week. And three competing artistic visions — with only one man keeping them in balance. 🎭🔍 Case #143 — The First Festival. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Edinburgh 1947 the first-ever Edinburgh Festival, an administrator dead in the Assembly Rooms, and the future of one of the world's great arts festivals decided by who killed him. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The Edinburgh Assembly Rooms in August 1947, a grand Georgian interior with chandeliers and plasterwork, a festival administrator's programme notes and a sherry glass on the floor beside a writing table, three competing concert programme folders spread on the table, the sound of rehearsal piano from the next room, Edinburgh grey stone through tall windows. Post-war cultural ambition and personal rivalry.",
+    "animationPrompt": "Slow pan through the 1947 Edinburgh Assembly Rooms. Georgian chandeliers. Plasterwork. A festival administrator's programme notes on the floor beside a sherry glass. Three competing concert programme folders on the table. Piano rehearsal from the next room. Edinburgh grey stone through tall windows. The first festival has just begun. Fade to black.",
+    "hashtags": [
+      "#Edinburgh1947",
+      "#EdinburghFestival",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #143",
+    "title": "The First Festival",
+    "setting": "Assembly Rooms · Edinburgh · Scotland · August 1947",
+    "emoji": "🎭",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Festival administrator Gerald Thorne was found dead in the Assembly Rooms during opening week of the first Edinburgh International Festival. He had been managing the competing demands of three artistic principals — a conductor, a theatre director, and a visual arts curator — each pressing for a larger share of the festival's limited budget. A significant budget reallocation was under discussion. Three people had been in the Assembly Rooms that evening.",
+    "emptyState": "The first Edinburgh Festival. A dead administrator. Three principals who all needed him — until tonight. Find who couldn't wait.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Maestro Heinrich Brauer",
+            "icon": "🎵",
+            "detail": "A German-born conductor who had fled the Nazis — had been pressing for a larger orchestral budget and had been frustrated by Thorne's insistence on balance."
+          },
+          {
+            "name": "Director Alistair Drummond",
+            "icon": "🎭",
+            "detail": "A Scottish theatre director — had been arguing for the festival to prioritize indigenous Scottish work and had clashed repeatedly with Thorne."
+          },
+          {
+            "name": "Curator Vera Lund",
+            "icon": "🖼️",
+            "detail": "A Swedish visual arts curator — had been organizing an exhibition significantly over budget and had needed Thorne's approval for emergency funding."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Writing Room",
+            "icon": "📋",
+            "detail": "Where Thorne was found — programme notes on the floor, sherry glass overturned, budget folders on the table."
+          },
+          {
+            "name": "The Concert Hall",
+            "icon": "🎵",
+            "detail": "Where rehearsals had been proceeding — and where two suspects had been visible during the evening."
+          },
+          {
+            "name": "The Assembly Rooms Anteroom",
+            "icon": "🚪",
+            "detail": "The passage connecting the writing room to the main hall — where a staff member had heard raised voices."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Conducting Baton Case",
+            "icon": "🎵",
+            "detail": "A heavy silver-mounted conducting baton case — blunt force wound consistent with its weighted end."
+          },
+          {
+            "name": "Programme Folder Spine",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Sherry Decanter",
+            "icon": "🥃",
+            "detail": "No blood trace on the intact decanter — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Budget Reallocation",
+        "text": "Thorne's budget notes — recovered from the writing room table — show he had been preparing a reallocation of the festival's remaining funds: a reduction in the orchestral programme's contingency budget, a small increase in the theatre allocation, and a rejection of Vera Lund's emergency visual arts funding request. The notes were dated that evening. Brauer stood to lose the most from the proposed reallocation — his orchestral contingency was the primary source of the redirected funds.",
+        "alone": "The budget notes showed Brauer stood to lose the most — his orchestral contingency was the primary fund source for the reallocation. The notes had been written that evening.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The budget reallocation reducing Brauer's orchestral contingency and Brauer's confirmed presence at the Assembly Rooms that evening together establish both the specific financial loss and the physical access."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🎵",
+        "heading": "The Baton Case",
+        "text": "A heavy silver-mounted conducting baton case — belonging to Maestro Brauer, identified by his initials engraved on the case — shows blood on its weighted end. The wound is consistent with the case's end used as a bludgeon while Thorne had been seated at the writing table. The case had been found in the anteroom rather than with Brauer's other belongings. It had been left rather than taken.",
+        "alone": "Brauer's own initialled baton case had been used as the weapon and left in the anteroom — the initials identified the weapon's owner.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Brauer's initialled baton case as the weapon and his confirmed knowledge of the budget reallocation together establish both the personal identification of the weapon and the specific financial motive."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎭",
+        "heading": "Drummond's Evening",
+        "text": "Alistair Drummond had been in the Concert Hall throughout the evening attending a theatre company rehearsal — confirmed by six actors, the stage manager, and a festival volunteer who had been taking notes. He had not been in the writing room. He is definitively cleared.",
+        "alone": "Drummond had been in the Concert Hall confirmed by six actors and the stage manager — he had not been in the writing room. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Drummond cleared in the Concert Hall and Vera Lund confirmed at the RSA exhibition space together eliminate both other suspects from the writing room."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Brauer's Budget Confrontation",
+        "text": "The festival's assistant administrator confirms Brauer had come to the Assembly Rooms specifically to discuss the budget reallocation with Thorne — he had been told about the proposed reduction by a staff member who had seen the draft notes. Brauer had been 'extremely agitated' when he had arrived. The assistant had directed him to the writing room where Thorne had been working.",
+        "alone": "Brauer had been specifically told about the budget reduction before arriving — he had come to confront Thorne and had been described as extremely agitated.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "Brauer told about the reduction and arriving agitated and the reduction specifically targeting his orchestral contingency together confirm the confrontation had been directly about the specific financial loss he faced."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎵",
+        "heading": "Brauer at the Assembly Rooms",
+        "text": "A staff member confirms Brauer had been seen entering the writing room at approximately nine PM. Raised voices had been heard from the anteroom shortly after. At nine-thirty the voices had stopped. The staff member had found Thorne's body at ten PM when bringing tea. Brauer had not been seen leaving through the main entrance.",
+        "alone": "Brauer had entered the writing room at nine PM, raised voices had followed, and he had not been seen leaving through the main entrance — the killing window was between nine and nine-thirty.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Brauer's initialled baton case as the weapon and his confirmed entry to the writing room at nine PM with raised voices shortly after together establish both the identification and the opportunity."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎵",
+        "heading": "Brauer's Flight Context",
+        "text": "Brauer had fled Nazi Germany in 1933 — his career had been destroyed, his savings confiscated. The Edinburgh Festival had been his first major professional engagement in fourteen years. The orchestral contingency budget had been the difference between the festival being a significant platform for his return and being a minor engagement. He had told the assistant administrator the previous day: 'This is the last chance I have. I will not let a bureaucrat's pen take it from me.'",
+        "alone": "Brauer had told the assistant the previous day that the festival was his last chance and he would not let a bureaucrat's pen take it — said one day before the killing.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Brauer's 'last chance' statement the day before and his arriving agitated about the budget reduction together confirm the specific urgency — the statement had anticipated the confrontation."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🖼️",
+        "heading": "Vera Lund's Evening",
+        "text": "Vera Lund had been at the exhibition space in the Royal Scottish Academy — three hundred metres from the Assembly Rooms — from seven PM until eleven PM, confirmed by two exhibition assistants and the RSA's security record. She had not been at the Assembly Rooms. She is definitively cleared.",
+        "alone": "Vera had been at the RSA confirmed by two assistants and the security record — she had not been at the Assembly Rooms. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Drummond cleared in the Concert Hall and Vera cleared at the RSA together eliminate both other suspects — Brauer's confirmed writing room entry and the initialled baton case are the only indicators consistent with the killing."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Festival's Continuation",
+        "text": "The first Edinburgh International Festival continued despite Thorne's death — the board appointed an emergency replacement administrator within twenty-four hours. The budget reallocation was suspended pending review. Brauer was arrested on the second day and received five years. The festival continued under its new administrator and established the programme balance Thorne had been trying to maintain. The Edinburgh International Festival continues to the present day as one of the world's largest arts festivals.",
+        "alone": "The festival continued. The reallocation was suspended. Brauer received five years. The festival Thorne had been managing continues to the present day.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The budget reallocation Brauer killed to prevent being suspended and the festival continuing confirms the killing had achieved nothing — the programme balance Thorne had maintained was preserved by his successor."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maestro Heinrich Brauer",
+      "location": "The Writing Room",
+      "weapon": "Conducting Baton Case"
+    },
+    "epilogue": "Heinrich Brauer had been told about the budget reduction and had arrived at the Assembly Rooms agitated. He had entered the writing room at nine PM. He had used his own silver-mounted baton case. He had left it in the anteroom. He had been arrested on the second day of the festival and had received five years. The budget reallocation had been suspended. The festival had continued under a new administrator. The programme balance Thorne had been maintaining has been a defining feature of the Edinburgh International Festival throughout its seventy-five-year history. Thorne is not in the official history. The Assembly Rooms still hosts events during the festival every August."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #143",
+    "title": "The First Festival",
+    "setting": "Assembly Rooms · Edinburgh · Scotland · August 1947",
+    "emoji": "🎭",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Brauer killed Thorne and was arrested. But Alistair Drummond had known about the budget reallocation before Brauer had — find how he knew and what he did with that knowledge.",
+    "emptyState": "Drummond knew about the reallocation before Brauer did. Find how — and what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Maestro Heinrich Brauer",
+            "icon": "🎵",
+            "detail": "The killer — initialled baton case, five years, reallocation suspended, festival continued."
+          },
+          {
+            "name": "Director Alistair Drummond",
+            "icon": "🎭",
+            "detail": "Cleared as killer — Concert Hall confirmed. Had known about the reallocation before Brauer and had taken a specific action."
+          },
+          {
+            "name": "Curator Vera Lund",
+            "icon": "🖼️",
+            "detail": "Cleared as killer — RSA confirmed. Her budget request rejection is the new thread."
+          },
+          {
+            "name": "The Staff Member Who Told Brauer",
+            "icon": "📋",
+            "detail": "The chain's transmission point — and how Drummond had been connected to it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Writing Room",
+            "icon": "📋",
+            "detail": "Primary crime scene — Brauer's killing."
+          },
+          {
+            "name": "The Concert Hall",
+            "icon": "🎵",
+            "detail": "Drummond's confirmed location — and where his conversation with the staff member had occurred."
+          },
+          {
+            "name": "The Festival Board Office",
+            "icon": "🏛️",
+            "detail": "Where the board investigation had been conducted — and what it had found."
+          },
+          {
+            "name": "The Edinburgh Festival Archive",
+            "icon": "🎭",
+            "detail": "Where Drummond's correspondence is held — and what it reveals."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Conducting Baton Case",
+            "icon": "🎵",
+            "detail": "Confirmed murder weapon — Brauer's initialled case."
+          },
+          {
+            "name": "Programme Folder Spine",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Sherry Decanter",
+            "icon": "🥃",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Drummond's Information Transmission",
+            "icon": "🎭",
+            "detail": "Not a weapon — but how he knew and what he did with the knowledge."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Orchestral Budget Reduction",
+            "icon": "🎵",
+            "detail": "Brauer's motive — five years, reduction implemented by successor."
+          },
+          {
+            "name": "Trigger the Confrontation by Informing Brauer",
+            "icon": "🎭",
+            "detail": "Drummond's possible strategy — informing Brauer as a way to force the issue."
+          },
+          {
+            "name": "How Drummond Learned About the Reallocation",
+            "icon": "📋",
+            "detail": "The specific source — and whether disclosure was accidental or deliberate."
+          },
+          {
+            "name": "What Drummond Did With the Information",
+            "icon": "🎭",
+            "detail": "Whether he passed it to Brauer deliberately — and why."
+          },
+          {
+            "name": "The Board Investigation's Findings on Drummond",
+            "icon": "🏛️",
+            "detail": "What the investigation found about the information chain."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "How Drummond Had Known",
+        "text": "The festival board's investigation — conducted following Brauer's arrest — found that Drummond had seen Thorne's draft budget notes the previous afternoon. He had been in the writing room when Thorne had stepped out and had read the notes on the desk. He had not been authorized to see them. He had said nothing to Thorne about having seen them.",
+        "alone": "Drummond had read Thorne's draft budget notes the previous afternoon without authorization — he had been in the writing room when Thorne had stepped out.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Drummond reading the budget notes unauthorized and Brauer receiving the information through the staff member together raise the question of the chain — how the information had moved from Drummond to Brauer."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "What Drummond Had Done",
+        "text": "The board investigation found Drummond had spoken with the festival's assistant stage manager — the same staff member who had later told Brauer — about the budget notes. He had mentioned the orchestral contingency was being cut. The stage manager had passed this to Brauer. Drummond told the board: 'I mentioned it in passing. I did not intend for it to reach Brauer. I did not know what Brauer would do.' The board had found his account of his intention unverifiable.",
+        "alone": "Drummond had told the staff member about the orchestral cut — the staff member had passed it to Brauer. Drummond claimed the disclosure had been unintentional.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Drummond's disclosure to the staff member and his claim of unintentional transmission present the central ambiguity — whether he had anticipated Brauer's response or genuinely had not known."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Board's Assessment",
+        "text": "The Edinburgh Festival board's investigation found insufficient evidence to conclude Drummond had deliberately set in motion the chain that had led to Thorne's death. His disclosure to the staff member had been imprudent but had not met the threshold for criminal accessory liability. The board had issued him a formal reprimand and had required him to resign his festival position. He had resigned. He had not been criminally charged.",
+        "alone": "The board found insufficient evidence for criminal liability — imprudent but not criminal. Drummond had resigned under the formal reprimand. No criminal charge.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The board finding insufficient evidence and Drummond's subsequent career together confirm the legal outcome had not ended his professional life — the reprimand and resignation had been the consequence."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Drummond's Own Account",
+        "text": "Drummond in a 1971 memoir: 'I read the budget notes. I should not have. I mentioned what I had read to someone. I should not have. Did I know what Brauer would do? I have asked myself this question every year since 1947. I know what I told the board. I am not certain I told the board the truth. I am not certain I knew myself what I hoped would happen when I spoke. I am certain that a man died and that I was part of the chain that led there. That is the honest account.'",
+        "alone": "Drummond's 1971 memoir acknowledged he had not told the board the full truth and was uncertain of his own intentions at the time — the most honest account he had given.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Drummond's memoir acknowledging the uncertainty of his own intentions and the Edinburgh Festival continuing together confirm the full arc — the ambiguous act at the founding and the institution that had been built despite it."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Festival's Programme Balance",
+        "text": "The budget reallocation Thorne had been preparing — which Brauer had killed to prevent — was substantially implemented by the new administrator within two weeks of Thorne's death. The orchestral contingency had been reduced. The theatre allocation had been increased. Vera Lund's emergency visual arts request had been partially approved. The programme balance Thorne had been trying to achieve had been achieved by his successor.",
+        "alone": "The reallocation Brauer had killed to prevent was implemented by the new administrator — the killing had not prevented it.",
+        "links": [
+          {
+            "with": "D3",
+            "insight": "The reallocation implemented despite the killing and the board finding insufficient evidence against Drummond together confirm both the killing's futility and the chain's unresolved moral dimension."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Drummond's Later Career",
+        "text": "Alistair Drummond had resigned from the Edinburgh Festival and had returned to directing theatre in Glasgow. He had become a significant figure in Scottish theatre over the following decades. He had never worked with the Edinburgh Festival again. His 1971 memoir — 'The First Week' — had been widely read in Scottish theatre circles. It had been the primary source for the 1947 events from Drummond's perspective.",
+        "alone": "Drummond had become a significant Scottish theatre figure despite the resignation — his memoir had been the primary first-hand account from his perspective.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Drummond's significant subsequent career and his memoir's honest uncertainty together confirm the moral weight had been carried publicly — he had written the uncertain account and had died with it unresolved."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Edinburgh Festival Archive",
+        "text": "The Edinburgh International Festival Archive holds the 1947 board investigation records, Drummond's correspondence, and Thorne's budget notes. The archive has been consulted by festival historians. Drummond's memoir is in the Scottish Theatre Archive. Brauer's case records are in the Edinburgh court archive. The three documents together constitute the primary historical record of the festival's first week and its founding crisis.",
+        "alone": "Three archives hold the primary records of the first festival's founding crisis — festival board investigation, theatre archive, court records. All publicly available.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The three archives holding the founding crisis records and the festival continuing together confirm the historical picture — the crisis had been documented and the institution had continued."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Edinburgh International Festival Today",
+        "text": "The Edinburgh International Festival has been held annually since 1947. It has grown to be one of the world's largest and most significant arts festivals. The Assembly Rooms continue to host events during the festival. The programme balance between music, theatre, and visual arts that Thorne had been trying to maintain in 1947 has been a defining feature throughout its history. Gerald Thorne is not in the festival's official history. The balance he was trying to maintain is in every programme.",
+        "alone": "Seventy-five years of annual festivals. Thorne not in the official history. The balance he was trying to maintain in every programme.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The programme balance Thorne had been trying to maintain implemented despite his killing and his absence from the official history together confirm the final accounting — the institution had been shaped by his work and had not named him."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maestro Heinrich Brauer",
+      "location": "The Writing Room",
+      "weapon": "Conducting Baton Case",
+      "motive": "Prevent the Orchestral Budget Reduction"
+    },
+    "epilogue": "Drummond had read the budget notes and had told the staff member. The staff member had told Brauer. Drummond had told the board the disclosure had been unintentional. In his 1971 memoir he wrote: 'I am not certain I told the board the truth.' The board had found insufficient evidence for criminal liability. He had resigned and returned to Glasgow theatre. The budget reallocation had been implemented by the new administrator within two weeks. Brauer had received five years. The festival had continued. The programme balance Thorne had been maintaining has defined the institution for seventy-five years. Thorne is not in the official history. Drummond's memoir is in the Scottish Theatre Archive. He carried the uncertainty to his death."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #143",
+    "title": "The First Festival",
+    "setting": "Assembly Rooms · Edinburgh · Scotland · August 1947",
+    "emoji": "🎭",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Brauer killed Thorne. Drummond's chain carried the uncertain moral weight. But Vera Lund had also known about the reallocation — and had gone to Thorne that afternoon to appeal the visual arts rejection. Find what that meeting produced.",
+    "emptyState": "Vera met Thorne that afternoon to appeal her budget rejection. Find what happened in that meeting.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Maestro Heinrich Brauer",
+            "icon": "🎵",
+            "detail": "The killer — initialled baton case, five years, reallocation implemented by successor."
+          },
+          {
+            "name": "Director Alistair Drummond",
+            "icon": "🎭",
+            "detail": "Cleared as killer — Concert Hall confirmed. Information chain, board reprimand, memoir 1971, uncertain truth."
+          },
+          {
+            "name": "Curator Vera Lund",
+            "icon": "🖼️",
+            "detail": "Cleared as killer — RSA confirmed. Had met Thorne that afternoon to appeal the visual arts rejection."
+          },
+          {
+            "name": "The Afternoon Meeting's Outcome",
+            "icon": "🖼️",
+            "detail": "What Thorne had told Vera — and what she had done with that information."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Writing Room",
+            "icon": "📋",
+            "detail": "Primary crime scene — and where the afternoon meeting had occurred."
+          },
+          {
+            "name": "The Royal Scottish Academy Exhibition",
+            "icon": "🖼️",
+            "detail": "Vera's confirmed evening location — and where she had been when the killing occurred."
+          },
+          {
+            "name": "The Festival Board",
+            "icon": "🏛️",
+            "detail": "Where Vera's appeal had eventually reached — and what the outcome had been."
+          },
+          {
+            "name": "Stockholm",
+            "icon": "🇸🇪",
+            "detail": "Where Vera had eventually gone — and her long-term relationship to the Edinburgh Festival."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Conducting Baton Case",
+            "icon": "🎵",
+            "detail": "Confirmed murder weapon — Brauer's."
+          },
+          {
+            "name": "Programme Folder Spine",
+            "icon": "📋",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Sherry Decanter",
+            "icon": "🥃",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Afternoon Meeting's Content",
+            "icon": "🖼️",
+            "detail": "Not a weapon — what Thorne told Vera and its relationship to the evening's events."
+          },
+          {
+            "name": "Vera's Knowledge After the Meeting",
+            "icon": "🖼️",
+            "detail": "Not a weapon — what she had understood and what she had done with it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Budget Reduction",
+            "icon": "🎵",
+            "detail": "Brauer's motive — five years, reduction implemented anyway."
+          },
+          {
+            "name": "Trigger the Confrontation Through the Information Chain",
+            "icon": "🎭",
+            "detail": "Drummond's possible intention — memoir 1971, uncertain truth."
+          },
+          {
+            "name": "Appeal the Visual Arts Budget Rejection and Learn the Full Reallocation's Scope",
+            "icon": "🖼️",
+            "detail": "Vera's afternoon purpose — and what Thorne had told her."
+          },
+          {
+            "name": "What Vera Had Known After the Afternoon Meeting",
+            "icon": "🖼️",
+            "detail": "The specific information she had received — and whether she had warned Thorne."
+          },
+          {
+            "name": "Vera's Long-Term Contribution to the Festival",
+            "icon": "🖼️",
+            "detail": "What she had eventually given to the institution whose founding week had included Thorne's death."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Thorne and Was Arrested on Day Two",
+            "icon": "🎵",
+            "detail": "Brauer's confirmed role — five years."
+          },
+          {
+            "name": "Read the Budget Notes and Transmitted Them Through the Staff Member",
+            "icon": "🎭",
+            "detail": "Drummond's role — reprimand, memoir, uncertain truth."
+          },
+          {
+            "name": "Met Thorne That Afternoon and Chose Not to Warn Him About Brauer",
+            "icon": "🖼️",
+            "detail": "Vera's role — the specific non-intervention and what she had understood."
+          },
+          {
+            "name": "Managed the Competing Demands Until the Last Evening",
+            "icon": "📋",
+            "detail": "Thorne's foundational role — budget notes, programme balance, death."
+          },
+          {
+            "name": "Implemented the Reallocation After Thorne's Death",
+            "icon": "🏛️",
+            "detail": "The new administrator's institutional role — the balance Thorne had been trying to achieve."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "🖼️",
+        "heading": "The Afternoon Meeting",
+        "text": "Vera Lund's account — given to a festival history project in 1985: 'I went to see Thorne that afternoon about the visual arts budget. He told me the emergency funding request had been rejected. He also told me why — the reallocation was going to the theatre allocation, not to the orchestra as Brauer had been demanding. He said Brauer had been the most difficult of the three of us and that balancing him had been exhausting. He said: I hope this reallocation settles it. I left thinking he had misjudged how Brauer would react.'",
+        "alone": "Thorne had told Vera the reallocation's destination and had expressed hope it would settle Brauer — Vera had left thinking Thorne had misjudged Brauer's likely reaction.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Thorne hoping the reallocation would settle Brauer and Vera thinking he had misjudged together confirm Vera had a more accurate assessment of Brauer than Thorne had — and had not warned him of her concern."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🖼️",
+        "heading": "What Vera Had Done After the Meeting",
+        "text": "Vera's 1985 account: 'I went back to the RSA. I thought about whether I should warn Thorne that I thought Brauer would not take the reduction calmly. I decided not to. I told myself: it was not my business. The visual arts budget was my concern. The orchestra was Brauer's. Thorne could manage it. I chose not to interfere. When I heard that evening that Thorne was dead and that Brauer had been arrested, I understood what I had chosen not to do.'",
+        "alone": "Vera had considered warning Thorne and had decided not to — she had understood her choice when she had heard of the killing.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Vera choosing not to warn Thorne and understanding the choice when she heard of the killing together confirm the specific moral dimension — the warning had been available and had not been given."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🖼️",
+        "heading": "Vera's Post-Festival Account",
+        "text": "Vera Lund had returned to Sweden following the first Edinburgh Festival. She had continued her curatorial work in Stockholm. She had been invited back to the Edinburgh Festival in 1952 as a consultant on the visual arts programme. She had accepted. She had contributed to the festival's visual arts programming periodically through the 1950s and 1960s. She had given the 1985 festival history account at age seventy-eight. She had died in Stockholm in 1990.",
+        "alone": "Vera had returned to Edinburgh in 1952 and contributed to the festival periodically — she died in Stockholm in 1990 at eighty-three.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Vera's return to Edinburgh in 1952 and her long contribution to the festival together confirm the institution had continued and she had been part of its development despite the first week's killing."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Three Principals' Outcomes",
+        "text": "The three artistic principals from the first Edinburgh Festival's opening week: Heinrich Brauer had received five years and had not returned to prominence — his window for a post-exile restoration had closed with the killing. Alistair Drummond had resigned and had become a significant Scottish theatre figure, carrying the uncertain moral weight of the information chain. Vera Lund had returned to Stockholm and had contributed to the festival through the following decades. One imprisoned, one resigned in reprimand, one continued contributing. The institution had continued regardless.",
+        "alone": "One imprisoned, one resigned in reprimand, one continued. The institution continued regardless.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The three principals' divergent outcomes and the festival's continuation together confirm the institution's survival had been independent of the individuals who had shaped its first week."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🖼️",
+        "heading": "What Vera Had Understood About Brauer",
+        "text": "From Vera's 1985 account: 'I had known Brauer for years before Edinburgh. I had known him in Stockholm before the war. I had seen what the exile had done to him. He had been a significant conductor — before the Nazis, before fourteen years of being no one. I knew Edinburgh was everything to him. I knew reducing his budget would not be something he could receive calmly. Thorne did not know him as I knew him. I had the information that might have been the warning. I chose not to give it.'",
+        "alone": "Vera had known Brauer before the war and had understood the exile's effect — she had had the specific knowledge that might have constituted the warning and had chosen not to give it.",
+        "links": [
+          {
+            "with": "I2",
+            "insight": "Vera's specific knowledge of Brauer's temperament and her choice not to warn Thorne together confirm the warning had been the most specific available intervention — she had known Brauer better than Thorne had and had chosen not to use that knowledge protectively."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "Four Non-Interventions",
+        "text": "Four people had had the opportunity to intervene before the killing: Drummond had read the budget notes and had transmitted them, possibly anticipating a confrontation he had not named. The staff member had told Brauer without apparent understanding of the risk. Vera had considered warning Thorne and had chosen not to. Thorne himself had hoped the reallocation would settle Brauer, having misjudged the reaction. Four people, four different positions, four different assessments of the risk, none of which had prevented the killing.",
+        "alone": "Four people had had the opportunity to prevent the killing and had not — each for different reasons, none malicious, none sufficient.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Four non-interventions none preventing the killing and the festival continuing together confirm the institution's resilience had been greater than the sum of the individual failures preceding its second day."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Festival's Seventy-Five Years",
+        "text": "The Edinburgh International Festival celebrated its seventy-fifth anniversary in 2022. It has been held every year since 1947. It has presented some of the most significant artistic work of the twentieth and twenty-first centuries. Its programme balance between music, theatre, and visual arts has been a defining feature throughout. Gerald Thorne is not in the festival's official history. The balance he was trying to maintain in 1947 is in every programme.",
+        "alone": "Seventy-five years. Gerald Thorne not in the official history. The balance he was trying to maintain in every programme for seventy-five years.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Thorne absent from the official history and his balance present in every programme together confirm the final element — the contribution that had not been named had been the foundation of what had been built."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🎭",
+        "heading": "The Assembly Rooms and the Festival",
+        "text": "The Assembly Rooms on George Street in Edinburgh continues to host Edinburgh International Festival events annually. The writing room where Gerald Thorne was killed is part of the building's event space. The building has no marker for the 1947 killing. The Edinburgh International Festival Archive holds the 1947 records. Vera Lund's 1985 oral history account is in the festival's oral history collection. Drummond's memoir is in the Scottish Theatre Archive. The festival continues. The Assembly Rooms continues. The writing room is used for events. Every August.",
+        "alone": "The writing room is used for events every August. The festival continues. Thorne's budget notes are in the archive. Every August.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The festival's seventy-five years and the writing room used for events every August together confirm the final image — the space where the first festival's founding crisis occurred is part of the institution built from it, used every year, unmarked."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Maestro Heinrich Brauer",
+      "location": "The Writing Room",
+      "weapon": "Conducting Baton Case",
+      "motive": "Prevent the Orchestral Budget Reduction",
+      "accomplice": "Read the Budget Notes and Transmitted Them Through the Staff Member"
+    },
+    "epilogue": "Vera had met Thorne that afternoon and had understood Brauer would not receive the reduction calmly. She had considered warning Thorne and had chosen not to. She returned to the RSA. She heard that evening that Thorne was dead and Brauer arrested. She understood what she had chosen not to do. She returned to Stockholm. She came back to Edinburgh in 1952 and contributed to the festival through the following decades. She died in Stockholm in 1990. Drummond carried the uncertain moral weight to his death. Brauer served five years and did not return to prominence. The festival continues every August. The writing room is used for events. Thorne's balance is in every programme. He is not in the official history."
+  }
+}

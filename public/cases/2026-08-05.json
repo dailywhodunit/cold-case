@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Dublin, May 1916. The Easter Rising executions. A British officer dead at Kilmainham Gaol. And the last letter from a condemned leader that never reached his family. ☘️🔍 Case #139 — The Rising. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Dublin 1916 Easter Rising executions at Kilmainham Gaol, a British officer dead, and a condemned man's final letter that someone needed to disappear. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "Kilmainham Gaol interior in May 1916, stone corridors and iron cell doors, a British Army officer's uniform jacket on the gaol floor beside a guttered candle, a folded letter sealed with wax beside the officer's body, the execution yard visible through a barred window at dawn. History's weight and a single human moment. Style of Sean Keating's revolutionary Ireland paintings meets period documentary photography.",
+    "animationPrompt": "Slow pan through Kilmainham Gaol's stone corridors in May 1916. Iron cell doors. A British officer's jacket on the floor. A guttered candle. The camera finds a sealed letter beside the body. Through a barred window: the execution yard at dawn. The executions are happening. Inside, something else is happening. Fade to black.",
+    "hashtags": [
+      "#EasterRising1916",
+      "#Kilmainham",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #139",
+    "title": "The Rising",
+    "setting": "Kilmainham Gaol · Dublin · Ireland · May 1916",
+    "emoji": "☘️",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Captain Edward Holt was found dead in the corridor of Kilmainham Gaol during the week of the Easter Rising executions. He had been assigned to oversee the processing of final letters from condemned leaders — letters to families, to comrades, to posterity. One letter, from a specific condemned leader whose identity was politically significant, had been in Holt's custody and was missing. Three people had been in the corridor that night.",
+    "emptyState": "A condemned man's last letter. Gone. Three people in the corridor. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Sergeant Thomas Brannagh",
+            "icon": "🎖️",
+            "detail": "An Irish-born British Army sergeant — had sympathies known to be divided, and had been responsible for letter collection from the cells."
+          },
+          {
+            "name": "Father Michael Connelly",
+            "icon": "✝️",
+            "detail": "The gaol chaplain — had been providing last rites and had been the only civilian allowed access to condemned prisoners before execution."
+          },
+          {
+            "name": "Major William Cartwright",
+            "icon": "💂",
+            "detail": "The garrison's intelligence officer — had been tasked with reviewing all prisoner correspondence before dispatch and had known the specific letter's political sensitivity."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Corridor",
+            "icon": "🏛️",
+            "detail": "Where Holt was found — uniform jacket beside him, candle guttered, sealed letter gone from his dispatch bag."
+          },
+          {
+            "name": "Cell Block B",
+            "icon": "🔒",
+            "detail": "Where the condemned leader had been held — and where the letter had been written."
+          },
+          {
+            "name": "The Execution Yard",
+            "icon": "☘️",
+            "detail": "Where the executions had been occurring at dawn — the sound of which had covered any sound in the corridor."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gaol Key Ring",
+            "icon": "🗝️",
+            "detail": "A heavy iron key ring — blunt force wound consistent with its mass used as a bludgeon."
+          },
+          {
+            "name": "Candle Holder",
+            "icon": "🕯️",
+            "detail": "No wound profile — the holder too light for the wound depth."
+          },
+          {
+            "name": "Dispatch Bag Buckle",
+            "icon": "💼",
+            "detail": "No blood trace on any bag recovered — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📜",
+        "heading": "The Missing Letter",
+        "text": "Holt's dispatch log — recovered from the garrison's records — shows he had collected seven letters from condemned leaders that evening. Six had been received at headquarters and were accounted for in the official record. The seventh, logged as collected from Cell Block B at eleven PM, had not arrived at headquarters. The prisoner in Cell Block B had been Patrick Connolly — a fictional composite of the Rising's leaders whose letter, if it had contained specific political content, would have been suppressed by military intelligence regardless of delivery. The letter had been in Holt's bag when he had died.",
+        "alone": "The seventh letter — from the Cell Block B prisoner — had been logged as collected but had never reached headquarters. It had been in Holt's bag when he had died.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The letter logged as collected but never reaching headquarters and Major Cartwright's specific tasking to review correspondence for political sensitivity together establish his institutional interest — the seventh letter's non-arrival would have been the specific outcome his intelligence role had been designed to produce."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🗝️",
+        "heading": "The Key Ring",
+        "text": "A heavy iron key ring — standard gaol equipment, carrying eight cell keys — shows blood on its iron loop. Holt's wound is consistent with the ring used as a bludgeon while he had been walking the corridor between Cell Block B and the exit. The blow had been from behind. The key ring had been left at the scene — not taken by the killer. The killer had not needed the keys. They had already had what they had come for.",
+        "alone": "The key ring had been the opportunistic weapon — left at the scene because the killer had needed only the letter, not the keys. The blow from behind while Holt had been walking.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The key ring left at the scene indicating the killer had come for the letter not the keys and Major Cartwright's intelligence role giving him the authority to take the letter through official channels without needing to steal it together confirm the killing had been for the letter specifically, which the official channel had not been used for."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "Father Connelly's Evening",
+        "text": "Father Connelly had been administering last rites in Cell Block A — on the opposite side of the gaol from Block B — from ten PM until one AM, confirmed by three condemned prisoners who had each received him and by the Block A duty guard. He had not been in the main corridor between those hours. He is definitively cleared.",
+        "alone": "Father Connelly had been in Cell Block A confirmed by three prisoners and the duty guard — he had not been in the main corridor. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Father Connelly cleared in Cell Block A and Sergeant Brannagh confirmed at the letter collection point together eliminate both other suspects from the main corridor — only Cartwright's movements after eleven PM are unconfirmed at the corridor location."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "💂",
+        "heading": "Cartwright's Intelligence Tasking",
+        "text": "British Army intelligence records — declassified by the UK National Archives in 1966 — show Cartwright had received specific orders regarding correspondence from the Rising's leaders: 'Letters containing statements of political intent, calls to future action, or martyrdom narratives are to be suppressed. Delivery to families is not to be permitted for such material.' The seventh letter had been specifically flagged in a preliminary assessment based on Holt's brief description of its contents when he had checked it in.",
+        "alone": "Cartwright had received orders to suppress letters containing martyrdom narratives or political intent — the seventh letter had been specifically flagged based on Holt's preliminary check-in description.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Cartwright's suppression orders and the seventh letter specifically flagged together confirm the letter's suppression had been an official objective — the killing had executed the suppression through an unofficial method when the official method had presumably been unavailable or too slow."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "💂",
+        "heading": "Cartwright in the Corridor",
+        "text": "A gaol warder confirms he had seen Major Cartwright in the main corridor at approximately eleven-thirty PM — half an hour after the letter had been collected from Cell Block B and twenty minutes before Holt's body had been found. Cartwright had told the warder he was conducting a routine intelligence review of the letter processing. The warder had noted it as unusual — Cartwright usually received letters at headquarters, not in the corridor.",
+        "alone": "Cartwright had been in the main corridor at eleven-thirty PM — his corridor presence was noted as unusual by the warder, as he normally received letters at headquarters.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Cartwright's suppression orders and his unusual corridor presence thirty minutes after the letter's collection together confirm the corridor visit had been to intercept the letter before it reached the headquarters review process — the usual channel had been bypassed."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "💂",
+        "heading": "The Letter's Official Fate",
+        "text": "British Army records from May 1916 show no seventh letter in the official correspondence archive from Kilmainham. Cartwright's intelligence files — declassified in stages from 1966 to 1998 — show a notation in his operational log for the relevant night: 'Correspondence matter resolved. See file 7/B.' File 7/B had been destroyed in the 1922 destruction of the Public Record Office during the Irish Civil War. The notation was the only surviving reference to the letter.",
+        "alone": "The seventh letter is not in the official archive. Cartwright's log notes 'correspondence matter resolved' with a reference to a file destroyed in 1922. The notation is the only surviving reference.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The seventh letter absent from the official archive and Cartwright's 'matter resolved' notation referencing a destroyed file together confirm the letter had been suppressed through his intelligence function — the killing and the suppression had been recorded only in the notation that had survived its file's destruction."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Sergeant Brannagh's Position",
+        "text": "Sergeant Brannagh had been at the letter collection point — the corridor's central station — from ten PM until midnight, confirmed by the Block B cell records showing his collection signatures and by the Block A warder who had seen him at the station at eleven PM. He had not left the collection point during the relevant window. He is definitively cleared.",
+        "alone": "Brannagh had been at the letter collection station confirmed by cell records and the Block A warder — he had not left the station during the window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Father Connelly cleared in Cell Block A and Brannagh cleared at the collection station together eliminate both other suspects — Cartwright's eleven-thirty PM corridor presence is the only confirmed suspect movement at the killing location during the window."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Executions and the Letter",
+        "text": "The Easter Rising executions had been conducted in the Kilmainham Gaol yard between May 3rd and May 12th, 1916. Fifteen leaders had been executed. The letters they had written in their final hours had become some of the most significant documents in Irish nationalist history — several had been delivered and had been published and had shaped Irish political consciousness for generations. The seventh letter — its specific content unknown — had not survived. Major Cartwright had been transferred to a posting in France in June 1916. He had died at the Somme in July 1916.",
+        "alone": "Cartwright had been killed at the Somme two months after the gaol killing — he died before any post-war accounting. The seventh letter's content is unknown. The delivered letters became foundational Irish nationalist documents.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The delivered letters becoming foundational nationalist documents and the seventh letter suppressed and unknown together confirm the specific cultural consequence — the letter's content had been assessed as politically significant enough to kill for, and its suppression had left a permanent gap in the historical record."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major William Cartwright",
+      "location": "The Main Corridor",
+      "weapon": "Gaol Key Ring"
+    },
+    "epilogue": "Major William Cartwright had been in the main corridor at eleven-thirty PM. He had struck Holt from behind with the iron key ring. He had taken the seventh letter from the dispatch bag. He had left the key ring. He had noted 'matter resolved' in his operational log with a reference to File 7/B. The file had been destroyed in 1922. Cartwright had been transferred to France in June 1916. He had been killed at the Somme in July 1916. The seventh letter's content is unknown. The six delivered letters became foundational documents of Irish nationalist consciousness. The seventh is a gap in the historical record. Kilmainham Gaol is now a museum. The execution yard is open to visitors. The cell where the letter was written is identified. The letter is not there."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #139",
+    "title": "The Rising",
+    "setting": "Kilmainham Gaol · Dublin · Ireland · May 1916",
+    "emoji": "☘️",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Cartwright killed Holt and took the letter. But Father Connelly had spoken with the prisoner before the execution and had heard the letter's contents. Find what the priest had done with what he had heard.",
+    "emptyState": "Father Connelly heard the letter read aloud in the cell. Find what he did with what he heard.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major William Cartwright",
+            "icon": "💂",
+            "detail": "The killer — suppression orders, corridor presence, key ring, matter resolved, killed Somme July 1916."
+          },
+          {
+            "name": "Father Michael Connelly",
+            "icon": "✝️",
+            "detail": "Cleared as killer — Cell Block A confirmed. Had heard the letter's contents in the cell before the execution."
+          },
+          {
+            "name": "Sergeant Thomas Brannagh",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — collection station confirmed. His knowledge of the letter's existence is the new thread."
+          },
+          {
+            "name": "The Letter's Surviving Content",
+            "icon": "📜",
+            "detail": "What Father Connelly had heard — and what he had done to preserve it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Corridor",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — Cartwright's killing."
+          },
+          {
+            "name": "Cell Block B",
+            "icon": "🔒",
+            "detail": "Where Father Connelly had been with the prisoner before the execution — where the letter had been read aloud."
+          },
+          {
+            "name": "Father Connelly's Parish",
+            "icon": "✝️",
+            "detail": "Where the priest had returned after the executions — and where he had written down what he had heard."
+          },
+          {
+            "name": "The Irish Nationalist Archive",
+            "icon": "☘️",
+            "detail": "Where Father Connelly's account had eventually been held — and when it had become available."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gaol Key Ring",
+            "icon": "🗝️",
+            "detail": "Confirmed murder weapon — Cartwright's opportunistic use."
+          },
+          {
+            "name": "Candle Holder",
+            "icon": "🕯️",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Dispatch Bag Buckle",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Father Connelly's Memory Account",
+            "icon": "✝️",
+            "detail": "Not a weapon — but the written account of what he had heard and its eventual preservation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Letter's Political Content",
+            "icon": "💂",
+            "detail": "Cartwright's motive — matter resolved, File 7/B, killed Somme."
+          },
+          {
+            "name": "Preserve the Letter's Meaning Through Memory",
+            "icon": "✝️",
+            "detail": "Father Connelly's purpose — what he had heard and what he had written."
+          },
+          {
+            "name": "What the Letter Had Contained",
+            "icon": "📜",
+            "detail": "The specific content Father Connelly had heard — and what it had said."
+          },
+          {
+            "name": "The Priest's Institutional Position",
+            "icon": "✝️",
+            "detail": "Why his account had been preserved differently from the official record."
+          },
+          {
+            "name": "When and How the Account Had Become Public",
+            "icon": "☘️",
+            "detail": "The timing of Father Connelly's account's release — and what it had contributed."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "✝️",
+        "heading": "What Father Connelly Had Heard",
+        "text": "Father Connelly's account — written in 1917 and held in the Catholic diocesan archive until its donation to the Irish Military Archives in 1966: 'In the cell before the execution, he read me the letter he had written for his family. It spoke of his love for his children and his belief that what had been attempted was right and would one day succeed. He said: the letter will reach them. I did not tell him what I feared. When I learned it had not reached them, I wrote down what I had heard. The words were not his exactly but the meaning was his.'",
+        "alone": "Father Connelly had heard the letter read aloud in the cell and had written down the meaning from memory after learning the letter had not been delivered — his account preserved the letter's substance though not its exact words.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Father Connelly's memory account preserving the letter's meaning and the letter's exact words being unknown together confirm what had survived — not the document but its spiritual and political substance, through the priest's faithful memory."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Why the Priest Had Written It Down",
+        "text": "Father Connelly's 1917 account explains: 'I wrote this because a man's last words to his family belong to his family. The letter was taken before it could reach them. The state had no right to it. I was a witness to what he had wanted to say. A witness has a duty. I kept the account in my parish records as a matter of spiritual care for the family. I sent a copy to the family in 1919 when I believed it could reach them safely.'",
+        "alone": "Father Connelly had sent a copy to the family in 1919 — three years after the execution, when it had been safe enough to do so. He had understood himself as a witness with a duty.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Father Connelly sending the copy to the family in 1919 and the account donated to the Irish Military Archives in 1966 together confirm two separate paths for the same content — family receipt and institutional preservation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Family's Receipt",
+        "text": "The prisoner's family had received Father Connelly's 1919 copy. The family had preserved it. In 1966 — the fiftieth anniversary of the Rising — the family had donated their copy to the Irish Military Archives simultaneously with the diocesan archive's donation of Father Connelly's original. Both copies had arrived at the archives in the same year from different sources. The archives had compared them and had found them consistent — the same substance, slightly different phrasing, both faithful to the letter's meaning.",
+        "alone": "Both copies — the family's and the diocesan archive's — had arrived at the Irish Military Archives in 1966, fifty years after the execution. They had been consistent with each other.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Two copies arriving independently and being found consistent together confirm the memory account had been faithful — Father Connelly had preserved the substance accurately enough that the family's and the institution's copies had matched."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "💂",
+        "heading": "Cartwright's Notation and Its Significance",
+        "text": "The 1998 final declassification of Cartwright's intelligence files had included his operational log's notation: 'Correspondence matter resolved. See file 7/B.' Historians examining this notation in the context of Father Connelly's 1966 account had determined that the letter Cartwright had suppressed had been the same letter whose substance Father Connelly had preserved. The suppression had been documented by the suppressor and the preservation had been documented by the witness — both had eventually reached the same archive.",
+        "alone": "Cartwright's suppression notation and Father Connelly's preservation account had both reached the Irish Military Archives — the suppressor's record and the witness's record were in the same institution.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Cartwright's suppression documented in his log and Father Connelly's preservation documented in his account both in the same archive together confirm the full picture — the suppression and the preservation were side by side in the institution's holdings."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "What the Letter Had Said",
+        "text": "From Father Connelly's account, the letter's substance: expressions of love for the prisoner's children by name; a statement that what had been attempted had been necessary and would one day be vindicated; a request that his children be raised knowing Ireland; and a final sentence that Father Connelly had described as 'a blessing on those who would carry the work forward.' The account had not reproduced exact phrasing — it had preserved intention and emotion rather than specific political content. This had been why Cartwright's suppression had been total and Father Connelly's preservation had been partial.",
+        "alone": "The letter's substance had been preserved — love, vindication, a request, a blessing. The specific political content that Cartwright had been ordered to suppress had not survived in the priest's account.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Father Connelly preserving intention and emotion but not specific political content and Cartwright's suppression targeting political content together confirm the preservation had been spiritually complete and politically partial — the family had received what the priest could give, not what Cartwright had taken."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Rising's Letters and Irish Consciousness",
+        "text": "The six letters that had been delivered — from the other condemned leaders — had been published and had become foundational texts of Irish nationalism. They had been read at commemorations, taught in schools, and quoted in political discourse for a century. Father Connelly's account of the seventh letter had been included in the 1966 commemoration materials as the only available record of its content. The account had noted explicitly: 'This is not the letter. This is what a witness heard and remembered. It is offered as the nearest thing to the letter that survives.'",
+        "alone": "Father Connelly's account had been included in the 1966 fiftieth anniversary materials with the explicit caveat that it was a witness's memory, not the letter itself.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The account presented explicitly as witness memory and both copies being found consistent together confirm the commemoration had been honest about what it held — a faithful but imperfect preservation, offered with its own limitation acknowledged."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "✝️",
+        "heading": "Father Connelly's Later Life",
+        "text": "Father Michael Connelly had continued as a parish priest in Dublin until his death in 1943. He had kept his account private until 1917 when he had first written it, had sent a copy to the family in 1919, and had kept the original in the diocesan archive. He had not spoken publicly about the gaol killing or the letter during his lifetime. His account had been made available to researchers following the 1966 donation. He is described in the archive's records as 'witness to the final hours of the 1916 executions.'",
+        "alone": "Father Connelly had kept the account private throughout his life, dying in 1943. The account had been made available to researchers following the 1966 donation — twenty-three years after his death.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Father Connelly keeping the account private throughout his life and the account available to researchers from 1966 together confirm the preservation's discretion — held privately for the family's benefit, released institutionally after his death."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "Kilmainham Gaol Today",
+        "text": "Kilmainham Gaol is now a museum — one of the most visited historical sites in Ireland. The execution yard is open to visitors. The cells of the condemned leaders are identified. Cell Block B is accessible. The spot where Captain Holt was found is not marked. The Irish Military Archives hold Father Connelly's account, the family copy, and Cartwright's operational log notation — the suppressor's record and the witness's record in the same institution. The letter itself does not exist. What exists is a witness's memory of what it meant, offered honestly as such. The gaol receives hundreds of thousands of visitors annually. The execution yard is very quiet.",
+        "alone": "The suppressor's record and the witness's record are in the same institution. The letter does not exist. What exists is a witness's memory offered honestly as such. The execution yard is very quiet.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "The letter's substance preserved in the priest's memory and the execution yard very quiet together confirm the final image — the political content that had been worth killing for is gone, and what remains is the human content that no suppression had been able to reach."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major William Cartwright",
+      "location": "The Main Corridor",
+      "weapon": "Gaol Key Ring",
+      "motive": "Suppress the Letter's Political Content"
+    },
+    "epilogue": "Father Connelly had heard the letter read aloud in the cell. He had written the account in 1917 and had sent a copy to the family in 1919. He had died in 1943 without speaking publicly about the killing or the letter. Both the family copy and the diocesan copy had been donated to the Irish Military Archives in 1966. Cartwright's operational log notation had been in the same archive since its 1998 declassification. The suppressor's record and the witness's record are side by side. The letter does not exist. What exists is a priest's faithful memory of what a condemned man had wanted his family to know. The gaol receives hundreds of thousands of visitors annually. The execution yard is very quiet."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #139",
+    "title": "The Rising",
+    "setting": "Kilmainham Gaol · Dublin · Ireland · May 1916",
+    "emoji": "☘️",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Cartwright killed Holt. Father Connelly preserved the letter's meaning. But Sergeant Brannagh had recognised Cartwright in the corridor that night and had spent his life deciding what to do about it. Find what Brannagh eventually did.",
+    "emptyState": "Brannagh saw Cartwright in the corridor. He spent his life deciding what to do. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Major William Cartwright",
+            "icon": "💂",
+            "detail": "The killer — suppression orders, key ring, matter resolved, killed Somme July 1916."
+          },
+          {
+            "name": "Father Michael Connelly",
+            "icon": "✝️",
+            "detail": "Cleared as killer — Cell Block A confirmed. Account written 1917, family copy 1919, donated 1966, died 1943."
+          },
+          {
+            "name": "Sergeant Thomas Brannagh",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — collection station confirmed. Had seen Cartwright in the corridor and had made a lifelong decision."
+          },
+          {
+            "name": "Brannagh's Eventual Account",
+            "icon": "🎖️",
+            "detail": "What he had done with what he had seen — and when he had done it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Main Corridor",
+            "icon": "🏛️",
+            "detail": "Primary crime scene — and where Brannagh had seen Cartwright."
+          },
+          {
+            "name": "The Letter Collection Station",
+            "icon": "🎖️",
+            "detail": "Where Brannagh had been confirmed — and from where he had had a sightline to the corridor."
+          },
+          {
+            "name": "Brannagh's Home in County Clare",
+            "icon": "🏠",
+            "detail": "Where he had lived after the war — and where the account had been written."
+          },
+          {
+            "name": "The Bureau of Military History",
+            "icon": "☘️",
+            "detail": "Where Brannagh's witness statement had been given — and its relationship to the other accounts."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Gaol Key Ring",
+            "icon": "🗝️",
+            "detail": "Confirmed murder weapon — Cartwright's."
+          },
+          {
+            "name": "Candle Holder",
+            "icon": "🕯️",
+            "detail": "Too light — eliminated."
+          },
+          {
+            "name": "Dispatch Bag Buckle",
+            "icon": "💼",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Brannagh's Witness Statement",
+            "icon": "🎖️",
+            "detail": "Not a weapon — the account he had eventually given and its institutional destination."
+          },
+          {
+            "name": "The Bureau of Military History Collection",
+            "icon": "☘️",
+            "detail": "Not a weapon — the institution that had received Brannagh's statement and its broader significance."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Letter's Political Content",
+            "icon": "💂",
+            "detail": "Cartwright's motive — Somme July 1916."
+          },
+          {
+            "name": "Preserve the Letter's Meaning Through Memory",
+            "icon": "✝️",
+            "detail": "Father Connelly's role — account 1917, family 1919, died 1943, donated 1966."
+          },
+          {
+            "name": "Decide What to Do With the Eyewitness Account of a Killing",
+            "icon": "🎖️",
+            "detail": "Brannagh's lifelong question — he had seen Cartwright and had known what it meant."
+          },
+          {
+            "name": "The Institutional and Personal Complexity of Brannagh's Position",
+            "icon": "🎖️",
+            "detail": "An Irish-born British soldier during the Rising — his position and what reporting had meant."
+          },
+          {
+            "name": "What Brannagh Had Eventually Given to the Bureau of Military History",
+            "icon": "☘️",
+            "detail": "The specific account — and its relationship to the other surviving records."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Holt and Suppressed the Letter",
+            "icon": "💂",
+            "detail": "Cartwright's confirmed role — Somme July 1916."
+          },
+          {
+            "name": "Heard the Letter and Preserved Its Meaning Through Memory",
+            "icon": "✝️",
+            "detail": "Father Connelly's role — account, family, 1966 donation."
+          },
+          {
+            "name": "Saw Cartwright in the Corridor and Gave a Delayed Witness Statement",
+            "icon": "🎖️",
+            "detail": "Brannagh's role — the specific account and its delayed delivery."
+          },
+          {
+            "name": "Held the Three Accounts Together",
+            "icon": "☘️",
+            "detail": "The Irish Military Archives' institutional role — suppressor, witness, eyewitness, all in one place."
+          },
+          {
+            "name": "Wrote the Letter and Read It Aloud to the Priest",
+            "icon": "☘️",
+            "detail": "The condemned prisoner's foundational role — the letter's origin and its oral transmission."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What Brannagh Had Seen",
+        "text": "Thomas Brannagh's witness statement — given to the Bureau of Military History in 1951, held under seal until 1983: 'From the collection station I had a sightline to the end of the main corridor. At approximately eleven-forty PM I saw Major Cartwright walking away from the direction of where Captain Holt was later found. He was walking quickly. When Holt's body was found twenty minutes later, I understood what I had seen. I was an Irish soldier in a British uniform at Kilmainham Gaol in May 1916. I did not report what I had seen. I waited.'",
+        "alone": "Brannagh had seen Cartwright walking quickly from the killing direction at eleven-forty PM and had understood what it meant — and had not reported it, waiting instead.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Brannagh not reporting and waiting and his 1951 Bureau of Military History statement together confirm the delay had been thirty-five years — from 1916 to 1951, from an Irish soldier in a British uniform to an Irish citizen giving evidence to an Irish institution."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Why Brannagh Had Not Reported in 1916",
+        "text": "Brannagh's statement explains: 'I did not report because I was an Irish soldier in a British Army and what I had seen was a British officer killing a British officer to suppress a letter from an Irish republican. To report it was to involve myself in the British Army's internal politics at the worst possible moment. To not report it was to let a killing go unreported. I chose to wait. I told myself I was waiting for a time when there was somewhere Irish to report it to. It took thirty-five years to find that place.'",
+        "alone": "Brannagh had waited for an Irish institution to receive an Irish witness account — 'it took thirty-five years to find that place.' The Bureau of Military History had been that place.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Brannagh waiting for an Irish institution and the Bureau of Military History being established in 1947 together confirm the specific institutional development that had made the report possible — four years after the Bureau's founding, Brannagh had given his statement."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Bureau of Military History",
+        "text": "The Bureau of Military History had been established in 1947 to collect first-hand accounts of the Irish revolutionary period from 1913 to 1921. It had collected 1,773 witness statements by the time its collection closed in 1957. The statements had been sealed for fifty years and had been released to the public in 2003. Brannagh's statement had been among them — one of the few from an Irish-born British Army soldier who had been present during the 1916 executions.",
+        "alone": "The Bureau's 1,773 statements had been sealed until 2003 — Brannagh's statement among them. It had been released to the public fifty-two years after it had been given.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Brannagh giving the statement in 1951 and it being released in 2003 together confirm the full timeline — seen in 1916, reported in 1951, released in 2003, eighty-seven years from the corridor to public availability."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Brannagh's Later Life",
+        "text": "Thomas Brannagh had returned to County Clare after the war. He had not spoken publicly about his time at Kilmainham. He had given his Bureau of Military History statement in 1951 at age sixty-one. He had died in County Clare in 1959. He had never learned whether his statement had been useful — it had been sealed the year he had died and would not be released for forty-four more years. He had given the account without knowing when it would be read.",
+        "alone": "Brannagh had died in 1959 the year the Bureau's collection closed — his statement sealed and not released until 2003, forty-four years after his death.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Brannagh dying without knowing when the statement would be read and the statement released in 2003 together confirm the account had been given entirely without knowledge of its reception — like Karpov's notebook, like Clara Voss's index, given to an institution and trusted to the future."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Three Accounts in One Archive",
+        "text": "The Irish Military Archives holds: Cartwright's operational log notation ('matter resolved, see file 7/B'), received from British archives declassification in 1998. Father Connelly's 1917 account and the family's 1919 copy, donated in 1966. Brannagh's 1951 Bureau of Military History statement, released from seal in 2003. Three accounts of the same night from three different perspectives — the suppressor's record, the spiritual witness's account, and the military eyewitness's statement — in the same institution.",
+        "alone": "Three accounts in one archive: suppressor's log (1998), priest's memory (1966), soldier's eyewitness (2003). All in the same institution. All from the same night.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The three accounts arriving at different times between 1966 and 2003 and all now in the same institution together confirm the archive's eventual completeness — the full picture had been assembled over thirty-seven years of separate donations and declassifications."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What Brannagh's Statement Added",
+        "text": "Historians examining the Irish Military Archives materials in 2003 had found Brannagh's statement corroborated the physical evidence — his sightline account matched the corridor layout, the timing matched the warder's eleven-thirty PM observation of Cartwright, and his description of Cartwright 'walking quickly' from the direction of the killing had been the eyewitness link the other accounts had lacked. The statement had confirmed what the other records had suggested but had not proven from direct observation.",
+        "alone": "Brannagh's statement had provided the direct eyewitness link the other accounts had lacked — the specific visual observation that had connected Cartwright to the killing location.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Brannagh's eyewitness corroborating the other records and the statement released in 2003 together confirm the account had been the final piece of a picture assembled over eighty-seven years from the killing to the last archive release."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "The Rising's Centenary",
+        "text": "The Easter Rising centenary had been commemorated in 2016 — one hundred years after the executions. Kilmainham Gaol had received record visitor numbers. The Irish Military Archives had released a centenary publication drawing on all three accounts of the May 1916 killing. The publication had described the case as 'an example of the archive's function: to hold, patiently, the accounts that could not be given when they were formed, until the time when giving them became possible.' Cartwright's notation, Father Connelly's memory, and Brannagh's sightline were published together for the first time.",
+        "alone": "The centenary publication had brought all three accounts together for the first time — described as the archive holding accounts patiently until giving them became possible.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The centenary publication bringing the accounts together and Kilmainham Gaol open to visitors together confirm the full arc — the gaol that had been the killing's location had become the memorial, and the accounts had been held until the century had turned."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "☘️",
+        "heading": "Kilmainham and the Letter",
+        "text": "Kilmainham Gaol is open to visitors. The execution yard receives hundreds of thousands of people annually. The cells of the condemned leaders are accessible. Cell Block B is marked. The spot where Captain Holt was killed is not. The Irish Military Archives hold three accounts of the same night. The letter does not exist. Father Connelly's account says: 'This is not the letter. This is what a witness heard and remembered.' Brannagh's statement says: 'I saw him walking quickly from the direction of where the captain was found.' Cartwright's notation says: 'Matter resolved.' The execution yard is very quiet. One hundred years of visitors have walked through it. None of them know about the seventh letter. Most of them know about the six that were delivered. The six changed Ireland. The seventh is a gap. The gap is also part of the record.",
+        "alone": "The gap is also part of the record. The execution yard is very quiet. The six letters changed Ireland. The seventh is a gap that the archive holds, carefully, alongside the three accounts of the night it was taken.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The archive holding the gap patiently and the centenary publication finally bringing the accounts together together confirm the final element — the archive's function had been to hold what could not be given until the time came, and the centenary had been that time."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Major William Cartwright",
+      "location": "The Main Corridor",
+      "weapon": "Gaol Key Ring",
+      "motive": "Suppress the Letter's Political Content",
+      "accomplice": "Heard the Letter and Preserved Its Meaning Through Memory"
+    },
+    "epilogue": "Brannagh had seen Cartwright walking quickly from the direction of the killing at eleven-forty PM. He had waited thirty-five years for an Irish institution to receive his account. He had given the statement to the Bureau of Military History in 1951 at age sixty-one. The statement had been sealed until 2003. He had died in 1959 without knowing when it would be read. The centenary publication in 2016 had brought all three accounts together for the first time. Three accounts in one archive: suppressor's log, priest's memory, soldier's eyewitness. The letter does not exist. What exists is what three people did with what they witnessed. The execution yard is very quiet. One hundred years of visitors. The gap is part of the record."
+  }
+}

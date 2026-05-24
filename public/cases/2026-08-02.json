@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Pompeii, 1961. Active excavation. An archaeologist dead in the dig. And a stolen artifact that was last seen — in a fresco painted the day Vesuvius erupted. 🌋🔍 Case #136 — The Dig. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Pompeii 1961 active excavation, an archaeologist dead, a stolen artifact, and a Roman fresco that shows exactly who had it and where it was going — painted in 79 AD. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "An active Pompeii excavation site in 1961, wooden scaffolding over a partially uncovered Roman villa, an archaeologist's field notebook and trowel on the ground beside a freshly uncovered mosaic floor, a gap in an excavated wall where something small has been removed, a Roman fresco visible on an adjacent wall showing a marketplace scene with a distinctive bronze vessel. Archaeological discovery and theft. Style of classic Italian neorealist photography meets archaeological field documentation.",
+    "animationPrompt": "Slow pan through an active 1961 Pompeii excavation site. Wooden scaffolding. A partially uncovered Roman villa. An archaeologist's notebook and trowel on the ground. The camera finds a gap in an excavated wall where something has been removed. On the adjacent wall: a Roman fresco with a marketplace scene. A distinctive bronze vessel in the scene. 79 AD watching 1961. Fade to black.",
+    "hashtags": [
+      "#Pompeii1961",
+      "#Archaeology",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #136",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · September 1961",
+    "emoji": "🌋",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Archaeologist Dr. Lucia Ferrara was found dead at the Pompeii excavation site. She had been uncovering a small bronze votive vessel of exceptional quality when it had been taken. The theft had been the first day of excavation — the object had been photographed in situ but not yet catalogued. A Roman fresco on the adjacent wall showed the same vessel in a marketplace scene, painted in 79 AD. Three people had been at the site that morning. The vessel was gone.",
+    "emptyState": "A Roman marketplace fresco shows the stolen vessel. An archaeologist is dead. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Professor Giorgio Amati",
+            "icon": "📚",
+            "detail": "The excavation's lead archaeologist — had photographed the vessel and had documented its discovery. He had known a private collector who had been seeking exactly this type of Pompeian bronze."
+          },
+          {
+            "name": "Marco Esposito",
+            "icon": "⛏️",
+            "detail": "The site's senior excavation worker — had been present at every stage of the uncovering and had physical access to the object before its formal cataloguing."
+          },
+          {
+            "name": "Renata Schiavone",
+            "icon": "🏛️",
+            "detail": "A representative of the Italian Ministry of Culture — had been conducting a site inspection and had authority to oversee the artifact's handling."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Excavation Trench",
+            "icon": "⛏️",
+            "detail": "Where Ferrara was found — notebook and trowel on the ground, vessel niche empty, fresco visible on the adjacent wall."
+          },
+          {
+            "name": "The Site Office",
+            "icon": "📋",
+            "detail": "Where the photographic documentation had been held — and where the vessel's discovery had been logged."
+          },
+          {
+            "name": "The Via dell'Abbondanza",
+            "icon": "🏛️",
+            "detail": "The main excavated street — where site vehicles had been parked and where a witness had seen a figure carrying something."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Excavation Pick Handle",
+            "icon": "⛏️",
+            "detail": "A heavy wooden pick handle — blunt force wound consistent with its weighted end."
+          },
+          {
+            "name": "Trowel Edge",
+            "icon": "🔧",
+            "detail": "No wound depth match — the trowel's blade too thin for the wound profile."
+          },
+          {
+            "name": "Stone Block Fragment",
+            "icon": "🪨",
+            "detail": "No blood trace on any recovered fragments — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Fresco's Evidence",
+        "text": "The fresco on the adjacent wall — dating to approximately 70 AD, nine years before the eruption — depicts a Pompeii marketplace scene. In the scene's lower right quadrant, a bronze vessel matching the stolen object's profile, dimensions, and decorative handle pattern is shown on a merchant's table. An inscription in Latin beside it reads 'CARO' — a price marker. The fresco establishes the vessel had been in Pompeii's commercial circulation before the eruption and provides a detailed visual record of its appearance that matches the in-situ photograph Ferrara had taken.",
+        "alone": "The fresco shows the same vessel in a Pompeian marketplace scene nine years before the eruption — a 79 AD visual record of the stolen object's appearance and commercial history.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The fresco documenting the vessel's Pompeian provenance and Professor Amati's known connection to a private collector seeking Pompeian bronzes together establish the specific commercial value the fresco had confirmed — the provenance documentation had made the theft more valuable, not less traceable."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⛏️",
+        "heading": "The Pick Handle",
+        "text": "A wooden excavation pick handle — separated from its iron head, which was found nearby — shows blood on its weighted end. Ferrara's wound is consistent with a blow from behind while she had been crouching in the trench examining the vessel's niche after the object had been removed. She had been killed after the vessel had been taken — she had been found at the empty niche, not at the vessel's location.",
+        "alone": "Ferrara had been killed at the empty niche after the vessel had been taken — she had been examining the theft site when struck from behind.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "Ferrara killed at the empty niche after the theft and Professor Amati's confirmed presence at the trench during the excavation giving him knowledge of the pick handle's location together establish both the weapon's availability and the killing's sequence."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Renata Schiavone's Morning",
+        "text": "Renata had been conducting her ministry inspection on the northern section of the site — three hundred metres from the trench — from nine AM until eleven AM. She had been accompanied throughout by the site manager, who confirmed her continuous presence. She had not been near the excavation trench. She is definitively cleared.",
+        "alone": "Renata had been in the northern section three hundred metres away confirmed by the site manager — she had not been near the trench. She is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Renata cleared in the northern section and Marco Esposito confirmed on the Via dell'Abbondanza surface together eliminate both other suspects from the trench during the killing window — only Amati's movements at the trench after the vessel's documentation are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Amati's Private Collector Connection",
+        "text": "Italian Carabinieri Art Squad records — compiled during the post-theft investigation — document that Professor Amati had been in correspondence with a Swiss private collector named Brandt over the preceding year. Brandt had specifically requested 'Pompeian commercial bronzes of the pre-eruption period' in a letter recovered from Amati's office. The vessel matched Brandt's stated criteria exactly. The correspondence had preceded the excavation season's beginning.",
+        "alone": "Amati had been in correspondence with a collector specifically seeking the type of vessel that had been stolen — the correspondence had preceded the excavation season.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Amati's collector correspondence specifically seeking Pompeian commercial bronzes and the vessel matching the collector's criteria exactly together confirm the theft had been targeted rather than opportunistic — the vessel had been identified before it had been found."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "📚",
+        "heading": "Amati at the Trench",
+        "text": "Marco Esposito confirms Amati had been at the trench when the vessel had been uncovered and had personally taken the in-situ photographs. He had then told the excavation team to take a fifteen-minute break — 'to allow the photographic record to be complete before handling.' The team had left the trench. Ferrara had remained to continue documentation. Marco had gone to the surface. When the team returned, Ferrara had been found and the vessel had been gone.",
+        "alone": "Amati had ordered a fifteen-minute break immediately after photographing the vessel — Ferrara had stayed in the trench alone. When the team returned, she had been killed and the vessel had been gone.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The fifteen-minute break leaving Ferrara alone in the trench and the killing having occurred during that window together confirm the break had created the specific opportunity — ordered by the person who had the collector connection."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "📚",
+        "heading": "Amati's Documentary Knowledge",
+        "text": "Amati had been the person who had photographed the vessel and had been the first to read the fresco's marketplace inscription. His field notes — recovered from the site office — show he had written: 'Vessel confirmed by fresco documentation — pre-eruption commercial provenance established. Exceptional quality. See Brandt criteria file.' The reference to the Brandt criteria file in the field notes had been the Carabinieri's key finding linking the theft to the collector correspondence.",
+        "alone": "Amati's field notes had referenced the Brandt criteria file immediately upon identifying the vessel's quality — connecting the find to the collector correspondence in his own handwriting.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Amati's field notes referencing the Brandt criteria file and the collector correspondence specifically seeking this type of vessel together confirm the killing had been planned around the find rather than improvised — the notes showed the connection being made at the moment of discovery."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "⛏️",
+        "heading": "Marco Esposito on the Surface",
+        "text": "Marco had been on the Via dell'Abbondanza surface during the break — confirmed by two other workers who had been eating lunch nearby. He had not gone back to the trench during the break. He is definitively cleared.",
+        "alone": "Marco had been on the surface during the fifteen-minute break confirmed by two other workers — he had not returned to the trench. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Renata cleared in the northern section and Marco cleared on the surface together eliminate both other suspects from the trench during the killing window — the fifteen-minute break Amati had ordered had created the window, and both other suspects had been elsewhere during it."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Vessel's Fate and the Fresco",
+        "text": "Professor Amati had been arrested by the Carabinieri Art Squad in November 1961. The vessel had been recovered from a Swiss storage facility connected to Brandt in 1962. Amati had received eight years. The vessel had been returned to the Pompeii Archaeological Museum, where it is displayed alongside a photograph of the fresco that had documented it in 79 AD. The museum display note reads: 'This vessel was depicted in the adjacent marketplace fresco approximately nine years before the eruption. It was rediscovered in 1961 and returned to public display in 1963.' The fresco is the oldest known documentation of the object. The object and its documentation are now in the same museum.",
+        "alone": "The vessel was recovered in 1962 and is displayed at the Pompeii Museum alongside a photograph of its 79 AD fresco documentation. The object and its 1,882-year-old image are in the same museum.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The fresco confirming the vessel's Pompeian provenance and the vessel and its fresco documentation now in the same museum together confirm the full arc — the 79 AD image had survived Vesuvius, had documented the theft, and had ended up displayed alongside the object it had shown for 1,882 years."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Professor Giorgio Amati",
+      "location": "The Excavation Trench",
+      "weapon": "Excavation Pick Handle"
+    },
+    "epilogue": "Professor Giorgio Amati had photographed the vessel, had read the fresco's inscription confirming its provenance, had written 'see Brandt criteria file' in his field notes, and had ordered a fifteen-minute break. Ferrara had stayed in the trench. Amati had returned during the break, had taken the vessel, and had struck Ferrara at the empty niche when she had discovered the theft. He had been arrested in November 1961. The vessel had been recovered in 1962. He had received eight years. The vessel is displayed at the Pompeii Archaeological Museum alongside a photograph of the 79 AD fresco. The fresco had survived Vesuvius. It had documented the theft. The object and its documentation are now in the same building."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #136",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · September 1961",
+    "emoji": "🌋",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Amati stole the vessel and killed Ferrara. But Renata Schiavone had seen something during her ministry inspection that had made her suspicious before the killing. Find what she noticed and what she did with it.",
+    "emptyState": "Renata noticed something during her inspection. Find what it was and what she did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Professor Giorgio Amati",
+            "icon": "📚",
+            "detail": "The killer — Brandt correspondence, field notes, fifteen-minute break, pick handle, arrested November 1961, eight years."
+          },
+          {
+            "name": "Marco Esposito",
+            "icon": "⛏️",
+            "detail": "Cleared as killer — surface confirmed. His role in the investigation is the new thread."
+          },
+          {
+            "name": "Renata Schiavone",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — northern section confirmed. Had observed something suspicious before the killing."
+          },
+          {
+            "name": "The Carabinieri Art Squad",
+            "icon": "🎖️",
+            "detail": "The investigators — and what Renata's observation had contributed to the case."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Excavation Trench",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — Amati's killing."
+          },
+          {
+            "name": "The Northern Section",
+            "icon": "🏛️",
+            "detail": "Renata's confirmed inspection location — and where her suspicious observation had occurred."
+          },
+          {
+            "name": "The Site Office",
+            "icon": "📋",
+            "detail": "Where the Brandt correspondence had been found — and where Renata had gone before the killing."
+          },
+          {
+            "name": "The Carabinieri Art Squad Office",
+            "icon": "🎖️",
+            "detail": "Where Renata had filed her concern — and what had happened when they had received it."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Excavation Pick Handle",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Amati's break-window opportunity."
+          },
+          {
+            "name": "Trowel Edge",
+            "icon": "🔧",
+            "detail": "Too thin — eliminated."
+          },
+          {
+            "name": "Stone Block Fragment",
+            "icon": "🪨",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Renata's Filed Report",
+            "icon": "🏛️",
+            "detail": "Not a weapon — but the observation she had filed and what it had contributed to the investigation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Steal the Vessel for the Brandt Collector Network",
+            "icon": "📚",
+            "detail": "Amati's motive — arrested, eight years, vessel recovered."
+          },
+          {
+            "name": "Flag a Potential Irregularity Before It Became a Crime",
+            "icon": "🏛️",
+            "detail": "Renata's professional concern — her observation and its timing."
+          },
+          {
+            "name": "What Renata Had Seen During the Inspection",
+            "icon": "🏛️",
+            "detail": "The specific suspicious observation — and how it had related to the theft."
+          },
+          {
+            "name": "The Timing of Renata's Report",
+            "icon": "🎖️",
+            "detail": "Whether she had filed before or after the killing — and what the Carabinieri had done with it."
+          },
+          {
+            "name": "The Report's Role in the November Arrest",
+            "icon": "🎖️",
+            "detail": "Whether Renata's report had been part of the evidence chain that had produced the arrest."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "What Renata Had Observed",
+        "text": "Renata's account to the Carabinieri: 'During my northern section inspection I passed the site office. The door was open. I saw Professor Amati at his desk with a letter. The letter's header was in French — I could see the word Genève. He saw me and covered the letter immediately. The reaction was disproportionate for a routine correspondence. I continued my inspection but I noted it. After I finished the northern section, I returned to the site office to ask about the inspection records. Amati was not there. The desk was clear. I found the Ferrara incident on my return.'",
+        "alone": "Renata had seen Amati covering a Geneva-headed letter disproportionately — she had noted it and had returned to the site office but had found him absent and the desk cleared.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Renata's observation of the Geneva letter and the Brandt correspondence having been sent from Geneva together confirm she had seen the specific correspondence that had connected Amati to the collector — her instinct had been accurate."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Renata's Filed Report",
+        "text": "Renata had filed a concern with the Carabinieri Art Squad the same afternoon — after Ferrara's body had been found: 'I am reporting a potential irregularity observed at the Pompeii site this morning. Professor Amati was seen with correspondence from Geneva that he concealed upon observation. This may be unrelated to the theft and death reported this afternoon. I file it in case it is relevant.' She had filed the observation before she had known it was significant — as a precaution.",
+        "alone": "Renata had filed the Geneva letter observation the same afternoon as the killing — before knowing it would be the thread that connected to the Brandt correspondence.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Renata filing the Geneva observation as a precaution before knowing its significance and the Carabinieri using it to obtain a warrant for Amati's office together confirm the precautionary report had been the operational starting point of the investigation."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Carabinieri's Use of the Report",
+        "text": "The Carabinieri Art Squad had received Renata's report and had used it as the basis for a warrant to examine Amati's office correspondence. The warrant had been issued within forty-eight hours. The office search had produced the Brandt correspondence file and the field notes referencing the Brandt criteria. The arrest had followed in November 1961. Renata's precautionary observation had been the thread that had opened the office and found the evidence.",
+        "alone": "Renata's report had been the basis for the warrant that had produced the Brandt correspondence and the arrest — the precautionary filing had been the investigation's starting thread.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Renata's precautionary report producing the warrant and the warrant producing the Brandt correspondence together confirm the investigation's chain — the observation had been the origin, the correspondence had been the evidence, and the arrest had been the outcome."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Fresco's Role in the Recovery",
+        "text": "The fresco's detailed depiction of the vessel had been the key to its identification in Swiss storage — a bronze vessel matching the fresco's profile, dimensions, and handle pattern had been found in a crate in a Geneva storage facility. Without the fresco's documentation, matching the recovered object to the theft would have been significantly more difficult. The fresco had been both the historical documentation of the vessel's provenance and the practical tool for its recovery in 1962.",
+        "alone": "The fresco had been used to identify the vessel in Swiss storage — its 79 AD image had been the practical recovery tool in 1962.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The fresco identifying the vessel in recovery and the vessel and fresco now in the same museum together confirm the 79 AD image had served the investigation directly — it had documented the theft and had enabled the recovery."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📚",
+        "heading": "The Brandt Network's Scope",
+        "text": "The Carabinieri Art Squad's investigation of the Brandt correspondence had revealed a broader collector network operating through Geneva — fourteen Italian antiquities had been traced to the same network between 1958 and 1962. Amati had been the network's primary Pompeii contact but had not been the network's only Italian source. The investigation had expanded beyond the Ferrara killing. Five other individuals had been identified and prosecuted. The network had been disrupted by 1965.",
+        "alone": "The Brandt network had involved fourteen Italian antiquities and five other Italian sources — the investigation had expanded into a broader disruption of an established network.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Renata's single precautionary report producing a warrant and the warrant uncovering a fourteen-item network together confirm the specific consequence of the observation — one filing had been the thread that had unravelled a broader operation."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Renata's Career",
+        "text": "Renata Schiavone had continued as a Ministry of Culture inspector for twenty years after the Pompeii case. She had been a key figure in establishing Italy's Cultural Property Protection Code — legislation strengthening the protection of archaeological finds from the excavation moment. The code had been partly motivated by the gap in protection during the window between discovery and formal cataloguing — the window Amati had exploited. She had died in Rome in 1994.",
+        "alone": "Renata had helped establish Italy's Cultural Property Protection Code — motivated partly by the discovery-to-cataloguing gap Amati had exploited. She had died in Rome in 1994.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Renata's precautionary report enabling the investigation and her later legislation addressing the gap that had been exploited together confirm her role had extended beyond the immediate case — the observation had produced an arrest and the gap had produced a law."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Cultural Property Protection Code",
+        "text": "The Italian Cultural Property Protection Code — enacted in stages from 1963 — had established that archaeological objects were state property from the moment of discovery, with formal documentation required within twenty-four hours of uncovering. The fifteen-minute break window that Amati had created — between photography and formal cataloguing — had been specifically addressed: all discovery documentation had to be filed with the ministry representative present at the site before any break could be called. Renata had drafted this specific provision.",
+        "alone": "Renata had drafted the specific provision closing the fifteen-minute break window — requiring documentation filing before any break, directly addressing the method Amati had used.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The provision closing the break window and the vessel now in the museum alongside its fresco documentation together confirm the full consequence of the Ferrara killing — the gap had been exploited, had produced a law closing it, and the stolen object had been returned to the institution that had discovered it."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌋",
+        "heading": "Pompeii Today",
+        "text": "Pompeii continues to be excavated and is one of the world's most visited archaeological sites. The vessel from the 1961 excavation is in the Pompeii Archaeological Museum's permanent collection, displayed alongside a reproduction of the fresco that had documented it in 79 AD. The museum's display notes describe both the object's pre-eruption history and its 1961 discovery and theft. Dr. Lucia Ferrara is not named in the display. The fresco is still on the wall of the excavated villa — visitors to the site can see it in situ. The fresco survived Vesuvius, documented a theft 1,882 years later, and is still standing. Pompeii is still being excavated.",
+        "alone": "The fresco is still on the wall. The vessel is in the museum. Ferrara is not named in the display. Pompeii is still being excavated.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The fresco enabling the recovery and the fresco still on the wall of the excavated villa together confirm the final image — the 79 AD painting that had survived Vesuvius and documented a 1961 theft is still visible to visitors walking through the same site where the theft had occurred."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Professor Giorgio Amati",
+      "location": "The Excavation Trench",
+      "weapon": "Excavation Pick Handle",
+      "motive": "Steal the Vessel for the Brandt Collector Network"
+    },
+    "epilogue": "Renata had seen Amati covering a Geneva-headed letter and had filed a precautionary report the same afternoon. The Carabinieri had used it to obtain a warrant within forty-eight hours. The office search had found the Brandt correspondence. The arrest had followed in November 1961. The vessel had been recovered in Geneva in 1962. Amati had received eight years. The Brandt network had been disrupted by 1965. Renata had drafted the provision closing the fifteen-minute break window that Amati had created. It had been enacted as part of the Cultural Property Protection Code from 1963. The vessel is in the Pompeii Museum alongside its fresco image. The fresco is still on the wall. Pompeii is still being excavated."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #136",
+    "title": "The Dig",
+    "setting": "Pompeii Archaeological Site · Campania · Italy · September 1961",
+    "emoji": "🌋",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Amati stole the vessel and killed Ferrara. Renata's report broke the network. But Marco Esposito had seen the fresco before anyone else — and had understood what it showed. Find what Marco had done with that understanding.",
+    "emptyState": "Marco saw the fresco first and understood what it showed. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Professor Giorgio Amati",
+            "icon": "📚",
+            "detail": "The killer — Brandt correspondence, break window, pick handle, arrested November 1961, eight years."
+          },
+          {
+            "name": "Renata Schiavone",
+            "icon": "🏛️",
+            "detail": "Cleared as killer — northern section confirmed. Precautionary report, warrant, network disrupted, Cultural Property Code, died 1994."
+          },
+          {
+            "name": "Marco Esposito",
+            "icon": "⛏️",
+            "detail": "Cleared as killer — surface confirmed. Had seen the fresco first and had understood its significance."
+          },
+          {
+            "name": "Marco's Prior Fresco Observation",
+            "icon": "⛏️",
+            "detail": "What he had noticed before the vessel had been uncovered — and what he had done about it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Excavation Trench",
+            "icon": "⛏️",
+            "detail": "Primary crime scene — and where Marco had been working on the days before the vessel's discovery."
+          },
+          {
+            "name": "The Adjacent Fresco Wall",
+            "icon": "🏺",
+            "detail": "Where Marco had first seen the fresco — and what he had recognized in it."
+          },
+          {
+            "name": "The Site Office",
+            "icon": "📋",
+            "detail": "Where Marco had gone with his observation — and what had happened when he had."
+          },
+          {
+            "name": "The Pompeii Museum",
+            "icon": "🏛️",
+            "detail": "Where Marco had eventually given a formal account — and what his observation had added to the record."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Excavation Pick Handle",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Amati's fifteen-minute window."
+          },
+          {
+            "name": "Trowel Edge",
+            "icon": "🔧",
+            "detail": "Too thin — eliminated."
+          },
+          {
+            "name": "Stone Block Fragment",
+            "icon": "🪨",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Marco's Fresco Recognition",
+            "icon": "⛏️",
+            "detail": "Not a weapon — what he had seen in the fresco before the vessel had been uncovered, and what he had done with that recognition."
+          },
+          {
+            "name": "Marco's Report to Ferrara",
+            "icon": "⛏️",
+            "detail": "Not a weapon — the conversation he had had with Ferrara about the fresco that had shaped her documentation approach."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Steal the Vessel for the Brandt Network",
+            "icon": "📚",
+            "detail": "Amati's motive — eight years, vessel recovered."
+          },
+          {
+            "name": "Flag the Irregularity Before It Became a Crime",
+            "icon": "🏛️",
+            "detail": "Renata's professional concern — precautionary report, warrant, network."
+          },
+          {
+            "name": "Document What He Had Recognized in the Fresco",
+            "icon": "⛏️",
+            "detail": "Marco's instinct — his observation and what he had done with it."
+          },
+          {
+            "name": "Marco's Recognition of the Vessel Before Its Discovery",
+            "icon": "⛏️",
+            "detail": "The specific observation — seeing the vessel in the fresco before it had been uncovered from the ground."
+          },
+          {
+            "name": "What Marco Had Told Ferrara and What She Had Done With It",
+            "icon": "⛏️",
+            "detail": "The conversation between Marco and Ferrara that had shaped the vessel's documentation approach."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Stole the Vessel and Killed Ferrara",
+            "icon": "📚",
+            "detail": "Amati's confirmed role — eight years."
+          },
+          {
+            "name": "Filed the Precautionary Geneva Letter Report",
+            "icon": "🏛️",
+            "detail": "Renata's role — warrant, network disrupted, Cultural Property Code."
+          },
+          {
+            "name": "Recognized the Fresco's Vessel Before the Dig Reached It and Told Ferrara",
+            "icon": "⛏️",
+            "detail": "Marco's role — the observation that had shaped Ferrara's documentation approach."
+          },
+          {
+            "name": "Used Marco's Fresco Observation to Create the Most Complete Documentation of the Vessel",
+            "icon": "📋",
+            "detail": "Ferrara's posthumous role — her documentation approach informed by Marco's recognition."
+          },
+          {
+            "name": "Used the Fresco Documentation to Recover the Vessel From Swiss Storage",
+            "icon": "🎖️",
+            "detail": "The Carabinieri's practical role — the fresco as recovery tool."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "witness",
+        "icon": "⛏️",
+        "heading": "What Marco Had Seen in the Fresco",
+        "text": "Marco Esposito's account — given to the Pompeii Museum's oral history project in 1985: 'Three days before Dr. Ferrara was killed, I had been clearing the fresco wall adjacent to the trench. I saw the vessel in the marketplace scene. I had been excavating at Pompeii for fifteen years. I recognized the object type immediately — a commercial votive bronze of the pre-eruption period. I could see from the outline in the soil beside the fresco that something of approximately that size and shape was still buried there. I went to Dr. Ferrara and told her what I had seen.'",
+        "alone": "Marco had recognized the vessel in the fresco three days before the discovery and had told Ferrara — his fifteen years of excavation experience had given him the recognition.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Marco recognizing the vessel in the fresco three days before discovery and Ferrara's documentation approach incorporating the fresco's evidence together confirm the documentation had been shaped by Marco's prior observation — he had told her what to look for and she had connected the fresco to the find."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "What Marco Had Told Ferrara",
+        "text": "Marco's account continues: 'I told Dr. Ferrara that the fresco showed what I believed was still in the ground beside it. I said: if we find it, the fresco is its documentation — it will show us what it looked like in 79 AD and confirm it is genuinely from Pompeii. Dr. Ferrara had been excited. She had said: then when we find it, we document the fresco at the same time as the object. She had made the fresco part of the excavation record specifically because I told her about the connection.'",
+        "alone": "Marco had told Ferrara the fresco was the vessel's documentation — and Ferrara had incorporated the fresco into the excavation record as a result. The documentary connection had been Marco's idea.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Marco's fresco recognition informing Ferrara's documentation approach and the fresco eventually enabling the vessel's recovery in Geneva together confirm Marco's observation had been the origin of the documentation strategy that had made the recovery possible."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "Marco's Report to Amati",
+        "text": "Marco had also told Amati about the fresco connection — before telling Ferrara. He had been excited and had shared the observation with the lead archaeologist first. Amati had said: 'Excellent observation, Marco. That would be an exceptional find.' He had then gone to his office. Marco had realized later — after Amati's arrest — that this had been the moment Amati had written 'Brandt criteria file' in his field notes: he had written it before the vessel had been found, on the day Marco had described it to him.",
+        "alone": "Marco had told Amati first — and Amati had immediately gone to his office and written the Brandt criteria note. Marco's description had been the moment of the decision.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Marco telling Amati about the fresco connection and Amati immediately writing the Brandt criteria note together confirm the moment of the decision had been Marco's innocent description — the observation that had made the documentation possible had also been the trigger for the theft."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "Marco's Understanding After the Arrest",
+        "text": "Marco's 1985 account: 'When they arrested Amati, I understood that my description of the fresco had been the moment he had decided to steal the vessel. I had told him what was in the ground. I had given him the Brandt criteria match without knowing what the Brandt criteria were. Dr. Ferrara had died because of what I found in the fresco. I have thought about this since 1961. I found the fresco. I told two people. One used it to protect the find. One used it to steal it. I did not know which one would do what.'",
+        "alone": "Marco had understood that his fresco description had been the moment of Amati's decision — he had found the fresco, told two people, and not known which one would protect it and which would steal it.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Marco's observation being the origin of both Ferrara's protective documentation and Amati's theft decision together confirm the single observation had produced two simultaneous and opposite responses — the documentation that had recovered the vessel and the theft that had made the recovery necessary."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🏺",
+        "heading": "The Documentation Ferrara Had Made",
+        "text": "Ferrara's excavation documentation — recovered from the site office — showed she had photographed the fresco and the vessel's niche simultaneously, had measured the vessel against the fresco's depicted dimensions to confirm their match, and had written: 'Object confirmed by fresco correspondence — pre-eruption commercial context established by pictorial documentation dated approximately 70 AD.' This documentation had been the most thorough single-object excavation record in the site's recent history. It had been thorough because Marco had told her to connect the fresco to the find.",
+        "alone": "Ferrara's documentation was the most thorough in the site's recent history — because Marco had told her the fresco was the vessel's documentation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Ferrara's thorough documentation informed by Marco's observation and the fresco enabling the recovery in Geneva together confirm the documentation chain — Marco's recognition, Ferrara's thoroughness, the fresco's practical use in recovery."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "⛏️",
+        "heading": "Marco's Later Career",
+        "text": "Marco Esposito had continued as a senior excavation worker at Pompeii until his retirement in 1978. He had been interviewed by the Pompeii Museum in 1985 as part of an oral history of the site's twentieth-century excavations. His account of the fresco recognition and the Ferrara killing had been the most detailed personal record of the 1961 incident available to historians. He had died in Pompeii in 1991. His oral history is in the Pompeii Museum archive.",
+        "alone": "Marco had worked at Pompeii until 1978, given the oral history in 1985, and died in Pompeii in 1991. His account is in the museum archive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Marco dying in Pompeii in 1991 and his oral history in the museum archive together confirm the full span of his connection to the site — he had been born into its excavation, had found the fresco that had connected 79 AD to 1961, and had died in the same town."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🌋",
+        "heading": "The Fresco's Full Role",
+        "text": "The fresco on the wall of the excavated Pompeii villa had: depicted the bronze vessel in a marketplace scene approximately nine years before the eruption; been recognized by Marco Esposito three days before the vessel's discovery; informed Ferrara's documentation approach; been used by the Carabinieri to identify the vessel in Swiss storage in 1962; and been installed as the display context for the vessel in the Pompeii Museum from 1963. It had served five distinct purposes across 1,882 years. It is still on the wall. Visitors to the site can see it.",
+        "alone": "The fresco had served five purposes across 1,882 years: commercial depiction, Marco's recognition, Ferrara's documentation, recovery identification, and museum display context. It is still on the wall.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The fresco's five purposes across 1,882 years and its being still on the wall together confirm the final image — the painting that had survived Vesuvius had been the connecting thread across every dimension of the case and remains visible to anyone who visits the site."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌋",
+        "heading": "Pompeii and the Fresco",
+        "text": "Pompeii is still being excavated. New findings continue to emerge from beneath the volcanic material. The fresco of the marketplace scene is on the wall of the Casa del Mercato — the merchant's house excavated in 1961. It is visible to visitors. The vessel is in the Pompeii National Archaeological Museum alongside a reproduction photograph of the fresco. The museum display includes Ferrara's excavation photographs and documentation notes. Her name is on the display label. Marco's oral history account is referenced in the display's extended notes. The fresco is still on the wall. The vessel is in the museum. Pompeii is still being excavated. Somewhere under the volcanic material, there are objects not yet found. The fresco may show some of them.",
+        "alone": "Ferrara's name is on the display label. Marco's oral history is referenced in the extended notes. The fresco is still on the wall. Somewhere under the volcanic material, there are objects not yet found. The fresco may show some of them.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The fresco's five purposes and its potential to document objects not yet found together confirm the final element — the 79 AD painting had already served 1,882 years of documentary purposes and may have more to do."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Professor Giorgio Amati",
+      "location": "The Excavation Trench",
+      "weapon": "Excavation Pick Handle",
+      "motive": "Steal the Vessel for the Brandt Collector Network",
+      "accomplice": "Recognized the Fresco's Vessel Before the Dig Reached It and Told Ferrara"
+    },
+    "epilogue": "Marco had seen the vessel in the fresco three days before the discovery. He had told Amati first. Amati had immediately gone to his office and written the Brandt criteria note — the decision had been made before the vessel had been found. Marco had then told Ferrara. Ferrara had incorporated the fresco into the documentation. The documentation had been the most thorough in the site's recent history. Amati had stolen the vessel and killed Ferrara at the empty niche. Renata's precautionary report had broken the network. The fresco had identified the vessel in Geneva. The vessel had been recovered in 1962. Ferrara's name is on the museum display label. Marco's oral history is referenced in the extended notes. The fresco is still on the wall. Pompeii is still being excavated. Somewhere under the volcanic material, there are objects not yet found. The fresco may show some of them."
+  }
+}

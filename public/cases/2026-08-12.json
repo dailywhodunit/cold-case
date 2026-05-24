@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Arctic Ocean, 1928. The Italia airship crashes on the ice. The survivors are stranded. And in the days before rescue, one of them is found dead. 🧊🔍 Case #146 — The Ice Camp. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: 1928 Arctic Italia airship disaster, survivors stranded on the ice for weeks, one found dead in the camp before rescue arrived. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The Italia disaster ice camp in 1928, a red tent on white Arctic ice, survival equipment and radio gear scattered around it, a survivor's body on the ice beside the camp, the wreckage of the Italia airship gondola visible in the background, Arctic skies with midnight sun. Isolation, survival, and something darker. Style of official Nobile expedition photography meets polar exploration archive imagery.",
+    "animationPrompt": "Slow pan across the 1928 Italia disaster ice camp. A red tent on white ice. Survival equipment. Radio gear. The camera finds a survivor's body on the ice beside the camp. In the background: the wreckage of the Italia gondola. Arctic skies. The survivors have been on the ice for eleven days. Rescue is not yet here. Fade to black.",
+    "hashtags": [
+      "#Italia1928",
+      "#ArcticExpedition",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #146",
+    "title": "The Ice Camp",
+    "setting": "Italia Disaster Ice Camp · Arctic Ocean · May 1928",
+    "emoji": "🧊",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Umberto Nobile's airship Italia had crashed on the Arctic ice on May 25th, 1928. Ten survivors had been stranded with minimal supplies. On day eleven of the survival period, radio operator Giuseppe Biagi was found dead at the camp perimeter. Biagi had been maintaining the radio transmitter — the only connection to the outside world and the reason rescue had been possible. He had been threatening to reveal that another survivor had sabotaged the Italia before the crash. Three people had been with him at the camp perimeter when the death had occurred.",
+    "emptyState": "Day eleven on the Arctic ice. A dead radio operator. Three survivors at the perimeter. Find who killed the only man keeping them connected to the world.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Engineer Natale Cecioni",
+            "icon": "🔧",
+            "detail": "The expedition's chief engineer — had been responsible for the Italia's mechanical systems and was the person Biagi had been threatening to expose for pre-crash sabotage."
+          },
+          {
+            "name": "Meteorologist Finn Malmgren",
+            "icon": "🌨️",
+            "detail": "A Swedish meteorologist — had been the expedition's scientific specialist and had been in conflict with Biagi over the radio transmissions' priority."
+          },
+          {
+            "name": "Lieutenant Alfredo Viglieri",
+            "icon": "🧭",
+            "detail": "The expedition's navigator — had been managing the survival camp's logistics and had known Biagi's accusation against Cecioni."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Camp Perimeter",
+            "icon": "🧊",
+            "detail": "Where Biagi was found — on the ice beyond the red tent's immediate vicinity."
+          },
+          {
+            "name": "The Red Tent",
+            "icon": "🔴",
+            "detail": "The primary survival shelter — where the radio equipment had been kept and where the group had been sheltering."
+          },
+          {
+            "name": "The Gondola Wreckage",
+            "icon": "🛸",
+            "detail": "The Italia's crashed gondola — where Biagi had been collecting equipment when he had discovered the evidence of sabotage."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe Handle",
+            "icon": "⛏️",
+            "detail": "A survival ice axe — blunt force wound consistent with its handle used as a bludgeon."
+          },
+          {
+            "name": "Radio Equipment Case",
+            "icon": "📻",
+            "detail": "No wound profile — too broad for the specific wound."
+          },
+          {
+            "name": "Supply Crate Edge",
+            "icon": "📦",
+            "detail": "No blood trace on recovered crates — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Sabotage Accusation",
+        "text": "Biagi's personal diary — recovered with his body and later published — describes what he had found in the gondola wreckage on day nine: a deliberate interference with the Italia's hydrogen valve system consistent with causing the crash's severity. He had identified the interference as requiring specific knowledge of the airship's mechanical systems — knowledge that only the chief engineer would have had. He had confronted Cecioni privately on day ten. He had written: 'Cecioni denies it. He is lying. I will include this in my transmissions when we are rescued.'",
+        "alone": "Biagi had found evidence of deliberate mechanical interference in the wreckage, had confronted Cecioni, and had threatened to include the accusation in his post-rescue transmissions.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Biagi's threat to transmit the accusation after rescue and Cecioni's specific mechanical knowledge matching the sabotage's requirements together establish the specific threat — the transmission would have been the public exposure of what Biagi had accused Cecioni of doing."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "⛏️",
+        "heading": "The Ice Axe",
+        "text": "The survival camp's ice axe — equipment shared among the survivors — shows blood on its wooden handle. Biagi's wound is consistent with the handle used as a bludgeon from behind while he had been at the camp perimeter. The axe had been found thirty metres from the body — thrown or carried there. The approach from behind on open ice had required the killer to approach across the white surface without being seen, which had been possible in the Arctic's perpetual daylight only if Biagi had not been watching.",
+        "alone": "The axe had been found thirty metres from the body — the killing on open Arctic ice in perpetual daylight had required Biagi not to be watching the approach from behind.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The killing requiring Biagi to not be watching his approach and Cecioni's documented habit of approaching the perimeter from a specific direction — always from the wreckage side — together establish the specific approach that Biagi would not have found suspicious."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🌨️",
+        "heading": "Malmgren's Position",
+        "text": "Finn Malmgren had been inside the red tent from approximately nine AM throughout the killing window — confirmed by Lieutenant Viglieri who had been in the tent recording navigation data and had seen Malmgren continuously. He had not been at the camp perimeter. He is definitively cleared.",
+        "alone": "Malmgren had been in the red tent confirmed by Viglieri — he had not been at the perimeter during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Malmgren cleared in the red tent and Viglieri confirmed recording navigation data together eliminate both other suspects from the perimeter — only Cecioni's movements at the perimeter that morning are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Cecioni's Mechanical Access",
+        "text": "The Italia expedition's equipment logs show Cecioni had been the only expedition member with access to and knowledge of the hydrogen valve systems. He had been responsible for pre-flight and in-flight mechanical checks. The interference Biagi had described in his diary — a specific modification to the valve's release mechanism — had required this knowledge. Cecioni had denied the interference. The physical evidence had been in the wreckage, which had subsequently drifted with the ice.",
+        "alone": "Cecioni had been the only expedition member with knowledge of the specific valve system Biagi had described as interfered with — the wreckage had subsequently drifted, taking the physical evidence with it.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Cecioni's exclusive mechanical knowledge matching the interference and the wreckage having drifted away taking the physical evidence together confirm the specific evidentiary situation — the accusation had been made and the physical evidence had been lost to the ice."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🔧",
+        "heading": "Cecioni at the Perimeter",
+        "text": "Lieutenant Viglieri had seen Cecioni leave the red tent at approximately nine-thirty AM — heading toward the camp perimeter in the direction of the wreckage. Biagi had been at the perimeter checking equipment at approximately the same time. Viglieri had not seen Cecioni return. At ten-thirty AM Viglieri had gone to the perimeter and had found Biagi's body. He had found the ice axe thirty metres away.",
+        "alone": "Cecioni had been seen leaving the tent toward the perimeter where Biagi had been at nine-thirty AM — Viglieri had not seen him return and had found the body at ten-thirty.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Cecioni heading to the perimeter at the same time Biagi had been there and the killing requiring a non-suspicious approach together establish the specific opportunity — Cecioni approaching from the wreckage direction had been consistent with his normal pattern."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "Cecioni's Approach Pattern",
+        "text": "Survivor accounts from the Italia disaster — published in the 1930s and 1940s — consistently describe Cecioni as having habitually approached the camp perimeter from the direction of the wreckage, where he had been conducting equipment salvage assessments. This had been his established route for eleven days. Biagi had been accustomed to Cecioni approaching from that direction. He would not have found it suspicious.",
+        "alone": "Cecioni's eleven-day established approach pattern from the wreckage direction had made his approach non-suspicious to Biagi — the killing had exploited the familiarity of the pattern.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "Cecioni's departure toward the perimeter at the same time as Biagi and his eleven-day established approach pattern together confirm the specific exploitation — familiarity had been the cover, and the approach had been from the direction Biagi had been accustomed to seeing Cecioni come from."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🧭",
+        "heading": "Viglieri's Account",
+        "text": "Lieutenant Viglieri had been recording navigation data in the red tent — he had seen Malmgren throughout and had seen Cecioni leave at nine-thirty. He had not been at the perimeter. He had found the body. He had not seen the killing. His account had been given to Italian naval investigators following the rescue. He is definitively cleared.",
+        "alone": "Viglieri had found the body and had given the account to naval investigators — he had not seen the killing. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Malmgren cleared in the red tent and Viglieri confirmed as the body's discoverer who had not been at the perimeter together eliminate both other suspects — Cecioni's nine-thirty departure toward the perimeter is the only confirmed movement toward the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Rescue and the Investigation",
+        "text": "The Italia survivors had been rescued between June 23rd and July 12th, 1928 — twenty-nine to forty-eight days after the crash. Biagi's diary had been recovered with his body and had been published in Italy in 1929. The Italian naval investigation had examined the sabotage accusation. The wreckage had drifted with the ice and had not been recoverable. The investigation had found insufficient physical evidence to establish the sabotage claim. Natale Cecioni had not been charged. He had died in 1945. The Italia disaster had been the subject of investigation, memoirs, and historical scholarship for a century.",
+        "alone": "The investigation had found insufficient physical evidence — the wreckage had drifted. Cecioni had not been charged and had died in 1945. Biagi's diary is in the published record.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "The physical evidence lost to the ice and the investigation finding insufficient grounds together confirm the specific evidentiary consequence of the polar setting — the Arctic had removed the physical evidence that Biagi's diary had described."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Engineer Natale Cecioni",
+      "location": "The Camp Perimeter",
+      "weapon": "Ice Axe Handle"
+    },
+    "epilogue": "Natale Cecioni had left the red tent at nine-thirty AM on day eleven. He had approached the camp perimeter from the wreckage direction — the direction he had used for eleven days, the direction Biagi would not have found suspicious. He had used the ice axe. He had thrown it thirty metres from the body. He had returned to the camp. The wreckage had drifted with the ice, taking the physical evidence of the valve interference with it. The Italian naval investigation had found insufficient physical evidence. Cecioni had not been charged. He had died in 1945. Biagi's diary is in the published record. The accusation is in it. The Arctic took the evidence. The diary survived."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #146",
+    "title": "The Ice Camp",
+    "setting": "Italia Disaster Ice Camp · Arctic Ocean · May 1928",
+    "emoji": "🧊",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Cecioni killed Biagi and the wreckage drifted with the evidence. But Lieutenant Viglieri had read Biagi's diary before it had been submitted to investigators. Find what Viglieri had done with what he had read.",
+    "emptyState": "Viglieri read Biagi's diary before submitting it. Find what he did with what he read.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Engineer Natale Cecioni",
+            "icon": "🔧",
+            "detail": "The killer — established approach pattern, ice axe, wreckage drifted, investigation insufficient, died 1945."
+          },
+          {
+            "name": "Meteorologist Finn Malmgren",
+            "icon": "🌨️",
+            "detail": "Cleared as killer — red tent confirmed. He had never reached rescue — his fate is the new thread."
+          },
+          {
+            "name": "Lieutenant Alfredo Viglieri",
+            "icon": "🧭",
+            "detail": "Cleared as killer — navigation data confirmed. Had read Biagi's diary before submission."
+          },
+          {
+            "name": "Viglieri's Decision About the Diary",
+            "icon": "🧭",
+            "detail": "What Viglieri had done with what he had read — and its relationship to the investigation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Camp Perimeter",
+            "icon": "🧊",
+            "detail": "Primary crime scene — Cecioni's killing."
+          },
+          {
+            "name": "The Red Tent",
+            "icon": "🔴",
+            "detail": "Where Viglieri had read the diary — and where his decision had been made."
+          },
+          {
+            "name": "Rome",
+            "icon": "🇮🇹",
+            "detail": "Where Viglieri had given his account to naval investigators — and what he had said."
+          },
+          {
+            "name": "The Italian Naval Archive",
+            "icon": "📋",
+            "detail": "Where the investigation records are held — and their relationship to the diary's content."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe Handle",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Cecioni's established approach."
+          },
+          {
+            "name": "Radio Equipment Case",
+            "icon": "📻",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Supply Crate Edge",
+            "icon": "📦",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Viglieri's Account to Investigators",
+            "icon": "🧭",
+            "detail": "Not a weapon — what he had said about the diary and whether he had disclosed its full content."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Post-Rescue Transmission of the Sabotage Accusation",
+            "icon": "🔧",
+            "detail": "Cecioni's motive — investigation insufficient, died 1945."
+          },
+          {
+            "name": "Manage the Diary's Content in the Investigation",
+            "icon": "🧭",
+            "detail": "Viglieri's post-rescue decision — what he had done with what he had read."
+          },
+          {
+            "name": "What Viglieri Had Read in the Diary",
+            "icon": "🧭",
+            "detail": "His specific knowledge of the diary's content — and whether it had been more than what was published."
+          },
+          {
+            "name": "Viglieri's Assessment of the Investigation's Prospects",
+            "icon": "🧭",
+            "detail": "Why he had made the specific decision he had — and his reasoning."
+          },
+          {
+            "name": "Malmgren's Fate",
+            "icon": "🌨️",
+            "detail": "What had happened to the Swedish meteorologist — and its relationship to the camp's dynamics."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "🧭",
+        "heading": "What Viglieri Had Read",
+        "text": "Viglieri's memoir — published in 1959: 'When we were rescued I was the first to examine Biagi's effects. I read his diary before submitting it to the investigators. It contained his accusation against Cecioni and also something I had not known: a second observation Biagi had made about Cecioni's behavior on the ice in the days before his death. Biagi had noted that Cecioni had made two trips to the wreckage without the purpose he had stated and had returned each time without the materials he had supposedly been retrieving. Biagi had suspected Cecioni was destroying evidence.'",
+        "alone": "Biagi's diary had contained not only the sabotage accusation but also his observation that Cecioni had been making suspicious trips to the wreckage — possibly destroying evidence.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Biagi's wreckage observations about Cecioni destroying evidence and the wreckage having drifted away taking the physical evidence together confirm the specific pattern Biagi had noticed — Cecioni may have been accelerating the evidence's disappearance before rescue arrived."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🧭",
+        "heading": "What Viglieri Had Done",
+        "text": "Viglieri's memoir: 'I submitted the diary to the investigators. I included everything — the sabotage accusation and the wreckage observations. I did not omit anything. I told the investigators what I had read and what I believed it meant. The investigators had found insufficient physical evidence because the wreckage had drifted. My testimony about Biagi's observations had been in the record. It had not been sufficient without the physical evidence. I have wondered every year since whether it would have been different if I had read the diary while we were still on the ice.'",
+        "alone": "Viglieri had submitted the diary with everything — he had not omitted the wreckage observation. The investigation had found it insufficient without physical evidence. He had wondered since whether reading it on the ice would have changed anything.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "Viglieri submitting everything including the wreckage observations and the investigation finding it insufficient without physical evidence together confirm the investigation's specific limit — the testimony had been complete and the evidence had been gone."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "🌨️",
+        "heading": "Malmgren's Fate",
+        "text": "Finn Malmgren had been one of three survivors who had left the ice camp on foot to attempt to reach land — a decision that had been made on day six before the radio had been heard by rescuers. He had collapsed on the ice from exhaustion and injuries. He had told the other two walkers to leave him — they had. He had died on the ice. His body had not been recovered. He had not survived to give testimony about what he had known of the camp's dynamics. His meteorological notes had been recovered but had not contained observations about the killing.",
+        "alone": "Malmgren had died on the ice before rescue — his body not recovered. His testimony about the camp's dynamics had been lost. His meteorological notes had contained nothing about the killing.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Malmgren dying before rescue and his testimony lost together confirm the specific evidentiary gap — one of the three people who had been at the camp during the killing period had not survived to give his account."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Investigation's Records",
+        "text": "The Italian naval investigation's records — held in the Italian Naval Archive — include Viglieri's testimony, Biagi's published diary, and the investigation's finding of insufficient physical evidence. The wreckage's drift had been documented. The investigation had formally closed without charges. Cecioni had been interviewed. His denial had been recorded. The investigation had noted: 'The accusation contained in the deceased's diary has been examined. In the absence of physical evidence, no finding can be made regarding its substance.'",
+        "alone": "The investigation had formally found it could not assess the accusation without physical evidence — the diary in the record, the accusation acknowledged, the finding of insufficient evidence formally recorded.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The investigation formally acknowledging the accusation and formally finding insufficient evidence together confirm the investigation had engaged with the diary's content fully — the limitation had been evidentiary, not investigative."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🔧",
+        "heading": "The Wreckage's Drift",
+        "text": "The Italia gondola's wreckage had been seen from rescue aircraft in late June 1928 — approximately one month after the crash. It had drifted approximately seventy kilometres from the original crash site. It had been inaccessible due to ice conditions. By the time all survivors had been rescued in July, the wreckage had drifted further and had been covered by new ice formation. The physical evidence Biagi's diary had described — the valve interference — had been in the wreckage. The wreckage and the evidence had moved with the ice.",
+        "alone": "The wreckage had drifted seventy kilometres and had been covered by new ice before it could be examined — the physical evidence had moved with the Arctic ice and had been inaccessible to investigators.",
+        "links": [
+          {
+            "with": "D4",
+            "insight": "The wreckage inaccessible to investigators and the investigation formally finding insufficient physical evidence together confirm the Arctic's specific role in the outcome — the ice had removed the evidence in a way that had made the investigation's insufficiency inevitable."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🧭",
+        "heading": "Viglieri's Later Life",
+        "text": "Alfredo Viglieri had continued his naval career after the rescue. He had published his memoir in 1959 — thirty-one years after the events. He had been the only surviving witness to the camp dynamics who had outlived Cecioni and had been able to give a full account. He had died in Rome in 1978. His testimony, his memoir, and his submission of the complete diary to investigators had been his contributions to the historical record of the Italia disaster.",
+        "alone": "Viglieri had been the only surviving witness to the camp dynamics who had outlived Cecioni — he had died in 1978, providing the most complete surviving account of the camp's final days.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Viglieri as the only surviving camp witness to outlive Cecioni and his death in 1978 together confirm the specific survivor status — the person who had found the body and had read the diary had been the last surviving witness to the events."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Italia Disaster's Historical Record",
+        "text": "The Italia disaster has been extensively studied. Umberto Nobile's leadership had been controversial — a commission had found him partly responsible for the crash. The commission's findings had been disputed. The Italia disaster had been the subject of a major 1969 Soviet film. Multiple books and historical analyses had examined the crash, the survival period, and the rescue. Biagi's diary accusation had been a consistent element of the historical literature. Cecioni had denied it until his death. The physical evidence had never been recovered.",
+        "alone": "The Italia disaster had been extensively studied for a century. Biagi's accusation had been a consistent element of the historical literature. Cecioni had denied it until his death in 1945. The physical evidence has never been recovered.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The accusation in the historical literature and the physical evidence never recovered together confirm the historical record's status — the accusation has been present for a century and has not been resolved, as the physical evidence that would resolve it went with the ice."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Arctic Ice Camp",
+        "text": "The Italia crash site has been the subject of occasional Arctic expeditions seeking the wreckage. None has found the gondola or the valve system that Biagi's diary described. The crash site's approximate location is known from 1928 records. The ice in the area has continued to shift and melt. The Arctic ice that had taken the evidence has continued moving for almost a century. The red tent — the iconic image of the Italia disaster — became the symbol of the survival period. Biagi's diary is in the published record. The accusation is in it. The Arctic keeps everything it took.",
+        "alone": "The Arctic keeps everything it took. Biagi's diary is in the published record. The accusation is in it. The wreckage has not been found. The red tent is the iconic image of the disaster.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The accusation in the historical literature and the Arctic keeping what it took together confirm the final image — the evidence is in the diary and in the ice, and the ice has not returned what it holds."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Engineer Natale Cecioni",
+      "location": "The Camp Perimeter",
+      "weapon": "Ice Axe Handle",
+      "motive": "Prevent the Post-Rescue Transmission of the Sabotage Accusation"
+    },
+    "epilogue": "Viglieri had read the diary including the wreckage observation and had submitted everything to the investigators. The investigation had found insufficient physical evidence. The wreckage had drifted seventy kilometres and had been covered by new ice. Malmgren had died on the ice before rescue — his testimony lost. Cecioni had denied everything until his death in 1945. Viglieri had published his memoir in 1959 and had died in Rome in 1978 as the last surviving witness to the camp dynamics. Biagi's accusation has been in the historical literature for a century. The physical evidence went with the ice. The Arctic keeps everything it took. The red tent is the iconic image of the disaster. The diary is in the published record. The accusation is in it."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #146",
+    "title": "The Ice Camp",
+    "setting": "Italia Disaster Ice Camp · Arctic Ocean · May 1928",
+    "emoji": "🧊",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Cecioni killed Biagi. Viglieri submitted everything and the investigation found insufficient evidence. But Umberto Nobile himself — who had been evacuated by Roald Amundsen's rescue flight before the other survivors — had known about the accusation before it reached investigators. Find what Nobile had done with that knowledge.",
+    "emptyState": "Nobile was evacuated before the other survivors and knew about the accusation. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Engineer Natale Cecioni",
+            "icon": "🔧",
+            "detail": "The killer — ice axe, established approach, investigation insufficient, physical evidence drifted, died 1945."
+          },
+          {
+            "name": "Lieutenant Alfredo Viglieri",
+            "icon": "🧭",
+            "detail": "Cleared as killer — navigation data confirmed. Submitted the complete diary, memoir 1959, died Rome 1978."
+          },
+          {
+            "name": "Meteorologist Finn Malmgren",
+            "icon": "🌨️",
+            "detail": "Cleared as killer — red tent confirmed. Died on the ice before rescue, testimony lost."
+          },
+          {
+            "name": "Umberto Nobile's Knowledge and Action",
+            "icon": "🛸",
+            "detail": "What Nobile had known before the investigation — and what he had done with that knowledge."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Camp Perimeter",
+            "icon": "🧊",
+            "detail": "Primary crime scene — Cecioni's killing of Biagi."
+          },
+          {
+            "name": "The Ice Camp After Nobile's Evacuation",
+            "icon": "🔴",
+            "detail": "Where the remaining survivors had been — and what had changed after Nobile had left."
+          },
+          {
+            "name": "Vadso, Norway",
+            "icon": "🇳🇴",
+            "detail": "Where Nobile had been evacuated to — and where he had received word about Biagi's death."
+          },
+          {
+            "name": "Rome",
+            "icon": "🇮🇹",
+            "detail": "Where the investigation had been conducted — and what Nobile had told investigators about what he had known."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Ice Axe Handle",
+            "icon": "⛏️",
+            "detail": "Confirmed murder weapon — Cecioni's."
+          },
+          {
+            "name": "Radio Equipment Case",
+            "icon": "📻",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Supply Crate Edge",
+            "icon": "📦",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Nobile's Prior Knowledge",
+            "icon": "🛸",
+            "detail": "Not a weapon — what Nobile had known before evacuation and what he had done with it."
+          },
+          {
+            "name": "Nobile's Testimony to the Commission",
+            "icon": "📋",
+            "detail": "Not a weapon — what Nobile had said about the sabotage question in the subsequent investigation."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Post-Rescue Sabotage Accusation",
+            "icon": "🔧",
+            "detail": "Cecioni's motive — investigation insufficient."
+          },
+          {
+            "name": "Submit the Complete Diary to Investigators",
+            "icon": "🧭",
+            "detail": "Viglieri's action — complete submission, investigation insufficient."
+          },
+          {
+            "name": "Use His Early Evacuation to Shape the Investigation's Context",
+            "icon": "🛸",
+            "detail": "Nobile's possible action — and what he had known before the other survivors had been rescued."
+          },
+          {
+            "name": "What Nobile Had Known Before His Evacuation",
+            "icon": "🛸",
+            "detail": "The specific knowledge he had had from Biagi's radio transmissions — and its relationship to the diary's content."
+          },
+          {
+            "name": "Nobile's Commission and Its Relationship to the Sabotage Question",
+            "icon": "📋",
+            "detail": "How the investigation had treated Nobile and how the sabotage question had been positioned within it."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Biagi at the Camp Perimeter",
+            "icon": "🔧",
+            "detail": "Cecioni's confirmed role — died 1945 uncharged."
+          },
+          {
+            "name": "Submitted the Complete Diary to Investigators",
+            "icon": "🧭",
+            "detail": "Viglieri's role — memoir 1959, died 1978."
+          },
+          {
+            "name": "Received the Radio Transmissions From Biagi Before Being Evacuated",
+            "icon": "🛸",
+            "detail": "Nobile's information receipt role — and what he had done with it before the investigation."
+          },
+          {
+            "name": "Died on the Ice Before Rescue",
+            "icon": "🌨️",
+            "detail": "Malmgren's role — testimony lost."
+          },
+          {
+            "name": "Discovered the Evidence in the Wreckage on Day Nine",
+            "icon": "📻",
+            "detail": "Biagi's foundational role — diary, accusation, death on day eleven."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🛸",
+        "heading": "What Nobile Had Known Before Evacuation",
+        "text": "Biagi had been transmitting radio contact with the outside world from day four of the survival period. Nobile had been present on the ice until day thirteen — two days after Biagi's death — when he had been evacuated by a Swedish rescue aircraft. Before his evacuation, Biagi had told Nobile about the sabotage finding — Nobile had been the expedition's commander and Biagi had reported it to him. Nobile's account: 'Biagi told me what he had found in the wreckage. I told him to document it carefully and to keep the accusation private until we were rescued. I wanted the accusation handled properly.'",
+        "alone": "Nobile had known about the sabotage accusation before his evacuation — he had told Biagi to document it and keep it private until rescue. Biagi had been killed four days before Nobile had been evacuated.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Nobile knowing about the accusation and telling Biagi to keep it private before rescue and Biagi being killed nine days before rescue together confirm the specific timeline — Cecioni had known Biagi had reported to Nobile, making the killing's urgency more complex."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🛸",
+        "heading": "What Nobile Had Done After Evacuation",
+        "text": "Nobile's 1930 memoir: 'After my evacuation I received word from the ice camp that Biagi had died. I understood immediately what had probably happened. I was in Vadso. I wrote a private letter to the Italian naval command describing what Biagi had told me about the sabotage finding, what I had instructed him to do, and my assessment of the circumstances of his death. I asked that this letter be considered alongside the formal investigation. The letter became part of the investigation's record. It had not changed the outcome.'",
+        "alone": "Nobile had written a private letter to naval command immediately after hearing of Biagi's death — describing the accusation, his instructions, and his assessment. The letter had been added to the investigation record without changing the outcome.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Nobile's private letter added to the investigation and the investigation finding insufficient physical evidence together confirm the letter had been received and had not been sufficient without the physical evidence — the same limitation as Viglieri's complete diary submission."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🛸",
+        "heading": "Nobile's Commission and the Sabotage Question",
+        "text": "The Italian commission that had investigated the Italia disaster had focused primarily on the cause of the crash and Nobile's leadership decisions. The commission had found Nobile partly responsible for the crash's severity. Nobile had disputed this finding for the rest of his life. The sabotage accusation from Biagi's diary had been a secondary element of the commission's examination. The commission had noted it in passing — the physical evidence was unavailable, the accusation was from a deceased witness, and the investigation had found it could not make a finding.",
+        "alone": "The commission had focused on the crash's cause and Nobile's leadership — the sabotage question had been a secondary element found insufficient. Nobile's disputed finding had dominated the historical narrative.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The commission finding Nobile partly responsible and the sabotage question as a secondary insufficient element together confirm the investigation's specific structure — the leadership question had dominated the official record and the sabotage question had been a footnote."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "🛸",
+        "heading": "Nobile's Disputed Finding and the Sabotage",
+        "text": "Umberto Nobile had spent decades contesting the commission's finding that he had been partly responsible for the crash. He had argued that the crash had not been attributable to his decisions alone. In his later accounts he had referenced Biagi's sabotage accusation as a possible alternative explanation for the crash's severity. He had never been able to prove the accusation because the physical evidence had gone with the ice. He had died in Rome in 1978 — the same year as Viglieri — still contesting the commission's finding.",
+        "alone": "Nobile had died in 1978 — the same year as Viglieri — still contesting the commission's finding and referencing Biagi's accusation as an alternative explanation he could not prove.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Nobile and Viglieri dying in the same year and both still connected to the unresolved question together confirm the full human span of the Italia disaster's aftermath — two of its primary survivors carrying the unresolved question to their deaths in the same year."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "What Cecioni Had Known About Nobile's Knowledge",
+        "text": "The specific dynamic on the ice: Cecioni had known Biagi had reported to Nobile. He had known that Nobile's evacuation had been scheduled — and that once Nobile had left the ice, the remaining survivors without the expedition's commander present would be in a different situation. The killing of Biagi had occurred four days before Nobile's evacuation. If Cecioni had understood the timeline, he may have calculated that Biagi's death before Nobile's evacuation would be harder to connect to the sabotage accusation than if it had occurred after.",
+        "alone": "Cecioni had known Biagi had reported to Nobile — the killing before Nobile's evacuation had potentially been calculated to create a more confused evidentiary situation.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The killing four days before Nobile's evacuation and Nobile's letter being added to the investigation without changing the outcome together confirm the calculation — if Cecioni had been calculating, the calculation had been partially successful, as the evidentiary situation had been confused enough for the investigation to find insufficiency."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "Three Documents, One Gap",
+        "text": "Three documents address the sabotage accusation: Biagi's diary (published 1929, the accusation itself). Nobile's private letter to naval command (Italian Naval Archive, part of investigation record). Viglieri's memoir (published 1959, confirming the diary's content including the wreckage observation). All three point toward the same conclusion. None of them constitutes the physical evidence that would have been dispositive. The physical evidence went with the ice. Three documents. One gap. The gap is in the ice.",
+        "alone": "Three documents pointing toward the same conclusion, one physical evidence gap in the Arctic ice. The gap is where the dispositive evidence would have been.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Three documents and one gap in the ice and the historical literature's century of inconclusive assessment together confirm the specific form of the historical record — the accusation has been present for a century and the evidence that would resolve it has been in the ice for the same century."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Arctic Expeditions",
+        "text": "Several Arctic expeditions have searched for the Italia wreckage since 1928. An Italian-Russian expedition in 2000 had located what was believed to be debris consistent with the Italia gondola. The debris had been examined but had not been recovered. No valve system consistent with Biagi's description of the interference had been identified. The Arctic ice had continued to shift and melt over the ninety-six years since the crash. Climate change has accelerated Arctic ice loss since 2000. The wreckage, if it exists in identifiable form, may become accessible as the ice continues to retreat.",
+        "alone": "The 2000 expedition had found possible Italia debris but had not recovered it. Climate change has accelerated Arctic ice loss. The wreckage may become accessible as ice retreats.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The possible wreckage location and climate change's ice retreat together confirm the case's final open element — the physical evidence that went with the ice may return as the ice returns it, and the question Biagi's diary posed may still have a physical answer."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🧊",
+        "heading": "The Red Tent on the Ice",
+        "text": "The red tent has been the iconic image of the Italia disaster since 1928. It was photographed from rescue aircraft and became one of the defining images of Arctic exploration. The disaster was the subject of a 1969 Soviet film — 'The Red Tent' — directed by Mikhail Kalatozov, starring Peter Finch as Nobile and Sean Connery as Amundsen. The film had included a fictional tribunal where the expedition's survivors and the dead gave account of what had happened. The fictional tribunal had addressed the crash's cause and the survival period. It had not included Biagi's accusation. The red tent is on the ice. The diary is in the published record. The accusation is in it. The ice may return what it holds.",
+        "alone": "The iconic red tent image. The 1969 Soviet film. The fictional tribunal that had not included Biagi's accusation. The ice may return what it holds.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The fictional tribunal not including Biagi's accusation and the possible wreckage location together confirm the case's full span — the disaster had been fictionalized in a way that had not included the killing, and the physical evidence that would resolve the accusation may still be in the ice waiting."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Engineer Natale Cecioni",
+      "location": "The Camp Perimeter",
+      "weapon": "Ice Axe Handle",
+      "motive": "Prevent the Post-Rescue Transmission of the Sabotage Accusation",
+      "accomplice": "Submitted the Complete Diary to Investigators"
+    },
+    "epilogue": "Nobile had known about the accusation before his evacuation — he had told Biagi to document it and keep it private. Biagi had been killed four days before Nobile had been evacuated. Nobile had written a private letter to naval command from Vadso describing the accusation and his assessment. The letter had been added to the investigation record without changing the outcome. The commission had focused on the crash's cause and had found the sabotage question insufficient. Nobile had died in 1978 — the same year as Viglieri — still contesting the commission's finding. Three documents point toward the accusation. One gap is in the ice. The 2000 expedition had found possible debris. Climate change is retreating the ice. The red tent is the iconic image of the disaster. The 1969 film had not included Biagi's accusation. The diary is in the published record. The ice may return what it holds."
+  }
+}

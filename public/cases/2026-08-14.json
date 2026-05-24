@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "Cairo, July 1952. The eve of the Free Officers' Revolution. A minister dead with documents showing the monarchy knew the coup was coming — and did nothing. 🌙🔍 Case #148 — Revolution Eve. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Cairo July 1952 night before Nasser's revolution, a minister dead, documents showing King Farouk's government knew the coup was coming and chose not to stop it. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "A 1952 Cairo ministry office on the night before the Free Officers' Revolution, ornate colonial-era furniture and ceiling fans, a minister's briefcase open on the floor beside an overturned Turkish coffee cup, documents in Arabic script scattered showing surveillance reports and a royal palace notation, the Cairo night outside the tall windows with radio broadcasts audible. The old order's last night. Style of Egyptian documentary photography of the era meets Jean-Luc Godard's compositional stillness.",
+    "animationPrompt": "Slow pan through a 1952 Cairo ministry office on the night before the revolution. Ornate furniture. Ceiling fans. A minister's briefcase open on the floor. An overturned Turkish coffee cup. Documents in Arabic script. A royal palace notation. Cairo night through tall windows. Radio broadcasts audible. The old order has one night left. Fade to black.",
+    "hashtags": [
+      "#Cairo1952",
+      "#FreeOfficers",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #148",
+    "title": "Revolution Eve",
+    "setting": "Ministry of the Interior · Cairo · Egypt · July 22nd, 1952",
+    "emoji": "🌙",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Minister Khalil Pasha was found dead in his ministry office on the night of July 22nd, 1952 — the eve of the Free Officers' Revolution that brought Nasser to power. He had been holding documents showing that the royal palace and the ministry had received intelligence about the planned coup two weeks earlier and had chosen not to act on it. The documents would have constituted evidence of deliberate royal inaction. Three people had been in the ministry building that night. The documents were missing.",
+    "emptyState": "The eve of the revolution. Documents showing the king knew and did nothing. Gone. Find who took them.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Deputy Minister Hassan Farid",
+            "icon": "📋",
+            "detail": "Khalil Pasha's deputy — had known about the intelligence reports and had been one of the recipients of the palace's instruction not to act on them."
+          },
+          {
+            "name": "Colonel Yusuf Rashid",
+            "icon": "🎖️",
+            "detail": "A military liaison officer — had been at the ministry that night in an official capacity and had sympathies with the Free Officers that would later become known."
+          },
+          {
+            "name": "Palace Secretary Ibrahim Naguib",
+            "icon": "🏛️",
+            "detail": "A royal palace secretary — had been the conduit for the palace's instruction not to act on the intelligence and had been at the ministry delivering a separate communication."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Minister's Office",
+            "icon": "📋",
+            "detail": "Where Khalil Pasha was found — briefcase open, coffee overturned, documents missing."
+          },
+          {
+            "name": "The Ministry Corridor",
+            "icon": "🚪",
+            "detail": "The passage to the main entrance — where a night watchman had seen someone leaving quickly."
+          },
+          {
+            "name": "The Palace Communications Room",
+            "icon": "🏛️",
+            "detail": "Where the instruction not to act had originated — and where the documents' origin had been."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Desk Ornament",
+            "icon": "🏛️",
+            "detail": "A heavy marble ministry seal ornament — blunt force wound consistent with its base."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Glass Coffee Pot",
+            "icon": "☕",
+            "detail": "No blood trace on intact pots — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Documents",
+        "text": "Khalil Pasha's personal notes — found in his desk drawer, separate from the missing documents — describe what the documents had contained: intelligence reports from two weeks before the revolution showing the Free Officers' movement, timetable, and key personnel; and a notation in the palace secretary's hand stating 'His Majesty has been informed. No action to be taken at this time.' The notation had been initialled by a palace official. The documents had constituted evidence that the royal government had known and had consciously chosen not to stop the coup.",
+        "alone": "The documents had shown the palace knew two weeks before and had instructed no action — a conscious decision not to stop the coup. Khalil Pasha's notes described their contents in detail.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The documents showing the palace's deliberate inaction and Palace Secretary Naguib's role as the conduit for the 'no action' instruction together establish his specific institutional exposure — his own hand had been in the documents naming him as the instruction's transmitter."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🏛️",
+        "heading": "The Marble Ornament",
+        "text": "A heavy marble ministry seal ornament — standard furniture in senior Egyptian ministry offices — shows blood on its base. Khalil Pasha's wound is consistent with the ornament used as a bludgeon from behind while he had been at his desk examining the documents. The ornament had been replaced on the desk after use — the same composed replacement as the Versailles decanter and the Galipoli lamp. The killer had been deliberate.",
+        "alone": "The ornament had been replaced on the desk after use — the killer had been composed enough to do this despite the revolution beginning in hours.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The composed replacement of the ornament and Naguib's confirmed prior familiarity with the minister's office — he had visited the ministry regularly as the palace conduit — together establish the specific familiarity the composed act had required."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Colonel Rashid's Evening",
+        "text": "Colonel Yusuf Rashid had been in the ministry's ground-floor communications room from nine PM — confirmed by the communications duty officer and by the signals log showing his signature on incoming military communications. He had not been on the minister's floor. He is definitively cleared.",
+        "alone": "Rashid had been in the ground-floor communications room confirmed by the duty officer and signals log — he had not been on the minister's floor. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Rashid cleared in the ground-floor communications room and Deputy Minister Farid confirmed at a ministry reception together eliminate both other suspects from the minister's floor — only Naguib's movements on the minister's floor that evening are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Naguib's Role in the 'No Action' Decision",
+        "text": "Naguib had been the palace's primary conduit to the Ministry of the Interior for intelligence matters. It had been his hand on the 'no action' notation. If the documents had reached the Free Officers or the press following the revolution, Naguib's name on the notation would have constituted evidence that the palace had been aware and had chosen to allow the coup — a finding that would have complicated the post-revolution political settlement and potentially Naguib's own position.",
+        "alone": "Naguib's hand had been on the 'no action' notation — his name in the documents had been the specific personal exposure. A post-revolution release would have complicated both the settlement and his own position.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Naguib's personal notation in the documents and the revolution occurring hours after the killing together confirm the timing's specific urgency — the documents released after the coup would have been more damaging than during the monarchy, as the new government would have had interest in examining royal culpability."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🏛️",
+        "heading": "Naguib at the Ministry",
+        "text": "The ministry's night watchman confirms Naguib had arrived at approximately nine-thirty PM — he had signed in with a palace communication for a separate matter. He had been directed to the minister's floor. At ten-fifteen PM the watchman had seen a man in palace official dress leaving quickly through the main corridor. At ten-thirty PM the minister had been found by a cleaning staff member.",
+        "alone": "Naguib had arrived at nine-thirty PM and a man in palace dress had been seen leaving quickly at ten-fifteen PM — the killing window was nine-thirty to ten-fifteen.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "The composed ornament replacement and the quick departure at ten-fifteen together present the specific behavioral contrast — deliberate in the killing, hurried in the departure, as the revolution had been hours away."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🏛️",
+        "heading": "Naguib's Knowledge of the Office",
+        "text": "Ministry records show Naguib had visited Khalil Pasha's office on fourteen occasions in the preceding six months as the palace-ministry intelligence conduit. He had known the office's layout, the desk's position, and the ornament's location. He had been in the office three days before the killing to deliver the 'no action' instruction notation himself.",
+        "alone": "Naguib had visited the office fourteen times including three days before the killing when he had delivered the 'no action' notation in person — he had known the office's specific layout.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Naguib delivering the 'no action' notation in person three days before and his name being on that notation in the documents together confirm the specific connection — he had delivered the document that named him, and had killed to take it back."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "📋",
+        "heading": "Deputy Minister Farid's Evening",
+        "text": "Hassan Farid had been at a ministry protocol reception in the ground-floor reception room from eight PM — confirmed by twelve attendees including two foreign diplomats and the reception's catering staff. He had not been on the minister's floor. He is definitively cleared.",
+        "alone": "Farid had been at the reception confirmed by twelve attendees including foreign diplomats — he had not been on the minister's floor. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Rashid cleared in communications and Farid cleared at the reception together eliminate both other suspects — Naguib's nine-thirty arrival and ten-fifteen departure are the only confirmed suspect movements on the minister's floor."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Revolution and the Documents",
+        "text": "The Free Officers' Revolution began in the early hours of July 23rd, 1952. King Farouk abdicated on July 26th. The Egyptian monarchy ended. The documents Khalil Pasha had been holding — showing the palace's prior knowledge and deliberate inaction — had not been found. The post-revolution government had investigated the old regime's final days. The investigation had found evidence of palace knowledge of the coup through other channels but had not found the specific documents Khalil Pasha had held. Naguib had served in the post-revolution transitional government and had retired in the 1960s.",
+        "alone": "The revolution had come hours after the killing. The documents had not been found. The post-revolution investigation had found other evidence of palace knowledge but not the specific documents. Naguib had served in the transitional government.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The documents' specific content showing deliberate inaction and Naguib serving in the transitional government together confirm the killing had achieved its purpose — the most specific evidence of named royal deliberate inaction had been suppressed, and the person named had continued into the new government."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Palace Secretary Ibrahim Naguib",
+      "location": "The Minister's Office",
+      "weapon": "Marble Desk Ornament"
+    },
+    "epilogue": "Ibrahim Naguib had arrived at the ministry at nine-thirty PM. He had gone to the minister's floor. He had used the marble ornament. He had replaced it. He had taken the documents. He had left quickly at ten-fifteen PM. The revolution had begun hours later. The documents had not been found. Naguib had served in the transitional government. The post-revolution investigation had found other evidence of palace knowledge but not the specific documents with Naguib's notation. Khalil Pasha's personal notes describing the documents' contents are in the Egyptian National Archive. The documents themselves have not been found. The revolution had come hours after the killing. The monarchy had ended four days later."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #148",
+    "title": "The Revolution Eve",
+    "setting": "Ministry of the Interior · Cairo · Egypt · July 22nd, 1952",
+    "emoji": "🌙",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Naguib killed Khalil Pasha and took the documents. But Colonel Rashid had known about the documents and had been in contact with the Free Officers. Find what Rashid had done with that knowledge.",
+    "emptyState": "Rashid knew about the documents and was in contact with the Free Officers. Find what he did.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Palace Secretary Ibrahim Naguib",
+            "icon": "🏛️",
+            "detail": "The killer — fourteen office visits, 'no action' notation, ornament replaced, documents taken, transitional government."
+          },
+          {
+            "name": "Colonel Yusuf Rashid",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — communications room confirmed. Had known about the documents and had been in contact with the Free Officers."
+          },
+          {
+            "name": "Deputy Minister Hassan Farid",
+            "icon": "📋",
+            "detail": "Cleared as killer — reception confirmed. His knowledge of the documents and the killing's aftermath is the thread."
+          },
+          {
+            "name": "Rashid's Communication to the Free Officers",
+            "icon": "🎖️",
+            "detail": "What Rashid had told the Free Officers about the documents — and how it had affected the post-revolution investigation."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Minister's Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — Naguib's killing."
+          },
+          {
+            "name": "The Communications Room",
+            "icon": "🎖️",
+            "detail": "Rashid's confirmed location — and where his contact with the Free Officers had been conducted."
+          },
+          {
+            "name": "Free Officers Headquarters",
+            "icon": "🎖️",
+            "detail": "Where Rashid's information had gone — and what had been done with it."
+          },
+          {
+            "name": "The Egyptian National Archive",
+            "icon": "📋",
+            "detail": "Where the investigation records and Khalil Pasha's notes have been held."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Desk Ornament",
+            "icon": "🏛️",
+            "detail": "Confirmed murder weapon — Naguib's composed replacement."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Glass Coffee Pot",
+            "icon": "☕",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Rashid's Communication to the Free Officers",
+            "icon": "🎖️",
+            "detail": "Not a weapon — what he had told them about the documents and the palace knowledge."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documents Naming His Notation",
+            "icon": "🏛️",
+            "detail": "Naguib's motive — documents taken, transitional government role."
+          },
+          {
+            "name": "Inform the Free Officers About the Palace's Prior Knowledge",
+            "icon": "🎖️",
+            "detail": "Rashid's communication purpose — what he had told them and when."
+          },
+          {
+            "name": "What Rashid Had Known About the Documents",
+            "icon": "🎖️",
+            "detail": "His specific knowledge — and how he had come to know it."
+          },
+          {
+            "name": "The Free Officers' Response to Rashid's Information",
+            "icon": "🎖️",
+            "detail": "What they had done with the knowledge of the palace's prior awareness."
+          },
+          {
+            "name": "The Post-Revolution Investigation's Use of Rashid's Account",
+            "icon": "📋",
+            "detail": "How Rashid's information had shaped the investigation — and what it had found."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "What Rashid Had Known",
+        "text": "Colonel Rashid's account — given to the post-revolution historical committee in 1953: 'I had been informed about the intelligence documents by Deputy Minister Farid, who had been one of their recipients. Farid had told me about the palace's instruction not to act. I had considered this significant. As a sympathizer with the Free Officers — which I had not yet declared — I had communicated the fact of the documents' existence and content to a contact within the movement on July 21st, the day before the killing.'",
+        "alone": "Rashid had told the Free Officers about the documents on July 21st — the day before the killing. His Free Officers contact had received the information the day before the revolution.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Rashid informing the Free Officers about the documents on July 21st and the killing occurring on July 22nd together confirm the information had reached the Free Officers before the killing — they had known the documents existed before Naguib had destroyed them."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "The Free Officers' Response",
+        "text": "The post-revolution historical committee's 1953 report: the Free Officers had received Rashid's information about the palace's deliberate inaction and had considered it significant. They had not taken action to secure the documents before the revolution — the timing of the revolution had been determined by other factors and had not been adjusted for the documents. When the revolution had occurred and the documents had not been found at the ministry, the committee had understood they had been taken.",
+        "alone": "The Free Officers had known about the documents before the revolution but had not moved to secure them — the revolution's timing had not been adjusted. When the documents had not been found, the committee had understood they had been suppressed.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The Free Officers knowing about the documents and not adjusting the revolution's timing to secure them and the documents not being found together confirm the specific gap — the knowledge had not been converted into protective action before Naguib had acted."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Post-Revolution Investigation",
+        "text": "The post-revolution historical committee had investigated the old regime's final days. Rashid's account had been the primary evidence of the palace's prior knowledge. Khalil Pasha's personal notes — describing the missing documents' contents — had been found in his desk drawer and had provided corroboration. The committee had found sufficient evidence to conclude that the palace had known about the coup and had chosen not to act. The missing documents had been the most direct evidence. The committee's finding had been based on Rashid's testimony and the notes.",
+        "alone": "The committee had found that the palace had known and had chosen not to act — based on Rashid's testimony and Khalil Pasha's notes, without the primary documents.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The committee's finding based on secondary evidence and the primary documents not found together confirm the investigation had established the conclusion without the most direct proof — consistent with the catalog's other findings where the conclusion had been reached through surviving secondary records."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "Naguib's Transitional Role",
+        "text": "Ibrahim Naguib had served in the post-revolution transitional government as a liaison between the new government and the remnants of the old ministry structure. He had not been identified as the killer during the transitional period. The killing had been noted in internal security files as unresolved. The post-revolution investigation's focus had been on the palace's political culpability rather than on the specific killing. Naguib had retired in the 1960s without having been charged.",
+        "alone": "Naguib had served in the transitional government and had retired in the 1960s without being charged — the investigation's focus on political culpability had not connected to the specific killing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Naguib serving in the transitional government and the killing unresolved together confirm the specific consequence — the person who had suppressed the primary evidence had continued into the new government and had not been connected to the killing during his lifetime."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Revolution's Morning",
+        "text": "The Free Officers' Revolution had begun at approximately one AM on July 23rd, 1952 — three hours after Khalil Pasha's body had been found. By dawn the military had taken control of key installations in Cairo. King Farouk had been informed at six AM. The revolution had proceeded smoothly — so smoothly that historians had subsequently examined whether the lack of royal resistance had been connected to the palace's prior knowledge. The post-revolution committee's finding had confirmed this connection.",
+        "alone": "The revolution had proceeded with minimal royal resistance — a fact the post-revolution committee had connected to the palace's prior knowledge and deliberate inaction.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The revolution's smooth progression and the palace's deliberate inaction together confirm the historical irony — the palace had known and had done nothing, and the revolution had been correspondingly unopposed."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Farid's Account",
+        "text": "Deputy Minister Hassan Farid had survived the revolution and had given his account to the post-revolution committee: 'Khalil Pasha had been preparing to give the documents to the American Embassy — he believed the Americans should know about the palace's deliberate inaction before the revolution occurred. He had been preparing a diplomatic transmission. Naguib had known about this plan through the palace's monitoring of ministry communications. The timing of the killing had been driven by the diplomatic transmission deadline as much as by the revolution's imminence.'",
+        "alone": "Khalil Pasha had been planning to transmit the documents to the American Embassy — Naguib had known about the plan through palace communications monitoring. The killing had been timed against the diplomatic deadline.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The diplomatic transmission deadline and the revolution's imminence together confirm Naguib had faced a double urgency — the documents had been heading to the Americans before midnight and to a post-revolution investigation from dawn."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The American Embassy Dimension",
+        "text": "The post-revolution committee's investigation had found no evidence that Khalil Pasha's planned transmission to the American Embassy had been completed. The American Embassy archives — partially declassified in the 1980s — had contained no document corresponding to what the Khalil Pasha notes had described. The transmission had not occurred. The killing had prevented it. The Americans had been informed of the revolution through other channels after it had begun.",
+        "alone": "The American Embassy had received no document from Khalil Pasha — the transmission had not occurred. The killing had prevented both the diplomatic and the post-revolution paths.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "The transmission prevented and the revolution proceeding without American forewarning of the palace's specific culpability together confirm the killing had severed two potential paths for the documents simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "Cairo and the Revolution",
+        "text": "The 1952 Egyptian Revolution had been a defining moment in modern Egyptian and Arab history — ending the Muhammad Ali dynasty's rule, leading to Nasser's rise, and reshaping the region's political landscape. The Egyptian National Archive holds Khalil Pasha's personal notes describing the missing documents. The post-revolution committee's 1953 report is in the archive. Rashid's testimony is in the report. Naguib's name appears in ministry records as the palace liaison. He is not identified in any public record as having killed Khalil Pasha. The revolution reshaped the Middle East. The documents that had shown the palace knew and had done nothing have not been found.",
+        "alone": "The revolution reshaped the Middle East. The documents have not been found. Naguib's name appears in ministry records as palace liaison. He is not identified as the killer. The archive holds what survived.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The documents not found and the revolution having reshaped the Middle East together confirm the case's final image — the killing had been at the hinge of history, the documents had been suppressed at that hinge, and the history had proceeded regardless."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Palace Secretary Ibrahim Naguib",
+      "location": "The Minister's Office",
+      "weapon": "Marble Desk Ornament",
+      "motive": "Suppress the Documents Naming His Notation"
+    },
+    "epilogue": "Rashid had told the Free Officers about the documents on July 21st. Farid had told the committee that Khalil Pasha had been preparing a diplomatic transmission to the American Embassy. Naguib had known about both the revolution and the diplomatic transmission through palace communications monitoring. He had killed Khalil Pasha at ten PM — three hours before the revolution had begun. The transmission had not occurred. The documents had not been found at the ministry. The post-revolution committee had found the palace's deliberate inaction through Rashid's testimony and Khalil Pasha's notes. Naguib had served in the transitional government. The revolution had reshaped the Middle East. The documents have not been found."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #148",
+    "title": "The Revolution Eve",
+    "setting": "Ministry of the Interior · Cairo · Egypt · July 22nd, 1952",
+    "emoji": "🌙",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Naguib killed Khalil Pasha. Rashid had informed the Free Officers. But Deputy Minister Farid had also known about the documents — and had made his own decision about what to do with that knowledge that night. Find what Farid had done.",
+    "emptyState": "Farid knew about the documents that night. Find what he did with that knowledge.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Palace Secretary Ibrahim Naguib",
+            "icon": "🏛️",
+            "detail": "The killer — 'no action' notation, ornament, documents taken, transitional government, uncharged."
+          },
+          {
+            "name": "Colonel Yusuf Rashid",
+            "icon": "🎖️",
+            "detail": "Cleared as killer — communications room confirmed. Told Free Officers July 21st, committee testimony 1953."
+          },
+          {
+            "name": "Deputy Minister Hassan Farid",
+            "icon": "📋",
+            "detail": "Cleared as killer — reception confirmed. Had known about the documents and had made a decision that night."
+          },
+          {
+            "name": "Farid's Decision and Its Consequence",
+            "icon": "📋",
+            "detail": "What Farid had done with his knowledge — and how it had affected the post-revolution period."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Minister's Office",
+            "icon": "📋",
+            "detail": "Primary crime scene — and where Farid had been earlier that evening with Khalil Pasha."
+          },
+          {
+            "name": "The Ministry Reception",
+            "icon": "🚪",
+            "detail": "Farid's confirmed location during the killing — and where he had been when he had received word of the killing."
+          },
+          {
+            "name": "The American Embassy",
+            "icon": "🇺🇸",
+            "detail": "Where Farid had gone after learning of the killing — and what he had done there."
+          },
+          {
+            "name": "The Egyptian National Archive",
+            "icon": "📋",
+            "detail": "Where Farid's post-revolution account has been held — and its relationship to the committee's findings."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Marble Desk Ornament",
+            "icon": "🏛️",
+            "detail": "Confirmed murder weapon — Naguib's."
+          },
+          {
+            "name": "Briefcase Clasp",
+            "icon": "💼",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Glass Coffee Pot",
+            "icon": "☕",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Farid's American Embassy Visit",
+            "icon": "📋",
+            "detail": "Not a weapon — what Farid had done after learning of the killing and what he had told the Americans."
+          },
+          {
+            "name": "Farid's 1953 Committee Testimony",
+            "icon": "📋",
+            "detail": "Not a weapon — the account he had given and what it had added to the record."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Suppress the Documents Naming His Notation",
+            "icon": "🏛️",
+            "detail": "Naguib's motive — documents taken, uncharged."
+          },
+          {
+            "name": "Inform the Free Officers About the Palace's Prior Knowledge",
+            "icon": "🎖️",
+            "detail": "Rashid's action — July 21st communication, 1953 committee testimony."
+          },
+          {
+            "name": "Ensure the Information Reached the Americans Despite the Killing",
+            "icon": "📋",
+            "detail": "Farid's post-killing action — and what he had done at the American Embassy."
+          },
+          {
+            "name": "What Farid Had Told the Americans",
+            "icon": "🇺🇸",
+            "detail": "The specific information — and whether it had included what Khalil Pasha had been planning to send."
+          },
+          {
+            "name": "The Americans' Response to Farid's Information",
+            "icon": "🇺🇸",
+            "detail": "What the Americans had done with what Farid had told them — and when the record had become available."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Khalil Pasha and Took the Documents",
+            "icon": "🏛️",
+            "detail": "Naguib's confirmed role — uncharged, transitional government."
+          },
+          {
+            "name": "Informed the Free Officers About the Documents the Day Before",
+            "icon": "🎖️",
+            "detail": "Rashid's role — committee testimony 1953."
+          },
+          {
+            "name": "Went to the American Embassy After the Killing and Provided the Substance of the Documents",
+            "icon": "📋",
+            "detail": "Farid's post-killing role — and the Americans' response."
+          },
+          {
+            "name": "Planned the Diplomatic Transmission That Had Been the Killing's Immediate Trigger",
+            "icon": "📋",
+            "detail": "Khalil Pasha's foundational role — the plan that Naguib had been killing to prevent."
+          },
+          {
+            "name": "Preserved the Documents' Contents in His Personal Notes",
+            "icon": "📋",
+            "detail": "Khalil Pasha's inadvertent preservation role — the notes in the Egyptian National Archive."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "What Farid Had Done After Learning of the Killing",
+        "text": "Farid's account to the post-revolution committee: 'When I was told that Khalil Pasha had been found dead, I understood what had happened and why. I knew the documents. I knew Khalil Pasha had been planning to send them to the Americans. I knew that whoever had killed him had taken the documents and that the transmission would not occur. I left the ministry at eleven-thirty PM and went to the American Embassy. I presented myself to the duty officer. I told him what Khalil Pasha had been planning to send and what it had contained.'",
+        "alone": "Farid had gone to the American Embassy at eleven-thirty PM — thirty minutes after the killing — and had told the duty officer the substance of what Khalil Pasha had planned to transmit.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Farid reaching the American Embassy at eleven-thirty PM and the revolution beginning at one AM together confirm the timing — Farid had given the Americans the substance of the documents ninety minutes before the revolution had begun."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "What Farid Had Told the Americans",
+        "text": "Farid's account: 'I told the duty officer that the Egyptian palace had received intelligence about the Free Officers' coup two weeks before, had been informed of the timetable and key personnel, and had instructed no action be taken. I told him the documents proving this had been taken from the minister's office. I told him the minister had been killed to prevent their transmission. The duty officer had taken notes. He had told me the information would be transmitted to Washington. I had returned to the ministry.'",
+        "alone": "Farid had given the Americans the substance of the palace's deliberate inaction — the duty officer had taken notes and had told Farid the information would go to Washington.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Farid giving the Americans the substance at eleven-thirty PM and the revolution beginning at one AM together confirm the Americans had received the information before the revolution — the transmission Naguib had been killing to prevent had occurred in substance through Farid's visit ninety minutes later."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "🇺🇸",
+        "heading": "The American Embassy Records",
+        "text": "The American Embassy archives — partially declassified in the 1980s — contain a duty officer's report dated July 23rd, 1952 describing Farid's visit and the information he had provided. The report had been transmitted to the State Department at two AM — one hour after the revolution had begun. The State Department's response, received later that morning, had noted: 'Information regarding prior Egyptian royal knowledge of coup confirmed by independent source. Assessment: royal government chose non-intervention. Revolution proceeding.'",
+        "alone": "The State Department had confirmed the information through an independent source and had assessed deliberate royal non-intervention — the substance of the documents had reached Washington despite the killing.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The State Department confirming the information and the documents themselves not being found together confirm the specific outcome — the substance had reached Washington through Farid's visit and had been confirmed, and the primary documents had been suppressed. Both had been true simultaneously."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Independent American Source",
+        "text": "The State Department's reference to an 'independent source' in its July 23rd assessment — identified in the 1980s declassification — had been a CIA contact within the Free Officers who had relayed Rashid's July 21st communication about the documents. Rashid had told the Free Officers. A Free Officers member with CIA contact had passed it to the Americans. Farid had independently confirmed it. The Americans had known about the palace's deliberate inaction from two separate Egyptian sources before the revolution had been twelve hours old.",
+        "alone": "Two separate Egyptian sources had confirmed the palace's deliberate inaction to the Americans before the revolution was twelve hours old — Rashid through the Free Officers' CIA contact and Farid directly.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Two separate sources confirming the substance to the Americans and the documents not being found together confirm the killing had suppressed the primary evidence and had not suppressed the information — the substance had reached multiple institutions through multiple paths."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "Farid's Post-Revolution Career",
+        "text": "Hassan Farid had survived the revolution and had served in a reduced administrative role in the new government. He had given his full account to the 1953 post-revolution committee. He had been one of the committee's most detailed witnesses — his knowledge of the ministry's final night, the documents' contents, his American Embassy visit, and the sequence of events had been the most comprehensive surviving account. He had died in Cairo in 1971. His committee testimony is in the Egyptian National Archive.",
+        "alone": "Farid had been the most comprehensive witness to the committee — knowledge of the documents, the killing's timing, and the American Embassy visit. He had died in Cairo in 1971.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Farid as the most comprehensive witness and his death in 1971 together confirm the full span of his role — from the killing's night to the committee's 1953 testimony, the most complete single account of the night's events."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Three Information Paths",
+        "text": "The palace's deliberate inaction had been communicated to three separate parties through three separate paths before the revolution's first dawn: To the Free Officers through Rashid's July 21st communication. To the Americans through the Free Officers' CIA contact relaying Rashid's information. To the Americans directly through Farid's eleven-thirty PM embassy visit. Naguib had killed Khalil Pasha and had taken the primary documents. The information had reached three separate parties through three paths the killing had not been able to reach.",
+        "alone": "Three information paths, three parties informed — Free Officers, Americans via CIA contact, Americans via Farid directly. The killing had suppressed the documents and had not suppressed the information.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Three information paths surviving the killing and the documents not found together confirm the specific pattern — the destruction of the primary evidence had not destroyed the information, which had survived through multiple independent paths as in the other cases across the catalog."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "The Revolution's Historical Legacy",
+        "text": "The 1952 Egyptian Revolution had ended the Muhammad Ali dynasty and had brought Nasser to power. It had reshaped the Middle East — Suez Crisis 1956, pan-Arab nationalism, the region's postcolonial trajectory. The post-revolution committee's finding of palace deliberate inaction had been part of the new government's legitimating narrative. The American intelligence assessment of deliberate royal non-intervention had informed American policy toward Egypt through the 1950s. The documents that had been the most direct proof had not been found. The revolution had proceeded on the information that had survived.",
+        "alone": "The revolution had proceeded on the information that had survived. The documents had not been found. The revolution had reshaped the Middle East.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The revolution proceeding on surviving information and the documents not found together confirm the final element — history had proceeded on the secondary evidence after the primary had been suppressed, as in the Versailles case, the Leningrad case, and the others across the catalog."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🌙",
+        "heading": "Cairo and Its Archive",
+        "text": "Cairo is the capital of the Arab Republic of Egypt. The Egyptian National Archive holds the 1953 committee report, Farid's testimony, Khalil Pasha's personal notes, and ministry records naming Naguib as palace liaison. The American National Archives in College Park, Maryland, hold the Embassy duty officer's report and the State Department assessment — partially declassified since the 1980s. Two archives in two countries hold the surviving record of what Naguib had killed to suppress. The documents themselves have not been found. The revolution reshaped the Middle East. Farid went to the embassy at eleven-thirty PM. The revolution began at one AM. Both are in the archive.",
+        "alone": "Two archives in two countries. The documents not found. The revolution began ninety minutes after Farid's embassy visit. Both are in the archive.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Two archives in two countries holding the surviving record and the revolution beginning ninety minutes after Farid's embassy visit together confirm the final image — the information had moved from a midnight embassy visit to the two archives across two continents, and the history it had shaped had begun ninety minutes after Farid had walked through the embassy door."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Palace Secretary Ibrahim Naguib",
+      "location": "The Minister's Office",
+      "weapon": "Marble Desk Ornament",
+      "motive": "Suppress the Documents Naming His Notation",
+      "accomplice": "Informed the Free Officers About the Documents the Day Before"
+    },
+    "epilogue": "Farid had left the ministry at eleven-thirty PM and had gone to the American Embassy. He had told the duty officer the substance of what Khalil Pasha had been planning to send. The duty officer had taken notes. The report had been transmitted to Washington at two AM — one hour after the revolution had begun. The State Department had confirmed through an independent source — Rashid's communication to the Free Officers, relayed through a CIA contact. Three paths had carried the information to three parties before the revolution's first dawn. The documents had not been found. Two archives in two countries hold the surviving record. Naguib had served in the transitional government. The revolution had reshaped the Middle East. Farid had gone to the embassy at eleven-thirty PM. The revolution had begun at one AM. Both are in the archive."
+  }
+}

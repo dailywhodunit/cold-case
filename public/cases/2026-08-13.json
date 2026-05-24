@@ -1,0 +1,748 @@
+{
+  "marketing": {
+    "postCopy": {
+      "instagram": "South Dakota, December 29th 1890. The day after Wounded Knee. A US Army officer dead at the burial detail. And a Lakota survivor's account that someone needed to disappear before it reached the journalists waiting at Pine Ridge. 🦅🔍 Case #147 — The Day After. Play free at thedailywhodunit.com",
+      "tiktok": "Free daily murder mystery game: Wounded Knee 1890 the day after the massacre, an Army officer dead at the burial detail, and a survivor's testimony that would have told a different story than the one the Army was preparing to tell. Daily deduction puzzle — thedailywhodunit.com"
+    },
+    "imagePrompt": "The Wounded Knee site on December 29th 1890, the day after the massacre, a frozen South Dakota plain with snow and the evidence of the previous day's violence, a US Army officer's coat on the ground beside supply crates at the burial detail staging area, a handwritten Lakota survivor account in English on paper beside a press correspondent's notebook, winter light harsh and flat. Historical gravity and documentary weight. Style of period documentary photography of the American West.",
+    "animationPrompt": "Slow pan across the Wounded Knee site on December 29th 1890. Frozen South Dakota plain. Snow. The evidence of the previous day. A US Army officer's coat on the ground. A handwritten survivor account beside a press correspondent's notebook. Winter light harsh and flat. The burial detail is staging. The journalists are at Pine Ridge. Someone needs this account not to reach them. Fade to black.",
+    "hashtags": [
+      "#WoundedKnee1890",
+      "#Lakota",
+      "#MysteryGame",
+      "#BrainTeaser",
+      "#EscapeRoom"
+    ]
+  },
+  "rookie": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #147",
+    "title": "The Day After",
+    "setting": "Wounded Knee Creek · Pine Ridge Reservation · South Dakota · December 29th, 1890",
+    "emoji": "🦅",
+    "tier": "rookie",
+    "timerSeconds": 600,
+    "flavor": "Lieutenant Samuel Greer was found dead at the Wounded Knee burial detail staging area on the morning of December 29th, 1890 — the day after the massacre. He had been holding a handwritten account from a Lakota survivor, translated into English by an interpreter, describing the sequence of events that had led to the shooting. The account contradicted the Army's initial report that the Seventh Cavalry had responded to hostile fire. Three people had been at the staging area. The account was missing.",
+    "emptyState": "The day after Wounded Knee. A survivor's account of what actually happened. Gone. Find who took it.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Miles Forsyth",
+            "icon": "🎖️",
+            "detail": "A Seventh Cavalry officer who had commanded a unit during the massacre — his version of events appeared in the Army's initial report, and the survivor account directly contradicted his account of who had fired first."
+          },
+          {
+            "name": "Thomas Chadwick",
+            "icon": "📰",
+            "detail": "A press correspondent from the Chicago Tribune — had been at Pine Ridge and had learned a survivor account existed and had come to obtain it."
+          },
+          {
+            "name": "Interpreter James Walking Bear",
+            "icon": "🦅",
+            "detail": "A mixed-heritage Lakota interpreter who had translated the account — had known its contents and had been present when Greer had been killed."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Staging Area",
+            "icon": "🎖️",
+            "detail": "Where Greer was found — coat on the ground, account missing, supply crates around him."
+          },
+          {
+            "name": "The Burial Site",
+            "icon": "🦅",
+            "detail": "The mass grave being prepared — where the burial detail had been working and where the survivor had given the account."
+          },
+          {
+            "name": "The Road to Pine Ridge",
+            "icon": "📰",
+            "detail": "The route to the agency where the journalists had been waiting — and where a rider had been seen heading."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rifle Stock",
+            "icon": "🎖️",
+            "detail": "A standard Army rifle — blunt force wound consistent with its stock used as a bludgeon."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Entrenching Tool Handle",
+            "icon": "⛏️",
+            "detail": "No blood trace — eliminated."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "R1",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Survivor Account",
+        "text": "Greer's field notebook — recovered at the scene — contains his summary of the survivor account's contents before it had been taken: the survivor had stated that the shooting had begun when soldiers had moved to disarm a deaf tribesman who had not understood the order, that the first shots had come from soldiers rather than from Big Foot's band, and that women and children had been fired upon while fleeing. The account had named Captain Forsyth's unit as having continued firing after the initial exchange had ended.",
+        "alone": "The account had named Forsyth's unit specifically — stating the unit had continued firing after the initial exchange, and that the first shots had come from soldiers disarming a deaf man who had not understood the order.",
+        "links": [
+          {
+            "with": "R5",
+            "insight": "The account naming Forsyth's unit for continuing to fire and Forsyth's confirmed presence at the staging area that morning together establish the specific personal exposure — the account had named him by unit in a context where the Army was preparing its official version."
+          }
+        ]
+      },
+      {
+        "id": "R2",
+        "type": "forensic",
+        "icon": "🎖️",
+        "heading": "The Rifle Stock",
+        "text": "A standard Army rifle — found with blood on its stock, stock-first against a supply crate as if dropped — shows impact marks consistent with its stock used as a bludgeon from behind while Greer had been reading the account. The approach had been from behind the supply crates. The rifle had been left at the scene. The killer had not needed the rifle — only the account.",
+        "alone": "The rifle had been left at the scene — the killer had come for the account, not the weapon. The approach had been from behind the supply crates, consistent with the crates' arrangement at the staging area.",
+        "links": [
+          {
+            "with": "R6",
+            "insight": "The rifle left at the scene indicating the account was the sole objective and Forsyth's confirmed knowledge of the staging area's layout together establish the specific approach the crate arrangement had enabled."
+          }
+        ]
+      },
+      {
+        "id": "R3",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "Chadwick's Position",
+        "text": "Thomas Chadwick had been on the road from Pine Ridge to the staging area — confirmed by two other correspondents who had been with him and by a Pine Ridge agency clerk who had seen the group depart at eight AM. He had not reached the staging area before the killing. He had arrived at nine AM to find Greer dead. He is definitively cleared.",
+        "alone": "Chadwick had been on the road from Pine Ridge confirmed by two correspondents and the agency clerk — he had not reached the staging area before the killing. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R7",
+            "insight": "Chadwick cleared on the road and Walking Bear confirmed at the burial site together eliminate both other suspects from the staging area during the killing window — only Forsyth's movements between the burial site and the staging area are unconfirmed."
+          }
+        ]
+      },
+      {
+        "id": "R4",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Forsyth's Initial Report",
+        "text": "Captain Forsyth had filed an initial report the previous evening — December 28th — stating that Big Foot's band had fired first and that the Seventh Cavalry had responded in self-defense. The survivor account directly contradicted this version. Forsyth had been aware that journalists were at Pine Ridge and that any survivor account reaching them before the Army's official version was established would complicate the report's reception. He had told another officer the previous evening: 'The press must not have access to the Indians before we have the record straight.'",
+        "alone": "Forsyth had told another officer the previous evening that the press must not access the Indians before the record was straight — a statement made twelve hours before the account was taken and the killing occurred.",
+        "links": [
+          {
+            "with": "R8",
+            "insight": "Forsyth's 'record straight' statement the previous evening and the survivor account directly contradicting his filed report together confirm the specific threat the account had represented to his version of events."
+          }
+        ]
+      },
+      {
+        "id": "R5",
+        "type": "witness",
+        "icon": "🎖️",
+        "heading": "Forsyth at the Staging Area",
+        "text": "A burial detail private confirms he had seen Captain Forsyth at the staging area at approximately seven-thirty AM — before the killing, which had occurred between seven-thirty and eight AM when Chadwick had been on the road. Forsyth had been at the staging area without apparent purpose, as the burial detail had been supervised by a sergeant. The private had not thought it unusual — officers moved between the burial site and staging area freely.",
+        "alone": "Forsyth had been at the staging area at seven-thirty AM without apparent purpose during the killing window — his presence had been unremarkable to the private because officers moved freely between locations.",
+        "links": [
+          {
+            "with": "R2",
+            "insight": "Forsyth's presence at the staging area during the killing window and the approach from behind the supply crates together place him at the location with the specific spatial access the killing had required."
+          }
+        ]
+      },
+      {
+        "id": "R6",
+        "type": "document",
+        "icon": "🎖️",
+        "heading": "Forsyth's Knowledge of the Account",
+        "text": "Walking Bear had told the burial detail sergeant that he had completed the translation the previous evening and had given it to Lieutenant Greer for transmission to the press through official channels. The sergeant had mentioned this to Forsyth the following morning — before the killing. Forsyth had known the account existed, had known Greer had it, and had known Chadwick was en route from Pine Ridge.",
+        "alone": "Forsyth had been told about the account that morning — he had known it existed, that Greer had it, and that a journalist was en route before the killing occurred.",
+        "links": [
+          {
+            "with": "R4",
+            "insight": "Forsyth's 'record straight' statement and his specific knowledge of the account's existence and Chadwick's en-route status together confirm the killing had been a response to a specific, named threat to his filed version."
+          }
+        ]
+      },
+      {
+        "id": "R7",
+        "type": "witness",
+        "icon": "🦅",
+        "heading": "Walking Bear's Position",
+        "text": "James Walking Bear had been at the burial site — three hundred metres from the staging area — from before dawn, assisting with the identification of the dead. Two burial detail soldiers confirm he had not left the burial site during the killing window. He is definitively cleared.",
+        "alone": "Walking Bear had been at the burial site confirmed by two soldiers — he had not been at the staging area during the killing window. He is definitively cleared.",
+        "links": [
+          {
+            "with": "R3",
+            "insight": "Chadwick cleared on the road and Walking Bear cleared at the burial site together eliminate both other suspects — Forsyth's seven-thirty AM staging area presence is the only confirmed suspect movement at the killing location."
+          }
+        ]
+      },
+      {
+        "id": "R8",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Wounded Knee and Its Record",
+        "text": "The Wounded Knee Massacre of December 29th, 1890 resulted in the deaths of approximately 250 to 300 Lakota men, women, and children. Captain Forsyth had initially been court-martialed but had been exonerated. Twenty soldiers had received the Medal of Honor for their actions at Wounded Knee. The Army's version — hostile fire from Big Foot's band — had been the official account. Subsequent historical scholarship, oral testimony from survivors, and government re-examination had established that the Army's account had been inaccurate. The Congressional apology resolution for Wounded Knee had been introduced multiple times without passing. Lieutenant Greer's field notebook summary of the survivor account is in the National Archives.",
+        "alone": "The Army's version had been the official account for decades. Historical scholarship and survivor testimony had established its inaccuracy. Greer's field notebook summary is in the National Archives. The account it described has never been found.",
+        "links": [
+          {
+            "with": "R1",
+            "insight": "The account naming Forsyth's unit specifically and the Army's version having been the official account for decades together confirm the killing had achieved its immediate purpose — the account had not reached Chadwick, and the Army's version had been established before the survivor accounts could reach the press."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Miles Forsyth",
+      "location": "The Staging Area",
+      "weapon": "Rifle Stock"
+    },
+    "epilogue": "Captain Miles Forsyth had been told about the account that morning. He had been at the staging area at seven-thirty AM. He had used the rifle stock. He had taken the account. He had been court-martialed and exonerated. Twenty soldiers at Wounded Knee had received the Medal of Honor. The Army's version had been the official account. Historical scholarship, oral testimony, and government re-examination had established its inaccuracy. The Congressional apology resolution had been introduced without passing. Lieutenant Greer's field notebook summary is in the National Archives. The survivor account it described has never been found. Approximately 250 to 300 Lakota men, women, and children had died at Wounded Knee on December 29th, 1890."
+  },
+  "detective": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #147",
+    "title": "The Day After",
+    "setting": "Wounded Knee Creek · Pine Ridge Reservation · South Dakota · December 29th, 1890",
+    "emoji": "🦅",
+    "tier": "detective",
+    "timerSeconds": 600,
+    "flavor": "Forsyth killed Greer and took the account. But Thomas Chadwick had arrived at the scene and had spoken with Walking Bear. Find what Walking Bear had told him and what Chadwick had done with it.",
+    "emptyState": "Chadwick arrived and spoke with Walking Bear. Find what he learned and what he published.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Miles Forsyth",
+            "icon": "🎖️",
+            "detail": "The killer — 'record straight' statement, staging area presence, account taken, court-martialed and exonerated."
+          },
+          {
+            "name": "Thomas Chadwick",
+            "icon": "📰",
+            "detail": "Cleared as killer — road from Pine Ridge confirmed. Had spoken with Walking Bear at the scene."
+          },
+          {
+            "name": "Interpreter James Walking Bear",
+            "icon": "🦅",
+            "detail": "Cleared as killer — burial site confirmed. Had spoken with Chadwick and had told him what he had known."
+          },
+          {
+            "name": "Chadwick's Published Account",
+            "icon": "📰",
+            "detail": "What Chadwick had written based on Walking Bear's account — and what had happened to it."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Staging Area",
+            "icon": "🎖️",
+            "detail": "Primary crime scene — and where Chadwick had arrived to find Greer dead."
+          },
+          {
+            "name": "The Burial Site",
+            "icon": "🦅",
+            "detail": "Where Walking Bear had been — and where Chadwick had gone to speak with him."
+          },
+          {
+            "name": "Chicago",
+            "icon": "📰",
+            "detail": "Where Chadwick's Tribune dispatch had been filed — and what the editors had done with it."
+          },
+          {
+            "name": "The National Archives",
+            "icon": "📋",
+            "detail": "Where Greer's field notebook and Chadwick's dispatch had eventually been held."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rifle Stock",
+            "icon": "🎖️",
+            "detail": "Confirmed murder weapon — Forsyth's staging area approach."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Entrenching Tool Handle",
+            "icon": "⛏️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "Chadwick's Dispatch",
+            "icon": "📰",
+            "detail": "Not a weapon — the account he had filed based on Walking Bear's testimony and what had happened to it."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Survivor Account Reaching the Press",
+            "icon": "🎖️",
+            "detail": "Forsyth's motive — exonerated, Medal of Honor soldiers, official Army version established."
+          },
+          {
+            "name": "Publish Walking Bear's Account of What Had Happened",
+            "icon": "📰",
+            "detail": "Chadwick's journalistic purpose — and the specific account he had obtained."
+          },
+          {
+            "name": "What Walking Bear Had Told Chadwick",
+            "icon": "🦅",
+            "detail": "The oral account — and whether it had covered the same ground as the missing written account."
+          },
+          {
+            "name": "The Tribune's Editorial Decision",
+            "icon": "📰",
+            "detail": "What had happened to Chadwick's dispatch — and why."
+          },
+          {
+            "name": "The Dispatch's Post-War Significance",
+            "icon": "📋",
+            "detail": "When and how Chadwick's dispatch had eventually been examined by historians."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "D1",
+        "type": "witness",
+        "icon": "📰",
+        "heading": "What Walking Bear Told Chadwick",
+        "text": "Chadwick's dispatch — filed December 30th, 1890, recovered from the Chicago Tribune archive in 1973 — describes what Walking Bear had told him: the sequence of the disarming order, the deaf tribesman's failure to comply, the first shots coming from soldiers, the continuation of firing after the initial exchange. Walking Bear had told Chadwick the same substance as the written account he had translated — the oral account had covered the same ground.",
+        "alone": "Walking Bear had given Chadwick the same substance as the written account — the oral version had survived the written account's destruction.",
+        "links": [
+          {
+            "with": "D5",
+            "insight": "Walking Bear's oral account covering the same ground as the destroyed written account and Chadwick's dispatch filing it together confirm the account had survived in two forms — the written form taken by Forsyth and the oral form given to Chadwick the same morning."
+          }
+        ]
+      },
+      {
+        "id": "D2",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Tribune's Editorial Decision",
+        "text": "Chadwick's dispatch had been received by the Chicago Tribune on December 31st, 1890. The Tribune's editors had held it. They had published Chadwick's dispatch describing the massacre and the burial but had not included the account of the shooting's sequence from Walking Bear — the editors had described this as 'unverifiable given the military's account and the correspondent's inability to produce the written document.' The Tribune had published the Army's version of the sequence alongside Chadwick's description of the scene.",
+        "alone": "The Tribune had published the massacre description but had not published Walking Bear's account of the sequence — the editors had cited inability to verify without the written document Forsyth had taken.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The Tribune citing inability to verify without the written document and Forsyth having taken the written document together confirm the killing had had its intended editorial effect — the destruction of the written account had provided the editors with the grounds to withhold the oral account."
+          }
+        ]
+      },
+      {
+        "id": "D3",
+        "type": "document",
+        "icon": "📰",
+        "heading": "The Dispatch in the Tribune Archive",
+        "text": "The full Chadwick dispatch — including the unpublished Walking Bear account — had been held in the Chicago Tribune archive. It had been discovered by a journalism historian in 1973 during research into nineteenth-century press coverage of the Indian Wars. The historian had published an analysis of what Chadwick had written and what the Tribune had not published. The analysis had been the first public identification of the specific oral account Walking Bear had given — eighty-three years after it had been filed.",
+        "alone": "The full dispatch including the unpublished Walking Bear account had been in the Tribune archive for eighty-three years before being identified by a historian in 1973.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The dispatch in the archive for eighty-three years and its eventual identification by a historian together confirm the oral account had survived in Chadwick's unpublished dispatch — preserved in a newspaper archive rather than a government one."
+          }
+        ]
+      },
+      {
+        "id": "D4",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Walking Bear's Later Life",
+        "text": "James Walking Bear had given his account to Chadwick and had continued living on the Pine Ridge Reservation. He had given testimony to multiple investigators and journalists over the following decades. His oral account of the massacre's sequence — consistent with what he had told Chadwick — had been recorded by ethnographers and journalists through the early twentieth century. He had died on the Pine Ridge Reservation in 1924. His accounts are in multiple archives.",
+        "alone": "Walking Bear had given consistent accounts to investigators and journalists for three decades after the massacre. He had died in 1924. His accounts are in multiple archives.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Walking Bear's consistent accounts across three decades and his death in 1924 together confirm the oral record had been preserved through his sustained testimony — each account consistent with what he had told Chadwick on December 29th, 1890."
+          }
+        ]
+      },
+      {
+        "id": "D5",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Historical Reassessment",
+        "text": "Historical scholarship on Wounded Knee had drawn on survivor oral testimonies, Army records, and the 1973 discovery of Chadwick's dispatch to establish that the Army's official version had been inaccurate. The reassessment had found that the shooting had been initiated under the circumstances the survivor accounts had described — consistent with Walking Bear's account. The twenty Medal of Honor recipients had been contested by historians and Lakota advocacy groups. The Congressional apology resolution had been introduced repeatedly.",
+        "alone": "The historical reassessment had confirmed the survivor accounts' accuracy — consistent with Walking Bear's account. The Medal of Honor recipients had been contested. The Congressional apology had not passed.",
+        "links": [
+          {
+            "with": "D6",
+            "insight": "The historical reassessment confirming the survivor accounts and the Congressional apology not having passed together confirm the gap between historical consensus and official recognition — the scholarship had established what had happened and the official acknowledgment had not followed."
+          }
+        ]
+      },
+      {
+        "id": "D6",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "The Congressional Apology",
+        "text": "The United States Congress had introduced resolutions apologizing for the Wounded Knee Massacre on multiple occasions. None had passed as of the most recent historical record. The Lakota Nation had continued to seek formal recognition of the massacre's nature and a rescission of the Medals of Honor awarded to the Seventh Cavalry soldiers. The historical consensus — established from survivor accounts, Chadwick's dispatch, and subsequent scholarship — had been that the Army's initial account had been inaccurate. The official recognition had not matched the historical consensus.",
+        "alone": "The Congressional apology had not passed. The Medals of Honor had not been rescinded. The historical consensus had not been matched by official recognition.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "The historical consensus and the official recognition's gap and the dispatch preserved in a newspaper archive together confirm the specific form the record had taken — scholarly consensus in academic archives, official account in government records, the gap between them unresolved."
+          }
+        ]
+      },
+      {
+        "id": "D7",
+        "type": "document",
+        "icon": "📰",
+        "heading": "Chadwick's Career",
+        "text": "Thomas Chadwick had continued as a Tribune correspondent through the 1890s. He had covered the Spanish-American War in 1898. He had attempted to publish the Walking Bear account in expanded form in 1891 — the Tribune had declined again. He had included an account of what he had witnessed at Wounded Knee in his 1902 memoir. He had died in Chicago in 1911. His 1902 memoir had included a specific reference to the written account that had been taken and to the officer he had believed had taken it.",
+        "alone": "Chadwick had named Forsyth in his 1902 memoir as the officer he had believed had taken the account — the first public accusation, published twelve years after the killing.",
+        "links": [
+          {
+            "with": "D8",
+            "insight": "Chadwick naming Forsyth in his 1902 memoir and the 1973 discovery of the full dispatch together confirm the two moments when the account had moved toward the public record — 1902 through the memoir's accusation and 1973 through the archive's discovery."
+          }
+        ]
+      },
+      {
+        "id": "D8",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Wounded Knee and Its Memory",
+        "text": "Wounded Knee is commemorated annually by the Lakota Nation. The site is on the Pine Ridge Reservation in South Dakota. The mass grave where the Lakota dead had been buried is marked. The National Archives holds Greer's field notebook summary. The Chicago Tribune archive holds Chadwick's full unpublished dispatch. Multiple Lakota oral history archives hold Walking Bear's accounts. The written survivor account that Lieutenant Greer had been holding when he was killed has never been found. The historical consensus about what happened on December 29th, 1890 is established. The official recognition has not caught up.",
+        "alone": "Multiple archives hold the record. The written account has never been found. The historical consensus is established. The official recognition has not caught up.",
+        "links": [
+          {
+            "with": "D7",
+            "insight": "Chadwick's 1902 accusation and the multiple archives holding the record together confirm the full span of the documentation — a 1902 memoir accusation, a 1973 archive discovery, multiple Lakota oral history archives, and the historical consensus established across them all."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Miles Forsyth",
+      "location": "The Staging Area",
+      "weapon": "Rifle Stock",
+      "motive": "Prevent the Survivor Account Reaching the Press"
+    },
+    "epilogue": "Walking Bear had told Chadwick the same substance as the written account — the oral version had survived. The Tribune had not published the sequence account, citing inability to verify without the written document. The full dispatch had been in the Tribune archive for eighty-three years. Chadwick had named Forsyth in his 1902 memoir. The 1973 historian had found the full dispatch. The historical reassessment had confirmed the survivor accounts' accuracy. The Congressional apology had not passed. The Medals of Honor had not been rescinded. The written account has never been found. The historical consensus is established. The official recognition has not caught up. Wounded Knee is commemorated annually. The mass grave is marked. The site is on the Pine Ridge Reservation."
+  },
+  "inspector": {
+    "schemaVersion": "1.0",
+    "caseNum": "Case #147",
+    "title": "The Day After",
+    "setting": "Wounded Knee Creek · Pine Ridge Reservation · South Dakota · December 29th, 1890",
+    "emoji": "🦅",
+    "tier": "inspector",
+    "timerSeconds": 480,
+    "flavor": "Forsyth killed Greer. Chadwick's dispatch preserved the oral account. But Walking Bear had also given the account to someone else before Chadwick — a Lakota community record-keeper who had preserved it in a form that had taken a different path to the archive.",
+    "emptyState": "Walking Bear gave the account to a Lakota record-keeper before Chadwick. Find what happened to that version.",
+    "categories": [
+      {
+        "key": "suspect",
+        "label": "Suspect",
+        "icon": "🎭",
+        "items": [
+          {
+            "name": "Captain Miles Forsyth",
+            "icon": "🎖️",
+            "detail": "The killer — account taken, exonerated, 1902 Chadwick accusation, historical reassessment."
+          },
+          {
+            "name": "Thomas Chadwick",
+            "icon": "📰",
+            "detail": "Cleared as killer — road confirmed. Dispatch filed, Tribune withheld, 1973 discovery, 1902 memoir."
+          },
+          {
+            "name": "Interpreter James Walking Bear",
+            "icon": "🦅",
+            "detail": "Cleared as killer — burial site confirmed. Gave the account to a Lakota record-keeper before Chadwick."
+          },
+          {
+            "name": "The Lakota Record-Keeper's Preserved Version",
+            "icon": "🦅",
+            "detail": "The account Walking Bear had given before Chadwick arrived — and its different archival path."
+          }
+        ]
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "icon": "📍",
+        "items": [
+          {
+            "name": "The Staging Area",
+            "icon": "🎖️",
+            "detail": "Primary crime scene — Forsyth's killing."
+          },
+          {
+            "name": "The Burial Site",
+            "icon": "🦅",
+            "detail": "Where Walking Bear had been — and where he had given the account to the record-keeper."
+          },
+          {
+            "name": "The Pine Ridge Reservation",
+            "icon": "🦅",
+            "detail": "Where the Lakota record-keeper had maintained the account — and where it had been preserved."
+          },
+          {
+            "name": "The Newberry Library",
+            "icon": "📋",
+            "detail": "Where the Lakota record-keeper's account had eventually been deposited — and its relationship to the other archives."
+          }
+        ]
+      },
+      {
+        "key": "weapon",
+        "label": "Weapon",
+        "icon": "⚔️",
+        "items": [
+          {
+            "name": "Rifle Stock",
+            "icon": "🎖️",
+            "detail": "Confirmed murder weapon — Forsyth's."
+          },
+          {
+            "name": "Supply Crate Corner",
+            "icon": "📦",
+            "detail": "No wound profile — eliminated."
+          },
+          {
+            "name": "Entrenching Tool Handle",
+            "icon": "⛏️",
+            "detail": "No blood trace — eliminated."
+          },
+          {
+            "name": "The Lakota Record-Keeper's Account",
+            "icon": "🦅",
+            "detail": "Not a weapon — the version preserved in Lakota community record and its archival path."
+          },
+          {
+            "name": "The Newberry Library Deposit",
+            "icon": "📋",
+            "detail": "Not a weapon — the institutional destination and its relationship to the other three archives."
+          }
+        ]
+      },
+      {
+        "key": "motive",
+        "label": "Motive",
+        "icon": "🎯",
+        "items": [
+          {
+            "name": "Prevent the Account Reaching the Press",
+            "icon": "🎖️",
+            "detail": "Forsyth's motive — established official version."
+          },
+          {
+            "name": "Publish Walking Bear's Oral Account",
+            "icon": "📰",
+            "detail": "Chadwick's purpose — dispatch filed, Tribune withheld, 1973 discovery."
+          },
+          {
+            "name": "Preserve the Account in the Community's Own Record",
+            "icon": "🦅",
+            "detail": "The record-keeper's purpose — a different preservation path than the press or the government archive."
+          },
+          {
+            "name": "Who the Record-Keeper Had Been and How They Had Preserved It",
+            "icon": "🦅",
+            "detail": "The specific person and method — and why the Lakota preservation had taken a different institutional path."
+          },
+          {
+            "name": "The Four Archives' Combined Significance",
+            "icon": "📋",
+            "detail": "What the four separate records together establish — and why the Lakota archive had been the last to be connected to the others."
+          }
+        ]
+      },
+      {
+        "key": "accomplice",
+        "label": "Accomplice Role",
+        "icon": "🤝",
+        "items": [
+          {
+            "name": "Killed Greer and Took the Written Account",
+            "icon": "🎖️",
+            "detail": "Forsyth's confirmed role — exonerated, 1902 Chadwick accusation."
+          },
+          {
+            "name": "Filed the Dispatch With the Unpublished Walking Bear Account",
+            "icon": "📰",
+            "detail": "Chadwick's role — Tribune withheld, 1973 discovery."
+          },
+          {
+            "name": "Gave the Account to the Lakota Record-Keeper Before the Killing",
+            "icon": "🦅",
+            "detail": "Walking Bear's prior preservation role — the account given before Forsyth had acted."
+          },
+          {
+            "name": "Preserved the Account in the Community Record",
+            "icon": "🦅",
+            "detail": "The record-keeper's institutional role — Pine Ridge Reservation, Newberry Library deposit."
+          },
+          {
+            "name": "Produced the Field Notebook Summary That Had Survived the Killing",
+            "icon": "🎖️",
+            "detail": "Greer's inadvertent preservation role — the notebook summary in the National Archives."
+          }
+        ]
+      }
+    ],
+    "clues": [
+      {
+        "id": "I1",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "The Prior Preservation",
+        "text": "Walking Bear's account — given in his own oral history to a Pine Ridge Reservation community recorder in 1891, one year after the massacre: 'Before I gave the account to the soldier officer and before the journalist came, I told our own people what I had seen. I told Mary Elk Woman, who kept the community records. I told her in Lakota. She wrote it in Lakota. She said: this will stay with us. Whatever happens to the other versions, this one stays with us.'",
+        "alone": "Walking Bear had told Mary Elk Woman before giving the English translation to Greer — the Lakota version had been recorded before the event that had led to the killing.",
+        "links": [
+          {
+            "with": "I5",
+            "insight": "Walking Bear telling Mary Elk Woman before giving the English translation and the killing occurring after the English translation together confirm the Lakota version had been created before Forsyth had acted — the account had existed in Lakota form before the killing had been planned."
+          }
+        ]
+      },
+      {
+        "id": "I2",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Mary Elk Woman's Record",
+        "text": "Mary Elk Woman had been a Pine Ridge Reservation community record-keeper — a role that had combined the functions of oral historian, community memory keeper, and document preserver. She had maintained records of significant community events in Lakota and in English throughout the 1880s and 1890s. Her Wounded Knee record had been maintained in her community record book — a practice she had continued until her death in 1918.",
+        "alone": "Mary Elk Woman had maintained community records in Lakota and English — her Wounded Knee record had been in her community record book from December 1890 until her death in 1918.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "Mary Elk Woman's community record book maintained until her death and the book's subsequent path to the Newberry Library together confirm the Lakota preservation had traveled through community succession rather than institutional deposit."
+          }
+        ]
+      },
+      {
+        "id": "I3",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Newberry Library Deposit",
+        "text": "Mary Elk Woman's community record books had been passed to her family following her death in 1918. The family had maintained them on the Pine Ridge Reservation through the twentieth century. In 1989 — the year before the centennial of the massacre — the family had donated the record books to the Newberry Library in Chicago, which holds significant collections of Indigenous American historical materials. The library's catalogue describes the Wounded Knee record as: 'First-hand Lakota-language account of the December 29th, 1890 massacre, recorded by community historian Mary Elk Woman from the account of interpreter James Walking Bear, December 1890.'",
+        "alone": "The Lakota-language account had been donated to the Newberry Library in 1989 — ninety-nine years after the massacre, one year before its centennial.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The deposit in 1989 one year before the centennial and the account's connection to Walking Bear's other accounts together confirm the Lakota preservation had arrived at an institutional archive at the moment when the centennial had created the greatest public interest."
+          }
+        ]
+      },
+      {
+        "id": "I4",
+        "type": "document",
+        "icon": "📋",
+        "heading": "The Four Archives",
+        "text": "Four archives hold accounts of what Walking Bear had witnessed at Wounded Knee: The National Archives (Greer's field notebook summary of the English written account). The Chicago Tribune archive (Chadwick's unpublished dispatch with the oral account). Multiple Lakota oral history archives (Walking Bear's own accounts given through the 1890s-1920s). The Newberry Library (Mary Elk Woman's Lakota-language record). Four archives. The first English written account has never been found. The four surviving records together constitute the most comprehensive documentation of the survivor account's preservation.",
+        "alone": "Four archives hold what has survived of the account. The first written English version has never been found. The four surviving records are the documentation of the killing's failure to suppress the account entirely.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "Four archives preserving the account in four different forms and the first written version never found together confirm the specific outcome — the killing had destroyed one version and had not destroyed the account, which had survived through four separate preservation paths."
+          }
+        ]
+      },
+      {
+        "id": "I5",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "What the Lakota Version Added",
+        "text": "The Newberry Library's catalogue analysis of Mary Elk Woman's record — published in 1990 for the centennial — noted that the Lakota-language account had contained specific details not present in Chadwick's English dispatch: the names of individuals present during the disarming sequence, a specific description of the deaf tribesman's gestures as he had tried to communicate his compliance, and a notation that Mary Elk Woman had added — 'Walking Bear said: they will say it was the Indian who fired first. It was not.'",
+        "alone": "The Lakota version had contained specific details not in Chadwick's dispatch — individual names, the deaf tribesman's specific gestures, and Walking Bear's direct statement that it had not been the Indian who fired first.",
+        "links": [
+          {
+            "with": "I6",
+            "insight": "The Lakota version containing additional details and the Newberry Library's 1990 centennial analysis together confirm the preservation had added something the English versions had not contained — the specific names and gestures that had been in Walking Bear's original telling to Mary Elk Woman."
+          }
+        ]
+      },
+      {
+        "id": "I6",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Walking Bear's Statement",
+        "text": "The notation Mary Elk Woman had added to her record — 'Walking Bear said: they will say it was the Indian who fired first. It was not' — had been the most direct statement in any of the four archives about the sequence of events. It had been recorded in December 1890. It had been in the Newberry Library from 1989. It had been published in the centennial analysis in 1990. Walking Bear had known in December 1890 what the Army's account would say and had made a direct statement contradicting it before that account had been established.",
+        "alone": "Walking Bear had known in December 1890 what the Army would say — and had made a direct contradiction before the Army's version had been established. The statement had been in the Lakota record for a century.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "Walking Bear's direct statement recorded before the Army's version was established and the statement published in the centennial analysis together confirm the specific weight of the Lakota preservation — it had been the most direct contradiction, recorded earliest, reaching the public record last."
+          }
+        ]
+      },
+      {
+        "id": "I7",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "The Centennial and After",
+        "text": "The centennial of the Wounded Knee Massacre in 1990 had been marked by commemoration at Pine Ridge, the publication of the Newberry Library analysis, and renewed calls for the Congressional apology resolution and the Medal of Honor rescission. Neither had passed by the centennial. The historical consensus had been fully established. The four archives had been connected for the first time in the centennial scholarship. Forsyth's killing of Greer had been described as 'the destruction of the first English-language written version of the survivor account, which had survived in three other forms through four preservation paths.'",
+        "alone": "The centennial scholarship had connected the four archives for the first time and had described Forsyth's killing in its full context — the account had survived through four paths despite the killing.",
+        "links": [
+          {
+            "with": "I8",
+            "insight": "The four archives connected in the centennial scholarship and the account surviving despite the killing together confirm the full historical assessment — the killing had been the attempt to suppress the account and the account had survived through four separate preservations."
+          }
+        ]
+      },
+      {
+        "id": "I8",
+        "type": "document",
+        "icon": "🦅",
+        "heading": "Wounded Knee and Its Archives",
+        "text": "The Wounded Knee Massacre site is on the Pine Ridge Reservation in South Dakota. The mass grave is marked. The site is visited by the Lakota Nation and by scholars, journalists, and the public. The National Archives holds Greer's field notebook. The Chicago Tribune archive holds Chadwick's dispatch. The Lakota oral history archives hold Walking Bear's accounts. The Newberry Library holds Mary Elk Woman's record. Four archives. Walking Bear's direct statement from December 1890: 'They will say it was the Indian who fired first. It was not.' The historical consensus agrees with him. The official recognition has not caught up.",
+        "alone": "Four archives. Walking Bear's statement from December 1890. The historical consensus agrees. The official recognition has not caught up. The site is on the Pine Ridge Reservation. The mass grave is marked.",
+        "links": [
+          {
+            "with": "I7",
+            "insight": "The centennial connecting the four archives and the official recognition still not caught up together confirm the final image — the scholarship had assembled the full picture in 1990 and the official acknowledgment had continued to lag behind what four archives and a century of consistent survivor testimony had established."
+          }
+        ]
+      }
+    ],
+    "solution": {
+      "suspect": "Captain Miles Forsyth",
+      "location": "The Staging Area",
+      "weapon": "Rifle Stock",
+      "motive": "Prevent the Survivor Account Reaching the Press",
+      "accomplice": "Filed the Dispatch With the Unpublished Walking Bear Account"
+    },
+    "epilogue": "Walking Bear had told Mary Elk Woman in Lakota before giving the English translation to Greer. She had written it down. She had said: this one stays with us. It had stayed with the family until 1989, when it had been donated to the Newberry Library one year before the centennial. The centennial scholarship had connected the four archives for the first time. The Lakota version had contained Walking Bear's direct statement recorded in December 1890: 'They will say it was the Indian who fired first. It was not.' The historical consensus agrees with him. Four archives. The first written English version never found. The account had survived through four preservation paths despite the killing. The official recognition has not caught up. The mass grave is marked. The site is on the Pine Ridge Reservation."
+  }
+}
